@@ -1,0 +1,994 @@
+{
+  "optional_count": 1,
+  "optional_green_count": 1,
+  "required_count": 8,
+  "required_green_count": 8,
+  "required_missing_or_not_green": [],
+  "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+  "status": "PASS",
+  "timestamp_utc": "2026-06-30T21:43:20Z",
+  "upstreams": [
+    {
+      "decision_file": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_WITH_LIMITATIONS",
+      "green": true,
+      "label": "D6 Hero Neighbourhood Control Room Reference Demo Closeout R1",
+      "required": true,
+      "root": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1",
+      "sample_artifacts": [
+        {
+          "bytes": 899,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/BOUNDARY_AND_CLAIM_FREEZE.md",
+          "sha256": "f5cf297affa5e834a1f06e8bc229dba120659d0fadd0c616536fb6439bbd1595"
+        },
+        {
+          "bytes": 1228,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "e73f1a0ba551b9885306a5d46d6b9ef3550be46cbe86919ac1068d848284c562"
+        },
+        {
+          "bytes": 1952,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/CONTROL_ROOM_DEMO_FREEZE_SUMMARY.json",
+          "sha256": "6371b769a227a997855bfbf76eb5b8871d2d13415085d7f4a440872527a338fb"
+        },
+        {
+          "bytes": 1123,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/CONTROL_ROOM_DEMO_FREEZE_SUMMARY.md",
+          "sha256": "d33f8d85b3e386ff4ab1e82b2d5a0d74793062328f47d56be4432534d1a3f3f3"
+        },
+        {
+          "bytes": 725,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/EVIDENCE_LIMITATION_TRACE_CLOSEOUT_REVIEW.json",
+          "sha256": "268700a5cd7e3d0595e0fe6a80ba9ebf576679992bb779e240cec31740700539"
+        },
+        {
+          "bytes": 817,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/EXECUTIVE_WALKTHROUGH_CLOSEOUT_REVIEW.json",
+          "sha256": "7cc45bcbcb2f25bb790121ca4ec26e28bf6f1e20e530c947e005767d084f8ec8"
+        },
+        {
+          "bytes": 5816,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/HASH_MANIFEST.json",
+          "sha256": "6f0d3b32ea1101f3aceeb9e3c20529646ed50e7eb62e750cbb05a56a862d0c85"
+        },
+        {
+          "bytes": 2438,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/LOCAL_OPEN_INDEX.md",
+          "sha256": "61221bdcbb34c6af028ad25ce4da90ed7cfce5150e3a33e112d1a5d42c830ac7"
+        },
+        {
+          "bytes": 3160,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_DECISION.json",
+          "sha256": "a448c7b717bdae3a57e960e7929eaebb4d647c31e8e552884798b0067640918c"
+        },
+        {
+          "bytes": 634,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/NO_ACTION_BOUNDARY_AUDIT.json",
+          "sha256": "41fd1fe06e39ed44e10f1b207f8a201b5e8c13aec94c64a433a79a89efc7ff3a"
+        },
+        {
+          "bytes": 698,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/NO_MUTATION_AUDIT.json",
+          "sha256": "fb5567abe42be14b070a6282a8eb9f3a8ef6bb012cbe82707b4959c297029461"
+        },
+        {
+          "bytes": 1067,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/NON_BLOCKING_GAPS_REGISTER.json",
+          "sha256": "96ee6d5bd129b87e43f04c5e8a3a43879e1c7f033dd97c0dbd7df13df1d6d4bc"
+        },
+        {
+          "bytes": 929,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/OMNIVERSE_HANDOFF_CLOSEOUT_REVIEW.json",
+          "sha256": "80cb703703a3d129bb0c5cdf927b6d155f428b54b0123b092bef298cdc594f9f"
+        },
+        {
+          "bytes": 815,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/OPERATOR_WALKTHROUGH_CLOSEOUT_REVIEW.json",
+          "sha256": "a414b5ecf81a6029af72fb7aa13a3d9e00719dbfde67411c5ec3cb48be5c329a"
+        },
+        {
+          "bytes": 2302,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/R1_DEMO_ACCEPTANCE_CLOSEOUT_MATRIX.json",
+          "sha256": "c1bb5b2eca83152afeda7585ae79e51f32ce29a59a1f46c75267a5f8e7094ed2"
+        },
+        {
+          "bytes": 1428,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/R1_DEMO_ACCEPTANCE_CLOSEOUT_MATRIX.md",
+          "sha256": "1cd361db6b726ce9c95e7441f605a305c3e6f5ca4abf11b1348984107b153191"
+        },
+        {
+          "bytes": 1083,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/R1_DEMO_PACKAGE_REVIEW.json",
+          "sha256": "91be18c24adb83847d8e88aedd1282ca206696bf82a43754f4a26570f2b7ac62"
+        },
+        {
+          "bytes": 1201,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/README.md",
+          "sha256": "0bd49eae393e79707830f435e8689b7ff00f15fee1d94b1605be70ea6da2817a"
+        },
+        {
+          "bytes": 617,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/SECRET_AUDIT.json",
+          "sha256": "de28d1e646538d0a2748c669bc1b250013bbd8460ec920c1362393db87046e23"
+        },
+        {
+          "bytes": 783,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/UNRESOLVED_QUARANTINED_PRESERVATION_CLOSEOUT_REVIEW.json",
+          "sha256": "9b5c07b822e3a90fddfd1989488e85baa279664d07444edecb60415673ab253a"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_WITH_LIMITATIONS",
+      "upstream_key": "hero_control_room_demo_closeout_r1"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS",
+      "green": true,
+      "label": "D6 Hero Neighbourhood Control Room Reference Demo R1",
+      "required": false,
+      "root": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1",
+      "sample_artifacts": [
+        {
+          "bytes": 1169,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/CERSEG_V2_COMPATIBILITY_SUMMARY.json",
+          "sha256": "45c109938c0164553f5b211ca71005b8ccae32db0771836fc220549bd8e17517"
+        },
+        {
+          "bytes": 1202,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "587419e7a68074663032af00f4053c0f7c00b45c8d3d45e9e49003da1d7b3fa7"
+        },
+        {
+          "bytes": 111364,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/CONTROL_ROOM_DEMO_MANIFEST.json",
+          "sha256": "10cff73767c03b00804e74193778180e56caed3a562c51cb864e47df083c1f36"
+        },
+        {
+          "bytes": 95826,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/CONTROL_ROOM_DEMO_MANIFEST.jsonl",
+          "sha256": "05f59963bd00580827959cf00a31c336df7bedf6f831a07e6fc4a702ee75badb"
+        },
+        {
+          "bytes": 983,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/CONTROL_ROOM_DEMO_STORYBOARD.md",
+          "sha256": "7b91d35f84b114c41385996a7d57f4c6f865e5c323236db44298a3db33cbf33a"
+        },
+        {
+          "bytes": 2339,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/DEMO_ACCEPTANCE_MATRIX.json",
+          "sha256": "ebb730bfcb964e2b86ebef89072b9ca5c1c4b0920bc5e59632d8cdf8ac594deb"
+        },
+        {
+          "bytes": 1549,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/DEMO_ACCEPTANCE_MATRIX.md",
+          "sha256": "7b04fde6e65263df5319a28b86751ed08939aaf240d41b5c4ad379403a5ad73e"
+        },
+        {
+          "bytes": 956,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/DEMO_SCREENSHOT_PLACEHOLDER_INDEX.md",
+          "sha256": "9d1c40b50fae7c59b561d59715d42270de33a78f4cee9152a2aa743b2664875b"
+        },
+        {
+          "bytes": 764,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/EVIDENCE_LIMITATION_TRACE_SUMMARY.json",
+          "sha256": "552ef2c689929f52af966462e044538a9065fdc21ab6b312fdfe7beb4c8a03e7"
+        },
+        {
+          "bytes": 1235,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/EXECUTIVE_WALKTHROUGH_SCRIPT.md",
+          "sha256": "6ac2537b38e2118235c54c47c09557c3fb900322472d7138d4238cb010f5e956"
+        },
+        {
+          "bytes": 6527,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/HASH_MANIFEST.json",
+          "sha256": "611c3d24fa8ee2acde68cef0e7d42a07fdaf2c694e4941ce68e4c46251a5f86f"
+        },
+        {
+          "bytes": 1232,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/INCIDENT_OPERATOR_SURFACE_PACKET_SUMMARY.json",
+          "sha256": "0250fe77c44a2ff416437e52c691c387ee08724a0eeb28c35e3e0deb68e22940"
+        },
+        {
+          "bytes": 858,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/KIT_COMPOSER_OPERATOR_NOTES.md",
+          "sha256": "a62c59c6fb2620d06878049a9a792499d2ee83d044d63508bc4892a9e5d1a699"
+        },
+        {
+          "bytes": 2572,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/LOCAL_OPEN_INDEX.md",
+          "sha256": "5cc8e7f237131e3ae346123232b3a2c146534fcfe775ba33263168b4b141b2b5"
+        },
+        {
+          "bytes": 3843,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_DECISION.json",
+          "sha256": "d46d2fb6fc8e16c231f2d5eb206ec3a50921d426c2c7d55683add36e904621f9"
+        },
+        {
+          "bytes": 790,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/NO_ACTION_BOUNDARY_AUDIT.json",
+          "sha256": "ec44b86175e7064d2e6afdc83791fceefa501d11e47d97cf196d82e0e262b250"
+        },
+        {
+          "bytes": 673,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/NO_MUTATION_AUDIT.json",
+          "sha256": "7a56109c0d3161bec62ae8bd26c618d63fda4f83a74cca6b76b7e0af7b56e363"
+        },
+        {
+          "bytes": 2843,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/OMNIVERSE_SCENE_HANDOFF_SUMMARY.json",
+          "sha256": "16b5fe85bad9b7fda544e06fcc3f4b41f9ceb059fe2efb622dba4fa9e2247ebc"
+        },
+        {
+          "bytes": 1393,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/OPERATOR_WALKTHROUGH_SCRIPT.md",
+          "sha256": "bedf3e4ac7b2a36adff535deceb17c3d544b9958a3aa6817b478c1165e2a242f"
+        },
+        {
+          "bytes": 1184,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/README.md",
+          "sha256": "0d405a501f98635d7565ee52f2b9c0452caa9d638315d3dfae32fba2889f80ed"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS",
+      "upstream_key": "hero_control_room_demo_r1"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_incident_mode_closeout/MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_WITH_LIMITATIONS",
+      "green": true,
+      "label": "Incident Mode Closeout",
+      "required": true,
+      "root": "outputs/main_citybrain_d6_incident_mode_closeout",
+      "sample_artifacts": [
+        {
+          "bytes": 1301,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/ACCEPTANCE_MATRIX.json",
+          "sha256": "7f68c8996ea748835d1c9891140a8f8033570fede80bec6a555aa3618ad49632"
+        },
+        {
+          "bytes": 373,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "a47f85dac5610ffd937431dbdcb871341762ffe226bff13910eb80866055e8c2"
+        },
+        {
+          "bytes": 264,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/EVIDENCE_BUNDLE_REVIEW.md",
+          "sha256": "f599a1025cfe02868ff903a0eff37623216b7176418025af397472d7f9f6d7ee"
+        },
+        {
+          "bytes": 865,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/FROZEN_TRUTH_REGISTER.json",
+          "sha256": "88ecb04e06f9473407cf5741c6aea5eb75fee521a90b66a14f07aa74310b3e8d"
+        },
+        {
+          "bytes": 4105,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/HASH_MANIFEST.json",
+          "sha256": "8539be864f699b7c2a5920a58fe7011dcf2ce6d09fbde3cd8bc61e8233bef0e3"
+        },
+        {
+          "bytes": 13818,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "273352213e59ba975f5300308424435cd6455783e8129d6788f418d5fceefe6e"
+        },
+        {
+          "bytes": 359,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/LIMITATIONS_AND_DEFERRED_SCOPE.md",
+          "sha256": "e7faf5d1255ab02806b974b6f47317a50bdeb7f87bb3dfb08d86ee4ab4e8465f"
+        },
+        {
+          "bytes": 208,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/LOCAL_OPEN_INDEX.md",
+          "sha256": "3f7946d4843359920b61e65b623d8b5712a095557e5727cf80ba8f0f0837d47c"
+        },
+        {
+          "bytes": 1344,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_DECISION.json",
+          "sha256": "b4bb2c92c47139914adbc8b5d6b402a4ca97a39aa70b70fbcddf4f4fb8561e18"
+        },
+        {
+          "bytes": 64,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/NO_ACTION_BOUNDARY_AUDIT.json",
+          "sha256": "63c3cf2d6c239431990e9064b63c9045b96129669c2df097041439ece4e5afc3"
+        },
+        {
+          "bytes": 165,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/NO_MUTATION_AUDIT.json",
+          "sha256": "0c67d7c70bc4ff2a6328514c00978e68681c14c08f9e5e18eff3b73bc6db6aaa"
+        },
+        {
+          "bytes": 210,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/OMNIVERSE_HANDOFF_REVIEW.md",
+          "sha256": "0b37283f423d247dc8238d0588476a66fc44b2ebd9e4dd66fcdce88831429e88"
+        },
+        {
+          "bytes": 249,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/OPERATOR_REVIEW_WORKFLOW_REVIEW.md",
+          "sha256": "26274d03332b85b5893d3939f576f36db374461254f61f6bdb41a83527467275"
+        },
+        {
+          "bytes": 357,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/README.md",
+          "sha256": "9aea7f2ffece1ee0421dcff21c8e68baf1623ba27270d538083593110c06ef6b"
+        },
+        {
+          "bytes": 260,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/RUNTIME_SMOKE_REVIEW.md",
+          "sha256": "57528dc30d835b5562342f7bd96fa46bb3d656bf9168efeb86b057984a4720aa"
+        },
+        {
+          "bytes": 63,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/SECRET_AUDIT.json",
+          "sha256": "78dff4f83938c5d5838647c38f885ee79e8c7e56a45f1052e0cf889c0e999ab7"
+        },
+        {
+          "bytes": 226,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/UNRESOLVED_QUARANTINED_CONTEXT_REVIEW.md",
+          "sha256": "9fbf72c801c43ef92a64cd48a151f569eea1760e71b1a2742dd441ca69220e4f"
+        },
+        {
+          "bytes": 130,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/UPSTREAM_STATUS_SUMMARY.json",
+          "sha256": "c303e378207e173db175fd65c1cf4668d4882ade7705d3c0693281a7362ba1a1"
+        },
+        {
+          "bytes": 359,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/VALIDATION_REPORT.json",
+          "sha256": "54c9b0c043e3fcda884f7f116cc40ae68cb79604624ad77cf3693917888d729d"
+        },
+        {
+          "bytes": 178,
+          "path": "outputs/main_citybrain_d6_incident_mode_closeout/WEB_COMPANION_HANDOFF_REVIEW.md",
+          "sha256": "05bd4bdd637408482e703d058de09970d7ead013ecdd7fbb9dcf8f2720f0326a"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_WITH_LIMITATIONS",
+      "upstream_key": "incident_mode_closeout"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS",
+      "green": true,
+      "label": "Incident Mode Track2A Operator Surface Handoff R4",
+      "required": true,
+      "root": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4",
+      "sample_artifacts": [
+        {
+          "bytes": 639,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "7cc71c1dfb54d3af28fcee563ffaf2e72e81f1fb17756a52b2369f01d58539b4"
+        },
+        {
+          "bytes": 937,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/CONFIDENCE_DISPLAY_POLICY.json",
+          "sha256": "4fe395fb5fff5121b9f65ac3b1a104cc986781e327a41b4ab3830d4c89b9e83f"
+        },
+        {
+          "bytes": 1152,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/EVIDENCE_LIMITATION_SURFACE_PACKET_SCHEMA.json",
+          "sha256": "4eca86b65e29df144dc908a62244c36f66117d182f2e6814c97fccddba55915b"
+        },
+        {
+          "bytes": 1008,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/EVIDENCE_LIMITATION_SURFACE_TRACE_CONTRACT.json",
+          "sha256": "ac7b9892710982efcadebdd1ca5d2ad146ffe97fc3d28133d2c20d0909cb4679"
+        },
+        {
+          "bytes": 6208,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/HASH_MANIFEST.json",
+          "sha256": "da62b012339b086e35842afea8a0992d8f1bcd43d71072bbd41f3481d3c33d65"
+        },
+        {
+          "bytes": 1222,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/HERO_NEIGHBOURHOOD_INTEGRATION_IMPACT.md",
+          "sha256": "0a66b2d0feea23f2024b49e7bf0379e31a8dba1fc54623a4ef98c9441fc2b8eb"
+        },
+        {
+          "bytes": 1837,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/INCIDENT_OPERATOR_SURFACE_PACKET_SCHEMA.json",
+          "sha256": "f033844a27f482e3b6b110d17c7eba7d0c5690e35c2dc9845c7d768dcbadca29"
+        },
+        {
+          "bytes": 21373,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "4deace22c44b420e7c2456c6d42fe0ad159c03402f5f0e6aadae98b11d3b55f8"
+        },
+        {
+          "bytes": 2547,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/LOCAL_OPEN_INDEX.md",
+          "sha256": "a802e55dc60cc1952d925faff568f1440c520f5ea1cfe7c00c1b829af73db28c"
+        },
+        {
+          "bytes": 2267,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_DECISION.json",
+          "sha256": "df7660b8a87cd5691791b0990d310269c55e188c5eedfeed7044b0cc131165aa"
+        },
+        {
+          "bytes": 672,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/NO_ACTION_BOUNDARY_AUDIT.json",
+          "sha256": "2ad8509541af71268af32169852b14886a6fb4e392c7a0320c1097d3c1b32cef"
+        },
+        {
+          "bytes": 50,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/NO_MUTATION_AUDIT.json",
+          "sha256": "3016213d11f1066596c853140aae47f5bba7035db787280ba3695d39b42ea7a4"
+        },
+        {
+          "bytes": 1234,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/OMNIVERSE_OPERATOR_OVERLAY_PACKET_SCHEMA.json",
+          "sha256": "554c0a87d2e428053698eb78e161a29e984a80f41d89d07f308b0fc7a879bbc8"
+        },
+        {
+          "bytes": 1514,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/OMNIVERSE_TRACK2A_HANDOFF_IMPACT.md",
+          "sha256": "3f1a7f05e751766c2f4e3d529c1725a41929b4e1a6afbf1fe6df61289d0d3652"
+        },
+        {
+          "bytes": 1606,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/OPERATOR_SURFACE_HANDOFF_CONTRACT.json",
+          "sha256": "5a6e5278cacf29d2171af69b439a7dd375e080bab41b1d29e929223a843bb449"
+        },
+        {
+          "bytes": 24250,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/OPERATOR_SURFACE_PACKET_FIXTURES.json",
+          "sha256": "f74fcbd93e1f941b4f51351745c77fa711bf800dad4b251dbb2cd584d4aeb7e8"
+        },
+        {
+          "bytes": 19622,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/OPERATOR_SURFACE_PACKET_FIXTURES.jsonl",
+          "sha256": "47f62847e95630d4c7b888fd9d67d18e606023cc3659234363372adfa2fcd694"
+        },
+        {
+          "bytes": 4652,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/PACKET_VALIDATION_RESULTS.json",
+          "sha256": "a802b7ad240f66d55ef75c5f7c165bdd76b0f2d160f59c496232f6fa5c0c7d55"
+        },
+        {
+          "bytes": 1105,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/README.md",
+          "sha256": "f1b70295703ee9c9fc1320c9bc245a6f60ffa03de7a80616b660411dc3bb27df"
+        },
+        {
+          "bytes": 1175,
+          "path": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/REVIEW_STATE_DISPLAY_POLICY.json",
+          "sha256": "fba18e0499ab9519fa85d53ade1a943218d1a61abb146790cbe6b16999649c0d"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS",
+      "upstream_key": "incident_mode_track2a_operator_surface_handoff_r4"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_WITH_LIMITATIONS",
+      "green": true,
+      "label": "D6/D5 local running slice closeout",
+      "required": true,
+      "root": "outputs/main_citybrain_d6_d5_local_running_slice_closeout",
+      "sample_artifacts": [
+        {
+          "bytes": 393,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "d3df1e7f63cf0abee3de074f694696993607bc54e75cbd09abd1ee87a8294cf8"
+        },
+        {
+          "bytes": 1632,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/CLOSEOUT_ACCEPTANCE_MATRIX.json",
+          "sha256": "68c1efa020bd8f5a1ea133a715b13d50d625a61efe79d0c9f0853b3f458eb063"
+        },
+        {
+          "bytes": 494,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/CONTROL_ROOM_PACKET_REVIEW.json",
+          "sha256": "cc7893777f662ea45f28217d9ad4449ec4d2bc7718a6a56b119560590f2a7119"
+        },
+        {
+          "bytes": 2468,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/CURRENT_TRUTH_REGISTER.json",
+          "sha256": "c55edc33a7bd9f807b6d731ea6dca0f0041e554c080fa611f6797e031622b72a"
+        },
+        {
+          "bytes": 130,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/EVIDENCE_LIMITATION_TRACE_REVIEW.json",
+          "sha256": "fb5385b2b0fdf7fb96af2cf79b3b1e9418cd7f1f5ef57c92980d362af137a97f"
+        },
+        {
+          "bytes": 4244,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/HASH_MANIFEST.json",
+          "sha256": "d3f81e748913ef449183045523912152e054566e66762de8a26c381db7358204"
+        },
+        {
+          "bytes": 362,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/HASH_VALIDATION_REPORT.json",
+          "sha256": "16df4b49dca784371f18dbba936a943d53d110922d5e6f2ed343a0f7eb173fbc"
+        },
+        {
+          "bytes": 11898,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "567447877db9e3ea8a6b33f1ff607ee42970bf98f17ed554c54d7fdea089cd3e"
+        },
+        {
+          "bytes": 1439,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/LOCAL_OPEN_INDEX.md",
+          "sha256": "e4d5c39428cef82486d012381530393f7e84d956f221cd1ddb7c352e660d023c"
+        },
+        {
+          "bytes": 2156,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_DECISION.json",
+          "sha256": "ae81300669b5edc1aede615a9e4b577ff79b752e7754d02dc29aa6e44e49f465"
+        },
+        {
+          "bytes": 763,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/NEXT_TASK_RECOMMENDATION.md",
+          "sha256": "7c893ab63f3a9a752c627c7a0baaff0cfd37e65caf720bb2fe216ee9d2282ad9"
+        },
+        {
+          "bytes": 50,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/NO_MUTATION_AUDIT.json",
+          "sha256": "3016213d11f1066596c853140aae47f5bba7035db787280ba3695d39b42ea7a4"
+        },
+        {
+          "bytes": 192,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/OMNIVERSE_HANDOFF_REVIEW.json",
+          "sha256": "adf55675c0f89fd8bd7a93fc758923c633dab596d310e81eab5a3d1428d0e81c"
+        },
+        {
+          "bytes": 600,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/README.md",
+          "sha256": "0a84b6197553ca1070a5c6e67b2128f9e9c44702665c559ab00552e8e25fdd7f"
+        },
+        {
+          "bytes": 510,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/RUNTIME_SMOKE_REPLAY_REVIEW.json",
+          "sha256": "b9e4b413a1aafe35f0d6e6fd236aac129ea80176f948cd786576d1ec77499dba"
+        },
+        {
+          "bytes": 45,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/SECRET_AUDIT.json",
+          "sha256": "46ece6ceb5b84ecec6a60088ee356207ff94a8b1d1806a201b0364c63fba5555"
+        },
+        {
+          "bytes": 2726,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/UPSTREAM_BRANCH_STATUS_SUMMARY.json",
+          "sha256": "0aa608c87d178e9516d2e97ffcdb74bad576f767fc0d1c7bb425529e005fa150"
+        },
+        {
+          "bytes": 210,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/VISUAL_ACCEPTANCE_REVIEW.json",
+          "sha256": "d69391fbb6ad04d7556cd10ea8d089388aa4708d519625ae1e0bc2dca44fe0f6"
+        },
+        {
+          "bytes": 215,
+          "path": "outputs/main_citybrain_d6_d5_local_running_slice_closeout/WEB_COMPANION_HANDOFF_REVIEW.json",
+          "sha256": "6d69acf5991ccbc2fec07a4bb0afffe331d98f25d4ab8e6374e1b7dc3004ea93"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_WITH_LIMITATIONS",
+      "upstream_key": "d6_d5_local_running_slice_closeout"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/MAIN_CITYBRAIN_D4X_R7_MULTI_DOMAIN_EDGE_REGISTRY_RUNTIME_SLICE_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D4X_R7_MULTI_DOMAIN_EDGE_REGISTRY_RUNTIME_SLICE_WITH_LIMITATIONS",
+      "green": true,
+      "label": "R7 edge registry runtime slice",
+      "required": true,
+      "root": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice",
+      "sample_artifacts": [
+        {
+          "bytes": 362,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "2e74f25f51bb856c784bbc781c61b13a2c717da7c0f7361f2bbe867469b00f73"
+        },
+        {
+          "bytes": 1903,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/EDGE_COVERAGE_MATRIX.json",
+          "sha256": "5d2f26d8414200503908734aecda2193662d698bb284e7b8168ec48d8d9fa37c"
+        },
+        {
+          "bytes": 560,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/EDGE_VALIDATION_REPORT.json",
+          "sha256": "fb5ad6b7df655d981c11a3501c1f2bff6a7121ca4818684b99ad5d33bc4a23e2"
+        },
+        {
+          "bytes": 169050,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/EVIDENCE_AND_LIMITATION_TRACE.json",
+          "sha256": "ec87d263370e15651a36b5184bbc7402c7cd6e02eea98489d2546b5da531e588"
+        },
+        {
+          "bytes": 4257,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/HASH_MANIFEST.json",
+          "sha256": "e9ff7970171c9f0263d03f49d8b2b9c7b0d15d4f019ffcd2ccd6fabd8450b815"
+        },
+        {
+          "bytes": 48154,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "9b377be1bcd354cb468e811696f163548ffc2324db551898f910cfe0cf550e09"
+        },
+        {
+          "bytes": 2233,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/local_edge_registry_runtime.py",
+          "sha256": "cc2c19215ffd2f64a6f54ec56ec3377e4a77e9c06e013122979aed93c9b2c165"
+        },
+        {
+          "bytes": 1400,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/LOCAL_OPEN_INDEX.md",
+          "sha256": "f2c237ce65b4df9c6fe2c3920a9f568342b772c9b8fb5e8df85b646ab5b87630"
+        },
+        {
+          "bytes": 2755,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/MAIN_CITYBRAIN_D4X_R7_MULTI_DOMAIN_EDGE_REGISTRY_RUNTIME_SLICE_DECISION.json",
+          "sha256": "d98480ac1abb2fe0f874c0b87a8a6cb9365939ec2f1638a192bedbe2681dd73b"
+        },
+        {
+          "bytes": 276995,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/MULTI_DOMAIN_EDGE_REGISTRY.json",
+          "sha256": "6c554edba73111849f2e653ee21bdba1c4284b32f6e8b3332919bb2e7a16fca2"
+        },
+        {
+          "bytes": 234937,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/MULTI_DOMAIN_EDGE_REGISTRY.jsonl",
+          "sha256": "cddeb1406c05dc8538573ac50e96ff1a539151ded305aa0e67139949a4b8c6c7"
+        },
+        {
+          "bytes": 1688,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/MULTI_DOMAIN_EDGE_REGISTRY_SCHEMA.json",
+          "sha256": "1a36084d5d33a1e8ea7c920518c92047fa2c88b6abfd5f640ccf9672b3f31d3a"
+        },
+        {
+          "bytes": 50,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/NO_MUTATION_AUDIT.json",
+          "sha256": "3016213d11f1066596c853140aae47f5bba7035db787280ba3695d39b42ea7a4"
+        },
+        {
+          "bytes": 676,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/README.md",
+          "sha256": "2dbad735fd1079e0607ddab95c71c19b52dd297345e0246e1487de832e0b8355"
+        },
+        {
+          "bytes": 1204,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/RUNTIME_QUERY_FIXTURES.json",
+          "sha256": "2341db92062da02babda66427821d39de553818116990d90436476cb7d296a4a"
+        },
+        {
+          "bytes": 46763,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/RUNTIME_QUERY_RESULTS.json",
+          "sha256": "be4a4b1fffe4fed5b54c565c4f7612b7e309df36390f67fe24d731b876db7741"
+        },
+        {
+          "bytes": 45,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/SECRET_AUDIT.json",
+          "sha256": "46ece6ceb5b84ecec6a60088ee356207ff94a8b1d1806a201b0364c63fba5555"
+        },
+        {
+          "bytes": 19448,
+          "path": "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice/UPSTREAM_BRANCH_STATUS_SUMMARY.json",
+          "sha256": "18052200dd31617406230eb4774930e09b00c53c906d4619ecd80655d7644871"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D4X_R7_MULTI_DOMAIN_EDGE_REGISTRY_RUNTIME_SLICE_WITH_LIMITATIONS",
+      "upstream_key": "r7_edge_registry_runtime_slice"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/MAIN_CITYBRAIN_D4X_R8_MULTI_DOMAIN_EDGE_REGISTRY_HARDENING_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D4X_R8_MULTI_DOMAIN_EDGE_REGISTRY_HARDENING_WITH_LIMITATIONS",
+      "green": true,
+      "label": "R8 edge registry hardening",
+      "required": true,
+      "root": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening",
+      "sample_artifacts": [
+        {
+          "bytes": 143,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/CAUSAL_LEAKAGE_AUDIT.json",
+          "sha256": "59ce44ee8f423dc56578ac49374eb8588749f5977f13b145b9882661e8d80553"
+        },
+        {
+          "bytes": 338,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "cd5f32fa0b2c4a2aef989e58e541a00d1ece5912a7d5ec698c42d6a1b899bcb7"
+        },
+        {
+          "bytes": 1005,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/CONFIDENCE_SEMANTICS_AUDIT.json",
+          "sha256": "d806954fdda0ad1a7b1983659728a7587ce71920ec07e4737efc400f4a035f01"
+        },
+        {
+          "bytes": 90,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/DOMAIN_BOUNDARY_AUDIT.json",
+          "sha256": "e8a77b918a6d5ee5196a78e9a4fc9a32c0b8ab9134644e48fe84dca68091419e"
+        },
+        {
+          "bytes": 23818,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/EDGE_DUPLICATE_COLLISION_REPORT.json",
+          "sha256": "e9f4b2dd7122ec356fc099913a921f67c26c6be96f316b219088a9183ebb3eb4"
+        },
+        {
+          "bytes": 161,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/EDGE_SCHEMA_INVARIANT_REPORT.json",
+          "sha256": "3e94d0060dee56b68121bf175c03ebcfea82689f0a89dc0b62b9e239c0c81e3b"
+        },
+        {
+          "bytes": 236,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/EVENT_STATE_RELATIONSHIP_STATE_SEPARATION_AUDIT.json",
+          "sha256": "1bc27918aa613260a73aa923f4a7cb87320156a28b2a146430d252bde1483b62"
+        },
+        {
+          "bytes": 127,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/EVIDENCE_LIMITATION_COMPLETENESS_REPORT.json",
+          "sha256": "175c1732fdfa84d1f6db806ab38feb0c584ccfee5dbdd9b8232e50691fab5a70"
+        },
+        {
+          "bytes": 2113,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/FROZEN_CHAIN_CONSUMPTION_REGISTER.json",
+          "sha256": "d0beb34ea49ffc9dd70f7d1d96f8c0f598ed7f8cd539b786b8c65e0a47d0f11f"
+        },
+        {
+          "bytes": 363396,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json",
+          "sha256": "34e5948756f972f8d7b84bff34993834c1d457806bfd9e0b117b375ba86af9a2"
+        },
+        {
+          "bytes": 310077,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.jsonl",
+          "sha256": "590f5616022c5018bfcd38023a023034b3ce781dde5c33101322fc921f1afa0a"
+        },
+        {
+          "bytes": 5806,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HASH_MANIFEST.json",
+          "sha256": "338ee84886f6258d9fe032f439f83fa78080c1b751b057cebfb6d8b0f8c84b7e"
+        },
+        {
+          "bytes": 5458,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "581bf52f0fc3e5ba6e447ad8b4c81a6991e9fa0974549fca6ece1cb91c2792f8"
+        },
+        {
+          "bytes": 563,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/LOCAL_OPEN_INDEX.md",
+          "sha256": "a3c3ee810a1289bfc2535ea52601cbb1c70349de0a690de24b4ded9fcee05cbc"
+        },
+        {
+          "bytes": 2453,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/MAIN_CITYBRAIN_D4X_R8_MULTI_DOMAIN_EDGE_REGISTRY_HARDENING_DECISION.json",
+          "sha256": "da030bdb49e4043a6f84ae39e4322e0a2666262ee9b414f4e9790eb7ea546011"
+        },
+        {
+          "bytes": 226,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/NO_MUTATION_AUDIT.json",
+          "sha256": "0c7cc1e0b7114fc34b1ead2e791f4ecd1f8052fc23ccddcb8df13fdce17d9f2f"
+        },
+        {
+          "bytes": 3604,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/PRESERVATION_GATE_REPORT.json",
+          "sha256": "37d88daaa538d2068d5ee5bb1979337f92898f8020934cfb33ff2cd2c752f18b"
+        },
+        {
+          "bytes": 5231,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/QUERY_PROFILE_REGRESSION_RESULTS.json",
+          "sha256": "422d92b67f8bae08dbd5d7a7a7dcafa6301c077e663c1a63b898806b5035b7d1"
+        },
+        {
+          "bytes": 675,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/R7_CONSUMPTION_REGISTER.json",
+          "sha256": "49b84b76240c9272e22ef19fcd312ed4e82e5cd2f1903eaa8d891e42c00ecb1d"
+        },
+        {
+          "bytes": 749,
+          "path": "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/R8_COMPATIBILITY_NOTES.md",
+          "sha256": "d96fddcca5b6f9c8bfd604a3766cba0fce1c24bf0f3c9e740e6c01b455f00ff3"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D4X_R8_MULTI_DOMAIN_EDGE_REGISTRY_HARDENING_WITH_LIMITATIONS",
+      "upstream_key": "r8_edge_registry_hardening"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS",
+      "green": true,
+      "label": "CER/SEG Cross-City v2 Closeout",
+      "required": true,
+      "root": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout",
+      "sample_artifacts": [
+        {
+          "bytes": 1520,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/ACCEPTANCE_MATRIX.json",
+          "sha256": "b0edb4a89fdfe05315aa7c522c21ad1f3d7724a546605ecf059a8048007f8a37"
+        },
+        {
+          "bytes": 215,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/CANONICAL_ENTITY_CONTRACT_REVIEW.json",
+          "sha256": "1c23546262dbd2c6d3b7e2c6ab63f67b24a4391b813a5a9c71d73a18e1171a54"
+        },
+        {
+          "bytes": 351,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "ac5544f053c7fb4db4a054a817bdacd503a821351bd1257605c7dd64d45889ab"
+        },
+        {
+          "bytes": 1443,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/COMPATIBILITY_FINDINGS_SUMMARY.json",
+          "sha256": "d4ed5095dade0bce28188cc8b89410993752b777dcf25c10328534d2c520061c"
+        },
+        {
+          "bytes": 181,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/CONFIDENCE_REVIEW_STATE_REVIEW.json",
+          "sha256": "b32e3f83ae974c1d84108262ac2dd4c0028a21c843ee07c8f768ae0ad433c938"
+        },
+        {
+          "bytes": 6620,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/CONSOLIDATED_CONTRACT_INDEX.json",
+          "sha256": "5dbf1c078f9ca5bab1cd98daa0cec7af8380ca5042b681a196c5326cc60d9282"
+        },
+        {
+          "bytes": 3006,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/FROZEN_CONTRACT_STATUS_SUMMARY.json",
+          "sha256": "fcc2b4ddfd9f032bf44d04210a7f1577d7c5f8b935c2c91b03bfdf8f106ce17c"
+        },
+        {
+          "bytes": 3499,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/HASH_MANIFEST.json",
+          "sha256": "92cd6c1bcbcafea7692304eb05ffedffe8e034eb8fbe250da12ade8b9ae09929"
+        },
+        {
+          "bytes": 36197,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "4bf20467f272e04a228c3e30c5ba53470bcb75c1035cdd3744c99cfc39fe75de"
+        },
+        {
+          "bytes": 640,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/LOCAL_OPEN_INDEX.md",
+          "sha256": "aa74cea6c6453b2542ebf0797b6e70a9ecb4a332709cec7af128c300252cbfcf"
+        },
+        {
+          "bytes": 2127,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_DECISION.json",
+          "sha256": "fe3f030328d8dcc149afca5fe61b8e1fdaa9ad0e79dca0bd311db81b2308c4c7"
+        },
+        {
+          "bytes": 213,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/NO_MUTATION_AUDIT.json",
+          "sha256": "a6fed3d60798d4d874a2f88af2f0047ed8e1d6ab8b28a88e0a143825b0bfc1be"
+        },
+        {
+          "bytes": 609,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/README.md",
+          "sha256": "e54518a13a356174b6dd4c1797dee49db65226bf16520ea06b285c5d8558306d"
+        },
+        {
+          "bytes": 236,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/RELATIONSHIP_ONTOLOGY_REVIEW.json",
+          "sha256": "865ad962413e38ba7905ca78f8fa85c7341644795f3a88abfadb63bc4148d9f1"
+        },
+        {
+          "bytes": 231,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/RUNTIME_BRIDGE_SMOKE_REVIEW.json",
+          "sha256": "85ce1cf56cb5f9f910297c1547bdebad0f8d06f5472922eecd4ff887487ec30a"
+        },
+        {
+          "bytes": 310,
+          "path": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/SECRET_AUDIT.json",
+          "sha256": "e7e1bfd12ef91502eff967639558a008d7567c2d38653823e4bc9f41b8373a17"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS",
+      "upstream_key": "cer_seg_cross_city_v2_closeout"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS",
+      "green": true,
+      "label": "Hero + CERSEG Integration Readiness Review",
+      "required": true,
+      "root": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review",
+      "sample_artifacts": [
+        {
+          "bytes": 527,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/BLOCKERS_AND_GAPS_REGISTER.json",
+          "sha256": "2e9b4c7a0b96e54ad10e7c8b5ec820fe8796bd26024020ceb7e679a402cfa39c"
+        },
+        {
+          "bytes": 1143,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/CERSEG_V2_SUMMARY.json",
+          "sha256": "96c5fdd242229d3e7043c055ffdb951b54486cadb3b36fcb867610c457bf6260"
+        },
+        {
+          "bytes": 382,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/CLAIM_BOUNDARY_AUDIT.json",
+          "sha256": "d4a507d9ebc43d8886c21bf825dab7871732eca1d32383bb51171699f864d61b"
+        },
+        {
+          "bytes": 529,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/COMPATIBILITY_MATRIX.md",
+          "sha256": "5c6acd0a512e384d6a0d94c50630a120f528304cba957dac95ceb4b2866520db"
+        },
+        {
+          "bytes": 693,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/CONFIDENCE_REVIEW_STATE_COMPATIBILITY_REVIEW.json",
+          "sha256": "b76320163ddf9793290ec3626bd5a73b280bdd60d4646fec1eb91c9adb741a25"
+        },
+        {
+          "bytes": 752,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/ENTITY_COMPATIBILITY_REVIEW.json",
+          "sha256": "a37a8e6df2ec9c10834cf5dc40fceec148f9b181a81c8d6950c6189f77aa56b3"
+        },
+        {
+          "bytes": 381,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/EVIDENCE_LIMITATION_TRACE_ALIGNMENT_REVIEW.json",
+          "sha256": "adf0b2b8cf1e8b6ac3b2ecaf50eddaa169cc04f993b8c0a89195a4c457fa7313"
+        },
+        {
+          "bytes": 6882,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/HASH_MANIFEST.json",
+          "sha256": "a157d1a25c782d7826b88ab4f11e211a21215b57f6fedcd3aea45e2c64cda1c9"
+        },
+        {
+          "bytes": 1627,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/HERO_NEIGHBOURHOOD_SUMMARY.json",
+          "sha256": "252e2e8beb8d2c87abfcf3494d98b555fb63e0ca2566748653f51f68103192ee"
+        },
+        {
+          "bytes": 98364,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/INPUT_ARTIFACT_INDEX.json",
+          "sha256": "0c73a7bfb0b8edc93128e845e9c6b220e8b6e36c74765eb6b91bb5576f92232d"
+        },
+        {
+          "bytes": 1234,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/INTEGRATION_READINESS_MATRIX.json",
+          "sha256": "37d86862ab21a6c34db0358ca6718489d7ba661d7b4c5b1b9258ce87287dd8f6"
+        },
+        {
+          "bytes": 898,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/INTEGRATION_READINESS_SUMMARY.md",
+          "sha256": "90a1a102158a54381a729f63f2749640f83b26b34023b538c0ef7cccb446c1b7"
+        },
+        {
+          "bytes": 1201,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/LOCAL_OPEN_INDEX.md",
+          "sha256": "6a4c35aaff21ff9b8b364882243eb10be020a063514eb396b71098d2ce84b0c4"
+        },
+        {
+          "bytes": 1935,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/LOCAL_RUNNING_AND_INCIDENT_SUMMARY.json",
+          "sha256": "e54eb2c63f9ea5578cbf0eafce1c6292ec3423c562001f4c76a83d6a39e075dc"
+        },
+        {
+          "bytes": 2877,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_DECISION.json",
+          "sha256": "4117779b680d763588d91660f7276092520325f77e5a28a94491fb56bf9efb46"
+        },
+        {
+          "bytes": 320,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/NEXT_TASK_RECOMMENDATION.md",
+          "sha256": "f0bde7a28a81084106fd6367a514acd51e41067dfbf2c9d1bfa5dce8ca4e002b"
+        },
+        {
+          "bytes": 610,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/NO_ACTION_BOUNDARY_AUDIT.json",
+          "sha256": "bcf15e921c2d7625fafec2333ae91b47a85101a9d68477446a4398d5b4ef8acf"
+        },
+        {
+          "bytes": 245,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/NO_MUTATION_AUDIT.json",
+          "sha256": "1c8b1b5513d1dfd765b0cef21796516f6d0a6c5f386e181c8a6085cd697ad756"
+        },
+        {
+          "bytes": 359,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/OMNIVERSE_KIT_COMPOSER_ALIGNMENT_REVIEW.json",
+          "sha256": "5166991ba9ff387dad0cef71131cff4dd30b250a12b5b5565bb43877cca346ee"
+        },
+        {
+          "bytes": 589,
+          "path": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/OPERATOR_SURFACE_ALIGNMENT_REVIEW.json",
+          "sha256": "f6bb6fbe8bd1e069ad0c544a39a446f206d306c49202192aff90e2f82e95728b"
+        }
+      ],
+      "status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS",
+      "upstream_key": "hero_cerseg_integration_readiness_review"
+    }
+  ]
+}

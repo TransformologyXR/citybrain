@@ -1,0 +1,6 @@
+{
+  "persona_count": 4,
+  "policy": "All personas are deterministic rendering policies, not agents or independent truth paths.",
+  "shared_evidence_scope_hash": "{\"hero_bindings\": 8, \"hero_overlay_packets\": 8, \"manifest_rows\": 45, \"operator_surface_packets\": 6, \"unresolved_quarantined_preserved\": 21, \"web_companion_packets\": 6}",
+  "status": "PASS"
+}

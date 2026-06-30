@@ -1,0 +1,6 @@
+{
+  "preservation_policy": "preserve unresolved/quarantined contexts as review metadata; do not resolve/promote",
+  "status": "PASS",
+  "track_a_quarantined_count": 1,
+  "track_a_unresolved_count": 1
+}

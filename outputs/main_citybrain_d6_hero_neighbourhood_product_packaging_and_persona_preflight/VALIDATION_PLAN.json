@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "required upstreams discovered",
+    "frozen demo status is green",
+    "integration readiness review is green",
+    "non-blocking gaps copied forward",
+    "no production/public API/certified twin/live/action claim",
+    "no upstream mutation",
+    "no secrets",
+    "hash manifest validates generated artifacts"
+  ],
+  "task_name": "MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-PRODUCT-PACKAGING-AND-PERSONA-PREFLIGHT"
+}

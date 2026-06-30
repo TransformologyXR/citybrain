@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "block_reasons": [],
+      "logged": false,
+      "no_action_taken": true,
+      "proposal_type": "review_next_look",
+      "status": "PASS",
+      "test_id": "positive-r3-001"
+    },
+    {
+      "block_reasons": [],
+      "logged": false,
+      "no_action_taken": true,
+      "proposal_type": "request_more_evidence",
+      "status": "PASS",
+      "test_id": "positive-r3-002"
+    },
+    {
+      "block_reasons": [],
+      "logged": false,
+      "no_action_taken": true,
+      "proposal_type": "draft_advisory_for_review",
+      "status": "PASS",
+      "test_id": "positive-r3-003"
+    },
+    {
+      "block_reasons": [],
+      "logged": false,
+      "no_action_taken": true,
+      "proposal_type": "review_route_context",
+      "status": "PASS",
+      "test_id": "positive-r3-004"
+    },
+    {
+      "block_reasons": [],
+      "logged": false,
+      "no_action_taken": true,
+      "proposal_type": "review_access_constraint",
+      "status": "PASS",
+      "test_id": "positive-r3-005"
+    },
+    {
+      "block_reasons": [],
+      "logged": false,
+      "no_action_taken": true,
+      "proposal_type": "review_operator_note",
+      "status": "PASS",
+      "test_id": "positive-r3-006"
+    }
+  ]
+}

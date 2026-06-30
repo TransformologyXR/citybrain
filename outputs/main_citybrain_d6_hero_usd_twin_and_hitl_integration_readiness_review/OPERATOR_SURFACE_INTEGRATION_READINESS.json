@@ -1,0 +1,21 @@
+{
+  "future_surface_can_show_without_new_truth_paths": [
+    "incident/evidence bundle summary",
+    "hero USD/USDA scene binding/overlay summary",
+    "HITL proposal lifecycle status",
+    "evidence refs",
+    "limitation refs",
+    "audit trail refs",
+    "unresolved/quarantined context",
+    "safe next-look context"
+  ],
+  "new_truth_paths_created": false,
+  "panel_strategy": [
+    "Panel 1: scene / spatial status",
+    "Panel 2: incident / evidence context",
+    "Panel 3: reviewed-action proposal lifecycle",
+    "Panel 4: limitations / audit / unresolved context"
+  ],
+  "panels_kept_separate": true,
+  "status": "PASS"
+}

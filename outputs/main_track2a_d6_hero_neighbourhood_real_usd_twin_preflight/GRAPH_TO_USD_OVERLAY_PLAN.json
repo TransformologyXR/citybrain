@@ -1,0 +1,26 @@
+{
+  "allowed_statuses": [
+    "event_replay_context",
+    "limited_evidence_context",
+    "operator_review_context",
+    "quarantined_preserved",
+    "review_context_active",
+    "scene_binding_context",
+    "unresolved_preserved"
+  ],
+  "forbidden_statuses": [
+    "certified",
+    "confirmed_incident",
+    "controlled",
+    "dispatched",
+    "enforced",
+    "legal",
+    "violation"
+  ],
+  "graph_inputs": [
+    "outputs/main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice",
+    "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening",
+    "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout"
+  ],
+  "status": "PASS"
+}

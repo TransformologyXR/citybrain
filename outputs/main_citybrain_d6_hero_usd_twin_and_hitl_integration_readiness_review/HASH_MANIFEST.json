@@ -1,0 +1,93 @@
+{
+  "algorithm": "sha256",
+  "file_count": 17,
+  "files": [
+    {
+      "bytes": 658,
+      "file": "CLAIM_BOUNDARY_AUDIT.json",
+      "sha256": "f64716060bdb8e113f0446b6db86570bb53f883a6c10f01e056e53c5d74d1edb"
+    },
+    {
+      "bytes": 743,
+      "file": "CONTROL_ROOM_TO_REAL_USD_TWIN_COMPATIBILITY.json",
+      "sha256": "8ce4f3d1a3d416dd117c0dcc12df03d895e5234bcb4942b260a99671ec35ccab"
+    },
+    {
+      "bytes": 384,
+      "file": "EVIDENCE_LIMITATION_AUDIT_TRACE.json",
+      "sha256": "9c06400cfe8937174bfdb6798f549a42efe09b69e49f408baf16fc1e39fa26a6"
+    },
+    {
+      "bytes": 2626,
+      "file": "HITL_GUARDRAIL_CARRY_FORWARD_REVIEW.json",
+      "sha256": "e70a8ae404bb05ebd5ea4d48f2c193d6cc536683448bc684ae31f871ba1a070c"
+    },
+    {
+      "bytes": 3655,
+      "file": "INTEGRATION_READINESS_MATRIX.json",
+      "sha256": "96824988557d6c0550eeddfcba961d6c7a198073173013279993b6ed35200193"
+    },
+    {
+      "bytes": 903,
+      "file": "LOCAL_OPEN_INDEX.md",
+      "sha256": "64c0ff9c262808e777ad43f6a9e1a571eb08673f64896ccec2bcba8eb5853db5"
+    },
+    {
+      "bytes": 1977,
+      "file": "MAIN_CITYBRAIN_D6_HERO_USD_TWIN_AND_HITL_INTEGRATION_READINESS_REVIEW_DECISION.json",
+      "sha256": "b5adea381c71fb740a6807504a6d67ab9e111f832a7453375872a5234ba6451e"
+    },
+    {
+      "bytes": 352,
+      "file": "NO_ACTION_BOUNDARY_AUDIT.json",
+      "sha256": "9934479bf239f2ab451d9392b0baf448a62e4d9c374d17e0f197e0307435bbb4"
+    },
+    {
+      "bytes": 1590,
+      "file": "NO_MUTATION_AUDIT.json",
+      "sha256": "9ae941c005cae1f2dd88be5c17e73c1e90609910c9199df81ad9c66978b5fe42"
+    },
+    {
+      "bytes": 653,
+      "file": "OPERATOR_SURFACE_INTEGRATION_READINESS.json",
+      "sha256": "28454c7badc3a4f5ff1d731ef2ff70f1c17ab161188d6cba9cdb51a21fbc4810"
+    },
+    {
+      "bytes": 693,
+      "file": "README.md",
+      "sha256": "360eac3767a250258fbe691397847afdd18fba4298e830f1124732ac5aab56bf"
+    },
+    {
+      "bytes": 724,
+      "file": "REAL_USD_TWIN_TO_HITL_ACTION_COMPATIBILITY.json",
+      "sha256": "6a5ced2a7cc97785b6804556be3c95b3f596185fab755e61e0c58835357b3bb2"
+    },
+    {
+      "bytes": 145,
+      "file": "SECRET_AUDIT.json",
+      "sha256": "467da53fe2b633e5e538712b209e6579c9a3303ac5479704145e3a337d25afbd"
+    },
+    {
+      "bytes": 968,
+      "file": "SHARED_HERO_SCENARIO_ALIGNMENT_REVIEW.json",
+      "sha256": "18830148325db23d4f0c6476806bb831f566929d33c266e35cdc8e593a61f535"
+    },
+    {
+      "bytes": 208,
+      "file": "UNRESOLVED_QUARANTINED_PRESERVATION_REVIEW.json",
+      "sha256": "9b14ae5f5c5d0a063d903cc8a5710565fd03a5b557eb2d24b888eb04a77c1659"
+    },
+    {
+      "bytes": 11372,
+      "file": "UPSTREAM_DISCOVERY_REVIEW.json",
+      "sha256": "01aa23c9f9b90f412397405709ae4a26afc263b117d7f8bae4a699aed320db45"
+    },
+    {
+      "bytes": 222,
+      "file": "WEB_COMPANION_INTEGRATION_READINESS.json",
+      "sha256": "8beeae27cbd0f44f4f325a6167777dce9de1b1cb3380ebd794d8d8a8bc0a71e2"
+    }
+  ],
+  "generated_at": "2026-06-30T21:51:49Z",
+  "status": "PASS"
+}

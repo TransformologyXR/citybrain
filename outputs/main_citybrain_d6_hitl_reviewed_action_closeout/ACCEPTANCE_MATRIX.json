@@ -1,0 +1,33 @@
+{
+  "rows": [
+    {
+      "criterion": "all Track D stages green",
+      "status": "PASS"
+    },
+    {
+      "criterion": "proposal contract accepted",
+      "status": "PASS"
+    },
+    {
+      "criterion": "approval lifecycle accepted",
+      "status": "PASS"
+    },
+    {
+      "criterion": "negative tests block and log",
+      "status": "PASS"
+    },
+    {
+      "criterion": "operator panel remains separate",
+      "status": "PASS"
+    },
+    {
+      "criterion": "no automatic execution exists",
+      "status": "PASS"
+    },
+    {
+      "criterion": "no forbidden claim exists",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

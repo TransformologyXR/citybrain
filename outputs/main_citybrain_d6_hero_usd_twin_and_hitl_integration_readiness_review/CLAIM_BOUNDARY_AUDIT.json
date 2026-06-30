@@ -1,0 +1,7 @@
+{
+  "claim_boundary": "This is a read-only bounded Hero Neighbourhood local/replay integration-readiness review. It is not production readiness, public API readiness, live autonomous monitoring, alert push, dispatch, routing/control, enforcement, legal/certified finding, official incident confirmation, official case/ticket creation, automated execution, citywide certified twin, full physical accuracy, or real-time operational control.",
+  "forbidden_terms_present_only_as_negated_boundaries_or_test_labels": true,
+  "overclaim_hits": [],
+  "status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-HERO-USD-TWIN-AND-HITL-INTEGRATION-READINESS-REVIEW"
+}

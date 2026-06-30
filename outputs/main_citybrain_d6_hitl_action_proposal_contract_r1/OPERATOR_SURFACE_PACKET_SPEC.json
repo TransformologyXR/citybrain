@@ -1,0 +1,12 @@
+{
+  "display_fields": [
+    "proposal_type",
+    "review_state",
+    "evidence_refs",
+    "limitation_refs",
+    "not_an_action_statement"
+  ],
+  "packet_family": "track_d_hitl_reviewed_action_panel",
+  "status": "PASS",
+  "track_a_overlay_integration": "not integrated in R1/R2"
+}

@@ -1,0 +1,8 @@
+{
+  "boundary_mentions_are_negated_or_limitation_labels": true,
+  "claim_boundary": "Track A is a bounded Hero Neighbourhood local/replay review-context spatial proof. It is not production Omniverse deployment, public API readiness, live/autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case creation, legal/certified conclusion, automated action, citywide twin, or certified digital twin.",
+  "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+  "status": "PASS",
+  "task_name": "MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-GRAPH-TO-USD-STATUS-OVERLAY-R2",
+  "unqualified_forbidden_claims_found": []
+}

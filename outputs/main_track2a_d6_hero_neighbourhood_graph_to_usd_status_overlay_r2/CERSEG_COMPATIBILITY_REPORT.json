@@ -1,0 +1,6 @@
+{
+  "canonical_entity_refs_preserved": true,
+  "compatibility": "review-state and relationship-state labels preserved",
+  "scene_refs_not_promoted_to_canonical_ids": true,
+  "status": "PASS"
+}

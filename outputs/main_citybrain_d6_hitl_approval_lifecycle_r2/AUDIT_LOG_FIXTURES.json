@@ -1,0 +1,126 @@
+{
+  "event_count": 15,
+  "events": [
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "actor": "track_d_fixture",
+      "audit_event_id": "hitl-audit-r2-001-01",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "proposal_created"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-001-02",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "awaiting_human_review"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-001-03",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "approved_for_stub_only"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "actor": "track_d_fixture",
+      "audit_event_id": "hitl-audit-r2-001-04",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "execution_stub_recorded"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-001-05",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "monitor_review_context"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-001-06",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "closed_review_context"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-002",
+      "actor": "track_d_fixture",
+      "audit_event_id": "hitl-audit-r2-002-01",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "proposal_created"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-002",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-002-02",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "awaiting_human_review"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-002",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-002-03",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "rejected_by_human"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-003",
+      "actor": "track_d_fixture",
+      "audit_event_id": "hitl-audit-r2-003-01",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "proposal_created"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-003",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-003-02",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "awaiting_human_review"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-003",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-003-03",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "modification_requested"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-004",
+      "actor": "track_d_fixture",
+      "audit_event_id": "hitl-audit-r2-004-01",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "proposal_created"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-004",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-004-02",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "awaiting_human_review"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-004",
+      "actor": "human_reviewer_fixture",
+      "audit_event_id": "hitl-audit-r2-004-03",
+      "logged": true,
+      "no_action_taken": true,
+      "state": "more_evidence_requested"
+    }
+  ],
+  "status": "PASS"
+}

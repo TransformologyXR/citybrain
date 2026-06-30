@@ -1,0 +1,33 @@
+{
+  "acceptance_matrix_result": "PASS",
+  "boundary": "Track D HITL reviewed action is proposal-only, human-in-the-loop, local/replay review context. It does not execute actions, initiate automatic workflows, create tickets or cases, control routes, dispatch resources, enforce findings, certify incidents, expose a production or public API, monitor live conditions, push alerts, or mutate frozen upstream outputs.",
+  "claim_boundary_result": "PASS",
+  "hash_validation_result": "PASS",
+  "limitations": [
+    "proposal-only governance spine",
+    "human-in-the-loop review states only",
+    "local/replay review context only",
+    "separate Track D operator panel packet family through R2",
+    "inert execution adapter stub only after human approval",
+    "no automatic execution",
+    "no resource assignment or field operations",
+    "no route or infrastructure control",
+    "no enforcement or official case/ticket creation",
+    "no legal/certified incident finding",
+    "no live monitoring, alerts, production action system, or public API claim"
+  ],
+  "no_action_boundary_result": "PASS",
+  "no_mutation_result": "PASS",
+  "recommended_next_task": "MAIN-CITYBRAIN-D6-HITL-REVIEWED-ACTION-MILESTONE-FREEZE",
+  "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+  "secret_audit_result": "PASS",
+  "status": "PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_CLOSEOUT_WITH_LIMITATIONS",
+  "task_name": "MAIN-CITYBRAIN-D6-HITL-REVIEWED-ACTION-CLOSEOUT",
+  "timestamp_utc": "2026-06-30T21:43:21Z",
+  "track_d_stage_statuses": {
+    "lifecycle": "PASS_MAIN_CITYBRAIN_D6_HITL_APPROVAL_LIFECYCLE_R2_WITH_LIMITATIONS",
+    "preflight": "PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_PREFLIGHT_WITH_LIMITATIONS",
+    "proposal": "PASS_MAIN_CITYBRAIN_D6_HITL_ACTION_PROPOSAL_CONTRACT_R1_WITH_LIMITATIONS",
+    "smoke": "PASS_MAIN_CITYBRAIN_D6_HITL_AUDIT_AND_GUARDRAIL_SMOKE_R3_WITH_LIMITATIONS"
+  }
+}

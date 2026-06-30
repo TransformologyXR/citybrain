@@ -1,0 +1,83 @@
+{
+  "algorithm": "sha256",
+  "file_count": 15,
+  "files": [
+    {
+      "bytes": 653,
+      "file": "CLAIM_BOUNDARY_AUDIT.json",
+      "sha256": "aff1225af77bf9dbe4dee2da196fc1e1619c7e23b90ad8be8865c14ef39522eb"
+    },
+    {
+      "bytes": 17572,
+      "file": "EVIDENCE_AND_LIMITATION_TRACE.json",
+      "sha256": "ef53bfaa7fed9e427422dcba02fb83454b18e92251e71b1872fe475baff43bdd"
+    },
+    {
+      "bytes": 291,
+      "file": "EXECUTIVE_WALKTHROUGH_NOTES.md",
+      "sha256": "f6a18f5c180cead86969d21d2a5645b30867b090678d38f86346be48a2fe629d"
+    },
+    {
+      "bytes": 3609,
+      "file": "hero_neighbourhood_replay_event_route_animation_r3.usda",
+      "sha256": "c1bad88d093e055b5a04134786dcec1a6ecd90865c21b30923a5b63806b590bd"
+    },
+    {
+      "bytes": 6223,
+      "file": "INPUT_ARTIFACT_INDEX.json",
+      "sha256": "390999b0704716fd556cb675433a8bbcaacf00d7290a2de011c2dc0cb3c30e1d"
+    },
+    {
+      "bytes": 730,
+      "file": "LOCAL_OPEN_INDEX.md",
+      "sha256": "edbbf1221c431870124ba9ab841902bcbd1d140c415430ffd1161e089802650c"
+    },
+    {
+      "bytes": 1433,
+      "file": "MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REPLAY_EVENT_ROUTE_ANIMATION_R3_DECISION.json",
+      "sha256": "a22ac670914bf6fbf7300f8aefc4a9c1fb2a8e00dfe8520bb2f08978bb2d6c7b"
+    },
+    {
+      "bytes": 251,
+      "file": "NO_ACTION_BOUNDARY_AUDIT.json",
+      "sha256": "e537bce97852a6a8511cdd0f2ec23728d1380e8a420100da404564926fd24242"
+    },
+    {
+      "bytes": 824,
+      "file": "NO_MUTATION_AUDIT.json",
+      "sha256": "77c87b1e5abb6a268c1920085242001ebece0fe38a2abd1345ef6a7db99f188b"
+    },
+    {
+      "bytes": 309,
+      "file": "OPERATOR_WALKTHROUGH_NOTES.md",
+      "sha256": "e9a03758a799e9532bbc4e09f3c994a814a227a04899b7e4b730e87ae94aee8f"
+    },
+    {
+      "bytes": 535,
+      "file": "README.md",
+      "sha256": "1843cccc546ee8f7beb568b742000f9dfb6ac687dc5e76c44d6661f7b613ec79"
+    },
+    {
+      "bytes": 2568,
+      "file": "REPLAY_EVENT_ROUTE_ANIMATION_FRAMES.jsonl",
+      "sha256": "c342539caff8644db11874f62edd41ce984501ba7acf26aa8a9e60c956f5e970"
+    },
+    {
+      "bytes": 3776,
+      "file": "REPLAY_EVENT_ROUTE_ANIMATION_TIMELINE.json",
+      "sha256": "e732035c9a58485c5125707f1085867f3a8cae870dfd8ad7db4dff571a23b5a1"
+    },
+    {
+      "bytes": 142,
+      "file": "SECRET_AUDIT.json",
+      "sha256": "f02ebca2011c52c4655e3a49ce44c1a20c70dd2f9705c950974af113fd2ed725"
+    },
+    {
+      "bytes": 327,
+      "file": "VALIDATION_REPORT.json",
+      "sha256": "443378966a45e47462685c0b70972c7f26ba89b620929b6abe247ba80bb64911"
+    }
+  ],
+  "generated_at": "2026-06-30T21:43:50Z",
+  "status": "PASS"
+}

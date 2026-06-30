@@ -1,0 +1,9 @@
+{
+  "autonomous_agent_language_detected": false,
+  "persona_count": 4,
+  "same_evidence_scope_for_all": true,
+  "same_limitations_for_all": true,
+  "same_non_blocking_gaps_for_all": true,
+  "separate_truth_paths_detected": false,
+  "status": "PASS"
+}

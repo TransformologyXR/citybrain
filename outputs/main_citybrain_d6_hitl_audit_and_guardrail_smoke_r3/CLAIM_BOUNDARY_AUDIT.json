@@ -1,0 +1,13 @@
+{
+  "boundary_terms": {
+    "human_in_loop": true,
+    "local_replay": true,
+    "no_upstream_mutation": true,
+    "not_action": true,
+    "proposal_only": true
+  },
+  "no_action_taken": true,
+  "positive_claim_hits": [],
+  "status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-HITL-AUDIT-AND-GUARDRAIL-SMOKE-R3"
+}

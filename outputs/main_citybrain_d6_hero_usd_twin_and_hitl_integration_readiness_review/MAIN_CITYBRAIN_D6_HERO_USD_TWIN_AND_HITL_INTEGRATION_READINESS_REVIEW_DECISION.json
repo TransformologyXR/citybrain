@@ -1,0 +1,29 @@
+{
+  "alternative_next_task_if_packaging_priority": "MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-COLLATERAL-PACK-R1",
+  "blocking_gaps_count": 0,
+  "claim_boundary": "This is a read-only bounded Hero Neighbourhood local/replay integration-readiness review. It is not production readiness, public API readiness, live autonomous monitoring, alert push, dispatch, routing/control, enforcement, legal/certified finding, official incident confirmation, official case/ticket creation, automated execution, citywide certified twin, full physical accuracy, or real-time operational control.",
+  "claim_boundary_status": "PASS",
+  "control_room_to_usd_twin_status": "PASS",
+  "final_status": "PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_AND_HITL_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS",
+  "hash_validation_status": "PASS",
+  "hitl_guardrail_carry_forward_status": "PASS",
+  "no_action_boundary_status": "PASS",
+  "no_mutation_status": "PASS",
+  "non_blocking_gaps": [
+    "Earlier Hero/D6 local running artifacts use local scenario labels; bridge is supported by bounded LON corridor replay context.",
+    "Exact certified physical geometry is not asserted; Track A keeps accepted/available footprint representation within limitations.",
+    "Track P product packaging/persona/collateral outputs were optional and not required for this readiness gate."
+  ],
+  "non_blocking_gaps_count": 3,
+  "omniverse_readiness_status": "PASS",
+  "operator_surface_readiness_status": "PASS",
+  "output_root": "outputs/main_citybrain_d6_hero_usd_twin_and_hitl_integration_readiness_review",
+  "recommended_next_task": "MAIN-CITYBRAIN-D6-HERO-USD-TWIN-HITL-CONTROL-ROOM-DEMO-R2",
+  "secret_audit_status": "PASS",
+  "shared_scenario_alignment_status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-HERO-USD-TWIN-AND-HITL-INTEGRATION-READINESS-REVIEW",
+  "upstreams_found": 10,
+  "upstreams_required": 10,
+  "usd_twin_to_hitl_status": "PASS",
+  "web_companion_readiness_status": "PASS"
+}

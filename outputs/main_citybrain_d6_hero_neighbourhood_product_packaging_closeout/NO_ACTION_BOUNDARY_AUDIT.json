@@ -1,0 +1,7 @@
+{
+  "action_instruction_count": 0,
+  "action_instructions": [],
+  "policy": "Collateral may recommend safe next-look review only; it must not create action, alerting, dispatch, enforcement, or execution language.",
+  "status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-PRODUCT-PACKAGING-CLOSEOUT"
+}

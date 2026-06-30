@@ -1,0 +1,5 @@
+# Positioning Line
+
+CityBrain Hero Neighbourhood Control Room Reference Demo - a bounded local/replay operator-surface proof linking incident context, canonical relationship contracts, Omniverse spatial handoff, web evidence, and persona-rendered review views.
+
+Track P is packaging and narrative only. It packages a bounded local/replay Hero Neighbourhood control-room reference demo for review/query context. It does not claim production readiness, public API readiness, live monitoring, autonomous incident detection, alert push, dispatch, routing/control, enforcement, official ticket/case creation, legal/certified incident findings, a citywide certified twin, physical accuracy, or automated action.

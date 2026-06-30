@@ -1,0 +1,78 @@
+{
+  "file_count": 14,
+  "files": [
+    {
+      "bytes": 480,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/ACCEPTANCE_MATRIX.json",
+      "sha256": "c45f028a8d1c70aef0739059f38ff9e1382a21caad38260424670cec8662cb45"
+    },
+    {
+      "bytes": 602,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/ACTION_LIFECYCLE_PLAN.json",
+      "sha256": "d74676a784a9428ea1b43d8fc81e1943b7a17f60a9b11d7bd84c579f608d4940"
+    },
+    {
+      "bytes": 838,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/ACTION_PROPOSAL_CONTRACT_PLAN.json",
+      "sha256": "a17c09efc1a84f2ab28e2ff39b0c9bdca6f2c70569d09b746368945edaea8452"
+    },
+    {
+      "bytes": 310,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/CLAIM_BOUNDARY_AUDIT.json",
+      "sha256": "8bf22760b556887d4e4c6d1df95af7968d3b6de033c8f75050ea3a9931cc79ce"
+    },
+    {
+      "bytes": 655,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/LOCAL_OPEN_INDEX.md",
+      "sha256": "38be1ae32a4cbc8a37d4b74ae346bfe8cbb2014b2c4f924c07b7bf73af19dcc9"
+    },
+    {
+      "bytes": 1415,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_PREFLIGHT_DECISION.json",
+      "sha256": "c9199b7c288b1c1ca6c3040350072aec4547da21f395a99908122be3b4fc46c4"
+    },
+    {
+      "bytes": 363,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/NEGATIVE_TEST_PLAN.json",
+      "sha256": "9cab25245ea3efb0bf7d36992ed5f343a9450c437292820657fe91a439ebffc4"
+    },
+    {
+      "bytes": 238,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/NO_ACTION_BOUNDARY_AUDIT.json",
+      "sha256": "a330aac460f09ea324be372380dff2234d5870553d74a123aed886a8217556ee"
+    },
+    {
+      "bytes": 211,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/NO_MUTATION_AUDIT.json",
+      "sha256": "b4fe710336d5b5f7dab6cc16199f2b472a3bf177272753d3d055de3d4ced7251"
+    },
+    {
+      "bytes": 279,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/OPERATOR_SURFACE_PANEL_PLAN.json",
+      "sha256": "77030a47a1f8e2ba24185a3bd8d6e9852c865c707caa5b51571dcd6595b5896c"
+    },
+    {
+      "bytes": 492,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/README.md",
+      "sha256": "4bb2833da8ea279ff28d85f054090f382643c1aec1ae3b31dbecd748de11f16b"
+    },
+    {
+      "bytes": 130,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/SECRET_AUDIT.json",
+      "sha256": "b5ad06f5a3a60da02314513a03488f699ea7da411697b3f7f17956a77c8ef790"
+    },
+    {
+      "bytes": 50872,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/UPSTREAM_ARTIFACT_INDEX.json",
+      "sha256": "6ae7becc260bce46fe32f74ef0f6b5ef2db1ad964fe510e1ae4e7272fa249ed5"
+    },
+    {
+      "bytes": 209,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_preflight/UPSTREAM_STATUS_SUMMARY.json",
+      "sha256": "853e3c61502c7c103aa4d9f3b7569bcb779952bc6d34bf48441fe38fe3ee2dad"
+    }
+  ],
+  "generated_at_utc": "2026-06-30T21:43:20Z",
+  "hash_validation_status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-HITL-REVIEWED-ACTION-PREFLIGHT"
+}

@@ -1,0 +1,125 @@
+{
+  "personas": [
+    {
+      "detail_level": "summary",
+      "framing": "Concise outcome/status summary for a reviewer or sponsor.",
+      "must_not_show": [
+        "no operational command language",
+        "no action instructions"
+      ],
+      "must_show": [
+        "limitations",
+        "non_blocking_gaps",
+        "no production/action/certified-twin claim"
+      ],
+      "persona": "Executive",
+      "policy_id": "track-p-persona-executive-r1",
+      "view_emphasis": [
+        "what is proven",
+        "what remains limited",
+        "bounded local/replay status"
+      ]
+    },
+    {
+      "detail_level": "operational review context",
+      "framing": "Packet-oriented review view for inspecting the same frozen evidence.",
+      "must_not_show": [
+        "no alert language",
+        "no dispatch language",
+        "no enforcement language",
+        "no automatic workflow language"
+      ],
+      "must_show": [
+        "safe next-look framing",
+        "limitations",
+        "unresolved/quarantined contexts"
+      ],
+      "persona": "Operator",
+      "policy_id": "track-p-persona-operator-r1",
+      "view_emphasis": [
+        "operator-surface packets",
+        "affected entities",
+        "overlays",
+        "unresolved/quarantined contexts"
+      ]
+    },
+    {
+      "detail_level": "contextual",
+      "framing": "Spatial/contextual implications and scenario/corridor interpretation.",
+      "must_not_show": [
+        "no prediction claim",
+        "no plan execution claim",
+        "no physical accuracy claim"
+      ],
+      "must_show": [
+        "local/replay status",
+        "evidence-backed scope",
+        "limitations"
+      ],
+      "persona": "Planner",
+      "policy_id": "track-p-persona-planner-r1",
+      "view_emphasis": [
+        "Omniverse handoff",
+        "graph/edge context",
+        "scene-bound corridor framing"
+      ]
+    },
+    {
+      "detail_level": "detailed",
+      "framing": "Evidence refs, limitation refs, validation/audit state, and compatibility notes.",
+      "must_not_show": [
+        "no unsupported conclusion",
+        "no separate truth path"
+      ],
+      "must_show": [
+        "claim labels",
+        "validation status",
+        "unresolved/quarantined preservation"
+      ],
+      "persona": "Analyst",
+      "policy_id": "track-p-persona-analyst-r1",
+      "view_emphasis": [
+        "manifest rows",
+        "evidence/limitation trace",
+        "audit statuses",
+        "non-blocking gaps"
+      ]
+    }
+  ],
+  "schema_version": "citybrain-track-p-persona-policy-r1",
+  "shared_invariants": {
+    "evidence_scope": {
+      "hero_bindings": 8,
+      "hero_overlay_packets": 8,
+      "manifest_rows": 45,
+      "operator_surface_packets": 6,
+      "unresolved_quarantined_preserved": 21,
+      "web_companion_packets": 6
+    },
+    "limitations": [
+      "bounded hero-neighbourhood control-room reference demo only",
+      "local/replay review/query context only",
+      "artifact/package review only where live screenshots are not already available",
+      "Omniverse/Kit/Composer handoff is metadata and operator-surface context, not a certified citywide twin",
+      "web companion remains a local companion evidence/episode surface context",
+      "CER/SEG v2 compatibility is consumed from green upstream outputs; no new canonical identity system is created",
+      "unresolved and quarantined contexts remain visible and are not promoted",
+      "scene/source/operator refs remain scene-binding context unless already supported by upstream canonical evidence",
+      "no production readiness, public API readiness, live monitoring, autonomous incident detection, alert push, dispatch, routing/control, enforcement, official ticket/case creation, legal/certified incident finding, citywide certified twin, physical accuracy, or automated action claim"
+    ],
+    "non_blocking_gaps": [
+      "visual acceptance is artifact/package review only; no new screenshot required",
+      "Omniverse USDA remains metadata/sidecar handoff, not a certified citywide twin",
+      "CER/SEG entity compatibility has one upstream non-blocking finding preserved from readiness review"
+    ],
+    "prohibited_transformations": [
+      "cannot omit limitations",
+      "cannot promote unresolved/quarantined context to confirmed truth",
+      "cannot convert safe-next-look review into an action instruction",
+      "cannot imply live monitoring or alerting",
+      "cannot claim a certified citywide twin"
+    ],
+    "truth_policy": "All personas render the same evidence, packets, limitations, unresolved/quarantined contexts, and claim boundaries.",
+    "visual_acceptance_status": "PASS_ARTIFACT_PACKAGE_REVIEW_ONLY"
+  }
+}

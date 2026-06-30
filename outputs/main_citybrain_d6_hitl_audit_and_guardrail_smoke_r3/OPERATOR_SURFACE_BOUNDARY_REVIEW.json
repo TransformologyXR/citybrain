@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "track_a_overlay_mutation": false,
+  "track_d_packet_family": "track_d_hitl_reviewed_action_panel",
+  "user_facing_notes_boundary": "Operator panel notes present only proposal, review, evidence, limitation, and blocked-policy states."
+}

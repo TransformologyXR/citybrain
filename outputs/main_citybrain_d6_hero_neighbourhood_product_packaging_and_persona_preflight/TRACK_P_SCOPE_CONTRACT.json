@@ -1,0 +1,17 @@
+{
+  "boundary": "Track P is packaging and narrative only. It packages a bounded local/replay Hero Neighbourhood control-room reference demo for review/query context. It does not claim production readiness, public API readiness, live monitoring, autonomous incident detection, alert push, dispatch, routing/control, enforcement, official ticket/case creation, legal/certified incident findings, a citywide certified twin, physical accuracy, or automated action.",
+  "capture_dependency": "Final video/collateral capture should wait until Persona R1 is green.",
+  "collateral_scope": "Collateral carries forward frozen demo facts, limitations, unresolved/quarantined contexts, and non-blocking gaps.",
+  "non_blocking_gaps": [
+    "visual acceptance is artifact/package review only; no new screenshot required",
+    "Omniverse USDA remains metadata/sidecar handoff, not a certified citywide twin",
+    "CER/SEG entity compatibility has one upstream non-blocking finding preserved from readiness review"
+  ],
+  "parallel_lanes": "Track A and Track D may be future/deepening lanes, but they are not Track P dependencies.",
+  "persona_scope": "Personas are deterministic rendering policies over the same evidence bundle and packets.",
+  "persona_truth_policy": "Persona policies must not create separate agents or separate truth paths.",
+  "scope": "Track P is packaging and narrative, not new platform functionality.",
+  "status": "SCOPE_DEFINED",
+  "task_name": "MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-PRODUCT-PACKAGING-AND-PERSONA-PREFLIGHT",
+  "unresolved_quarantined_preserved_count": 21
+}

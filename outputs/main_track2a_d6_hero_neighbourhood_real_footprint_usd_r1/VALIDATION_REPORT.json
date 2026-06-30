@@ -1,0 +1,11 @@
+{
+  "all_bindings_have_evidence_and_limitations": true,
+  "all_prim_paths_unique": true,
+  "checked_at": "2026-06-30T21:43:48Z",
+  "missing_files": [],
+  "prim_or_scene_refs_promoted_to_canonical_ids": false,
+  "required_file_count": 10,
+  "status": "PASS",
+  "usd_deterministic_text": true,
+  "usd_exists": true
+}

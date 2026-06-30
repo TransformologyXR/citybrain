@@ -1,0 +1,63 @@
+{
+  "prim_count": 8,
+  "prim_paths": [
+    {
+      "binding_scope": "canonical_bound",
+      "canonical_entity_ref": "corridor",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/001_lon_corridor_scene_focus",
+      "source_binding_id": "hero-neighbourhood-r1-binding-001",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/001_lon_corridor_scene_focus"
+    },
+    {
+      "binding_scope": "canonical_bound",
+      "canonical_entity_ref": "event-fabric-r2-mobility-108",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/002_lon_mobility_event_overlay_marker",
+      "source_binding_id": "hero-neighbourhood-r1-binding-002",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/002_lon_mobility_event_overlay"
+    },
+    {
+      "binding_scope": "canonical_bound",
+      "canonical_entity_ref": "data-first-placeholder:lon:asset_data_first_placeholder_2",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/003_lon_placeholder_asset_scene_binding",
+      "source_binding_id": "hero-neighbourhood-r1-binding-003",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/003_lon_placeholder_asset_context"
+    },
+    {
+      "binding_scope": "operator_context",
+      "canonical_entity_ref": "r6-event-064",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/004_directly_resolved_incident_review_panel",
+      "source_binding_id": "hero-neighbourhood-r1-binding-004",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/004_directly_resolved_incident_context"
+    },
+    {
+      "binding_scope": "unresolved_preserved",
+      "canonical_entity_ref": "144654",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/005_unresolved_incident_review_panel",
+      "source_binding_id": "hero-neighbourhood-r1-binding-005",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/005_unresolved_incident_context"
+    },
+    {
+      "binding_scope": "quarantined_preserved",
+      "canonical_entity_ref": "not_available_in_upstream_fixture",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/006_quarantined_incident_review_panel",
+      "source_binding_id": "hero-neighbourhood-r1-binding-006",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/006_quarantined_or_invalid_context"
+    },
+    {
+      "binding_scope": "operator_context",
+      "canonical_entity_ref": "r6-event-064",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/007_omniverse_operator_overlay_handoff_panel",
+      "source_binding_id": "hero-neighbourhood-r1-binding-007",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/007_omniverse_overlay_target_context"
+    },
+    {
+      "binding_scope": "operator_context",
+      "canonical_entity_ref": "r6-event-064",
+      "prim_path": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/008_web_companion_handoff_panel",
+      "source_binding_id": "hero-neighbourhood-r1-binding-008",
+      "source_stable_prim_path": "/World/CityBrainHeroNeighbourhoodR1/Bindings/008_web_companion_context"
+    }
+  ],
+  "prim_paths_unique": true,
+  "status": "PASS"
+}

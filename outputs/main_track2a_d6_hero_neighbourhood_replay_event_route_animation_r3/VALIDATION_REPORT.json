@@ -1,0 +1,11 @@
+{
+  "autonomous_monitoring_claim_absent": true,
+  "checked_at": "2026-06-30T21:43:50Z",
+  "limitation_labels_in_notes": true,
+  "missing_files": [],
+  "required_file_count": 8,
+  "route_control_or_dispatch_implied": false,
+  "shared_scenario_referenced": true,
+  "status": "PASS",
+  "timeline_deterministic": true
+}

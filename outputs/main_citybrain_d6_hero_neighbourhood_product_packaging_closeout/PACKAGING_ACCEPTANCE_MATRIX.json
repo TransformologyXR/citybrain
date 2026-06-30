@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "check": "P0 preflight green",
+      "passed": true
+    },
+    {
+      "check": "Persona R1 green",
+      "passed": true
+    },
+    {
+      "check": "Collateral Pack R1 green",
+      "passed": true
+    },
+    {
+      "check": "Four personas exist",
+      "passed": true
+    },
+    {
+      "check": "Collateral manifest exists",
+      "passed": true
+    },
+    {
+      "check": "Walkthrough scripts exist",
+      "passed": true
+    },
+    {
+      "check": "Capture checklist exists",
+      "passed": true
+    },
+    {
+      "check": "Claim-label audit exists",
+      "passed": true
+    },
+    {
+      "check": "Limitations include unresolved/quarantined and non-blocking gaps",
+      "passed": true
+    },
+    {
+      "check": "Repo README draft exists",
+      "passed": true
+    },
+    {
+      "check": "No over-claiming",
+      "passed": true
+    },
+    {
+      "check": "No upstream mutation",
+      "passed": true
+    }
+  ],
+  "required_upstreams_found": 5,
+  "required_upstreams_total": 5,
+  "status": "PASS"
+}

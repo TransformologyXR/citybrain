@@ -1,0 +1,92 @@
+{
+  "blocked_event_count": 8,
+  "events": [
+    {
+      "audit_event_id": "blocked-negative-auto-execute",
+      "block_reasons": [
+        "auto_execute_request",
+        "forbidden_proposal_type:execute_now"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-auto-execute"
+    },
+    {
+      "audit_event_id": "blocked-negative-dispatch",
+      "block_reasons": [
+        "dispatch_shaped_request",
+        "forbidden_proposal_type:dispatch"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-dispatch"
+    },
+    {
+      "audit_event_id": "blocked-negative-enforcement",
+      "block_reasons": [
+        "enforcement_shaped_request",
+        "forbidden_proposal_type:enforce"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-enforcement"
+    },
+    {
+      "audit_event_id": "blocked-negative-route-control",
+      "block_reasons": [
+        "forbidden_proposal_type:control_route",
+        "routing_control_command"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-route-control"
+    },
+    {
+      "audit_event_id": "blocked-negative-ticket-case",
+      "block_reasons": [
+        "forbidden_proposal_type:issue_ticket",
+        "official_ticket_case_creation"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-ticket-case"
+    },
+    {
+      "audit_event_id": "blocked-negative-legal-certified",
+      "block_reasons": [
+        "forbidden_proposal_type:legal_finding",
+        "legal_certified_finding"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-legal-certified"
+    },
+    {
+      "audit_event_id": "blocked-negative-live-alert",
+      "block_reasons": [
+        "live_alert_push"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-live-alert"
+    },
+    {
+      "audit_event_id": "blocked-negative-production-api",
+      "block_reasons": [
+        "production_public_api_claim"
+      ],
+      "logged": true,
+      "no_action_taken": true,
+      "status": "BLOCKED",
+      "test_id": "negative-production-api"
+    }
+  ],
+  "status": "PASS"
+}

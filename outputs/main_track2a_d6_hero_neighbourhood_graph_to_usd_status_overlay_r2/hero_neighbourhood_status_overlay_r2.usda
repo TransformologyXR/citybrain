@@ -1,0 +1,74 @@
+#usda 1.0
+(
+    doc = "CityBrain Track A graph-to-USD review-safe status overlay R2; local/replay review context only"
+)
+
+def Xform "CityBrainHeroNeighbourhoodStatusOverlayR2"
+{
+    custom string citybrain:scenarioId = "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001"
+    custom string citybrain:claimBoundary = "\"Track A is a bounded Hero Neighbourhood local/replay review-context spatial proof. It is not production Omniverse deployment, public API readiness, live/autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case creation, legal/certified conclusion, automated action, citywide twin, or certified digital twin.\""
+    def Xform "Status_001_event_replay_context"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-001"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/001_lon_corridor_scene_focus"
+        custom string citybrain:reviewSafeStatus = "event_replay_context"
+        custom color4f citybrain:displayColor = (0.950, 0.610, 0.180, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_002_review_context_active"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-002"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/002_lon_mobility_event_overlay_marker"
+        custom string citybrain:reviewSafeStatus = "review_context_active"
+        custom color4f citybrain:displayColor = (0.170, 0.450, 0.950, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_003_review_context_active"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-003"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/003_lon_placeholder_asset_scene_binding"
+        custom string citybrain:reviewSafeStatus = "review_context_active"
+        custom color4f citybrain:displayColor = (0.170, 0.450, 0.950, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_004_operator_review_context"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-004"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/004_directly_resolved_incident_review_panel"
+        custom string citybrain:reviewSafeStatus = "operator_review_context"
+        custom color4f citybrain:displayColor = (0.160, 0.620, 0.420, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_005_unresolved_preserved"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-005"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/005_unresolved_incident_review_panel"
+        custom string citybrain:reviewSafeStatus = "unresolved_preserved"
+        custom color4f citybrain:displayColor = (0.620, 0.550, 0.700, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_006_quarantined_preserved"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-006"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/006_quarantined_incident_review_panel"
+        custom string citybrain:reviewSafeStatus = "quarantined_preserved"
+        custom color4f citybrain:displayColor = (0.760, 0.300, 0.300, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_007_operator_review_context"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-007"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/007_omniverse_operator_overlay_handoff_panel"
+        custom string citybrain:reviewSafeStatus = "operator_review_context"
+        custom color4f citybrain:displayColor = (0.160, 0.620, 0.420, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+    def Xform "Status_008_operator_review_context"
+    {
+        custom string citybrain:overlayId = "graph-to-usd-status-overlay-r2-008"
+        custom string citybrain:targetPrimPath = "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1/Footprints/008_web_companion_handoff_panel"
+        custom string citybrain:reviewSafeStatus = "operator_review_context"
+        custom color4f citybrain:displayColor = (0.160, 0.620, 0.420, 1.000)
+        custom bool citybrain:noActionTaken = true
+    }
+}

@@ -1,0 +1,73 @@
+{
+  "artifact_backed": true,
+  "findings": [
+    {
+      "artifact_evidence_refs": [
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/NEGATIVE_GUARDRAIL_TEST_RESULTS.json",
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/BLOCKED_ACTION_AUDIT_LOG.json"
+      ],
+      "matching_test_ids": [
+        "negative-auto-execute"
+      ],
+      "negative_test_family": "auto_execute",
+      "status": "PASS"
+    },
+    {
+      "artifact_evidence_refs": [
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/NEGATIVE_GUARDRAIL_TEST_RESULTS.json",
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/BLOCKED_ACTION_AUDIT_LOG.json"
+      ],
+      "matching_test_ids": [
+        "negative-dispatch"
+      ],
+      "negative_test_family": "dispatch",
+      "status": "PASS"
+    },
+    {
+      "artifact_evidence_refs": [
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/NEGATIVE_GUARDRAIL_TEST_RESULTS.json",
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/BLOCKED_ACTION_AUDIT_LOG.json"
+      ],
+      "matching_test_ids": [
+        "negative-enforcement"
+      ],
+      "negative_test_family": "enforcement",
+      "status": "PASS"
+    },
+    {
+      "artifact_evidence_refs": [
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/NEGATIVE_GUARDRAIL_TEST_RESULTS.json",
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/BLOCKED_ACTION_AUDIT_LOG.json"
+      ],
+      "matching_test_ids": [
+        "negative-legal-certified"
+      ],
+      "negative_test_family": "legal_certified",
+      "status": "PASS"
+    },
+    {
+      "artifact_evidence_refs": [
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/NEGATIVE_GUARDRAIL_TEST_RESULTS.json",
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/BLOCKED_ACTION_AUDIT_LOG.json"
+      ],
+      "matching_test_ids": [
+        "negative-route-control"
+      ],
+      "negative_test_family": "routing_control",
+      "status": "PASS"
+    },
+    {
+      "artifact_evidence_refs": [
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/NEGATIVE_GUARDRAIL_TEST_RESULTS.json",
+        "outputs/main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3/BLOCKED_ACTION_AUDIT_LOG.json"
+      ],
+      "matching_test_ids": [
+        "negative-live-alert"
+      ],
+      "negative_test_family": "alert_autonomous_monitoring",
+      "status": "PASS"
+    }
+  ],
+  "missing_or_unproven_negative_test_families": [],
+  "status": "PASS"
+}

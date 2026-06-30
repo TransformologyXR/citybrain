@@ -1,0 +1,63 @@
+{
+  "file_count": 11,
+  "files": [
+    {
+      "bytes": 17894,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/ARTIFACT_INDEX.json",
+      "sha256": "c8b33dcfff1ff1aa626d8da6e753da65576cc36f22f4a8fd2723f89be34d4e6a"
+    },
+    {
+      "bytes": 317,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/CLAIM_BOUNDARY_AUDIT.json",
+      "sha256": "2b41ca5b480e76c43447e497079051ef77cf5037ae6a34c215f1b348d8f380f8"
+    },
+    {
+      "bytes": 563,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/FROZEN_TRUTH_REGISTER.md",
+      "sha256": "e4ae05662005b09f865afb7ec2bd97d5096db1271ce1758143465060d404babb"
+    },
+    {
+      "bytes": 516,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/LIMITATIONS_LEDGER.md",
+      "sha256": "86ad14762dee5be47a2430e1aed3f8f2d4c07848091ceff04397fd9d0987ee91"
+    },
+    {
+      "bytes": 609,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/LOCAL_OPEN_INDEX.md",
+      "sha256": "3245a2aba40e167b148700cea9edc951aaedb81defc40689f8572169bc633eef"
+    },
+    {
+      "bytes": 1629,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_MILESTONE_FREEZE_DECISION.json",
+      "sha256": "ee1725ebc2126b7ee1d9d94faf150732c8248526514529dd2daef3d661673888"
+    },
+    {
+      "bytes": 222,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/NEXT_TRACK_OPTIONS.md",
+      "sha256": "5d1a893e39add1c8497157fcbf3938fa49305aa6287fd4b14c922ff97cc55670"
+    },
+    {
+      "bytes": 245,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/NO_ACTION_BOUNDARY_AUDIT.json",
+      "sha256": "8a1f122569133d9f314e7680f7b3e270c0d002ef4cb0777d423d3d708a134a27"
+    },
+    {
+      "bytes": 218,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/NO_MUTATION_AUDIT.json",
+      "sha256": "18966386bf2c9571062b1d9c31f9f1676ba6f8d46d48aa250349c526f028e99b"
+    },
+    {
+      "bytes": 583,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/README.md",
+      "sha256": "936b42bca8c89ef247334b0465757171cd40eea790185dfd435c024eabec6453"
+    },
+    {
+      "bytes": 137,
+      "path": "outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/SECRET_AUDIT.json",
+      "sha256": "1bac680a383aec7843533388628d8ccba0107138c0a08330fbe25f2a0094d85f"
+    }
+  ],
+  "generated_at_utc": "2026-06-30T21:43:22Z",
+  "hash_validation_status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-HITL-REVIEWED-ACTION-MILESTONE-FREEZE"
+}

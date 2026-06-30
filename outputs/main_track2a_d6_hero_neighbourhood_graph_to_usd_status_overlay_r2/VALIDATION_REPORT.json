@@ -1,0 +1,10 @@
+{
+  "cerseg_compatibility_passed": true,
+  "checked_at": "2026-06-30T21:43:49Z",
+  "evidence_limitation_trace_complete": true,
+  "forbidden_statuses_absent": true,
+  "missing_files": [],
+  "overlay_statuses_allowed": true,
+  "required_file_count": 9,
+  "status": "PASS"
+}

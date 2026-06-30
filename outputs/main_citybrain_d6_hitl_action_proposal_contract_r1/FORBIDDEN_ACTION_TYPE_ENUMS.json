@@ -1,0 +1,13 @@
+{
+  "forbidden_proposal_types": [
+    "dispatch",
+    "enforce",
+    "control_route",
+    "execute_now",
+    "issue_ticket",
+    "legal_finding",
+    "certified_incident"
+  ],
+  "policy": "Forbidden proposal types are rejected before lifecycle entry and logged in R3.",
+  "status": "PASS"
+}

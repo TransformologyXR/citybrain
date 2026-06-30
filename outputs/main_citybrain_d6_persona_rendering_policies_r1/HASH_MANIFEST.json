@@ -1,0 +1,104 @@
+{
+  "failures": [],
+  "file_count": 19,
+  "files": [
+    {
+      "bytes": 1074,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/ANALYST_VIEW_POLICY.md",
+      "sha256": "f4cbe11b96b236d93e9ca8234b61bd795db841a7031c4b6a2bd13de1fe45dd53"
+    },
+    {
+      "bytes": 1024,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/CLAIM_BOUNDARY_AUDIT.json",
+      "sha256": "80248a87dad9d70c45fa65b9463153f1ba21d38c6597e50a34299c7d67e6bff7"
+    },
+    {
+      "bytes": 1054,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/EXECUTIVE_VIEW_POLICY.md",
+      "sha256": "6216440fe0629d7fdf1b689e5052aed180048d39beb18ade4bdb72fd1f7c66dc"
+    },
+    {
+      "bytes": 1950,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/LOCAL_OPEN_INDEX.md",
+      "sha256": "aac8234888a9bd5dbfa489001eab0c8432822d3e211c4fae983b3cdd99891dd5"
+    },
+    {
+      "bytes": 1580,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/MAIN_CITYBRAIN_D6_PERSONA_RENDERING_POLICIES_R1_DECISION.json",
+      "sha256": "ea88a147638fae6c703f6a81466ef64d025662a5ea86fed1737b96db2840c68a"
+    },
+    {
+      "bytes": 302,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/NO_ACTION_BOUNDARY_AUDIT.json",
+      "sha256": "902573fc2a1f390fccf841e43d08f9d4768d5179a21cceb33bacffd59307d0df"
+    },
+    {
+      "bytes": 240,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/NO_MUTATION_AUDIT.json",
+      "sha256": "c2906d93693ad4e45d9b7814c9e18c91d5a138faa6b46ff2c60ad4a6f9ce4abf"
+    },
+    {
+      "bytes": 1142,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/OPERATOR_VIEW_POLICY.md",
+      "sha256": "1ddfcefc51ca89d65bbb481fa215b9818ec2c594607d07bcf8279c370ea2d058"
+    },
+    {
+      "bytes": 365,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_BOUNDARY_AUDIT.json",
+      "sha256": "d1a536305012eb1afc1ff3f6eef32b3ca1246899e850a51f7a431b2148ced0c8"
+    },
+    {
+      "bytes": 251,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_DRIFT_AUDIT.json",
+      "sha256": "48be6c2bbc517c56988c21200692ca759dcf45508608e43a6500c97143c83c48"
+    },
+    {
+      "bytes": 4703,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_POLICIES.json",
+      "sha256": "2ae4a024b477f2989f701c315326001113cd651e0a33f084b788332fd0fce03d"
+    },
+    {
+      "bytes": 1116,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_POLICIES.md",
+      "sha256": "b9ee85d3bd42b0ef0f349a3fd8a6d49bb97b2dba99b884a71e3b4c27fc3037ff"
+    },
+    {
+      "bytes": 387,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_POLICY_SCHEMA.json",
+      "sha256": "fa8c3990681df46977cf4e0f7cbaac8eb7aa3ee93319e444be71ec3a6b3a4240"
+    },
+    {
+      "bytes": 1044,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_RENDERING_FIXTURE_RESULTS.json",
+      "sha256": "4b5deecfef43bf7c293e8e962358b48b4724c486a9d471fc02805b9f51015bd3"
+    },
+    {
+      "bytes": 790,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PERSONA_RENDERING_FIXTURES.json",
+      "sha256": "13095b4bf017235daedf1faa88697a9afd77f2ff0359ab4f9bb7f8b08d3e026f"
+    },
+    {
+      "bytes": 1067,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/PLANNER_VIEW_POLICY.md",
+      "sha256": "434079c9683862ac369a4571af9f3b316389a2a2c858b6e7297e1c046002eb8b"
+    },
+    {
+      "bytes": 2227,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/README.md",
+      "sha256": "ac7ac43a22bfc6156db2055fa36fb7dff3f484dbd6ef8df78cf16fb8e76b9212"
+    },
+    {
+      "bytes": 129,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/SECRET_AUDIT.json",
+      "sha256": "df830d2f36b7c3113ce0260685ea1b100305a8420f174737783c7981a51bf010"
+    },
+    {
+      "bytes": 2443,
+      "path": "outputs/main_citybrain_d6_persona_rendering_policies_r1/SHARED_EVIDENCE_INVARIANTS.md",
+      "sha256": "0f56fac0357d830fa20ad44cd00455e377d9fb8080c207af75cf631b7f4c9d0f"
+    }
+  ],
+  "hash_validation_status": "PASS",
+  "task_name": "MAIN-CITYBRAIN-D6-PERSONA-RENDERING-POLICIES-R1",
+  "timestamp": "2026-06-30T21:48:37Z"
+}

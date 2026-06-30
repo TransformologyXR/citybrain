@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "missing_or_not_green": [],
+    "missing_or_not_green_count": 0,
+    "required_upstreams_found": 7,
+    "required_upstreams_total": 7,
+    "status": "PASS"
+  },
+  "upstreams": [
+    {
+      "decision_file": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS",
+      "file_count": 27,
+      "green": true,
+      "key": "hero_reference_demo_r1",
+      "role": "frozen Hero Neighbourhood control-room reference demo",
+      "root": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1",
+      "status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_WITH_LIMITATIONS",
+      "file_count": 23,
+      "green": true,
+      "key": "hero_reference_demo_closeout_r1",
+      "role": "frozen demo closeout",
+      "root": "outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1",
+      "status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS",
+      "file_count": 27,
+      "green": true,
+      "key": "hero_cerseg_integration_readiness",
+      "role": "Hero + CER/SEG v2 integration-readiness review",
+      "root": "outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review",
+      "status": "PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS"
+    },
+    {
+      "decision_file": "outputs/main_track2a_d5_hero_neighbourhood_scene_pack_closeout/MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_WITH_LIMITATIONS",
+      "file_count": 17,
+      "green": true,
+      "key": "hero_scene_pack_closeout",
+      "role": "Hero Neighbourhood scene pack closeout",
+      "root": "outputs/main_track2a_d5_hero_neighbourhood_scene_pack_closeout",
+      "status": "PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_WITH_LIMITATIONS"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS",
+      "file_count": 16,
+      "green": true,
+      "key": "cerseg_cross_city_v2_closeout",
+      "role": "CER/SEG v2 closeout",
+      "root": "outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout",
+      "status": "PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_incident_mode_closeout/MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_WITH_LIMITATIONS",
+      "file_count": 20,
+      "green": true,
+      "key": "incident_mode_closeout",
+      "role": "Incident Mode closeout",
+      "root": "outputs/main_citybrain_d6_incident_mode_closeout",
+      "status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_WITH_LIMITATIONS"
+    },
+    {
+      "decision_file": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS",
+      "file_count": 25,
+      "green": true,
+      "key": "incident_track2a_operator_surface_handoff_r4",
+      "role": "Incident Mode operator-surface handoff",
+      "root": "outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4",
+      "status": "PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS"
+    }
+  ]
+}

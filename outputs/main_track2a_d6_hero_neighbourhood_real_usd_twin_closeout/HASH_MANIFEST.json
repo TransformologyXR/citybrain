@@ -1,0 +1,93 @@
+{
+  "algorithm": "sha256",
+  "file_count": 17,
+  "files": [
+    {
+      "bytes": 828,
+      "file": "ACCEPTANCE_MATRIX.json",
+      "sha256": "a6173cb784d63d304aa218d6c71db04969eb07a808debd36bcd579bcec715679"
+    },
+    {
+      "bytes": 644,
+      "file": "CLAIM_BOUNDARY_AUDIT.json",
+      "sha256": "e6cb95375dc480fe055d481e638b904705589b996cc0911fcf101a86c9306fb2"
+    },
+    {
+      "bytes": 193,
+      "file": "GRAPH_TO_USD_OVERLAY_REVIEW.json",
+      "sha256": "0d60d26291877d71e6b11d558679141cc0ef5ffe41ecdfda0bb00f4b495a181f"
+    },
+    {
+      "bytes": 3575,
+      "file": "INPUT_ARTIFACT_INDEX.json",
+      "sha256": "4eb40a12631a9aa21cb2f4432d622f0668c39466420b745685dd3ac64154defa"
+    },
+    {
+      "bytes": 824,
+      "file": "LIMITATIONS_LEDGER.md",
+      "sha256": "fb60ba1faa335c831ae6364edb7a899b20cf8cfb4f1a7affb8681d3161007f66"
+    },
+    {
+      "bytes": 713,
+      "file": "LOCAL_OPEN_INDEX.md",
+      "sha256": "24e86551a128be89bdbcfd088db5036b207918fe6479d2317b5b3d2833a1a5ef"
+    },
+    {
+      "bytes": 1697,
+      "file": "MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_CLOSEOUT_DECISION.json",
+      "sha256": "0bc9fbb043a5c60d86a346f0b5e30952a0883fab6f3ac1ca3d2556c02931cb6a"
+    },
+    {
+      "bytes": 242,
+      "file": "NO_ACTION_BOUNDARY_AUDIT.json",
+      "sha256": "51bfd192fcb2b2bdf3aae56e1c64cc6f9ea319344cc65cfcb6c6a84a47f86b54"
+    },
+    {
+      "bytes": 364,
+      "file": "NO_MUTATION_AUDIT.json",
+      "sha256": "70351ba8c028cf2520c48b9ff2359b926b31940a57060ba8b2d8cbb8d9169626"
+    },
+    {
+      "bytes": 123,
+      "file": "OMNIVERSE_KIT_COMPOSER_HANDOFF_REVIEW.json",
+      "sha256": "af2a9d19658a26e765a2c4a1e6d0f6be1782c54dae1b3204727d7aa5d9038445"
+    },
+    {
+      "bytes": 530,
+      "file": "README.md",
+      "sha256": "66cc84a18cc3713faf96981c221323e79cb0bdb69778a0d31a6a40d80e7ef48e"
+    },
+    {
+      "bytes": 184,
+      "file": "REPLAY_ANIMATION_REVIEW.json",
+      "sha256": "74b06af6c03ceba42f2bce0d581054b3a1e6e03143fa8e54ecc984f1e4fbd75a"
+    },
+    {
+      "bytes": 133,
+      "file": "SECRET_AUDIT.json",
+      "sha256": "85cebb1aea7bb112c9f61cc661b25d89b8bec15038f1c99f2171649cf0ebb027"
+    },
+    {
+      "bytes": 2492,
+      "file": "UPSTREAM_STATUS_SUMMARY.json",
+      "sha256": "a6e499123ba15f214226f3d20811ae04f35b3fa105e2f50125da3376855e8cb8"
+    },
+    {
+      "bytes": 210,
+      "file": "USD_LAYER_REVIEW.json",
+      "sha256": "4b56cee6a52c41fb24983d1ddbe2946171e541f71b1b43f9d6a50bca7f07b77d"
+    },
+    {
+      "bytes": 228,
+      "file": "VALIDATION_REPORT.json",
+      "sha256": "28be64106afe9453c7a3dbe916a7b0c05a7ccd3e1fd4e28b5eae4f448f97dd89"
+    },
+    {
+      "bytes": 160,
+      "file": "WEB_COMPANION_ALIGNMENT_REVIEW.json",
+      "sha256": "e11b48e6ccd62f3c584fe33c50cdef706d45735f5326f21a735a7f8022ad797a"
+    }
+  ],
+  "generated_at": "2026-06-30T21:43:51Z",
+  "status": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_refs": [
+    "outputs/main_track2a_d6_hero_neighbourhood_real_footprint_usd_r1/REAL_FOOTPRINT_BINDING_REGISTRY.json",
+    "outputs/main_track2a_d6_hero_neighbourhood_graph_to_usd_status_overlay_r2/GRAPH_TO_USD_STATUS_OVERLAY.json",
+    "outputs/main_track2a_d6_hero_neighbourhood_replay_event_route_animation_r3/REPLAY_EVENT_ROUTE_ANIMATION_TIMELINE.json"
+  ],
+  "graph_to_usd_overlay_evidence_limitation_backed": true,
+  "mapped_binding_count": 8,
+  "omniverse_primary_spatial_surface": true,
+  "prim_paths_do_not_become_canonical_ids": true,
+  "route_animation_local_replay_only": true,
+  "status": "PASS",
+  "status_overlays_review_safe_only": true,
+  "web_companion_evidence_episode_executive_surface": true
+}

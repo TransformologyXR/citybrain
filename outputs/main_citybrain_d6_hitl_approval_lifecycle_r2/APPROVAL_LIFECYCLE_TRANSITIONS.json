@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "transitions": [
+    {
+      "event": "submit_for_review",
+      "from_state": "proposal_created",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "awaiting_human_review",
+      "valid": true
+    },
+    {
+      "event": "human_approves_stub_only",
+      "from_state": "awaiting_human_review",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "approved_for_stub_only",
+      "valid": true
+    },
+    {
+      "event": "human_rejects",
+      "from_state": "awaiting_human_review",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "rejected_by_human",
+      "valid": true
+    },
+    {
+      "event": "human_requests_modification",
+      "from_state": "awaiting_human_review",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "modification_requested",
+      "valid": true
+    },
+    {
+      "event": "human_requests_more_evidence",
+      "from_state": "awaiting_human_review",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "more_evidence_requested",
+      "valid": true
+    },
+    {
+      "event": "record_inert_stub",
+      "from_state": "approved_for_stub_only",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "execution_stub_recorded",
+      "valid": true
+    },
+    {
+      "event": "record_monitor_review_context",
+      "from_state": "execution_stub_recorded",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "monitor_review_context",
+      "valid": true
+    },
+    {
+      "event": "human_closes_review_context",
+      "from_state": "monitor_review_context",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "closed_review_context",
+      "valid": true
+    },
+    {
+      "event": "policy_block",
+      "from_state": "awaiting_human_review",
+      "no_action_taken": true,
+      "side_effect": "none",
+      "to_state": "blocked_for_policy",
+      "valid": true
+    },
+    {
+      "blocked_state": "blocked_for_policy",
+      "event": "skip_human_decision",
+      "from_state": "awaiting_human_review",
+      "logged": true,
+      "to_state": "execution_stub_recorded",
+      "valid": false
+    },
+    {
+      "blocked_state": "blocked_for_policy",
+      "event": "reopen_without_new_review",
+      "from_state": "rejected_by_human",
+      "logged": true,
+      "to_state": "approved_for_stub_only",
+      "valid": false
+    }
+  ]
+}

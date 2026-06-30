@@ -1,0 +1,12 @@
+{
+  "animation_mode": "deterministic timeline JSON plus frame JSONL plus USDA metadata sequence",
+  "frame_strategy": [
+    "load scenario",
+    "show footprints",
+    "show replay event",
+    "highlight corridor context",
+    "preserve unresolved/quarantined contexts"
+  ],
+  "route_context_label": "corridor context highlight only, not routing/control",
+  "status": "PASS"
+}

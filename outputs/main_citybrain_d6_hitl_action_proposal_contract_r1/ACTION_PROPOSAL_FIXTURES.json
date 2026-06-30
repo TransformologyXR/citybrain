@@ -1,0 +1,350 @@
+{
+  "proposal_count": 6,
+  "proposals": [
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-001",
+      "affected_entity_refs": [
+        "r6-event-064",
+        "src:nyc:bin:1088899"
+      ],
+      "allowed_human_decisions": [
+        "approve_for_inert_stub_only",
+        "reject",
+        "request_modification",
+        "request_more_evidence"
+      ],
+      "confidence_summary": {
+        "display_label": "review confidence only",
+        "display_state": "review_ready_context",
+        "not_certified_truth": true,
+        "review_state": "ready_for_operator_review"
+      },
+      "created_by_task": "MAIN-CITYBRAIN-D6-HITL-ACTION-PROPOSAL-CONTRACT-R1",
+      "evidence_refs": [
+        "evidence:r6:event:064",
+        "outputs/main_track1_d4y_r5_domain_pack_first_two_domain_proof_end_to_end/MAIN_TRACK1_D4Y_R5_DOMAIN_PACK_FIRST_TWO_DOMAIN_PROOF_END_TO_END_DECISION.json",
+        "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json"
+      ],
+      "forbidden_action_flags": {
+        "automatic_execution": false,
+        "enforcement": false,
+        "field_resource_assignment": false,
+        "legal_or_certified_finding": false,
+        "official_ticket_or_case": false,
+        "production_public_api": false,
+        "route_or_signal_control": false
+      },
+      "limitation_refs": [
+        "R6_LIMITATION_REGISTER.md",
+        "review_context_only",
+        "human-or-replay initiated only",
+        "local/replay review/query context only",
+        "no autonomous monitoring",
+        "no alerts",
+        "no dispatch",
+        "no routing/control"
+      ],
+      "no_action_taken": true,
+      "not_an_action_statement": "This record is a reviewed-action proposal for human decision support only. It is not an instruction, command, execution request, ticket, case, legal finding, certified incident finding, route/control command, alert, or production action.",
+      "proposal_text": "Human reviewer may inspect review next look context for the shared replay scenario.",
+      "proposal_type": "review_next_look",
+      "review_state": "awaiting_human_review",
+      "risk_notes": [
+        "Review context is not certified truth.",
+        "Any future operational workflow requires a separate approved implementation boundary."
+      ],
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "source_event_ref": "event-fabric-r2-current-019",
+      "source_packet_ref": "incident-track2a-r4-001-incident-operator-surface-packet",
+      "surface_family": "track_d_hitl_reviewed_action_panel"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-002",
+      "affected_entity_refs": [
+        "144654",
+        "asset:nyc:lod2:144654",
+        "building_compliance:packet:006",
+        "building_compliance:r7-accepted:006"
+      ],
+      "allowed_human_decisions": [
+        "approve_for_inert_stub_only",
+        "reject",
+        "request_modification",
+        "request_more_evidence"
+      ],
+      "confidence_summary": {
+        "display_label": "review confidence only",
+        "display_state": "unresolved_context",
+        "not_certified_truth": true,
+        "review_state": "unresolved_context_review"
+      },
+      "created_by_task": "MAIN-CITYBRAIN-D6-HITL-ACTION-PROPOSAL-CONTRACT-R1",
+      "evidence_refs": [
+        "outputs/d4_3d_city_asset_contract_r1/D4_3D_CITY_ASSET_CONTRACT_R1_DECISION.json",
+        "outputs/d4_3d_nyc_2025_full_i3s_export_r1/NYC_2025_BUILDINGS_FULL_MASTER.usda",
+        "outputs/d4_3d_nyc_2025_full_i3s_export_r1/identity_shards/shard_000_identity.jsonl",
+        "outputs/main_track1_d4y_r5_building_asset_identity_domain_pack_runtime_slice/MAIN_TRACK1_D4Y_R5_BUILDING_ASSET_IDENTITY_DOMAIN_PACK_RUNTIME_SLICE_DECISION.json",
+        "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json"
+      ],
+      "forbidden_action_flags": {
+        "automatic_execution": false,
+        "enforcement": false,
+        "field_resource_assignment": false,
+        "legal_or_certified_finding": false,
+        "official_ticket_or_case": false,
+        "production_public_api": false,
+        "route_or_signal_control": false
+      },
+      "limitation_refs": [
+        "TRACK2A_ASSET_LIMITATION_REGISTER.md",
+        "TRACK2A_SOURCE_ID_BOUNDARY_POLICY.md",
+        "human-or-replay initiated only",
+        "local/replay review/query context only",
+        "no autonomous monitoring",
+        "no alerts",
+        "no dispatch",
+        "no routing/control"
+      ],
+      "no_action_taken": true,
+      "not_an_action_statement": "This record is a reviewed-action proposal for human decision support only. It is not an instruction, command, execution request, ticket, case, legal finding, certified incident finding, route/control command, alert, or production action.",
+      "proposal_text": "Human reviewer may inspect request more evidence context for the shared replay scenario.",
+      "proposal_type": "request_more_evidence",
+      "review_state": "awaiting_human_review",
+      "risk_notes": [
+        "Review context is not certified truth.",
+        "Any future operational workflow requires a separate approved implementation boundary."
+      ],
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "source_event_ref": "d6-r4-event-context-overlay-packet-014",
+      "source_packet_ref": "incident-track2a-r4-002-incident-operator-surface-packet",
+      "surface_family": "track_d_hitl_reviewed_action_panel"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-003",
+      "affected_entity_refs": [
+        "not_available_in_upstream_fixture"
+      ],
+      "allowed_human_decisions": [
+        "approve_for_inert_stub_only",
+        "reject",
+        "request_modification",
+        "request_more_evidence"
+      ],
+      "confidence_summary": {
+        "display_label": "review confidence only",
+        "display_state": "quarantined_context",
+        "not_certified_truth": true,
+        "review_state": "quarantined_input_review"
+      },
+      "created_by_task": "MAIN-CITYBRAIN-D6-HITL-ACTION-PROPOSAL-CONTRACT-R1",
+      "evidence_refs": [
+        "NO_MATCHING_EDGE_EVIDENCE_FOR_QUARANTINED_INPUT",
+        "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json"
+      ],
+      "forbidden_action_flags": {
+        "automatic_execution": false,
+        "enforcement": false,
+        "field_resource_assignment": false,
+        "legal_or_certified_finding": false,
+        "official_ticket_or_case": false,
+        "production_public_api": false,
+        "route_or_signal_control": false
+      },
+      "limitation_refs": [
+        "QUARANTINED_INPUT_CONTEXT_ONLY",
+        "human-or-replay initiated only",
+        "local/replay review/query context only",
+        "no autonomous monitoring",
+        "no alerts",
+        "no dispatch",
+        "no routing/control",
+        "no enforcement"
+      ],
+      "no_action_taken": true,
+      "not_an_action_statement": "This record is a reviewed-action proposal for human decision support only. It is not an instruction, command, execution request, ticket, case, legal finding, certified incident finding, route/control command, alert, or production action.",
+      "proposal_text": "Human reviewer may inspect draft advisory for review context for the shared replay scenario.",
+      "proposal_type": "draft_advisory_for_review",
+      "review_state": "awaiting_human_review",
+      "risk_notes": [
+        "Review context is not certified truth.",
+        "Any future operational workflow requires a separate approved implementation boundary."
+      ],
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "source_event_ref": "not_available_in_upstream_fixture",
+      "source_packet_ref": "incident-track2a-r4-003-incident-operator-surface-packet",
+      "surface_family": "track_d_hitl_reviewed_action_panel"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-004",
+      "affected_entity_refs": [
+        "r6-event-064",
+        "src:nyc:bin:1088899"
+      ],
+      "allowed_human_decisions": [
+        "approve_for_inert_stub_only",
+        "reject",
+        "request_modification",
+        "request_more_evidence"
+      ],
+      "confidence_summary": {
+        "display_label": "review confidence only",
+        "display_state": "safe_next_look_suggestion",
+        "not_certified_truth": true,
+        "review_state": "ready_for_operator_review"
+      },
+      "created_by_task": "MAIN-CITYBRAIN-D6-HITL-ACTION-PROPOSAL-CONTRACT-R1",
+      "evidence_refs": [
+        "evidence:r6:event:064",
+        "outputs/main_track1_d4y_r5_domain_pack_first_two_domain_proof_end_to_end/MAIN_TRACK1_D4Y_R5_DOMAIN_PACK_FIRST_TWO_DOMAIN_PROOF_END_TO_END_DECISION.json",
+        "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json"
+      ],
+      "forbidden_action_flags": {
+        "automatic_execution": false,
+        "enforcement": false,
+        "field_resource_assignment": false,
+        "legal_or_certified_finding": false,
+        "official_ticket_or_case": false,
+        "production_public_api": false,
+        "route_or_signal_control": false
+      },
+      "limitation_refs": [
+        "R6_LIMITATION_REGISTER.md",
+        "review_context_only",
+        "human-or-replay initiated only",
+        "local/replay review/query context only",
+        "no autonomous monitoring",
+        "no alerts",
+        "no dispatch",
+        "no routing/control"
+      ],
+      "no_action_taken": true,
+      "not_an_action_statement": "This record is a reviewed-action proposal for human decision support only. It is not an instruction, command, execution request, ticket, case, legal finding, certified incident finding, route/control command, alert, or production action.",
+      "proposal_text": "Human reviewer may inspect review route context context for the shared replay scenario.",
+      "proposal_type": "review_route_context",
+      "review_state": "awaiting_human_review",
+      "risk_notes": [
+        "Review context is not certified truth.",
+        "Any future operational workflow requires a separate approved implementation boundary."
+      ],
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "source_event_ref": "event-fabric-r2-current-019",
+      "source_packet_ref": "incident-track2a-r4-004-safe-next-look-surface-packet",
+      "surface_family": "track_d_hitl_reviewed_action_panel"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-005",
+      "affected_entity_refs": [
+        "r6-event-064",
+        "src:nyc:bin:1088899"
+      ],
+      "allowed_human_decisions": [
+        "approve_for_inert_stub_only",
+        "reject",
+        "request_modification",
+        "request_more_evidence"
+      ],
+      "confidence_summary": {
+        "display_label": "review confidence only",
+        "display_state": "review_ready_context",
+        "not_certified_truth": true,
+        "review_state": "ready_for_operator_review"
+      },
+      "created_by_task": "MAIN-CITYBRAIN-D6-HITL-ACTION-PROPOSAL-CONTRACT-R1",
+      "evidence_refs": [
+        "evidence:r6:event:064",
+        "outputs/main_track1_d4y_r5_domain_pack_first_two_domain_proof_end_to_end/MAIN_TRACK1_D4Y_R5_DOMAIN_PACK_FIRST_TWO_DOMAIN_PROOF_END_TO_END_DECISION.json",
+        "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json"
+      ],
+      "forbidden_action_flags": {
+        "automatic_execution": false,
+        "enforcement": false,
+        "field_resource_assignment": false,
+        "legal_or_certified_finding": false,
+        "official_ticket_or_case": false,
+        "production_public_api": false,
+        "route_or_signal_control": false
+      },
+      "limitation_refs": [
+        "R6_LIMITATION_REGISTER.md",
+        "review_context_only",
+        "human-or-replay initiated only",
+        "local/replay review/query context only",
+        "no autonomous monitoring",
+        "no alerts",
+        "no dispatch",
+        "no routing/control"
+      ],
+      "no_action_taken": true,
+      "not_an_action_statement": "This record is a reviewed-action proposal for human decision support only. It is not an instruction, command, execution request, ticket, case, legal finding, certified incident finding, route/control command, alert, or production action.",
+      "proposal_text": "Human reviewer may inspect review access constraint context for the shared replay scenario.",
+      "proposal_type": "review_access_constraint",
+      "review_state": "awaiting_human_review",
+      "risk_notes": [
+        "Review context is not certified truth.",
+        "Any future operational workflow requires a separate approved implementation boundary."
+      ],
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "source_event_ref": "event-fabric-r2-current-019",
+      "source_packet_ref": "incident-track2a-r4-005-omniverse-operator-overlay-packet",
+      "surface_family": "track_d_hitl_reviewed_action_panel"
+    },
+    {
+      "action_proposal_id": "hitl-action-proposal-r1-006",
+      "affected_entity_refs": [
+        "r6-event-064",
+        "src:nyc:bin:1088899"
+      ],
+      "allowed_human_decisions": [
+        "approve_for_inert_stub_only",
+        "reject",
+        "request_modification",
+        "request_more_evidence"
+      ],
+      "confidence_summary": {
+        "display_label": "review confidence only",
+        "display_state": "review_ready_context",
+        "not_certified_truth": true,
+        "review_state": "ready_for_operator_review"
+      },
+      "created_by_task": "MAIN-CITYBRAIN-D6-HITL-ACTION-PROPOSAL-CONTRACT-R1",
+      "evidence_refs": [
+        "evidence:r6:event:064",
+        "outputs/main_track1_d4y_r5_domain_pack_first_two_domain_proof_end_to_end/MAIN_TRACK1_D4Y_R5_DOMAIN_PACK_FIRST_TWO_DOMAIN_PROOF_END_TO_END_DECISION.json",
+        "outputs/main_citybrain_d4x_r8_multi_domain_edge_registry_hardening/HARDENED_MULTI_DOMAIN_EDGE_REGISTRY.json"
+      ],
+      "forbidden_action_flags": {
+        "automatic_execution": false,
+        "enforcement": false,
+        "field_resource_assignment": false,
+        "legal_or_certified_finding": false,
+        "official_ticket_or_case": false,
+        "production_public_api": false,
+        "route_or_signal_control": false
+      },
+      "limitation_refs": [
+        "R6_LIMITATION_REGISTER.md",
+        "review_context_only",
+        "human-or-replay initiated only",
+        "local/replay review/query context only",
+        "no autonomous monitoring",
+        "no alerts",
+        "no dispatch",
+        "no routing/control"
+      ],
+      "no_action_taken": true,
+      "not_an_action_statement": "This record is a reviewed-action proposal for human decision support only. It is not an instruction, command, execution request, ticket, case, legal finding, certified incident finding, route/control command, alert, or production action.",
+      "proposal_text": "Human reviewer may inspect review operator note context for the shared replay scenario.",
+      "proposal_type": "review_operator_note",
+      "review_state": "awaiting_human_review",
+      "risk_notes": [
+        "Review context is not certified truth.",
+        "Any future operational workflow requires a separate approved implementation boundary."
+      ],
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "source_event_ref": "event-fabric-r2-current-019",
+      "source_packet_ref": "incident-track2a-r4-006-web-operator-companion-packet",
+      "surface_family": "track_d_hitl_reviewed_action_panel"
+    }
+  ],
+  "status": "PASS"
+}

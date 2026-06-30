@@ -1,0 +1,6 @@
+{
+  "integration_note": "Cross-surface integration is deferred until Track A and Track D are both closed.",
+  "packet_family": "track_d_hitl_reviewed_action_panel",
+  "status": "PASS",
+  "track_a_overlay_merge": false
+}
