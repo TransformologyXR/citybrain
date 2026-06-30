@@ -1,0 +1,19 @@
+{
+  "claim_labels": {
+    "[G]": "governance boundary or limitation",
+    "[M]": "model narration/interpretation",
+    "[P]": "proposal requiring human approval",
+    "[Q]": "user/query text",
+    "[R]": "real accepted source/data-derived fact",
+    "[SIM]": "simulation output",
+    "[S]": "synthetic scenario/factory record"
+  },
+  "rules": [
+    "[S] cannot be presented as [R].",
+    "[M] must remain grounded by EvidenceBundle.",
+    "[P] is proposal-only and approval-required.",
+    "[SIM] is simulator output rather than observed source truth.",
+    "[G] must be preserved in persona rendering."
+  ],
+  "status": "PASS"
+}

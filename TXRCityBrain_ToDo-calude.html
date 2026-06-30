@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TXR City Brain — To-Do</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f1a; --panel:#0f1726; --panel-2:#121d30;
+    --line:#21304a; --line-soft:#1a273d;
+    --txt-hi:#e8eef8; --txt-mid:#9db0cc; --txt-lo:#62718c;
+    --now:#e3a83a; --mid:#3b7df0; --long:#8a4fd0; --done:#84c318;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --disp:'Space Grotesk',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:
+      radial-gradient(900px 500px at 85% -10%,rgba(59,125,240,.08),transparent 60%),
+      var(--bg);
+    color:var(--txt-hi);font-family:var(--disp);padding:26px 22px 70px;font-size:15px}
+  .wrap{max-width:1200px;margin:0 auto}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--txt-lo);margin-bottom:8px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:700;letter-spacing:-.02em;margin:0 0 8px}
+  .sub{color:var(--txt-mid);max-width:680px;margin:0 0 8px;font-size:14.5px}
+  .sub b{color:var(--txt-hi);font-weight:600}
+  .topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:24px}
+  .resetbtn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt-mid);background:transparent;border:1px solid var(--line);border-radius:8px;padding:7px 13px;cursor:pointer;transition:.18s}
+  .resetbtn:hover{border-color:var(--now);color:var(--now)}
+  .savenote{font-family:var(--mono);font-size:10.5px;color:var(--txt-lo);letter-spacing:.06em}
+
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:880px){.cols{grid-template-columns:1fr}}
+
+  .col{border:1px solid var(--line);border-radius:13px;background:var(--panel);padding:16px 15px;display:flex;flex-direction:column}
+  .col.now{box-shadow:inset 0 3px 0 var(--now)}
+  .col.mid{box-shadow:inset 0 3px 0 var(--mid)}
+  .col.long{box-shadow:inset 0 3px 0 var(--long)}
+  .chead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:3px}
+  .ctitle{font-size:16px;font-weight:700;letter-spacing:-.01em}
+  .col.now .ctitle{color:var(--now)} .col.mid .ctitle{color:var(--mid)} .col.long .ctitle{color:var(--long)}
+  .ccount{font-family:var(--mono);font-size:11px;color:var(--txt-lo)}
+  .csub{color:var(--txt-lo);font-size:12px;margin:0 0 14px;min-height:30px}
+
+  ul{list-style:none;margin:0;padding:0;flex:1}
+  li{display:flex;align-items:flex-start;gap:10px;padding:9px 8px;border-radius:8px;margin-bottom:5px;background:var(--panel-2);border:1px solid var(--line-soft);transition:.18s}
+  li.done{opacity:.55}
+  .box{flex:none;width:18px;height:18px;border-radius:5px;border:1.5px solid var(--txt-lo);margin-top:1px;cursor:pointer;position:relative;transition:.18s}
+  li.done .box{background:var(--done);border-color:var(--done)}
+  li.done .box::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#0a0f1a;font-size:12px;font-weight:700}
+  .box:hover{border-color:var(--txt-mid)}
+  .txt{flex:1;font-size:13.5px;line-height:1.4;cursor:pointer}
+  li.done .txt{text-decoration:line-through;color:var(--txt-mid)}
+  .gate{display:block;font-family:var(--mono);font-size:10px;color:var(--txt-lo);margin-top:3px;letter-spacing:.03em}
+  .del{flex:none;background:transparent;border:none;color:var(--txt-lo);cursor:pointer;font-size:15px;line-height:1;padding:0 2px;opacity:0;transition:.18s}
+  li:hover .del{opacity:.7}
+  .del:hover{color:var(--now);opacity:1}
+
+  .addrow{display:flex;gap:7px;margin-top:10px}
+  .addrow input{flex:1;background:var(--panel-2);border:1px solid var(--line);border-radius:7px;color:var(--txt-hi);font-family:var(--disp);font-size:13px;padding:8px 10px;outline:none}
+  .addrow input:focus{border-color:var(--mid)}
+  .addrow button{background:transparent;border:1px solid var(--line);border-radius:7px;color:var(--txt-mid);cursor:pointer;font-size:18px;width:36px;transition:.18s}
+  .addrow button:hover{border-color:var(--mid);color:var(--mid)}
+  .foot{margin-top:30px;border-top:1px solid var(--line-soft);padding-top:14px;color:var(--txt-lo);font-size:11.5px;font-family:var(--mono);letter-spacing:.03em;line-height:1.7}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">TransformologyXR · NVIDIA Urban AI demonstration</div>
+  <h1>TXR City Brain — To-Do</h1>
+  <p class="sub">Organised by horizon. <b>Immediate</b> is NYC Flow 3 (live NIM, face, hero) + Singapore source probe + Flow 1 scoping — the active portfolio-expansion lane. <b>Medium</b> is Flow 3/Flow 1/Singapore deepening + the application wrapper (Exec Summary, repo, video). <b>Long</b> is breadth &amp; depth after that — Dubai, oil&amp;gas, perception, 3D, the deferred London-resilient-city flow. Click a box to check; add your own per column. <b>Credential rule:</b> Singapore's LTA DataMall key lives in <code>LTA_DATAMALL_API_KEY</code> via env/.env only — never in code, HTML, logs, commits, or prompts that may be stored.</p>
+  <div class="topbar">
+    <button class="resetbtn" id="reset">Reset list</button>
+    <span class="savenote" id="save"></span>
+  </div>
+
+  <div class="cols">
+    <div class="col now">
+      <div class="chead"><span class="ctitle">Immediate</span><span class="ccount" id="c-now"></span></div>
+      <p class="csub">NYC Flow 3 + Singapore + Flow 1 · active expansion lane</p>
+      <ul id="list-now"></ul>
+      <div class="addrow"><input id="in-now" placeholder="Add immediate task…"><button data-add="now">+</button></div>
+    </div>
+    <div class="col mid">
+      <div class="chead"><span class="ctitle">Medium-term</span><span class="ccount" id="c-mid"></span></div>
+      <p class="csub">Flow 3/1/SG deepening + the application wrapper</p>
+      <ul id="list-mid"></ul>
+      <div class="addrow"><input id="in-mid" placeholder="Add medium-term task…"><button data-add="mid">+</button></div>
+    </div>
+    <div class="col long">
+      <div class="chead"><span class="ctitle">Long-term</span><span class="ccount" id="c-long"></span></div>
+      <p class="csub">Post-submission · breadth, depth, cartridges, Cosmos</p>
+      <ul id="list-long"></ul>
+      <div class="addrow"><input id="in-long" placeholder="Add long-term task…"><button data-add="long">+</button></div>
+    </div>
+  </div>
+
+  <div class="foot" id="foot">
+    Golden path runs on real NYC; Dubai is the re-anchoring narrative target. &nbsp;·&nbsp; Oil &amp; gas opens only when the city slice certifies green with time left. &nbsp;·&nbsp; Companion board: TXRCityBrain_MissionControl.html (scope / gates).
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  const KEY='txr_todo_v1';
+  let mem=false;
+
+  const DEFAULTS = {
+    now:[
+      {t:"NYC Flow 3 CLOSED: ACCEPTED_FULL_SOURCE_INPUTS_WITH_STAGE_LIMITATIONS (D9FULL)", g:"D1RAW-D10FULL all green over full official sources (2.27M MVC rows, full Fire/EMS Dispatch). Honest boundary unchanged: not emergency dispatch, not certified affected-building detection, not navigable routing. Flow 3 work STOPS here unless a bug appears. D9 (capped-era) kept as historical evidence of progression, not deleted."},
+      {t:"SG-D1 — Singapore source/API scout", g:"LEAD ITEM, by explicit recommendation: let this finish FIRST · gives real Singapore counts + native-ID anchors before deciding F1's scope · LTA_DATAMALL_API_KEY via env ONLY, never committed · probe DataMall, Data.gov.sg, OneMap, NEA weather/air"},
+      {t:"F1-D1 — Situational Status cartridge scope", g:"WAITS on SG-D1 result · decide whether F1 starts as NYC+London only, or NYC+London+Singapore, once real Singapore counts are in"},
+      {t:"App snapshot / A9-G1 board reconciliation", g:"third lane · decide A9 vs the now-closed Flow 3 D9FULL timing, reconcile boards once SG-D1/F1 scope is clear"},
+    ],
+    mid:[
+      {t:"F4-SG-D2 — Singapore transport/environment ingest", g:"traffic incidents/images, bus arrivals/routes, weather/rainfall/air, OneMap geospatial context · after SG-D1"},
+      {t:"F4-SG-D3/D4 — crowd/transport/environment context + review plan", g:"live-style incident/event context; route/review plan ONLY, not public-safety instruction"},
+      {t:"F1-D2 — live status face + NIM", g:"status of area X across NYC/London; later add Singapore status if SG-D1/D2 green"},
+      {t:"Executive Summary — write against NYC citywide + London dual-hero + Flow 3 state", g:"strongest moment yet: two cities, a second flow active, declared limitations intact"},
+      {t:"Rename pass: CityBrain RTX → TXR City Brain", g:"mechanical, anytime, still pending"},
+      {t:"Repo + README + claim audit / Runbook", g:"snapshot documentation for Codex + Claude + reviewers · wrapper item, genuinely not started"},
+      {t:"Demo video (NYC Flow 2 + Flow 3 + London) — capture after A9", g:"so it shows the real end state, not an assumed one"},
+      {t:"Travel bundle", g:"laptop+Spark portable demo for when 3090/4070 don't travel · clean-room run gates, backup video"},
+    ],
+    long:[
+      {t:"Decide: A9/G1 snapshot before or after Flow 3 D8", g:"open sequencing question carried from Immediate · affects what 'the application snapshot' captures"},
+      {t:"F4-SG·hero — Singapore Real-time Transport + Environment AI Agent", g:"traffic image/event + rainfall/air + OneMap context, major-event/crowd-surge scenario · NO real-time public-order claims"},
+      {t:"a5·D8b — Multi-oracle registry / orchestrator — DEFERRED", g:"only after 2nd oracle family exists (Flow 1 / Flow 3 / Flow 4-SG / oil&gas)"},
+      {t:"⚠ NAMING NOTE: 'Flow 3' is now NYC incident/response (FDNY/EMS), active D1-D6", g:"the EARLIER plan called Flow 3 'Resilient city: London fire+road+air (LFB+TfL+air quality)' — that's a DIFFERENT scope. If the London resilient-city version still gets built, name it explicitly (e.g. Flow 3b) so it's never confused with the NYC Flow 3 that's live now"},
+      {t:"London resilient-city flow (LFB + TfL + air quality + vulnerable assets) — if still wanted", g:"builds ON the London identity/planning/Local Plan backbone (now closed with dual hero) · would need a distinct flow number, NOT 'Flow 3' (that name is taken by NYC incident/response)"},
+      {t:"Flow 7 — Civic + sensor fusion (Chicago) — DEFERRED", g:"superseded in the near-term portfolio by Singapore/Flow 4 (deliberate decision 2026-06-27: real-time API access). Chicago stays a future option, not dropped."},
+      {t:"Dubai cartridge — manual export + re-anchor", g:"DLD/DM/Bayanat/Police; onto Dubai geometry · Phase-2 anchor · needs blocked export"},
+      {t:"Oil & gas cartridge — branch", g:"trigger: portfolio breadth with time left; cartridge brings its own schema"},
+      {t:"Singapore — exact polygons / OS-equivalent NGD if licensed source appears", g:"mirrors London's TOID-point-vs-polygon honesty pattern; don't assume Singapore geometry is richer than it is without checking"},
+      {t:"Perception · 3D/OpenUSD · simulators · personas", g:"see the four canonical docs (Platform v1 + Full Vision) for the full mapped horizon"},
+    ],
+  };
+
+  // ══════════════════════════════════════════════════════════════════════
+  // DONE LEDGER — full NYC Flow 2 spine, citywide, all green and pinned
+  // ══════════════════════════════════════════════════════════════════════
+  // a1 canonical schema v1 · a2 acceptance harness (drift-tested)
+  // a3 NYC adapters → registry (hero cascade green v3)
+  // a3·D2 footprints → Building geometry (1,012,067 polygons, 99.91% coverage,
+  //   byte-stable a4·D3b regression)
+  // a4·D1 district cut · a4·D2 DOB enrichment · a4·D2b discovery (28,790 ranked)
+  // a4·D3a 3-district CPU parametric proof (MN-1060 + 1-01158 + 2-02316)
+  // a4·D3b CITYWIDE cuGraph: 27,997 blocks, 7.33M nodes, 9.64M edges,
+  //   5.3GB peak VRAM, 3.8s GPU op time, round-trip portable
+  // a5·D1 deterministic operator query · a5·D2 Spark portability pack
+  // a5·D3 live Spark/NIM/NeMo hero smoke (deterministic facts unchanged)
+  // a5·D4a EvidenceBundle v1 + grounded-narration gate (2nd-subject proof)
+  // a5·D4b thin validator + complete trace
+  // a5·D5 NeMo wrapper (single tool, no low-level bypass)
+  // a5·D6 live NeMo/NIM replay (grounded both subjects, negative-request rejected)
+  // a5·D6b narration surface (prose briefing: subset-grounded, anti-echo,
+  //   min-coverage, subject-isolated — closes the AP-Physics-style trapdoor)
+  // a5·D7 citywide precomputed briefing/trace — ALL 27,997 active blocks
+  //   (0 non-hero leakage)
+  // a5·D7b live Spark citywide query — any block on demand, hero parity verified
+  //   byte-aligned (1461 nodes, 2139 edges, 711 complaints, 11 critical, 1175 permits)
+  // a6·D1 cuOpt operational review optimizer — 120 candidates, 60 routed,
+  //   33 assigned / 27 dropped, 3 teams, all 5 boroughs, operator-safe language
+  // a7 evidence briefing + provenance (a5·D6b/D7 + a8·D3b why_selected)
+  // a8·D1 face-layer foundation (3-district, round-trip portable)
+  // a8·D2 citywide map (LOD zoom levels, viewport-bounded, heatmap, search)
+  // a8·D3 route overlay from cuOpt (counts match optimizer output)
+  // a8·D3b why_selected plain-English tooltips + hero clip attached [Illustrative]
+  // hardcode audit (10,963 hits classified, 8 smelly all in 1 file, 0 wrong)
+  //   + smelly-file quarantine (neutral taxonomy module split out)
+  // 5M+ row harvest of 11 NYC datasets · prep v0.2 string-safe Parquet
+  // cuOpt foundation on 3090 (NGC auth, image 26.6.0-cuda12.9-py3.14, health PASS)
+  // LON·D3 source reachability + identity-backbone probe (v0.2, OpenUSRN gap closed)
+  // LON·D4 sampled identity ingest — GREEN
+  // LON·D5 PLD planning ingest — GREEN, unattached sample mismatch named
+  // LON·D5b PLD-driven OpenUPRN backfill — GREEN_WITH_SOURCE_LIMITATION
+  // LON·D5c LIDS-confirmed PLD identity bridge — GREEN, connected paths BOTH
+  // LON·D6 enforcement/building-control probe — PASS_D6A_ONLY_SOURCE_LIMITATION
+  // LON·D7 sampled graph + deterministic briefing/query smoke — GREEN
+  // LON·D8 operator query contract + EvidenceBundle export — GREEN
+  // LON·D9A raw inventory — GREEN, D9B/D9C ready
+  // LON·D9B London-wide identity build — GREEN
+  // LON·D9C PLD normalization/dedupe — GREEN
+  // LON·D9D original PLD alignment — SUPERSEDED by D9D2
+  // LON·D9D2 official PLD API UPRN recovery — GREEN, 53,753 PLD→UPRN edges
+  // LON·D9E-D9D2 accepted graph — GREEN, 7,734,960 nodes / 10,664,896 edges
+  // LON·D9F-D9D2 accepted query contract — GREEN
+  // LON·D9Z accepted snapshot + board/docs freeze — GREEN
+  // LON·D10 planning-context enrichment — GREEN (186,180 ctx nodes / 232,101 ctx
+  //   edges / 53,751 PLD-with-context / 32-33 boroughs) — context, NOT legal determination
+  // LON·D10B Local Plan semantic certification — GREEN (444/1,139 layers certified,
+  //   695 manual-review; 55,469 nodes / 168,116 edges; 36,352 PLD + 27,551 UPRN; 33/33)
+  // LON·D11 London face-layer cartridge — GREEN (UI smoke + 4070 publish PASS; API FILE_ONLY)
+  // LON·D12 deterministic London NeMo wrapper — GREEN, PASS_WITH_LIVE_NIM_NOT_RUN (1 tool, 8/8)
+  // LON·D6B2 bounded official Havering enforcement — GREEN_WITH_IDENTITY_LIMITATION
+  //   (532 events, all SHA-256, 0 exact PLD/UPRN matches → official but identity-unjoined)
+  // LON·D6B3 Havering identity recovery — GREEN, PASS_WITH_PARTIAL_IDENTITY_RECOVERY
+  //   (277 planning-ref hits → 7 exact PLD matches → 7 certified identity edges →
+  //    6 permits with full D9D2 paths PLD→UPRN→TOID and →USRN; 2,196 fuzzy rejected,
+  //    2,728 candidate-only; address-only NOT certified — the first London enforcement
+  //    cascade raw material)
+  // LON·D11b live face smoke — GREEN, PASS_WITH_LIVE_ROUTE_NOT_RUN_FILE_PAYLOAD_VERIFIED
+  //   (16 attempts; 4070 served generic shell not /london; payload correct, NOT live-hosted)
+  // LON·D12b live Spark/NIM replay — GREEN, LIVE NIM GROUNDED
+  //   (live NIM answered London sample set, grounding PASS; London narrates live end-to-end)
+  // LON·D13 composite accepted London snapshot — GREEN, GREEN_WITH_DECLARED_LIMITATIONS
+  //   (folds D9Z→D6B3; new accepted London source of truth; nuances preserved not flattened)
+  // LON·D13b composite refresh — GREEN, PASS (folds D6B3's 7 certified edges + D12b live
+  //   NIM grounded into the accepted composite)
+  // LON·D11C live face route fix — GREEN, PASS (4070 :8080 /london + /api/london/* now
+  //   serve the real composite; 10/10 live endpoint attempts passed; generic shell replaced)
+  // LON·D11A TOID geometry via OS Open TOID — GREEN, PASS_WITH_GENERALISED_TOID_LOCATION_LIMITATION
+  //   (40,803/40,804 accepted TOIDs matched to generalised-location POINTS, not footprint
+  //   polygons — that needs licensed OS MasterMap; all 6 D6B3 TOID paths locatable)
+  // LON·D10EV EV charging source recovery — GREEN, PASS_WITH_SCOPE_LIMITATION
+  //   (156 official rapid-charging sites, London Datastore GeoPackage, 31/33 boroughs,
+  //   1,615 context edges — rapid-charging only, not complete EV coverage or live availability)
+  // LON·D6B4 enforcement identity expansion (optional) — GREEN, PASS_WITH_EXPANDED_IDENTITY_RECOVERY
+  //   (183 new exact PLD matches, 0 fuzzy/address promoted; 7→190 total certified edges;
+  //   148 official PLD API exact matches, 120 with UPRN, 104/106 OpenUPRN-verified;
+  //   5,181 candidates rejected and kept candidate-only — same no-fuzzy discipline as D6B3)
+  // ⚠ ORDERING NOTE (RESOLVED BY D13c): D6B4 had run against the PRE-D13b D6B3/D6B2
+  //   baseline (D13b's output wasn't present locally when D6B4 ran). RESOLVED — see below.
+  // LON·D13c final London pre-hero closure — GREEN, PASS (D6B4's 190 edges promoted as
+  //   the current accepted state; D12b live NIM AND D11C live face both RE-SMOKED live
+  //   against the reconciled composite, not just file-merged; /api/london/status
+  //   confirmed showing D13c/D6B4, no stale D13b/D6B3 anywhere). London is now CLOSED
+  //   pre-hero — only LON·hero and NYC's A9 remain as active next steps.
+  // LON·hero dual scenarios — GREEN, CONFIRMED ON TRUST 2026-06-27 (Codex/ChatGPT
+  //   consolidated handoff, no gate report/hash manifest seen directly by Claude):
+  //   (1) Havering enforcement-to-planning identity trace (2) Camden planning
+  //   application + Local Plan/TOID/EV context. London cartridge: closed with dual hero.
+  // --- NYC FLOW 3 (the genuine 2nd FLOW — NOT to be confused with the earlier-planned
+  //   London-resilient-city "Flow 3", which never got built under that name) ---
+  // F3·D1 source inventory · F3·D2 FDNY ingest · F3·D2C capped working-set refresh
+  //   (MVC+firehouses FULL-SOURCE; Fire Dispatch capped 2.0M/11.82M; EMS Dispatch
+  //   capped 3.0M/29.57M — explicit, not final full-source completion)
+  // F3·D3 affected-asset+response context (NO certification) · F3·D4 candidate
+  //   prioritization + review routing (operator-safe, NOT emergency dispatch)
+  // F3·D5 governed EvidenceBundles + deterministic briefings (5 bundles, no live NIM yet)
+  // F3·D6 live Spark/NIM replay — GREEN (one public tool, grounded live narration,
+  //   capped-source limitations visible in every briefing)
+  // F3·D7 live face/map/trace — GREEN (confirmed live via D8's 6/6 endpoint pass,
+  //   not a separate smoke — /flow3/heroes and /api/flow3/heroes.json both serving)
+  // F3·D8 Flow 3 hero package — GREEN, PASS. 4 heroes emitted (3 positive + 1
+  //   negative-boundary: negative_affected_buildings, proving the system correctly
+  //   does NOT claim certified-affected-buildings where evidence doesn't support it).
+  //   ⚠ SELF-CAUGHT MISMATCH: the first D8 pass selected Hero 2/3 from richer D4 rows
+  //   but attached them to D5/D6 sample bundles belonging to a DIFFERENT subject —
+  //   a grounding mismatch, not a staleness bug (the equivalent of the narration
+  //   layer's anti-echo problem, one layer down at the SELECTION stage). Caught and
+  //   fixed before closing: the selector + grounding gate now HARD-REQUIRES
+  //   subject-aligned D5/D6 evidence, not just visually/rhetorically richer rows.
+  //   D8 honestly recorded its own narrowed scope: 3+-stop-route and different-borough
+  //   preferences were NOT applied because exact D5/D6 grounding only covers one
+  //   Brooklyn route/stop right now — small-and-true beat large-and-shaky again.
+  // Current accepted Flow 3 line: D2C capped-working-set / D3 location-confidence-tiers /
+  //   D4 operator-review-routing-limitation / D5 governed-deterministic-briefings /
+  //   D6 live-Spark-NIM-replay / D8 flow3-hero-package — ALL GREEN. D9 (capped-source
+  //   accepted snapshot, NOT full-source completion) is current.
+  // F3·D10FULL full-source propagation refresh — GREEN,
+  //   PASS_WITH_FULL_SOURCE_INPUTS_AND_STAGE_LIMITATIONS (deliberately not
+  //   PASS_FULL_SOURCE). INPUTS upgraded capped→full: MVC 2,269,187 rows processed,
+  //   1,903,023 candidate MapPLUTO tax-lot edges from 175,606 unique tax lots,
+  //   2,020,656 response/firehouse context edges. D3FULL/D4FULL/D5FULL/D6FULL/D8FULL/
+  //   D9FULL stage re-runs all PASS. D4FULL funnel: 1,901,118 candidate pool → 250
+  //   review candidates → 25 routes → 66 stops (cuOpt/backend NOT called — confirm
+  //   before D9 freeze whether that's deliberate scope or a gap). D6FULL live NIM:
+  //   8 grounded replay requests PASS. CLAIM BOUNDARIES UNCHANGED BY THE UPGRADE —
+  //   FDNY affected-asset edges deliberately 0, candidate tax-lot context only,
+  //   operator-review routes only, no certified affected buildings, no emergency
+  //   dispatch, no navigable routing. More rows ≠ stronger claims, same discipline
+  //   as D6B3's fuzzy-match rejection and D8's hero/evidence mismatch catch.
+  // --- FLOW 3 RELABELLED TO ITS FINAL FULL-SOURCE STATE (D10FULL's run drove this) ---
+  // F3·D1RAW full official source landing — GREEN (supersedes the earlier capped pull)
+  // F3·D2C full-source status refresh — GREEN (Fire Dispatch + EMS Dispatch now FULL,
+  //   superseding the historical capped 2.0M/3.0M working-set, KEPT below as evidence)
+  // F3·D3FULL location-confidence candidate context — GREEN (1,903,023 candidate
+  //   MapPLUTO tax-lot edges, 175,606 unique tax lots, on full 2,269,187-row MVC input)
+  // F3·D4FULL operator-review routing — GREEN (1,901,118 candidate pool → 250 review
+  //   candidates → 25 routes → 66 stops; cuOpt/backend NOT called — RESOLVED: simpler
+  //   routing logic is the accepted design for this stage, distinct from a6·D1's cuOpt
+  //   VRP, not a gap)
+  // F3·D5FULL governed evidence briefings — GREEN (deterministic EvidenceBundles
+  //   re-run clean on full-source D3FULL/D4FULL inputs)
+  // F3·D6FULL live Spark/NIM replay — GREEN (8 grounded replay requests PASS, endpoint
+  //   healthy, on full-source bundles)
+  // F3·D8FULL subject-aligned hero package — GREEN (hero package re-verified on full-
+  //   source D3FULL–D6FULL evidence; the capped-era mismatch-catch discipline carried
+  //   forward unchanged)
+  // F3·D9 (HISTORICAL, capped-source era) — PASS_WITH_CAPPED_SOURCE_LIMITATION.
+  //   KEPT, NOT DELETED — evidence of progression. Superseded by D9FULL below.
+  // F3·D9FULL — GREEN, ACCEPTED_FULL_SOURCE_INPUTS_WITH_STAGE_LIMITATIONS. This is the
+  //   NEW FLOW 3 HEADLINE: composite D1RAW–D10FULL ledger frozen. Honest boundary
+  //   unchanged: not emergency dispatch, not certified affected-building detection,
+  //   not navigable routing — a governed incident/context/operator-review cartridge
+  //   over full official source inputs. NYC FLOW 3 WORK STOPS HERE unless a bug appears.
+  // --- SINGAPORE (third-city API donor, replaces Chicago in near-term portfolio —
+  //   deliberate decision 2026-06-27: real-time API access via LTA DataMall key) ---
+  // SG·D1 source/API probe — QUEUED, not yet started (Flow 3 D6-D8 clear, no longer
+  //   blocking). Credential rule: LTA_DATAMALL_API_KEY via env/.env only, never
+  //   committed, never pasted into code/HTML/logs/prompts.
+
+  let state=null;
+
+
+  async function load(){
+    if(window.storage){
+      try{const r=await window.storage.get(KEY); if(r&&r.value) return JSON.parse(r.value);}catch(e){}
+      return null;
+    }
+    mem=true; return null;
+  }
+  let t=null;
+  async function save(){
+    if(window.storage){
+      try{await window.storage.set(KEY,JSON.stringify(state)); note('saved'); return;}catch(e){note('save failed'); return;}
+    }
+    note();
+  }
+  function note(m){const el=document.getElementById('save'); if(!el)return;
+    el.textContent = mem?'in-memory only — not persisted':'✓ '+m;
+    if(t)clearTimeout(t); if(!mem)t=setTimeout(()=>el.textContent='',1500);}
+
+  function seed(){
+    const s={};
+    for(const k of ['now','mid','long']){
+      s[k]=DEFAULTS[k].map((d,i)=>({id:k+'_'+i, t:d.t, g:d.g||'', done:false, custom:false}));
+    }
+    return s;
+  }
+
+  function render(){
+    for(const k of ['now','mid','long']){
+      const ul=document.getElementById('list-'+k); ul.innerHTML='';
+      let done=0;
+      state[k].forEach(item=>{
+        if(item.done) done++;
+        const li=document.createElement('li');
+        if(item.done) li.className='done';
+        li.innerHTML =
+          '<span class="box" data-k="'+k+'" data-id="'+item.id+'"></span>'+
+          '<span class="txt" data-k="'+k+'" data-id="'+item.id+'">'+escapeHtml(item.t)+
+            (item.g?'<span class="gate">'+escapeHtml(item.g)+'</span>':'')+'</span>'+
+          (item.custom?'<button class="del" data-k="'+k+'" data-id="'+item.id+'" title="delete">×</button>':'');
+        ul.appendChild(li);
+      });
+      document.getElementById('c-'+k).textContent = done+' / '+state[k].length;
+    }
+  }
+  function escapeHtml(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+  document.addEventListener('click',function(e){
+    const box=e.target.closest('.box'), txt=e.target.closest('.txt'), del=e.target.closest('.del'), add=e.target.closest('[data-add]');
+    if(box||txt){
+      const t=(box||txt); const k=t.dataset.k, id=t.dataset.id;
+      const it=state[k].find(x=>x.id===id); if(it){it.done=!it.done; save(); render();}
+      return;
+    }
+    if(del){const k=del.dataset.k,id=del.dataset.id; state[k]=state[k].filter(x=>x.id!==id); save(); render(); return;}
+    if(add){const k=add.dataset.add; addTask(k); return;}
+    if(e.target.id==='reset'){ if(confirm('Reset the list to defaults? Custom tasks and checks are cleared.')){ state=seed(); save(); render(); } }
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Enter' && e.target.id && e.target.id.startsWith('in-')){ addTask(e.target.id.slice(3)); }
+  });
+  function addTask(k){
+    const input=document.getElementById('in-'+k); const v=(input.value||'').trim(); if(!v)return;
+    state[k].push({id:k+'_c_'+Date.now(), t:v, g:'', done:false, custom:true});
+    input.value=''; save(); render();
+  }
+
+  (async function(){
+    const loaded=await load();
+    state = loaded || seed();
+    render();
+    if(mem) note();
+  })();
+})();
+</script>
+</body>
+</html>

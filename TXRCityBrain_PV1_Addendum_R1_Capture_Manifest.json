@@ -1,0 +1,47 @@
+{
+  "status": "PASS_DOC_PV1_ADDENDUM_R1_CAPTURED",
+  "created_files": {
+    "mission": "/mnt/data/TXRCityBrain_MissionControl_addendum_r1.html",
+    "todo": "/mnt/data/TXRCityBrain_ToDo_addendum_r1.html",
+    "doc01": "/mnt/data/TXRCityBrain_01_CurrentCertifiedState_addendum_r1.md",
+    "doc03": "/mnt/data/TXRCityBrain_03_PlatformV1DoD_addendum_r1.md",
+    "doc04": "/mnt/data/TXRCityBrain_04_FullVisionCompletionMap_addendum_r1.md",
+    "handoff": "/mnt/data/TXRCityBrain_Codex_Claude_Handoff_addendum_r1.md",
+    "manifest": "/mnt/data/TXRCityBrain_PV1_Addendum_R1_Capture_Manifest.json"
+  },
+  "source_files": {
+    "mission": "/mnt/data/TXRCityBrain_MissionControl_updated.html",
+    "todo": "/mnt/data/TXRCityBrain_ToDo_updated.html",
+    "doc01": "/mnt/data/TXRCityBrain_01_CurrentCertifiedState_updated.md",
+    "doc03": "/mnt/data/TXRCityBrain_03_PlatformV1DoD_updated.md",
+    "doc04": "/mnt/data/TXRCityBrain_04_FullVisionCompletionMap_updated.md",
+    "handoff": "/mnt/data/TXRCityBrain_Codex_Claude_Handoff_updated.md"
+  },
+  "updates": [
+    "Mission Control headline and Post-PV1 fork section updated for FLOWX review-flow acceptance addendum.",
+    "To-Do immediate/long-term tasks updated: acceptance-policy gate is done; Barcelona city-core remains.",
+    "Canonical docs updated with PV1 Snapshot Addendum R1 status.",
+    "PV1 D19-D22 remains frozen; no operational acceptance/control implied."
+  ],
+  "accepted_review_flow_with_limitations": [
+    "NYC-F1X",
+    "NYC-F5X",
+    "NYC-F6X",
+    "CHI-F3X",
+    "CHI-F4X"
+  ],
+  "preserved_blockers": {
+    "BARC-F7": "CANDIDATE_ONLY_NOT_ACCEPTED / BLOCKED_BY_CITY_CORE",
+    "SG-F4-LTA": "BLOCKED_BY_AUTH"
+  },
+  "boundary": "Accepted review flow means governed review use only; no production/autonomous/operational/control/public-safety/enforcement/health/certified-asset claims.",
+  "hashes": {
+    "TXRCityBrain_MissionControl_addendum_r1.html": "88e5e840683f2fa6144606bf11a5e8261b76f04997da968eb8ed85c2ff184af9",
+    "TXRCityBrain_ToDo_addendum_r1.html": "6610d085cd211d8d3b4664e1472d8a54d4216146a5321e34c3816d7601e889f5",
+    "TXRCityBrain_01_CurrentCertifiedState_addendum_r1.md": "a3e8563459d8435b1822fa702707e1545d18ddb303dc7b0c5e2ff950fcbf33ad",
+    "TXRCityBrain_03_PlatformV1DoD_addendum_r1.md": "b443c8940b21dd22b85b9d4e94299f1bc01dd9d0d3745311589d65f4175fd768",
+    "TXRCityBrain_04_FullVisionCompletionMap_addendum_r1.md": "439ffc3416aa55387b09f82070b3c863c60be92ed6444263654a4b36760fdbbe",
+    "TXRCityBrain_Codex_Claude_Handoff_addendum_r1.md": "a17458dec18161d8e177717dc8a231c266974ed1d1913f0c70f5867202943b09",
+    "TXRCityBrain_PV1_Addendum_R1_Capture_Manifest.json": "f08764636540c2556686705fef5068419e618e33d643759560eb55ad3519fbc8"
+  }
+}

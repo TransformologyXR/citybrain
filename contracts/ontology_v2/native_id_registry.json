@@ -1,0 +1,59 @@
+{
+  "namespaces": {
+    "chicago": [
+      "cook_pin",
+      "building_footprint_id",
+      "building_permit",
+      "building_violation",
+      "business_license",
+      "food_inspection",
+      "traffic_crash",
+      "traffic_crash_vehicle",
+      "traffic_crash_person_context",
+      "community_area",
+      "cta_stop",
+      "cta_route",
+      "divvy_station_or_trip_context",
+      "open_air_sensor_or_observation",
+      "iris_like_civic_request_synthetic"
+    ],
+    "london": [
+      "uprn",
+      "toid",
+      "usrn",
+      "pld_reference",
+      "lids_record",
+      "local_plan_layer",
+      "enforcement_reference",
+      "ev_charge_site"
+    ],
+    "nyc": [
+      "bbl",
+      "bin",
+      "dob_permit",
+      "dob_complaint",
+      "mappluto_tax_lot",
+      "fdny_firehouse",
+      "fdny_dispatch_event",
+      "ems_dispatch_event",
+      "mvc_collision",
+      "road_segment_candidate"
+    ],
+    "synthetic": [
+      "sdf_chi_near_west_side_v1",
+      "synthetic_truth",
+      "synthetic_source_projection",
+      "synthetic_dirty_variant",
+      "synthetic_replay_event",
+      "synthetic_action_proposal"
+    ]
+  },
+  "native_id_object_schema": {
+    "native_authority": "...",
+    "native_id": "...",
+    "native_id_confidence": "exact | candidate | contextual | rejected",
+    "native_id_role": "primary | alias | source_reference | candidate",
+    "native_namespace": "..."
+  },
+  "status": "PASS"
+}

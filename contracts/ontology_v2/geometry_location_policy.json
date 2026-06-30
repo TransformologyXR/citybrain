@@ -1,0 +1,30 @@
+{
+  "examples": {
+    "chicago": "Community area context is area context, not parcel/building certification.",
+    "london": "TOID generalized points are context points, not exact building polygons.",
+    "nyc": "Accepted footprint overlap can support building/parcel spatial evidence only where the accepted gate proves it.",
+    "synthetic": "SDF geometry remains [S] synthetic geometry."
+  },
+  "geometry_classes": [
+    "exact_geometry",
+    "official_geometry",
+    "generalized_point",
+    "centroid",
+    "derived_point",
+    "geocoded_point",
+    "area_only",
+    "unknown"
+  ],
+  "hard_boundaries": [
+    "A location confidence in one flow does not automatically certify another flow.",
+    "A generalized point is not a parcel/building polygon.",
+    "A nearby relationship is not an affected-asset certification."
+  ],
+  "location_confidence": {
+    "A": "authoritative/exact enough for the flow purpose",
+    "B": "strong candidate/contextual",
+    "C": "weak/contextual only",
+    "D": "rejected/insufficient"
+  },
+  "status": "PASS"
+}

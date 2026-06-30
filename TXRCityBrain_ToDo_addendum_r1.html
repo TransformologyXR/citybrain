@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TXR City Brain — To-Do</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f1a; --panel:#0f1726; --panel-2:#121d30;
+    --line:#21304a; --line-soft:#1a273d;
+    --txt-hi:#e8eef8; --txt-mid:#9db0cc; --txt-lo:#62718c;
+    --now:#e3a83a; --mid:#3b7df0; --long:#8a4fd0; --done:#84c318;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --disp:'Space Grotesk',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:
+      radial-gradient(900px 500px at 85% -10%,rgba(59,125,240,.08),transparent 60%),
+      var(--bg);
+    color:var(--txt-hi);font-family:var(--disp);padding:26px 22px 70px;font-size:15px}
+  .wrap{max-width:1200px;margin:0 auto}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--txt-lo);margin-bottom:8px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:700;letter-spacing:-.02em;margin:0 0 8px}
+  .sub{color:var(--txt-mid);max-width:680px;margin:0 0 8px;font-size:14.5px}
+  .sub b{color:var(--txt-hi);font-weight:600}
+  .topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:24px}
+  .resetbtn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt-mid);background:transparent;border:1px solid var(--line);border-radius:8px;padding:7px 13px;cursor:pointer;transition:.18s}
+  .resetbtn:hover{border-color:var(--now);color:var(--now)}
+  .savenote{font-family:var(--mono);font-size:10.5px;color:var(--txt-lo);letter-spacing:.06em}
+
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:880px){.cols{grid-template-columns:1fr}}
+
+  .col{border:1px solid var(--line);border-radius:13px;background:var(--panel);padding:16px 15px;display:flex;flex-direction:column}
+  .col.now{box-shadow:inset 0 3px 0 var(--now)}
+  .col.mid{box-shadow:inset 0 3px 0 var(--mid)}
+  .col.long{box-shadow:inset 0 3px 0 var(--long)}
+  .chead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:3px}
+  .ctitle{font-size:16px;font-weight:700;letter-spacing:-.01em}
+  .col.now .ctitle{color:var(--now)} .col.mid .ctitle{color:var(--mid)} .col.long .ctitle{color:var(--long)}
+  .ccount{font-family:var(--mono);font-size:11px;color:var(--txt-lo)}
+  .csub{color:var(--txt-lo);font-size:12px;margin:0 0 14px;min-height:30px}
+
+  ul{list-style:none;margin:0;padding:0;flex:1}
+  li{display:flex;align-items:flex-start;gap:10px;padding:9px 8px;border-radius:8px;margin-bottom:5px;background:var(--panel-2);border:1px solid var(--line-soft);transition:.18s}
+  li.done{opacity:.55}
+  .box{flex:none;width:18px;height:18px;border-radius:5px;border:1.5px solid var(--txt-lo);margin-top:1px;cursor:pointer;position:relative;transition:.18s}
+  li.done .box{background:var(--done);border-color:var(--done)}
+  li.done .box::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#0a0f1a;font-size:12px;font-weight:700}
+  .box:hover{border-color:var(--txt-mid)}
+  .txt{flex:1;font-size:13.5px;line-height:1.4;cursor:pointer}
+  li.done .txt{text-decoration:line-through;color:var(--txt-mid)}
+  .gate{display:block;font-family:var(--mono);font-size:10px;color:var(--txt-lo);margin-top:3px;letter-spacing:.03em}
+  .del{flex:none;background:transparent;border:none;color:var(--txt-lo);cursor:pointer;font-size:15px;line-height:1;padding:0 2px;opacity:0;transition:.18s}
+  li:hover .del{opacity:.7}
+  .del:hover{color:var(--now);opacity:1}
+
+  .addrow{display:flex;gap:7px;margin-top:10px}
+  .addrow input{flex:1;background:var(--panel-2);border:1px solid var(--line);border-radius:7px;color:var(--txt-hi);font-family:var(--disp);font-size:13px;padding:8px 10px;outline:none}
+  .addrow input:focus{border-color:var(--mid)}
+  .addrow button{background:transparent;border:1px solid var(--line);border-radius:7px;color:var(--txt-mid);cursor:pointer;font-size:18px;width:36px;transition:.18s}
+  .addrow button:hover{border-color:var(--mid);color:var(--mid)}
+  .foot{margin-top:30px;border-top:1px solid var(--line-soft);padding-top:14px;color:var(--txt-lo);font-size:11.5px;font-family:var(--mono);letter-spacing:.03em;line-height:1.7}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">TransformologyXR · NVIDIA Urban AI demonstration</div>
+  <h1>TXR City Brain — To-Do</h1>
+  <p class="sub">PV1 is closed as a <b>review-only Platform v1 snapshot</b> — <code>PASS_PLATFORM_V1_REVIEW_ONLY_SNAPSHOT</code>. Post-PV1 addendum R1 is green: <code>FLOWX-REVIEW-FLOW-ACCEPTANCE-D1</code> promoted NYC-F1X, NYC-F5X, NYC-F6X, CHI-F3X, and CHI-F4X to <code>ACCEPTED_REVIEW_FLOW_WITH_LIMITATIONS</code>; BARC-F7 remains candidate-only / blocked by Barcelona city-core. <b>We are still NOT shipping as production/autonomous control.</b> The next choice is post-PV1 value: make the proof engine legible, deepen a strong vertical, bind to Omniverse assets, harden production review-only, strengthen data freshness, or build the agent/briefing layer. Autonomy remains a deferred safety-critical future program. Click a box to check; add your own per column. <b>Credential rule:</b> Singapore's LTA DataMall key lives in <code>LTA_DATAMALL_API_KEY</code> via env/.env only — never in code, HTML, logs, commits, or prompts that may be stored.</p>
+  <div class="topbar">
+    <button class="resetbtn" id="reset">Reset list</button>
+    <span class="savenote" id="save"></span>
+  </div>
+
+  <div class="cols">
+    <div class="col now">
+      <div class="chead"><span class="ctitle">Immediate</span><span class="ccount" id="c-now"></span></div>
+      <p class="csub">PV1 frozen · optional post-PV1 addendum · manual visual lane</p>
+      <ul id="list-now"></ul>
+      <div class="addrow"><input id="in-now" placeholder="Add immediate task…"><button data-add="now">+</button></div>
+    </div>
+    <div class="col mid">
+      <div class="chead"><span class="ctitle">Medium-term</span><span class="ccount" id="c-mid"></span></div>
+      <p class="csub">Seven alternatives before any autonomy/control program</p>
+      <ul id="list-mid"></ul>
+      <div class="addrow"><input id="in-mid" placeholder="Add medium-term task…"><button data-add="mid">+</button></div>
+    </div>
+    <div class="col long">
+      <div class="chead"><span class="ctitle">Long-term</span><span class="ccount" id="c-long"></span></div>
+      <p class="csub">Deferred blockers, breadth, and safety-critical futures</p>
+      <ul id="list-long"></ul>
+      <div class="addrow"><input id="in-long" placeholder="Add long-term task…"><button data-add="long">+</button></div>
+    </div>
+  </div>
+
+  <div class="foot" id="foot">
+    PV1 is the review-only proof engine, not a production/autonomous-control claim. &nbsp;·&nbsp; Next value comes from legibility, vertical depth, scene binding, production review-only hardening, data freshness, or agent briefing. &nbsp;·&nbsp; Companion board: TXRCityBrain_MissionControl.html (scope / gates).
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  const KEY='txr_todo_v1';
+  let mem=false;
+
+  const DEFAULTS = {
+    now:[
+      {t:"PV1 CLOSED — preserve the final review-only snapshot", g:"PV1-D19/D20/D21/D22 green · PASS_PLATFORM_V1_REVIEW_ONLY_SNAPSHOT · do not mutate the final snapshot; any later change becomes a post-PV1 addendum or R1 snapshot by explicit decision."},
+      {t:"PV1 Snapshot Addendum R1 captured", g:"FLOWX-REVIEW-FLOW-ACCEPTANCE-D1 green · PASS_REVIEW_FLOW_ACCEPTANCE_POLICY_WITH_LIMITATIONS · five NYC/Chicago lanes are ACCEPTED_REVIEW_FLOW_WITH_LIMITATIONS · PV1-D19/D22 frozen outputs unchanged."},
+      {t:"Manual Omniverse asset lane continues externally", g:"Grey-city assets for NYC, London, Chicago, Barcelona + textured hero locations · globally geolocated USD/Omniverse-ready substrate · Codex should not assume these assets exist until a scene-binding gate is opened."},
+      {t:"Decide next post-PV1 path by platform breadth + data strength", g:"Do not add cities/data by default. First ask: what missing platform layer makes current cities more usable, visible, repeatable, or governable?"},
+    ],
+    mid:[
+      {t:"1. Product/demo/narrative pack", g:"Turn PV1 from a proof engine into a legible story: demo script, operator journey, executive dashboard narrative, capability matrix, product one-pager, screenshots/video."},
+      {t:"2. Compliance/planning vertical depth pack", g:"Use the strongest accepted base — NYC Flow 2 + London Flow 2/planning context — and connect it to building/planning/compliance use cases and RFI-style evidence."},
+      {t:"3. Omniverse visual twin / CITY-SCENE-BINDING-D1", g:"When manual assets are ready, define CRS/geolocation anchors, USD prim paths, city/flow/entity-to-asset IDs, route overlays, replay timeline, evidence panels, and asset provenance/licensing."},
+      {t:"4. Production review-only hardening", g:"RBAC, API gateway, tenant/security model, observability/SLOs, backups, secrets, source freshness monitors, immutable audit, dev/stage/prod — still no actuator adapters."},
+      {t:"5. Data moat / XDATA freshness layer", g:"Incremental update contracts, freshness/latency reporting, stable source monitors, selective source expansion only where it improves accepted or review-flow value."},
+      {t:"6. Agent/NIM/NeMo briefing layer", g:"Tool registry, evidence-only narration, retriever/RAG over route evidence, persona-specific briefing agents, eval harness, hallucination/no-overclaim tests."},
+      {t:"7. Autonomy track — deferred safety-critical program", g:"Not a PV1 continuation. Requires real-world partner access, shadow mode, safety case, certified adapters, manual override, legal authority, and no LLM actuator control."},
+    ],
+    long:[
+      {t:"Singapore LTA/auth recovery", g:"SG-F4-public remains data-route-ready; SG-F4-LTA-mobility stays BLOCKED_BY_AUTH until a working key arrives."},
+      {t:"Barcelona city-core acceptance", g:"Required before BARC-F7 can move beyond data-route-ready / candidate-only; the post-PV1 review-flow acceptance policy deliberately preserved BARC-F7 as BLOCKED_BY_CITY_CORE."},
+      {t:"Dubai cartridge — manual export + re-anchor", g:"DLD/DM/Bayanat/Police; onto Dubai geometry · Phase-2 anchor · needs blocked export/assets before serious build."},
+      {t:"Oil & gas cartridge — branch", g:"Only after city proof is legible; cartridge brings its own domain schema and synthetic/real boundary."},
+      {t:"Simulation lab expansion", g:"SUMO for mobility; later cuOpt, pandapower, EPANET/WNTR, synthetic event generator — analysis tools, not control systems."},
+    ],
+  };
+
+  // ══════════════════════════════════════════════════════════════════════
+  // DONE LEDGER — full NYC Flow 2 spine, citywide, all green and pinned
+  // ══════════════════════════════════════════════════════════════════════
+  // a1 canonical schema v1 · a2 acceptance harness (drift-tested)
+  // a3 NYC adapters → registry (hero cascade green v3)
+  // a3·D2 footprints → Building geometry (1,012,067 polygons, 99.91% coverage,
+  //   byte-stable a4·D3b regression)
+  // a4·D1 district cut · a4·D2 DOB enrichment · a4·D2b discovery (28,790 ranked)
+  // a4·D3a 3-district CPU parametric proof (MN-1060 + 1-01158 + 2-02316)
+  // a4·D3b CITYWIDE cuGraph: 27,997 blocks, 7.33M nodes, 9.64M edges,
+  //   5.3GB peak VRAM, 3.8s GPU op time, round-trip portable
+  // a5·D1 deterministic operator query · a5·D2 Spark portability pack
+  // a5·D3 live Spark/NIM/NeMo hero smoke (deterministic facts unchanged)
+  // a5·D4a EvidenceBundle v1 + grounded-narration gate (2nd-subject proof)
+  // a5·D4b thin validator + complete trace
+  // a5·D5 NeMo wrapper (single tool, no low-level bypass)
+  // a5·D6 live NeMo/NIM replay (grounded both subjects, negative-request rejected)
+  // a5·D6b narration surface (prose briefing: subset-grounded, anti-echo,
+  //   min-coverage, subject-isolated — closes the AP-Physics-style trapdoor)
+  // a5·D7 citywide precomputed briefing/trace — ALL 27,997 active blocks
+  //   (0 non-hero leakage)
+  // a5·D7b live Spark citywide query — any block on demand, hero parity verified
+  //   byte-aligned (1461 nodes, 2139 edges, 711 complaints, 11 critical, 1175 permits)
+  // a6·D1 cuOpt operational review optimizer — 120 candidates, 60 routed,
+  //   33 assigned / 27 dropped, 3 teams, all 5 boroughs, operator-safe language
+  // a7 evidence briefing + provenance (a5·D6b/D7 + a8·D3b why_selected)
+  // a8·D1 face-layer foundation (3-district, round-trip portable)
+  // a8·D2 citywide map (LOD zoom levels, viewport-bounded, heatmap, search)
+  // a8·D3 route overlay from cuOpt (counts match optimizer output)
+  // a8·D3b why_selected plain-English tooltips + hero clip attached [Illustrative]
+  // hardcode audit (10,963 hits classified, 8 smelly all in 1 file, 0 wrong)
+  //   + smelly-file quarantine (neutral taxonomy module split out)
+  // 5M+ row harvest of 11 NYC datasets · prep v0.2 string-safe Parquet
+  // cuOpt foundation on 3090 (NGC auth, image 26.6.0-cuda12.9-py3.14, health PASS)
+  // LON·D3 source reachability + identity-backbone probe (v0.2, OpenUSRN gap closed)
+  // LON·D4 sampled identity ingest — GREEN
+  // LON·D5 PLD planning ingest — GREEN, unattached sample mismatch named
+  // LON·D5b PLD-driven OpenUPRN backfill — GREEN_WITH_SOURCE_LIMITATION
+  // LON·D5c LIDS-confirmed PLD identity bridge — GREEN, connected paths BOTH
+  // LON·D6 enforcement/building-control probe — PASS_D6A_ONLY_SOURCE_LIMITATION
+  // LON·D7 sampled graph + deterministic briefing/query smoke — GREEN
+  // LON·D8 operator query contract + EvidenceBundle export — GREEN
+  // LON·D9A raw inventory — GREEN, D9B/D9C ready
+  // LON·D9B London-wide identity build — GREEN
+  // LON·D9C PLD normalization/dedupe — GREEN
+  // LON·D9D original PLD alignment — SUPERSEDED by D9D2
+  // LON·D9D2 official PLD API UPRN recovery — GREEN, 53,753 PLD→UPRN edges
+  // LON·D9E-D9D2 accepted graph — GREEN, 7,734,960 nodes / 10,664,896 edges
+  // LON·D9F-D9D2 accepted query contract — GREEN
+  // LON·D9Z accepted snapshot + board/docs freeze — GREEN
+  // LON·D10 planning-context enrichment — GREEN (186,180 ctx nodes / 232,101 ctx
+  //   edges / 53,751 PLD-with-context / 32-33 boroughs) — context, NOT legal determination
+  // LON·D10B Local Plan semantic certification — GREEN (444/1,139 layers certified,
+  //   695 manual-review; 55,469 nodes / 168,116 edges; 36,352 PLD + 27,551 UPRN; 33/33)
+  // LON·D11 London face-layer cartridge — GREEN (UI smoke + 4070 publish PASS; API FILE_ONLY)
+  // LON·D12 deterministic London NeMo wrapper — GREEN, PASS_WITH_LIVE_NIM_NOT_RUN (1 tool, 8/8)
+  // LON·D6B2 bounded official Havering enforcement — GREEN_WITH_IDENTITY_LIMITATION
+  //   (532 events, all SHA-256, 0 exact PLD/UPRN matches → official but identity-unjoined)
+  // LON·D6B3 Havering identity recovery — GREEN, PASS_WITH_PARTIAL_IDENTITY_RECOVERY
+  //   (277 planning-ref hits → 7 exact PLD matches → 7 certified identity edges →
+  //    6 permits with full D9D2 paths PLD→UPRN→TOID and →USRN; 2,196 fuzzy rejected,
+  //    2,728 candidate-only; address-only NOT certified — the first London enforcement
+  //    cascade raw material)
+  // LON·D11b live face smoke — GREEN, PASS_WITH_LIVE_ROUTE_NOT_RUN_FILE_PAYLOAD_VERIFIED
+  //   (16 attempts; 4070 served generic shell not /london; payload correct, NOT live-hosted)
+  // LON·D12b live Spark/NIM replay — GREEN, LIVE NIM GROUNDED
+  //   (live NIM answered London sample set, grounding PASS; London narrates live end-to-end)
+  // LON·D13 composite accepted London snapshot — GREEN, GREEN_WITH_DECLARED_LIMITATIONS
+  //   (folds D9Z→D6B3; new accepted London source of truth; nuances preserved not flattened)
+  // LON·D13b composite refresh — GREEN, PASS (folds D6B3's 7 certified edges + D12b live
+  //   NIM grounded into the accepted composite)
+  // LON·D11C live face route fix — GREEN, PASS (4070 :8080 /london + /api/london/* now
+  //   serve the real composite; 10/10 live endpoint attempts passed; generic shell replaced)
+  // LON·D11A TOID geometry via OS Open TOID — GREEN, PASS_WITH_GENERALISED_TOID_LOCATION_LIMITATION
+  //   (40,803/40,804 accepted TOIDs matched to generalised-location POINTS, not footprint
+  //   polygons — that needs licensed OS MasterMap; all 6 D6B3 TOID paths locatable)
+  // LON·D10EV EV charging source recovery — GREEN, PASS_WITH_SCOPE_LIMITATION
+  //   (156 official rapid-charging sites, London Datastore GeoPackage, 31/33 boroughs,
+  //   1,615 context edges — rapid-charging only, not complete EV coverage or live availability)
+  // LON·D6B4 enforcement identity expansion (optional) — GREEN, PASS_WITH_EXPANDED_IDENTITY_RECOVERY
+  //   (183 new exact PLD matches, 0 fuzzy/address promoted; 7→190 total certified edges;
+  //   148 official PLD API exact matches, 120 with UPRN, 104/106 OpenUPRN-verified;
+  //   5,181 candidates rejected and kept candidate-only — same no-fuzzy discipline as D6B3)
+  // ⚠ ORDERING NOTE (RESOLVED BY D13c): D6B4 had run against the PRE-D13b D6B3/D6B2
+  //   baseline (D13b's output wasn't present locally when D6B4 ran). RESOLVED — see below.
+  // LON·D13c final London pre-hero closure — GREEN, PASS (D6B4's 190 edges promoted as
+  //   the current accepted state; D12b live NIM AND D11C live face both RE-SMOKED live
+  //   against the reconciled composite, not just file-merged; /api/london/status
+  //   confirmed showing D13c/D6B4, no stale D13b/D6B3 anywhere). London is now CLOSED
+  //   pre-hero — only LON·hero and NYC's A9 remain as active next steps.
+  // LON·hero dual scenarios — GREEN, CONFIRMED ON TRUST 2026-06-27 (Codex/ChatGPT
+  //   consolidated handoff, no gate report/hash manifest seen directly by Claude):
+  //   (1) Havering enforcement-to-planning identity trace (2) Camden planning
+  //   application + Local Plan/TOID/EV context. London cartridge: closed with dual hero.
+  // --- NYC FLOW 3 (the genuine 2nd FLOW — NOT to be confused with the earlier-planned
+  //   London-resilient-city "Flow 3", which never got built under that name) ---
+  // F3·D1 source inventory · F3·D2 FDNY ingest · F3·D2C capped working-set refresh
+  //   (MVC+firehouses FULL-SOURCE; Fire Dispatch capped 2.0M/11.82M; EMS Dispatch
+  //   capped 3.0M/29.57M — explicit, not final full-source completion)
+  // F3·D3 affected-asset+response context (NO certification) · F3·D4 candidate
+  //   prioritization + review routing (operator-safe, NOT emergency dispatch)
+  // F3·D5 governed EvidenceBundles + deterministic briefings (5 bundles, no live NIM yet)
+  // F3·D6 live Spark/NIM replay — GREEN (one public tool, grounded live narration,
+  //   capped-source limitations visible in every briefing)
+  // F3·D7 live face/map/trace — GREEN (confirmed live via D8's 6/6 endpoint pass,
+  //   not a separate smoke — /flow3/heroes and /api/flow3/heroes.json both serving)
+  // F3·D8 Flow 3 hero package — GREEN, PASS. 4 heroes emitted (3 positive + 1
+  //   negative-boundary: negative_affected_buildings, proving the system correctly
+  //   does NOT claim certified-affected-buildings where evidence doesn't support it).
+  //   ⚠ SELF-CAUGHT MISMATCH: the first D8 pass selected Hero 2/3 from richer D4 rows
+  //   but attached them to D5/D6 sample bundles belonging to a DIFFERENT subject —
+  //   a grounding mismatch, not a staleness bug (the equivalent of the narration
+  //   layer's anti-echo problem, one layer down at the SELECTION stage). Caught and
+  //   fixed before closing: the selector + grounding gate now HARD-REQUIRES
+  //   subject-aligned D5/D6 evidence, not just visually/rhetorically richer rows.
+  //   D8 honestly recorded its own narrowed scope: 3+-stop-route and different-borough
+  //   preferences were NOT applied because exact D5/D6 grounding only covers one
+  //   Brooklyn route/stop right now — small-and-true beat large-and-shaky again.
+  // Current accepted Flow 3 line: D2C capped-working-set / D3 location-confidence-tiers /
+  //   D4 operator-review-routing-limitation / D5 governed-deterministic-briefings /
+  //   D6 live-Spark-NIM-replay / D8 flow3-hero-package — ALL GREEN. D9 (capped-source
+  //   accepted snapshot, NOT full-source completion) is current.
+  // F3·D10FULL full-source propagation refresh — GREEN,
+  //   PASS_WITH_FULL_SOURCE_INPUTS_AND_STAGE_LIMITATIONS (deliberately not
+  //   PASS_FULL_SOURCE). INPUTS upgraded capped→full: MVC 2,269,187 rows processed,
+  //   1,903,023 candidate MapPLUTO tax-lot edges from 175,606 unique tax lots,
+  //   2,020,656 response/firehouse context edges. D3FULL/D4FULL/D5FULL/D6FULL/D8FULL/
+  //   D9FULL stage re-runs all PASS. D4FULL funnel: 1,901,118 candidate pool → 250
+  //   review candidates → 25 routes → 66 stops (cuOpt/backend NOT called — confirm
+  //   before D9 freeze whether that's deliberate scope or a gap). D6FULL live NIM:
+  //   8 grounded replay requests PASS. CLAIM BOUNDARIES UNCHANGED BY THE UPGRADE —
+  //   FDNY affected-asset edges deliberately 0, candidate tax-lot context only,
+  //   operator-review routes only, no certified affected buildings, no emergency
+  //   dispatch, no navigable routing. More rows ≠ stronger claims, same discipline
+  //   as D6B3's fuzzy-match rejection and D8's hero/evidence mismatch catch.
+  // --- FLOW 3 RELABELLED TO ITS FINAL FULL-SOURCE STATE (D10FULL's run drove this) ---
+  // F3·D1RAW full official source landing — GREEN (supersedes the earlier capped pull)
+  // F3·D2C full-source status refresh — GREEN (Fire Dispatch + EMS Dispatch now FULL,
+  //   superseding the historical capped 2.0M/3.0M working-set, KEPT below as evidence)
+  // F3·D3FULL location-confidence candidate context — GREEN (1,903,023 candidate
+  //   MapPLUTO tax-lot edges, 175,606 unique tax lots, on full 2,269,187-row MVC input)
+  // F3·D4FULL operator-review routing — GREEN (1,901,118 candidate pool → 250 review
+  //   candidates → 25 routes → 66 stops; cuOpt/backend NOT called — RESOLVED: simpler
+  //   routing logic is the accepted design for this stage, distinct from a6·D1's cuOpt
+  //   VRP, not a gap)
+  // F3·D5FULL governed evidence briefings — GREEN (deterministic EvidenceBundles
+  //   re-run clean on full-source D3FULL/D4FULL inputs)
+  // F3·D6FULL live Spark/NIM replay — GREEN (8 grounded replay requests PASS, endpoint
+  //   healthy, on full-source bundles)
+  // F3·D8FULL subject-aligned hero package — GREEN (hero package re-verified on full-
+  //   source D3FULL–D6FULL evidence; the capped-era mismatch-catch discipline carried
+  //   forward unchanged)
+  // F3·D9 (HISTORICAL, capped-source era) — PASS_WITH_CAPPED_SOURCE_LIMITATION.
+  //   KEPT, NOT DELETED — evidence of progression. Superseded by D9FULL below.
+  // F3·D9FULL — GREEN, ACCEPTED_FULL_SOURCE_INPUTS_WITH_STAGE_LIMITATIONS. This is the
+  //   NEW FLOW 3 HEADLINE: composite D1RAW–D10FULL ledger frozen. Honest boundary
+  //   unchanged: not emergency dispatch, not certified affected-building detection,
+  //   not navigable routing — a governed incident/context/operator-review cartridge
+  //   over full official source inputs. NYC FLOW 3 WORK STOPS HERE unless a bug appears.
+  // --- APPLICATION SNAPSHOT v1 — A9-WIRE-E2E COMPLETE, G1 FORMALLY GREEN ---
+  // A9-WIRE-E2E Formal G1 Snapshot Runner — GREEN, G1_PASS. Reconciled NYC Flow 2 +
+  //   London + NYC Flow 3 into ONE decision. Live proof, not file-level: 4070 surface
+  //   smoke 8/8 endpoints HTTP 200 with expected markers; Spark/NIM smoke /v1/models
+  //   HTTP 200, meta/llama-3.1-8b-instruct found. No-overclaim + no-mutation both PASS.
+  //   PIN: TXR City Brain Application Snapshot v1: G1_PASS.
+  //   BOUNDARY: G1 is the Application Snapshot, NOT Platform v1 — Platform v1 stays
+  //   open. Flow 1 remains planned/in-progress. Singapore remains source-scout only.
+  // --- CHICAGO — ACTIVE 3RD-CITY DONOR (replaces the PAUSED Singapore in near-term;
+  //   corrected 2026-06-27: this does NOT mean Singapore is dropped, policy is DO BOTH) ---
+  // CHI·D1 source/API probe — GREEN, PASS_WITH_KEY_PROTECTED_CTA_LIVE (42 Socrata
+  //   endpoints probed, 39 counted, 42 landed; Cook PIN identity scout PASS; CTA GTFS
+  //   static PASS, CTA live APIs KEY_MISSING; secret scan PASS)
+  // CHI·D1B large-source refresh — GREEN, PASS_WITH_CAPPED_LARGE_SOURCES (8,698,765
+  //   rows landed; FULL: footprints 820,606 / permits 839,688 / licenses 1,199,867 /
+  //   food inspections 312,415 / crashes 1,069,048; rest honestly WINDOWED/CAPPED at
+  //   stated 500,000 limits — 311, Crimes, Cook parcels, Divvy, Crash People/Vehicles,
+  //   Traffic Tracker historical, Open Air individual)
+  // CHI·D2/D2B base identity — GREEN, PASS_WITH_CAPPED_BASE_SOURCES (474,900 Cook PIN
+  //   parcels, 820,598 footprint candidates, 1,022,831 identity/context edges)
+  // CHI·D3 civic/event ingest + flow readiness — GREEN, PASS_WITH_CAPPED_EVENT_SOURCES
+  //   (5,737,296 context edges; location confidence A=5,262,445/B=615,211/C=46/D=457;
+  //   FLOW7_READY_WITH_CAPPED_SOURCE_LIMITATIONS; FLOW1_READY_WITH_CAPPED_SOURCE_
+  //   LIMITATIONS; 6 hero candidates; crime kept privacy-safe BLOCK-LEVEL context
+  //   only — no policing/dispatch/enforcement/health/operational-recommendation claims)
+  //   Chicago is flow-READY for Flow 1 AND Flow 7, NOT yet flow-BUILT or certified.
+  // CHI·D4 Dual Flow Fork (Flow 1 + Flow 7) is the recommended next gate — CURRENT.
+  // [SUPERSEDED] The line above (CHI·D4 fork as "next gate") described an earlier
+  //   plan state. CHI-D4 actually ran and is GREEN — see the full accepted chain below.
+  // --- CHICAGO DUAL-FLOW ACCEPTED SNAPSHOT — supersedes the single-flow-readiness
+  //   framing above. Chicago moved from "flow-ready" to "flow-BUILT and accepted." ---
+  // CHI·D1B refreshed — GREEN_WITH_CAPPED_LARGE_SOURCES · EXPANDED TARGETED SOURCE
+  //   LANDING (supersedes the earlier D1B row count with an expanded targeted set)
+  // CHI·D2B base identity — GREEN_WITH_CAPPED_BASE_SOURCES (merges the earlier
+  //   separate CHI-D2/D2B entries into one accepted identity refresh)
+  // CHI·D3B civic/event ingest (expanded) — GREEN_WITH_CAPPED_SOURCE_LIMITATIONS
+  //   (11,279,337 event/location rows, 16,529,370 context edges — expanded from D3's
+  //   5,737,296; D3 kept above as historical evidence of progression, superseded here)
+  // CHI·D4B Dual Flow Fork — GREEN_WITH_DUAL_FLOW_FORK (the fork actually ran)
+  // CHI-F1F7·D1B dual-flow candidate build — GREEN, PASS_DUAL_FLOW_D1
+  // CHI-F1F7·D2B live Spark/NIM replay over Chicago dual-flow bundles — GREEN,
+  //   LIVE SPARK/NIM REPLAY
+  // CHI-F1F7·D3B Chicago live face/status/fusion surface — GREEN, REFRESHED
+  //   FACE-LAYER STATUS/FUSION SURFACE (4070)
+  // CHI-F1F7·D4 Chicago hero package — GREEN, CHICAGO HERO PACKAGE. 193 F7 fusion
+  //   candidates → 8 selected → 3 frozen: Hero 1 Top Flow 1 Area Status (Near West
+  //   Side); Hero 2 Top Flow 7 Civic/Sensor Fusion Candidate (Near West Side /
+  //   community_area:28); Hero 3 Governance Boundary — Asset Certainty Rejected
+  //   (a DELIBERATE negative-boundary hero, same pattern as NYC Flow 3's
+  //   negative_affected_buildings — proves the system correctly declines to certify
+  //   asset claims the evidence doesn't support)
+  // CHI-F1F7·D5 Chicago dual-flow accepted snapshot — GREEN,
+  //   GREEN_WITH_CAPPED_SOURCE_LIMITATIONS. THIS IS THE NEW CHICAGO HEADLINE: live
+  //   routes PASS, no-overclaim + no-mutation + hashes all PASS. NOT all-full-source —
+  //   Divvy/Cook parcels/Crimes/Open Air individual stay capped/windowed. No
+  //   affected-building/asset certification. No operational/policing/public-safety/
+  //   dispatch/enforcement/emergency/health recommendations. CTA GTFS is static
+  //   schedule context only, no live CTA status claim.
+  // RESULT: Flow 1 (Situational Status) and Flow 7 (Civic + Sensor Fusion) are now
+  //   BOTH represented through Chicago — G3's "3-4 flow families" substance is
+  //   genuinely strong (Flow 2 NYC+London, Flow 3 NYC, Flow 1+7 Chicago), though
+  //   formal portfolio certification language is still pending.
+  // --- STRATEGIC PIVOT 2026-06-27: NOT shipping yet. Next active lane is Option B —
+  //   Platform v1 gap closure (PV1-D1 through D6), while the user manually prepares
+  //   3D models for London/Chicago/New York/Singapore on a separate external track. ---
+  // --- TRACK 1 — PV1 MAIN PLATFORM TRACK (do not collapse with Track 2 below) ---
+  // PV1·D1 Gap Ledger — GREEN, ran for real: multi-city + multi-flow mostly satisfied,
+  //   the other 5 criteria (multi-mode cognition, personas, event fabric, simulator,
+  //   HITL) marked incomplete. Prevents mistaking portfolio breadth for platform done.
+  // PV1-SDF·D1–D6 Synthetic Data Factory — GREEN, PASS_SYNTHETIC_DATA_FACTORY_D1_D6
+  // PV1-INFRA·D1 runtime/infra audit — GREEN, PASS_WITH_INSTALL_GAPS (3090+RAPIDS
+  //   live; SUMO flagged as deferred/not installed — closes via PV1-SUMO-SETUP-D1)
+  // PV1·D3/D4 cross-city ontology v2 — GREEN, PASS_CROSS_CITY_ONTOLOGY_V2 (formalizes
+  //   Cook PIN ≠ BBL, UPRN ≠ BIN-equivalent parcel, TOID ≠ BIN; native IDs stay primary,
+  //   CityBrain IDs wrap them, cross-source IDs are aliases never replacements)
+  // PV1·D5/D6/D7 file-backed event fabric — GREEN, PASS_FILE_BACKED_EVENT_FABRIC
+  //   (EventEnvelope contract, replay packs incl. out-of-order/late/duplicate/
+  //   superseded, current-state materializer — deterministic replay, not real-time-live)
+  // PV1·D8/D9 review-only Incident + proposal-only Plan modes — GREEN,
+  //   PASS_REVIEW_ONLY_INCIDENT_AND_PLAN_MODES (no emergency/public-safety/enforcement
+  //   claim; human approval required before any action)
+  // NEXT: PV1-SUMO-SETUP-D1 (install/probe/harness) MUST land before PV1-D10/D11/D12
+  //   simulator bridge can claim readiness.
+  //
+  // --- TRACK 2 — PARALLEL XDATA / CITY-FLOW EXPANSION (does NOT replace Track 1) ---
+  // XDATA·D2-R1 bulk source landing — GREEN, PASS_WITH_SOURCE_LIMITATIONS. London
+  //   4,769,591 rows/1.33GB; NYC 8,764,966 rows/4.02GB; Chicago 36,617,614 rows/16.08GB;
+  //   BARCELONA (new 4th city) 2,895,318 effective rows/450MB. New semantics vocabulary:
+  //   FULL/CAPPED_BULK/WINDOWED_COMPLETE/BOUNDED_SAMPLE/METADATA_ONLY/
+  //   MANUAL_RECOVERY_(FULL/DUPLICATE/SCOPE_REVIEW)
+  // D3-REFRESH·D1 — GREEN, PASS_D3_REFRESH_DECISION. Refreshed: CHI-F4X/NYC-F4X/
+  //   BARC-F7/NYC-F1X. No-refresh: CHI-F3X/NYC-F5X/NYC-F6X (not needed); BARC-F4
+  //   (deferred, already candidate D6, not in immediate D4 queue)
+  // D4-BATCH-D1 — GREEN. CHI-F4X-D4 + NYC-F1X-D4 done earlier; CHI-F3X-D4 + NYC-F5X-D4
+  //   + NYC-F6X-D4 + BARC-F7-D4 completed in this batch. All PASS_PAYLOAD_ONLY_WITH_
+  //   SOURCE_LIMITATIONS. D4 ONLY — D5 and D6 explicitly excluded from this task.
+  // D5-BATCH-D1 — GREEN. CHI-F4X-D5 done earlier (PASS_HERO_PAYLOAD_ONLY_WITH_SOURCE_
+  //   LIMITATIONS); this batch added NYC-F1X-D5, CHI-F3X-D5, NYC-F5X-D5, NYC-F6X-D5,
+  //   BARC-F7-D5 — same status each, FACE_HERO_PAYLOAD_ONLY, exactly 3 heroes per flow,
+  //   NO live routes published. Boundary carry-forward + no-overclaim + no-mutation +
+  //   hashes all PASS.
+  // ⚠ PRECISE STATE: D5-BATCH-D1 produced a D6-PROMOTION-REVIEW HANDOFF (the JSON
+  //   artifact at D5_BATCH_D1_D6_PROMOTION_REVIEW_HANDOFF.json) — that is NOT the same
+  //   as D6-PROMOTION-REVIEW having RUN. D6 itself has not executed. Per the explicit
+  //   boundary: "payload-only D4/D5 does not justify D6 acceptance by itself." NO Track
+  //   2 flow (NYC-F1X, CHI-F3X, NYC-F5X, NYC-F6X, BARC-F7) is accepted yet. Barcelona's
+  //   city core is also NOT accepted — only its Flow 7 candidate work has run.
+  // CURRENT ACCEPTED (unaffected by Track 2's D4/D5 work): NYC Flow 2, NYC Flow 3,
+  //   London Flow 2 (city core + F3X/F4X/F5X through LON-FLOWX-D6), Chicago Flow 1 +
+  //   Flow 7. NOT ACCEPTED: Chicago Flow 4, NYC Flow 1, Chicago Flow 3 extension, NYC
+  //   Flow 5, NYC Flow 6, Barcelona city core, Barcelona Flow 4 (candidate D6 only),
+  //   Barcelona Flow 7.
+  //
+  // --- STRATEGIC POSITION 2026-06-27: NOT shipping yet. Two tracks run in parallel:
+  //   Track 1 closes Platform v1's missing mechanics (simulator, HITL, personas,
+  //   guardrails); Track 2 expands evidence/data/city-flow breadth but does not by
+  //   itself advance Platform v1 — only an explicit D6 pass converts its work into
+  //   accepted flows. Manual 3D prep (London/Chicago/NYC/Singapore) proceeds externally
+  //   on a third, separate track. ---
+  // --- TRACK 2 CLOSE-OUT (the D6-handoff/executed gap from the prior update RESOLVED) ---
+  // D6-PROMOTION-REVIEW — RAN FOR REAL. Result: 0 new accepted flows, 5 review-route-
+  //   ready-not-accepted, 1 candidate-only (Barcelona-F7, blocked by city core).
+  //   CONFIRMS the boundary held: payload-only D4/D5 did NOT by itself justify
+  //   acceptance. The real remaining blocker for NYC-F1X/F5X/F6X and Chicago-F3X/F4X
+  //   is an UNDEFINED ACCEPTANCE POLICY, not missing data — a meaningfully different
+  //   (and more solvable) problem than "the data isn't ready."
+  // FLOWX-FACE-PUBLISH-SMOKE·D1 — GREEN. All 6 review-route lanes (CHI-F4X, NYC-F1X,
+  //   CHI-F3X, NYC-F5X, NYC-F6X, BARC-F7) moved from payload-only to FACE_ROUTE_
+  //   PUBLISHED, route smoke PASS. The biggest demo/product unlock of Track 2: these
+  //   are now live, clickable routes, not just files.
+  // FLOWX-DATA-ROUTE-CATALOG·D1 — GREEN, PASS_DATA_ROUTE_CATALOG_WITH_SG_AUTH_BLOCKER.
+  //   Formalized 5 maturity layers: source route → evidence route → review route →
+  //   data route → accepted flow. This vocabulary is the real contribution — it
+  //   separates "the route works" from "the flow is accepted," which is exactly the
+  //   distinction the D6-handoff/executed gap was about one update ago, now made into
+  //   a reusable platform concept instead of a one-off catch.
+  //   24 city/flow rows catalogued: 8 accepted / 5 review-route-ready-not-accepted /
+  //   7 data-route-ready (NOTE: overlaps the 5 — data-route-ready is a STRONGER claim
+  //   that implies review-route-ready, not a disjoint count; the +2 beyond the 5 are
+  //   Barcelona-F7 and SG-F4-public) / 0 new accepted.
+  //   ⚠ ARITHMETIC NOTE: the visible flow-map table sums to 23 rows (NYC 6 + London 4 +
+  //   Chicago 5 + Barcelona 7 + Singapore 1), one short of the stated 24. Most likely
+  //   reconciliation: Singapore's split (SG-F4-public + SG-F4-LTA-mobility) counts as
+  //   2 catalog rows even though the flow-map table shows Singapore as 1 row. Plausible
+  //   and consistent with the explicit "Singapore correctly split" framing, but NOT
+  //   independently verified against the actual catalog file — worth Codex confirming
+  //   directly before treating 24 as checked rather than inferred.
+  //   SINGAPORE SPLIT (the most elegant single result in this close-out): SG-F4-public
+  //   (NEA weather/air/rainfall, OneMap context) = ROUTE-READY, independent of the LTA
+  //   blocker. SG-F4-LTA-mobility = BLOCKED_BY_AUTH. Preserves real public-data value
+  //   instead of letting an unrelated credential failure block everything Singapore.
+  // TRACK 2 — CLOSED. Final characterization: source-governed, data-route-catalogued,
+  //   review-route-ready, demo-ready, NOT acceptance-complete. Did NOT: accept new
+  //   flows, accept Barcelona, complete Singapore, finish NYC/Chicago bulk, create any
+  //   operational/traffic/transit/port/emergency/health authority, complete Platform v1.
+  //   REOPENS ONLY ON: (1) XDATA-BULK-SWEEP-D1 if NYC/Chicago bulk continues,
+  //   (2) SG-F4-LTA resume if auth is fixed, (3) FLOWX-ACCEPTANCE-POLICY-D1 if/when an
+  //   acceptance policy is defined. Does not reopen by default.
+  // --- FOCUS RETURNS TO TRACK 1 ---
+  // PV1-SUMO-SETUP·D1 — GREEN, done. SUMO installed/verified on the 3090, closing the
+  //   install gap PV1-INFRA-D1 flagged.
+  // PV1-D10/D11/D12 (SUMO simulator bridge) — IN PROGRESS as one Codex task. Can now
+  //   consume Track 2's 6 published review routes as real demo material for later
+  //   personas/HITL work, rather than inventing scenarios from nothing.
+  // --- SINGAPORE — HISTORICAL NOTE, SUPERSEDED SAME DAY: the original decision below
+  //   (Singapore replaces Chicago) was REVERSED later on 2026-06-27 once the LTA
+  //   DataMall key situation changed. Current policy: DO BOTH. Singapore is PAUSED/
+  //   credential-pending, Chicago is ACTIVE. See the Chicago block above for current
+  //   state. Original entry kept verbatim below as evidence of the decision history. ---
+  // [SUPERSEDED] SINGAPORE (third-city API donor, replaces Chicago in near-term portfolio —
+  //   deliberate decision 2026-06-27: real-time API access via LTA DataMall key)
+  // SG·D1 source/API probe — PAUSED, credential-pending, source-scout only, NOT
+  //   certified. Credential rule: LTA_DATAMALL_API_KEY via env/.env only, never
+  //   committed, never pasted into code/HTML/logs/prompts.
+
+  let state=null;
+
+
+  async function load(){
+    if(window.storage){
+      try{const r=await window.storage.get(KEY); if(r&&r.value) return JSON.parse(r.value);}catch(e){}
+      return null;
+    }
+    mem=true; return null;
+  }
+  let t=null;
+  async function save(){
+    if(window.storage){
+      try{await window.storage.set(KEY,JSON.stringify(state)); note('saved'); return;}catch(e){note('save failed'); return;}
+    }
+    note();
+  }
+  function note(m){const el=document.getElementById('save'); if(!el)return;
+    el.textContent = mem?'in-memory only — not persisted':'✓ '+m;
+    if(t)clearTimeout(t); if(!mem)t=setTimeout(()=>el.textContent='',1500);}
+
+  function seed(){
+    const s={};
+    for(const k of ['now','mid','long']){
+      s[k]=DEFAULTS[k].map((d,i)=>({id:k+'_'+i, t:d.t, g:d.g||'', done:false, custom:false}));
+    }
+    return s;
+  }
+
+  function render(){
+    for(const k of ['now','mid','long']){
+      const ul=document.getElementById('list-'+k); ul.innerHTML='';
+      let done=0;
+      state[k].forEach(item=>{
+        if(item.done) done++;
+        const li=document.createElement('li');
+        if(item.done) li.className='done';
+        li.innerHTML =
+          '<span class="box" data-k="'+k+'" data-id="'+item.id+'"></span>'+
+          '<span class="txt" data-k="'+k+'" data-id="'+item.id+'">'+escapeHtml(item.t)+
+            (item.g?'<span class="gate">'+escapeHtml(item.g)+'</span>':'')+'</span>'+
+          (item.custom?'<button class="del" data-k="'+k+'" data-id="'+item.id+'" title="delete">×</button>':'');
+        ul.appendChild(li);
+      });
+      document.getElementById('c-'+k).textContent = done+' / '+state[k].length;
+    }
+  }
+  function escapeHtml(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+  document.addEventListener('click',function(e){
+    const box=e.target.closest('.box'), txt=e.target.closest('.txt'), del=e.target.closest('.del'), add=e.target.closest('[data-add]');
+    if(box||txt){
+      const t=(box||txt); const k=t.dataset.k, id=t.dataset.id;
+      const it=state[k].find(x=>x.id===id); if(it){it.done=!it.done; save(); render();}
+      return;
+    }
+    if(del){const k=del.dataset.k,id=del.dataset.id; state[k]=state[k].filter(x=>x.id!==id); save(); render(); return;}
+    if(add){const k=add.dataset.add; addTask(k); return;}
+    if(e.target.id==='reset'){ if(confirm('Reset the list to defaults? Custom tasks and checks are cleared.')){ state=seed(); save(); render(); } }
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Enter' && e.target.id && e.target.id.startsWith('in-')){ addTask(e.target.id.slice(3)); }
+  });
+  function addTask(k){
+    const input=document.getElementById('in-'+k); const v=(input.value||'').trim(); if(!v)return;
+    state[k].push({id:k+'_c_'+Date.now(), t:v, g:'', done:false, custom:true});
+    input.value=''; save(); render();
+  }
+
+  (async function(){
+    const loaded=await load();
+    state = loaded || seed();
+    render();
+    if(mem) note();
+  })();
+})();
+</script>
+</body>
+</html>

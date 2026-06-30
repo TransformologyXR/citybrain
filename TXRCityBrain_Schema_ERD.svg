@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 960" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6b85"/>
+    </marker>
+    <marker id="arrowV" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a4fd0"/>
+    </marker>
+    <style>
+      .etitle{font-size:15px;font-weight:700;fill:#fff}
+      .edesc{font-size:11px;fill:#5b6b85}
+      .ekey{font-size:10px;font-family:'IBM Plex Mono',ui-monospace,monospace;fill:#8595ad}
+      .elabel{font-size:10.5px;font-family:'IBM Plex Mono',ui-monospace,monospace;fill:#41506b}
+      .edge{stroke:#5a6b85;stroke-width:1.6;fill:none}
+      .edgeV{stroke:#8a4fd0;stroke-width:1.8;fill:none}
+      .edgeDash{stroke:#8a4fd0;stroke-width:1.5;fill:none;stroke-dasharray:4 3}
+      .sech{font-size:12px;font-weight:700;fill:#2a3753;letter-spacing:.04em}
+    </style>
+  </defs>
+
+  <!-- title -->
+  <text x="40" y="44" font-size="26" font-weight="800" fill="#16223a">TXR City Brain — Canonical Schema v1</text>
+  <text x="41" y="68" font-size="13" fill="#5b6b85">L2 entity model · 8 core (Flow 2 golden path) + 5 reserved · one spine, every city maps in via adapters</text>
+
+  <!-- column captions -->
+  <text x="50"  y="92" class="sech">LAND IDENTITY</text>
+  <text x="300" y="92" class="sech">PROCESS</text>
+  <text x="560" y="92" class="sech">ACTORS</text>
+  <text x="800" y="92" class="sech">OBSERVATION &amp; ACTION</text>
+
+  <!-- ============ EDGES (drawn first, under boxes) ============ -->
+  <!-- identity chain -->
+  <path class="edge" d="M140,256 L140,300" marker-end="url(#arrow)"/>
+  <text x="148" y="280" class="elabel">has_building</text>
+  <path class="edge" d="M140,356 L140,400" marker-end="url(#arrow)"/>
+  <text x="148" y="380" class="elabel">has_unit</text>
+  <path class="edge" d="M140,200 L140,166" marker-end="url(#arrow)"/>
+  <text x="148" y="186" class="elabel">part_of</text>
+
+  <!-- development -> party (developed_by), curve over the top -->
+  <path class="edge" d="M230,138 C430,110 470,300 558,318" marker-end="url(#arrow)"/>
+  <text x="360" y="120" class="elabel">developed_by</text>
+
+  <!-- building -> permit -->
+  <path class="edge" d="M230,323 L298,278" marker-end="url(#arrow)"/>
+  <text x="232" y="294" class="elabel">subject_of</text>
+
+  <!-- permit -> party : BUNDLED role-on-edge (centerpiece) -->
+  <path class="edgeV" d="M480,278 L556,322" marker-end="url(#arrowV)"/>
+  <!-- inspection -> party : conducted_by (optional) -->
+  <path class="edgeDash" d="M480,398 L556,346" marker-end="url(#arrowV)"/>
+  <text x="486" y="372" class="elabel" fill="#8a4fd0">conducted_by (opt)</text>
+
+  <!-- permit -> inspection -->
+  <path class="edge" d="M390,306 L390,370" marker-end="url(#arrow)"/>
+  <text x="398" y="346" class="elabel">requires_inspection</text>
+
+  <!-- unit -> infrastructure asset (depends_on, general) -->
+  <path class="edge" d="M150,456 C210,520 250,540 298,556" marker-end="url(#arrow)"/>
+  <text x="150" y="500" class="elabel">depends_on</text>
+
+  <!-- event fan: affects / dispatches / observed_by -->
+  <path class="edge" d="M900,161 L900,220" marker-end="url(#arrow)"/>
+  <text x="908" y="200" class="elabel">affects</text>
+  <path class="edge" d="M985,150 C1050,210 1050,300 1002,350" marker-end="url(#arrow)"/>
+  <text x="1010" y="270" class="elabel">dispatches</text>
+  <path class="edge" d="M815,161 C770,260 770,400 815,450" marker-end="url(#arrow)"/>
+  <text x="745" y="320" class="elabel">observed_by</text>
+
+  <!-- ============ ENTITY BOXES ============ -->
+  <!-- helper: core = blue header; reserved = grey dashed; hub = violet -->
+
+  <!-- Development (reserved) -->
+  <g>
+    <rect x="50" y="110" width="180" height="56" rx="9" fill="#f1f3f7" stroke="#5b6b85" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <rect x="50" y="110" width="180" height="24" rx="9" fill="#5b6b85"/>
+    <rect x="50" y="122" width="180" height="12" fill="#5b6b85"/>
+    <text x="60" y="127" class="etitle" font-size="13">Development</text>
+    <text x="196" y="127" class="ekey" fill="#dfe5ee">reserved</text>
+    <text x="60" y="151" class="edesc">groups parcels/buildings · DLD "project"</text>
+  </g>
+
+  <!-- Parcel -->
+  <g>
+    <rect x="50" y="200" width="180" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="50" y="200" width="180" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="50" y="212" width="180" height="12" fill="#2f6fed"/>
+    <text x="60" y="217" class="etitle">Parcel</text>
+    <text x="60" y="241" class="ekey" fill="#41506b">key: BBL · geometry: Polygon</text>
+  </g>
+
+  <!-- Building -->
+  <g>
+    <rect x="50" y="300" width="180" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="50" y="300" width="180" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="50" y="312" width="180" height="12" fill="#2f6fed"/>
+    <text x="60" y="317" class="etitle">Building</text>
+    <text x="60" y="341" class="ekey" fill="#41506b">key: BIN · Polygon/Point</text>
+  </g>
+
+  <!-- Unit (reserved) -->
+  <g>
+    <rect x="50" y="400" width="180" height="56" rx="9" fill="#f1f3f7" stroke="#5b6b85" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <rect x="50" y="400" width="180" height="24" rx="9" fill="#5b6b85"/>
+    <rect x="50" y="412" width="180" height="12" fill="#5b6b85"/>
+    <text x="60" y="417" class="etitle" font-size="13">Unit</text>
+    <text x="196" y="417" class="ekey" fill="#dfe5ee">reserved</text>
+    <text x="60" y="441" class="edesc">condo / apartment / commercial</text>
+  </g>
+
+  <!-- Permit -->
+  <g>
+    <rect x="300" y="222" width="180" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="300" y="222" width="180" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="300" y="234" width="180" height="12" fill="#2f6fed"/>
+    <text x="310" y="239" class="etitle">Permit</text>
+    <text x="310" y="263" class="ekey" fill="#41506b">key: job / filing no</text>
+  </g>
+
+  <!-- Inspection -->
+  <g>
+    <rect x="300" y="370" width="180" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="300" y="370" width="180" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="300" y="382" width="180" height="12" fill="#2f6fed"/>
+    <text x="310" y="387" class="etitle">Inspection</text>
+    <text x="310" y="411" class="ekey" fill="#41506b">target polymorphic · inspector opt</text>
+  </g>
+
+  <!-- Party (hub) -->
+  <g>
+    <rect x="560" y="300" width="170" height="64" rx="9" fill="#f5eefd" stroke="#e2cdf6" stroke-width="1.4"/>
+    <rect x="560" y="300" width="170" height="24" rx="9" fill="#8a4fd0"/>
+    <rect x="560" y="312" width="170" height="12" fill="#8a4fd0"/>
+    <text x="570" y="317" class="etitle">Party</text>
+    <text x="660" y="317" class="ekey" fill="#ecdffb">hub</text>
+    <text x="570" y="340" class="edesc" fill="#6b4a93">person / organisation</text>
+    <text x="570" y="356" class="ekey" fill="#6b4a93">role lives on the edge →</text>
+  </g>
+
+  <!-- Event -->
+  <g>
+    <rect x="800" y="105" width="200" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="800" y="105" width="200" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="800" y="117" width="200" height="12" fill="#2f6fed"/>
+    <text x="810" y="122" class="etitle">Event</text>
+    <text x="958" y="122" class="ekey" fill="#cfe0fb">workhorse</text>
+    <text x="810" y="146" class="ekey" fill="#41506b">complaint·311·collision·dispatch·txn</text>
+  </g>
+
+  <!-- RoadSegment -->
+  <g>
+    <rect x="800" y="220" width="200" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="800" y="220" width="200" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="800" y="232" width="200" height="12" fill="#2f6fed"/>
+    <text x="810" y="237" class="etitle">RoadSegment</text>
+    <text x="810" y="261" class="ekey" fill="#41506b">key: link_id · geometry: LineString</text>
+  </g>
+
+  <!-- Resource (core minimal) -->
+  <g>
+    <rect x="800" y="335" width="200" height="56" rx="9" fill="#eef3fd" stroke="#cfe0fb" stroke-width="1.2"/>
+    <rect x="800" y="335" width="200" height="24" rx="9" fill="#2f6fed"/>
+    <rect x="800" y="347" width="200" height="12" fill="#2f6fed"/>
+    <text x="810" y="352" class="etitle">Resource</text>
+    <text x="940" y="352" class="ekey" fill="#cfe0fb">minimal</text>
+    <text x="810" y="376" class="ekey" fill="#41506b">eVTOL + inspection crew (v1)</text>
+  </g>
+
+  <!-- Sensor (reserved) -->
+  <g>
+    <rect x="800" y="450" width="200" height="56" rx="9" fill="#f1f3f7" stroke="#5b6b85" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <rect x="800" y="450" width="200" height="24" rx="9" fill="#5b6b85"/>
+    <rect x="800" y="462" width="200" height="12" fill="#5b6b85"/>
+    <text x="810" y="467" class="etitle" font-size="13">Sensor</text>
+    <text x="958" y="467" class="ekey" fill="#dfe5ee">reserved</text>
+    <text x="810" y="491" class="edesc">camera · pedestrian · air · parking</text>
+  </g>
+
+  <!-- InfrastructureAsset (reserved) -->
+  <g>
+    <rect x="300" y="528" width="210" height="56" rx="9" fill="#f1f3f7" stroke="#5b6b85" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <rect x="300" y="528" width="210" height="24" rx="9" fill="#5b6b85"/>
+    <rect x="300" y="540" width="210" height="12" fill="#5b6b85"/>
+    <text x="310" y="545" class="etitle" font-size="13">InfrastructureAsset</text>
+    <text x="476" y="545" class="ekey" fill="#dfe5ee">reserved</text>
+    <text x="310" y="569" class="edesc">substation · pump · hydrant · main</text>
+  </g>
+
+  <!-- TransitNode (reserved) -->
+  <g>
+    <rect x="560" y="528" width="200" height="56" rx="9" fill="#f1f3f7" stroke="#5b6b85" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <rect x="560" y="528" width="200" height="24" rx="9" fill="#5b6b85"/>
+    <rect x="560" y="540" width="200" height="12" fill="#5b6b85"/>
+    <text x="570" y="545" class="etitle" font-size="13">TransitNode</text>
+    <text x="726" y="545" class="ekey" fill="#dfe5ee">reserved</text>
+    <text x="570" y="569" class="edesc">stop / station + routes · Flow 4</text>
+  </g>
+
+  <!-- bundled party-roles label (centerpiece callout) -->
+  <g>
+    <rect x="486" y="262" width="232" height="34" rx="6" fill="#f5eefd" stroke="#c9a9ee" stroke-width="1.2"/>
+    <text x="498" y="277" class="elabel" fill="#6b4a93" font-weight="700">filed_by · performed_by · designed_by</text>
+    <text x="498" y="290" class="ekey" fill="#8a4fd0">one Party, role carried on the edge</text>
+  </g>
+
+  <!-- identity triad callout -->
+  <g>
+    <rect x="40" y="610" width="1020" height="40" rx="8" fill="#eafbe0" stroke="#bfe39a" stroke-width="1.2"/>
+    <text x="55" y="628" font-size="12.5" font-weight="700" fill="#3f6b14">▸ Identity triad on every entity:</text>
+    <text x="270" y="628" font-size="12" font-family="'IBM Plex Mono',monospace" fill="#41506b">canonical_id · provenance[] · confidence</text>
+    <text x="55" y="643" font-size="11.5" fill="#4a6b2a">+ geometry (Point→Polygon, point always present) + `ext` namespace for city-specific fields the core doesn't require</text>
+  </g>
+
+  <!-- ============ LEGEND + RELATIONS KEY ============ -->
+  <line x1="40" y1="668" x2="1060" y2="668" stroke="#d9e0ea" stroke-width="1"/>
+  <text x="40" y="690" class="sech">LEGEND</text>
+  <rect x="40" y="700" width="22" height="14" rx="3" fill="#2f6fed"/>
+  <text x="70" y="711" font-size="11.5" fill="#41506b">core entity — populated &amp; gated in v1</text>
+  <rect x="300" y="700" width="22" height="14" rx="3" fill="#f1f3f7" stroke="#5b6b85" stroke-dasharray="4 2"/>
+  <text x="330" y="711" font-size="11.5" fill="#41506b">reserved — declared, thin, not yet populated</text>
+  <rect x="640" y="700" width="22" height="14" rx="3" fill="#8a4fd0"/>
+  <text x="670" y="711" font-size="11.5" fill="#41506b">Party hub — role on the edge</text>
+
+  <text x="40" y="744" class="sech">RELATIONS (L3 multiplex graph)</text>
+  <g font-size="11" font-family="'IBM Plex Mono',monospace" fill="#41506b">
+    <text x="40"  y="766">parcel  ─has_building→  building</text>
+    <text x="40"  y="784">building ─has_unit→  unit</text>
+    <text x="40"  y="802">parcel/building ─part_of→  development</text>
+    <text x="40"  y="820">development ─developed_by→  party</text>
+    <text x="40"  y="838">building ─subject_of_permit→  permit</text>
+    <text x="40"  y="856">permit ─requires_inspection→  inspection</text>
+    <text x="560" y="766">permit ─filed_by / performed_by / designed_by→  party  (role)</text>
+    <text x="560" y="784">permit/event ─involves_party→  party  (role: e.g. "consultant")</text>
+    <text x="560" y="802">inspection ─conducted_by→  party  (optional inspector)</text>
+    <text x="560" y="820">event ─resolves_to→  building / parcel / road_segment</text>
+    <text x="560" y="838">event ─affects→  road_segment / asset   ·   ─observed_by→  sensor</text>
+    <text x="560" y="856">building/unit/asset ─depends_on→  infrastructure_asset   ·   event ─dispatches→  resource</text>
+  </g>
+
+  <text x="40" y="892" font-size="10.5" font-family="'IBM Plex Mono',monospace" fill="#8595ad">Folds into Event (no new entity): EMS/fire dispatch · permitted events · DLD transactions (buyer/seller roles + value) · energy/water → Building observations</text>
+  <text x="40" y="910" font-size="10.5" font-family="'IBM Plex Mono',monospace" fill="#8595ad">Canonical ID:  {entity_type}:{country}-{city}:{id_system}:{native_id}   e.g.  building:us-nyc:bin:3395389   ·   parcel:ae-dxb:dld_plot:…  (same structure, new city)</text>
+</svg>

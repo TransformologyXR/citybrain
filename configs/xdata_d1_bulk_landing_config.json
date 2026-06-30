@@ -1,0 +1,23 @@
+{
+  "default_chunk_size": 50000,
+  "default_timeout_seconds": 60,
+  "default_retries": 4,
+  "max_parallel_sources": 4,
+  "max_parallel_cities": 4,
+  "city_enabled": {
+    "nyc": false,
+    "chicago": false,
+    "london": false,
+    "barcelona": true
+  },
+  "allow_large_downloads": true,
+  "allow_existing_file_registration": true,
+  "reuse_existing_manifests": true,
+  "convert_to_parquet": true,
+  "stop_on_first_failure": false,
+  "new_download_record_caps": {
+    "if_total_records_lt_25000000": 1000000,
+    "if_total_records_gt_25000000": 1000000,
+    "unknown_total_default": 1000000
+  }
+}

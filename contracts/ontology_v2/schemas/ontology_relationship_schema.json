@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "claim_label": {
+      "enum": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "relationship_name": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "target_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "relationship_name",
+    "source_id",
+    "target_id",
+    "claim_label",
+    "confidence"
+  ],
+  "title": "Ontology v2 Relationship",
+  "type": "object"
+}

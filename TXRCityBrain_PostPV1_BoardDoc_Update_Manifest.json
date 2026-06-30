@@ -1,0 +1,19 @@
+{
+  "updated_files": [
+    "TXRCityBrain_01_CurrentCertifiedState_updated.md",
+    "TXRCityBrain_03_PlatformV1DoD_updated.md",
+    "TXRCityBrain_04_FullVisionCompletionMap_updated.md",
+    "TXRCityBrain_Codex_Claude_Handoff_updated.md",
+    "TXRCityBrain_MissionControl_updated.html",
+    "TXRCityBrain_ToDo_updated.html"
+  ],
+  "captured": [
+    "PV1 final review-only snapshot",
+    "D19/D20 actuator/LLM/control boundary",
+    "Track 2 R1 + targeted D3-R2 strengthening",
+    "Post-PV1 seven alternatives",
+    "Autonomy as deferred safety-critical program",
+    "Manual Omniverse asset lane boundary",
+    "Optional FlowX review-flow acceptance addendum"
+  ]
+}

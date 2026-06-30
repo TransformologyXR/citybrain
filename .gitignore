@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+artifacts/
+outputs/
+snapshots/
+data/
+data_landing/
+data_synthetic/
+
+# Bulky downloaded/source data and local handoff bundles
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xml
+*.zip
+*.parquet
+*.geojson
+*_source_downloads/
+*_arc_shp/
+*_arc_csv/
+*_sample_fixture_v*/
+*_recovery_pack/
+citybrain_data_harvest_pack/
+cascade_clips_manifest_and_downloader/
+bcn manual/
+=
+I completed the clip search, select.txt

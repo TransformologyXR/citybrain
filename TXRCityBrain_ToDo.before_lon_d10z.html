@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TXR City Brain — To-Do</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f1a; --panel:#0f1726; --panel-2:#121d30;
+    --line:#21304a; --line-soft:#1a273d;
+    --txt-hi:#e8eef8; --txt-mid:#9db0cc; --txt-lo:#62718c;
+    --now:#e3a83a; --mid:#3b7df0; --long:#8a4fd0; --done:#84c318;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --disp:'Space Grotesk',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:
+      radial-gradient(900px 500px at 85% -10%,rgba(59,125,240,.08),transparent 60%),
+      var(--bg);
+    color:var(--txt-hi);font-family:var(--disp);padding:26px 22px 70px;font-size:15px}
+  .wrap{max-width:1200px;margin:0 auto}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--txt-lo);margin-bottom:8px}
+  h1{font-size:clamp(24px,4vw,34px);font-weight:700;letter-spacing:-.02em;margin:0 0 8px}
+  .sub{color:var(--txt-mid);max-width:680px;margin:0 0 8px;font-size:14.5px}
+  .sub b{color:var(--txt-hi);font-weight:600}
+  .topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:24px}
+  .resetbtn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--txt-mid);background:transparent;border:1px solid var(--line);border-radius:8px;padding:7px 13px;cursor:pointer;transition:.18s}
+  .resetbtn:hover{border-color:var(--now);color:var(--now)}
+  .savenote{font-family:var(--mono);font-size:10.5px;color:var(--txt-lo);letter-spacing:.06em}
+
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:880px){.cols{grid-template-columns:1fr}}
+
+  .col{border:1px solid var(--line);border-radius:13px;background:var(--panel);padding:16px 15px;display:flex;flex-direction:column}
+  .col.now{box-shadow:inset 0 3px 0 var(--now)}
+  .col.mid{box-shadow:inset 0 3px 0 var(--mid)}
+  .col.long{box-shadow:inset 0 3px 0 var(--long)}
+  .chead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:3px}
+  .ctitle{font-size:16px;font-weight:700;letter-spacing:-.01em}
+  .col.now .ctitle{color:var(--now)} .col.mid .ctitle{color:var(--mid)} .col.long .ctitle{color:var(--long)}
+  .ccount{font-family:var(--mono);font-size:11px;color:var(--txt-lo)}
+  .csub{color:var(--txt-lo);font-size:12px;margin:0 0 14px;min-height:30px}
+
+  ul{list-style:none;margin:0;padding:0;flex:1}
+  li{display:flex;align-items:flex-start;gap:10px;padding:9px 8px;border-radius:8px;margin-bottom:5px;background:var(--panel-2);border:1px solid var(--line-soft);transition:.18s}
+  li.done{opacity:.55}
+  .box{flex:none;width:18px;height:18px;border-radius:5px;border:1.5px solid var(--txt-lo);margin-top:1px;cursor:pointer;position:relative;transition:.18s}
+  li.done .box{background:var(--done);border-color:var(--done)}
+  li.done .box::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#0a0f1a;font-size:12px;font-weight:700}
+  .box:hover{border-color:var(--txt-mid)}
+  .txt{flex:1;font-size:13.5px;line-height:1.4;cursor:pointer}
+  li.done .txt{text-decoration:line-through;color:var(--txt-mid)}
+  .gate{display:block;font-family:var(--mono);font-size:10px;color:var(--txt-lo);margin-top:3px;letter-spacing:.03em}
+  .del{flex:none;background:transparent;border:none;color:var(--txt-lo);cursor:pointer;font-size:15px;line-height:1;padding:0 2px;opacity:0;transition:.18s}
+  li:hover .del{opacity:.7}
+  .del:hover{color:var(--now);opacity:1}
+
+  .addrow{display:flex;gap:7px;margin-top:10px}
+  .addrow input{flex:1;background:var(--panel-2);border:1px solid var(--line);border-radius:7px;color:var(--txt-hi);font-family:var(--disp);font-size:13px;padding:8px 10px;outline:none}
+  .addrow input:focus{border-color:var(--mid)}
+  .addrow button{background:transparent;border:1px solid var(--line);border-radius:7px;color:var(--txt-mid);cursor:pointer;font-size:18px;width:36px;transition:.18s}
+  .addrow button:hover{border-color:var(--mid);color:var(--mid)}
+  .foot{margin-top:30px;border-top:1px solid var(--line-soft);padding-top:14px;color:var(--txt-lo);font-size:11.5px;font-family:var(--mono);letter-spacing:.03em;line-height:1.7}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">TransformologyXR · NVIDIA Urban AI demonstration</div>
+  <h1>TXR City Brain — To-Do</h1>
+  <p class="sub">Organised by horizon. <b>Immediate</b> is the schema + foundation (no hardware dependency). <b>Medium</b> is the NYC slice → GPU → application wrapper. <b>Long</b> is breadth &amp; depth after submission. Click a box to check; add your own per column.</p>
+  <div class="topbar">
+    <button class="resetbtn" id="reset">Reset list</button>
+    <span class="savenote" id="save"></span>
+  </div>
+
+  <div class="cols">
+    <div class="col now">
+      <div class="chead"><span class="ctitle">Immediate</span><span class="ccount" id="c-now"></span></div>
+      <p class="csub">This week · schema + foundation · runs on the Spark / any dev box</p>
+      <ul id="list-now"></ul>
+      <div class="addrow"><input id="in-now" placeholder="Add immediate task…"><button data-add="now">+</button></div>
+    </div>
+    <div class="col mid">
+      <div class="chead"><span class="ctitle">Medium-term</span><span class="ccount" id="c-mid"></span></div>
+      <p class="csub">The slice + GPU + wrapper · the application snapshot</p>
+      <ul id="list-mid"></ul>
+      <div class="addrow"><input id="in-mid" placeholder="Add medium-term task…"><button data-add="mid">+</button></div>
+    </div>
+    <div class="col long">
+      <div class="chead"><span class="ctitle">Long-term</span><span class="ccount" id="c-long"></span></div>
+      <p class="csub">Post-submission · breadth, depth, cartridges, Cosmos</p>
+      <ul id="list-long"></ul>
+      <div class="addrow"><input id="in-long" placeholder="Add long-term task…"><button data-add="long">+</button></div>
+    </div>
+  </div>
+
+  <div class="foot" id="foot">
+    Golden path runs on real NYC; Dubai is the re-anchoring narrative target. &nbsp;·&nbsp; Oil &amp; gas opens only when the city slice certifies green with time left. &nbsp;·&nbsp; Companion board: TXRCityBrain_MissionControl.html (scope / gates).
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  const KEY='txr_todo_v1';
+  let mem=false;
+
+  const DEFAULTS = {
+    now:[
+      {t:"Choose next London branch after accepted D9D2 freeze", g:"either LON-D10 planning-context enrichment from London Datastore, or LON-D6M manual official enforcement/building-control register metadata request"},
+      {t:"If LON-D10: scope planning-context layers", g:"Opportunity Areas, SIL, town centres, protected vistas, open space, PTAL; context-only unless schema/gates certify relations"},
+      {t:"If LON-D6M: draft official register request path", g:"close the D6 source limitation with machine-readable/public-register metadata only; no scraping private contact data"},
+      {t:"Verify D9Z board state after opening both HTMLs", g:"London lane should show D9D superseded, D9D2 accepted, D9E-D9D2 graph accepted, D9F-D9D2 query contract accepted"},
+    ],
+    mid:[
+      {t:"a9 — Wire E2E · Gate G1 · final snapshot", g:"the one remaining [Planned] item on the NYC spine · harness asserts full citywide Flow 2 green"},
+      {t:"Executive Summary — write it now", g:"every layer is [Implemented] at citywide scale with live Spark narration · this is the strongest the document will ever be relative to effort"},
+      {t:"Rename pass: CityBrain RTX → TXR City Brain", g:"mechanical, anytime, still pending"},
+      {t:"Travel bundle (post-citywide)", g:"laptop+Spark portable demo for when 3090/4070 don't travel · clean-room run gates, backup video"},
+      {t:"LON·hero — real named London cascade", g:"select only after D9D2-connected paths and planning/enforcement context can support a real narrative subject"},
+    ],
+    long:[
+      {t:"a5·D8a — Action resolver (closed enum) — DEFERRED", g:"only when briefing recommends actions beyond review"},
+      {t:"a5·D8b — Multi-oracle registry / orchestrator — DEFERRED", g:"only after 2nd oracle family exists (Flow 1 / Flow 3 / London / oil&gas)"},
+      {t:"Dubai cartridge — manual export + re-anchor", g:"DLD/DM/Bayanat/Police; onto Dubai geometry · Phase-2 anchor for the Dubai conversation"},
+      {t:"Oil & gas cartridge — branch", g:"trigger: city slice green with time left; cartridge brings its own schema"},
+      {t:"NYC fold-ins after London accepted state", g:"LL84 · EMS/FDNY · collisions · traffic → Event + near/affects, both cities"},
+      {t:"Perception layer — off-the-shelf PPE detection (4070, Triton)", g:"pre-trained YOLO/PPE model; perception adapter feeds EvidenceBundle; brain judges, doesn't perceive"},
+      {t:"Brain deepening — the five shifts", g:"decomposition planner → signals → proactive insight → memory"},
+      {t:"3D / OpenUSD twin attached by BIN", g:"CityGML → USD; click building → graph neighbourhood (join #3) · now has real polygons from a3·D2 to extrude"},
+      {t:"Activate reserved entities with real data", g:"Sensor/TransitNode via Singapore/Chicago/Melbourne keys"},
+    ],
+  };
+
+  // ══════════════════════════════════════════════════════════════════════
+  // DONE LEDGER — full NYC Flow 2 spine, citywide, all green and pinned
+  // ══════════════════════════════════════════════════════════════════════
+  // a1 canonical schema v1 · a2 acceptance harness (drift-tested)
+  // a3 NYC adapters → registry (hero cascade green v3)
+  // a3·D2 footprints → Building geometry (1,012,067 polygons, 99.91% coverage,
+  //   byte-stable a4·D3b regression)
+  // a4·D1 district cut · a4·D2 DOB enrichment · a4·D2b discovery (28,790 ranked)
+  // a4·D3a 3-district CPU parametric proof (MN-1060 + 1-01158 + 2-02316)
+  // a4·D3b CITYWIDE cuGraph: 27,997 blocks, 7.33M nodes, 9.64M edges,
+  //   5.3GB peak VRAM, 3.8s GPU op time, round-trip portable
+  // a5·D1 deterministic operator query · a5·D2 Spark portability pack
+  // a5·D3 live Spark/NIM/NeMo hero smoke (deterministic facts unchanged)
+  // a5·D4a EvidenceBundle v1 + grounded-narration gate (2nd-subject proof)
+  // a5·D4b thin validator + complete trace
+  // a5·D5 NeMo wrapper (single tool, no low-level bypass)
+  // a5·D6 live NeMo/NIM replay (grounded both subjects, negative-request rejected)
+  // a5·D6b narration surface (prose briefing: subset-grounded, anti-echo,
+  //   min-coverage, subject-isolated — closes the AP-Physics-style trapdoor)
+  // a5·D7 citywide precomputed briefing/trace — ALL 27,997 active blocks
+  //   (0 non-hero leakage)
+  // a5·D7b live Spark citywide query — any block on demand, hero parity verified
+  //   byte-aligned (1461 nodes, 2139 edges, 711 complaints, 11 critical, 1175 permits)
+  // a6·D1 cuOpt operational review optimizer — 120 candidates, 60 routed,
+  //   33 assigned / 27 dropped, 3 teams, all 5 boroughs, operator-safe language
+  // a7 evidence briefing + provenance (a5·D6b/D7 + a8·D3b why_selected)
+  // a8·D1 face-layer foundation (3-district, round-trip portable)
+  // a8·D2 citywide map (LOD zoom levels, viewport-bounded, heatmap, search)
+  // a8·D3 route overlay from cuOpt (counts match optimizer output)
+  // a8·D3b why_selected plain-English tooltips + hero clip attached [Illustrative]
+  // hardcode audit (10,963 hits classified, 8 smelly all in 1 file, 0 wrong)
+  //   + smelly-file quarantine (neutral taxonomy module split out)
+  // 5M+ row harvest of 11 NYC datasets · prep v0.2 string-safe Parquet
+  // cuOpt foundation on 3090 (NGC auth, image 26.6.0-cuda12.9-py3.14, health PASS)
+  // LON·D3 source reachability + identity-backbone probe (v0.2, OpenUSRN gap closed)
+  // LON·D4 sampled identity ingest — GREEN
+  // LON·D5 PLD planning ingest — GREEN, unattached sample mismatch named
+  // LON·D5b PLD-driven OpenUPRN backfill — GREEN_WITH_SOURCE_LIMITATION
+  // LON·D5c LIDS-confirmed PLD identity bridge — GREEN, connected paths BOTH
+  // LON·D6 enforcement/building-control probe — PASS_D6A_ONLY_SOURCE_LIMITATION
+  // LON·D7 sampled graph + deterministic briefing/query smoke — GREEN
+  // LON·D8 operator query contract + EvidenceBundle export — GREEN
+  // LON·D9A raw inventory — GREEN, D9B/D9C ready
+  // LON·D9B London-wide identity build — GREEN
+  // LON·D9C PLD normalization/dedupe — GREEN
+  // LON·D9D original PLD alignment — SUPERSEDED by D9D2
+  // LON·D9D2 official PLD API UPRN recovery — GREEN, 53,753 PLD→UPRN edges
+  // LON·D9E-D9D2 accepted graph — GREEN, 7,734,960 nodes / 10,664,896 edges
+  // LON·D9F-D9D2 accepted query contract — GREEN
+  // LON·D9Z accepted snapshot + board/docs freeze — GREEN
+
+  let state=null;
+
+
+  async function load(){
+    if(window.storage){
+      try{const r=await window.storage.get(KEY); if(r&&r.value) return JSON.parse(r.value);}catch(e){}
+      return null;
+    }
+    mem=true; return null;
+  }
+  let t=null;
+  async function save(){
+    if(window.storage){
+      try{await window.storage.set(KEY,JSON.stringify(state)); note('saved'); return;}catch(e){note('save failed'); return;}
+    }
+    note();
+  }
+  function note(m){const el=document.getElementById('save'); if(!el)return;
+    el.textContent = mem?'in-memory only — not persisted':'✓ '+m;
+    if(t)clearTimeout(t); if(!mem)t=setTimeout(()=>el.textContent='',1500);}
+
+  function seed(){
+    const s={};
+    for(const k of ['now','mid','long']){
+      s[k]=DEFAULTS[k].map((d,i)=>({id:k+'_'+i, t:d.t, g:d.g||'', done:false, custom:false}));
+    }
+    return s;
+  }
+
+  function render(){
+    for(const k of ['now','mid','long']){
+      const ul=document.getElementById('list-'+k); ul.innerHTML='';
+      let done=0;
+      state[k].forEach(item=>{
+        if(item.done) done++;
+        const li=document.createElement('li');
+        if(item.done) li.className='done';
+        li.innerHTML =
+          '<span class="box" data-k="'+k+'" data-id="'+item.id+'"></span>'+
+          '<span class="txt" data-k="'+k+'" data-id="'+item.id+'">'+escapeHtml(item.t)+
+            (item.g?'<span class="gate">'+escapeHtml(item.g)+'</span>':'')+'</span>'+
+          (item.custom?'<button class="del" data-k="'+k+'" data-id="'+item.id+'" title="delete">×</button>':'');
+        ul.appendChild(li);
+      });
+      document.getElementById('c-'+k).textContent = done+' / '+state[k].length;
+    }
+  }
+  function escapeHtml(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+  document.addEventListener('click',function(e){
+    const box=e.target.closest('.box'), txt=e.target.closest('.txt'), del=e.target.closest('.del'), add=e.target.closest('[data-add]');
+    if(box||txt){
+      const t=(box||txt); const k=t.dataset.k, id=t.dataset.id;
+      const it=state[k].find(x=>x.id===id); if(it){it.done=!it.done; save(); render();}
+      return;
+    }
+    if(del){const k=del.dataset.k,id=del.dataset.id; state[k]=state[k].filter(x=>x.id!==id); save(); render(); return;}
+    if(add){const k=add.dataset.add; addTask(k); return;}
+    if(e.target.id==='reset'){ if(confirm('Reset the list to defaults? Custom tasks and checks are cleared.')){ state=seed(); save(); render(); } }
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Enter' && e.target.id && e.target.id.startsWith('in-')){ addTask(e.target.id.slice(3)); }
+  });
+  function addTask(k){
+    const input=document.getElementById('in-'+k); const v=(input.value||'').trim(); if(!v)return;
+    state[k].push({id:k+'_c_'+Date.now(), t:v, g:'', done:false, custom:true});
+    input.value=''; save(); render();
+  }
+
+  (async function(){
+    const loaded=await load();
+    state = loaded || seed();
+    render();
+    if(mem) note();
+  })();
+})();
+</script>
+</body>
+</html>

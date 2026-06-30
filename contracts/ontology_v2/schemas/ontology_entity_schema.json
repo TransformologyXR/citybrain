@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "canonical_id": {
+      "pattern": "^citybrain:",
+      "type": "string"
+    },
+    "city_namespace": {
+      "type": "string"
+    },
+    "claim_label": {
+      "enum": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "type": "string"
+    },
+    "class_name": {
+      "type": "string"
+    },
+    "native_ids": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "canonical_id",
+    "class_name",
+    "city_namespace",
+    "claim_label",
+    "native_ids"
+  ],
+  "title": "Ontology v2 Entity",
+  "type": "object"
+}

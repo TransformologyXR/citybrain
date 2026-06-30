@@ -1,0 +1,1249 @@
+{
+  "entity_classes": [
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:city:{native_namespace}:{normalized_native_id}",
+      "class_name": "City",
+      "description": "Cross-city ontology class for City.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:administrative_area:{native_namespace}:{normalized_native_id}",
+      "class_name": "AdministrativeArea",
+      "description": "Cross-city ontology class for AdministrativeArea.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:addressable_location:{native_namespace}:{normalized_native_id}",
+      "class_name": "AddressableLocation",
+      "description": "Cross-city ontology class for AddressableLocation.",
+      "example_city_mappings": {
+        "london": "citybrain:london:addressable_location:uprn:{uprn}"
+      },
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:parcel:{native_namespace}:{normalized_native_id}",
+      "class_name": "Parcel",
+      "description": "Cross-city ontology class for Parcel.",
+      "example_city_mappings": {
+        "chicago": "citybrain:chicago:parcel:cook_pin:{pin14}",
+        "nyc": "citybrain:nyc:parcel:bbl:{bbl}",
+        "synthetic": "citybrain:synthetic:parcel:sdf_chi_near_west_side_v1:{synthetic_parcel_id}"
+      },
+      "geometry_policy": "native geometry preferred; generalized or derived geometry must be labelled",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:building:{native_namespace}:{normalized_native_id}",
+      "class_name": "Building",
+      "description": "Cross-city ontology class for Building.",
+      "example_city_mappings": {
+        "chicago": "citybrain:chicago:building:building_footprint_id:{id}",
+        "nyc": "citybrain:nyc:building:bin:{bin}",
+        "synthetic": "citybrain:synthetic:building:sdf_chi_near_west_side_v1:{synthetic_building_id}"
+      },
+      "geometry_policy": "native geometry preferred; generalized or derived geometry must be labelled",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:unit:{native_namespace}:{normalized_native_id}",
+      "class_name": "Unit",
+      "description": "Cross-city ontology class for Unit.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:road_segment:{native_namespace}:{normalized_native_id}",
+      "class_name": "RoadSegment",
+      "description": "Cross-city ontology class for RoadSegment.",
+      "example_city_mappings": {
+        "london": "citybrain:london:road_segment:usrn:{usrn}",
+        "synthetic": "citybrain:synthetic:road_segment:sdf_chi_near_west_side_v1:{synthetic_road_segment_id}"
+      },
+      "geometry_policy": "native geometry preferred; generalized or derived geometry must be labelled",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:transit_node:{native_namespace}:{normalized_native_id}",
+      "class_name": "TransitNode",
+      "description": "Cross-city ontology class for TransitNode.",
+      "example_city_mappings": {
+        "chicago": "citybrain:chicago:transit_node:cta_stop:{stop_id}"
+      },
+      "geometry_policy": "native geometry preferred; generalized or derived geometry must be labelled",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:transit_route:{native_namespace}:{normalized_native_id}",
+      "class_name": "TransitRoute",
+      "description": "Cross-city ontology class for TransitRoute.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:mobility_service:{native_namespace}:{normalized_native_id}",
+      "class_name": "MobilityService",
+      "description": "Cross-city ontology class for MobilityService.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:facility:{native_namespace}:{normalized_native_id}",
+      "class_name": "Facility",
+      "description": "Cross-city ontology class for Facility.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:sensor:{native_namespace}:{normalized_native_id}",
+      "class_name": "Sensor",
+      "description": "Cross-city ontology class for Sensor.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:infrastructure_asset:{native_namespace}:{normalized_native_id}",
+      "class_name": "InfrastructureAsset",
+      "description": "Specific infrastructure object when a native source exposes one; not a generic replacement for parcel, building, location, or road concepts.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:organization:{native_namespace}:{normalized_native_id}",
+      "class_name": "Organization",
+      "description": "Cross-city ontology class for Organization.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:person_role_or_party_reference:{native_namespace}:{normalized_native_id}",
+      "class_name": "PersonRoleOrPartyReference",
+      "description": "Bounded role or party reference already present in public or governed source data; not a private person profile.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:source_record:{native_namespace}:{normalized_native_id}",
+      "class_name": "SourceRecord",
+      "description": "Cross-city ontology class for SourceRecord.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:case_or_request:{native_namespace}:{normalized_native_id}",
+      "class_name": "CaseOrRequest",
+      "description": "Cross-city ontology class for CaseOrRequest.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:permit:{native_namespace}:{normalized_native_id}",
+      "class_name": "Permit",
+      "description": "Cross-city ontology class for Permit.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:inspection:{native_namespace}:{normalized_native_id}",
+      "class_name": "Inspection",
+      "description": "Cross-city ontology class for Inspection.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:violation:{native_namespace}:{normalized_native_id}",
+      "class_name": "Violation",
+      "description": "Cross-city ontology class for Violation.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:enforcement_record:{native_namespace}:{normalized_native_id}",
+      "class_name": "EnforcementRecord",
+      "description": "Cross-city ontology class for EnforcementRecord.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:incident:{native_namespace}:{normalized_native_id}",
+      "class_name": "Incident",
+      "description": "Cross-city ontology class for Incident.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:event:{native_namespace}:{normalized_native_id}",
+      "class_name": "Event",
+      "description": "Cross-city ontology class for Event.",
+      "example_city_mappings": {
+        "synthetic": "citybrain:synthetic:event:sdf_chi_near_west_side_v1:{event_id}"
+      },
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:observation:{native_namespace}:{normalized_native_id}",
+      "class_name": "Observation",
+      "description": "Cross-city ontology class for Observation.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:evidence_bundle:{native_namespace}:{normalized_native_id}",
+      "class_name": "EvidenceBundle",
+      "description": "Cross-city ontology class for EvidenceBundle.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:replay_event:{native_namespace}:{normalized_native_id}",
+      "class_name": "ReplayEvent",
+      "description": "Cross-city ontology class for ReplayEvent.",
+      "example_city_mappings": {
+        "synthetic": "citybrain:synthetic:replay_event:synthetic_replay_event:{event_id}"
+      },
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:scenario_pack:{native_namespace}:{normalized_native_id}",
+      "class_name": "ScenarioPack",
+      "description": "Cross-city ontology class for ScenarioPack.",
+      "example_city_mappings": {},
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:simulation_network:{native_namespace}:{normalized_native_id}",
+      "class_name": "SimulationNetwork",
+      "description": "Cross-city ontology class for SimulationNetwork.",
+      "example_city_mappings": {},
+      "geometry_policy": "simulator-network geometry only when labelled [SIM] or scenario input",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:simulation_run:{native_namespace}:{normalized_native_id}",
+      "class_name": "SimulationRun",
+      "description": "Cross-city ontology class for SimulationRun.",
+      "example_city_mappings": {},
+      "geometry_policy": "simulator-network geometry only when labelled [SIM] or scenario input",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:action_proposal:{native_namespace}:{normalized_native_id}",
+      "class_name": "ActionProposal",
+      "description": "Proposal-only entity that requires human approval and does not represent execution.",
+      "example_city_mappings": {
+        "synthetic": "citybrain:synthetic:action_proposal:synthetic_action_proposal:{proposal_id}"
+      },
+      "geometry_policy": "geometry optional; preserve native geometry semantics and confidence",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:approval_decision:{native_namespace}:{normalized_native_id}",
+      "class_name": "ApprovalDecision",
+      "description": "Governed decision state over a proposal; not proof of external execution.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:persona_rendering:{native_namespace}:{normalized_native_id}",
+      "class_name": "PersonaRendering",
+      "description": "Cross-city ontology class for PersonaRendering.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:governance_boundary:{native_namespace}:{normalized_native_id}",
+      "class_name": "GovernanceBoundary",
+      "description": "Cross-city ontology class for GovernanceBoundary.",
+      "example_city_mappings": {},
+      "geometry_policy": "no required geometry",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:topographic_object:{native_namespace}:{normalized_native_id}",
+      "class_name": "TopographicObject",
+      "description": "Cross-city ontology class for TopographicObject.",
+      "example_city_mappings": {
+        "london": "citybrain:london:topographic_object:toid:{toid}"
+      },
+      "geometry_policy": "native geometry preferred; generalized or derived geometry must be labelled",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:simulation_scenario:{native_namespace}:{normalized_native_id}",
+      "class_name": "SimulationScenario",
+      "description": "Cross-city ontology class for SimulationScenario.",
+      "example_city_mappings": {},
+      "geometry_policy": "simulator-network geometry only when labelled [SIM] or scenario input",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:simulation_input:{native_namespace}:{normalized_native_id}",
+      "class_name": "SimulationInput",
+      "description": "Cross-city ontology class for SimulationInput.",
+      "example_city_mappings": {},
+      "geometry_policy": "simulator-network geometry only when labelled [SIM] or scenario input",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    },
+    {
+      "allowed_claim_labels": [
+        "[R]",
+        "[S]",
+        "[M]",
+        "[Q]",
+        "[G]",
+        "[P]",
+        "[SIM]"
+      ],
+      "canonical_id_pattern": "citybrain:{city}:simulation_output:{native_namespace}:{normalized_native_id}",
+      "class_name": "SimulationOutput",
+      "description": "Simulator result labelled [SIM], not observed real-world truth.",
+      "example_city_mappings": {},
+      "geometry_policy": "simulator-network geometry only when labelled [SIM] or scenario input",
+      "native_id_policy": "Native IDs remain primary and are stored in native_ids with namespace, authority, role, and confidence.",
+      "optional_fields": [
+        "aliases",
+        "geometry",
+        "geometry_class",
+        "location_confidence",
+        "source_limitations",
+        "evidence_bundle_id"
+      ],
+      "privacy_policy": "No private personal data; role/party references are bounded and source-governed.",
+      "required_fields": [
+        "canonical_id",
+        "class_name",
+        "city_namespace",
+        "claim_label",
+        "native_ids"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

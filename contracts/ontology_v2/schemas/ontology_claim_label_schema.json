@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "claim_label",
+    "meaning",
+    "preservation_required"
+  ],
+  "title": "Ontology v2 Claim Label",
+  "type": "object"
+}

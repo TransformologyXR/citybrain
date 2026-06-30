@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "flow_id",
+    "flow_name",
+    "current_city_support"
+  ],
+  "title": "Ontology v2 Flow Mapping",
+  "type": "object"
+}

@@ -1,0 +1,21 @@
+{
+  "examples": [
+    "citybrain:nyc:parcel:bbl:{bbl}",
+    "citybrain:nyc:building:bin:{bin}",
+    "citybrain:london:addressable_location:uprn:{uprn}",
+    "citybrain:london:road_segment:usrn:{usrn}",
+    "citybrain:london:topographic_object:toid:{toid}",
+    "citybrain:chicago:parcel:cook_pin:{pin14}",
+    "citybrain:chicago:transit_node:cta_stop:{stop_id}",
+    "citybrain:synthetic:event:sdf_chi_near_west_side_v1:{event_id}"
+  ],
+  "pattern": "citybrain:{city}:{entity_class}:{native_namespace}:{normalized_native_id}",
+  "principle": "Native IDs remain primary; CityBrain canonical IDs wrap native IDs.",
+  "rules": [
+    "Do not force all cities into one ID type.",
+    "Aliases and cross-source joins never replace authoritative native IDs.",
+    "Exact identity, candidate identity, contextual proximity, and evidence support use separate relationships.",
+    "Do not model the city as a flat asset table."
+  ],
+  "status": "PASS"
+}

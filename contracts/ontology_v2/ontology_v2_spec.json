@@ -1,0 +1,26 @@
+{
+  "city_model": [
+    "many native identity systems",
+    "many spatial layers",
+    "many event streams",
+    "many evidence chains",
+    "many confidence levels",
+    "many source limitations"
+  ],
+  "claim_labels": {
+    "[G]": "governance boundary or limitation",
+    "[M]": "model narration/interpretation",
+    "[P]": "proposal requiring human approval",
+    "[Q]": "user/query text",
+    "[R]": "real accepted source/data-derived fact",
+    "[SIM]": "simulation output",
+    "[S]": "synthetic scenario/factory record"
+  },
+  "core_principle": "Native IDs remain primary; CityBrain canonical IDs wrap native IDs; aliases and joins never replace authoritative native IDs.",
+  "entity_class_count": 37,
+  "generated_at_utc": "2026-06-28T12:00:00+00:00",
+  "generation_version": "PV1-D3D4-ONTOLOGY-V2-v1",
+  "relationship_class_count": 37,
+  "spec_id": "PV1-D3-ONTOLOGY-V2",
+  "status": "PASS"
+}

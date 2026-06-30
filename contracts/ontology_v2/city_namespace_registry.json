@@ -1,0 +1,48 @@
+{
+  "city_namespaces": {
+    "barcelona_future": {
+      "active": false,
+      "status": "future_candidate"
+    },
+    "chicago": {
+      "accepted_flows": [
+        "F1",
+        "F7"
+      ],
+      "active": true
+    },
+    "dubai_future": {
+      "active": false,
+      "status": "future_candidate"
+    },
+    "london": {
+      "accepted_flows": [
+        "F2"
+      ],
+      "active": true
+    },
+    "nyc": {
+      "accepted_flows": [
+        "F2",
+        "F3"
+      ],
+      "active": true
+    },
+    "oilgas_future": {
+      "active": false,
+      "status": "future_candidate"
+    },
+    "singapore_future": {
+      "active": false,
+      "planned_flow": "F4",
+      "status": "blocked_on_credentials"
+    },
+    "synthetic": {
+      "accepted_flows": [
+        "synthetic_support"
+      ],
+      "active": true
+    }
+  },
+  "status": "PASS"
+}

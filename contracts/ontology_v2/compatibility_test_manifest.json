@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "name": "Native ID preservation",
+      "test_id": "D4-T1"
+    },
+    {
+      "name": "Exact/candidate/context separation",
+      "test_id": "D4-T2"
+    },
+    {
+      "name": "Flow support correctness",
+      "test_id": "D4-T3"
+    },
+    {
+      "name": "Geometry confidence correctness",
+      "test_id": "D4-T4"
+    },
+    {
+      "name": "Claim label preservation",
+      "test_id": "D4-T5"
+    },
+    {
+      "name": "Negative boundary",
+      "test_id": "D4-T6"
+    },
+    {
+      "name": "SDF compatibility",
+      "test_id": "D4-T7"
+    },
+    {
+      "name": "Event fabric readiness",
+      "test_id": "D4-T8"
+    },
+    {
+      "name": "HITL/persona readiness",
+      "test_id": "D4-T9"
+    }
+  ]
+}

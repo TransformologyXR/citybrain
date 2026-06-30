@@ -1,0 +1,1674 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TXR City Brain \u2014 Canonical Schema v1",
+  "$defs": {
+    "Confidence": {
+      "description": "Confidence in the entity's identity (or a resolution edge), with reason.\n1.0 exact-key vs ~0.7 geometry-only is the L2 upgrade over Phase 1.",
+      "properties": {
+        "score": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Score",
+          "type": "number"
+        },
+        "method": {
+          "$ref": "#/$defs/ResolutionMethod"
+        },
+        "basis": {
+          "description": "Human-readable reason for the score.",
+          "title": "Basis",
+          "type": "string"
+        }
+      },
+      "required": [
+        "score",
+        "method",
+        "basis"
+      ],
+      "title": "Confidence",
+      "type": "object"
+    },
+    "Domain": {
+      "description": "Source domain \u2014 kept on every provenance record so a unified entity still\ncarries which silo each field came from (replaces Phase 1's tool-level\nPROHIBITED_COMBOS with field-level provenance).",
+      "enum": [
+        "land",
+        "dld",
+        "dm",
+        "civic",
+        "mobility",
+        "public_safety",
+        "utility",
+        "perception",
+        "base_layer",
+        "synthetic"
+      ],
+      "title": "Domain",
+      "type": "string"
+    },
+    "EntityStatus": {
+      "enum": [
+        "active",
+        "reserved"
+      ],
+      "title": "EntityStatus",
+      "type": "string"
+    },
+    "Geometry": {
+      "description": "GeoJSON-style geometry. Full geometry where the source/base layer provides\nit; a representative `point` ([lon, lat]) is ALWAYS present so the registry\ncan spatially resolve anything, even key-less records.\n(`coordinates` is intentionally loose for v1; tighten to per-type unions later.)",
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/GeometryType"
+        },
+        "coordinates": {
+          "description": "GeoJSON coordinates; shape depends on `type`.",
+          "title": "Coordinates"
+        },
+        "point": {
+          "description": "Guaranteed representative point [lon, lat].",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Point",
+          "type": "array"
+        },
+        "crs": {
+          "default": "EPSG:4326",
+          "title": "Crs",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "coordinates",
+        "point"
+      ],
+      "title": "Geometry",
+      "type": "object"
+    },
+    "GeometryType": {
+      "enum": [
+        "Point",
+        "LineString",
+        "Polygon",
+        "MultiPolygon"
+      ],
+      "title": "GeometryType",
+      "type": "string"
+    },
+    "Provenance": {
+      "description": "Field-level provenance. One record per contributing source. Carries the\nraw source key (`source_id`) \u2014 this is where native keys live now.",
+      "properties": {
+        "source_dataset": {
+          "title": "Source Dataset",
+          "type": "string"
+        },
+        "source_id": {
+          "description": "Native record id/key in that source (e.g. BBL, BIN).",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "domain": {
+          "$ref": "#/$defs/Domain"
+        },
+        "source_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Fields",
+          "type": "array"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observed At"
+        },
+        "derivation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "How a value was derived, e.g. 'BBL = borough+block+lot'.",
+          "title": "Derivation"
+        },
+        "ingest_run_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ingest Run Id"
+        }
+      },
+      "required": [
+        "source_dataset",
+        "source_id",
+        "domain"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "ResolutionMethod": {
+      "description": "How an entity's identity (or a resolution edge) was established \u2014 drives\nthe confidence score. The thing Phase 1's bare-string model could not do.",
+      "enum": [
+        "exact_key",
+        "derived_key",
+        "point_in_polygon",
+        "nearest",
+        "fuzzy_match",
+        "asserted",
+        "exact_bin",
+        "job_number",
+        "complaint_number",
+        "license_number",
+        "address_fallback",
+        "spatial_fallback",
+        "name_hash"
+      ],
+      "title": "ResolutionMethod",
+      "type": "string"
+    },
+    "Parcel": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "parcel",
+          "default": "parcel",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "land_use": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Land Use"
+        },
+        "zoning": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Zoning",
+          "type": "array"
+        },
+        "lot_area_sqft": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lot Area Sqft"
+        },
+        "address": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Address"
+        },
+        "development_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Development Ref"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "Parcel",
+      "type": "object"
+    },
+    "Building": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "building",
+          "default": "building",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "parcel_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parcel Ref"
+        },
+        "building_class": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Building Class"
+        },
+        "num_floors": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Num Floors"
+        },
+        "year_built": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year Built"
+        },
+        "units_residential": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Units Residential"
+        },
+        "units_total": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Units Total"
+        },
+        "height_ft": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Height Ft"
+        },
+        "development_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Development Ref"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "Building",
+      "type": "object"
+    },
+    "Permit": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "permit",
+          "default": "permit",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "building_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Building Ref"
+        },
+        "parcel_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parcel Ref"
+        },
+        "permit_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Permit Type"
+        },
+        "job_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Job Type"
+        },
+        "permit_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Permit Status"
+        },
+        "work_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Work Types",
+          "type": "array"
+        },
+        "filing_date": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Filing Date"
+        },
+        "issuance_date": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Issuance Date"
+        },
+        "expiration_date": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expiration Date"
+        },
+        "initial_cost": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Initial Cost"
+        },
+        "floor_area_sqft": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Floor Area Sqft"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "Permit",
+      "type": "object"
+    },
+    "PartyType": {
+      "enum": [
+        "person",
+        "organization"
+      ],
+      "title": "PartyType",
+      "type": "string"
+    },
+    "Party": {
+      "additionalProperties": false,
+      "description": "Person or organisation. Role is NOT stored here \u2014 it lives on the edge.",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "party",
+          "default": "party",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "party_type": {
+          "$ref": "#/$defs/PartyType"
+        },
+        "license_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Strong key when present.",
+          "title": "License Id"
+        },
+        "license_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "e.g. GC, PE, RA.",
+          "title": "License Type"
+        },
+        "contact": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contact"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence",
+        "name",
+        "party_type"
+      ],
+      "title": "Party",
+      "type": "object"
+    },
+    "Inspection": {
+      "additionalProperties": false,
+      "description": "First-class; inspector optional. Target is polymorphic (permit/building/\nestablishment \u2014 validated against restaurant inspection data).",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "inspection",
+          "default": "inspection",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "target_ref": {
+          "description": "What is inspected.",
+          "title": "Target Ref",
+          "type": "string"
+        },
+        "inspection_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inspection Type"
+        },
+        "inspection_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inspection Status"
+        },
+        "scheduled_date": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scheduled Date"
+        },
+        "disposition_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Disposition Code"
+        },
+        "inspector_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inspector Ref"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence",
+        "target_ref"
+      ],
+      "title": "Inspection",
+      "type": "object"
+    },
+    "RoadSegment": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "road_segment",
+          "default": "road_segment",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "owner": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Owner"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "RoadSegment",
+      "type": "object"
+    },
+    "EventCategory": {
+      "description": "Closed, city-agnostic top-level class \u2014 the stable contract the agent\nroutes on. Aligns with the action core's entry points.",
+      "enum": [
+        "observation",
+        "incident",
+        "request",
+        "transaction",
+        "planned"
+      ],
+      "title": "EventCategory",
+      "type": "string"
+    },
+    "EventSeverity": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ],
+      "title": "EventSeverity",
+      "type": "string"
+    },
+    "Event": {
+      "additionalProperties": false,
+      "description": "The workhorse. Absorbs complaints, 311, collisions, speed readings,\ndispatches, planned events, and DLD transactions \u2014 six source types, one\nentity. Two-level taxonomy: category (closed) + type (open). Resolution to\nentities is via resolves_to / affects EDGES (which carry the confidence).",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "event",
+          "default": "event",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Lifecycle: open/closed/resolved.",
+          "title": "Status"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "category": {
+          "$ref": "#/$defs/EventCategory"
+        },
+        "type": {
+          "description": "Specific, source/city-specific kind, e.g. 'construction_complaint', 'vehicle_collision'.",
+          "title": "Type",
+          "type": "string"
+        },
+        "timestamp": {
+          "format": "date-time",
+          "title": "Timestamp",
+          "type": "string"
+        },
+        "severity": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EventSeverity"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "e.g. transaction value.",
+          "title": "Value"
+        },
+        "payload": {
+          "additionalProperties": true,
+          "title": "Payload",
+          "type": "object"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence",
+        "category",
+        "type",
+        "timestamp"
+      ],
+      "title": "Event",
+      "type": "object"
+    },
+    "Resource": {
+      "additionalProperties": false,
+      "description": "Core, MINIMAL in v1: just the dispatchable units the golden path needs\n(an eVTOL and an inspection crew). Full fleet model is reserved.",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "resource",
+          "default": "resource",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "active"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "resource_type": {
+          "description": "e.g. evtol, inspection_crew, ambulance.",
+          "title": "Resource Type",
+          "type": "string"
+        },
+        "resource_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Resource Status"
+        },
+        "home_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Home Ref"
+        },
+        "capabilities": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Capabilities",
+          "type": "array"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence",
+        "resource_type"
+      ],
+      "title": "Resource",
+      "type": "object"
+    },
+    "Unit": {
+      "additionalProperties": false,
+      "description": "Sub-building: condo/apartment/commercial unit. Flow 1, Dubai DLD.",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "unit",
+          "default": "unit",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "reserved"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "building_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Building Ref"
+        },
+        "unit_designator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit Designator"
+        },
+        "use": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Use"
+        },
+        "area_sqft": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Area Sqft"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "Unit",
+      "type": "object"
+    },
+    "Development": {
+      "additionalProperties": false,
+      "description": "Named development grouping spanning multiple parcels/buildings. DLD\n'project'; LL84 multi-building 'property'. developed_by a Party.",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "development",
+          "default": "development",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "reserved"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "developer_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Developer Ref"
+        },
+        "parcel_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Parcel Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "Development",
+      "type": "object"
+    },
+    "Sensor": {
+      "additionalProperties": false,
+      "description": "Fixed observation device \u2014 camera/pedestrian/air/parking. Flows 4, 7.\nLowest grounding (no NYC donor); reshape when real sensor data lands.",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "sensor",
+          "default": "sensor",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "reserved"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "sensor_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sensor Type"
+        },
+        "observes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Observes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "Sensor",
+      "type": "object"
+    },
+    "InfrastructureAsset": {
+      "additionalProperties": false,
+      "description": "Fixed utility/infra node \u2014 substation/pump/hydrant/main. Participates in\nthe depends_on cascade (a GENERAL edge). Flow 5.",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "infrastructure_asset",
+          "default": "infrastructure_asset",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "reserved"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "asset_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Asset Type"
+        },
+        "capacity": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Capacity"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "InfrastructureAsset",
+      "type": "object"
+    },
+    "TransitNode": {
+      "additionalProperties": false,
+      "description": "Transit stop/station (+ routes). Flow-4 horizon (GTFS/TfL/RTA).",
+      "properties": {
+        "canonical_id": {
+          "pattern": "^[a-z_]+:[a-z]{2}-[a-z]{2,4}:[a-z0-9_]+:.+$",
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "entity_type": {
+          "const": "transit_node",
+          "default": "transit_node",
+          "title": "Entity Type",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/EntityStatus",
+          "default": "reserved"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Confidence"
+        },
+        "geometry": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Geometry"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "ext": {
+          "additionalProperties": true,
+          "description": "Namespaced extension fields, e.g. {'nyc.zonedist1': 'R3A'}.",
+          "title": "Ext",
+          "type": "object"
+        },
+        "node_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Node Type"
+        },
+        "routes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Routes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "confidence"
+      ],
+      "title": "TransitNode",
+      "type": "object"
+    },
+    "Relation": {
+      "description": "Typed graph edges (L3 multiplex). Party roles are explicit relations;\ninvolves_party + `role` is the open-ended escape hatch so a new city's role\n(e.g. Dubai 'consultant') is new edge DATA, not a schema change.",
+      "enum": [
+        "has_building",
+        "has_unit",
+        "part_of",
+        "developed_by",
+        "subject_of_permit",
+        "filed_by",
+        "performed_by",
+        "designed_by",
+        "involves_party",
+        "requires_inspection",
+        "conducted_by",
+        "near",
+        "resolves_to",
+        "affects",
+        "depends_on",
+        "observed_by",
+        "dispatches"
+      ],
+      "title": "Relation",
+      "type": "string"
+    },
+    "Edge": {
+      "additionalProperties": false,
+      "description": "A typed, provenanced relationship. `role` carries the open-ended refinement\n(owner/contractor/applicant/buyer/seller/consultant/...) so a new city's role\nis data, not a schema change. `confidence` lets resolution edges carry their\nown score (e.g. 0.70 geometry-only).",
+      "properties": {
+        "src_ref": {
+          "title": "Src Ref",
+          "type": "string"
+        },
+        "dst_ref": {
+          "title": "Dst Ref",
+          "type": "string"
+        },
+        "relation": {
+          "$ref": "#/$defs/Relation"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Refinement for involves_party etc. (e.g. 'consultant').",
+          "title": "Role"
+        },
+        "provenance": {
+          "items": {
+            "$ref": "#/$defs/Provenance"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Confidence"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "valid_from": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid From"
+        },
+        "valid_to": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid To"
+        }
+      },
+      "required": [
+        "src_ref",
+        "dst_ref",
+        "relation"
+      ],
+      "title": "Edge",
+      "type": "object"
+    }
+  }
+}

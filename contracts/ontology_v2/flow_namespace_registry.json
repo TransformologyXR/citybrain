@@ -1,0 +1,310 @@
+{
+  "flows": [
+    {
+      "core_question": "What is the current bounded status context?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "F1 accepted with capped/windowed source limitations",
+        "london": "not_currently_supported",
+        "nyc": "not_currently_supported",
+        "sdf": "synthetic enabling support for F1/F7 replay and future Incident/Plan readiness",
+        "singapore": "not_currently_supported"
+      },
+      "flow_id": "F1",
+      "flow_name": "Situational Status",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "AdministrativeArea",
+        "Event",
+        "Observation",
+        "EvidenceBundle"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    },
+    {
+      "core_question": "How do planning/compliance records cascade across native identities?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "not_currently_supported",
+        "london": "F2 accepted",
+        "nyc": "F2 accepted; F3 accepted with stage limitations",
+        "sdf": "synthetic readiness only",
+        "singapore": "not_currently_supported"
+      },
+      "flow_id": "F2",
+      "flow_name": "Planning / Construction / Compliance Cascade",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "Parcel",
+        "Building",
+        "Permit",
+        "Inspection",
+        "Violation",
+        "Organization"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    },
+    {
+      "core_question": "What candidate context supports operator review?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "not_currently_supported",
+        "london": "not_currently_supported",
+        "nyc": "F2 accepted; F3 accepted with stage limitations",
+        "sdf": "synthetic enabling support for F1/F7 replay and future Incident/Plan readiness",
+        "singapore": "not_currently_supported"
+      },
+      "flow_id": "F3",
+      "flow_name": "Incident / Response / Affected-Context / Operator Review",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "Incident",
+        "Event",
+        "RoadSegment",
+        "Facility",
+        "EvidenceBundle"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    },
+    {
+      "core_question": "What mobility and environment context is available?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "not_currently_supported",
+        "london": "not_currently_supported",
+        "nyc": "not_currently_supported",
+        "sdf": "synthetic readiness only",
+        "singapore": "planned F4, not accepted"
+      },
+      "flow_id": "F4",
+      "flow_name": "Mobility / Crowd / Transport / Environment",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "TransitNode",
+        "TransitRoute",
+        "MobilityService",
+        "Sensor",
+        "Observation"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    },
+    {
+      "core_question": "What climate dependency context is available?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "not_currently_supported",
+        "london": "not_currently_supported",
+        "nyc": "not_currently_supported",
+        "sdf": "synthetic readiness only",
+        "singapore": "not_currently_supported"
+      },
+      "flow_id": "F5",
+      "flow_name": "Flood / Climate / Asset Dependency Context",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "InfrastructureAsset",
+        "Sensor",
+        "Observation",
+        "EvidenceBundle"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    },
+    {
+      "core_question": "What industrial/logistics sequencing context is available?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "not_currently_supported",
+        "london": "not_currently_supported",
+        "nyc": "not_currently_supported",
+        "sdf": "synthetic readiness only",
+        "singapore": "not_currently_supported"
+      },
+      "flow_id": "F6",
+      "flow_name": "Industrial / Port / Logistics / Sequencing",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "Facility",
+        "RoadSegment",
+        "SimulationNetwork",
+        "SimulationRun"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    },
+    {
+      "core_question": "What civic and sensor signals converge for review?",
+      "current_city_support": {
+        "barcelona": "candidate/future only",
+        "chicago": "F7 accepted with capped/windowed source limitations",
+        "london": "not_currently_supported",
+        "nyc": "not_currently_supported",
+        "sdf": "synthetic enabling support for F1/F7 replay and future Incident/Plan readiness",
+        "singapore": "not_currently_supported"
+      },
+      "flow_id": "F7",
+      "flow_name": "Civic Service + Sensor Fusion",
+      "forbidden_claims_without_gate": [
+        "CERTIFIED_AFFECTED_ASSET",
+        "autonomous_execution",
+        "official_execution_claim"
+      ],
+      "future_city_support": {
+        "barcelona_future": "future candidate",
+        "dubai_future": "future candidate",
+        "oilgas_future": "future candidate",
+        "singapore_future": "F4 planned"
+      },
+      "optional_entity_classes": [
+        "ActionProposal",
+        "ApprovalDecision",
+        "PersonaRendering",
+        "GovernanceBoundary"
+      ],
+      "required_entity_classes": [
+        "CaseOrRequest",
+        "Sensor",
+        "Observation",
+        "EvidenceBundle"
+      ],
+      "required_relationship_classes": [
+        "HAS_NATIVE_ID",
+        "HAS_SOURCE_RECORD",
+        "SUPPORTED_BY",
+        "HAS_EVIDENCE_BUNDLE",
+        "HAS_GOVERNANCE_BOUNDARY"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

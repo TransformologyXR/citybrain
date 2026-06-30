@@ -1,0 +1,621 @@
+{
+  "relationship_classes": [
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_NATIVE_ID.",
+      "example_usage": {
+        "native_authority": "...",
+        "native_id": "...",
+        "native_id_confidence": "exact",
+        "native_id_role": "primary",
+        "native_namespace": "..."
+      },
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_NATIVE_ID",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_ALIAS.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_ALIAS",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "exact only",
+      "description": "Ontology relationship EXACT_SAME_AS.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "EXACT_SAME_AS",
+      "required_evidence": "exact evidence from matching native authority or accepted deterministic gate",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "candidate; never promoted to exact without a gate",
+      "description": "Ontology relationship CANDIDATE_MATCH.",
+      "example_usage": {
+        "boundary": "candidate/context only; do not collapse into exact identity"
+      },
+      "forbidden_without_gate": false,
+      "relationship_name": "CANDIDATE_MATCH",
+      "required_evidence": "candidate evidence with review route",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "rejected",
+      "description": "Ontology relationship REJECTED_MATCH.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "REJECTED_MATCH",
+      "required_evidence": "rejection evidence or governance rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship LOCATED_IN.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "LOCATED_IN",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship CONTAINS.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "CONTAINS",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship INTERSECTS.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "INTERSECTS",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "contextual proximity only",
+      "description": "Ontology relationship NEAR.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "NEAR",
+      "required_evidence": "bounded spatial context",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_ADDRESS.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_ADDRESS",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_GEOMETRY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_GEOMETRY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_GENERALIZED_POINT.",
+      "example_usage": {
+        "london": "TOID generalized point context, not a building polygon"
+      },
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_GENERALIZED_POINT",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_CENTROID.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_CENTROID",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_LOCATION_CONFIDENCE.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_LOCATION_CONFIDENCE",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship OBSERVED_BY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "OBSERVED_BY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Observation",
+        "Event"
+      ],
+      "target_entity_classes": [
+        "Sensor"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship OBSERVES.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "OBSERVES",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Sensor",
+        "Observation"
+      ],
+      "target_entity_classes": [
+        "Event",
+        "AddressableLocation"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship REPORTED_BY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "REPORTED_BY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship REPORTS_ON.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "REPORTS_ON",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship SUBJECT_OF.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "SUBJECT_OF",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship DERIVED_FROM.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "DERIVED_FROM",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship SUPPORTED_BY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "SUPPORTED_BY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship CONTRADICTED_BY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "CONTRADICTED_BY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship SUPERSEDES.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "SUPERSEDES",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_SOURCE_RECORD.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_SOURCE_RECORD",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_EVIDENCE_BUNDLE.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_EVIDENCE_BUNDLE",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_GOVERNANCE_BOUNDARY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_GOVERNANCE_BOUNDARY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship HAS_LIMITATION.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "HAS_LIMITATION",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship TRIGGERS_REVIEW_CANDIDATE.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "TRIGGERS_REVIEW_CANDIDATE",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship PROPOSES_ACTION.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "PROPOSES_ACTION",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "ActionProposal"
+      ],
+      "target_entity_classes": [
+        "ApprovalDecision",
+        "GovernanceBoundary"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship REQUIRES_APPROVAL.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "REQUIRES_APPROVAL",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "ActionProposal"
+      ],
+      "target_entity_classes": [
+        "ApprovalDecision",
+        "GovernanceBoundary"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship APPROVED_BY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "APPROVED_BY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship REJECTED_BY.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "REJECTED_BY",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship RENDERS_AS_PERSONA.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "RENDERS_AS_PERSONA",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "EvidenceBundle"
+      ],
+      "target_entity_classes": [
+        "PersonaRendering"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship SIMULATES_NETWORK.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "SIMULATES_NETWORK",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "SimulationRun"
+      ],
+      "target_entity_classes": [
+        "SimulationNetwork",
+        "SimulationScenario"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "preserve source confidence",
+      "description": "Ontology relationship SIMULATES_SCENARIO.",
+      "example_usage": {},
+      "forbidden_without_gate": false,
+      "relationship_name": "SIMULATES_SCENARIO",
+      "required_evidence": "source evidence or accepted ontology mapping rule",
+      "source_entity_classes": [
+        "SimulationRun"
+      ],
+      "target_entity_classes": [
+        "SimulationNetwork",
+        "SimulationScenario"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "candidate/contextual",
+      "description": "Ontology relationship AFFECTS_CONTEXT_CANDIDATE.",
+      "example_usage": {
+        "nyc_flow3": "candidate tax-lot context for operator review"
+      },
+      "forbidden_without_gate": false,
+      "relationship_name": "AFFECTS_CONTEXT_CANDIDATE",
+      "required_evidence": "accepted candidate/context evidence",
+      "source_entity_classes": [
+        "Entity"
+      ],
+      "target_entity_classes": [
+        "Entity"
+      ]
+    },
+    {
+      "allowed_for_real": true,
+      "allowed_for_synthetic": true,
+      "confidence_policy": "forbidden in current NYC Flow 3 and Chicago mappings",
+      "description": "Ontology relationship CERTIFIED_AFFECTED_ASSET.",
+      "example_usage": {
+        "current_status": "reserved_for_future_gate"
+      },
+      "forbidden_without_gate": true,
+      "relationship_name": "CERTIFIED_AFFECTED_ASSET",
+      "required_evidence": "future accepted gate evidence only",
+      "source_entity_classes": [
+        "Incident",
+        "Event"
+      ],
+      "target_entity_classes": [
+        "Parcel",
+        "Building",
+        "InfrastructureAsset"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

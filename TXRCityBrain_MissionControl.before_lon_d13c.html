@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TXR City Brain — Mission Control</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f1a;
+    --panel:#0f1726;
+    --panel-2:#121d30;
+    --line:#21304a;
+    --line-soft:#1a273d;
+    --txt-hi:#e8eef8;
+    --txt-mid:#9db0cc;
+    --txt-lo:#62718c;
+    --spine:#3b7df0;      /* TXR / CityBrain blue */
+    --spine-dim:#1b3a6b;
+    --blueprint:#c98a24;  /* NVIDIA blueprint amber */
+    --blueprint-dim:#4a3717;
+    --shared:#516079;     /* shared / supporting grey */
+    --go:#84c318;         /* certified / NVIDIA-native green */
+    --go-dim:#22330a;
+    --wip:#e3a83a;
+    --wip-dim:#3a2e10;
+    --blocked:#d9603f;
+    --blocked-dim:#3a190f;
+    --join:#a974e8;       /* join-point violet */
+    --radius:13px;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --disp:'Space Grotesk',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(1100px 620px at 78% -8%, rgba(59,125,240,.10), transparent 60%),
+      radial-gradient(900px 520px at 5% 108%, rgba(132,195,24,.06), transparent 55%),
+      var(--bg);
+    color:var(--txt-hi);
+    font-family:var(--disp);
+    font-size:15px;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    padding:26px 22px 70px;
+  }
+  .wrap{max-width:1280px;margin:0 auto}
+
+  /* ---------- command bar ---------- */
+  .command{
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    background:linear-gradient(180deg,rgba(18,29,48,.9),rgba(15,23,38,.9));
+    padding:22px 24px;
+    position:relative;
+    overflow:hidden;
+  }
+  .command::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,var(--spine),var(--go) 60%,var(--blueprint));
+    height:3px;
+  }
+  .eyebrow{
+    font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+    color:var(--txt-lo);margin:6px 0 8px;
+  }
+  h1{
+    font-size:clamp(26px,4.4vw,40px);font-weight:700;letter-spacing:-.02em;margin:0 0 10px;
+    line-height:1.04;
+  }
+  h1 .rtx{color:var(--go)}
+  .pitch{
+    color:var(--txt-mid);max-width:760px;font-size:15.5px;margin:0 0 20px;
+  }
+  .pitch b{color:var(--txt-hi);font-weight:600}
+
+  .meters{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-end}
+  .meter{min-width:230px;flex:1}
+  .meter .mlabel{
+    font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--txt-lo);display:flex;justify-content:space-between;margin-bottom:7px;
+  }
+  .meter .mval{color:var(--txt-hi);font-weight:600}
+  .bar{height:9px;border-radius:6px;background:var(--line-soft);overflow:hidden;border:1px solid var(--line)}
+  .bar > i{display:block;height:100%;border-radius:6px;transition:width .5s cubic-bezier(.19,1,.22,1)}
+  .bar.slice > i{background:linear-gradient(90deg,var(--spine),var(--go))}
+  .bar.all > i{background:linear-gradient(90deg,var(--shared),var(--spine))}
+
+  .legend{display:flex;gap:7px 16px;flex-wrap:wrap;margin-top:20px;align-items:center}
+  .legend .grp{display:flex;gap:7px 14px;flex-wrap:wrap;align-items:center}
+  .chip{
+    font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--txt-mid);
+    display:inline-flex;align-items:center;gap:6px;
+  }
+  .sw{width:11px;height:11px;border-radius:3px;display:inline-block;flex:none}
+  .legend .sep{width:1px;height:16px;background:var(--line);margin:0 2px}
+  .toolbtn{
+    margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--txt-mid);background:transparent;border:1px solid var(--line);border-radius:8px;
+    padding:7px 13px;cursor:pointer;transition:.18s;
+  }
+  .toolbtn:hover{border-color:var(--blocked);color:var(--blocked)}
+  .savenote{font-family:var(--mono);font-size:10.5px;color:var(--txt-lo);letter-spacing:.08em;margin-left:14px}
+
+  /* ---------- section scaffolding ---------- */
+  .sec{margin-top:34px}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin:0 0 4px}
+  .sec-num{font-family:var(--mono);font-size:12px;color:var(--txt-lo);letter-spacing:.1em}
+  .sec-title{font-size:19px;font-weight:600;letter-spacing:-.01em;margin:0}
+  .sec-sub{color:var(--txt-lo);font-size:13px;margin:2px 0 18px;max-width:780px}
+
+  .tracks{display:grid;grid-template-columns:1.05fr .95fr;gap:20px}
+  @media(max-width:920px){.tracks{grid-template-columns:1fr}}
+
+  .col{
+    border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);
+    padding:18px 18px 8px;
+  }
+  .col.trackA{box-shadow:inset 3px 0 0 var(--spine)}
+  .col.trackB{box-shadow:inset 3px 0 0 var(--shared)}
+  .col-tag{
+    font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+    display:flex;align-items:center;gap:9px;margin-bottom:3px;
+  }
+  .col.trackA .col-tag{color:var(--spine)}
+  .col.trackB .col-tag{color:var(--txt-mid)}
+  .col-name{font-size:16.5px;font-weight:600;margin:0 0 3px}
+  .col-note{color:var(--txt-lo);font-size:12.5px;margin:0 0 16px}
+
+  .lane-label{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--txt-lo);margin:16px 0 9px;padding-top:13px;border-top:1px dashed var(--line-soft);
+    display:flex;align-items:center;gap:8px;
+  }
+  .lane-label:first-of-type{border-top:none;padding-top:0}
+
+  /* ---------- item card ---------- */
+  .item{
+    border:1px solid var(--line-soft);border-radius:10px;background:var(--panel-2);
+    padding:11px 12px 11px 13px;margin-bottom:9px;position:relative;
+    transition:border-color .25s, box-shadow .25s, background .25s;
+  }
+  .item.is-done{border-color:rgba(132,195,24,.5);box-shadow:inset 2px 0 0 var(--go),0 0 0 1px rgba(132,195,24,.10)}
+  .item.is-wip{border-color:rgba(227,168,58,.45);box-shadow:inset 2px 0 0 var(--wip)}
+  .item.is-blocked{border-color:rgba(217,96,63,.5);box-shadow:inset 2px 0 0 var(--blocked)}
+  .item-top{display:flex;align-items:flex-start;gap:10px}
+  .seq{
+    font-family:var(--mono);font-size:12px;font-weight:600;color:var(--txt-lo);
+    min-width:20px;padding-top:2px;flex:none;
+  }
+  .item.is-done .seq{color:var(--go)}
+  .item-body{flex:1;min-width:0}
+  .item-name{font-size:14.5px;font-weight:600;line-height:1.3;margin:0}
+  .item-gate{color:var(--txt-mid);font-size:12.5px;margin:4px 0 0;line-height:1.4}
+  .item-gate::before{content:"gate ▸ ";font-family:var(--mono);font-size:10.5px;color:var(--txt-lo);letter-spacing:.05em}
+
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px;align-items:center}
+  .tag{
+    font-family:var(--mono);font-size:10px;letter-spacing:.05em;padding:2.5px 7px;border-radius:5px;
+    border:1px solid var(--line);color:var(--txt-mid);white-space:nowrap;
+  }
+  .tag.layer{color:var(--spine);border-color:var(--spine-dim);background:rgba(59,125,240,.07)}
+  .tag.claim{color:var(--txt-mid)}
+  .tag.new{color:var(--go);border-color:var(--go-dim);background:rgba(132,195,24,.08)}
+  .tag.join{color:var(--join);border-color:#3a2a55;background:rgba(169,116,232,.09)}
+  .tag.proven{color:var(--go);border-color:var(--go-dim)}
+
+  /* status pill = the signature control */
+  .status{
+    margin-left:auto;flex:none;align-self:flex-start;
+    font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+    border-radius:7px;padding:5px 10px;cursor:pointer;border:1px solid;
+    transition:.2s;display:inline-flex;align-items:center;gap:7px;
+  }
+  .status .dot{width:7px;height:7px;border-radius:50%;flex:none}
+  .status:focus-visible{outline:2px solid var(--spine);outline-offset:2px}
+  .status.todo{color:var(--txt-lo);border-color:var(--line);background:transparent}
+  .status.todo .dot{background:var(--txt-lo)}
+  .status.wip{color:var(--wip);border-color:rgba(227,168,58,.5);background:var(--wip-dim)}
+  .status.wip .dot{background:var(--wip);box-shadow:0 0 7px var(--wip)}
+  .status.blocked{color:var(--blocked);border-color:rgba(217,96,63,.5);background:var(--blocked-dim)}
+  .status.blocked .dot{background:var(--blocked)}
+  .status.done{color:var(--go);border-color:rgba(132,195,24,.6);background:var(--go-dim)}
+  .status.done .dot{background:var(--go);box-shadow:0 0 9px var(--go)}
+  .status:hover{filter:brightness(1.18)}
+
+  /* ---------- rails (hardware / cartridges / gates) ---------- */
+  .rail{display:grid;gap:14px}
+  .rail.hw{grid-template-columns:repeat(4,1fr)}
+  .rail.cart{grid-template-columns:repeat(4,1fr)}
+  .rail.gates{grid-template-columns:repeat(5,1fr)}
+  @media(max-width:920px){.rail.hw,.rail.cart{grid-template-columns:repeat(2,1fr)}.rail.gates{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.rail.hw,.rail.cart,.rail.gates{grid-template-columns:1fr}}
+
+  .card{
+    border:1px solid var(--line);border-radius:11px;background:var(--panel);padding:14px;position:relative;
+    transition:border-color .25s, box-shadow .25s;
+  }
+  .card.is-done{border-color:rgba(132,195,24,.45);box-shadow:inset 0 2px 0 var(--go)}
+  .card.is-wip{border-color:rgba(227,168,58,.4);box-shadow:inset 0 2px 0 var(--wip)}
+  .card.is-blocked{border-color:rgba(217,96,63,.45);box-shadow:inset 0 2px 0 var(--blocked)}
+  .card .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:7px}
+  .card .cname{font-size:14.5px;font-weight:600;line-height:1.2}
+  .card .crole{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--txt-mid);margin-top:3px}
+  .card .cnote{color:var(--txt-lo);font-size:12px;margin-top:9px;line-height:1.42}
+  .seqnum{
+    font-family:var(--mono);font-size:11px;color:var(--txt-lo);letter-spacing:.1em;
+  }
+  .arrowflow{display:flex;align-items:center;justify-content:center;color:var(--txt-lo);font-family:var(--mono);font-size:13px}
+
+  .foot{margin-top:42px;border-top:1px solid var(--line-soft);padding-top:16px;color:var(--txt-lo);font-size:12px;font-family:var(--mono);letter-spacing:.04em;line-height:1.7}
+  .foot b{color:var(--txt-mid);font-weight:500}
+
+  @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- COMMAND BAR -->
+  <header class="command">
+    <div class="eyebrow">TransformologyXR · NVIDIA Urban AI demonstration · live sprint board</div>
+    <h1>TXR City Brain <span class="rtx">/ Mission Control</span></h1>
+    <p class="pitch">NVIDIA's own blueprint gives you the twin and the eyes. This is <b>the brain that sits on top of it</b> — proven once for one city in City Brain Phase 1, now re-platformed onto NVIDIA's native stack and generalised across donor cities. This board tracks the <b>descoped application slice</b> (Track A) and the <b>continuing build</b> (Track B), each item gated. Click a status to cycle it — <b>green means the gate passed.</b></p>
+
+    <div class="meters">
+      <div class="meter">
+        <div class="mlabel"><span>Application slice → demo (gates G0–G1)</span><span class="mval" id="sliceVal">0 / 9</span></div>
+        <div class="bar slice"><i id="sliceBar" style="width:0%"></i></div>
+      </div>
+      <div class="meter">
+        <div class="mlabel"><span>All tracked work</span><span class="mval" id="allVal">0 / 0</span></div>
+        <div class="bar all"><i id="allBar" style="width:0%"></i></div>
+      </div>
+    </div>
+
+    <div class="legend">
+      <div class="grp">
+        <span class="chip"><span class="sw" style="background:var(--txt-lo)"></span>To do</span>
+        <span class="chip"><span class="sw" style="background:var(--wip)"></span>In progress</span>
+        <span class="chip"><span class="sw" style="background:var(--blocked)"></span>Blocked</span>
+        <span class="chip"><span class="sw" style="background:var(--go)"></span>Certified</span>
+      </div>
+      <span class="sep"></span>
+      <div class="grp">
+        <span class="chip"><span class="sw" style="background:var(--spine)"></span>TXR spine</span>
+        <span class="chip"><span class="sw" style="background:var(--blueprint)"></span>NVIDIA blueprint</span>
+        <span class="chip"><span class="sw" style="background:var(--join)"></span>Join point</span>
+      </div>
+      <button class="toolbtn" id="resetBtn">Reset board</button>
+      <span class="savenote" id="saveNote"></span>
+    </div>
+  </header>
+
+  <!-- CLAIM LEGEND STRIP -->
+  <div class="sec" style="margin-top:18px">
+    <div class="legend" style="margin-top:0">
+      <span class="chip" style="color:var(--txt-lo);letter-spacing:.18em">CLAIM LABELS (Rule 4) —</span>
+      <span class="tag claim">[I] Implemented</span>
+      <span class="tag claim">[S] Simulated</span>
+      <span class="tag claim">[A] Adapter</span>
+      <span class="tag claim">[P] Planned</span>
+      <span class="chip" style="color:var(--txt-lo);margin-left:6px">honesty is a feature, not a footnote</span>
+    </div>
+  </div>
+
+  <!-- TRACKS -->
+  <section class="sec">
+    <div class="sec-head"><span class="sec-num">01</span><h2 class="sec-title">The two tracks</h2></div>
+    <p class="sec-sub">One spine, approached two ways. Track A drives a thin vertical slice all the way through it; Track B widens and deepens that same spine around the slice. They meet at three named join points.</p>
+
+    <div class="tracks">
+      <!-- TRACK A -->
+      <div class="col trackA">
+        <div class="col-tag">● Track A — application slice</div>
+        <div class="col-name">Flow 2 golden path, on real NYC data, end to end</div>
+        <div class="col-note">The critical path in dependency order. This is what gates the application snapshot. Out-of-scope items are deferred to Track B and labelled honestly in the demo, not hidden.</div>
+        <div id="trackA"></div>
+        <div class="lane-label">○ Wrapper — after the slice certifies, before submit</div>
+        <div id="wrapper"></div>
+      </div>
+
+      <!-- TRACK B -->
+      <div class="col trackB">
+        <div class="col-tag">○ Track B — continuing build</div>
+        <div class="col-name">Widen &amp; deepen the spine — never gates submission</div>
+        <div class="col-note">Runs in parallel from day one. Three workstreams; each joins the slice at a defined point and upgrades it in place if it lands before the snapshot.</div>
+        <div class="lane-label">⬡ Synthetic data pipeline <span class="tag join">join #1</span></div>
+        <div id="laneSynth"></div>
+        <div class="lane-label">⬢ Brain deepening — the five shifts <span class="tag join">join #2</span></div>
+        <div id="laneBrain"></div>
+        <div class="lane-label">⬣ 3D bridge + dedicated machines <span class="tag join">join #3</span></div>
+        <div id="laneBridge"></div>
+        <div class="lane-label">⬤ London cartridge — first spine-generality proof <span class="tag join">cartridge #1</span></div>
+        <div id="laneLondon"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HARDWARE -->
+  <section class="sec">
+    <div class="sec-head"><span class="sec-num">02</span><h2 class="sec-title">The rig — four machines</h2></div>
+    <p class="sec-sub">The hard machines (Blackwell + ARM64) are already conquered. The two pending ones are x86 + mature architectures on native Ubuntu — your easiest CUDA-X targets, not your hardest.</p>
+    <div class="rail hw" id="hwRail"></div>
+  </section>
+
+  <!-- CARTRIDGES -->
+  <section class="sec">
+    <div class="sec-head"><span class="sec-num">03</span><h2 class="sec-title">Cartridge sequence = validation sequence</h2></div>
+    <p class="sec-sub">The headline claim is "one spine, many cartridges — add a scenario without touching the spine." NYC certifies the spine; every cartridge that slots in without reopening it is a live proof. London is the real test.</p>
+    <div class="rail cart" id="cartRail"></div>
+  </section>
+
+  <!-- GATES -->
+  <section class="sec">
+    <div class="sec-head"><span class="sec-num">04</span><h2 class="sec-title">Acceptance gates</h2></div>
+    <p class="sec-sub">No artifact merges red. G1 is the one that matters for the application — the golden path certified end to end.</p>
+    <div class="rail gates" id="gateRail"></div>
+  </section>
+
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  const KEY = 'txr_mc_state_v1';
+
+  // ---- data model (defaults; statuses overridden from storage by id) ----
+  const trackA = [
+    {id:'a1',n:1,name:'Freeze canonical schema v1',gate:'Schema validates; registry, graph & every adapter unblocked',tags:[['layer','L1·L2'],['claim','[I]'],['proven','done · runnable + validated']]},
+    {id:'a2',n:2,name:'Acceptance harness (Rule 7)',gate:'Reports red/green; drift test fails on demand',tags:[['layer','harness'],['claim','[I]'],['join','join #1 → Track B'],['proven','done']]},
+    {id:'a3',n:3,name:'NYC adapters → registry',gate:'Real NYC Socrata ingested; provenance + confidence attached',tags:[['layer','L1→L2'],['claim','[I]'],['proven','done · hero cascade green v3']]},
+    {id:'a3d2',n:'3·D2',name:'└ Footprints → Building geometry (point→polygon)',gate:'BIN→BIN join; hero verified; citywide 99.91% footprint coverage',tags:[['layer','L2·geometry'],['claim','[I]'],['where','3090 → 4070'],['proven','done · 1,012,067 polygons, byte-stable a4·D3b regression']]},
+    {id:'a4',n:4,name:'Semantic graph — L3 (district → city, CPU → cuGraph)',gate:'Faithful canonical projection across districts; drift blocks forks',tags:[['layer','L3'],['claim','[I]'],['proven','done · citywide green'],['where','dev-box (districts) · 3090 (city)']]},
+    {id:'a4d1',n:'4·D1',name:'└ District cut + projection (MN block 1060)',gate:'run_a4_gate green; 56-node projection faithful',tags:[['layer','L3·district'],['claim','[I]'],['where','dev-box · CPU'],['proven','done']]},
+    {id:'a4d2',n:'4·D2',name:'└ DOB district enrichment (hero district)',gate:'27 active parcels; permits merged; complaints by BIN',tags:[['layer','L3·district'],['claim','[I]'],['where','dev-box · CPU'],['proven','done']]},
+    {id:'a4d2b',n:'4·D2b',name:'└ Data-driven district discovery (28,790 blocks ranked)',gate:'top candidates emitted; MN-1060 baseline preserved',tags:[['layer','L3·discovery'],['claim','[I]'],['where','dev-box · CPU'],['proven','done · 1-01158 + 2-02316 selected']]},
+    {id:'a4d3a',n:'4·D3a',name:'└ CPU bounded scale (3-district parametric proof)',gate:'MN-1060 baseline + 1-01158 volume + 2-02316 shape — all green',tags:[['layer','L3·multi-district'],['claim','[I]'],['where','dev-box · CPU'],['proven','done']]},
+    {id:'a4d3b',n:'4·D3b',name:'└ Scale → CITYWIDE graph (cuGraph)',gate:'Same gates, GPU executor, all 5 boroughs + citywide',tags:[['layer','L3·city'],['claim','[I]'],['where','3090'],['proven','done · 27,997 blocks, 7.33M nodes, 9.64M edges, 5.3GB peak VRAM, 3.8s GPU op']]},
+    {id:'a5',n:5,name:'Action core — L5 (Phase-1 governed oracle on NeMo + NIM)',gate:'Code owns truth · model narrates only · governance is structural',tags:[['layer','L5'],['claim','[I]'],['proven','done · citywide live + precomputed'],['where','DGX Spark']]},
+    {id:'a5d1',n:'5·D1',name:'└ Operator query — deterministic evidence',gate:'Evidence-backed answer w/ confidence + provenance',tags:[['layer','L5·query'],['claim','[I]'],['where','dev-box'],['proven','done']]},
+    {id:'a5d2',n:'5·D2',name:'└ Spark portability pack',gate:'Bundle runs clean-room w/ NIM contract + NeMo contract',tags:[['layer','L5·portability'],['claim','[I]'],['where','dev-box → Spark'],['proven','done']]},
+    {id:'a5d3',n:'5·D3',name:'└ Live Spark/NIM/NeMo hero smoke',gate:'NIM narrates over real evidence; facts unchanged',tags:[['layer','L5·spark'],['claim','[I]'],['where','DGX Spark'],['proven','done']]},
+    {id:'a5d4a',n:'5·D4a',name:'└ EvidenceBundle v1 + grounded narration gate',gate:'Briefing facts ⊆ EvidenceBundle (programmatic) · 2nd-subject proof',tags:[['layer','L5·governance'],['claim','[I]'],['where','dev-box → Spark'],['proven','done']]},
+    {id:'a5d4b',n:'5·D4b',name:'└ Thin request validator + complete trace',gate:'Bad query rejected w/ reason · full reasoning trace recoverable',tags:[['layer','L5·governance'],['claim','[I]'],['where','dev-box → Spark'],['proven','done']]},
+    {id:'a5d5',n:'5·D5',name:'└ NeMo wrapper calls D4 core as one deterministic tool',gate:'Operator asks → NeMo → D4 oracle tool → briefing',tags:[['layer','L5·wrapper'],['claim','[I]'],['where','DGX Spark'],['proven','done']]},
+    {id:'a5d6',n:'5·D6',name:'└ Live NeMo/NIM replay through governed wrapper',gate:'Live NeMo calls only oracle core; grounded on both subjects',tags:[['layer','L5·live'],['claim','[I]'],['where','DGX Spark · live NIM'],['proven','done']]},
+    {id:'a5d6b',n:'5·D6b',name:'└ Narration surface (prose briefing for humans)',gate:'Subset-grounded · anti-echo · min-coverage · subject-isolated',tags:[['layer','L5·surface'],['claim','[I]'],['where','dev-box → Spark'],['proven','done']]},
+    {id:'a5d7',n:'5·D7',name:'└ Citywide precomputed briefing/trace (27,997 blocks)',gate:'Any active block briefable; non-hero leakage scan 0',tags:[['layer','L5·citywide'],['claim','[I]'],['where','dev-box → 4070'],['proven','done · 27,997 bundles + briefings + traces']]},
+    {id:'a5d7b',n:'5·D7b',name:'└ Live Spark citywide query (any block, on demand)',gate:'Hero parity vs precomputed · 5 random blocks grounded',tags:[['layer','L5·citywide-live'],['claim','[I]'],['where','DGX Spark → 4070'],['proven','done · byte-aligned hero parity']]},
+    {id:'a5d8a',n:'5·D8a',name:'└ Action resolver (closed enum) — DEFERRED',gate:'Recommended actions only from operator-safe enum',tags:[['layer','L5·deferred'],['claim','[P]'],['defer','until briefing recommends actions beyond review']]},
+    {id:'a5d8b',n:'5·D8b',name:'└ Multi-oracle registry / orchestrator — DEFERRED',gate:'Orchestrator routes query to right scenario oracle',tags:[['layer','L5·deferred'],['claim','[P]'],['defer','until 2nd oracle family exists']]},
+    {id:'a6',n:6,name:'Optimiser in the loop (cuOpt)',gate:'Produces an inspection-review routing plan',tags:[['layer','L6'],['claim','[I]'],['where','3090'],['proven','done · D1']]},
+    {id:'a6d1',n:'6·D1',name:'└ cuOpt operational review optimizer',gate:'VRP solve over citywide candidates; operator-safe language',tags:[['layer','L6·routing'],['claim','[I]'],['where','3090 · cuOpt 26.06'],['proven','done · 33 assigned / 27 dropped / 5 boroughs']]},
+    {id:'a7',n:7,name:'Evidence briefing + provenance',gate:'Briefing emitted: what · why · action · evidence · approval',tags:[['layer','L5·L9'],['claim','[I]'],['proven','done · a5·D6b/D7 + a8·D3b why_selected']]},
+    {id:'a8',n:8,name:'Web map + agent-trace panel',gate:'The Must-have face renders the live thread',tags:[['layer','L8'],['claim','[I]'],['proven','done · citywide map + briefings + routes + clip']]},
+    {id:'a8d1',n:'8·D1',name:'└ Face layer foundation (3-district map/trace/briefing)',gate:'Round-trip portable · hash-verified 3090→4070',tags:[['layer','L8·foundation'],['claim','[I]'],['where','4070'],['proven','done']]},
+    {id:'a8d2',n:'8·D2',name:'└ Citywide map (LOD, viewport-bounded, heatmap)',gate:'Borough→block→node zoom levels; search by block key',tags:[['layer','L8·citywide'],['claim','[I]'],['where','4070'],['proven','done']]},
+    {id:'a8d3',n:'8·D3',name:'└ Route overlay from cuOpt (a6·D1)',gate:'Routes + sites rendered; counts match optimizer output',tags:[['layer','L8·routing'],['claim','[I]'],['where','4070'],['proven','done']]},
+    {id:'a8d3b',n:'8·D3b',name:'└ why_selected plain-English + hero clip attach',gate:'Honest tooltip reasons · [Illustrative] clip w/ explicit boundary',tags:[['layer','L8·polish'],['claim','[I]'],['where','4070'],['proven','done']]},
+    {id:'a9',n:9,name:'Wire E2E · Gate G1 · snapshot',gate:'Harness asserts full Flow 2 green; image tagged',tags:[['layer','integration'],['claim','[P]']]},
+  ];
+  const trackLondon = [
+    {id:'lon_d3',n:'LON·D3',name:'Source reachability + identity-backbone probe',gate:'PLD (3 boroughs) + OpenUPRN + OpenUSRN + LIDS crosswalks reachable',tags:[['layer','cartridge·prep'],['claim','[I]'],['where','dev-box'],['proven','done · v0.2 closes OpenUSRN gap']]},
+    {id:'lon_d4',n:'LON·D4',name:'Sampled identity ingest (UPRN→Parcel, TOID→Building, USRN→Road)',gate:'Sample identity spine proved; crosswalk edges resolve',tags:[['layer','cartridge·identity'],['claim','[I]'],['where','dev-box'],['proven','done']]},
+    {id:'lon_d5',n:'LON·D5',name:'PLD planning ingest',gate:'PLD normalized as permit-equivalent; sample mismatch exposed honestly',tags:[['layer','cartridge·permits'],['claim','[I]'],['where','dev-box'],['proven','done · unattached sample mismatch']]},
+    {id:'lon_d5b',n:'LON·D5b',name:'PLD-driven OpenUPRN backfill attempt',gate:'No fuzzy certification; source limitation named',tags:[['layer','cartridge·identity'],['claim','[I]'],['where','dev-box'],['proven','done · source-limited']]},
+    {id:'lon_d5c',n:'LON·D5c',name:'LIDS-confirmed PLD identity bridge',gate:'Connected sample paths BOTH: UPRN→TOID and UPRN→USRN',tags:[['layer','cartridge·bridge'],['claim','[I]'],['where','dev-box'],['proven','done']]},
+    {id:'lon_d6',n:'LON·D6',name:'Enforcement/building-control probe',gate:'D6A searched; official bounded machine-readable feed not found',tags:[['layer','cartridge·enforcement'],['claim','[I]'],['where','dev-box'],['proven','done · source limitation carried forward']]},
+    {id:'lon_d7',n:'LON·D7',name:'Sample graph + deterministic briefing/query smoke',gate:'London graph/query contract works without NYC vocabulary drift',tags:[['layer','cartridge·graph'],['claim','[I]'],['where','dev-box'],['proven','done']]},
+    {id:'lon_d8',n:'LON·D8',name:'Operator query contract + EvidenceBundle export',gate:'London query contract and evidence bundles emitted',tags:[['layer','cartridge·query'],['claim','[I]'],['where','dev-box'],['proven','done']]},
+    {id:'lon_d9a',n:'LON·D9A',name:'Raw inventory + processing readiness',gate:'35 files inventoried; LIDS Tier 1 complete; D9B/D9C ready',tags:[['layer','cartridge·foundation'],['claim','[I]'],['where','dev-box'],['proven','done']]},
+    {id:'lon_d9b',n:'LON·D9B',name:'London-wide identity build',gate:'5.31M UPRNs; 2.30M TOIDs; 69.7K USRNs; 10.61M identity edges',tags:[['layer','cartridge·identity'],['claim','[I]'],['where','3090'],['proven','done']]},
+    {id:'lon_d9c',n:'LON·D9C',name:'PLD normalization / dedupe',gate:'58,867 normalized PLD applications; overlap risk resolved by extract membership',tags:[['layer','cartridge·permits'],['claim','[I]'],['where','3090'],['proven','done']]},
+    {id:'lon_d9d',n:'LON·D9D',name:'PLD→identity alignment — SUPERSEDED',gate:'Bulk CSV had no certifiable UPRNs; superseded by official PLD API recovery',tags:[['layer','cartridge·superseded'],['claim','[I]'],['proven','superseded · no-PLD-UPRN limitation closed by D9D2']]},
+    {id:'lon_d9d2',n:'LON·D9D2',name:'Official PLD API UPRN recovery + exact alignment',gate:'57,796 exact API matches; 53,753 PLD→UPRN edges; no fuzzy joins',tags:[['layer','cartridge·accepted'],['claim','[I]'],['where','3090'],['proven','accepted · closes D9D limitation']]},
+    {id:'lon_d9e',n:'LON·D9E',name:'Serious London graph — ACCEPTED D9D2 graph',gate:'7,734,960 nodes; 10,664,896 edges; edge integrity 0 missing endpoints',tags:[['layer','cartridge·graph'],['claim','[I]'],['where','3090'],['proven','accepted · D9E-D9D2']]},
+    {id:'lon_d9f',n:'LON·D9F',name:'Serious London query contract — ACCEPTED D9D2 contract',gate:'EvidenceBundles + deterministic briefings rerun over D9D2 graph',tags:[['layer','cartridge·query'],['claim','[I]'],['where','3090 → 4070'],['proven','accepted · D9F-D9D2']]},
+    {id:'lon_d9z',n:'LON·D9Z',name:'LON-D9Z  GREEN · D9D2 ACCEPTED LONDON SNAPSHOT',gate:'D9D superseded; D9E-D9D2/D9F-D9D2 promoted; unmatched basis pinned',tags:[['layer','cartridge·snapshot'],['claim','[I]'],['where','dev-box → 4070'],['proven','done · accepted v1']]},
+    {id:'lon_d10',n:'LON·D10',name:'LON-D10  GREEN · PLANNING-CONTEXT ENRICHMENT',gate:'186,180 context nodes; 232,101 context edges; 53,751 PLD applications with context; 32/33 boroughs with context coverage; TOID context 0 due no TOID geometry; not legal planning determination',tags:[['layer','cartridge·context'],['claim','[I]'],['where','3090 → 4070'],['proven','done · accepted planning-context enrichment']]},
+    {id:'lon_d10b',n:'LON-D10B',name:'LON-D10B  GREEN - LOCAL PLAN SEMANTIC CERTIFICATION',gate:'444 certified Local Plan layers; 695 manual-review/deferred layers; 55,469 context nodes; 168,116 context edges; context evidence only, not legal planning determination',tags:[['layer','cartridge-context'],['claim','[I]'],['where','3090 -> 4070'],['proven','accepted - D10B']]},
+    {id:'lon_d11',n:'LON-D11',name:'LON-D11  GREEN - LONDON FACE-LAYER CARTRIDGE',gate:'Static/file face payload, UI smoke, and 4070 publish green; live route hardening covered by D11C',tags:[['layer','cartridge-face'],['claim','[I]'],['where','4070'],['proven','accepted - D11']]},
+    {id:'lon_d11b',n:'LON-D11B',name:'LON-D11B  GREEN_WITH_FILE_FALLBACK - LIVE FACE SMOKE',gate:'Live hosted route attempted; file payload verified; route hardening remains a follow-up',tags:[['layer','cartridge-face'],['claim','[I]'],['where','4070'],['proven','accepted - D11b']]},
+    {id:'lon_d12',n:'LON-D12',name:'LON-D12  GREEN_WITH_LIVE_NIM_NOT_RUN - DETERMINISTIC LONDON QUERY WRAPPER',gate:'One public tool citybrain_london_query; deterministic dry-run and grounding green; live NIM covered by D12B',tags:[['layer','cartridge-query'],['claim','[I]'],['where','Spark/NIM boundary'],['proven','accepted - D12']]},
+    {id:'lon_d12b',n:'LON-D12B',name:'LON-D12B  GREEN - LIVE SPARK/NIM REPLAY',gate:'Live Spark/NIM replay green from Spark endpoint; grounded narration passed; no low-level public tools',tags:[['layer','cartridge-query'],['claim','[I]'],['where','Spark/NIM boundary'],['proven','accepted - D12b']]},
+    {id:'lon_d6b2',n:'LON-D6B2',name:'LON-D6B2  GREEN_WITH_IDENTITY_LIMITATION - HAVERING ENFORCEMENT EVENT LINEAGE',gate:'532 Havering events and PDFs preserved; Camden/Redbridge candidate and aggregate evidence preserved; superseded for exact PLD identity slice by D6B3',tags:[['layer','cartridge-enforcement'],['claim','[I]'],['where','3090 -> 4070'],['proven','lineage - D6B2']]},
+    {id:'lon_d6b3',n:'LON-D6B3',name:'LON-D6B3  GREEN_WITH_PARTIAL_IDENTITY_RECOVERY - HAVERING ENFORCEMENT IDENTITY RECOVERY',gate:'532 Havering events considered; 277 planning-reference hits; 7 exact PLD matches; 6 PLD permits with D9D2 paths; 7 certified identity edges; address/postcode candidates not certified',tags:[['layer','cartridge-enforcement'],['claim','[I]'],['where','3090 -> 4070'],['proven','accepted - D6B3']]},
+    {id:'lon_d13b',n:'LON-D13b',name:'LON-D13b  GREEN_WITH_LIVE_NIM_AND_DECLARED_LIMITATIONS - COMPOSITE D6B3 REFRESH',gate:'D12B live NIM green; D6B3 partial enforcement identity recovery reflected; D6B2 retained as lineage; no legal planning/enforcement overclaim',tags:[['layer','cartridge-snapshot'],['claim','[I]'],['where','3090 -> 4070'],['proven','accepted - D13b']]},
+    {id:'lon_d11c',n:'LON-D11C',name:'LON-D11C  GREEN - LIVE LONDON FACE ROUTE FIX',gate:'10/10 live endpoints passed on 4070; /london and /api/london/* serve grounded London composite payload; generic shell replaced',tags:[['layer','cartridge-face'],['claim','[I]'],['where','4070'],['proven','accepted - D11C']]},
+    {id:'lon_d11a',n:'LON-D11A',name:'LON-D11A  PASS_WITH_GENERALISED_TOID_LOCATION_LIMITATION - TOID LOCATION RECOVERY',gate:'40,804 accepted TOIDs considered; 40,803 exact OS Open TOID matches; 6 D6B3 TOID paths locatable; generalised points, not building polygons',tags:[['layer','cartridge-location'],['claim','[I]'],['where','3090 -> 4070'],['proven','accepted - D11A']]},
+    {id:'lon_d10ev',n:'LON-D10EV',name:'LON-D10EV  PASS_WITH_SCOPE_LIMITATION - EV CHARGING SOURCE RECOVERY',gate:'Official London Datastore rapid charging GeoPackage parsed; 156 charging sites; 31/33 boroughs; 1,615 context edges; not real-time availability or complete EV coverage',tags:[['layer','cartridge-infrastructure'],['claim','[I]'],['where','3090 -> 4070'],['proven','accepted - D10EV']]},
+    {id:'lon_hero',n:'LON-hero',name:'London hero cascade - DEFERRED',gate:'No London hero selected yet; choose only after human review of a real connected planning subject',tags:[['layer','cartridge-proof'],['claim','[P]'],['defer','until selected']]},  ];
+  const wrapper = [
+    {id:'w1',name:'Executive Summary',gate:'Lineage + real blueprint mapping + spine-vs-blueprint',tags:[['claim','[I]']]},
+    {id:'w2',name:'Rename pass → TXR City Brain',gate:'Files + internal references consistent',tags:[['claim','[I]']]},
+    {id:'w3',name:'Demo video (Scene 0–6)',gate:'Clean capture of the NYC thread',tags:[['claim','[I]']]},
+    {id:'w4',name:'Repo + README',gate:'Public, reproducible',tags:[['claim','[I]']]},
+  ];
+  const laneSynth = [
+    {id:'bs1',name:'Validation harness',gate:'Distribution + consistency + does-the-brain-answer checks',tags:[['join','= Track A a2']]},
+    {id:'bs2',name:'Structure lane',gate:'Parcels/buildings/roads from OSM·Overture·footprints',tags:[['claim','[S]']]},
+    {id:'bs3',name:'Dynamics lane',gate:'SUMO·pandapower·EPANET calibrated to real distributions',tags:[['claim','[S]']]},
+    {id:'bs4',name:'Events & documents lane',gate:'Schema-grounded LLM gen, seeded by donor record shapes',tags:[['claim','[S]']]},
+    {id:'bs5',name:'Vision lane',gate:'Cosmos frames over the USD scene — procedural fallback for now',tags:[['claim','[S]']]},
+  ];
+  const laneBrain = [
+    {id:'bb1',name:'Multi-step decomposition planner',gate:'Single tool → multi-step investigation (why / compare)',tags:[['join','join #2 → L5']]},
+    {id:'bb2',name:'Statistical signal layer',gate:'z-score · percentile · momentum · anomaly on every result',tags:[]},
+    {id:'bb3',name:'Semantic entity graph properties',gate:'Entity props/relations + cross-domain bridge keys',tags:[]},
+    {id:'bb4',name:'Proactive insight engine',gate:'Volunteers anomalies & divergence, not just answers',tags:[]},
+    {id:'bb5',name:'Semantic memory retrieval',gate:'Embed turns; retrieve by relevance, cross-session',tags:[]},
+  ];
+  const laneBridge = [
+    {id:'bh1',name:'RTX 3090 → RAPIDS / cuGraph / cuOpt',gate:'Real on-GPU graph + optimise; upgrades the slice in place',tags:[['join','join #3']]},
+    {id:'bh2',name:'RTX 4070 → DeepStream / FastAPI / web',gate:'Perception + dashboard host online',tags:[]},
+    {id:'bh3',name:'Object-tagging agent (3D ↔ graph)',gate:'Click in the twin opens the graph neighbourhood',tags:[['claim','[S]']]},
+    {id:'bh4',name:'Metropolis / VSS vision pipeline',gate:'Replaces the scripted event stub',tags:[['claim','[S]']]},
+  ];
+
+  const hardware = [
+    {id:'hwSpark',name:'DGX Spark',role:'Brain — NIM · NeMo Agent Toolkit · Guardrails',def:'done',note:'NIM (Llama 3.1 8B) live on :8000, OpenAI-compatible. Test ReAct agent confirmed. Blackwell + ARM64 — the hard one, done.'},
+    {id:'hw5090',name:'RTX 5090 laptop',role:'Twin + demo driver + Cosmos',def:'wip',note:'Dubai Creek USD scene rendering @60fps in Composer. Cosmos parked → procedural [Simulated] fallback accepted.'},
+    {id:'hw3090',name:'RTX 3090 PC',role:'Data / graph / optimise — RAPIDS · cuGraph · cuOpt',def:'done',note:'Ubuntu + NVIDIA Docker green; RAPIDS citywide graph, cuOpt review routing, and London D9D2/D9E graph work ran here.'},
+    {id:'hw4070',name:'RTX 4070 PC',role:'Face layer / dashboard / trace / briefing',def:'done',note:'Ubuntu + Node/Caddy face layer green; citywide map, route overlay, and lightweight London D9F-D9D2 bundles published.'},
+  ];
+
+  const cartridges = [
+    {id:'cNYC',name:'NYC',role:'Golden path · certifies the spine',def:'wip',note:'100% harvested, real Socrata live. The slice runs here.'},
+    {id:'cLON',name:'London',role:'First spine test - UK relevance',def:'done',note:'D13b composite accepted state: D9Z/D10Z/D10B/D11/D11b/D12/D12b/D6B2 lineage/D6B3 partial identity recovery. Context only, not legal planning determination.'},
+    {id:'cDXB',name:'Dubai',role:'Middle-East narrative target',def:'todo',note:'Re-anchor onto Dubai geometry. Manual export still the blocker.'},
+    {id:'cOIL',name:'Oil & Gas',role:'Domain-swap closer · branch',def:'todo',note:'Fully synthetic (Petrotechnics background). Trigger: city slice green with time left.'},
+  ];
+
+  const gates = [
+    {id:'g0',name:'G0',role:'Harness + schema + env exist & run',def:'done'},
+    {id:'g1',name:'G1',role:'Flow 2 end-to-end on NYC, evidence + briefing',def:'todo'},
+    {id:'g2',name:'G2',role:'Twin + vision + 3D bridge + agent-trace',def:'todo'},
+    {id:'g3',name:'G3',role:'3–4 flows as cartridges on one spine',def:'wip'},
+    {id:'g4',name:'G4',role:'Video · blog · repo · claim audit · snapshot',def:'todo'},
+  ];
+
+  // pre-seeded reality (handover §4): action-core base in progress
+  const seed = {
+    a1:'done', a2:'done', a3:'done', a3d2:'done',
+    a4:'done', a4d1:'done', a4d2:'done', a4d2b:'done', a4d3a:'done', a4d3b:'done',
+    a5:'done', a5d1:'done', a5d2:'done', a5d3:'done',
+    a5d4a:'done', a5d4b:'done', a5d5:'done', a5d6:'done', a5d6b:'done',
+    a5d7:'done', a5d7b:'done',
+    a6:'done', a6d1:'done',
+    a7:'done',
+    a8:'done', a8d1:'done', a8d2:'done', a8d3:'done', a8d3b:'done',
+    lon_d3:'done', lon_d4:'done', lon_d5:'done', lon_d5b:'done', lon_d5c:'done',
+    lon_d6:'done', lon_d7:'done', lon_d8:'done',
+    lon_d9a:'done', lon_d9b:'done', lon_d9c:'done', lon_d9d:'done',
+    lon_d9d2:'done', lon_d9e:'done', lon_d9f:'done', lon_d9z:'done',
+    lon_d10:'done', lon_d10b:'done', lon_d11:'done', lon_d11b:'done',
+    lon_d12:'done', lon_d12b:'done', lon_d6b2:'done', lon_d6b3:'done', lon_d13b:'done',
+    hw3090:'done', hw4070:'done', cLON:'done', g0:'done', g3:'wip',
+  };
+
+  const ORDER = ['todo','wip','blocked','done'];
+  const LABEL = {todo:'To do',wip:'In progress',blocked:'Blocked',done:'Certified'};
+
+  let state = {};   // id -> status
+  let mem = false;  // true if storage unavailable (in-memory only)
+
+  // ---------- storage ----------
+  async function load(){
+    if(window.storage){
+      try{ const r = await window.storage.get(KEY); if(r && r.value) return JSON.parse(r.value); }
+      catch(e){ /* missing key throws — fall through */ }
+      return {};
+    }
+    mem = true; return {};
+  }
+  async function save(){
+    if(window.storage){
+      try{ await window.storage.set(KEY, JSON.stringify(state)); flashSaved('saved'); return; }
+      catch(e){ flashSaved('save failed'); return; }
+    }
+    flashSaved('in-memory only — not connected to storage');
+  }
+  let saveTimer=null;
+  function flashSaved(msg){
+    const el=document.getElementById('saveNote'); if(!el) return;
+    el.textContent = mem ? 'in-memory only — not persisted' : '✓ '+msg;
+    if(saveTimer) clearTimeout(saveTimer);
+    if(!mem) saveTimer=setTimeout(()=>{el.textContent='';},1600);
+  }
+
+  function statusOf(id,def){ return state[id] || def || 'todo'; }
+
+  // ---------- rendering ----------
+  function tagHTML(t){
+    const cls=t[0], txt=t[1];
+    return '<span class="tag '+cls+'">'+txt+'</span>';
+  }
+  function statusBtn(id,def){
+    const s=statusOf(id,def);
+    return '<button class="status '+s+'" data-id="'+id+'" data-def="'+(def||'todo')+'" aria-label="status: '+LABEL[s]+'. click to change."><span class="dot"></span>'+LABEL[s]+'</button>';
+  }
+  function itemHTML(it,opts){
+    opts=opts||{};
+    const s=statusOf(it.id,it.def);
+    const seq = opts.seq ? '<span class="seq">'+it.n+'</span>' : '';
+    const tags = (it.tags&&it.tags.length)? '<div class="tags">'+it.tags.map(tagHTML).join('')+'</div>':'';
+    return '<div class="item is-'+s+'" data-item="'+it.id+'">'+
+      '<div class="item-top">'+seq+
+        '<div class="item-body"><p class="item-name">'+it.name+'</p>'+
+          '<p class="item-gate">'+it.gate+'</p>'+tags+
+        '</div>'+
+        statusBtn(it.id,it.def)+
+      '</div></div>';
+  }
+  function renderList(elId,arr,opts){
+    document.getElementById(elId).innerHTML = arr.map(it=>itemHTML(it,opts)).join('');
+  }
+
+  function cardHTML(c,kind){
+    const s=statusOf(c.id,c.def);
+    const num = kind==='cart' ? '<span class="seqnum">0'+(cardIndex(c)+1)+'</span>' : '';
+    const role = '<div class="crole">'+c.role+'</div>';
+    const note = c.note ? '<div class="cnote">'+c.note+'</div>' : '';
+    return '<div class="card is-'+s+'" data-item="'+c.id+'">'+
+      '<div class="ctop"><div><div class="cname">'+c.name+'</div>'+role+'</div>'+
+        statusBtn(c.id,c.def)+'</div>'+note+'</div>';
+  }
+  let _cartList=cartridges;
+  function cardIndex(c){ return _cartList.indexOf(c); }
+  function renderRail(elId,arr,kind){
+    document.getElementById(elId).innerHTML = arr.map(c=>cardHTML(c,kind)).join('');
+  }
+
+  // ---------- progress ----------
+  function allItems(){
+    return [].concat(trackA,wrapper,laneSynth,laneBrain,laneBridge,trackLondon,
+      hardware,cartridges,gates);
+  }
+  function recompute(){
+    const sliceDone = trackA.filter(it=>statusOf(it.id,it.def)==='done').length;
+    document.getElementById('sliceVal').textContent = sliceDone+' / '+trackA.length;
+    document.getElementById('sliceBar').style.width = Math.round(sliceDone/trackA.length*100)+'%';
+
+    const all = allItems();
+    const def = (it)=> it.def || 'todo';
+    const allDone = all.filter(it=>statusOf(it.id,def(it))==='done').length;
+    document.getElementById('allVal').textContent = allDone+' / '+all.length;
+    document.getElementById('allBar').style.width = Math.round(allDone/all.length*100)+'%';
+  }
+
+  // ---------- interaction ----------
+  function cycle(id,def){
+    const cur=statusOf(id,def);
+    const next=ORDER[(ORDER.indexOf(cur)+1)%ORDER.length];
+    if(next===(def||'todo') && !state[id]){ state[id]=next; } // first move from default
+    state[id]=next;
+    save();
+  }
+  function refreshOne(id){
+    // re-render everything affected (cheap; lists are small)
+    renderAll();
+  }
+  function renderAll(){
+    renderList('trackA',trackA,{seq:true});
+    renderList('wrapper',wrapper,{});
+    renderList('laneLondon',trackLondon,{seq:true});
+    renderList('laneSynth',laneSynth,{});
+    renderList('laneBrain',laneBrain,{});
+    renderList('laneBridge',laneBridge,{});
+    renderRail('hwRail',hardware,'hw');
+    renderRail('cartRail',cartridges,'cart');
+    renderRail('gateRail',gates,'gate');
+    recompute();
+  }
+
+  document.addEventListener('click',function(e){
+    const btn=e.target.closest('.status');
+    if(btn){
+      cycle(btn.dataset.id, btn.dataset.def);
+      renderAll();
+      return;
+    }
+    if(e.target.id==='resetBtn'){
+      if(confirm('Reset every status back to its starting value?')){
+        state={}; save(); renderAll();
+      }
+    }
+  });
+
+  // ---------- footer ----------
+  document.getElementById('foot').innerHTML =
+    '<b>Join points</b> — #1 the acceptance harness is shared between Track A (a2) and the synth pipeline (bs1): build once, gate both. '+
+    '#2 the decomposition planner drops into L5 and turns the slice\u2019s scripted reasoning into open-ended why/cascade reasoning. '+
+    '#3 real cuGraph/cuOpt + the click-through 3D bridge upgrade the running slice in place.<br>'+
+    '<b>Branch</b> — Oil &amp; Gas opens only when the city slice certifies green with time left in the window. '+
+    '<b>Source of truth</b> — tests and gates decide, not prose (Rule 8). This board is the live view; the canonical docs are in the project folder.';
+
+  // ---------- boot ----------
+  (async function(){
+    const loaded = await load();
+    state = Object.assign({}, seed, loaded);  // seed reality, then user overrides
+    renderAll();
+    if(mem){ flashSaved(); }
+  })();
+})();
+</script>
+</body>
+</html>

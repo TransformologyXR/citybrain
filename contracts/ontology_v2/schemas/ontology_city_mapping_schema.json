@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "required": [
+    "city_namespace",
+    "status",
+    "entity_mappings",
+    "relationship_mappings"
+  ],
+  "title": "Ontology v2 City Mapping",
+  "type": "object"
+}

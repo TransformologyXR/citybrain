@@ -1,0 +1,19 @@
+{
+  "README.md": "50f1e331d6470da735b9410c90370cf9d27260eebf3a535fa15c39218e866edf",
+  "canonical_id_policy.json": "0f0cdb3a969a2e65ca4d46d58da7325d57e9b6e03843770baf2847e6d26414b7",
+  "city_namespace_registry.json": "aacd73472f06d3e322530e8397bf23df5fcb7701b7c5f471ab3cc32568aedba9",
+  "claim_label_policy.json": "59c37c31669c88dc9278ebb95ef4a4e794787ad89b08cd8289ffa5ce755215db",
+  "compatibility_test_manifest.json": "340e6420e03afed1adbf8a0946a210727e57764942a3484d1230284697a39fc0",
+  "entity_classes.json": "3f28369e1ead5a88d102c98998a5b686e1bf674708724a998f38babe67957f9d",
+  "flow_namespace_registry.json": "7e3fa906d833d4a881f69c5bd564a42ebe6f2697514eae24d35a4fb20abd022d",
+  "geometry_location_policy.json": "ba09fc6a8ff7e02dcfddcc33366c3a3743d4033b900c138454f3728b61f14140",
+  "native_id_registry.json": "1f8b46fb49ccabf6aa659f69b0c6f60ba3e72b62cd7170712e2ac0013c27fb20",
+  "ontology_v2_spec.json": "b0cc954239e7d2ba27e0d55d5be188ae15359449f4cf53b6b074c5e064c2069b",
+  "relationship_classes.json": "77a1ec6522282c664d1305fe0508c31d68c25806246cdccab212169a2bbd7568",
+  "schemas/ontology_city_mapping_schema.json": "76a1ea8eba348c6da9f848ac34b924325a7af2e4401dd9b68fabae3f2fb1dfab",
+  "schemas/ontology_claim_label_schema.json": "9f3c8260f0acca5cb375aa1d72f62b61f65d1737dcb616434f828ef1ce849b2b",
+  "schemas/ontology_compatibility_result_schema.json": "ddd1ba3c8b46bba98fe12e5953d72ebed05dc7914d56327c45d6f5965aa784d7",
+  "schemas/ontology_entity_schema.json": "f3a9f77bbdd34043b9dcb211e076f4e9ef3d250a00fc995968ab6e8fa43b6b08",
+  "schemas/ontology_flow_mapping_schema.json": "57cfa68333cb1a79cbf2d05b74d0810494fe3b5c878b14817af1d36b092a132c",
+  "schemas/ontology_relationship_schema.json": "9d544dcf6729db52564006c081d683d895fa4a7fd9fbd92bb8d0f0bac0ee8002"
+}
