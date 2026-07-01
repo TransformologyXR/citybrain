@@ -60,6 +60,7 @@ PROHIBITED_CLAIMS = [
 
 NEGATION_WORDS = (
     "no ",
+    "no_",
     ": no",
     " no.",
     " no,",
@@ -72,6 +73,9 @@ NEGATION_WORDS = (
     "not a",
     "cannot",
     "blocked",
+    "forbidden",
+    "do not say",
+    "avoid saying",
 )
 SECRET_PATTERNS = [
     re.compile(r"(?i)(api[_-]?key|secret|token|password)\s*[:=]\s*['\"]?[A-Za-z0-9_\-]{12,}"),
