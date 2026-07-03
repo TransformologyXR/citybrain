@@ -1,0 +1,1640 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "citybrain://ask-v11/packets",
+  "title": "TXR CityBrain ASK Flow v1.1 packet contracts",
+  "$defs": {
+    "FlowRunInput": {
+      "additionalProperties": false,
+      "properties": {
+        "flow_id": {
+          "default": "flow:ask_v1",
+          "title": "Flow Id",
+          "type": "string"
+        },
+        "flow_version": {
+          "default": "1.1",
+          "title": "Flow Version",
+          "type": "string"
+        },
+        "run_id": {
+          "title": "Run Id",
+          "type": "string"
+        },
+        "raw_query": {
+          "minLength": 1,
+          "title": "Raw Query",
+          "type": "string"
+        },
+        "session_state": {
+          "additionalProperties": true,
+          "title": "Session State",
+          "type": "object"
+        },
+        "selected_item_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Selected Item Ref"
+        }
+      },
+      "required": [
+        "run_id",
+        "raw_query"
+      ],
+      "title": "FlowRunInput",
+      "type": "object"
+    },
+    "BoundaryResult": {
+      "enum": [
+        "clear",
+        "action_shaped",
+        "prediction_or_finding",
+        "identity_or_person",
+        "out_of_scope_domain",
+        "ambiguous_boundary"
+      ],
+      "title": "BoundaryResult",
+      "type": "string"
+    },
+    "BoundaryScreenPacket": {
+      "additionalProperties": false,
+      "properties": {
+        "stage_id": {
+          "default": "G1",
+          "title": "Stage Id",
+          "type": "string"
+        },
+        "gate_id": {
+          "default": "boundary_screen@1.1",
+          "title": "Gate Id",
+          "type": "string"
+        },
+        "boundary": {
+          "$ref": "#/$defs/BoundaryResult"
+        },
+        "reason_codes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reason Codes",
+          "type": "array"
+        },
+        "confidence": {
+          "default": 1.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        }
+      },
+      "required": [
+        "boundary"
+      ],
+      "title": "BoundaryScreenPacket",
+      "type": "object"
+    },
+    "DegradedResponseDecision": {
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "title": "Decision",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "stage_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Stage Id"
+        },
+        "emitted_packet_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Emitted Packet Ref"
+        }
+      },
+      "required": [
+        "decision",
+        "reason"
+      ],
+      "title": "DegradedResponseDecision",
+      "type": "object"
+    },
+    "SeverityLabel": {
+      "enum": [
+        "sev_0_clean",
+        "sev_1_taxonomy_reporting_only",
+        "sev_2_acceptable_but_weak",
+        "sev_3_audit_uncertain",
+        "sev_4_real_failure"
+      ],
+      "title": "SeverityLabel",
+      "type": "string"
+    },
+    "StageFailure": {
+      "additionalProperties": false,
+      "properties": {
+        "stage_id": {
+          "title": "Stage Id",
+          "type": "string"
+        },
+        "failure_class": {
+          "title": "Failure Class",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "severity": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SeverityLabel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "packet_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Packet Ref"
+        }
+      },
+      "required": [
+        "stage_id",
+        "failure_class",
+        "reason"
+      ],
+      "title": "StageFailure",
+      "type": "object"
+    },
+    "TraceHop": {
+      "additionalProperties": false,
+      "properties": {
+        "stage_id": {
+          "title": "Stage Id",
+          "type": "string"
+        },
+        "gate_id": {
+          "title": "Gate Id",
+          "type": "string"
+        },
+        "input_packet_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Input Packet Refs",
+          "type": "array"
+        },
+        "output_packet_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Output Packet Refs",
+          "type": "array"
+        },
+        "status": {
+          "title": "Status",
+          "type": "string"
+        },
+        "started_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Started At"
+        },
+        "completed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Completed At"
+        },
+        "stage_failure_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Stage Failure Ref"
+        },
+        "degraded_decision_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Degraded Decision Ref"
+        }
+      },
+      "required": [
+        "stage_id",
+        "gate_id",
+        "status"
+      ],
+      "title": "TraceHop",
+      "type": "object"
+    },
+    "FlowEnvelope": {
+      "additionalProperties": false,
+      "properties": {
+        "flow_id": {
+          "default": "flow:ask_v1",
+          "title": "Flow Id",
+          "type": "string"
+        },
+        "flow_version": {
+          "default": "1.1",
+          "title": "Flow Version",
+          "type": "string"
+        },
+        "run_id": {
+          "title": "Run Id",
+          "type": "string"
+        },
+        "stage_failures": {
+          "items": {
+            "$ref": "#/$defs/StageFailure"
+          },
+          "title": "Stage Failures",
+          "type": "array"
+        },
+        "degraded_response_decision": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DegradedResponseDecision"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "stage_timings": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Stage Timings",
+          "type": "object"
+        },
+        "trace_hops": {
+          "items": {
+            "$ref": "#/$defs/TraceHop"
+          },
+          "title": "Trace Hops",
+          "type": "array"
+        },
+        "packet_refs": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Packet Refs",
+          "type": "object"
+        },
+        "not_executed": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Not Executed",
+          "type": "array"
+        }
+      },
+      "required": [
+        "run_id"
+      ],
+      "title": "FlowEnvelope",
+      "type": "object"
+    },
+    "ConceptBinding": {
+      "additionalProperties": false,
+      "properties": {
+        "concept": {
+          "title": "Concept",
+          "type": "string"
+        },
+        "family": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Family"
+        },
+        "status": {
+          "$ref": "#/$defs/ConceptBindingStatus"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Required when status is integrated_from.",
+          "title": "Source"
+        },
+        "field_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Field Ref"
+        },
+        "owner": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Owner"
+        },
+        "claimability": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Claimability"
+        },
+        "cannot_claim": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Cannot Claim",
+          "type": "array"
+        }
+      },
+      "required": [
+        "concept",
+        "status"
+      ],
+      "title": "ConceptBinding",
+      "type": "object"
+    },
+    "ConceptBindingStatus": {
+      "enum": [
+        "retained_field",
+        "derived_field",
+        "integrated_from",
+        "known_external_not_ingested",
+        "unknown_concept"
+      ],
+      "title": "ConceptBindingStatus",
+      "type": "string"
+    },
+    "ContextFlags": {
+      "additionalProperties": false,
+      "properties": {
+        "requires_selected_item": {
+          "default": false,
+          "title": "Requires Selected Item",
+          "type": "boolean"
+        },
+        "follow_up_of": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Follow Up Of"
+        }
+      },
+      "title": "ContextFlags",
+      "type": "object"
+    },
+    "IntentFamily": {
+      "enum": [
+        "subject_answer",
+        "entity_profile",
+        "source_record_profile",
+        "patch_queue_query",
+        "external_context_need",
+        "board_meta",
+        "boundary_refusal",
+        "unknown"
+      ],
+      "title": "IntentFamily",
+      "type": "string"
+    },
+    "IntentPacket": {
+      "additionalProperties": false,
+      "properties": {
+        "intent_family": {
+          "$ref": "#/$defs/IntentFamily"
+        },
+        "subject_candidates": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Subject Candidates",
+          "type": "array"
+        },
+        "concept_bindings": {
+          "items": {
+            "$ref": "#/$defs/ConceptBinding"
+          },
+          "title": "Concept Bindings",
+          "type": "array"
+        },
+        "context_flags": {
+          "$ref": "#/$defs/ContextFlags"
+        },
+        "ambiguity_flags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Ambiguity Flags",
+          "type": "array"
+        },
+        "clarification_candidates": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Clarification Candidates",
+          "type": "array"
+        },
+        "confidence": {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "resolver_telemetry": {
+          "additionalProperties": true,
+          "title": "Resolver Telemetry",
+          "type": "object"
+        }
+      },
+      "required": [
+        "intent_family",
+        "confidence"
+      ],
+      "title": "IntentPacket",
+      "type": "object"
+    },
+    "AnswerContract": {
+      "additionalProperties": false,
+      "properties": {
+        "shape": {
+          "title": "Shape",
+          "type": "string"
+        },
+        "lens_default": {
+          "$ref": "#/$defs/Lens",
+          "default": "support"
+        },
+        "required_sections": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Sections",
+          "type": "array"
+        },
+        "citation_policy": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Citation Policy"
+        }
+      },
+      "required": [
+        "shape"
+      ],
+      "title": "AnswerContract",
+      "type": "object"
+    },
+    "DerivedFeature": {
+      "additionalProperties": false,
+      "properties": {
+        "feature_id": {
+          "title": "Feature Id",
+          "type": "string"
+        },
+        "source_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Fields",
+          "type": "array"
+        },
+        "derivation": {
+          "title": "Derivation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "feature_id",
+        "derivation"
+      ],
+      "title": "DerivedFeature",
+      "type": "object"
+    },
+    "Lens": {
+      "enum": [
+        "support",
+        "uncertainty",
+        "claimability",
+        "summary"
+      ],
+      "title": "Lens",
+      "type": "string"
+    },
+    "RetrievalGroup": {
+      "additionalProperties": false,
+      "properties": {
+        "group_id": {
+          "title": "Group Id",
+          "type": "string"
+        },
+        "source_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "args": {
+          "additionalProperties": true,
+          "title": "Args",
+          "type": "object"
+        },
+        "parallelizable": {
+          "default": true,
+          "title": "Parallelizable",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "group_id"
+      ],
+      "title": "RetrievalGroup",
+      "type": "object"
+    },
+    "RetrievalPlan": {
+      "additionalProperties": false,
+      "properties": {
+        "groups": {
+          "description": "Flat, parallelizable retrieval groups only; no nested plans.",
+          "items": {
+            "$ref": "#/$defs/RetrievalGroup"
+          },
+          "title": "Groups",
+          "type": "array"
+        }
+      },
+      "title": "RetrievalPlan",
+      "type": "object"
+    },
+    "RouteKind": {
+      "enum": [
+        "template_call",
+        "ui_help",
+        "gap",
+        "clarify",
+        "refuse"
+      ],
+      "title": "RouteKind",
+      "type": "string"
+    },
+    "RouteSelection": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "$ref": "#/$defs/RouteKind"
+        },
+        "gap_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gap Id"
+        },
+        "refusal_class": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Refusal Class"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "title": "RouteSelection",
+      "type": "object"
+    },
+    "SourceRef": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Type"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Title"
+        },
+        "uri": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Uri"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Observed At"
+        },
+        "as_of": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "As Of"
+        },
+        "owner": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Owner"
+        },
+        "claim_boundary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Claim Boundary"
+        }
+      },
+      "required": [
+        "source_id"
+      ],
+      "title": "SourceRef",
+      "type": "object"
+    },
+    "TemplateRef": {
+      "additionalProperties": false,
+      "properties": {
+        "template_id": {
+          "title": "Template Id",
+          "type": "string"
+        },
+        "version": {
+          "title": "Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "template_id",
+        "version"
+      ],
+      "title": "TemplateRef",
+      "type": "object"
+    },
+    "ExecutionContract": {
+      "additionalProperties": false,
+      "properties": {
+        "route": {
+          "$ref": "#/$defs/RouteSelection"
+        },
+        "template_ref": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TemplateRef"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "args": {
+          "additionalProperties": true,
+          "title": "Args",
+          "type": "object"
+        },
+        "required_sources": {
+          "description": "Declared on TemplateDeclaration; instantiated by G3.",
+          "items": {
+            "$ref": "#/$defs/SourceRef"
+          },
+          "title": "Required Sources",
+          "type": "array"
+        },
+        "retrieval_plan": {
+          "$ref": "#/$defs/RetrievalPlan",
+          "description": "Declared on TemplateDeclaration; G3 is a compiler, not a planner."
+        },
+        "derived_features": {
+          "items": {
+            "$ref": "#/$defs/DerivedFeature"
+          },
+          "title": "Derived Features",
+          "type": "array"
+        },
+        "answer_contract": {
+          "$ref": "#/$defs/AnswerContract"
+        }
+      },
+      "required": [
+        "route",
+        "answer_contract"
+      ],
+      "title": "ExecutionContract",
+      "type": "object"
+    },
+    "EvidenceFlags": {
+      "additionalProperties": false,
+      "properties": {
+        "no_data": {
+          "default": false,
+          "title": "No Data",
+          "type": "boolean"
+        },
+        "partial_result": {
+          "default": false,
+          "title": "Partial Result",
+          "type": "boolean"
+        },
+        "truncated": {
+          "default": false,
+          "title": "Truncated",
+          "type": "boolean"
+        }
+      },
+      "title": "EvidenceFlags",
+      "type": "object"
+    },
+    "EvidencePacket": {
+      "additionalProperties": false,
+      "properties": {
+        "facts": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Facts",
+          "type": "array"
+        },
+        "rows": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Rows",
+          "type": "array"
+        },
+        "series": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Series",
+          "type": "array"
+        },
+        "source_refs": {
+          "items": {
+            "$ref": "#/$defs/SourceRef"
+          },
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "lineage": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Lineage",
+          "type": "array"
+        },
+        "confidence": {
+          "default": 0.0,
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "gaps": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Gaps",
+          "type": "array"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        },
+        "flags": {
+          "$ref": "#/$defs/EvidenceFlags"
+        },
+        "not_executed": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Not Executed",
+          "type": "array"
+        }
+      },
+      "title": "EvidencePacket",
+      "type": "object"
+    },
+    "Abstain": {
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "reason"
+      ],
+      "title": "Abstain",
+      "type": "object"
+    },
+    "BindingFinding": {
+      "additionalProperties": false,
+      "properties": {
+        "concept": {
+          "title": "Concept",
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/ConceptBindingStatus"
+        },
+        "finding": {
+          "title": "Finding",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "concept",
+        "status",
+        "finding"
+      ],
+      "title": "BindingFinding",
+      "type": "object"
+    },
+    "CheckFinding": {
+      "additionalProperties": false,
+      "properties": {
+        "check": {
+          "$ref": "#/$defs/CheckKind"
+        },
+        "status": {
+          "title": "Status",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "check",
+        "status"
+      ],
+      "title": "CheckFinding",
+      "type": "object"
+    },
+    "CheckKind": {
+      "enum": [
+        "source_depth",
+        "freshness_staleness",
+        "candidate_inferred_link_confidence",
+        "proximity_vs_causality",
+        "contradiction",
+        "coverage_limits",
+        "binding_status"
+      ],
+      "title": "CheckKind",
+      "type": "string"
+    },
+    "CheckVerdict": {
+      "additionalProperties": false,
+      "properties": {
+        "verdict": {
+          "$ref": "#/$defs/CheckVerdictKind"
+        },
+        "claim": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Claim"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        },
+        "as_of": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "As Of"
+        }
+      },
+      "required": [
+        "verdict"
+      ],
+      "title": "CheckVerdict",
+      "type": "object"
+    },
+    "CheckVerdictKind": {
+      "enum": [
+        "sufficient",
+        "downgrade",
+        "insufficient_no_data",
+        "contradiction_flag",
+        "stale_flag",
+        "abstain_required"
+      ],
+      "title": "CheckVerdictKind",
+      "type": "string"
+    },
+    "ClaimDowngrade": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "title": "Claim",
+          "type": "string"
+        },
+        "downgraded_to": {
+          "title": "Downgraded To",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim",
+        "downgraded_to",
+        "reason"
+      ],
+      "title": "ClaimDowngrade",
+      "type": "object"
+    },
+    "Contradiction": {
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "reason"
+      ],
+      "title": "Contradiction",
+      "type": "object"
+    },
+    "CoverageNote": {
+      "additionalProperties": false,
+      "properties": {
+        "summary": {
+          "title": "Summary",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "as_of": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "As Of"
+        },
+        "coverage_status": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Coverage Status"
+        }
+      },
+      "required": [
+        "summary"
+      ],
+      "title": "CoverageNote",
+      "type": "object"
+    },
+    "StalenessFinding": {
+      "additionalProperties": false,
+      "properties": {
+        "as_of": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "As Of"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Refs",
+          "type": "array"
+        }
+      },
+      "required": [
+        "reason"
+      ],
+      "title": "StalenessFinding",
+      "type": "object"
+    },
+    "CheckReport": {
+      "additionalProperties": false,
+      "properties": {
+        "checks": {
+          "items": {
+            "$ref": "#/$defs/CheckFinding"
+          },
+          "title": "Checks",
+          "type": "array"
+        },
+        "verdicts": {
+          "items": {
+            "$ref": "#/$defs/CheckVerdict"
+          },
+          "title": "Verdicts",
+          "type": "array"
+        },
+        "claim_downgrades": {
+          "items": {
+            "$ref": "#/$defs/ClaimDowngrade"
+          },
+          "title": "Claim Downgrades",
+          "type": "array"
+        },
+        "abstains": {
+          "items": {
+            "$ref": "#/$defs/Abstain"
+          },
+          "title": "Abstains",
+          "type": "array"
+        },
+        "coverage_limits": {
+          "items": {
+            "$ref": "#/$defs/CoverageNote"
+          },
+          "title": "Coverage Limits",
+          "type": "array"
+        },
+        "contradictions": {
+          "items": {
+            "$ref": "#/$defs/Contradiction"
+          },
+          "title": "Contradictions",
+          "type": "array"
+        },
+        "staleness": {
+          "items": {
+            "$ref": "#/$defs/StalenessFinding"
+          },
+          "title": "Staleness",
+          "type": "array"
+        },
+        "binding_findings": {
+          "items": {
+            "$ref": "#/$defs/BindingFinding"
+          },
+          "title": "Binding Findings",
+          "type": "array"
+        },
+        "overall_claimability": {
+          "title": "Overall Claimability",
+          "type": "string"
+        }
+      },
+      "required": [
+        "overall_claimability"
+      ],
+      "title": "CheckReport",
+      "type": "object"
+    },
+    "CitationRef": {
+      "additionalProperties": false,
+      "properties": {
+        "citation_id": {
+          "title": "Citation Id",
+          "type": "string"
+        },
+        "source_ref": {
+          "title": "Source Ref",
+          "type": "string"
+        },
+        "evidence_refs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Refs",
+          "type": "array"
+        },
+        "label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Label"
+        }
+      },
+      "required": [
+        "citation_id",
+        "source_ref"
+      ],
+      "title": "CitationRef",
+      "type": "object"
+    },
+    "AnswerPacket": {
+      "additionalProperties": false,
+      "properties": {
+        "knowns": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Knowns",
+          "type": "array"
+        },
+        "unknowns": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unknowns",
+          "type": "array"
+        },
+        "cannot_claim": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Cannot Claim",
+          "type": "array"
+        },
+        "citations": {
+          "items": {
+            "$ref": "#/$defs/CitationRef"
+          },
+          "title": "Citations",
+          "type": "array"
+        },
+        "coverage_note": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/CoverageNote"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "check_report_ref": {
+          "minLength": 1,
+          "title": "Check Report Ref",
+          "type": "string"
+        },
+        "lens": {
+          "$ref": "#/$defs/Lens",
+          "default": "support"
+        },
+        "safe_next_looks": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Safe Next Looks",
+          "type": "array"
+        },
+        "not_executed": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Not Executed",
+          "type": "array"
+        }
+      },
+      "required": [
+        "check_report_ref"
+      ],
+      "title": "AnswerPacket",
+      "type": "object"
+    },
+    "ClarificationPacket": {
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "title": "Question",
+          "type": "string"
+        },
+        "target_field": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Field"
+        },
+        "candidates": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidates",
+          "type": "array"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        },
+        "asked_once": {
+          "default": true,
+          "title": "Asked Once",
+          "type": "boolean"
+        },
+        "not_executed": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Not Executed",
+          "type": "array"
+        }
+      },
+      "required": [
+        "question"
+      ],
+      "title": "ClarificationPacket",
+      "type": "object"
+    },
+    "TemplateDeclaration": {
+      "additionalProperties": false,
+      "properties": {
+        "template_id": {
+          "title": "Template Id",
+          "type": "string"
+        },
+        "version": {
+          "title": "Version",
+          "type": "string"
+        },
+        "intent_families": {
+          "items": {
+            "$ref": "#/$defs/IntentFamily"
+          },
+          "title": "Intent Families",
+          "type": "array"
+        },
+        "required_args": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Args",
+          "type": "array"
+        },
+        "required_sources": {
+          "items": {
+            "$ref": "#/$defs/SourceRef"
+          },
+          "title": "Required Sources",
+          "type": "array"
+        },
+        "retrieval_plan": {
+          "$ref": "#/$defs/RetrievalPlan"
+        },
+        "derived_features": {
+          "items": {
+            "$ref": "#/$defs/DerivedFeature"
+          },
+          "title": "Derived Features",
+          "type": "array"
+        },
+        "answer_contract": {
+          "$ref": "#/$defs/AnswerContract"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "G3 instantiates registry-declared template plans only. G3 does not invent retrieval plans.",
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "template_id",
+        "version",
+        "answer_contract"
+      ],
+      "title": "TemplateDeclaration",
+      "type": "object"
+    },
+    "EvidenceRef": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "source_ref": {
+          "title": "Source Ref",
+          "type": "string"
+        },
+        "locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Locator"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "source_ref"
+      ],
+      "title": "EvidenceRef",
+      "type": "object"
+    }
+  }
+}

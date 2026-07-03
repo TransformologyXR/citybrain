@@ -1,0 +1,61 @@
+{
+  "package": "ASK-V11-CLOSEOUT-AND-FREEZE",
+  "status": "PASS",
+  "final_decision": "PASS_ASK_V11_CANONICAL_IMPLEMENTATION_SPRINT",
+  "generated_at": "2026-07-03",
+  "package_status": {
+    "P0_packets_envelope": "PASS",
+    "P1_registries_templates": "PASS",
+    "P2_g1_g5_execution_spine": "PASS",
+    "P3_g6_g8_check_answer_render": "PASS",
+    "P4_eval_sealing_skeleton_flows": "PASS"
+  },
+  "implemented_capability": [
+    "ASK Flow v1.1 fixture/local implementation",
+    "packet discipline",
+    "concept-binding registry seed",
+    "template registry",
+    "deterministic G1-G5 execution spine",
+    "deterministic G6 CHECK engine",
+    "deterministic G7 answer assembly",
+    "deterministic G8 renderer and validator",
+    "sealed eval runner",
+    "future-flow skeleton descriptors"
+  ],
+  "sealed_eval": {
+    "final_decision": "PASS_ASK_V11_SEALED_EVAL",
+    "total_cases": 21,
+    "pass_count": 21,
+    "fail_count": 0,
+    "severity_counts": {
+      "sev_0_clean": 20,
+      "sev_1_taxonomy_reporting_only": 0,
+      "sev_2_acceptable_but_weak": 1,
+      "sev_3_audit_uncertain": 0,
+      "sev_4_real_failure": 0
+    },
+    "family_counts_summary": "18 families covered",
+    "boundary_action_sev4_count": 0,
+    "future_flow_runtime_violation_count": 0,
+    "raw_query_leak_count": 0,
+    "official_action_claim_count": 0
+  },
+  "contract_invariants_verified": {
+    "raw_query_only_at_run_boundary_g1_g2": true,
+    "downstream_packets_reject_raw_query": true,
+    "g1_guardrail_only": true,
+    "meta_product_questions_not_boundary_refusals": true,
+    "imperative_external_actions_stop_before_g5": true,
+    "g3_compiler_not_planner": true,
+    "registry_owned_retrieval_plan_cannot_be_runtime_overridden": true,
+    "g5_fixture_only_retrieval": true,
+    "g6_check_is_claimability_engine": true,
+    "answer_packet_requires_check_report": true,
+    "renderer_cannot_un_downgrade": true,
+    "unsafe_render_proposals_degrade": true,
+    "no_data_is_first_class": true,
+    "severity_0_4_eval_implemented": true,
+    "future_flow_runtime_violation_count_zero": true
+  },
+  "next_recommended_package": "ASK-V11-REPO-COMMIT-AND-PR-PREP"
+}
