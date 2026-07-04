@@ -1,0 +1,20 @@
+{
+  "action_proposal_execution_status_not_executed": true,
+  "ask_runtime_invoked": false,
+  "boundary": "local/replay WebUI and Kit smoke only; marker/context handoff, no live Kit control, no official submission, and no ASK runtime invocation",
+  "candidate_only_preserved": true,
+  "case_ticket_remains_draft_sandbox_only": true,
+  "failures": [],
+  "kit_export_created": true,
+  "local_replay_smoke_only": true,
+  "no_dispatch_control_enforcement_execution": true,
+  "no_full_citywide_twin_live_kit_control_claim": true,
+  "no_legal_certified_claim": true,
+  "no_live_retrieval_production_api_url_fetch_llm_call": true,
+  "no_official_submission_execution": true,
+  "review_required_preserved": true,
+  "status": "PASS",
+  "submission_status_draft_not_submitted": true,
+  "webui_export_created": true,
+  "webui_kit_one_truth_parity_checked": true
+}

@@ -1,0 +1,19 @@
+{
+  "additional_boundary": "local/replay preflight only; not_executed by default",
+  "required": [
+    "draft_id",
+    "draft_type",
+    "linked_candidate_observation_id",
+    "subject_entity_id",
+    "proposed_summary",
+    "evidence_refs",
+    "limitations",
+    "cannot_claim",
+    "reviewer_note",
+    "submission_status",
+    "submission_adapter",
+    "no_action_state"
+  ],
+  "schema_version": "citybrain.r7.draft_case_ticket.schema.v1",
+  "type": "object"
+}

@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "candidate_observation_id": "candidate:r7a:obs:accepted-001",
+      "cannot_claim": [
+        "official violation",
+        "legal or certified finding",
+        "identity of a natural person",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "candidate observation only; not an official fact, finding, violation, case, ticket, dispatch, control, or enforcement action",
+      "confidence": 0.82,
+      "detected_class": "person_like_shape",
+      "detector_kind": "deterministic_fixture_detector",
+      "detector_version": "r7a-local-1.0",
+      "evidence_refs": [
+        "source:r7a:replay-west-gate-001",
+        "frame:r7a:west-gate-local-replay-clip:000420"
+      ],
+      "frame_ref": "frame:r7a:west-gate-local-replay-clip:000420",
+      "geometry_ref": "geometry:r7a:demo-west-gate-zone",
+      "location_ref": "location:r7a:demo-west-gate",
+      "media_ref": "media:r7a:west-gate-local-replay-clip",
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "object_class": "person_like_shape",
+      "observation_type": "person_vehicle_proximity_candidate",
+      "observed_at": "2026-07-04T11:10:00Z",
+      "packet_hash": "fa1a11615b93fd07193aed4d1417a6ed3c26f7c1a1faa3ed2710fa7a11be06d7",
+      "review_state": "candidate",
+      "source_id": "source:r7a:replay-west-gate-001",
+      "source_kind": "replay_fixture",
+      "source_label": "R7A local replay west gate fixture",
+      "track_ref": "track:r7a:local-0001",
+      "zone_ref": "zone:r7a:demo-review-zone-a"
+    },
+    {
+      "candidate_observation_id": "candidate:r7a:obs:unresolved-location-001",
+      "cannot_claim": [
+        "official violation",
+        "legal or certified finding",
+        "identity of a natural person",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "candidate observation only; not an official fact, finding, violation, case, ticket, dispatch, control, or enforcement action",
+      "confidence": 0.64,
+      "detected_class": "vehicle_like_shape",
+      "detector_kind": "deterministic_fixture_detector",
+      "detector_version": "r7a-local-1.0",
+      "evidence_refs": [
+        "source:r7a:sample-clip-002",
+        "frame:r7a:sample-clip-002:000090"
+      ],
+      "frame_ref": "frame:r7a:sample-clip-002:000090",
+      "geometry_ref": null,
+      "location_ref": null,
+      "media_ref": "media:r7a:sample-clip-002",
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "object_class": "vehicle_like_shape",
+      "observation_type": "zone_presence_candidate",
+      "observed_at": "2026-07-04T11:10:00Z",
+      "packet_hash": "2c1e59389c710c64b834128a9cdaf94015b3ff35fcf4c599b94e48b866b536bf",
+      "review_state": "candidate",
+      "source_id": "source:r7a:sample-clip-002",
+      "source_kind": "sample_clip",
+      "source_label": "R7A local replay west gate fixture",
+      "track_ref": "track:r7a:local-0002",
+      "zone_ref": "zone:r7a:ambiguous-zone"
+    },
+    {
+      "candidate_observation_id": "candidate:r7a:obs:unresolved-low-confidence-001",
+      "cannot_claim": [
+        "official violation",
+        "legal or certified finding",
+        "identity of a natural person",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "candidate observation only; not an official fact, finding, violation, case, ticket, dispatch, control, or enforcement action",
+      "confidence": 0.39,
+      "detected_class": "unknown_object_candidate",
+      "detector_kind": "deterministic_fixture_detector",
+      "detector_version": "r7a-local-1.0",
+      "evidence_refs": [
+        "source:r7a:manual-test-003",
+        "frame:r7a:manual-test-003:000015"
+      ],
+      "frame_ref": "frame:r7a:manual-test-003:000015",
+      "geometry_ref": "geometry:r7a:demo-loading-bay",
+      "location_ref": "location:r7a:demo-loading-bay",
+      "media_ref": "media:r7a:manual-test-003",
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "object_class": "unknown_object_candidate",
+      "observation_type": "object_presence_candidate",
+      "observed_at": "2026-07-04T11:10:00Z",
+      "packet_hash": "cde677368727a4874d933cf05966d80639493a80c5c1359957985d131444dea0",
+      "review_state": "candidate",
+      "source_id": "source:r7a:manual-test-003",
+      "source_kind": "manual_test_fixture",
+      "source_label": "R7A local replay west gate fixture",
+      "track_ref": null,
+      "zone_ref": "zone:r7a:demo-loading-bay"
+    },
+    {
+      "candidate_observation_id": "",
+      "cannot_claim": [
+        "official violation",
+        "legal or certified finding",
+        "identity of a natural person",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "candidate observation only; not an official fact, finding, violation, case, ticket, dispatch, control, or enforcement action",
+      "confidence": 0.71,
+      "detected_class": "camera_obstruction_candidate",
+      "detector_kind": "deterministic_fixture_detector",
+      "detector_version": "r7a-local-1.0",
+      "evidence_refs": [
+        "source:r7a:synthetic-invalid-004"
+      ],
+      "frame_ref": "frame:r7a:synthetic-invalid-004:000001",
+      "geometry_ref": "geometry:r7a:demo-yard",
+      "location_ref": "location:r7a:demo-yard",
+      "media_ref": "media:r7a:synthetic-invalid-004",
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "object_class": "camera_obstruction_candidate",
+      "observation_type": "camera_health_candidate",
+      "observed_at": "2026-07-04T11:10:00Z",
+      "packet_hash": "1eeb6358075a5c81e40ec31f100b8c2152a36cb1a17ce91dce0290ebdb09c005",
+      "review_state": "candidate",
+      "source_id": "source:r7a:synthetic-invalid-004",
+      "source_kind": "synthetic_event",
+      "source_label": "R7A local replay west gate fixture",
+      "track_ref": null,
+      "zone_ref": "zone:r7a:demo-yard"
+    },
+    {
+      "candidate_observation_id": "candidate:r7a:obs:quarantine-live-claim-001",
+      "cannot_claim": [
+        "official violation",
+        "legal or certified finding",
+        "identity of a natural person",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "official_violation certified_detection live_camera production_camera legal_non_compliance",
+      "confidence": 0.93,
+      "detected_class": "certified_detection",
+      "detector_kind": "deterministic_fixture_detector",
+      "detector_version": "r7a-local-1.0",
+      "evidence_refs": [
+        "source:r7a:live-production-claim-005"
+      ],
+      "frame_ref": "frame:r7a:blocked-live-source:000001",
+      "geometry_ref": "geometry:r7a:blocked",
+      "location_ref": "location:r7a:blocked",
+      "media_ref": "media:r7a:blocked-live-source",
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "object_class": "certified_detection",
+      "observation_type": "official_violation",
+      "observed_at": "2026-07-04T11:10:00Z",
+      "packet_hash": "44cc71d678e0cb92f2e98ed5340350c045a79ad46532a3c5384eb8c5d78bf07e",
+      "review_state": "candidate",
+      "source_id": "source:r7a:live-production-claim-005",
+      "source_kind": "live_camera",
+      "source_label": "Rejected live production source claim fixture",
+      "track_ref": "track:r7a:blocked-0005",
+      "zone_ref": "zone:r7a:blocked"
+    }
+  ]
+}

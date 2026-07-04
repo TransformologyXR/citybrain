@@ -1,0 +1,42 @@
+{
+  "abstains": [
+    {
+      "claim": "confirmed legal/certified violation",
+      "reason": "No legal/certified source is present and R7 preflight cannot make official findings."
+    }
+  ],
+  "cannot_claim": [
+    "confirmed violation",
+    "dispatch/control/enforcement execution",
+    "identity of a natural person",
+    "legal or certified finding",
+    "official case/ticket creation"
+  ],
+  "checks": [
+    {
+      "check": "candidate_not_truth",
+      "reason": "Perception output remains candidate observation and event truth is candidate_not_confirmed.",
+      "status": "PASS"
+    },
+    {
+      "check": "source_provenance",
+      "reason": "Source, media, frame, clip, zone, and evidence refs are present.",
+      "status": "PASS"
+    },
+    {
+      "check": "official_action_boundary",
+      "reason": "No submission, dispatch, control, enforcement, legal, certified, identity, or autonomous claim is made.",
+      "status": "PASS"
+    }
+  ],
+  "downgrades": [
+    {
+      "claim": "perception confirmed an actionable city finding",
+      "downgraded_to": "candidate observation requiring human review",
+      "reason": "Fixture/replay perception has no official source truth or human promotion."
+    }
+  ],
+  "overall_claimability": "candidate_only_review_required",
+  "schema_version": "citybrain-r7-check-claimability.v1",
+  "status": "PASS"
+}

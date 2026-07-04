@@ -1,0 +1,13 @@
+{
+  "boundary": "local/replay event fabric only; event log is append-only fixture output; candidate observations remain candidate-only and not official; draft cases remain draft_not_submitted; action proposals remain not_executed",
+  "candidate_only_preserved": true,
+  "execution_status_not_executed": true,
+  "failures": [],
+  "live_retrieval_performed": false,
+  "llm_call_performed": false,
+  "official_status_not_official": true,
+  "production_api_called": false,
+  "status": "PASS",
+  "submission_status_safe": true,
+  "url_fetch_performed": false
+}

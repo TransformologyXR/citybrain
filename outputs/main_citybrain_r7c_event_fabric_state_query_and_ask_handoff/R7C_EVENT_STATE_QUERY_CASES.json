@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "case_id": "r7c-query-active-review-events",
+      "example_user_text": "Show active review events.",
+      "input": {},
+      "query_family": "active_review_events"
+    },
+    {
+      "case_id": "r7c-query-unresolved",
+      "example_user_text": "Which observations still need source context?",
+      "input": {},
+      "query_family": "unresolved_observations"
+    },
+    {
+      "case_id": "r7c-query-quarantined",
+      "example_user_text": "Show quarantined observations.",
+      "input": {},
+      "query_family": "quarantined_observations"
+    },
+    {
+      "case_id": "r7c-query-trace",
+      "example_user_text": "Show trace for the review event.",
+      "input": {
+        "event_id": "r7b:event:review-created:0001"
+      },
+      "query_family": "event_trace_by_id"
+    },
+    {
+      "case_id": "r7c-query-candidate-context",
+      "example_user_text": "What context exists for this candidate?",
+      "input": {
+        "candidate_observation_id": "candidate:r7a:obs:accepted-001"
+      },
+      "query_family": "candidate_observation_context"
+    },
+    {
+      "case_id": "r7c-query-not-executed",
+      "example_user_text": "What actions were not executed?",
+      "input": {},
+      "query_family": "not_executed_actions"
+    },
+    {
+      "case_id": "r7c-query-sandbox-drafts",
+      "example_user_text": "Show sandbox draft cases.",
+      "input": {},
+      "query_family": "sandbox_draft_cases"
+    },
+    {
+      "case_id": "r7c-query-overlays",
+      "example_user_text": "Show WebUI and Kit overlay context.",
+      "input": {},
+      "query_family": "webui_kit_overlay_context"
+    }
+  ]
+}

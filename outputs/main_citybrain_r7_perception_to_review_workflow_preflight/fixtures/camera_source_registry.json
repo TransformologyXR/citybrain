@@ -1,0 +1,33 @@
+{
+  "media": [
+    {
+      "clip_ref": "clip:r7:demo-west-gate-clip-001",
+      "media_ref": "media:r7:demo-west-gate-clip-001",
+      "observed_at": "2026-07-04T10:00:00Z",
+      "retention_class": "demo_replay_only",
+      "storage": "local_fixture_reference"
+    }
+  ],
+  "schema_version": "citybrain-r7-source-registry-fixture.v1",
+  "sources": [
+    {
+      "camera_or_sensor_id": "camera:r7:demo-west-gate-001",
+      "cannot_claim": [
+        "live monitoring",
+        "official camera source truth",
+        "identity recognition",
+        "legal or certified violation finding",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "local/replay candidate observation context only",
+      "clip_ref": "clip:r7:demo-west-gate-clip-001",
+      "frame_ref": "frame:r7:demo-west-gate-clip-001:000420",
+      "media_ref": "media:r7:demo-west-gate-clip-001",
+      "owner": "CityBrain local fixture",
+      "source_ref_id": "source:r7:local-replay-camera-001",
+      "source_system": "local_replay_perception_fixture",
+      "source_type": "replay_video_fixture",
+      "zone_ref": "zone:r7:demo-review-zone-a"
+    }
+  ]
+}

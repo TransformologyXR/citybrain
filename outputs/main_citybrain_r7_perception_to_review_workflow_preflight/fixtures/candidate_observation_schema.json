@@ -1,0 +1,23 @@
+{
+  "additional_boundary": "local/replay preflight only; not_executed by default",
+  "required": [
+    "candidate_observation_id",
+    "source_system",
+    "source_type",
+    "camera_or_sensor_id",
+    "media_ref",
+    "timestamp",
+    "location_ref",
+    "detected_classes",
+    "confidence",
+    "zone_ref",
+    "evidence_refs",
+    "limitation_refs",
+    "review_state",
+    "no_action_state",
+    "cannot_claim",
+    "packet_hash"
+  ],
+  "schema_version": "citybrain.r7.candidate_observation.schema.v1",
+  "type": "object"
+}

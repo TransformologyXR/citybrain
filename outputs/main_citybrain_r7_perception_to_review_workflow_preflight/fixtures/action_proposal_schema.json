@@ -1,0 +1,18 @@
+{
+  "additional_boundary": "local/replay preflight only; not_executed by default",
+  "required": [
+    "proposal_id",
+    "proposal_type",
+    "linked_draft_id",
+    "allowed_action_type",
+    "proposed_by",
+    "approval_required",
+    "approval_state",
+    "execution_status",
+    "prohibited_autonomy_audit",
+    "rollback_or_cancel_note",
+    "audit_hash"
+  ],
+  "schema_version": "citybrain.r7.action_proposal.schema.v1",
+  "type": "object"
+}

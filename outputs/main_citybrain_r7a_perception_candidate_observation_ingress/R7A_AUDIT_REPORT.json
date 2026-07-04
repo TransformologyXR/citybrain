@@ -1,0 +1,20 @@
+{
+  "accepted_review_events": 1,
+  "action_proposal_not_executed": true,
+  "ask_runtime_changed": false,
+  "boundary": "local/replay candidate-observation ingress only; perception remains candidate observation; invalid observations quarantine; unresolved observations preserve; no official submission, dispatch, control, enforcement, legal/certified claim, live retrieval, production API, or LLM call",
+  "candidate_observations_total": 5,
+  "draft_case_ticket_sandbox_only": true,
+  "invalid_observations_quarantined": true,
+  "kit_exports": 3,
+  "live_retrieval_performed": false,
+  "llm_call_performed": false,
+  "perception_remains_candidate_observation": true,
+  "production_api_called": false,
+  "quarantined_observations": 2,
+  "reviewer_note_required_for_draft": true,
+  "status": "PASS",
+  "unresolved_observations": 2,
+  "unresolved_observations_preserved": true,
+  "webui_exports": 3
+}

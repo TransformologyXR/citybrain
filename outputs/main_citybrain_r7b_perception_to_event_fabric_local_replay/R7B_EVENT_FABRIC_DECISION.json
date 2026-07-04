@@ -1,0 +1,49 @@
+{
+  "contract_check": {
+    "action_proposal_execution_status_not_executed": true,
+    "ask_runtime_untouched": true,
+    "candidate_only_preserved": true,
+    "case_ticket_is_draft_sandbox_only": true,
+    "event_replay_deterministic": true,
+    "local_replay_event_fabric_only": true,
+    "materialized_state_created": true,
+    "no_dispatch_control_enforcement_execution": true,
+    "no_legal_certified_claim": true,
+    "no_live_retrieval_production_api_llm_call": true,
+    "no_official_submission_execution": true,
+    "quarantined_observations_preserved": true,
+    "submission_status_draft_not_submitted": true,
+    "unresolved_observations_preserved": true
+  },
+  "created_at": "2026-07-04T17:31:00Z",
+  "hash_manifest": {
+    "item_count": 10,
+    "mismatch_count": 0,
+    "missing_count": 0,
+    "status": "PASS"
+  },
+  "limitations": [
+    "local/replay event fabric only",
+    "event log is deterministic fixture output, not production ingestion",
+    "candidate observations and review events are not official facts",
+    "unresolved and quarantined records are preserved, not promoted",
+    "sandbox draft case event is draft_not_submitted",
+    "action proposal event remains not_executed",
+    "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+  ],
+  "next_recommended_package": "MAIN-CITYBRAIN-R7C-EVENT-FABRIC-STATE-QUERY-AND-ASK-HANDOFF",
+  "package": "MAIN-CITYBRAIN-R7B-PERCEPTION-TO-EVENT-FABRIC-LOCAL-REPLAY",
+  "result_counts": {
+    "active_review_events": 1,
+    "event_log_entries": 8,
+    "kit_event_overlays": 6,
+    "not_executed_action_proposals": 1,
+    "quarantined_observations": 2,
+    "replayed_events": 8,
+    "sandbox_draft_cases": 1,
+    "unresolved_observations": 2,
+    "webui_event_overlays": 6
+  },
+  "source_r7a_decision": "outputs/main_citybrain_r7a_perception_candidate_observation_ingress/R7A_CANDIDATE_OBSERVATION_INGRESS_DECISION.json",
+  "status": "PASS_MAIN_CITYBRAIN_R7B_PERCEPTION_TO_EVENT_FABRIC_LOCAL_REPLAY_WITH_LIMITATIONS"
+}

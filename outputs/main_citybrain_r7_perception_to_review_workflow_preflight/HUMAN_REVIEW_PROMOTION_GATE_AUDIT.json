@@ -1,0 +1,14 @@
+{
+  "allowed_review_states": [
+    "candidate",
+    "hold",
+    "needs_source",
+    "rejected",
+    "reviewed_candidate",
+    "promote_to_draft"
+  ],
+  "lane_status": "PASS_R7B_HUMAN_REVIEW_PROMOTION_GATE_WITH_LIMITATIONS",
+  "promotion_requires_reviewer_note": true,
+  "review_promotion_errors": [],
+  "status": "PASS"
+}

@@ -1,0 +1,25 @@
+{
+  "active_review_events": [
+    "r7b:event:review-created:0001"
+  ],
+  "events_for_accepted_candidate": [
+    "r7b:event:accepted:0001",
+    "r7b:event:review-created:0001",
+    "r7b:event:sandbox-draft-case:0001",
+    "r7b:event:action-proposal:0001"
+  ],
+  "events_for_demo_entity": [],
+  "quarantined_observations": [
+    "missing_candidate_observation_id",
+    "candidate:r7a:obs:quarantine-live-claim-001"
+  ],
+  "trace_for_review_event": [
+    "R7A:ingress_validate",
+    "R7A:classification_accepted",
+    "R7A:review_event_export"
+  ],
+  "unresolved_observations": [
+    "candidate:r7a:obs:unresolved-location-001",
+    "candidate:r7a:obs:unresolved-low-confidence-001"
+  ]
+}

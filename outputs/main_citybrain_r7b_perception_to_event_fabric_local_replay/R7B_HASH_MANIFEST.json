@@ -1,0 +1,59 @@
+{
+  "item_count": 10,
+  "items": [
+    {
+      "bytes": 569,
+      "path": "R7B_BOUNDARY_AUDIT.json",
+      "sha256": "5271cb21cb3b43cde66e972a79a3ccf766df88a80d46ac170ea1ab4049b8cfe3"
+    },
+    {
+      "bytes": 2119,
+      "path": "R7B_EVENT_FABRIC_DECISION.json",
+      "sha256": "589d8d58fc71022183cd17771bcaac88982b4602950aedcebe17b8c75e7543e2"
+    },
+    {
+      "bytes": 711,
+      "path": "R7B_EVENT_STATE_QUERY_FIXTURES.json",
+      "sha256": "a5d7cf9f5bbe2867fbf88af7d79c0feac0d60ff04403666b5fa1be5362f2b8d6"
+    },
+    {
+      "bytes": 7714,
+      "path": "R7B_KIT_EVENT_OVERLAY_EXPORT.json",
+      "sha256": "19dff4e19d0fc95468b508a2469521cd38adb4be069efd650fa493f243f77b00"
+    },
+    {
+      "bytes": 493,
+      "path": "R7B_LIMITATIONS.md",
+      "sha256": "a659a21d9f5a31a05e681d2e2162a3e355f080d4ff11b8c992c24ca0d141932e"
+    },
+    {
+      "bytes": 19030,
+      "path": "R7B_LOCAL_EVENT_LOG.jsonl",
+      "sha256": "f3fc3c1c7fc9c4d21c5e99a2e6412d6386adf72cbe03e9e6b1943fdde4cb25ef"
+    },
+    {
+      "bytes": 20859,
+      "path": "R7B_MATERIALIZED_REVIEW_STATE.json",
+      "sha256": "40cbf72c96b688e2bf28ef18a53cf87701e059743463b5fe62682c7ca9ae51c3"
+    },
+    {
+      "bytes": 3505,
+      "path": "R7B_REPLAY_REPORT.json",
+      "sha256": "1d3cc998fab270dfae0394399df593ff817571fb9e6568047f9a8a16a4f294bf"
+    },
+    {
+      "bytes": 176,
+      "path": "R7B_TEST_LOG.md",
+      "sha256": "f64a92cecaea647fe5faaa5aa40c7c4af48f33afb768fa21a08a301fb497de0e"
+    },
+    {
+      "bytes": 7738,
+      "path": "R7B_WEBUI_EVENT_OVERLAY_EXPORT.json",
+      "sha256": "ef9bf5c3cbe27562bf8a979effb63f38da9eb7621647e75ece2816324c357ffd"
+    }
+  ],
+  "mismatch_count": 0,
+  "missing_count": 0,
+  "schema_version": "citybrain-r7b-hash-manifest.v1",
+  "status": "PASS"
+}

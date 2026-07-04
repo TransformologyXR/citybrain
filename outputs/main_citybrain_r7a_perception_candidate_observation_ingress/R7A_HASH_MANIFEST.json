@@ -1,0 +1,59 @@
+{
+  "item_count": 10,
+  "items": [
+    {
+      "bytes": 1488,
+      "path": "R7A_ACCEPTED_REVIEW_EVENTS.json",
+      "sha256": "1c5a1e93a7c921c0dc5153b794bf64fa0c6b90cc1ae807050c324dfa52a63e7a"
+    },
+    {
+      "bytes": 917,
+      "path": "R7A_AUDIT_REPORT.json",
+      "sha256": "e24f4cbd50bb6912ca98a4d71e6a0f8bcc15ec5dde6f4fca2e617079a7ffefa2"
+    },
+    {
+      "bytes": 8399,
+      "path": "R7A_CANDIDATE_OBSERVATION_FIXTURES.json",
+      "sha256": "b7d8f4ec2c9356af6ecde4f76cb15210e707f7d6917c8b37495d6d04167fcdc3"
+    },
+    {
+      "bytes": 3420,
+      "path": "R7A_CANDIDATE_OBSERVATION_INGRESS_DECISION.json",
+      "sha256": "23af6f702c3da4d43121df90f778f569a0f3623d8328e17cdc08ab9a5ab19f23"
+    },
+    {
+      "bytes": 2869,
+      "path": "R7A_KIT_REVIEW_EXPORT.json",
+      "sha256": "21455700e4cb99ee4fdacc237cbf3286ae73b02b5707da48f355a34d82fcdfa8"
+    },
+    {
+      "bytes": 363,
+      "path": "R7A_LIMITATIONS.md",
+      "sha256": "6f7d6dfe337a1592859a1cb7619ceca7957a5f87f985cc68af692d781a396f1b"
+    },
+    {
+      "bytes": 1712,
+      "path": "R7A_QUARANTINED_OBSERVATIONS.json",
+      "sha256": "5637585d6df7d033cd44cb6a203f993adb41fc7bfb6f88c2adb7a2908fef943b"
+    },
+    {
+      "bytes": 177,
+      "path": "R7A_TEST_LOG.md",
+      "sha256": "370baaf6deff0992ab8e016a0a08fe4920f2f013f1d2da729f5dcd2fd7e7a229"
+    },
+    {
+      "bytes": 2087,
+      "path": "R7A_UNRESOLVED_OBSERVATIONS.json",
+      "sha256": "86b2b20d61ec20c61e36bba77336895ba2c627edc59fc863a1ce374bbeb55692"
+    },
+    {
+      "bytes": 2875,
+      "path": "R7A_WEBUI_REVIEW_EXPORT.json",
+      "sha256": "2df02c6ef9d007cb0e1db207cd238eb869ad343a8b1dc166d5cefa40e5f5dc65"
+    }
+  ],
+  "mismatch_count": 0,
+  "missing_count": 0,
+  "schema_version": "citybrain-r7a-hash-manifest.v1",
+  "status": "PASS"
+}

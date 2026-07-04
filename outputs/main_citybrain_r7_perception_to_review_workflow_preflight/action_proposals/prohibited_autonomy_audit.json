@@ -1,0 +1,8 @@
+{
+  "autonomous_dispatch": false,
+  "enforcement": false,
+  "legal_or_certified_finding": false,
+  "llm_decision": false,
+  "official_submission": false,
+  "traffic_control": false
+}

@@ -1,0 +1,220 @@
+{
+  "items": [
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-active-review-events",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "active_review_events",
+      "result_count": 1,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-unresolved",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "unresolved_observations",
+      "result_count": 2,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-quarantined",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "quarantined_observations",
+      "result_count": 2,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-trace",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "event_trace_by_id",
+      "result_count": 1,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-candidate-context",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "candidate_observation_context",
+      "result_count": 4,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-not-executed",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "not_executed_actions",
+      "result_count": 1,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-sandbox-drafts",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "sandbox_draft_cases",
+      "result_count": 1,
+      "review_required": true,
+      "submission_status": "draft_not_submitted",
+      "surface": "webui"
+    },
+    {
+      "candidate_only": true,
+      "cannot_claim": [
+        "Cannot claim official violation.",
+        "Cannot claim live camera or production monitoring.",
+        "Cannot claim official case/ticket submission.",
+        "Cannot claim dispatch/control/enforcement action.",
+        "Cannot claim legal/certified finding.",
+        "Candidate observation requires human review."
+      ],
+      "context_id": "webui:r7c-query-overlays",
+      "execution_status": "not_executed",
+      "limitation_refs": [
+        "local/replay query only",
+        "ASK handoff outputs are fixture/evidence-shaped DTOs only",
+        "candidate observations remain review inputs, not official facts",
+        "sandbox draft cases remain draft_not_submitted",
+        "action proposals remain not_executed",
+        "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+      ],
+      "official_status": "not_official",
+      "query_family": "webui_kit_overlay_context",
+      "result_count": 12,
+      "review_required": true,
+      "submission_status": "not_applicable",
+      "surface": "webui"
+    }
+  ]
+}

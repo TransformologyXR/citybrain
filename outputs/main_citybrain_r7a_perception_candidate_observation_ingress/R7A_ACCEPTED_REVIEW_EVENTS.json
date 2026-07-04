@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "candidate_observation_id": "candidate:r7a:obs:accepted-001",
+      "candidate_only": true,
+      "cannot_claim": [
+        "official violation",
+        "legal or certified finding",
+        "identity of a natural person",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "claim_boundary": "candidate observation only; not an official fact, finding, violation, case, ticket, dispatch, control, or enforcement action",
+      "confidence": 0.82,
+      "event_kind": "candidate_observation_review_event",
+      "event_truth_status": "candidate_not_confirmed",
+      "evidence_refs": [
+        "source:r7a:replay-west-gate-001",
+        "frame:r7a:west-gate-local-replay-clip:000420"
+      ],
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "official_status": "not_official",
+      "packet_hash": "f8094c4d5b032612ef2a2ddad998ee360e93c2657226aecfa187b78e1a1b125c",
+      "review_event_id": "review-event:accepted-001",
+      "review_required": true,
+      "review_state": "candidate",
+      "source_id": "source:r7a:replay-west-gate-001",
+      "source_kind": "replay_fixture",
+      "trace": [
+        "R7A:ingress_validate",
+        "R7A:classification_accepted",
+        "R7A:review_event_export"
+      ]
+    }
+  ]
+}

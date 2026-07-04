@@ -1,0 +1,6 @@
+{
+  "candidate_observation_count": 1,
+  "lane_status": "PASS_R7A_PERCEPTION_CANDIDATE_OBSERVATION_INGRESS_WITH_LIMITATIONS",
+  "schema_errors": [],
+  "status": "PASS"
+}

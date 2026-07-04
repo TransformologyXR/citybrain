@@ -1,0 +1,12 @@
+{
+  "action_proposal_is_not_execution_truth": true,
+  "candidate_observation_is_not_truth": true,
+  "draft_case_ticket_is_not_official_truth": true,
+  "r6_baseline": {
+    "decision_path": "outputs/main_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_polish/DECISION.json",
+    "no_action_state": "not_executed",
+    "review_state_local_only": true,
+    "status": "PASS_OMNIVERSE_WEBRTC_R6_UI_UX_OPERATOR_WORKFLOW_POLISH_WITH_LIMITATIONS"
+  },
+  "status": "PASS"
+}

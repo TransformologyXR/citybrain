@@ -1,0 +1,108 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+)
+
+def Xform "World"
+{
+    def Xform "CityBrain"
+    {
+        def Xform "R7D_EventStateSmoke"
+        {
+            custom string citybrain_package = "MAIN-CITYBRAIN-R7D-WEBUI-KIT-EVENT-STATE-SMOKE"
+            custom string handoff_scope = "local_replay_marker_metadata_only"
+            custom bool candidate_only = true
+            custom bool review_required = true
+            custom bool full_citywide_twin_claim = false
+            custom bool live_kit_control = false
+            def Xform "r7c_query_active_review_events"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-active-review-events"
+                custom string event_id = "r7b:event:review-created:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:accepted-001"
+                custom string review_state = "active_review"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_active_review_events"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_unresolved"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-unresolved"
+                custom string event_id = "r7b:event:unresolved:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:unresolved-location-001"
+                custom string review_state = "unresolved_review_candidate"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_unresolved"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_quarantined"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-quarantined"
+                custom string event_id = "r7b:event:quarantined:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:quarantine-live-claim-001"
+                custom string review_state = "quarantined_not_promoted"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_quarantined"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_trace"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-trace"
+                custom string event_id = "r7b:event:review-created:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:accepted-001"
+                custom string review_state = "trace_only_review_context"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_trace"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_candidate_context"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-candidate-context"
+                custom string event_id = "r7b:event:accepted:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:accepted-001"
+                custom string review_state = "candidate_context"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_candidate_context"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_not_executed"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-not-executed"
+                custom string event_id = "r7b:event:action-proposal:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:accepted-001"
+                custom string review_state = "action_proposal_not_executed"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_not_executed"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_sandbox_drafts"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-sandbox-drafts"
+                custom string event_id = "r7b:event:sandbox-draft-case:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:accepted-001"
+                custom string review_state = "sandbox_draft_not_submitted"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_sandbox_drafts"
+                custom bool marker_only = true
+            }
+            def Xform "r7c_query_overlays"
+            {
+                custom string overlay_id = "kit-smoke:r7c-query-overlays"
+                custom string event_id = "r7b:event:accepted:0001"
+                custom string candidate_observation_ref = "candidate:r7a:obs:accepted-001"
+                custom string review_state = "overlay_context"
+                custom string official_status = "not_official"
+                custom string execution_status = "not_executed"
+                custom string proposed_prim_path = "/World/CityBrain/R7D/EventStateSmoke/r7c_query_overlays"
+                custom bool marker_only = true
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "execution_status": "not_executed",
+  "items": [
+    {
+      "candidate_observation_id": "candidate:r7:obs:0001",
+      "cannot_claim": [
+        "confirmed violation",
+        "identity of a natural person",
+        "legal or certified finding",
+        "official case/ticket creation",
+        "dispatch/control/enforcement execution"
+      ],
+      "draft_id": "draft:r7:case-ticket:0001",
+      "draft_submission_status": "draft_not_submitted",
+      "event_packet_id": "event:r7:candidate:0001",
+      "packet_id": "kit:r7:review-packet:0001",
+      "proposal_execution_status": "not_executed",
+      "proposal_id": "proposal:r7:action:0001",
+      "review_state": "promote_to_draft",
+      "surface": "kit",
+      "visible_labels": [
+        "candidate observation",
+        "review required",
+        "draft_not_submitted",
+        "not_executed"
+      ]
+    }
+  ]
+}

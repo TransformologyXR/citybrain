@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "candidate_observation_id": "candidate:r7a:obs:unresolved-location-001",
+      "candidate_only": true,
+      "evidence_refs": [
+        "source:r7a:sample-clip-002",
+        "frame:r7a:sample-clip-002:000090"
+      ],
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "packet_hash": "552455ce85a94af3f2cdaad6e1b6f7e54f81e6dc8d01e7d6891027d2f4113efe",
+      "preservation_state": "unresolved_review_candidate",
+      "promotion_allowed": false,
+      "reasons": [
+        "ambiguous_zone",
+        "missing_location_or_geometry"
+      ],
+      "review_required": true,
+      "review_state": "needs_source",
+      "safe_next_looks": [
+        "request missing location/geometry context",
+        "request additional retained evidence before promotion",
+        "keep as candidate-only review context"
+      ],
+      "source_id": "source:r7a:sample-clip-002"
+    },
+    {
+      "candidate_observation_id": "candidate:r7a:obs:unresolved-low-confidence-001",
+      "candidate_only": true,
+      "evidence_refs": [
+        "source:r7a:manual-test-003",
+        "frame:r7a:manual-test-003:000015"
+      ],
+      "not_executed": [
+        "live_camera_connection",
+        "production_api",
+        "official_case_submission",
+        "dispatch_control_enforcement",
+        "llm_call"
+      ],
+      "packet_hash": "8059505bdfd4501fb505e52cb37d18d6818de0604d23794cc982d7cbfea5b075",
+      "preservation_state": "unresolved_review_candidate",
+      "promotion_allowed": false,
+      "reasons": [
+        "low_confidence"
+      ],
+      "review_required": true,
+      "review_state": "needs_source",
+      "safe_next_looks": [
+        "request missing location/geometry context",
+        "request additional retained evidence before promotion",
+        "keep as candidate-only review context"
+      ],
+      "source_id": "source:r7a:manual-test-003"
+    }
+  ]
+}

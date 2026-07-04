@@ -1,0 +1,50 @@
+{
+  "contract_check": {
+    "action_proposal_execution_status_not_executed": true,
+    "ask_runtime_untouched": true,
+    "candidate_only_preserved": true,
+    "case_ticket_remains_draft_sandbox_only": true,
+    "kit_export_created": true,
+    "local_replay_smoke_only": true,
+    "no_dispatch_control_enforcement_execution": true,
+    "no_full_citywide_twin_live_kit_control_claim": true,
+    "no_legal_certified_claim": true,
+    "no_live_retrieval_production_api_url_fetch_llm_call": true,
+    "no_official_submission_execution": true,
+    "review_required_preserved": true,
+    "submission_status_draft_not_submitted": true,
+    "webui_export_created": true,
+    "webui_kit_one_truth_parity_checked": true
+  },
+  "created_at": "2026-07-04T17:31:00Z",
+  "fallback_reason": null,
+  "fallback_used": false,
+  "hash_manifest": {
+    "item_count": 10,
+    "mismatch_count": 0,
+    "missing_count": 0,
+    "status": "PASS"
+  },
+  "limitations": [
+    "local/replay smoke only",
+    "WebUI and Kit outputs are review-safe fixture exports only",
+    "candidate observations remain review inputs, not official facts",
+    "sandbox draft cases remain draft_not_submitted",
+    "action proposals remain not_executed",
+    "Kit USDA layer is marker metadata only, not a full citywide twin or live scene control",
+    "no live retrieval, production API, URL fetch, official submission, dispatch, control, enforcement, legal/certified claim, or LLM call"
+  ],
+  "missing_r7c_files": [],
+  "next_recommended_package": "MAIN-CITYBRAIN-R7E-PERCEPTION-REVIEW-WORKFLOW-CLOSEOUT",
+  "package": "MAIN-CITYBRAIN-R7D-WEBUI-KIT-EVENT-STATE-SMOKE",
+  "r7c_outputs_loaded": true,
+  "result_counts": {
+    "kit_smoke_items": 8,
+    "optional_usda_created": true,
+    "parity_failures": 0,
+    "parity_pairs_checked": 8,
+    "webui_smoke_items": 8
+  },
+  "source_r7c_root": "outputs/main_citybrain_r7c_event_fabric_state_query_and_ask_handoff",
+  "status": "PASS_MAIN_CITYBRAIN_R7D_WEBUI_KIT_EVENT_STATE_SMOKE_WITH_LIMITATIONS"
+}
