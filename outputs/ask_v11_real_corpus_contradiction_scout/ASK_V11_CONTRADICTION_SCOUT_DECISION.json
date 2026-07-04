@@ -1,0 +1,73 @@
+{
+  "schema_version": "ask-v11-real-corpus-contradiction-scout-decision.v1",
+  "package": "ASK-V11-REAL-CORPUS-CONTRADICTION-SOURCE-SCOUT",
+  "status": "PASS_WITH_LIMITATIONS",
+  "generated_at": "2026-07-04T00:00:00Z",
+  "branch": "ask-v11-canonical-implementation-sprint",
+  "baseline_commit": "3907bc1665e4d02b1410a66146d59a32042d85b3",
+  "r1_final_decision": "PASS_ASK_V11_REAL_CORPUS_EVAL_R1_WITH_LIMITATIONS",
+  "scout_result": {
+    "contradiction_candidate_found": false,
+    "candidate_count": 4,
+    "ready_candidate_count": 0,
+    "needs_retained_data_addition_count": 1,
+    "selected_candidate_id": null,
+    "recommended_r2_disposition": "FORMAL_WAIVER_KEEP_SEALED_FIXTURE_CONTRADICTION_COVERAGE"
+  },
+  "inventory": {
+    "r1_artifacts_inspected": [
+      "outputs/ask_v11_real_corpus_eval_r1/ASK_V11_REAL_CORPUS_EVAL_R1_REPORT.json",
+      "outputs/ask_v11_real_corpus_eval_r1/ASK_V11_REAL_CORPUS_EVAL_R1_SUMMARY.md",
+      "outputs/ask_v11_real_corpus_eval_r1/ASK_V11_REAL_CORPUS_EVAL_R1_FAILURES.md",
+      "outputs/ask_v11_real_corpus_eval_preflight/ASK_V11_REAL_CORPUS_CASE_MATRIX.json"
+    ],
+    "bounded_ask_relevant_scan": {
+      "roots": [
+        "packages/fixtures",
+        "inputs",
+        "outputs/ask_v11_real_corpus_eval_preflight",
+        "outputs/ask_v11_real_corpus_eval_r1",
+        "outputs/a5d1_operator_query",
+        "outputs/a5d2_spark_portability_pack/bundle/data/a5d1_outputs"
+      ],
+      "files_seen": 115,
+      "json_parsed_under_size_limit": 113,
+      "status_observations": 14153,
+      "exact_conflict_groups": 43
+    },
+    "broad_exact_id_scan": {
+      "roots": [
+        "outputs",
+        "packages/fixtures",
+        "inputs"
+      ],
+      "files_seen": 69204,
+      "json_parsed_under_size_limit": 69166,
+      "skipped_large_files": 37,
+      "status_observations": 248160,
+      "exact_conflict_groups": 1284,
+      "note": "Most exact-ID status disagreements are package lifecycle/version statuses or different records sharing a broad entity ref, not true same-claim contradictions."
+    }
+  },
+  "negative_finding": {
+    "summary": "No valid retained conflicting-source pair was found for the ASK v1.1 real-corpus contradiction family.",
+    "why": [
+      "Different permit statuses on the same parcel/building refer to different permit jobs, not one claimable field for the same source record.",
+      "Accepted/rejected command statuses refer to different command IDs and action types.",
+      "Package PASS/FAIL or accepted/not-accepted values are lifecycle/version outputs, not retained city-source contradictions.",
+      "The A5 grounding-gate FAIL/PASS pair evaluates different narration artifacts, so it is not a clean same-claim contradiction without a later retained-data normalization artifact."
+    ]
+  },
+  "contract_check": {
+    "no_runtime_behavior_changed": true,
+    "no_g1_g8_behavior_changed": true,
+    "no_packet_schema_changed": true,
+    "no_registry_check_render_rule_changed": true,
+    "no_future_flow_runtime_added": true,
+    "no_live_production_retrieval_added": true,
+    "no_url_fetch_attempted": true,
+    "no_official_action_ticket_dispatch_added": true,
+    "unrelated_dirty_files_untouched": true
+  },
+  "next_recommended_package": "ASK-V11-REAL-CORPUS-EVAL-R2-MAPPING-EXPANSION"
+}

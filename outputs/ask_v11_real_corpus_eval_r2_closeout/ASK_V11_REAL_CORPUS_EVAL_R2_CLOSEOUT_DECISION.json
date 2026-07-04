@@ -1,0 +1,46 @@
+{
+  "schema_version": "ask-v11-real-corpus-eval-r2-closeout-decision.v1",
+  "package": "ASK-V11-REAL-CORPUS-EVAL-R2-RUN-AND-CLOSEOUT",
+  "status": "PASS_WITH_LIMITATIONS",
+  "final_decision": "PASS_ASK_V11_REAL_CORPUS_EVAL_R2_WITH_LIMITATIONS",
+  "generated_at": "2026-07-04T00:00:00Z",
+  "baseline": {
+    "remote": "https://github.com/TransformologyXR/citybrain",
+    "branch": "ask-v11-canonical-implementation-sprint",
+    "commit": "3907bc1665e4d02b1410a66146d59a32042d85b3",
+    "decision": "PASS_ASK_V11_CANONICAL_IMPLEMENTATION_SPRINT"
+  },
+  "r2_result": {
+    "final_decision": "PASS_ASK_V11_REAL_CORPUS_EVAL_R2_WITH_LIMITATIONS",
+    "total_cases": 19,
+    "evaluated_cases": 18,
+    "pass_count": 18,
+    "fail_count": 0,
+    "excluded_cases": 1,
+    "sev_4_real_failure_count": 0,
+    "boundary_action_sev4_count": 0,
+    "raw_query_leak_count": 0,
+    "official_action_claim_count": 0,
+    "future_flow_runtime_violation_count": 0,
+    "live_retrieval_attempt_count": 0,
+    "cases_newly_mapped": 8,
+    "cases_still_needing_mapping": 0,
+    "contradiction_case_status": "waived_no_retained_same_claim_pair"
+  },
+  "formal_waiver": {
+    "contradiction_real_corpus_coverage": "waived_for_r2",
+    "statement": "No valid retained same-claim contradiction pair was found during the contradiction-source scout. Real-corpus contradiction coverage is waived for R2. Contradiction remains covered by sealed fixture eval and should be added to real-corpus coverage only when a genuine retained conflict pair appears."
+  },
+  "contract_check": {
+    "no_runtime_behavior_changed": true,
+    "no_g1_g8_behavior_changed": true,
+    "no_packet_schema_changed": true,
+    "no_registry_check_render_rule_changed": true,
+    "no_future_flow_runtime_added": true,
+    "no_live_production_retrieval_added": true,
+    "no_url_fetch_attempted": true,
+    "no_official_action_ticket_dispatch_added": true,
+    "unrelated_dirty_files_untouched": true
+  },
+  "next_recommended_package": "ASK-V11-REAL-CORPUS-EVAL-R2-COMMIT-AND-PUSH"
+}
