@@ -6,11 +6,22 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FIXTURE_PATH = ROOT / "outputs" / "ask_v11_app_handoff_preflight" / "ASK_V11_APP_HANDOFF_FIXTURES.json"
+FIXTURE_PATH = ROOT / "apps" / "web-control-room" / "src" / "askV11" / "fixtures" / "askV11AppHandoffFixtures.json"
 VIEW_PATH = ROOT / "apps" / "web-control-room" / "src" / "views" / "askV11Handoff.js"
 ADAPTER_PATH = ROOT / "apps" / "web-control-room" / "src" / "askV11" / "askV11HandoffAdapter.js"
 LOADER_PATH = ROOT / "apps" / "web-control-room" / "src" / "askV11" / "askV11FixtureLoader.js"
 RUNTIME_BUNDLE_PATH = ROOT / "apps" / "web-control-room" / "src" / "runtimeBundle.js"
+
+REQUIRED_SCENARIOS = {
+    "board_meta_safe_help",
+    "entity_profile_supported",
+    "external_context_cannot_claim",
+    "no_data_answer",
+    "proximity_not_causality",
+    "clarification_required",
+    "boundary_action_refusal",
+    "render_validator_degraded",
+}
 
 
 def load_fixture_set():
@@ -52,10 +63,41 @@ class AskV11AppHandoffR1Tests(unittest.TestCase):
     def test_fixture_selector_loader_works_locally(self):
         scenarios = [fixture["scenario_id"] for fixture in self.fixture_set["fixtures"]]
         self.assertEqual(8, len(scenarios))
+        self.assertEqual(REQUIRED_SCENARIOS, set(scenarios))
         for scenario in scenarios:
             self.assertIn(f'data-ask-v11-scenario-link="{scenario}"', self.html)
         loader_source = LOADER_PATH.read_text(encoding="utf-8")
-        self.assertIn("/outputs/ask_v11_app_handoff_preflight/", loader_source)
+        self.assertIn("/apps/web-control-room/src/askV11/fixtures/", loader_source)
+        self.assertIn("askV11AppHandoffFixtures.json", loader_source)
+
+    def test_committed_fixture_file_exists(self):
+        self.assertTrue(FIXTURE_PATH.exists())
+        self.assertEqual(8, len(self.fixture_set["fixtures"]))
+
+    def test_loader_can_load_committed_fixture_without_outputs(self):
+        script = textwrap.dedent(
+            f"""
+            import {{ loadAskV11HandoffFixtures }} from {json.dumps(LOADER_PATH.as_uri())};
+            const calls = [];
+            const fixtureSet = {{ fixtures: [{{ scenario_id: "board_meta_safe_help" }}] }};
+            const loaded = await loadAskV11HandoffFixtures(async (base, name) => {{
+              calls.push(base + name);
+              if (base.includes("/outputs/")) throw new Error("outputs fallback should not be required");
+              if (base === "/apps/web-control-room/src/askV11/fixtures/" && name === "askV11AppHandoffFixtures.json") return fixtureSet;
+              return null;
+            }});
+            if (loaded !== fixtureSet) throw new Error("committed fixture was not returned");
+            if (calls.length !== 1) throw new Error(`unexpected loader call count: ${{calls.length}}`);
+            """
+        )
+        subprocess.run(
+            ["node", "--input-type=module", "-e", script],
+            cwd=ROOT,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            check=True,
+        )
 
     def test_cannot_claim_visible_when_present(self):
         self.assertIn('data-ui-section="cannot_claim"', self.html)

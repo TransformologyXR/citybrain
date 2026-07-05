@@ -1,0 +1,341 @@
+{
+  "schema_version": "ask-v11-app-handoff-fixtures.v1",
+  "package": "ASK-V11-APP-FIXTURE-VENDORING-R1",
+  "fixture_kind": "app_handoff_vendored_fixture",
+  "generated_at": "2026-07-04T00:00:00Z",
+  "vendored_from": "outputs/ask_v11_app_handoff_preflight/ASK_V11_APP_HANDOFF_FIXTURES.json",
+  "basis": [
+    "sealed ASK v1.1 eval outputs",
+    "retained real-corpus eval R2 outputs",
+    "P0-P4 ASK packet models"
+  ],
+  "notice": "These payloads are UI handoff fixtures only. They are not fresh source truth and must not be used as evidence outside local/demo UI tests.",
+  "fixtures": [
+    {
+      "scenario_id": "board_meta_safe_help",
+      "source_basis": [
+        "ask-v11-001-board-meta-alert-capability",
+        "real-corpus-001-board-meta-product-boundary"
+      ],
+      "handoff_payload": {
+        "flow_envelope": {
+          "flow_id": "flow:ask_v1",
+          "flow_version": "1.1",
+          "run_id": "app-handoff-board-meta-safe-help",
+          "stage_failures": [],
+          "degraded_response_decision": null,
+          "stage_timings": {},
+          "trace_hops": [
+            {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"},
+            {"stage_id": "G2", "gate_id": "intent_and_binding_resolver@1.1", "input_packet_refs": ["boundary_packet"], "output_packet_refs": ["intent_packet"], "status": "resolved"},
+            {"stage_id": "G3", "gate_id": "route_select_and_compile@1.1", "input_packet_refs": ["intent_packet"], "output_packet_refs": ["execution_contract"], "status": "compiled"},
+            {"stage_id": "G4", "gate_id": "argument_resolution@1.1", "input_packet_refs": ["execution_contract"], "output_packet_refs": ["execution_contract"], "status": "resolved"},
+            {"stage_id": "G5", "gate_id": "template_execute@1.1", "input_packet_refs": ["execution_contract"], "output_packet_refs": ["evidence_packet"], "status": "evidence"},
+            {"stage_id": "G6", "gate_id": "check@1.1", "input_packet_refs": ["evidence_packet"], "output_packet_refs": ["check_report"], "status": "checked"},
+            {"stage_id": "G7", "gate_id": "answer_assemble@1.1", "input_packet_refs": ["check_report"], "output_packet_refs": ["answer_packet"], "status": "assembled"},
+            {"stage_id": "G8", "gate_id": "render@1.1", "input_packet_refs": ["answer_packet"], "output_packet_refs": ["rendered_response"], "status": "rendered"}
+          ],
+          "packet_refs": {
+            "boundary_packet": "packet:g1:boundary",
+            "intent_packet": "packet:g2:intent",
+            "execution_contract": "packet:g3:contract",
+            "evidence_packet": "packet:g5:evidence",
+            "check_report": "packet:g6:check",
+            "answer_packet": "packet:g7:answer",
+            "rendered_response": "packet:g8:rendered"
+          },
+          "not_executed": []
+        },
+        "boundary_packet": {
+          "stage_id": "G1",
+          "gate_id": "boundary_screen@1.1",
+          "boundary": "clear",
+          "reason_codes": ["product_capability_question_allowed"],
+          "confidence": 1.0
+        },
+        "intent_packet": {
+          "intent_family": "board_meta",
+          "subject_candidates": [],
+          "concept_bindings": [],
+          "context_flags": {"requires_selected_item": false, "follow_up_of": null},
+          "ambiguity_flags": [],
+          "clarification_candidates": [],
+          "confidence": 0.96,
+          "resolver_telemetry": {"reason_codes": ["capability_question"]}
+        },
+        "execution_contract": {
+          "route": {"kind": "ui_help", "gap_id": null, "refusal_class": null},
+          "template_ref": {"template_id": "board_meta_help", "version": "1.0"},
+          "args": {"help_topic": "capability"},
+          "required_sources": [],
+          "retrieval_plan": {"groups": []},
+          "derived_features": [],
+          "answer_contract": {"shape": "ui_help_static", "lens_default": "support", "required_sections": ["knowns", "cannot_claim", "not_executed"], "citation_policy": "internal_static_note"}
+        },
+        "evidence_packet": {
+          "facts": [
+            {"fact_id": "board-meta-001", "text": "The board can answer bounded retained-record questions through ASK v1.1."},
+            {"fact_id": "board-meta-002", "text": "The board cannot alert, dispatch, create official cases, issue tickets, route traffic, or enforce."}
+          ],
+          "rows": [],
+          "series": [],
+          "source_refs": [
+            {"source_id": "internal:ask_v11_board_meta", "source_type": "internal_static_capability_note", "title": "ASK v1.1 board capability contract note", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1", "claim_boundary": "product capability only"}
+          ],
+          "lineage": ["board_meta_help@1.0", "fixture_only"],
+          "confidence": 1.0,
+          "gaps": [],
+          "warnings": [],
+          "flags": {"no_data": false, "partial_result": false, "truncated": false},
+          "not_executed": ["alert", "dispatch", "official_case_creation", "ticket_creation", "traffic_control"]
+        },
+        "check_report": {
+          "checks": [
+            {"check": "coverage_limits", "status": "passed", "reason": "Static capability evidence is bounded to product help.", "refs": ["internal:ask_v11_board_meta"]}
+          ],
+          "verdicts": [
+            {"verdict": "sufficient", "claim": "board capability help", "reason": "Internal static capability evidence is sufficient for UI help.", "refs": ["internal:ask_v11_board_meta"], "as_of": null}
+          ],
+          "claim_downgrades": [],
+          "abstains": [],
+          "coverage_limits": [
+            {"summary": "Product capability only; not an action channel.", "limitations": ["No alert, dispatch, ticket, case, route, control, enforcement, legal, or certified action."], "as_of": null, "coverage_status": "bounded_static"}
+          ],
+          "contradictions": [],
+          "staleness": [],
+          "binding_findings": [],
+          "overall_claimability": "claimable"
+        },
+        "answer_packet": {
+          "knowns": [
+            "The board can support bounded retained-record questions through ASK v1.1.",
+            "The board cannot alert, dispatch, create official cases, issue tickets, route traffic, or execute enforcement actions."
+          ],
+          "unknowns": [],
+          "cannot_claim": [
+            "Static board capability evidence; not rendered as a city fact.",
+            "No official external action was executed."
+          ],
+          "citations": [
+            {"citation_id": "cite:board-meta", "source_ref": "internal:ask_v11_board_meta", "evidence_refs": ["board-meta-001", "board-meta-002"], "label": "ASK v1.1 board capability contract note"}
+          ],
+          "coverage_note": {"summary": "CHECK overall claimability: claimable", "limitations": ["Product help only."], "as_of": null, "coverage_status": "claimable"},
+          "check_report_ref": "packet:g6:check",
+          "lens": "support",
+          "safe_next_looks": [],
+          "not_executed": ["alert", "dispatch", "official_case_creation", "ticket_creation", "traffic_control"]
+        },
+        "rendered_response": {
+          "text": "Known:\n- The board can support bounded retained-record questions through ASK v1.1.\n- The board cannot alert, dispatch, create official cases, issue tickets, route traffic, or execute enforcement actions.\n- No claim: Static board capability evidence; not rendered as a city fact.\n- No claim: No official external action was executed.\nCoverage: CHECK overall claimability: claimable\nCitations:\n- Source: internal:ask_v11_board_meta; Label: ASK v1.1 board capability contract note\nNot executed:\n- Not executed: alert\n- Not executed: dispatch\n- Not executed: official_case_creation\n- Not executed: ticket_creation\n- Not executed: traffic_control",
+          "validation": {"valid": true, "errors": []},
+          "degraded": false,
+          "validation_errors": []
+        },
+        "clarification_packet": null
+      },
+      "ui_expectations": {
+        "show_answer_panel": true,
+        "show_cannot_claim": true,
+        "show_not_executed": true,
+        "hide_action_affordances": ["alert", "dispatch", "create_case", "create_ticket", "route", "enforce"]
+      }
+    },
+    {
+      "scenario_id": "entity_profile_supported",
+      "source_basis": ["ask-v11-006-selected-item-entity-profile", "real-corpus-002-entity-profile-ev-asset-87"],
+      "handoff_payload": {
+        "flow_envelope": {
+          "flow_id": "flow:ask_v1",
+          "flow_version": "1.1",
+          "run_id": "app-handoff-entity-profile-supported",
+          "stage_failures": [],
+          "degraded_response_decision": null,
+          "stage_timings": {},
+          "trace_hops": [
+            {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"},
+            {"stage_id": "G2", "gate_id": "intent_and_binding_resolver@1.1", "input_packet_refs": ["boundary_packet"], "output_packet_refs": ["intent_packet"], "status": "resolved"},
+            {"stage_id": "G3", "gate_id": "route_select_and_compile@1.1", "input_packet_refs": ["intent_packet"], "output_packet_refs": ["execution_contract"], "status": "compiled"},
+            {"stage_id": "G4", "gate_id": "argument_resolution@1.1", "input_packet_refs": ["execution_contract"], "output_packet_refs": ["execution_contract"], "status": "resolved"},
+            {"stage_id": "G5", "gate_id": "template_execute@1.1", "input_packet_refs": ["execution_contract"], "output_packet_refs": ["evidence_packet"], "status": "evidence"},
+            {"stage_id": "G6", "gate_id": "check@1.1", "input_packet_refs": ["evidence_packet"], "output_packet_refs": ["check_report"], "status": "checked"},
+            {"stage_id": "G7", "gate_id": "answer_assemble@1.1", "input_packet_refs": ["check_report"], "output_packet_refs": ["answer_packet"], "status": "assembled"},
+            {"stage_id": "G8", "gate_id": "render@1.1", "input_packet_refs": ["answer_packet"], "output_packet_refs": ["rendered_response"], "status": "rendered"}
+          ],
+          "packet_refs": {"boundary_packet": "packet:g1:boundary", "intent_packet": "packet:g2:intent", "execution_contract": "packet:g3:contract", "evidence_packet": "packet:g5:evidence", "check_report": "packet:g6:check", "answer_packet": "packet:g7:answer", "rendered_response": "packet:g8:rendered"},
+          "not_executed": []
+        },
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "clear", "reason_codes": ["city_subject_question"], "confidence": 1.0},
+        "intent_packet": {
+          "intent_family": "entity_profile",
+          "subject_candidates": ["asset:ev:wood-lane"],
+          "concept_bindings": [
+            {"concept": "charger_asset_availability", "family": "charger_asset_availability", "status": "known_external_not_ingested", "source": null, "field_ref": null, "owner": "operator or live availability feed", "claimability": "cannot_claim_live_status", "cannot_claim": ["current availability", "live occupancy", "live fault status"]},
+            {"concept": "certified_geometry", "family": "certified_geometry", "status": "known_external_not_ingested", "source": null, "field_ref": null, "owner": "certified geometry source", "claimability": "cannot_claim_certified_boundary", "cannot_claim": ["certified boundary or geometry"]}
+          ],
+          "context_flags": {"requires_selected_item": false, "follow_up_of": null},
+          "ambiguity_flags": [],
+          "clarification_candidates": [],
+          "confidence": 0.94,
+          "resolver_telemetry": {"reason_codes": ["selected_item_ref_anchor"]}
+        },
+        "execution_contract": {
+          "route": {"kind": "template_call", "gap_id": null, "refusal_class": null},
+          "template_ref": {"template_id": "entity_profile", "version": "1.0"},
+          "args": {"entity_ref": "asset:ev:wood-lane"},
+          "required_sources": [{"source_id": "fixture:entity_profile", "source_type": "local_fixture", "title": "Entity profile fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "retained local profile only"}],
+          "retrieval_plan": {"groups": [{"group_id": "entity_profile_fixture", "source_refs": ["fixture:entity_profile"], "args": {}, "parallelizable": true}]},
+          "derived_features": [],
+          "answer_contract": {"shape": "known_unknown_claimability", "lens_default": "support", "required_sections": ["knowns", "unknowns", "cannot_claim", "citations"], "citation_policy": "required_for_claims"}
+        },
+        "evidence_packet": {
+          "facts": [
+            {"fact_id": "entity-wood-lane-001", "text": "Retained fixture identifies an EV charging access asset at Wood Lane."},
+            {"fact_id": "entity-wood-lane-002", "text": "A nearby works source record exists in the demo fixture."},
+            {"fact_id": "entity-wood-lane-003", "text": "Safe claim: nearby/proximity context only."}
+          ],
+          "rows": [],
+          "series": [],
+          "source_refs": [{"source_id": "fixture:entity_profile", "source_type": "local_fixture", "title": "Entity profile fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "profile and proximity context only"}],
+          "lineage": ["entity_profile@1.0", "selected_item_ref"],
+          "confidence": 0.82,
+          "gaps": ["Live charger occupancy is not ingested.", "Certified geometry/legal status is not retained."],
+          "warnings": ["Proximity is not causality."],
+          "flags": {"no_data": false, "partial_result": true, "truncated": false},
+          "not_executed": []
+        },
+        "check_report": {
+          "checks": [
+            {"check": "proximity_vs_causality", "status": "downgraded", "reason": "Nearby source does not prove access impact.", "refs": ["entity-wood-lane-002"]},
+            {"check": "binding_status", "status": "warning", "reason": "Live charger availability source is known but not ingested.", "refs": ["charger_asset_availability"]}
+          ],
+          "verdicts": [{"verdict": "downgrade", "claim": "Wood Lane EV access asset profile", "reason": "Retained profile is claimable, live availability and blockage are not.", "refs": ["fixture:entity_profile"], "as_of": null}],
+          "claim_downgrades": [{"claim": "nearby works affect/block/cause charger access", "downgraded_to": "nearby/proximity context only", "reason": "Proximity is not causality.", "refs": ["entity-wood-lane-002"]}],
+          "abstains": [],
+          "coverage_limits": [{"summary": "Retained fixture coverage only.", "limitations": ["No live availability.", "No certified boundary.", "No confirmed access blockage."], "as_of": null, "coverage_status": "partial"}],
+          "contradictions": [],
+          "staleness": [],
+          "binding_findings": [{"concept": "charger_asset_availability", "status": "known_external_not_ingested", "finding": "Cannot claim current live availability from retained fixture.", "refs": []}],
+          "overall_claimability": "partially_claimable"
+        },
+        "answer_packet": {
+          "knowns": [
+            "Retained fixture identifies an EV charging access asset at Wood Lane.",
+            "A nearby works source record exists in the demo fixture.",
+            "Safe claim: nearby/proximity context only."
+          ],
+          "unknowns": ["Current live charger occupancy is not ingested.", "Certified geometry/legal status is not retained."],
+          "cannot_claim": [
+            "nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality",
+            "Current live charger occupancy is not ingested.",
+            "Confirmed access blockage is not proven by proximity alone."
+          ],
+          "citations": [{"citation_id": "cite:entity-profile", "source_ref": "fixture:entity_profile", "evidence_refs": ["entity-wood-lane-001", "entity-wood-lane-002"], "label": "Entity profile fixture source"}],
+          "coverage_note": {"summary": "CHECK overall claimability: partially_claimable", "limitations": ["Retained fixture only."], "as_of": null, "coverage_status": "partial"},
+          "check_report_ref": "packet:g6:check",
+          "lens": "support",
+          "safe_next_looks": ["Look for retained source records that directly support access blockage.", "Look for an ingested live availability feed before claiming live status."],
+          "not_executed": []
+        },
+        "rendered_response": {"text": "Known:\n- Retained fixture identifies an EV charging access asset at Wood Lane.\n- A nearby works source record exists in the demo fixture.\n- Safe claim: nearby/proximity context only.\nUnknown:\n- Current live charger occupancy is not ingested.\n- Certified geometry/legal status is not retained.\n- No claim: nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality\n- No claim: Current live charger occupancy is not ingested.\n- No claim: Confirmed access blockage is not proven by proximity alone.\nCoverage: CHECK overall claimability: partially_claimable\nCitations:\n- Source: fixture:entity_profile; Label: Entity profile fixture source", "validation": {"valid": true, "errors": []}, "degraded": false, "validation_errors": []},
+        "clarification_packet": null
+      },
+      "ui_expectations": {"show_knowns": true, "show_unknowns": true, "show_cannot_claim": true, "show_citations": true, "show_check_downgrade": true}
+    },
+    {
+      "scenario_id": "external_context_cannot_claim",
+      "source_basis": ["ask-v11-008-live-charger-availability", "real-corpus-006-external-context-live-availability"],
+      "handoff_payload": {
+        "flow_envelope": {"flow_id": "flow:ask_v1", "flow_version": "1.1", "run_id": "app-handoff-external-context-cannot-claim", "stage_failures": [], "degraded_response_decision": null, "stage_timings": {}, "trace_hops": [{"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"}, {"stage_id": "G2", "gate_id": "intent_and_binding_resolver@1.1", "input_packet_refs": ["boundary_packet"], "output_packet_refs": ["intent_packet"], "status": "resolved"}, {"stage_id": "G3", "gate_id": "route_select_and_compile@1.1", "input_packet_refs": ["intent_packet"], "output_packet_refs": ["execution_contract"], "status": "compiled"}, {"stage_id": "G5", "gate_id": "template_execute@1.1", "input_packet_refs": ["execution_contract"], "output_packet_refs": ["evidence_packet"], "status": "evidence"}, {"stage_id": "G6", "gate_id": "check@1.1", "input_packet_refs": ["evidence_packet"], "output_packet_refs": ["check_report"], "status": "checked"}, {"stage_id": "G7", "gate_id": "answer_assemble@1.1", "input_packet_refs": ["check_report"], "output_packet_refs": ["answer_packet"], "status": "assembled"}, {"stage_id": "G8", "gate_id": "render@1.1", "input_packet_refs": ["answer_packet"], "output_packet_refs": ["rendered_response"], "status": "rendered"}], "packet_refs": {"boundary_packet": "packet:g1:boundary", "intent_packet": "packet:g2:intent", "execution_contract": "packet:g3:contract", "evidence_packet": "packet:g5:evidence", "check_report": "packet:g6:check", "answer_packet": "packet:g7:answer", "rendered_response": "packet:g8:rendered"}, "not_executed": ["live_external_source:charger_asset_availability", "production_retrieval"]},
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "clear", "reason_codes": ["external_context_question"], "confidence": 1.0},
+        "intent_packet": {"intent_family": "external_context_need", "subject_candidates": ["asset:ev:wood-lane"], "concept_bindings": [{"concept": "charger_asset_availability", "family": "charger_asset_availability", "status": "known_external_not_ingested", "source": null, "field_ref": null, "owner": "operator or live availability feed", "claimability": "cannot_claim_live_status", "cannot_claim": ["current charger availability", "live occupancy", "live fault status"]}], "context_flags": {"requires_selected_item": false, "follow_up_of": null}, "ambiguity_flags": [], "clarification_candidates": [], "confidence": 0.91, "resolver_telemetry": {"reason_codes": ["live_availability_external"]}},
+        "execution_contract": {"route": {"kind": "template_call", "gap_id": null, "refusal_class": null}, "template_ref": {"template_id": "external_context_need", "version": "1.0"}, "args": {"concept": "charger_asset_availability"}, "required_sources": [], "retrieval_plan": {"groups": []}, "derived_features": [], "answer_contract": {"shape": "external_source_needed", "lens_default": "uncertainty", "required_sections": ["unknowns", "cannot_claim", "not_executed", "safe_next_looks"], "citation_policy": "registry_note"}},
+        "evidence_packet": {"facts": [{"fact_id": "external-context-001", "text": "Retained evidence does not include the live external fact for charger_asset_availability."}], "rows": [], "series": [], "source_refs": [{"source_id": "internal:ask_v11_external_context_registry", "source_type": "registry_note", "title": "ASK v1.1 external context registry note", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1", "claim_boundary": "source not ingested"}], "lineage": ["external_context_need@1.0", "concept_binding:charger_asset_availability"], "confidence": 0.2, "gaps": ["source not ingested for charger_asset_availability"], "warnings": ["Unclaimable without source support: current charger availability; live occupancy; live fault status"], "flags": {"no_data": true, "partial_result": false, "truncated": false}, "not_executed": ["live_external_source:charger_asset_availability", "production_retrieval"]},
+        "check_report": {"checks": [{"check": "source_depth", "status": "insufficient", "reason": "Live external source is not ingested.", "refs": ["charger_asset_availability"]}, {"check": "binding_status", "status": "known_external_not_ingested", "reason": "Concept binding forbids live availability claim.", "refs": ["charger_asset_availability"]}], "verdicts": [{"verdict": "insufficient_no_data", "claim": "current charger availability", "reason": "No retained live availability source.", "refs": ["charger_asset_availability"], "as_of": null}], "claim_downgrades": [{"claim": "current charger availability", "downgraded_to": "external source needed", "reason": "Live availability feed is not ingested.", "refs": ["charger_asset_availability"]}], "abstains": [], "coverage_limits": [{"summary": "No retained rows or facts were available for this live external request.", "limitations": ["source not ingested for charger_asset_availability"], "as_of": null, "coverage_status": "no_data"}], "contradictions": [], "staleness": [], "binding_findings": [{"concept": "charger_asset_availability", "status": "known_external_not_ingested", "finding": "Cannot claim current availability, live occupancy, or live fault status.", "refs": []}], "overall_claimability": "not_claimable"},
+        "answer_packet": {"knowns": ["Retained evidence does not include the live external fact for charger_asset_availability."], "unknowns": ["No retained facts, rows, or series were found for this request.", "source not ingested for charger_asset_availability"], "cannot_claim": ["current charger availability; live occupancy; live fault status", "claim beyond retained evidence: source not ingested for charger_asset_availability"], "citations": [{"citation_id": "cite:external-context", "source_ref": "internal:ask_v11_external_context_registry", "evidence_refs": ["external-context-001"], "label": "ASK v1.1 external context registry note"}], "coverage_note": {"summary": "No retained rows or facts were available for this template execution.", "limitations": ["source not ingested for charger_asset_availability"], "as_of": null, "coverage_status": "no_data"}, "check_report_ref": "packet:g6:check", "lens": "uncertainty", "safe_next_looks": ["Look for retained or integrated source from operator or live availability feed.", "Look for retained source records that directly support the missing claim."], "not_executed": ["live_external_source:charger_asset_availability", "production_retrieval"]},
+        "rendered_response": {"text": "Known:\n- Retained evidence does not include the live external fact for charger_asset_availability.\nUnknown:\n- No retained facts, rows, or series were found for this request.\n- source not ingested for charger_asset_availability\n- No claim: current charger availability; live occupancy; live fault status\n- No claim: claim beyond retained evidence: source not ingested for charger_asset_availability\nCoverage: No retained rows or facts were available for this template execution.\nCitations:\n- Source: internal:ask_v11_external_context_registry; Label: ASK v1.1 external context registry note\nNot executed:\n- Not executed: live_external_source:charger_asset_availability\n- Not executed: production_retrieval\nSafe next looks:\n- Look for retained or integrated source from operator or live availability feed.", "validation": {"valid": true, "errors": []}, "degraded": false, "validation_errors": []},
+        "clarification_packet": null
+      },
+      "ui_expectations": {"show_no_data": true, "show_not_executed": true, "show_cannot_claim": true, "do_not_fetch_live_source": true}
+    },
+    {
+      "scenario_id": "no_data_answer",
+      "source_basis": ["ask-v11-012-unknown-entity-no-data", "real-corpus-007-no-data-missing-tims-record"],
+      "handoff_payload": {
+        "flow_envelope": {"flow_id": "flow:ask_v1", "flow_version": "1.1", "run_id": "app-handoff-no-data-answer", "stage_failures": [], "degraded_response_decision": null, "stage_timings": {}, "trace_hops": [{"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"}, {"stage_id": "G5", "gate_id": "template_execute@1.1", "input_packet_refs": ["execution_contract"], "output_packet_refs": ["evidence_packet"], "status": "no_data"}, {"stage_id": "G6", "gate_id": "check@1.1", "input_packet_refs": ["evidence_packet"], "output_packet_refs": ["check_report"], "status": "checked"}, {"stage_id": "G8", "gate_id": "render@1.1", "input_packet_refs": ["answer_packet"], "output_packet_refs": ["rendered_response"], "status": "rendered"}], "packet_refs": {"boundary_packet": "packet:g1:boundary", "execution_contract": "packet:g3:contract", "evidence_packet": "packet:g5:evidence", "check_report": "packet:g6:check", "answer_packet": "packet:g7:answer", "rendered_response": "packet:g8:rendered"}, "not_executed": []},
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "clear", "reason_codes": ["bounded_profile_question"], "confidence": 1.0},
+        "intent_packet": {"intent_family": "entity_profile", "subject_candidates": ["asset:unknown"], "concept_bindings": [], "context_flags": {"requires_selected_item": false, "follow_up_of": null}, "ambiguity_flags": [], "clarification_candidates": [], "confidence": 0.86, "resolver_telemetry": {"reason_codes": ["explicit_entity_ref"]}},
+        "execution_contract": {"route": {"kind": "template_call", "gap_id": null, "refusal_class": null}, "template_ref": {"template_id": "entity_profile", "version": "1.0"}, "args": {"entity_ref": "asset:unknown"}, "required_sources": [{"source_id": "fixture:entity_profile", "source_type": "local_fixture", "title": "Entity profile fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "retained local profile only"}], "retrieval_plan": {"groups": [{"group_id": "entity_profile_fixture", "source_refs": ["fixture:entity_profile"], "args": {}, "parallelizable": true}]}, "derived_features": [], "answer_contract": {"shape": "known_unknown_claimability", "lens_default": "support", "required_sections": ["unknowns", "cannot_claim"], "citation_policy": "source_ref_if_available"}},
+        "evidence_packet": {"facts": [], "rows": [], "series": [], "source_refs": [{"source_id": "fixture:entity_profile", "source_type": "local_fixture", "title": "Entity profile fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "fixture searched; no matching row"}], "lineage": ["entity_profile@1.0"], "confidence": 0.0, "gaps": ["no matching retained entity/profile fixture for asset:unknown"], "warnings": [], "flags": {"no_data": true, "partial_result": false, "truncated": false}, "not_executed": []},
+        "check_report": {"checks": [{"check": "source_depth", "status": "insufficient", "reason": "No retained facts, rows, or series were found.", "refs": ["fixture:entity_profile"]}], "verdicts": [{"verdict": "insufficient_no_data", "claim": "profile for asset:unknown", "reason": "No matching retained fixture row.", "refs": ["fixture:entity_profile"], "as_of": null}], "claim_downgrades": [{"claim": "facts from missing source", "downgraded_to": "no retained data", "reason": "No matching retained entity/profile fixture.", "refs": ["fixture:entity_profile"]}], "abstains": [], "coverage_limits": [{"summary": "No retained rows or facts were available for this template execution.", "limitations": ["no matching retained entity/profile fixture for asset:unknown"], "as_of": null, "coverage_status": "no_data"}], "contradictions": [], "staleness": [], "binding_findings": [], "overall_claimability": "not_claimable"},
+        "answer_packet": {"knowns": [], "unknowns": ["No retained facts, rows, or series were found for this request.", "no matching retained entity/profile fixture for asset:unknown"], "cannot_claim": ["claim beyond retained evidence: no matching retained entity/profile fixture for asset:unknown"], "citations": [{"citation_id": "cite:no-data-profile", "source_ref": "fixture:entity_profile", "evidence_refs": [], "label": "Entity profile fixture source"}], "coverage_note": {"summary": "No retained rows or facts were available for this template execution.", "limitations": ["no matching retained entity/profile fixture for asset:unknown"], "as_of": null, "coverage_status": "no_data"}, "check_report_ref": "packet:g6:check", "lens": "uncertainty", "safe_next_looks": ["Look for retained source records that directly support the missing claim."], "not_executed": []},
+        "rendered_response": {"text": "Unknown:\n- No retained facts, rows, or series were found for this request.\n- no matching retained entity/profile fixture for asset:unknown\n- No claim: claim beyond retained evidence: no matching retained entity/profile fixture for asset:unknown\nCoverage: No retained rows or facts were available for this template execution.\nCitations:\n- Source: fixture:entity_profile; Label: Entity profile fixture source\nSafe next looks:\n- Look for retained source records that directly support the missing claim.", "validation": {"valid": true, "errors": []}, "degraded": false, "validation_errors": []},
+        "clarification_packet": null
+      },
+      "ui_expectations": {"show_no_data": true, "show_unknowns": true, "show_safe_next_looks": true, "do_not_show_empty_answer": true}
+    },
+    {
+      "scenario_id": "proximity_not_causality",
+      "source_basis": ["ask-v11-009-proximity-access-blockage", "real-corpus-008-proximity-vs-causality-wood-lane"],
+      "handoff_payload": {
+        "flow_envelope": {"flow_id": "flow:ask_v1", "flow_version": "1.1", "run_id": "app-handoff-proximity-not-causality", "stage_failures": [], "degraded_response_decision": null, "stage_timings": {}, "trace_hops": [{"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"}, {"stage_id": "G6", "gate_id": "check@1.1", "input_packet_refs": ["evidence_packet"], "output_packet_refs": ["check_report"], "status": "downgraded"}, {"stage_id": "G8", "gate_id": "render@1.1", "input_packet_refs": ["answer_packet"], "output_packet_refs": ["rendered_response"], "status": "rendered"}], "packet_refs": {"boundary_packet": "packet:g1:boundary", "evidence_packet": "packet:g5:evidence", "check_report": "packet:g6:check", "answer_packet": "packet:g7:answer", "rendered_response": "packet:g8:rendered"}, "not_executed": []},
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "clear", "reason_codes": ["city_subject_question"], "confidence": 1.0},
+        "intent_packet": {"intent_family": "entity_profile", "subject_candidates": ["asset:ev:wood-lane"], "concept_bindings": [{"concept": "access_impact_blockage", "family": "access_impact_blockage", "status": "known_external_not_ingested", "source": null, "field_ref": null, "owner": "closure or access-status source", "claimability": "cannot_claim_confirmed_blockage", "cannot_claim": ["confirmed access blockage unless a retained/integrated closure or access-status source supports it"]}], "context_flags": {"requires_selected_item": false, "follow_up_of": null}, "ambiguity_flags": [], "clarification_candidates": [], "confidence": 0.92, "resolver_telemetry": {"reason_codes": ["proximity_sensitive"]}},
+        "execution_contract": {"route": {"kind": "template_call", "gap_id": null, "refusal_class": null}, "template_ref": {"template_id": "entity_profile", "version": "1.0"}, "args": {"entity_ref": "asset:ev:wood-lane"}, "required_sources": [{"source_id": "fixture:entity_profile", "source_type": "local_fixture", "title": "Entity profile fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "proximity context only"}], "retrieval_plan": {"groups": [{"group_id": "entity_profile_fixture", "source_refs": ["fixture:entity_profile"], "args": {}, "parallelizable": true}]}, "derived_features": [], "answer_contract": {"shape": "known_unknown_claimability", "lens_default": "claimability", "required_sections": ["knowns", "cannot_claim", "citations"], "citation_policy": "required_for_claims"}},
+        "evidence_packet": {"facts": [{"fact_id": "prox-001", "text": "Retained fixture identifies nearby works and an EV access asset in the same review area."}, {"fact_id": "prox-002", "text": "The retained source supports proximity context only."}], "rows": [], "series": [], "source_refs": [{"source_id": "fixture:entity_profile", "source_type": "local_fixture", "title": "Entity profile fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "nearby context only"}], "lineage": ["entity_profile@1.0", "check:proximity_vs_causality"], "confidence": 0.78, "gaps": ["No closure or access-status source supports confirmed blockage."], "warnings": ["Nearby does not mean blocked, affected, or caused."], "flags": {"no_data": false, "partial_result": true, "truncated": false}, "not_executed": []},
+        "check_report": {"checks": [{"check": "proximity_vs_causality", "status": "downgraded", "reason": "Proximity is not causality.", "refs": ["prox-001"]}], "verdicts": [{"verdict": "downgrade", "claim": "access impact from nearby works", "reason": "Only proximity context is supported.", "refs": ["prox-001"], "as_of": null}], "claim_downgrades": [{"claim": "nearby works block or affect EV access", "downgraded_to": "nearby/proximity context only", "reason": "No retained closure/access-status source supports blockage.", "refs": ["prox-001"]}], "abstains": [], "coverage_limits": [{"summary": "Proximity context only.", "limitations": ["No confirmed access blockage.", "No causal impact claim."], "as_of": null, "coverage_status": "partial"}], "contradictions": [], "staleness": [], "binding_findings": [], "overall_claimability": "partially_claimable"},
+        "answer_packet": {"knowns": ["Retained fixture identifies nearby works and an EV access asset in the same review area.", "Safe claim: nearby/proximity context only."], "unknowns": ["No closure or access-status source supports confirmed blockage."], "cannot_claim": ["nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality", "Confirmed access blockage is not proven by proximity alone."], "citations": [{"citation_id": "cite:proximity", "source_ref": "fixture:entity_profile", "evidence_refs": ["prox-001"], "label": "Entity profile fixture source"}], "coverage_note": {"summary": "CHECK overall claimability: partially_claimable", "limitations": ["Proximity only."], "as_of": null, "coverage_status": "partial"}, "check_report_ref": "packet:g6:check", "lens": "claimability", "safe_next_looks": ["Look for retained closure or access-status records before claiming blockage."], "not_executed": []},
+        "rendered_response": {"text": "Known:\n- Retained fixture identifies nearby works and an EV access asset in the same review area.\n- Safe claim: nearby/proximity context only.\nUnknown:\n- No closure or access-status source supports confirmed blockage.\n- No claim: nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality\n- No claim: Confirmed access blockage is not proven by proximity alone.\nCoverage: CHECK overall claimability: partially_claimable\nCitations:\n- Source: fixture:entity_profile; Label: Entity profile fixture source", "validation": {"valid": true, "errors": []}, "degraded": false, "validation_errors": []},
+        "clarification_packet": null
+      },
+      "ui_expectations": {"show_downgrade": true, "show_cannot_claim": true, "must_not_show_terms_as_claims": ["blocked", "affected", "caused"]}
+    },
+    {
+      "scenario_id": "clarification_required",
+      "source_basis": ["ask-v11-020-future-flow-request", "real-corpus-014-unanchored-city-ask"],
+      "handoff_payload": {
+        "flow_envelope": {"flow_id": "flow:ask_v1", "flow_version": "1.1", "run_id": "app-handoff-clarification-required", "stage_failures": [], "degraded_response_decision": null, "stage_timings": {}, "trace_hops": [{"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"}, {"stage_id": "G2", "gate_id": "intent_and_binding_resolver@1.1", "input_packet_refs": ["boundary_packet"], "output_packet_refs": ["intent_packet"], "status": "needs_clarification"}, {"stage_id": "G3", "gate_id": "route_select_and_compile@1.1", "input_packet_refs": ["intent_packet"], "output_packet_refs": ["clarification_packet"], "status": "clarify"}], "packet_refs": {"boundary_packet": "packet:g1:boundary", "intent_packet": "packet:g2:intent", "clarification_packet": "packet:g4:clarification"}, "not_executed": ["G5", "G6", "G7", "G8"]},
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "clear", "reason_codes": ["bounded_city_question_requires_anchor"], "confidence": 0.9},
+        "intent_packet": {"intent_family": "unknown", "subject_candidates": [], "concept_bindings": [], "context_flags": {"requires_selected_item": true, "follow_up_of": null}, "ambiguity_flags": ["missing_anchor"], "clarification_candidates": ["selected_item_ref", "entity_ref", "source_record_ref"], "confidence": 0.55, "resolver_telemetry": {"reason_codes": ["unanchored_city_ask"]}},
+        "execution_contract": null,
+        "evidence_packet": null,
+        "check_report": null,
+        "answer_packet": null,
+        "rendered_response": null,
+        "clarification_packet": {"question": "Which asset, place, source record, or selected item should I use?", "target_field": "entity_ref", "candidates": ["selected item", "asset ref", "source record ref"], "reason": "A bounded city answer needs an anchor.", "asked_once": true, "not_executed": ["G5", "G6", "G7", "G8"]}
+      },
+      "ui_expectations": {"show_clarification_prompt": true, "show_one_target_field": "entity_ref", "do_not_show_final_answer": true, "show_not_executed": true}
+    },
+    {
+      "scenario_id": "boundary_action_refusal",
+      "source_basis": ["ask-v11-002-boundary-alert-now", "real-corpus-015-boundary-action-dispatch"],
+      "handoff_payload": {
+        "flow_envelope": {"flow_id": "flow:ask_v1", "flow_version": "1.1", "run_id": "app-handoff-boundary-action-refusal", "stage_failures": [], "degraded_response_decision": null, "stage_timings": {}, "trace_hops": [{"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "blocked"}, {"stage_id": "G2", "gate_id": "intent_and_binding_resolver@1.1", "input_packet_refs": ["boundary_packet"], "output_packet_refs": ["intent_packet"], "status": "boundary_refusal"}, {"stage_id": "G3", "gate_id": "route_select_and_compile@1.1", "input_packet_refs": ["intent_packet"], "output_packet_refs": ["refusal_route"], "status": "refuse"}], "packet_refs": {"boundary_packet": "packet:g1:boundary", "intent_packet": "packet:g2:intent", "refusal_route": "packet:g3:refuse"}, "not_executed": ["G5", "G6", "G7", "G8", "dispatch", "alert", "official_case_creation", "ticket_creation"]},
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "action_shaped", "reason_codes": ["imperative_external_action", "dispatch_or_alert_request"], "confidence": 1.0},
+        "intent_packet": {"intent_family": "boundary_refusal", "subject_candidates": [], "concept_bindings": [], "context_flags": {"requires_selected_item": false, "follow_up_of": null}, "ambiguity_flags": [], "clarification_candidates": [], "confidence": 1.0, "resolver_telemetry": {"reason_codes": ["g1_non_clear_stop"]}},
+        "execution_contract": {"route": {"kind": "refuse", "gap_id": null, "refusal_class": "action_shaped"}, "template_ref": null, "args": {}, "required_sources": [], "retrieval_plan": {"groups": []}, "derived_features": [], "answer_contract": {"shape": "boundary_refusal", "lens_default": "claimability", "required_sections": ["boundary", "not_executed"], "citation_policy": "none"}},
+        "evidence_packet": null,
+        "check_report": null,
+        "answer_packet": null,
+        "rendered_response": null,
+        "clarification_packet": null
+      },
+      "ui_expectations": {"show_boundary_refusal": true, "show_boundary": "action_shaped", "stop_before_g5": true, "hide_action_affordances": ["dispatch", "alert", "create_case", "create_ticket"]}
+    },
+    {
+      "scenario_id": "render_validator_degraded",
+      "source_basis": ["ask-v11-018-unsafe-causal-render", "real-corpus-019-renderer-no-undowngrade-wood-lane"],
+      "handoff_payload": {
+        "flow_envelope": {"flow_id": "flow:ask_v1", "flow_version": "1.1", "run_id": "app-handoff-render-validator-degraded", "stage_failures": [], "degraded_response_decision": null, "stage_timings": {}, "trace_hops": [{"stage_id": "G1", "gate_id": "boundary_screen@1.1", "input_packet_refs": [], "output_packet_refs": ["boundary_packet"], "status": "clear"}, {"stage_id": "G6", "gate_id": "check@1.1", "input_packet_refs": ["evidence_packet"], "output_packet_refs": ["check_report"], "status": "downgraded"}, {"stage_id": "G7", "gate_id": "answer_assemble@1.1", "input_packet_refs": ["check_report"], "output_packet_refs": ["answer_packet"], "status": "assembled"}, {"stage_id": "G8", "gate_id": "render@1.1", "input_packet_refs": ["answer_packet"], "output_packet_refs": ["rendered_response"], "status": "degraded"}], "packet_refs": {"boundary_packet": "packet:g1:boundary", "evidence_packet": "packet:g5:evidence", "check_report": "packet:g6:check", "answer_packet": "packet:g7:answer", "rendered_response": "packet:g8:rendered"}, "not_executed": []},
+        "boundary_packet": {"stage_id": "G1", "gate_id": "boundary_screen@1.1", "boundary": "clear", "reason_codes": ["city_subject_question"], "confidence": 1.0},
+        "intent_packet": {"intent_family": "subject_answer", "subject_candidates": ["story:lon:wood_lane_ev_access_review"], "concept_bindings": [{"concept": "access_impact_blockage", "family": "access_impact_blockage", "status": "known_external_not_ingested", "source": null, "field_ref": null, "owner": "closure or access-status source", "claimability": "cannot_claim_confirmed_impact", "cannot_claim": ["confirmed impact", "charger is blocked", "causal impact"]}], "context_flags": {"requires_selected_item": false, "follow_up_of": null}, "ambiguity_flags": [], "clarification_candidates": [], "confidence": 0.9, "resolver_telemetry": {"reason_codes": ["selected_story_anchor"]}},
+        "execution_contract": {"route": {"kind": "template_call", "gap_id": null, "refusal_class": null}, "template_ref": {"template_id": "subject_answer", "version": "1.0"}, "args": {"subject_ref": "story:lon:wood_lane_ev_access_review"}, "required_sources": [{"source_id": "fixture:subject_answer", "source_type": "local_fixture", "title": "Subject answer fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "proximity context only"}], "retrieval_plan": {"groups": [{"group_id": "subject_answer_fixture", "source_refs": ["fixture:subject_answer"], "args": {}, "parallelizable": true}]}, "derived_features": [], "answer_contract": {"shape": "known_unknown_claimability", "lens_default": "claimability", "required_sections": ["knowns", "cannot_claim"], "citation_policy": "required_for_claims"}},
+        "evidence_packet": {"facts": [{"fact_id": "render-degrade-001", "text": "Retained source supports proximity context only for Wood Lane."}], "rows": [], "series": [], "source_refs": [{"source_id": "fixture:subject_answer", "source_type": "local_fixture", "title": "Subject answer fixture source", "uri": null, "observed_at": null, "as_of": null, "owner": "ASK v1.1 fixture", "claim_boundary": "proximity context only"}], "lineage": ["subject_answer@1.0", "render_validator_test"], "confidence": 0.78, "gaps": ["No retained source proves confirmed impact."], "warnings": ["Unsafe render proposal attempted to upgrade proximity to causality."], "flags": {"no_data": false, "partial_result": true, "truncated": false}, "not_executed": []},
+        "check_report": {"checks": [{"check": "proximity_vs_causality", "status": "downgraded", "reason": "Proximity is not causality.", "refs": ["render-degrade-001"]}], "verdicts": [{"verdict": "downgrade", "claim": "confirmed impact", "reason": "Only proximity context is retained.", "refs": ["render-degrade-001"], "as_of": null}], "claim_downgrades": [{"claim": "confirmed impact", "downgraded_to": "nearby/proximity context only", "reason": "No retained source proves causal impact.", "refs": ["render-degrade-001"]}], "abstains": [], "coverage_limits": [{"summary": "Render must not un-downgrade CHECK findings.", "limitations": ["No confirmed impact.", "No blockage claim."], "as_of": null, "coverage_status": "partial"}], "contradictions": [], "staleness": [], "binding_findings": [], "overall_claimability": "partially_claimable"},
+        "answer_packet": {"knowns": ["Safe claim: nearby/proximity context only."], "unknowns": ["No retained source proves confirmed impact."], "cannot_claim": ["nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality"], "citations": [{"citation_id": "cite:render-degrade", "source_ref": "fixture:subject_answer", "evidence_refs": ["render-degrade-001"], "label": "Subject answer fixture source"}], "coverage_note": {"summary": "CHECK overall claimability: partially_claimable", "limitations": ["Proximity only."], "as_of": null, "coverage_status": "partial"}, "check_report_ref": "packet:g6:check", "lens": "claimability", "safe_next_looks": ["Look for direct retained access-status evidence."], "not_executed": []},
+        "rendered_response": {"text": "Unable to render final answer safely. Render validation failed: missing cannot_claim text: nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality; unsupported causal/projection phrase: \\bcaused\\b; render attempts to un-downgrade proximity claim", "validation": {"valid": false, "errors": ["missing cannot_claim text: nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality", "unsupported causal/projection phrase: \\bcaused\\b", "render attempts to un-downgrade proximity claim"]}, "degraded": true, "validation_errors": ["missing cannot_claim text: nearby source affects/blocks/causes the subject as more than nearby/proximity context only: proximity is not causality", "unsupported causal/projection phrase: \\bcaused\\b", "render attempts to un-downgrade proximity claim"]},
+        "clarification_packet": null
+      },
+      "ui_expectations": {"show_degraded_render": true, "show_validation_errors": true, "show_cannot_claim": true, "must_not_show_unsafe_proposal": true}
+    }
+  ]
+}
