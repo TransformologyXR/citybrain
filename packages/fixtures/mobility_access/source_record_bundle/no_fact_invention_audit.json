@@ -1,0 +1,7 @@
+{
+  "finding": "Missing source records are rendered as blockers. No fixture refs are promoted to city facts in the default UI.",
+  "fixture_record_ledger_summary": "CITYBRAIN_FIXTURE_RECORDS_PRESENT",
+  "generated_at": "2026-07-01T21:00:59.558639+00:00",
+  "schema_version": "citybrain-d8-no-fact-invention-audit-r2",
+  "status": "PASS_NO_FACT_INVENTION"
+}

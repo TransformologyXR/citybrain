@@ -1,0 +1,31 @@
+{
+  "payload": {
+    "command": "select",
+    "direction": "kit_to_web",
+    "entity_id": "corridor:uk-london:wood-lane-scrubbs-lane",
+    "entity_label": "Wood Lane access review",
+    "evidence_packet_ref": "TIMS-219173,TIMS-210389,87",
+    "execution_state": "not_executed",
+    "limitations_ref": "contextual review binding only; not legal/certified identity",
+    "no_action_state": "no_action_taken",
+    "payload_hash": "ffbebfdce7700917f0af4073f8e69101355ffe1031e693a2c8336134fa95193a",
+    "selection_id": "d13-r2-kit-originated-pick-001",
+    "source_runtime_bundle_ref": "packages/fixtures/d13_spatial_twin_omniverse_one_truth/runtime_overlay/D13_SPATIAL_ONE_TRUTH_BINDINGS.json",
+    "timestamp": "2026-07-03T10:23:20Z"
+  },
+  "receipt": {
+    "command_status": "accepted",
+    "direction": "kit_to_web",
+    "entity_id": "corridor:uk-london:wood-lane-scrubbs-lane",
+    "execution_state": "not_executed",
+    "no_action_taken": true,
+    "original_payload_hash": "ffbebfdce7700917f0af4073f8e69101355ffe1031e693a2c8336134fa95193a",
+    "reason": null,
+    "receipt_timestamp": "2026-07-03T10:23:20Z",
+    "received_by": "web_ui",
+    "rendering_selection_state_observed": "resolved_to_prim:/CityBrain/ReviewAid/corridor_uk_london_wood_lane_scrubbs_lane",
+    "selection_id": "d13-r2-kit-originated-pick-001"
+  },
+  "schema_version": "citybrain.d13.live_selection_event.r2",
+  "source": "kit_extension"
+}

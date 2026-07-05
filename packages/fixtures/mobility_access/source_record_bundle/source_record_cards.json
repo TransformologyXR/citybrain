@@ -1,0 +1,177 @@
+{
+  "data_depth_blocker_count": 7,
+  "default_ui_cards": [
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-place-entity-record",
+      "card_type": "place_entity_record",
+      "missing_fields": [
+        "city",
+        "official/source-derived place name",
+        "source dataset",
+        "external/source record ID",
+        "geometry or map reference"
+      ],
+      "moment_ids": [
+        "M10"
+      ],
+      "recommended_next_tasks": [
+        "LONDON_MOBILITY_SOURCE_RECORD_PACK",
+        "HELSINKI_SEMANTIC_TWIN_FOR_VISUAL_ENTITY_PICK"
+      ],
+      "source_bundle_refs": [
+        "scenario_state.json",
+        "kit_overlay_packets.json",
+        "one_truth_index.json"
+      ],
+      "summary": "The certified Mobility Access bundle contains internal scenario and overlay refs, but no official or source-derived road/place/building record with city, source dataset, and external record ID.",
+      "title": "DATA DEPTH BLOCKER: place or corridor source record missing"
+    },
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-observation-record",
+      "card_type": "candidate_observation_record",
+      "missing_fields": [
+        "source media or sensor record",
+        "time",
+        "location",
+        "candidate label",
+        "plain-language observation summary"
+      ],
+      "moment_ids": [
+        "M03",
+        "M13"
+      ],
+      "recommended_next_tasks": [
+        "LONDON_MOBILITY_SOURCE_RECORD_PACK"
+      ],
+      "source_bundle_refs": [
+        "evidence_bundle.json"
+      ],
+      "summary": "6 candidate observation refs are present, but the bundle does not include source media/frame, where/when fields, or a source-derived observation label.",
+      "title": "DATA DEPTH BLOCKER: candidate observation source record missing"
+    },
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-similar-case-record",
+      "card_type": "similar_case_record",
+      "missing_fields": [
+        "city",
+        "dataset/source",
+        "external/source case ID",
+        "case summary",
+        "match reason",
+        "outcome",
+        "limitation"
+      ],
+      "moment_ids": [
+        "M02"
+      ],
+      "recommended_next_tasks": [
+        "CHICAGO_SIMILAR_CASE_RECORD_PACK"
+      ],
+      "source_bundle_refs": [
+        "evidence_bundle.json"
+      ],
+      "summary": "4 similar-case refs are present, but the bundle does not include city, dataset/source, external case ID, match reason, or outcome fields.",
+      "title": "DATA DEPTH BLOCKER: similar-case city records missing"
+    },
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-cascade-link-record",
+      "card_type": "cascade_link_record",
+      "missing_fields": [
+        "source entity A",
+        "source entity B",
+        "link evidence",
+        "link confidence",
+        "limitation"
+      ],
+      "moment_ids": [
+        "M10"
+      ],
+      "recommended_next_tasks": [
+        "LONDON_MOBILITY_SOURCE_RECORD_PACK"
+      ],
+      "source_bundle_refs": [
+        "evidence_bundle.json"
+      ],
+      "summary": "3 cascade refs are present, but the bundle does not include a viewer-readable source chain naming the city records and link evidence.",
+      "title": "DATA DEPTH BLOCKER: cascade link source record missing"
+    },
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-option-tradeoff-record",
+      "card_type": "option_tradeoff_record",
+      "missing_fields": [
+        "source-backed baseline value",
+        "source-backed option value",
+        "source axis evidence",
+        "external/source record ID for each comparison"
+      ],
+      "moment_ids": [
+        "M06"
+      ],
+      "recommended_next_tasks": [
+        "LONDON_MOBILITY_SOURCE_RECORD_PACK"
+      ],
+      "source_bundle_refs": [
+        "option_sets.json",
+        "track_d_packets.json"
+      ],
+      "summary": "7 candidate options exist, but their displayed values are review fixture packets rather than city-source measurements or externally sourced constraints.",
+      "title": "DATA DEPTH BLOCKER: option evidence values are fixture-only"
+    },
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-forbidden-command-record",
+      "card_type": "guardrail_refusal_record",
+      "missing_fields": [
+        "forbidden request text or request class",
+        "refusal log record",
+        "guardrail source record",
+        "review timestamp"
+      ],
+      "moment_ids": [
+        "M07"
+      ],
+      "recommended_next_tasks": [
+        "LONDON_MOBILITY_SOURCE_RECORD_PACK"
+      ],
+      "source_bundle_refs": [
+        "track_d_packets.json",
+        "review_state.json"
+      ],
+      "summary": "The runtime bundle has guardrail packet fields, but not a specific source/log record showing a forbidden command request and refusal.",
+      "title": "DATA DEPTH BLOCKER: forbidden-command refusal log missing"
+    },
+    {
+      "card_classification": "DATA_DEPTH_BLOCKER",
+      "card_id": "source-blocker-human-review-stop-record",
+      "card_type": "human_review_stop_record",
+      "missing_fields": [
+        "review record ID",
+        "review timestamp",
+        "review actor class",
+        "source attribution",
+        "limitation"
+      ],
+      "moment_ids": [
+        "M08"
+      ],
+      "recommended_next_tasks": [
+        "LONDON_MOBILITY_SOURCE_RECORD_PACK"
+      ],
+      "source_bundle_refs": [
+        "review_state.json",
+        "track_d_packets.json"
+      ],
+      "summary": "The bundle proves no approval or execution exists, but does not include an external/source-derived review record for the stop point.",
+      "title": "DATA DEPTH BLOCKER: human-review stop source record missing"
+    }
+  ],
+  "generated_at": "2026-07-01T21:00:59.558639+00:00",
+  "schema_version": "citybrain-d8-source-record-cards-r2",
+  "source_backed_card_count": 0,
+  "status": "PARTIAL_SOURCE_RECORD_DEPTH_INSUFFICIENT"
+}

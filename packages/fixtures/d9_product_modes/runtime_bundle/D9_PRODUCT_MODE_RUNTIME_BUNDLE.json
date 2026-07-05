@@ -1,0 +1,1692 @@
+{
+  "ask": {
+    "flagship_query": {
+      "source_graph_claim": "London D10 planning-context identity spine, not precomputed story FAQ.",
+      "template_call": "ask:entity_360@v1(uprn=5006082)"
+    },
+    "query_templates": [
+      {
+        "argument": "entity_alias_or_canonical_id",
+        "ask_query_id": "ask:entity_360@v1",
+        "requires_citations": true,
+        "template_id": "what_do_we_know_about"
+      },
+      {
+        "argument": "story_or_entity_or_bundle_topic",
+        "ask_query_id": "ask:what_supports@v1",
+        "requires_citations": true,
+        "template_id": "what_supports"
+      },
+      {
+        "argument": "packet_or_story_or_entity",
+        "ask_query_id": "ask:what_is_uncertain@v1",
+        "requires_citations": true,
+        "template_id": "what_is_uncertain"
+      },
+      {
+        "argument": "packet_or_story_or_entity",
+        "ask_query_id": "ask:cannot_claim@v1",
+        "requires_citations": true,
+        "template_id": "what_cannot_be_claimed"
+      },
+      {
+        "argument": "out_of_scope",
+        "ask_query_id": "ask:unsupported_question@v1",
+        "requires_grounded_refusal": true,
+        "template_id": "unsupported_question"
+      }
+    ],
+    "sample_answers": [
+      {
+        "answerability": "ANSWERED_WITH_CITATIONS",
+        "ask_query_id": "ask:entity_360@v1",
+        "cannot_claim": [
+          "A legal planning determination.",
+          "A property/legal/certified conclusion.",
+          "Complete London planning-constraint coverage.",
+          "DOB-style or BBL/BIN semantics."
+        ],
+        "citations": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          }
+        ],
+        "entity_id": "parcel:uk-london:uprn:5006082",
+        "entity_label": "London planning identity context for UPRN 5006082",
+        "execution_state": "not_executed",
+        "flagship_reason": "This resolves a novel argument against the London PLD/UPRN identity spine instead of enumerating an authored story.",
+        "knowns": [
+          "PLD applications with context: 53751.",
+          "UPRNs with context: 41793.",
+          "Context nodes emitted: 186180.",
+          "Context edges emitted: 232101.",
+          "D10 query smoke includes an uprn_context_profile for parcel:uk-london:uprn:5006082."
+        ],
+        "limitations": [
+          "D10 provides planning-context enrichment only.",
+          "D10 does not make legal planning decisions.",
+          "D10 does not prove complete London planning-constraint coverage unless measured.",
+          "D10 does not ingest enforcement/building-control records.",
+          "D10 uses deterministic evidence only.",
+          "UPRN is not BBL.",
+          "TOID is not BIN.",
+          "PLD is not DOB."
+        ],
+        "mode": "ASK",
+        "mode_run_id": "d9-ask-seed-1-run-r1",
+        "question": "What do we know about UPRN 5006082 from the London planning identity context?",
+        "source_refs": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          }
+        ],
+        "summary": "London D10 resolves planning-context questions through the identity spine: 53751 PLD applications with context, 41793 UPRNs with context, and 232101 context edges emitted. This is planning context only, not a legal planning decision.",
+        "supported_question": true,
+        "template_call": "ask:entity_360@v1(uprn=5006082)",
+        "template_id": "what_do_we_know_about",
+        "unknowns": [
+          "D10 does not prove complete London planning-constraint coverage unless measured.",
+          "TOID context is not certified where TOID geometry is unavailable.",
+          "D10 does not ingest enforcement/building-control records."
+        ],
+        "validation_phase": "build_time_seed"
+      },
+      {
+        "answerability": "ANSWERED_WITH_CITATIONS",
+        "ask_query_id": "ask:what_supports@v1",
+        "cannot_claim": [
+          "Claiming charger availability changed.",
+          "Claiming the works caused access impact.",
+          "Treating active/replay source records as live monitoring."
+        ],
+        "citations": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          }
+        ],
+        "entity_id": "corridor:uk-london:wood-lane-scrubbs-lane",
+        "entity_label": "Wood Lane / Scrubbs Lane review corridor",
+        "execution_state": "not_executed",
+        "knowns": [
+          "TfL works records are present for Wood Lane and Westway.",
+          "EV asset 87 is a named rapid charging source row near the review context.",
+          "The story supports proximity review only."
+        ],
+        "limitations": [
+          "Proximity is a review heuristic, not causal impact.",
+          "TfL records are source records captured for local/replay review; they are not live incident response.",
+          "EV asset row is infrastructure context, not an event or service-status source.",
+          "A stronger source is required before any access-impact claim."
+        ],
+        "mode": "ASK",
+        "mode_run_id": "d9-ask-seed-2-run-r1",
+        "question": "What does CityBrain know about Wood Lane / Scrubbs Lane and which records support it?",
+        "source_refs": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          }
+        ],
+        "summary": "Wood Lane / Scrubbs Lane review corridor is supported by retained source refs; no unsupported source is added by ASK.",
+        "supported_question": true,
+        "template_call": "ask:what_supports@v1(story=wood_lane_ev_access_review)",
+        "template_id": "what_supports",
+        "unknowns": [
+          "Proximity is not causality.",
+          "The EV access asset row is not a live service-status source.",
+          "The story does not prove blockage, availability, or operational disruption."
+        ],
+        "validation_phase": "build_time_seed"
+      },
+      {
+        "answerability": "ANSWERED_WITH_CITATIONS",
+        "ask_query_id": "ask:entity_360@v1",
+        "cannot_claim": [
+          "certified affected building or asset",
+          "emergency response instruction",
+          "street-network route instruction",
+          "incident severity or urgency finding from priority score",
+          "dispatch/control/enforcement/legal outcome",
+          "official ticket/case creation"
+        ],
+        "citations": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "event:us-nyc:flow3:mvc_crash:4463710",
+            "title": "MVC crash source record 4463710"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+            "title": "Candidate tax-lot context 3014450085"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "resource:us-nyc:fdny:firehouse:engine_227",
+            "title": "Response-resource context Engine 227"
+          }
+        ],
+        "entity_id": "event:us-nyc:mvc_crash:4463710",
+        "entity_label": "NYC MVC crash 4463710",
+        "execution_state": "not_executed",
+        "knowns": [
+          "The source event is linked to candidate tax-lot context.",
+          "Response-resource context is available as bounded review evidence.",
+          "The cascade is not a dispatch or affected-building certification."
+        ],
+        "limitations": [
+          "F3-NYC-D5 is a deterministic EvidenceBundle and briefing surface only.",
+          "D5 does not call live NIM, NeMo, or any LLM.",
+          "D5 does not certify affected buildings or affected assets.",
+          "D5 presents candidate affected tax-lot context, not certified affected-building truth.",
+          "D5 presents operator review routes, not emergency dispatch.",
+          "D5 presents score-ordered review itineraries, not navigable routes.",
+          "D5 does not make legal, safety, or emergency recommendations.",
+          "D5 does not geocode address-only events."
+        ],
+        "mode": "ASK",
+        "mode_run_id": "d9-ask-seed-3-run-r1",
+        "question": "What is known about MVC crash 4463710 and the candidate affected/context records?",
+        "source_refs": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "event:us-nyc:flow3:mvc_crash:4463710",
+            "title": "MVC crash source record 4463710"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+            "title": "Candidate tax-lot context 3014450085"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "resource:us-nyc:fdny:firehouse:engine_227",
+            "title": "Response-resource context Engine 227"
+          }
+        ],
+        "summary": "Existing Flow 3 records link one MVC event to candidate tax-lot context, nearby response-resource context, an operator review itinerary, and a governance refusal for unsupported affected-building certainty.",
+        "supported_question": true,
+        "template_call": "ask:entity_360@v1(event=mvc_crash_4463710)",
+        "template_id": "what_do_we_know_about",
+        "unknowns": [
+          "The tax-lot edge is candidate context only.",
+          "The Engine 227 relation is response-resource context only.",
+          "The review itinerary is not a street-network instruction.",
+          "The system refuses definite affected-building certainty."
+        ],
+        "validation_phase": "build_time_seed"
+      },
+      {
+        "answerability": "ANSWERED_WITH_CITATIONS",
+        "ask_query_id": "ask:what_is_uncertain@v1",
+        "cannot_claim": [
+          "A legal planning determination.",
+          "A property/legal/certified conclusion.",
+          "Charger availability changed.",
+          "Claiming charger availability changed.",
+          "Claiming the works caused access impact.",
+          "The Westway source proves EV blockage."
+        ],
+        "citations": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          }
+        ],
+        "entity_id": "topic:d9:boundary",
+        "entity_label": "D9 product-mode boundary",
+        "execution_state": "not_executed",
+        "knowns": [
+          "EV asset 87 is a named rapid charging source row near the review context.",
+          "It is part of the Wood Lane review packet's source context.",
+          "PLD applications with context: 53751.",
+          "TIMS-210389 is retained as a Westway repair works source reference.",
+          "TfL works records are present for Wood Lane and Westway."
+        ],
+        "limitations": [
+          "Cards are review/demo source records only, not operational instructions.",
+          "D10 does not make legal planning decisions.",
+          "D10 provides planning-context enrichment only.",
+          "Proximity is a review heuristic, not causal impact.",
+          "Source rows are bounded samples, not complete city coverage.",
+          "TfL records are source records captured for local/replay review; they are not live incident response."
+        ],
+        "mode": "ASK",
+        "mode_run_id": "d9-ask-seed-4-run-r1",
+        "question": "What is uncertain or unsupported in this story/packet?",
+        "source_refs": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          }
+        ],
+        "summary": "For D9 product-mode boundary, ASK keeps uncertainty visible instead of converting review context into an impact or action claim.",
+        "supported_question": true,
+        "template_call": "ask:what_is_uncertain@v1(packet=current)",
+        "template_id": "what_is_uncertain",
+        "unknowns": [
+          "D10 does not prove complete London planning-constraint coverage unless measured.",
+          "Proximity is not causality.",
+          "TOID context is not certified where TOID geometry is unavailable.",
+          "The D9 bundle does not contain live service availability.",
+          "The D9 bundle does not prove access blockage or operational disruption."
+        ],
+        "validation_phase": "build_time_seed"
+      },
+      {
+        "answerability": "ANSWERED_WITH_CITATIONS",
+        "ask_query_id": "ask:cannot_claim@v1",
+        "cannot_claim": [
+          "A legal planning determination.",
+          "A property/legal/certified conclusion.",
+          "Charger availability changed.",
+          "Claiming charger availability changed.",
+          "Claiming the works caused access impact.",
+          "The Westway source proves EV blockage."
+        ],
+        "citations": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          }
+        ],
+        "entity_id": "topic:d9:boundary",
+        "entity_label": "D9 product-mode boundary",
+        "execution_state": "not_executed",
+        "knowns": [
+          "EV asset 87 is a named rapid charging source row near the review context.",
+          "It is part of the Wood Lane review packet's source context.",
+          "PLD applications with context: 53751.",
+          "TIMS-210389 is retained as a Westway repair works source reference.",
+          "TfL works records are present for Wood Lane and Westway."
+        ],
+        "limitations": [
+          "Cards are review/demo source records only, not operational instructions.",
+          "D10 does not make legal planning decisions.",
+          "D10 provides planning-context enrichment only.",
+          "Proximity is a review heuristic, not causal impact.",
+          "Source rows are bounded samples, not complete city coverage.",
+          "TfL records are source records captured for local/replay review; they are not live incident response."
+        ],
+        "mode": "ASK",
+        "mode_run_id": "d9-ask-seed-5-run-r1",
+        "question": "What cannot be claimed?",
+        "source_refs": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          }
+        ],
+        "summary": "For D9 product-mode boundary, ASK refuses claims outside the retained evidence and review boundary.",
+        "supported_question": true,
+        "template_call": "ask:cannot_claim@v1(packet=current)",
+        "template_id": "what_cannot_be_claimed",
+        "unknowns": [
+          "D10 does not prove complete London planning-constraint coverage unless measured.",
+          "Proximity is not causality.",
+          "TOID context is not certified where TOID geometry is unavailable.",
+          "The D9 bundle does not contain live service availability.",
+          "The D9 bundle does not prove access blockage or operational disruption."
+        ],
+        "validation_phase": "build_time_seed"
+      },
+      {
+        "answerability": "ANSWERED_WITH_CITATIONS",
+        "ask_query_id": "ask:what_supports@v1",
+        "cannot_claim": [
+          "A legal planning determination.",
+          "A property/legal/certified conclusion.",
+          "Charger availability changed.",
+          "Claiming charger availability changed.",
+          "Claiming the works caused access impact.",
+          "The Westway source proves EV blockage."
+        ],
+        "citations": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          }
+        ],
+        "entity_id": "topic:d9:sources",
+        "entity_label": "D9 product-mode source map",
+        "execution_state": "not_executed",
+        "knowns": [
+          "EV asset 87 is a named rapid charging source row near the review context.",
+          "It is part of the Wood Lane review packet's source context.",
+          "PLD applications with context: 53751.",
+          "TIMS-210389 is retained as a Westway repair works source reference.",
+          "TfL works records are present for Wood Lane and Westway."
+        ],
+        "limitations": [
+          "Cards are review/demo source records only, not operational instructions.",
+          "D10 does not make legal planning decisions.",
+          "D10 provides planning-context enrichment only.",
+          "Proximity is a review heuristic, not causal impact.",
+          "Source rows are bounded samples, not complete city coverage.",
+          "TfL records are source records captured for local/replay review; they are not live incident response."
+        ],
+        "mode": "ASK",
+        "mode_run_id": "d9-ask-seed-6-run-r1",
+        "question": "What source records support this answer?",
+        "source_refs": [
+          {
+            "artifact_type": "harness_report",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+            "record_id": "LON_D10_HARNESS_REPORT",
+            "title": "London D10 planning-context enrichment harness"
+          },
+          {
+            "artifact_type": "query_smoke",
+            "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+            "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+            "title": "London D10 UPRN context query smoke"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          }
+        ],
+        "summary": "D9 product-mode source map is supported by retained source refs; no unsupported source is added by ASK.",
+        "supported_question": true,
+        "template_call": "ask:what_supports@v1(answer=current)",
+        "template_id": "what_supports",
+        "unknowns": [
+          "D10 does not prove complete London planning-constraint coverage unless measured.",
+          "Proximity is not causality.",
+          "TOID context is not certified where TOID geometry is unavailable.",
+          "The D9 bundle does not contain live service availability.",
+          "The D9 bundle does not prove access blockage or operational disruption."
+        ],
+        "validation_phase": "build_time_seed"
+      }
+    ],
+    "seed_questions": [
+      {
+        "ask_query_id": "ask:entity_360@v1",
+        "question": "What do we know about UPRN 5006082 from the London planning identity context?",
+        "template_call": "ask:entity_360@v1(uprn=5006082)",
+        "why_flagship": "This resolves a novel argument against the London PLD/UPRN identity spine instead of enumerating an authored story."
+      },
+      {
+        "ask_query_id": "ask:what_supports@v1",
+        "question": "What does CityBrain know about Wood Lane / Scrubbs Lane and which records support it?",
+        "template_call": "ask:what_supports@v1(story=wood_lane_ev_access_review)"
+      },
+      {
+        "ask_query_id": "ask:entity_360@v1",
+        "question": "What is known about MVC crash 4463710 and the candidate affected/context records?",
+        "template_call": "ask:entity_360@v1(event=mvc_crash_4463710)"
+      },
+      {
+        "ask_query_id": "ask:what_is_uncertain@v1",
+        "question": "What is uncertain or unsupported in this story/packet?",
+        "template_call": "ask:what_is_uncertain@v1(packet=current)"
+      },
+      {
+        "ask_query_id": "ask:cannot_claim@v1",
+        "question": "What cannot be claimed?",
+        "template_call": "ask:cannot_claim@v1(packet=current)"
+      },
+      {
+        "ask_query_id": "ask:what_supports@v1",
+        "question": "What source records support this answer?",
+        "template_call": "ask:what_supports@v1(answer=current)"
+      }
+    ]
+  },
+  "boundary_invariants": [
+    "Local/LAN/replay/review/query context only.",
+    "No production/public API claim.",
+    "No autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case, approval, legal/certified finding, or automated action.",
+    "Track D and human review remain authoritative after any future promotion.",
+    "Reviewed option sets and candidate options remain execution_state = not_executed."
+  ],
+  "brief": {
+    "non_story_subject_brief_id": "brief:ev-asset-87",
+    "packets": [
+      {
+        "brief_id": "brief:london-wood-lane",
+        "execution_state": "not_executed",
+        "human_stop": "Human review remains the boundary; this packet creates no approval, execution, dispatch, route, ticket, case, or certified finding.",
+        "limitations": [
+          "Local/LAN/replay/review/query context only.",
+          "No production/public API claim.",
+          "No autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case, approval, legal/certified finding, or automated action.",
+          "Track D and human review remain authoritative after any future promotion.",
+          "Reviewed option sets and candidate options remain execution_state = not_executed."
+        ],
+        "mode": "BRIEF",
+        "mode_run_id": "d9-brief-london-wood-lane-run-r1",
+        "review_only_choices": [
+          "Inspect retained source refs.",
+          "Ask for stronger source evidence where needed.",
+          "Keep the packet as context or abstain when evidence remains insufficient."
+        ],
+        "source_records": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "[A219] WOOD LANE works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-210389",
+            "title": "[A40] WESTWAY repair works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          }
+        ],
+        "subject_id": "london-wood-lane",
+        "subject_kind": "story_review_subject",
+        "title": "London Wood Lane review brief",
+        "what_cannot_be_claimed": [
+          "Claiming charger availability changed.",
+          "Claiming the works caused access impact.",
+          "Treating active/replay source records as live monitoring."
+        ],
+        "what_is_being_reviewed": "London Wood Lane review brief",
+        "what_is_connected": [
+          "TfL works records and a named rapid EV access asset are connected for review context."
+        ],
+        "what_is_uncertain": [
+          "Proximity is not causality.",
+          "The EV access asset row is not a live service-status source.",
+          "The story does not prove blockage, availability, or operational disruption."
+        ]
+      },
+      {
+        "brief_id": "brief:nyc-mvc-cascade",
+        "execution_state": "not_executed",
+        "human_stop": "Human review remains the boundary; this packet creates no approval, execution, dispatch, route, ticket, case, or certified finding.",
+        "limitations": [
+          "Local/LAN/replay/review/query context only.",
+          "No production/public API claim.",
+          "No autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case, approval, legal/certified finding, or automated action.",
+          "Track D and human review remain authoritative after any future promotion.",
+          "Reviewed option sets and candidate options remain execution_state = not_executed."
+        ],
+        "mode": "BRIEF",
+        "mode_run_id": "d9-brief-nyc-mvc-cascade-run-r1",
+        "review_only_choices": [
+          "Inspect retained source refs.",
+          "Ask for stronger source evidence where needed.",
+          "Keep the packet as context or abstain when evidence remains insufficient."
+        ],
+        "source_records": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "event:us-nyc:flow3:mvc_crash:4463710",
+            "title": "MVC crash source record 4463710"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+            "title": "Candidate tax-lot context 3014450085"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "resource:us-nyc:fdny:firehouse:engine_227",
+            "title": "Response-resource context Engine 227"
+          }
+        ],
+        "subject_id": "nyc-mvc-cascade",
+        "subject_kind": "story_review_subject",
+        "title": "NYC MVC cascade review brief",
+        "what_cannot_be_claimed": [
+          "certified affected building or asset",
+          "emergency response instruction",
+          "street-network route instruction",
+          "incident severity or urgency finding from priority score",
+          "dispatch/control/enforcement/legal outcome",
+          "official ticket/case creation"
+        ],
+        "what_is_being_reviewed": "NYC MVC cascade review brief",
+        "what_is_connected": [
+          "MVC event, candidate tax-lot context, response-resource context, review route context, and refusal context remain linked."
+        ],
+        "what_is_uncertain": [
+          "The tax-lot edge is candidate context only.",
+          "The Engine 227 relation is response-resource context only.",
+          "The review itinerary is not a street-network instruction.",
+          "The system refuses definite affected-building certainty."
+        ]
+      },
+      {
+        "brief_id": "brief:ev-asset-87",
+        "execution_state": "not_executed",
+        "human_stop": "Human review remains the boundary; this packet creates no approval, execution, dispatch, route, ticket, case, or certified finding.",
+        "limitations": [
+          "Local/LAN/replay/review/query context only.",
+          "No production/public API claim.",
+          "No autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case, approval, legal/certified finding, or automated action.",
+          "Track D and human review remain authoritative after any future promotion.",
+          "Reviewed option sets and candidate options remain execution_state = not_executed."
+        ],
+        "mode": "BRIEF",
+        "mode_run_id": "d9-brief-ev-asset-87-run-r1",
+        "review_only_choices": [
+          "Inspect retained source refs.",
+          "Ask for stronger source evidence where needed.",
+          "Keep the packet as context or abstain when evidence remains insufficient."
+        ],
+        "source_records": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          }
+        ],
+        "subject_id": "ev-asset-87",
+        "subject_kind": "non_story_entity",
+        "title": "EV asset 87 source brief",
+        "what_cannot_be_claimed": [
+          "Charger availability changed.",
+          "The asset is blocked or unavailable.",
+          "Road works caused access impact."
+        ],
+        "what_is_being_reviewed": "EV asset 87 source brief",
+        "what_is_connected": [
+          "The entity brief is assembled from the graph/source index without relying on an authored story card."
+        ],
+        "what_is_uncertain": [
+          "The D9 bundle does not contain live service availability.",
+          "The D9 bundle does not prove access blockage or operational disruption."
+        ]
+      }
+    ]
+  },
+  "check": {
+    "ruleset": [
+      {
+        "description": "Reject production/live/action/certified claims outside retained evidence.",
+        "rule_id": "check:claim_boundary@v1"
+      },
+      {
+        "description": "Require cited source refs and visible source-depth limitations.",
+        "rule_id": "check:source_depth@v1"
+      },
+      {
+        "description": "Require not_executed and no approval/execution semantics.",
+        "rule_id": "check:no_action_boundary@v1"
+      },
+      {
+        "description": "Flag proximity-to-causality or candidate-to-certainty conversion.",
+        "rule_id": "check:unsupported_impact_causality@v1"
+      },
+      {
+        "description": "Flag missing source record ids or limitation refs.",
+        "rule_id": "check:missing_field_source_record@v1"
+      },
+      {
+        "description": "Ensure duplicate-shape story candidates are not counted as new product breadth.",
+        "rule_id": "check:story_query_duplicate_shape@v1"
+      },
+      {
+        "description": "Flag external media/viewer availability gaps without blocking local modes.",
+        "rule_id": "check:external_validation_media@v1"
+      }
+    ],
+    "sample_results": [
+      {
+        "check_id": "check-result:wood-lane-proximity-not-causality",
+        "mode_run_id": "d9-check-wood-lane-proximity-not-causality-run-r1",
+        "reason": "Wood Lane packet states proximity is not causality and makes no EV blockage/availability claim.",
+        "rule_ids": [
+          "check:unsupported_impact_causality@v1",
+          "check:claim_boundary@v1"
+        ],
+        "status": "PASS_FLAGGED_BOUNDARY",
+        "target_ref": "brief:london-wood-lane"
+      },
+      {
+        "check_id": "check-result:nyc-candidate-tax-lot-boundary",
+        "mode_run_id": "d9-check-nyc-candidate-tax-lot-boundary-run-r1",
+        "reason": "NYC cascade stays candidate-only and refuses certified affected-building truth.",
+        "rule_ids": [
+          "check:source_depth@v1",
+          "check:claim_boundary@v1"
+        ],
+        "status": "PASS_FLAGGED_BOUNDARY",
+        "target_ref": "brief:nyc-mvc-cascade"
+      },
+      {
+        "check_id": "check-result:recall-generic-match-reasons",
+        "mode_run_id": "d9-check-recall-generic-match-reasons-run-r1",
+        "reason": "Chicago similar-case records have source IDs, but match reasons remain generic.",
+        "rule_ids": [
+          "check:source_depth@v1"
+        ],
+        "status": "PARTIAL_GENERIC_MATCH_REASONS_VISIBLE",
+        "target_ref": "recall:chicago-cutaway"
+      },
+      {
+        "check_id": "check-result:diff-readiness",
+        "mode_run_id": "d9-check-diff-readiness-run-r1",
+        "reason": "Diff has no established source-change cadence in this runtime; it is not greened.",
+        "rule_ids": [
+          "check:external_validation_media@v1"
+        ],
+        "status": "DEFERRED_PARTIAL",
+        "target_ref": "mode:DIFF"
+      },
+      {
+        "check_id": "check-result:perception-readiness",
+        "mode_run_id": "d9-check-perception-readiness-run-r1",
+        "reason": "Perception/VSS is outside D9 AWB Check runtime and is not claimed.",
+        "rule_ids": [
+          "check:external_validation_media@v1",
+          "check:claim_boundary@v1"
+        ],
+        "status": "DEFERRED_NOT_IMPLEMENTED",
+        "target_ref": "mode:PERCEPTION_VSS"
+      },
+      {
+        "check_id": "check-result:ev-asset-87-source-depth",
+        "mode_run_id": "d9-check-ev-asset-87-source-depth-run-r1",
+        "reason": "Non-story brief has a source row and limitations, with no action semantics.",
+        "rule_ids": [
+          "check:source_depth@v1",
+          "check:no_action_boundary@v1"
+        ],
+        "status": "PASS_WITH_LIMITATIONS",
+        "target_ref": "brief:ev-asset-87"
+      }
+    ],
+    "source_depth_ledger": [
+      {
+        "mode_run_id": "d9-check-wood-lane-proximity-not-causality-run-r1",
+        "reason": "Wood Lane packet states proximity is not causality and makes no EV blockage/availability claim.",
+        "source_depth_status": "ADEQUATE_WITH_LIMITATIONS",
+        "target_ref": "brief:london-wood-lane"
+      },
+      {
+        "mode_run_id": "d9-check-nyc-candidate-tax-lot-boundary-run-r1",
+        "reason": "NYC cascade stays candidate-only and refuses certified affected-building truth.",
+        "source_depth_status": "ADEQUATE_WITH_LIMITATIONS",
+        "target_ref": "brief:nyc-mvc-cascade"
+      },
+      {
+        "mode_run_id": "d9-check-recall-generic-match-reasons-run-r1",
+        "reason": "Chicago similar-case records have source IDs, but match reasons remain generic.",
+        "source_depth_status": "PARTIAL_GENERIC_MATCH_REASONS_VISIBLE",
+        "target_ref": "recall:chicago-cutaway"
+      },
+      {
+        "mode_run_id": "d9-check-diff-readiness-run-r1",
+        "reason": "Diff has no established source-change cadence in this runtime; it is not greened.",
+        "source_depth_status": "DEFERRED_PARTIAL",
+        "target_ref": "mode:DIFF"
+      },
+      {
+        "mode_run_id": "d9-check-perception-readiness-run-r1",
+        "reason": "Perception/VSS is outside D9 AWB Check runtime and is not claimed.",
+        "source_depth_status": "DEFERRED_NOT_IMPLEMENTED",
+        "target_ref": "mode:PERCEPTION_VSS"
+      },
+      {
+        "mode_run_id": "d9-check-ev-asset-87-source-depth-run-r1",
+        "reason": "Non-story brief has a source row and limitations, with no action semantics.",
+        "source_depth_status": "ADEQUATE_WITH_LIMITATIONS",
+        "target_ref": "brief:ev-asset-87"
+      }
+    ]
+  },
+  "entity_index": [
+    {
+      "aliases": [
+        "uprn 5006082",
+        "parcel:uk-london:uprn:5006082",
+        "planning identity",
+        "planning identity context",
+        "london planning identity context",
+        "address/uprn/planning context",
+        "ask london planning identity context",
+        "redbridge-3699_23_01",
+        "permit redbridge-3699_23_01",
+        "barking_&_dagenham-19_00608_cdn"
+      ],
+      "cannot_claim": [
+        "A legal planning determination.",
+        "A property/legal/certified conclusion.",
+        "Complete London planning-constraint coverage.",
+        "DOB-style or BBL/BIN semantics."
+      ],
+      "entity_id": "parcel:uk-london:uprn:5006082",
+      "entity_type": "planning_identity_context",
+      "knowns": [
+        "PLD applications with context: 53751.",
+        "UPRNs with context: 41793.",
+        "Context nodes emitted: 186180.",
+        "Context edges emitted: 232101.",
+        "D10 query smoke includes an uprn_context_profile for parcel:uk-london:uprn:5006082."
+      ],
+      "label": "London planning identity context for UPRN 5006082",
+      "limitations": [
+        "D10 provides planning-context enrichment only.",
+        "D10 does not make legal planning decisions.",
+        "D10 does not prove complete London planning-constraint coverage unless measured.",
+        "D10 does not ingest enforcement/building-control records.",
+        "D10 uses deterministic evidence only.",
+        "UPRN is not BBL.",
+        "TOID is not BIN.",
+        "PLD is not DOB."
+      ],
+      "related_story_id": null,
+      "source_refs": [
+        {
+          "artifact_type": "harness_report",
+          "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json",
+          "record_id": "LON_D10_HARNESS_REPORT",
+          "title": "London D10 planning-context enrichment harness"
+        },
+        {
+          "artifact_type": "query_smoke",
+          "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json",
+          "record_id": "uprn_context_profile:parcel:uk-london:uprn:5006082",
+          "title": "London D10 UPRN context query smoke"
+        }
+      ],
+      "summary": "London D10 resolves planning-context questions through the identity spine: 53751 PLD applications with context, 41793 UPRNs with context, and 232101 context edges emitted. This is planning context only, not a legal planning decision.",
+      "unknowns": [
+        "D10 does not prove complete London planning-constraint coverage unless measured.",
+        "TOID context is not certified where TOID geometry is unavailable.",
+        "D10 does not ingest enforcement/building-control records."
+      ]
+    },
+    {
+      "aliases": [
+        "wood lane",
+        "scrubbs lane",
+        "wood lane scrubbs lane",
+        "a219",
+        "hammersmith and fulham"
+      ],
+      "cannot_claim": [
+        "Claiming charger availability changed.",
+        "Claiming the works caused access impact.",
+        "Treating active/replay source records as live monitoring."
+      ],
+      "entity_id": "corridor:uk-london:wood-lane-scrubbs-lane",
+      "entity_type": "corridor_review_subject",
+      "knowns": [
+        "TfL works records are present for Wood Lane and Westway.",
+        "EV asset 87 is a named rapid charging source row near the review context.",
+        "The story supports proximity review only."
+      ],
+      "label": "Wood Lane / Scrubbs Lane review corridor",
+      "limitations": [
+        "Proximity is a review heuristic, not causal impact.",
+        "TfL records are source records captured for local/replay review; they are not live incident response.",
+        "EV asset row is infrastructure context, not an event or service-status source.",
+        "A stronger source is required before any access-impact claim."
+      ],
+      "related_story_id": "story:lon:wood_lane_ev_access_review",
+      "source_refs": [
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+          "record_id": "TIMS-219173",
+          "title": "[A219] WOOD LANE works record"
+        },
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+          "record_id": "TIMS-210389",
+          "title": "[A40] WESTWAY repair works record"
+        },
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+          "record_id": "87",
+          "title": "Scrubbs Lane - Wood Lane Car Park"
+        }
+      ],
+      "summary": "TfL road disruption records report active works near Wood Lane/Westway while the London Datastore sample identifies Scrubbs Lane - Wood Lane Car Park as a rapid EV charging site.",
+      "unknowns": [
+        "Proximity is not causality.",
+        "The EV access asset row is not a live service-status source.",
+        "The story does not prove blockage, availability, or operational disruption."
+      ]
+    },
+    {
+      "aliases": [
+        "ev asset 87",
+        "asset 87",
+        "charging site 87",
+        "scrubbs lane - wood lane car park",
+        "scrubbs lane wood lane car park"
+      ],
+      "cannot_claim": [
+        "Charger availability changed.",
+        "The asset is blocked or unavailable.",
+        "Road works caused access impact."
+      ],
+      "entity_id": "asset:uk-london:ev_charging_site:87",
+      "entity_type": "infrastructure_context_asset",
+      "knowns": [
+        "The source row identifies the asset as a rapid EV charging site.",
+        "The borough is Hammersmith & Fulham.",
+        "The row is infrastructure context, not an availability or incident source."
+      ],
+      "label": "EV asset 87: Scrubbs Lane - Wood Lane Car Park",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "related_story_id": "story:lon:wood_lane_ev_access_review",
+      "source_refs": [
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+          "record_id": "87",
+          "title": "Scrubbs Lane - Wood Lane Car Park"
+        }
+      ],
+      "summary": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham.",
+      "unknowns": [
+        "The D9 bundle does not contain live service availability.",
+        "The D9 bundle does not prove access blockage or operational disruption."
+      ]
+    },
+    {
+      "aliases": [
+        "westway",
+        "a40 westway",
+        "westway near wood lane",
+        "a40"
+      ],
+      "cannot_claim": [
+        "The Westway source proves EV blockage.",
+        "The system recommends a route/control action."
+      ],
+      "entity_id": "corridor:uk-london:westway",
+      "entity_type": "corridor_review_subject",
+      "knowns": [
+        "TIMS-210389 is retained as a Westway repair works source reference.",
+        "It is part of the Wood Lane review packet's source context."
+      ],
+      "label": "Westway / Wood Lane adjacent works context",
+      "limitations": [
+        "Proximity is a review heuristic, not causal impact.",
+        "TfL records are source records captured for local/replay review; they are not live incident response.",
+        "EV asset row is infrastructure context, not an event or service-status source.",
+        "A stronger source is required before any access-impact claim."
+      ],
+      "related_story_id": "story:lon:wood_lane_ev_access_review",
+      "source_refs": [
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+          "record_id": "TIMS-210389",
+          "title": "[A40] WESTWAY repair works record"
+        }
+      ],
+      "summary": "A Westway repair works source record is linked as review context near the Wood Lane access story.",
+      "unknowns": [
+        "The source does not prove access impact on EV asset 87.",
+        "The source does not provide live routing or service availability."
+      ]
+    },
+    {
+      "aliases": [
+        "mvc crash 4463710",
+        "crash 4463710",
+        "mvc 4463710",
+        "howard avenue",
+        "nyc cascade"
+      ],
+      "cannot_claim": [
+        "certified affected building or asset",
+        "emergency response instruction",
+        "street-network route instruction",
+        "incident severity or urgency finding from priority score",
+        "dispatch/control/enforcement/legal outcome",
+        "official ticket/case creation"
+      ],
+      "entity_id": "event:us-nyc:mvc_crash:4463710",
+      "entity_type": "incident_review_subject",
+      "knowns": [
+        "The source event is linked to candidate tax-lot context.",
+        "Response-resource context is available as bounded review evidence.",
+        "The cascade is not a dispatch or affected-building certification."
+      ],
+      "label": "NYC MVC crash 4463710",
+      "limitations": [
+        "F3-NYC-D5 is a deterministic EvidenceBundle and briefing surface only.",
+        "D5 does not call live NIM, NeMo, or any LLM.",
+        "D5 does not certify affected buildings or affected assets.",
+        "D5 presents candidate affected tax-lot context, not certified affected-building truth.",
+        "D5 presents operator review routes, not emergency dispatch.",
+        "D5 presents score-ordered review itineraries, not navigable routes.",
+        "D5 does not make legal, safety, or emergency recommendations.",
+        "D5 does not geocode address-only events."
+      ],
+      "related_story_id": "story:nyc:cascade:mvc_crash_4463710",
+      "source_refs": [
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+          "record_id": "event:us-nyc:flow3:mvc_crash:4463710",
+          "title": "MVC crash source record 4463710"
+        },
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+          "record_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+          "title": "Candidate tax-lot context 3014450085"
+        },
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+          "record_id": "resource:us-nyc:fdny:firehouse:engine_227",
+          "title": "Response-resource context Engine 227"
+        }
+      ],
+      "summary": "Existing Flow 3 records link one MVC event to candidate tax-lot context, nearby response-resource context, an operator review itinerary, and a governance refusal for unsupported affected-building certainty.",
+      "unknowns": [
+        "The tax-lot edge is candidate context only.",
+        "The Engine 227 relation is response-resource context only.",
+        "The review itinerary is not a street-network instruction.",
+        "The system refuses definite affected-building certainty."
+      ]
+    },
+    {
+      "aliases": [
+        "ev asset 174",
+        "asset 174",
+        "warwick avenue",
+        "clifton villas"
+      ],
+      "cannot_claim": [
+        "Live availability or blockage.",
+        "A new implemented story mode from duplicate-shape evidence."
+      ],
+      "entity_id": "asset:uk-london:ev_charging_site:174",
+      "entity_type": "infrastructure_context_asset",
+      "knowns": [
+        "The row exists as a London rapid EV charging source sample.",
+        "It is a non-primary duplicate-shape context, not a new product story."
+      ],
+      "label": "EV asset 174: Warwick Avenue by Clifton Villas",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "related_story_id": null,
+      "source_refs": [
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+          "record_id": "174",
+          "title": "Warwick Avenue by Clifton Villas"
+        }
+      ],
+      "summary": "Warwick Avenue by Clifton Villas is listed as a London rapid EV charging site in Westminster.",
+      "unknowns": [
+        "No live service status is present.",
+        "No distinct implemented story is claimed from this row."
+      ]
+    },
+    {
+      "aliases": [
+        "6934 s dante",
+        "chicago similar case",
+        "similar case 7511042"
+      ],
+      "cannot_claim": [
+        "Causality, prediction, instruction, recommendation, enforcement, or outcome inference."
+      ],
+      "entity_id": "chi:r2:case:001",
+      "entity_type": "similar_case_context",
+      "knowns": [
+        "Source row fields, location/time anchors, issue category, and bounded rule-based match metadata."
+      ],
+      "label": "Violations case at 6934 S DANTE AVE",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "related_story_id": null,
+      "source_refs": [
+        {
+          "artifact_type": "source_record",
+          "path": "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json",
+          "record_id": "7511042",
+          "title": "Violations case at 6934 S DANTE AVE"
+        }
+      ],
+      "summary": "CN135016 recorded with issue type rodent.",
+      "unknowns": [
+        "Match reasons are generic and therefore recall remains partial."
+      ]
+    }
+  ],
+  "execution_state": "not_executed",
+  "generated_at": "2026-07-02T16:10:17Z",
+  "one_truth": {
+    "ask_is_capability_not_faq": true,
+    "cutaway_modes": [
+      "RECALL"
+    ],
+    "deferred_modes": [
+      "DIFF",
+      "PERCEPTION_VSS"
+    ],
+    "enabled_modes": [
+      "ASK",
+      "WATCH",
+      "BRIEF",
+      "CHECK"
+    ],
+    "required_validation_gates": [
+      "unseen_ask_question_smoke",
+      "non_story_brief_smoke",
+      "mode_run_id_dom_traceability"
+    ]
+  },
+  "product_mode_contract": {
+    "acceptance_extensions_from_product_review": [
+      "ASK must pass held-out unseen-question smoke at validation time, including a grounded refusal for an out-of-scope question.",
+      "BRIEF must generate at least one non-story subject brief from the source graph.",
+      "The web console must render mode outputs with data-mode-run-id so story cards cannot count as product-mode outputs."
+    ],
+    "boundary_invariants": [
+      "Local/LAN/replay/review/query context only.",
+      "No production/public API claim.",
+      "No autonomous monitoring, alerting, dispatch, routing/control, enforcement, official ticket/case, approval, legal/certified finding, or automated action.",
+      "Track D and human review remain authoritative after any future promotion.",
+      "Reviewed option sets and candidate options remain execution_state = not_executed."
+    ],
+    "cutaway_modes": [
+      "RECALL"
+    ],
+    "deferred_modes": [
+      "DIFF",
+      "PERCEPTION_VSS"
+    ],
+    "enabled_modes": [
+      "ASK",
+      "WATCH",
+      "BRIEF",
+      "CHECK"
+    ],
+    "execution_state": "not_executed",
+    "mode_run_id_policy": {
+      "applies_to": [
+        "ASK answers",
+        "WATCH queue items",
+        "BRIEF packets",
+        "CHECK results",
+        "RECALL cutaway items"
+      ],
+      "dom_attribute": "data-mode-run-id",
+      "required": true
+    },
+    "model_usage_policy": {
+      "ask_runtime": "deterministic_parameterized_templates_over_local_source_graph",
+      "external_llm_required": false,
+      "synthesis_boundary": "No open-ended model synthesis is required or claimed."
+    },
+    "schema_version": "main-citybrain-d9-product-mode-contract-r1.v1"
+  },
+  "recall": {
+    "packet": {
+      "boundary": "Bounded precedent memory only; no causality, prediction, instruction, recommendation, enforcement, or action.",
+      "items": [
+        {
+          "execution_state": "not_executed",
+          "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+          "match_reason_quality": "GENERIC",
+          "mode_run_id": "d9-recall-chi-r2-case-001-run-r1",
+          "non_inference_note": [
+            "not causality",
+            "not instruction",
+            "not prediction",
+            "not enforcement",
+            "not recommendation"
+          ],
+          "recall_id": "recall:chi:r2:case:001",
+          "source_record_ids": [
+            "7511042"
+          ],
+          "source_refs": [
+            {
+              "artifact_type": "source_record",
+              "path": "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json",
+              "record_id": "7511042",
+              "title": "Violations case at 6934 S DANTE AVE"
+            }
+          ],
+          "status": "PARTIAL_GENERIC_MATCH_REASON",
+          "summary": "CN135016 recorded with issue type rodent.",
+          "title": "Violations case at 6934 S DANTE AVE"
+        },
+        {
+          "execution_state": "not_executed",
+          "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+          "match_reason_quality": "GENERIC",
+          "mode_run_id": "d9-recall-chi-r2-case-002-run-r1",
+          "non_inference_note": [
+            "not causality",
+            "not instruction",
+            "not prediction",
+            "not enforcement",
+            "not recommendation"
+          ],
+          "recall_id": "recall:chi:r2:case:002",
+          "source_record_ids": [
+            "7510501"
+          ],
+          "source_refs": [
+            {
+              "artifact_type": "source_record",
+              "path": "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json",
+              "record_id": "7510501",
+              "title": "Violations case at 516 N LECLAIRE AVE"
+            }
+          ],
+          "status": "PARTIAL_GENERIC_MATCH_REASON",
+          "summary": "CN104035 recorded with issue type building_condition.",
+          "title": "Violations case at 516 N LECLAIRE AVE"
+        }
+      ],
+      "mode": "RECALL_CUTAWAY",
+      "recall_cutaway_id": "recall:chicago-cutaway",
+      "status": "PARTIAL_MAIN_CITYBRAIN_D9_RECALL_CUTAWAY_R7_MATCH_REASONS_TOO_GENERIC"
+    },
+    "quality_report": {
+      "blocking": false,
+      "generic_match_reason_count": 2,
+      "items_checked": 2,
+      "limitation": "Recall is visible as a cutaway only because match reasons are generic.",
+      "status": "PARTIAL"
+    }
+  },
+  "schema_version": "main-citybrain-d9-product-mode-runtime-bundle-r2.v1",
+  "source_map": [
+    {
+      "artifact_id": "story_queue",
+      "exists": true,
+      "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json"
+    },
+    {
+      "artifact_id": "story_first_layer",
+      "exists": true,
+      "path": "packages/fixtures/story_first_demo/story_scenario_layer.json"
+    },
+    {
+      "artifact_id": "story_first_bundle",
+      "exists": true,
+      "path": "packages/fixtures/story_first_demo/story_source_bundle.json"
+    },
+    {
+      "artifact_id": "nyc_cascade_layer",
+      "exists": true,
+      "path": "packages/fixtures/nyc_cascade_story_scenario_layer/NYC_CASCADE_SCENARIO_LAYER.json"
+    },
+    {
+      "artifact_id": "source_record_ui",
+      "exists": true,
+      "path": "packages/fixtures/source_record_ui_integrated/source_record_ui_integrated_bundle.json"
+    },
+    {
+      "artifact_id": "london_source_records",
+      "exists": true,
+      "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json"
+    },
+    {
+      "artifact_id": "chicago_similar_cases",
+      "exists": true,
+      "path": "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json"
+    },
+    {
+      "artifact_id": "helsinki_visual",
+      "exists": true,
+      "path": "packages/fixtures/helsinki_visual_entity_pick/source_record_bundle.json"
+    },
+    {
+      "artifact_id": "data_scout_closeout",
+      "exists": true,
+      "path": "outputs/main_citybrain_d9_data_scout_closeout/D9_DATA_SCOUT_CLOSEOUT_DECISION.json"
+    },
+    {
+      "artifact_id": "data_scout_matrix",
+      "exists": true,
+      "path": "outputs/main_citybrain_d9_data_scout_closeout/D9_MODE_DATA_READINESS_MATRIX.json"
+    },
+    {
+      "artifact_id": "data_scout_freeze",
+      "exists": true,
+      "path": "outputs/main_citybrain_d9_data_scout_milestone_freeze/DATA_SCOUT_MILESTONE_FREEZE_DECISION.json"
+    },
+    {
+      "artifact_id": "planning_context_report",
+      "exists": true,
+      "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json"
+    },
+    {
+      "artifact_id": "planning_query_smoke",
+      "exists": true,
+      "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json"
+    }
+  ],
+  "status": "PASS_MAIN_CITYBRAIN_D9_PRODUCT_MODE_RUNTIME_BUNDLE_R2_WITH_LIMITATIONS",
+  "watch": {
+    "false_positive_ledger": [
+      {
+        "candidate_id": "watch-candidate:lon:wood-lane-ev-access",
+        "false_positive_note": "Nearby records may be unrelated; no availability/blockage impact is supported.",
+        "mitigation": "Show boundary text and require human review before any downstream lane.",
+        "mode_run_id": "d9-watch-wood-lane-ev-access-run-r1",
+        "query_id": "watch:proximity_works_to_access@v1"
+      },
+      {
+        "candidate_id": "watch-candidate:nyc:mvc-4463710-cascade",
+        "false_positive_note": "The candidate asset edge is not certified affected-building truth.",
+        "mitigation": "Show boundary text and require human review before any downstream lane.",
+        "mode_run_id": "d9-watch-nyc-mvc-4463710-cascade-run-r1",
+        "query_id": "watch:incident_to_candidate_asset_context@v1"
+      },
+      {
+        "candidate_id": "watch-candidate:lon:wood-lane-source-gap",
+        "false_positive_note": "A proximity signal can be mistaken for causality if the boundary is hidden.",
+        "mitigation": "Show boundary text and require human review before any downstream lane.",
+        "mode_run_id": "d9-watch-wood-lane-source-gap-run-r1",
+        "query_id": "watch:low_confidence_link_or_source_gap@v1"
+      },
+      {
+        "candidate_id": "watch-candidate:hel:visual-identity-link",
+        "false_positive_note": "Do not treat object picking as a certified twin or legal identity.",
+        "mitigation": "Show boundary text and require human review before any downstream lane.",
+        "mode_run_id": "d9-watch-helsinki-visual-identity-link-run-r1",
+        "query_id": "watch:visual_identity_missing_graph_link@v1"
+      }
+    ],
+    "named_query_registry": [
+      {
+        "allowed_runtime": "local_fixture_query_only",
+        "description": "Find retained review candidates where a works/disruption source is near an access asset source row.",
+        "mode_run_id": "d9-watch-registry-proximity-works-access-run-r1",
+        "not_allowed": [
+          "live monitoring",
+          "alerting",
+          "dispatch",
+          "routing/control",
+          "enforcement"
+        ],
+        "query_id": "watch:proximity_works_to_access@v1"
+      },
+      {
+        "allowed_runtime": "local_fixture_query_only",
+        "description": "Find retained incident/context rows that have candidate asset and response-resource refs.",
+        "mode_run_id": "d9-watch-registry-incident-asset-context-run-r1",
+        "not_allowed": [
+          "dispatch",
+          "certified affected-building truth",
+          "ticket/case creation"
+        ],
+        "query_id": "watch:incident_to_candidate_asset_context@v1"
+      },
+      {
+        "allowed_runtime": "local_fixture_query_only",
+        "description": "Find review packets where the useful link is bounded by uncertainty or source-depth gaps.",
+        "mode_run_id": "d9-watch-registry-low-confidence-source-gap-run-r1",
+        "not_allowed": [
+          "automated escalation",
+          "impact inference"
+        ],
+        "query_id": "watch:low_confidence_link_or_source_gap@v1"
+      },
+      {
+        "allowed_runtime": "partial_local_fixture_query_only",
+        "description": "Find visual identity cutaways with source refs where graph linkage remains contextual.",
+        "mode_run_id": "d9-watch-registry-visual-identity-missing-link-run-r1",
+        "not_allowed": [
+          "certified twin",
+          "certified physical geometry",
+          "legal identity claim"
+        ],
+        "query_id": "watch:visual_identity_missing_graph_link@v1",
+        "readiness": "PARTIAL_SOURCE_READY"
+      }
+    ],
+    "review_queue": [
+      {
+        "boundary_statement": "Manual review only; not live monitoring, alerting, dispatch, routing/control, enforcement, or action.",
+        "candidate_id": "watch-candidate:lon:wood-lane-ev-access",
+        "execution_state": "not_executed",
+        "false_positive_notes": "Nearby records may be unrelated; no availability/blockage impact is supported.",
+        "mode_run_id": "d9-watch-wood-lane-ev-access-run-r1",
+        "query_id": "watch:proximity_works_to_access@v1",
+        "recommended_human_review_action_only": "Inspect source rows and ask for stronger evidence before any impact claim.",
+        "review_reason": "Works source and access asset source are both retained, but the link is proximity-only.",
+        "source_refs": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "TIMS-219173",
+            "title": "Wood Lane works record"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+            "record_id": "87",
+            "title": "Scrubbs Lane - Wood Lane Car Park"
+          }
+        ]
+      },
+      {
+        "boundary_statement": "Manual review only; no response, route, ticket, case, or dispatch.",
+        "candidate_id": "watch-candidate:nyc:mvc-4463710-cascade",
+        "execution_state": "not_executed",
+        "false_positive_notes": "The candidate asset edge is not certified affected-building truth.",
+        "mode_run_id": "d9-watch-nyc-mvc-4463710-cascade-run-r1",
+        "query_id": "watch:incident_to_candidate_asset_context@v1",
+        "recommended_human_review_action_only": "Inspect candidate context and keep refusal available for unsupported certainty requests.",
+        "review_reason": "Candidate incident/asset/resource context is available for review.",
+        "source_refs": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "event:us-nyc:flow3:mvc_crash:4463710",
+            "title": "MVC crash source record 4463710"
+          },
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+            "title": "Candidate tax-lot context"
+          }
+        ]
+      },
+      {
+        "boundary_statement": "Queue item is a review prompt only, not an alert.",
+        "candidate_id": "watch-candidate:lon:wood-lane-source-gap",
+        "execution_state": "not_executed",
+        "false_positive_notes": "A proximity signal can be mistaken for causality if the boundary is hidden.",
+        "mode_run_id": "d9-watch-wood-lane-source-gap-run-r1",
+        "query_id": "watch:low_confidence_link_or_source_gap@v1",
+        "recommended_human_review_action_only": "Request source depth or keep the packet as proximity context.",
+        "review_reason": "The story is useful but lacks a stronger access-impact source.",
+        "source_refs": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+            "record_id": "story:lon:wood_lane_ev_access_review",
+            "title": "Wood Lane story queue packet"
+          }
+        ]
+      },
+      {
+        "boundary_statement": "Partial review candidate only; no certified physical geometry claim.",
+        "candidate_id": "watch-candidate:hel:visual-identity-link",
+        "execution_state": "not_executed",
+        "false_positive_notes": "Do not treat object picking as a certified twin or legal identity.",
+        "mode_run_id": "d9-watch-helsinki-visual-identity-link-run-r1",
+        "query_id": "watch:visual_identity_missing_graph_link@v1",
+        "recommended_human_review_action_only": "Use as a side cutaway when explaining visual identity boundaries.",
+        "review_reason": "Visual identity cutaway exists but remains a contextual source/graph link.",
+        "source_refs": [
+          {
+            "artifact_type": "source_record",
+            "path": "packages/fixtures/helsinki_visual_entity_pick/source_record_bundle.json",
+            "record_id": "helsinki_visual_entity_pick",
+            "title": "Helsinki visual entity pick source bundle"
+          }
+        ]
+      }
+    ]
+  }
+}

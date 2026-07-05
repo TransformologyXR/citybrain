@@ -1,0 +1,32 @@
+{
+  "file_count": 5,
+  "files": [
+    {
+      "bytes": 370,
+      "path": "packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_ONE_TRUTH_INDEX.json",
+      "sha256": "d1e3b6ead106858146a5196ba72ac27413b971d6f18a91d45b776af92a94313a"
+    },
+    {
+      "bytes": 77862,
+      "path": "packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_RUNTIME_BUNDLE.json",
+      "sha256": "45943f13b9c09fa1519ee1ec514955edfab5e54360f1434280ee42e0788fcee4"
+    },
+    {
+      "bytes": 291,
+      "path": "packages/fixtures/d9_product_modes/runtime_bundle/D9_RUNTIME_BUNDLE_GAP_LEDGER.json",
+      "sha256": "72cfeabec43ced33c358c89df93d267d68803eb242e36e9727c785589c3c4dc6"
+    },
+    {
+      "bytes": 2166,
+      "path": "packages/fixtures/d9_product_modes/runtime_bundle/D9_RUNTIME_BUNDLE_SOURCE_MAP.json",
+      "sha256": "dcf2a6bcb867179c7809c458520861ca937ab5127df20f7b5369aa507ac2da04"
+    },
+    {
+      "bytes": 76,
+      "path": "packages/fixtures/d9_product_modes/runtime_bundle/SECRET_AUDIT.json",
+      "sha256": "2563eefaa61d70161e25c1b7637821e3bf5299e4136706eaefe08899792bf45f"
+    }
+  ],
+  "generated_at": "2026-07-02T16:10:17Z",
+  "schema_version": "main-citybrain-d9-ask-watch-brief-check-runtime-r1.hash_manifest.v1"
+}

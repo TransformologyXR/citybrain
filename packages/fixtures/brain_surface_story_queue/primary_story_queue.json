@@ -1,0 +1,264 @@
+{
+  "distinct_story_query_count": 2,
+  "primary_story_count": 2,
+  "primary_story_queue": [
+    {
+      "boundary_summary": "Review-only proximity context; no EV availability, blockage, impact, or action claim.",
+      "city": "London",
+      "cutaways_available": [
+        "chicago_precedent_recall_parked",
+        "helsinki_visual_identity_cutaway"
+      ],
+      "human_stop": "No action is taken here; the story stops at human review and evidence inspection.",
+      "intelligence_beat": "The system connects official works records with an access asset while making the uncertainty visible above the story line.",
+      "limitations": [
+        "Proximity is a review heuristic, not causal impact.",
+        "TfL records are source records captured for local/replay review; they are not live incident response.",
+        "EV asset row is infrastructure context, not an event or service-status source.",
+        "A stronger source is required before any access-impact claim."
+      ],
+      "not_claimed": [
+        "Claiming charger availability changed.",
+        "Claiming the works caused access impact.",
+        "Treating active/replay source records as live monitoring."
+      ],
+      "query_version": "v1",
+      "review_options": [
+        "Review whether the Wood Lane works should be watched as access-context evidence.",
+        "Review whether nearby access-asset context should be attached to the packet.",
+        "Ask for stronger source evidence before making any access-impact claim.",
+        "Abstain when the evidence remains insufficient."
+      ],
+      "review_options_summary": "Inspect source records together, ask for stronger evidence, or abstain.",
+      "review_premise": "TfL road disruption records report active works near Wood Lane/Westway while the London Datastore sample identifies Scrubbs Lane - Wood Lane Car Park as a rapid EV charging site.",
+      "role": "primary_story",
+      "source_artifacts": [
+        "packages/fixtures/story_first_demo/story_scenario_layer.json",
+        "packages/fixtures/story_first_demo/story_source_bundle.json",
+        "outputs/main_citybrain_d8_story_scenario_layer_milestone_freeze/STORY_SCENARIO_LAYER_MILESTONE_FREEZE_DECISION.json"
+      ],
+      "source_record_refs": [
+        "TIMS-219173",
+        "TIMS-210389",
+        "87"
+      ],
+      "source_records": [
+        {
+          "role": "source_record",
+          "source_dataset": "TfL Unified API Road Disruptions",
+          "source_record_id": "TIMS-219173",
+          "summary": "[A219] Wood Lane (Both directions) at the junction of [A40] Westway - Various carriageway and footway restrictions in place to facilitate Cycle Superhighway works.",
+          "title": "[A219] WOOD LANE (W12 ) (Hammersmith & Fulham)"
+        },
+        {
+          "role": "source_record",
+          "source_dataset": "TfL Unified API Road Disruptions",
+          "source_record_id": "TIMS-210389",
+          "summary": "[A40] Westway (Eastbound) at the junction of [A3220] West Cross Route - The exit slip road to the Northern Roundabout is closed to facilitate repair works. ",
+          "title": "[A40] WESTWAY (W10 ,W12 ) (Hammersmith & Fulham,Kensington & Chelsea)"
+        },
+        {
+          "role": "source_record",
+          "source_dataset": "London Datastore Electric Vehicle Charging Site",
+          "source_record_id": "87",
+          "summary": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham.",
+          "title": "Scrubbs Lane - Wood Lane Car Park"
+        }
+      ],
+      "specific_subject": "Wood Lane / Scrubbs Lane, Hammersmith & Fulham",
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "story_query_id": "story-query:proximity_works_to_access",
+      "story_query_key": "story-query:proximity_works_to_access@v1",
+      "tension": "TfL works records sit near a named rapid EV access asset, but the evidence only supports proximity review, not an impact claim.",
+      "title": "Wood Lane works near a named rapid EV access asset",
+      "trust_moments_available": [
+        "no_action_boundary",
+        "proximity_not_causality"
+      ],
+      "uncertainty": [
+        "Proximity is not causality.",
+        "The EV access asset row is not a live service-status source.",
+        "The story does not prove blockage, availability, or operational disruption."
+      ],
+      "viewer_readiness_status": "ready_as_story_queue_baseline_with_limitations",
+      "what_citybrain_connected": "Official TfL works records and a named rapid EV access asset are connected as review context only.",
+      "woven_moments": [
+        {
+          "boundary": "Review context only; no approval or execution.",
+          "role": "trust_moment",
+          "role_label": "No-action boundary",
+          "summary": "The system explains what it will not do as part of evidence, not as a hidden footer.",
+          "title": "No action taken boundary stays visible"
+        },
+        {
+          "boundary": "No EV blocked/available/unavailable claim.",
+          "role": "trust_moment",
+          "role_label": "Uncertainty",
+          "summary": "CityBrain connects nearby records while refusing to claim blockage or availability change.",
+          "title": "Proximity does not prove access impact"
+        },
+        {
+          "boundary": "Context only; not prediction, causality, or instruction.",
+          "role": "capability_cutaway",
+          "role_label": "Parked precedent",
+          "summary": "Available as a precedent-memory capability only after a specific match reason is selected.",
+          "title": "Chicago precedent memory: 6934 S DANTE AVE"
+        },
+        {
+          "boundary": "No certified physical geometry or legal identity claim.",
+          "role": "capability_cutaway",
+          "role_label": "Visual identity",
+          "summary": "Shows visual identity capability, not a primary story or certified twin claim.",
+          "title": "Helsinki visual entity pick: Tehtaankatu 1b"
+        }
+      ]
+    },
+    {
+      "boundary_summary": "Candidate cascade context only; no certified affected building, dispatch, route, ticket, case, or action.",
+      "city": "NYC",
+      "cutaways_available": [
+        "governance_refusal_moment"
+      ],
+      "human_stop": "Human review remains the final boundary; the scenario creates no approval, execution, ticket, case, route, alert, enforcement, or certified finding.",
+      "intelligence_beat": "CityBrain can connect an event, candidate asset context, response-resource context, review itinerary evidence, and a refusal moment while preserving uncertainty at every step.",
+      "limitations": [
+        "F3-NYC-D5 is a deterministic EvidenceBundle and briefing surface only.",
+        "D5 does not call live NIM, NeMo, or any LLM.",
+        "D5 does not certify affected buildings or affected assets.",
+        "D5 presents candidate affected tax-lot context, not certified affected-building truth.",
+        "D5 presents operator review routes, not emergency dispatch.",
+        "D5 presents score-ordered review itineraries, not navigable routes.",
+        "D5 does not make legal, safety, or emergency recommendations.",
+        "D5 does not geocode address-only events."
+      ],
+      "not_claimed": [
+        "certified affected building or asset",
+        "emergency response instruction",
+        "street-network route instruction",
+        "incident severity or urgency finding from priority score",
+        "dispatch/control/enforcement/legal outcome",
+        "official ticket/case creation"
+      ],
+      "query_version": "v1",
+      "review_options": [
+        "Inspect the MVC event source record and candidate tax-lot edge together.",
+        "Compare response-resource context distances and confidence values.",
+        "Review the score-ordered itinerary as bounded review evidence.",
+        "Use the governance refusal when certainty is unsupported.",
+        "Abstain from action when evidence remains candidate-only."
+      ],
+      "review_options_summary": "Review candidate context, route evidence, refusal evidence, or abstain.",
+      "review_premise": "Existing Flow 3 records link one MVC event to candidate tax-lot context, nearby response-resource context, an operator review itinerary, and a governance refusal for unsupported affected-building certainty.",
+      "role": "primary_story",
+      "source_artifacts": [
+        "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_SELECTOR_REPORT.json",
+        "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_GROUNDING_REPORT.json",
+        "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_NO_OVERCLAIM_REPORT.json",
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_2_top_operator_review_route.json",
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_4_governance_negative_request.json"
+      ],
+      "source_record_refs": [
+        "event:us-nyc:flow3:mvc_crash:4463710",
+        "3014450085",
+        "resource:us-nyc:fdny:firehouse:engine_227",
+        "review_route:us-nyc:flow3:d4:001:brooklyn:resource_us_nyc_fdny_firehouse_engine_227",
+        "negative_affected_buildings"
+      ],
+      "source_records": [
+        {
+          "role": "primary_incident_source_record",
+          "source_dataset": "Motor_Vehicle_Collisions_-_Crashes",
+          "source_record_id": "event:us-nyc:flow3:mvc_crash:4463710",
+          "summary": "collision review subject at HOWARD AVENUE in BROOKLYN.",
+          "title": "MVC crash source record 4463710"
+        },
+        {
+          "role": "candidate_asset_context",
+          "source_dataset": "Flow 3 derived evidence",
+          "source_record_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+          "summary": "Candidate asset context only; not certified affected-building truth.",
+          "title": "Candidate tax-lot context 3014450085"
+        },
+        {
+          "role": "response_resource_context",
+          "source_dataset": "Flow 3 derived evidence",
+          "source_record_id": "resource:us-nyc:fdny:firehouse:engine_227",
+          "summary": "Nearby response-resource context only; not dispatched-unit truth.",
+          "title": "Response-resource context"
+        },
+        {
+          "role": "response_resource_context",
+          "source_dataset": "Flow 3 derived evidence",
+          "source_record_id": "resource:us-nyc:fdny:firehouse:rescue_2",
+          "summary": "Nearby response-resource context only; not dispatched-unit truth.",
+          "title": "Response-resource context"
+        },
+        {
+          "role": "response_resource_context",
+          "source_dataset": "Flow 3 derived evidence",
+          "source_record_id": "resource:us-nyc:fdny:firehouse:battalion_38_engine_234_ladder_123",
+          "summary": "Nearby response-resource context only; not dispatched-unit truth.",
+          "title": "Response-resource context"
+        },
+        {
+          "role": "operator_review_route_context",
+          "source_dataset": "Flow 3 derived evidence",
+          "source_record_id": "review_route:us-nyc:flow3:d4:001:brooklyn:resource_us_nyc_fdny_firehouse_engine_227",
+          "summary": "Context record retained for bounded review.",
+          "title": "Operator Review Route Context"
+        },
+        {
+          "role": "governance_refusal_context",
+          "source_dataset": "Flow 3 derived evidence",
+          "source_record_id": "negative_affected_buildings",
+          "summary": "Context record retained for bounded review.",
+          "title": "Governance Refusal Context"
+        }
+      ],
+      "specific_subject": "MVC crash 4463710 near Howard Avenue with Engine 227 context",
+      "story_id": "story:nyc:cascade:mvc_crash_4463710",
+      "story_query_id": "story-query:incident_to_affected_asset_response_cascade",
+      "story_query_key": "story-query:incident_to_affected_asset_response_cascade@v1",
+      "tension": "The records are rich enough for a human review story, but they are intentionally not strong enough to support certified affected-building, operational response, or action claims.",
+      "title": "NYC MVC cascade review: candidate asset and response-resource context",
+      "trust_moments_available": [
+        "no_action_boundary",
+        "governance_refusal",
+        "human_stop"
+      ],
+      "uncertainty": [
+        "The tax-lot edge is candidate context only.",
+        "The Engine 227 relation is response-resource context only.",
+        "The review itinerary is not a street-network instruction.",
+        "The system refuses definite affected-building certainty."
+      ],
+      "viewer_readiness_status": "ready_as_story_queue_baseline_with_limitations",
+      "what_citybrain_connected": "CityBrain can connect an event, candidate asset context, response-resource context, review itinerary evidence, and a refusal moment while preserving uncertainty at every step.",
+      "woven_moments": [
+        {
+          "boundary": "No approval, execution, dispatch, ticket, case, or certified finding.",
+          "role": "trust_moment",
+          "role_label": "No-action boundary",
+          "summary": "The cascade is visible for review but creates no operational action.",
+          "title": "No action taken boundary stays visible"
+        },
+        {
+          "boundary": "No certified affected-building truth.",
+          "role": "trust_moment",
+          "role_label": "Governance refusal",
+          "summary": "The story can show the refusal moment because a negative affected-building request fixture exists.",
+          "title": "Definite affected-building certainty is refused"
+        },
+        {
+          "boundary": "execution_state remains not_executed.",
+          "role": "trust_moment",
+          "role_label": "Human stop",
+          "summary": "Review choices remain candidates; proposal approval is outside this lane.",
+          "title": "Track D / human review remains authoritative"
+        }
+      ]
+    }
+  ],
+  "status": "PASS"
+}

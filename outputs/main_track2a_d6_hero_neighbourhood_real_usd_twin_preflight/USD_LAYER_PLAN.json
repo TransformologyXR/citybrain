@@ -1,7 +1,0 @@
-{
-  "binding_strategy": "prim path links to source binding, canonical ref when available, source refs, evidence refs, and limitation refs",
-  "layer_type": "USDA deterministic text",
-  "root_prim": "/World/CityBrainHeroNeighbourhoodRealUsdTwinR1",
-  "stable_prim_strategy": "derive unique Track A prim paths from accepted D5 binding order and labels",
-  "status": "PASS"
-}

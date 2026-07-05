@@ -1,0 +1,32 @@
+{
+  "$id": "citybrain://d8-live-surface/option_sets.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "claim_labels": {
+      "type": "array"
+    },
+    "execution_state": {
+      "const": "not_executed"
+    },
+    "scenario_state_ref": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "source_root_refs": {
+      "type": [
+        "array",
+        "object"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "scenario_state_ref",
+    "source_root_refs"
+  ],
+  "title": "option_sets.json",
+  "type": "object"
+}

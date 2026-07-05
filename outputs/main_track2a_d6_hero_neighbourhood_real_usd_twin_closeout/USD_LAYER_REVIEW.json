@@ -1,7 +1,0 @@
-{
-  "deterministic_usda": true,
-  "r1_root": "outputs/main_track2a_d6_hero_neighbourhood_real_footprint_usd_r1",
-  "scene_refs_not_canonical_ids": true,
-  "stable_prim_paths": true,
-  "status": "PASS"
-}

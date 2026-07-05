@@ -1,0 +1,589 @@
+{
+  "fixtures": {
+    "invalid_case_submitted_officially": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:case:submitted_officially",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "case.submitted_officially",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "submitted_officially",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_check_fields_inconsistent": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "passed",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:candidate_observation:accepted_for_review",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "candidate_observation.accepted_for_review",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_dispatch_or_control_executed": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "dispatch_ref": "dispatch:001",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:dispatch:sent",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "dispatch.sent",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_legal_certified_finding": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "certified": true,
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:legal_finding:certified",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "legal_finding.certified",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "legal_violation": true,
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_missing_schema_version": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:candidate_observation:accepted_for_review",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "candidate_observation.accepted_for_review",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_official_violation_confirmed": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": false,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:official_violation:confirmed",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "official_violation.confirmed",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_overlay_live_kit_control": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "display_label": "Candidate observation for local review",
+        "event_id": "event:r0.1:candidate-observation:accepted-for-review",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "full_citywide_twin_claim": false,
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "live_kit_control": true,
+        "location_ref": "location:r0.1:local-replay",
+        "marker_metadata_only": true,
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "not_official",
+        "overlay_id": "overlay:r0.1:marker-only:001",
+        "overlay_kind": "marker_metadata_only",
+        "proposed_prim_path": "/CityBrainR0_1/ReviewMarkers/Candidate001",
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "OverlayPacket"
+    },
+    "invalid_raw_query_as_authority": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_refs": [
+          "candidate-observation:r7a:accepted-001"
+        ],
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "event_refs": [
+          "event:r0.1:candidate-observation:accepted-for-review"
+        ],
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "knowns": [
+          "A local replay candidate observation exists for review."
+        ],
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status_summary": {
+          "not_official": 1
+        },
+        "query_case_id": "query-case:r0.1:001",
+        "query_family": "local_replay_review_lookup",
+        "query_result_id": "query-result:r0.1:001",
+        "raw_query": "dispatch someone",
+        "raw_query_authority": true,
+        "review_state_summary": {
+          "needs_review": 1
+        },
+        "safe_next_looks": [
+          "inspect retained evidence refs",
+          "request manual review note"
+        ],
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ],
+        "unknowns": [
+          "No official status, live state, or legal finding is known."
+        ]
+      },
+      "shape": "QueryResultPacket"
+    },
+    "invalid_sensor_inferred_official_truth": {
+      "packet": {
+        "authority_envelope_ref": null,
+        "authority_level": "review_display_only",
+        "candidate_observation_ref": "candidate-observation:r7a:accepted-001",
+        "candidate_only": true,
+        "cannot_claim": [
+          "official violation",
+          "legal finding",
+          "live monitoring"
+        ],
+        "check_report_ref": null,
+        "check_status": "not_evaluated",
+        "entity_refs": [
+          "entity:r0.1:review-target"
+        ],
+        "event_id": "event:r0.1:candidate_observation:accepted_for_review",
+        "event_time": "2026-07-05T00:00:00Z",
+        "event_type": "candidate_observation.accepted_for_review",
+        "event_version": "r0.1",
+        "evidence_refs": [
+          {
+            "ref_id": "evidence:r0.1:001",
+            "ref_type": "EvidencePacketRef"
+          }
+        ],
+        "execution_status": "not_executed",
+        "geometry_ref": "geometry:r0.1:local-replay",
+        "ingested_at": "2026-07-05T00:00:01Z",
+        "limitation_refs": [
+          {
+            "ref_id": "limitation:r0.1:not-official",
+            "ref_type": "LimitationRef"
+          }
+        ],
+        "location_ref": "location:r0.1:local-replay",
+        "not_executed": [
+          "official_submission",
+          "dispatch",
+          "control",
+          "enforcement"
+        ],
+        "official_status": "official_truth",
+        "payload": {
+          "candidate_observation_ref": "candidate-observation:r7a:accepted-001"
+        },
+        "review_event_id": null,
+        "review_required": true,
+        "review_state": "needs_review",
+        "schema_version": "citybrain.event_fabric.r0_1",
+        "source_class": "sensor_inferred",
+        "source_package": "main_citybrain_event_fabric_r0_1_contract_delta",
+        "source_ref": "source:r0.1:local-replay-sensor",
+        "status": "local_review_context",
+        "submission_status": "draft_not_submitted",
+        "trace_refs": [
+          {
+            "ref_id": "trace:r0.1:contract-delta",
+            "ref_type": "TraceRef"
+          }
+        ]
+      },
+      "shape": "EventEnvelope"
+    },
+    "invalid_vss_as_candidate_observation": {
+      "packet": {
+        "candidate_observation_id": "candidate-observation:invalid:vss",
+        "candidate_only": true,
+        "claim_boundary": "invalid negative fixture",
+        "execution_status": "not_executed",
+        "official_status": "not_official",
+        "review_required": true,
+        "schema_version": "citybrain.candidate_observation.imported_reference",
+        "source_class": "model_generated_narrative_not_fact_source"
+      },
+      "shape": "CandidateObservation"
+    }
+  },
+  "schema_version": "citybrain.event_fabric_r0_1.invalid_fixtures.v1"
+}

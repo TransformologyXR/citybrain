@@ -1,9 +1,0 @@
-{
-  "all_required_upstream_tasks_green": true,
-  "blocking_gaps": [],
-  "checked_at": "2026-06-30T21:43:51Z",
-  "missing_files": [],
-  "non_blocking_gaps_logged": true,
-  "required_file_count": 10,
-  "status": "PASS"
-}

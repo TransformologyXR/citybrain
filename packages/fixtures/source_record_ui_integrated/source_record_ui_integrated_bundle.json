@@ -1,0 +1,1961 @@
+{
+  "data_depth_blocker_count": 3,
+  "data_depth_blockers": [],
+  "default_record_count": 48,
+  "gap_closure_counts": {
+    "guardrail_refusal_review_records": 8,
+    "human_review_stop_source_records": 7,
+    "media_observation_source_records": 6,
+    "open_data_depth_blockers": 0
+  },
+  "guardrail_refusal_review_records": [
+    {
+      "attempted_action_shape": "review_state=approved_for_stub_only from option layer",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-001",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Auto approval",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "An option layer attempted to mark review as approved. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "auto approval",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_auto_approved_proposal",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Auto approval request blocked",
+      "visible_human_readable_wording": "An option layer attempted to mark review as approved.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "execution_state=executed",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-002",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Auto execute",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to change execution state to executed. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "auto execute",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_auto_execute",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Auto execute request blocked",
+      "visible_human_readable_wording": "A request attempted to change execution state to executed.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "proposal_type=dispatch_team",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-003",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Dispatch",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to create a dispatch-shaped proposal. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "dispatch",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_dispatch_action",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Dispatch request blocked",
+      "visible_human_readable_wording": "A request attempted to create a dispatch-shaped proposal.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "proposal tries to change live route/signal/control",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-004",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Routing or control",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to change a live route, signal, or control state. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "routing or control",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_routing_control",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Routing or control request blocked",
+      "visible_human_readable_wording": "A request attempted to change a live route, signal, or control state.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "legal/certified/enforcement finding",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-005",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Enforcement or legal/certified conclusion",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to create an enforcement or official conclusion. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "enforcement or legal/certified conclusion",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_enforcement_legal_certified",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Enforcement or legal/certified conclusion request blocked",
+      "visible_human_readable_wording": "A request attempted to create an enforcement or official conclusion.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "option set writes Track D lifecycle state",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-006",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Lifecycle write outside human review lane",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to write lifecycle state from the option layer. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "lifecycle write outside human review lane",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_lifecycle_written_outside_track_d",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Lifecycle write outside human review lane request blocked",
+      "visible_human_readable_wording": "A request attempted to write lifecycle state from the option layer.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "review_state_rollup claims authoritative post-promotion ownership",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-007",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Post-promotion ownership",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to make the option layer authoritative after promotion. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "post-promotion ownership",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_option_set_owns_post_promotion_state",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Post-promotion ownership request blocked",
+      "visible_human_readable_wording": "A request attempted to make the option layer authoritative after promotion.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "scenario_state_ref=stale_or_unknown",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-008",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Stale scenario reference",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A stale or unknown scenario reference was flagged for review. The guardrail result was FLAG; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "stale scenario reference",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "FLAG",
+        "case_id": "neg_stale_scenario_state_ref",
+        "expected": "FLAG"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Stale scenario reference request blocked",
+      "visible_human_readable_wording": "A stale or unknown scenario reference was flagged for review.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    }
+  ],
+  "human_review_stop_source_records": [
+    {
+      "candidate_option_id": "inv_option_do_nothing_monitor",
+      "card_id": "human-review-stop-record-001",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Keep the baseline under human review"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Keep the baseline under human review",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_do_nothing_monitor",
+        "panel_packet_id": "track-d-promotion-panel-r1-001",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Keep the baseline under human review stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_review_reroute",
+      "card_id": "human-review-stop-record-002",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "eligible for human review",
+        "proposal state": "no approved proposal",
+        "required decision": "human review required",
+        "review choice": "Review a reroute idea"
+      },
+      "eligibility_status": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Review a reroute idea",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": null,
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "technical_refs": {
+        "option_id": "inv_option_review_reroute",
+        "panel_packet_id": "track-d-promotion-panel-r1-002",
+        "proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_002",
+        "proposal_ref": null
+      },
+      "title": "Review a reroute idea stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_review_kerbside_access",
+      "card_id": "human-review-stop-record-003",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "eligible for human review",
+        "proposal state": "no approved proposal",
+        "required decision": "human review required",
+        "review choice": "Review kerbside access support"
+      },
+      "eligibility_status": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Review kerbside access support",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": null,
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "technical_refs": {
+        "option_id": "inv_option_review_kerbside_access",
+        "panel_packet_id": "track-d-promotion-panel-r1-003",
+        "proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_003",
+        "proposal_ref": null
+      },
+      "title": "Review kerbside access support stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_review_public_information",
+      "card_id": "human-review-stop-record-004",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "eligible for human review",
+        "proposal state": "no approved proposal",
+        "required decision": "human review required",
+        "review choice": "Review a public-information draft"
+      },
+      "eligibility_status": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Review a public-information draft",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": null,
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "technical_refs": {
+        "option_id": "inv_option_review_public_information",
+        "panel_packet_id": "track-d-promotion-panel-r1-004",
+        "proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_004",
+        "proposal_ref": null
+      },
+      "title": "Review a public-information draft stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_abstain_escalate",
+      "card_id": "human-review-stop-record-005",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Abstain and ask a human operator"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Abstain and ask a human operator",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_abstain_escalate",
+        "panel_packet_id": "track-d-promotion-panel-r1-005",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Abstain and ask a human operator stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_do_nothing_monitor",
+      "card_id": "human-review-stop-record-006",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Keep the baseline under human review"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Keep the baseline under human review",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_do_nothing_monitor",
+        "panel_packet_id": "track-d-promotion-panel-r1-006",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Keep the baseline under human review stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_abstain_escalate",
+      "card_id": "human-review-stop-record-007",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Abstain and ask a human operator"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Abstain and ask a human operator",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_abstain_escalate",
+        "panel_packet_id": "track-d-promotion-panel-r1-007",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Abstain and ask a human operator stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    }
+  ],
+  "media_observation_source_records": [
+    {
+      "candidate_label": "Person presence",
+      "card_id": "local-demo-media-observation-record-001",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Person presence",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a person presence candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "technical_refs": {
+        "confidence": 0.81,
+        "event_candidate_id": "d7-event-candidate-001",
+        "evidence_bundle_ref": "d7-evidence-bundle-001",
+        "source_observation_id": "d7-observation-001"
+      },
+      "timestamp_missing": true,
+      "title": "Person presence from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Ppe",
+      "card_id": "local-demo-media-observation-record-002",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Ppe",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_02_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a ppe candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_02_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_02_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.69,
+        "event_candidate_id": "d7-event-candidate-002",
+        "evidence_bundle_ref": "d7-evidence-bundle-002",
+        "source_observation_id": "d7-observation-002"
+      },
+      "timestamp_missing": true,
+      "title": "Ppe from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Restricted zone entry",
+      "card_id": "local-demo-media-observation-record-003",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Restricted zone entry",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_03_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a restricted zone entry candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_03_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_03_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.77,
+        "event_candidate_id": "d7-event-candidate-003",
+        "evidence_bundle_ref": "d7-evidence-bundle-003",
+        "source_observation_id": "d7-observation-003"
+      },
+      "timestamp_missing": true,
+      "title": "Restricted zone entry from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Equipment proximity",
+      "card_id": "local-demo-media-observation-record-004",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Equipment proximity",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_04_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a equipment proximity candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_04_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_04_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.73,
+        "event_candidate_id": "d7-event-candidate-004",
+        "evidence_bundle_ref": "d7-evidence-bundle-004",
+        "source_observation_id": "d7-observation-004"
+      },
+      "timestamp_missing": true,
+      "title": "Equipment proximity from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "After hours activity",
+      "card_id": "local-demo-media-observation-record-005",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "After hours activity",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_05_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a after hours activity candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_05_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_05_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.62,
+        "event_candidate_id": "d7-event-candidate-005",
+        "evidence_bundle_ref": "d7-evidence-bundle-005",
+        "source_observation_id": "d7-observation-005"
+      },
+      "timestamp_missing": true,
+      "title": "After hours activity from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Camera health",
+      "card_id": "local-demo-media-observation-record-006",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Camera health",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a camera health candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "technical_refs": {
+        "confidence": 0.88,
+        "event_candidate_id": "d7-event-candidate-006",
+        "evidence_bundle_ref": "d7-evidence-bundle-006",
+        "source_observation_id": "d7-observation-006"
+      },
+      "timestamp_missing": true,
+      "title": "Camera health from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    }
+  ],
+  "scenario_coherence_verdict": {
+    "default_ui_headline": "Source records are valid; one corridor incident is not proven",
+    "has_lane_blockage_or_disruption_source_record": false,
+    "has_single_corridor_evidence": false,
+    "has_timestamp_or_currentness_field": false,
+    "london_linkage_status": "valid static infrastructure examples; no proved shared corridor incident",
+    "london_record_count": 10,
+    "status": "PARTIAL_SOURCE_RECORDS_VALID_BUT_SCENARIO_NOT_COHERENT",
+    "unique_borough_count": 8,
+    "viewer_framing": "source-record portfolio, not a single corridor incident",
+    "viewer_summary": "London records are useful mobility-source examples, but they span places and do not prove a lane blockage, road disruption, or live access issue."
+  },
+  "schema_version": "citybrain-source-record-ui-integrated-r2",
+  "similar_case_city_record_count": 5,
+  "similar_case_city_records": [
+    {
+      "card_id": "chicago-similar-case-card-001",
+      "card_type": "similar_case_source_record",
+      "city_fact_fields": {
+        "city": "Chicago",
+        "dataset": "Chicago Building Violations",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "matched_because": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "source_record_id": "7511042"
+      },
+      "evidence_refs": [
+        "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "external_record_id:7511042"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "CN135016 recorded with issue type rodent.",
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "source_city": "Chicago",
+      "source_system_or_dataset": "Chicago Building Violations",
+      "technical_refs": {
+        "external_record_id": "7511042",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_card_id": "chicago-similar-case-card-001",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5"
+      },
+      "title": "Violations case at 6934 S DANTE AVE",
+      "why_it_matters": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "card_id": "chicago-similar-case-card-002",
+      "card_type": "similar_case_source_record",
+      "city_fact_fields": {
+        "city": "Chicago",
+        "dataset": "Chicago Building Violations",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "matched_because": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "source_record_id": "7510501"
+      },
+      "evidence_refs": [
+        "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "external_record_id:7510501"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "CN104035 recorded with issue type building_condition.",
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "source_city": "Chicago",
+      "source_system_or_dataset": "Chicago Building Violations",
+      "technical_refs": {
+        "external_record_id": "7510501",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_card_id": "chicago-similar-case-card-002",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5"
+      },
+      "title": "Violations case at 516 N LECLAIRE AVE",
+      "why_it_matters": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "card_id": "chicago-similar-case-card-003",
+      "card_type": "similar_case_source_record",
+      "city_fact_fields": {
+        "city": "Chicago",
+        "dataset": "Chicago Building Violations",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "matched_because": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "source_record_id": "7510495"
+      },
+      "evidence_refs": [
+        "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "external_record_id:7510495"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "BR3058 recorded with issue type other.",
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "source_city": "Chicago",
+      "source_system_or_dataset": "Chicago Building Violations",
+      "technical_refs": {
+        "external_record_id": "7510495",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_card_id": "chicago-similar-case-card-003",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5"
+      },
+      "title": "Violations case at 162 E ONTARIO ST",
+      "why_it_matters": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "card_id": "chicago-similar-case-card-004",
+      "card_type": "similar_case_source_record",
+      "city_fact_fields": {
+        "city": "Chicago",
+        "dataset": "Chicago Building Violations",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "matched_because": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "source_record_id": "7511077"
+      },
+      "evidence_refs": [
+        "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "external_record_id:7511077"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "CN190019 recorded with issue type rodent.",
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "source_city": "Chicago",
+      "source_system_or_dataset": "Chicago Building Violations",
+      "technical_refs": {
+        "external_record_id": "7511077",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_card_id": "chicago-similar-case-card-004",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5"
+      },
+      "title": "Violations case at 7547 S ESSEX AVE",
+      "why_it_matters": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "card_id": "chicago-similar-case-card-005",
+      "card_type": "similar_case_source_record",
+      "city_fact_fields": {
+        "city": "Chicago",
+        "dataset": "Chicago Building Violations",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "matched_because": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "source_record_id": "7511175"
+      },
+      "evidence_refs": [
+        "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "external_record_id:7511175"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "CN105015 recorded with issue type building_condition.",
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "source_city": "Chicago",
+      "source_system_or_dataset": "Chicago Building Violations",
+      "technical_refs": {
+        "external_record_id": "7511175",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_card_id": "chicago-similar-case-card-005",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5"
+      },
+      "title": "Violations case at 4700 S LAKE PARK AVE",
+      "why_it_matters": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    }
+  ],
+  "situation_city_record_count": 10,
+  "situation_city_records": [
+    {
+      "card_id": "london-mobility-card-001",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Richmond",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.464253",
+        "longitude": "-0.273817",
+        "numberrcpoints": "1",
+        "source_record_id": "2",
+        "taxipublicuses": "Public use"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:2"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Upper Richmond Road west of Coval Rd is listed as a London rapid EV charging site in Richmond.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "2",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-001",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Upper Richmond Road west of Coval Rd",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-002",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Newham",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.523421",
+        "longitude": "0.068574",
+        "numberrcpoints": "2",
+        "source_record_id": "12",
+        "taxipublicuses": "Public use"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:12"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Claps Gate Lane Retail park is listed as a London rapid EV charging site in Newham.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "12",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-002",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Claps Gate Lane Retail park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-003",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Brent",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.546586",
+        "longitude": "-0.204599",
+        "numberrcpoints": "1",
+        "source_record_id": "63",
+        "taxipublicuses": "Taxi"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:63"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "1 Christchurch Avenue, Kilburn Station, NW6 7QP  is listed as a London rapid EV charging site in Brent.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "63",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-003",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "1 Christchurch Avenue, Kilburn Station, NW6 7QP ",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-004",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Redbridge",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.591184",
+        "longitude": "0.027028",
+        "numberrcpoints": "1",
+        "source_record_id": "558",
+        "taxipublicuses": "Taxi"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:558"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "South Woodford Station Car Park is listed as a London rapid EV charging site in Redbridge.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "558",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-004",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "South Woodford Station Car Park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-005",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Greenwich",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.476538",
+        "longitude": "0.022182",
+        "numberrcpoints": "1",
+        "source_record_id": "74",
+        "taxipublicuses": "Public use"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:74"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Old Dover Road west of Dornberg Close - car park is listed as a London rapid EV charging site in Greenwich.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "74",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-005",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Old Dover Road west of Dornberg Close - car park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-006",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Haringey",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.579178",
+        "longitude": "-0.125007",
+        "numberrcpoints": "2",
+        "source_record_id": "78",
+        "taxipublicuses": "Public use"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:78"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Crouch Hall Rd opp Bryanstone Road is listed as a London rapid EV charging site in Haringey.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "78",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-006",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Crouch Hall Rd opp Bryanstone Road",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-007",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Hammersmith & Fulham",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.519975",
+        "longitude": "-0.228609",
+        "numberrcpoints": "3",
+        "source_record_id": "87",
+        "taxipublicuses": "Public use"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:87"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "87",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-007",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Scrubbs Lane - Wood Lane Car Park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-008",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Richmond",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.464093",
+        "longitude": "-0.270037",
+        "numberrcpoints": "1",
+        "source_record_id": "129",
+        "taxipublicuses": "Public use"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:129"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "A205 Upper Richmond Road West east of Carlton Road.  is listed as a London rapid EV charging site in Richmond.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "129",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-008",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "A205 Upper Richmond Road West east of Carlton Road. ",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-009",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Westminster",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.511661",
+        "longitude": "-0.180296",
+        "numberrcpoints": "1",
+        "source_record_id": "169",
+        "taxipublicuses": "Taxi"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:169"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Lancaster Gate is listed as a London rapid EV charging site in Westminster.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "169",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-009",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Lancaster Gate",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_id": "london-mobility-card-010",
+      "card_type": "mobility_access_source_context",
+      "city_fact_fields": {
+        "borough": "Westminster",
+        "city": "London",
+        "dataset": "London Datastore Electric Vehicle Charging Site",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.523033",
+        "longitude": "-0.183562",
+        "numberrcpoints": "1",
+        "source_record_id": "174",
+        "taxipublicuses": "Taxi"
+      },
+      "evidence_refs": [
+        "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "external_record_id:174"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Warwick Avenue by Clifton Villas is listed as a London rapid EV charging site in Westminster.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "London",
+      "source_system_or_dataset": "London Datastore Electric Vehicle Charging Site",
+      "technical_refs": {
+        "external_record_id": "174",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "recommended_panel": "Situation / Mobility source context",
+        "source_card_id": "london-mobility-card-010",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg"
+      },
+      "title": "Warwick Avenue by Clifton Villas",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    }
+  ],
+  "source_backed_default_card_count": 27,
+  "status": "PASS_SOURCE_RECORD_GAP_CLOSURE_UI_INTEGRATED_WITH_SCENARIO_COHERENCE_LIMITATIONS",
+  "task_name": "MAIN-CITYBRAIN-D8-INTEGRATED-SOURCE-RECORD-BUNDLE-ADAPTER-R1",
+  "technical_refs": {
+    "boundary": [
+      "local/replay/review/query context only",
+      "no production/public API claim",
+      "no autonomous monitoring/action",
+      "no dispatch/routing/control/enforcement",
+      "no legal/certified/confirmed finding",
+      "no official ticket/case creation",
+      "no broad full-city download"
+    ],
+    "candidate_bundle_keys": [
+      "cards",
+      "lanes",
+      "schema_version",
+      "status",
+      "ui_panel_source_record_coverage"
+    ],
+    "source_paths": [
+      "packages/fixtures/london_mobility_source_records/source_record_bundle.json",
+      "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json",
+      "packages/fixtures/helsinki_visual_entity_pick/source_record_bundle.json",
+      "packages/fixtures/source_record_recovery_candidate_bundle/source_record_recovery_candidate_bundle.json",
+      "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json",
+      "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+      "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json"
+    ]
+  },
+  "timestamp": "2026-07-01T21:56:27.657157+00:00",
+  "visual_entity_city_record_count": 12,
+  "visual_entity_city_records": [
+    {
+      "card_id": "helsinki-visual-entity-card-001",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:d6c6463c80b4ed25",
+        "source_record_id": "BID_35328115-972e-45e3-97bd-d0029f19f70d",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_35328115_972e_45e3_97bd_d0029f19f70d"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_35328115-972e-45e3-97bd-d0029f19f70d"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Tehtaankatu 1b has source building id BID_35328115-972e-45e3-97bd-d0029f19f70d, use Tehdas, measured height 19.7, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_35328115_972e_45e3_97bd_d0029f19f70d.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_35328115-972e-45e3-97bd-d0029f19f70d",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-001",
+        "source_url": null
+      },
+      "title": "Tehtaankatu 1b",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-002",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:3e5ec08f76213168",
+        "source_record_id": "BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_ed72bb29_8b9d_4fcd_aa6b_b006740cb61d"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Vuorimiehenkatu 7 has source building id BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d, use Asuinrakennus, measured height 24.3, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_ed72bb29_8b9d_4fcd_aa6b_b006740cb61d.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-002",
+        "source_url": null
+      },
+      "title": "Vuorimiehenkatu 7",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-003",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:eeaab2cc1ea6a7a1",
+        "source_record_id": "BID_d273e626-bc0a-417f-b350-9a00852dd8ce",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_d273e626_bc0a_417f_b350_9a00852dd8ce"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_d273e626-bc0a-417f-b350-9a00852dd8ce"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Vuorimiehenkatu 19 has source building id BID_d273e626-bc0a-417f-b350-9a00852dd8ce, use Asuinrakennus, measured height 22.3, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_d273e626_bc0a_417f_b350_9a00852dd8ce.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_d273e626-bc0a-417f-b350-9a00852dd8ce",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-003",
+        "source_url": null
+      },
+      "title": "Vuorimiehenkatu 19",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-004",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:26f781d390e33637",
+        "source_record_id": "BID_e75c5da5-7fcd-4f13-80c2-f2d744085449",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_e75c5da5_7fcd_4f13_80c2_f2d744085449"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_e75c5da5-7fcd-4f13-80c2-f2d744085449"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Laivasillankatu 14 has source building id BID_e75c5da5-7fcd-4f13-80c2-f2d744085449, use Asuinrakennus, measured height 32.5, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_e75c5da5_7fcd_4f13_80c2_f2d744085449.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_e75c5da5-7fcd-4f13-80c2-f2d744085449",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-004",
+        "source_url": null
+      },
+      "title": "Laivasillankatu 14",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-005",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:1f4437848c82f771",
+        "source_record_id": "BID_532d722b-08e6-4206-8818-4b00bdf3b857",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_532d722b_08e6_4206_8818_4b00bdf3b857"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_532d722b-08e6-4206-8818-4b00bdf3b857"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Ullankatu 3 has source building id BID_532d722b-08e6-4206-8818-4b00bdf3b857, use Asuinrakennus, measured height 32.2, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_532d722b_08e6_4206_8818_4b00bdf3b857.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_532d722b-08e6-4206-8818-4b00bdf3b857",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-005",
+        "source_url": null
+      },
+      "title": "Ullankatu 3",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-006",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:bb8a186a06df5617",
+        "source_record_id": "BID_0f77a27c-2911-4c16-8c20-f6a991c40770",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_0f77a27c_2911_4c16_8c20_f6a991c40770"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_0f77a27c-2911-4c16-8c20-f6a991c40770"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Muukalaiskatu 1 has source building id BID_0f77a27c-2911-4c16-8c20-f6a991c40770, use Asuinrakennus, measured height 25.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_0f77a27c_2911_4c16_8c20_f6a991c40770.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_0f77a27c-2911-4c16-8c20-f6a991c40770",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-006",
+        "source_url": null
+      },
+      "title": "Muukalaiskatu 1",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-007",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:d560b19b2eb787d5",
+        "source_record_id": "BID_7af7d2ac-8755-4d13-a136-b9730b691df2",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_7af7d2ac_8755_4d13_a136_b9730b691df2"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_7af7d2ac-8755-4d13-a136-b9730b691df2"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Katajanokanlaituri 6 has source building id BID_7af7d2ac-8755-4d13-a136-b9730b691df2, use Muu rakennus, measured height 19.4, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_7af7d2ac_8755_4d13_a136_b9730b691df2.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_7af7d2ac-8755-4d13-a136-b9730b691df2",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-007",
+        "source_url": null
+      },
+      "title": "Katajanokanlaituri 6",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-008",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:903d51968de168af",
+        "source_record_id": "BID_61d361a1-886d-4d15-a0f5-cd7891a1f614",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_61d361a1_886d_4d15_a0f5_cd7891a1f614"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_61d361a1-886d-4d15-a0f5-cd7891a1f614"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Kasarmikatu 13 has source building id BID_61d361a1-886d-4d15-a0f5-cd7891a1f614, use P\u00e4iv\u00e4koti, measured height 7.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_61d361a1_886d_4d15_a0f5_cd7891a1f614.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_61d361a1-886d-4d15-a0f5-cd7891a1f614",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-008",
+        "source_url": null
+      },
+      "title": "Kasarmikatu 13",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-009",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:cc7a666edb6f3bca",
+        "source_record_id": "BID_2360095c-2cad-4486-9b8b-575cce9bbe68",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_2360095c_2cad_4486_9b8b_575cce9bbe68"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_2360095c-2cad-4486-9b8b-575cce9bbe68"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Ullankatu 1 has source building id BID_2360095c-2cad-4486-9b8b-575cce9bbe68, use Talousrakennus, measured height 7.7, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_2360095c_2cad_4486_9b8b_575cce9bbe68.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_2360095c-2cad-4486-9b8b-575cce9bbe68",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-009",
+        "source_url": null
+      },
+      "title": "Ullankatu 1",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-010",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:b1c3e4322ab9c2e7",
+        "source_record_id": "BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_075e6939_20cf_4dd6_918f_2c536eb3f7cb"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Ullankatu 1 has source building id BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb, use Asuinrakennus, measured height 26.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_075e6939_20cf_4dd6_918f_2c536eb3f7cb.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-010",
+        "source_url": null
+      },
+      "title": "Ullankatu 1",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-011",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:d08ae95e61492aa2",
+        "source_record_id": "BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_8e8ec0f1_b597_4cef_89d6_a21787156f4b"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "T\u00e4htitorninkatu 14 has source building id BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b, use Asuinrakennus, measured height 4.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_8e8ec0f1_b597_4cef_89d6_a21787156f4b.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-011",
+        "source_url": null
+      },
+      "title": "T\u00e4htitorninkatu 14",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-012",
+      "card_type": "visual_entity_pick_building_record",
+      "city_fact_fields": {
+        "city": "Helsinki",
+        "dataset": "Helsinki 3D city model semantic building sample",
+        "semantic_candidate_id": "cer:candidate:hel:building:0955f7213e062d5b",
+        "source_record_id": "BID_6012d274-fbd0-4b58-8d6f-760e692748e7",
+        "visual_object_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_6012d274_fbd0_4b58_8d6f_760e692748e7"
+      },
+      "evidence_refs": [
+        "external_record_id:BID_6012d274-fbd0-4b58-8d6f-760e692748e7"
+      ],
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "not_a_finding": true,
+      "plain_language_summary": "Kanavakatu 4 has source building id BID_6012d274-fbd0-4b58-8d6f-760e692748e7, use Liikerakennus, measured height 16.7, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_6012d274_fbd0_4b58_8d6f_760e692748e7.",
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "source_city": "Helsinki",
+      "source_system_or_dataset": "Helsinki 3D city model semantic building sample",
+      "technical_refs": {
+        "external_record_id": "BID_6012d274-fbd0-4b58-8d6f-760e692748e7",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_card_id": "helsinki-visual-entity-card-012",
+        "source_url": null
+      },
+      "title": "Kanavakatu 4",
+      "why_it_matters": "Adds source-backed context only; it is not an instruction, finding, or action."
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+# Workspace Staged Scope Audit
+
+Package: MAIN-CITYBRAIN-WORKSPACE-CODE-CONTRACTS-INFRA-COMMIT-AND-PUSH
+Generated: 2026-07-05
+Workspace: C:\Users\hazem\Documents\CityBrain
+Branch: codex/track-b-s1-kit-spatial-handoff
+Upstream: origin/codex/track-b-s1-kit-spatial-handoff
+Remote: https://github.com/TransformologyXR/citybrain
+Base HEAD before commit: a64fee23662908f03579beab295ee93699ccba29
+Planned commit subject: Commit workspace code contracts and infra updates
+
+## Staged Summary
+
+Final staged file count including this audit: 446
+
+- scripts: 294
+- packages: 83
+- apps: 38
+- tests: 19
+- docs: 4
+- CITYBRAIN_PRODUCT_EVOLUTION_STORY_2026-07-01.md: 1
+- CITYBRAIN_CHRONOLOGY_TRACE_DELTA_2026-07-02.md: 1
+- CITYBRAIN_CHRONOLOGY_TRACE_DELTA_2026-07-01.md: 1
+- CITYBRAIN_WORKSPACE_CHRONOLOGY_LINEAGE_2026-07-01.md: 1
+- CITYBRAIN_OUTPUTS_TRACE_AND_AUDIT_CHRONOLOGY_2026-07-01.md: 1
+- CITYBRAIN_OUTPUTS_DAY_BY_DAY_FORENSIC_2026-06-30.md: 1
+- CITYBRAIN_WORKSPACE_CHRONOLOGY_LINEAGE_2026-06-30.md: 1
+- CITYBRAIN_FINAL_UPDATE_2026-07-01.md: 1
+
+## Inclusion Policy
+
+Included source-control categories: contracts, packages, apps, scripts, tests, docs, infra, .github, config, tools, schemas, templates, and root CityBrain documentation/config files.
+
+Excluded categories: outputs, data, inputs, corpus_raw, tmp, logs, node_modules, virtual environments, generated archives, media, environment files, credentials, keys, tokens, and secret audit artifacts.
+
+## Dangerous Path Audit
+
+PASS: no staged paths matched the excluded data/output/cache/archive/media/secret path patterns.
+
+## Content Secret Audit
+
+PASS_WITH_FALSE_POSITIVE_SYMBOLS: staged added-line scan found no literal credential material such as nvapi-* values, private key blocks, NGC_API_KEY assignments, or NVIDIA_API_KEY assignments. Matches were limited to code/audit variable names such as secret_audit and token construction. SECRET_AUDIT.json fixture artifacts remained untracked and excluded.
+
+## Validation
+
+- git diff --cached --check: PASS after mechanical trailing-whitespace/EOF cleanup on the listed staged files.
+- Focused staged tests: PASS; command `python -m unittest <all staged tests/test*.py modules>` ran 86 tests in 19.980s.
+- Full repository discovery was not run to avoid invoking unrelated long-running data/output workflows outside this source-control commit scope.
+
+## Largest Staged Files
+
+- 245249 bytes: docs/workspace_commit/WORKSPACE_COMMIT_CLASSIFICATION.md
+- 119587 bytes: scripts/citybrain_d8_web_kit_live_surface_common.py
+- 115586 bytes: packages/fixtures/source_record_ui_integrated/source_record_ui_integrated_bundle.json
+- 82481 bytes: scripts/run_main_citybrain_d9_ask_watch_brief_check_runtime_r1.py
+- 80850 bytes: scripts/run_citybrain_d8_followon_and_composition_pack.py
+- 77862 bytes: packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_RUNTIME_BUNDLE.json
+- 70903 bytes: scripts/run_main_citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1.py
+- 66515 bytes: CITYBRAIN_OUTPUTS_DAY_BY_DAY_FORENSIC_2026-06-30.md
+- 65634 bytes: scripts/run_main_citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1.py
+- 62792 bytes: scripts/run_main_citybrain_d8_deep_story_inventory_role_portfolio.py
+- 61064 bytes: scripts/run_main_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17.py
+- 60593 bytes: scripts/run_main_citybrain_d10_operator_intelligence_depth_r1.py
+- 60318 bytes: docs/workspace_commit/WORKSPACE_STATUS_BEFORE_COMMIT.txt
+- 58544 bytes: scripts/run_main_citybrain_metropolis_vss_object_metadata_export_r2.py
+- 56873 bytes: scripts/citybrain_d8_human_readable_web_ux_common.py
+- 56451 bytes: scripts/run_main_citybrain_metropolis_vss_narration_runtime_smoke_r7.py
+- 56440 bytes: scripts/citybrain_track_s_common.py
+- 55983 bytes: scripts/run_main_citybrain_d9_broad_data_scout_product_modes.py
+- 55447 bytes: packages/fixtures/source_record_recovery_candidate_bundle/source_record_recovery_candidate_bundle.json
+- 52664 bytes: scripts/run_main_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1.py
+- 51948 bytes: packages/fixtures/source_record_recovery_candidate_bundle/human_fact_cards.json
+- 51649 bytes: scripts/run_citybrain_d8_parallel_prompt_pack.py
+- 51263 bytes: scripts/run_main_citybrain_metropolis_vss_narration_runtime_configured_smoke_r5.py
+- 49960 bytes: scripts/run_main_citybrain_d8_source_record_gap_closure_and_scenario_coherence.py
+- 49648 bytes: scripts/run_main_citybrain_metropolis_vss_candidate_observation_pipeline_r1.py
+
+## Staged Files
+
+- apps/kit/citybrain.control_room/citybrain/__init__.py
+- apps/kit/citybrain.control_room/citybrain/control_room/__init__.py
+- apps/kit/citybrain.control_room/citybrain/control_room/capture_controls.py
+- apps/kit/citybrain.control_room/citybrain/control_room/event_overlay_bridge.py
+- apps/kit/citybrain.control_room/citybrain/control_room/event_overlay_registry.py
+- apps/kit/citybrain.control_room/citybrain/control_room/extension.py
+- apps/kit/citybrain.control_room/citybrain/control_room/live_selection_bridge.py
+- apps/kit/citybrain.control_room/citybrain/control_room/overlay_manager.py
+- apps/kit/citybrain.control_room/citybrain/control_room/real_scene_review_loop_registry.py
+- apps/kit/citybrain.control_room/citybrain/control_room/runtime_bundle.py
+- apps/kit/citybrain.control_room/citybrain/control_room/scene_prim_selection_bridge.py
+- apps/kit/citybrain.control_room/citybrain/control_room/scene_prim_selection_registry.py
+- apps/kit/citybrain.control_room/citybrain/control_room/selection_inspector.py
+- apps/kit/citybrain.control_room/citybrain/control_room/selection_message_parity.py
+- apps/kit/citybrain.control_room/citybrain/control_room/spatial_cockpit.py
+- apps/kit/citybrain.control_room/citybrain/control_room/stage_model.py
+- apps/kit/citybrain.control_room/citybrain/control_room/trace_panel.py
+- apps/kit/citybrain.control_room/citybrain/control_room/track_d_panel.py
+- apps/kit/citybrain.control_room/citybrain/control_room/viewport_navigation_bridge.py
+- apps/kit/citybrain.control_room/config/extension.toml
+- apps/kit/citybrain.control_room/README.md
+- apps/web-control-room/index.html
+- apps/web-control-room/package.json
+- apps/web-control-room/README.md
+- apps/web-control-room/src/bridge/client.js
+- apps/web-control-room/src/main.js
+- apps/web-control-room/src/renderSnapshot.mjs
+- apps/web-control-room/src/views/capture.js
+- apps/web-control-room/src/views/evidence.js
+- apps/web-control-room/src/views/limitations.js
+- apps/web-control-room/src/views/omniverseStream.js
+- apps/web-control-room/src/views/options.js
+- apps/web-control-room/src/views/productModes.js
+- apps/web-control-room/src/views/situation.js
+- apps/web-control-room/src/views/storyFirst.js
+- apps/web-control-room/src/views/storyQueue.js
+- apps/web-control-room/src/views/trace.js
+- apps/web-control-room/src/views/trackD.js
+- CITYBRAIN_CHRONOLOGY_TRACE_DELTA_2026-07-01.md
+- CITYBRAIN_CHRONOLOGY_TRACE_DELTA_2026-07-02.md
+- CITYBRAIN_FINAL_UPDATE_2026-07-01.md
+- CITYBRAIN_OUTPUTS_DAY_BY_DAY_FORENSIC_2026-06-30.md
+- CITYBRAIN_OUTPUTS_TRACE_AND_AUDIT_CHRONOLOGY_2026-07-01.md
+- CITYBRAIN_PRODUCT_EVOLUTION_STORY_2026-07-01.md
+- CITYBRAIN_WORKSPACE_CHRONOLOGY_LINEAGE_2026-06-30.md
+- CITYBRAIN_WORKSPACE_CHRONOLOGY_LINEAGE_2026-07-01.md
+- docs/ask-v11/ask-v11-app-handoff-closeout.md
+- docs/workspace_commit/WORKSPACE_COMMIT_CLASSIFICATION.md
+- docs/workspace_commit/WORKSPACE_STAGED_SCOPE.md
+- docs/workspace_commit/WORKSPACE_STATUS_BEFORE_COMMIT.txt
+- packages/contracts/bridge_command.schema.json
+- packages/contracts/bridge_event.schema.json
+- packages/contracts/claim_labels.schema.json
+- packages/contracts/evidence_bundle.schema.json
+- packages/contracts/human_fact_cards/human_fact_card.schema.json
+- packages/contracts/human_fact_cards/README.md
+- packages/contracts/kit_overlay_packets.schema.json
+- packages/contracts/limitations.schema.json
+- packages/contracts/moment_scoreboard.schema.json
+- packages/contracts/one_truth_index.schema.json
+- packages/contracts/option_sets.schema.json
+- packages/contracts/review_state.schema.json
+- packages/contracts/scenario_state.schema.json
+- packages/contracts/trace_jsonl.schema.json
+- packages/contracts/track_d_packets.schema.json
+- packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json
+- packages/fixtures/brain_surface_story_queue/HASH_MANIFEST.json
+- packages/fixtures/brain_surface_story_queue/primary_story_queue.json
+- packages/fixtures/brain_surface_story_queue/README.md
+- packages/fixtures/chicago_similar_case_records/HASH_MANIFEST.json
+- packages/fixtures/chicago_similar_case_records/hashes.sha256
+- packages/fixtures/chicago_similar_case_records/human_fact_cards.json
+- packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json
+- packages/fixtures/d10_operator_intelligence_depth/runtime_overlay/D10_OPERATOR_INTELLIGENCE_DEPTH_EXTENSION.json
+- packages/fixtures/d11_operator_workflow_review_workspace/runtime_overlay/D11_OPERATOR_WORKFLOW_REVIEW_WORKSPACE_EXTENSION.json
+- packages/fixtures/d13_live_web_kit_selection_receipt/runtime_overlay/D13_KIT_TO_WEB_LIVE_SELECTION_EVENT.json
+- packages/fixtures/d13_spatial_twin_omniverse_one_truth/runtime_overlay/D13_SPATIAL_ONE_TRUTH_BINDINGS.json
+- packages/fixtures/d9_operator_cockpit/runtime_overlay/D9_OPERATOR_COCKPIT_RUNTIME_EXTENSION.json
+- packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_ONE_TRUTH_INDEX.json
+- packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_RUNTIME_BUNDLE.json
+- packages/fixtures/d9_product_modes/runtime_bundle/D9_RUNTIME_BUNDLE_GAP_LEDGER.json
+- packages/fixtures/d9_product_modes/runtime_bundle/D9_RUNTIME_BUNDLE_SOURCE_MAP.json
+- packages/fixtures/d9_product_modes/runtime_bundle/HASH_MANIFEST.json
+- packages/fixtures/helsinki_visual_entity_pick/HASH_MANIFEST.json
+- packages/fixtures/helsinki_visual_entity_pick/hashes.sha256
+- packages/fixtures/helsinki_visual_entity_pick/human_fact_cards.json
+- packages/fixtures/helsinki_visual_entity_pick/prim_identity_sidecar.json
+- packages/fixtures/helsinki_visual_entity_pick/source_record_bundle.json
+- packages/fixtures/london_mobility_source_records/HASH_MANIFEST.json
+- packages/fixtures/london_mobility_source_records/hashes.sha256
+- packages/fixtures/london_mobility_source_records/human_fact_cards.json
+- packages/fixtures/london_mobility_source_records/source_record_bundle.json
+- packages/fixtures/london_mobility_source_records/ui_panel_mapping.json
+- packages/fixtures/mobility_access/bridge/audit/bridge_audit.jsonl
+- packages/fixtures/mobility_access/bridge/inbox/cmd-allowed-scrub-001.json
+- packages/fixtures/mobility_access/bridge/inbox/cmd-allowed-select-001.json
+- packages/fixtures/mobility_access/bridge/inbox/cmd-forbidden-approve-001.json
+- packages/fixtures/mobility_access/bridge/inbox/cmd-forbidden-dispatch-001.json
+- packages/fixtures/mobility_access/bridge/outbox/cmd-allowed-scrub-001.event.json
+- packages/fixtures/mobility_access/bridge/outbox/cmd-allowed-select-001.event.json
+- packages/fixtures/mobility_access/bridge/outbox/cmd-forbidden-approve-001.event.json
+- packages/fixtures/mobility_access/bridge/outbox/cmd-forbidden-dispatch-001.event.json
+- packages/fixtures/mobility_access/runtime_bundle/claim_labels.json
+- packages/fixtures/mobility_access/runtime_bundle/evidence_bundle.json
+- packages/fixtures/mobility_access/runtime_bundle/kit_overlay_packets.json
+- packages/fixtures/mobility_access/runtime_bundle/limitations.json
+- packages/fixtures/mobility_access/runtime_bundle/moment_scoreboard.json
+- packages/fixtures/mobility_access/runtime_bundle/one_truth_index.json
+- packages/fixtures/mobility_access/runtime_bundle/option_sets.json
+- packages/fixtures/mobility_access/runtime_bundle/review_state.json
+- packages/fixtures/mobility_access/runtime_bundle/scenario_state.json
+- packages/fixtures/mobility_access/runtime_bundle/trace.jsonl
+- packages/fixtures/mobility_access/runtime_bundle/track_d_packets.json
+- packages/fixtures/mobility_access/source_record_bundle/HASH_MANIFEST.json
+- packages/fixtures/mobility_access/source_record_bundle/hashes.sha256
+- packages/fixtures/mobility_access/source_record_bundle/no_fact_invention_audit.json
+- packages/fixtures/mobility_access/source_record_bundle/source_attribution_ledger.json
+- packages/fixtures/mobility_access/source_record_bundle/source_record_bundle.json
+- packages/fixtures/mobility_access/source_record_bundle/source_record_cards.json
+- packages/fixtures/mobility_access/source_record_bundle/source_record_gaps.json
+- packages/fixtures/mobility_access/source_record_bundle/source_record_to_runtime_bundle_map.json
+- packages/fixtures/nyc_cascade_story_scenario_layer/NYC_CASCADE_SCENARIO_LAYER.json
+- packages/fixtures/nyc_cascade_story_scenario_layer/STORY_QUEUE_INDEX.json
+- packages/fixtures/source_record_recovery_candidate_bundle/HASH_MANIFEST.json
+- packages/fixtures/source_record_recovery_candidate_bundle/hashes.sha256
+- packages/fixtures/source_record_recovery_candidate_bundle/human_fact_cards.json
+- packages/fixtures/source_record_recovery_candidate_bundle/source_record_recovery_candidate_bundle.json
+- packages/fixtures/source_record_ui_integrated/source_record_gap_closure_records.json
+- packages/fixtures/source_record_ui_integrated/source_record_ui_card_index.json
+- packages/fixtures/source_record_ui_integrated/source_record_ui_data_depth_blockers.json
+- packages/fixtures/source_record_ui_integrated/source_record_ui_integrated_bundle.json
+- packages/fixtures/story_first_demo/story_scenario_layer.json
+- packages/fixtures/story_first_demo/story_source_bundle.json
+- scripts/citybrain_after_parallel_decision_support_closeout_common.py
+- scripts/citybrain_cross_city_cross_domain_expansion_scout_common.py
+- scripts/citybrain_cross_city_similar_case_expansion_common.py
+- scripts/citybrain_d8_actual_record_grounding_common.py
+- scripts/citybrain_d8_demonstrability_common.py
+- scripts/citybrain_d8_human_readable_web_ux_common.py
+- scripts/citybrain_d8_post_handoff_followthrough_common.py
+- scripts/citybrain_d8_web_kit_live_surface_common.py
+- scripts/citybrain_decision_support_demo_capture_pack_common.py
+- scripts/citybrain_decision_support_demo_polish_common.py
+- scripts/citybrain_decision_support_sprint_common.py
+- scripts/citybrain_deployment_perception_expansion_domainpack_closeout_common.py
+- scripts/citybrain_domain_pack_candidate_selection_common.py
+- scripts/citybrain_governed_9_stage_runtime_thin_slice_common.py
+- scripts/citybrain_governed_operator_trace_panel_common.py
+- scripts/citybrain_governed_trace_harness_common.py
+- scripts/citybrain_metropolis_vss_r10_r15_common.py
+- scripts/citybrain_mobility_access_domain_pack_common.py
+- scripts/citybrain_mobility_access_external_review_bundle_common.py
+- scripts/citybrain_mobility_access_integration_closeout_common.py
+- scripts/citybrain_mobility_d7_trace_domainpack_post_review_archive_closeout_common.py
+- scripts/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout_common.py
+- scripts/citybrain_mobility_d7_trace_panel_sprint_closeout_common.py
+- scripts/citybrain_promotion_panel_domain_pack_handoff_common.py
+- scripts/citybrain_runtime_trace_demo_polish_closeout_common.py
+- scripts/citybrain_thin_slice_promotion_capture_closeout_common.py
+- scripts/citybrain_track_b_plan_mode_sumo_common.py
+- scripts/citybrain_track_c_cross_domain_cascade_common.py
+- scripts/citybrain_track_d_mobility_access_promotion_readiness_common.py
+- scripts/citybrain_track_d_option_set_promotion_common.py
+- scripts/citybrain_track_i_inverse_dynamics_common.py
+- scripts/citybrain_track_p_packaging_common.py
+- scripts/citybrain_track_r_common.py
+- scripts/citybrain_track_s_common.py
+- scripts/run_citybrain_d8_followon_and_composition_pack.py
+- scripts/run_citybrain_d8_parallel_prompt_pack.py
+- scripts/run_citybrain_d8_r3_followon_prompt_pack.py
+- scripts/run_collateral_d7_perception_candidate_observation_after_freeze.py
+- scripts/run_d4_helsinki_kalasatama_context_consumption_prep_r1.py
+- scripts/run_data_gap_ledger_and_priority_matrix.py
+- scripts/run_main_citybrain_d10_operator_intelligence_depth_r1.py
+- scripts/run_main_citybrain_d10_operator_intelligence_depth_r2.py
+- scripts/run_main_citybrain_d11_operator_workflow_review_workspace_r1.py
+- scripts/run_main_citybrain_d11_real_operator_gate_question_corpus_r1.py
+- scripts/run_main_citybrain_d12_city_data_depth_real_diff_r1.py
+- scripts/run_main_citybrain_d13_live_web_kit_selection_receipt_r2.py
+- scripts/run_main_citybrain_d13_parallel_lane_rule_refresh_r1.py
+- scripts/run_main_citybrain_d13_spatial_twin_omniverse_one_truth_r1.py
+- scripts/run_main_citybrain_d13_web_kit_selection_seam_completion_r1.py
+- scripts/run_main_citybrain_d14_governed_open_ask_production_readiness_r1.py
+- scripts/run_main_citybrain_d14_route_taxonomy_repair_v02_r1.py
+- scripts/run_main_citybrain_d14_route_taxonomy_repair_v03_r1.py
+- scripts/run_main_citybrain_d14_route_taxonomy_repair_v04_r1.py
+- scripts/run_main_citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1.py
+- scripts/run_main_citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1.py
+- scripts/run_main_citybrain_d14_staged_router_schema_repair_r1.py
+- scripts/run_main_citybrain_d14_synthetic_corpus_v0_assembly_labeling_split_gate.py
+- scripts/run_main_citybrain_d14_synthetic_router_v0_and_human_revalidation_bridge_r1.py
+- scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_candidate_inventory_r1.py
+- scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_feasibility_matrix_r2.py
+- scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_scout_closeout.py
+- scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_scout_preflight.py
+- scripts/run_main_citybrain_d6_cross_city_similar_case_expansion_closeout.py
+- scripts/run_main_citybrain_d6_cross_city_similar_case_expansion_milestone_freeze.py
+- scripts/run_main_citybrain_d6_cross_city_similar_case_expansion_preflight.py
+- scripts/run_main_citybrain_d6_cross_city_similar_case_option_set_attachment_r2.py
+- scripts/run_main_citybrain_d6_cross_city_similar_case_quality_gate_r3.py
+- scripts/run_main_citybrain_d6_cross_city_similar_case_review_pack_r1.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_closeout.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_impact_fixtures_r2.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_milestone_freeze.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_option_set_attachment_r3.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_path_catalog_r1.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_preflight.py
+- scripts/run_main_citybrain_d6_cross_domain_cascade_quality_gate_r4.py
+- scripts/run_main_citybrain_d6_decision_support_cascade_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_decision_support_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_decision_support_collateral_pack_r1.py
+- scripts/run_main_citybrain_d6_decision_support_contract_spine_closeout.py
+- scripts/run_main_citybrain_d6_decision_support_control_room_demo_closeout_r1.py
+- scripts/run_main_citybrain_d6_decision_support_control_room_demo_r1.py
+- scripts/run_main_citybrain_d6_decision_support_convergence_readiness_review.py
+- scripts/run_main_citybrain_d6_decision_support_demo_capture_pack_closeout.py
+- scripts/run_main_citybrain_d6_decision_support_demo_capture_pack_r1.py
+- scripts/run_main_citybrain_d6_decision_support_demo_polish_closeout.py
+- scripts/run_main_citybrain_d6_decision_support_demo_polish_r1.py
+- scripts/run_main_citybrain_d6_decision_support_domain_pack_handoff_closeout.py
+- scripts/run_main_citybrain_d6_decision_support_domain_pack_handoff_preflight.py
+- scripts/run_main_citybrain_d6_decision_support_domain_pack_handoff_r1.py
+- scripts/run_main_citybrain_d6_decision_support_final_package_review.py
+- scripts/run_main_citybrain_d6_decision_support_golden_quality_gate_r1.py
+- scripts/run_main_citybrain_d6_decision_support_milestone_freeze.py
+- scripts/run_main_citybrain_d6_decision_support_option_set_contract_preflight.py
+- scripts/run_main_citybrain_d6_decision_support_sprint_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_deployment_perception_expansion_domainpack_final_package_review.py
+- scripts/run_main_citybrain_d6_deployment_perception_expansion_domainpack_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_deployment_perception_expansion_domainpack_sprint_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_domain_pack_candidate_inventory_r1.py
+- scripts/run_main_citybrain_d6_domain_pack_candidate_scoring_matrix_r2.py
+- scripts/run_main_citybrain_d6_domain_pack_candidate_selection_closeout.py
+- scripts/run_main_citybrain_d6_domain_pack_candidate_selection_milestone_freeze.py
+- scripts/run_main_citybrain_d6_domain_pack_candidate_selection_preflight.py
+- scripts/run_main_citybrain_d6_domain_pack_first_candidate_recommendation_r3.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_contract_smoke_r1.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_interface_preflight.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_negative_gate_r3.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_closeout.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_milestone_freeze.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_preflight.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_quality_gate_r2.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_r1.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_option_set_flow_r2.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_state_machine_r1.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_thin_slice_closeout.py
+- scripts/run_main_citybrain_d6_governed_9_stage_runtime_thin_slice_preflight.py
+- scripts/run_main_citybrain_d6_governed_runtime_trace_harness_closeout.py
+- scripts/run_main_citybrain_d6_governed_runtime_trace_harness_preflight.py
+- scripts/run_main_citybrain_d6_governed_runtime_trace_harness_quality_gate_r2.py
+- scripts/run_main_citybrain_d6_governed_runtime_trace_harness_r1.py
+- scripts/run_main_citybrain_d6_hero_corridor_reviewed_action_enum_r1.py
+- scripts/run_main_citybrain_d6_inverse_dynamics_hitl_promotion_bridge_r3.py
+- scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_closeout.py
+- scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_decision_support_preflight.py
+- scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_generator_r1.py
+- scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_milestone_freeze.py
+- scripts/run_main_citybrain_d6_inverse_dynamics_tradeoff_evaluation_r2.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_closeout.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_external_review_bundle.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_external_review_bundle_closeout.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_final_package_review.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_milestone_freeze.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_preflight.py
+- scripts/run_main_citybrain_d6_mobility_access_domain_pack_r1.py
+- scripts/run_main_citybrain_d6_mobility_access_option_set_attachment_r2.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_archive_and_index.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_post_review_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_post_review_final_package_review.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_sprint_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_sprint_final_package_review.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_sprint_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_panel_final_package_review.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_panel_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_mobility_d7_trace_panel_sprint_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_multi_machine_actual_deployment_rehearsal_closeout.py
+- scripts/run_main_citybrain_d6_multi_machine_actual_deployment_rehearsal_milestone_freeze.py
+- scripts/run_main_citybrain_d6_multi_machine_artifact_sync_r1.py
+- scripts/run_main_citybrain_d6_multi_machine_data_manifest_and_placement_plan_r1.py
+- scripts/run_main_citybrain_d6_multi_machine_data_placement_preflight.py
+- scripts/run_main_citybrain_d6_multi_machine_data_sync_r2.py
+- scripts/run_main_citybrain_d6_multi_machine_dry_run_sync_rehearsal.py
+- scripts/run_main_citybrain_d6_multi_machine_end_to_end_rehearsal_r3.py
+- scripts/run_main_citybrain_d6_multi_machine_infra_data_deployment_closeout.py
+- scripts/run_main_citybrain_d6_multi_machine_infra_data_deployment_milestone_freeze.py
+- scripts/run_main_citybrain_d6_multi_machine_local_deployment_closeout.py
+- scripts/run_main_citybrain_d6_multi_machine_local_runtime_smoke_r2.py
+- scripts/run_main_citybrain_d6_multi_machine_remote_runtime_data_smoke_r3.py
+- scripts/run_main_citybrain_d6_next_sprint_selection_review.py
+- scripts/run_main_citybrain_d6_operator_decision_support_surface_r1.py
+- scripts/run_main_citybrain_d6_plan_mode_option_set_normalization_r2.py
+- scripts/run_main_citybrain_d6_plan_mode_runtime_smoke_r3.py
+- scripts/run_main_citybrain_d6_plan_mode_sumo_closeout.py
+- scripts/run_main_citybrain_d6_plan_mode_sumo_preflight.py
+- scripts/run_main_citybrain_d6_plan_mode_sumo_scenario_r1.py
+- scripts/run_main_citybrain_d6_promotion_panel_domain_pack_handoff_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_runtime_thin_slice_promotion_capture_final_package_review.py
+- scripts/run_main_citybrain_d6_runtime_thin_slice_promotion_capture_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_runtime_thin_slice_promotion_capture_sprint_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_runtime_trace_demo_polish_final_package_review.py
+- scripts/run_main_citybrain_d6_runtime_trace_demo_polish_integration_readiness_review.py
+- scripts/run_main_citybrain_d6_runtime_trace_demo_polish_sprint_certified_state_and_handover_refresh.py
+- scripts/run_main_citybrain_d6_similar_case_index_r1.py
+- scripts/run_main_citybrain_d6_similar_case_option_set_attachment_r2.py
+- scripts/run_main_citybrain_d6_similar_case_retrieval_closeout.py
+- scripts/run_main_citybrain_d6_similar_case_retrieval_preflight.py
+- scripts/run_main_citybrain_d6_similar_case_retrieval_quality_gate_r3.py
+- scripts/run_main_citybrain_d6_track_d_mobility_access_promotion_readiness_check.py
+- scripts/run_main_citybrain_d6_track_d_mobility_access_promotion_readiness_closeout.py
+- scripts/run_main_citybrain_d6_track_d_option_set_promotion_bridge_r1.py
+- scripts/run_main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2.py
+- scripts/run_main_citybrain_d6_track_d_option_set_promotion_integration_closeout.py
+- scripts/run_main_citybrain_d6_track_d_option_set_promotion_integration_milestone_freeze.py
+- scripts/run_main_citybrain_d6_track_d_option_set_promotion_integration_preflight.py
+- scripts/run_main_citybrain_d6_track_d_promotion_panel_closeout.py
+- scripts/run_main_citybrain_d6_track_d_promotion_panel_preflight.py
+- scripts/run_main_citybrain_d6_track_d_promotion_panel_r1.py
+- scripts/run_main_citybrain_d7_perception_blueprint_demo_pack_r1.py
+- scripts/run_main_citybrain_d7_perception_candidate_detection_smoke_r2.py
+- scripts/run_main_citybrain_d7_perception_candidate_observation_closeout.py
+- scripts/run_main_citybrain_d7_perception_candidate_observation_milestone_freeze.py
+- scripts/run_main_citybrain_d7_perception_candidate_observation_preflight.py
+- scripts/run_main_citybrain_d7_perception_collateral_closeout.py
+- scripts/run_main_citybrain_d7_perception_collateral_milestone_freeze.py
+- scripts/run_main_citybrain_d7_perception_demo_media_review_r2.py
+- scripts/run_main_citybrain_d7_perception_fixture_source_scout_r1.py
+- scripts/run_main_citybrain_d7_perception_human_review_handoff_r4.py
+- scripts/run_main_citybrain_d7_perception_observation_to_event_evidence_r3.py
+- scripts/run_main_citybrain_d8_actual_record_grounded_ui_remediation.py
+- scripts/run_main_citybrain_d8_brain_surface_story_queue_r1.py
+- scripts/run_main_citybrain_d8_capture_claim_audit_r2.py
+- scripts/run_main_citybrain_d8_capture_executive_walkthrough_r1.py
+- scripts/run_main_citybrain_d8_capture_operator_walkthrough_r1.py
+- scripts/run_main_citybrain_d8_deep_story_inventory_role_portfolio.py
+- scripts/run_main_citybrain_d8_demonstrability_certified_state_handoff.py
+- scripts/run_main_citybrain_d8_demonstrability_final_package_review.py
+- scripts/run_main_citybrain_d8_demonstrability_readiness_review.py
+- scripts/run_main_citybrain_d8_demonstrability_sprint_preflight.py
+- scripts/run_main_citybrain_d8_demonstrability_sprint_r2_mobility_reanchored.py
+- scripts/run_main_citybrain_d8_final_demo_capture_and_certified_handoff_r1.py
+- scripts/run_main_citybrain_d8_hero_integrated_surface_smoke_r2.py
+- scripts/run_main_citybrain_d8_hero_integrated_surface_wire_r1.py
+- scripts/run_main_citybrain_d8_hero_portfolio_and_moment_beat_map_lock_r1.py
+- scripts/run_main_citybrain_d8_hero_spine_moment_wiring_r1.py
+- scripts/run_main_citybrain_d8_human_readable_web_ux_remediation.py
+- scripts/run_main_citybrain_d8_intelligence_moment_loop_and_scoreboard_r1.py
+- scripts/run_main_citybrain_d8_kit_control_room_extension_source_promotion_r2.py
+- scripts/run_main_citybrain_d8_kit_runtime_live_load_smoke_r1.py
+- scripts/run_main_citybrain_d8_local_bridge_and_one_truth_sync_r3.py
+- scripts/run_main_citybrain_d8_local_bridge_smoke.py
+- scripts/run_main_citybrain_d8_mobility_access_live_surface_wiring_r4.py
+- scripts/run_main_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1.py
+- scripts/run_main_citybrain_d8_parallel_data_readiness_scouts.py
+- scripts/run_main_citybrain_d8_post_handoff_followthrough.py
+- scripts/run_main_citybrain_d8_runtime_bundle_contract_r1.py
+- scripts/run_main_citybrain_d8_scenario_authoring_r1.py
+- scripts/run_main_citybrain_d8_source_backed_ui_cutover.py
+- scripts/run_main_citybrain_d8_source_record_gap_closure_and_scenario_coherence.py
+- scripts/run_main_citybrain_d8_source_record_recovery_packs.py
+- scripts/run_main_citybrain_d8_source_record_ui_integration.py
+- scripts/run_main_citybrain_d8_story_first_capture_viewer_validation.py
+- scripts/run_main_citybrain_d8_story_first_real_capture_r1.py
+- scripts/run_main_citybrain_d8_story_first_viewer_session_r1.py
+- scripts/run_main_citybrain_d8_story_mining_and_story_first_ui_redesign.py
+- scripts/run_main_citybrain_d8_story_probe_only.py
+- scripts/run_main_citybrain_d8_story_queue_capture_import_r1.py
+- scripts/run_main_citybrain_d8_story_scenario_layer_reconcile.py
+- scripts/run_main_citybrain_d8_supporting_hero_cutaway_wiring_r1.py
+- scripts/run_main_citybrain_d8_web_control_room_local_launch_smoke.py
+- scripts/run_main_citybrain_d8_web_control_room_source_promotion_r2.py
+- scripts/run_main_citybrain_d8_web_kit_capture_readiness_r6.py
+- scripts/run_main_citybrain_d8_web_kit_live_surface_baseline_hash_reconciliation.py
+- scripts/run_main_citybrain_d8_web_kit_live_surface_closeout.py
+- scripts/run_main_citybrain_d8_web_kit_live_surface_implementation_r2.py
+- scripts/run_main_citybrain_d8_web_kit_live_surface_milestone_freeze.py
+- scripts/run_main_citybrain_d8_web_kit_live_surface_preflight.py
+- scripts/run_main_citybrain_d8_web_kit_state_drift_and_guardrail_smoke_r5.py
+- scripts/run_main_citybrain_d9_ask_watch_brief_check_runtime_r1.py
+- scripts/run_main_citybrain_d9_broad_data_scout_product_modes.py
+- scripts/run_main_citybrain_d9_demo_polish_and_review_loop_r1.py
+- scripts/run_main_citybrain_d9_external_operator_validation_r1.py
+- scripts/run_main_citybrain_d9_external_operator_validation_r2_refreshed.py
+- scripts/run_main_citybrain_d9_external_operator_validation_r2_refreshed_baseline.py
+- scripts/run_main_citybrain_d9_human_review_session_capture_r2.py
+- scripts/run_main_citybrain_d9_manual_screenshot_video_capture_r3.py
+- scripts/run_main_citybrain_d9_operator_cockpit_ux_remediation.py
+- scripts/run_main_citybrain_d9_pre_validation_hardening_baseline.py
+- scripts/run_main_citybrain_d9_preflight_data_scout_for_product_modes.py
+- scripts/run_main_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21.py
+- scripts/run_main_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22.py
+- scripts/run_main_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17.py
+- scripts/run_main_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20.py
+- scripts/run_main_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19.py
+- scripts/run_main_citybrain_metropolis_vss_bmd45_threshold_calibration_and_sample_expansion_r18.py
+- scripts/run_main_citybrain_metropolis_vss_camera_source_registry_r14.py
+- scripts/run_main_citybrain_metropolis_vss_candidate_observation_pipeline_r1.py
+- scripts/run_main_citybrain_metropolis_vss_evidence_frame_export_r10.py
+- scripts/run_main_citybrain_metropolis_vss_evidence_replay_readiness_closeout_r15.py
+- scripts/run_main_citybrain_metropolis_vss_human_review_ui_packet_r13.py
+- scripts/run_main_citybrain_metropolis_vss_multizone_multiclass_r12.py
+- scripts/run_main_citybrain_metropolis_vss_narration_evidence_join_r8.py
+- scripts/run_main_citybrain_metropolis_vss_narration_runtime_configured_smoke_r5.py
+- scripts/run_main_citybrain_metropolis_vss_narration_runtime_integration_r4.py
+- scripts/run_main_citybrain_metropolis_vss_narration_runtime_smoke_r7.py
+- scripts/run_main_citybrain_metropolis_vss_object_metadata_export_r2.py
+- scripts/run_main_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16.py
+- scripts/run_main_citybrain_metropolis_vss_rtsp_replay_infra_r11.py
+- scripts/run_main_citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6.py
+- scripts/run_main_citybrain_metropolis_vss_runtime_configured_rerun_r6b.py
+- scripts/run_main_citybrain_metropolis_vss_runtime_provisioning_and_configuration_r6c.py
+- scripts/run_main_citybrain_metropolis_vss_spark_provisioning_runbook_r6e.py
+- scripts/run_main_citybrain_metropolis_vss_spark_split_host_readiness_r6d.py
+- scripts/run_main_citybrain_metropolis_vss_sprint_closeout_r9.py
+- scripts/run_main_citybrain_metropolis_vss_vss_narration_runtime_dry_run_r3.py
+- scripts/run_main_citybrain_omniverse_native_kit_spatial_cockpit_ui_r1.py
+- scripts/run_main_citybrain_omniverse_native_kit_spatial_cockpit_ui_r2_live_gui_visual_acceptance.py
+- scripts/run_main_citybrain_omniverse_webrtc_live_webui_bridge_r1.py
+- scripts/run_main_citybrain_omniverse_webrtc_r2_bidirectional_selection_parity.py
+- scripts/run_main_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity.py
+- scripts/run_main_citybrain_omniverse_webrtc_r4_event_overlay_parity.py
+- scripts/run_main_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop.py
+- scripts/run_main_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_polish.py
+- scripts/run_main_citybrain_r8_real_perception_runtime_evidence_clip_integration.py
+- scripts/run_main_citybrain_r9_deepstream_product_runtime_execution_smoke.py
+- tests/__init__.py
+- tests/test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration.py
+- tests/test_main_citybrain_r9_deepstream_product_runtime_execution_smoke.py
+- tests/test_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21.py
+- tests/test_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22.py
+- tests/test_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17.py
+- tests/test_metropolis_vss_bmd45_human_review_benchmark_packet_r20.py
+- tests/test_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19.py
+- tests/test_metropolis_vss_bmd45_threshold_calibration_r18.py
+- tests/test_metropolis_vss_narration_evidence_join_r8.py
+- tests/test_metropolis_vss_sprint_closeout_r9.py
+- tests/test_omniverse_spatial_cockpit.py
+- tests/test_omniverse_spatial_cockpit_r2_package.py
+- tests/test_omniverse_webrtc_bridge_r3_package.py
+- tests/test_omniverse_webrtc_r2_selection_parity.py
+- tests/test_omniverse_webrtc_r3_scene_prim_selection_parity.py
+- tests/test_omniverse_webrtc_r4_event_overlay_parity.py
+- tests/test_omniverse_webrtc_r5_real_scene_object_event_review_loop.py
+- tests/test_omniverse_webrtc_r6_ui_ux_operator_workflow_polish.py

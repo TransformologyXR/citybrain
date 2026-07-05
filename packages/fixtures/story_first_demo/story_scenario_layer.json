@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-07-02T07:34:24.237726+00:00",
+  "proximity_not_impact_rule": {
+    "allowed": "nearby access asset; review heuristic; active works record",
+    "forbidden": "affected charger; causal impact; live incident response; EV unavailability finding",
+    "status": "ENFORCED"
+  },
+  "scenario": {
+    "beats": [
+      {
+        "beat_id": "B01_WHAT_IS_HAPPENING_NOW",
+        "limitation": "Active works record, not live incident response or operational instruction.",
+        "source_record_ids": [
+          "TIMS-219173"
+        ],
+        "status_or_time": "Active / Minimal; last modified 2026-07-01T22:21:20Z",
+        "title": "What is happening now: Wood Lane works record",
+        "viewer_copy": "[A219] Wood Lane (Both directions) at the junction of [A40] Westway - Various carriageway and footway restrictions in place to facilitate Cycle Superhighway works."
+      },
+      {
+        "beat_id": "B02_NEARBY_ACCESS_ASSET",
+        "limitation": "Infrastructure context only; this does not prove a charger service change.",
+        "source_record_ids": [
+          "87"
+        ],
+        "status_or_time": "3 rapid point(s); Public use",
+        "title": "What nearby access asset is relevant",
+        "viewer_copy": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham."
+      },
+      {
+        "beat_id": "B03_PROXIMITY_NOT_CAUSALITY",
+        "limitation": "Distance-bounded proximity is a review heuristic, not causal impact.",
+        "source_record_ids": [
+          "TIMS-219173",
+          "TIMS-210389",
+          "87"
+        ],
+        "status_or_time": "review heuristic",
+        "title": "What the system noticed: proximity connection, not causality",
+        "viewer_copy": "Wood Lane and Westway works records are near the Scrubbs Lane access asset by bounded source join."
+      },
+      {
+        "beat_id": "B04_HUMAN_REVIEW_ONLY",
+        "limitation": "No action, routing, dispatch, alert, official case, or approval is created.",
+        "source_record_ids": [
+          "TIMS-219173",
+          "TIMS-210389",
+          "87"
+        ],
+        "status_or_time": "review-only",
+        "title": "What a human can review",
+        "viewer_copy": "A reviewer can inspect the works records and the access asset together, ask for stronger source evidence, or abstain."
+      },
+      {
+        "beat_id": "B05_REVIEW_STOP",
+        "limitation": "The scenario remains review context only.",
+        "source_record_ids": [
+          "limitation:review_only_boundary"
+        ],
+        "status_or_time": "not executed",
+        "title": "Where the system stops: no action / human review",
+        "viewer_copy": "CityBrain presents bounded context and stops at human review."
+      }
+    ],
+    "boundaries": [
+      "Review-only scenario layer.",
+      "No EV availability, blockage, access-impact, or operational-disruption finding.",
+      "No production/public API, live monitoring, alerting, dispatch, routing/control, enforcement, official ticket, legal/certified conclusion, approval, or automated action."
+    ],
+    "city": "London",
+    "connection_points": [
+      {
+        "kind": "Review heuristic",
+        "limitation": "Nearby does not mean affected.",
+        "summary": "TfL road-works records are reviewed near an EV access asset record.",
+        "title": "Distance-bounded source join"
+      },
+      {
+        "kind": "Evidence discipline",
+        "limitation": "Visible record IDs do not create a complete source picture.",
+        "summary": "The scenario keeps TIMS-219173, TIMS-210389, and EV asset 87 visible.",
+        "title": "Record IDs stay visible"
+      },
+      {
+        "kind": "Review stop",
+        "limitation": "No approval or execution exists.",
+        "summary": "The system only prepares review context.",
+        "title": "No action has been taken"
+      }
+    ],
+    "date_time_or_status": "Active / Minimal; last modified 2026-07-01T22:21:20Z; Active / Minimal; last modified 2026-07-01T22:27:07Z",
+    "evidence_links": [
+      "https://api.tfl.gov.uk/Road/All/Disruption/TIMS-219173",
+      "https://api.tfl.gov.uk/Road/All/Disruption/TIMS-210389",
+      "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg"
+    ],
+    "human_review_choices": [
+      "Review whether the Wood Lane works should be watched as access-context evidence.",
+      "Review whether nearby access-asset context should be attached to the packet.",
+      "Ask for stronger source evidence before making any access-impact claim.",
+      "Abstain when the evidence remains insufficient."
+    ],
+    "limitations": [
+      "Proximity is a review heuristic, not causal impact.",
+      "TfL records are source records captured for local/replay review; they are not live incident response.",
+      "EV asset row is infrastructure context, not an event or service-status source.",
+      "A stronger source is required before any access-impact claim."
+    ],
+    "map_anchor": {
+      "geometry_status": "EV point plus TfL disruption point-distance join",
+      "label": "Scrubbs Lane - Wood Lane Car Park / Wood Lane works",
+      "latitude": "51.519975",
+      "longitude": "-0.228609"
+    },
+    "place_or_corridor": "Wood Lane / Scrubbs Lane, Hammersmith & Fulham",
+    "primary_limitation": "Proximity is not impact; the scenario makes no EV availability, blockage, access-impact, or operational-disruption finding.",
+    "records": [
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "evidence_links": [
+          "https://api.tfl.gov.uk/Road/All/Disruption/TIMS-219173"
+        ],
+        "fields": {
+          "category": "Works",
+          "distance_to_access_asset_km": 0.602,
+          "last_modified": "2026-07-01T22:21:20Z",
+          "severity": "Minimal",
+          "start": "2026-04-30T23:01:00Z",
+          "status": "Active"
+        },
+        "source_dataset": "TfL Unified API Road Disruptions",
+        "source_record_id": "TIMS-219173",
+        "summary": "[A219] Wood Lane (Both directions) at the junction of [A40] Westway - Various carriageway and footway restrictions in place to facilitate Cycle Superhighway works.",
+        "title": "[A219] WOOD LANE (W12 ) (Hammersmith & Fulham)"
+      },
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "evidence_links": [
+          "https://api.tfl.gov.uk/Road/All/Disruption/TIMS-210389"
+        ],
+        "fields": {
+          "category": "Works",
+          "distance_to_access_asset_km": 0.667,
+          "last_modified": "2026-07-01T22:27:07Z",
+          "severity": "Minimal",
+          "start": "2025-08-27T16:00:00Z",
+          "status": "Active"
+        },
+        "source_dataset": "TfL Unified API Road Disruptions",
+        "source_record_id": "TIMS-210389",
+        "summary": "[A40] Westway (Eastbound) at the junction of [A3220] West Cross Route - The exit slip road to the Northern Roundabout is closed to facilitate repair works. ",
+        "title": "[A40] WESTWAY (W10 ,W12 ) (Hammersmith & Fulham,Kensington & Chelsea)"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "evidence_links": [
+          "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg"
+        ],
+        "fields": {
+          "borough": "Hammersmith & Fulham",
+          "latitude": "51.519975",
+          "longitude": "-0.228609",
+          "rapid_charge_points": "3",
+          "taxi_public_use": "Public use"
+        },
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_record_id": "87",
+        "summary": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham.",
+        "title": "Scrubbs Lane - Wood Lane Car Park"
+      }
+    ],
+    "review_only_boundary": "Local/replay/review/query context only. No alerts, dispatch, routing, enforcement, official ticket, legal/certified finding, approval, or automated action.",
+    "scenario_layer_type": "bounded_review_premise_over_source_records",
+    "scenario_layer_validated": true,
+    "scene_title": "Wood Lane works near a named rapid EV access asset",
+    "source_dataset_names": [
+      "London Datastore Electric Vehicle Charging Site",
+      "TfL Unified API Road Disruptions"
+    ],
+    "source_record_ids": [
+      "TIMS-219173",
+      "TIMS-210389",
+      "87"
+    ],
+    "source_records": [
+      "TIMS-219173",
+      "TIMS-210389",
+      "87"
+    ],
+    "story_id": "story:lon:wood_lane_ev_access_review",
+    "viewer_summary": "CityBrain connects Wood Lane works records with a nearby rapid EV access asset, then stops at review because proximity is a heuristic, not an impact finding.",
+    "what_happened": "TfL source records describe active works on Wood Lane and Westway. A London Datastore source row identifies Scrubbs Lane - Wood Lane Car Park as a nearby rapid EV access asset.",
+    "why_this_is_non_obvious": "The useful intelligence beat is the bounded connection: road works records and access infrastructure context appear near each other, while the system refuses to overclaim what the sources do not prove."
+  },
+  "schema_version": "citybrain-story-scenario-layer-r1",
+  "source_story_bundle": "packages/fixtures/story_first_demo/story_source_bundle.json",
+  "status": "PASS_MAIN_CITYBRAIN_D8_WOOD_LANE_SCENARIO_LAYER_R1_WITH_LIMITATIONS",
+  "supporting_cutaways": [
+    {
+      "city": "Helsinki",
+      "limitation": "Candidate visual/entity alignment only, not a certified twin.",
+      "role": "supporting visual cutaway",
+      "source_record_ids": [
+        "BID_35328115-972e-45e3-97bd-d0029f19f70d",
+        "cer:candidate:hel:building:d6c6463c80b4ed25"
+      ],
+      "summary": "Visual object -> semantic source record path remains a strong cutaway.",
+      "title": "Tehtaankatu 1b"
+    },
+    {
+      "city": "Chicago",
+      "limitation": "Bounded precedent context only, not causal, predictive, legal, or operational.",
+      "role": "precedent memory",
+      "source_record_ids": [
+        "7511042"
+      ],
+      "summary": "CN135016 recorded with issue type rodent.",
+      "title": "6934 S DANTE AVE"
+    }
+  ],
+  "technical_refs": {
+    "scenario_source_records": [
+      "TIMS-219173",
+      "TIMS-210389",
+      "87"
+    ],
+    "story_mining_decision": "outputs/main_citybrain_d8_story_mining_and_story_first_ui_redesign/MAIN_CITYBRAIN_D8_STORY_MINING_UI_REDESIGN_SEQUENCE_DECISION.json",
+    "story_probe_closeout": "outputs/main_citybrain_d8_story_probe_only_closeout/STORY_PROBE_ONLY_CLOSEOUT_DECISION.json"
+  }
+}

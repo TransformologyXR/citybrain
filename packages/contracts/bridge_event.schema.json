@@ -1,0 +1,23 @@
+{
+  "$id": "citybrain://d8-live-surface/bridge_event.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "command_status": {
+      "enum": [
+        "accepted",
+        "rejected"
+      ]
+    },
+    "execution_state": {
+      "const": "not_executed"
+    }
+  },
+  "required": [
+    "command_id",
+    "command_status",
+    "scenario_state_ref"
+  ],
+  "title": "bridge_event.json",
+  "type": "object"
+}

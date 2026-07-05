@@ -1,0 +1,51 @@
+{
+  "data_depth_blocker_count": 7,
+  "default_ui_rule": "render source-backed cards or explicit DATA DEPTH BLOCKER cards; do not render CityBrain fixture records as city facts",
+  "generated_at": "2026-07-01T21:00:59.558639+00:00",
+  "limitations": [
+    "Current Mobility Access certified runtime bundle is fixture/runtime-packet rich but source-record thin.",
+    "Do not run naive viewer validation until corridor, observation, similar-case, cascade, and option evidence records are source-backed.",
+    "No production/public API, live monitoring, dispatch, routing/control, enforcement, legal/certified finding, official case/ticket, or automated-action claim is made."
+  ],
+  "minimum_green_threshold": "at least 5 official/source-derived city record cards",
+  "recommended_source_record_tasks": [
+    "LONDON_MOBILITY_SOURCE_RECORD_PACK",
+    "CHICAGO_SIMILAR_CASE_RECORD_PACK",
+    "HELSINKI_SEMANTIC_TWIN_FOR_VISUAL_ENTITY_PICK"
+  ],
+  "runtime_bundle_path": "packages/fixtures/mobility_access/runtime_bundle",
+  "schema_version": "citybrain-d8-source-record-bundle-r2",
+  "source_record_candidates": [],
+  "source_record_count": 0,
+  "source_record_minimum_fields": {
+    "city": [
+      "city",
+      "jurisdiction",
+      "municipality"
+    ],
+    "external_record_id": [
+      "external_record_id",
+      "source_record_id",
+      "source_id"
+    ],
+    "limitation": [
+      "limitation",
+      "limitation_ref",
+      "limitation_refs",
+      "claim_boundary"
+    ],
+    "source_dataset": [
+      "source_dataset",
+      "dataset_name",
+      "source_system"
+    ],
+    "summary": [
+      "summary",
+      "record_summary",
+      "description",
+      "plain_language_summary"
+    ]
+  },
+  "status": "PARTIAL_SOURCE_RECORD_DEPTH_INSUFFICIENT",
+  "truth_label": "PARTIAL_SOURCE_RECORD_DEPTH_INSUFFICIENT"
+}

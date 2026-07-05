@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-07-01T21:00:59.558639+00:00",
+  "mappings": [],
+  "runtime_fixture_families_preserved_in_technical_details": [
+    "hero-",
+    "hero_",
+    "HERO-",
+    "inv_option_",
+    "d7_candidate_observation:",
+    "similar_case:",
+    "cascade_attachment:",
+    "reviewed_trace_fixture",
+    "operator_trace_freeze"
+  ],
+  "schema_version": "citybrain-d8-source-record-to-runtime-map-r2",
+  "status": "NO_SOURCE_RECORDS_TO_MAP"
+}

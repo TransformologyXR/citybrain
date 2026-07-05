@@ -1,0 +1,755 @@
+{
+  "cards": {
+    "chicago": [
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "card_id": "chicago-similar-case-card-001",
+        "card_type": "similar_case_source_record",
+        "city": "Chicago",
+        "external_record_id": "7511042",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Similar-case memory is contextual precedent only.",
+          "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+        ],
+        "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_dataset": "Chicago Building Violations",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "summary": "CN135016 recorded with issue type rodent.",
+        "title": "Violations case at 6934 S DANTE AVE"
+      },
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "card_id": "chicago-similar-case-card-002",
+        "card_type": "similar_case_source_record",
+        "city": "Chicago",
+        "external_record_id": "7510501",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Similar-case memory is contextual precedent only.",
+          "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+        ],
+        "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_dataset": "Chicago Building Violations",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "summary": "CN104035 recorded with issue type building_condition.",
+        "title": "Violations case at 516 N LECLAIRE AVE"
+      },
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "card_id": "chicago-similar-case-card-003",
+        "card_type": "similar_case_source_record",
+        "city": "Chicago",
+        "external_record_id": "7510495",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Similar-case memory is contextual precedent only.",
+          "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+        ],
+        "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_dataset": "Chicago Building Violations",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "summary": "BR3058 recorded with issue type other.",
+        "title": "Violations case at 162 E ONTARIO ST"
+      },
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "card_id": "chicago-similar-case-card-004",
+        "card_type": "similar_case_source_record",
+        "city": "Chicago",
+        "external_record_id": "7511077",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Similar-case memory is contextual precedent only.",
+          "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+        ],
+        "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_dataset": "Chicago Building Violations",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "summary": "CN190019 recorded with issue type rodent.",
+        "title": "Violations case at 7547 S ESSEX AVE"
+      },
+      {
+        "card_classification": "OFFICIAL_CITY_SOURCE_RECORD",
+        "card_id": "chicago-similar-case-card-005",
+        "card_type": "similar_case_source_record",
+        "city": "Chicago",
+        "external_record_id": "7511175",
+        "known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+        "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Similar-case memory is contextual precedent only.",
+          "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+        ],
+        "match_reason": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction.",
+        "recommended_panel": "M02 similar-case memory",
+        "source_dataset": "Chicago Building Violations",
+        "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+        "summary": "CN105015 recorded with issue type building_condition.",
+        "title": "Violations case at 4700 S LAKE PARK AVE"
+      }
+    ],
+    "helsinki": [
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-001",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:d6c6463c80b4ed25",
+        "city": "Helsinki",
+        "external_record_id": "BID_35328115-972e-45e3-97bd-d0029f19f70d",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_35328115_972e_45e3_97bd_d0029f19f70d",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Tehtaankatu 1b has source building id BID_35328115-972e-45e3-97bd-d0029f19f70d, use Tehdas, measured height 19.7, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_35328115_972e_45e3_97bd_d0029f19f70d.",
+        "title": "Tehtaankatu 1b"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-002",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:3e5ec08f76213168",
+        "city": "Helsinki",
+        "external_record_id": "BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_ed72bb29_8b9d_4fcd_aa6b_b006740cb61d",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Vuorimiehenkatu 7 has source building id BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d, use Asuinrakennus, measured height 24.3, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_ed72bb29_8b9d_4fcd_aa6b_b006740cb61d.",
+        "title": "Vuorimiehenkatu 7"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-003",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:eeaab2cc1ea6a7a1",
+        "city": "Helsinki",
+        "external_record_id": "BID_d273e626-bc0a-417f-b350-9a00852dd8ce",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_d273e626_bc0a_417f_b350_9a00852dd8ce",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Vuorimiehenkatu 19 has source building id BID_d273e626-bc0a-417f-b350-9a00852dd8ce, use Asuinrakennus, measured height 22.3, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_d273e626_bc0a_417f_b350_9a00852dd8ce.",
+        "title": "Vuorimiehenkatu 19"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-004",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:26f781d390e33637",
+        "city": "Helsinki",
+        "external_record_id": "BID_e75c5da5-7fcd-4f13-80c2-f2d744085449",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_e75c5da5_7fcd_4f13_80c2_f2d744085449",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Laivasillankatu 14 has source building id BID_e75c5da5-7fcd-4f13-80c2-f2d744085449, use Asuinrakennus, measured height 32.5, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_e75c5da5_7fcd_4f13_80c2_f2d744085449.",
+        "title": "Laivasillankatu 14"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-005",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:1f4437848c82f771",
+        "city": "Helsinki",
+        "external_record_id": "BID_532d722b-08e6-4206-8818-4b00bdf3b857",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_532d722b_08e6_4206_8818_4b00bdf3b857",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Ullankatu 3 has source building id BID_532d722b-08e6-4206-8818-4b00bdf3b857, use Asuinrakennus, measured height 32.2, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_532d722b_08e6_4206_8818_4b00bdf3b857.",
+        "title": "Ullankatu 3"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-006",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:bb8a186a06df5617",
+        "city": "Helsinki",
+        "external_record_id": "BID_0f77a27c-2911-4c16-8c20-f6a991c40770",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_0f77a27c_2911_4c16_8c20_f6a991c40770",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Muukalaiskatu 1 has source building id BID_0f77a27c-2911-4c16-8c20-f6a991c40770, use Asuinrakennus, measured height 25.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_0f77a27c_2911_4c16_8c20_f6a991c40770.",
+        "title": "Muukalaiskatu 1"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-007",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:d560b19b2eb787d5",
+        "city": "Helsinki",
+        "external_record_id": "BID_7af7d2ac-8755-4d13-a136-b9730b691df2",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_7af7d2ac_8755_4d13_a136_b9730b691df2",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Katajanokanlaituri 6 has source building id BID_7af7d2ac-8755-4d13-a136-b9730b691df2, use Muu rakennus, measured height 19.4, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_7af7d2ac_8755_4d13_a136_b9730b691df2.",
+        "title": "Katajanokanlaituri 6"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-008",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:903d51968de168af",
+        "city": "Helsinki",
+        "external_record_id": "BID_61d361a1-886d-4d15-a0f5-cd7891a1f614",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_61d361a1_886d_4d15_a0f5_cd7891a1f614",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Kasarmikatu 13 has source building id BID_61d361a1-886d-4d15-a0f5-cd7891a1f614, use P\u00e4iv\u00e4koti, measured height 7.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_61d361a1_886d_4d15_a0f5_cd7891a1f614.",
+        "title": "Kasarmikatu 13"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-009",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:cc7a666edb6f3bca",
+        "city": "Helsinki",
+        "external_record_id": "BID_2360095c-2cad-4486-9b8b-575cce9bbe68",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_2360095c_2cad_4486_9b8b_575cce9bbe68",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Ullankatu 1 has source building id BID_2360095c-2cad-4486-9b8b-575cce9bbe68, use Talousrakennus, measured height 7.7, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_2360095c_2cad_4486_9b8b_575cce9bbe68.",
+        "title": "Ullankatu 1"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-010",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:b1c3e4322ab9c2e7",
+        "city": "Helsinki",
+        "external_record_id": "BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_075e6939_20cf_4dd6_918f_2c536eb3f7cb",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Ullankatu 1 has source building id BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb, use Asuinrakennus, measured height 26.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_075e6939_20cf_4dd6_918f_2c536eb3f7cb.",
+        "title": "Ullankatu 1"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-011",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:d08ae95e61492aa2",
+        "city": "Helsinki",
+        "external_record_id": "BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_8e8ec0f1_b597_4cef_89d6_a21787156f4b",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "T\u00e4htitorninkatu 14 has source building id BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b, use Asuinrakennus, measured height 4.8, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_8e8ec0f1_b597_4cef_89d6_a21787156f4b.",
+        "title": "T\u00e4htitorninkatu 14"
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "helsinki-visual-entity-card-012",
+        "card_type": "visual_entity_pick_building_record",
+        "cer_candidate_id": "cer:candidate:hel:building:0955f7213e062d5b",
+        "city": "Helsinki",
+        "external_record_id": "BID_6012d274-fbd0-4b58-8d6f-760e692748e7",
+        "license_or_attribution": "# Helsinki License And Attribution\n\nHelsinki 3D city model and Kalasatama digital twin sources are treated as CC BY 4.0 based on the HRI package metadata landed under `outputs/d4_helsinki_kalasatama_context_data_landing_r1/metadata/`.\n\nDownstream use should attribute City of Helsinki / Helsinki 3D city model / HRI and preserve source URLs, timestamps, hashes, and local file refs.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+          "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+          "No legal/certified property or official building-status claim is made."
+        ],
+        "prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_6012d274_fbd0_4b58_8d6f_760e692748e7",
+        "recommended_panel": "M10 / Kit visual entity pick",
+        "source_dataset": "Helsinki 3D city model semantic building sample",
+        "summary": "Kanavakatu 4 has source building id BID_6012d274-fbd0-4b58-8d6f-760e692748e7, use Liikerakennus, measured height 16.7, and candidate prim path /World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_6012d274_fbd0_4b58_8d6f_760e692748e7.",
+        "title": "Kanavakatu 4"
+      }
+    ],
+    "london": [
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-001",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Richmond",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:2",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.464253",
+          "longitude": "-0.273817",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Public use"
+        },
+        "external_record_id": "2",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Upper Richmond Road west of Coval Rd is listed as a London rapid EV charging site in Richmond.",
+        "title": "Upper Richmond Road west of Coval Rd",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-002",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Newham",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:12",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.523421",
+          "longitude": "0.068574",
+          "numberrcpoints": "2",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Public use"
+        },
+        "external_record_id": "12",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Claps Gate Lane Retail park is listed as a London rapid EV charging site in Newham.",
+        "title": "Claps Gate Lane Retail park",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-003",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Brent",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:63",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.546586",
+          "longitude": "-0.204599",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Taxi"
+        },
+        "external_record_id": "63",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "1 Christchurch Avenue, Kilburn Station, NW6 7QP  is listed as a London rapid EV charging site in Brent.",
+        "title": "1 Christchurch Avenue, Kilburn Station, NW6 7QP ",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-004",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Redbridge",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:558",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.591184",
+          "longitude": "0.027028",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Taxi"
+        },
+        "external_record_id": "558",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "South Woodford Station Car Park is listed as a London rapid EV charging site in Redbridge.",
+        "title": "South Woodford Station Car Park",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-005",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Greenwich",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:74",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.476538",
+          "longitude": "0.022182",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Public use"
+        },
+        "external_record_id": "74",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Old Dover Road west of Dornberg Close - car park is listed as a London rapid EV charging site in Greenwich.",
+        "title": "Old Dover Road west of Dornberg Close - car park",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-006",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Haringey",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:78",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.579178",
+          "longitude": "-0.125007",
+          "numberrcpoints": "2",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Public use"
+        },
+        "external_record_id": "78",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Crouch Hall Rd opp Bryanstone Road is listed as a London rapid EV charging site in Haringey.",
+        "title": "Crouch Hall Rd opp Bryanstone Road",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-007",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Hammersmith & Fulham",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:87",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.519975",
+          "longitude": "-0.228609",
+          "numberrcpoints": "3",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Public use"
+        },
+        "external_record_id": "87",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham.",
+        "title": "Scrubbs Lane - Wood Lane Car Park",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-008",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Richmond",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:129",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.464093",
+          "longitude": "-0.270037",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Public use"
+        },
+        "external_record_id": "129",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "A205 Upper Richmond Road West east of Carlton Road.  is listed as a London rapid EV charging site in Richmond.",
+        "title": "A205 Upper Richmond Road West east of Carlton Road. ",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-009",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Westminster",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:169",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.511661",
+          "longitude": "-0.180296",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Taxi"
+        },
+        "external_record_id": "169",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Lancaster Gate is listed as a London rapid EV charging site in Westminster.",
+        "title": "Lancaster Gate",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      },
+      {
+        "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+        "card_id": "london-mobility-card-010",
+        "card_type": "mobility_access_source_context",
+        "city": "London",
+        "evidence_fields": {
+          "borough": "Westminster",
+          "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:174",
+          "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+          "geometry_status": "official_source_geometry",
+          "latitude": "51.523033",
+          "longitude": "-0.183562",
+          "numberrcpoints": "1",
+          "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+          "taxipublicuses": "Taxi"
+        },
+        "external_record_id": "174",
+        "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+        "limitations": [
+          "Source rows are bounded samples, not complete city coverage.",
+          "Cards are review/demo source records only, not operational instructions.",
+          "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+          "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+          "Record time is the source runtime field where present, not a live timestamp."
+        ],
+        "recommended_panel": "Situation / Mobility source context",
+        "source_dataset": "London Datastore Electric Vehicle Charging Site",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "summary": "Warwick Avenue by Clifton Villas is listed as a London rapid EV charging site in Westminster.",
+        "title": "Warwick Avenue by Clifton Villas",
+        "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+      }
+    ]
+  },
+  "lanes": [
+    {
+      "fixture_root": "packages/fixtures/london_mobility_source_records",
+      "lane": "LONDON_MOBILITY_SOURCE_RECORD_PACK",
+      "source_record_count": 10,
+      "status": "PASS_MAIN_CITYBRAIN_D8_LONDON_MOBILITY_SOURCE_RECORD_PACK_WITH_LIMITATIONS",
+      "ui_ready_card_count": 10
+    },
+    {
+      "fixture_root": "packages/fixtures/chicago_similar_case_records",
+      "lane": "CHICAGO_SIMILAR_CASE_RECORD_PACK",
+      "source_record_count": 5,
+      "status": "PASS_MAIN_CITYBRAIN_D8_CHICAGO_SIMILAR_CASE_RECORD_PACK_WITH_LIMITATIONS",
+      "ui_ready_card_count": 5
+    },
+    {
+      "fixture_root": "packages/fixtures/helsinki_visual_entity_pick",
+      "lane": "HELSINKI_SEMANTIC_TWIN_FOR_VISUAL_ENTITY_PICK",
+      "source_record_count": 12,
+      "status": "PASS_MAIN_CITYBRAIN_D8_HELSINKI_SEMANTIC_TWIN_VISUAL_ENTITY_PICK_WITH_LIMITATIONS",
+      "ui_ready_card_count": 12
+    }
+  ],
+  "schema_version": "citybrain-source-record-recovery-candidate-bundle-r1",
+  "status": "PASS_MAIN_CITYBRAIN_D8_SOURCE_RECORD_RECOVERY_CERTIFIED_STATE_HANDOFF_WITH_LIMITATIONS",
+  "ui_panel_source_record_coverage": {
+    "M02_similar_case_memory": {
+      "covered_by": "Chicago similar-case source records",
+      "record_count": 5
+    },
+    "M07_forbidden_command_refusal": {
+      "covered_by": null,
+      "status": "still requires a review-log source record if default UI needs source-backed refusal evidence"
+    },
+    "M08_track_d_stop": {
+      "covered_by": null,
+      "status": "runtime proof exists, but external/source review record remains separate"
+    },
+    "M10_visual_entity_pick": {
+      "covered_by": "Helsinki semantic twin visual entity records",
+      "record_count": 12
+    },
+    "M13_candidate_observation": {
+      "covered_by": null,
+      "status": "still blocked unless D7 media observation records are landed"
+    },
+    "situation_panel": {
+      "covered_by": "London Mobility source records",
+      "record_count": 10
+    }
+  }
+}

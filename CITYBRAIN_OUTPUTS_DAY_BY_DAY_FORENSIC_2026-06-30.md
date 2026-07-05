@@ -1,21 +1,22 @@
 # CityBrain Outputs Day-by-Day Forensic Chronology
 
 Generated: 2026-06-30
+Updated: 2026-07-01
 Workspace: `C:\Users\hazem\Documents\CityBrain`
 
 ## Method
 
 This report is based on the generated output ledger under `outputs/`, not just top-level source timestamps. I inspected output roots by day, file counts, sizes, decision JSONs, harness reports, snapshot reports, and representative summaries. I deliberately avoided reading large raw datasets, parquet bodies, CSV bodies, shapefiles, and bulk generated block-level briefings except through their manifests/reports.
 
-Important update since the first lineage report: after the earlier scan, the newest observed output root is now:
+Important update since the first lineage report: after later runs on 2026-06-30 and the morning 2026-07-01 refresh, the newest observed output root is now:
 
 ```text
-outputs/main_track2c_d4x_omniverse_kit_extension_camera_capture_r2
-PASS_MAIN_TRACK2C_D4X_OMNIVERSE_KIT_EXTENSION_CAMERA_CAPTURE_R2_WITH_LIMITATIONS
-local latest file time: 2026-06-30 00:34:00
+outputs/main_citybrain_d6_r2_certified_state_and_handover_refresh
+PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS
+root latest file time: 2026-07-01 08:55:29
 ```
 
-That does not change the Git commit we made; it means the live workspace output ledger has advanced by one Track2C Omniverse bridge step.
+That means the live workspace output ledger has advanced beyond the morning D4X/D5/Track2A finishing handover into D6 demo composition, R7/R8 relationship runtime work, D5 local-running control-room slices, Incident Mode, Hero Neighbourhood, CER/SEG v2, Hero/CERSEG integration-readiness review, Demo R1 closeout/freeze, Track D HITL governance, Track A real USD twin, Track P packaging/collateral, Hero USD Twin + HITL integration readiness, a green Hero USD Twin HITL Control Room Demo R2, closeout/audit, milestone freeze, collateral R2, final package review, and a certified-state/handover refresh.
 
 ## Update Since Last Report
 
@@ -132,7 +133,7 @@ New decision statuses include:
 
 ### New Integrated Finishing Handover
 
-The newest observed root is:
+At that intermediate scan, the newest observed root was:
 
 ```text
 outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1
@@ -683,47 +684,227 @@ Omniverse / Track2C:
   - recommended next task: `MAIN-TRACK2C-D4X-OMNIVERSE-VIEWPORT-STREAMING-R3`.
   - limitations: local Kit/Composer extension only, file-queue bridge rather than WebRTC/browser streaming, camera/focus commands frame USD prim paths rather than semantic IDs directly, screenshots are review/context captures, no production deployment, no dispatch/enforcement/control/certified affected-building claim.
 
-Lineage meaning: June 30 moves from D4Y preflight and hardening into bridge mechanics: stable local runtime contracts, CER/SEG alignment, and Omniverse viewport/camera capture extension work.
+Lineage meaning: June 30 morning moved from D4Y preflight and hardening into bridge mechanics: stable local runtime contracts, CER/SEG alignment, and Omniverse viewport/camera capture extension work.
+
+## Second Update Since Last Report
+
+Anchor: the prior continuation state stopped at `outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1`, latest local file time 2026-06-30 08:58:06.
+
+New output-ledger roots after that anchor:
+
+| Latest local time | Output root | Status / meaning |
+|---|---|---|
+| 09:38:31 | `main_citybrain_d5_local_served_runtime_app_consumption_smoke_r1` | `PASS_WITH_LIMITATIONS`; 12 app/runtime packet types consumed. |
+| 09:45:17 | `main_citybrain_d6_runtime_demo_preflight_r1` | `PASS_WITH_LIMITATIONS`; demo preflight opened a D6 runtime-demo path. |
+| 10:17:25 | `main_track2a_d4x_omniverse_kit_selection_extension_r1` | `PASS_WITH_LIMITATIONS`; Kit selection extension package. |
+| 11:10:16 | `main_track2a_d4x_omniverse_kit_composer_gui_smoke_r2` | `PASS_WITH_LIMITATIONS`; GUI/Composer smoke. |
+| 12:02:33 | `main_track1_d4y_r7_cross_domain_relationship_substrate_preflight` | `PASS_WITH_LIMITATIONS`; R7 relationship substrate preflight. |
+| 12:11:04 | `main_track2a_d4x_omniverse_composer_selection_debug_r1` | `DEBUG_READY_WITH_KIT_NO_WINDOW_PROBE_PASS`; large local debug pack, about 295.58 MB. |
+| 12:15:50 | `manual_main_track2a_d4x_omniverse_composer_selection_acceptance_r1` | `DONE`; manual Composer selection acceptance pack. |
+| 12:22:32 | `main_track1_d4y_r7_cross_domain_relationship_edge_seed_r1` | `PASS_WITH_LIMITATIONS`; first cross-domain edge seed. |
+| 12:56:32 | `main_citybrain_d6_end_to_end_demo_and_episode_frontend_handover_r1` | `PASS_WITH_LIMITATIONS`; D6 demo/episode frontend handover. |
+| 12:57:07 | `main_citybrain_d6_control_room_reference_demo_r1` | `PASS_WITH_LIMITATIONS`; first control-room reference demo closeout. |
+| 12:58:32 | `manual_main_citybrain_d6_frontend_visual_acceptance_r1` | `PASS_WITH_LIMITATIONS`; frontend visual acceptance. |
+| 13:13:46 | `main_track2a_d4x_omniverse_asset_overlay_demo_smoke` | `PASS_MAIN_TRACK2A_D4X_OMNIVERSE_ASSET_OVERLAY_DEMO_SMOKE_WITH_LIMITATIONS`; 28 overlay packets. |
+| 13:34:16 | `main_track2a_d4x_omniverse_asset_binding_r1` | `PASS_MAIN_TRACK2A_D4X_OMNIVERSE_ASSET_BINDING_R1_WITH_LIMITATIONS`. |
+| 13:35:04 | `main_citybrain_d6_control_room_reference_demo_r2_polish` | `PASS_MAIN_CITYBRAIN_D6_CONTROL_ROOM_REFERENCE_DEMO_R2_POLISH_WITH_LIMITATIONS`; R2 polish, no R7/event overlay implementation yet. |
+| 13:35:07 | `main_citybrain_d4x_r7_cross_domain_edge_seed_r2_source_diversity` | `PASS_MAIN_CITYBRAIN_D4X_R7_CROSS_DOMAIN_EDGE_SEED_R2_SOURCE_DIVERSITY_WITH_LIMITATIONS`; 28 new accepted grounded edges, 7 source families, max source-family share 0.1429. |
+| 14:03:28 | `main_track2a_d4x_omniverse_kit_composer_handoff_r2` | `PASS_MAIN_TRACK2A_D4X_OMNIVERSE_KIT_COMPOSER_HANDOFF_R2_WITH_LIMITATIONS`. |
+| 14:06:13 | `main_citybrain_d6_r3_r7_relationship_overlay_integration` | `PASS_MAIN_CITYBRAIN_D6_R3_R7_RELATIONSHIP_OVERLAY_INTEGRATION_WITH_LIMITATIONS`; 28 selected edges, 28 Kit handoff packets, 28 web companion packets. |
+| 14:06:15 | `main_citybrain_d4x_r7_edge_registry_runtime_preflight` | `PASS_MAIN_CITYBRAIN_D4X_R7_EDGE_REGISTRY_RUNTIME_PREFLIGHT_WITH_LIMITATIONS`. |
+| 14:41:48 | `main_citybrain_d6_control_room_reference_demo_closeout_refresh` | `PASS_MAIN_CITYBRAIN_D6_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_REFRESH_WITH_LIMITATIONS`. |
+| 14:45:26 | `main_citybrain_d4x_mobility_domain_pack_r1_end_to_end` | `PASS_MAIN_CITYBRAIN_D4X_MOBILITY_DOMAIN_PACK_R1_END_TO_END_WITH_LIMITATIONS`; 10 relationship types. |
+| 14:58:28 | `main_citybrain_d4x_domain_availability_counts_scout` | `PASS_MAIN_CITYBRAIN_D4X_DOMAIN_AVAILABILITY_COUNTS_SCOUT_WITH_LIMITATIONS`. |
+| 15:06:08 | `main_citybrain_d4x_mobility_r7_runtime_slice_and_d6_overlay_integration_r1` | `PASS_MAIN_CITYBRAIN_D4X_MOBILITY_R7_RUNTIME_SLICE_AND_D6_OVERLAY_INTEGRATION_R1_WITH_LIMITATIONS`. |
+| 15:17:38 | `main_citybrain_d4x_live_event_fabric_r2_state_materialization_end_to_end` | `PASS_MAIN_CITYBRAIN_D4X_LIVE_EVENT_FABRIC_R2_STATE_MATERIALIZATION_END_TO_END_WITH_LIMITATIONS`. |
+| 15:40:59 | `main_track2a_d4x_omniverse_event_overlay_integration_r3` | `PASS_MAIN_TRACK2A_D4X_OMNIVERSE_EVENT_OVERLAY_INTEGRATION_R3_WITH_LIMITATIONS`. |
+| 15:42:18 | `main_citybrain_d4x_building_compliance_domain_pack_r1_end_to_end` | `PASS_MAIN_CITYBRAIN_D4X_BUILDING_COMPLIANCE_DOMAIN_PACK_R1_END_TO_END_WITH_LIMITATIONS`; 14 relationship types. |
+| 15:43:46 | `main_citybrain_d4x_property_planning_domain_pack_r1_end_to_end` | `PASS_MAIN_CITYBRAIN_D4X_PROPERTY_PLANNING_DOMAIN_PACK_R1_END_TO_END_WITH_LIMITATIONS`; 15 relationship types. |
+| 15:45:48 | `main_citybrain_d4x_building_compliance_property_planning_thread_closeout` | `PASS_MAIN_CITYBRAIN_D4X_BUILDING_COMPLIANCE_PROPERTY_PLANNING_THREAD_CLOSEOUT_WITH_LIMITATIONS`. |
+| 16:32:39 | `main_citybrain_d4x_property_planning_r7_edge_extension_and_closeout_r1` | `PASS_MAIN_CITYBRAIN_D4X_PROPERTY_PLANNING_R7_EDGE_EXTENSION_AND_CLOSEOUT_R1_WITH_LIMITATIONS`; 8 relationship types. |
+| 16:32:59 | `main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1` | `PASS_MAIN_CITYBRAIN_D4X_BUILDING_COMPLIANCE_R7_EDGE_EXTENSION_AND_CLOSEOUT_R1_WITH_LIMITATIONS`; 8 relationship types. |
+| 16:50:40 | `main_citybrain_d4x_mobility_r7_edge_extension_and_closeout_r1` | `PASS_MAIN_CITYBRAIN_D4X_MOBILITY_R7_EDGE_EXTENSION_AND_CLOSEOUT_R1_WITH_LIMITATIONS`; 5 relationship types. |
+| 16:55:13 | `main_citybrain_d4x_building_compliance_property_planning_r7_extension_closeout` | `PASS_MAIN_CITYBRAIN_D4X_BUILDING_COMPLIANCE_PROPERTY_PLANNING_R7_EXTENSION_CLOSEOUT_WITH_LIMITATIONS`. |
+| 17:05:21 | `main_citybrain_d4x_city_asset_identity_domain_pack_r1_end_to_end` | `PASS_MAIN_CITYBRAIN_D4X_CITY_ASSET_IDENTITY_DOMAIN_PACK_R1_END_TO_END_WITH_LIMITATIONS`; 18 relationship types. |
+| 17:21:34 | `main_citybrain_d4x_city_asset_identity_r7_edge_extension_and_closeout_r1` | `PASS_MAIN_CITYBRAIN_D4X_CITY_ASSET_IDENTITY_R7_EDGE_EXTENSION_AND_CLOSEOUT_R1_WITH_LIMITATIONS`; 20 accepted grounded review-context edges. |
+| 17:38:06 | `main_citybrain_d6_event_context_overlay_integration_r4` | `PASS_MAIN_CITYBRAIN_D6_EVENT_CONTEXT_OVERLAY_INTEGRATION_R4_WITH_LIMITATIONS`; 36 event-context overlay packets, 36 Kit packets, 36 web packets. |
+| 17:46:38 | `main_citybrain_d6_control_room_reference_demo_closeout_refresh_r2` | `PASS_MAIN_CITYBRAIN_D6_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_REFRESH_R2_WITH_LIMITATIONS`; consolidated R3/R4/event-overlay truth register. |
+| 18:00:01 | `main_citybrain_d4x_r7_multi_domain_edge_registry_runtime_slice` | `PASS_MAIN_CITYBRAIN_D4X_R7_MULTI_DOMAIN_EDGE_REGISTRY_RUNTIME_SLICE_WITH_LIMITATIONS`. |
+| 18:17:23 | `main_citybrain_d5_local_served_runtime_event_fabric_integration_r3` | `PASS_MAIN_CITYBRAIN_D5_LOCAL_SERVED_RUNTIME_EVENT_FABRIC_INTEGRATION_R3_WITH_LIMITATIONS`. |
+| 18:23:05 | `main_citybrain_d5_local_served_runtime_track2_handoff_r4` | `PASS_MAIN_CITYBRAIN_D5_LOCAL_SERVED_RUNTIME_TRACK2_HANDOFF_R4_WITH_LIMITATIONS`. |
+| 18:27:57 | `main_citybrain_d6_d5_local_running_control_room_slice_r1` | `PASS_MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_CONTROL_ROOM_SLICE_R1_WITH_LIMITATIONS`. |
+| 18:30:52 | `main_citybrain_d6_d5_local_running_slice_closeout` | `PASS_MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_WITH_LIMITATIONS`. |
+| 18:45:07 | `main_citybrain_d6_incident_mode_preflight` | `PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_PREFLIGHT_WITH_LIMITATIONS`. |
+| 18:48:45 | `main_citybrain_d4x_r8_multi_domain_edge_registry_hardening` | `PASS_MAIN_CITYBRAIN_D4X_R8_MULTI_DOMAIN_EDGE_REGISTRY_HARDENING_WITH_LIMITATIONS`; 133 hardened edges, 10/0 query regression pass/fail. |
+| 19:06:33 | `main_citybrain_d6_incident_mode_evidence_bundle_r1` | `PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_EVIDENCE_BUNDLE_R1_WITH_LIMITATIONS`. |
+| 19:06:33 | `main_citybrain_d6_incident_mode_operator_review_workflow_r2` | `PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_OPERATOR_REVIEW_WORKFLOW_R2_WITH_LIMITATIONS`. |
+| 19:06:33 | `main_citybrain_d6_incident_mode_runtime_smoke_r3` | `PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_RUNTIME_SMOKE_R3_WITH_LIMITATIONS`. |
+| 19:06:34 | `main_citybrain_d6_incident_mode_closeout` | `PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_CLOSEOUT_WITH_LIMITATIONS`. |
+| 19:06:36 | `main_track2a_d5_hero_neighbourhood_twin_preflight` | `PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_TWIN_PREFLIGHT_WITH_LIMITATIONS`. |
+| 19:43:48 | `main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4` | `PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS`; 6 operator-surface packets, 2 unresolved/quarantined preserved. |
+| 19:45:04 | `main_citybrain_d6_cer_seg_cross_city_v2_preflight` | `PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_PREFLIGHT_WITH_LIMITATIONS`. |
+| 20:01:37 | `main_track2a_d5_hero_neighbourhood_asset_binding_r1` | `PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_ASSET_BINDING_R1_WITH_LIMITATIONS`; 8 bindings. |
+| 20:03:53 | `main_citybrain_d6_cer_seg_v2_canonical_entity_contract_r1` | `PASS_MAIN_CITYBRAIN_D6_CER_SEG_V2_CANONICAL_ENTITY_CONTRACT_R1_WITH_LIMITATIONS`; 29 entity families, 13/0 validation checks. |
+| 20:11:15 | `main_track2a_d5_hero_neighbourhood_event_overlay_r2` | `PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_EVENT_OVERLAY_R2_WITH_LIMITATIONS`; 8 overlay packets. |
+| 20:14:17 | `main_citybrain_d6_cer_seg_v2_relationship_ontology_r2` | `PASS_MAIN_CITYBRAIN_D6_CER_SEG_V2_RELATIONSHIP_ONTOLOGY_R2_WITH_LIMITATIONS`; 11 relationship types, 8 relationship families, 133 R8 edges classified. |
+| 20:14:55 | `main_track2a_d5_hero_neighbourhood_kit_composer_handoff_r3` | `PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_KIT_COMPOSER_HANDOFF_R3_WITH_LIMITATIONS`; 8 prim metadata records and 8 overlay packets. |
+| 20:18:16 | `main_track2a_d5_hero_neighbourhood_scene_pack_closeout` | `PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_WITH_LIMITATIONS`; 8 bindings, 8 overlay packets, 8 prim metadata records. |
+| 20:19:06 | `main_citybrain_d6_cer_seg_v2_confidence_review_state_contract_r3` | `PASS_MAIN_CITYBRAIN_D6_CER_SEG_V2_CONFIDENCE_REVIEW_STATE_CONTRACT_R3_WITH_LIMITATIONS`; 7 confidence dimensions and 20 review states. |
+| 20:23:37 | `main_citybrain_d6_cer_seg_v2_runtime_bridge_smoke_r4` | `PASS_MAIN_CITYBRAIN_D6_CER_SEG_V2_RUNTIME_BRIDGE_SMOKE_R4_WITH_LIMITATIONS`; 6 runtime bridge cases. |
+| 20:27:13 | `main_citybrain_d6_cer_seg_cross_city_v2_closeout` | `PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS`. |
+| 20:37:44 | `main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS`; 18/18 required upstreams found, 0 blocking gaps. |
+| 20:54:47 | `main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS`; 45 manifest rows, 8 Hero bindings, 8 Hero overlays, 6 operator-surface packets, 6 web companion packets, 0 blocking gaps. |
+| 21:04:05 | `main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_WITH_LIMITATIONS`; R1 manifest rows 45, 8 upstreams found, 0 blocking gaps. |
+| 21:22:38 | `main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_milestone_freeze` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_MILESTONE_FREEZE_WITH_LIMITATIONS`. |
+| 22:43:20 | `main_citybrain_d6_hitl_reviewed_action_preflight` | `PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_PREFLIGHT_WITH_LIMITATIONS`. |
+| 22:43:20 | `main_citybrain_d6_hitl_action_proposal_contract_r1` | `PASS_MAIN_CITYBRAIN_D6_HITL_ACTION_PROPOSAL_CONTRACT_R1_WITH_LIMITATIONS`. |
+| 22:43:21 | `main_citybrain_d6_hitl_approval_lifecycle_r2` | `PASS_MAIN_CITYBRAIN_D6_HITL_APPROVAL_LIFECYCLE_R2_WITH_LIMITATIONS`. |
+| 22:43:21 | `main_citybrain_d6_hitl_audit_and_guardrail_smoke_r3` | `PASS_MAIN_CITYBRAIN_D6_HITL_AUDIT_AND_GUARDRAIL_SMOKE_R3_WITH_LIMITATIONS`; R3 negative guardrail lane closed before the freeze. |
+| 22:43:21 | `main_citybrain_d6_hitl_reviewed_action_closeout` | `PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_CLOSEOUT_WITH_LIMITATIONS`; Track D proposal-only governance spine closed. |
+| 22:43:22 | `main_citybrain_d6_hitl_reviewed_action_milestone_freeze` | `PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_MILESTONE_FREEZE_WITH_LIMITATIONS`; next recommended integration readiness. |
+| 22:43:48 | `main_track2a_d6_hero_neighbourhood_real_usd_twin_preflight` | `PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_PREFLIGHT_WITH_LIMITATIONS`. |
+| 22:43:49 | `main_track2a_d6_hero_neighbourhood_real_footprint_usd_r1` | `PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_FOOTPRINT_USD_R1_WITH_LIMITATIONS`. |
+| 22:43:50 | `main_track2a_d6_hero_neighbourhood_graph_to_usd_status_overlay_r2` | `PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_GRAPH_TO_USD_STATUS_OVERLAY_R2_WITH_LIMITATIONS`. |
+| 22:43:50 | `main_track2a_d6_hero_neighbourhood_replay_event_route_animation_r3` | `PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REPLAY_EVENT_ROUTE_ANIMATION_R3_WITH_LIMITATIONS`. |
+| 22:43:51 | `main_track2a_d6_hero_neighbourhood_real_usd_twin_closeout` | `PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_CLOSEOUT_WITH_LIMITATIONS`; Track A complete. |
+| 22:43:52 | `main_track2a_d6_hero_neighbourhood_real_usd_twin_milestone_freeze` | `PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_MILESTONE_FREEZE_WITH_LIMITATIONS`. |
+| 22:48:01 | `main_citybrain_d6_hero_neighbourhood_product_packaging_and_persona_preflight` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_PRODUCT_PACKAGING_AND_PERSONA_PREFLIGHT_WITH_LIMITATIONS`. |
+| 22:48:37 | `main_citybrain_d6_persona_rendering_policies_r1` | `PASS_MAIN_CITYBRAIN_D6_PERSONA_RENDERING_POLICIES_R1_WITH_LIMITATIONS`. |
+| 22:48:41 | `main_citybrain_d6_hero_neighbourhood_collateral_pack_r1` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_COLLATERAL_PACK_R1_WITH_LIMITATIONS`. |
+| 22:48:47 | `main_citybrain_d6_hero_neighbourhood_product_packaging_closeout` | `PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_PRODUCT_PACKAGING_CLOSEOUT_WITH_LIMITATIONS`; 25 collateral artifacts, 4 personas, 0 blocking gaps. |
+| 22:51:49 | `main_citybrain_d6_hero_usd_twin_and_hitl_integration_readiness_review` | `PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_AND_HITL_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS`; 10/10 upstreams found, 0 blocking gaps. |
+| 23:03:13 | `main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_r2` | `PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_R2_WITH_LIMITATIONS`; 56 manifest rows, 8 USD prim paths, 15 HITL audit events, 8 negative guardrail tests. |
+| 2026-07-01 08:18:45 | `main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_closeout_r2` | `PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_CLOSEOUT_R2_WITH_LIMITATIONS`; 56 manifest rows, 10/10 upstreams found, 0 blocking gaps, next milestone freeze R2. |
+| 2026-07-01 08:31:19 | `main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_milestone_freeze_r2` | `PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_MILESTONE_FREEZE_R2_WITH_LIMITATIONS`; R2 frozen with 10/10 upstreams, 56 manifest rows, 0 blocking gaps, next collateral R2. |
+| 2026-07-01 08:35:55 | `collateral_r2_after_track_a_and_track_d_if_green` | `PASS_COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_WITH_LIMITATIONS`; 30 collateral artifacts/manifest rows, 10/10 required upstreams, 2/2 optional upstreams, next final package review. |
+| 2026-07-01 08:48:27 | `main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_final_package_review` | `PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_FINAL_PACKAGE_REVIEW_WITH_LIMITATIONS`; 8/8 required upstreams, package alignment and disclosures pass, next certified-state refresh. |
+| 2026-07-01 08:55:29 | `main_citybrain_d6_r2_certified_state_and_handover_refresh` | `PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS`; 20 closed tracks, 11 deferred tracks, 5 ready next tracks, next reviewed option-set preflight. |
+
+### What Changed After 08:58
+
+The workspace moved through nineteen more arcs after the earlier integrated reference-spine handover:
+
+1. D6 turned the reference spine into actual control-room demo/readiness work: R1/R2 demo packages, frontend visual acceptance, relationship overlay integration, event-context overlay integration, and closeout refresh.
+2. R7 advanced from edge seed R1 to source-diverse R2, then runtime preflight/slice, and finally R8 hardening with 133 hardened review-context edges.
+3. Domain packs expanded beyond the first two: mobility, building compliance, property planning, and city asset identity all received R1/R7 closeout or extension artifacts.
+4. D5/D6 local-running work closed the local served runtime -> event fabric -> Track2 handoff -> running control-room slice path.
+5. Incident Mode closed a bounded local/replay lane from preflight through evidence bundles, operator review workflow, runtime smoke, closeout, and Track2A operator-surface handoff.
+6. Hero Neighbourhood became a scene-pack lane: twin preflight, asset binding R1, event overlay R2, Kit/Composer handoff R3, and scene-pack closeout.
+7. CER/SEG v2 became the contract/generalization lane: cross-city preflight, canonical entity contract R1, relationship ontology R2, confidence/review-state R3, runtime bridge smoke R4, closeout, and Hero/CERSEG integration-readiness review.
+8. Hero Neighbourhood control-room reference demo R1 turned the readiness review into a green operator-facing artifact package with storyboard, demo manifest, operator/executive walkthroughs, Omniverse and web handoff summaries, acceptance matrix, and audits.
+9. Demo R1 then closed and froze as a bounded milestone: closeout R1 and milestone freeze preserved the 45-row demo manifest, 8 Hero bindings, 8 overlays, 6 operator packets, 6 web packets, and the review-only boundary.
+10. Track D HITL Reviewed Action closed separately as a proposal-only governance spine with human approval states, inert execution adapter stub, audit trail, guardrail smoke, closeout, and milestone freeze.
+11. Track A Real USD Twin closed separately as a bounded local/replay spatial proof: preflight, real footprint USDA, graph-to-USD status overlay, replay route animation, closeout, and milestone freeze.
+12. Track P Product Packaging / Persona / Collateral closed as packaging-only collateral: persona policies, collateral pack, claim labels, capture readiness, and closeout.
+13. A Hero USD Twin + HITL integration-readiness review proved the Track A spatial proof and Track D governance spine could be composed without merging boundaries or mutating upstreams.
+14. Hero USD Twin HITL Control Room Demo R2 closed green with 56 manifest rows, 8 USD prim paths, 15 HITL audit events, 6 proposal fixtures, 4 lifecycle fixtures, 8 negative guardrail tests, 4 persona walkthroughs, and 0 blocking gaps.
+15. Hero USD Twin HITL Control Room Demo Closeout R2 audited and freeze-prepared that package, preserving 56 manifest rows, 8 USD prim paths, 8 overlay status entries, 5 replay route animation frames, 6 HITL proposal fixtures, 4 lifecycle fixtures, 4 persona walkthroughs, 6 web companion summaries, 21 unresolved/quarantined contexts, and all boundary/audit passes.
+16. Hero USD Twin HITL Control Room Demo Milestone Freeze R2 froze that state as a bounded local/replay milestone with Track A, Track D, and Track P all present and green.
+17. Collateral R2 packaged the frozen state for outward review with 30 collateral artifacts, 30 manifest rows, safe/forbidden talking points, persona walkthroughs, Omniverse/web/HITL narratives, and claim-label audits.
+18. Final Package Review reconciled the frozen R2 facts against the collateral and disclosures, confirming persona, HITL, USD twin, web/Omniverse, non-blocking gap, claim-label, no-action, no-mutation, secret, and hash checks.
+19. Certified State and Handover Refresh consolidated the current R2 state into a handover ledger: 20 closed tracks, 11 deferred tracks, 5 ready next tracks, 6/6 required upstreams, 15/15 optional upstreams, stale recommendation detection pass, and next task `MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT`.
+
+Lineage meaning: June 30 evening is where CityBrain stops being only a reference spine and becomes a set of bounded local/replay product lanes: a control-room reference demo, local running slice, incident mode, Hero Neighbourhood scene pack, CER/SEG v2 generalization contract, HITL reviewed-action governance, real USD twin proof, and product packaging/collateral. By the final observed tip, the Hero Neighbourhood path has advanced beyond Demo R1 into an R2 composition, closeout, freeze, collateral pack, final package review, and certified-state handover refresh. The repeated boundary remains review/query/context only, not production, not public API, not autonomous monitoring, not dispatch/control/enforcement, and not legal/certified truth.
 
 ## Current Continuation State
 
-The latest observed output-ledger tip is now the integrated D4X/D5/Track2A finishing handover:
+The latest observed output-ledger tip is now the R2 certified-state and handover refresh:
 
 ```text
-MAIN-CITYBRAIN-D4X-D5-TRACK2A-INTEGRATED-FINISHING-HANDOVER-R1
-PASS_WITH_LIMITATIONS
-latest root: outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1
-run timestamp: 2026-06-30T07:58:06Z
-recommended next: MAIN-CITYBRAIN-D6-CONTROL-ROOM-REFERENCE-DEMO-PREFLIGHT
+MAIN-CITYBRAIN-D6-R2-CERTIFIED-STATE-AND-HANDOVER-REFRESH
+PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS
+latest root: outputs/main_citybrain_d6_r2_certified_state_and_handover_refresh
+root latest file time: 2026-07-01 08:55:29
+required upstreams: 6/6 found
+optional upstreams: 15/15 found
+closed tracks: 20
+deferred tracks: 11
+ready next tracks: 5
+json parse status: PASS
+frozen facts reconciliation: PASS
+stale recommendation detection: PASS
+blocking gaps: 0
+non-blocking gaps: 3
+recommended next: MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT
 ```
 
-The latest main Track 1 D4Y/R-series tip observed after the prior report is:
+The preceding Hero Neighbourhood control-room demo R1 is now an upstream lineage point:
 
 ```text
-MAIN-TRACK1-D4Y-R6-INCIDENT-EVENT-MODE-END-TO-END
-PASS_MAIN_TRACK1_D4Y_R6_INCIDENT_EVENT_MODE_END_TO_END_WITH_LIMITATIONS
+MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-CONTROL-ROOM-REFERENCE-DEMO-R1
+PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS
+manifest rows: 45
+blocking gaps: 0
+non-blocking gaps: 3
 ```
 
-The latest local-served runtime / D5-adjacent slice observed is:
+The Track D HITL lane latest state is:
 
 ```text
-MAIN-CITYBRAIN-D5-LOCAL-SERVED-RUNTIME-APP-INTEGRATION-SLICE-R1
-PASS_WITH_LIMITATIONS
-next: MAIN-CITYBRAIN-D5-LOCAL-SERVED-RUNTIME-APP-CONSUMPTION-SMOKE-R1
+MAIN-CITYBRAIN-D6-HITL-REVIEWED-ACTION-MILESTONE-FREEZE
+PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_MILESTONE_FREEZE_WITH_LIMITATIONS
+proposal-only governance spine
+inert execution adapter stub only
+recommended next at the time: MAIN-CITYBRAIN-D6-HERO-AND-HITL-REVIEWED-ACTION-INTEGRATION-READINESS-REVIEW
 ```
 
-The latest live-event-fabric implementation slice observed is:
+The Track A real USD twin latest state is:
 
 ```text
-MAIN-CITYBRAIN-D4X-LIVE-EVENT-FABRIC-MINIMAL-LOCAL-SLICE
-PASS_WITH_LIMITATIONS
-next: MAIN-CITYBRAIN-D5-LOCAL-SERVED-RUNTIME-APP-INTEGRATION-SLICE-R1
+MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-REAL-USD-TWIN-MILESTONE-FREEZE
+PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_MILESTONE_FREEZE_WITH_LIMITATIONS
+Track A complete: true
+implementation changes in freeze: false
 ```
 
-The previous parked D5 security boundary remains relevant as an option, but it is no longer the only visible continuation path:
+The Track P collateral lane latest state is:
 
 ```text
-MAIN-CITYBRAIN-D5-PRODUCTION-BOUNDARY-AND-SECURITY-PREFLIGHT
+MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-PRODUCT-PACKAGING-CLOSEOUT
+PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_PRODUCT_PACKAGING_CLOSEOUT_WITH_LIMITATIONS
+collateral artifacts: 25
+personas: 4
+blocking gaps: 0
+```
+
+The latest Hero Neighbourhood lane closeout is:
+
+```text
+MAIN-TRACK2A-D5-HERO-NEIGHBOURHOOD-SCENE-PACK-CLOSEOUT
+PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_WITH_LIMITATIONS
+bindings: 8
+overlay packets: 8
+prim metadata records: 8
+unresolved/quarantined preserved: 2
+```
+
+The latest CER/SEG v2 lane closeout is:
+
+```text
+MAIN-CITYBRAIN-D6-CER-SEG-CROSS-CITY-V2-CLOSEOUT
+PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS
+required upstreams: 5/5 found
+optional Hero scene-pack upstreams present
+runtime bridge smoke: PASS
+```
+
+The latest Incident Mode lane state is:
+
+```text
+MAIN-CITYBRAIN-D6-INCIDENT-MODE-TRACK2A-OPERATOR-SURFACE-HANDOFF-R4
+PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS
+operator-surface packets: 6
+unresolved/quarantined preserved: 2
+next at the time: MAIN-TRACK2A-D5-HERO-NEIGHBOURHOOD-ASSET-BINDING-R1
+```
+
+The latest local-running D5/D6 slice closeout is:
+
+```text
+MAIN-CITYBRAIN-D6-D5-LOCAL-RUNNING-SLICE-CLOSEOUT
+PASS_MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_WITH_LIMITATIONS
+closed: D4X R7, D5 R3, D5 R4, and D6/D5 R1
+recommended next at the time: MAIN-CITYBRAIN-D6-INCIDENT-MODE-PREFLIGHT
 ```
 
 ## Invariant Across All Days
@@ -772,3 +953,23 @@ Representative inspected files include:
 - `outputs/main_track1_d4y_r4_live_runtime_hardening/D4Y_R4_RUNTIME_HARDENING_COVERAGE_REPORT.json`
 - `outputs/main_track1_d4y_r4_cer_seg_shared_contracts_smoke/MAIN_TRACK1_D4Y_R4_CER_SEG_SHARED_CONTRACTS_SMOKE_DECISION.json`
 - `outputs/main_track2c_d4x_omniverse_kit_extension_camera_capture_r2/MAIN_TRACK2C_D4X_OMNIVERSE_KIT_EXTENSION_CAMERA_CAPTURE_R2_DECISION.json`
+- `outputs/main_citybrain_d4x_r7_cross_domain_edge_seed_r2_source_diversity/MAIN_CITYBRAIN_D4X_R7_CROSS_DOMAIN_EDGE_SEED_R2_SOURCE_DIVERSITY_DECISION.json`
+- `outputs/main_citybrain_d6_r3_r7_relationship_overlay_integration/MAIN_CITYBRAIN_D6_R3_R7_RELATIONSHIP_OVERLAY_INTEGRATION_DECISION.json`
+- `outputs/main_citybrain_d6_event_context_overlay_integration_r4/MAIN_CITYBRAIN_D6_EVENT_CONTEXT_OVERLAY_INTEGRATION_R4_DECISION.json`
+- `outputs/main_citybrain_d6_d5_local_running_slice_closeout/MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_DECISION.json`
+- `outputs/main_citybrain_d6_incident_mode_track2a_operator_surface_handoff_r4/MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_DECISION.json`
+- `outputs/main_track2a_d5_hero_neighbourhood_scene_pack_closeout/MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_DECISION.json`
+- `outputs/main_citybrain_d6_cer_seg_cross_city_v2_closeout/MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_DECISION.json`
+- `outputs/main_citybrain_d6_hero_neighbourhood_and_cerseg_v2_integration_readiness_review/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_DECISION.json`
+- `outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_DECISION.json`
+- `outputs/main_citybrain_d6_hero_neighbourhood_control_room_reference_demo_closeout_r1/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_CLOSEOUT_R1_DECISION.json`
+- `outputs/main_citybrain_d6_hitl_reviewed_action_milestone_freeze/MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_MILESTONE_FREEZE_DECISION.json`
+- `outputs/main_track2a_d6_hero_neighbourhood_real_usd_twin_milestone_freeze/MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_MILESTONE_FREEZE_DECISION.json`
+- `outputs/main_citybrain_d6_hero_neighbourhood_product_packaging_closeout/MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_PRODUCT_PACKAGING_CLOSEOUT_DECISION.json`
+- `outputs/main_citybrain_d6_hero_usd_twin_and_hitl_integration_readiness_review/MAIN_CITYBRAIN_D6_HERO_USD_TWIN_AND_HITL_INTEGRATION_READINESS_REVIEW_DECISION.json`
+- `outputs/main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_r2/MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_R2_DECISION.json`
+- `outputs/main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_closeout_r2/MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_CLOSEOUT_R2_DECISION.json`
+- `outputs/main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_milestone_freeze_r2/MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_MILESTONE_FREEZE_R2_DECISION.json`
+- `outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json`
+- `outputs/main_citybrain_d6_hero_usd_twin_hitl_control_room_demo_final_package_review/MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_FINAL_PACKAGE_REVIEW_DECISION.json`
+- `outputs/main_citybrain_d6_r2_certified_state_and_handover_refresh/MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_DECISION.json`

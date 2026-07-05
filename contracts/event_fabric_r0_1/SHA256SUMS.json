@@ -1,0 +1,64 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 309,
+      "path": "EVENT_FABRIC_R0_1_MANIFEST.json",
+      "sha256": "e1f79ce9c3b3ddf84968bd62c6cef26fef9e74cc196c12e565aa8a97b3f5e4cc"
+    },
+    {
+      "bytes": 20185,
+      "path": "fixtures/invalid_fixtures.json",
+      "sha256": "30b11a7600bcb2d2820d2bc2bf9a0b0da2c988f9c2a5b851299b7ecc0e144454"
+    },
+    {
+      "bytes": 15321,
+      "path": "fixtures/valid_fixtures.json",
+      "sha256": "73d929a12d88549a84585be7cd4841ac68afe569c4c5a36a9ad35592378e3a3e"
+    },
+    {
+      "bytes": 4466,
+      "path": "import_map.json",
+      "sha256": "962227d4bed3a3192fbc5d2dac831d9636c28404c92f378e9fd38c700213920e"
+    },
+    {
+      "bytes": 108,
+      "path": "README.md",
+      "sha256": "055d98ab8618ea64d0e364f94a2b4d48c989a5c6d5e8f8f811e56443103b96d9"
+    },
+    {
+      "bytes": 1614,
+      "path": "schemas/EVENT_FABRIC_R0_1_EVENT_ENVELOPE_SCHEMA.json",
+      "sha256": "cc6021ef65041c5427c17dd9dc1e27834de148390fe14a8d43aafbb21d4f0bee"
+    },
+    {
+      "bytes": 765,
+      "path": "schemas/EVENT_FABRIC_R0_1_EVENT_TYPE_REGISTRY.json",
+      "sha256": "0925cbd8405275b40d86acd2ccdb7ebce567c32cd86b6b5bdcdc11e0bf799ad5"
+    },
+    {
+      "bytes": 1557,
+      "path": "schemas/EVENT_FABRIC_R0_1_MATERIALIZED_REVIEW_STATE_SCHEMA.json",
+      "sha256": "34c145555413a248f216e79799494d818f8788ca96590d150d156857c9313ead"
+    },
+    {
+      "bytes": 1551,
+      "path": "schemas/EVENT_FABRIC_R0_1_OVERLAY_PACKET_SCHEMA.json",
+      "sha256": "feb7260f0da9da2f2190e0a9c067985018da6c2af3f76901cd5a9ff458fd2247"
+    },
+    {
+      "bytes": 1434,
+      "path": "schemas/EVENT_FABRIC_R0_1_QUERY_RESULT_PACKET_SCHEMA.json",
+      "sha256": "71fdd7d14627aff87b688e54c841ff73dc85aea7ae69fd4cfda8c8c53d6455f0"
+    },
+    {
+      "bytes": 1145,
+      "path": "schemas/EVENT_FABRIC_R0_1_REVIEW_STATE_SCHEMA.json",
+      "sha256": "8867dc3bdb21f66849216641a2a656a842fddd1e0d6fe0c14dc7eb0b3d491a3b"
+    }
+  ],
+  "entry_count": 11,
+  "generated_at": "2026-07-05T16:34:46Z",
+  "schema_version": "citybrain.hash_manifest.v1",
+  "status": "PASS"
+}

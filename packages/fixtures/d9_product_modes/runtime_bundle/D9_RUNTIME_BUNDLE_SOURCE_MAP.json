@@ -1,0 +1,67 @@
+[
+  {
+    "artifact_id": "story_queue",
+    "exists": true,
+    "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json"
+  },
+  {
+    "artifact_id": "story_first_layer",
+    "exists": true,
+    "path": "packages/fixtures/story_first_demo/story_scenario_layer.json"
+  },
+  {
+    "artifact_id": "story_first_bundle",
+    "exists": true,
+    "path": "packages/fixtures/story_first_demo/story_source_bundle.json"
+  },
+  {
+    "artifact_id": "nyc_cascade_layer",
+    "exists": true,
+    "path": "packages/fixtures/nyc_cascade_story_scenario_layer/NYC_CASCADE_SCENARIO_LAYER.json"
+  },
+  {
+    "artifact_id": "source_record_ui",
+    "exists": true,
+    "path": "packages/fixtures/source_record_ui_integrated/source_record_ui_integrated_bundle.json"
+  },
+  {
+    "artifact_id": "london_source_records",
+    "exists": true,
+    "path": "packages/fixtures/london_mobility_source_records/source_record_bundle.json"
+  },
+  {
+    "artifact_id": "chicago_similar_cases",
+    "exists": true,
+    "path": "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json"
+  },
+  {
+    "artifact_id": "helsinki_visual",
+    "exists": true,
+    "path": "packages/fixtures/helsinki_visual_entity_pick/source_record_bundle.json"
+  },
+  {
+    "artifact_id": "data_scout_closeout",
+    "exists": true,
+    "path": "outputs/main_citybrain_d9_data_scout_closeout/D9_DATA_SCOUT_CLOSEOUT_DECISION.json"
+  },
+  {
+    "artifact_id": "data_scout_matrix",
+    "exists": true,
+    "path": "outputs/main_citybrain_d9_data_scout_closeout/D9_MODE_DATA_READINESS_MATRIX.json"
+  },
+  {
+    "artifact_id": "data_scout_freeze",
+    "exists": true,
+    "path": "outputs/main_citybrain_d9_data_scout_milestone_freeze/DATA_SCOUT_MILESTONE_FREEZE_DECISION.json"
+  },
+  {
+    "artifact_id": "planning_context_report",
+    "exists": true,
+    "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_HARNESS_REPORT.json"
+  },
+  {
+    "artifact_id": "planning_query_smoke",
+    "exists": true,
+    "path": "outputs/lon_d10_planning_context_enrichment/LON_D10_QUERY_SMOKE_REPORT.json"
+  }
+]

@@ -1,5 +1,6 @@
 import json
 import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -21,7 +22,7 @@ class MainCityBrainR7EPerceptionReviewWorkflowCloseoutTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         subprocess.run(
-            [".venv\\Scripts\\python.exe", "scripts\\run_main_citybrain_r7e_perception_review_workflow_closeout.py"],
+            [sys.executable, "scripts\\run_main_citybrain_r7e_perception_review_workflow_closeout.py"],
             cwd=ROOT,
             text=True,
             stdout=subprocess.PIPE,

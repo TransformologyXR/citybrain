@@ -1,0 +1,21 @@
+{
+  "ask_is_capability_not_faq": true,
+  "cutaway_modes": [
+    "RECALL"
+  ],
+  "deferred_modes": [
+    "DIFF",
+    "PERCEPTION_VSS"
+  ],
+  "enabled_modes": [
+    "ASK",
+    "WATCH",
+    "BRIEF",
+    "CHECK"
+  ],
+  "required_validation_gates": [
+    "unseen_ask_question_smoke",
+    "non_story_brief_smoke",
+    "mode_run_id_dom_traceability"
+  ]
+}

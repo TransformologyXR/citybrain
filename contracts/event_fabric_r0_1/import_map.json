@@ -1,0 +1,55 @@
+{
+  "import_policy": "import authoritative packet definitions; R0.1 owns only EventEnvelope, EventTypeRegistry, ReviewState, MaterializedReviewState, QueryResultPacket, OverlayPacket",
+  "imports": [
+    {
+      "authoritative_section_or_path": "Section 9 CandidateObservation; Section 9A Perception / VSS policy; R7A REQUIRED_FIELDS/candidate_fixture_set()/validate_candidate()",
+      "authoritative_source_doc": "docs/architecture/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md and scripts/run_main_citybrain_r7a_perception_candidate_observation_ingress.py",
+      "field_or_semantic_imported": "CandidateObservation packet shape, candidate-only hard rule, perception/VSS privacy policy, not_executed/cannot_claim semantics",
+      "imported_shape": "CandidateObservation",
+      "notes": "Authoritative appendix defines the packet and hard boundary; R7A provides current executable fixture/validator evidence.",
+      "r0_1_usage": "referenced by candidate_observation_ref; R0.1 does not redefine the shape"
+    },
+    {
+      "authoritative_section_or_path": "Section 3 Source class taxonomy; Section 9A Perception / VSS policy; SOURCE_CLASSES",
+      "authoritative_source_doc": "docs/architecture/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md and scripts/run_main_citybrain_perception_source_registry_r1.py",
+      "field_or_semantic_imported": "authoritative source-class taxonomy plus current Track C R1 allowed local/replay source classes and VSS-not-fact-source rule",
+      "imported_shape": "source_class",
+      "notes": "R0.1 maps current local/replay classes to the appendix taxonomy and does not create a competing source-class authority.",
+      "r0_1_usage": "source_class values on EventEnvelope and source-class validation"
+    },
+    {
+      "authoritative_section_or_path": "Section 10 EvidencePacket; EvidencePacket; $defs.EvidencePacket",
+      "authoritative_source_doc": "docs/architecture/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md, packages/ask_v11/packets.py, and packages/contracts/ask_v11_packets.schema.json",
+      "field_or_semantic_imported": "EvidencePacket truth-object semantics, evidence/source refs, knowns/unknowns/cannot_claim, lineage/gaps/warnings/not_executed evidence semantics",
+      "imported_shape": "EvidencePacket/evidence_refs",
+      "notes": "R0.1 stores refs and does not redefine EvidencePacket.",
+      "r0_1_usage": "evidence_refs arrays are refs into authoritative evidence packet/source-ref records"
+    },
+    {
+      "authoritative_section_or_path": "Section 19 Trace schema; trace.jsonl row schema",
+      "authoritative_source_doc": "docs/architecture/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md and packages/contracts/trace_jsonl.schema.json",
+      "field_or_semantic_imported": "trace_id/stages/output refs/authority audit semantics and executable trace row requirements",
+      "imported_shape": "trace_refs",
+      "notes": "R0.1 stores refs and does not redefine trace row schema.",
+      "r0_1_usage": "trace_refs arrays point to trace rows or trace packet entries"
+    },
+    {
+      "authoritative_section_or_path": "Section 11 CheckReport; Section 11A CHECK v0 / v1 contract split; CheckReport; $defs.CheckReport",
+      "authoritative_source_doc": "docs/architecture/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md, packages/ask_v11/packets.py, and packages/contracts/ask_v11_packets.schema.json",
+      "field_or_semantic_imported": "CHECK v0 unblocker fields, CHECK v1 roadmap, CheckReport claimability/result semantics",
+      "imported_shape": "CHECK/CheckReport",
+      "notes": "CHECK remains ASK-owned.",
+      "r0_1_usage": "check_report_ref and check_status are reserved/imported slots"
+    },
+    {
+      "authoritative_section_or_path": "Section 4 Authority envelope; Section 2 common packet fields",
+      "authoritative_source_doc": "docs/architecture/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md",
+      "field_or_semantic_imported": "authority envelope fields, authority state, forbidden steps, approval/adaptor/audit refs, common authority_level field",
+      "imported_shape": "AuthorityEnvelope",
+      "notes": "Authoritative appendix defines semantic contract; R0.1 reserves refs and does not implement execution authority.",
+      "r0_1_usage": "nullable authority_envelope_ref and review_display_only authority_level"
+    }
+  ],
+  "schema_version": "citybrain.event_fabric_r0_1.import_map.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {},
+  "name": "citybrain-web-control-room",
+  "private": true,
+  "type": "module"
+}

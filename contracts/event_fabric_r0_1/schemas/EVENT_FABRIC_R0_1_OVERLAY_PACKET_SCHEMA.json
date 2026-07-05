@@ -1,0 +1,68 @@
+{
+  "$id": "citybrain://event-fabric/r0.1/OverlayPacket",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_envelope_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "authority_level": {
+      "enum": [
+        "review_display_only",
+        1
+      ]
+    },
+    "check_report_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "check_status": {
+      "enum": [
+        "not_evaluated",
+        "passed",
+        "failed",
+        "blocked",
+        "not_applicable"
+      ]
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "check_report_ref",
+    "check_status",
+    "authority_level",
+    "authority_envelope_ref",
+    "overlay_id",
+    "overlay_kind",
+    "event_id",
+    "candidate_observation_ref",
+    "display_label",
+    "location_ref",
+    "proposed_prim_path",
+    "candidate_only",
+    "review_required",
+    "official_status",
+    "review_state",
+    "submission_status",
+    "execution_status",
+    "evidence_refs",
+    "limitation_refs",
+    "trace_refs",
+    "cannot_claim",
+    "not_executed",
+    "marker_metadata_only",
+    "live_kit_control",
+    "full_citywide_twin_claim"
+  ],
+  "title": "Event Fabric R0.1 OverlayPacket",
+  "type": "object",
+  "x_import_policy": "R0.1 owns only wrapper/event-fabric fields; imported packet definitions remain authoritative in import map."
+}

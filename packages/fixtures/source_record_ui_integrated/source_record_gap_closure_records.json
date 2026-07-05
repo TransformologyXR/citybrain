@@ -1,0 +1,879 @@
+{
+  "m07_guardrail_refusal_review_records": [
+    {
+      "attempted_action_shape": "review_state=approved_for_stub_only from option layer",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-001",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Auto approval",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "An option layer attempted to mark review as approved. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "auto approval",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_auto_approved_proposal",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Auto approval request blocked",
+      "visible_human_readable_wording": "An option layer attempted to mark review as approved.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "execution_state=executed",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-002",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Auto execute",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to change execution state to executed. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "auto execute",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_auto_execute",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Auto execute request blocked",
+      "visible_human_readable_wording": "A request attempted to change execution state to executed.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "proposal_type=dispatch_team",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-003",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Dispatch",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to create a dispatch-shaped proposal. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "dispatch",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_dispatch_action",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Dispatch request blocked",
+      "visible_human_readable_wording": "A request attempted to create a dispatch-shaped proposal.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "proposal tries to change live route/signal/control",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-004",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Routing or control",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to change a live route, signal, or control state. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "routing or control",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_routing_control",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Routing or control request blocked",
+      "visible_human_readable_wording": "A request attempted to change a live route, signal, or control state.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "legal/certified/enforcement finding",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-005",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Enforcement or legal/certified conclusion",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to create an enforcement or official conclusion. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "enforcement or legal/certified conclusion",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_enforcement_legal_certified",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Enforcement or legal/certified conclusion request blocked",
+      "visible_human_readable_wording": "A request attempted to create an enforcement or official conclusion.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "option set writes Track D lifecycle state",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-006",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Lifecycle write outside human review lane",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to write lifecycle state from the option layer. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "lifecycle write outside human review lane",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_lifecycle_written_outside_track_d",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Lifecycle write outside human review lane request blocked",
+      "visible_human_readable_wording": "A request attempted to write lifecycle state from the option layer.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "review_state_rollup claims authoritative post-promotion ownership",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-007",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Post-promotion ownership",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A request attempted to make the option layer authoritative after promotion. The guardrail result was BLOCK; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "post-promotion ownership",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "BLOCK",
+        "case_id": "neg_option_set_owns_post_promotion_state",
+        "expected": "BLOCK"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Post-promotion ownership request blocked",
+      "visible_human_readable_wording": "A request attempted to make the option layer authoritative after promotion.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    },
+    {
+      "attempted_action_shape": "scenario_state_ref=stale_or_unknown",
+      "boundary_basis": [
+        "local replay review context only",
+        "no approval or execution from option layer",
+        "no dispatch, routing/control, enforcement, official case, public alert, or legal/certified conclusion"
+      ],
+      "card_id": "guardrail-refusal-review-record-008",
+      "card_type": "guardrail_refusal_review_log_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "blocked request": "Stale scenario reference",
+        "reason": "review-only boundary",
+        "result": "blocked"
+      },
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/NEGATIVE_FIXTURE_RESULTS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2/GUARDRAIL_SMOKE_REPORT.json"
+      ],
+      "execution_state": "not_executed",
+      "limitations": [
+        "Guardrail smoke record only; not a production enforcement log.",
+        "No action, proposal approval, dispatch, route/control, official case, or alert was created."
+      ],
+      "no_action_created": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A stale or unknown scenario reference was flagged for review. The guardrail result was FLAG; no execution or official action was created.",
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "refused_command_type": "stale scenario reference",
+      "rejection_reason": "Request shape crossed the review-only/no-action boundary.",
+      "technical_refs": {
+        "actual": "FLAG",
+        "case_id": "neg_stale_scenario_state_ref",
+        "expected": "FLAG"
+      },
+      "timestamp_or_run_id": "main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2",
+      "title": "Stale scenario reference request blocked",
+      "visible_human_readable_wording": "A stale or unknown scenario reference was flagged for review.",
+      "why_it_matters": "This makes the refusal visible to a viewer without turning a blocked request into an executed action."
+    }
+  ],
+  "m08_human_review_stop_source_records": [
+    {
+      "candidate_option_id": "inv_option_do_nothing_monitor",
+      "card_id": "human-review-stop-record-001",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Keep the baseline under human review"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Keep the baseline under human review",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_do_nothing_monitor",
+        "panel_packet_id": "track-d-promotion-panel-r1-001",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Keep the baseline under human review stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_review_reroute",
+      "card_id": "human-review-stop-record-002",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "eligible for human review",
+        "proposal state": "no approved proposal",
+        "required decision": "human review required",
+        "review choice": "Review a reroute idea"
+      },
+      "eligibility_status": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Review a reroute idea",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": null,
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "technical_refs": {
+        "option_id": "inv_option_review_reroute",
+        "panel_packet_id": "track-d-promotion-panel-r1-002",
+        "proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_002",
+        "proposal_ref": null
+      },
+      "title": "Review a reroute idea stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_review_kerbside_access",
+      "card_id": "human-review-stop-record-003",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "eligible for human review",
+        "proposal state": "no approved proposal",
+        "required decision": "human review required",
+        "review choice": "Review kerbside access support"
+      },
+      "eligibility_status": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Review kerbside access support",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": null,
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "technical_refs": {
+        "option_id": "inv_option_review_kerbside_access",
+        "panel_packet_id": "track-d-promotion-panel-r1-003",
+        "proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_003",
+        "proposal_ref": null
+      },
+      "title": "Review kerbside access support stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_review_public_information",
+      "card_id": "human-review-stop-record-004",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "eligible for human review",
+        "proposal state": "no approved proposal",
+        "required decision": "human review required",
+        "review choice": "Review a public-information draft"
+      },
+      "eligibility_status": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Review a public-information draft",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": null,
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "technical_refs": {
+        "option_id": "inv_option_review_public_information",
+        "panel_packet_id": "track-d-promotion-panel-r1-004",
+        "proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_004",
+        "proposal_ref": null
+      },
+      "title": "Review a public-information draft stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_abstain_escalate",
+      "card_id": "human-review-stop-record-005",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Abstain and ask a human operator"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Abstain and ask a human operator",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_abstain_escalate",
+        "panel_packet_id": "track-d-promotion-panel-r1-005",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Abstain and ask a human operator stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_do_nothing_monitor",
+      "card_id": "human-review-stop-record-006",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Keep the baseline under human review"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Keep the baseline under human review",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_do_nothing_monitor",
+        "panel_packet_id": "track-d-promotion-panel-r1-006",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Keep the baseline under human review stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    },
+    {
+      "candidate_option_id": "inv_option_abstain_escalate",
+      "card_id": "human-review-stop-record-007",
+      "card_type": "human_review_stop_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "eligibility": "not eligible for promotion",
+        "proposal state": "no approved proposal",
+        "required decision": "review context only",
+        "review choice": "Abstain and ask a human operator"
+      },
+      "eligibility_status": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "outputs/main_citybrain_d6_track_d_promotion_panel_r1/PROMOTION_PANEL_PACKETS.json",
+        "outputs/main_citybrain_d6_track_d_option_set_promotion_bridge_r1/PROMOTION_BRIDGE_FIXTURES.json"
+      ],
+      "evidence_refs_that_travel_to_review": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "explicit_stop_state": {
+        "human_review_lane_authority_preserved": true,
+        "no_approved_proposal_created": true,
+        "no_execution": true
+      },
+      "human_readable_option_title": "Abstain and ask a human operator",
+      "limitations": [
+        "Review-state packet only; not an approval or execution record.",
+        "Human review lane remains authoritative before any future proposal lifecycle.",
+        "No dispatch, route/control, official case, enforcement, public alert, or legal/certified conclusion."
+      ],
+      "non_promotion_reason": "This packet remains review context only or is not eligible for promotion.",
+      "not_a_finding": true,
+      "plain_language_summary": "This review-only option has not become an approved proposal and has not executed. A human would have to decide whether to reject, modify, request more evidence, or move it into the review lane.",
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "required_human_decision": "review_context_only",
+      "technical_refs": {
+        "option_id": "inv_option_abstain_escalate",
+        "panel_packet_id": "track-d-promotion-panel-r1-007",
+        "proposal_preview_ref": null,
+        "proposal_ref": null
+      },
+      "title": "Abstain and ask a human operator stops at human review",
+      "viewer_ready_summary": "No approval or execution exists; the next decision belongs to a human review lane.",
+      "why_it_matters": "This makes the stop line visible: review-only options cannot silently become actions."
+    }
+  ],
+  "m13_media_observation_source_records": [
+    {
+      "candidate_label": "Person presence",
+      "card_id": "local-demo-media-observation-record-001",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Person presence",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a person presence candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "technical_refs": {
+        "confidence": 0.81,
+        "event_candidate_id": "d7-event-candidate-001",
+        "evidence_bundle_ref": "d7-evidence-bundle-001",
+        "source_observation_id": "d7-observation-001"
+      },
+      "timestamp_missing": true,
+      "title": "Person presence from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Ppe",
+      "card_id": "local-demo-media-observation-record-002",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Ppe",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_02_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a ppe candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_02_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_02_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.69,
+        "event_candidate_id": "d7-event-candidate-002",
+        "evidence_bundle_ref": "d7-evidence-bundle-002",
+        "source_observation_id": "d7-observation-002"
+      },
+      "timestamp_missing": true,
+      "title": "Ppe from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Restricted zone entry",
+      "card_id": "local-demo-media-observation-record-003",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Restricted zone entry",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_03_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a restricted zone entry candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_03_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_03_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.77,
+        "event_candidate_id": "d7-event-candidate-003",
+        "evidence_bundle_ref": "d7-evidence-bundle-003",
+        "source_observation_id": "d7-observation-003"
+      },
+      "timestamp_missing": true,
+      "title": "Restricted zone entry from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Equipment proximity",
+      "card_id": "local-demo-media-observation-record-004",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Equipment proximity",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_04_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a equipment proximity candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_04_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_04_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.73,
+        "event_candidate_id": "d7-event-candidate-004",
+        "evidence_bundle_ref": "d7-evidence-bundle-004",
+        "source_observation_id": "d7-observation-004"
+      },
+      "timestamp_missing": true,
+      "title": "Equipment proximity from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "After hours activity",
+      "card_id": "local-demo-media-observation-record-005",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "After hours activity",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_05_backup.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a after hours activity candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_05_backup.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_05_backup.mp4",
+      "technical_refs": {
+        "confidence": 0.62,
+        "event_candidate_id": "d7-event-candidate-005",
+        "evidence_bundle_ref": "d7-evidence-bundle-005",
+        "source_observation_id": "d7-observation-005"
+      },
+      "timestamp_missing": true,
+      "title": "After hours activity from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    },
+    {
+      "candidate_label": "Camera health",
+      "card_id": "local-demo-media-observation-record-006",
+      "card_type": "candidate_observation_source_record",
+      "city_fact_fields": {
+        "action state": "no action taken",
+        "candidate label": "Camera health",
+        "media availability": "available",
+        "place": "not present in source packet",
+        "review status": "candidate only; human review required",
+        "source context": "unrelated_demo",
+        "time": "not present in source packet"
+      },
+      "evidence_refs": [
+        "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+        "outputs/main_citybrain_d7_perception_observation_to_event_evidence_r3/EVENT_EVIDENCE_PACKETS.json"
+      ],
+      "limitations": [
+        "Local demo media or fixture evidence only.",
+        "No timestamp or location field is present in the source packet.",
+        "Candidate observation only; no official finding, alert, dispatch, ticket, enforcement, or action."
+      ],
+      "location_missing": true,
+      "not_a_finding": true,
+      "plain_language_summary": "A local demo-media fixture produced a camera health candidate. Human review is required; this is not municipal source truth.",
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "review_status": "candidate_only_human_review_required",
+      "source_frame_or_clip_placeholder": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "source_media_ref": "cascade_clips_manifest_and_downloader/cascade_clips/clip_01_primary.mp4",
+      "technical_refs": {
+        "confidence": 0.88,
+        "event_candidate_id": "d7-event-candidate-006",
+        "evidence_bundle_ref": "d7-evidence-bundle-006",
+        "source_observation_id": "d7-observation-006"
+      },
+      "timestamp_missing": true,
+      "title": "Camera health from local demo media",
+      "why_it_matters": "This closes the bare-reference problem by showing what the candidate observation record actually says and what it still does not know."
+    }
+  ],
+  "schema_version": "citybrain-source-record-gap-closure-records-r1",
+  "timestamp": "2026-07-01T21:56:27.660157+00:00"
+}

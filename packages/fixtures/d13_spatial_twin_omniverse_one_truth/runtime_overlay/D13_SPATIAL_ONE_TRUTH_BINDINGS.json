@@ -1,0 +1,67 @@
+{
+  "bindings": [
+    {
+      "binding_method": "source-record contextual binding from D10 selected-item packet",
+      "confidence_or_limit": "contextual review binding only; not legal/certified identity",
+      "entity_id": "corridor:uk-london:wood-lane-scrubbs-lane",
+      "entity_label": "Wood Lane access review",
+      "geometry_certification_status": "not_certified",
+      "prim_path": "/CityBrain/ReviewAid/corridor_uk_london_wood_lane_scrubbs_lane",
+      "review_state_ref": "outputs/main_citybrain_d11_operator_workflow_review_workspace_r1/LOCAL_REVIEW_STATE_CONTRACT.json",
+      "source_record_ids": [
+        "TIMS-219173",
+        "TIMS-210389",
+        "87"
+      ]
+    },
+    {
+      "binding_method": "source-record contextual binding from D10 selected-item packet",
+      "confidence_or_limit": "contextual review binding only; not legal/certified identity",
+      "entity_id": "event:us-nyc:mvc_crash:4463710",
+      "entity_label": "NYC MVC context review",
+      "geometry_certification_status": "not_certified",
+      "prim_path": "/CityBrain/ReviewAid/event_us_nyc_mvc_crash_4463710",
+      "review_state_ref": "outputs/main_citybrain_d11_operator_workflow_review_workspace_r1/LOCAL_REVIEW_STATE_CONTRACT.json",
+      "source_record_ids": [
+        "event:us-nyc:flow3:mvc_crash:4463710",
+        "asset:us-nyc:mappluto_tax_lot:3014450085",
+        "fdny:engine_227"
+      ]
+    },
+    {
+      "binding_method": "source-record contextual binding from D10 selected-item packet",
+      "confidence_or_limit": "contextual review binding only; not legal/certified identity",
+      "entity_id": "asset:uk-london:ev_charging_site:87",
+      "entity_label": "EV asset 87 evidence review",
+      "geometry_certification_status": "not_certified",
+      "prim_path": "/CityBrain/ReviewAid/asset_uk_london_ev_charging_site_87",
+      "review_state_ref": "outputs/main_citybrain_d11_operator_workflow_review_workspace_r1/LOCAL_REVIEW_STATE_CONTRACT.json",
+      "source_record_ids": [
+        "87"
+      ]
+    },
+    {
+      "binding_method": "source-record contextual binding from D10 selected-item packet",
+      "confidence_or_limit": "contextual review binding only; not legal/certified identity",
+      "entity_id": "asset:uk-london:ev_charging_site:87",
+      "entity_label": "Wood Lane evidence check",
+      "geometry_certification_status": "not_certified",
+      "prim_path": "/CityBrain/ReviewAid/asset_uk_london_ev_charging_site_87",
+      "review_state_ref": "outputs/main_citybrain_d11_operator_workflow_review_workspace_r1/LOCAL_REVIEW_STATE_CONTRACT.json",
+      "source_record_ids": [
+        "TIMS-219173",
+        "TIMS-210389",
+        "87"
+      ]
+    }
+  ],
+  "boundary": [
+    "Spatial view is a review aid over retained source records.",
+    "Entity-to-prim links are contextual/candidate unless a specific source artifact certifies otherwise.",
+    "No certified physical twin, certified geometry, legal/certified identity, measurement-grade accuracy, dispatch, routing/control, enforcement, official case/ticket, or action execution claim."
+  ],
+  "generated_at": "2026-07-02T22:40:59Z",
+  "live_interactive_web_kit_handoff_captured": false,
+  "schema_version": "citybrain.d13.spatial_one_truth_bindings.r1",
+  "status": "PARTIAL_D13_SPATIAL_ENVIRONMENT_READY_BUT_SEAM_INCOMPLETE"
+}

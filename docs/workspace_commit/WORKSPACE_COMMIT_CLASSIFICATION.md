@@ -1,0 +1,1607 @@
+# Workspace Commit Classification
+
+Generated: 2026-07-05T14:31:53.286123+00:00
+
+This classification supports `MAIN-CITYBRAIN-WORKSPACE-CODE-CONTRACTS-INFRA-COMMIT-AND-PUSH`.
+It deliberately excludes data, outputs, raw corpora, generated archives, media, caches, logs, and secrets.
+
+## include_code_contracts_infra_docs_tests_config
+
+Count: 445
+
+- `CITYBRAIN_CHRONOLOGY_TRACE_DELTA_2026-07-01.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_CHRONOLOGY_TRACE_DELTA_2026-07-02.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_FINAL_UPDATE_2026-07-01.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_OUTPUTS_DAY_BY_DAY_FORENSIC_2026-06-30.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_OUTPUTS_TRACE_AND_AUDIT_CHRONOLOGY_2026-07-01.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_PRODUCT_EVOLUTION_STORY_2026-07-01.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_WORKSPACE_CHRONOLOGY_LINEAGE_2026-06-30.md` ? allowed root CityBrain markdown documentation
+- `CITYBRAIN_WORKSPACE_CHRONOLOGY_LINEAGE_2026-07-01.md` ? allowed root CityBrain markdown documentation
+- `apps/kit/citybrain.control_room/README.md` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/__init__.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/__init__.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/capture_controls.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/event_overlay_bridge.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/event_overlay_registry.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/extension.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/live_selection_bridge.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/overlay_manager.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/real_scene_review_loop_registry.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/runtime_bundle.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/scene_prim_selection_bridge.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/scene_prim_selection_registry.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/selection_inspector.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/selection_message_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/spatial_cockpit.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/stage_model.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/trace_panel.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/track_d_panel.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/citybrain/control_room/viewport_navigation_bridge.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/kit/citybrain.control_room/config/extension.toml` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/README.md` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/index.html` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/package.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/bridge/client.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/main.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/renderSnapshot.mjs` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/capture.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/evidence.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/limitations.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/omniverseStream.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/options.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/productModes.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/situation.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/storyFirst.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/storyQueue.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/trace.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `apps/web-control-room/src/views/trackD.js` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `docs/ask-v11/ask-v11-app-handoff-closeout.md` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `docs/workspace_commit/WORKSPACE_COMMIT_CLASSIFICATION.md` ? generated classification audit note under docs/
+- `docs/workspace_commit/WORKSPACE_STATUS_BEFORE_COMMIT.txt` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/bridge_command.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/bridge_event.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/claim_labels.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/evidence_bundle.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/human_fact_cards/README.md` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/human_fact_cards/human_fact_card.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/kit_overlay_packets.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/limitations.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/moment_scoreboard.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/one_truth_index.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/option_sets.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/review_state.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/scenario_state.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/trace_jsonl.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/contracts/track_d_packets.schema.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/brain_surface_story_queue/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/brain_surface_story_queue/README.md` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/brain_surface_story_queue/primary_story_queue.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/chicago_similar_case_records/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/chicago_similar_case_records/hashes.sha256` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/chicago_similar_case_records/human_fact_cards.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d10_operator_intelligence_depth/runtime_overlay/D10_OPERATOR_INTELLIGENCE_DEPTH_EXTENSION.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d11_operator_workflow_review_workspace/runtime_overlay/D11_OPERATOR_WORKFLOW_REVIEW_WORKSPACE_EXTENSION.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d13_live_web_kit_selection_receipt/runtime_overlay/D13_KIT_TO_WEB_LIVE_SELECTION_EVENT.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d13_spatial_twin_omniverse_one_truth/runtime_overlay/D13_SPATIAL_ONE_TRUTH_BINDINGS.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d9_operator_cockpit/runtime_overlay/D9_OPERATOR_COCKPIT_RUNTIME_EXTENSION.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_ONE_TRUTH_INDEX.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_RUNTIME_BUNDLE.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d9_product_modes/runtime_bundle/D9_RUNTIME_BUNDLE_GAP_LEDGER.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d9_product_modes/runtime_bundle/D9_RUNTIME_BUNDLE_SOURCE_MAP.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/d9_product_modes/runtime_bundle/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/helsinki_visual_entity_pick/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/helsinki_visual_entity_pick/hashes.sha256` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/helsinki_visual_entity_pick/human_fact_cards.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/helsinki_visual_entity_pick/prim_identity_sidecar.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/helsinki_visual_entity_pick/source_record_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/london_mobility_source_records/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/london_mobility_source_records/hashes.sha256` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/london_mobility_source_records/human_fact_cards.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/london_mobility_source_records/source_record_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/london_mobility_source_records/ui_panel_mapping.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/audit/bridge_audit.jsonl` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/inbox/cmd-allowed-scrub-001.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/inbox/cmd-allowed-select-001.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/inbox/cmd-forbidden-approve-001.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/inbox/cmd-forbidden-dispatch-001.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/outbox/cmd-allowed-scrub-001.event.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/outbox/cmd-allowed-select-001.event.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/outbox/cmd-forbidden-approve-001.event.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/bridge/outbox/cmd-forbidden-dispatch-001.event.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/claim_labels.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/evidence_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/kit_overlay_packets.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/limitations.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/moment_scoreboard.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/one_truth_index.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/option_sets.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/review_state.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/scenario_state.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/trace.jsonl` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/runtime_bundle/track_d_packets.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/hashes.sha256` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/no_fact_invention_audit.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/source_attribution_ledger.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/source_record_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/source_record_cards.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/source_record_gaps.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/mobility_access/source_record_bundle/source_record_to_runtime_bundle_map.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/nyc_cascade_story_scenario_layer/NYC_CASCADE_SCENARIO_LAYER.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/nyc_cascade_story_scenario_layer/STORY_QUEUE_INDEX.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_recovery_candidate_bundle/HASH_MANIFEST.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_recovery_candidate_bundle/hashes.sha256` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_recovery_candidate_bundle/human_fact_cards.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_recovery_candidate_bundle/source_record_recovery_candidate_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_ui_integrated/source_record_gap_closure_records.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_ui_integrated/source_record_ui_card_index.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_ui_integrated/source_record_ui_data_depth_blockers.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/source_record_ui_integrated/source_record_ui_integrated_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/story_first_demo/story_scenario_layer.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `packages/fixtures/story_first_demo/story_source_bundle.json` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_after_parallel_decision_support_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_cross_city_cross_domain_expansion_scout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_cross_city_similar_case_expansion_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_d8_actual_record_grounding_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_d8_demonstrability_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_d8_human_readable_web_ux_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_d8_post_handoff_followthrough_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_d8_web_kit_live_surface_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_decision_support_demo_capture_pack_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_decision_support_demo_polish_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_decision_support_sprint_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_deployment_perception_expansion_domainpack_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_domain_pack_candidate_selection_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_governed_9_stage_runtime_thin_slice_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_governed_operator_trace_panel_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_governed_trace_harness_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_metropolis_vss_r10_r15_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_mobility_access_domain_pack_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_mobility_access_external_review_bundle_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_mobility_access_integration_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_mobility_d7_trace_domainpack_post_review_archive_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_mobility_d7_trace_panel_sprint_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_promotion_panel_domain_pack_handoff_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_runtime_trace_demo_polish_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_thin_slice_promotion_capture_closeout_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_b_plan_mode_sumo_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_c_cross_domain_cascade_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_d_mobility_access_promotion_readiness_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_d_option_set_promotion_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_i_inverse_dynamics_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_p_packaging_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_r_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/citybrain_track_s_common.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_citybrain_d8_followon_and_composition_pack.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_citybrain_d8_parallel_prompt_pack.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_citybrain_d8_r3_followon_prompt_pack.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_collateral_d7_perception_candidate_observation_after_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_d4_helsinki_kalasatama_context_consumption_prep_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_data_gap_ledger_and_priority_matrix.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d10_operator_intelligence_depth_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d10_operator_intelligence_depth_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d11_operator_workflow_review_workspace_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d11_real_operator_gate_question_corpus_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d12_city_data_depth_real_diff_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d13_live_web_kit_selection_receipt_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d13_parallel_lane_rule_refresh_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d13_spatial_twin_omniverse_one_truth_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d13_web_kit_selection_seam_completion_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_governed_open_ask_production_readiness_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_route_taxonomy_repair_v02_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_route_taxonomy_repair_v03_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_route_taxonomy_repair_v04_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_staged_router_schema_repair_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_synthetic_corpus_v0_assembly_labeling_split_gate.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d14_synthetic_router_v0_and_human_revalidation_bridge_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_candidate_inventory_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_feasibility_matrix_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_scout_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_cross_domain_expansion_scout_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_similar_case_expansion_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_similar_case_expansion_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_similar_case_expansion_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_similar_case_option_set_attachment_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_similar_case_quality_gate_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_city_similar_case_review_pack_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_impact_fixtures_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_option_set_attachment_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_path_catalog_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_cross_domain_cascade_quality_gate_r4.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_cascade_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_collateral_pack_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_contract_spine_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_control_room_demo_closeout_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_control_room_demo_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_convergence_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_demo_capture_pack_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_demo_capture_pack_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_demo_polish_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_demo_polish_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_domain_pack_handoff_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_domain_pack_handoff_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_domain_pack_handoff_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_golden_quality_gate_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_option_set_contract_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_decision_support_sprint_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_deployment_perception_expansion_domainpack_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_deployment_perception_expansion_domainpack_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_deployment_perception_expansion_domainpack_sprint_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_domain_pack_candidate_inventory_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_domain_pack_candidate_scoring_matrix_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_domain_pack_candidate_selection_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_domain_pack_candidate_selection_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_domain_pack_candidate_selection_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_domain_pack_first_candidate_recommendation_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_contract_smoke_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_interface_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_negative_gate_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_quality_gate_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_option_set_flow_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_state_machine_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_thin_slice_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_9_stage_runtime_thin_slice_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_runtime_trace_harness_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_runtime_trace_harness_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_runtime_trace_harness_quality_gate_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_governed_runtime_trace_harness_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_hero_corridor_reviewed_action_enum_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_inverse_dynamics_hitl_promotion_bridge_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_decision_support_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_generator_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_inverse_dynamics_multi_option_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_inverse_dynamics_tradeoff_evaluation_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_external_review_bundle.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_external_review_bundle_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_domain_pack_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_access_option_set_attachment_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_archive_and_index.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_post_review_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_post_review_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_sprint_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_sprint_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_domainpack_sprint_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_panel_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_panel_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_mobility_d7_trace_panel_sprint_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_actual_deployment_rehearsal_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_actual_deployment_rehearsal_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_artifact_sync_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_data_manifest_and_placement_plan_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_data_placement_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_data_sync_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_dry_run_sync_rehearsal.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_end_to_end_rehearsal_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_infra_data_deployment_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_infra_data_deployment_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_local_deployment_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_local_runtime_smoke_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_multi_machine_remote_runtime_data_smoke_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_next_sprint_selection_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_operator_decision_support_surface_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_plan_mode_option_set_normalization_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_plan_mode_runtime_smoke_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_plan_mode_sumo_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_plan_mode_sumo_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_plan_mode_sumo_scenario_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_promotion_panel_domain_pack_handoff_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_runtime_thin_slice_promotion_capture_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_runtime_thin_slice_promotion_capture_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_runtime_thin_slice_promotion_capture_sprint_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_runtime_trace_demo_polish_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_runtime_trace_demo_polish_integration_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_runtime_trace_demo_polish_sprint_certified_state_and_handover_refresh.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_similar_case_index_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_similar_case_option_set_attachment_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_similar_case_retrieval_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_similar_case_retrieval_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_similar_case_retrieval_quality_gate_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_mobility_access_promotion_readiness_check.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_mobility_access_promotion_readiness_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_option_set_promotion_bridge_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_option_set_promotion_guardrail_smoke_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_option_set_promotion_integration_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_option_set_promotion_integration_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_option_set_promotion_integration_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_promotion_panel_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_promotion_panel_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d6_track_d_promotion_panel_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_blueprint_demo_pack_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_candidate_detection_smoke_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_candidate_observation_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_candidate_observation_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_candidate_observation_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_collateral_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_collateral_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_demo_media_review_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_fixture_source_scout_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_human_review_handoff_r4.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d7_perception_observation_to_event_evidence_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_actual_record_grounded_ui_remediation.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_brain_surface_story_queue_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_capture_claim_audit_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_capture_executive_walkthrough_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_capture_operator_walkthrough_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_deep_story_inventory_role_portfolio.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_demonstrability_certified_state_handoff.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_demonstrability_final_package_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_demonstrability_readiness_review.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_demonstrability_sprint_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_demonstrability_sprint_r2_mobility_reanchored.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_final_demo_capture_and_certified_handoff_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_hero_integrated_surface_smoke_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_hero_integrated_surface_wire_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_hero_portfolio_and_moment_beat_map_lock_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_hero_spine_moment_wiring_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_human_readable_web_ux_remediation.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_intelligence_moment_loop_and_scoreboard_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_kit_control_room_extension_source_promotion_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_kit_runtime_live_load_smoke_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_local_bridge_and_one_truth_sync_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_local_bridge_smoke.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_mobility_access_live_surface_wiring_r4.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_parallel_data_readiness_scouts.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_post_handoff_followthrough.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_runtime_bundle_contract_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_scenario_authoring_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_source_backed_ui_cutover.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_source_record_gap_closure_and_scenario_coherence.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_source_record_recovery_packs.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_source_record_ui_integration.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_first_capture_viewer_validation.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_first_real_capture_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_first_viewer_session_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_mining_and_story_first_ui_redesign.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_probe_only.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_queue_capture_import_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_story_scenario_layer_reconcile.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_supporting_hero_cutaway_wiring_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_control_room_local_launch_smoke.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_control_room_source_promotion_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_capture_readiness_r6.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_live_surface_baseline_hash_reconciliation.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_live_surface_closeout.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_live_surface_implementation_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_live_surface_milestone_freeze.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_live_surface_preflight.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d8_web_kit_state_drift_and_guardrail_smoke_r5.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_ask_watch_brief_check_runtime_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_broad_data_scout_product_modes.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_demo_polish_and_review_loop_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_external_operator_validation_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_external_operator_validation_r2_refreshed.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_external_operator_validation_r2_refreshed_baseline.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_human_review_session_capture_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_manual_screenshot_video_capture_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_operator_cockpit_ux_remediation.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_pre_validation_hardening_baseline.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_d9_preflight_data_scout_for_product_modes.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_bmd45_threshold_calibration_and_sample_expansion_r18.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_camera_source_registry_r14.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_candidate_observation_pipeline_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_evidence_frame_export_r10.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_evidence_replay_readiness_closeout_r15.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_human_review_ui_packet_r13.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_multizone_multiclass_r12.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_narration_evidence_join_r8.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_narration_runtime_configured_smoke_r5.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_narration_runtime_integration_r4.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_narration_runtime_smoke_r7.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_object_metadata_export_r2.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_rtsp_replay_infra_r11.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_runtime_configured_rerun_r6b.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_runtime_provisioning_and_configuration_r6c.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_spark_provisioning_runbook_r6e.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_spark_split_host_readiness_r6d.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_sprint_closeout_r9.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_metropolis_vss_vss_narration_runtime_dry_run_r3.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_native_kit_spatial_cockpit_ui_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_native_kit_spatial_cockpit_ui_r2_live_gui_visual_acceptance.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_webrtc_live_webui_bridge_r1.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_webrtc_r2_bidirectional_selection_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_webrtc_r4_event_overlay_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_polish.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_r8_real_perception_runtime_evidence_clip_integration.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `scripts/run_main_citybrain_r9_deepstream_product_runtime_execution_smoke.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/__init__.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_main_citybrain_r9_deepstream_product_runtime_execution_smoke.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_bmd45_human_review_benchmark_packet_r20.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_bmd45_threshold_calibration_r18.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_narration_evidence_join_r8.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_metropolis_vss_sprint_closeout_r9.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_spatial_cockpit.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_spatial_cockpit_r2_package.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_webrtc_bridge_r3_package.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_webrtc_r2_selection_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_webrtc_r3_scene_prim_selection_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_webrtc_r4_event_overlay_parity.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_webrtc_r5_real_scene_object_event_review_loop.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+- `tests/test_omniverse_webrtc_r6_ui_ux_operator_workflow_polish.py` ? allowed source/docs/contracts/apps/scripts/tests/config root
+
+## exclude_data_outputs_raw_generated
+
+Count: 659
+
+- `corpus_raw/original/workspace_text_1_original.txt` ? excluded directory corpus_raw/
+- `corpus_raw/original/workspace_text_2_original.txt` ? excluded directory corpus_raw/
+- `corpus_raw/original/workspace_text_3_original.txt` ? excluded directory corpus_raw/
+- `corpus_raw/original/workspace_text_4_original.txt` ? excluded directory corpus_raw/
+- `corpus_raw/original/workspace_text_5_original.txt` ? excluded directory corpus_raw/
+- `corpus_raw/original/workspace_text_6_original.txt` ? excluded directory corpus_raw/
+- `corpus_raw/workspace_text_1.jsonl` ? excluded directory corpus_raw/
+- `corpus_raw/workspace_text_2.jsonl` ? excluded directory corpus_raw/
+- `corpus_raw/workspace_text_3.jsonl` ? excluded directory corpus_raw/
+- `corpus_raw/workspace_text_4.jsonl` ? excluded directory corpus_raw/
+- `corpus_raw/workspace_text_5.jsonl` ? excluded directory corpus_raw/
+- `corpus_raw/workspace_text_6.jsonl` ? excluded directory corpus_raw/
+- `inputs/d11_real_operator_sessions/session_record_template.json` ? excluded directory inputs/
+- `inputs/d8_story_first_media/limitations_boundary.png` ? excluded directory inputs/
+- `inputs/d8_story_first_media/media_manifest.json` ? excluded directory inputs/
+- `inputs/d8_story_first_media/review_options_and_stop.png` ? excluded directory inputs/
+- `inputs/d8_story_first_media/tims_records_and_ev_asset_87.png` ? excluded directory inputs/
+- `inputs/d8_story_first_media/wood_lane_story_beats.png` ? excluded directory inputs/
+- `inputs/d8_story_first_media/wood_lane_story_full_page.png` ? excluded directory inputs/
+- `inputs/d8_story_first_media/wood_lane_story_overview.png` ? excluded directory inputs/
+- `inputs/d8_story_first_media/wood_lane_story_title_and_boundary.png` ? excluded directory inputs/
+- `inputs/d8_story_first_viewer_records/README.md` ? excluded directory inputs/
+- `inputs/d8_story_first_viewer_records/viewer_record_template.json` ? excluded directory inputs/
+- `inputs/d9_external_operator_questions/operator_question_corpus.jsonl` ? excluded directory inputs/
+- `inputs/d9_external_operator_sessions/README.md` ? excluded directory inputs/
+- `inputs/d9_external_operator_sessions/example_internal_do_not_count.json` ? excluded directory inputs/
+- `inputs/d9_external_operator_sessions/session_record_template.json` ? excluded directory inputs/
+- `outputs/ask_v11_sealed_eval/ASK_V11_SEALED_EVAL_REPORT.json` ? excluded directory outputs/
+- `outputs/main_citybrain_d6_hero_usd_twin_and_hitl_integration_readiness_review.zip` ? excluded directory outputs/
+- `outputs/main_citybrain_r7_perception_to_review_workflow_preflight/DECISION.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7_perception_to_review_workflow_preflight/HASH_MANIFEST.txt` ? excluded directory outputs/
+- `outputs/main_citybrain_r7_perception_to_review_workflow_preflight/citybrain_r7_perception_to_review_workflow_preflight.zip` ? excluded directory outputs/
+- `outputs/main_citybrain_r7a_perception_candidate_observation_ingress/R7A_CANDIDATE_OBSERVATION_INGRESS_DECISION.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7a_perception_candidate_observation_ingress/R7A_HASH_MANIFEST.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7b_perception_to_event_fabric_local_replay/R7B_EVENT_FABRIC_DECISION.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7b_perception_to_event_fabric_local_replay/R7B_HASH_MANIFEST.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7c_event_fabric_state_query_and_ask_handoff/R7C_EVENT_STATE_QUERY_AND_ASK_HANDOFF_DECISION.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7c_event_fabric_state_query_and_ask_handoff/R7C_HASH_MANIFEST.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7d_webui_kit_event_state_smoke/R7D_HASH_MANIFEST.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7d_webui_kit_event_state_smoke/R7D_WEBUI_KIT_EVENT_STATE_SMOKE_DECISION.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7e_perception_review_workflow_closeout/R7E_HASH_MANIFEST.json` ? excluded directory outputs/
+- `outputs/main_citybrain_r7e_perception_review_workflow_closeout/R7E_PERCEPTION_REVIEW_WORKFLOW_CLOSEOUT_DECISION.json` ? excluded directory outputs/
+- `packages/fixtures/omniverse_browser_navigation/citybrain_browser_nav_test.usda` ? media/generated visual extension
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/MAIN-CITYBRAIN-D6-DEPLOYMENT-PERCEPTION-EXPANSION-DOMAINPACK-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/MAIN-CITYBRAIN-D6-DEPLOYMENT-PERCEPTION-EXPANSION-DOMAINPACK-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/MAIN-CITYBRAIN-D6-DEPLOYMENT-PERCEPTION-EXPANSION-DOMAINPACK-SPRINT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_sprint_closeout/citybrain_after_deployment_perception_expansion_domainpack_sprint_closeout/README.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/MAIN-CITYBRAIN-D6-RUNTIME-THIN-SLICE-PROMOTION-CAPTURE-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/MAIN-CITYBRAIN-D6-RUNTIME-THIN-SLICE-PROMOTION-CAPTURE-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/MAIN-CITYBRAIN-D6-RUNTIME-THIN-SLICE-PROMOTION-CAPTURE-SPRINT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/after_tpc/citybrain_after_thin_slice_promotion_capture_sprint_closeout/README.md` ? excluded directory tmp/
+- `tmp/bmd45_100040.png` ? excluded directory tmp/
+- `tmp/bmd45_tree.json` ? excluded directory tmp/
+- `tmp/bmd45_val_annotations.coco.json` ? excluded directory tmp/
+- `tmp/bmd45_val_tree.json` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CASCADE-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-COLLATERAL-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-SPRINT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_parallel_decision_support_sprint_closeout/README.md` ? excluded directory tmp/
+- `tmp/citybrain_after_runtime_trace_and_demo_polish_closeout/citybrain_after_runtime_trace_and_demo_polish_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_after_runtime_trace_and_demo_polish_closeout/citybrain_after_runtime_trace_and_demo_polish_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_runtime_trace_and_demo_polish_closeout/citybrain_after_runtime_trace_and_demo_polish_closeout/MAIN-CITYBRAIN-D6-RUNTIME-TRACE-DEMO-POLISH-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_runtime_trace_and_demo_polish_closeout/citybrain_after_runtime_trace_and_demo_polish_closeout/MAIN-CITYBRAIN-D6-RUNTIME-TRACE-DEMO-POLISH-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_runtime_trace_and_demo_polish_closeout/citybrain_after_runtime_trace_and_demo_polish_closeout/MAIN-CITYBRAIN-D6-RUNTIME-TRACE-DEMO-POLISH-SPRINT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_after_runtime_trace_and_demo_polish_closeout/citybrain_after_runtime_trace_and_demo_polish_closeout/README.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/MAIN-CITYBRAIN-D6-CROSS-CITY-CROSS-DOMAIN-EXPANSION-CANDIDATE-INVENTORY-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/MAIN-CITYBRAIN-D6-CROSS-CITY-CROSS-DOMAIN-EXPANSION-FEASIBILITY-MATRIX-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/MAIN-CITYBRAIN-D6-CROSS-CITY-CROSS-DOMAIN-EXPANSION-SCOUT-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/MAIN-CITYBRAIN-D6-CROSS-CITY-CROSS-DOMAIN-EXPANSION-SCOUT-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_cross_domain_expansion_scout/citybrain_cross_city_cross_domain_expansion_scout/README.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/MAIN-CITYBRAIN-D6-CROSS-CITY-SIMILAR-CASE-EXPANSION-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/MAIN-CITYBRAIN-D6-CROSS-CITY-SIMILAR-CASE-EXPANSION-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/MAIN-CITYBRAIN-D6-CROSS-CITY-SIMILAR-CASE-EXPANSION-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/MAIN-CITYBRAIN-D6-CROSS-CITY-SIMILAR-CASE-OPTION-SET-ATTACHMENT-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/MAIN-CITYBRAIN-D6-CROSS-CITY-SIMILAR-CASE-QUALITY-GATE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/MAIN-CITYBRAIN-D6-CROSS-CITY-SIMILAR-CASE-REVIEW-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_cross_city_similar_case_expansion/citybrain_cross_city_similar_case_expansion/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/MAIN-CITYBRAIN-D14-CORPUS-V0-RELABEL-V02-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/MAIN-CITYBRAIN-D14-DOUBLE-LABEL-FAILURE-ANALYSIS-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/MAIN-CITYBRAIN-D14-DOUBLE-LABEL-V02-GATE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V02-CONTRACT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/MAIN-CITYBRAIN-D14-TAXONOMY-REPAIR-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/MAIN-CITYBRAIN-D14-TEMPLATE-GAP-REGISTRY-V02-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v02_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/MAIN-CITYBRAIN-D14-CORPUS-V0-RELABEL-V03-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/MAIN-CITYBRAIN-D14-DOUBLE-LABEL-V03-SAMPLE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V03-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V03-CONTRACT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/MAIN-CITYBRAIN-D14-V02-AMBIGUITY-ROOT-CAUSE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/ROUTE_TAXONOMY_V03_CONTRACT_DRAFT.json` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v03_r1/ROUTE_TAXONOMY_V03_DECISION_TREE_DRAFT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/HASH_MANIFEST.txt` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/MAIN-CITYBRAIN-D14-CORPUS-V0-RELABEL-V04-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/MAIN-CITYBRAIN-D14-DOUBLE-LABEL-V04-SAMPLE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V04-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V04-CONTRACT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/MAIN-CITYBRAIN-D14-V03-AMBIGUITY-ANCHOR-ADJUDICATION-V04-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/ROUTE_TAXONOMY_V04_ANCHOR_SET_DRAFT.json` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04_r1/citybrain_d14_route_taxonomy_repair_v04_r1/ROUTE_TAXONOMY_V04_DECISION_TREE_DRAFT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-COLD-LABELER-PROBE-PACKET-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-CORPUS-V0-RELABEL-V04A-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-DOUBLE-LABEL-V04A-SAMPLE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-HARD-SHAPED-TOPUP-CORPUS-PROTOCOL-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-REFUSAL-BOUNDARY-BUCKET-GATES-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V04A-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V04A-CONTRACT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-SUBJECT-ANSWER-ARCHITECTURE-DECISION-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/MAIN-CITYBRAIN-D14-V03-AMBIGUITY-ROOT-CAUSE-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/citybrain_d14_route_taxonomy_repair_v04a_subject_answer_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-CANONICAL-BOUNDARY-ANCHORS-V04B-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-COLD-LABELER-PROBE-V04B-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-CORPUS-V0-RELABEL-V04B-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-DOUBLE-LABEL-V04B-SAMPLE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V04B-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-ROUTE-TAXONOMY-V04B-CONTRACT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/MAIN-CITYBRAIN-D14-V04A-BOUNDARY-FAILURE-ANALYSIS-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/citybrain_d14_route_taxonomy_repair_v04b_boundary_stability_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-COLD-LABELER-PROBE-PACKET-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-FLAT-LABEL-MIGRATION-TO-STAGED-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-HARD-SHAPED-TOPUP-PROTOCOL-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-STAGED-DOUBLE-LABEL-SAMPLE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-STAGED-ROUTER-SCHEMA-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-STAGED-ROUTER-SCHEMA-PREFLIGHT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/MAIN-CITYBRAIN-D14-STAGED-SCHEMA-CONTRACT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d14_staged_router_schema_repair_r1/citybrain_d14_staged_router_schema_repair_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_final_demo_capture_handoff_prompt_pack_read/citybrain_d8_final_demo_capture_handoff_prompt_pack/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_final_demo_capture_handoff_prompt_pack_read/citybrain_d8_final_demo_capture_handoff_prompt_pack/HASH_MANIFEST.sha256` ? excluded directory tmp/
+- `tmp/citybrain_d8_final_demo_capture_handoff_prompt_pack_read/citybrain_d8_final_demo_capture_handoff_prompt_pack/MAIN-CITYBRAIN-D8-FINAL-DEMO-CAPTURE-AND-CERTIFIED-HANDOFF-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_final_demo_capture_handoff_prompt_pack_read/citybrain_d8_final_demo_capture_handoff_prompt_pack/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/CHICAGO-SIMILAR-CASE-REVIEWED-MATCHING-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/HASH_MANIFEST.sha256` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/HELSINKI-KIT-OBJECT-PICK-MANUAL-ALIGNMENT-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/MAIN-CITYBRAIN-D8-DEMONSTRABLE-SURFACE-INTEGRATION-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/MAIN-CITYBRAIN-D8-PARALLEL-PACK-COMPOSITION-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/MAIN-CITYBRAIN-D8-VSS-LICENSED-CORPUS-SAMPLE-ACQUISITION-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_followon_and_composition_prompt_pack_read/citybrain_d8_followon_and_composition_prompt_pack/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_parallel_prompt_pack_read/citybrain_d8_parallel_prompt_pack/CHICAGO-SIMILAR-CASE-BOUNDED-ENRICHMENT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_parallel_prompt_pack_read/citybrain_d8_parallel_prompt_pack/D4-HELSINKI-KALASATAMA-USD-SIDECAR-ALIGNMENT-SMOKE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_parallel_prompt_pack_read/citybrain_d8_parallel_prompt_pack/MAIN-CITYBRAIN-D8-MOBILITY-BASELINE-ABSTAIN-CONTRACT-PATCH-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_parallel_prompt_pack_read/citybrain_d8_parallel_prompt_pack/MAIN-CITYBRAIN-D8-VSS-LICENSED-CORPUS-ACQUISITION-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_parallel_prompt_pack_read/citybrain_d8_parallel_prompt_pack/MAIN-CITYBRAIN-D8-WEB-KIT-BUNDLE-CONSUMPTION-SMOKE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_parallel_prompt_pack_read/citybrain_d8_parallel_prompt_pack/README.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/CHICAGO-SIMILAR-CASE-DEMO-QUERY-SMOKE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/HELSINKI-KIT-OBJECT-PICK-MANUAL-REVIEW-CAPTURE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/MAIN-CITYBRAIN-D8-VSS-LICENSED-CORPUS-SAMPLE-INGEST-SMOKE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/OPTIONAL_CITYBRAIN-D8-R3-FOLLOWON-PROMPT-PACK-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/PACK_MANIFEST.json` ? excluded directory tmp/
+- `tmp/citybrain_d8_r3_codex_handover_prompt_pack_read/citybrain_d8_r3_codex_handover_prompt_pack/README.md` ? excluded directory tmp/
+- `tmp/citybrain_data_gap_first_and_treasure_map_read/CITYBRAIN_DATA_TREASURE_MAP_FOR_CODEX.md` ? excluded directory tmp/
+- `tmp/citybrain_data_gap_first_and_treasure_map_read/DATA_GAP_LEDGER_FIRST_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_data_gap_first_and_treasure_map_read/validated_source_matrix.json` ? excluded directory tmp/
+- `tmp/citybrain_governed_9_stage_runtime_contract_smoke_r1/citybrain_governed_9_stage_runtime_contract_smoke_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_governed_9_stage_runtime_contract_smoke_r1/citybrain_governed_9_stage_runtime_contract_smoke_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_governed_9_stage_runtime_contract_smoke_r1/citybrain_governed_9_stage_runtime_contract_smoke_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_governed_9_stage_runtime_contract_smoke_r1/citybrain_governed_9_stage_runtime_contract_smoke_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/00_HANDOVER.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/01_EXECUTION_MODEL.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/02_SCOPE_AND_BOUNDARIES.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/03_INPUTS.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/04_OUTPUT_CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/05_ACCEPTANCE_GATES.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/README.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/RUN_THIS_IN_CODEX.md` ? excluded directory tmp/
+- `tmp/citybrain_mobility_domain_pack_r1_handover_read/citybrain_mobility_domain_pack_r1_end_to_end_handover/hashes.sha256` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_capture_pack_r1/citybrain_next_decision_support_demo_capture_pack_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_capture_pack_r1/citybrain_next_decision_support_demo_capture_pack_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_capture_pack_r1/citybrain_next_decision_support_demo_capture_pack_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_capture_pack_r1/citybrain_next_decision_support_demo_capture_pack_r1/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-DEMO-CAPTURE-PACK-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_capture_pack_r1/citybrain_next_decision_support_demo_capture_pack_r1/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-DEMO-CAPTURE-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_capture_pack_r1/citybrain_next_decision_support_demo_capture_pack_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_polish_r1/citybrain_next_decision_support_demo_polish_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_polish_r1/citybrain_next_decision_support_demo_polish_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_polish_r1/citybrain_next_decision_support_demo_polish_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_polish_r1/citybrain_next_decision_support_demo_polish_r1/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-DEMO-POLISH-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_polish_r1/citybrain_next_decision_support_demo_polish_r1/MAIN-CITYBRAIN-D6-DECISION-SUPPORT-DEMO-POLISH-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_decision_support_demo_polish_r1/citybrain_next_decision_support_demo_polish_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/MAIN-CITYBRAIN-D6-GOVERNED-RUNTIME-TRACE-HARNESS-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/MAIN-CITYBRAIN-D6-GOVERNED-RUNTIME-TRACE-HARNESS-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/MAIN-CITYBRAIN-D6-GOVERNED-RUNTIME-TRACE-HARNESS-QUALITY-GATE-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/MAIN-CITYBRAIN-D6-GOVERNED-RUNTIME-TRACE-HARNESS-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_governed_runtime_trace_harness/citybrain_next_governed_runtime_trace_harness/README.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-NEGATIVE-GATE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-OPTION-SET-FLOW-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-STATE-MACHINE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-THIN-SLICE-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-THIN-SLICE-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_governed_9_stage_runtime_thin_slice/README.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_selection_review/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_selection_review/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_selection_review/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_selection_review/MAIN-CITYBRAIN-D6-NEXT-SPRINT-SELECTION-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_sprint_selection_review/README.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/MAIN-CITYBRAIN-D6-TRACK-D-OPTION-SET-PROMOTION-BRIDGE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/MAIN-CITYBRAIN-D6-TRACK-D-OPTION-SET-PROMOTION-GUARDRAIL-SMOKE-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/MAIN-CITYBRAIN-D6-TRACK-D-OPTION-SET-PROMOTION-INTEGRATION-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/MAIN-CITYBRAIN-D6-TRACK-D-OPTION-SET-PROMOTION-INTEGRATION-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/MAIN-CITYBRAIN-D6-TRACK-D-OPTION-SET-PROMOTION-INTEGRATION-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_next_track_d_option_set_promotion_integration/citybrain_next_track_d_option_set_promotion_integration/README.md` ? excluded directory tmp/
+- `tmp/citybrain_operator_decision_support_surface_r1/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_operator_decision_support_surface_r1/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_operator_decision_support_surface_r1/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_operator_decision_support_surface_r1/README.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-CAMERA-VIDEO-DONOR-SOURCE-SCOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-DATA-GAP-LEDGER-AND-PRIORITY-MATRIX_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-HELSINKI-SEMANTIC-TWIN-PILOT-DATA-LANDING_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-METROPOLIS-VSS-DATA-READINESS-SCOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-MOBILITY-ACCESS-OPTION-SET-GAP-BACKFILL-SCOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-MOBILITY-TEMPORAL-AND-SIMULATION-DATA-SCOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-PARALLEL-DATA-READINESS-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_parallel_data_readiness_scouts_read/citybrain_parallel_data_readiness_scouts/MAIN-CITYBRAIN-D8-WEB-KIT-DEMO-ASSET-DATA-BUNDLE_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/01_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CONVERGENCE-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/02_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CONTROL-ROOM-DEMO-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/03_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CONTROL-ROOM-DEMO-CLOSEOUT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/04_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/05_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_post_track_i_decision_support_sprint_prompts/README.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/DO_NOT_DO.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/README.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/SEQUENCE.json` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/prompts/01_MAIN-CITYBRAIN-D6-PLAN-MODE-SUMO-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/prompts/02_MAIN-CITYBRAIN-D6-PLAN-MODE-SUMO-SCENARIO-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/prompts/03_MAIN-CITYBRAIN-D6-PLAN-MODE-OPTION-SET-NORMALIZATION-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/prompts/04_MAIN-CITYBRAIN-D6-PLAN-MODE-RUNTIME-SMOKE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_b_plan_mode_sumo/prompts/05_MAIN-CITYBRAIN-D6-PLAN-MODE-SUMO-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-IMPACT-FIXTURES-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-OPTION-SET-ATTACHMENT-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-PATH-CATALOG-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/MAIN-CITYBRAIN-D6-CROSS-DOMAIN-CASCADE-QUALITY-GATE-R4_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_c_cross_domain_cascade/README.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-HITL-PROMOTION-BRIDGE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-DECISION-SUPPORT-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-GENERATOR-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-TRADEOFF-EVALUATION-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_i_inverse_dynamics_multi_option_decision_support/README.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/DO_NOT_DO.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/README.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/SEQUENCE.json` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/prompts/01_MAIN-CITYBRAIN-D6-SIMILAR-CASE-RETRIEVAL-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/prompts/02_MAIN-CITYBRAIN-D6-SIMILAR-CASE-INDEX-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/prompts/03_MAIN-CITYBRAIN-D6-SIMILAR-CASE-OPTION-SET-ATTACHMENT-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/prompts/04_MAIN-CITYBRAIN-D6-SIMILAR-CASE-RETRIEVAL-QUALITY-GATE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_r_similar_case_retrieval/citybrain_track_r_similar_case_retrieval/prompts/05_MAIN-CITYBRAIN-D6-SIMILAR-CASE-RETRIEVAL-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/DO_NOT_DO.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/README.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/SEQUENCE.json` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/prompts/01_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/prompts/02_MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-INTERFACE-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/prompts/03_MAIN-CITYBRAIN-D6-HERO-CORRIDOR-REVIEWED-ACTION-ENUM-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/prompts/04_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-GOLDEN-QUALITY-GATE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/citybrain_track_s_decision_support_contract_spine/prompts/05_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CONTRACT-SPINE-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/00_SHARED_HERO_SCENARIO_CONTRACT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/01_CODEX_HANDOVER_TRACK_A_TWIN_FOR_REAL.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/README.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/prompts/MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-GRAPH-TO-USD-STATUS-OVERLAY-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/prompts/MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-REAL-FOOTPRINT-USD-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/prompts/MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-REAL-USD-TWIN-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/prompts/MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-REAL-USD-TWIN-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/prompts/MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-REAL-USD-TWIN-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/codex_handover_track_a_twin_for_real/codex_handover_track_a_twin_for_real/prompts/MAIN-TRACK2A-D6-HERO-NEIGHBOURHOOD-REPLAY-EVENT-ROUTE-ANIMATION-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d13_kit_launch_stderr.log` ? excluded directory tmp/
+- `tmp/d13_kit_launch_stdout.log` ? excluded directory tmp/
+- `tmp/d13_r2_browser_dom_proof.json` ? excluded directory tmp/
+- `tmp/d13_r2_web_selection_events.json` ? excluded directory tmp/
+- `tmp/d8_actual_record_dom_capture.html` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-ACTUAL-RECORD-GROUNDED-UI-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-ACTUAL-RECORD-GROUNDED-UI-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-ACTUAL-RECORD-UI-GROUNDING-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-ACTUAL-RECORD-UI-HUMAN-SMOKE-R5_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-HUMAN-FACT-CARD-MODEL-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-MOMENT-TO-RECORD-PARITY-SMOKE-R4_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-RUNTIME-BUNDLE-DATA-DEPTH-AUDIT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/MAIN-CITYBRAIN-D8-WEB-ACTUAL-RECORD-RENDERING-PATCH-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_actual_record_grounded_ui_remediation_prompts/citybrain_d8_actual_record_grounded_ui_remediation/README.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/ADDENDUM_R1_D8_SPINE_REANCHOR_AND_MOMENT_REMAP.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-CAPTURE-CLAIM-AUDIT-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-CAPTURE-EXECUTIVE-WALKTHROUGH-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-CAPTURE-OPERATOR-WALKTHROUGH-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-DEMONSTRABILITY-CERTIFIED-STATE-HANDOFF_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-DEMONSTRABILITY-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-DEMONSTRABILITY-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-DEMONSTRABILITY-SPRINT-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-HERO-INTEGRATED-SURFACE-SMOKE-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-HERO-INTEGRATED-SURFACE-WIRE-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-HERO-PORTFOLIO-AND-MOMENT-BEAT-MAP-LOCK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-HERO-SPINE-MOMENT-WIRING-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-INTELLIGENCE-MOMENT-LOOP-AND-SCOREBOARD-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/MAIN-CITYBRAIN-D8-SUPPORTING-HERO-CUTAWAY-WIRING-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/R2_PATCH_NOTES.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/README.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/REFERENCE_TXRCityBrain_D8_Demonstrability_Sprint_Spec_v1.md` ? excluded directory tmp/
+- `tmp/d8_demonstrability_sprint_r2_mobility_reanchored/citybrain_d8_demonstrability_sprint_r2_mobility_reanchored/REFERENCE_TXRCityBrain_D8_Hero_Portfolio_and_Moment_Beat_Map_v1.md` ? excluded directory tmp/
+- `tmp/d8_human_readable_dom_capture.html` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-CERTIFIED-RUNTIME-TO-CITY-SOURCE-RECORD-AUDIT-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-DOM-SOURCE-RECORD-ASSERTION-SMOKE-R4_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-SOURCE-BACKED-UI-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-SOURCE-BACKED-UI-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-SOURCE-RECORD-BUNDLE-BUILD-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-SOURCE-RECORD-UI-CUTOVER-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/MAIN-CITYBRAIN-D8-WEB-SOURCE-RECORD-RENDERING-PATCH-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_backed_city_record_ui_cutover_prompts/citybrain_d8_source_backed_city_record_ui_cutover/README.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-CITY-FACT-VIEWER-READINESS-REVIEW-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-D7-MEDIA-OBSERVATION-SOURCE-RECORD-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-GUARDRAIL-REFUSAL-REVIEW-LOG-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-HUMAN-REVIEW-STOP-RECORD-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-LONDON-MOBILITY-CORRIDOR-COHERENCE-REVIEW-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-SOURCE-RECORD-GAP-CLOSURE-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-SOURCE-RECORD-GAP-CLOSURE-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-SOURCE-RECORD-GAP-CLOSURE-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/MAIN-CITYBRAIN-D8-WEB-SOURCE-RECORD-GAP-CLOSURE-UI-INTEGRATION-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_gap_closure_and_scenario_coherence/citybrain_d8_source_record_gap_closure_and_scenario_coherence/README.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-CHICAGO-SIMILAR-CASE-NORMALIZATION-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-CHICAGO-SIMILAR-CASE-RECORD-PACK-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-CHICAGO-SIMILAR-CASE-RECORD-PACK-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-CHICAGO-SIMILAR-CASE-SOURCE-LANDING-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-CHICAGO-SIMILAR-CASE-UI-BUNDLE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-HELSINKI-SEMANTIC-BUILDING-LANDING-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-HELSINKI-SEMANTIC-TWIN-VISUAL-ENTITY-PICK-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-HELSINKI-SEMANTIC-TWIN-VISUAL-ENTITY-PICK-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-HELSINKI-USD-PRIM-IDENTITY-SIDECAR-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-HELSINKI-VISUAL-ENTITY-PICK-UI-BUNDLE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-LONDON-MOBILITY-SOURCE-LANDING-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-LONDON-MOBILITY-SOURCE-RECORD-NORMALIZATION-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-LONDON-MOBILITY-SOURCE-RECORD-PACK-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-LONDON-MOBILITY-SOURCE-RECORD-PACK-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-LONDON-MOBILITY-UI-RECORD-BUNDLE-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-SOURCE-RECORD-RECOVERY-CERTIFIED-STATE-HANDOFF_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-SOURCE-RECORD-RECOVERY-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/MAIN-CITYBRAIN-D8-SOURCE-RECORD-RECOVERY-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/README.md` ? excluded directory tmp/
+- `tmp/d8_source_record_recovery_packs/citybrain_d8_source_record_recovery_packs/source_recovery_source_matrix.json` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-CITY-FACT-DOM-ASSERTION-SMOKE-R4_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-INTEGRATED-SOURCE-RECORD-BUNDLE-ADAPTER-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-MOMENT-SOURCE-RECORD-PARITY-R3_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-SOURCE-RECORD-UI-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-SOURCE-RECORD-UI-INTEGRATION-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-SOURCE-RECORD-UI-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/MAIN-CITYBRAIN-D8-WEB-SOURCE-RECORD-CARDS-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/d8_source_record_ui_integration/citybrain_d8_source_record_ui_integration/README.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-MILESTONE-FREEZE_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-OPTION-SET-ATTACHMENT-R2_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack/citybrain_mobility_access_domain_pack/README.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_domain_pack_integration_closeout/citybrain_mobility_access_domain_pack_integration_closeout/README.md` ? excluded directory tmp/
+- `tmp/mobility_access_external_review_bundle/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/mobility_access_external_review_bundle/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/mobility_access_external_review_bundle/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_external_review_bundle/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-EXTERNAL-REVIEW-BUNDLE-CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_external_review_bundle/MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-EXTERNAL-REVIEW-BUNDLE_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_access_external_review_bundle/README.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-PANEL-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-PANEL-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-PANEL-SPRINT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_closeout/citybrain_after_mobility_d7_trace_panel_sprint_closeout/README.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-ARCHIVE-AND-INDEX_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-POST-REVIEW-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-POST-REVIEW-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_post_review_archive_closeout/README.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-SPRINT-CERTIFIED-STATE-AND-HANDOVER-REFRESH_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-SPRINT-FINAL-PACKAGE-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-SPRINT-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? excluded directory tmp/
+- `tmp/mobility_d7_trace_domainpack_sprint_final_closeout/citybrain_mobility_d7_trace_domainpack_sprint_final_closeout/README.md` ? excluded directory tmp/
+- `tmp/probe_london_join.py` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_annotations.coco.json` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_000_100040.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_000_100068.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_000_10013.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_000_100401.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_000_59487.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_000_90089.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_images_001_793960.png` ? excluded directory tmp/
+- `tmp/r16_bmd45_cache/bmd45_val_tree.json` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frame_manifest.json` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0000.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0001.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0002.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0003.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0004.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0005.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0006.png` ? excluded directory tmp/
+- `tmp/r17_bmd45_deepstream_frame_replay/frames/frame_0007.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_100040.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_100068.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_10013.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_100361.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_100401.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_59487.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_000_90089.png` ? excluded directory tmp/
+- `tmp/r18_bmd45_cache/bmd45_val_images_001_793960.png` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/GUARDRAIL_TERMS_R4.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/INPUT_R3_VALIDATION_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/R3_ARTIFACT_INSPECTION_REPORT.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/README.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/SCHEMA_DECISION_R4.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/SCHEMA_VSS_NARRATION_RECORD_R4.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/SCHEMA_VSS_RUNTIME_ADAPTER_R4.json` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/SPEC.md` ? excluded directory tmp/
+- `tmp/r4_handoff_inspect/STATUS_ENUMS_R4.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/GUARDRAIL_TERMS_R5.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/INPUT_R4_VALIDATION_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/R4_ARTIFACT_INSPECTION_REPORT.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/README.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/SCHEMA_DECISION_R5.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/SCHEMA_VSS_NARRATION_RECORD_R5.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/SCHEMA_VSS_RUNTIME_ADAPTER_R5.json` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/SPEC.md` ? excluded directory tmp/
+- `tmp/r5_handoff_inspect/citybrain_metropolis_vss_narration_runtime_configured_smoke_r5_handoff/STATUS_ENUMS_R5.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/GUARDRAIL_TERMS_R6.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/INPUT_R5_VALIDATION_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/R5_ARTIFACT_INSPECTION_REPORT.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/README.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/SCHEMA_DECISION_R6.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/SCHEMA_VSS_RUNTIME_CONFIGURATION_R6.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/SCHEMA_VSS_RUNTIME_CONNECTIVITY_PROBE_R6.json` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/SPEC.md` ? excluded directory tmp/
+- `tmp/r6_handoff_inspect/citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6_handoff/STATUS_ENUMS_R6.json` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/R6_PARTIAL_REPORTED_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/README.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/RUNTIME_CONFIG_TEMPLATE.env.example` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/SCHEMA_VSS_RUNTIME_CONFIGURED_RERUN_R6B.json` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/SPEC.md` ? excluded directory tmp/
+- `tmp/r6b_handoff_inspect/STATUS_ENUMS_R6B.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/INPUT_R6B_VALIDATION_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/R6B_ARTIFACT_INSPECTION_REPORT.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/README.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/RUNTIME_CONFIG_TEMPLATE.env.example` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/SCHEMA_DECISION_R6C.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/SCHEMA_R7_READINESS_GATE_R6C.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/SCHEMA_VSS_RUNTIME_PROVISIONING_R6C.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/SPEC.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/STATUS_ENUMS_R6C.json` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/VSS_COMMAND_WRAPPER_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6c_handoff_inspect/VSS_ENDPOINT_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/CROSS_HOST_ARTIFACT_EXCHANGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/CROSS_HOST_PAYLOAD_CONTRACT_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/HOST_ALLOCATION_AUDIT_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/R7_READINESS_GATE_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/README.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/RUNTIME_HOST_ALLOCATION_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SCHEMA_HOST_ALLOCATION_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SCHEMA_R7_READINESS_GATE_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SCHEMA_SPARK_VSS_CONNECTIVITY_PROBE_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SPARK_VSS_CONNECTIVITY_PROBE_CONTRACT_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SPARK_VSS_RUNTIME_CONFIG_TEMPLATE.env.example` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SPARK_VSS_RUNTIME_CONFIG_TEMPLATE_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/SPEC.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/STATUS_ENUMS_R6D.json` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/VSS_SPARK_COMMAND_WRAPPER_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6d_handoff_inspect/VSS_SPARK_ENDPOINT_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/R6D_REPORTED_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/R6E_CLOSEOUT_DECISION_TEMPLATE.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/R7_READINESS_GATE_R6E.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/README.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/RUNTIME_HOST_ALLOCATION_R6E.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SCHEMA_R6E_DECISION.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPARK_VSS_COMMAND_WRAPPER_CHECKLIST_R6E.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPARK_VSS_CONNECTIVITY_PROBE_PLAN_R6E.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPARK_VSS_ENDPOINT_CHECKLIST_R6E.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPARK_VSS_PROVISIONING_RUNBOOK_R6E.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPARK_VSS_PROVISIONING_STATUS_R6E.json` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPARK_VSS_RUNTIME_CONFIG_TEMPLATE.env.example` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/SPEC.md` ? excluded directory tmp/
+- `tmp/r6e_handoff_inspect/citybrain_metropolis_vss_spark_provisioning_runbook_r6e_handoff/STATUS_ENUMS_R6E.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/ACCEPTANCE_CHECKS.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/BOUNDARY_POLICY.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/ENTRY_PROMPT.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/GUARDRAIL_TERMS_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/HANDOFF_JSON_PARSE_REPORT.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/HASH_MANIFEST.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/IMPLEMENTATION_NOTES.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/INPUT_R6C_PASS_REPORTED_SUMMARY.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/PACKAGE_CONTRACT.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/README.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/RUNTIME_HOST_ALLOCATION_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SCHEMA_DECISION_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SCHEMA_VSS_NARRATION_AUDIT_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SCHEMA_VSS_NARRATION_RECORD_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SCHEMA_VSS_NARRATION_REQUEST_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SECRET_ROTATION_NOTE_R7.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SPARK_VSS_RUNTIME_CONFIG_TEMPLATE.env.example` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/SPEC.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/STATUS_ENUMS_R7.json` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/VSS_NARRATION_NORMALIZATION_RULES_R7.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/VSS_NARRATION_SMOKE_REQUEST_CONTRACT_R7.md` ? excluded directory tmp/
+- `tmp/r7_handoff_inspect/citybrain_metropolis_vss_narration_runtime_smoke_r7_handoff/VSS_OUTPUT_GUARDRAILS_R7.md` ? excluded directory tmp/
+- `tmp/source_backed_verify.html` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/00_HANDOVER.md` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/01_SCOPE_AND_STOP_RULES.md` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/02_ROADMAP_TO_DEPENDENCY.md` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/03_ACCEPTANCE_GATES.md` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/README.md` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/RUN_THIS_IN_CODEX.md` ? excluded directory tmp/
+- `tmp/trackC_track2a_omniverse_asset_binding_r1_handover_read/trackC_track2a_omniverse_asset_binding_r1_handover/hashes.sha256` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/00_SHARED_CONTEXT.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/CHECKLIST.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/HANDOVER_FILE_MANIFEST.json` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/QUICK_START.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/README.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/prompts/P0_PRODUCT_PACKAGING_AND_PERSONA_PREFLIGHT_PROMPT.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/prompts/P1_PERSONA_RENDERING_POLICIES_R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/prompts/P2_HERO_NEIGHBOURHOOD_COLLATERAL_PACK_R1_PROMPT.md` ? excluded directory tmp/
+- `tmp/track_p_product_packaging_persona_collateral_handover/codex_handover_track_p_product_packaging_persona_collateral/prompts/P3_PRODUCT_PACKAGING_CLOSEOUT_PROMPT.md` ? excluded directory tmp/
+- `tmp/video-search-and-summarization/` ? excluded directory tmp/
+
+## exclude_secrets_local_cache
+
+Count: 6
+
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/SECRET_ROTATION_REMINDER.md` ? secret-ish path pattern
+- `packages/fixtures/chicago_similar_case_records/SECRET_AUDIT.json` ? secret-ish path pattern
+- `packages/fixtures/d9_product_modes/runtime_bundle/SECRET_AUDIT.json` ? secret-ish path pattern
+- `packages/fixtures/helsinki_visual_entity_pick/SECRET_AUDIT.json` ? secret-ish path pattern
+- `packages/fixtures/london_mobility_source_records/SECRET_AUDIT.json` ? secret-ish path pattern
+- `packages/fixtures/source_record_recovery_candidate_bundle/SECRET_AUDIT.json` ? secret-ish path pattern
+
+## needs_human_review
+
+Count: 471
+
+- `ORCHESTRATOR EVOLUTION OLD CODE.MD` ? private/local note pattern
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-ASK-SEARCH-AND-REFUSAL-SMOKE-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-DATA-DRIVEN-PATCH-BOARD-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-DETERMINISTIC-CITY-DATA-SEARCH-CONTRACT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-DIFF-SNAPSHOT-CADENCE-STATUS-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-DEPTH-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-DEPTH-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-DEPTH-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-TEXT-GATE-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-RECALL-FIELD-MATCH-REASONS-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-SELECTED-ITEM-INVESTIGATION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-SOURCE-AND-QUERY-CANDIDATE-INVENTORY-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/MAIN-CITYBRAIN-D10-WATCH-QUERY-LIBRARY-EXPANSION-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r1/citybrain_d10_operator_intelligence_depth_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/HASH_MANIFEST.sha256` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-ASK-SEARCH-AND-REFUSAL-SMOKE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-D9-CAPABILITY-REGRESSION-RERUN-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-DATA-DRIVEN-PATCH-BOARD-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-DETERMINISTIC-CITY-DATA-SEARCH-CONTRACT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-DIFF-SNAPSHOT-CADENCE-START-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-KIT-RUNTIME-PROBE-R0_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-DEPTH-CLOSEOUT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-DEPTH-MILESTONE-FREEZE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-DEPTH-PREFLIGHT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-OPERATOR-INTELLIGENCE-TEXT-GATE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-RECALL-FIELD-MATCH-REASONS-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-ROADMAP-DEPENDENCY-HANDOFF-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-SELECTED-ITEM-INVESTIGATION-CONTENT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-SOURCE-AND-QUERY-CANDIDATE-INVENTORY-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/MAIN-CITYBRAIN-D10-WATCH-QUERY-LIBRARY-EXPANSION-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d10_operator_intelligence_depth_r2_dependency_locked/citybrain_d10_operator_intelligence_depth_r2_dependency_locked/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-LOCAL-NOTES-AND-SESSION-SUMMARY-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-LOCAL-REVIEW-STATE-CONTRACT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-OPERATOR-GATE-TASK-PACKET-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-OPERATOR-WORKFLOW-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-QUESTION-CORPUS-EXPORT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-REAL-OPERATOR-SESSION-IMPORT-GATE-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-REVIEW-EXPORT-NONOFFICIAL-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-REVIEW-WORKSPACE-STATE-UI-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-STANDING-CAPABILITY-REGRESSION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-WORKFLOW-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/MAIN-CITYBRAIN-D11-WORKFLOW-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d11_operator_workflow_review_workspace_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-CERTIFIED-STATE-CONSOLIDATION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-CHICAGO-RECALL-DATA-DEPTH-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-CITY-DATA-DEPTH-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-CITY-DATA-DEPTH-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-CONDITIONAL-CITY-SOURCE-GATES-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-CONSUMPTION-RULE-LEDGER-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-DATA-DEPTH-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-LONDON-CONSUMED-DATA-DEPTH-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-MODE-CONSUMER-SMOKES-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-NYC-CONSUMED-DATA-DEPTH-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-RECORD-LEVEL-DIFF-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-SOURCE-RECORD-SNAPSHOT-CONTRACT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/MAIN-CITYBRAIN-D12-STANDING-CAPABILITY-REGRESSION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d12_city_data_depth_real_diff_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-BIDIRECTIONAL-GUI-RECEIPT-SMOKE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-BRIDGE-FORBIDDEN-COMMAND-NEGATIVE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-KIT-LIVE-RECEIPT-HOOK-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-LIVE-BRIDGE-TRANSPORT-CONTRACT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-LIVE-SEAM-CLOSEOUT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-LIVE-SEAM-MILESTONE-FREEZE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-LIVE-SEAM-PREFLIGHT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-ONE-TRUTH-LIVE-SEAM-PARITY-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/MAIN-CITYBRAIN-D13-WEB-LIVE-RECEIPT-HOOK-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_live_web_kit_selection_receipt_r2/citybrain_d13_live_web_kit_selection_receipt_r2/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-ENTITY-PRIM-BINDING-CONTRACT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-KIT-RUNTIME-GATE-VERIFY-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-ONE-TRUTH-SEAM-SMOKE-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-SPATIAL-BOUNDARY-AND-GEOMETRY-AUDIT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-SPATIAL-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-SPATIAL-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-SPATIAL-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-SPATIAL-REVIEW-STATE-OVERLAY-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-STANDING-CAPABILITY-REGRESSION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/MAIN-CITYBRAIN-D13-WEB-KIT-SELECTION-HANDOFF-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d13_spatial_twin_omniverse_one_truth_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-ASK-TEMPLATE-REGISTRY-REFRESH-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-GOVERNED-OPEN-ASK-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-GOVERNED-OPEN-ASK-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-OPEN-ASK-ADVERSARIAL-BATTERY-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-OPEN-ASK-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-OPEN-ASK-ROUTER-IMPLEMENTATION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-OPEN-ASK-TRACE-AND-TEXT-GATE-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-OPERATOR-CORPUS-AUDIT-AND-LABELING-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-PRODUCTION-READINESS-DISCOVERY-TRACK-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-ROUTER-MAPS-NEVER-ANSWERS-CONTRACT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/MAIN-CITYBRAIN-D14-STANDING-CAPABILITY-REGRESSION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d14_governed_open_ask_production_readiness_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-BRAIN-SURFACE-DOM-AND-HUMAN-SMOKE-R6_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-BRAIN-SURFACE-STORY-QUEUE-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-BRAIN-SURFACE-STORY-QUEUE-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-BRAIN-SURFACE-STORY-QUEUE-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-CROSS-STORY-NAVIGATION-AND-CUTAWAY-SMOKE-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-STORY-DRILLDOWN-AND-WOVEN-MOMENTS-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-CONTRACT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-TWO-STORY-SOURCE-BUNDLE-INTEGRATION-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/MAIN-CITYBRAIN-D8-WEB-BRAIN-SURFACE-STORY-QUEUE-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_brain_surface_story_queue_r1/citybrain_d8_brain_surface_story_queue_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-REVIEW-OPTIONS-BOUNDARY-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-SCENARIO-LAYER-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-SCENARIO-LAYER-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-SCENARIO-LAYER-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-SOURCE-EVIDENCE-MAP-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-STORY-AUTHORING-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-CASCADE-STORY-QUEUE-INTEGRATION-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/MAIN-CITYBRAIN-D8-NYC-FLOW3-HERO-EVIDENCE-EXTRACTION-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/citybrain_d8_nyc_cascade_scenario_layer_authoring_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_scenario_authoring_r1_distinct_tension/citybrain_d8_scenario_authoring_r1_distinct_tension/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_scenario_authoring_r1_distinct_tension/citybrain_d8_scenario_authoring_r1_distinct_tension/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_scenario_authoring_r1_distinct_tension/citybrain_d8_scenario_authoring_r1_distinct_tension/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_scenario_authoring_r1_distinct_tension/citybrain_d8_scenario_authoring_r1_distinct_tension/MAIN-CITYBRAIN-D8-SCENARIO-AUTHORING-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_scenario_authoring_r1_distinct_tension/citybrain_d8_scenario_authoring_r1_distinct_tension/PROMPT_PACK_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_scenario_authoring_r1_distinct_tension/citybrain_d8_scenario_authoring_r1_distinct_tension/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-CAPTURE-CLOSEOUT-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-CAPTURE-HANDOFF-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-CAPTURE-IMPORT-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-MEDIA-CLAIM-AUDIT-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-MEDIA-COVERAGE-SMOKE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/MAIN-CITYBRAIN-D8-STORY-QUEUE-REAL-MEDIA-IMPORT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d8_story_queue_capture_import_r1/citybrain_d8_story_queue_capture_import_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-ASK-CITED-ANSWER-RUNTIME-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-ASK-WATCH-BRIEF-CHECK-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-ASK-WATCH-BRIEF-CHECK-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-ASK-WATCH-BRIEF-CHECK-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-BRIEF-PACKET-GENERATOR-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-CHECK-GUARDRAIL-AND-SOURCE-DEPTH-R6_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-PRODUCT-MODE-CONTRACT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-PRODUCT-MODE-RUNTIME-BUNDLE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-PRODUCT-MODE-RUNTIME-GUARDRAIL-SMOKE-R9_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-RECALL-CUTAWAY-R7_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-WATCH-NAMED-QUERY-QUEUE-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/MAIN-CITYBRAIN-D9-WEB-PRODUCT-MODE-CONSOLE-R8_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_ask_watch_brief_check_runtime_r1/citybrain_d9_ask_watch_brief_check_runtime_r1/REFERENCE_D9_DATA_SCOUT_COLLATED_SUMMARY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-EXTERNAL-OPERATOR-VALIDATION-CERTIFIED-STATE-HANDOFF-R6_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-EXTERNAL-OPERATOR-VALIDATION-CLOSEOUT-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-EXTERNAL-OPERATOR-VALIDATION-R2-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-EXTERNAL-QUESTION-CORPUS-EXPORT-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-OPERATOR-SESSION-IMPORT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-OPERATOR-TASK-PACKET-REFRESH-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/MAIN-CITYBRAIN-D9-OPERATOR-TASK-SCOREBOARD-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_external_operator_validation_r2_refreshed_baseline/citybrain_d9_external_operator_validation_r2_refreshed/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-ASK-QUESTION-COVERAGE-SCOUT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-BRIEF-PACKET-READINESS-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-CHECK-DIFF-DATA-QUALITY-CHANGE-SCOUT-R6_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-DATA-SCOUT-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-DATA-SCOUT-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-DATA-SCOUT-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-MODE-SURFACE-INPUT-INVENTORY-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-PRODUCT-MODE-SOURCE-GAP-LEDGER-R7_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-RECALL-PRECEDENT-COVERAGE-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/MAIN-CITYBRAIN-D9-WATCH-NAMED-QUERY-POTENTIAL-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/PRELIMINARY_D9_SURFACE_SOURCE_MAP.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_d9_preflight_data_scout_for_product_modes/citybrain_d9_preflight_data_scout_for_product_modes/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/BASELINE_METRICS_FROM_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/GUARDRAIL_TERMS_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/INPUT_R20_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/KNOWN_LIMITATIONS_TEMPLATE_R21.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R21.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/R20_ARTIFACT_INSPECTION_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/RUNTIME_HOST_ALLOCATION_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/SCHEMA_COCKPIT_REVIEW_INTEGRATION_REPORT_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/SCHEMA_COCKPIT_REVIEW_TILE_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/SCHEMA_DECISION_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/SCHEMA_FRAME_REVIEW_CARD_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_review_integration_smoke_r21/STATUS_ENUMS_R21.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/GUARDRAIL_TERMS_R22.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/INPUT_R21_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/KNOWN_LIMITATIONS_TEMPLATE_R22.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R22.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/R21_ARTIFACT_INSPECTION_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/RUNTIME_HOST_ALLOCATION_R22.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/SCHEMA_COCKPIT_SURFACE_RUNTIME_REPORT_R22.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/SCHEMA_DECISION_R22.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/SCHEMA_HUMAN_REVIEW_SURFACE_PACKET_R22.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_cockpit_surface_runtime_smoke_r22/STATUS_ENUMS_R22.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/CLASS_MAPPING_POLICY_R17.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/DATASET_FRAME_REPLAY_PLAN_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/GUARDRAIL_TERMS_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/INPUT_R16_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/IOU_COMPARISON_RULES_R17.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/KNOWN_LIMITATIONS_TEMPLATE_R17.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R17.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/RUNTIME_HOST_ALLOCATION_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/SCHEMA_COMPARISON_REPORT_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/SCHEMA_DECISION_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/SCHEMA_DEEPSTREAM_FRAME_REPLAY_REPORT_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/SCHEMA_HUMAN_REVIEW_COMPARISON_PACKET_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_deepstream_frame_replay_comparison_r17/STATUS_ENUMS_R17.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/BASELINE_METRICS_FROM_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/GUARDRAIL_TERMS_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/INPUT_R19_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/KNOWN_LIMITATIONS_TEMPLATE_R20.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R20.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/R19_ARTIFACT_INSPECTION_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/RUNTIME_HOST_ALLOCATION_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/SCHEMA_COCKPIT_REVIEW_TILE_FIXTURE_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/SCHEMA_DECISION_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/SCHEMA_FRAME_REVIEW_CARD_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/SCHEMA_HUMAN_REVIEW_BENCHMARK_PACKET_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_human_review_benchmark_packet_r20/STATUS_ENUMS_R20.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/BASELINE_METRICS_FROM_R18.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/GUARDRAIL_TERMS_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/INPUT_R18_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/KNOWN_LIMITATIONS_TEMPLATE_R19.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R19.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/R18_ARTIFACT_INSPECTION_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/RUNTIME_HOST_ALLOCATION_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/SCHEMA_BENCHMARK_SCORECARD_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/SCHEMA_DECISION_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/SCHEMA_REPLAY_BENCHMARK_CONFIG_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_bmd45_replay_benchmark_regression_harness_r19/STATUS_ENUMS_R19.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/CAMERA_SOURCE_REGISTRY_PROVENANCE_R14.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/DATASET_SOURCE_CANDIDATES_R10.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/DEEPSTREAM_EVIDENCE_FRAME_EXPORT_R10.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/HUMAN_REVIEW_UI_PACKET_R13.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/KNOWN_LIMITATIONS_TEMPLATE_R15.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/LIVE_RTSP_INFRA_PREP_R11.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/MULTI_ZONE_MULTI_CLASS_R12.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R15.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/OFFLINE_VIDEO_SOURCE_SCOUT_R10.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/ROADMAP_R10_R15.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/SCHEMA_CAMERA_SOURCE_REGISTRY_R14.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/SCHEMA_HUMAN_REVIEW_UI_PACKET_R13.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/SCHEMA_SPRINT_DECISION_R15.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15/STATUS_ENUMS_R10_R15.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/GUARDRAIL_TERMS_R8.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/INPUT_R7_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/R7_ARTIFACT_INSPECTION_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/SCHEMA_COMBINED_EVIDENCE_BUNDLE_R8.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/SCHEMA_DECISION_R8.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/SCHEMA_NARRATION_EVIDENCE_JOIN_R8.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_narration_evidence_join_r8/STATUS_ENUMS_R8.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/AICITY_VIDEO_OPTION_R16.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/BMD45_FRAME_REPLAY_PLAN_R16.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/CAMERA_SOURCE_REGISTRY_EXTENSION_R16.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/DATASET_CANDIDATE_MATRIX_R16.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/DATASET_LICENSE_GATE_R16.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/KNOWN_LIMITATIONS_TEMPLATE_R16.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R16.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/SCHEMA_DATASET_SOURCE_REGISTRY_R16.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/SCHEMA_DECISION_R16.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/SCHEMA_OFFLINE_DATASET_INGEST_MANIFEST_R16.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/STATUS_ENUMS_R16.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_offline_cctv_dataset_expansion_r16/WEB_SOURCE_SUMMARY_R16.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/ACCEPTANCE_CHECKS.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/BOUNDARY_POLICY.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/GUARDRAIL_TERMS_R9.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/HANDOFF_JSON_PARSE_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/HASH_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/IMPLEMENTATION_NOTES.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/INPUT_R8_VALIDATION_SUMMARY.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/KNOWN_LIMITATIONS_TEMPLATE_R9.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R9.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/PACKAGE_CONTRACT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/R8_ARTIFACT_INSPECTION_REPORT.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/RUNTIME_HOST_ALLOCATION_FINAL_TEMPLATE_R9.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/SCHEMA_FINAL_AUDIT_R9.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/SCHEMA_R1_R9_LINEAGE_SUMMARY_R9.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/SCHEMA_SPRINT_CLOSEOUT_DECISION_R9.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_metropolis_vss_sprint_closeout_r9/STATUS_ENUMS_R9.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity/citybrain_omniverse_webrtc_r3_scene_prim_selection_parity_handoff/HANDOFF_MANIFEST.json` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity/citybrain_omniverse_webrtc_r3_scene_prim_selection_parity_handoff/NEXT_TASK_CHAIN.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity/citybrain_omniverse_webrtc_r3_scene_prim_selection_parity_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity/citybrain_omniverse_webrtc_r3_scene_prim_selection_parity_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity/citybrain_omniverse_webrtc_r3_scene_prim_selection_parity_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r3_scene_prim_selection_parity/citybrain_omniverse_webrtc_r3_scene_prim_selection_parity_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r4_event_overlay_parity/citybrain_omniverse_webrtc_r4_event_overlay_parity_handoff/NEXT_TASK_CHAIN.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r4_event_overlay_parity/citybrain_omniverse_webrtc_r4_event_overlay_parity_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r4_event_overlay_parity/citybrain_omniverse_webrtc_r4_event_overlay_parity_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r4_event_overlay_parity/citybrain_omniverse_webrtc_r4_event_overlay_parity_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r4_event_overlay_parity/citybrain_omniverse_webrtc_r4_event_overlay_parity_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/HASH_MANIFEST.txt` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/NEXT_TASK_CHAIN.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/ACCEPTANCE_MATRIX.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/HASH_MANIFEST.txt` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/ROADMAP.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow/citybrain_omniverse_webrtc_r6_ui_ux_operator_workflow_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/ACCEPTANCE_MATRIX.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/HASH_MANIFEST.txt` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/ROADMAP.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r7_perception_to_review_workflow/citybrain_r7_perception_to_review_workflow_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/ACCEPTANCE_MATRIX.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/HASH_MANIFEST.txt` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/ROADMAP.md` ? top-level handoff/export directory outside include roots
+- `_handoff_citybrain_r8_real_perception_runtime_evidence_clip/citybrain_r8_real_perception_runtime_evidence_clip_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_baseline_hash_reconciliation/citybrain_d8_web_kit_live_surface_baseline_reconciliation/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_baseline_hash_reconciliation/citybrain_d8_web_kit_live_surface_baseline_reconciliation/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_baseline_hash_reconciliation/citybrain_d8_web_kit_live_surface_baseline_reconciliation/MAIN-CITYBRAIN-D8-WEB-KIT-LIVE-SURFACE-BASELINE-HASH-RECONCILIATION_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_baseline_hash_reconciliation/citybrain_d8_web_kit_live_surface_baseline_reconciliation/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-EXTERNAL-NAIVE-VIEWER-VALIDATION-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-EXTERNAL-NAIVE-VIEWER-VALIDATION-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-FRONTEND-DEPTH-ISSUE-REMEDIATION-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-FRONTEND-DEPTH-ISSUE-REMEDIATION-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-FRONTEND-ISSUE-TRIAGE-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-LIVE-CAPTURE-CLAIM-AUDIT-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-LIVE-CAPTURE-MEDIA-PASS-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-LIVE-CAPTURE-MEDIA-PASS-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-LIVE-CAPTURE-TOOLCHAIN-AND-SHOT-LOCK-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-LIVE-MOMENT-CLIP-MANIFEST-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-LIVE-OPERATOR-EXECUTIVE-CAPTURE-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-NAIVE-VIEWER-SCOREBOARD-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-NAIVE-VIEWER-SESSION-IMPORT-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-NAIVE-VIEWER-TEST-PACKET-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-OMNIVERSE-KIT-DEPTH-PATCH-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-ONE-TRUTH-REGRESSION-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-POST-HANDOFF-FOLLOWTHROUGH-CERTIFIED-STATE-HANDOFF_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-POST-HANDOFF-FOLLOWTHROUGH-FINAL-PACKAGE-REVIEW_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-POST-HANDOFF-FOLLOWTHROUGH-INTEGRATION-READINESS-REVIEW_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/MAIN-CITYBRAIN-D8-WEB-COMPANION-DEPTH-PATCH-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_external_capture_followthrough/citybrain_d8_post_handoff_external_capture_frontend_followthrough/SEQUENCE.json` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/00_SHARED_CONTEXT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/ADDENDUM_R2_LIVE_LAUNCH_EVIDENCE_AND_BASELINE_FREEZE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/CHECKLIST.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/ENTRY_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-KIT-CONTROL-ROOM-EXTENSION-SOURCE-PROMOTION-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-LOCAL-BRIDGE-AND-ONE-TRUTH-SYNC-R3_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-MOBILITY-ACCESS-LIVE-SURFACE-WIRING-R4_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-RUNTIME-BUNDLE-CONTRACT-R1_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-WEB-CONTROL-ROOM-SOURCE-PROMOTION-R2_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-WEB-KIT-CAPTURE-READINESS-R6_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-WEB-KIT-LIVE-SURFACE-CLOSEOUT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-WEB-KIT-LIVE-SURFACE-MILESTONE-FREEZE_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-WEB-KIT-LIVE-SURFACE-PREFLIGHT_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/MAIN-CITYBRAIN-D8-WEB-KIT-STATE-DRIFT-AND-GUARDRAIL-SMOKE-R5_PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_d8_live_surface_r2/citybrain_d8_web_kit_live_surface_implementation_r2_live_evidence_hardened/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/HASH_MANIFEST.txt` ? top-level handoff/export directory outside include roots
+- `_handoff_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/NEXT_TASK_CHAIN.md` ? top-level handoff/export directory outside include roots
+- `_handoff_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/PACKAGE.md` ? top-level handoff/export directory outside include roots
+- `_handoff_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/PROMPT.md` ? top-level handoff/export directory outside include roots
+- `_handoff_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/README.md` ? top-level handoff/export directory outside include roots
+- `_handoff_r5_real_scene_object_event_review_loop/citybrain_omniverse_webrtc_r5_real_scene_object_event_review_loop_handoff/SPEC.md` ? top-level handoff/export directory outside include roots
+- `text 1.txt` ? private/local note pattern
+- `text 3.txt` ? private/local note pattern
+- `text 4.txt` ? private/local note pattern
+- `text 5.txt` ? private/local note pattern
+- `text 6.txt` ? private/local note pattern
+- `text2.txt` ? private/local note pattern

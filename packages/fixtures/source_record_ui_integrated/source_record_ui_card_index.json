@@ -1,0 +1,344 @@
+{
+  "card_count": 48,
+  "cards": [
+    {
+      "card_id": "london-mobility-card-001",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Upper Richmond Road west of Coval Rd"
+    },
+    {
+      "card_id": "london-mobility-card-002",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Claps Gate Lane Retail park"
+    },
+    {
+      "card_id": "london-mobility-card-003",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "1 Christchurch Avenue, Kilburn Station, NW6 7QP "
+    },
+    {
+      "card_id": "london-mobility-card-004",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "South Woodford Station Car Park"
+    },
+    {
+      "card_id": "london-mobility-card-005",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Old Dover Road west of Dornberg Close - car park"
+    },
+    {
+      "card_id": "london-mobility-card-006",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Crouch Hall Rd opp Bryanstone Road"
+    },
+    {
+      "card_id": "london-mobility-card-007",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Scrubbs Lane - Wood Lane Car Park"
+    },
+    {
+      "card_id": "london-mobility-card-008",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "A205 Upper Richmond Road West east of Carlton Road. "
+    },
+    {
+      "card_id": "london-mobility-card-009",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Lancaster Gate"
+    },
+    {
+      "card_id": "london-mobility-card-010",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "situation_city_records",
+      "title": "Warwick Avenue by Clifton Villas"
+    },
+    {
+      "card_id": "chicago-similar-case-card-001",
+      "default_visible": true,
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "section": "similar_case_city_records",
+      "title": "Violations case at 6934 S DANTE AVE"
+    },
+    {
+      "card_id": "chicago-similar-case-card-002",
+      "default_visible": true,
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "section": "similar_case_city_records",
+      "title": "Violations case at 516 N LECLAIRE AVE"
+    },
+    {
+      "card_id": "chicago-similar-case-card-003",
+      "default_visible": true,
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "section": "similar_case_city_records",
+      "title": "Violations case at 162 E ONTARIO ST"
+    },
+    {
+      "card_id": "chicago-similar-case-card-004",
+      "default_visible": true,
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "section": "similar_case_city_records",
+      "title": "Violations case at 7547 S ESSEX AVE"
+    },
+    {
+      "card_id": "chicago-similar-case-card-005",
+      "default_visible": true,
+      "record_class": "OFFICIAL_CITY_SOURCE_RECORD",
+      "section": "similar_case_city_records",
+      "title": "Violations case at 4700 S LAKE PARK AVE"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-001",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Tehtaankatu 1b"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-002",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Vuorimiehenkatu 7"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-003",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Vuorimiehenkatu 19"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-004",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Laivasillankatu 14"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-005",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Ullankatu 3"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-006",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Muukalaiskatu 1"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-007",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Katajanokanlaituri 6"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-008",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Kasarmikatu 13"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-009",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Ullankatu 1"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-010",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Ullankatu 1"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-011",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "T\u00e4htitorninkatu 14"
+    },
+    {
+      "card_id": "helsinki-visual-entity-card-012",
+      "default_visible": true,
+      "record_class": "SOURCE_DERIVED_CITY_RECORD",
+      "section": "visual_entity_city_records",
+      "title": "Kanavakatu 4"
+    },
+    {
+      "card_id": "local-demo-media-observation-record-001",
+      "default_visible": true,
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "section": "media_observation_source_records",
+      "title": "Person presence from local demo media"
+    },
+    {
+      "card_id": "local-demo-media-observation-record-002",
+      "default_visible": true,
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "section": "media_observation_source_records",
+      "title": "Ppe from local demo media"
+    },
+    {
+      "card_id": "local-demo-media-observation-record-003",
+      "default_visible": true,
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "section": "media_observation_source_records",
+      "title": "Restricted zone entry from local demo media"
+    },
+    {
+      "card_id": "local-demo-media-observation-record-004",
+      "default_visible": true,
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "section": "media_observation_source_records",
+      "title": "Equipment proximity from local demo media"
+    },
+    {
+      "card_id": "local-demo-media-observation-record-005",
+      "default_visible": true,
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "section": "media_observation_source_records",
+      "title": "After hours activity from local demo media"
+    },
+    {
+      "card_id": "local-demo-media-observation-record-006",
+      "default_visible": true,
+      "record_class": "LOCAL_DEMO_MEDIA_OBSERVATION_RECORD",
+      "section": "media_observation_source_records",
+      "title": "Camera health from local demo media"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-001",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Auto approval request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-002",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Auto execute request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-003",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Dispatch request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-004",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Routing or control request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-005",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Enforcement or legal/certified conclusion request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-006",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Lifecycle write outside human review lane request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-007",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Post-promotion ownership request blocked"
+    },
+    {
+      "card_id": "guardrail-refusal-review-record-008",
+      "default_visible": true,
+      "record_class": "GOVERNANCE_REVIEW_LOG_RECORD",
+      "section": "guardrail_refusal_review_records",
+      "title": "Stale scenario reference request blocked"
+    },
+    {
+      "card_id": "human-review-stop-record-001",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Keep the baseline under human review stops at human review"
+    },
+    {
+      "card_id": "human-review-stop-record-002",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Review a reroute idea stops at human review"
+    },
+    {
+      "card_id": "human-review-stop-record-003",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Review kerbside access support stops at human review"
+    },
+    {
+      "card_id": "human-review-stop-record-004",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Review a public-information draft stops at human review"
+    },
+    {
+      "card_id": "human-review-stop-record-005",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Abstain and ask a human operator stops at human review"
+    },
+    {
+      "card_id": "human-review-stop-record-006",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Keep the baseline under human review stops at human review"
+    },
+    {
+      "card_id": "human-review-stop-record-007",
+      "default_visible": true,
+      "record_class": "HUMAN_REVIEW_STOP_RECORD",
+      "section": "human_review_stop_source_records",
+      "title": "Abstain and ask a human operator stops at human review"
+    }
+  ],
+  "schema_version": "citybrain-source-record-ui-card-index-r2",
+  "status": "PASS",
+  "timestamp": "2026-07-01T21:56:27.659160+00:00"
+}

@@ -1,33 +1,39 @@
 # CityBrain Workspace Chronology and Lineage
 
 Generated: 2026-06-30
+Updated: 2026-07-01
 Workspace: `C:\Users\hazem\Documents\CityBrain`
 
 ## Executive read
 
-This workspace has no usable Git history yet: the repository is initialized on `master`, but there are no commits and almost everything is untracked. The lineage is therefore encoded in filesystem timestamps, additive runner/output pairs, handover packs, manifests, and decision JSON files.
+This workspace now has a small Git baseline on `master`, ending at `1b3a881 Add Hero USD twin HITL demo R2 milestone freeze runner`. The deeper lineage is still encoded mainly in filesystem timestamps, additive runner/output pairs, handover packs, manifests, and decision JSON files, because generated output roots and large data are intentionally not committed.
 
-The project evolved from RTX/CityBrain vision documents into a governed city digital-twin platform with data landing, schema, graph, query/narration, web face/map surfaces, multi-city FlowPacks, Platform v1 review-only gates, Track 1 runtime gates, D4 operator/product/3D work, and finally D4Y orchestration/runtime/contract hardening.
+The project evolved from RTX/CityBrain vision documents into a governed city digital-twin platform with data landing, schema, graph, query/narration, web face/map surfaces, multi-city FlowPacks, Platform v1 review-only gates, Track 1 runtime gates, D4 operator/product/3D work, D4Y orchestration/runtime/contract hardening, and now D6 bounded local/replay product lanes.
 
 The latest observed workspace tip is:
 
 ```text
-outputs/main_track1_d4y_r4_cer_seg_shared_contracts_smoke
-PASS_MAIN_TRACK1_D4Y_R4_CER_SEG_SHARED_CONTRACTS_SMOKE_WITH_LIMITATIONS
-timestamp: 2026-06-29T23:26:57+00:00
-local file time: 2026-06-30 00:26:57
-next main Track 1 task: MAIN-TRACK1-D4Y-R4-DOMAIN-PACK-RUNTIME-SLICE
-parked D5 task: PARKED-MAIN-TRACK1-D5-PRODUCTION-BOUNDARY-AND-SECURITY-PREFLIGHT
+outputs/main_citybrain_d6_r2_certified_state_and_handover_refresh
+PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS
+root file time: 2026-07-01 08:55:29
+required upstreams: 6/6 found
+optional upstreams: 15/15 found
+closed tracks: 20
+deferred tracks: 11
+ready next tracks: 5
+stale recommendation detection: PASS
+blocking gaps: 0
+recommended next: MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT
 ```
 
-Important nuance: `CITYBRAIN_FULL_PROJECT_HANDOVER_CONSOLIDATED_2026-06-29_v2.md` is a real handover milestone, but it is not the final workspace state. It records the project after Track 1 D2 closeout / Track 2 R5, while later files on 2026-06-29 and 2026-06-30 show D3, D4, D4X, D4Y, and Track2B/Track2C work continuing.
+Important nuance: `CITYBRAIN_FULL_PROJECT_HANDOVER_CONSOLIDATED_2026-06-29_v2`, the integrated D4X/D5/Track2A handover, Hero/CERSEG readiness review, Demo R1, Demo R2, and R2 closeout/freeze are real milestones, but none is the final workspace state. Later files on 2026-07-01 show collateral R2, final package review, and the R2 certified-state/handover refresh.
 
 ## Workspace evidence base
 
-- Git: initialized, no commits; `git status` reports `No commits yet on master`.
+- Git: `master` has 11 commits; latest is `1b3a881 Add Hero USD twin HITL demo R2 milestone freeze runner`.
 - Top-level scale:
-  - `outputs`: 96,369 files, about 24.1 GB, latest 2026-06-30 00:24-00:26.
-  - `scripts`: 381 runner/helper scripts, latest 2026-06-30 00:24.
+  - `outputs`: 99,596 files, about 23.76 GB, latest archive file 2026-07-01 08:57; latest output root observed is 2026-07-01 08:55.
+  - `scripts`: 532 runner/helper/cache files, latest source runner 2026-07-01 08:55.
   - `data_landing`: 3,969 files, about 62.8 GB, latest 2026-06-28.
   - `citybrain_data_harvest_pack`: 3,951 files, about 29.0 GB.
   - `data`: 857 files, about 3.45 GB.
@@ -148,22 +154,43 @@ After the handover, work continues heavily:
 
 The lineage has now shifted from "prove data/graph/query" to "harden a bounded runtime and product/operator experience while preserving review-only boundaries."
 
-### 2026-06-30 00:25-00:26 local: current tip
+### 2026-06-30: D4Y/R7 through D6 local product lanes
 
-Two latest gates define the observed tip:
+The day started with D4Y runtime hardening and CER/SEG shared-contract smoke, then moved much further:
 
-1. `outputs/main_track1_d4y_r4_live_runtime_hardening`
-   - Status: `PASS_MAIN_TRACK1_D4Y_R4_LIVE_RUNTIME_HARDENING_WITH_LIMITATIONS`
-   - Mode: local runtime hardening only.
-   - Explicit non-claims: no production runtime, no public API, no live agents, no external LLM, no app integration, no domain-pack runtime, no production CER/SEG, no command/control/enforcement/routing.
-   - Recommended next Track 1 task at that point: `MAIN-TRACK1-D4Y-R4-CER-SEG-SHARED-CONTRACTS-SMOKE`.
+- R5/R6 domain and incident/event proofs closed, including first-two-domain proof and incident-event mode.
+- Track2A/Track2B/Track2C advanced Omniverse/product bridge work: city asset contracts, city episode packs, viewport/camera bridge, object picking, USD-to-CER bridge, Kit selection, asset binding, Kit/Composer handoff, and event overlay integration.
+- D6 control-room work moved from preflight into reference demo R1, R2 polish, R7 relationship overlay integration, event-context overlay integration R4, and closeout refresh R2.
+- R7/R8 relationship work advanced from source-diverse edge seed R2 to runtime preflight/slice and R8 hardening. R7 R2 accepted 28 new grounded edges across 7 source families with max source-family share 0.1429; R8 hardened 133 review-context edges.
+- Domain packs expanded through mobility, building compliance, property planning, and city asset identity. City Asset Identity R7 closeout accepted 20 grounded review-context edges.
+- D5/D6 local-running work closed the local served runtime -> event fabric -> Track2 handoff -> running control-room slice path.
+- Incident Mode closed a local/replay lane through evidence bundle R1, operator review R2, runtime smoke R3, closeout, and Track2A operator-surface handoff R4.
+- Hero Neighbourhood closed a scene-pack lane: twin preflight, asset binding R1, event overlay R2, Kit/Composer handoff R3, and scene-pack closeout.
+- CER/SEG v2 closed a contract/generalization lane: cross-city preflight, canonical entity contract R1, relationship ontology R2, confidence/review-state contract R3, runtime bridge smoke R4, and cross-city v2 closeout.
+- Hero Neighbourhood control-room reference demo R1 then turned the readiness-reviewed lane into a green operator-facing artifact package: 45 manifest rows, 8 Hero bindings, 8 Hero overlays, 6 operator-surface packets, 6 web companion packets, 21 unresolved/quarantined preserved refs, 0 blocking gaps, and 3 non-blocking gaps.
+- Demo R1 closeout and milestone freeze preserved that package as a bounded local/replay milestone.
+- Track D closed and froze HITL reviewed action as a proposal-only governance spine: human review states, guardrail smoke, audit trail, and inert execution adapter stub only.
+- Track A closed and froze the real USD twin proof: local/replay footprint-like USDA, graph-to-USD status overlay, replay route animation, and no certified geometry or production Omniverse claim.
+- Track P closed the product packaging/persona/collateral lane with 25 collateral artifacts, 4 personas, claim labels, capture readiness, and packaging-only boundaries.
+- Hero USD Twin + HITL integration readiness proved Track A and Track D could align without crossing boundaries, then R2 composed the USD twin, HITL reviewed-action, persona, route animation, operator surface, and web companion context into a green demo package. R2 closeout audited that package, milestone freeze froze it, Collateral R2 packaged it for review, final package review reconciled the outward package, and certified-state/handover refresh consolidated the decision ledger.
 
-2. `outputs/main_track1_d4y_r4_cer_seg_shared_contracts_smoke`
-   - Status: `PASS_MAIN_TRACK1_D4Y_R4_CER_SEG_SHARED_CONTRACTS_SMOKE_WITH_LIMITATIONS`
-   - Purpose: contract-level smoke/alignment for CER/SEG shared contracts.
-   - Explicit non-claims: no production CER, no production SEG, no graph database runtime, no traversal service, no domain-pack runtime, no app integration, no public API, no live agents, no external LLM.
-   - No mutation: watched prior D4/D4Y/Track2 roots unchanged.
-   - Recommended next main Track 1 task: `MAIN-TRACK1-D4Y-R4-DOMAIN-PACK-RUNTIME-SLICE`.
+The observed tip is now:
+
+```text
+MAIN-CITYBRAIN-D6-R2-CERTIFIED-STATE-AND-HANDOVER-REFRESH
+PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS
+required upstreams: 6/6
+optional upstreams: 15/15
+closed tracks: 20
+deferred tracks: 11
+ready next tracks: 5
+stale recommendation detection: PASS
+blocking gaps: 0
+non-blocking gaps: 3
+next recommended task: MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT
+```
+
+The lineage has now shifted from "components exist and can interoperate" to "bounded product lanes can be composed into an operator-facing local/replay control-room story" and, for Hero Neighbourhood, into a frozen and packaged R2 state. The certified-state refresh now makes the next decision explicit: define the reviewed option-set contract before runtime expansion.
 
 ## Lineage map
 
@@ -186,6 +213,24 @@ RTX / CityBrain vision
   -> D4 product/operator/3D/control-room layer
   -> D4X app/demo/episode/viewport work
   -> D4Y orchestration, insight, runtime, CER/SEG contract hardening
+  -> R7/R8 source-diverse relationship registry and runtime slices
+  -> D5/D6 local-running control-room slice
+  -> D6 Incident Mode
+  -> Track2A D5 Hero Neighbourhood scene pack
+  -> D6 CER/SEG cross-city v2 contract/generalization lane
+  -> Hero Neighbourhood + CER/SEG v2 integration-readiness review
+  -> Hero Neighbourhood control-room reference demo R1
+  -> Demo R1 closeout and freeze
+  -> Track D HITL reviewed-action governance spine
+  -> Track A real USD twin spatial proof
+  -> Track P product packaging/persona/collateral
+  -> Hero USD Twin + HITL integration-readiness review
+  -> Hero USD Twin HITL control-room demo R2
+  -> Hero USD Twin HITL control-room demo closeout R2
+  -> Hero USD Twin HITL control-room demo milestone freeze R2
+  -> Collateral R2 after Track A and Track D
+  -> Hero USD Twin HITL final package review
+  -> R2 certified-state and handover refresh
 ```
 
 ## Artifact families
@@ -218,25 +263,72 @@ The data layer includes local and landed sources for NYC, London, Chicago, Barce
 Continue from:
 
 ```text
-MAIN-TRACK1-D4Y-R4-CER-SEG-SHARED-CONTRACTS-SMOKE
-PASS_MAIN_TRACK1_D4Y_R4_CER_SEG_SHARED_CONTRACTS_SMOKE_WITH_LIMITATIONS
+MAIN-CITYBRAIN-D6-R2-CERTIFIED-STATE-AND-HANDOVER-REFRESH
+PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS
 ```
 
-Recommended next main Track 1 task from the latest decision:
+Recommended next task from the latest decision:
 
 ```text
-MAIN-TRACK1-D4Y-R4-DOMAIN-PACK-RUNTIME-SLICE
+MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT
 ```
 
-Parallel recommendations from the same latest decision:
+Important current lane states:
 
 ```text
-Track2A: D4-3D-CITY-ASSET-CONTRACT-R1 if not already closed; otherwise D4-3D-SECOND-CITY-PILOT-NYC-R1
-Track2B: MAIN-TRACK2B-D4X-CITY-EPISODE-PACK-R1 if not already closed
-Track2C: MAIN-TRACK2C-D4X-CITY-FIRST-EPISODE-APP-REBUILD-R1 after Track 2B episode pack passes
+R2 certified state and handover refresh:
+PASS_MAIN_CITYBRAIN_D6_R2_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS
+
+Hero USD Twin HITL final package review:
+PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_FINAL_PACKAGE_REVIEW_WITH_LIMITATIONS
+
+Collateral R2:
+PASS_COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_WITH_LIMITATIONS
+
+Hero USD Twin HITL milestone freeze R2:
+PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_MILESTONE_FREEZE_R2_WITH_LIMITATIONS
+
+Hero USD Twin HITL demo closeout R2:
+PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_CLOSEOUT_R2_WITH_LIMITATIONS
+
+Hero USD Twin HITL demo R2:
+PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_HITL_CONTROL_ROOM_DEMO_R2_WITH_LIMITATIONS
+
+Hero USD Twin + HITL integration readiness:
+PASS_MAIN_CITYBRAIN_D6_HERO_USD_TWIN_AND_HITL_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS
+
+Track A real USD twin:
+PASS_MAIN_TRACK2A_D6_HERO_NEIGHBOURHOOD_REAL_USD_TWIN_MILESTONE_FREEZE_WITH_LIMITATIONS
+
+Track D HITL reviewed action:
+PASS_MAIN_CITYBRAIN_D6_HITL_REVIEWED_ACTION_MILESTONE_FREEZE_WITH_LIMITATIONS
+
+Track P product packaging:
+PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_PRODUCT_PACKAGING_CLOSEOUT_WITH_LIMITATIONS
+
+Hero Neighbourhood control-room demo:
+PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_CONTROL_ROOM_REFERENCE_DEMO_R1_WITH_LIMITATIONS
+
+Hero/CERSEG integration readiness:
+PASS_MAIN_CITYBRAIN_D6_HERO_NEIGHBOURHOOD_AND_CERSEG_V2_INTEGRATION_READINESS_REVIEW_WITH_LIMITATIONS
+
+Hero scene pack:
+PASS_MAIN_TRACK2A_D5_HERO_NEIGHBOURHOOD_SCENE_PACK_CLOSEOUT_WITH_LIMITATIONS
+
+CER/SEG v2:
+PASS_MAIN_CITYBRAIN_D6_CER_SEG_CROSS_CITY_V2_CLOSEOUT_WITH_LIMITATIONS
+
+Incident Mode Track2A handoff:
+PASS_MAIN_CITYBRAIN_D6_INCIDENT_MODE_TRACK2A_OPERATOR_SURFACE_HANDOFF_R4_WITH_LIMITATIONS
+
+D5/D6 local-running slice:
+PASS_MAIN_CITYBRAIN_D6_D5_LOCAL_RUNNING_SLICE_CLOSEOUT_WITH_LIMITATIONS
+
+R8 relationship hardening:
+PASS_MAIN_CITYBRAIN_D4X_R8_MULTI_DOMAIN_EDGE_REGISTRY_HARDENING_WITH_LIMITATIONS
 ```
 
-But some of those parallel recommendations are already partly or fully represented by later timestamped output roots, so any next run should first inspect the exact latest decision files for the relevant branch.
+The R2 certified-state refresh reported 6/6 required upstreams found, 15/15 optional upstreams found, 20 closed tracks, 11 deferred tracks, 5 ready next tracks, JSON parse pass, frozen-facts reconciliation pass, stale recommendation detection pass, 0 blocking gaps, 3 non-blocking gaps, and no production/public/API/live-monitoring/autonomous/dispatch/control/enforcement/legal/certified/citywide-twin/physical-accuracy/automated-action claim.
 
 ## Claim boundaries that survived the lineage
 
@@ -248,8 +340,8 @@ Across the project, the durable boundary is:
 - no dispatch, enforcement, routing/control, public-safety command, legal finding, health determination, certified impact, or autonomous monitoring.
 - LLM/NIM narration is bounded by deterministic evidence and grounding gates.
 
-That boundary is not decoration; it is the main invariant connecting early architecture docs, PV1, Track 1 D2/D3/D4, D4Y, and the latest CER/SEG shared-contract smoke.
+That boundary is not decoration; it is the main invariant connecting early architecture docs, PV1, Track 1 D2/D3/D4, D4Y, R7/R8, D5/D6 local-running, Incident Mode, Hero Neighbourhood, CER/SEG v2, HITL reviewed action, real USD twin proof, product packaging, final package review, and the latest R2 certified-state/handover refresh.
 
 ## Practical note
 
-Because Git has no commits, preserving lineage now means committing a baseline or at least snapshotting the control docs, scripts, and decision artifacts. Until then, file timestamps and additive output roots are the only historical record.
+Git now preserves a small script/document baseline through `1b3a881`, but generated outputs and large data remain intentionally out of Git. Preserving lineage still depends on the additive output roots, decision JSONs, hash manifests, no-mutation audits, and chronology documents.

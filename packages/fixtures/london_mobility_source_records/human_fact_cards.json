@@ -1,0 +1,324 @@
+{
+  "cards": [
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-001",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Richmond",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:2",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.464253",
+        "longitude": "-0.273817",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Public use"
+      },
+      "external_record_id": "2",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Upper Richmond Road west of Coval Rd is listed as a London rapid EV charging site in Richmond.",
+      "title": "Upper Richmond Road west of Coval Rd",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-002",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Newham",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:12",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.523421",
+        "longitude": "0.068574",
+        "numberrcpoints": "2",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Public use"
+      },
+      "external_record_id": "12",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Claps Gate Lane Retail park is listed as a London rapid EV charging site in Newham.",
+      "title": "Claps Gate Lane Retail park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-003",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Brent",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:63",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.546586",
+        "longitude": "-0.204599",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Taxi"
+      },
+      "external_record_id": "63",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "1 Christchurch Avenue, Kilburn Station, NW6 7QP  is listed as a London rapid EV charging site in Brent.",
+      "title": "1 Christchurch Avenue, Kilburn Station, NW6 7QP ",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-004",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Redbridge",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:558",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.591184",
+        "longitude": "0.027028",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Taxi"
+      },
+      "external_record_id": "558",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "South Woodford Station Car Park is listed as a London rapid EV charging site in Redbridge.",
+      "title": "South Woodford Station Car Park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-005",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Greenwich",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:74",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.476538",
+        "longitude": "0.022182",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Public use"
+      },
+      "external_record_id": "74",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Old Dover Road west of Dornberg Close - car park is listed as a London rapid EV charging site in Greenwich.",
+      "title": "Old Dover Road west of Dornberg Close - car park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-006",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Haringey",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:78",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.579178",
+        "longitude": "-0.125007",
+        "numberrcpoints": "2",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Public use"
+      },
+      "external_record_id": "78",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Crouch Hall Rd opp Bryanstone Road is listed as a London rapid EV charging site in Haringey.",
+      "title": "Crouch Hall Rd opp Bryanstone Road",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-007",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Hammersmith & Fulham",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:87",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.519975",
+        "longitude": "-0.228609",
+        "numberrcpoints": "3",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Public use"
+      },
+      "external_record_id": "87",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Scrubbs Lane - Wood Lane Car Park is listed as a London rapid EV charging site in Hammersmith & Fulham.",
+      "title": "Scrubbs Lane - Wood Lane Car Park",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-008",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Richmond",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:129",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.464093",
+        "longitude": "-0.270037",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Public use"
+      },
+      "external_record_id": "129",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "A205 Upper Richmond Road West east of Carlton Road.  is listed as a London rapid EV charging site in Richmond.",
+      "title": "A205 Upper Richmond Road West east of Carlton Road. ",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-009",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Westminster",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:169",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.511661",
+        "longitude": "-0.180296",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Taxi"
+      },
+      "external_record_id": "169",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Lancaster Gate is listed as a London rapid EV charging site in Westminster.",
+      "title": "Lancaster Gate",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    },
+    {
+      "card_classification": "SOURCE_DERIVED_CITY_RECORD",
+      "card_id": "london-mobility-card-010",
+      "card_type": "mobility_access_source_context",
+      "city": "London",
+      "evidence_fields": {
+        "borough": "Westminster",
+        "canonical_id": "infrastructure_context_asset:uk-london:ev_charging_site:174",
+        "dataset_page": "https://data.london.gov.uk/dataset/electric-vehicle-charging-site-2lzpg",
+        "geometry_status": "official_source_geometry",
+        "latitude": "51.523033",
+        "longitude": "-0.183562",
+        "numberrcpoints": "1",
+        "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+        "taxipublicuses": "Taxi"
+      },
+      "external_record_id": "174",
+      "license_or_attribution": "Attribution: London Datastore / TfL rapid charging source URL retained; verify dataset-page terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Rapid charging points only; does not prove complete EV infrastructure, live availability, grid capacity, road disruption, or accessibility outcome.",
+        "Record time is the source runtime field where present, not a live timestamp."
+      ],
+      "recommended_panel": "Situation / Mobility source context",
+      "source_dataset": "London Datastore Electric Vehicle Charging Site",
+      "source_url": "https://data.london.gov.uk/download/2lzpg/8ef9c743-c01d-4329-8239-8f858ff4de53/Rapid_charging_points.gpkg",
+      "summary": "Warwick Avenue by Clifton Villas is listed as a London rapid EV charging site in Westminster.",
+      "title": "Warwick Avenue by Clifton Villas",
+      "why_it_matters": "Provides source-backed access infrastructure context for a Mobility Access corridor story; it is not live availability or an incident."
+    }
+  ]
+}

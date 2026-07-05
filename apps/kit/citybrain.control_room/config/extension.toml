@@ -1,0 +1,14 @@
+[package]
+version = "0.1.0"
+title = "CityBrain Mobility Access Control Room"
+description = "Review-only native Kit source package for the D8 Mobility Access corridor."
+category = "CityBrain"
+
+[dependencies]
+"omni.ui" = {}
+"omni.usd" = { optional = true }
+"omni.kit.viewport.utility" = { optional = true }
+"omni.kit.livestream.messaging" = { optional = true }
+
+[[python.module]]
+name = "citybrain.control_room"

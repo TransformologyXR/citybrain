@@ -1,0 +1,155 @@
+{
+  "authoritative_counts": {
+    "candidate_option_count": 7,
+    "d7_candidate_observation_count": 6,
+    "demonstrable_moment_count": 10,
+    "documented_partial_count": 2,
+    "eligible_track_d_packet_count": 3,
+    "moment_count": 12,
+    "operator_trace_stage_count": 9,
+    "reviewed_option_set_count": 3,
+    "similar_case_count": 4
+  },
+  "authority": "one_truth_index",
+  "bundle_file_index": [
+    {
+      "bytes": 3041,
+      "file": "claim_labels.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/claim_labels.json",
+      "sha256": "b0caa7fd702d194a8bd755b073b01cbd716ce2665b19063c900392eb18b3e8e2"
+    },
+    {
+      "bytes": 3174,
+      "file": "evidence_bundle.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/evidence_bundle.json",
+      "sha256": "0867ff4ecded5e98f61c26658525d13dc787f7da3362757229ff521923bcbcab"
+    },
+    {
+      "bytes": 4814,
+      "file": "kit_overlay_packets.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/kit_overlay_packets.json",
+      "sha256": "97731c8547b5025cbd61f7debb4cb8dfc97d1a3bc00f478082e0fab92b00951f"
+    },
+    {
+      "bytes": 3803,
+      "file": "limitations.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/limitations.json",
+      "sha256": "a3f3cd9970bab34e18ce5681d6e083a735dd73cf8bd30de3511ef41dba74aaa0"
+    },
+    {
+      "bytes": 8273,
+      "file": "moment_scoreboard.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/moment_scoreboard.json",
+      "sha256": "6fb2714706afc4c2dde55da55868c951966f91b173ee232c9905bd83ec48311f"
+    },
+    {
+      "bytes": 16657,
+      "file": "option_sets.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/option_sets.json",
+      "sha256": "42aa48af49ec1b473795785bdbd7bbc8ad99bd563ab0d97eb7a7985d65b9f18c"
+    },
+    {
+      "bytes": 2742,
+      "file": "review_state.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/review_state.json",
+      "sha256": "598c6eb14e81278de90a3830c368ec5218e8ff8a97db09bf9bb7da77893d7645"
+    },
+    {
+      "bytes": 3172,
+      "file": "scenario_state.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/scenario_state.json",
+      "sha256": "880c0491ac913e6081b5038a68590f914afd8794c11e61fad298e5e1027c36fe"
+    },
+    {
+      "bytes": 4263,
+      "file": "trace.jsonl",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/trace.jsonl",
+      "sha256": "e4a8c40618e26dcd662042b65efc8ae8378d31567dfddc007cc721e6e4b8b3c3"
+    },
+    {
+      "bytes": 13165,
+      "file": "track_d_packets.json",
+      "path": "packages/fixtures/mobility_access/runtime_bundle/track_d_packets.json",
+      "sha256": "0747269c0c455ae9b0a49a37106a489a9690af8964080251721760810a7d31f7"
+    }
+  ],
+  "certified_tip_ref": "main_citybrain_d8_demonstrability_certified_state_handoff",
+  "claim_labels": [
+    "one truth authority",
+    "review only",
+    "not_executed"
+  ],
+  "execution_state": "not_executed",
+  "hero_spine": "Mobility Access corridor",
+  "review_state_ref": "review_state:mobility-access:not_executed",
+  "scenario_state_ref": "scenario_state:mobility-access-corridor:hero-lon-corridor",
+  "schema_version": "citybrain-one-truth-index-r1",
+  "self_sha256": "33fee30965445fcc22c1a9f95553e3f0f4f2cc7b0de5f4dc5ccac561d68407eb",
+  "source_root_refs": [
+    {
+      "key": "d8_handoff",
+      "role": "latest green D8 Mobility-reanchored handoff",
+      "root": "outputs/main_citybrain_d8_demonstrability_certified_state_handoff"
+    },
+    {
+      "key": "d8_scoreboard",
+      "role": "D8 moment scoreboard",
+      "root": "outputs/main_citybrain_d8_intelligence_moment_loop_and_scoreboard_r1"
+    },
+    {
+      "key": "mobility_access_handoff",
+      "role": "Mobility Access certified-state handoff",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_certified_state_and_handover_refresh"
+    },
+    {
+      "key": "mobility_access_domain_pack",
+      "role": "Mobility Access domain pack",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_r1"
+    },
+    {
+      "key": "mobility_access_option_attachments",
+      "role": "Mobility Access option-set attachments",
+      "root": "outputs/main_citybrain_d6_mobility_access_option_set_attachment_r2"
+    },
+    {
+      "key": "track_d_mobility_readiness",
+      "role": "Track D Mobility Access promotion readiness",
+      "root": "outputs/main_citybrain_d6_track_d_mobility_access_promotion_readiness_closeout"
+    },
+    {
+      "key": "track_d_panel",
+      "role": "Track D panel packet source",
+      "root": "outputs/main_citybrain_d6_track_d_promotion_panel_r1"
+    },
+    {
+      "key": "operator_trace_freeze",
+      "role": "governed 9-stage operator trace panel",
+      "root": "outputs/main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_milestone_freeze"
+    },
+    {
+      "key": "d7_candidate_observation_freeze",
+      "role": "D7 candidate observations",
+      "root": "outputs/main_citybrain_d7_perception_candidate_observation_milestone_freeze"
+    },
+    {
+      "key": "similar_case_freeze",
+      "role": "cross-city similar-case expansion",
+      "root": "outputs/main_citybrain_d6_cross_city_similar_case_expansion_milestone_freeze"
+    },
+    {
+      "key": "cascade_freeze",
+      "role": "cross-domain cascade freeze",
+      "root": "outputs/main_citybrain_d6_cross_domain_cascade_milestone_freeze"
+    },
+    {
+      "key": "demo_capture_pack",
+      "role": "decision-support capture pack facts",
+      "root": "outputs/main_citybrain_d6_decision_support_demo_capture_pack_r1"
+    }
+  ],
+  "surface_projection_refs": {
+    "bridge": "packages/fixtures/mobility_access/bridge",
+    "kit": "apps/kit/citybrain.control_room",
+    "web": "apps/web-control-room"
+  }
+}

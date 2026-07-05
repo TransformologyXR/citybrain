@@ -1,0 +1,203 @@
+{
+  "limitations": [
+    "Source rows are bounded samples, not complete city coverage.",
+    "Cards are review/demo source records only, not operational instructions.",
+    "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+    "Similar cases are context only and not operational recommendations."
+  ],
+  "schema_version": "citybrain-chicago-similar-case-source-bundle-r3",
+  "similar_case_count": 5,
+  "similar_cases": [
+    {
+      "address_or_area": "6934 S DANTE AVE",
+      "case_title": "Violations case at 6934 S DANTE AVE",
+      "city": "Chicago",
+      "classification": "OFFICIAL_CITY_SOURCE_RECORD",
+      "evidence_fields": {
+        "category_or_type": "CN135016",
+        "evidence_completeness": "high",
+        "issue_event_type": "rodent",
+        "location_fields": {
+          "address": "6934 S DANTE AVE",
+          "latitude": "41.7686424302",
+          "longitude": "-87.5896616655"
+        },
+        "source_record_id": "7511042"
+      },
+      "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_an_instruction": true,
+      "outcome_or_known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+      "record_time": "2026-06-30T00:00:00.000",
+      "similar_case_id": "chi:r2:case:001",
+      "source_dataset": "Chicago Building Violations",
+      "source_family": "violations",
+      "source_record_ids": [
+        "7511042"
+      ],
+      "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+      "what_happened": "CN135016 recorded with issue type rodent.",
+      "what_was_reviewed": "Source row fields, location/time anchors, issue category, and bounded rule-based match metadata.",
+      "why_it_matches_mobility_access": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "address_or_area": "516 N LECLAIRE AVE",
+      "case_title": "Violations case at 516 N LECLAIRE AVE",
+      "city": "Chicago",
+      "classification": "OFFICIAL_CITY_SOURCE_RECORD",
+      "evidence_fields": {
+        "category_or_type": "CN104035",
+        "evidence_completeness": "high",
+        "issue_event_type": "building_condition",
+        "location_fields": {
+          "address": "516 N LECLAIRE AVE",
+          "latitude": "41.8898750286",
+          "longitude": "-87.7531153624"
+        },
+        "source_record_id": "7510501"
+      },
+      "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_an_instruction": true,
+      "outcome_or_known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+      "record_time": "2026-06-30T00:00:00.000",
+      "similar_case_id": "chi:r2:case:002",
+      "source_dataset": "Chicago Building Violations",
+      "source_family": "violations",
+      "source_record_ids": [
+        "7510501"
+      ],
+      "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+      "what_happened": "CN104035 recorded with issue type building_condition.",
+      "what_was_reviewed": "Source row fields, location/time anchors, issue category, and bounded rule-based match metadata.",
+      "why_it_matches_mobility_access": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "address_or_area": "162 E ONTARIO ST",
+      "case_title": "Violations case at 162 E ONTARIO ST",
+      "city": "Chicago",
+      "classification": "OFFICIAL_CITY_SOURCE_RECORD",
+      "evidence_fields": {
+        "category_or_type": "BR3058",
+        "evidence_completeness": "high",
+        "issue_event_type": "other",
+        "location_fields": {
+          "address": "162 E ONTARIO ST",
+          "latitude": "41.8934694676",
+          "longitude": "-87.6228941903"
+        },
+        "source_record_id": "7510495"
+      },
+      "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_an_instruction": true,
+      "outcome_or_known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+      "record_time": "2026-06-30T00:00:00.000",
+      "similar_case_id": "chi:r2:case:003",
+      "source_dataset": "Chicago Building Violations",
+      "source_family": "violations",
+      "source_record_ids": [
+        "7510495"
+      ],
+      "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+      "what_happened": "BR3058 recorded with issue type other.",
+      "what_was_reviewed": "Source row fields, location/time anchors, issue category, and bounded rule-based match metadata.",
+      "why_it_matches_mobility_access": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "address_or_area": "7547 S ESSEX AVE",
+      "case_title": "Violations case at 7547 S ESSEX AVE",
+      "city": "Chicago",
+      "classification": "OFFICIAL_CITY_SOURCE_RECORD",
+      "evidence_fields": {
+        "category_or_type": "CN190019",
+        "evidence_completeness": "high",
+        "issue_event_type": "rodent",
+        "location_fields": {
+          "address": "7547 S ESSEX AVE",
+          "latitude": "41.757634876",
+          "longitude": "-87.5637747759"
+        },
+        "source_record_id": "7511077"
+      },
+      "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_an_instruction": true,
+      "outcome_or_known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+      "record_time": "2026-06-30T00:00:00.000",
+      "similar_case_id": "chi:r2:case:004",
+      "source_dataset": "Chicago Building Violations",
+      "source_family": "violations",
+      "source_record_ids": [
+        "7511077"
+      ],
+      "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+      "what_happened": "CN190019 recorded with issue type rodent.",
+      "what_was_reviewed": "Source row fields, location/time anchors, issue category, and bounded rule-based match metadata.",
+      "why_it_matches_mobility_access": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    },
+    {
+      "address_or_area": "4700 S LAKE PARK AVE",
+      "case_title": "Violations case at 4700 S LAKE PARK AVE",
+      "city": "Chicago",
+      "classification": "OFFICIAL_CITY_SOURCE_RECORD",
+      "evidence_fields": {
+        "category_or_type": "CN105015",
+        "evidence_completeness": "high",
+        "issue_event_type": "building_condition",
+        "location_fields": {
+          "address": "4700 S LAKE PARK AVE",
+          "latitude": "41.8095347808",
+          "longitude": "-87.5924502234"
+        },
+        "source_record_id": "7511175"
+      },
+      "license_or_attribution": "Attribution: City of Chicago Data Portal / Socrata endpoint retained; verify portal terms before external publication.",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Similar-case memory is contextual precedent only.",
+        "No causality, prediction, compliance, enforcement, or operational recommendation is implied."
+      ],
+      "not_an_instruction": true,
+      "outcome_or_known_limit": "Source outcome is not inferred; status/outcome is only shown when the source row carries it.",
+      "record_time": "2026-06-30T00:00:00.000",
+      "similar_case_id": "chi:r2:case:005",
+      "source_dataset": "Chicago Building Violations",
+      "source_family": "violations",
+      "source_record_ids": [
+        "7511175"
+      ],
+      "source_url": "https://data.cityofchicago.org/resource/e9ic-ry4z.json?$limit=5",
+      "what_happened": "CN105015 recorded with issue type building_condition.",
+      "what_was_reviewed": "Source row fields, location/time anchors, issue category, and bounded rule-based match metadata.",
+      "why_it_matches_mobility_access": "Bounded memory context: public-realm, access, building-condition, or service-disruption record with source ID, location/time when present. It is context only, not an instruction."
+    }
+  ],
+  "status": "PASS_MAIN_CITYBRAIN_D8_CHICAGO_SIMILAR_CASE_RECORD_PACK_WITH_LIMITATIONS"
+}

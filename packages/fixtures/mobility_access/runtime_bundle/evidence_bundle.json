@@ -1,0 +1,94 @@
+{
+  "candidate_observation_count": 6,
+  "candidate_observation_refs": [
+    "d7_candidate_observation:001",
+    "d7_candidate_observation:002",
+    "d7_candidate_observation:003",
+    "d7_candidate_observation:004",
+    "d7_candidate_observation:005",
+    "d7_candidate_observation:006"
+  ],
+  "cascade_attachment_count": 3,
+  "cascade_refs": [
+    "cascade_attachment:001",
+    "cascade_attachment:002",
+    "cascade_attachment:003"
+  ],
+  "claim_labels": [
+    "candidate evidence",
+    "context only",
+    "not a finding"
+  ],
+  "d7_observation_status": "candidate_observation_not_finding",
+  "scenario_state_ref": "scenario_state:mobility-access-corridor:hero-lon-corridor",
+  "schema_version": "citybrain-evidence-bundle-r1",
+  "similar_case_count": 4,
+  "similar_case_refs": [
+    "similar_case:001",
+    "similar_case:002",
+    "similar_case:003",
+    "similar_case:004"
+  ],
+  "source_root_refs": [
+    {
+      "key": "d8_handoff",
+      "role": "latest green D8 Mobility-reanchored handoff",
+      "root": "outputs/main_citybrain_d8_demonstrability_certified_state_handoff"
+    },
+    {
+      "key": "d8_scoreboard",
+      "role": "D8 moment scoreboard",
+      "root": "outputs/main_citybrain_d8_intelligence_moment_loop_and_scoreboard_r1"
+    },
+    {
+      "key": "mobility_access_handoff",
+      "role": "Mobility Access certified-state handoff",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_certified_state_and_handover_refresh"
+    },
+    {
+      "key": "mobility_access_domain_pack",
+      "role": "Mobility Access domain pack",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_r1"
+    },
+    {
+      "key": "mobility_access_option_attachments",
+      "role": "Mobility Access option-set attachments",
+      "root": "outputs/main_citybrain_d6_mobility_access_option_set_attachment_r2"
+    },
+    {
+      "key": "track_d_mobility_readiness",
+      "role": "Track D Mobility Access promotion readiness",
+      "root": "outputs/main_citybrain_d6_track_d_mobility_access_promotion_readiness_closeout"
+    },
+    {
+      "key": "track_d_panel",
+      "role": "Track D panel packet source",
+      "root": "outputs/main_citybrain_d6_track_d_promotion_panel_r1"
+    },
+    {
+      "key": "operator_trace_freeze",
+      "role": "governed 9-stage operator trace panel",
+      "root": "outputs/main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_milestone_freeze"
+    },
+    {
+      "key": "d7_candidate_observation_freeze",
+      "role": "D7 candidate observations",
+      "root": "outputs/main_citybrain_d7_perception_candidate_observation_milestone_freeze"
+    },
+    {
+      "key": "similar_case_freeze",
+      "role": "cross-city similar-case expansion",
+      "root": "outputs/main_citybrain_d6_cross_city_similar_case_expansion_milestone_freeze"
+    },
+    {
+      "key": "cascade_freeze",
+      "role": "cross-domain cascade freeze",
+      "root": "outputs/main_citybrain_d6_cross_domain_cascade_milestone_freeze"
+    },
+    {
+      "key": "demo_capture_pack",
+      "role": "decision-support capture pack facts",
+      "root": "outputs/main_citybrain_d6_decision_support_demo_capture_pack_r1"
+    }
+  ]
+}

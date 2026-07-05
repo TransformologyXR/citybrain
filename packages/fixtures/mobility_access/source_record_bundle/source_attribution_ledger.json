@@ -1,0 +1,15 @@
+{
+  "data_depth_blockers": [
+    "source-blocker-place-entity-record",
+    "source-blocker-observation-record",
+    "source-blocker-similar-case-record",
+    "source-blocker-cascade-link-record",
+    "source-blocker-option-tradeoff-record",
+    "source-blocker-forbidden-command-record",
+    "source-blocker-human-review-stop-record"
+  ],
+  "generated_at": "2026-07-01T21:00:59.558639+00:00",
+  "schema_version": "citybrain-d8-source-attribution-ledger-r2",
+  "source_attributions": [],
+  "status": "SOURCE_ATTRIBUTION_MISSING_FOR_DEFAULT_UI"
+}

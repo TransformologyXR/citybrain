@@ -1,0 +1,130 @@
+{
+  "d10_content_read_only": true,
+  "d14_open_ask_blocked_until_real_question_corpus": true,
+  "generated_at": "2026-07-02T22:27:37Z",
+  "initial_review_states": [
+    {
+      "candidate_id": "d10-watch:lon:wood-lane-access-review",
+      "display_state": "Not started",
+      "local_note_count": 0,
+      "local_only": true,
+      "local_state": "not_started",
+      "official_record_created": false,
+      "source_candidate_id": "d10-watch:lon:wood-lane-access-review",
+      "title": "Review Wood Lane works near Scrubbs Lane EV access asset"
+    },
+    {
+      "candidate_id": "d10-watch:nyc:mvc-candidate-context",
+      "display_state": "Not started",
+      "local_note_count": 0,
+      "local_only": true,
+      "local_state": "not_started",
+      "official_record_created": false,
+      "source_candidate_id": "d10-watch:nyc:mvc-candidate-context",
+      "title": "Review MVC crash 4463710 candidate context"
+    },
+    {
+      "candidate_id": "d10-watch:lon:ev-asset-87-source-depth",
+      "display_state": "Not started",
+      "local_note_count": 0,
+      "local_only": true,
+      "local_state": "not_started",
+      "official_record_created": false,
+      "source_candidate_id": "d10-watch:lon:ev-asset-87-source-depth",
+      "title": "Review EV asset 87 source completeness"
+    },
+    {
+      "candidate_id": "d10-watch:lon:wood-lane-source-gap",
+      "display_state": "Not started",
+      "local_note_count": 0,
+      "local_only": true,
+      "local_state": "not_started",
+      "official_record_created": false,
+      "source_candidate_id": "d10-watch:lon:wood-lane-source-gap",
+      "title": "Check missing evidence before any access-impact claim"
+    }
+  ],
+  "local_export_contract": {
+    "file_only_local_export": true,
+    "filename_contains": "LOCAL_REVIEW_ONLY",
+    "must_include": [
+      "selected_item",
+      "source_records",
+      "knowns",
+      "unknowns",
+      "cannot_claim",
+      "checks",
+      "local_notes",
+      "local_state",
+      "session_summary",
+      "citations",
+      "provenance"
+    ],
+    "not_official_record": true
+  },
+  "no_action_boundary": true,
+  "no_official_case_ticket_work_order": true,
+  "operator_gate_status": "PENDING_REAL_OPERATOR_SESSIONS",
+  "queue_item_count": 4,
+  "review_state_contract": {
+    "allowed_states": [
+      "not_started",
+      "in_review",
+      "needs_source",
+      "hold",
+      "abstain",
+      "reviewed",
+      "exported_locally"
+    ],
+    "allowed_verbs": [
+      "open",
+      "ask",
+      "run_check",
+      "generate_brief",
+      "add_local_note",
+      "mark_needs_source",
+      "place_on_hold",
+      "abstain",
+      "mark_reviewed",
+      "export_local_summary"
+    ],
+    "state_labels": {
+      "abstain": "Abstained",
+      "exported_locally": "Exported locally",
+      "hold": "On hold",
+      "in_review": "In review",
+      "needs_source": "Needs source",
+      "not_started": "Not started",
+      "reviewed": "Reviewed locally"
+    }
+  },
+  "schema_version": "citybrain.d11.operator_workflow_review_workspace.r1.runtime_extension.v1",
+  "selected_item_investigation_count": 4,
+  "session_log_contract": {
+    "fields": [
+      "verb",
+      "verb_label",
+      "selected_item_title",
+      "local_state",
+      "note_text",
+      "export_filename",
+      "mode_run_id",
+      "timestamp",
+      "boundary"
+    ],
+    "must_state": "No official case or action was created.",
+    "storage": "browser_local_storage_and_local_output_file_only",
+    "summary_counts": [
+      "items_opened",
+      "questions_asked",
+      "checks_run",
+      "briefs_generated",
+      "notes_added",
+      "states_changed",
+      "refusals_encountered",
+      "abstentions"
+    ]
+  },
+  "source_d10_overlay": "packages/fixtures/d10_operator_intelligence_depth/runtime_overlay/D10_OPERATOR_INTELLIGENCE_DEPTH_EXTENSION.json",
+  "status": "PASS_D11_REVIEW_WORKSPACE_WITH_OPERATOR_GATE_PENDING"
+}

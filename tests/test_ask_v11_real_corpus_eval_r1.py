@@ -15,8 +15,40 @@ from packages.ask_v11.real_corpus_eval import (
     write_real_corpus_eval_report,
 )
 
+ROOT = Path(__file__).resolve().parents[1]
+SESSION_TEMPLATE = ROOT / "inputs" / "d11_real_operator_sessions" / "session_record_template.json"
+
+
+def write_test_operator_session_template() -> None:
+    SESSION_TEMPLATE.parent.mkdir(parents=True, exist_ok=True)
+    SESSION_TEMPLATE.write_text(
+        json.dumps(
+            {
+                "schema_version": "citybrain.operator_session_template.test.v1",
+                "session_id": "session:test:clean-worktree",
+                "surface_target": "review_only_local_replay",
+                "spontaneous_questions": [
+                    "Ask a targeted clarification before answering an unanchored city query."
+                ],
+                "selected_item_ref": "infrastructure_context_asset:uk-london:ev_charging_site:87",
+                "boundary": {
+                    "raw_query_policy": "raw_query is input-only and must not be copied into downstream packets",
+                    "runtime_called": False,
+                },
+            },
+            indent=2,
+            sort_keys=True,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
 
 class AskV11RealCorpusEvalR1Tests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        write_test_operator_session_template()
+
     def test_loads_preflight_case_matrix(self) -> None:
         cases = load_case_matrix()
         self.assertEqual(len(cases), 19)

@@ -1,0 +1,73 @@
+{
+  "$id": "citybrain://event-fabric/r0.1/EventEnvelope",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_envelope_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "authority_level": {
+      "enum": [
+        "review_display_only",
+        1
+      ]
+    },
+    "check_report_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "check_status": {
+      "enum": [
+        "not_evaluated",
+        "passed",
+        "failed",
+        "blocked",
+        "not_applicable"
+      ]
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "check_report_ref",
+    "check_status",
+    "authority_level",
+    "authority_envelope_ref",
+    "event_id",
+    "event_type",
+    "event_version",
+    "source_package",
+    "source_class",
+    "source_ref",
+    "candidate_observation_ref",
+    "review_event_id",
+    "event_time",
+    "ingested_at",
+    "entity_refs",
+    "location_ref",
+    "geometry_ref",
+    "status",
+    "review_state",
+    "candidate_only",
+    "review_required",
+    "official_status",
+    "submission_status",
+    "execution_status",
+    "evidence_refs",
+    "limitation_refs",
+    "trace_refs",
+    "not_executed",
+    "cannot_claim",
+    "payload"
+  ],
+  "title": "Event Fabric R0.1 EventEnvelope",
+  "type": "object",
+  "x_import_policy": "R0.1 owns only wrapper/event-fabric fields; imported packet definitions remain authoritative in import map."
+}

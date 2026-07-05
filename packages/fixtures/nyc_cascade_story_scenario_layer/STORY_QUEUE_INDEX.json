@@ -1,0 +1,11 @@
+{
+  "schema_version": "main-citybrain-d8-nyc-cascade-scenario-layer-authoring-r1.v1",
+  "status": "PASS",
+  "story_layers": [
+    {
+      "path": "packages/fixtures/nyc_cascade_story_scenario_layer/NYC_CASCADE_SCENARIO_LAYER.json",
+      "story_id": "story:nyc:cascade:mvc_crash_4463710",
+      "story_query_id": "story-query:incident_to_affected_asset_response_cascade@v1"
+    }
+  ]
+}

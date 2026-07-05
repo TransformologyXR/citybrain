@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "path": "packages/fixtures/chicago_similar_case_records/human_fact_cards.json",
+      "sha256": "d0a910eb838a5603356bbec9f075680441a2e8fd4c9e5e59041bb605902b78a5"
+    },
+    {
+      "path": "packages/fixtures/chicago_similar_case_records/SECRET_AUDIT.json",
+      "sha256": "bae66bdb4e205346b4060bc2889acd8df1566ef4bd3f6b14c49085b72afcb831"
+    },
+    {
+      "path": "packages/fixtures/chicago_similar_case_records/similar_case_source_bundle.json",
+      "sha256": "38c2eaa6640d2b71503b9a676954a407d24ab7cf541af0de44acdb5748bc508b"
+    }
+  ],
+  "root": "packages/fixtures/chicago_similar_case_records",
+  "schema_version": "citybrain-hash-manifest-r1"
+}

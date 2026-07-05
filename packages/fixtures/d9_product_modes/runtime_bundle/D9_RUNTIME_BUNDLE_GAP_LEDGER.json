@@ -1,0 +1,9 @@
+{
+  "blocking_gap_count": 0,
+  "non_blocking_gaps": [
+    "RECALL match reasons remain generic, so recall stays a cutaway.",
+    "DIFF and PERCEPTION/VSS are deferred.",
+    "External viewer/media validation is outside this runtime gate."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

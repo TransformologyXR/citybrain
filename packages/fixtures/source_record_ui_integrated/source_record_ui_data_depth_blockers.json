@@ -1,0 +1,11 @@
+{
+  "blocker_count": 0,
+  "blockers": [],
+  "limitations": [
+    "M13 records are local demo-media candidate records, not municipal/live source records.",
+    "London records remain supporting source examples, not one proved corridor incident."
+  ],
+  "schema_version": "citybrain-source-record-ui-data-depth-blockers-r2",
+  "status": "PASS_NO_OPEN_M13_M07_M08_BLOCKERS_WITH_LIMITATIONS",
+  "timestamp": "2026-07-01T21:56:27.660157+00:00"
+}

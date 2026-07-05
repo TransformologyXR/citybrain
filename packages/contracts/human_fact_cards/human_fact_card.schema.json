@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain Human Fact Card",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "card_id",
+    "card_type",
+    "title",
+    "plain_summary",
+    "source_record_refs",
+    "evidence_refs",
+    "confidence_or_limitation",
+    "technical_refs_hidden_by_default",
+    "data_depth_status"
+  ],
+  "properties": {
+    "card_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "card_type": {
+      "type": "string",
+      "enum": [
+        "situation_fact_card",
+        "entity_card",
+        "relationship_link_card",
+        "candidate_observation_card",
+        "similar_case_card",
+        "option_tradeoff_card",
+        "track_d_review_stop_card",
+        "uncertainty_card",
+        "limitation_card",
+        "trace_step_card"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "plain_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_record_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence_or_limitation": {
+      "type": "string"
+    },
+    "technical_refs_hidden_by_default": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_depth_status": {
+      "type": "string",
+      "enum": [
+        "renderable",
+        "partial",
+        "id_only",
+        "missing"
+      ]
+    }
+  }
+}

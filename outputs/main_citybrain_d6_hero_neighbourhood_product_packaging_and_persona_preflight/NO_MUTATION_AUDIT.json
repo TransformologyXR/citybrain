@@ -1,7 +1,0 @@
-{
-  "changed_upstreams": [],
-  "checked_upstream_count": 7,
-  "policy": "Track P writes only its own output root and does not mutate upstream outputs.",
-  "status": "PASS",
-  "task_name": "MAIN-CITYBRAIN-D6-HERO-NEIGHBOURHOOD-PRODUCT-PACKAGING-AND-PERSONA-PREFLIGHT"
-}

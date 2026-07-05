@@ -1,8 +1,0 @@
-{
-  "claim_label_audit_matches_frozen_truth": true,
-  "limitations_in_scripts": true,
-  "non_blocking_gaps_included": true,
-  "persona_r1_green": true,
-  "required_collateral_file_count": 25,
-  "status": "PASS"
-}

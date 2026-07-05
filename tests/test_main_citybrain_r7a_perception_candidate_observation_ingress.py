@@ -1,5 +1,6 @@
 import json
 import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -20,7 +21,7 @@ class MainCityBrainR7APerceptionCandidateObservationIngressTests(unittest.TestCa
     @classmethod
     def setUpClass(cls):
         subprocess.run(
-            [".venv\\Scripts\\python.exe", "scripts\\run_main_citybrain_r7a_perception_candidate_observation_ingress.py"],
+            [sys.executable, "scripts\\run_main_citybrain_r7a_perception_candidate_observation_ingress.py"],
             cwd=ROOT,
             check=True,
             text=True,

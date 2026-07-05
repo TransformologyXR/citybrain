@@ -1,0 +1,25 @@
+{
+  "allowed_event_types": [
+    "candidate_observation.accepted_for_review",
+    "candidate_observation.unresolved",
+    "candidate_observation.quarantined",
+    "review_event.created",
+    "sandbox_draft_case.created",
+    "action_proposal.created_not_executed",
+    "query_result.created",
+    "overlay_context.created",
+    "review_assist_narrative.attached"
+  ],
+  "forbidden_event_types": [
+    "official_violation.confirmed",
+    "case.submitted_officially",
+    "dispatch.sent",
+    "control.executed",
+    "enforcement.initiated",
+    "legal_finding.certified",
+    "live_camera.monitored",
+    "vss_narrative.created_observation"
+  ],
+  "schema_version": "citybrain.event_fabric_r0_1.event_type_registry.v1",
+  "status": "PASS"
+}

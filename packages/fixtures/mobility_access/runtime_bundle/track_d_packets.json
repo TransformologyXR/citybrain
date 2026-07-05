@@ -1,0 +1,350 @@
+{
+  "approved_proposal_created": false,
+  "claim_labels": [
+    "promotion stop",
+    "no approval",
+    "not_executed"
+  ],
+  "eligible_packet_count": 3,
+  "execution_state": "not_executed",
+  "non_promotion_packet_count": 4,
+  "packet_count": 7,
+  "packets": [
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_BLOCKED_OR_CONTEXT_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_do_nothing_monitor",
+      "option_role": "do_nothing_baseline",
+      "option_set_id": "inverse_dynamics_reviewed_option_set_001",
+      "option_type": "do_nothing_monitor",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-001",
+      "required_human_decision": "review_context_only",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:construction_corridor_delay_context",
+        "similar_case:hero_lane_blockage_past_review",
+        "similar_case:public_information_review_context"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": null,
+      "track_d_proposal_ref": null
+    },
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_ELIGIBLE_REVIEW_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_review_reroute",
+      "option_role": "candidate_intervention",
+      "option_set_id": "inverse_dynamics_reviewed_option_set_001",
+      "option_type": "review_reroute_option",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-002",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:construction_corridor_delay_context",
+        "similar_case:hero_lane_blockage_past_review",
+        "similar_case:public_information_review_context"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_002",
+      "track_d_proposal_ref": null
+    },
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_ELIGIBLE_REVIEW_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_review_kerbside_access",
+      "option_role": "candidate_intervention",
+      "option_set_id": "inverse_dynamics_reviewed_option_set_001",
+      "option_type": "review_kerbside_access_option",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-003",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:construction_corridor_delay_context",
+        "similar_case:hero_lane_blockage_past_review",
+        "similar_case:public_information_review_context"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_003",
+      "track_d_proposal_ref": null
+    },
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "eligible_for_human_promotion_review",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_ELIGIBLE_REVIEW_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_review_public_information",
+      "option_role": "candidate_intervention",
+      "option_set_id": "inverse_dynamics_reviewed_option_set_001",
+      "option_type": "review_public_information_draft",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-004",
+      "required_human_decision": "promote_to_track_d_proposal_or_reject",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:construction_corridor_delay_context",
+        "similar_case:hero_lane_blockage_past_review",
+        "similar_case:public_information_review_context"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": "preview-only:track_d_option_promotion_fixture_004",
+      "track_d_proposal_ref": null
+    },
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_BLOCKED_OR_CONTEXT_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_abstain_escalate",
+      "option_role": "abstain_or_escalate",
+      "option_set_id": "inverse_dynamics_no_safe_option_fixture_001",
+      "option_type": "escalate_to_human_operator",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-005",
+      "required_human_decision": "review_context_only",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:hero_lane_blockage_past_review"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": null,
+      "track_d_proposal_ref": null
+    },
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_BLOCKED_OR_CONTEXT_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_do_nothing_monitor",
+      "option_role": "do_nothing_baseline",
+      "option_set_id": "inverse_dynamics_simulation_unavailable_fixture_001",
+      "option_type": "do_nothing_monitor",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-006",
+      "required_human_decision": "review_context_only",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:construction_corridor_delay_context",
+        "similar_case:hero_lane_blockage_past_review",
+        "similar_case:public_information_review_context"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": null,
+      "track_d_proposal_ref": null
+    },
+    {
+      "audit_trace_refs": [
+        "audit:claim_boundary",
+        "audit:no_action_boundary"
+      ],
+      "cascade_refs": [
+        "cascade_impact_fixture_001",
+        "cascade_impact_fixture_002",
+        "cascade_impact_fixture_003"
+      ],
+      "eligibility_state": "not_eligible_for_promotion",
+      "evidence_refs": [
+        "evidence:hero_corridor_event_trace"
+      ],
+      "execution_state": "not_executed",
+      "guardrail_result": "PASS_BLOCKED_OR_CONTEXT_ONLY",
+      "limitation_refs": [
+        "limitation:contract_only",
+        "limitation:local_replay_only"
+      ],
+      "no_approved_proposal": true,
+      "no_execution": true,
+      "option_id": "inv_option_abstain_escalate",
+      "option_role": "abstain_or_escalate",
+      "option_set_id": "inverse_dynamics_simulation_unavailable_fixture_001",
+      "option_type": "escalate_to_human_operator",
+      "packet_family": "track_d_promotion_panel_packet",
+      "panel_packet_id": "track-d-promotion-panel-r1-007",
+      "required_human_decision": "review_context_only",
+      "scenario_id": "HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001",
+      "similar_case_refs": [
+        "similar_case:construction_corridor_delay_context",
+        "similar_case:hero_lane_blockage_past_review",
+        "similar_case:public_information_review_context"
+      ],
+      "track_d_authoritative_after_human_promotion": true,
+      "track_d_proposal_preview_ref": null,
+      "track_d_proposal_ref": null
+    }
+  ],
+  "scenario_state_ref": "scenario_state:mobility-access-corridor:hero-lon-corridor",
+  "schema_version": "citybrain-track-d-packets-r1",
+  "source_root_refs": [
+    {
+      "key": "d8_handoff",
+      "role": "latest green D8 Mobility-reanchored handoff",
+      "root": "outputs/main_citybrain_d8_demonstrability_certified_state_handoff"
+    },
+    {
+      "key": "d8_scoreboard",
+      "role": "D8 moment scoreboard",
+      "root": "outputs/main_citybrain_d8_intelligence_moment_loop_and_scoreboard_r1"
+    },
+    {
+      "key": "mobility_access_handoff",
+      "role": "Mobility Access certified-state handoff",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_certified_state_and_handover_refresh"
+    },
+    {
+      "key": "mobility_access_domain_pack",
+      "role": "Mobility Access domain pack",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_r1"
+    },
+    {
+      "key": "mobility_access_option_attachments",
+      "role": "Mobility Access option-set attachments",
+      "root": "outputs/main_citybrain_d6_mobility_access_option_set_attachment_r2"
+    },
+    {
+      "key": "track_d_mobility_readiness",
+      "role": "Track D Mobility Access promotion readiness",
+      "root": "outputs/main_citybrain_d6_track_d_mobility_access_promotion_readiness_closeout"
+    },
+    {
+      "key": "track_d_panel",
+      "role": "Track D panel packet source",
+      "root": "outputs/main_citybrain_d6_track_d_promotion_panel_r1"
+    },
+    {
+      "key": "operator_trace_freeze",
+      "role": "governed 9-stage operator trace panel",
+      "root": "outputs/main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_milestone_freeze"
+    },
+    {
+      "key": "d7_candidate_observation_freeze",
+      "role": "D7 candidate observations",
+      "root": "outputs/main_citybrain_d7_perception_candidate_observation_milestone_freeze"
+    },
+    {
+      "key": "similar_case_freeze",
+      "role": "cross-city similar-case expansion",
+      "root": "outputs/main_citybrain_d6_cross_city_similar_case_expansion_milestone_freeze"
+    },
+    {
+      "key": "cascade_freeze",
+      "role": "cross-domain cascade freeze",
+      "root": "outputs/main_citybrain_d6_cross_domain_cascade_milestone_freeze"
+    },
+    {
+      "key": "demo_capture_pack",
+      "role": "decision-support capture pack facts",
+      "root": "outputs/main_citybrain_d6_decision_support_demo_capture_pack_r1"
+    }
+  ],
+  "track_d_authoritative": true
+}

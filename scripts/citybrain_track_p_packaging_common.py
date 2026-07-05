@@ -141,25 +141,36 @@ def rel(path: Path) -> str:
 
 
 def read_json(path: Path, default: Any = None) -> Any:
-    if not path.exists():
+    if not Path(_fs_path(path)).exists():
         return default
-    with path.open("r", encoding="utf-8") as handle:
+    with open(_fs_path(path), "r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def _fs_path(path: Path) -> str:
+    text = str(path)
+    if sys.platform == "win32":
+        resolved = str(path.resolve())
+        if not resolved.startswith("\\\\?\\"):
+            return "\\\\?\\" + resolved
+    return text
 
 
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
+    with open(_fs_path(path), "w", encoding="utf-8", newline="\n") as handle:
+        handle.write(json.dumps(payload, indent=2, sort_keys=True) + "\n")
 
 
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text.rstrip() + "\n", encoding="utf-8", newline="\n")
+    with open(_fs_path(path), "w", encoding="utf-8", newline="\n") as handle:
+        handle.write(text.rstrip() + "\n")
 
 
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
-    with path.open("rb") as handle:
+    with open(_fs_path(path), "rb") as handle:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
@@ -180,7 +191,7 @@ def prepare_output_root(root: Path, expected_name: str) -> None:
     if root.name != expected_name:
         raise RuntimeError(f"Refusing unexpected output root name: {root.name}")
     if root.exists():
-        shutil.rmtree(root)
+        shutil.rmtree(_fs_path(root))
     root.mkdir(parents=True, exist_ok=True)
 
 
@@ -212,7 +223,7 @@ def discover_upstreams(specs: dict[str, dict[str, str]]) -> tuple[dict[str, Any]
         decision = read_json(decision_path, {})
         status = status_from_decision(decision)
         expected = spec.get("expected")
-        exists = root.exists() and decision_path.exists()
+        exists = root.exists() and Path(_fs_path(decision_path)).exists()
         green = exists and (status == expected if expected else bool(status and status.startswith("PASS_")))
         row = {
             "key": key,
@@ -397,7 +408,7 @@ def no_action_audit(root: Path, task_name: str) -> dict[str, Any]:
 
 
 def required_files_status(root: Path, required: list[str]) -> dict[str, Any]:
-    missing = [name for name in required if not (root / name).exists()]
+    missing = [name for name in required if not Path(_fs_path(root / name)).exists()]
     return {"status": "PASS" if not missing else "FAIL", "missing": missing, "required_count": len(required)}
 
 

@@ -1,0 +1,19 @@
+{
+  "$id": "citybrain://d8-live-surface/trace.jsonl",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "execution_state": {
+      "const": "not_executed"
+    }
+  },
+  "required": [
+    "schema_version",
+    "stage_index",
+    "stage_name",
+    "scenario_state_ref",
+    "execution_state"
+  ],
+  "title": "trace.jsonl row",
+  "type": "object"
+}

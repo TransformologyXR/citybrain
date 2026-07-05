@@ -1,0 +1,235 @@
+{
+  "affected_asset_or_context_records": [
+    {
+      "confidence": 0.86,
+      "distance_m": 0.0,
+      "join_method": "official_latlon_nearest_mappluto_tax_lot_within_30m",
+      "overclaim_guard": "not_certified_affected_building_or_asset",
+      "record_role": "candidate_asset_context",
+      "relation": "candidate_affected_asset",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+      "source_id": "asset:us-nyc:mappluto_tax_lot:3014450085",
+      "source_record_id": "3014450085",
+      "spatial_relation": "point_within_tax_lot_polygon",
+      "status": "candidate_only"
+    },
+    {
+      "distance_m": 41.147,
+      "overclaim_guard": "not_route_not_dispatch_recommendation",
+      "rank": 1,
+      "record_role": "response_resource_context",
+      "relation": "nearest_response_resource_context",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+      "source_id": "resource:us-nyc:fdny:firehouse:engine_227",
+      "source_record_id": "resource:us-nyc:fdny:firehouse:engine_227",
+      "status": "context_only",
+      "target_resource_type": "firehouse"
+    },
+    {
+      "distance_m": 441.044,
+      "overclaim_guard": "not_route_not_dispatch_recommendation",
+      "rank": 2,
+      "record_role": "response_resource_context",
+      "relation": "nearest_response_resource_context",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+      "source_id": "resource:us-nyc:fdny:firehouse:rescue_2",
+      "source_record_id": "resource:us-nyc:fdny:firehouse:rescue_2",
+      "status": "context_only",
+      "target_resource_type": "firehouse"
+    },
+    {
+      "distance_m": 1121.139,
+      "overclaim_guard": "not_route_not_dispatch_recommendation",
+      "rank": 3,
+      "record_role": "response_resource_context",
+      "relation": "nearest_response_resource_context",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+      "source_id": "resource:us-nyc:fdny:firehouse:battalion_38_engine_234_ladder_123",
+      "source_record_id": "resource:us-nyc:fdny:firehouse:battalion_38_engine_234_ladder_123",
+      "status": "context_only",
+      "target_resource_type": "firehouse"
+    },
+    {
+      "anchor_resource_address": "423 Ralph Ave.",
+      "anchor_resource_id": "resource:us-nyc:fdny:firehouse:engine_227",
+      "anchor_resource_label": "Engine 227",
+      "candidate_stop_count": 2,
+      "optimization_backend": "not_called",
+      "planning_method": "deterministic_score_ordered_review_itinerary",
+      "record_role": "operator_review_route_context",
+      "route_plan_status": "operator_review_plan_only",
+      "semantic_guard": "not_dispatch_not_navigable_route_not_emergency_recommendation",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_2_top_operator_review_route.json",
+      "source_id": "review_route:us-nyc:flow3:d4:001:brooklyn:resource_us_nyc_fdny_firehouse_engine_227",
+      "source_record_id": "review_route:us-nyc:flow3:d4:001:brooklyn:resource_us_nyc_fdny_firehouse_engine_227",
+      "straight_line_review_proxy_m": 143.752
+    },
+    {
+      "answer_status": "rejected",
+      "grounding_status": "PASS",
+      "record_role": "governance_refusal_context",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_4_governance_negative_request.json",
+      "source_id": "negative_affected_buildings",
+      "source_record_id": "negative_affected_buildings",
+      "story_steps": [
+        "operator asks for definitely affected buildings",
+        "D6 rejects or bounds the request",
+        "D8 shows candidate tax-lot context only",
+        "no certified affected-building claim is made"
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "beat_id": "NYC_B01_EVENT_RECORD",
+      "limitation": "The event is a review subject, not an action trigger.",
+      "source_paths": [
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json"
+      ],
+      "source_record_ids": [
+        "event:us-nyc:flow3:mvc_crash:4463710"
+      ],
+      "title": "What happened in the source record",
+      "viewer_copy": "MVC crash source record 4463710 is the subject of the review packet."
+    },
+    {
+      "beat_id": "NYC_B02_CANDIDATE_ASSET_CONTEXT",
+      "limitation": "Candidate context does not certify an affected building or asset.",
+      "source_paths": [
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json"
+      ],
+      "source_record_ids": [
+        "asset:us-nyc:mappluto_tax_lot:3014450085",
+        "3014450085"
+      ],
+      "title": "What candidate asset context exists",
+      "viewer_copy": "A candidate tax-lot context edge links the event to BBL 3014450085."
+    },
+    {
+      "beat_id": "NYC_B03_RESPONSE_RESOURCE_CONTEXT",
+      "limitation": "Response-resource context is not dispatched-unit truth.",
+      "source_paths": [
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json"
+      ],
+      "source_record_ids": [
+        "resource:us-nyc:fdny:firehouse:engine_227"
+      ],
+      "title": "What response-resource context exists",
+      "viewer_copy": "Engine 227 appears as the nearest response-resource context in the existing evidence."
+    },
+    {
+      "beat_id": "NYC_B04_REVIEW_ITINERARY",
+      "limitation": "The itinerary is review evidence, not route/control instruction.",
+      "source_paths": [
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_2_top_operator_review_route.json"
+      ],
+      "source_record_ids": [
+        "review_route:us-nyc:flow3:d4:001:brooklyn:resource_us_nyc_fdny_firehouse_engine_227"
+      ],
+      "title": "What a reviewer can inspect",
+      "viewer_copy": "A score-ordered operator review itinerary is present for Engine 227 context."
+    },
+    {
+      "beat_id": "NYC_B05_REFUSAL_STOP",
+      "limitation": "The scenario stays review-only and not_executed.",
+      "source_paths": [
+        "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_4_governance_negative_request.json"
+      ],
+      "source_record_ids": [
+        "negative_affected_buildings"
+      ],
+      "title": "Where the system stops",
+      "viewer_copy": "The governance sample rejects definite affected-building certainty."
+    }
+  ],
+  "city": "NYC",
+  "execution_state": "not_executed",
+  "forbidden_claims": [
+    "certified affected building or asset",
+    "emergency response instruction",
+    "street-network route instruction",
+    "incident severity or urgency finding from priority score",
+    "dispatch/control/enforcement/legal outcome",
+    "official ticket/case creation"
+  ],
+  "human_stop": "Human review remains the final boundary; the scenario creates no approval, execution, ticket, case, route, alert, enforcement, or certified finding.",
+  "intelligence_beat": "CityBrain can connect an event, candidate asset context, response-resource context, review itinerary evidence, and a refusal moment while preserving uncertainty at every step.",
+  "limitations": [
+    "F3-NYC-D5 is a deterministic EvidenceBundle and briefing surface only.",
+    "D5 does not call live NIM, NeMo, or any LLM.",
+    "D5 does not certify affected buildings or affected assets.",
+    "D5 presents candidate affected tax-lot context, not certified affected-building truth.",
+    "D5 presents operator review routes, not emergency dispatch.",
+    "D5 presents score-ordered review itineraries, not navigable routes.",
+    "D5 does not make legal, safety, or emergency recommendations.",
+    "D5 does not geocode address-only events.",
+    "Firehouse/resource context is not dispatched-unit truth.",
+    "MVC Vehicles remain event context only, not primary crash events.",
+    "D5 uses the bounded D2/D3/D4 working set, not full-source citywide Flow 3 materialization.",
+    "D5 EvidenceBundles are generated from D3/D4 deterministic outputs.",
+    "Priority scores rank operator review candidates, not incident severity or emergency urgency.",
+    "Review route proxy distances are straight-line context values, not street-network travel distances.",
+    "D8 heroes are selected deterministically from D4/D5/D6/D7 evidence, not by memory or manual preference.",
+    "Candidate tax-lot context is not a certified affected building.",
+    "Candidate affected-asset context is not certified affected-asset truth.",
+    "Operator-review routes are not emergency dispatch.",
+    "D8 does not provide navigable routing.",
+    "Fire Dispatch is capped at 2,000,000 rows unless 11,819,520 rows are present.",
+    "EMS Dispatch is capped at 3,000,000 rows unless 29,572,156 rows are present.",
+    "D8 is a hero package over governed D5/D6/D7 evidence, not final full-source Flow 3 completion.",
+    "D6 live Spark/NIM narration may narrate D5 evidence but may not compute counts or add facts."
+  ],
+  "review_only_boundary": "Local/replay/review/query context only; no production/public API, autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified finding, certified affected-asset finding, or automated action.",
+  "review_only_choices": [
+    "Inspect the MVC event source record and candidate tax-lot edge together.",
+    "Compare response-resource context distances and confidence values.",
+    "Review the score-ordered itinerary as bounded review evidence.",
+    "Use the governance refusal when certainty is unsupported.",
+    "Abstain from action when evidence remains candidate-only."
+  ],
+  "review_premise": "Existing Flow 3 records link one MVC event to candidate tax-lot context, nearby response-resource context, an operator review itinerary, and a governance refusal for unsupported affected-building certainty.",
+  "schema_version": "citybrain-nyc-cascade-scenario-layer-r1",
+  "source_path_ledger": [
+    "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_SELECTOR_REPORT.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_GROUNDING_REPORT.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_NO_OVERCLAIM_REPORT.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/F3_NYC_D8_LIMITATION_CARRY_FORWARD_REPORT.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_2_top_operator_review_route.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_3_route_stop_trace_borough_diverse.json",
+    "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_4_governance_negative_request.json",
+    "outputs/f3_nyc_d3_affected_asset_response_context/F3_NYC_D3_QUERY_SMOKE_REPORT.json",
+    "outputs/f3_nyc_d4_candidate_prioritization_review_routing/F3_NYC_D4_CANDIDATE_PRIORITIZATION_REPORT.json",
+    "outputs/f3_nyc_d5_governed_evidence_briefing/F3_NYC_D5_EVIDENCE_BUNDLE_REPORT.json"
+  ],
+  "source_records": [
+    {
+      "address_or_area": "HOWARD AVENUE",
+      "borough": "BROOKLYN",
+      "event_time": "2021-09-27T00:00:00.000 22:15",
+      "event_type": "collision",
+      "latitude": 40.67453,
+      "location_confidence_tier": "A",
+      "location_status": "latlon_exact",
+      "longitude": -73.92137,
+      "record_role": "primary_incident_source_record",
+      "source_artifact": "outputs/f3_nyc_d8_flow3_hero_package/heroes/hero_1_top_candidate_incident.json",
+      "source_dataset": "Motor_Vehicle_Collisions_-_Crashes",
+      "source_id": "event:us-nyc:flow3:mvc_crash:4463710",
+      "source_record_id": "4463710"
+    }
+  ],
+  "specific_subject": "MVC crash 4463710 near Howard Avenue with Engine 227 context",
+  "status": "PASS_MAIN_CITYBRAIN_D8_NYC_CASCADE_STORY_AUTHORING_R2_WITH_LIMITATIONS",
+  "story_id": "story:nyc:cascade:mvc_crash_4463710",
+  "story_query_id": "story-query:incident_to_affected_asset_response_cascade@v1",
+  "story_title": "NYC MVC event with candidate asset and response-resource review context",
+  "tension": "The records are rich enough for a human review story, but they are intentionally not strong enough to support certified affected-building, operational response, or action claims.",
+  "uncertainty": [
+    "The tax-lot edge is candidate context only.",
+    "The Engine 227 relation is response-resource context only.",
+    "The review itinerary is not a street-network instruction.",
+    "The system refuses definite affected-building certainty."
+  ],
+  "version": "v1"
+}

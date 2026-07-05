@@ -1,0 +1,13 @@
+{
+  "owned_shapes": [
+    "EventEnvelope",
+    "EventTypeRegistry",
+    "ReviewState",
+    "MaterializedReviewState",
+    "QueryResultPacket",
+    "OverlayPacket"
+  ],
+  "r0_superseded_for_step2_closeout": true,
+  "schema_version": "citybrain.event_fabric_r0_1.manifest.v1",
+  "status": "PASS"
+}

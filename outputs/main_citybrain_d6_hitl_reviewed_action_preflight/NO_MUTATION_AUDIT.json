@@ -1,8 +1,0 @@
-{
-  "changed_upstream_keys": [],
-  "no_action_taken": true,
-  "output_root_only_mutated": true,
-  "status": "PASS",
-  "task_name": "MAIN-CITYBRAIN-D6-HITL-REVIEWED-ACTION-PREFLIGHT",
-  "watched_root_count": 8
-}

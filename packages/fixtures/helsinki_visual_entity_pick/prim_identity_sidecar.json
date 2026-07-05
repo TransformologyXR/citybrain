@@ -1,0 +1,220 @@
+{
+  "sidecar": [
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:d6c6463c80b4ed25",
+      "display_name": "Tehtaankatu 1b",
+      "gmlid": "BID_35328115-972e-45e3-97bd-d0029f19f70d",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1509,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_35328115-972e-45e3-97bd-d0029f19f70d",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_35328115_972e_45e3_97bd_d0029f19f70d",
+      "vtj_prt": "103113110B"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:3e5ec08f76213168",
+      "display_name": "Vuorimiehenkatu 7",
+      "gmlid": "BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1318,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_ed72bb29-8b9d-4fcd-aa6b-b006740cb61d",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_ed72bb29_8b9d_4fcd_aa6b_b006740cb61d",
+      "vtj_prt": "103103757M"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:eeaab2cc1ea6a7a1",
+      "display_name": "Vuorimiehenkatu 19",
+      "gmlid": "BID_d273e626-bc0a-417f-b350-9a00852dd8ce",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1623,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_d273e626-bc0a-417f-b350-9a00852dd8ce",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_d273e626_bc0a_417f_b350_9a00852dd8ce",
+      "vtj_prt": "1031228396"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:26f781d390e33637",
+      "display_name": "Laivasillankatu 14",
+      "gmlid": "BID_e75c5da5-7fcd-4f13-80c2-f2d744085449",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1322,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_e75c5da5-7fcd-4f13-80c2-f2d744085449",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_e75c5da5_7fcd_4f13_80c2_f2d744085449",
+      "vtj_prt": "103103761S"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:1f4437848c82f771",
+      "display_name": "Ullankatu 3",
+      "gmlid": "BID_532d722b-08e6-4206-8818-4b00bdf3b857",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1325,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_532d722b-08e6-4206-8818-4b00bdf3b857",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_532d722b_08e6_4206_8818_4b00bdf3b857",
+      "vtj_prt": "103103764V"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:bb8a186a06df5617",
+      "display_name": "Muukalaiskatu 1",
+      "gmlid": "BID_0f77a27c-2911-4c16-8c20-f6a991c40770",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1321,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_0f77a27c-2911-4c16-8c20-f6a991c40770",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_0f77a27c_2911_4c16_8c20_f6a991c40770",
+      "vtj_prt": "103103760R"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:d560b19b2eb787d5",
+      "display_name": "Katajanokanlaituri 6",
+      "gmlid": "BID_7af7d2ac-8755-4d13-a136-b9730b691df2",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1636,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_7af7d2ac-8755-4d13-a136-b9730b691df2",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_7af7d2ac_8755_4d13_a136_b9730b691df2",
+      "vtj_prt": "103132645H"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:903d51968de168af",
+      "display_name": "Kasarmikatu 13",
+      "gmlid": "BID_61d361a1-886d-4d15-a0f5-cd7891a1f614",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1585,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_61d361a1-886d-4d15-a0f5-cd7891a1f614",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_61d361a1_886d_4d15_a0f5_cd7891a1f614",
+      "vtj_prt": "103113191Y"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:cc7a666edb6f3bca",
+      "display_name": "Ullankatu 1",
+      "gmlid": "BID_2360095c-2cad-4486-9b8b-575cce9bbe68",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1324,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_2360095c-2cad-4486-9b8b-575cce9bbe68",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_2360095c_2cad_4486_9b8b_575cce9bbe68",
+      "vtj_prt": "103103763U"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:b1c3e4322ab9c2e7",
+      "display_name": "Ullankatu 1",
+      "gmlid": "BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1323,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_075e6939-20cf-4dd6-918f-2c536eb3f7cb",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_075e6939_20cf_4dd6_918f_2c536eb3f7cb",
+      "vtj_prt": "103103762T"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:d08ae95e61492aa2",
+      "display_name": "T\u00e4htitorninkatu 14",
+      "gmlid": "BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1627,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_8e8ec0f1-b597-4cef-89d6-a21787156f4b",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_8e8ec0f1_b597_4cef_89d6_a21787156f4b",
+      "vtj_prt": "103122843A"
+    },
+    {
+      "cer_candidate_id": "cer:candidate:hel:building:0955f7213e062d5b",
+      "display_name": "Kanavakatu 4",
+      "gmlid": "BID_6012d274-fbd0-4b58-8d6f-760e692748e7",
+      "limitations": [
+        "Source rows are bounded samples, not complete city coverage.",
+        "Cards are review/demo source records only, not operational instructions.",
+        "Records do not create approval, dispatch, enforcement, legal finding, or automated action.",
+        "Prim path is generated candidate metadata unless separately confirmed in Kit.",
+        "Semantic CityGML/WFS building identity does not certify mesh backdrop objects such as trees, cars, ships, or people.",
+        "No legal/certified property or official building-status claim is made."
+      ],
+      "ratu": 1709,
+      "seg_context": "Kalasatama/Helsinki semantic building candidate",
+      "source_building_id": "BID_6012d274-fbd0-4b58-8d6f-760e692748e7",
+      "usd_prim_path": "/World/CityBrain/HEL/Kalasatama/SemanticBuildings/BID_6012d274_fbd0_4b58_8d6f_760e692748e7",
+      "vtj_prt": "103122949R"
+    }
+  ]
+}

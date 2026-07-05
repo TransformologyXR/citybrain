@@ -1,0 +1,40 @@
+{
+  "$id": "citybrain://d8-live-surface/bridge_command.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "command": {
+      "enum": [
+        "select",
+        "scrub",
+        "inspect",
+        "camera",
+        "capture",
+        "focus",
+        "highlight",
+        "clear_highlight",
+        "execute",
+        "dispatch",
+        "route",
+        "enforce",
+        "approve",
+        "create_ticket",
+        "create_case",
+        "send_alert",
+        "control_signal",
+        "legal_find",
+        "certify_finding"
+      ]
+    },
+    "execution_state": {
+      "const": "not_executed"
+    }
+  },
+  "required": [
+    "command_id",
+    "command",
+    "scenario_state_ref"
+  ],
+  "title": "bridge_command.json",
+  "type": "object"
+}

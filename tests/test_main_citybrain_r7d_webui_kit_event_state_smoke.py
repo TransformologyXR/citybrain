@@ -1,5 +1,6 @@
 import json
 import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -22,7 +23,7 @@ class MainCityBrainR7DWebUIKitEventStateSmokeTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         subprocess.run(
-            [".venv\\Scripts\\python.exe", "scripts\\run_main_citybrain_r7d_webui_kit_event_state_smoke.py"],
+            [sys.executable, "scripts\\run_main_citybrain_r7d_webui_kit_event_state_smoke.py"],
             cwd=ROOT,
             text=True,
             stdout=subprocess.PIPE,

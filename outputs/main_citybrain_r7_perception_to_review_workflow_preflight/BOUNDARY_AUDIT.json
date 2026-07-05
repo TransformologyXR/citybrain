@@ -1,8 +1,0 @@
-{
-  "boundary": "perception output = candidate observation; candidate observation = review input; review state = human/local; case/ticket = draft/sandbox unless explicitly approved; dispatch/control/enforcement = proposal only; execution_status = not_executed by default",
-  "forbidden_boundary_failures": [],
-  "live_retrieval_performed": false,
-  "llm_call_performed": false,
-  "official_submission_performed": false,
-  "status": "PASS"
-}

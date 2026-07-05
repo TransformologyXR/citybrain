@@ -1,5 +1,6 @@
 import json
 import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -27,7 +28,7 @@ class MainCityBrainR7CEventFabricStateQueryAndAskHandoffTests(unittest.TestCase)
     @classmethod
     def setUpClass(cls):
         subprocess.run(
-            [".venv\\Scripts\\python.exe", "scripts\\run_main_citybrain_r7c_event_fabric_state_query_and_ask_handoff.py"],
+            [sys.executable, "scripts\\run_main_citybrain_r7c_event_fabric_state_query_and_ask_handoff.py"],
             cwd=ROOT,
             text=True,
             stdout=subprocess.PIPE,

@@ -1,0 +1,22 @@
+{
+  "file_count": 3,
+  "files": [
+    {
+      "bytes": 19416,
+      "path": "packages/fixtures/brain_surface_story_queue/brain_surface_story_queue_bundle.json",
+      "sha256": "714ced2081083fa887ebce1002310a0079989d6be6c005d67485f732d683888a"
+    },
+    {
+      "bytes": 14347,
+      "path": "packages/fixtures/brain_surface_story_queue/primary_story_queue.json",
+      "sha256": "8ad8ddd767e5682468a9d4bfa08b8c29cfe140d6b90241e883c62866dad29250"
+    },
+    {
+      "bytes": 213,
+      "path": "packages/fixtures/brain_surface_story_queue/README.md",
+      "sha256": "4507afd06e6d5b4d1e3535d960c0a9d1f63762b8fda22d016fe1772f549c732b"
+    }
+  ],
+  "generated_at": "2026-07-02T12:16:50Z",
+  "schema_version": "main-citybrain-d8-brain-surface-story-queue-r1.v1"
+}

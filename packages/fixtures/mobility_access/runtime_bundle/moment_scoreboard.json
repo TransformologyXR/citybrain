@@ -1,0 +1,271 @@
+{
+  "claim_labels": [
+    "D8 scoreboard",
+    "limitations visible"
+  ],
+  "demonstrable_count": 10,
+  "documented_partial_count": 2,
+  "execution_state": "not_executed",
+  "moment_count": 12,
+  "pass_rate": 0.833,
+  "rows": [
+    {
+      "beat": "B02",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "cross_city_similar_case_freeze"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M02",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_real",
+      "title": "Cross-city memory",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B03",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "d7_candidate_observation_freeze"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M13",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_real",
+      "title": "Perception candidate to evidence",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B04",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "track_d_mobility_readiness_closeout"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M07",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_real",
+      "title": "Guardrail refusal",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B05",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "track_d_mobility_readiness_closeout"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M08",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_real",
+      "title": "Track D promotion stop",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B06",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "post_review_handover"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M12",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_real",
+      "title": "Limitation ledger",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B07",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "operator_trace_panel_freeze"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M15",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_real",
+      "title": "Nine-stage trace spine",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B08",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "mobility_access_handover"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M10",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_restaged",
+      "title": "Mobility multi-source fusion",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B09",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "mobility_access_handover"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M03",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_restaged",
+      "title": "Honest uncertainty",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B10",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "mobility_access_handover"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M01",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_restaged",
+      "title": "Mobility corridor cascade",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B11",
+      "boundary_visible": true,
+      "captured_clean": true,
+      "data_basis": [
+        "mobility_access_handover"
+      ],
+      "insight_lands": true,
+      "legible_unaided": true,
+      "moment_id": "M06",
+      "renders_live": true,
+      "score_status": "demonstrable",
+      "status": "committed_if_present",
+      "title": "Tradeoff on shared axes",
+      "viewer_status": "internal_proxy_pending_naive_viewer"
+    },
+    {
+      "beat": "B12",
+      "boundary_visible": true,
+      "captured_clean": false,
+      "data_basis": [
+        "option_set_fields_if_present"
+      ],
+      "insight_lands": false,
+      "legible_unaided": false,
+      "moment_id": "M04",
+      "partial_reason": "commit-only-if-present field not proven in certified facts",
+      "renders_live": false,
+      "score_status": "documented_partial",
+      "status": "documented_partial",
+      "title": "Do-nothing baseline",
+      "viewer_status": "not_scored"
+    },
+    {
+      "beat": "B13",
+      "boundary_visible": true,
+      "captured_clean": false,
+      "data_basis": [
+        "option_set_fields_if_present"
+      ],
+      "insight_lands": false,
+      "legible_unaided": false,
+      "moment_id": "M05",
+      "partial_reason": "commit-only-if-present field not proven in certified facts",
+      "renders_live": false,
+      "score_status": "documented_partial",
+      "status": "documented_partial",
+      "title": "Abstain no-safe-option",
+      "viewer_status": "not_scored"
+    }
+  ],
+  "scenario_state_ref": "scenario_state:mobility-access-corridor:hero-lon-corridor",
+  "schema_version": "citybrain-d8-moment-scoreboard-r1",
+  "source_root_refs": [
+    {
+      "key": "d8_handoff",
+      "role": "latest green D8 Mobility-reanchored handoff",
+      "root": "outputs/main_citybrain_d8_demonstrability_certified_state_handoff"
+    },
+    {
+      "key": "d8_scoreboard",
+      "role": "D8 moment scoreboard",
+      "root": "outputs/main_citybrain_d8_intelligence_moment_loop_and_scoreboard_r1"
+    },
+    {
+      "key": "mobility_access_handoff",
+      "role": "Mobility Access certified-state handoff",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_certified_state_and_handover_refresh"
+    },
+    {
+      "key": "mobility_access_domain_pack",
+      "role": "Mobility Access domain pack",
+      "root": "outputs/main_citybrain_d6_mobility_access_domain_pack_r1"
+    },
+    {
+      "key": "mobility_access_option_attachments",
+      "role": "Mobility Access option-set attachments",
+      "root": "outputs/main_citybrain_d6_mobility_access_option_set_attachment_r2"
+    },
+    {
+      "key": "track_d_mobility_readiness",
+      "role": "Track D Mobility Access promotion readiness",
+      "root": "outputs/main_citybrain_d6_track_d_mobility_access_promotion_readiness_closeout"
+    },
+    {
+      "key": "track_d_panel",
+      "role": "Track D panel packet source",
+      "root": "outputs/main_citybrain_d6_track_d_promotion_panel_r1"
+    },
+    {
+      "key": "operator_trace_freeze",
+      "role": "governed 9-stage operator trace panel",
+      "root": "outputs/main_citybrain_d6_governed_9_stage_runtime_operator_trace_panel_milestone_freeze"
+    },
+    {
+      "key": "d7_candidate_observation_freeze",
+      "role": "D7 candidate observations",
+      "root": "outputs/main_citybrain_d7_perception_candidate_observation_milestone_freeze"
+    },
+    {
+      "key": "similar_case_freeze",
+      "role": "cross-city similar-case expansion",
+      "root": "outputs/main_citybrain_d6_cross_city_similar_case_expansion_milestone_freeze"
+    },
+    {
+      "key": "cascade_freeze",
+      "role": "cross-domain cascade freeze",
+      "root": "outputs/main_citybrain_d6_cross_domain_cascade_milestone_freeze"
+    },
+    {
+      "key": "demo_capture_pack",
+      "role": "decision-support capture pack facts",
+      "root": "outputs/main_citybrain_d6_decision_support_demo_capture_pack_r1"
+    }
+  ]
+}

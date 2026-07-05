@@ -1,6 +1,7 @@
 import json
 import os
 import subprocess
+import sys
 import unittest
 import zipfile
 from pathlib import Path
@@ -27,7 +28,7 @@ class MainCityBrainR7PerceptionToReviewWorkflowPreflightTests(unittest.TestCase)
     @classmethod
     def setUpClass(cls):
         subprocess.run(
-            [".venv\\Scripts\\python.exe", "scripts\\run_main_citybrain_r7_perception_to_review_workflow_preflight.py"],
+            [sys.executable, "scripts\\run_main_citybrain_r7_perception_to_review_workflow_preflight.py"],
             cwd=ROOT,
             check=True,
             text=True,
