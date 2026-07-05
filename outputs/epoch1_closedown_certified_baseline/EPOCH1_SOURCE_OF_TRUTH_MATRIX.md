@@ -1,0 +1,9 @@
+# Epoch 1 Source Of Truth Matrix
+
+| Area | Source Of Truth | Status | Proof |
+| --- | --- | --- | --- |
+| canonical source branch | origin/main | canonical | origin/main |
+| Push 2-7 branch evidence | lane/integration branches | canonical | origin/codex/push2-lane-a-check-authority-v1, origin/codex/push2-lane-b-watch-scout-v1, origin/codex/push2-lane-c-app-review-route-disposition, origin/codex/push2-check-watch-app-review-route-integration, origin/codex/push3-lane-a-brief-flow1-packaging, origin/codex/push3-lane-b-cockpit-source-record-360, origin/codex/push3-lane-c-diff-recall-readonly, origin/codex/push3-infra-after-three-lanes, origin/codex/push4-lane-a-cer-engine, origin/codex/push4-lane-b-semantic-graph-v2, origin/codex/push4-lane-c-check-v1, origin/codex/push4-infra-after-three-lanes, origin/codex/push5-lane-a-spatial-ui-ux, origin/codex/push5-lane-b-perception-media-evidence, origin/codex/push5-lane-c-watch-workflow-state, origin/codex/push5-infra-after-three-lanes, origin/codex/push6-lane-a-approval-lifecycle, origin/codex/push6-lane-b-plan-mode, origin/codex/push6-lane-c-schedule-simulate, origin/codex/push6-infra-after-three-lanes, origin/codex/push7-lane-a-federation-data-maturity, origin/codex/push7-lane-b-rbac-audit-observability, origin/codex/push7-lane-c-execution-readiness-autonomy-preflight, origin/codex/push7-infra-after-three-lanes |
+| Push 1-7 validation | origin/codex/push1-to-push7-full-stack-validation | canonical | outputs/push1_to_push7_full_stack_validation |
+| Learning substrate | docs/architecture/07_CITYBRAIN_LEARNING_AND_PREDICTIVE_INTELLIGENCE.md | deferred_future_track | outputs/push1_to_push7_full_stack_validation_learning_substrate |
+| Historical outputs | branch artifacts only | validated_not_main | branch output roots; intentionally absent from origin/main |

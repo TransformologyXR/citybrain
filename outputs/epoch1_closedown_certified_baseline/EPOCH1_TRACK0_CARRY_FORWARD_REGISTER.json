@@ -1,0 +1,50 @@
+[
+  {
+    "deadline": "Epoch 2.0 docs release candidate",
+    "impact": "Label correction not proven in a retained Doc 03 artifact in this closedown tree.",
+    "item": "D13/R5 label fix in Doc 03 section 6.14",
+    "next_proof_condition": "Doc 03 diff showing corrected D13/R5 label.",
+    "owner": "Track 0 / Docs",
+    "status": "carried"
+  },
+  {
+    "deadline": "Epoch 2.1 domain-pack preflight",
+    "impact": "Mapping policy needs one authoritative table.",
+    "item": "resource/development entity-type mapping",
+    "next_proof_condition": "Committed mapping table plus semantic graph fixture.",
+    "owner": "Contracts / Semantic Graph",
+    "status": "carried"
+  },
+  {
+    "deadline": "Epoch 2 release snapshot",
+    "impact": "Useful external packaging but not required for source baseline.",
+    "item": "executive one-pager",
+    "next_proof_condition": "Approved one-pager in docs/release.",
+    "owner": "Product / Track 0",
+    "status": "carried"
+  },
+  {
+    "deadline": "Epoch 2.0 operating docs pass",
+    "impact": "Cadence spec not certified in this closedown.",
+    "item": "R3/R4 docs release with operating agreement + cadence spec",
+    "next_proof_condition": "Operating agreement and cadence artifact.",
+    "owner": "Track 0 / Governance",
+    "status": "carried"
+  },
+  {
+    "deadline": "Epoch 2.1 maturity dashboard prep",
+    "impact": "Freshness policy exists as ledger, not scheduled maintenance.",
+    "item": "source refresh / ingestion maintenance",
+    "next_proof_condition": "Refresh cadence policy and first refresh run.",
+    "owner": "Data / INFRA",
+    "status": "carried"
+  },
+  {
+    "deadline": "Epoch 2.0 preflight",
+    "impact": "v4 contradiction pair proven; v7 formal corpus index is not one canonical release artifact.",
+    "item": "regression corpus versions",
+    "next_proof_condition": "Formal regression corpus v7 release index.",
+    "owner": "INFRA / Tests",
+    "status": "carried"
+  }
+]

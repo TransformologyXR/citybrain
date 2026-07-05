@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "actual_epoch1_support": "contract/replay/preflight only",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "SUMO",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "cuOpt",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "pandapower",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "EPANET",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "Earth-2 / CorrDiff",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "NVIDIA Cosmos",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "GNN stack / cuGraph-PyG",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "live cameras / production perception",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "live Kit control",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "citywide twin",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "LLM proposal hooks",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "contract/replay/preflight only",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "federation / cross-city claims",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "production execution adapters",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "contract/replay/preflight only",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "conditional autonomy",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    },
+    {
+      "actual_epoch1_support": "contract/replay/preflight only",
+      "boundary": "parked; no production/live/action claim",
+      "deadline_or_future_epoch": "future epoch, not Epoch 1",
+      "item": "Doc 07 learning loops",
+      "owner": "INFRA / owning domain lane",
+      "planned_reentry": "future gated package",
+      "revised_reentry": "Epoch 2+ only after explicit gate",
+      "still_correct": true
+    }
+  ],
+  "items_revalidated": 15,
+  "reentry_changes": 0,
+  "schema_version": "main-citybrain.epoch1.parked_register.v1",
+  "status": "PASS",
+  "still_parked": 15
+}

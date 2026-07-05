@@ -1,0 +1,58 @@
+[
+  {
+    "basis": "R7/Event Fabric branches",
+    "boundary": "Replay fixtures are valid for local review, not live truth.",
+    "next_proof_condition": "Epoch 2 replay pack refresh policy.",
+    "source_family": "Event Fabric replay fixtures",
+    "status": "sample_replay"
+  },
+  {
+    "basis": "Push 5 / R7/R9 evidence paths",
+    "boundary": "Replay/sample media only.",
+    "next_proof_condition": "Perception source registry refresh.",
+    "source_family": "perception/media evidence sources",
+    "status": "sample_replay"
+  },
+  {
+    "basis": "Metropolis/VSS R6-R9 branches",
+    "boundary": "VSS is not a fact source.",
+    "next_proof_condition": "Readiness endpoint and replay-only narration gate.",
+    "source_family": "VSS narrative sidecars",
+    "status": "deferred_live_source"
+  },
+  {
+    "basis": "Push 4 CER",
+    "boundary": "Candidate entity evidence only.",
+    "next_proof_condition": "Domain-pack source refresh ledger.",
+    "source_family": "CER source records",
+    "status": "fixture_only"
+  },
+  {
+    "basis": "Push 2/4 CHECK",
+    "boundary": "Authority envelopes are local fixtures.",
+    "next_proof_condition": "Authority policy refresh.",
+    "source_family": "CHECK/Authority reports",
+    "status": "fixture_only"
+  },
+  {
+    "basis": "Push 5 Spatial UI",
+    "boundary": "Overlay data is local/replay.",
+    "next_proof_condition": "Spatial pack refresh policy.",
+    "source_family": "spatial overlays",
+    "status": "sample_replay"
+  },
+  {
+    "basis": "Push 7 Federation",
+    "boundary": "Synthetic/Dubai pack makes no real Dubai claim.",
+    "next_proof_condition": "Synthetic label retained in maturity dashboard.",
+    "source_family": "federation synthetic/Dubai pack",
+    "status": "synthetic"
+  },
+  {
+    "basis": "Track 0 / Data",
+    "boundary": "No live current-truth guarantee.",
+    "next_proof_condition": "Live-source onboarding policy.",
+    "source_family": "external/public/live sources",
+    "status": "unknown_needs_refresh_policy"
+  }
+]

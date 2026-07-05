@@ -1,0 +1,15 @@
+{
+  "canonical_main_not_closed": false,
+  "chosen_target": "origin/main",
+  "closedown_branch": "codex/epoch1-closedown-certified-baseline",
+  "created_at": "2026-07-05T23:49:00Z",
+  "main_contains_push7": true,
+  "main_contains_validation": true,
+  "main_is_source_only": true,
+  "push7_branch_exists": true,
+  "repo_cleanup_branch_exists": false,
+  "schema_version": "main-citybrain.epoch1.target_selection.v1",
+  "target_head": "6394a43",
+  "target_head_full": "6394a43cc94fb2f7bec7b3cc9428b3532760558e",
+  "validation_branch_exists": true
+}

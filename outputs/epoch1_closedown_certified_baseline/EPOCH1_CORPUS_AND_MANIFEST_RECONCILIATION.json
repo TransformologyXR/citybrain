@@ -1,0 +1,17 @@
+{
+  "corpus_final_version": "v7_formalization_carried",
+  "corpus_growth_rule_through_v7": "limitation",
+  "frozen_eval_slices_pinned": 5,
+  "hash_manifests_checked": 26,
+  "hash_mismatches": [],
+  "limitations": [
+    {
+      "deadline": "Epoch 2.0 preflight",
+      "id": "EPOCH1_REGRESSION_CORPUS_V7_FORMALIZATION_CARRIED",
+      "impact": "product stack validated but corpus release needs formal publish index",
+      "owner": "INFRA"
+    }
+  ],
+  "schema_version": "main-citybrain.epoch1.corpus_manifest_reconciliation.v1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

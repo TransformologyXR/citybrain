@@ -1,0 +1,263 @@
+[
+  {
+    "authority_boundary": "Answer/review only; no official action.",
+    "component": "ASK",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Sealed G1-G8 runtime not changed.",
+    "next_epoch_expected_movement": "Keep stable; only audited fixture expansion.",
+    "proof_refs": [
+      "packages/ask_v11",
+      "docs/ask-v11/ask-v11-app-handoff-closeout.md"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "Claim support, not official finding.",
+    "component": "CHECK v0",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Local authority and freshness only.",
+    "next_epoch_expected_movement": "Fold into CHECK v1 evidence views.",
+    "proof_refs": [
+      "outputs/push2_lane_a_check_authority_v1"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No truth collapse or legal finding.",
+    "component": "CHECK v1",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Contradictions retained for review.",
+    "next_epoch_expected_movement": "Formal corpus v7 index.",
+    "proof_refs": [
+      "outputs/push4_lane_c_check_v1"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No monitoring or alerting.",
+    "component": "WATCH",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Scout/watchlist semantics only.",
+    "next_epoch_expected_movement": "Operator refresh cadence.",
+    "proof_refs": [
+      "outputs/push2_lane_b_watch_scout_v1"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No official case creation.",
+    "component": "App Review Route",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Static/local review path.",
+    "next_epoch_expected_movement": "Wire into product review polish.",
+    "proof_refs": [
+      "outputs/push2_lane_c_app_review_route"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No dispatch/control.",
+    "component": "DispositionEvent / Review workflow",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Local event writeback only.",
+    "next_epoch_expected_movement": "Durable audit storage hardening.",
+    "proof_refs": [
+      "outputs/push2_lane_c_app_review_route",
+      "outputs/push5_lane_c_watch_workflow_state"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "Review surface only.",
+    "component": "Cockpit / SourceRecord360",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Source-record 360 remains local.",
+    "next_epoch_expected_movement": "Operator validation.",
+    "proof_refs": [
+      "outputs/push3_lane_b_cockpit_source_record_360"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No policy decision authority.",
+    "component": "BRIEF v2 / Flow 1",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Briefing is evidence-linked.",
+    "next_epoch_expected_movement": "UX writing calibration.",
+    "proof_refs": [
+      "outputs/push3_lane_a_brief_v2_flow1_packaging"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No mutation.",
+    "component": "DIFF",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Read-only comparison only.",
+    "next_epoch_expected_movement": "Integrate with review queue.",
+    "proof_refs": [
+      "outputs/push3_lane_c_diff_recall_readonly"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No automated precedent claim.",
+    "component": "RECALL",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Read-only similar-case retrieval.",
+    "next_epoch_expected_movement": "Case retention policy.",
+    "proof_refs": [
+      "outputs/push3_lane_c_diff_recall_readonly"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No final identity truth.",
+    "component": "CER",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Entity resolution is candidate/review.",
+    "next_epoch_expected_movement": "Domain-pack expansion.",
+    "proof_refs": [
+      "packages/cer",
+      "outputs/push4_lane_a_cer_engine"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No citywide certified graph.",
+    "component": "Semantic Graph v2",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Local graph fixtures.",
+    "next_epoch_expected_movement": "Edge-rule authorship.",
+    "proof_refs": [
+      "packages/semantic_graph",
+      "outputs/push4_lane_b_semantic_graph_v2"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No live Kit control.",
+    "component": "Spatial UI/UX",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Local/replay overlays.",
+    "next_epoch_expected_movement": "Native Kit polish.",
+    "proof_refs": [
+      "outputs/push5_lane_a_spatial_ui_ux"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No production perception fact source.",
+    "component": "Perception media evidence",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Replay/sample media only.",
+    "next_epoch_expected_movement": "DeepStream/VSS runtime evidence gates.",
+    "proof_refs": [
+      "outputs/push5_lane_b_perception_media_evidence"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No workflow automation.",
+    "component": "Workflow state",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Review lifecycle state only.",
+    "next_epoch_expected_movement": "Operator audit hardening.",
+    "proof_refs": [
+      "outputs/push5_lane_c_watch_workflow_state"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No action authorization.",
+    "component": "Approval lifecycle",
+    "epoch1_maturity_level": "M3 product-integrated read-only/review",
+    "limitations": "Human approval artifacts only.",
+    "next_epoch_expected_movement": "Authority policy review.",
+    "proof_refs": [
+      "packages/approval_lifecycle",
+      "outputs/push6_lane_a_approval_lifecycle"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No routing/control.",
+    "component": "PLAN",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Option sets remain not_executed.",
+    "next_epoch_expected_movement": "Planner UX.",
+    "proof_refs": [
+      "packages/plan_mode",
+      "outputs/push6_lane_b_plan_mode"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No operational schedule submission.",
+    "component": "SCHEDULE",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Schedule scenario only.",
+    "next_epoch_expected_movement": "Simulation baselines.",
+    "proof_refs": [
+      "outputs/push6_lane_c_schedule_simulate"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No predictive guarantee.",
+    "component": "SIMULATE",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Scenario record only.",
+    "next_epoch_expected_movement": "Do-nothing baseline hardening.",
+    "proof_refs": [
+      "outputs/push6_lane_c_schedule_simulate"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No production federation.",
+    "component": "Federation/data maturity",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Department-local fixtures.",
+    "next_epoch_expected_movement": "Maturity dashboard input.",
+    "proof_refs": [
+      "packages/federation",
+      "outputs/push7_lane_a_federation_data_maturity"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "Not production IAM.",
+    "component": "RBAC/audit/observability",
+    "epoch1_maturity_level": "M2 offline/local replay capability",
+    "limitations": "Policy fixtures only.",
+    "next_epoch_expected_movement": "Enterprise hardening later.",
+    "proof_refs": [
+      "outputs/push7_lane_b_rbac_audit_observability"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No execution or autonomy.",
+    "component": "Execution readiness / autonomy preflight",
+    "epoch1_maturity_level": "M1 contract/fixtures",
+    "limitations": "Blocked preflight only.",
+    "next_epoch_expected_movement": "Adapter dry-run proof only.",
+    "proof_refs": [
+      "outputs/push7_lane_c_execution_readiness_autonomy_preflight"
+    ],
+    "status": "canonical"
+  },
+  {
+    "authority_boundary": "No learning runtime authorized.",
+    "component": "Learning substrate collection",
+    "epoch1_maturity_level": "M1 contract/fixtures",
+    "limitations": "Seeds captured only.",
+    "next_epoch_expected_movement": "Epoch 2 governance questions first.",
+    "proof_refs": [
+      "outputs/push1_to_push7_full_stack_validation_learning_substrate",
+      "docs/architecture/07_CITYBRAIN_LEARNING_AND_PREDICTIVE_INTELLIGENCE.md"
+    ],
+    "status": "deferred_future_track"
+  }
+]

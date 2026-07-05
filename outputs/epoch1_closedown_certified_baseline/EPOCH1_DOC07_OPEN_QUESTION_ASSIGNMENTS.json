@@ -1,0 +1,50 @@
+{
+  "Doc07_future_track_only": true,
+  "assignments": [
+    {
+      "deadline": "early Epoch 2.1",
+      "owner": "Track 0 / Governance",
+      "prerequisite": "operator-data privacy policy",
+      "question": "Q1 Aggregation floor N and operator-data policy note",
+      "status": "assigned_not_started"
+    },
+    {
+      "deadline": "before L2.R2",
+      "owner": "Product + Data / Forecast track later",
+      "prerequisite": "default proposed target: permit-stall unless changed",
+      "question": "Q2 First forecast target confirmation",
+      "status": "assigned_not_started"
+    },
+    {
+      "deadline": "before L3.R1",
+      "owner": "Semantic Graph / Domain-pack owners / INFRA",
+      "prerequisite": "edge-type governance table",
+      "question": "Q3 Propagation rule authorship per edge type",
+      "status": "assigned_not_started"
+    },
+    {
+      "deadline": "before uncertainty enforcement",
+      "owner": "CHECK + BRIEF / UX writing",
+      "prerequisite": "calibrated language table",
+      "question": "Q4 Calibrated-language rendering table ownership",
+      "status": "assigned_not_started"
+    },
+    {
+      "deadline": "early Epoch 2.1",
+      "owner": "Track 0 / Governance + Federation",
+      "prerequisite": "case retention policy",
+      "question": "Q5 Case retention and right-to-forget interaction",
+      "status": "assigned_not_started"
+    },
+    {
+      "deadline": "before Loop 2 ships",
+      "owner": "INFRA / Contracts / CHECK",
+      "prerequisite": "uncertainty contract delta proposal",
+      "question": "Q6 Uncertainty extension path",
+      "status": "assigned_not_started"
+    }
+  ],
+  "no_learning_runtime_authorized": true,
+  "schema_version": "main-citybrain.epoch1.doc07_assignments.v1",
+  "status": "PASS"
+}

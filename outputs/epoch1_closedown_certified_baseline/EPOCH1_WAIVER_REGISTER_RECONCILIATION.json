@@ -1,0 +1,99 @@
+{
+  "ask_contradiction_waiver_proof": [
+    "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+    "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+    "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json"
+  ],
+  "ask_contradiction_waiver_status": "closed",
+  "schema_version": "main-citybrain.epoch1.waiver_reconciliation.v1",
+  "status": "PASS_WITH_LIMITATIONS",
+  "waivers": [
+    {
+      "deadline": "closed in Epoch 1 via Push 4 proof",
+      "evidence": {
+        "attribute_name": "candidate_object_class",
+        "check_v1_references_pair": true,
+        "corpus_status": "READY_FOR_INFRA_CORPUS_V4",
+        "entity_ref": "cer:entity:local-replay:153cd184f78bac1c",
+        "fixture_id": "ask:regression:v4:retained_contradiction_pair:push4_lane_c_001",
+        "infra_references_pair": true,
+        "left_value": "person_like_shape",
+        "right_value": "review_item_without_verified_class"
+      },
+      "owner": "INFRA / CHECK v1",
+      "proof_refs": [
+        "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+        "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+        "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json"
+      ],
+      "risk": "closed with retained same-claim pair proof",
+      "status": "CLOSED",
+      "waiver_id": "ASK_REAL_CORPUS_CONTRADICTION_WAIVER"
+    },
+    {
+      "deadline": "Epoch 2.0 reproducibility pass",
+      "impact": "Older tests still rely on generated output fixture ordering.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "INFRA / Tests",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "CLEAN_WORKTREE_FIXTURE_LIMITATIONS"
+    },
+    {
+      "deadline": "Epoch 2.0 preflight",
+      "impact": "Full discovery remains limited by generated-output assumptions.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "INFRA / Test harness",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "FULL_DISCOVERY_GENERATED_OUTPUT_LIMITATIONS"
+    },
+    {
+      "deadline": "After Q1-Q6 answers",
+      "impact": "Doc 07 is captured as future-track only; no learning runtime authorized.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "Track 0 / Governance + Learning",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "DOC07_LEARNING_RUNTIME_DEFERRED"
+    },
+    {
+      "deadline": "Future live-source onboarding gate",
+      "impact": "Replay/sample perception only.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "Perception / INFRA",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "LIVE_SOURCE_CAMERA_DEFERRED"
+    },
+    {
+      "deadline": "Epoch 2 productization planning",
+      "impact": "Native Kit polish remains separate from local web/replay proof.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "Spatial UI / Kit",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "NATIVE_KIT_POLISH_DEFERRED"
+    },
+    {
+      "deadline": "Future enterprise hardening gate",
+      "impact": "RBAC is local fixture governance, not production IAM.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "Governance / Security",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "PRODUCTION_RBAC_DEFERRED"
+    },
+    {
+      "deadline": "Epoch 2.0 preflight",
+      "impact": "Product stack is validated; formal corpus release index through v7 is not yet published as one canonical corpus.",
+      "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+      "owner": "INFRA",
+      "proof_refs": [],
+      "status": "CARRIED",
+      "waiver_id": "REGRESSION_CORPUS_V7_FORMALIZATION"
+    }
+  ],
+  "waivers_carried": 7,
+  "waivers_closed": 1
+}

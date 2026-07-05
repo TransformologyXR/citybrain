@@ -1,0 +1,13 @@
+{
+  "Epoch2_baseline_ready": true,
+  "M_level_summary": {
+    "M1": 2,
+    "M2": 10,
+    "M3": 11
+  },
+  "mode_agent_rows": 23,
+  "no_m4_plus_overclaim": true,
+  "proof_refs_indexed": 31,
+  "schema_version": "main-citybrain.epoch1.certified_state_update.v1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

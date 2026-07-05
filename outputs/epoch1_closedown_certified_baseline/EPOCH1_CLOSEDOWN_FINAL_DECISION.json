@@ -1,0 +1,559 @@
+{
+  "canonical_state": {
+    "branch_published_stragglers": [
+      "historical output artifacts remain branch-only by policy; source is on origin/main"
+    ],
+    "canonical_status_summary": {
+      "canonical": 26
+    },
+    "frozen_shapes_indexed": 26,
+    "schema_version": "main-citybrain.epoch1.canonical_state_reconciliation.v1",
+    "source_of_truth_matrix_current": true,
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "certified_state": {
+    "Epoch2_baseline_ready": true,
+    "M_level_summary": {
+      "M1": 2,
+      "M2": 10,
+      "M3": 11
+    },
+    "mode_agent_rows": 23,
+    "no_m4_plus_overclaim": true,
+    "proof_refs_indexed": 31,
+    "schema_version": "main-citybrain.epoch1.certified_state_update.v1",
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "contract_check": {
+    "formal closedown gate only": true,
+    "no Doc07 learning runtime": true,
+    "no feature implementation": true,
+    "no live/API/URL/LLM": true,
+    "no official/dispatch/control/legal/certified/autonomy claim": true,
+    "no protected R7 drift": true,
+    "no sealed ASK drift": true,
+    "no secrets/raw/media/caches committed": true
+  },
+  "corpus": {
+    "corpus_final_version": "v7_formalization_carried",
+    "corpus_growth_rule_through_v7": "limitation",
+    "frozen_eval_slices_pinned": 5,
+    "hash_manifests_checked": 26,
+    "hash_mismatches": [],
+    "limitations": [
+      {
+        "deadline": "Epoch 2.0 preflight",
+        "id": "EPOCH1_REGRESSION_CORPUS_V7_FORMALIZATION_CARRIED",
+        "impact": "product stack validated but corpus release needs formal publish index",
+        "owner": "INFRA"
+      }
+    ],
+    "schema_version": "main-citybrain.epoch1.corpus_manifest_reconciliation.v1",
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "data_freshness": {
+    "maturity_dashboard_ready_input": true,
+    "rows": [
+      {
+        "basis": "R7/Event Fabric branches",
+        "boundary": "Replay fixtures are valid for local review, not live truth.",
+        "next_proof_condition": "Epoch 2 replay pack refresh policy.",
+        "source_family": "Event Fabric replay fixtures",
+        "status": "sample_replay"
+      },
+      {
+        "basis": "Push 5 / R7/R9 evidence paths",
+        "boundary": "Replay/sample media only.",
+        "next_proof_condition": "Perception source registry refresh.",
+        "source_family": "perception/media evidence sources",
+        "status": "sample_replay"
+      },
+      {
+        "basis": "Metropolis/VSS R6-R9 branches",
+        "boundary": "VSS is not a fact source.",
+        "next_proof_condition": "Readiness endpoint and replay-only narration gate.",
+        "source_family": "VSS narrative sidecars",
+        "status": "deferred_live_source"
+      },
+      {
+        "basis": "Push 4 CER",
+        "boundary": "Candidate entity evidence only.",
+        "next_proof_condition": "Domain-pack source refresh ledger.",
+        "source_family": "CER source records",
+        "status": "fixture_only"
+      },
+      {
+        "basis": "Push 2/4 CHECK",
+        "boundary": "Authority envelopes are local fixtures.",
+        "next_proof_condition": "Authority policy refresh.",
+        "source_family": "CHECK/Authority reports",
+        "status": "fixture_only"
+      },
+      {
+        "basis": "Push 5 Spatial UI",
+        "boundary": "Overlay data is local/replay.",
+        "next_proof_condition": "Spatial pack refresh policy.",
+        "source_family": "spatial overlays",
+        "status": "sample_replay"
+      },
+      {
+        "basis": "Push 7 Federation",
+        "boundary": "Synthetic/Dubai pack makes no real Dubai claim.",
+        "next_proof_condition": "Synthetic label retained in maturity dashboard.",
+        "source_family": "federation synthetic/Dubai pack",
+        "status": "synthetic"
+      },
+      {
+        "basis": "Track 0 / Data",
+        "boundary": "No live current-truth guarantee.",
+        "next_proof_condition": "Live-source onboarding policy.",
+        "source_family": "external/public/live sources",
+        "status": "unknown_needs_refresh_policy"
+      }
+    ],
+    "schema_version": "main-citybrain.epoch1.data_freshness.v1",
+    "source_refresh_ledger_current": true,
+    "stale_labeled_sources": 0,
+    "status": "PASS_WITH_LIMITATIONS",
+    "unknown_sources": 1
+  },
+  "doc07": {
+    "Doc07_future_track_only": true,
+    "assignments": [
+      {
+        "deadline": "early Epoch 2.1",
+        "owner": "Track 0 / Governance",
+        "prerequisite": "operator-data privacy policy",
+        "question": "Q1 Aggregation floor N and operator-data policy note",
+        "status": "assigned_not_started"
+      },
+      {
+        "deadline": "before L2.R2",
+        "owner": "Product + Data / Forecast track later",
+        "prerequisite": "default proposed target: permit-stall unless changed",
+        "question": "Q2 First forecast target confirmation",
+        "status": "assigned_not_started"
+      },
+      {
+        "deadline": "before L3.R1",
+        "owner": "Semantic Graph / Domain-pack owners / INFRA",
+        "prerequisite": "edge-type governance table",
+        "question": "Q3 Propagation rule authorship per edge type",
+        "status": "assigned_not_started"
+      },
+      {
+        "deadline": "before uncertainty enforcement",
+        "owner": "CHECK + BRIEF / UX writing",
+        "prerequisite": "calibrated language table",
+        "question": "Q4 Calibrated-language rendering table ownership",
+        "status": "assigned_not_started"
+      },
+      {
+        "deadline": "early Epoch 2.1",
+        "owner": "Track 0 / Governance + Federation",
+        "prerequisite": "case retention policy",
+        "question": "Q5 Case retention and right-to-forget interaction",
+        "status": "assigned_not_started"
+      },
+      {
+        "deadline": "before Loop 2 ships",
+        "owner": "INFRA / Contracts / CHECK",
+        "prerequisite": "uncertainty contract delta proposal",
+        "question": "Q6 Uncertainty extension path",
+        "status": "assigned_not_started"
+      }
+    ],
+    "no_learning_runtime_authorized": true,
+    "schema_version": "main-citybrain.epoch1.doc07_assignments.v1",
+    "status": "PASS"
+  },
+  "ledger": {
+    "branch_missing_count": 0,
+    "ledger_row_count": 27,
+    "limitations": [
+      "No explicit closeout artifact found under the expected root; covered by integration/final branch evidence where available.",
+      "No explicit final-status artifact found under the expected root; covered by integration/final branch evidence where available.",
+      "main is a source-only canonical branch; historical output artifacts are intentionally not tracked on main."
+    ],
+    "missing_rows": [],
+    "push2_to_push7_row_count": 24,
+    "schema_version": "main-citybrain.epoch1.ledger_reconciliation.v1",
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "limitations": [
+    "Full unittest discovery was not run in this source-only closedown because old generated-output tests are known to create or require ignored outputs.",
+    "Historical output artifacts remain branch evidence and are intentionally not tracked on origin/main.",
+    "Regression corpus v4 ASK contradiction proof is closed; formal v7 corpus release index is carried to Epoch 2.0 preflight.",
+    "Track 0 still has carried docs/governance/source-refresh debt with explicit owners and deadlines.",
+    "Doc 07 remains future-track only; no learning runtime, model, forecast, backtest, or uncertainty delta is authorized."
+  ],
+  "main_merged": false,
+  "package": "MAIN-CITYBRAIN-EPOCH1-CLOSEDOWN-CERTIFIED-BASELINE",
+  "parked_register": {
+    "items": [
+      {
+        "actual_epoch1_support": "contract/replay/preflight only",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "SUMO",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "cuOpt",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "pandapower",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "EPANET",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "Earth-2 / CorrDiff",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "NVIDIA Cosmos",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "GNN stack / cuGraph-PyG",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "live cameras / production perception",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "live Kit control",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "citywide twin",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "LLM proposal hooks",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "contract/replay/preflight only",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "federation / cross-city claims",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "not active in Epoch 1 certified baseline",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "production execution adapters",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "contract/replay/preflight only",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "conditional autonomy",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      },
+      {
+        "actual_epoch1_support": "contract/replay/preflight only",
+        "boundary": "parked; no production/live/action claim",
+        "deadline_or_future_epoch": "future epoch, not Epoch 1",
+        "item": "Doc 07 learning loops",
+        "owner": "INFRA / owning domain lane",
+        "planned_reentry": "future gated package",
+        "revised_reentry": "Epoch 2+ only after explicit gate",
+        "still_correct": true
+      }
+    ],
+    "items_revalidated": 15,
+    "reentry_changes": 0,
+    "schema_version": "main-citybrain.epoch1.parked_register.v1",
+    "status": "PASS",
+    "still_parked": 15
+  },
+  "pushed": false,
+  "schema_version": "main-citybrain.epoch1.final_decision.v1",
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH1_CLOSEDOWN_CERTIFIED_BASELINE_WITH_LIMITATIONS",
+  "target": {
+    "canonical_main_not_closed": false,
+    "chosen_target": "origin/main",
+    "closedown_branch": "codex/epoch1-closedown-certified-baseline",
+    "created_at": "2026-07-05T23:49:00Z",
+    "main_contains_push7": true,
+    "main_contains_validation": true,
+    "main_is_source_only": true,
+    "push7_branch_exists": true,
+    "repo_cleanup_branch_exists": false,
+    "schema_version": "main-citybrain.epoch1.target_selection.v1",
+    "target_head": "6394a43",
+    "target_head_full": "6394a43cc94fb2f7bec7b3cc9428b3532760558e",
+    "validation_branch_exists": true
+  },
+  "tests": {
+    "focused_closedown_tests": "PASS: python -m unittest tests.test_main_citybrain_epoch1_closedown_certified_baseline",
+    "full_discovery": "not_run_known_generated_output_limitations",
+    "protected_ASK_R7_diff": "PASS",
+    "schema_version": "main-citybrain.epoch1.test_report.v1",
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "track0": {
+    "D13_R5_status": "carried",
+    "debt_burned": 3,
+    "debt_carried": 6,
+    "docs_release_status": "carried",
+    "entity_mapping_status": "carried",
+    "exec_one_pager_status": "carried",
+    "items": [
+      {
+        "deadline": "Epoch 2.0 docs release candidate",
+        "impact": "Label correction not proven in a retained Doc 03 artifact in this closedown tree.",
+        "item": "D13/R5 label fix in Doc 03 section 6.14",
+        "next_proof_condition": "Doc 03 diff showing corrected D13/R5 label.",
+        "owner": "Track 0 / Docs",
+        "status": "carried"
+      },
+      {
+        "deadline": "Epoch 2.1 domain-pack preflight",
+        "impact": "Mapping policy needs one authoritative table.",
+        "item": "resource/development entity-type mapping",
+        "next_proof_condition": "Committed mapping table plus semantic graph fixture.",
+        "owner": "Contracts / Semantic Graph",
+        "status": "carried"
+      },
+      {
+        "deadline": "Epoch 2 release snapshot",
+        "impact": "Useful external packaging but not required for source baseline.",
+        "item": "executive one-pager",
+        "next_proof_condition": "Approved one-pager in docs/release.",
+        "owner": "Product / Track 0",
+        "status": "carried"
+      },
+      {
+        "deadline": "Epoch 2.0 operating docs pass",
+        "impact": "Cadence spec not certified in this closedown.",
+        "item": "R3/R4 docs release with operating agreement + cadence spec",
+        "next_proof_condition": "Operating agreement and cadence artifact.",
+        "owner": "Track 0 / Governance",
+        "status": "carried"
+      },
+      {
+        "deadline": "this package",
+        "impact": "Created by EPOCH1_SOURCE_OF_TRUTH_MATRIX.",
+        "item": "source-of-truth matrix",
+        "next_proof_condition": "outputs/epoch1_closedown_certified_baseline/EPOCH1_SOURCE_OF_TRUTH_MATRIX.json",
+        "owner": "INFRA",
+        "status": "burned"
+      },
+      {
+        "deadline": "this package",
+        "impact": "Created by EPOCH1_MASTER_LEDGER_ROWS.",
+        "item": "master ledger row per closeout",
+        "next_proof_condition": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+        "owner": "INFRA",
+        "status": "burned"
+      },
+      {
+        "deadline": "Epoch 2.1 maturity dashboard prep",
+        "impact": "Freshness policy exists as ledger, not scheduled maintenance.",
+        "item": "source refresh / ingestion maintenance",
+        "next_proof_condition": "Refresh cadence policy and first refresh run.",
+        "owner": "Data / INFRA",
+        "status": "carried"
+      },
+      {
+        "deadline": "Epoch 2.0 preflight",
+        "impact": "v4 contradiction pair proven; v7 formal corpus index is not one canonical release artifact.",
+        "item": "regression corpus versions",
+        "next_proof_condition": "Formal regression corpus v7 release index.",
+        "owner": "INFRA / Tests",
+        "status": "carried"
+      },
+      {
+        "deadline": "this package",
+        "impact": "Doc 07 captured and Q1-Q6 assigned; runtime remains deferred.",
+        "item": "Doc 07 captured but future-track only",
+        "next_proof_condition": "docs/architecture/07_CITYBRAIN_LEARNING_AND_PREDICTIVE_INTELLIGENCE.md",
+        "owner": "Track 0 / Learning",
+        "status": "burned"
+      }
+    ],
+    "schema_version": "main-citybrain.epoch1.track0_debt.v1",
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "waivers": {
+    "ask_contradiction_waiver_proof": [
+      "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+      "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+      "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json"
+    ],
+    "ask_contradiction_waiver_status": "closed",
+    "schema_version": "main-citybrain.epoch1.waiver_reconciliation.v1",
+    "status": "PASS_WITH_LIMITATIONS",
+    "waivers": [
+      {
+        "deadline": "closed in Epoch 1 via Push 4 proof",
+        "evidence": {
+          "attribute_name": "candidate_object_class",
+          "check_v1_references_pair": true,
+          "corpus_status": "READY_FOR_INFRA_CORPUS_V4",
+          "entity_ref": "cer:entity:local-replay:153cd184f78bac1c",
+          "fixture_id": "ask:regression:v4:retained_contradiction_pair:push4_lane_c_001",
+          "infra_references_pair": true,
+          "left_value": "person_like_shape",
+          "right_value": "review_item_without_verified_class"
+        },
+        "owner": "INFRA / CHECK v1",
+        "proof_refs": [
+          "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+          "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+          "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json"
+        ],
+        "risk": "closed with retained same-claim pair proof",
+        "status": "CLOSED",
+        "waiver_id": "ASK_REAL_CORPUS_CONTRADICTION_WAIVER"
+      },
+      {
+        "deadline": "Epoch 2.0 reproducibility pass",
+        "impact": "Older tests still rely on generated output fixture ordering.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "INFRA / Tests",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "CLEAN_WORKTREE_FIXTURE_LIMITATIONS"
+      },
+      {
+        "deadline": "Epoch 2.0 preflight",
+        "impact": "Full discovery remains limited by generated-output assumptions.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "INFRA / Test harness",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "FULL_DISCOVERY_GENERATED_OUTPUT_LIMITATIONS"
+      },
+      {
+        "deadline": "After Q1-Q6 answers",
+        "impact": "Doc 07 is captured as future-track only; no learning runtime authorized.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "Track 0 / Governance + Learning",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "DOC07_LEARNING_RUNTIME_DEFERRED"
+      },
+      {
+        "deadline": "Future live-source onboarding gate",
+        "impact": "Replay/sample perception only.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "Perception / INFRA",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "LIVE_SOURCE_CAMERA_DEFERRED"
+      },
+      {
+        "deadline": "Epoch 2 productization planning",
+        "impact": "Native Kit polish remains separate from local web/replay proof.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "Spatial UI / Kit",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "NATIVE_KIT_POLISH_DEFERRED"
+      },
+      {
+        "deadline": "Future enterprise hardening gate",
+        "impact": "RBAC is local fixture governance, not production IAM.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "Governance / Security",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "PRODUCTION_RBAC_DEFERRED"
+      },
+      {
+        "deadline": "Epoch 2.0 preflight",
+        "impact": "Product stack is validated; formal corpus release index through v7 is not yet published as one canonical corpus.",
+        "next_proof_condition": "Dedicated closure artifact or replacement policy before dependent Epoch 2 gate.",
+        "owner": "INFRA",
+        "proof_refs": [],
+        "status": "CARRIED",
+        "waiver_id": "REGRESSION_CORPUS_V7_FORMALIZATION"
+      }
+    ],
+    "waivers_carried": 7,
+    "waivers_closed": 1
+  }
+}

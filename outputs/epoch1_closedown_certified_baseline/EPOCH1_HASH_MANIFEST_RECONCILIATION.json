@@ -1,0 +1,1632 @@
+{
+  "checked_file_count": 268,
+  "checked_manifest_count": 26,
+  "hash_mismatches": [],
+  "line_ending_normalized_file_count": 268,
+  "reports": [
+    {
+      "branch": "origin/codex/push2-lane-a-check-authority-v1",
+      "checked": 9,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "42f9c12b93a97fd4fd1dc96800d5083259fcbebc039ba4ff42a10028a8247936",
+          "path": "outputs/push2_lane_a_check_authority_v1/AUTHORITY_ENVELOPE_FIXTURES.json",
+          "stored_lf_sha256": "57c5394ba2cb1e264310b06a8b3927e6d6f703a7acc97fc1422cf3eca50cef46"
+        },
+        {
+          "manifest_crlf_sha256": "87608e0b9e4940edaa129fde4fbdb3d0d5b58b40742e8450bc7475bdb60b6719",
+          "path": "outputs/push2_lane_a_check_authority_v1/AUTHORITY_ENVELOPE_V1_SCHEMA.json",
+          "stored_lf_sha256": "c31ae19a336b8eb0898bb87542b07b7f73dd945f45c0404736d43ae3bcfbe10b"
+        },
+        {
+          "manifest_crlf_sha256": "b1d6bd3bc8c3e228760b8187ecd5a650f0e1a88fc0c27e2a823ce7221a2623f7",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_REPORT_FIXTURES.json",
+          "stored_lf_sha256": "f34a4ef5df5e8f682957b32941bd972ac6607f1d0131b9ae826af484f396101e"
+        },
+        {
+          "manifest_crlf_sha256": "4c2b4f173fdec0cfdd5d781f1a16dc5723401425dd9929c9e2d011eb003d5171",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_ASK_ATTACHMENT_POLICY.md",
+          "stored_lf_sha256": "a834cc94cd84a41e210cd68df8450154f6784b37870db7cfee93e0aa62356644"
+        },
+        {
+          "manifest_crlf_sha256": "e3c139a5756e24c4ac29ec59a925df019b3cdf98ffefa95b31cdabaa86e3b299",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_AUTHORITY_V1_DECISION.json",
+          "stored_lf_sha256": "d88b50ddc7139273fa6bd149f561f8bfe88e2a65c0b3dc1c8f6d919873f4ccda"
+        },
+        {
+          "manifest_crlf_sha256": "f5978fa978609439d334ef22be8b3d9b4d581c53143c7134a17422af0735bac4",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_BOUNDARY_NEGATIVE_TESTS.json",
+          "stored_lf_sha256": "f88c79d39a9d988f90d064ac0ce1d5bb047e60760f8223e59192d882e0c9c2f2"
+        },
+        {
+          "manifest_crlf_sha256": "315ff9da122da5703c93b0c85eb93e559e627ce8fb29ce7d90a1372698eb5d87",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_FRESHNESS_POLICY.md",
+          "stored_lf_sha256": "91032365961a46ee47f3bbd0cd0c27c5c43cbeb5e43d781d766e0929ada1adb8"
+        },
+        {
+          "manifest_crlf_sha256": "44ba1e481e3ff14b536d420e6f0ba0fb9ea4095fe9c17b3c39f1e0e3115723db",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_SCHEMA.json",
+          "stored_lf_sha256": "68027a40c3635a5f8dad88b019ce2ac1620b146e991ae8d0c030e8ab9b6777aa"
+        },
+        {
+          "manifest_crlf_sha256": "437b7a566d49752cd3b2b4a0bf50bd0ccc188357314caeac98589923c4617e52",
+          "path": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_TEST_LOG.md",
+          "stored_lf_sha256": "baa8246e78ded9acb1ab5947482df47cb5f1b9735eec9078ee86e0e54835b26b"
+        }
+      ],
+      "manifest": "outputs/push2_lane_a_check_authority_v1/CHECK_V0_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push2-lane-b-watch-scout-v1",
+      "checked": 0,
+      "declared_status": "PASS",
+      "line_ending_normalized": [],
+      "manifest": "outputs/push2_lane_b_watch_scout_v1/WATCH_SCOUT_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push2-lane-c-app-review-route-disposition",
+      "checked": 9,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "65da50cf524d0a63b9eef9c49ce0f4dcec599cde415a583f0bcd1daa951b4632",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_BOUNDARY_AUDIT.json",
+          "stored_lf_sha256": "64e99ec032e6c9fd63d85455cb52d693f98622a3d56e464e90049d9a04dc965e"
+        },
+        {
+          "manifest_crlf_sha256": "7530c2c26e09f16ff8fbe5aed257276b075057057b7a5af2c417a71bfae22b95",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_DECISION.json",
+          "stored_lf_sha256": "4c8549f284f8d712dbd899cdc01908dfe28c131aa280d5ce9565cfc5ba4d231e"
+        },
+        {
+          "manifest_crlf_sha256": "4cf5ac088300abf6078719f8f115dc8f8d0055a393616802a898a6ee478155ff",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_DISPOSITION_EVENT_FIXTURES.json",
+          "stored_lf_sha256": "67e3872d88bd8eec71d8ee66b5b3a4344a77689540ecbd4b26004f079a86e744"
+        },
+        {
+          "manifest_crlf_sha256": "fe1ffd3647e357b58faf2691cd24af57acf47743ebf1e648c7e00c63f38a4fcd",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_EVENT_FABRIC_APPEND_LOG.jsonl",
+          "stored_lf_sha256": "a78ec8b8db28e798d688bd44871a163e4829a4d21984a71fb76a2356dda1e74e"
+        },
+        {
+          "manifest_crlf_sha256": "a00b55f752da71c47455b8bbf5608e709b952e0ceefd3990235eb7b071653b07",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_EVENT_TYPE_REGISTRY.json",
+          "stored_lf_sha256": "1c55b21bdcdff923d04a1502b7a8aa4930d7dc184f2b88e5471733d9de2fa589"
+        },
+        {
+          "manifest_crlf_sha256": "e2d5c807bdb56e8fc9a405e077f7aae6417c17a2bfdd9ca51a3bc0ad79348aef",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_FIXTURES.json",
+          "stored_lf_sha256": "86005ecdc1a7898c70777087aacd6893d351842ccc7c0a5caa16a4e61bc8c7c9"
+        },
+        {
+          "manifest_crlf_sha256": "64b6a5e3406f2480b5e9df211a1c7b0fe942f15d8d2b404680678ffd6536b83b",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_RENDER_STATE_REPORT.json",
+          "stored_lf_sha256": "3c035303d7c6c2d699ba4b0fcf900c8ce3e54e8f538adefb293e304d7eedc5bd"
+        },
+        {
+          "manifest_crlf_sha256": "7fedb52140f52ff096be91842467a7d0ac7df9433e86e1e35fa9eec91a057b3c",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_STATIC_WORKSPACE.html",
+          "stored_lf_sha256": "635c8be0aeda3e9c56e5fa57ed91d316bb412648a5e423119809e6de85d85bac"
+        },
+        {
+          "manifest_crlf_sha256": "70a580c7ce3c89ba6f17c1b9524cd462eca66e1e327a2f0041bfcbdd6dfe597d",
+          "path": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_TEST_LOG.md",
+          "stored_lf_sha256": "8493acfb84740f2c9bdb2a2fc3264ba03cce0247ec104cd009d732d311548462"
+        }
+      ],
+      "manifest": "outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push2-check-watch-app-review-route-integration",
+      "checked": 10,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "b7a511285bce070a93a41853b2b08d9438048e9af0bd24ed77cbef85a04a99fb",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "6119328745956ad6b371be04a7e8fe9f5b7ee9cb6fafba3285bc56d5710ba8f9"
+        },
+        {
+          "manifest_crlf_sha256": "150048a552ec11122d4b0ea9f5505decb7cd44562eff4797d8b24742f256dbfe",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_CHECK_AUTHORITY_COVERAGE.json",
+          "stored_lf_sha256": "4eb3e3f367648cb7d10f607ed6acbc8ed559e50bb89eb32325dbce7becdee8c0"
+        },
+        {
+          "manifest_crlf_sha256": "f4ea5d69e9323d001397651edf7e746507e660c17b96ba78c36bea4b2cde7d93",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_CROSS_LANE_COMPATIBILITY_REPORT.json",
+          "stored_lf_sha256": "6f92920da7bbd6b3de69424ebd6cdc026fe729a7de1ee90b1a89d46be3bf0e44"
+        },
+        {
+          "manifest_crlf_sha256": "54883557531aa617a752b3fad7533d15fa53f72914c5d384fcb1bf214b5ac6e1",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_DISPOSITION_EVENT_REPORT.json",
+          "stored_lf_sha256": "055222f7901ec361fc8184324e8b052881ab9901b9c44187a13def8b17706da8"
+        },
+        {
+          "manifest_crlf_sha256": "c49157d49b4c5ab044aa3e48ddbdeac585515853a406f770ae738edacb33fb04",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_INTEGRATED_BRANCH_TOPOLOGY.md",
+          "stored_lf_sha256": "01a7d1888faa59440abe4d8723d15112a7681fd62e160fd7682f65b4607092b2"
+        },
+        {
+          "manifest_crlf_sha256": "5c904518b1ca6b00a3541c08418452ca1dfa1299ff59836cef52f0c47b81f0c1",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_INTEGRATED_COMMIT_MAP.md",
+          "stored_lf_sha256": "ea0de8822fc00ac41e0b8c5176bcc69b65b71819b8eac88b48fce0866d73d416"
+        },
+        {
+          "manifest_crlf_sha256": "68457ad8be9420083ff59e4bcd0cedd85af8d841aadb06b0aaa92dc3bba7151c",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_INTEGRATION_DECISION.json",
+          "stored_lf_sha256": "efca078dde744365e39a956ee69d6fb89fd8f8e136ec1d3abe1540712ad455fc"
+        },
+        {
+          "manifest_crlf_sha256": "a25a791d2f62f36d1de3cff0dfffa76b8070997d8434744943f558cdd9640a08",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_OPEN_LIMITATIONS.md",
+          "stored_lf_sha256": "3afd1dcf6f6a1dab6e0ce91b4f02495ab5c1aa253dc1cd1abebc2c119b25d2b9"
+        },
+        {
+          "manifest_crlf_sha256": "3fabee807c9a14f85187fa38bf33cfbdf848fe1f61de86896f165d71ecaf3d7d",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_UNIFIED_TEST_REPORT.md",
+          "stored_lf_sha256": "70752bf06f4d4ab0a6d68c2d5212b529c9aa885cd98de8e08cedb1eae63a4b10"
+        },
+        {
+          "manifest_crlf_sha256": "cff75c52b6fd5f9cf8c31bb8febe4b595241a7aa34f791cae7ae94f627196e6f",
+          "path": "outputs/push2_check_watch_app_review_route_integration/PUSH2_WATCH_APP_ROUTE_JOIN_REPORT.json",
+          "stored_lf_sha256": "ed741cb247e57ee7662151bbf3d92c3d19ddc95ba1765e3b884bbc8b57f8fd54"
+        }
+      ],
+      "manifest": "outputs/push2_check_watch_app_review_route_integration/PUSH2_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push3-lane-a-brief-flow1-packaging",
+      "checked": 11,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "2e6944f9a21cf8f65e0d24c2664bca7aac25a00d3db59d53c1cf432a40eac3b4",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_CHECK_AUTHORITY_COVERAGE.json",
+          "stored_lf_sha256": "aa7dc6c1e5d2c19d8f31fa462dd06caf00acafc8c1a271c627955b6cd9a8655e"
+        },
+        {
+          "manifest_crlf_sha256": "2ebc3bf56582b339c82f7260789d724e660d739dff9469e9c736bbdc71caf970",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_CONTRACT.json",
+          "stored_lf_sha256": "60f072893d390130fbe71f28ab544fe70fbd30da023b74b3df0b35fc21d752fc"
+        },
+        {
+          "manifest_crlf_sha256": "2bb9865f74f1f9778e91ecb2564a388b67b671e89d9c441eb759b90c65059011",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_FIXTURES.json",
+          "stored_lf_sha256": "5f4d37272d500f1869ff84547d2939248bc500b65d8430c1d241720c341f617c"
+        },
+        {
+          "manifest_crlf_sha256": "384b08ca6ba3f013722b6e01037b83de1c09ed3aec1676d14440f9fd5a480b56",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_FLOW1_DECISION.json",
+          "stored_lf_sha256": "bce3258af9cc58ada8cd7c80ef045183595b4cc817e0e32b79e4dee3fc1dbb7d"
+        },
+        {
+          "manifest_crlf_sha256": "226bde7714e7fdd8c096c16b702613515fa22cdf17667a93387fec808b5b1c94",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_GENERATED_BRIEFS.json",
+          "stored_lf_sha256": "97c412923098a7706c94d75f0b145efb1844baa4bc838510556fd1afac7c561a"
+        },
+        {
+          "manifest_crlf_sha256": "7c5c7c18dee555bc1a930da322341d7afdee81021d1c9a894f1585c793d65122",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "2b26a0ecef48c3ada3ff83c12007e5ff8a731aab41adaafd793d2780ae7cfb2b"
+        },
+        {
+          "manifest_crlf_sha256": "0db7e7217a0f1cdd0d7ba6514c9e05c7ff0388a7e55d9265dd15ae46f1cd2e3e",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_SITUATIONAL_STATUS_EXPORT.json",
+          "stored_lf_sha256": "64c276252ebb206da6a45c2c3e6edf70120dd41cb2eacad3e7aaafbdf2c651e5"
+        },
+        {
+          "manifest_crlf_sha256": "96f5fb38583392c4f5d5e6e5a04658c290c8ef60afe87b739e0090ef98ffd312",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_SITUATIONAL_STATUS_EXPORT.md",
+          "stored_lf_sha256": "4836f6424eb8d541332ae058b49e0f5caa01efcc6bb69da8ab624bb01e9ba54c"
+        },
+        {
+          "manifest_crlf_sha256": "6bfc4ff08a26d6ef918099e77cbbdc398022cf3f72d6020ab8a3605ed1e4ccd6",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_SITUATIONAL_STATUS_LOCAL_OPEN_INDEX.md",
+          "stored_lf_sha256": "29b772461159cfbc7be00bb7fb7d5bc1ee86efe0ddf219d6553c7f06afc17293"
+        },
+        {
+          "manifest_crlf_sha256": "5e11557f8633e722a79b55bc6a03c28bdffe61c663b8d8745998084f303978ef",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_SITUATIONAL_STATUS_PACKAGE_MANIFEST.json",
+          "stored_lf_sha256": "aa076557dce8fd5032dbaad9653db52ce4e035c28fcb2cc81ce4398ff851f1e9"
+        },
+        {
+          "manifest_crlf_sha256": "2697b75ecaf256eb54d557dc9ac5db9c0df12601e13b607ce5ea09a087c03cfa",
+          "path": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_TEST_LOG.md",
+          "stored_lf_sha256": "93c50f9b94fc390076fbd6594c5f92681448f78844bb50a8922c64f87ae35d4c"
+        }
+      ],
+      "manifest": "outputs/push3_lane_a_brief_v2_flow1_packaging/FLOW1_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push3-lane-b-cockpit-source-record-360",
+      "checked": 0,
+      "declared_status": "PASS",
+      "line_ending_normalized": [],
+      "manifest": "outputs/push3_lane_b_cockpit_source_record_360/COCKPIT_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push3-lane-c-diff-recall-readonly",
+      "checked": 10,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "bf4e8ede4377e09287f01fa9dc57938253f33fc0746031ec440ca369e950689c",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_ITEMS.json",
+          "stored_lf_sha256": "798bb607f63bacbe2da73064b53c2fe0c360ca70231a1b472f5f9df3bfa52749"
+        },
+        {
+          "manifest_crlf_sha256": "306f7a27c764ca6479e89700f4f54ff5bcdbcc4077c036766faeef101fd603c8",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "5f2b1fbe6352994dbc02aaa62cad173108f412a70c41d226593a5e4d978394e7"
+        },
+        {
+          "manifest_crlf_sha256": "63364d6d349577e7cb35d39526e680b96e6372724dba04317c3dd9125f073146",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_CHECK_AUTHORITY_COVERAGE.json",
+          "stored_lf_sha256": "6523b4aa5964ca85393051137399568e919639d00762b829fe8ddbc32815e261"
+        },
+        {
+          "manifest_crlf_sha256": "e7cf3d49f0b81613b7ec0b802fb50b6cefd32a66a9d82e866a0e6b66e0e713f8",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_READONLY_DECISION.json",
+          "stored_lf_sha256": "b6fcd8ffda3244501f4b6766e1f869e6c626885fae271a3ac9cb502bde517cdb"
+        },
+        {
+          "manifest_crlf_sha256": "dcb330a17765a5e2eecc47f4b898151261c1963defac136b9256aa14cc691141",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_TEST_LOG.md",
+          "stored_lf_sha256": "996a7344410a57e71dc9ab6ec7919f555e1bfd86f13094cddc6a799b79541aa3"
+        },
+        {
+          "manifest_crlf_sha256": "1cce1756acc493e9721c05364f32be5d11c43dbe24ee9ac860da708c12490224",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_SCOUT_V1_CONTRACT.json",
+          "stored_lf_sha256": "b7ab0dc9c9653acaf1289e00c59c73484232439f7ab7d1ad3f58900de74ad60f"
+        },
+        {
+          "manifest_crlf_sha256": "6fc35dfa59cace3990ecc3a4cc6f5e2c32a6bafb0d269fe2ad2b9abfcd752ce0",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_SCOUT_V1_FIXTURES.json",
+          "stored_lf_sha256": "9cda68f8a2a68413a4ffaa61188fa4fee70bfbf3f97eb2652633fc481c301804"
+        },
+        {
+          "manifest_crlf_sha256": "51de6b01b1309d326bc0a7b3198d94c57d8cb8d11d7e9b64415c17ca4a369c41",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/DIFF_TO_WATCH_COMPATIBILITY.json",
+          "stored_lf_sha256": "487c396368b43a609120ff2030b68469fa226a6e5963b899752eec8225d3debb"
+        },
+        {
+          "manifest_crlf_sha256": "c7eb292e336305a2855fcfb179963b11cc202c277e29b61686b5ea19b95c50a2",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/RECALL_MATCH_ITEMS.json",
+          "stored_lf_sha256": "cbb79a5e6c82b71109d6353c503137969ee4d4da583e65556555b98462b81e27"
+        },
+        {
+          "manifest_crlf_sha256": "eb27434d6fbf54fb927fc98c26a7172d009f857aa6213e4c95790bc11abf5fd4",
+          "path": "outputs/push3_lane_c_diff_recall_readonly/RECALL_MATCHER_CONTRACT.json",
+          "stored_lf_sha256": "246e2dc5779b362eb7f8df16416491be0bd8d84b41d7ab4fe9c121bf2da90158"
+        }
+      ],
+      "manifest": "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push3-infra-after-three-lanes",
+      "checked": 10,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "c0c5e5468c1582349eccb8d958d7e21be622fbe015463d115740138a43a436a2",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "217f10503e05389cc2b34dc0afb22da69d931a33c993595259d8e199a4e8ebdb"
+        },
+        {
+          "manifest_crlf_sha256": "55aa82832cac593151148811f200b4656508752a9b528a74b44fd227c835f425",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_BRANCH_TOPOLOGY.md",
+          "stored_lf_sha256": "a78c8914f40a178c335ee8d88a7c68e118c86b5df543668e5485dad40df4d439"
+        },
+        {
+          "manifest_crlf_sha256": "4e343557b8deaa6df6070c72c3a0970449bfa4e67f3aa9fdc75559550232e204",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_CHECK_AUTHORITY_COVERAGE.json",
+          "stored_lf_sha256": "9dd9a3c39814c3d542ece0ffbe74621cfe6c8cfb33c09f76e741c8a9aa534460"
+        },
+        {
+          "manifest_crlf_sha256": "5a4111f5a3ae63183c2c647044ce1fd1f30ad2f8b1c4c4de7880a8c7df2beefc",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_CROSS_LANE_COMPATIBILITY_REPORT.json",
+          "stored_lf_sha256": "571a69359929da22ab15c62baa87e47b17aa90cadf63c63373bd6b3c764f435d"
+        },
+        {
+          "manifest_crlf_sha256": "26ef03f20babf74d9a0f9b94b1d66f7b765cd58e043d0a884c9a53bfd42b705d",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_FLOW1_COCKPIT_JOIN_REPORT.json",
+          "stored_lf_sha256": "d570b38133e9bebab928b4e1c0978f9167e66575bf2aa8e6ad6bf8aea174d9c6"
+        },
+        {
+          "manifest_crlf_sha256": "b5477bd27ba6489b548661e9e32902a918a8f343710f80abaff396577d844591",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_FLOW1_INTEGRATED_REFERENCE_MAP.json",
+          "stored_lf_sha256": "b7efc93d0498469783c3dab49b4d82496c83ff7521e16e66ccb233f7da3d8470"
+        },
+        {
+          "manifest_crlf_sha256": "e1553a5ea56c8df9510cbcf2ef4549e2759f424c83505f56e58924b45aca410d",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_INFRA_INTEGRATION_DECISION.json",
+          "stored_lf_sha256": "9f0c6b08d708a7527c8a74b818356733a049ae9102a9f00933e11bc36cbc1a22"
+        },
+        {
+          "manifest_crlf_sha256": "2057b952bfedc6fc9dc825b76aa55a76099650f7037daa9cc6a3c44e12d74a67",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_OPEN_LIMITATIONS.md",
+          "stored_lf_sha256": "f942bf74557ae16060f5fa8b065a88cf4323903e9a0c88136d016a214fdd1146"
+        },
+        {
+          "manifest_crlf_sha256": "a16df969994a271ccf3ddc9d09532bef456f5a17c035cedf076cc927b5fd5984",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_SELECTED_ITEM_WORKSPACE_INTEGRATED_REFS.json",
+          "stored_lf_sha256": "bc0ab94f0f9eb328d90ebda6fafd2ed7b7b23b1aa3cc65d208fc260408264b0c"
+        },
+        {
+          "manifest_crlf_sha256": "b1808b550623383f53a541aca3beed3ec471f34ede929fcb9b9defb359a2eede",
+          "path": "outputs/push3_infra_after_three_lanes_integration/PUSH3_TEST_REPORT.md",
+          "stored_lf_sha256": "caf3fcef7a1c66ede96c7af8d92442988376c646e8d4ac788474e72b015bae6f"
+        }
+      ],
+      "manifest": "outputs/push3_infra_after_three_lanes_integration/PUSH3_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push4-lane-a-cer-engine",
+      "checked": 13,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "3c2e494a62b95c286a494788be9718f1386f8721a5843117f2cd941731aa6b8e",
+          "path": "outputs/push4_lane_a_cer_engine/CER_ASSERTION_EVIDENCE_LINKS.json",
+          "stored_lf_sha256": "f5123f7c40fb9b6e49ee93731599848f9d1001093bd5d33e618cf70b555fe22b"
+        },
+        {
+          "manifest_crlf_sha256": "a887c018a18a5213749de1be26ea17c3dcdd846f28f329e6e3e6bdee3ecac65e",
+          "path": "outputs/push4_lane_a_cer_engine/CER_ATTRIBUTE_ASSERTION_SCHEMA.json",
+          "stored_lf_sha256": "2042e2161a742e5c4ce21254fd43547e18d761b3796af6b5ca9402362c01e45b"
+        },
+        {
+          "manifest_crlf_sha256": "216015f32b02bb2682a8eef70d1a70c4daad03b5c4523a1ff0b95a6610eb15af",
+          "path": "outputs/push4_lane_a_cer_engine/CER_ATTRIBUTE_CONFLICT_SCHEMA.json",
+          "stored_lf_sha256": "fcc1eea3412c1cce72b45650f9a78b250177d10c47a13de10c952b364b431a95"
+        },
+        {
+          "manifest_crlf_sha256": "52cac052385a4e1ada784a8e0a044776d55bb5dcc3e82fcd675578959149f401",
+          "path": "outputs/push4_lane_a_cer_engine/CER_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "5cad02753f54797e7113a29bcb0c85c3441eaec950adca94c01f0f7cd7a877ba"
+        },
+        {
+          "manifest_crlf_sha256": "f0dba66948aaabd71476e81f486cd92948e8c046133fd9fb4e081305fc461d8c",
+          "path": "outputs/push4_lane_a_cer_engine/CER_CONFLICT_FIXTURES.json",
+          "stored_lf_sha256": "296a87480de6a319d9d6fd8335e0009353af71230965f78a01f1e5bbfd0b423e"
+        },
+        {
+          "manifest_crlf_sha256": "5431c3ff18f8ca8fad631b6b4895da57a9fea55bf79d6dab6235afaad9fb6f13",
+          "path": "outputs/push4_lane_a_cer_engine/CER_CONTRACT_OVERVIEW.md",
+          "stored_lf_sha256": "082b2f27cd697a41cdaa1deee88e76da291ae1a47e69614db2c7ea322ca29730"
+        },
+        {
+          "manifest_crlf_sha256": "dd2a3da01d8a4b58c1362fcc371f4e9e51e1d522e2234655d9e6e773f6a36a3a",
+          "path": "outputs/push4_lane_a_cer_engine/CER_ENGINE_DECISION.json",
+          "stored_lf_sha256": "9ccd1f2d7f0c0a19535c7c16505d641f40ae05822db179f7fbdc0fd45f133ba2"
+        },
+        {
+          "manifest_crlf_sha256": "77ffe14ec010d7d1e14c18e77aa4bcad2ef6599d21ab35d517a8569a6fbcc7c9",
+          "path": "outputs/push4_lane_a_cer_engine/CER_ENTITY_IDENTITY_RECORD_SCHEMA.json",
+          "stored_lf_sha256": "9b198cc7fe3325ba8d9d5e33cb516a43dd17f82d878924ba549c30ec2d91bbaa"
+        },
+        {
+          "manifest_crlf_sha256": "2e2ed44ee98e72f696aec204af5365f2264da016987291b8d2fe06816c3becc8",
+          "path": "outputs/push4_lane_a_cer_engine/CER_MATCH_CANDIDATE_FIXTURES.json",
+          "stored_lf_sha256": "4c2703ace06ab1593f1dc2d742ae5bf3e5a2a6703c5c4f156bdef0ff3f5bc7f7"
+        },
+        {
+          "manifest_crlf_sha256": "90530aebe31e8ea088b96968c6667a26da3c8bde117016fd950ec03508969652",
+          "path": "outputs/push4_lane_a_cer_engine/CER_MATCH_CANDIDATE_SCHEMA.json",
+          "stored_lf_sha256": "61703af05431aeafafd79b43a0b5a6773c69ea2a186ba5e84c43878bda81245b"
+        },
+        {
+          "manifest_crlf_sha256": "b5148df084c66517295ef6631040c717caa6bc248eb88a4c3335fe42b0875688",
+          "path": "outputs/push4_lane_a_cer_engine/CER_REVIEW_STATE_SCHEMA.json",
+          "stored_lf_sha256": "4ade420bb52aaa4c4cafc423df5a8f7ef18d9b8493a9b8821f499b39b34657c1"
+        },
+        {
+          "manifest_crlf_sha256": "b4a3b4e0b770584dec72f359716de43d7bd5c0d27f248e63359b10cdbbcc524c",
+          "path": "outputs/push4_lane_a_cer_engine/CER_RUNTIME_FIXTURES.json",
+          "stored_lf_sha256": "122e17053d7a052011828e607a639276b619afbe69f395ea3f95a32d1762b11d"
+        },
+        {
+          "manifest_crlf_sha256": "ece6210c896988849198c13bfa73ec4bbda31e0ad3e33237d24395be5bab576c",
+          "path": "outputs/push4_lane_a_cer_engine/CER_TEST_LOG.md",
+          "stored_lf_sha256": "855f9fbcd99af0b35d9a9ef898587cc6660e932daa5ce503d721e9383b7c2374"
+        }
+      ],
+      "manifest": "outputs/push4_lane_a_cer_engine/CER_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push4-lane-b-semantic-graph-v2",
+      "checked": 10,
+      "declared_status": "",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "fd28fe231f09a93d1cf25b91f1d64f7d44bf6b92c92860d670d3f7c484e3b906",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "d0de92405704f1eaf7656cdbd9ed24cd325e76d757f9c45cec930ccd51b1bb36"
+        },
+        {
+          "manifest_crlf_sha256": "6712dc9c8a8737254f24091c2ae1d9c141f6af8da6c438981d0c812b3071230f",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_CER_ALIGNMENT_REPORT.json",
+          "stored_lf_sha256": "3320d3886380c43b56eca76c3248157839aa8f688e49bf2300505636567eff09"
+        },
+        {
+          "manifest_crlf_sha256": "24bb931952e65cb29e5cfc572e69467a3269fe599bcadf7281e02d196ec6e292",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_CONTRACT_OVERVIEW.md",
+          "stored_lf_sha256": "fffcfa7f23ecf4b779ba24cfa1e3ff681d07f1ca03f09f1eeee70f7e6493ee1e"
+        },
+        {
+          "manifest_crlf_sha256": "096d8bea850ccd31f0d69fee9a6f22de314508e3beabd2ff8d549e9cb00fab97",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_DECISION.json",
+          "stored_lf_sha256": "ee337325534d31873ff465de0bdc4ed7aac79c83d3503b7ed32580880c51a289"
+        },
+        {
+          "manifest_crlf_sha256": "a1d79c0ad9329160ebf9885da606fefebafc77ec0210a113f64ad0a6b0929566",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_DEPENDENCY_EDGE_SCHEMA.json",
+          "stored_lf_sha256": "f8ba985ebe024ad374eec43b703484730203f4651d4271f535a0dd800a99a504"
+        },
+        {
+          "manifest_crlf_sha256": "22d1662d33995966e5d6d80d770d75e62664b57b35191666949aab1fc246bf14",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_EDGE_FIXTURES.json",
+          "stored_lf_sha256": "c7425bf3cf89129be9f09b5450882f7e6a4f5540baa0e383ff1ae34a0d216bf2"
+        },
+        {
+          "manifest_crlf_sha256": "8d860c7e5f4c371882a4228571df0ce871a9f1e1537886f9474a46ea80a92f15",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_EDGE_SCHEMA.json",
+          "stored_lf_sha256": "dc1e0863e1fecdce0b2319a3c436fed8f5ea64ff6fdacf7e923f9a5667f5b1b2"
+        },
+        {
+          "manifest_crlf_sha256": "2b38ea777e6cb55fdf5c5e0762d4c56f4946865efe054be7cf94d4f4e6c59c3c",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_NODE_SCHEMA.json",
+          "stored_lf_sha256": "d4cb22c3109b4b5fd0eadd671921d14dbfc734b3fa3e2a0fe5c5d9af82403bb3"
+        },
+        {
+          "manifest_crlf_sha256": "5a18694e7ad1da59fc26a7aefb139fd9e3278dbb683330650a19ca99b4530ac1",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_QUERY_FIXTURES.json",
+          "stored_lf_sha256": "1a2d1118ebc7dbba52703744594a3286c4c71f4435e32be9337590fda200042f"
+        },
+        {
+          "manifest_crlf_sha256": "1cd8211fbd4f2acab01464f7a5dba1b697079c480157c712c72782b0e5baf635",
+          "path": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_TEST_LOG.md",
+          "stored_lf_sha256": "30d5a37c0ff6adf15aab09353f18abcb090b05765654c34f23446d574e59ea79"
+        }
+      ],
+      "manifest": "outputs/push4_lane_b_semantic_graph_v2/SEMANTIC_GRAPH_V2_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push4-lane-c-check-v1",
+      "checked": 12,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "739dacee5a31f0e4b7e413b5f5bc0d2bca3c754c088b02df6639de8301a7fbf6",
+          "path": "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+          "stored_lf_sha256": "53dce82eddb5c02aa71ae7104d8e4a643bbfb318a67d9802511525fa6041c377"
+        },
+        {
+          "manifest_crlf_sha256": "497eba92d625b783864866c9bd9be2fe51ffc0011311f2b742da88eef6e636ff",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "cc3821b1c9643047eaafaee4ccc2d3d5d653b2395217e97955494cd2ce5d2254"
+        },
+        {
+          "manifest_crlf_sha256": "c9a10dd64415cf1d6029941300ee3de687afebfebd6e09bd0f05f9ddafa07026",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_CLAIM_TO_EVIDENCE_FIXTURES.json",
+          "stored_lf_sha256": "edddbcbf919322e9aaa516f48a7d1de6ad6bb167bba4084af4606cd08901b4df"
+        },
+        {
+          "manifest_crlf_sha256": "03c5b4cfbdef7d3fda5a1627b7dcff3dc9ef44cb35700448d0865535fdb5a82a",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRACT_OVERVIEW.md",
+          "stored_lf_sha256": "d93630f34c5c2de13bcfffcf6e693f77ae84312f2c2b7ed99c484e7c11cfc9fe"
+        },
+        {
+          "manifest_crlf_sha256": "650a4c12ab8cf7cafa27fae5712e2ac2365c2fdd869b9c4d5d38a366a089d83f",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+          "stored_lf_sha256": "2ec668b13cef782e55666e0bfa2baf84a2ec4dcb11850f091bb63cb32d3f5d7d"
+        },
+        {
+          "manifest_crlf_sha256": "028eaa2fd8898d8c858eedb63368e4ca6cac5973718bfcfe392c7a8f32b28062",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_FIXTURES.json",
+          "stored_lf_sha256": "8141fa9f63a1f8d34bab50928950003591e618c7cb62a10cfa851965ce75cd3f"
+        },
+        {
+          "manifest_crlf_sha256": "cde222dfe811a29caaaafa932abf5becb8d27a1027f6ad06bdbd0472c13c994a",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_DECISION.json",
+          "stored_lf_sha256": "c5abdd36f2d9fa1688f94544e4ed3101586921c3fb3589f25e6289662f6cbdeb"
+        },
+        {
+          "manifest_crlf_sha256": "43575931b4126400fd85ab1442d916857739785e77626b14c0815f3ea043fff6",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_REPORT_SCHEMA.json",
+          "stored_lf_sha256": "be2ce33f168b01310b25a06aef022a2958f2164898442670cd6ae20fe06707f8"
+        },
+        {
+          "manifest_crlf_sha256": "899f8c7c65e50716772196f718d2c223c401e833952c2cb7ca831227a8fc3847",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_REPORTS.json",
+          "stored_lf_sha256": "02ae5756aff933969f98b883b3979740586be602de574dc8873690d8284d2c60"
+        },
+        {
+          "manifest_crlf_sha256": "583495d816d5cbb79fe13272fa13d5119a412f4845a5fa0d9bea468e98100c8b",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_SOURCE_DEPTH_FIXTURES.json",
+          "stored_lf_sha256": "22f808bf7420fc42e838d923999f3238ad8706e526238dd8e8433726d135ed15"
+        },
+        {
+          "manifest_crlf_sha256": "b7033f4f4762f6fa870bca27ebd12301ab98d67f1137ee45aad09088a9398d20",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_SOURCE_DEPTH_REPORT.json",
+          "stored_lf_sha256": "5017602a20d08cf1ff8ef6e8963ba9df0db61c1e555c1f9778ea06398e0c71a5"
+        },
+        {
+          "manifest_crlf_sha256": "0929c2eece4f5db0ff05d0138b003e0bada401de0de1cf717ba2e387b96abf8f",
+          "path": "outputs/push4_lane_c_check_v1/CHECK_V1_TEST_LOG.md",
+          "stored_lf_sha256": "ed25622eac4d86c4455da1bd08afc9a2b683b4eb4d501f805fb0d3d928a00419"
+        }
+      ],
+      "manifest": "outputs/push4_lane_c_check_v1/CHECK_V1_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push4-infra-after-three-lanes",
+      "checked": 11,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "7b08367c80f2f5eef763540c6eedea003b1e30ad650dc0ca8186e7c5d472326b",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "445e10949f074988fb25c9d5e4cd113e679ea409e6d06b787a9837105dd6bc85"
+        },
+        {
+          "manifest_crlf_sha256": "07efc957f66d423a63ee8ecb4299b7e83ba5aa7e630c546d725e685093caadee",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_BRANCH_TOPOLOGY.md",
+          "stored_lf_sha256": "600d0ab2280cd00ca129b53cddc4273132c1f4dec91ea63635748d0861ba2a89"
+        },
+        {
+          "manifest_crlf_sha256": "2af7a5fc7eefe51bda9a2c976fc133df0c33e366cb1992fdc61c26978a945941",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_CER_GRAPH_ALIGNMENT_REPORT.json",
+          "stored_lf_sha256": "11097338f9d2fac91119f21a45502ed7e2ce629bcab8b9ce5662e32c2575b35c"
+        },
+        {
+          "manifest_crlf_sha256": "976f8c1e0aac6c646579ecc31e2a733a9ec430b0a386d00cf4892e26e0910af3",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_CHECK_V1_CER_CONSUMPTION_REPORT.json",
+          "stored_lf_sha256": "4c1cd675e1027fc2bab1d36f9d55d628ed7d3e0c13bc58ec27a7fc2582b2f147"
+        },
+        {
+          "manifest_crlf_sha256": "3c4f5fe2a72b62169a3b69e6b6c364ce664714020b0da298a792e6daf2ff1153",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json",
+          "stored_lf_sha256": "56e4391c914f46af27bb8fe3508a219bc5618468b764fb71df8c46f87d1e2b00"
+        },
+        {
+          "manifest_crlf_sha256": "586967e97bd924f37ee672c2ca7fd2f356576c487c93594f6fae0d21d161f1b1",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_CROSS_LANE_COMPATIBILITY_REPORT.json",
+          "stored_lf_sha256": "ee2ea5520a37458532d2b91db0d0d809a87d097deb78b45a4be0f52425c55a9f"
+        },
+        {
+          "manifest_crlf_sha256": "34060279ecabab7da6595dff3edbea9d5577c27825789fc29ecf8526a9176031",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_INFRA_INTEGRATION_DECISION.json",
+          "stored_lf_sha256": "3e3eb179acf490edc499571f2c0896e80f63fe311d02737ac56818cb3fc8e305"
+        },
+        {
+          "manifest_crlf_sha256": "eb1334433ac54ba50c9d3b3852fa23f1fb505740c31a2e86626b8a6c7ffc45d4",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_OPEN_LIMITATIONS.md",
+          "stored_lf_sha256": "79c67859b842382042290a7cfd634b70f301fc1c1027d71129af5a527f68fb55"
+        },
+        {
+          "manifest_crlf_sha256": "ac10427fddaa336258ae93c8f544855d953f176bfb84a2bf09cad222a6a85ebb",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_REGRESSION_CORPUS_V4_READINESS.json",
+          "stored_lf_sha256": "f8c86af9e1c4bb8965368bf8b5e5c0fcca27a10afb5e006bddf44ae1286f2c13"
+        },
+        {
+          "manifest_crlf_sha256": "0b466cade54989c869eaa80da88dab3e8bde55960ae343eaee697aaffae2e1fc",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_SOURCE_DEPTH_AND_VSS_BOUNDARY_REPORT.json",
+          "stored_lf_sha256": "6a4d7d7983f8c6cf3c7d68de2e083f8953de2f3557900d7662ddc8205c49132a"
+        },
+        {
+          "manifest_crlf_sha256": "6c812378d2eccdd0e66d356cd1118bd90f9f918cbcef264fbb54629aaedd8292",
+          "path": "outputs/push4_infra_after_three_lanes_integration/PUSH4_TEST_REPORT.md",
+          "stored_lf_sha256": "c2357f0b0ae12e4276964f2db392871e4e3029df2d052f9c690e6efb48510e96"
+        }
+      ],
+      "manifest": "outputs/push4_infra_after_three_lanes_integration/PUSH4_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push5-lane-a-spatial-ui-ux",
+      "checked": 11,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "ec451fa044527738041cf12fdce2b0ba2b02fb6ddbdf50093e124ab69b345246",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/KIT_ENTITY_EVIDENCE_PANEL_VIEW_MODEL.json",
+          "stored_lf_sha256": "c0fefa976427f95abebf574f5ce63d143a2a67f4e3ec40edddc75aca1e63ef70"
+        },
+        {
+          "manifest_crlf_sha256": "274f72456d2ed2246fee61d21fe6e92b7a478b17b703dad43cd478bad58da55a",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_ASSERTION_CONFLICT_OVERLAYS.json",
+          "stored_lf_sha256": "6509846ea03208e5cfd9efe3907c9574fc707a00d3123909af9d20fbb9ce38fc"
+        },
+        {
+          "manifest_crlf_sha256": "edda30a772636a86b86166d582c7b0efd47218e9defbcd799aed7279d65c0fd8",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_EVENT_OVERLAYS.json",
+          "stored_lf_sha256": "8a1d4c57939b7d44692b913c717141ecd000f5ccbbcea8fab16cebfb7e544b85"
+        },
+        {
+          "manifest_crlf_sha256": "d2671292f513805c459d8a0dcd80a67ecf1cd6643ed40a23c65acf644f939740",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_GRAPH_EDGE_OVERLAYS.json",
+          "stored_lf_sha256": "6e629c0496c1fbef79fcbad428bb773c4ece13161aed067cb1d7f91664f86aaf"
+        },
+        {
+          "manifest_crlf_sha256": "a4c083b61e3edb7cf66782dec7cb06e44bfe3ea6d310f08a8c6d63405467d3dc",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_MEDIA_EVIDENCE_OVERLAY_REFS.json",
+          "stored_lf_sha256": "85acc2d2184f4a7929f3d5d5bde90a6a9779102477868edf9c12514b4908cdd5"
+        },
+        {
+          "manifest_crlf_sha256": "0d64aaa46c72919c0b8e593c0f87bfe99cf634a96b87a0b6c1daa479e50fe666",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_OVERLAY_MANAGER_MANIFEST.json",
+          "stored_lf_sha256": "55dbde3f61a48e9cd0d00112241f7cf7a2360346d82bb7bf7a210f6be5466cf2"
+        },
+        {
+          "manifest_crlf_sha256": "404bdc6195f0bbdb4d69b7b4fc42d1e154e93108beb4585afd35aef0666934e8",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "70fc2504d3d2741f86c89f17f6ce078ba02c69e9e96e639f7a9d265bf183edca"
+        },
+        {
+          "manifest_crlf_sha256": "d844db3641ca181eb8d90c4ef582ef94d323c86c6dde66ea818b9bbdbd9f4ab7",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_CONTRACT.md",
+          "stored_lf_sha256": "d3a50d4de056430008d8e5cc512e0aeb3b08be19a364d21e7b1d419ca5094c10"
+        },
+        {
+          "manifest_crlf_sha256": "a62d3436efe30ac74d8368d6a42a34a66f0d706902748b1435384495cea516bc",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_DECISION.json",
+          "stored_lf_sha256": "a8675bc8b9583e714cb7ab6185c9396d80bcc2084feb77094a96eff89ae227e4"
+        },
+        {
+          "manifest_crlf_sha256": "25c365be65461ad72a008f8978b2fbeb8fc0f9d0855bdc5b12a7cfce0d7f93a7",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_STATIC_SMOKE_REPORT.json",
+          "stored_lf_sha256": "ed41592031f1d51e434c945dcac3ef765046c4096462d3b406104b94d5353366"
+        },
+        {
+          "manifest_crlf_sha256": "905e3bd141a23b2335dfc6a0763ced9f3a4ab8730d0abe5c46afab61ad220941",
+          "path": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_TEST_LOG.md",
+          "stored_lf_sha256": "d776f00124d3b7e255ba8f077941512d1662aac947ef3f0d596dbcb96370bc8f"
+        }
+      ],
+      "manifest": "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push5-lane-b-perception-media-evidence",
+      "checked": 9,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "35efd1b255b12f595bf779e0b27c436a4e0971401f3ac21e79ed94dd4838e79c",
+          "path": "outputs/push5_lane_b_perception_media_evidence/DETECTION_SUFFICIENCY_REPORTS.json",
+          "stored_lf_sha256": "46f0726db436c5b15d565d3700b8c559bac3155b6cf0ee82d20e55fc70f96921"
+        },
+        {
+          "manifest_crlf_sha256": "657513132b6c5508d30ada7180982831fe7f5fbdabbf0545fdec529ddf9dcfd0",
+          "path": "outputs/push5_lane_b_perception_media_evidence/MEDIA_EVIDENCE_BUNDLE_CONTRACT.json",
+          "stored_lf_sha256": "4ace691955b45bac3bacd43f2250ad0d31e387a2c50c0b1b0e42923c9241207c"
+        },
+        {
+          "manifest_crlf_sha256": "0d0516d89df7ad4893c025b27f78f724e39f2b28972c0929106c0038364b91dd",
+          "path": "outputs/push5_lane_b_perception_media_evidence/MEDIA_EVIDENCE_BUNDLES.json",
+          "stored_lf_sha256": "a33609e62c3aa9a9ba1a8264f5bde0dc94eb1b0cc05bd342ef908c3f8c2d4769"
+        },
+        {
+          "manifest_crlf_sha256": "3bec92d8855f3e7dba659733936a5375bb6192f4ec11c0fe627610f8689096d7",
+          "path": "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_MEDIA_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "b8eb100064d5e4b1ed5a290cdc078f29a13b5368848e523e2dfdea0a8cce9afd"
+        },
+        {
+          "manifest_crlf_sha256": "1705c7d5b7a19e88a083cbdfb9abdd44b1873dbcdeae3841b364036077227b2e",
+          "path": "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_MEDIA_EVIDENCE_DECISION.json",
+          "stored_lf_sha256": "b7e77e76cb29e273c430c10c55b8d1203e8b9c2b36c1f2c66ec88fce38115364"
+        },
+        {
+          "manifest_crlf_sha256": "b240bec2e1c4387611056c3fb80b53ec502c336ae118071e8e3e0ddc1f293834",
+          "path": "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_MEDIA_TEST_LOG.md",
+          "stored_lf_sha256": "996a45314865c458ddb92cfccc106f73eaf7c51e9c4079a1f6456399065b9757"
+        },
+        {
+          "manifest_crlf_sha256": "4b2394106b92087f4b4e90305f7496d47c6265669db88a1d6689012507c34846",
+          "path": "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_REPLAY_SAMPLE_EXPANSION.json",
+          "stored_lf_sha256": "81f7c23f298eee84fd1a66cf77c61e00eae4503125973ec2c14c877a6c7f3d8e"
+        },
+        {
+          "manifest_crlf_sha256": "c78586233ec6e9ccb41a6f18ce60dfed5ac92db802d7f1f2c1ece461c4108642",
+          "path": "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_SOURCE_REGISTRY_EXPANSION.json",
+          "stored_lf_sha256": "ab615ffd223162266d76671db692abc02d364c43c2184178fca10528d18cf551"
+        },
+        {
+          "manifest_crlf_sha256": "04c142752eacef22310081ab32f90a0a868435994342b6a0b8b690a1f62a3f0d",
+          "path": "outputs/push5_lane_b_perception_media_evidence/VSS_NARRATIVE_SIDECAR_REPORT.json",
+          "stored_lf_sha256": "f800e45371ce0125b104732d2a9825b3fbf6346266e74244fe126ffd43c18d4e"
+        }
+      ],
+      "manifest": "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_MEDIA_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push5-lane-c-watch-workflow-state",
+      "checked": 11,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "47aefeedd81e04ce16b1a4f603f1eec2105eed133cdbfbcb7487b5fb20249f64",
+          "path": "outputs/push5_lane_c_watch_workflow_state/HOLD_ABSTAIN_PROPOSE_FIXTURES.json",
+          "stored_lf_sha256": "a9b2b1c66b0058295d9287cde9168640bcc00e910015b30514e84d7fc75ba003"
+        },
+        {
+          "manifest_crlf_sha256": "7c752e72c24cccb7e7458c3169395684f2ac5beadde799569115a68757c98225",
+          "path": "outputs/push5_lane_c_watch_workflow_state/OFFLINE_LLM_PROPOSAL_HOOK_FIXTURES.json",
+          "stored_lf_sha256": "27ad2c8e060655adbb41888a9af05375200f71840042139cc31070a51ff55d4a"
+        },
+        {
+          "manifest_crlf_sha256": "45eccf5512f2cbbe36cfb7af4431c03998e50c42fe87039502df0ab1d32f09d0",
+          "path": "outputs/push5_lane_c_watch_workflow_state/OFFLINE_LLM_PROPOSAL_HOOK_PREFLIGHT.md",
+          "stored_lf_sha256": "2c407cddf66f29f0993c119b33d43a3b79ed31d2916407a28161c92f6716dc74"
+        },
+        {
+          "manifest_crlf_sha256": "b8317871effc807f78899a11fd60badd0b9541ffbd072db065317f920dcede78",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WATCH_EXPANDED_ITEMS.json",
+          "stored_lf_sha256": "b833dc3e46542b7030e876f797cd6bc60e3708c991f8d8088f6fec9c93dfca3a"
+        },
+        {
+          "manifest_crlf_sha256": "37a80bcbcf227439e2cdc094ec2911f115c69e722033b6fa7f60ced62cdaa5ce",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WATCH_QUERY_EXPANSION_FAMILIES.json",
+          "stored_lf_sha256": "ce9120c77b64aa4815f24a49033558437288f85dd0e4b9b6d1bd4ec11dfa9b7a"
+        },
+        {
+          "manifest_crlf_sha256": "199311f3f2c36004015d93a2708e4422f93982a8645610556735e8edda0c2cfe",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WATCH_WORKFLOW_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "aa8dd4a0c1f21b002e227150c5efe74adb92a8ae7c385f246b4e706bf028370f"
+        },
+        {
+          "manifest_crlf_sha256": "7bbdd152e5628fb0e58f7f8be8964cb1a1ab082d23dbe19f973fbea830b660b9",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WATCH_WORKFLOW_STATE_DECISION.json",
+          "stored_lf_sha256": "4aa368ecba1aeaa2f4329e4bf7ca4675de78e4beaba3f729024a2d6ad9f96cbe"
+        },
+        {
+          "manifest_crlf_sha256": "0c5d4272284182fad9a430d21ac5bfa17992a1cb56f083df8364fa18d568aa28",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WATCH_WORKFLOW_TEST_LOG.md",
+          "stored_lf_sha256": "ff72b2a115fcc4b69db9d990acedc1fbacc714546d78e35e52085c597e38fa51"
+        },
+        {
+          "manifest_crlf_sha256": "dc4211010f24459ee888e375b7a3bfeaf9921806f8a79876e883520e5a70ff2a",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WORKFLOW_APP_ROUTE_COMPATIBILITY.json",
+          "stored_lf_sha256": "365568eece93f9b92b85086a2e0126ba006789ac69e3e759c1454527836546f6"
+        },
+        {
+          "manifest_crlf_sha256": "77cf81a2db9a9a8b99b81a7226688789f11c072cfc31e4370812f0df4f559ff6",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WORKFLOW_STATE_CONTRACT.json",
+          "stored_lf_sha256": "068f8c73180646a681cd330bcfce1677d032ddd7a558f037cf953481ec6b2c30"
+        },
+        {
+          "manifest_crlf_sha256": "bd757534b48fda40f1e705aaa096a237d2e790643e3d8b7bd18f2644970e9431",
+          "path": "outputs/push5_lane_c_watch_workflow_state/WORKFLOW_STATE_EVENTS.json",
+          "stored_lf_sha256": "8eadbf017acf55e56cc2cd24ad4c068c82e7824737b1d9563b0d5f6bab10e12c"
+        }
+      ],
+      "manifest": "outputs/push5_lane_c_watch_workflow_state/WATCH_WORKFLOW_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push5-infra-after-three-lanes",
+      "checked": 10,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "2345a85cd416f73acf4aacdf357f65269091fa5806b60208011bd49fe7bccb93",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "330acd0261b4b8d104f7d6a2f87a55d084b33eebb55639dfd94180f7f9ee1cdd"
+        },
+        {
+          "manifest_crlf_sha256": "0c1a518cf83443b3702851f85744a3d479ad0d56d7315053b3ec39da55d72d43",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_BRANCH_TOPOLOGY.md",
+          "stored_lf_sha256": "ed9dbf027c2b01c0de5d89cfecb0d5b33a2638591a9cf81f6cd747cf1d55983a"
+        },
+        {
+          "manifest_crlf_sha256": "ba172eb32385c50424f1bfd0db5e917d707693af14d96c43408f6d1fb34966fa",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_CROSS_LANE_COMPATIBILITY_REPORT.json",
+          "stored_lf_sha256": "575a8546218c1031241e0cd297bf99b87bca83b695c470ae96f2b0ce964b7adc"
+        },
+        {
+          "manifest_crlf_sha256": "cb99d3e1f1d1fe6e41de99f8b94283d3cd78e7c5196155fba176bb360db8cd11",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_INFRA_INTEGRATION_DECISION.json",
+          "stored_lf_sha256": "6c85b326a71d352c90dec581f2a49998c6626b81ed3022bcbbab96e95f31f619"
+        },
+        {
+          "manifest_crlf_sha256": "da56643d90ebcd1e1aee743259e9269570f4935370b42905e39bb27bf528a1e5",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_OPEN_LIMITATIONS.md",
+          "stored_lf_sha256": "a813fdb97ce3aced7e43d408dd27798fc5a52ad0526e73fde44e75c3fdef24c4"
+        },
+        {
+          "manifest_crlf_sha256": "ec510133f0ad85597c82cb4033bc6306fc350fef03c874b4608f61e67f6ee8b9",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_SPATIAL_MEDIA_EVIDENCE_JOIN_REPORT.json",
+          "stored_lf_sha256": "588637d9f8b88c981050394ecd7fe31928130d0e9cb733a9f60048443bbd5405"
+        },
+        {
+          "manifest_crlf_sha256": "96541cfa29ba7038f82ce98fdc1e85a8d7134eadf4cd5aeae2b5fec13a3fcfec",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_SPATIAL_WORKFLOW_STATE_JOIN_REPORT.json",
+          "stored_lf_sha256": "470dfe2dad374ea4b6bef7fc838605cb9bcafbb40e0ede1d94057515da036a54"
+        },
+        {
+          "manifest_crlf_sha256": "89626d6e1b662aaa3388ff08cb9cda0d87e295fa9aec0fc89c1e4014fa09f421",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_TEST_REPORT.md",
+          "stored_lf_sha256": "534da34b99b8b4d72b9a64dd56dd73f3a15eb4e6b0f8c6b912c71cef984ad9cc"
+        },
+        {
+          "manifest_crlf_sha256": "28d27a73006b5297dfb2c21508ea70403956bb55cf2259a4c2d1eca7bbb07e9f",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_WATCH_MEDIA_DEPTH_JOIN_REPORT.json",
+          "stored_lf_sha256": "5ee5f020148d589fa77b74ca5d028e2aa41da83379d5f93e96cb7fcefd5949ff"
+        },
+        {
+          "manifest_crlf_sha256": "edbe0e7bc73a2ac8dc5df8eacbf624d7a3f9cd92deee7b48023f5cb66477ab12",
+          "path": "outputs/push5_infra_after_three_lanes_integration/PUSH5_WORKFLOW_AND_LLM_BOUNDARY_REPORT.json",
+          "stored_lf_sha256": "83909d59e60f0ada902da1a7f6d48e21959b570c2e9ea9bb5669026fcad57060"
+        }
+      ],
+      "manifest": "outputs/push5_infra_after_three_lanes_integration/PUSH5_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push6-lane-a-approval-lifecycle",
+      "checked": 13,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "1fbc690e6153196af0b715f8c489d77587f4ea232c1e5c66533222dc9c215088",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_AUDIT_EVENT_SCHEMA.json",
+          "stored_lf_sha256": "e7bb2d27a90d09e757b702ada8c2c0836e5537f05db510f7c8986cfd7bc64bcb"
+        },
+        {
+          "manifest_crlf_sha256": "4e451c26bf3a6e4cd85d607417aec3b619d7b1ce707b704be546349463a0c8fb",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_AUDIT_LOG_FIXTURES.json",
+          "stored_lf_sha256": "8d2128fc80432f5c17b946b6cff44651ceb1ae8af60e4b10b7a94f0dd20d71f1"
+        },
+        {
+          "manifest_crlf_sha256": "eaaafa732a79745bbfeca603e4dcddccb64673fb86d246bbc89221818add8122",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "22386840331f2181d5821263c5c7032e1447e20b9a5b3638e0585b82123fc1b9"
+        },
+        {
+          "manifest_crlf_sha256": "6f388761f751100327f80107b6f9c40ac3f48742f46277fc7aa4eee0d97cdde4",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_CONTRACT_OVERVIEW.md",
+          "stored_lf_sha256": "7f4ccfc103eb8b74ea7ede89ec66293d24f77e27672ec604314ef7dccd3c1c9f"
+        },
+        {
+          "manifest_crlf_sha256": "be20a0c730af42336f14b8f2b71a559ea434d8c281c660a8b4191572f3e1ce0a",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_DECISION_SCHEMA.json",
+          "stored_lf_sha256": "ee9ff8ef14b8045bc4426163476af6ead8540b0c81ebcb4e15de226357d25297"
+        },
+        {
+          "manifest_crlf_sha256": "8959db3b5a03ea5fccf0b4592604969c5e0f95a236d31f91f3676374387b7d4b",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_LIFECYCLE_AGENT_RUNS.json",
+          "stored_lf_sha256": "f0c36e905381a49a8abc11478f3143e3915cdd094be89cd1395c635d10de86a8"
+        },
+        {
+          "manifest_crlf_sha256": "fe68eed4fc181b02033c44daf77f88c1500b6fa17024e6892ebfdbfd7a62d9e5",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_LIFECYCLE_DECISION.json",
+          "stored_lf_sha256": "6ab2345a1582ef6686435197392fdf5cd331128c265276e011bfc577cc3097e6"
+        },
+        {
+          "manifest_crlf_sha256": "29ffdcd9b13499d7d4fbf372ec6dbe84be8da7aa391e11e13211f4c15a4d29fe",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_LIFECYCLE_FIXTURES.json",
+          "stored_lf_sha256": "1ce92cd8c0bfa28e25ec784a03d155e700b34155059181967ecc95ae2e3b39e6"
+        },
+        {
+          "manifest_crlf_sha256": "81f478e631ac0e1361cdf48812fb45cd7269b51a6de200f69e53babdb65e35e9",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_LIFECYCLE_STATE_SCHEMA.json",
+          "stored_lf_sha256": "be42c448452155d757f7794074d771b423d23fd48c49c4b4f4b99705b4df3e60"
+        },
+        {
+          "manifest_crlf_sha256": "d2f202764a6717aded00ffaea70371348370d0e6021f29b2ec855bb50493a8c6",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_POLICY_FIXTURES.json",
+          "stored_lf_sha256": "b87e59760fe467cdc298702d218d90ea4388277f53a79a88a36e9ccb306ae9f0"
+        },
+        {
+          "manifest_crlf_sha256": "66863539ebed634d0b3d9b218be4b04a09d27b682ec13f76c5f20b320f457dd4",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_REQUEST_SCHEMA.json",
+          "stored_lf_sha256": "c55eaf14f02552f00c6e66a0424a3d418c1911441f4888c8b17b5d29b4c0ba85"
+        },
+        {
+          "manifest_crlf_sha256": "b99d66edfc9ba84f2d61b7c7622c5728d62679b3f4b98ba24c7740dda9825f97",
+          "path": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_TEST_LOG.md",
+          "stored_lf_sha256": "ee689c45665ed80f24de806de631ef5c86ec9e03e03c6f2314c9cdacc8002e8d"
+        },
+        {
+          "manifest_crlf_sha256": "894f6c5b3056f6f1326f9a7bae3e426f07e48880f9f7982cef69d6a540efc566",
+          "path": "outputs/push6_lane_a_approval_lifecycle/AUTHORITY_LEVEL_3_SEMANTICS.md",
+          "stored_lf_sha256": "29b66ab5ddd3cdc559b1b3f4e1b3b6b728c85e995817964d3758fe48e191d461"
+        }
+      ],
+      "manifest": "outputs/push6_lane_a_approval_lifecycle/APPROVAL_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push6-lane-b-plan-mode",
+      "checked": 12,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "bd30ce19ddea36ecb40c2991d2aa03a47f9d4c1bd97cabd4011b9f24561dff98",
+          "path": "outputs/push6_lane_b_plan_mode/ABSTAIN_NO_SAFE_OPTION_SCHEMA.json",
+          "stored_lf_sha256": "bea83c67c0898054d851b9cfdda036d44989ad8e6caaceeb37c24cd8ab8250ef"
+        },
+        {
+          "manifest_crlf_sha256": "1bc6e62b7fa8ef2a14b35e5ba2139660e08c8f98c31e1e135d06887368b72fee",
+          "path": "outputs/push6_lane_b_plan_mode/DO_NOTHING_BASELINE_SCHEMA.json",
+          "stored_lf_sha256": "3812e70337ffad5bacfbba5481944d5e1a85d01c60789997eaf3a9105325f4e2"
+        },
+        {
+          "manifest_crlf_sha256": "51c6da27377ed825819e472d65f832ecb70c8c1c2b537b1c33894b26ebf71d94",
+          "path": "outputs/push6_lane_b_plan_mode/OPTIONSET_V2_FIXTURES.json",
+          "stored_lf_sha256": "882de617233a505afcd559ba9e920b48fec4b725ba036c8fc3ae67e5ae68a7bc"
+        },
+        {
+          "manifest_crlf_sha256": "8eda9dc2ea57e79c5ae421fb68aa3efd36ac6708549b15bc17e98571c1de574c",
+          "path": "outputs/push6_lane_b_plan_mode/OPTIONSET_V2_SCHEMA.json",
+          "stored_lf_sha256": "85ee43b8fcb0d22afe515c64430d2a398922a82d8a63a48a39a5ebd8041e1b83"
+        },
+        {
+          "manifest_crlf_sha256": "1054c884aecb571dde1a03f2eff9b576c249d38e05d0b7715b11ab6c520b1014",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_APPROVAL_BINDINGS.json",
+          "stored_lf_sha256": "c3e05a0223bab70510053b74f739f41752e0e4957ea8b4e5c51bb403e2b2a964"
+        },
+        {
+          "manifest_crlf_sha256": "17cd1c1c929c0e78f7591c29a35fb5db70a11a5cfcfd09897e407f972da94df7",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_MODE_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "4e98b062656392b0802509f6739a45984828d49f582f7ac18ac5cc8976dd035a"
+        },
+        {
+          "manifest_crlf_sha256": "4868090d3f45f5605734340c7d56d1f49c1001bc49d5fec607c501fa588b2271",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_MODE_CONTRACT_OVERVIEW.md",
+          "stored_lf_sha256": "d9c45de7fcbdf1d92e8dd00102c7a80fcbddf3c7058098022fd6d3b88e2f6425"
+        },
+        {
+          "manifest_crlf_sha256": "9910e4b3407d61e89d9c73502d788806ff5246e38f6b23eede20321904747fec",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_MODE_DECISION.json",
+          "stored_lf_sha256": "f769c16fffa1cb088e70dd6fc5b658ba9ecfa61ccb475ac787e83627296bfdfd"
+        },
+        {
+          "manifest_crlf_sha256": "33611ad03ad5d1f7050b40af35d8102c05588eb40d8817f1c19fd70d63f97101",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_MODE_FIXTURES.json",
+          "stored_lf_sha256": "bba36a6b918a8ac473044b92a338432d5a5fdd5631a7195537c5d76ee9f1a528"
+        },
+        {
+          "manifest_crlf_sha256": "79311598fff04962d61ad024dbc88a895652e61fabc54b06529103ed95f56616",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_MODE_TEST_LOG.md",
+          "stored_lf_sha256": "f06e5366f21ee467641e324b1cf7e86a4ff44ed7cf9248482402dbd8659ec8b3"
+        },
+        {
+          "manifest_crlf_sha256": "48c1c04a4a7cf6a7cae76ae663a4a16ca98b14bc89b1c3c449a2472dd203cbdb",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_OPTION_SCHEMA.json",
+          "stored_lf_sha256": "2cb2e5cfaf2c918fe484766f0359ec29dfc5536a66d919f46d5b4f63f8cefeee"
+        },
+        {
+          "manifest_crlf_sha256": "1c55ec405abeb4f0f5a8032da04cc7d1a0b3267788a9c7a5692acb511a9f6046",
+          "path": "outputs/push6_lane_b_plan_mode/PLAN_REQUEST_SCHEMA.json",
+          "stored_lf_sha256": "c8eef6fb7ad5b5a9dcc3e31c09116ba290e1be1655c433ca9f94df9c64d83266"
+        }
+      ],
+      "manifest": "outputs/push6_lane_b_plan_mode/PLAN_MODE_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push6-lane-c-schedule-simulate",
+      "checked": 13,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "0818a1b9d75039ebecbbda70a816e58f528bccc94c95975bd099e6fc4a9769d8",
+          "path": "outputs/push6_lane_c_schedule_simulate/CUOPT_SCHEDULING_FIXTURES.json",
+          "stored_lf_sha256": "97167f6a275510b0b7a08edd6798f7309a6564093e4dd7c9965bc9088a301a9b"
+        },
+        {
+          "manifest_crlf_sha256": "caf74bfa5a2fee787af19288c6712d3cd8000bd2c80f248410ccebc6f8a9db73",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCENARIO_PACKET_SCHEMA.json",
+          "stored_lf_sha256": "910b011c1a3a3920b94b765b00ea2b0c3a896eed8e1d35893c595ac9628f022e"
+        },
+        {
+          "manifest_crlf_sha256": "348709ecd64cb35a98801e72d7b16444e85b162bdfc8b00960c0e5241f75d081",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_APPROVAL_BINDINGS.json",
+          "stored_lf_sha256": "a8cceb12598ce0807d731efa7bc1816e713bd0db2aad37f6878574f12c1ea005"
+        },
+        {
+          "manifest_crlf_sha256": "7cc6e0de072f9e5f3a3ed6922c926a33bca5b331a315c3d0f01c9e54e3f29187",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_CONTRACT_OVERVIEW.md",
+          "stored_lf_sha256": "6888dd590dbf2140ceeb3a7a9941cca5b22e2e599971ddf140e5c72dc3d9958d"
+        },
+        {
+          "manifest_crlf_sha256": "9ad5092ab52fbb91b1b9d782e647c42769a204a1361b64446f4e365c88f2eb1d",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_OPTION_FIXTURES.json",
+          "stored_lf_sha256": "ebc57e3e28ee991dc6af0ee34defebe01a5e74bf7fc7381db90e5243f3f6979b"
+        },
+        {
+          "manifest_crlf_sha256": "c002e45a8676d115c514efb4341c7457cb938cc4a54bce10efc8456d91b05773",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_OPTION_SCHEMA.json",
+          "stored_lf_sha256": "094c41f9b94d8a3df8dae427603f0473901e2f4029fb15cecbc035dcf1399483"
+        },
+        {
+          "manifest_crlf_sha256": "a11fed393360eb93cae26f6a338b7f76abce8cb198741bf78a3653549bb27628",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_REQUEST_SCHEMA.json",
+          "stored_lf_sha256": "5ab8deb8fa26598d74d331ea24a25bf53c9214aa90caf8c87e673a6d46770c76"
+        },
+        {
+          "manifest_crlf_sha256": "bfda99a18fa64fc0f01199cd4aa59f6042c9067b84a7217329abdb3386abcec6",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_SIMULATE_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "c3808ebfdf4d75f11d17911376925225b0ac24c297bfb634b6a18a90c480922e"
+        },
+        {
+          "manifest_crlf_sha256": "e7eb06dca18cad3f62569c04bedb9ba91f1c68d51c994c474e9fa8f6d187ef97",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_SIMULATE_DECISION.json",
+          "stored_lf_sha256": "0a63bfbc538cc37d990d956a0b9087fcac9fca92304212611b9eb8eda3e9697a"
+        },
+        {
+          "manifest_crlf_sha256": "eefe9db5e1037bddd04e82776f77b529a77c0f290a1f2365c378520f0b75179f",
+          "path": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_SIMULATE_TEST_LOG.md",
+          "stored_lf_sha256": "3d0e756faba6b7f4c9d588f8c618f1e16f7b4c8efd5b0676e1dba548f4c5cbb0"
+        },
+        {
+          "manifest_crlf_sha256": "1def1648f42934b48df540bf328146acb88b4857956971b5c27246de08c2ed2e",
+          "path": "outputs/push6_lane_c_schedule_simulate/SIMULATION_CHECK_REPORTS.json",
+          "stored_lf_sha256": "beb3e38ca108896ce09734e4dcc7bae7bf06138914ff8765d42fe02941cf8777"
+        },
+        {
+          "manifest_crlf_sha256": "66487f53a4ad8bc4c0aaa4aae408e7ccac6e2733749bc2941d193516a01b6dd8",
+          "path": "outputs/push6_lane_c_schedule_simulate/SIMULATION_RUN_RECORD_SCHEMA.json",
+          "stored_lf_sha256": "207287aec343bff0dd7ad336db37615fbd9088cbd8bc3fdffbacd5423540d550"
+        },
+        {
+          "manifest_crlf_sha256": "a588b2889fb77b6d3ca0ba42b4873da7fb74c70b52802753ae08d5ab63860b19",
+          "path": "outputs/push6_lane_c_schedule_simulate/SUMO_SCENARIO_FIXTURES.json",
+          "stored_lf_sha256": "7e442099fede7ad9ad876a0169eb3aa8c0fa78cf57a621cd25aeb1ea640e4365"
+        }
+      ],
+      "manifest": "outputs/push6_lane_c_schedule_simulate/SCHEDULE_SIMULATE_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push6-infra-after-three-lanes",
+      "checked": 7,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "51c37e653b693490546fa9c037adc524af9e282138fa0fa98513413983f9ee8d",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_APPROVAL_PLAN_SCHEDULE_JOIN_REPORT.json",
+          "stored_lf_sha256": "e2c6ed4a2c14070a514d16d6144e0c6614104a943d10b5bbff302cab47e6e01d"
+        },
+        {
+          "manifest_crlf_sha256": "c70cd1765cfd66bd18907b3751d71b6b1172da49a016c9cd9fe932a9db4df07f",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "2c1f33ac8c652716fd492e043354983b54cb0af18a1b5d09be68095ce59f14b9"
+        },
+        {
+          "manifest_crlf_sha256": "fe4ac26a090ab79c2e0c59076b606c8d6c4f0589bbc9506f05f223e5d972b502",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_BRANCH_TOPOLOGY.md",
+          "stored_lf_sha256": "fa6d076fac3979ffe65bf007b3e3b004ddb5f4fcebd14d390c6158aeb35314ac"
+        },
+        {
+          "manifest_crlf_sha256": "6d8eb6704a8c56a4dcbff333992d4cd2340aa4733a5a9bd944d1e53344bf5976",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_CROSS_LANE_COMPATIBILITY_REPORT.json",
+          "stored_lf_sha256": "6f7655ba965a9b610fb710adf0f36f681dcc8303c15f21ac75593b2bfe4f7856"
+        },
+        {
+          "manifest_crlf_sha256": "a277c3e82335ee5dc9393c32fb13f044edd252d52837601100b4b21669aa6340",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_INFRA_INTEGRATION_DECISION.json",
+          "stored_lf_sha256": "e543ebbf09e9a6f52f6b1e8e34c327db820e0eefbef334f3473254e1ea2b08ff"
+        },
+        {
+          "manifest_crlf_sha256": "4faf3ba4f00d35966490dbef9d84e07a718685c6e011f444e102775ae90d53f6",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_OPEN_LIMITATIONS.md",
+          "stored_lf_sha256": "f62614b2bfccb12130e827b4b33b87051046ca75abe5fcfc93d68ff516e34439"
+        },
+        {
+          "manifest_crlf_sha256": "9c7878a1f14e681a78b5b1db82157c47e25b2c7c14d9cea16a5905cc65dcf9bf",
+          "path": "outputs/push6_infra_after_three_lanes_integration/PUSH6_TEST_REPORT.md",
+          "stored_lf_sha256": "deb84c7ef8da1097e54d6985011f1ffd8bacf3a088444dce10f2f760022c3267"
+        }
+      ],
+      "manifest": "outputs/push6_infra_after_three_lanes_integration/PUSH6_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push7-lane-a-federation-data-maturity",
+      "checked": 16,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "d7fd183d8481e65457ae3a2585f87cf0aff078d1c17de9bccb9f65f3a62a864b",
+          "path": "outputs/push7_lane_a_federation_data_maturity/CROSS_CITY_RECALL_BOUNDARY_FIXTURES.json",
+          "stored_lf_sha256": "d50e6ec80b9982535dcc7435e97ef117888ee7507908a96e7f9b550ede661134"
+        },
+        {
+          "manifest_crlf_sha256": "26087b6be2f49832afc00e7d34c776466ec5de4a9fc0f361e85b1e4512a336aa",
+          "path": "outputs/push7_lane_a_federation_data_maturity/DATA_MATURITY_SCORE_SCHEMA.json",
+          "stored_lf_sha256": "e569a40dece3f5e039fb0c57d6ee935b42577f58d8b034cf34be6fb2963c460f"
+        },
+        {
+          "manifest_crlf_sha256": "c37fe507caf2383d49af72d46d52f97dc993e3ecbff54ce15855cda475befd89",
+          "path": "outputs/push7_lane_a_federation_data_maturity/DATA_MATURITY_SCORES.json",
+          "stored_lf_sha256": "7373eceaee6ee0b64dd3e001e301f781f5c777b7977e1f9fc4ab0569c4819c0b"
+        },
+        {
+          "manifest_crlf_sha256": "6e1c434c283ed7795a4c938c8e4b75eea16ca795200577a63229c7052f5920b8",
+          "path": "outputs/push7_lane_a_federation_data_maturity/DEPARTMENT_LOCAL_NODE_SCHEMA.json",
+          "stored_lf_sha256": "531b8bc774c3c89adef3fb6400b0c73a9bc614204ab889183cb26521981035b4"
+        },
+        {
+          "manifest_crlf_sha256": "a3222eb1026dea998b9741f250c4180dbfbee2686c974697399491507327e38d",
+          "path": "outputs/push7_lane_a_federation_data_maturity/DEPARTMENT_NODE_MANIFESTS.json",
+          "stored_lf_sha256": "7a90d597ab7865fe5943ea7b379fff0731440e615e617773e31f7518ec14b509"
+        },
+        {
+          "manifest_crlf_sha256": "49e04e990ab53b60a49ee4237c9e3a93da4a65557b0c334b4b4da9561ea42d39",
+          "path": "outputs/push7_lane_a_federation_data_maturity/DUBAI_SYNTHETIC_PACK_MANIFEST.json",
+          "stored_lf_sha256": "9b2fcf70fd110dc335054ddce41e2737750a3e49d48e26699376711172cdd96d"
+        },
+        {
+          "manifest_crlf_sha256": "8b1f37796379468a85e26c58c1138104745f8b8f21ae791b32cb7d00a3b26c15",
+          "path": "outputs/push7_lane_a_federation_data_maturity/FEDERATED_PACKET_ENVELOPE_SCHEMA.json",
+          "stored_lf_sha256": "808caedfeae4b2f9b19a207068e8c158ae9d4875ebaeaa2e682e93424e781384"
+        },
+        {
+          "manifest_crlf_sha256": "a903968b12edcc2f9a919f901bff029e0ec9481a6c9206abc0a7d6ccc28a38dd",
+          "path": "outputs/push7_lane_a_federation_data_maturity/FEDERATED_PACKET_ENVELOPES.json",
+          "stored_lf_sha256": "38648c545e5cbfdb1837ef411348640b52b5c7bda08cf848d6f9a1dbc359d150"
+        },
+        {
+          "manifest_crlf_sha256": "472dcf77f871bd5dae5e5b39203c2b111b7b55cbd299e5058d9aac32b9dd29fe",
+          "path": "outputs/push7_lane_a_federation_data_maturity/FEDERATION_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "4fad116c02397981e38a3c55712175153a9e76e13ad2a9b277e5b098d3e6708b"
+        },
+        {
+          "manifest_crlf_sha256": "573dd38547266c229138fd8cd7edd69fb5833ff4a4a4da6df69879dbfb4a5170",
+          "path": "outputs/push7_lane_a_federation_data_maturity/FEDERATION_BOUNDARY_DECISION_SCHEMA.json",
+          "stored_lf_sha256": "ff12d0fcca0ca19b55aaff1311b5c4693cd65a460d5c796abac039ab201bf143"
+        },
+        {
+          "manifest_crlf_sha256": "1f74e7d731721fe1b4a5e0ede12b6837ea896f0afd8f0e108a7b391448ad2050",
+          "path": "outputs/push7_lane_a_federation_data_maturity/FEDERATION_DATA_MATURITY_DECISION.json",
+          "stored_lf_sha256": "bb0d4eeef5683c9a2902562decd562098e1e373a553c3178468bf7d051805232"
+        },
+        {
+          "manifest_crlf_sha256": "7dc7f98ac90170ee641b7d5443581ecfa411d0a7b6a818c05c47cb3e8e56f8c8",
+          "path": "outputs/push7_lane_a_federation_data_maturity/FEDERATION_DATA_MATURITY_TEST_LOG.md",
+          "stored_lf_sha256": "65ac187543edbf607de37626d8c51caaea7110b2190527dd49784381ce4a32e8"
+        },
+        {
+          "manifest_crlf_sha256": "80abc5d026e5c8020f2408d2e85ab4041546f8a5fb4dc71aaa3d094367d69a29",
+          "path": "outputs/push7_lane_a_federation_data_maturity/NODE_CAPABILITY_MANIFEST_SCHEMA.json",
+          "stored_lf_sha256": "deafd0095abd47df857e235e948b4d79b2e3fe6eeab7f52418f20d02f4cd2b25"
+        },
+        {
+          "manifest_crlf_sha256": "be45090b67d9fb47dae83314eb68eb3352f9cddd5b63a0fcf19a06a2e974b8b4",
+          "path": "outputs/push7_lane_a_federation_data_maturity/SOURCE_REFRESH_POLICIES.json",
+          "stored_lf_sha256": "1f8d65c6cfb3b4a8c6cc418285b59b2c3dcb5c6eef301b78a0eb3fd7dabce108"
+        },
+        {
+          "manifest_crlf_sha256": "5362aae990194568b2c72c1b3f1b93a5518926725a10d95f7eadb849c17e7bd6",
+          "path": "outputs/push7_lane_a_federation_data_maturity/SOURCE_REFRESH_POLICY_SCHEMA.json",
+          "stored_lf_sha256": "30b0941a72cd4a092d4910888e1f3feb9735bef042c7b7ea4c94b5f0a616229d"
+        },
+        {
+          "manifest_crlf_sha256": "afd0003d8dab9e85b450e655ac124f807f1ff6f1e9233fc6902844f8a1c5539f",
+          "path": "outputs/push7_lane_a_federation_data_maturity/SOURCE_REFRESH_RUN_RECORDS.json",
+          "stored_lf_sha256": "9618d1af416f3f52f71ef7eb187f184169368fa353b7f942ea10d399f049d6c6"
+        }
+      ],
+      "manifest": "outputs/push7_lane_a_federation_data_maturity/FEDERATION_DATA_MATURITY_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push7-lane-b-rbac-audit-observability",
+      "checked": 17,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "8754edb3968526b70b194cd2704fabda444a611cec3f79c93cfb997725d7cd05",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/ACCESS_DECISION_FIXTURES.json",
+          "stored_lf_sha256": "8257ffaac7ee29c3feedf1a8bab3463bce36a785da0b3e69468809c113fbbe1b"
+        },
+        {
+          "manifest_crlf_sha256": "3e598dc73f8812846e33cac64cc0b8ed2dbc149f90f77fb2bbffc6f9092d920b",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/AUDIT_EVENT_FIXTURES.json",
+          "stored_lf_sha256": "e89c97e8ffe05ecc3358e8f172808c8110808b0fe2b29b2f669793c873eb427e"
+        },
+        {
+          "manifest_crlf_sha256": "1da4be816739f2ab869d55dab274cf92ddf04a5693cadec24dfdd298f373bea3",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/AUDIT_EVENT_SCHEMA.json",
+          "stored_lf_sha256": "5bbc3c6338aa1a5f963206b98bb2bbeb2914eea9dac9164a14e8ee9f6da81b7c"
+        },
+        {
+          "manifest_crlf_sha256": "7b8a8fa960e223f06b48fab53c5f6f4126dfa04d1b5e35c9e0fa9a148e7321a4",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/GOVERNANCE_DASHBOARD_VIEW_MODEL.json",
+          "stored_lf_sha256": "651c9b24e7b8779f68447986cd7fda32b5df5e772171de8c395e7d1b9e58d05a"
+        },
+        {
+          "manifest_crlf_sha256": "7ed0ac58af6efcc9cbaae7781e98ab71038be454dd652e200fc90e89874c2257",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/HEALTH_SNAPSHOT_SCHEMA.json",
+          "stored_lf_sha256": "6da1477addbe8ee2fb9140c192a1b2ef303e086f079af56583b6d03ca8275c0c"
+        },
+        {
+          "manifest_crlf_sha256": "b88aa6e96488b8291ecd0c9fc15325f8db1f2ce9bcda79bec2f7e2112f9a221c",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/HEALTH_SNAPSHOTS.json",
+          "stored_lf_sha256": "dac2cf9d1fb15020e05a600a925c6b2ed0a87642dcf3723b5ee172c2b52b1055"
+        },
+        {
+          "manifest_crlf_sha256": "ca19efe12939b6ae208a15edbe2c0169d0f3dce2c67c46d29b50cf076516efcd",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/OBSERVABILITY_SIGNAL_SCHEMA.json",
+          "stored_lf_sha256": "599ae8d5bd386af5369b57bf2afc5573bcd89d3a2dc758c6ecabd7f0c9385424"
+        },
+        {
+          "manifest_crlf_sha256": "3382930e5824c8981e5c210b56fc429a41b7d14804dfb61954964021a822b3fa",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/OBSERVABILITY_SIGNALS.json",
+          "stored_lf_sha256": "f507df6ba817a96fe65d663d4ba7f9f2250d01065149368052ba7b4d7cb243e4"
+        },
+        {
+          "manifest_crlf_sha256": "30b1c4d794942a778f64e9f4939596e2a739ca9755b77a8ba507d265546cdb8b",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/PERMISSION_POLICIES.json",
+          "stored_lf_sha256": "888fb3d7933b37054fa938f8de0f28023172c26d250f495a405a422ee082e1bd"
+        },
+        {
+          "manifest_crlf_sha256": "05e086e5b921fd4f22cc4e828fb40dec643ef13868fa082c376a1313c7a9bd5e",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/POLICY_NEGATIVE_TESTS.json",
+          "stored_lf_sha256": "4ef1bd9284ad413186dd97f6bdc0856e1671ed24bfa44183e044f7d0c6770561"
+        },
+        {
+          "manifest_crlf_sha256": "c9a75fb246df4e92fb97d75ab03b77ce7ae5fb4090290d0aa47c0a2d386cb3c2",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/RBAC_ACCESS_DECISION_SCHEMA.json",
+          "stored_lf_sha256": "6b258d65a32a40a0cc262554cded21577962365b8cd13baebf3d1dfe55a57f8c"
+        },
+        {
+          "manifest_crlf_sha256": "4bd585d47392e755c1ea4b05b760431a75af88b88ccafc45b2ba3fda4d55c9b2",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/RBAC_AUDIT_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "e0661f00aeeb382e30d6d500920c5aaf577388bfb09a6471680a8894e4fb5f70"
+        },
+        {
+          "manifest_crlf_sha256": "daa5554bf58e63d7172295ef6ad3713ae630d80fb537c3b554abb9ef144b92c7",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/RBAC_AUDIT_OBSERVABILITY_DECISION.json",
+          "stored_lf_sha256": "96a4e6fe1941dc52b0f403ec234ab431146835d67cacad08544bdcf35da2139d"
+        },
+        {
+          "manifest_crlf_sha256": "f2d8a3f0808b337e6a421f3283df092f54447d5429ea474c1d057ab89b2e6f1c",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/RBAC_AUDIT_TEST_LOG.md",
+          "stored_lf_sha256": "da493419d7bb59c025ee705d465fbea3048855c840c2d1aaa622dba40fdfd559"
+        },
+        {
+          "manifest_crlf_sha256": "f48fd2bdc1afbebc18da15a54780de0f5bb5501c61a8a5f65a74e883e00be708",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/RBAC_PERMISSION_POLICY_SCHEMA.json",
+          "stored_lf_sha256": "65dfb10cb9d7a8b599fd6e071c41524b34bcc1f36f28047745131a119cf15bee"
+        },
+        {
+          "manifest_crlf_sha256": "3226107e241299663ace996b416705d8fa11bcf1a8f15f3210652d18f2d595ce",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/RBAC_ROLE_DEFINITION_SCHEMA.json",
+          "stored_lf_sha256": "5fcb91a8ee5aca172ae1d6dddecd70bfa69353ad54b48ff508c7cea424ae7fd9"
+        },
+        {
+          "manifest_crlf_sha256": "64ad0c83ee30a7ee492b8f14efdece2abbc3dcf49a6d1090e7dd745d77c555b3",
+          "path": "outputs/push7_lane_b_rbac_audit_observability/ROLE_DEFINITIONS.json",
+          "stored_lf_sha256": "0fcff64c327752ade00411b3ef3da548cf46345a5f62112be10e25c224bdde39"
+        }
+      ],
+      "manifest": "outputs/push7_lane_b_rbac_audit_observability/RBAC_AUDIT_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push7-lane-c-execution-readiness-autonomy-preflight",
+      "checked": 14,
+      "declared_status": "PASS",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "92f59347125b8c5c71418ed3003f5a5fc743b93c104a16ddb07fd805793ffc03",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/ADAPTER_PREFLIGHT_REQUESTS.json",
+          "stored_lf_sha256": "2125355f6e08ff4ef276f63c6736e31d7aeff9343f61b3aebefa42ac86adcd75"
+        },
+        {
+          "manifest_crlf_sha256": "380885481c369d249c93696f3839c4e23f2e2086acb916f47394721598bbb890",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/ADAPTER_PREFLIGHT_RESULTS.json",
+          "stored_lf_sha256": "52891dc4f74b305b34d2e8553748715c160c81e439a5ad0c4359f14523edefc6"
+        },
+        {
+          "manifest_crlf_sha256": "f8f58648fd552ba4aebc18a796703edea55ea7b3bae7e6883271161812c15238",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/AUTHORITY_LEVEL_4_5_BOUNDARY.md",
+          "stored_lf_sha256": "86920c62d96a3a1176d80e4fac2e7e4c2d66b5a1032456bc4e1edcf42a062200"
+        },
+        {
+          "manifest_crlf_sha256": "713a0fd9af6d918d7ed42efffc81007e2a07ac3a5154caa99eedf879ecabe265",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/AUTONOMY_BLOCK_DECISIONS.json",
+          "stored_lf_sha256": "8ef1e7f45a048a8ce10fb3c5402e22c530c6a46222ba0c47995006d47ca6cfcf"
+        },
+        {
+          "manifest_crlf_sha256": "15464c3e8c1100ce751d4aa81e06a848ae967b4624d6d09d4e110b77f0283d27",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/CONDITIONAL_AUTONOMY_POLICY_SCHEMA.json",
+          "stored_lf_sha256": "2d5c7c45ce4d0774e77d2d57bbc39018d1772914a219a38684b2a3d560807220"
+        },
+        {
+          "manifest_crlf_sha256": "1f29d3c61413cf3a369cdeacf3cb3f74f0a5732f4dd7c2bf47691a10c322df4b",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/CONDITIONAL_AUTONOMY_PREFLIGHT_RUNS.json",
+          "stored_lf_sha256": "9c68ebffd95b46d81cbf74be2aa6666a2e1b91d1489c3ef2dc9f0acb24fe14b2"
+        },
+        {
+          "manifest_crlf_sha256": "a2a6202af9d400140a3e000d9873ea8f46ad4f4ef689ec57503b00e46e4ac370",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/CONDITIONAL_AUTONOMY_PREFLIGHT_SCHEMA.json",
+          "stored_lf_sha256": "bda166579bbbfa034e7db0ef908ceb6d61d17a5197e88063680ad6ce37459fec"
+        },
+        {
+          "manifest_crlf_sha256": "11035b20a6f96dbc98bbf9716011f1f931da26eacb65592620ca4a539f8ec9cd",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_ADAPTER_PREFLIGHT_SCHEMA.json",
+          "stored_lf_sha256": "9a26a7e8714d30b113c38268c9846712b51dde5d7c8e9fcc431db5e38fb605a1"
+        },
+        {
+          "manifest_crlf_sha256": "568ca0d6661e89a900a0f1ef92a620dabad70a7892519fd4ac91db931e9dbe28",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_ADAPTER_REGISTRY.json",
+          "stored_lf_sha256": "679d2f5644e7d16a4293fdda830f13473f3fdad42a45ced462a54407758f8891"
+        },
+        {
+          "manifest_crlf_sha256": "50c64114945667f9c7ff9dea88237dcecfb54c9634f0e07ab4f09e19fc436c8f",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_ADAPTER_REGISTRY_SCHEMA.json",
+          "stored_lf_sha256": "f4790813fad68edd1a82c5fd4e683c028d52095588018729f31077a0e744da44"
+        },
+        {
+          "manifest_crlf_sha256": "6e356ef92e11bfa79b5e5712da3fe60dbdfa91158f70ca57a8d2e750bce528a8",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_READINESS_AUDIT_EVENTS.json",
+          "stored_lf_sha256": "462322656d95b13b17ac40178ac3b0edc23b1d161fb451187f5adb63d9a14806"
+        },
+        {
+          "manifest_crlf_sha256": "a49239d2c85ca343c13000809a67f7e8e5379cf5fdfdd5b196f5db6e868557d6",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_READINESS_AUTONOMY_DECISION.json",
+          "stored_lf_sha256": "2d67258dd0aefbef7d8be0c48a6ce13a9f4d48d4f4c7ebaeafd36b090a69988c"
+        },
+        {
+          "manifest_crlf_sha256": "7d781174d3a97826e150e71cdc2939bb59c710bdcd47ca64078c63dc428e88ba",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_READINESS_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "dcaddf3c3d71689c1284933e2c97be0f30610dda0cf58db07035d875097a192c"
+        },
+        {
+          "manifest_crlf_sha256": "e59adbc3b7ed9c038a7d9db552f4bb552fdceb6e06a253e276a8992f1d6dcbf2",
+          "path": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_READINESS_TEST_LOG.md",
+          "stored_lf_sha256": "e39e9d5848a2769b51c1bf7b69e8915c004a454293b8f74f29ca9f1749206912"
+        }
+      ],
+      "manifest": "outputs/push7_lane_c_execution_readiness_autonomy_preflight/EXECUTION_READINESS_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push7-infra-after-three-lanes",
+      "checked": 10,
+      "declared_status": "",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "6d1c6f1921f10f2cad3b0010bc8903e47e7d5f98c849d3777ea144a014cb6f9e",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_BOUNDARY_AND_NON_CLAIMS.md",
+          "stored_lf_sha256": "f3e2c2c647e527edd33b7daaa3c2646546fd5b9c24e2acf799ce974d9d19a90e"
+        },
+        {
+          "manifest_crlf_sha256": "6c0b2cc6536ac0f4f780eb6fc31769cc2d83c0e0a1bba0d23c49f7074283e4cc",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_BOUNDARY_STRUCTURAL_SCAN.json",
+          "stored_lf_sha256": "4bb32e56c2a79d01d0e372bf72fbdd11b2895f123aa5c03b20016a3cb9373dd5"
+        },
+        {
+          "manifest_crlf_sha256": "d1d1e9787ea1539e5d2493f9f5b2c9faf5e69fef1ef2dd8cf806aa1c4836e1f3",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_BRANCH_TOPOLOGY.md",
+          "stored_lf_sha256": "0e2c28768faa6d417d952a398d9148fd076c67720b97cb8a739e2f0de6342cd7"
+        },
+        {
+          "manifest_crlf_sha256": "7edea3a5bbd75f0ddbf3f3c87a9b704223c4a3bb6cded3be6d046b3fe4c40dca",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_CROSS_LANE_COMPATIBILITY_REPORT.json",
+          "stored_lf_sha256": "6c9f7e18fd296a3a4a6dbb96128cc1c9501d81294243ded99116f5b5d76f80e3"
+        },
+        {
+          "manifest_crlf_sha256": "38855d24c763c4d4354d67adabe52e59feb04eadb43e776b559609146440ca8c",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_EXECUTION_AUTONOMY_PREFLIGHT_REPORT.json",
+          "stored_lf_sha256": "a0dc6b314064d26b906164695a987a5d443c03c3e6321527ee09dfe1e0aad9fd"
+        },
+        {
+          "manifest_crlf_sha256": "6b5ed860a2f122fa30f5972377ff3f10e460581adff7108f1c004dd663091549",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_FEDERATION_DATA_MATURITY_REPORT.json",
+          "stored_lf_sha256": "3eb5f57174857ce2228c6680ef4554b28e56ac3272fbf5b8421e916338be69d0"
+        },
+        {
+          "manifest_crlf_sha256": "f85eafa4fce0ee96a2202092c2a0411e98c2ed4104d81b8429da71f0abc18695",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_INFRA_INTEGRATION_DECISION.json",
+          "stored_lf_sha256": "333af71b88e0b57484a2cf76f45d2810bc523e8d764f802c966316821b9e92bd"
+        },
+        {
+          "manifest_crlf_sha256": "acf9044edd5338404b8766ebbbbe6fe5e5c137f100127466c5fdcddcffb4256b",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_OPEN_LIMITATIONS.md",
+          "stored_lf_sha256": "85dd279a9b8a259d93ab29749dc4a9ea4c152b34f419378ef417c13e303097d6"
+        },
+        {
+          "manifest_crlf_sha256": "8344ad270c39265d4e34c6b2d7be22fcaabfd2a793c87e59dcb44a10059273b5",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_RBAC_AUDIT_OBSERVABILITY_REPORT.json",
+          "stored_lf_sha256": "756a528244ca72b4f72389ae726b7ac59a88d7e7961a3c19973e03af1fb55b62"
+        },
+        {
+          "manifest_crlf_sha256": "0aaa80aa5a9de4a050409532c83699da72588237ef87e6e59de9390c9bb0a007",
+          "path": "outputs/push7_infra_after_three_lanes_integration/PUSH7_TEST_REPORT.md",
+          "stored_lf_sha256": "2275408f0e3eca5ef9e02bdbeb03013d2aaf95ffa85b36ed225190b7738143d4"
+        }
+      ],
+      "manifest": "outputs/push7_infra_after_three_lanes_integration/PUSH7_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push1-to-push7-full-stack-validation",
+      "checked": 0,
+      "declared_status": "PASS_WITH_LIMITATIONS",
+      "line_ending_normalized": [],
+      "manifest": "outputs/push1_to_push7_full_stack_validation/HASH_MANIFEST_VALIDATION_REPORT.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    },
+    {
+      "branch": "origin/codex/push1-to-push7-full-stack-validation",
+      "checked": 20,
+      "declared_status": "",
+      "line_ending_normalized": [
+        {
+          "manifest_crlf_sha256": "227b8cb1475e5b9d29dc0d4064fc00ca15d419ec86cdd1689f7d596fd3d5381d",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/07_CITYBRAIN_LEARNING_AND_PREDICTIVE_INTELLIGENCE.md",
+          "stored_lf_sha256": "50a488768b2c0c88185144bc65e6278bd1d3f50936fb11c39a4b03f23d34efbe"
+        },
+        {
+          "manifest_crlf_sha256": "d2be31f57f6ef140591271465e8405b4a0ceb786555d751d8b253b158e9cd357",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/DOC07_RULE_COMPLIANCE_SCAN.json",
+          "stored_lf_sha256": "54a5aa22633999d5fa9beb0d8f6737d22081bc4f730aebdaaa0fb1f02fce95cf"
+        },
+        {
+          "manifest_crlf_sha256": "1a4a480a161242d6d7961cd999a33792b7a5a34d463fb6f78099b7d93bee50ae",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/DOC07_RULE_COMPLIANCE_SCAN.md",
+          "stored_lf_sha256": "c1872706a154fbb555ba94f5b2e29094b3ea3fabd9fd15b3cb2f52c1d057390a"
+        },
+        {
+          "manifest_crlf_sha256": "3fc6272c9a9ec416e77aa7a03af7fcbc03e9e2d0c1cc34b3a8594afc3342fb1e",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/DOC07_SOURCE_CAPTURE.json",
+          "stored_lf_sha256": "14d6cc1b3a2899c109b845fce0925b508c428f331f3ac7950d8c1f2a86d4d164"
+        },
+        {
+          "manifest_crlf_sha256": "88f5e1dded7db249afb29be752aa52903560383bd3dc6ca03d7cdf53211ae4dc",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/DOC07_SOURCE_CAPTURE.md",
+          "stored_lf_sha256": "4874be40e3908b02fc55249d822977422187c79607f36224e1eb1538d43f4aeb"
+        },
+        {
+          "manifest_crlf_sha256": "d84f848aeb6d1bfdb0497df519c06ba19be1487f83c3cd5a8df69bf026051bab",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_LOOP_SEED_INVENTORY.json",
+          "stored_lf_sha256": "9753487e1aa55149de890bd2fa60d7e7f443f9a855a28e541db67406fbe432b6"
+        },
+        {
+          "manifest_crlf_sha256": "d3ce8de9121a177df70f0ac9cfd0b1545861770043e3abd2b946ecf08e2e0eb7",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_LOOP_SEED_INVENTORY.md",
+          "stored_lf_sha256": "13c3e9606825568ae3eb40b6e41171257c3a26d6b87f01fed4c7b66ee6cbede4"
+        },
+        {
+          "manifest_crlf_sha256": "56c79a15f54a0e529f38a26978ab86cb77fe839e64f09b08d8aabfdb91f6cb15",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_REGRESSION_CORPUS_SEED_PLAN.json",
+          "stored_lf_sha256": "0a8a50ae03db864b7d89b030170b792786f2e5e77a61f6b24b9bf8c2e9fb58a8"
+        },
+        {
+          "manifest_crlf_sha256": "733b4cd87f9c93d70c4a60117aead9affde87daf8ef3599762922e888ca4b598",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_REGRESSION_CORPUS_SEED_PLAN.md",
+          "stored_lf_sha256": "2585040b0269841f6a015b5a70e86d3933aeed61208ddd0b92a1a3d926621c31"
+        },
+        {
+          "manifest_crlf_sha256": "bd20bc63075c2e773037d93d0bbefc02b64d688f915405b657e119f2286b7a11",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_SUBSTRATE_COLLECTION_CLOSEOUT_DECISION.json",
+          "stored_lf_sha256": "a194d21af46e02014e494948957b317e24c8385de0d004e849a9241343720209"
+        },
+        {
+          "manifest_crlf_sha256": "0ea2bf1148b6007ee320ab60fc6081c4258b4165efe67abfee70db387c9f43c1",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_SUBSTRATE_COLLECTION_CLOSEOUT_SUMMARY.md",
+          "stored_lf_sha256": "3bc7ddc1da248e817eb26de2c14e867c03d5b7136fd8a5c5197c37130332aab2"
+        },
+        {
+          "manifest_crlf_sha256": "5e8ef8f1de022b40e8c765c03ecb41de56bc4a560d7d6638a562c6fa3b26369f",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_SUBSTRATE_COLLECTION_LIMITATIONS.md",
+          "stored_lf_sha256": "a2840d5e3b2229ed9f3dedc0fcc8f53aada45897fff4aa9defc02de7516f790a"
+        },
+        {
+          "manifest_crlf_sha256": "fbf8ada7e0ff1cda3628014d50c031ea6b216f43f70937e2ce064ac831225f13",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_SUBSTRATE_READINESS_SCORECARD.json",
+          "stored_lf_sha256": "d7c499473abc78ff30ef6b1c27353c01f5fbe4a8dd726b2f0fe754539389bef2"
+        },
+        {
+          "manifest_crlf_sha256": "66246b935a4f313dfea89d6fbda32cad534756cbd7ff62a98eb16bbd616c25a5",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_SUBSTRATE_READINESS_SCORECARD.md",
+          "stored_lf_sha256": "38a470e2d6e324a4fc817bf1dfa28cdf0f55c3273a052344cbdde9f690ad5e63"
+        },
+        {
+          "manifest_crlf_sha256": "304c8e2e22737002c6a47be7f6d43bf09ebe62686c6931d4642dfbb40d1cb0cb",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/MODEL_ACCEPTANCE_READINESS_REPORT.json",
+          "stored_lf_sha256": "955908ade9d99f07de4755dfdaad29a77264cecf630e0c0ff7a6b9f446db2d9e"
+        },
+        {
+          "manifest_crlf_sha256": "8b211dae8d12d3cc00eee826fde72530ed8d0df6fa991ebd6453d1fb13c95fba",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/MODEL_ACCEPTANCE_READINESS_REPORT.md",
+          "stored_lf_sha256": "2a787a069e9adeab7c6b4dcd773326f1bfc8b983200aff932b2623c2244a64eb"
+        },
+        {
+          "manifest_crlf_sha256": "c0d339311183a1ecc53a0d825be0faa6411dd4affabe373b3833840ae4fa8629",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/OPERATOR_DATA_GOVERNANCE_READINESS.json",
+          "stored_lf_sha256": "4f4b78e8da68b4cfd6394536d88eb1c45d4281da44a59ea31f25f0a2b5224bd8"
+        },
+        {
+          "manifest_crlf_sha256": "41eeb60ebb4dd29311dd7d0fa2a27281d6c36271a479f56bc2b63b261072e2d2",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/OPERATOR_DATA_GOVERNANCE_READINESS.md",
+          "stored_lf_sha256": "c5f59cb85e0fbfaeaacd96808038e90c67d7c8c4892b775d9a23b776359098a1"
+        },
+        {
+          "manifest_crlf_sha256": "de41311b904bf253ccd21dd9fa41d65c8d6fdc7572fe812a6701b4ff31cac821",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/UNCERTAINTY_CONTRACT_DELTA_READINESS.json",
+          "stored_lf_sha256": "e8dbb8de14cd38a264b6cb3eb1bb99eea02874f5d5bbe91f289d58be3530bdd3"
+        },
+        {
+          "manifest_crlf_sha256": "f5f198137c65d1e5d0e8fa063d09a3d7d6a99f4be881c83d70959173d65e6199",
+          "path": "outputs/push1_to_push7_full_stack_validation_learning_substrate/UNCERTAINTY_CONTRACT_DELTA_READINESS.md",
+          "stored_lf_sha256": "8bd68c3d4575f340aabefc58392366add721e022f0d559a9b8d01b080cabd6a2"
+        }
+      ],
+      "manifest": "outputs/push1_to_push7_full_stack_validation_learning_substrate/LEARNING_SUBSTRATE_COLLECTION_HASH_MANIFEST.json",
+      "mismatches": [],
+      "missing": [],
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

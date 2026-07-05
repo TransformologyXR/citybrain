@@ -1,0 +1,26 @@
+{
+  "corpus_final_version": "v7_formalization_carried",
+  "corpus_growth_rule_through_v7": "limitation",
+  "schema_version": "main-citybrain.epoch1.regression_corpus_final_index.v1",
+  "v4_ask_contradiction_pair": {
+    "attribute_name": "candidate_object_class",
+    "check_v1_references_pair": true,
+    "corpus_status": "READY_FOR_INFRA_CORPUS_V4",
+    "entity_ref": "cer:entity:local-replay:153cd184f78bac1c",
+    "fixture_id": "ask:regression:v4:retained_contradiction_pair:push4_lane_c_001",
+    "infra_references_pair": true,
+    "left_value": "person_like_shape",
+    "right_value": "review_item_without_verified_class"
+  },
+  "v4_proof_refs": [
+    "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+    "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+    "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json"
+  ],
+  "v7_carry_forward": {
+    "deadline": "Epoch 2.0 preflight",
+    "id": "EPOCH1_REGRESSION_CORPUS_V7_FORMALIZATION_CARRIED",
+    "impact": "product stack validated but corpus release needs formal publish index",
+    "owner": "INFRA"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "branch_published_stragglers": [
+    "historical output artifacts remain branch-only by policy; source is on origin/main"
+  ],
+  "canonical_status_summary": {
+    "canonical": 26
+  },
+  "frozen_shapes_indexed": 26,
+  "schema_version": "main-citybrain.epoch1.canonical_state_reconciliation.v1",
+  "source_of_truth_matrix_current": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

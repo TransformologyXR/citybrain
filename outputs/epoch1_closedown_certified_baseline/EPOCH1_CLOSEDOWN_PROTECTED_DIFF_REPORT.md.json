@@ -1,0 +1,19 @@
+{
+  "ask_diff_bytes": 0,
+  "ask_diff_empty": true,
+  "ask_paths": [
+    "packages/ask_v11",
+    "scripts/run_ask_v11_sealed_eval.py",
+    "scripts/run_ask_v11_real_corpus_eval_r2_mapping_expansion.py"
+  ],
+  "r7_diff_bytes": 0,
+  "r7_diff_empty": true,
+  "r7_paths": [
+    "scripts/run_main_citybrain_r7a_perception_candidate_observation_ingress.py",
+    "scripts/run_main_citybrain_r7b_perception_to_event_fabric_local_replay.py",
+    "scripts/run_main_citybrain_r7c_event_fabric_state_query_and_ask_handoff.py",
+    "scripts/run_main_citybrain_r7d_webui_kit_event_state_smoke.py"
+  ],
+  "status": "PASS",
+  "target": "origin/main"
+}

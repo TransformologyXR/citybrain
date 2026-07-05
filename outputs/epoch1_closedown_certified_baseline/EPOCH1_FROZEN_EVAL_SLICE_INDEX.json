@@ -1,0 +1,43 @@
+{
+  "schema_version": "main-citybrain.epoch1.frozen_eval_slice_index.v1",
+  "slices": [
+    {
+      "proof_refs": [
+        "scripts/run_ask_v11_sealed_eval.py",
+        "outputs/ask_v11_sealed_eval"
+      ],
+      "slice": "ASK sealed G1-G8",
+      "status": "pinned"
+    },
+    {
+      "proof_refs": [
+        "outputs/ask_v11_real_corpus_eval_r2_closeout"
+      ],
+      "slice": "ASK real corpus R2",
+      "status": "pinned_with_waiver_history"
+    },
+    {
+      "proof_refs": [
+        "outputs/push4_lane_c_check_v1/ASK_RETAINED_CONTRADICTION_PAIR_V4.json",
+        "outputs/push4_lane_c_check_v1/CHECK_V1_CONTRADICTION_DETECTION_REPORT.json",
+        "outputs/push4_infra_after_three_lanes_integration/PUSH4_CONTRADICTION_AND_ASK_WAIVER_REPORT.json"
+      ],
+      "slice": "CHECK v1 retained contradiction pair",
+      "status": "pinned"
+    },
+    {
+      "proof_refs": [
+        "outputs/push1_to_push7_full_stack_validation"
+      ],
+      "slice": "Push 1-7 validation",
+      "status": "pinned_with_limitations"
+    },
+    {
+      "proof_refs": [
+        "outputs/push1_to_push7_full_stack_validation_learning_substrate"
+      ],
+      "slice": "Learning substrate seeds",
+      "status": "future_track_only"
+    }
+  ]
+}

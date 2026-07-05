@@ -1,0 +1,152 @@
+{
+  "proof_ref_count": 31,
+  "rows": [
+    {
+      "component": "ASK",
+      "proof_refs": [
+        "packages/ask_v11",
+        "docs/ask-v11/ask-v11-app-handoff-closeout.md"
+      ]
+    },
+    {
+      "component": "CHECK v0",
+      "proof_refs": [
+        "outputs/push2_lane_a_check_authority_v1"
+      ]
+    },
+    {
+      "component": "CHECK v1",
+      "proof_refs": [
+        "outputs/push4_lane_c_check_v1"
+      ]
+    },
+    {
+      "component": "WATCH",
+      "proof_refs": [
+        "outputs/push2_lane_b_watch_scout_v1"
+      ]
+    },
+    {
+      "component": "App Review Route",
+      "proof_refs": [
+        "outputs/push2_lane_c_app_review_route"
+      ]
+    },
+    {
+      "component": "DispositionEvent / Review workflow",
+      "proof_refs": [
+        "outputs/push2_lane_c_app_review_route",
+        "outputs/push5_lane_c_watch_workflow_state"
+      ]
+    },
+    {
+      "component": "Cockpit / SourceRecord360",
+      "proof_refs": [
+        "outputs/push3_lane_b_cockpit_source_record_360"
+      ]
+    },
+    {
+      "component": "BRIEF v2 / Flow 1",
+      "proof_refs": [
+        "outputs/push3_lane_a_brief_v2_flow1_packaging"
+      ]
+    },
+    {
+      "component": "DIFF",
+      "proof_refs": [
+        "outputs/push3_lane_c_diff_recall_readonly"
+      ]
+    },
+    {
+      "component": "RECALL",
+      "proof_refs": [
+        "outputs/push3_lane_c_diff_recall_readonly"
+      ]
+    },
+    {
+      "component": "CER",
+      "proof_refs": [
+        "packages/cer",
+        "outputs/push4_lane_a_cer_engine"
+      ]
+    },
+    {
+      "component": "Semantic Graph v2",
+      "proof_refs": [
+        "packages/semantic_graph",
+        "outputs/push4_lane_b_semantic_graph_v2"
+      ]
+    },
+    {
+      "component": "Spatial UI/UX",
+      "proof_refs": [
+        "outputs/push5_lane_a_spatial_ui_ux"
+      ]
+    },
+    {
+      "component": "Perception media evidence",
+      "proof_refs": [
+        "outputs/push5_lane_b_perception_media_evidence"
+      ]
+    },
+    {
+      "component": "Workflow state",
+      "proof_refs": [
+        "outputs/push5_lane_c_watch_workflow_state"
+      ]
+    },
+    {
+      "component": "Approval lifecycle",
+      "proof_refs": [
+        "packages/approval_lifecycle",
+        "outputs/push6_lane_a_approval_lifecycle"
+      ]
+    },
+    {
+      "component": "PLAN",
+      "proof_refs": [
+        "packages/plan_mode",
+        "outputs/push6_lane_b_plan_mode"
+      ]
+    },
+    {
+      "component": "SCHEDULE",
+      "proof_refs": [
+        "outputs/push6_lane_c_schedule_simulate"
+      ]
+    },
+    {
+      "component": "SIMULATE",
+      "proof_refs": [
+        "outputs/push6_lane_c_schedule_simulate"
+      ]
+    },
+    {
+      "component": "Federation/data maturity",
+      "proof_refs": [
+        "packages/federation",
+        "outputs/push7_lane_a_federation_data_maturity"
+      ]
+    },
+    {
+      "component": "RBAC/audit/observability",
+      "proof_refs": [
+        "outputs/push7_lane_b_rbac_audit_observability"
+      ]
+    },
+    {
+      "component": "Execution readiness / autonomy preflight",
+      "proof_refs": [
+        "outputs/push7_lane_c_execution_readiness_autonomy_preflight"
+      ]
+    },
+    {
+      "component": "Learning substrate collection",
+      "proof_refs": [
+        "outputs/push1_to_push7_full_stack_validation_learning_substrate",
+        "docs/architecture/07_CITYBRAIN_LEARNING_AND_PREDICTIVE_INTELLIGENCE.md"
+      ]
+    }
+  ],
+  "schema_version": "main-citybrain.epoch1.proof_ref_index.v1"
+}

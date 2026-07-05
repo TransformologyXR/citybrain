@@ -1,0 +1,13 @@
+{
+  "branch_missing_count": 0,
+  "ledger_row_count": 27,
+  "limitations": [
+    "No explicit closeout artifact found under the expected root; covered by integration/final branch evidence where available.",
+    "No explicit final-status artifact found under the expected root; covered by integration/final branch evidence where available.",
+    "main is a source-only canonical branch; historical output artifacts are intentionally not tracked on main."
+  ],
+  "missing_rows": [],
+  "push2_to_push7_row_count": 24,
+  "schema_version": "main-citybrain.epoch1.ledger_reconciliation.v1",
+  "status": "PASS_WITH_LIMITATIONS"
+}
