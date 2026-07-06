@@ -1,0 +1,11 @@
+{
+  "audit_id": "E3_L2_R2_SOURCE_CLASS_NO_FABRICATION_AUDIT",
+  "fabricated_transition_count": 0,
+  "label_rows_checked": 25978,
+  "lineage_complete_rows": 25978,
+  "single_snapshot_rows_converted": 0,
+  "source_class_allowed": [
+    "derived_field"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "approver_ref": {
+      "type": "string"
+    },
+    "consuming_surfaces_allowed": {
+      "maxItems": 0,
+      "type": "array"
+    },
+    "decision": {
+      "enum": [
+        "GRANTED",
+        "DENIED",
+        "DEFERRED"
+      ]
+    },
+    "decision_id": {
+      "type": "string"
+    },
+    "decision_type": {
+      "const": "L2R2_EXPERIMENTAL_FORECAST_AUTHORITY"
+    },
+    "frozen_replay_only": {
+      "const": true
+    },
+    "release_ledger_row": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "same_run_model_start_allowed": {
+      "const": false
+    },
+    "scope": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "decision_id",
+    "decision_type",
+    "approver_ref",
+    "decision",
+    "scope",
+    "consuming_surfaces_allowed",
+    "frozen_replay_only",
+    "same_run_model_start_allowed"
+  ],
+  "title": "L2R2HumanAuthorityDecisionRow",
+  "type": "object"
+}

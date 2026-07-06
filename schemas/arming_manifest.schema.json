@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "arming_manifest.schema.json",
+  "type": "object",
+  "required": [
+    "manifest_id",
+    "version",
+    "gate_id",
+    "loop_crosswalk",
+    "evaluator",
+    "armed_now",
+    "conditionally_armed",
+    "blocked_until",
+    "not_armed_initial",
+    "non_claims"
+  ],
+  "properties": {
+    "manifest_id": {"type": "string"},
+    "version": {"type": "string"},
+    "gate_id": {"const": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE"},
+    "gate_semantics": {"type": "string"},
+    "arming_semantics": {"type": "string"},
+    "loop_crosswalk": {
+      "type": "object",
+      "required": ["L1", "L2", "L3", "L4"],
+      "properties": {
+        "L1": {"type": "string"},
+        "L2": {"type": "string"},
+        "L3": {"type": "string", "pattern": "counterfactual"},
+        "L4": {"type": "string", "pattern": "memory"}
+      }
+    },
+    "evaluator": {"type": "object"},
+    "gate_execution_policy": {"type": "object"},
+    "armed_now": {"type": "array", "items": {"type": "string"}},
+    "conditionally_armed": {"type": "object"},
+    "blocked_until": {"type": "object"},
+    "not_armed_initial": {"type": "array", "items": {"type": "string"}},
+    "exposure_propensity_policy": {"type": "object"},
+    "non_claims": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

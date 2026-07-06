@@ -1,0 +1,23 @@
+{
+  "component_id": "forecast.permit_stall_v0.r1",
+  "consuming_surfaces": [],
+  "eval_report_ref": "E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+  "feature_policy": {
+    "no_future_state_features": true,
+    "no_terminal_outcome_features": true,
+    "train_reference_only_group_rates": true
+  },
+  "frozen_replay_only": true,
+  "global_train_stalled_rate": 0.03052748,
+  "model_family": "interpretable_regularized_group_rate_forecaster",
+  "model_status": "experimental",
+  "release_ledger_row": null,
+  "target_id": "permit_stall_v0",
+  "train_rows": 14444,
+  "training_manifest_ref": "E3_L2_R2_EXPERIMENT_TRAINING_MANIFEST.json",
+  "validation_summary": {
+    "accuracy_role": "descriptive_only_not_success_bar",
+    "average_precision": 0.191775,
+    "brier_score": 0.092531
+  }
+}

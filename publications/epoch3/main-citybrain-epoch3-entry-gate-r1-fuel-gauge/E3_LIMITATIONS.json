@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-07-06T16:44:47Z",
+  "followup_reconciliation_refs": {
+    "arming_requirement_audit": "E3_ARMING_REQUIREMENT_AUDIT_REPORT.json",
+    "e2_2_label_fuel_reconciliation": "E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json",
+    "track0_full_historical_corpus_debt": "E3_TRACK0_FULL_HISTORICAL_CORPUS_DISCOVERY_DEBT_ROW.json"
+  },
+  "limitations": [
+    {
+      "limitation": "Current eligible post-fix terminal dispositions are below R3 arming thresholds.",
+      "next_lane": "Epoch 3 operator validation and disposition collection",
+      "owner": "Label Fuel"
+    },
+    {
+      "limitation": "Exposure/propensity logging is armed to begin now; pre-logging records remain propensity_unknown and cannot count toward primary R3 thresholds.",
+      "next_lane": "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+      "owner": "Exposure Logging"
+    },
+    {
+      "limitation": "Offline ranker experiments remain not armed until structured R3A thresholds pass and registry entry exists.",
+      "next_lane": "L1.R3A_OFFLINE_RANKER_EXPERIMENT after threshold ledger row",
+      "owner": "Ranking"
+    },
+    {
+      "limitation": "Forecasting remains blocked because BacktestReport.exists is false.",
+      "next_lane": "L2.R2_FORECAST_MODEL after BacktestReport",
+      "owner": "Forecasting"
+    },
+    {
+      "limitation": "L3_COUNTERFACTUAL remains blocked pending propagation rules, fidelity gate, assumptions/uncertainty schema, and CHECK coverage.",
+      "next_lane": "Counterfactual substrate gate",
+      "owner": "Loop 3"
+    },
+    {
+      "limitation": "L4_CASE_MEMORY remains blocked pending retention, deletion/privacy, source-class, and outcome-lineage enforcement.",
+      "next_lane": "Case memory governance gate",
+      "owner": "Loop 4"
+    },
+    {
+      "limitation": "Epoch 2.2 already explicitly limited label fuel; E3 R1 records this in E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json without reopening Epoch 2.2 or arming ranking.",
+      "next_lane": "Epoch 3 operator validation and disposition collection",
+      "owner": "E2.2 Label Fuel Reconciliation"
+    },
+    {
+      "limitation": "Focused corpus fixtures are green, but full historical discovery remains open Track 0 debt and blocks L1.R3A_OFFLINE_RANKER_EXPERIMENT until corpus.full_discovery.status == green.",
+      "next_lane": "Full historical corpus discovery greening before R3A may arm",
+      "owner": "Track 0"
+    }
+  ],
+  "metrics_snapshot_id": "citybrain_epoch3_entry_baseline_from_epoch2_closeout",
+  "not_armed": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "schema_version": "citybrain.epoch3.entry_gate.limitations.v1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

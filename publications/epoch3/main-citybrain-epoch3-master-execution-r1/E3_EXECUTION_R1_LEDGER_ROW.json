@@ -1,0 +1,8 @@
+{
+  "decision_ref": "E3_MASTER_EXECUTION_R1_DECISION.json",
+  "ledger_id": "E3_EXECUTION_R1_LEDGER_ROW",
+  "mid_run_arming_started_new_work": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-MASTER-EXECUTION-R1",
+  "published_at": "2026-07-06T16:44:57Z",
+  "status": "PASS_E3_MASTER_EXECUTION_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,16 @@
+{
+  "allowed_experimental_forecast_components": 1,
+  "case_memory_learner_created": false,
+  "counterfactual_learner_created": false,
+  "cross_city_learned_transfer_created": false,
+  "dynamic_investigation_agent_created": false,
+  "forecast_components_with_consuming_surfaces": 0,
+  "operator_facing_forecast_created": false,
+  "operator_facing_ranker_created": false,
+  "product_forecast_packet_created": false,
+  "product_forecast_surface_created": false,
+  "ranker_created": false,
+  "registered_forecast_model_components": 1,
+  "status": "PASS",
+  "watch_family_consumes_model": false
+}

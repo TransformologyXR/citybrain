@@ -1,0 +1,29 @@
+{
+  "closeout_exclusion_list": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "id": "E3_STANDING_NO_MODEL_GUARD_TEMPLATE",
+  "post_r3a_allowed_shape": {
+    "consuming_surfaces": [],
+    "eval_refs": "required_non_empty",
+    "frozen_replay_only": true,
+    "release_ledger_row": null,
+    "status": "experimental",
+    "training_manifest_ref": "required"
+  },
+  "pre_r3a_invariant": {
+    "case_memory_learner_created": false,
+    "counterfactual_learner_created": false,
+    "cross_city_learned_transfer_created": false,
+    "dynamic_investigation_agent_created": false,
+    "forecast_model_created": false,
+    "new_learned_component_registry_entries": 0,
+    "ranker_created": false
+  }
+}

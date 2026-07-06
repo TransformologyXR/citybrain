@@ -1,0 +1,12 @@
+{
+  "limitations": [
+    "No learned/model work is started in this package.",
+    "Track A/B readouts cite the evaluator snapshot and do not recompute thresholds.",
+    "Permit-stall labels are defined, but local governed NYC/London label history is insufficient for model arming.",
+    "Counterfactual path is deterministic/replay only and review-only.",
+    "L4 production erasure remains future production readiness, not an E3 minimum-path blocker.",
+    "Fuel generation is an operator-paced program; Codex publishes protocol and estimates only."
+  ],
+  "report_id": "E3_EXECUTION_R1_LIMITATIONS",
+  "status": "PASS_WITH_LIMITATIONS"
+}

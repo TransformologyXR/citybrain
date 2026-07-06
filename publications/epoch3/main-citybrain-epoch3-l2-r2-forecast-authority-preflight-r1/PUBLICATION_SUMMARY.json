@@ -1,0 +1,16 @@
+{
+  "category": "execution",
+  "closeout_type": "forecast_authority_preflight",
+  "key": "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-FORECAST-AUTHORITY-PREFLIGHT-R1",
+  "proof_artifacts": [
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_DECISION.json",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LEDGER_ROW.json",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1",
+  "status": "PASS_E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1_WITH_LIMITATIONS",
+  "summary": "Forecast authority preflight required human authority and same-run release discipline."
+}

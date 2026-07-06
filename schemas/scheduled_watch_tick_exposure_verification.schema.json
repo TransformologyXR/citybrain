@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/scheduled_watch_tick_exposure_verification.schema.json",
+  "title": "ScheduledWatchTickExposureVerification",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "report_id",
+    "status",
+    "scheduled_tick_status",
+    "expected_payload_items",
+    "emitted_exposure_events",
+    "coverage_ratio",
+    "non_empty_payload"
+  ],
+  "properties": {
+    "report_id": {"type": "string"},
+    "status": {"type": "string"},
+    "scheduled_tick_status": {"type": "string"},
+    "expected_payload_items": {"type": "integer", "minimum": 0},
+    "emitted_exposure_events": {"type": "integer", "minimum": 0},
+    "coverage_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+    "non_empty_payload": {"type": "boolean"},
+    "source_refs": {"type": "array", "items": {"type": "string"}}
+  }
+}

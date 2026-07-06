@@ -1,0 +1,8 @@
+{
+  "human_authority_required": true,
+  "ledger_row_id": "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1_PUBLISHED",
+  "model_authority_granted_by_codex": false,
+  "no_model": true,
+  "published_at": "2026-07-06T16:46:38Z",
+  "status": "PASS_E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1_WITH_LIMITATIONS"
+}

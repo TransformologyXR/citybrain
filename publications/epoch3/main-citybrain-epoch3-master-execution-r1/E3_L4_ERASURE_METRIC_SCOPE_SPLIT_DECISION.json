@@ -1,0 +1,9 @@
+{
+  "decision_id": "E3_L4_ERASURE_METRIC_SCOPE_SPLIT_DECISION",
+  "future_production_metric": "policy.right_to_forget_or_delete_path.production_erasure_workflow",
+  "l4_requirement_repointed": true,
+  "new_e3_blocking_metric": "policy.right_to_forget_or_delete_path.erasure_workflow_defined_and_enforced_at_current_scope",
+  "old_metric": "policy.right_to_forget_or_delete_path.production_erasure_workflow",
+  "production_erasure_may_remain_false_without_blocking_e3_l4_minimum": true,
+  "status": "PUBLISHED"
+}

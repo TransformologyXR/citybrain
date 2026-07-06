@@ -1,0 +1,14 @@
+{
+  "category": "reconciliation",
+  "closeout_type": "followup_reconciliation",
+  "key": "E3_ENTRY_GATE_R1_FOLLOWUP_RECONCILIATION_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FOLLOWUP-RECONCILIATION-R1",
+  "proof_artifacts": [
+    "E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+  "status": "PASS_RECONCILED",
+  "summary": "Follow-up reconciliation confirmed E2.2 label-fuel limitations were consistent with E3 gate status."
+}

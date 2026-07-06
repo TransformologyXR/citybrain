@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "exploration_floor_percent": {
+      "maximum": 100,
+      "minimum": 0,
+      "type": "number"
+    },
+    "family_cap_override_allowed": {
+      "type": "boolean"
+    },
+    "holdout_families_supported": {
+      "type": "boolean"
+    },
+    "learned_ranker_enabled": {
+      "type": "boolean"
+    },
+    "operator_throttle_override_allowed": {
+      "type": "boolean"
+    },
+    "policy_id": {
+      "type": "string"
+    },
+    "ranker_off_replay_hook_present": {
+      "type": "boolean"
+    },
+    "safety_cap_override_allowed": {
+      "type": "boolean"
+    },
+    "static_policy_only": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "policy_id",
+    "static_policy_only",
+    "learned_ranker_enabled",
+    "operator_throttle_override_allowed",
+    "safety_cap_override_allowed"
+  ],
+  "title": "ExplorationFloorPolicy",
+  "type": "object"
+}

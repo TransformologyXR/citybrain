@@ -1,0 +1,14 @@
+{
+  "artifact_id": "E3_CLOSEOUT_LEDGER_ROW",
+  "closeout_type": "MINIMUM_ACCEPTABLE_WITH_LOOP2_OFFLINE_EXPERIMENT",
+  "ledger_text": "Epoch 3 closes with limitations: governed foundation complete, Loop 2 offline experiment complete, no product learned capabilities armed, operator fuel deferred because system is not live.",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "proof_artifacts": [
+    "E3_CLOSEOUT_DECISION.json",
+    "E3_MASTER_LEDGER.json",
+    "E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.json",
+    "E3_FORECAST_RESULT_FRAMING_ROW.json",
+    "E3_FUEL_REALITY_FINDING_ROW.json"
+  ],
+  "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS"
+}

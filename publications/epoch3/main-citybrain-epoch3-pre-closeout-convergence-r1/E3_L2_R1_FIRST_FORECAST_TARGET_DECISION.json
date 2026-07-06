@@ -1,0 +1,9 @@
+{
+  "decision_id": "E3_L2_R1_FIRST_FORECAST_TARGET_DECISION",
+  "forecast_target_id": "forecast_target:e3:l2r1:review_backlog_next_tick_count",
+  "forecast_target_name": "Review backlog count at next scheduled Watch tick",
+  "rationale": "Uses already governed Watch/exposure/outcome fields and supports a do-nothing baseline without creating a forecast model.",
+  "status": "PASS_TARGET_SELECTED_FOR_HARNESS_ONLY",
+  "target_horizon": "next_scheduled_watch_tick",
+  "training_or_prediction_enabled": false
+}

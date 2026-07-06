@@ -1,0 +1,78 @@
+{
+  "checked_files": [
+    {
+      "bytes": 934,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_CITY_STRATIFIED_EVAL_REPORT.json"
+    },
+    {
+      "bytes": 625,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 3371,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENT_TRAINING_MANIFEST.json"
+    },
+    {
+      "bytes": 4354047,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_PREDICTIONS.jsonl"
+    },
+    {
+      "bytes": 1637,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json"
+    },
+    {
+      "bytes": 791,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_MODEL_CARD.json"
+    },
+    {
+      "bytes": 505,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json"
+    },
+    {
+      "bytes": 924,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_HUMAN_MODEL_AUTHORITY_DECISION_ROW.json"
+    },
+    {
+      "bytes": 795,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_LIMITATIONS.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 382,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_NO_PRODUCT_SURFACE_AUDIT.json"
+    },
+    {
+      "bytes": 504,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_OFFLINE_EXPERIMENT_DECISION.json"
+    },
+    {
+      "bytes": 384,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_OFFLINE_EXPERIMENT_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 664,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_TEMPORAL_LEAKAGE_AUDIT.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:46:40Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1"
+}

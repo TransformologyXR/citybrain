@@ -1,0 +1,10 @@
+{
+  "blockers": [],
+  "forecast_model_created": false,
+  "human_authority_required": true,
+  "learned_predictor_created": false,
+  "model_authority_granted_by_codex": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-FORECAST-AUTHORITY-PREFLIGHT-R1",
+  "same_run_model_start_allowed": false,
+  "status": "PASS_E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,15 @@
+{
+  "component_id": "forecast.permit_stall_v0.r1",
+  "component_kind": "forecast_model",
+  "consuming_surfaces": [],
+  "eval_refs": [
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+    "E3_L2_R2_CITY_STRATIFIED_EVAL_REPORT.json"
+  ],
+  "frozen_replay_only": true,
+  "release_ledger_row": null,
+  "rollback_ref": "disable_component:forecast.permit_stall_v0.r1",
+  "status": "experimental",
+  "target_id": "permit_stall_v0",
+  "training_manifest_ref": "E3_L2_R2_EXPERIMENT_TRAINING_MANIFEST.json"
+}

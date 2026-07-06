@@ -1,0 +1,12 @@
+{
+  "artifact_id": "E3_FUEL_REALITY_FINDING_ROW",
+  "case_memory_armed": false,
+  "interpretation": "The epoch refused to fabricate operator fuel; this is correct governance, not failure.",
+  "operator_paced_fuel_accumulated": false,
+  "operator_paced_fuel_program": "deferred_not_live",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "product_forecast_armed": false,
+  "ranking_armed": false,
+  "status": "CENTRAL_FINDING",
+  "system_live": false
+}

@@ -1,0 +1,93 @@
+{
+  "checked_files": [
+    {
+      "bytes": 292880,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_INDEX.json"
+    },
+    {
+      "bytes": 1325,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 652,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BACKTEST_HARNESS_REPORT.json"
+    },
+    {
+      "bytes": 277,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BASELINE_DO_NOTHING_COMPARATOR.json"
+    },
+    {
+      "bytes": 509,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FIRST_FORECAST_TARGET_DECISION.json"
+    },
+    {
+      "bytes": 358,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FORECAST_PACKET_CHECK_GATE_SCAFFOLD.json"
+    },
+    {
+      "bytes": 275,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FORECAST_UNCERTAINTY_SCHEMA_PATH.json"
+    },
+    {
+      "bytes": 559,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FROZEN_EVAL_SLICE_CONTRACT.json"
+    },
+    {
+      "bytes": 2012,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT.json"
+    },
+    {
+      "bytes": 897,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json"
+    },
+    {
+      "bytes": 467,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 405,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 900,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json"
+    },
+    {
+      "bytes": 2375,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_exposure_events.jsonl"
+    },
+    {
+      "bytes": 638,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_payload.json"
+    },
+    {
+      "bytes": 448,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_run_envelope.json"
+    },
+    {
+      "bytes": 508,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-06T16:44:57Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_PRE_CLOSEOUT_CONVERGENCE"
+}

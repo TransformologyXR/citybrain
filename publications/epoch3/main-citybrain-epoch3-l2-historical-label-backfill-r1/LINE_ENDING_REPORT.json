@@ -1,0 +1,73 @@
+{
+  "checked_files": [
+    {
+      "bytes": 980443,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_GOVERNED_HISTORICAL_LABEL_ROWS.jsonl"
+    },
+    {
+      "bytes": 466,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 360,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_DECISION.json"
+    },
+    {
+      "bytes": 435,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 461,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json"
+    },
+    {
+      "bytes": 723,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_MANIFEST.json"
+    },
+    {
+      "bytes": 252,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_INSUFFICIENCY_ROW.json"
+    },
+    {
+      "bytes": 16184,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_TRANSITION_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 612,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_L2R2_ARMING_READOUT.json"
+    },
+    {
+      "bytes": 765,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_R1_BASELINE_BACKTEST_REPORT_R2.json"
+    },
+    {
+      "bytes": 624,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_R1_TARGET_SUFFICIENCY_REPORT_R2.json"
+    },
+    {
+      "bytes": 397,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json"
+    },
+    {
+      "bytes": 522,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_NO_MODEL_GUARD_REPORT.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:45:44Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_L2_HISTORICAL_LABEL_BACKFILL_R1"
+}

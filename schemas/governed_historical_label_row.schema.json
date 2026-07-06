@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GovernedHistoricalLabelRow",
+  "type": "object",
+  "required": [
+    "label_row_id",
+    "target_id",
+    "city_id",
+    "subject_ref",
+    "source_record_refs",
+    "source_class",
+    "transition_refs",
+    "label_window_start",
+    "label_window_end",
+    "observation_window_days",
+    "stall_threshold_days",
+    "counted_state",
+    "terminal_outcome",
+    "is_stalled",
+    "censor_status",
+    "eligibility_status",
+    "eligibility_reason",
+    "lineage_refs",
+    "model_allowed",
+    "training_label_row_kind"
+  ],
+  "properties": {
+    "label_row_id": {
+      "type": "string",
+      "pattern": "^label:permit_stall_v0:"
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "city_id": {
+      "enum": [
+        "london",
+        "nyc"
+      ]
+    },
+    "subject_ref": {
+      "type": "string"
+    },
+    "source_record_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_class": {
+      "const": "derived_from_source_record"
+    },
+    "transition_refs": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "label_window_start": {
+      "type": "string",
+      "format": "date"
+    },
+    "label_window_end": {
+      "type": "string",
+      "format": "date"
+    },
+    "observation_window_days": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "stall_threshold_days": {
+      "const": 60
+    },
+    "counted_state": {
+      "type": "string"
+    },
+    "terminal_outcome": {
+      "type": "string"
+    },
+    "is_stalled": {
+      "type": "boolean"
+    },
+    "censor_status": {
+      "const": "uncensored"
+    },
+    "eligibility_status": {
+      "const": "eligible_for_baseline_backtest"
+    },
+    "eligibility_reason": {
+      "type": "string"
+    },
+    "lineage_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "model_allowed": {
+      "const": false
+    },
+    "training_label_row_kind": {
+      "const": "real_historical_source_derived"
+    }
+  }
+}

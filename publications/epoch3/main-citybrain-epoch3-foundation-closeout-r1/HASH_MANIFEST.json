@@ -1,0 +1,73 @@
+{
+  "artifact_root": "outputs/epoch3_foundation_closeout_r1",
+  "created_at": "2026-07-06T16:44:57Z",
+  "files": [
+    {
+      "bytes": 2477,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_ARMING_STATUS_FINAL.json",
+      "sha256": "48fa3f9908ad864a441dd218dd8c200cb8083f7eebc5c2170af1942b46d49170"
+    },
+    {
+      "bytes": 1019,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_BACKTEST_HARNESS_SUMMARY.json",
+      "sha256": "018ea89925dbd48e3adfa1cb08edfa959a1edbba75b81e135dab52a88106a0ee"
+    },
+    {
+      "bytes": 2370,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CAPABILITY_SUMMARY.json",
+      "sha256": "7e6406f534cb33a6b7db4a1afc19206f34f663b0073597702fad74f811be4b8c"
+    },
+    {
+      "bytes": 2445,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CLOSEOUT_DECISION.json",
+      "sha256": "882bba5b2581cc7019bcfac238a6a6d11af25c38df2c27ba5bd0471f4244da2c"
+    },
+    {
+      "bytes": 633,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CORPUS_AND_HASH_SUMMARY.json",
+      "sha256": "6307fec89b97d0dfc128941de34b323591c3a675fefbc98b820c8613f910a951"
+    },
+    {
+      "bytes": 1090,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_EXPOSURE_COVERAGE_SUMMARY.json",
+      "sha256": "671884e684237bf7b1871b0e525a03a593757faf175c8c3ab5b8454c5ac1ed5e"
+    },
+    {
+      "bytes": 507,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LEDGER_ROW.json",
+      "sha256": "8f9c3029e22669ccfc2c3acc446be20797287666362b5d696f608be5c5d02c57"
+    },
+    {
+      "bytes": 697,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LIMITATIONS.json",
+      "sha256": "c222fb1deee65d599387a53d348deb095f7a60cbe53a546928ae73ccd18774c5"
+    },
+    {
+      "bytes": 1140,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_NEXT_ARMING_THRESHOLDS.json",
+      "sha256": "2e6a9dbf5f9d05df0a0dd69389707126503922bb43c63b1e3550eb1e637086a3"
+    },
+    {
+      "bytes": 508,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "cf837ebc2a67ea6f3527e6232311f1e97c6bb1b87ccf188b6923a09b26eab30c"
+    },
+    {
+      "bytes": 625,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_OUTCOME_CALIBRATION_SUMMARY.json",
+      "sha256": "317d7593d905255a204e0f7da73652f6ccd6ac00a167dd7b1f575b856202ede1"
+    },
+    {
+      "bytes": 1955,
+      "path": "outputs/epoch3_foundation_closeout_r1/LINE_ENDING_REPORT.json",
+      "sha256": "a05dad4d4b95204e3a81fc370b0c1b637aee429b33d0d2460af042df20915cf3"
+    },
+    {
+      "bytes": 582,
+      "path": "outputs/epoch3_foundation_closeout_r1/README.md",
+      "sha256": "e9c08b16789fb9788c88de71d6fa3c477436b94c6b81941cee5f27f39fdbf9d4"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1",
+  "self_reference_policy": "HASH_MANIFEST.json is excluded to avoid recursive hash instability."
+}

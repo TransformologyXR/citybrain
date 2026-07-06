@@ -1,0 +1,123 @@
+{
+  "checked_files": [
+    {
+      "bytes": 463,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_CALIBRATION_HARDENING_START_REPORT.json"
+    },
+    {
+      "bytes": 707,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT.json"
+    },
+    {
+      "bytes": 473,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_HOLDOUT_FAMILY_RATIONALE_ROW.json"
+    },
+    {
+      "bytes": 808,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json"
+    },
+    {
+      "bytes": 491,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 940,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_START_REPORT.json"
+    },
+    {
+      "bytes": 702,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 1163,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 881,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIMITATIONS.json"
+    },
+    {
+      "bytes": 1466,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION.json"
+    },
+    {
+      "bytes": 683,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json"
+    },
+    {
+      "bytes": 885,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_STANDING_NO_MODEL_GUARD_TEMPLATE.json"
+    },
+    {
+      "bytes": 761,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 1136,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_WATCH_SERVICE_COVERAGE_CRITERION_DELTA_ROW.json"
+    },
+    {
+      "bytes": 4199,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 259,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/empty_tick_vacuous_pass_fixture.json"
+    },
+    {
+      "bytes": 429,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/expected_training_eligibility_reasons.json"
+    },
+    {
+      "bytes": 3410,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/exposure_events_replay.jsonl"
+    },
+    {
+      "bytes": 169,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/metrics_pending_tick_overdue.json"
+    },
+    {
+      "bytes": 324,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_reexposure_002.json"
+    },
+    {
+      "bytes": 584,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json"
+    },
+    {
+      "bytes": 360,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/reexposure_run_envelope_002.json"
+    },
+    {
+      "bytes": 430,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/watch_run_envelope_replay.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:44:48Z",
+  "crlf_paths": [],
+  "id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_PHASE2_PUBLICATION"
+}

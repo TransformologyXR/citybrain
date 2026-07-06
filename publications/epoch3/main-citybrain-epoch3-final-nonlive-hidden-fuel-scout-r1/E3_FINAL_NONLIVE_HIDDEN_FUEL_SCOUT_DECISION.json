@@ -1,0 +1,29 @@
+{
+  "closeout_affecting_item_count": 2,
+  "epoch4_backlog_item_count": 5,
+  "finality_rule": "NO_MORE_PRE_CLOSEOUT_SCOUTS_UNLESS_HUMAN_REOPENS",
+  "full_epoch3_closeout_ready": false,
+  "l4_operator_floor_expectation": "cannot_be_expected_to_arm_from_live_sessions_in_epoch3",
+  "lanes": {
+    "A_l4_content_verification": "PASS_WITH_LIMITATIONS",
+    "B_check_calibration_readiness": "PASS_WITH_LIMITATIONS",
+    "C_workflow_review_state": "PASS_WITH_LIMITATIONS",
+    "D_watch_ranking_descriptive": "PASS_WITH_LIMITATIONS",
+    "E_simulation_backtest_inputs": "PASS_WITH_LIMITATIONS",
+    "F_identity_graph_eval": "PASS_WITH_LIMITATIONS"
+  },
+  "limitations": [
+    "System is not live; operator-paced fuel program is deferred.",
+    "R3A/R3B and L4 operator-floor fuel cannot be expected to arm from live sessions in this Epoch unless the system becomes live or review sessions are explicitly run.",
+    "This is the final pre-closeout scout unless a human explicitly reopens scouting.",
+    "All outputs are candidate inventory and backlog only."
+  ],
+  "no_model_guard": "PASS",
+  "no_more_pre_closeout_scouts": true,
+  "non_live_assumption": true,
+  "operator_paced_fuel_program": "deferred_not_live",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "promotion_status": "candidate_inventory_and_backlog_only",
+  "r3a_r3b_operator_fuel_expectation": "cannot_be_expected_to_arm_in_epoch3_without_live_system_or_explicit_review_sessions",
+  "status": "PASS_E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1_WITH_LIMITATIONS"
+}

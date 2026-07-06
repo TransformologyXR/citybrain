@@ -1,0 +1,38 @@
+{
+  "dependency_status": {
+    "missing_refs": [],
+    "refs": {
+      "e2_2_label_reconciliation": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json",
+      "l4_arming_audit": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json",
+      "phase2_fuel_snapshot": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+      "phase2_live_coverage": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+      "phase2_no_model_guard": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_NO_MODEL_GUARD_REPORT.json",
+      "phase2_scheduled_tick": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json",
+      "phase2_surfaced_definition": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+      "phase2_watch_delta": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_WATCH_SERVICE_COVERAGE_CRITERION_DELTA_ROW.json",
+      "track0_corpus_debt": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_TRACK0_FULL_HISTORICAL_CORPUS_DISCOVERY_DEBT_ROW.json"
+    },
+    "status": "PASS"
+  },
+  "fixture_eligible_if_production_records": 2,
+  "historical_propensity_unknown_upgraded_to_fuel": false,
+  "primary_reason_counts": {
+    "fixture_not_production_fuel": 2,
+    "holdout_family_not_training_eligible": 1,
+    "not_terminal_disposition": 1,
+    "propensity_unknown": 1,
+    "unverified_exposure": 1
+  },
+  "production_eligible_terminal_dispositions": 0,
+  "report_id": "E3_OUTCOME_LEDGER_HARDENING_REPORT",
+  "schema_hardened": true,
+  "source_refs": [
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+    "E3_OUTCOME_RECORDS_VALIDATION_FIXTURE.jsonl"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_eligibility_rules_enforced": true,
+  "validation_fixture_records": 6,
+  "validation_fixtures_separated_from_production_fuel": true
+}

@@ -1,0 +1,21 @@
+{
+  "atomic_publication": true,
+  "hash_manifest_ref": "HASH_MANIFEST.json",
+  "id": "E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1_PUBLISHED",
+  "no_model_work": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PHASE2-LIVE-EXPOSURE-COVERAGE-AND-HARDENING-R1",
+  "report_refs": [
+    "E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+    "E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+    "E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json",
+    "E3_WATCH_SERVICE_COVERAGE_CRITERION_DELTA_ROW.json",
+    "E3_HOLDOUT_FAMILY_RATIONALE_ROW.json",
+    "E3_NO_MODEL_GUARD_REPORT.json",
+    "E3_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+    "E3_OUTCOME_LEDGER_HARDENING_START_REPORT.json",
+    "E3_CALIBRATION_HARDENING_START_REPORT.json",
+    "E3_PHASE2_CORPUS_DELTA.json"
+  ],
+  "status": "PASS_E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1_WITH_LIMITATIONS",
+  "summary": "Phase 2 verifies exposure coverage against operator-visible payloads, locks re-exposure semantics, starts outcome/calibration hardening under verified exposure rules, publishes Watch-service additive coverage criterion, registers corpus delta, and emits the first chained fuel-gauge snapshot."
+}

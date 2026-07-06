@@ -1,0 +1,93 @@
+{
+  "artifact_root": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1",
+  "created_at": "2026-07-06T16:46:39Z",
+  "files": [
+    {
+      "bytes": 32402423,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_GOVERNED_LABEL_ROWS.jsonl",
+      "sha256": "443b0871ef16c090171924829a7180e3fde4301e002cdcc7c054802a7905db06"
+    },
+    {
+      "bytes": 1689,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_LABEL_MATERIALIZATION_REPORT.json",
+      "sha256": "da106dca31a9b02c529b28122ab5d10464e7ee20e530e512b4c07101752feace"
+    },
+    {
+      "bytes": 802,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_PER_CITY_LABEL_STATS.json",
+      "sha256": "4d7644405b11afd414b026e1ed70798cdf1c2de9dad7c8d894cb9fb1a741b466"
+    },
+    {
+      "bytes": 143133,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_TIME_STRATIFICATION_STATS.json",
+      "sha256": "48feead28c3b2857dcdf883f2b5049fc21a3044bf8f30901fe41b46899b6e5ad"
+    },
+    {
+      "bytes": 407,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_TRANSITION_SEQUENCE_INTEGRITY_REPORT.json",
+      "sha256": "a34d14896941121f82f0eb82f545f5fe6af7f21767afc7530a65cac99dbf6c72"
+    },
+    {
+      "bytes": 2719,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R1_BASELINE_BACKTEST_REPORT_CORRECTED_METRICS.json",
+      "sha256": "98d9878cca9d4789d69f4d6038d8fc35567abb1e5fbba1b209c138dda8b42055"
+    },
+    {
+      "bytes": 898,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_CORPUS_DELTA.json",
+      "sha256": "5ecd4c25ad711907b5beae863b721f3f52491c2e3d12bdb5d005122f37821111"
+    },
+    {
+      "bytes": 373,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_DECISION.json",
+      "sha256": "4ffc5c2b8e6532c228abad77a3f907aea8d22f16d4aac7e13a446797faae9b53"
+    },
+    {
+      "bytes": 297,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LEDGER_ROW.json",
+      "sha256": "2c1feee1da3db13320f56a9239eed6e3e8068de8bfdd79acc9d2986686cec426"
+    },
+    {
+      "bytes": 514,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json",
+      "sha256": "cf4493876db67c857482f3efad2226fde1af45a52d485db1d797da907aee99c0"
+    },
+    {
+      "bytes": 962,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_REPORT.json",
+      "sha256": "0c37b79481b5bece6d076cd70ca36e19240a6823f94c99ef7fd868001f3119df"
+    },
+    {
+      "bytes": 742,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_METRIC_SUCCESS_CRITERIA.json",
+      "sha256": "7866538d964916958104e6b10637c7e10359c53e581a3e4d785d50de9aaaa579"
+    },
+    {
+      "bytes": 836,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_HUMAN_AUTHORITY_DECISION_ROW.template.json",
+      "sha256": "9262cc047f387f19612ba7901a6a79544d96648dc3cbe0fbbe03e12da76dc76d"
+    },
+    {
+      "bytes": 484,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "afdd82b8500dd84bdcd0173d0d5395a4154cd722f6a890c2d551472f0452940f"
+    },
+    {
+      "bytes": 276,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json",
+      "sha256": "2bd3e0fc1506012136bcc3ff3705d4690f09a7228eb296036899abac70f8e3aa"
+    },
+    {
+      "bytes": 499,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_TRAINING_MANIFEST_REQUIREMENTS.json",
+      "sha256": "c3b18efde8431fa039133fc9acbfa32a2bcb0178567151a33a0ec69e747ba918"
+    },
+    {
+      "bytes": 3011,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/LINE_ENDING_REPORT.json",
+      "sha256": "de3ac82a9810c635bcb1c0da3e2ba6d45271032dd395f39ffd4153e4a39ee84f"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1",
+  "self_reference_policy": "HASH_MANIFEST.json is excluded to avoid recursive hash instability."
+}

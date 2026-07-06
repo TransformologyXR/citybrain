@@ -1,0 +1,14 @@
+{
+  "case_memory_learner_created": false,
+  "counterfactual_learner_created": false,
+  "cross_city_learned_transfer_created": false,
+  "dynamic_investigation_agent_created": false,
+  "forbidden_capabilities_armed": [],
+  "forecast_model_created": false,
+  "forecast_packet_model_output_created": false,
+  "new_learned_component_registry_entries": 0,
+  "operator_facing_ranker_created": false,
+  "ranker_created": false,
+  "report_id": "E3_NO_MODEL_GUARD_REPORT",
+  "status": "PASS"
+}

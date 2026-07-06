@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "L4ErasureMetricSplit",
+  "type": "object",
+  "required": [
+    "old_metric",
+    "new_e3_blocking_metric",
+    "future_production_metric",
+    "l4_requirement_repointed"
+  ],
+  "properties": {
+    "old_metric": {"type": "string"},
+    "new_e3_blocking_metric": {
+      "const": "policy.right_to_forget_or_delete_path.erasure_workflow_defined_and_enforced_at_current_scope"
+    },
+    "future_production_metric": {
+      "const": "policy.right_to_forget_or_delete_path.production_erasure_workflow"
+    },
+    "l4_requirement_repointed": {"const": true}
+  }
+}

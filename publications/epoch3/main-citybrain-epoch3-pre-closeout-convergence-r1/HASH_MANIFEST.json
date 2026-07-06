@@ -1,0 +1,97 @@
+{
+  "artifact_root": "outputs/epoch3_pre_closeout_convergence_r1",
+  "created_at": "2026-07-06T16:44:57Z",
+  "files": [
+    {
+      "bytes": 292880,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_INDEX.json",
+      "sha256": "091fcae830be1e2d83f01aa1e0e0e020bd18b2e8a9f5ef43a78f3b81782b9a39"
+    },
+    {
+      "bytes": 1325,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json",
+      "sha256": "b50bcbb6b6899855a9bf20d83aa81e387258575c040bc5493f9be135fabf78fc"
+    },
+    {
+      "bytes": 652,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BACKTEST_HARNESS_REPORT.json",
+      "sha256": "3aa2a44c8b38ff5e92d2a3a5de96be8649ae63c51d84ce4e077961deb04f6003"
+    },
+    {
+      "bytes": 277,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BASELINE_DO_NOTHING_COMPARATOR.json",
+      "sha256": "94be721c2bf6412ecf2937975e25560e9068bef6fde6e255c549d330f89177ad"
+    },
+    {
+      "bytes": 509,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FIRST_FORECAST_TARGET_DECISION.json",
+      "sha256": "0304661d3f5a664cdf21bb84826fbd58d79af2f0b8ca99f8fbe5567da77ec297"
+    },
+    {
+      "bytes": 358,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FORECAST_PACKET_CHECK_GATE_SCAFFOLD.json",
+      "sha256": "64635e4f2b182d04765e51be9d37535c4c5541e9a572402b63c6955a75383398"
+    },
+    {
+      "bytes": 275,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FORECAST_UNCERTAINTY_SCHEMA_PATH.json",
+      "sha256": "2d06581f9a5f1f09265158a8dac902d03323e9d4a95a53d190b8deff250f4453"
+    },
+    {
+      "bytes": 559,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FROZEN_EVAL_SLICE_CONTRACT.json",
+      "sha256": "98af4e3409860e5a26e1672e38d4de1aa055f77e98c8217daef4b0772804d055"
+    },
+    {
+      "bytes": 2012,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT.json",
+      "sha256": "620e0037dd4b0806be515778b7d90f8086df717efbe6cbf28ec7542de0cfbe4d"
+    },
+    {
+      "bytes": 897,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json",
+      "sha256": "47ebb8903a8f3b76c4e7e1edac2971f13988f6240868d05a34b6d6011cadbfbc"
+    },
+    {
+      "bytes": 467,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_LIMITATIONS.json",
+      "sha256": "16437aa64f599a3467c01e4b549db8d777fa9b4a2f63e35f6a6f9399ad7a6ac2"
+    },
+    {
+      "bytes": 405,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "281c99aee1ae20744adb15ee7b4b68d77ce58a6e4cb3aa53862145c99b403e35"
+    },
+    {
+      "bytes": 900,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json",
+      "sha256": "00f739024e5f15efe16b9ae1e159218a73e25a3e5503dc4be0cdea88bffb293f"
+    },
+    {
+      "bytes": 2375,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_exposure_events.jsonl",
+      "sha256": "5f51693eed1ac4ce0f45ae30cdfb923a2b21fe12487ba62a623776b2361dc89c"
+    },
+    {
+      "bytes": 638,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_payload.json",
+      "sha256": "66164d6d04e517820a69361cb19e87cae1a32501588faf1571bb5f98c07c3b6d"
+    },
+    {
+      "bytes": 448,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_run_envelope.json",
+      "sha256": "5320c504cb4e4cc39aaad4d5af1c164f078f81de9f2c39984bab983482342b4a"
+    },
+    {
+      "bytes": 2882,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/LINE_ENDING_REPORT.json",
+      "sha256": "bb5cd510f03bb09c0f21bc6c12d9a0b9c74d8d23e5e758cac6672799e1486c84"
+    },
+    {
+      "bytes": 508,
+      "path": "outputs/epoch3_pre_closeout_convergence_r1/README.md",
+      "sha256": "22fdbd8c692967c3b169d197eabdd0dd89e36fe515b579d095b0ae64bed62974"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1"
+}

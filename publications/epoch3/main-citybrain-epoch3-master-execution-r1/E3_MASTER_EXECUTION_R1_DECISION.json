@@ -1,0 +1,15 @@
+{
+  "blockers": [],
+  "evaluator_is_only_arming_authority": true,
+  "foundation_dependency_ref": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CLOSEOUT_DECISION.json",
+  "mid_run_arming_rule": "ledger_row_only_no_model_start_in_same_run",
+  "status": "PASS_E3_MASTER_EXECUTION_R1_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-EPOCH3-MASTER-EXECUTION-R1",
+  "tracks": {
+    "A_loop1_readout": "PASS",
+    "B_baseline_backtest": "PASS_WITH_LABEL_LIMITATIONS",
+    "C_counterfactual_minimum_path": "PASS_NON_LEARNED_REPLAY_ONLY",
+    "D_l4_unblockers": "PASS_CURRENT_SCOPE_WITH_LIMITATIONS",
+    "E_fuel_generation_program": "PASS_PROTOCOL_PUBLISHED"
+  }
+}

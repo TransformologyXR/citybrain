@@ -1,0 +1,26 @@
+{
+  "eligibility_rules": {
+    "propensity_unknown_excluded_from_r3_fuel": true,
+    "requires_verified_exposure_linkage": true,
+    "training_eligibility_reason_enum": [
+      "eligible_terminal_disposition",
+      "propensity_unknown",
+      "unverified_exposure",
+      "not_terminal_disposition",
+      "holdout_family_not_terminal_disposition",
+      "no_terminal_disposition_yet"
+    ],
+    "unverified_exposure_excluded_from_r3_fuel": true
+  },
+  "eligible_terminal_dispositions": 0,
+  "id": "E3_OUTCOME_LEDGER_HARDENING_START_REPORT",
+  "source_refs": [
+    "fixtures/exposure_events_replay.jsonl",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "surfaced_definition_ref": "E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+  "total_r3_excluded_exposure_events": 5,
+  "true_learning_fuel_claimed": false,
+  "unverified_exposure_exclusions": 1
+}

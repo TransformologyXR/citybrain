@@ -1,0 +1,18 @@
+{
+  "approver_ref": "<human-required>",
+  "consuming_surfaces_allowed": [],
+  "decision": "DEFERRED",
+  "decision_id": "decision:l2r2:experimental_forecast_authority:<timestamp>",
+  "decision_type": "L2R2_EXPERIMENTAL_FORECAST_AUTHORITY",
+  "eval_refs_required": [
+    "E3_L2_R1_BASELINE_BACKTEST_REPORT_CORRECTED_METRICS.json",
+    "E3_L2_BACKFILL_R2_TRANSITION_SEQUENCE_INTEGRITY_REPORT.json"
+  ],
+  "expires_at_or_review_cadence": "human_to_set_before_any_experiment",
+  "frozen_replay_only": true,
+  "release_ledger_row": null,
+  "rollback_policy": "disable experimental component and retain no product-surface consumers",
+  "same_run_model_start_allowed": false,
+  "scope": "offline experimental forecast model authority only; no product surface authority",
+  "training_manifest_allowed": "required_if_granted_for_later_package"
+}

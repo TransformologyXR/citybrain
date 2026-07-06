@@ -1,0 +1,16 @@
+{
+  "artifact_id": "E3_CLOSEOUT_LIMITATIONS",
+  "limitations": [
+    "system_not_live_operator_fuel_deferred",
+    "forecast_model_offline_only_not_deployable",
+    "recall_at_fixed_precision_weak",
+    "city_divergence_requires_city_stratified_epoch4_work",
+    "ranking_not_armed",
+    "case_memory_not_armed",
+    "product_forecast_surface_not_armed",
+    "dynamic_investigation_not_armed",
+    "cross_city_learned_transfer_parked"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "status": "LIMITATIONS_ACCEPTED"
+}

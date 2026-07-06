@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "coverage_scope": {
+      "const": "per_run_envelope"
+    },
+    "denominator": {
+      "const": "operator_visible_payload_items_count"
+    },
+    "empty_tick_policy": {
+      "const": "standing_health_vacuous_pass"
+    },
+    "id": {
+      "const": "E3_SURFACED_IMPRESSION_DEFINITION_ROW"
+    },
+    "phase2_verification_requirement": {
+      "const": "operator_visible_payload_items_count_gt_zero"
+    },
+    "reexposure_rule": {
+      "const": "new_exposure_event_per_payload_inclusion"
+    },
+    "surfaced_definition": {
+      "const": "operator_visible_payload_inclusion"
+    }
+  },
+  "required": [
+    "id",
+    "surfaced_definition",
+    "denominator",
+    "reexposure_rule",
+    "coverage_scope",
+    "empty_tick_policy",
+    "phase2_verification_requirement"
+  ],
+  "title": "SurfacedImpressionDefinitionRow",
+  "type": "object"
+}

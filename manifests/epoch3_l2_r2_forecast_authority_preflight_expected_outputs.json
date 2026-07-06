@@ -1,0 +1,39 @@
+{
+  "expected_status": "PASS_E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1_WITH_LIMITATIONS",
+  "mid_run_arming_rule": "ledger_row_only_no_forecast_model_start_in_same_run",
+  "must_not_create": [
+    "forecast_model",
+    "learned_predictor",
+    "ranker",
+    "operator_facing_forecast_surface",
+    "counterfactual_learner",
+    "case_memory_learner",
+    "dynamic_investigation_agent",
+    "cross_city_learned_transfer"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-FORECAST-AUTHORITY-PREFLIGHT-R1",
+  "required_outputs": [
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_DECISION.json",
+    "E3_L2_BACKFILL_R2_GOVERNED_LABEL_ROWS.jsonl",
+    "E3_L2_BACKFILL_R2_LABEL_MATERIALIZATION_REPORT.json",
+    "E3_L2_BACKFILL_R2_PER_CITY_LABEL_STATS.json",
+    "E3_L2_BACKFILL_R2_TIME_STRATIFICATION_STATS.json",
+    "E3_L2_BACKFILL_R2_TRANSITION_SEQUENCE_INTEGRITY_REPORT.json",
+    "E3_L2_R2_FORECAST_METRIC_SUCCESS_CRITERIA.json",
+    "E3_L2_R1_BASELINE_BACKTEST_REPORT_CORRECTED_METRICS.json",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_REPORT.json",
+    "E3_L2_R2_HUMAN_AUTHORITY_DECISION_ROW.template.json",
+    "E3_L2_R2_TRAINING_MANIFEST_REQUIREMENTS.json",
+    "E3_L2_R2_NO_MODEL_GUARD_REPORT.json",
+    "E3_L2_R2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LEDGER_ROW.json",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_CORPUS_DELTA.json",
+    "HASH_MANIFEST.json",
+    "LINE_ENDING_REPORT.json"
+  ],
+  "required_previous_packages": [
+    "MAIN-CITYBRAIN-EPOCH3-MASTER-EXECUTION-R1",
+    "MAIN-CITYBRAIN-EPOCH3-L2-HISTORICAL-LABEL-BACKFILL-R1"
+  ]
+}

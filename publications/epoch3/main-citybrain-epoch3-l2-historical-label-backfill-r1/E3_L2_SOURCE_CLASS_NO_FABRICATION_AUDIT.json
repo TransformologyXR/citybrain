@@ -1,0 +1,11 @@
+{
+  "audit_id": "E3_L2_SOURCE_CLASS_NO_FABRICATION_AUDIT",
+  "fabricated_transition_count": 0,
+  "label_rows_checked": 750,
+  "single_snapshot_rows_converted": 0,
+  "source_class_allowed": [
+    "derived_from_source_record"
+  ],
+  "status": "PASS",
+  "transition_policy": "At least two dated state observations for the same case are required. One-time snapshots are not converted into history."
+}

@@ -1,0 +1,17 @@
+{
+  "hash_manifest_ref": "HASH_MANIFEST.json",
+  "ledger_row_id": "E3_L1_R1_R2_OUTCOME_CALIBRATION_HARDENING_R1_PUBLISHED",
+  "report_refs": [
+    "E3_TRAINING_ELIGIBILITY_RULES_REPORT.json",
+    "E3_OUTCOME_LEDGER_HARDENING_REPORT.json",
+    "E3_CHECK_TO_DISPOSITION_JOIN_REPORT.json",
+    "E3_CALIBRATION_REPORT_HARDENING_REPORT.json",
+    "E3_ARMING_STATUS_R1_R2_UPDATE.json",
+    "E3_FUEL_GAUGE_DELTA_SNAPSHOT_R1_R2.json",
+    "E3_NO_MODEL_GUARD_REPORT.json",
+    "E3_L1_R1_R2_CORPUS_DELTA.json"
+  ],
+  "status": "PASS_E3_L1_R1_R2_OUTCOME_CALIBRATION_HARDENING_R1_WITH_LIMITATIONS",
+  "summary": "Outcome ledger and CalibrationReport hardening published; no learned/model work armed.",
+  "task_id": "MAIN-CITYBRAIN-EPOCH3-L1-R1-R2-OUTCOME-CALIBRATION-HARDENING-R1"
+}

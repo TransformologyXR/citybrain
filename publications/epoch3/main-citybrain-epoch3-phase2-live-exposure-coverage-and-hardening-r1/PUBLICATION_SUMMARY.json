@@ -1,0 +1,16 @@
+{
+  "category": "foundation",
+  "closeout_type": "exposure_coverage_hardening",
+  "key": "E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PHASE2-LIVE-EXPOSURE-COVERAGE-AND-HARDENING-R1",
+  "proof_artifacts": [
+    "E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION.json",
+    "E3_PHASE2_LEDGER_ROW.json",
+    "E3_PHASE2_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1",
+  "status": "PASS_E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1_WITH_LIMITATIONS",
+  "summary": "Phase 2 exposure coverage and surfaced-impression definitions were hardened."
+}

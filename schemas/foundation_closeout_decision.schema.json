@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/foundation_closeout_decision.schema.json",
+  "title": "FoundationCloseoutDecision",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "task_id",
+    "status",
+    "foundation_closeout_ready",
+    "full_epoch3_closeout_ready",
+    "closeout_kind",
+    "evidence_refs",
+    "full_epoch3_remaining_paths"
+  ],
+  "properties": {
+    "task_id": {"const": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1"},
+    "status": {"type": "string"},
+    "foundation_closeout_ready": {"type": "boolean"},
+    "full_epoch3_closeout_ready": {"type": "boolean"},
+    "closeout_kind": {"type": "string"},
+    "evidence_refs": {"type": "array", "items": {"type": "string"}},
+    "full_epoch3_remaining_paths": {"type": "array", "items": {"type": "string"}}
+  }
+}

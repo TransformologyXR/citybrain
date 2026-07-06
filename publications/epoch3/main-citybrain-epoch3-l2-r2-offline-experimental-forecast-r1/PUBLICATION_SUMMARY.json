@@ -1,0 +1,16 @@
+{
+  "category": "execution",
+  "closeout_type": "offline_experimental_forecast",
+  "key": "E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-OFFLINE-EXPERIMENTAL-FORECAST-R1",
+  "proof_artifacts": [
+    "E3_L2_R2_OFFLINE_EXPERIMENT_DECISION.json",
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1",
+  "status": "PASS_E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1_WITH_LIMITATIONS",
+  "summary": "Loop 2 offline experiment validated the pipeline and registered one experimental frozen-replay component."
+}

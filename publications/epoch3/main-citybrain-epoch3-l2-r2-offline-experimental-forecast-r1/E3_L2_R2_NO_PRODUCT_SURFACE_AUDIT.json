@@ -1,0 +1,12 @@
+{
+  "allowed_experimental_component_count": 1,
+  "consuming_surfaces": [],
+  "eval_prediction_rows": 7487,
+  "forecast_model_created": true,
+  "operator_facing_forecast_created": false,
+  "prediction_rows_surface_allowed_count": 0,
+  "product_forecast_packet_created": false,
+  "product_forecast_surface_created": false,
+  "status": "PASS",
+  "watch_family_consumes_model": false
+}

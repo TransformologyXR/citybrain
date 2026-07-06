@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "accuracy_role": {
+      "const": "descriptive_only_not_success_bar"
+    },
+    "calibration_metrics": {
+      "type": "object"
+    },
+    "lead_time_metrics": {
+      "type": "object"
+    },
+    "model_created": {
+      "const": false
+    },
+    "primary_success_metrics": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "stalled_class_metrics": {
+      "type": "object"
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "temporal_split": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "target_id",
+    "accuracy_role",
+    "primary_success_metrics",
+    "stalled_class_metrics",
+    "calibration_metrics",
+    "lead_time_metrics",
+    "temporal_split",
+    "model_created"
+  ],
+  "title": "CorrectedMetricBaselineReport",
+  "type": "object"
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HistoricalLabelBackfillManifest",
+  "type": "object",
+  "required": [
+    "manifest_id",
+    "target_id",
+    "status",
+    "branch",
+    "label_rows_materialized",
+    "model_allowed",
+    "materialization_policy"
+  ],
+  "properties": {
+    "manifest_id": {
+      "const": "E3_L2_HISTORICAL_LABEL_BACKFILL_MANIFEST"
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "status": {
+      "const": "PASS_WITH_LIMITATIONS"
+    },
+    "branch": {
+      "enum": [
+        "transitions_materialized",
+        "snapshot_only"
+      ]
+    },
+    "label_rows_materialized": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "discovered_transition_candidate_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "label_rows_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model_allowed": {
+      "const": false
+    },
+    "materialization_policy": {
+      "type": "string"
+    },
+    "training_label_row_kind": {
+      "type": "string"
+    }
+  }
+}

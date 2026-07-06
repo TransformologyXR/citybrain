@@ -1,0 +1,29 @@
+{
+  "allowed_experimental_components": [
+    {
+      "component_id": "forecast.permit_stall_v0.r1",
+      "component_kind": "forecast_model",
+      "consuming_surfaces": [],
+      "frozen_replay_only": true,
+      "matches_source_registry_entry": true,
+      "product_surface_created": false,
+      "release_ledger_row": null,
+      "source_registry_ref": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json",
+      "status": "experimental"
+    }
+  ],
+  "artifact_id": "E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT",
+  "forbidden_component_kinds_absent": [
+    "ranker",
+    "operator_facing_forecast",
+    "product_forecast_surface",
+    "counterfactual_learner",
+    "case_memory_learner",
+    "dynamic_investigation",
+    "cross_city_learned_transfer"
+  ],
+  "forbidden_components_created": 0,
+  "new_components_in_closeout_package": 0,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

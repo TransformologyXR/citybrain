@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FuelGenerationProtocol",
+  "type": "object",
+  "required": [
+    "minimum_operator_refs",
+    "stratification_required",
+    "rule",
+    "weekly_snapshot_required_cells"
+  ],
+  "properties": {
+    "minimum_operator_refs": {"type": "integer", "minimum": 3},
+    "stratification_required": {"const": true},
+    "rule": {"type": "string"},
+    "weekly_snapshot_required_cells": {"type": "array", "items": {"type": "string"}}
+  }
+}

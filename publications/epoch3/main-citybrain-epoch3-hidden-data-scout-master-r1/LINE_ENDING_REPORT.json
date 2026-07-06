@@ -1,0 +1,79 @@
+{
+  "checked_files": [
+    {
+      "bytes": 238238,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_ARTIFACT_ROOT_INVENTORY.json"
+    },
+    {
+      "bytes": 55936,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_CHECK_CALIBRATION_FUEL_SCOUT_REPORT.json"
+    },
+    {
+      "bytes": 78429,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_GLOBAL_HIDDEN_DATA_BACKLOG.json"
+    },
+    {
+      "bytes": 850,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 904,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LEDGER.json"
+    },
+    {
+      "bytes": 647,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 2219,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_MASTER_DECISION.json"
+    },
+    {
+      "bytes": 893,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 34870,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_TRANSITION_TARGET_CATALOG.json"
+    },
+    {
+      "bytes": 963,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_TRANSITION_TARGET_SCOUT_REPORT.json"
+    },
+    {
+      "bytes": 30372,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_IDENTITY_GRAPH_EVAL_FUEL_SCOUT_REPORT.json"
+    },
+    {
+      "bytes": 31149,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_L4_CASE_MEMORY_FUEL_SCOUT_REPORT.json"
+    },
+    {
+      "bytes": 32080,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_LLM_PERCEPTION_USEFULNESS_SCOUT_REPORT.json"
+    },
+    {
+      "bytes": 447,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-06T17:36:02Z",
+  "crlf_paths": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_HIDDEN_DATA_SCOUT_MASTER_R1"
+}

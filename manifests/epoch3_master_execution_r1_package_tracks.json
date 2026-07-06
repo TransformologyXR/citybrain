@@ -1,0 +1,42 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-MASTER-EXECUTION-R1",
+  "tracks": [
+    {
+      "id": "track_a_loop1_readout",
+      "depends_on": ["preflight"],
+      "parallel_allowed": true
+    },
+    {
+      "id": "track_b_baseline_backtest",
+      "depends_on": ["preflight", "target_label_definition"],
+      "parallel_allowed": true
+    },
+    {
+      "id": "track_c_counterfactual_minimum_path",
+      "depends_on": ["preflight", "Q3", "Q6", "R0.2_delta"],
+      "parallel_allowed": true
+    },
+    {
+      "id": "track_d_l4_unblockers",
+      "depends_on": ["preflight", "L4_erasure_metric_split"],
+      "parallel_allowed": true
+    },
+    {
+      "id": "track_e_fuel_program",
+      "depends_on": ["preflight"],
+      "parallel_allowed": true
+    },
+    {
+      "id": "final_integration",
+      "depends_on": ["track_a", "track_b", "track_c", "track_d", "track_e"],
+      "parallel_allowed": false
+    }
+  ],
+  "global_stop_conditions": [
+    "no_off_books_learned_component",
+    "no_model_work_in_same_run_after_mid_run_arming",
+    "no_forecast_model",
+    "no_operator_facing_ranker",
+    "no_dispatch_or_official_action"
+  ]
+}

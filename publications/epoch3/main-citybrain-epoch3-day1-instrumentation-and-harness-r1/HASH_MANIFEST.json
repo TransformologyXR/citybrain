@@ -1,0 +1,129 @@
+{
+  "artifact_root": "outputs/epoch3_day1_instrumentation_and_harness_r1",
+  "created_at": "2026-07-06T16:44:48Z",
+  "entries": [
+    {
+      "bytes": 6298,
+      "path": "E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json",
+      "sha256": "e7a48df2258d7b7106c69ac411c945abfa6ec466edb37c01324e7976f8467804"
+    },
+    {
+      "bytes": 2332,
+      "path": "E3_DAY1_DECISION.json",
+      "sha256": "158f95025171f2324f3f061af1245eef1f6e8713158ef5e690c8333ad04d9157"
+    },
+    {
+      "bytes": 1375,
+      "path": "E3_DAY1_LEDGER_ROW.json",
+      "sha256": "cd716a371fbbf02462862d329e513b03144d9d34b841f6be9925d80ff46c580a"
+    },
+    {
+      "bytes": 2170,
+      "path": "E3_DAY1_LF_STABILITY_REPORT.json",
+      "sha256": "8d58c4fcc947314b8d18ec7ef5b82c8b837cf0d71b3ec52c266a2b3e4597453b"
+    },
+    {
+      "bytes": 1120,
+      "path": "E3_DAY1_LIMITATIONS.json",
+      "sha256": "eac56b243219e63f69f72f679020adab86a5f163630d150268b334fd2e11002f"
+    },
+    {
+      "bytes": 606,
+      "path": "E3_DAY1_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "8898e323ac8a0f91ad96e2acfbaf0105819ec37bf3146becc9cd2605c1f9704a"
+    },
+    {
+      "bytes": 2882,
+      "path": "L1_R0_EXPOSURE_LOG_EVENTS.jsonl",
+      "sha256": "b518c24b28e166e39d398e28bcc962d3869fb7a7f983065d2062cfcc33fdd389"
+    },
+    {
+      "bytes": 1590,
+      "path": "L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json",
+      "sha256": "b73ef4afa95c96a6e166e56c94597922b397f3cf60f5c9eeeb3184d7f8a6e8d8"
+    },
+    {
+      "bytes": 1190,
+      "path": "L1_R0_WATCH_EXPLORATION_FLOOR_INFRA_REPORT.json",
+      "sha256": "34d7bfd5bef8b24bccf4dbf7f0a7163604f06268ed6e48bf445836f0c6ea68c7"
+    },
+    {
+      "bytes": 952,
+      "path": "L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json",
+      "sha256": "128c69d505064362da92b4fb2e5e04173628f65f1586d1b0810063c43cb87a9a"
+    },
+    {
+      "bytes": 763,
+      "path": "L1_R2_CALIBRATION_REPORT_HARDENING_REPORT.json",
+      "sha256": "3a535fa110a7f242f30f9ec72359ce42fbaf2df56d72cc12f81596f813e8cb03"
+    },
+    {
+      "bytes": 852,
+      "path": "L2_R1_BACKTEST_HARNESS_SHELL_REPORT.json",
+      "sha256": "f25efb704ab094c57d6a8f44fc23921082fd2e4bdd1f90e3618901c2af138494"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 6298,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json",
+      "sha256": "e7a48df2258d7b7106c69ac411c945abfa6ec466edb37c01324e7976f8467804"
+    },
+    {
+      "bytes": 2332,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_DECISION.json",
+      "sha256": "158f95025171f2324f3f061af1245eef1f6e8713158ef5e690c8333ad04d9157"
+    },
+    {
+      "bytes": 1375,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LEDGER_ROW.json",
+      "sha256": "cd716a371fbbf02462862d329e513b03144d9d34b841f6be9925d80ff46c580a"
+    },
+    {
+      "bytes": 2170,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LF_STABILITY_REPORT.json",
+      "sha256": "8d58c4fcc947314b8d18ec7ef5b82c8b837cf0d71b3ec52c266a2b3e4597453b"
+    },
+    {
+      "bytes": 1120,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LIMITATIONS.json",
+      "sha256": "eac56b243219e63f69f72f679020adab86a5f163630d150268b334fd2e11002f"
+    },
+    {
+      "bytes": 606,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "8898e323ac8a0f91ad96e2acfbaf0105819ec37bf3146becc9cd2605c1f9704a"
+    },
+    {
+      "bytes": 2882,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_EXPOSURE_LOG_EVENTS.jsonl",
+      "sha256": "b518c24b28e166e39d398e28bcc962d3869fb7a7f983065d2062cfcc33fdd389"
+    },
+    {
+      "bytes": 1590,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json",
+      "sha256": "b73ef4afa95c96a6e166e56c94597922b397f3cf60f5c9eeeb3184d7f8a6e8d8"
+    },
+    {
+      "bytes": 1190,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_WATCH_EXPLORATION_FLOOR_INFRA_REPORT.json",
+      "sha256": "34d7bfd5bef8b24bccf4dbf7f0a7163604f06268ed6e48bf445836f0c6ea68c7"
+    },
+    {
+      "bytes": 952,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json",
+      "sha256": "128c69d505064362da92b4fb2e5e04173628f65f1586d1b0810063c43cb87a9a"
+    },
+    {
+      "bytes": 763,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R2_CALIBRATION_REPORT_HARDENING_REPORT.json",
+      "sha256": "3a535fa110a7f242f30f9ec72359ce42fbaf2df56d72cc12f81596f813e8cb03"
+    },
+    {
+      "bytes": 852,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L2_R1_BACKTEST_HARNESS_SHELL_REPORT.json",
+      "sha256": "f25efb704ab094c57d6a8f44fc23921082fd2e4bdd1f90e3618901c2af138494"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1"
+}

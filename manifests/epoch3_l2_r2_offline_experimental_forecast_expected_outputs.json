@@ -1,0 +1,36 @@
+{
+  "allowed_component_kinds": [
+    "forecast_model"
+  ],
+  "allowed_new_learned_components": 1,
+  "expected_artifacts": [
+    "E3_L2_R2_HUMAN_MODEL_AUTHORITY_DECISION_ROW.json",
+    "E3_L2_R2_EXPERIMENT_TRAINING_MANIFEST.json",
+    "E3_L2_R2_TEMPORAL_LEAKAGE_AUDIT.json",
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_MODEL_CARD.json",
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+    "E3_L2_R2_CITY_STRATIFIED_EVAL_REPORT.json",
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json",
+    "E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_PREDICTIONS.jsonl",
+    "E3_L2_R2_NO_PRODUCT_SURFACE_AUDIT.json",
+    "E3_L2_R2_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+    "E3_L2_R2_OFFLINE_EXPERIMENT_DECISION.json",
+    "E3_L2_R2_OFFLINE_EXPERIMENT_LEDGER_ROW.json",
+    "E3_L2_R2_LIMITATIONS.json",
+    "E3_L2_R2_CORPUS_DELTA.json",
+    "HASH_MANIFEST.json",
+    "LINE_ENDING_REPORT.json"
+  ],
+  "expected_status": "PASS_E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1_WITH_LIMITATIONS",
+  "forbidden": [
+    "operator_facing_forecast",
+    "product_forecast_surface",
+    "learned_ranker",
+    "counterfactual_learner",
+    "case_memory_learner",
+    "dynamic_investigation",
+    "cross_city_learned_transfer"
+  ],
+  "output_root": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-OFFLINE-EXPERIMENTAL-FORECAST-R1"
+}

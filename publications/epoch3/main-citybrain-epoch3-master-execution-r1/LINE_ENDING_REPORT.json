@@ -1,0 +1,193 @@
+{
+  "checked_files": [
+    {
+      "bytes": 173,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_CLOSEOUT_DECISION_DATE_ROW.json"
+    },
+    {
+      "bytes": 528,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 313,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 640,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LIMITATIONS.json"
+    },
+    {
+      "bytes": 567,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_FUEL_GENERATION_PROGRAM.md"
+    },
+    {
+      "bytes": 547,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_FUEL_RATE_ESTIMATE.json"
+    },
+    {
+      "bytes": 1236,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L1_R3A_ARMING_READOUT.json"
+    },
+    {
+      "bytes": 1173,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L1_R3B_ARMING_READOUT.json"
+    },
+    {
+      "bytes": 1045,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R1_BASELINE_BACKTEST_REPORT.json"
+    },
+    {
+      "bytes": 1123,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R1_TARGET_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 633,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R1_TARGET_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 693,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R2_ARMING_READOUT.json"
+    },
+    {
+      "bytes": 351,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_ASSUMPTIONS_SCHEMA.json"
+    },
+    {
+      "bytes": 275,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_CHECK_GATE_REPORT.json"
+    },
+    {
+      "bytes": 892,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_EXAMPLE_PACKET.json"
+    },
+    {
+      "bytes": 340,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_MINIMUM_PATH_REPORT.json"
+    },
+    {
+      "bytes": 670,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_PACKET_SCHEMA.json"
+    },
+    {
+      "bytes": 447,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_UNCERTAINTY_SCHEMA.json"
+    },
+    {
+      "bytes": 472,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_PROPAGATION_RULE_REGISTRY.json"
+    },
+    {
+      "bytes": 786,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_ARMING_READOUT.json"
+    },
+    {
+      "bytes": 512,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_ERASURE_METRIC_SCOPE_SPLIT_DECISION.json"
+    },
+    {
+      "bytes": 552,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_ERASURE_WORKFLOW_CURRENT_SCOPE_DEFINITION.json"
+    },
+    {
+      "bytes": 332,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_RUNTIME_CASE_ARTIFACT_ENFORCEMENT_REPORT.json"
+    },
+    {
+      "bytes": 476,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_SOURCE_CLASS_OUTCOME_LINEAGE_REPORT.json"
+    },
+    {
+      "bytes": 2223,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_MASTER_EXECUTION_R1_ARMING_STATUS_SNAPSHOT.json"
+    },
+    {
+      "bytes": 663,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_MASTER_EXECUTION_R1_DECISION.json"
+    },
+    {
+      "bytes": 484,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 2135,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_OPERATOR_REVIEW_SESSION_PROTOCOL.json"
+    },
+    {
+      "bytes": 945,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_Q3_PROPAGATION_RULE_OWNERSHIP_DECISION.json"
+    },
+    {
+      "bytes": 278,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_Q6_UNCERTAINTY_EXTENSION_DECISION.json"
+    },
+    {
+      "bytes": 219,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_CONTRACT_PUBLICATION_ROW.json"
+    },
+    {
+      "bytes": 1051,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 156,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_SHARED_VALIDATOR_UPDATE_REPORT.json"
+    },
+    {
+      "bytes": 238,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_CONSUMER_IMPACT_ASSESSMENT.json"
+    },
+    {
+      "bytes": 310,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_CONTRACT_DELTA_ROW.json"
+    },
+    {
+      "bytes": 201,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_FIXTURES_REPORT.json"
+    },
+    {
+      "bytes": 1710,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_master_execution_r1/E3_WEEKLY_FUEL_GAUGE_SNAPSHOT_TEMPLATE.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:44:57Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_MASTER_EXECUTION_R1"
+}

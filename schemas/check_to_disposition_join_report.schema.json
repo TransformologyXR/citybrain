@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "joined_records": {
+      "type": "integer"
+    },
+    "missing_check_linkage": {
+      "type": "integer"
+    },
+    "report_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_id",
+    "joined_records",
+    "missing_check_linkage",
+    "status"
+  ],
+  "title": "CheckToDispositionJoinReport",
+  "type": "object"
+}

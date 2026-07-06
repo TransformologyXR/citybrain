@@ -1,0 +1,58 @@
+{
+  "dependency_edges": [
+    [
+      "preflight",
+      "lane_a_outcome_ledger"
+    ],
+    [
+      "preflight",
+      "track0_governance_rider"
+    ],
+    [
+      "preflight",
+      "lane_b_schema_scaffold"
+    ],
+    [
+      "lane_a_outcome_join_keys",
+      "lane_b_calibration_finalize"
+    ],
+    [
+      "lane_a_outcome_ledger",
+      "lane_c_fuel_gauge"
+    ],
+    [
+      "lane_b_calibration",
+      "lane_c_fuel_gauge"
+    ],
+    [
+      "lane_a_outcome_ledger",
+      "final_integration"
+    ],
+    [
+      "lane_b_calibration",
+      "final_integration"
+    ],
+    [
+      "lane_c_fuel_gauge",
+      "final_integration"
+    ],
+    [
+      "track0_governance_rider",
+      "final_integration"
+    ]
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L1-R1-R2-OUTCOME-CALIBRATION-HARDENING-R1",
+  "parallel_allowed": [
+    "track0_governance_rider may run after preflight",
+    "lane_b schema scaffold may run while lane_a joins are implemented",
+    "lane_c skeleton may start after preflight but final counts wait for lanes A/B"
+  ],
+  "threads": [
+    "main_orchestrator",
+    "lane_a_outcome_ledger",
+    "lane_b_calibration",
+    "lane_c_fuel_gauge",
+    "track0_governance_rider",
+    "final_integration"
+  ]
+}

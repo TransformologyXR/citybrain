@@ -1,0 +1,16 @@
+{
+  "output_root": "outputs/epoch3_day1_instrumentation_and_harness_r1",
+  "required_artifacts": [
+    "E3_DAY1_DECISION.json",
+    "E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json",
+    "L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json",
+    "L1_R0_WATCH_EXPLORATION_FLOOR_INFRA_REPORT.json",
+    "L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json",
+    "L1_R2_CALIBRATION_REPORT_HARDENING_REPORT.json",
+    "L2_R1_BACKTEST_HARNESS_SHELL_REPORT.json",
+    "E3_DAY1_NO_MODEL_GUARD_REPORT.json",
+    "E3_DAY1_LIMITATIONS.json",
+    "E3_DAY1_LEDGER_ROW.json",
+    "HASH_MANIFEST.json"
+  ]
+}

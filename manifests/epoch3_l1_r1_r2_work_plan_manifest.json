@@ -1,0 +1,18 @@
+{
+  "expected_status": "PASS_E3_L1_R1_R2_OUTCOME_CALIBRATION_HARDENING_R1_WITH_LIMITATIONS",
+  "lanes": {
+    "A": "Outcome ledger hardening",
+    "B": "CalibrationReport hardening",
+    "C": "Fuel-gauge / arming-status integration"
+  },
+  "non_goals": [
+    "ranking",
+    "forecasting",
+    "counterfactual",
+    "case_memory",
+    "dynamic_investigation",
+    "cross_city_learned_transfer"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L1-R1-R2-OUTCOME-CALIBRATION-HARDENING-R1",
+  "track0_rider": "No-model guard, citations, limitations, corpus delta"
+}

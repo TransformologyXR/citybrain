@@ -1,0 +1,16 @@
+{
+  "category": "execution",
+  "closeout_type": "master_execution",
+  "key": "E3_MASTER_EXECUTION_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-MASTER-EXECUTION-R1",
+  "proof_artifacts": [
+    "E3_MASTER_EXECUTION_R1_DECISION.json",
+    "E3_EXECUTION_R1_LEDGER_ROW.json",
+    "E3_EXECUTION_R1_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_master_execution_r1",
+  "status": "PASS_E3_MASTER_EXECUTION_R1_WITH_LIMITATIONS",
+  "summary": "Master execution read out L1-L4 and kept arming under evaluator authority."
+}

@@ -1,0 +1,21 @@
+{
+  "baseline_comparator": "do_nothing_last_observed_count",
+  "check_gate_status": "PASS_SCAFFOLD_ONLY",
+  "forecast_model_created": false,
+  "forecast_target_id": "forecast_target:e3:l2r1:review_backlog_next_tick_count",
+  "frozen_eval_slice_id": "frozen_eval_slice:e3:l2r1:foundation:001",
+  "l2_r1_status": "PASS_BACKTEST_HARNESS_BUILT_NO_MODEL",
+  "metrics": {
+    "absolute_error": 0,
+    "sample_size": 3
+  },
+  "report_id": "E3_FOUNDATION_BACKTEST_HARNESS_SUMMARY",
+  "source_refs": [
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BACKTEST_HARNESS_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FIRST_FORECAST_TARGET_DECISION.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FROZEN_EVAL_SLICE_CONTRACT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BASELINE_DO_NOTHING_COMPARATOR.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FORECAST_PACKET_CHECK_GATE_SCAFFOLD.json"
+  ],
+  "status": "PASS_BACKTEST_HARNESS_BUILT_NO_MODEL"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/frozen_eval_slice_contract.schema.json",
+  "title": "FrozenEvalSliceContract",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "contract_id",
+    "status",
+    "slice_id",
+    "frozen",
+    "mutation_policy",
+    "input_refs",
+    "minimum_required_fields"
+  ],
+  "properties": {
+    "contract_id": {"type": "string"},
+    "status": {"type": "string"},
+    "slice_id": {"type": "string"},
+    "frozen": {"type": "boolean"},
+    "mutation_policy": {"type": "string"},
+    "input_refs": {"type": "array", "items": {"type": "string"}},
+    "minimum_required_fields": {"type": "array", "items": {"type": "string"}}
+  }
+}

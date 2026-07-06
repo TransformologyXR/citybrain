@@ -1,0 +1,14 @@
+{
+  "limitations": [
+    "Content scan is representative and capped; inventory counts cover broader roots.",
+    "Candidate counts are evidence/ref counts, not governed row counts.",
+    "No candidate is training eligible from this scout package.",
+    "Large raw data files are counted but not parsed unless small and signal-bearing.",
+    "Record-level joins, censoring policy, and source-class promotion require follow-on packages."
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "report_id": "E3_HIDDEN_DATA_SCOUT_LIMITATIONS",
+  "scan_error_count": 0,
+  "scan_errors": [],
+  "skipped_or_inaccessible_roots": []
+}

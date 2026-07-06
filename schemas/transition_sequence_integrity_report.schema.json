@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "checked_sequences": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "duplicate_transition_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "out_of_order_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "phantom_stall_risk_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "single_snapshot_conversion_count": {
+      "const": 0
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "PASS_WITH_LIMITATIONS",
+        "FAIL"
+      ]
+    }
+  },
+  "required": [
+    "status",
+    "checked_sequences",
+    "out_of_order_count",
+    "duplicate_transition_count",
+    "phantom_stall_risk_count",
+    "single_snapshot_conversion_count"
+  ],
+  "title": "TransitionSequenceIntegrityReport",
+  "type": "object"
+}

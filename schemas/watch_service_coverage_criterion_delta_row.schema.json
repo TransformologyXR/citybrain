@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "change": {
+      "type": "object"
+    },
+    "delta_kind": {
+      "const": "additive_health_and_closeout_criterion"
+    },
+    "id": {
+      "const": "E3_WATCH_SERVICE_COVERAGE_CRITERION_DELTA_ROW"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "source_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "target_service": {
+      "const": "Epoch2.2 Watch service"
+    }
+  },
+  "required": [
+    "id",
+    "delta_kind",
+    "target_service",
+    "change",
+    "reason",
+    "source_refs"
+  ],
+  "title": "WatchServiceCoverageCriterionDeltaRow",
+  "type": "object"
+}

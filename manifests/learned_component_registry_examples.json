@@ -1,0 +1,20 @@
+{
+  "examples": [
+    {
+      "component_id": "ranker.l1_r3a",
+      "component_kind": "ranker",
+      "status": "experimental",
+      "consuming_surfaces": [],
+      "training_manifest_ref": "training_manifest_l1_r3a.json",
+      "eval_refs": [
+        "frozen_replay_slice_ref",
+        "ranker_off_baseline_ref",
+        "check_regression_ref"
+      ],
+      "release_ledger_row": null,
+      "rollback_ref": "noop_no_surface",
+      "authority": "offline_eval_only"
+    }
+  ],
+  "invariant": "No model artifact may exist outside the registry. Release rules govern shipping; the registry governs existence."
+}

@@ -1,0 +1,45 @@
+{
+  "expected_status": "PASS_E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1_WITH_LIMITATIONS",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PHASE2-LIVE-EXPOSURE-COVERAGE-AND-HARDENING-R1",
+  "thread_model": {
+    "final_integration": [
+      "wire_fuel_snapshot_emission",
+      "publish_first_chained_snapshot",
+      "publish_corpus_delta",
+      "run_tests",
+      "publish_hash_and_lf_reports"
+    ],
+    "lanes": [
+      {
+        "id": "Lane A",
+        "name": "live_exposure_coverage_verification",
+        "owns": [
+          "surfaced_impression_definition",
+          "reexposure_semantics",
+          "replay_watch_run_coverage",
+          "scheduled_tick_verification_row",
+          "watch_service_coverage_criterion_delta",
+          "coverage_regression_fixture"
+        ]
+      },
+      {
+        "id": "Lane B",
+        "name": "l1_r1_r2_hardening_start",
+        "owns": [
+          "training_eligibility_reason_enum",
+          "outcome_ledger_hardening_start",
+          "calibration_hardening_start",
+          "fuel_gauge_snapshot_schema"
+        ]
+      }
+    ],
+    "main_orchestrator": "owns dependency ordering, artifact inventory, final integration, tests, hash, LF, ledger",
+    "track0_rider": [
+      "holdout_rationale",
+      "standing_no_model_guard",
+      "e2_2_reconciliation_citation",
+      "l4_metric_audit_citation",
+      "closeout_exclusion_list"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1",
+  "criteria_count": 35,
+  "expected_status": "PASS_E3_FOUNDATION_FOR_LEARNING_AND_BACKTESTING_WITH_LIMITATIONS",
+  "requires_no_model_guard": true,
+  "requires_foundation_not_full_closeout_distinction": true
+}

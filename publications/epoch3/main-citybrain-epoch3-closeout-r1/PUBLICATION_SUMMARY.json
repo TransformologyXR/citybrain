@@ -1,0 +1,16 @@
+{
+  "category": "final_closeout",
+  "closeout_type": "MINIMUM_ACCEPTABLE_WITH_LOOP2_OFFLINE_EXPERIMENT",
+  "key": "E3_CLOSEOUT_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "proof_artifacts": [
+    "E3_CLOSEOUT_DECISION.json",
+    "E3_CLOSEOUT_LEDGER_ROW.json",
+    "E3_CLOSEOUT_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_closeout_r1",
+  "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "summary": "Epoch 3 closes as minimum acceptable with Loop 2 offline experiment and limitations."
+}

@@ -1,0 +1,92 @@
+{
+  "artifact_root": "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+  "created_at": "2026-07-06T16:44:48Z",
+  "files": [
+    {
+      "bytes": 4882,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ENTRY_GATE_DECISION.json",
+      "sha256": "57307aa5502122b48dc355d345012727bf796acb8e7648cbc8cd6a0eaf5b3f5f"
+    },
+    {
+      "bytes": 19473,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_STATUS_REPORT.json",
+      "sha256": "c721861e12d063a4aa7ea013c515105560ad3e8bae811a2f4ea7546653cf4743"
+    },
+    {
+      "bytes": 3337,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_FUEL_GAUGE_BASELINE_REPORT.md",
+      "sha256": "1fc510bafafe696d7b5f6df20aaff30d70e1872b547056284357ce207b4b4785"
+    },
+    {
+      "bytes": 8531,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_BASELINE_METRICS.json",
+      "sha256": "69f7c14be1062ccac191f0e4adeb43dafbd80b0b60b1b8a33e2244923bc21c23"
+    },
+    {
+      "bytes": 2302,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json",
+      "sha256": "b2e4f37cbe45b99a15fc28a96c8096e712f5e70c3354bf25ddd2fcb562978a47"
+    },
+    {
+      "bytes": 4998,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_METRICS_RECONCILIATION_REPORT.json",
+      "sha256": "7e17811b2676057b01a386b695083427c5916731f17c8513d0fd27522f54e77d"
+    },
+    {
+      "bytes": 1048,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_POLICY_AND_AGGREGATION_RECONCILIATION_ROW.json",
+      "sha256": "6173cb4b3eef2a81d9e248e277d6593e55e351ff89fd1c28fd40dfdefbd3b9e9"
+    },
+    {
+      "bytes": 1305,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_CORPUS_SCOPE_RECONCILIATION_ROW.json",
+      "sha256": "df9ffaacdfd38aef3debff295b66c9413162d37c52f435ee0becd6151ccc19d9"
+    },
+    {
+      "bytes": 2599,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json",
+      "sha256": "ef0d11ca06e7f60fbf17358b3fdecd3f5a56ffdaf73233924ecb79bc131eb0b4"
+    },
+    {
+      "bytes": 880,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_TRACK0_FULL_HISTORICAL_CORPUS_DISCOVERY_DEBT_ROW.json",
+      "sha256": "eae8d7095d1683bc030d1e222b597a13e5f77c1895059dc719a2ad7634029c4e"
+    },
+    {
+      "bytes": 20917,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_HASH_LINE_ENDING_STABILITY_REPORT.json",
+      "sha256": "4d392ae3857f98d06e5e3f047de3a60aef75e8496aa65016aaeaef011870bbf3"
+    },
+    {
+      "bytes": 19632,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/e3_arming_status_day_one_smoke.json",
+      "sha256": "19fb12b689c2d0fc1d776cba272d9462844202d07d24790bcc931a93fa955b61"
+    },
+    {
+      "bytes": 19473,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/e3_arming_status_reconciled_baseline_smoke.json",
+      "sha256": "c721861e12d063a4aa7ea013c515105560ad3e8bae811a2f4ea7546653cf4743"
+    },
+    {
+      "bytes": 1778,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_GATE_LEDGER_ROW.json",
+      "sha256": "61182c13575d3f50207e5f991dd8b6e7ccf6bf55dca16d4b160ccb793e43c94d"
+    },
+    {
+      "bytes": 645,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_THRESHOLD_CROSSING_SAMPLE.json",
+      "sha256": "10fd0ddd53e0abea706f668e60653127821b859c9e4f4378dc36235bce8adf3e"
+    },
+    {
+      "bytes": 902,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_LEARNED_COMPONENT_REGISTRY_EXPERIMENTAL_EXAMPLES.json",
+      "sha256": "09d78145f1837504d6045b5658743e1e916bc2ae19b7bbccd46f41db23dc2927"
+    },
+    {
+      "bytes": 2867,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_LIMITATIONS.json",
+      "sha256": "5066a93a058962752480e4911ff7f791a34056390802e237fbdbb790447feef6"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1"
+}

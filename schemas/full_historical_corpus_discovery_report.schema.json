@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/full_historical_corpus_discovery_report.schema.json",
+  "title": "FullHistoricalCorpusDiscoveryReport",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "report_id",
+    "status",
+    "corpus",
+    "control_corpus_parse",
+    "control_hash_manifest_verification"
+  ],
+  "properties": {
+    "report_id": {"type": "string"},
+    "status": {"type": "string"},
+    "corpus": {
+      "type": "object",
+      "required": ["full_discovery"],
+      "properties": {
+        "full_discovery": {
+          "type": "object",
+          "required": ["status", "artifact_roots_indexed", "files_indexed"],
+          "properties": {
+            "status": {"enum": ["green", "red"]},
+            "artifact_roots_indexed": {"type": "integer", "minimum": 0},
+            "files_indexed": {"type": "integer", "minimum": 0},
+            "json_or_jsonl_files_indexed": {"type": "integer", "minimum": 0}
+          }
+        }
+      }
+    },
+    "control_corpus_parse": {"type": "object"},
+    "control_hash_manifest_verification": {"type": "object"}
+  }
+}

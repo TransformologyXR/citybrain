@@ -1,0 +1,52 @@
+{
+  "edges": [
+    [
+      "main_orchestrator_preflight",
+      "lane_a1_surfaced_impression_definition"
+    ],
+    [
+      "main_orchestrator_preflight",
+      "lane_b_schema_scaffold"
+    ],
+    [
+      "main_orchestrator_preflight",
+      "track0_governance_rider"
+    ],
+    [
+      "lane_a1_surfaced_impression_definition",
+      "lane_b_eligibility_finalization"
+    ],
+    [
+      "lane_a1_surfaced_impression_definition",
+      "lane_a2_replay_coverage_verification"
+    ],
+    [
+      "lane_a2_replay_coverage_verification",
+      "lane_a3_scheduled_tick_verification_row"
+    ],
+    [
+      "lane_a3_scheduled_tick_verification_row",
+      "final_integration"
+    ],
+    [
+      "lane_b_eligibility_finalization",
+      "final_integration"
+    ],
+    [
+      "track0_governance_rider",
+      "final_integration"
+    ]
+  ],
+  "nodes": [
+    "main_orchestrator_preflight",
+    "lane_a1_surfaced_impression_definition",
+    "lane_a2_replay_coverage_verification",
+    "lane_a3_scheduled_tick_verification_row",
+    "lane_b_schema_scaffold",
+    "lane_b_eligibility_finalization",
+    "track0_governance_rider",
+    "final_integration"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PHASE2-LIVE-EXPOSURE-COVERAGE-AND-HARDENING-R1",
+  "parallelism_policy": "Edges indicate dependencies only; Lane B scaffold and Track 0 rider may run in parallel with Lane A."
+}

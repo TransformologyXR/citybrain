@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "exposure_log.schema.json",
+  "type": "object",
+  "required": [
+    "watch_item_id",
+    "operator_ref",
+    "surfaced_at",
+    "surface_policy",
+    "surface_reason",
+    "propensity_status",
+    "selected_item_context_ref"
+  ],
+  "properties": {
+    "watch_item_id": {"type": "string"},
+    "operator_ref": {"type": "string"},
+    "surfaced_at": {"type": "string"},
+    "surface_policy": {"type": "string"},
+    "surface_reason": {"type": "string"},
+    "deterministic_priority_tier": {"type": ["string", "null"]},
+    "family_cap_state": {"type": ["string", "object", "null"]},
+    "operator_throttle_state": {"type": ["string", "object", "null"]},
+    "exploration_bucket": {"type": ["string", "null"]},
+    "holdout_family_flag": {"type": "boolean"},
+    "ranker_component_id": {"type": ["string", "null"]},
+    "ranker_score": {"type": ["number", "null"]},
+    "propensity": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "propensity_status": {"enum": ["known", "unknown", "not_applicable", "withheld_by_policy", "propensity_unknown"]},
+    "selected_item_context_ref": {"type": "string"},
+    "disposition_ref": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

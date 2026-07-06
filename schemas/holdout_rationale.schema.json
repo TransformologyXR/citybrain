@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "future_rule_before_r3b": {
+      "type": "string"
+    },
+    "holdout_family": {
+      "const": "media_candidate"
+    },
+    "id": {
+      "const": "E3_HOLDOUT_FAMILY_RATIONALE_ROW"
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "holdout_family",
+    "rationale",
+    "future_rule_before_r3b"
+  ],
+  "title": "HoldoutRationaleRow",
+  "type": "object"
+}

@@ -1,0 +1,11 @@
+{
+  "limitations": [
+    "No forecast model is created.",
+    "Human authority is required before any later offline experiment.",
+    "Accuracy is descriptive only because class imbalance makes it a weak success bar.",
+    "R2 label publication is capped for local runtime; source discovery counts preserve the larger candidate universe.",
+    "Experimental authority, if later granted by a human, does not grant product-surface authority."
+  ],
+  "materialized_rows": 25978,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,74 @@
+{
+  "checked_files": [
+    {
+      "bytes": 40597,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_CHECK_CALIBRATION_JOIN_READINESS_SCOUT.json"
+    },
+    {
+      "bytes": 35350,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_IDENTITY_GRAPH_EVAL_FUEL_SCOUT.json"
+    },
+    {
+      "bytes": 34964,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_L4_CASE_STUB_CONTENT_VERIFICATION_SCOUT.json"
+    },
+    {
+      "bytes": 3815,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_BACKLOG.json"
+    },
+    {
+      "bytes": 1006,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 1548,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_DECISION.json"
+    },
+    {
+      "bytes": 528,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 1332,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_PREFLIGHT_CONTEXT.json"
+    },
+    {
+      "bytes": 13234,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_SIMULATION_BACKTEST_INPUT_SCOUT.json"
+    },
+    {
+      "bytes": 6373,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_WATCH_RANKING_DESCRIPTIVE_SIGNAL_SCOUT.json"
+    },
+    {
+      "bytes": 4954,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_WORKFLOW_REVIEW_STATE_HISTORY_SCOUT.json"
+    },
+    {
+      "bytes": 710,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_PUBLICATION_HOME_RECOMMENDATION_ROW.json"
+    },
+    {
+      "bytes": 528,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-06T18:06:26Z",
+  "crlf_paths": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1"
+}

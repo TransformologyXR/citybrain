@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "eval_precedes_or_is_separate_from_holdout": true,
+    "no_future_state_features": true,
+    "no_single_snapshot_labels": true,
+    "no_terminal_outcome_features": true,
+    "train_precedes_eval": true,
+    "transition_lineage_present": true
+  },
+  "excluded_for_insufficient_observation_window": 0,
+  "feature_policy_ref": "E3_L2_R2_EXPERIMENT_TRAINING_MANIFEST.json#feature_policy",
+  "label_lineage_coverage": {
+    "rows_with_censoring_policy": 25978,
+    "rows_with_derived_field_source_class": 25978,
+    "rows_with_source_transition_refs": 25978,
+    "total_label_rows": 25978
+  },
+  "status": "PASS",
+  "target_id": "permit_stall_v0"
+}

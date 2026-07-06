@@ -1,0 +1,20 @@
+{
+  "limitations": [
+    "The model is an offline experimental forecast component only.",
+    "No product forecast surface, Watch consumption, or operator-facing forecast is created.",
+    "The component uses frozen R2 label rows and cannot be reused outside a later separately approved package.",
+    "Accuracy is descriptive only; progression depends on stalled-class, calibration, lead-time, and city-stratified review."
+  ],
+  "metrics_summary": {
+    "accuracy_descriptive": 0.892614,
+    "brier_score": 0.092531,
+    "calibration_error": 0.042085,
+    "median_useful_lead_time_days": 30.0,
+    "recall_at_fixed_precision": {
+      "precision_0_50": 0.017413,
+      "precision_0_70": 0.00995
+    },
+    "stalled_class_average_precision": 0.191775
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

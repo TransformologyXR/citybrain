@@ -1,0 +1,42 @@
+[
+  {
+    "path": "citybrain_authoritative_docs_r2/00_R2_CHANGELOG.md",
+    "sha256": "046b283aa490af87a61856daf3eeac17956c4dbba3bfb939e99aa11bd6edc3be",
+    "bytes": 1488
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/01_CITYBRAIN_PRODUCT_DEFINITION_AND_VISION.md",
+    "sha256": "0455217965f00542d20ed29f7a38be3a5e67a92f86882ff9e9c0b060c25e0bfa",
+    "bytes": 21083
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/02_CITYBRAIN_INTELLIGENCE_MODES_CAPABILITY_MAP.md",
+    "sha256": "abcbf5bd9d54ecb4316cc78c821625100e77518629e1a26bb52d5a73e95117f8",
+    "bytes": 42085
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/03_CITYBRAIN_AGENTIC_INTELLIGENCE_LAYER.md",
+    "sha256": "96b3519d68acfdd980232e484da19c3d2d7d5687fa652deca3d83900848d76e8",
+    "bytes": 24621
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/04_CITYBRAIN_ARCHITECTURE_AND_ROADMAP.md",
+    "sha256": "33756019d36de8565b1c357f9e16c9f195d888b926a943c9fb7c7a2ef3580b49",
+    "bytes": 23023
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/05_CITYBRAIN_TECHNICAL_CONTRACTS_APPENDIX.md",
+    "sha256": "f1bad085b2fd1d652f7ee79f5881a370e1fe4495a48e7dea0e60720884dc0846",
+    "bytes": 25040
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/06_CITYBRAIN_CERTIFIED_STATE_LEDGER_AND_TERMINOLOGY_CROSSWALK.md",
+    "sha256": "540c683cb7c63532d9b6e772d325a0751956b1cc1cdb0ad8fe60e0b2e3b4880f",
+    "bytes": 29831
+  },
+  {
+    "path": "citybrain_authoritative_docs_r2/README.md",
+    "sha256": "40cceefdd79b925311e0bbea1964666fa67556d439dfca1374306d2607bb9716",
+    "bytes": 3421
+  }
+]

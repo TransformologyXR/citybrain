@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CounterfactualExamplePacket",
+  "type": "object",
+  "required": [
+    "packet_id",
+    "mode",
+    "learned_model_used",
+    "assumptions",
+    "uncertainty",
+    "check_ref",
+    "no_action_claim"
+  ],
+  "properties": {
+    "packet_id": {"type": "string"},
+    "mode": {"const": "counterfactual_review_only"},
+    "learned_model_used": {"const": false},
+    "assumptions": {"type": "array"},
+    "uncertainty": {"type": "object"},
+    "check_ref": {"type": "string"},
+    "no_action_claim": {"const": true}
+  }
+}

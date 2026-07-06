@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-07-06T16:44:48Z",
+  "limitations": [
+    {
+      "description": "Training-eligible terminal disposition fuel remains zero.",
+      "id": "LABEL_FUEL_ZERO",
+      "owner": "L1.R1 outcome-ledger hardening",
+      "severity": "expected_limitation"
+    },
+    {
+      "description": "Calibration reports remain descriptive until sample depth exists.",
+      "id": "CALIBRATION_DESCRIPTIVE_ONLY",
+      "owner": "L1.R2 calibration hardening",
+      "severity": "expected_limitation"
+    },
+    {
+      "description": "Backtest harness shell exists, but no BacktestReport result or forecast model exists.",
+      "id": "BACKTEST_HARNESS_TEMPLATE_ONLY",
+      "owner": "L2.R1 backtest harness",
+      "severity": "expected_limitation"
+    },
+    {
+      "description": "Learned ranking, forecasting, counterfactual, case memory, dynamic investigation, and cross-city transfer remain blocked.",
+      "id": "NO_MODEL_WORK",
+      "owner": "E3 Day 1 no-model guard",
+      "severity": "boundary"
+    }
+  ],
+  "schema_version": "citybrain.epoch3.day1.limitations.v1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

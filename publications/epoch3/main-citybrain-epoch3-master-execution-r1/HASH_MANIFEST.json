@@ -1,0 +1,198 @@
+{
+  "artifact_root": "outputs/epoch3_master_execution_r1",
+  "created_at": "2026-07-06T16:44:57Z",
+  "files": [
+    {
+      "bytes": 173,
+      "path": "outputs/epoch3_master_execution_r1/E3_CLOSEOUT_DECISION_DATE_ROW.json",
+      "sha256": "8ed769221a9c7357f78a2fdaa78f808f244370c75b6ba145fbb16623342ff2dc"
+    },
+    {
+      "bytes": 528,
+      "path": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_CORPUS_DELTA.json",
+      "sha256": "2a1a5650e79d0cf11ad1197e8ff638db71dc5ff715c4a65ecc47e7ac4a8862ae"
+    },
+    {
+      "bytes": 313,
+      "path": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LEDGER_ROW.json",
+      "sha256": "811c177957dabcf2e176343516717d1ccdf3465fa308005d730a20e2314a0c30"
+    },
+    {
+      "bytes": 640,
+      "path": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LIMITATIONS.json",
+      "sha256": "29cc17b2f2ebef8d337d3e706fcc142d2df9c8ec66feea56e26049d40e75f927"
+    },
+    {
+      "bytes": 567,
+      "path": "outputs/epoch3_master_execution_r1/E3_FUEL_GENERATION_PROGRAM.md",
+      "sha256": "81a1d92d025fca509a7cdd8d8afa50158ac6d8f610eb8bd2ac8668725c023481"
+    },
+    {
+      "bytes": 547,
+      "path": "outputs/epoch3_master_execution_r1/E3_FUEL_RATE_ESTIMATE.json",
+      "sha256": "5e7ec32c0e5f011c545e43198293d9110338028123f0765eea14220cef0639bd"
+    },
+    {
+      "bytes": 1236,
+      "path": "outputs/epoch3_master_execution_r1/E3_L1_R3A_ARMING_READOUT.json",
+      "sha256": "5bc5dcfc14d511ec45f2ea3ca1f0fe4f762489405b060a2eb89ed0d61ec222dc"
+    },
+    {
+      "bytes": 1173,
+      "path": "outputs/epoch3_master_execution_r1/E3_L1_R3B_ARMING_READOUT.json",
+      "sha256": "cc70a13c24752a196843564434b287570c9f60a62d87b504a6f4c3c6bcfbcc32"
+    },
+    {
+      "bytes": 1045,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R1_BASELINE_BACKTEST_REPORT.json",
+      "sha256": "fc0e57d651cf5bdc90db6bff15783bb88e2e47737a16710d302c8e691c1f964d"
+    },
+    {
+      "bytes": 1123,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R1_TARGET_LABEL_DEFINITION_ROW.json",
+      "sha256": "b95cf5b8fd93d72ef1f7dd4796ea398ea869876c81f6fa9c28c3e949233fa8e0"
+    },
+    {
+      "bytes": 633,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R1_TARGET_SUFFICIENCY_REPORT.json",
+      "sha256": "d4d6df9657029250b7223425d11e1916c3ab52784d2aefbab382767e1ea58114"
+    },
+    {
+      "bytes": 693,
+      "path": "outputs/epoch3_master_execution_r1/E3_L2_R2_ARMING_READOUT.json",
+      "sha256": "49586a3c111e1f2db8d791edf47df5f2a991c63845364f682b2aff3c25ad99cc"
+    },
+    {
+      "bytes": 351,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_ASSUMPTIONS_SCHEMA.json",
+      "sha256": "8382020d734ff126323c47dca88ebe57d58bb55afa4b75801eb5afcfab96ece6"
+    },
+    {
+      "bytes": 275,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_CHECK_GATE_REPORT.json",
+      "sha256": "611afa8680775b98203a10075aeeee01090fb326a38cc5c26151fcfdfb8db2a8"
+    },
+    {
+      "bytes": 892,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_EXAMPLE_PACKET.json",
+      "sha256": "58055193c2a7ac6d54eeacd3e9b0dee9b174ed7746fa051f38659c02dfd233a5"
+    },
+    {
+      "bytes": 340,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_MINIMUM_PATH_REPORT.json",
+      "sha256": "07804936e0a157d06aa52a09bd62fc8e0aba54502462f4f9ad277f69c9a80faf"
+    },
+    {
+      "bytes": 670,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_PACKET_SCHEMA.json",
+      "sha256": "46f748b8bf2b5c5a9e7bc5c64f99142b336828cb048cce1ae8341483a9138908"
+    },
+    {
+      "bytes": 447,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_COUNTERFACTUAL_UNCERTAINTY_SCHEMA.json",
+      "sha256": "da62d7e0b367c83d22a5c4ea24747f1781e2840b2e3bbe73c81f9c6282c57bf4"
+    },
+    {
+      "bytes": 472,
+      "path": "outputs/epoch3_master_execution_r1/E3_L3_PROPAGATION_RULE_REGISTRY.json",
+      "sha256": "794d546b18da3fa0c0f66d45db52d0bd7dce8a1cf543f1c04763ef13f1f06b2c"
+    },
+    {
+      "bytes": 786,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_ARMING_READOUT.json",
+      "sha256": "0807e8fac5f4a9a433953c1563bc69468fd06fc59931fb0c840a7ae2193f5fa1"
+    },
+    {
+      "bytes": 512,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_ERASURE_METRIC_SCOPE_SPLIT_DECISION.json",
+      "sha256": "cd00e23e3f4572bf54c284bb61c5226ab3d484c184ead3bb11f6e1c390dbcfa1"
+    },
+    {
+      "bytes": 552,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_ERASURE_WORKFLOW_CURRENT_SCOPE_DEFINITION.json",
+      "sha256": "462f6b5cb72ef2551afd296ea19caa1c8f2fc2800c6504d7a5f804db660f660c"
+    },
+    {
+      "bytes": 332,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_RUNTIME_CASE_ARTIFACT_ENFORCEMENT_REPORT.json",
+      "sha256": "65775c3ed46494a74a111b5c5942ef7e2601c6d5dd3b16287e9658dfa0957a5c"
+    },
+    {
+      "bytes": 476,
+      "path": "outputs/epoch3_master_execution_r1/E3_L4_SOURCE_CLASS_OUTCOME_LINEAGE_REPORT.json",
+      "sha256": "52cc350bcaa6283aeb3b90a8a318ec3319a25d6ac11734590bbb4194fd380677"
+    },
+    {
+      "bytes": 2223,
+      "path": "outputs/epoch3_master_execution_r1/E3_MASTER_EXECUTION_R1_ARMING_STATUS_SNAPSHOT.json",
+      "sha256": "0c4272741c037c12ac3b1ca9d2fd34e9e7886af914e8a2a052e9e490bc7ac5df"
+    },
+    {
+      "bytes": 663,
+      "path": "outputs/epoch3_master_execution_r1/E3_MASTER_EXECUTION_R1_DECISION.json",
+      "sha256": "24a0f4f56a6b544c640e6c320bb337dc0dbe2cd471a37ddb201ee9017690ca0a"
+    },
+    {
+      "bytes": 484,
+      "path": "outputs/epoch3_master_execution_r1/E3_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "bb6ce051b33b2ffc0d5b1c92ad4af519aaba5834fbb6fcfa6f117a57473bb423"
+    },
+    {
+      "bytes": 2135,
+      "path": "outputs/epoch3_master_execution_r1/E3_OPERATOR_REVIEW_SESSION_PROTOCOL.json",
+      "sha256": "eeac1806f5249b4bc7f1c39c71522a3f5f8baeea8d3f171922d013e3e7808b4a"
+    },
+    {
+      "bytes": 945,
+      "path": "outputs/epoch3_master_execution_r1/E3_Q3_PROPAGATION_RULE_OWNERSHIP_DECISION.json",
+      "sha256": "24df6ee06cdf95d49e24d24c523d6067ad941b8199196b87cb5b3e969abfc481"
+    },
+    {
+      "bytes": 278,
+      "path": "outputs/epoch3_master_execution_r1/E3_Q6_UNCERTAINTY_EXTENSION_DECISION.json",
+      "sha256": "fc67346a6ce53d2598940c8124c1049422dc928414bd7f8a29f7af724112345f"
+    },
+    {
+      "bytes": 219,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_CONTRACT_PUBLICATION_ROW.json",
+      "sha256": "5e3bc2f07eff06c0d7419f43ff572f0cae9d3f80a19aea990dd6a28632deff0e"
+    },
+    {
+      "bytes": 1051,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_HASH_MANIFEST.json",
+      "sha256": "c7921b0f7fa2dd05e43bfa9890787554948ec35ae352a969914e5060762bdbfa"
+    },
+    {
+      "bytes": 156,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_SHARED_VALIDATOR_UPDATE_REPORT.json",
+      "sha256": "65c8f92dcba09cfa1e38770f7ed12b3db2f86720761346ab1f6383ff9db58411"
+    },
+    {
+      "bytes": 238,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_CONSUMER_IMPACT_ASSESSMENT.json",
+      "sha256": "8d406c6ba6659cc57f1be6cd4ad718a03362200fbba8fa1e7ca9d720072dce37"
+    },
+    {
+      "bytes": 310,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_CONTRACT_DELTA_ROW.json",
+      "sha256": "680f0fbcd96f193f576c6741546fa11eb07f15f87d0174a6c253305773fc27ca"
+    },
+    {
+      "bytes": 201,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_FIXTURES_REPORT.json",
+      "sha256": "b2ccc394723b69f9de90fc415634008fb1695cc2795d3dd499e458ce80377e9b"
+    },
+    {
+      "bytes": 1710,
+      "path": "outputs/epoch3_master_execution_r1/E3_WEEKLY_FUEL_GAUGE_SNAPSHOT_TEMPLATE.json",
+      "sha256": "27fec8d221382997872b8787cd8063259f4deb2b5aa1f4173541bb648dd92201"
+    },
+    {
+      "bytes": 5611,
+      "path": "outputs/epoch3_master_execution_r1/LINE_ENDING_REPORT.json",
+      "sha256": "a25771f96f3fcd19eaecec9ffd29d3ee4e8dd516dbde560cf8ddf7e8aa24872d"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1",
+  "self_reference_policy": "HASH_MANIFEST.json is excluded to avoid recursive hash instability."
+}

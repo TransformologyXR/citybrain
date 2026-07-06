@@ -1,0 +1,66 @@
+{
+  "capabilities": {
+    "E3.ARMING_STATUS_WATCH_FAMILY": {
+      "scheduled_tick_verified": true,
+      "state": "foundation_ready"
+    },
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT": {
+      "failed_requirement_ids": [
+        "R3A_TOTAL_DISPOSITIONS",
+        "R3A_OPERATOR_DIVERSITY",
+        "R3A_LABEL_SET",
+        "R3A_EXPLORATION_FLOOR",
+        "R3A_STATIC_HOLDOUTS",
+        "R3A_FROZEN_REPLAY",
+        "R3A_REGISTRY_ENTRY_EXISTS",
+        "R3A_REGISTRY_STATUS",
+        "R3A_NO_CONSUMING_SURFACES",
+        "R3A_AUTHORITY"
+      ],
+      "state": "not_armed"
+    },
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING": {
+      "failed_requirement_ids": [
+        "R3B_TOTAL_DISPOSITIONS",
+        "R3B_OPERATOR_DIVERSITY",
+        "R3B_MIN_PER_OPERATOR",
+        "R3B_MIN_PER_ARMED_FAMILY",
+        "R3B_AGGREGATION_FLOOR",
+        "R3B_RANKER_OFF_REPLAY",
+        "R3B_CHECK_REGRESSION"
+      ],
+      "state": "not_armed"
+    },
+    "L2.R1_BACKTEST_HARNESS_BUILD": {
+      "backtest_report_ref": "E3_L2_R1_BACKTEST_HARNESS_REPORT.json",
+      "state": "closed_for_foundation"
+    },
+    "L2.R2_FORECAST_MODEL": {
+      "failed_requirement_ids": [
+        "L2R2_NO_FORECAST_MODEL_AUTHORITY",
+        "L2R2_LABEL_HISTORY_INSUFFICIENT",
+        "L2R2_FORECAST_MODEL_EXPLICITLY_DEFERRED"
+      ],
+      "state": "not_armed"
+    },
+    "L3_COUNTERFACTUAL": {
+      "failed_requirement_ids": [
+        "L3_EXPLICITLY_DEFERRED"
+      ],
+      "state": "not_armed"
+    },
+    "L4_CASE_MEMORY": {
+      "failed_requirement_ids": [
+        "L4_EXPLICITLY_DEFERRED"
+      ],
+      "state": "not_armed"
+    }
+  },
+  "corpus_full_discovery_status": "green",
+  "foundation_closeout_ready": true,
+  "full_epoch3_closeout_ready": false,
+  "previous_snapshot_ref": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT_R1_R2.json",
+  "report_id": "E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT",
+  "scheduled_tick_status": "PASS_FIRST_SCHEDULED_TICK_VERIFIED",
+  "status": "PASS_WITH_LIMITATIONS"
+}

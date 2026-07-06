@@ -1,0 +1,21 @@
+{
+  "manifest_id": "epoch3_pre_closeout_convergence_acceptance_criteria_manifest",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PRE-CLOSEOUT-CONVERGENCE-R1",
+  "expected_status": "PASS_E3_PRE_CLOSEOUT_CONVERGENCE_R1_WITH_LIMITATIONS",
+  "criteria": [
+    "scheduled_tick_status == PASS_FIRST_SCHEDULED_TICK_VERIFIED",
+    "scheduled tick payload is non-empty and coverage_ratio == 1.0",
+    "corpus.full_discovery.status == green",
+    "control corpus JSON and JSONL parse cleanly",
+    "control hash manifests verify",
+    "BacktestReport schema emitted",
+    "first forecast target decision emitted",
+    "frozen eval slice contract emitted",
+    "baseline do-nothing comparator emitted",
+    "uncertainty schema path emitted",
+    "ForecastPacket CHECK gate scaffold emitted",
+    "no forecast model/ranker/counterfactual/case-memory work is created",
+    "R3A/R3B/L2.R2/L3/L4 remain blocked",
+    "hash and LF reports pass"
+  ]
+}

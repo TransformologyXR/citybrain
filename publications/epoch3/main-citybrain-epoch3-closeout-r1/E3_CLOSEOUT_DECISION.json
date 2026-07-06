@@ -1,0 +1,21 @@
+{
+  "artifact_id": "E3_CLOSEOUT_DECISION",
+  "closeout_type": "MINIMUM_ACCEPTABLE_WITH_LOOP2_OFFLINE_EXPERIMENT",
+  "cross_city_learned_transfer_armed": false,
+  "dynamic_investigation_armed": false,
+  "forecast_pipeline_validated": true,
+  "forecast_product_ready": false,
+  "foundation_closed": true,
+  "full_ideal_closeout": false,
+  "governed_learning_backtesting_substrate_proved": true,
+  "hidden_historical_forecast_fuel_found_and_used": true,
+  "l4_case_memory_armed": false,
+  "learned_component_snapshot": "one_experimental_frozen_replay_component_no_release_row",
+  "ledger_text": "Epoch 3 closes with limitations: governed foundation complete, Loop 2 offline experiment complete, no product learned capabilities armed, operator fuel deferred because system is not live.",
+  "no_forbidden_capability_audit": "PASS",
+  "operator_fuel_program": "deferred_not_live",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "ranking_armed": false,
+  "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "system_live": false
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "check_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "disposition_value": {
+      "enum": [
+        "confirmed",
+        "dismissed",
+        "needs_more",
+        "hold",
+        "defer",
+        "abstain",
+        "not_terminal"
+      ],
+      "type": "string"
+    },
+    "domain_pack_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exposure_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "operator_ref": {
+      "type": "string"
+    },
+    "outcome_record_id": {
+      "type": "string"
+    },
+    "post_validation_fix": {
+      "type": "boolean"
+    },
+    "propensity_status": {
+      "type": "string"
+    },
+    "queue_depth_at_surface": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "terminal_disposition": {
+      "type": "boolean"
+    },
+    "time_to_disposition_seconds": {
+      "minimum": 0,
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "training_eligibility": {
+      "properties": {
+        "eligible_for_r3_fuel": {
+          "type": "boolean"
+        },
+        "reason": {
+          "enum": [
+            "eligible_terminal_disposition",
+            "propensity_unknown",
+            "unverified_exposure",
+            "not_terminal_disposition",
+            "holdout_family_not_terminal_disposition",
+            "no_terminal_disposition_yet"
+          ]
+        }
+      },
+      "required": [
+        "eligible_for_r3_fuel",
+        "reason"
+      ],
+      "type": "object"
+    },
+    "watch_item_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "outcome_record_id",
+    "watch_item_id",
+    "operator_ref",
+    "family_id",
+    "source_class",
+    "terminal_disposition",
+    "disposition_value",
+    "post_validation_fix",
+    "created_at"
+  ],
+  "title": "OutcomeLedgerEvent",
+  "type": "object"
+}

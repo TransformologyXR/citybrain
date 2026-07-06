@@ -1,0 +1,7 @@
+{
+  "decision": "R0.2_additive_uncertainty_extension",
+  "decision_id": "E3_Q6_UNCERTAINTY_EXTENSION_DECISION",
+  "r0_2_required": true,
+  "rationale": "Counterfactual packets need uncertainty references, but this remains schema/validator work only.",
+  "status": "PUBLISHED"
+}

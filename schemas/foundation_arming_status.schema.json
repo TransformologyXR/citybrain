@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/foundation_arming_status.schema.json",
+  "title": "FoundationArmingStatus",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "report_id",
+    "status",
+    "armed_or_foundation_closed",
+    "not_armed",
+    "threshold_crossing_does_not_start_work",
+    "foundation_closeout_ready",
+    "full_epoch3_closeout_ready"
+  ],
+  "properties": {
+    "report_id": {"type": "string"},
+    "status": {"type": "string"},
+    "armed_or_foundation_closed": {"type": "array", "items": {"type": "string"}},
+    "not_armed": {"type": "array", "items": {"type": "string"}},
+    "threshold_crossing_does_not_start_work": {"type": "boolean"},
+    "foundation_closeout_ready": {"type": "boolean"},
+    "full_epoch3_closeout_ready": {"type": "boolean"}
+  }
+}

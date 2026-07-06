@@ -1,0 +1,102 @@
+{
+  "artifact_root": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1",
+  "created_at": "2026-07-06T16:44:48Z",
+  "files": [
+    {
+      "bytes": 2005,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_ARMING_STATUS_R1_R2_UPDATE.json",
+      "sha256": "e9ad79d7b62f96ab1a9374c6407cd661a70257f91f5746dda7ac66dae94da896"
+    },
+    {
+      "bytes": 6004,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CALIBRATION_REPORT_HARDENING_REPORT.json",
+      "sha256": "49916c0c47d01ea5ffa1b557189635d837722d6cc9bb3c7e1213d1e8b173b7b8"
+    },
+    {
+      "bytes": 328,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CHECK_TO_DISPOSITION_JOIN_REPORT.json",
+      "sha256": "cff1d0c9165235e2216f44c05606391f66de9721e841ae831b04e053c280af90"
+    },
+    {
+      "bytes": 1409,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT_R1_R2.json",
+      "sha256": "7ed87fa70e7e37b58756bd052082f69bb7976b9b99a1a1f74c2d8d0c09bec7dc"
+    },
+    {
+      "bytes": 660,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_CORPUS_DELTA.json",
+      "sha256": "df437d97d748a02cc04e7360ddfd55278cedb65a1d5271f0c2898dd8195028e5"
+    },
+    {
+      "bytes": 1788,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_DECISION.json",
+      "sha256": "61a76ecda3438c5972aab2d0ec0861f7fd1ff683cffed49b1a023e5274fb1a81"
+    },
+    {
+      "bytes": 771,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LEDGER_ROW.json",
+      "sha256": "4ba08e6e85f4f255e89e515ab084d1ef2189f8aaba4b781738b7c830f7b5051d"
+    },
+    {
+      "bytes": 701,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LIMITATIONS.json",
+      "sha256": "ba757be3475411a082cbc2b6936f005d1aefeb1a36b881ff69406156235baca0"
+    },
+    {
+      "bytes": 392,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "56f16d990530c93a6df8ea3aabd347b746a196249ad7fdfa6941ff1f1bd68b23"
+    },
+    {
+      "bytes": 2232,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_REPORT.json",
+      "sha256": "92d5dffaa4f0658423bbb9aba7bac0d5ed718c4b9906015e608ed9386d0f7477"
+    },
+    {
+      "bytes": 8024,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_RECORDS_VALIDATION_FIXTURE.jsonl",
+      "sha256": "80353b27d1e42675b00dda0f21320231e018645b8c51749e7b6befa74446250b"
+    },
+    {
+      "bytes": 1196,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_TRAINING_ELIGIBILITY_RULES_REPORT.json",
+      "sha256": "6e285b781df860580a31d76da551b06e2badeacf9a1c87c107323c2f1927d3a8"
+    },
+    {
+      "bytes": 3356,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/LINE_ENDING_REPORT.json",
+      "sha256": "eddfb0e3308c5edd460780808bff9ee8406949b2ffdb7428cdaf6d259f4d5a9d"
+    },
+    {
+      "bytes": 1262,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/check_reports_mixed.json",
+      "sha256": "5a06c3fe1c47a592571a2cef1855d15c9eaacf68b1a02ea9f2f8ed35d70f6e95"
+    },
+    {
+      "bytes": 1407,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/disposition_events_mixed.jsonl",
+      "sha256": "17de907e5d6b6c5fed035bc1fb18f159bb4fbfad25ca5eb73b8b78d5dd1c38da"
+    },
+    {
+      "bytes": 393,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/expected_training_eligibility_counts.json",
+      "sha256": "429b4669882a3368847c189635e4e22e382004ab4704e3abe6b517e4ccbe9d52"
+    },
+    {
+      "bytes": 2622,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/exposure_events_for_outcome_hardening.jsonl",
+      "sha256": "b929489b6c988f6ad8e61c4113542a1e29cf81c8c8c444fbe6c858f278ce3bf9"
+    },
+    {
+      "bytes": 505,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/phase2_dependency_refs.json",
+      "sha256": "329be5cfae8f828ba3e7a6bee913b23996e117ffc2c30a366ae05c06104072f4"
+    },
+    {
+      "bytes": 203,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/zero_production_fuel_metrics.json",
+      "sha256": "1f039e25952ea72f08ce727048b92536a64b4bcb8dade0ca7de1363fc93e1d65"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1"
+}

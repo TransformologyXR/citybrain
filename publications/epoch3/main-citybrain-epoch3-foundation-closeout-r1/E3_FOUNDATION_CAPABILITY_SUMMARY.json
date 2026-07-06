@@ -1,0 +1,56 @@
+{
+  "accepted_foundation_packages": [
+    "Entry Gate R1 and follow-up reconciliation",
+    "Day 1 instrumentation and harness",
+    "Phase 2 live exposure coverage and hardening",
+    "L1.R1/R2 outcome calibration hardening",
+    "Pre-closeout convergence R1"
+  ],
+  "capabilities": {
+    "arming_status_watch_family": {
+      "source_ref": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT.json",
+      "state": "foundation_ready"
+    },
+    "calibration_hardening": {
+      "sample_depth": 0,
+      "source_ref": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CALIBRATION_REPORT_HARDENING_REPORT.json",
+      "status": "DESCRIPTIVE_ONLY_SAMPLE_DEPTH_TOO_LOW",
+      "true_calibration_claimed": false
+    },
+    "exposure_propensity_logging": {
+      "phase2_coverage_ratio": 1.0,
+      "replay_payload_items": 3,
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json"
+    },
+    "full_historical_corpus_discovery": {
+      "files_indexed": 114302,
+      "source_ref": "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json",
+      "status": "green"
+    },
+    "l2_r1_backtest_harness": {
+      "forecast_model_created": false,
+      "source_ref": "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BACKTEST_HARNESS_REPORT.json",
+      "status": "PASS_BACKTEST_HARNESS_BUILT_NO_MODEL"
+    },
+    "outcome_ledger_hardening": {
+      "production_eligible_terminal_dispositions": 0,
+      "source_ref": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_REPORT.json",
+      "validation_fixtures_separated_from_production_fuel": true
+    },
+    "scheduled_watch_tick_exposure": {
+      "coverage_ratio": 1.0,
+      "scheduled_tick_status": "PASS_FIRST_SCHEDULED_TICK_VERIFIED",
+      "source_ref": "outputs/epoch3_pre_closeout_convergence_r1/E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json"
+    }
+  },
+  "foundation_closed": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "report_id": "E3_FOUNDATION_CAPABILITY_SUMMARY",
+  "status": "PASS_WITH_LIMITATIONS"
+}

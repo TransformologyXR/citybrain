@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "armed_now": {
+      "type": "array"
+    },
+    "id": {
+      "const": "E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION"
+    },
+    "source_refs": {
+      "type": "array"
+    },
+    "status": {
+      "const": "PASS_E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1_WITH_LIMITATIONS"
+    },
+    "still_blocked": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "armed_now",
+    "still_blocked",
+    "source_refs"
+  ],
+  "title": "Phase2Decision",
+  "type": "object"
+}

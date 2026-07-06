@@ -1,0 +1,106 @@
+{
+  "armed_now": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "atomic_publication": {
+    "arming_manifest_ref": "manifests/epoch3_arming_manifest.json",
+    "evaluator_ref": "manifests/epoch3_arming_evaluator_spec.yaml",
+    "hash_manifest_ref": "HASH_MANIFEST.json",
+    "ledger_row_ref": "E3_GATE_LEDGER_ROW.json",
+    "report_ref": "E3_FUEL_GAUGE_BASELINE_REPORT.md",
+    "status": "PASS"
+  },
+  "blockers": [],
+  "branch": "main",
+  "created_at": "2026-07-06T16:44:47Z",
+  "evaluator_id": "epoch3_arming_status",
+  "gate_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "limitations": [
+    {
+      "limitation": "Current eligible post-fix terminal dispositions are below R3 arming thresholds.",
+      "next_lane": "Epoch 3 operator validation and disposition collection",
+      "owner": "Label Fuel"
+    },
+    {
+      "limitation": "Exposure/propensity logging is armed to begin now; pre-logging records remain propensity_unknown and cannot count toward primary R3 thresholds.",
+      "next_lane": "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+      "owner": "Exposure Logging"
+    },
+    {
+      "limitation": "Offline ranker experiments remain not armed until structured R3A thresholds pass and registry entry exists.",
+      "next_lane": "L1.R3A_OFFLINE_RANKER_EXPERIMENT after threshold ledger row",
+      "owner": "Ranking"
+    },
+    {
+      "limitation": "Forecasting remains blocked because BacktestReport.exists is false.",
+      "next_lane": "L2.R2_FORECAST_MODEL after BacktestReport",
+      "owner": "Forecasting"
+    },
+    {
+      "limitation": "L3_COUNTERFACTUAL remains blocked pending propagation rules, fidelity gate, assumptions/uncertainty schema, and CHECK coverage.",
+      "next_lane": "Counterfactual substrate gate",
+      "owner": "Loop 3"
+    },
+    {
+      "limitation": "L4_CASE_MEMORY remains blocked pending retention, deletion/privacy, source-class, and outcome-lineage enforcement.",
+      "next_lane": "Case memory governance gate",
+      "owner": "Loop 4"
+    },
+    {
+      "limitation": "Epoch 2.2 already explicitly limited label fuel; E3 R1 records this in E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json without reopening Epoch 2.2 or arming ranking.",
+      "next_lane": "Epoch 3 operator validation and disposition collection",
+      "owner": "E2.2 Label Fuel Reconciliation"
+    },
+    {
+      "limitation": "Focused corpus fixtures are green, but full historical discovery remains open Track 0 debt and blocks L1.R3A_OFFLINE_RANKER_EXPERIMENT until corpus.full_discovery.status == green.",
+      "next_lane": "Full historical corpus discovery greening before R3A may arm",
+      "owner": "Track 0"
+    }
+  ],
+  "metrics_snapshot_id": "citybrain_epoch3_entry_baseline_from_epoch2_closeout",
+  "non_claims": {
+    "autonomous_action": false,
+    "case_memory_learning_started": false,
+    "counterfactual_model_started": false,
+    "cross_city_learned_transfer_started": false,
+    "dynamic_investigation_agent_started": false,
+    "epoch_2_recertified": false,
+    "forecast_model_started": false,
+    "learned_ranking_started": false,
+    "new_epoch_created": false,
+    "official_action_dispatch_enforcement_or_legal_finding": false
+  },
+  "not_armed": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "reconciliation": {
+    "arming_requirement_audit_ref": "E3_ARMING_REQUIREMENT_AUDIT_REPORT.json",
+    "corpus_scope_reconciliation_ref": "E3_CORPUS_SCOPE_RECONCILIATION_ROW.json",
+    "e2_2_label_fuel_claim_type": "EXPLICITLY_LIMITED",
+    "e2_2_label_fuel_reconciliation_ref": "E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json",
+    "full_corpus_greenness_claimed": false,
+    "hash_line_ending_stability_ref": "E3_HASH_LINE_ENDING_STABILITY_REPORT.json",
+    "l4_runtime_current_state_requirements_enforced": true,
+    "label_fuel_remains_below_training_threshold": true,
+    "metrics_reconciliation_ref": "E3_METRICS_RECONCILIATION_REPORT.json",
+    "policy_and_aggregation_reconciliation_ref": "E3_POLICY_AND_AGGREGATION_RECONCILIATION_ROW.json",
+    "r3a_full_corpus_discovery_status": "NOT_RUN_FOR_THIS_GATE",
+    "track0_full_historical_corpus_debt_ref": "E3_TRACK0_FULL_HISTORICAL_CORPUS_DISCOVERY_DEBT_ROW.json",
+    "watch_family_runtime_count": 5
+  },
+  "schema_version": "citybrain.epoch3.entry_gate.decision.v1",
+  "status": "PASS_E3_ENTRY_FOR_DESCRIPTIVE_AND_HARNESS_WORK_WITH_LIMITATIONS",
+  "threshold_crossing_sample_ref": "E3_ARMING_THRESHOLD_CROSSING_SAMPLE.json",
+  "threshold_crossings_current_baseline": []
+}

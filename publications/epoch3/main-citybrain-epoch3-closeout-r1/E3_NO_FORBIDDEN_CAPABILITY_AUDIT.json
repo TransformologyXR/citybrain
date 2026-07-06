@@ -1,0 +1,17 @@
+{
+  "allowed_existing_experimental_component": "forecast.permit_stall_v0.r1",
+  "artifact_id": "E3_NO_FORBIDDEN_CAPABILITY_AUDIT",
+  "case_memory_learner_created": false,
+  "counterfactual_learner_created": false,
+  "cross_city_learned_transfer_created": false,
+  "dynamic_investigation_created": false,
+  "new_learned_registry_entries": 0,
+  "new_model_training_created": false,
+  "official_action_or_dispatch_created": false,
+  "operator_facing_forecast_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "product_forecast_packet_created": false,
+  "product_forecast_surface_created": false,
+  "ranker_created": false,
+  "status": "PASS"
+}

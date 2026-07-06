@@ -1,0 +1,21 @@
+{
+  "check_type_field_present": true,
+  "created_at": "2026-07-06T16:44:48Z",
+  "descriptive_only": true,
+  "eligible_terminal_dispositions_current": 0,
+  "family_pack_attribution_present": true,
+  "lane": "L1.R1_OUTCOME_LEDGER_HARDENING",
+  "limitations": [
+    "No current training-eligible terminal dispositions.",
+    "Outcome ledger scaffolding normalizes future evidence; it does not convert historical propensity_unknown records into training fuel."
+  ],
+  "operator_diversity_metrics_present": true,
+  "operator_refs_distinct_count_current": 0,
+  "queue_depth_time_to_disposition_fields_present": true,
+  "schema_ref": "schemas/outcome_ledger_event.schema.json",
+  "schema_version": "citybrain.epoch3.day1.outcome_ledger_hardening_report.v1",
+  "source_class_field_present": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "terminal_disposition_normalization_schema_present": true,
+  "training_eligible_terminal_disposition_flow_started": false
+}

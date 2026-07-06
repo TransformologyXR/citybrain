@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PermitStallLabelDefinition",
+  "type": "object",
+  "required": [
+    "target_id",
+    "threshold_days_in_non_terminal_state",
+    "states_counted",
+    "terminal_outcomes",
+    "censor_policy",
+    "model_allowed"
+  ],
+  "properties": {
+    "target_id": {"const": "permit_stall_v0"},
+    "threshold_days_in_non_terminal_state": {"type": "integer", "minimum": 1},
+    "states_counted": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "terminal_outcomes": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "censor_policy": {"type": "string"},
+    "model_allowed": {"const": false}
+  }
+}

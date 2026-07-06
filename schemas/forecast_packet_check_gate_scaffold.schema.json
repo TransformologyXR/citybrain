@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/forecast_packet_check_gate_scaffold.schema.json",
+  "title": "ForecastPacketCheckGateScaffold",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "check_gate_id",
+    "status",
+    "required_checks",
+    "forecast_model_enabled",
+    "dispatch_or_action_enabled"
+  ],
+  "properties": {
+    "check_gate_id": {"type": "string"},
+    "status": {"type": "string"},
+    "required_checks": {"type": "array", "items": {"type": "string"}},
+    "forecast_model_enabled": {"type": "boolean"},
+    "dispatch_or_action_enabled": {"type": "boolean"}
+  }
+}

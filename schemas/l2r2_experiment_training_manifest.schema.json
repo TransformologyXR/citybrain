@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "source_label_rows_ref": {
+      "type": "string"
+    },
+    "split_policy": {
+      "type": "object"
+    },
+    "surface_policy": {
+      "properties": {
+        "consuming_surfaces": {
+          "maxItems": 0,
+          "type": "array"
+        }
+      },
+      "required": [
+        "consuming_surfaces"
+      ],
+      "type": "object"
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "temporal_leakage_audit_ref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "target_id",
+    "source_label_rows_ref",
+    "split_policy",
+    "temporal_leakage_audit_ref",
+    "surface_policy"
+  ],
+  "title": "L2R2 Experiment Training Manifest",
+  "type": "object"
+}

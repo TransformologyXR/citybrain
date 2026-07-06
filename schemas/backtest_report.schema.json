@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/backtest_report.schema.json",
+  "title": "BacktestReport",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "backtest_report_id",
+    "status",
+    "forecast_target_ref",
+    "frozen_eval_slice_ref",
+    "comparator_ref",
+    "uncertainty_schema_ref",
+    "forecast_model_created",
+    "metrics"
+  ],
+  "properties": {
+    "backtest_report_id": {"type": "string"},
+    "status": {"type": "string"},
+    "forecast_model_created": {"type": "boolean"},
+    "metrics": {"type": "object"},
+    "forecast_target_ref": {"type": "string"},
+    "frozen_eval_slice_ref": {"type": "string"},
+    "comparator_ref": {"type": "string"},
+    "uncertainty_schema_ref": {"type": "string"}
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "artifact_root": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1",
+  "created_at": "2026-07-06T18:06:26Z",
+  "files": [
+    {
+      "bytes": 40597,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_CHECK_CALIBRATION_JOIN_READINESS_SCOUT.json",
+      "sha256": "14a98686aa7be7de252832577b91983dc6ad9c08b6e7a6f011f5314bd7b21f72"
+    },
+    {
+      "bytes": 35350,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_IDENTITY_GRAPH_EVAL_FUEL_SCOUT.json",
+      "sha256": "b3d00f3b6c6826c391226a327dff5cec5d54c3f1cd792c1e991bdddad36f7b63"
+    },
+    {
+      "bytes": 34964,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_L4_CASE_STUB_CONTENT_VERIFICATION_SCOUT.json",
+      "sha256": "960f806d68016904b0e1a4527713ebd56da9bfc751dad4d53c55d7ac767100a3"
+    },
+    {
+      "bytes": 3815,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_BACKLOG.json",
+      "sha256": "d5e7f191342b0589f69f0350b5226cc916b21b52010f947eb02c1d198fe084e2"
+    },
+    {
+      "bytes": 1006,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_LEDGER_ROW.json",
+      "sha256": "4d261f10bccfab11b36f141e1505025477899bd42d66577463096fdca0c4e50e"
+    },
+    {
+      "bytes": 1548,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_DECISION.json",
+      "sha256": "c96e02ba13a8be02d4615686f8e83e0e212fb38926ca1697cdf6df104bdbed63"
+    },
+    {
+      "bytes": 528,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "f2e43f220d6c46b77b25ad81c7d865dfd1ce2a231f262c0757443dcbde5f335b"
+    },
+    {
+      "bytes": 1332,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_PREFLIGHT_CONTEXT.json",
+      "sha256": "dd1aefb0fc468c4b738027e84e228e9fdfa01acd2b8d8b8ad978db4864e7ffe8"
+    },
+    {
+      "bytes": 13234,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_SIMULATION_BACKTEST_INPUT_SCOUT.json",
+      "sha256": "7131f310bc723810c725a03b001a1642e352b33ed2889bb937d81b96dc010ba9"
+    },
+    {
+      "bytes": 6373,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_WATCH_RANKING_DESCRIPTIVE_SIGNAL_SCOUT.json",
+      "sha256": "7a6708237e83f3232f667952e5a99e98c2657a99c3d0475ea49c060e22555277"
+    },
+    {
+      "bytes": 4954,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_WORKFLOW_REVIEW_STATE_HISTORY_SCOUT.json",
+      "sha256": "c08df9454f2b44c72ea81efe7257dc4b6067df51751d00a782898173f33828a9"
+    },
+    {
+      "bytes": 710,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_PUBLICATION_HOME_RECOMMENDATION_ROW.json",
+      "sha256": "ede52084b1ebd074551559e85661b2c8126861f3c90f5548cb5176f9e8cdeb11"
+    },
+    {
+      "bytes": 2448,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/LINE_ENDING_REPORT.json",
+      "sha256": "92f7d06840c10dc065a281eb35bca6553a0592778f0e721d3a2aac66e414355f"
+    },
+    {
+      "bytes": 528,
+      "path": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/README.md",
+      "sha256": "e6831935b4280c8ad3cf2a523c204619e6622bd08a3e14db29a7f65eb03ee5e5"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "schema_version": "citybrain.hash_manifest.v1"
+}

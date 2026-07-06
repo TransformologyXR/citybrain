@@ -1,0 +1,21 @@
+{
+  "limitations": [
+    {
+      "id": "PRODUCTION_FUEL_ZERO",
+      "text": "Production eligible terminal dispositions remain zero; validation fixtures do not count."
+    },
+    {
+      "id": "SCHEDULED_TICK_MAY_REMAIN_PENDING",
+      "text": "First live scheduled Watch tick verification may remain pending and must stay watched by E3.ARMING_STATUS_WATCH_FAMILY."
+    },
+    {
+      "id": "CALIBRATION_DESCRIPTIVE_ONLY",
+      "text": "Calibration remains descriptive until sample-depth thresholds are met."
+    },
+    {
+      "id": "FULL_CORPUS_DISCOVERY_OPEN",
+      "text": "Full historical corpus discovery green remains a blocker for R3A."
+    }
+  ],
+  "report_id": "E3_L1_R1_R2_LIMITATIONS"
+}

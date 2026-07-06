@@ -1,0 +1,159 @@
+{
+  "$id": "https://citybrain.local/schemas/outcome_record.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "check_report_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "counts_toward_production_fuel": {
+      "type": "boolean"
+    },
+    "disposition_event_id": {
+      "type": "string"
+    },
+    "domain_pack_ref": {
+      "type": "string"
+    },
+    "exposure_id": {
+      "type": "string"
+    },
+    "exposure_run_envelope_ref": {
+      "type": "string"
+    },
+    "fixture_context": {
+      "additionalProperties": true,
+      "properties": {
+        "counts_as_production": {
+          "type": "boolean"
+        },
+        "kind": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "type": "object"
+    },
+    "holdout_family_flag": {
+      "type": "boolean"
+    },
+    "operator_ref": {
+      "type": "string"
+    },
+    "outcome_record_id": {
+      "type": "string"
+    },
+    "post_validation_fix": {
+      "type": "boolean"
+    },
+    "propensity": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "propensity_status": {
+      "enum": [
+        "known",
+        "propensity_unknown",
+        "not_applicable"
+      ],
+      "type": "string"
+    },
+    "queue_depth_at_exposure": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "selected_item_context_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_class_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "surface_policy": {
+      "type": "string"
+    },
+    "surface_reason_codes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "terminal_disposition": {
+      "enum": [
+        "confirmed",
+        "dismissed",
+        "needs_more",
+        "hold",
+        "abstain",
+        "not_terminal"
+      ],
+      "type": "string"
+    },
+    "terminal_disposition_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "time_to_disposition_seconds": {
+      "minimum": 0,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "training_eligibility": {
+      "$ref": "training_eligibility.schema.json"
+    },
+    "watch_family": {
+      "type": "string"
+    },
+    "watch_item_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "outcome_record_id",
+    "schema_version",
+    "watch_item_id",
+    "exposure_id",
+    "exposure_run_envelope_ref",
+    "operator_ref",
+    "disposition_event_id",
+    "terminal_disposition",
+    "post_validation_fix",
+    "watch_family",
+    "domain_pack_ref",
+    "source_class_refs",
+    "check_report_refs",
+    "queue_depth_at_exposure",
+    "time_to_disposition_seconds",
+    "propensity_status",
+    "holdout_family_flag",
+    "training_eligibility",
+    "counts_toward_production_fuel",
+    "fixture_context"
+  ],
+  "title": "CityBrain Epoch 3 OutcomeRecord",
+  "type": "object"
+}

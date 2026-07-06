@@ -1,0 +1,350 @@
+{
+  "artifact_id": "E3_MASTER_LEDGER",
+  "categories": {
+    "entry_gate": 1,
+    "execution": 4,
+    "final_closeout": 1,
+    "foundation": 4,
+    "foundation_closeout": 1,
+    "reconciliation": 1,
+    "scout": 2
+  },
+  "covered_package_count": 14,
+  "created_at": "2026-07-06T18:37:50Z",
+  "must_cover_full_epoch3_chain": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "rows": [
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "entry_gate",
+      "closeout_type": "foundation_gate",
+      "key_findings": [
+        "Entry gate fuel gauge established arming thresholds and no-model boundaries."
+      ],
+      "limitations_ref": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_LIMITATIONS.json",
+      "no_model_guard_status": "NOT_EXPLICITLY_PRESENT",
+      "output_root": "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+      "proof_artifacts": [
+        "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ENTRY_GATE_DECISION.json",
+        "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_GATE_LEDGER_ROW.json",
+        "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge",
+      "status": "PASS_E3_ENTRY_FOR_DESCRIPTIVE_AND_HARNESS_WORK_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "reconciliation",
+      "closeout_type": "followup_reconciliation",
+      "key_findings": [
+        "Follow-up reconciliation confirmed E2.2 label-fuel limitations were consistent with E3 gate status."
+      ],
+      "limitations_ref": null,
+      "no_model_guard_status": "NOT_EXPLICITLY_PRESENT",
+      "output_root": "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FOLLOWUP-RECONCILIATION-R1",
+      "proof_artifacts": [
+        "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1",
+      "status": "PASS_RECONCILED",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "foundation",
+      "closeout_type": "instrumentation_foundation",
+      "key_findings": [
+        "Day 1 instrumentation and harness reports were published with no-model guard."
+      ],
+      "limitations_ref": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_day1_instrumentation_and_harness_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-DAY1-INSTRUMENTATION-AND-HARNESS-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_DECISION.json",
+        "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LEDGER_ROW.json",
+        "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1",
+      "status": "PASS_E3_DAY1_INSTRUMENTATION_AND_HARNESS_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "foundation",
+      "closeout_type": "exposure_coverage_hardening",
+      "key_findings": [
+        "Phase 2 exposure coverage and surfaced-impression definitions were hardened."
+      ],
+      "limitations_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-PHASE2-LIVE-EXPOSURE-COVERAGE-AND-HARDENING-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION.json",
+        "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LEDGER_ROW.json",
+        "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1",
+      "status": "PASS_E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "foundation",
+      "closeout_type": "outcome_calibration_hardening",
+      "key_findings": [
+        "Outcome ledger and calibration hardening published validation fixtures without production fuel promotion."
+      ],
+      "limitations_ref": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-L1-R1-R2-OUTCOME-CALIBRATION-HARDENING-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_DECISION.json",
+        "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LEDGER_ROW.json",
+        "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1",
+      "status": "PASS_E3_L1_R1_R2_OUTCOME_CALIBRATION_HARDENING_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "foundation",
+      "closeout_type": "pre_closeout_convergence",
+      "key_findings": [
+        "Pre-closeout convergence verified scheduled Watch tick, corpus discovery, and L2.R1 harness shell."
+      ],
+      "limitations_ref": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_pre_closeout_convergence_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-PRE-CLOSEOUT-CONVERGENCE-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json",
+        "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT.json",
+        "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1",
+      "status": "PASS_E3_PRE_CLOSEOUT_CONVERGENCE_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [
+        "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+        "L1.R1_OUTCOME_LEDGER_HARDENING",
+        "L1.R2_CALIBRATION_REPORT_HARDENING",
+        "L2.R1_BACKTEST_HARNESS_BUILD"
+      ],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "foundation_closeout",
+      "closeout_type": "foundation_closeout_only",
+      "key_findings": [
+        "Foundation closeout accepted the governed learning/backtesting substrate with full Epoch 3 paths still blocked."
+      ],
+      "limitations_ref": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_foundation_closeout_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CLOSEOUT_DECISION.json",
+        "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LEDGER_ROW.json",
+        "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1",
+      "status": "PASS_E3_FOUNDATION_FOR_LEARNING_AND_BACKTESTING_WITH_LIMITATIONS",
+      "still_blocked": [
+        "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+        "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+        "L2_PRODUCT_FORECAST",
+        "L3_LEARNED_COUNTERFACTUAL",
+        "L4_CASE_MEMORY",
+        "DYNAMIC_INVESTIGATION_AGENT",
+        "CROSS_CITY_LEARNED_TRANSFER"
+      ]
+    },
+    {
+      "armed_now": [
+        "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+        "L1.R1_OUTCOME_LEDGER_HARDENING",
+        "L1.R2_CALIBRATION_REPORT_HARDENING",
+        "L2.R1_BACKTEST_HARNESS_BUILD"
+      ],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "execution",
+      "closeout_type": "master_execution",
+      "key_findings": [
+        "Master execution read out L1-L4 and kept arming under evaluator authority."
+      ],
+      "limitations_ref": "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_master_execution_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-MASTER-EXECUTION-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_master_execution_r1/E3_MASTER_EXECUTION_R1_DECISION.json",
+        "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LEDGER_ROW.json",
+        "outputs/epoch3_master_execution_r1/E3_EXECUTION_R1_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1",
+      "status": "PASS_E3_MASTER_EXECUTION_R1_WITH_LIMITATIONS",
+      "still_blocked": [
+        "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+        "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+        "L2_PRODUCT_FORECAST",
+        "L3_LEARNED_COUNTERFACTUAL",
+        "L4_CASE_MEMORY",
+        "DYNAMIC_INVESTIGATION_AGENT",
+        "CROSS_CITY_LEARNED_TRANSFER"
+      ]
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "execution",
+      "closeout_type": "historical_label_backfill",
+      "key_findings": [
+        "Historical label backfill materialized governed permit-stall history without arming a model."
+      ],
+      "limitations_ref": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_l2_historical_label_backfill_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-HISTORICAL-LABEL-BACKFILL-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_DECISION.json",
+        "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LEDGER_ROW.json",
+        "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1",
+      "status": "PASS_E3_L2_HISTORICAL_LABEL_BACKFILL_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "execution",
+      "closeout_type": "forecast_authority_preflight",
+      "key_findings": [
+        "Forecast authority preflight required human authority and same-run release discipline."
+      ],
+      "limitations_ref": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-FORECAST-AUTHORITY-PREFLIGHT-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_DECISION.json",
+        "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LEDGER_ROW.json",
+        "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1",
+      "status": "PASS_E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "execution",
+      "closeout_type": "offline_experimental_forecast",
+      "key_findings": [
+        "Loop 2 offline experiment validated the pipeline and registered one experimental frozen-replay component."
+      ],
+      "limitations_ref": null,
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-OFFLINE-EXPERIMENTAL-FORECAST-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_OFFLINE_EXPERIMENT_DECISION.json",
+        "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+        "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1",
+      "status": "PASS_E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "scout",
+      "closeout_type": "hidden_data_scout",
+      "key_findings": [
+        "Hidden-data scout cataloged candidate inventories without training-fuel promotion."
+      ],
+      "limitations_ref": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_hidden_data_scout_master_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_MASTER_DECISION.json",
+        "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LEDGER.json",
+        "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1",
+      "status": "PASS_E3_HIDDEN_DATA_SCOUT_MASTER_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "scout",
+      "closeout_type": "final_nonlive_hidden_fuel_scout",
+      "key_findings": [
+        "Final non-live scout classified closeout-affecting findings versus Epoch 4 backlog and locked finality."
+      ],
+      "limitations_ref": null,
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_DECISION.json",
+        "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_LEDGER_ROW.json",
+        "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_NONLIVE_NO_MODEL_GUARD_REPORT.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1",
+      "status": "PASS_E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1_WITH_LIMITATIONS",
+      "still_blocked": []
+    },
+    {
+      "armed_now": [
+        "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+        "L1.R1_OUTCOME_LEDGER_HARDENING",
+        "L1.R2_CALIBRATION_REPORT_HARDENING",
+        "L2.R1_BACKTEST_HARNESS_BUILD"
+      ],
+      "boundary_outcome": "no_product_learned_capabilities_armed",
+      "category": "final_closeout",
+      "closeout_type": "MINIMUM_ACCEPTABLE_WITH_LOOP2_OFFLINE_EXPERIMENT",
+      "key_findings": [
+        "Epoch 3 closes as minimum acceptable with Loop 2 offline experiment and limitations."
+      ],
+      "limitations_ref": "outputs/epoch3_closeout_r1/E3_CLOSEOUT_LIMITATIONS.json",
+      "no_model_guard_status": "PASS",
+      "output_root": "outputs/epoch3_closeout_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+      "proof_artifacts": [
+        "outputs/epoch3_closeout_r1/E3_CLOSEOUT_DECISION.json",
+        "outputs/epoch3_closeout_r1/E3_CLOSEOUT_LEDGER_ROW.json",
+        "outputs/epoch3_closeout_r1/E3_CLOSEOUT_LIMITATIONS.json"
+      ],
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1",
+      "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+      "still_blocked": [
+        "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+        "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+        "L2_PRODUCT_FORECAST",
+        "L3_LEARNED_COUNTERFACTUAL",
+        "L4_CASE_MEMORY",
+        "DYNAMIC_INVESTIGATION_AGENT",
+        "CROSS_CITY_LEARNED_TRANSFER"
+      ]
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

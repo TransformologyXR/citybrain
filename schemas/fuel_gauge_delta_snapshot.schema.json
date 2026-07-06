@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "arming_status": {
+      "type": "object"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "emitter": {
+      "const": "E3.ARMING_STATUS_WATCH_FAMILY"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "previous_snapshot_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "snapshot_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "snapshot_id",
+    "previous_snapshot_ref",
+    "emitter",
+    "created_at",
+    "metrics",
+    "arming_status"
+  ],
+  "title": "FuelGaugeDeltaSnapshot",
+  "type": "object"
+}

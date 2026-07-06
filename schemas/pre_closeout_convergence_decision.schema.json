@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/pre_closeout_convergence_decision.schema.json",
+  "title": "PreCloseoutConvergenceDecision",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "task_id",
+    "status",
+    "foundation_closeout_ready",
+    "full_epoch3_closeout_ready",
+    "armed_now",
+    "still_blocked"
+  ],
+  "properties": {
+    "task_id": {"type": "string"},
+    "status": {"type": "string"},
+    "foundation_closeout_ready": {"type": "boolean"},
+    "full_epoch3_closeout_ready": {"type": "boolean"},
+    "armed_now": {"type": "array", "items": {"type": "string"}},
+    "still_blocked": {"type": "array", "items": {"type": "string"}}
+  }
+}

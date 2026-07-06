@@ -1,0 +1,122 @@
+{
+  "artifact_root": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1",
+  "created_at": "2026-07-06T16:44:48Z",
+  "files": [
+    {
+      "bytes": 463,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_CALIBRATION_HARDENING_START_REPORT.json",
+      "sha256": "dafc0618c7032a7ae0b48e9ea8f2317730431fd14934f923c7bd262d75c98046"
+    },
+    {
+      "bytes": 707,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+      "sha256": "9e84d3ce8e121ab10cef1c372a53997a22cd4d802638d8c1728b6422b051cab2"
+    },
+    {
+      "bytes": 473,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_HOLDOUT_FAMILY_RATIONALE_ROW.json",
+      "sha256": "34d33305cb0b5e6b1f4fe4775732321eb14048e36c54f64e9796519cd28d4565"
+    },
+    {
+      "bytes": 808,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+      "sha256": "89081111c254e64f4a774c207889235e93862f1a0add16c3f3b087a5b2b0d4d2"
+    },
+    {
+      "bytes": 491,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "84614c7862e19a0a1003b3f3121fb61ea736759ae1206c78d98362cd3d49a832"
+    },
+    {
+      "bytes": 940,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_START_REPORT.json",
+      "sha256": "291f198bb8f11824877d6b0f9b8d8bd5bc7e55b079e55dac08113c55c053dd0c"
+    },
+    {
+      "bytes": 702,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_CORPUS_DELTA.json",
+      "sha256": "f79e793992193892a5b52390b673b26ee9d2f02e3dac4620080ce57d2e39d111"
+    },
+    {
+      "bytes": 1163,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LEDGER_ROW.json",
+      "sha256": "ef4c2b2d03abbacaff22f2d71dd85936e05894cb7efeab51c5aaef1324662106"
+    },
+    {
+      "bytes": 881,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIMITATIONS.json",
+      "sha256": "779c57ee737c9888bda4cdefb91fe1af14c75170eda69ac865466924173223ee"
+    },
+    {
+      "bytes": 1466,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION.json",
+      "sha256": "c805470524e8fd21fe485a77a7f9a885c731023b9699b68155d5f3d41eccbb94"
+    },
+    {
+      "bytes": 683,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json",
+      "sha256": "9432633b6b96564274478f92d8e4f514ea135032931eef1f9e2dde33ca3be19f"
+    },
+    {
+      "bytes": 885,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_STANDING_NO_MODEL_GUARD_TEMPLATE.json",
+      "sha256": "40441b9be7a3438b4221001f9efc7618741f151d86564901981e71e1d1c80965"
+    },
+    {
+      "bytes": 761,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+      "sha256": "5246add6ed64ff01dc1a9b44ed695914f4be1a7bb99f0d8dfbe23631db6eebe5"
+    },
+    {
+      "bytes": 1136,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_WATCH_SERVICE_COVERAGE_CRITERION_DELTA_ROW.json",
+      "sha256": "41cf39a4b0ffeba4e8f8a9dda9270191e6d7339c9d5ab0d18019af6d98785003"
+    },
+    {
+      "bytes": 4199,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/LINE_ENDING_REPORT.json",
+      "sha256": "bce503e3a0953b7b4daf6e563225610f071e531e88b78081d09f1ae9242ee3c0"
+    },
+    {
+      "bytes": 259,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/empty_tick_vacuous_pass_fixture.json",
+      "sha256": "8fba2e49665021454c5b1f65ba476c52b72b18d2de3b43a02c44132fd39df46a"
+    },
+    {
+      "bytes": 429,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/expected_training_eligibility_reasons.json",
+      "sha256": "8bd8c118e977cef30fb2659c9dd82622e749759cb7d68a21121a265d7c8d2321"
+    },
+    {
+      "bytes": 3410,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/exposure_events_replay.jsonl",
+      "sha256": "e468ed44fe2a3612f34774bd66540092c267c76022d0cd7febcaa072262f12bb"
+    },
+    {
+      "bytes": 169,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/metrics_pending_tick_overdue.json",
+      "sha256": "44e2c9c9db5d7aaf68ab6c9acdc592b53552927e280c65976c181b997d7385d4"
+    },
+    {
+      "bytes": 324,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_reexposure_002.json",
+      "sha256": "8ba59ff052de3b51fbbc7ae5ef082758e920983b03b11d448de366083792bc4c"
+    },
+    {
+      "bytes": 584,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "sha256": "20b2e1c1e50a05d15758ad5b9ffe233e5b9b04437abe2649ba47323c2caae22f"
+    },
+    {
+      "bytes": 360,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/reexposure_run_envelope_002.json",
+      "sha256": "0bb470f0b50c0b0d76d5e39a0fdd372ab13f35be76ab1f0e755551c005c22072"
+    },
+    {
+      "bytes": 430,
+      "path": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/watch_run_envelope_replay.json",
+      "sha256": "4eed1a58b152b097f84fe5676556c66c829d1eb680ea7cebc2c75a8bb27ed9d7"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1"
+}

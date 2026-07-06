@@ -1,0 +1,24 @@
+{
+  "phase2_replay_coverage": {
+    "coverage_ratio": 1.0,
+    "exposure_events_count": 3,
+    "operator_visible_payload_items_count": 3,
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "report_id": "E3_FOUNDATION_EXPOSURE_COVERAGE_SUMMARY",
+  "scheduled_tick_coverage": {
+    "coverage_ratio": 1.0,
+    "emitted_exposure_events": 3,
+    "expected_payload_items": 3,
+    "scheduled_tick_status": "PASS_FIRST_SCHEDULED_TICK_VERIFIED",
+    "status": "PASS"
+  },
+  "source_refs": [
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "surfaced_definition": "operator_visible_payload_inclusion",
+  "surfaced_definition_text": "An item is surfaced when it is included in an operator-visible review payload, not merely when emitted internally by the Watch service."
+}

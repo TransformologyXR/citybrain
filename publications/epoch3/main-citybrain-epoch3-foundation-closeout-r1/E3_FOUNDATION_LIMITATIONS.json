@@ -1,0 +1,13 @@
+{
+  "limitations": [
+    "This is an Epoch 3 foundation closeout, not full Epoch 3 completion.",
+    "L1.R3A/R3B learned ranking remains blocked.",
+    "L2.R2 forecast model remains blocked; L2.R1 is only a no-model backtest harness.",
+    "L3 counterfactual and L4 case-memory paths remain blocked.",
+    "Dynamic investigation and cross-city learned transfer remain blocked.",
+    "Outcome/calibration evidence remains descriptive and production training fuel is not inflated by fixtures.",
+    "Corpus discovery is green for foundation gating; legacy generated payloads are not re-certified as model fuel."
+  ],
+  "report_id": "E3_FOUNDATION_LIMITATIONS",
+  "status": "PASS_WITH_LIMITATIONS"
+}

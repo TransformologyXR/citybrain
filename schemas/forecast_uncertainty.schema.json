@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/forecast_uncertainty.schema.json",
+  "title": "ForecastUncertainty",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interval_low",
+    "interval_high",
+    "confidence_level",
+    "method"
+  ],
+  "properties": {
+    "interval_low": {"type": "number"},
+    "interval_high": {"type": "number"},
+    "confidence_level": {"type": "number", "minimum": 0, "maximum": 1},
+    "method": {"type": "string"}
+  }
+}

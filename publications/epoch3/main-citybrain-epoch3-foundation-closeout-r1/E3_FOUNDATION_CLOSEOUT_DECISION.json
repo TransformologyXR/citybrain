@@ -1,0 +1,37 @@
+{
+  "blockers": [],
+  "closeout_kind": "foundation_closeout_only_not_full_epoch3_closeout",
+  "evidence_refs": [
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ENTRY_GATE_DECISION.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json",
+    "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_DECISION.json",
+    "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_NO_MODEL_GUARD_REPORT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_DECISION.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_REPORT.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CALIBRATION_REPORT_HARDENING_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BACKTEST_HARNESS_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_NO_MODEL_GUARD_REPORT.json"
+  ],
+  "foundation_closeout_ready": true,
+  "full_epoch3_closeout_ready": false,
+  "full_epoch3_remaining_paths": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "notes": "Instrumentation, exposure coverage, outcome/calibration substrate, corpus discovery, and L2.R1 backtest harness are ready for governed next work. No model path is armed.",
+  "status": "PASS_E3_FOUNDATION_FOR_LEARNING_AND_BACKTESTING_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1"
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "accuracy_role": {
+      "const": "descriptive_only_not_success_bar"
+    },
+    "baseline_comparison": {
+      "type": "object"
+    },
+    "city_stratified_metrics": {
+      "required": [
+        "NYC",
+        "London"
+      ],
+      "type": "object"
+    },
+    "metrics": {
+      "required": [
+        "stalled_class_average_precision",
+        "recall_at_fixed_precision",
+        "brier_score",
+        "calibration_error",
+        "median_useful_lead_time_days"
+      ],
+      "type": "object"
+    },
+    "product_surface_created": {
+      "const": false
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    }
+  },
+  "required": [
+    "target_id",
+    "accuracy_role",
+    "metrics",
+    "city_stratified_metrics",
+    "baseline_comparison",
+    "product_surface_created"
+  ],
+  "title": "Experimental Forecast Eval Report",
+  "type": "object"
+}

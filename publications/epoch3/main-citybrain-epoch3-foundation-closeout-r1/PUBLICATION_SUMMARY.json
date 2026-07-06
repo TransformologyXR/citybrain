@@ -1,0 +1,16 @@
+{
+  "category": "foundation_closeout",
+  "closeout_type": "foundation_closeout_only",
+  "key": "E3_FOUNDATION_CLOSEOUT_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1",
+  "proof_artifacts": [
+    "E3_FOUNDATION_CLOSEOUT_DECISION.json",
+    "E3_FOUNDATION_LEDGER_ROW.json",
+    "E3_FOUNDATION_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_foundation_closeout_r1",
+  "status": "PASS_E3_FOUNDATION_FOR_LEARNING_AND_BACKTESTING_WITH_LIMITATIONS",
+  "summary": "Foundation closeout accepted the governed learning/backtesting substrate with full Epoch 3 paths still blocked."
+}

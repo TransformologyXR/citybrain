@@ -1,0 +1,45 @@
+{
+  "artifact_roots_inventory_status": "PASS",
+  "candidate_counts_by_lane": {
+    "A": 10,
+    "B": 9,
+    "C": 8,
+    "D": 8,
+    "E": 8,
+    "TRACK0": 12
+  },
+  "created_at": "2026-07-06T17:36:02Z",
+  "limitations": [
+    "PASS is with limitations because this is a scout package and does not prove record-level materialization.",
+    "No label rows, model rows, registry entries, rankers, forecasts, counterfactual learners, case-memory learners, dynamic investigation, or cross-city learned transfer were created.",
+    "Perception outputs remain candidate-only and review-only."
+  ],
+  "no_model_guard": "PASS",
+  "output_refs": [
+    "E3_ARTIFACT_ROOT_INVENTORY.json",
+    "E3_HIDDEN_TRANSITION_TARGET_CATALOG.json",
+    "E3_HIDDEN_TRANSITION_TARGET_SCOUT_REPORT.json",
+    "E3_CHECK_CALIBRATION_FUEL_SCOUT_REPORT.json",
+    "E3_L4_CASE_MEMORY_FUEL_SCOUT_REPORT.json",
+    "E3_IDENTITY_GRAPH_EVAL_FUEL_SCOUT_REPORT.json",
+    "E3_LLM_PERCEPTION_USEFULNESS_SCOUT_REPORT.json",
+    "E3_GLOBAL_HIDDEN_DATA_BACKLOG.json",
+    "E3_HIDDEN_DATA_SCOUT_NO_MODEL_GUARD_REPORT.json",
+    "E3_HIDDEN_DATA_SCOUT_CORPUS_DELTA.json",
+    "E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "scout_completed": true,
+  "status": "PASS_E3_HIDDEN_DATA_SCOUT_MASTER_R1_WITH_LIMITATIONS",
+  "top_findings": [
+    "Existing outputs contain multiple non-permit transition target families with dated fields, especially watch queue, incident duration, backlog clearance, source freshness, and violation/inspection flows.",
+    "CHECK, Watch, OutcomeRecord, Brief, review-state, and limitation artifacts are present enough for a governed calibration-join materialization package.",
+    "CER/SEG, UPRN/address/parcel, spatial/Omniverse, VSS/DeepStream, and similar-case artifacts are abundant but must stay candidate/review-only until governed fixture promotion."
+  ],
+  "top_priority_follow_on_package_recommendations": [
+    "MAIN-CITYBRAIN-EPOCH3-WATCH-RANKING-DESCRIPTIVE-SCOUT-R1",
+    "MAIN-CITYBRAIN-EPOCH3-SIMULATION-BACKTEST-INPUT-SCOUT-R1",
+    "MAIN-CITYBRAIN-EPOCH3-OPERATOR-FUEL-HEALTH-SCOUT-R1",
+    "MAIN-CITYBRAIN-EPOCH3-WORKFLOW-REVIEW-STATE-SCOUT-R1"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "case_memory_learner_created": false,
+  "counterfactual_learner_created": false,
+  "cross_city_learned_transfer_created": false,
+  "dynamic_investigation_agent_created": false,
+  "forecast_model_created": false,
+  "forecast_packet_model_output_created": false,
+  "learned_predictor_created": false,
+  "new_learned_registry_entries": 0,
+  "operator_facing_forecast_surface_created": false,
+  "operator_facing_ranker_created": false,
+  "ranker_created": false,
+  "status": "PASS"
+}

@@ -1,0 +1,47 @@
+{
+  "armed_now": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "blockers": [],
+  "created_at": "2026-07-06T16:44:48Z",
+  "followup_dependency": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FOLLOWUP-RECONCILIATION-R1",
+  "gate_dependency": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "limitations": [
+    "Instrumentation, descriptive hardening, and harness shell only.",
+    "No learned ranking, forecast model, counterfactual, case memory, dynamic investigation, or cross-city transfer work is armed.",
+    "Training-eligible terminal disposition fuel remains zero."
+  ],
+  "no_model_guard": "PASS",
+  "not_armed": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "outputs": {
+    "E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json": "E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json",
+    "E3_DAY1_DECISION.json": "E3_DAY1_DECISION.json",
+    "E3_DAY1_LEDGER_ROW.json": "E3_DAY1_LEDGER_ROW.json",
+    "E3_DAY1_LF_STABILITY_REPORT.json": "E3_DAY1_LF_STABILITY_REPORT.json",
+    "E3_DAY1_LIMITATIONS.json": "E3_DAY1_LIMITATIONS.json",
+    "E3_DAY1_NO_MODEL_GUARD_REPORT.json": "E3_DAY1_NO_MODEL_GUARD_REPORT.json",
+    "L1_R0_EXPOSURE_LOG_EVENTS.jsonl": "L1_R0_EXPOSURE_LOG_EVENTS.jsonl",
+    "L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json": "L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json",
+    "L1_R0_WATCH_EXPLORATION_FLOOR_INFRA_REPORT.json": "L1_R0_WATCH_EXPLORATION_FLOOR_INFRA_REPORT.json",
+    "L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json": "L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json",
+    "L1_R2_CALIBRATION_REPORT_HARDENING_REPORT.json": "L1_R2_CALIBRATION_REPORT_HARDENING_REPORT.json",
+    "L2_R1_BACKTEST_HARNESS_SHELL_REPORT.json": "L2_R1_BACKTEST_HARNESS_SHELL_REPORT.json"
+  },
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-DAY1-INSTRUMENTATION-AND-HARNESS-R1",
+  "schema_version": "citybrain.epoch3.day1.decision.v1",
+  "status": "PASS_E3_DAY1_INSTRUMENTATION_AND_HARNESS_R1_WITH_LIMITATIONS",
+  "threshold_crossing_does_not_start_work": true
+}

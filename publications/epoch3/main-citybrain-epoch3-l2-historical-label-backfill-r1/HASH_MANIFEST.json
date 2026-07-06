@@ -1,0 +1,78 @@
+{
+  "artifact_root": "outputs/epoch3_l2_historical_label_backfill_r1",
+  "created_at": "2026-07-06T16:45:44Z",
+  "files": [
+    {
+      "bytes": 980443,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_GOVERNED_HISTORICAL_LABEL_ROWS.jsonl",
+      "sha256": "169575f3d974aa2276bd2488a69a26ba25472e45ab5c2f5bd4b93a4651a9768a"
+    },
+    {
+      "bytes": 466,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_CORPUS_DELTA.json",
+      "sha256": "13cb943c61e52db099fbf2d34b3969cdce5207b404a2b82572883d1245b1bf3a"
+    },
+    {
+      "bytes": 360,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_DECISION.json",
+      "sha256": "8e576f1b4284848518f8c8f6276a8439f10dc1ce72d342583e940d2a2f8c8461"
+    },
+    {
+      "bytes": 435,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LEDGER_ROW.json",
+      "sha256": "21080268c432420ed92e474567921ca0744424fedfc7c9c8297df14ef1fc9a03"
+    },
+    {
+      "bytes": 461,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json",
+      "sha256": "b558783bdf17c88461e191a2a229800de774d83f359881a00986a78279233bd4"
+    },
+    {
+      "bytes": 723,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_BACKFILL_MANIFEST.json",
+      "sha256": "9d63452fd109be40b49f7991ab9ed07475fee913dcfeab6dbf8eee6a374241ae"
+    },
+    {
+      "bytes": 252,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_LABEL_INSUFFICIENCY_ROW.json",
+      "sha256": "c1aff4d3257b20a9ee1c366196a14d362ee3c89c319dbec9987fcf17f4ccfae5"
+    },
+    {
+      "bytes": 16184,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_HISTORICAL_TRANSITION_DISCOVERY_REPORT.json",
+      "sha256": "14272a6339ae1162f87d297f1c71efb5ff0bd7cd649cc6bff3c4227e20a0304e"
+    },
+    {
+      "bytes": 612,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_L2R2_ARMING_READOUT.json",
+      "sha256": "309a5ceb3906cbd2c225260a2396850b3cd079c974816fade3727d9f0ef20fbf"
+    },
+    {
+      "bytes": 765,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_R1_BASELINE_BACKTEST_REPORT_R2.json",
+      "sha256": "ce178caa996be4abb13de25698f5031ae72f0ca6e0a9647081e58111e4d7d33f"
+    },
+    {
+      "bytes": 624,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_R1_TARGET_SUFFICIENCY_REPORT_R2.json",
+      "sha256": "43a092e01159cbca39e186f48cac444b0ebfb7700dbb85bb2c9f41726a3f7d95"
+    },
+    {
+      "bytes": 397,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_L2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json",
+      "sha256": "9c71db3b65b4ca47915e6caf64fbfc67082a7a4335f0b7a6912e1511ae66432f"
+    },
+    {
+      "bytes": 522,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/E3_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "88ffc992e1314b39cf41e9b4235e79234fd08f645e9224b57159271aadbca194"
+    },
+    {
+      "bytes": 2315,
+      "path": "outputs/epoch3_l2_historical_label_backfill_r1/LINE_ENDING_REPORT.json",
+      "sha256": "2d4f07a80a1263c7920b4e8adf2c70e4822fc26374bb14755e981dffd5aca1b9"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1",
+  "self_reference_policy": "HASH_MANIFEST.json is excluded to avoid recursive hash instability."
+}

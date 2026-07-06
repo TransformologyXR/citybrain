@@ -1,0 +1,83 @@
+{
+  "artifact_root": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1",
+  "created_at": "2026-07-06T16:46:40Z",
+  "files": [
+    {
+      "bytes": 934,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_CITY_STRATIFIED_EVAL_REPORT.json",
+      "sha256": "cbc1ff02161886c431d580aa4e4f5b650ae64996bca03af5d6c55e1acef7c6a7"
+    },
+    {
+      "bytes": 625,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_CORPUS_DELTA.json",
+      "sha256": "131b904234e8661cd68d18f5b67f22dc0146c74733d8288cf19e441b808e6fc1"
+    },
+    {
+      "bytes": 3371,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENT_TRAINING_MANIFEST.json",
+      "sha256": "9bdd634e37f7d43f4470718423325953cc711899ac11de3bc105ce6bc518ef96"
+    },
+    {
+      "bytes": 4354047,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_PREDICTIONS.jsonl",
+      "sha256": "c132747e8181b2f4de3c4352be837df2be7a8342a7e44db3b6b538e8e6f080fc"
+    },
+    {
+      "bytes": 1637,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+      "sha256": "fa0e9ce6258419ff05adf96646f9be96aaadc5269afcdeb2ae7b30303204ad95"
+    },
+    {
+      "bytes": 791,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_MODEL_CARD.json",
+      "sha256": "0f49c39514a2747b0b274e5c2eac17615ceebc34c147e83f79c87a1716d7aba4"
+    },
+    {
+      "bytes": 505,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json",
+      "sha256": "4f428bb5e298177b7b343073432d6a5b4621829b74fd493a6d6534c5f8a0079d"
+    },
+    {
+      "bytes": 924,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_HUMAN_MODEL_AUTHORITY_DECISION_ROW.json",
+      "sha256": "5379905ed46562bed0e335416c725a56bf34f5a9ef701ba73a4fe4ff9d47b853"
+    },
+    {
+      "bytes": 795,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_LIMITATIONS.json",
+      "sha256": "42582ff83151bd640e39eb5b791d4d56ef7ea6caaaeb2585e96f921d4f9dce23"
+    },
+    {
+      "bytes": 592,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "be9e53201e566276338a43f63976d1535ee683255aaa1f993d6d42d743953c7d"
+    },
+    {
+      "bytes": 382,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_NO_PRODUCT_SURFACE_AUDIT.json",
+      "sha256": "fd5c963857bcbc972f249a1150e7d8148c2a0f69b0e9af3c9680f00b40d3db1f"
+    },
+    {
+      "bytes": 504,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_OFFLINE_EXPERIMENT_DECISION.json",
+      "sha256": "0015e88794132da2ff13e5740f2e987327048f827157773a99e49c492fd0843c"
+    },
+    {
+      "bytes": 384,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_OFFLINE_EXPERIMENT_LEDGER_ROW.json",
+      "sha256": "79a5d05e29a6addb0bc178afd772b1c80b9af4f1862579249a6ac315377ff268"
+    },
+    {
+      "bytes": 664,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_TEMPORAL_LEAKAGE_AUDIT.json",
+      "sha256": "871cf8fe54780998a45f48bd2037d5f01ce6196fa8360762e759189828f97b0f"
+    },
+    {
+      "bytes": 2564,
+      "path": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/LINE_ENDING_REPORT.json",
+      "sha256": "9811b7e3073162acd4248c5ff5c4e12d8a069efaaa1917943d03099539eb80b4"
+    }
+  ],
+  "schema_version": "citybrain.hash_manifest.v1",
+  "self_reference_policy": "HASH_MANIFEST.json is excluded to avoid recursive hash instability."
+}

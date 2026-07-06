@@ -1,0 +1,11 @@
+{
+  "limitations": [
+    "No forecast model or learned predictor is created.",
+    "Materialization is capped for publication; discovery records larger candidate counts.",
+    "Snapshot-only rows are not converted into transition history.",
+    "L2.R2 remains not armed because model authority remains absent/deferred."
+  ],
+  "report_id": "E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "transition_history_found": true
+}

@@ -1,0 +1,69 @@
+{
+  "checked_files": [
+    {
+      "bytes": 6298,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json"
+    },
+    {
+      "bytes": 2332,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_DECISION.json"
+    },
+    {
+      "bytes": 1375,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 2170,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LF_STABILITY_REPORT.json"
+    },
+    {
+      "bytes": 1120,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_LIMITATIONS.json"
+    },
+    {
+      "bytes": 606,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_DAY1_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 2882,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_EXPOSURE_LOG_EVENTS.jsonl"
+    },
+    {
+      "bytes": 1590,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json"
+    },
+    {
+      "bytes": 1190,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_WATCH_EXPLORATION_FLOOR_INFRA_REPORT.json"
+    },
+    {
+      "bytes": 952,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json"
+    },
+    {
+      "bytes": 763,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R2_CALIBRATION_REPORT_HARDENING_REPORT.json"
+    },
+    {
+      "bytes": 852,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_day1_instrumentation_and_harness_r1/L2_R1_BACKTEST_HARNESS_SHELL_REPORT.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:44:48Z",
+  "crlf_paths": [],
+  "gitattributes_ref": ".gitattributes",
+  "schema_version": "citybrain.epoch3.day1.lf_stability_report.v1",
+  "status": "PASS_LF_STABLE_FOR_DAY1_PUBLICATION"
+}

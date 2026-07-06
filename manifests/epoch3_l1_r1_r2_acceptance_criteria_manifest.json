@@ -1,0 +1,12 @@
+{
+  "acceptance_criteria_count": 21,
+  "expected_test_command": "pytest tests/test_epoch3_l1_r1_r2_outcome_calibration_hardening_r1.py -q",
+  "hard_blockers": [
+    "model_work_created",
+    "fixture_fuel_counted_as_production",
+    "r3a_armed",
+    "r3b_armed",
+    "forecast_model_created"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L1-R1-R2-OUTCOME-CALIBRATION-HARDENING-R1"
+}

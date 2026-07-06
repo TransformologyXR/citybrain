@@ -1,0 +1,68 @@
+{
+  "checked_files": [
+    {
+      "bytes": 2477,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_ARMING_STATUS_FINAL.json"
+    },
+    {
+      "bytes": 1019,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_BACKTEST_HARNESS_SUMMARY.json"
+    },
+    {
+      "bytes": 2370,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CAPABILITY_SUMMARY.json"
+    },
+    {
+      "bytes": 2445,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CLOSEOUT_DECISION.json"
+    },
+    {
+      "bytes": 633,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_CORPUS_AND_HASH_SUMMARY.json"
+    },
+    {
+      "bytes": 1090,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_EXPOSURE_COVERAGE_SUMMARY.json"
+    },
+    {
+      "bytes": 507,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 697,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_LIMITATIONS.json"
+    },
+    {
+      "bytes": 1140,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_NEXT_ARMING_THRESHOLDS.json"
+    },
+    {
+      "bytes": 508,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 625,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/E3_FOUNDATION_OUTCOME_CALIBRATION_SUMMARY.json"
+    },
+    {
+      "bytes": 582,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_foundation_closeout_r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-06T16:44:57Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_FOUNDATION_CLOSEOUT"
+}

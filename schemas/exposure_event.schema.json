@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "exposure_id": {
+      "type": "string"
+    },
+    "operator_visible_payload_ref": {
+      "type": "string"
+    },
+    "payload_position": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "propensity": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "propensity_status": {
+      "enum": [
+        "known",
+        "unknown",
+        "propensity_unknown",
+        "not_applicable"
+      ]
+    },
+    "reexposure_semantics": {
+      "const": "new_event_per_payload_inclusion"
+    },
+    "run_envelope_ref": {
+      "type": "string"
+    },
+    "surface_kind": {
+      "const": "operator_visible_review_payload"
+    },
+    "surface_policy": {
+      "enum": [
+        "deterministic_static",
+        "exploration_floor",
+        "holdout",
+        "ranker",
+        "manual_review"
+      ]
+    },
+    "surface_reason": {
+      "type": "string"
+    },
+    "surfaced_definition": {
+      "const": "operator_visible_payload_inclusion"
+    },
+    "training_eligibility": {
+      "properties": {
+        "eligible_for_r3_fuel": {
+          "type": "boolean"
+        },
+        "reason": {
+          "enum": [
+            "eligible_terminal_disposition",
+            "propensity_unknown",
+            "unverified_exposure",
+            "not_terminal_disposition",
+            "holdout_family_not_terminal_disposition",
+            "no_terminal_disposition_yet"
+          ]
+        }
+      },
+      "required": [
+        "eligible_for_r3_fuel",
+        "reason"
+      ],
+      "type": "object"
+    },
+    "watch_item_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "exposure_id",
+    "watch_item_id",
+    "run_envelope_ref",
+    "surface_kind",
+    "surface_policy",
+    "surface_reason",
+    "operator_visible_payload_ref",
+    "payload_position",
+    "surfaced_definition",
+    "propensity_status",
+    "training_eligibility"
+  ],
+  "title": "ExposureEvent",
+  "type": "object"
+}

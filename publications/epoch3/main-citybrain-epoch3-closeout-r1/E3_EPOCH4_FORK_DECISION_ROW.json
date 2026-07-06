@@ -1,0 +1,37 @@
+{
+  "artifact_id": "E3_EPOCH4_FORK_DECISION_ROW",
+  "forks": [
+    {
+      "backlog_items": [
+        "run structured fuel sessions",
+        "publish weekly fuel-gauge deltas",
+        "evaluate R3A/R3B/L4 threshold crossings"
+      ],
+      "effect": "fuel program runs; R3A/R3B/L4 may arm by inherited thresholds",
+      "id": "GO_LIVE_OR_REVIEW_PILOT",
+      "priority": "P0_if_live"
+    },
+    {
+      "backlog_items": [
+        "P0 city-stratified L2 forecast improvement",
+        "P1 additional transition target materialization",
+        "P1 L4 content-backed stub governance",
+        "P1 CHECK descriptive scorecard",
+        "P2 identity/graph eval fixtures"
+      ],
+      "effect": "city-stratified L2 improvement, transition targets, L4 stubs, CHECK scorecards, identity/graph fixtures",
+      "id": "NON_LIVE_MECHANICAL_BACKLOG",
+      "priority": "P0_without_live"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "parking_lot": [
+    "dynamic investigation",
+    "cross-city learned transfer",
+    "product forecast surfaces",
+    "operator-facing ranking",
+    "case-memory learner",
+    "learned counterfactuals"
+  ],
+  "status": "ROADMAP_FORK"
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/foundation_ledger_row.schema.json",
+  "title": "FoundationLedgerRow",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "ledger_id",
+    "package_id",
+    "status",
+    "foundation_closeout_ready",
+    "full_epoch3_closeout_ready",
+    "decision_ref"
+  ],
+  "properties": {
+    "ledger_id": {"type": "string"},
+    "package_id": {"const": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1"},
+    "status": {"type": "string"},
+    "foundation_closeout_ready": {"type": "boolean"},
+    "full_epoch3_closeout_ready": {"type": "boolean"},
+    "decision_ref": {"type": "string"}
+  }
+}

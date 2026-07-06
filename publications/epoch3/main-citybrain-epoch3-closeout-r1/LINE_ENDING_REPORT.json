@@ -1,0 +1,774 @@
+{
+  "artifact_id": "LINE_ENDING_REPORT",
+  "checked_files": [
+    {
+      "bytes": 904,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_ARMING_HANDOFF_TO_EPOCH4.json"
+    },
+    {
+      "bytes": 677,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_CITY_DIVERGENCE_WARNING_ROW.json"
+    },
+    {
+      "bytes": 1028,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_CLOSEOUT_DECISION.json"
+    },
+    {
+      "bytes": 651,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_CLOSEOUT_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 530,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_CLOSEOUT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 1184,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_EPOCH4_FORK_DECISION_ROW.json"
+    },
+    {
+      "bytes": 921,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_FORECAST_RESULT_FRAMING_ROW.json"
+    },
+    {
+      "bytes": 458,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_FUEL_REALITY_FINDING_ROW.json"
+    },
+    {
+      "bytes": 979,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.json"
+    },
+    {
+      "bytes": 1481,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_LOOP_CLOSEOUT_TABLE.json"
+    },
+    {
+      "bytes": 17312,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_MASTER_LEDGER.json"
+    },
+    {
+      "bytes": 663,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_NO_FORBIDDEN_CAPABILITY_AUDIT.json"
+    },
+    {
+      "bytes": 44538,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/E3_PUBLICATION_HOME_SWEEP_REPORT.json"
+    },
+    {
+      "bytes": 3113,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 26641,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 398,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_closeout_r1/README.md"
+    },
+    {
+      "bytes": 904,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_ARMING_HANDOFF_TO_EPOCH4.json"
+    },
+    {
+      "bytes": 677,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CITY_DIVERGENCE_WARNING_ROW.json"
+    },
+    {
+      "bytes": 1028,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CLOSEOUT_DECISION.json"
+    },
+    {
+      "bytes": 651,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CLOSEOUT_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 530,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CLOSEOUT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 1184,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_EPOCH4_FORK_DECISION_ROW.json"
+    },
+    {
+      "bytes": 921,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_FORECAST_RESULT_FRAMING_ROW.json"
+    },
+    {
+      "bytes": 458,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_FUEL_REALITY_FINDING_ROW.json"
+    },
+    {
+      "bytes": 979,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.json"
+    },
+    {
+      "bytes": 17312,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_MASTER_LEDGER.json"
+    },
+    {
+      "bytes": 663,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_NO_FORBIDDEN_CAPABILITY_AUDIT.json"
+    },
+    {
+      "bytes": 3113,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 26641,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 589,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 398,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/README.md"
+    },
+    {
+      "bytes": 2332,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/E3_DAY1_DECISION.json"
+    },
+    {
+      "bytes": 1375,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/E3_DAY1_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 2170,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/E3_DAY1_LF_STABILITY_REPORT.json"
+    },
+    {
+      "bytes": 1120,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/E3_DAY1_LIMITATIONS.json"
+    },
+    {
+      "bytes": 606,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/E3_DAY1_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 4898,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 952,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/L1_R1_OUTCOME_LEDGER_HARDENING_REPORT.json"
+    },
+    {
+      "bytes": 643,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-day1-instrumentation-and-harness-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 2599,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json"
+    },
+    {
+      "bytes": 2302,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json"
+    },
+    {
+      "bytes": 4882,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_ENTRY_GATE_DECISION.json"
+    },
+    {
+      "bytes": 1778,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_GATE_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 20917,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_HASH_LINE_ENDING_STABILITY_REPORT.json"
+    },
+    {
+      "bytes": 902,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_LEARNED_COMPONENT_REGISTRY_EXPERIMENTAL_EXAMPLES.json"
+    },
+    {
+      "bytes": 2867,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/E3_LIMITATIONS.json"
+    },
+    {
+      "bytes": 3805,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 584,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-followup-reconciliation-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 2599,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json"
+    },
+    {
+      "bytes": 4882,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/E3_ENTRY_GATE_DECISION.json"
+    },
+    {
+      "bytes": 1778,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/E3_GATE_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 20917,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/E3_HASH_LINE_ENDING_STABILITY_REPORT.json"
+    },
+    {
+      "bytes": 902,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/E3_LEARNED_COMPONENT_REGISTRY_EXPERIMENTAL_EXAMPLES.json"
+    },
+    {
+      "bytes": 2867,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/E3_LIMITATIONS.json"
+    },
+    {
+      "bytes": 3805,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-entry-gate-r1-fuel-gauge/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 1006,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 1548,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_DECISION.json"
+    },
+    {
+      "bytes": 528,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/E3_FINAL_NONLIVE_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 3434,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 2448,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 732,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 528,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-final-nonlive-hidden-fuel-scout-r1/README.md"
+    },
+    {
+      "bytes": 1019,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_BACKTEST_HARNESS_SUMMARY.json"
+    },
+    {
+      "bytes": 2370,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_CAPABILITY_SUMMARY.json"
+    },
+    {
+      "bytes": 2445,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_CLOSEOUT_DECISION.json"
+    },
+    {
+      "bytes": 633,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_CORPUS_AND_HASH_SUMMARY.json"
+    },
+    {
+      "bytes": 1090,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_EXPOSURE_COVERAGE_SUMMARY.json"
+    },
+    {
+      "bytes": 507,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 697,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_LIMITATIONS.json"
+    },
+    {
+      "bytes": 508,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 625,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/E3_FOUNDATION_OUTCOME_CALIBRATION_SUMMARY.json"
+    },
+    {
+      "bytes": 2969,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 1955,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 676,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 582,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-foundation-closeout-r1/README.md"
+    },
+    {
+      "bytes": 904,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/E3_HIDDEN_DATA_SCOUT_LEDGER.json"
+    },
+    {
+      "bytes": 647,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 2219,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/E3_HIDDEN_DATA_SCOUT_MASTER_DECISION.json"
+    },
+    {
+      "bytes": 893,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/E3_HIDDEN_DATA_SCOUT_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 3467,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 2427,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 644,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 447,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-hidden-data-scout-master-r1/README.md"
+    },
+    {
+      "bytes": 1788,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/E3_L1_R1_R2_DECISION.json"
+    },
+    {
+      "bytes": 771,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/E3_L1_R1_R2_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 701,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/E3_L1_R1_R2_LIMITATIONS.json"
+    },
+    {
+      "bytes": 392,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 2232,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/E3_OUTCOME_LEDGER_HARDENING_REPORT.json"
+    },
+    {
+      "bytes": 4521,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 3356,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 710,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l1-r1-r2-outcome-calibration-hardening-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 360,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/E3_L2_HISTORICAL_LABEL_BACKFILL_DECISION.json"
+    },
+    {
+      "bytes": 435,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 461,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json"
+    },
+    {
+      "bytes": 397,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/E3_L2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json"
+    },
+    {
+      "bytes": 522,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 3396,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 2315,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 712,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-historical-label-backfill-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 373,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_DECISION.json"
+    },
+    {
+      "bytes": 297,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 514,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 836,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/E3_L2_R2_HUMAN_AUTHORITY_DECISION_ROW.template.json"
+    },
+    {
+      "bytes": 484,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/E3_L2_R2_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 276,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/E3_L2_R2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json"
+    },
+    {
+      "bytes": 4281,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 3011,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 751,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-forecast-authority-preflight-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 1637,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json"
+    },
+    {
+      "bytes": 791,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_EXPERIMENTAL_FORECAST_MODEL_CARD.json"
+    },
+    {
+      "bytes": 505,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_EXPERIMENTAL_FORECAST_REGISTRY_ENTRY.json"
+    },
+    {
+      "bytes": 924,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_HUMAN_MODEL_AUTHORITY_DECISION_ROW.json"
+    },
+    {
+      "bytes": 795,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_LIMITATIONS.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 382,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_NO_PRODUCT_SURFACE_AUDIT.json"
+    },
+    {
+      "bytes": 504,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_OFFLINE_EXPERIMENT_DECISION.json"
+    },
+    {
+      "bytes": 384,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_OFFLINE_EXPERIMENT_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 664,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/E3_L2_R2_TEMPORAL_LEAKAGE_AUDIT.json"
+    },
+    {
+      "bytes": 3713,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 2564,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 755,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-l2-r2-offline-experimental-forecast-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 173,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_CLOSEOUT_DECISION_DATE_ROW.json"
+    },
+    {
+      "bytes": 313,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_EXECUTION_R1_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 640,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_EXECUTION_R1_LIMITATIONS.json"
+    },
+    {
+      "bytes": 472,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_L3_PROPAGATION_RULE_REGISTRY.json"
+    },
+    {
+      "bytes": 512,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_L4_ERASURE_METRIC_SCOPE_SPLIT_DECISION.json"
+    },
+    {
+      "bytes": 663,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_MASTER_EXECUTION_R1_DECISION.json"
+    },
+    {
+      "bytes": 484,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 945,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_Q3_PROPAGATION_RULE_OWNERSHIP_DECISION.json"
+    },
+    {
+      "bytes": 278,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_Q6_UNCERTAINTY_EXTENSION_DECISION.json"
+    },
+    {
+      "bytes": 1051,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/E3_R0_2_HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 8144,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 5611,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 596,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-master-execution-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 491,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 940,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/E3_OUTCOME_LEDGER_HARDENING_START_REPORT.json"
+    },
+    {
+      "bytes": 1163,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/E3_PHASE2_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 881,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/E3_PHASE2_LIMITATIONS.json"
+    },
+    {
+      "bytes": 1466,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/E3_PHASE2_LIVE_EXPOSURE_COVERAGE_DECISION.json"
+    },
+    {
+      "bytes": 885,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/E3_STANDING_NO_MODEL_GUARD_TEMPLATE.json"
+    },
+    {
+      "bytes": 5622,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 4199,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 716,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-phase2-live-exposure-coverage-and-hardening-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 509,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/E3_L2_R1_FIRST_FORECAST_TARGET_DECISION.json"
+    },
+    {
+      "bytes": 2012,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/E3_PRE_CLOSEOUT_ARMING_STATUS_SNAPSHOT.json"
+    },
+    {
+      "bytes": 897,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json"
+    },
+    {
+      "bytes": 467,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/E3_PRE_CLOSEOUT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 405,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/E3_PRE_CLOSEOUT_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 4108,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 2882,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 678,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 508,
+      "crlf_count": 0,
+      "path": "publications/epoch3/main-citybrain-epoch3-pre-closeout-convergence-r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-06T18:37:50Z",
+  "crlf_paths": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "status": "PASS_LF_STABLE_FOR_E3_CLOSEOUT_R1"
+}

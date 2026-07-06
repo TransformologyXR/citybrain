@@ -1,0 +1,14 @@
+{
+  "registry_id": "E3_L3_PROPAGATION_RULE_REGISTRY",
+  "rules": [
+    {
+      "check_required": true,
+      "deterministic_replay_only": true,
+      "input_edge_type": "road_segment_closure",
+      "output_candidate_type": "adjacent_access_review_candidate",
+      "rule_id": "rule:road_segment_closure_to_adjacent_access_review_candidate@v0"
+    }
+  ],
+  "semantic_graph_v2_dependency_edges_ref": "Semantic Graph v2 dependency-edge substrate",
+  "status": "PUBLISHED"
+}

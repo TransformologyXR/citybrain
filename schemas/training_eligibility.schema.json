@@ -1,0 +1,71 @@
+{
+  "$id": "https://citybrain.local/schemas/training_eligibility.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "counts_toward_r3a_thresholds": {
+      "type": "boolean"
+    },
+    "counts_toward_r3b_thresholds": {
+      "type": "boolean"
+    },
+    "exposure_verified": {
+      "type": "boolean"
+    },
+    "is_training_eligible": {
+      "type": "boolean"
+    },
+    "primary_reason": {
+      "enum": [
+        "eligible_terminal_disposition",
+        "not_terminal_disposition",
+        "propensity_unknown",
+        "unverified_exposure",
+        "holdout_family_not_training_eligible",
+        "missing_operator_ref",
+        "aggregation_floor_not_satisfied",
+        "pre_validation_fix",
+        "source_class_ineligible",
+        "missing_family",
+        "missing_domain_pack",
+        "missing_check_linkage",
+        "invalid_disposition_value",
+        "fixture_not_production_fuel"
+      ],
+      "type": "string"
+    },
+    "reasons": {
+      "items": {
+        "enum": [
+          "eligible_terminal_disposition",
+          "not_terminal_disposition",
+          "propensity_unknown",
+          "unverified_exposure",
+          "holdout_family_not_training_eligible",
+          "missing_operator_ref",
+          "aggregation_floor_not_satisfied",
+          "pre_validation_fix",
+          "source_class_ineligible",
+          "missing_family",
+          "missing_domain_pack",
+          "missing_check_linkage",
+          "invalid_disposition_value",
+          "fixture_not_production_fuel"
+        ],
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "usable_for_holdout_eval": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "is_training_eligible",
+    "primary_reason",
+    "reasons",
+    "exposure_verified"
+  ],
+  "title": "TrainingEligibility",
+  "type": "object"
+}

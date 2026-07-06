@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "component_id": {
+      "type": "string"
+    },
+    "component_kind": {
+      "const": "forecast_model"
+    },
+    "consuming_surfaces": {
+      "maxItems": 0,
+      "type": "array"
+    },
+    "eval_refs": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "frozen_replay_only": {
+      "const": true
+    },
+    "release_ledger_row": {
+      "type": [
+        "null"
+      ]
+    },
+    "rollback_ref": {
+      "type": "string"
+    },
+    "status": {
+      "const": "experimental"
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "training_manifest_ref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "component_id",
+    "component_kind",
+    "target_id",
+    "status",
+    "consuming_surfaces",
+    "frozen_replay_only",
+    "training_manifest_ref",
+    "eval_refs",
+    "release_ledger_row",
+    "rollback_ref"
+  ],
+  "title": "Experimental Forecast Registry Entry",
+  "type": "object"
+}

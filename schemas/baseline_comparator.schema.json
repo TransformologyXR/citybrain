@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/baseline_comparator.schema.json",
+  "title": "BaselineComparator",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "baseline_id",
+    "status",
+    "comparator_kind",
+    "forecast_model_created",
+    "prediction_logic"
+  ],
+  "properties": {
+    "baseline_id": {"type": "string"},
+    "status": {"type": "string"},
+    "comparator_kind": {"type": "string"},
+    "forecast_model_created": {"type": "boolean"},
+    "prediction_logic": {"type": "string"}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "category": "foundation",
+  "closeout_type": "instrumentation_foundation",
+  "key": "E3_DAY1_INSTRUMENTATION_AND_HARNESS_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-DAY1-INSTRUMENTATION-AND-HARNESS-R1",
+  "proof_artifacts": [
+    "E3_DAY1_DECISION.json",
+    "E3_DAY1_LEDGER_ROW.json",
+    "E3_DAY1_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_day1_instrumentation_and_harness_r1",
+  "status": "PASS_E3_DAY1_INSTRUMENTATION_AND_HARNESS_R1_WITH_LIMITATIONS",
+  "summary": "Day 1 instrumentation and harness reports were published with no-model guard."
+}

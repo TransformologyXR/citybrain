@@ -1,0 +1,16 @@
+{
+  "category": "execution",
+  "closeout_type": "historical_label_backfill",
+  "key": "E3_L2_HISTORICAL_LABEL_BACKFILL_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-HISTORICAL-LABEL-BACKFILL-R1",
+  "proof_artifacts": [
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_DECISION.json",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_LEDGER_ROW.json",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_l2_historical_label_backfill_r1",
+  "status": "PASS_E3_L2_HISTORICAL_LABEL_BACKFILL_R1_WITH_LIMITATIONS",
+  "summary": "Historical label backfill materialized governed permit-stall history without arming a model."
+}

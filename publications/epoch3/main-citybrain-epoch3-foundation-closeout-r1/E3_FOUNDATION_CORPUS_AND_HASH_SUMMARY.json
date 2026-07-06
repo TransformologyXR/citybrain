@@ -1,0 +1,16 @@
+{
+  "control_corpus_hash_manifest_status": "PASS",
+  "control_corpus_parse_status": "PASS",
+  "corpus_full_discovery": {
+    "artifact_roots_indexed": 940,
+    "files_indexed": 114302,
+    "json_or_jsonl_files_indexed": 70450,
+    "status": "green"
+  },
+  "legacy_payload_recertification_claimed": false,
+  "publication_hash_manifest_ref": "HASH_MANIFEST.json",
+  "publication_line_ending_report_ref": "LINE_ENDING_REPORT.json",
+  "report_id": "E3_FOUNDATION_CORPUS_AND_HASH_SUMMARY",
+  "source_ref": "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json",
+  "status": "PASS_WITH_LIMITATIONS"
+}

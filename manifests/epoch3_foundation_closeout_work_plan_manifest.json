@@ -1,0 +1,23 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Evidence rollup"
+    },
+    {
+      "id": "B",
+      "name": "Foundation capability summary"
+    },
+    {
+      "id": "C",
+      "name": "Boundary and arming audit"
+    },
+    {
+      "id": "D",
+      "name": "Publication"
+    }
+  ],
+  "parallel_execution_needed": false,
+  "integration_first": true
+}

@@ -1,0 +1,35 @@
+{
+  "manifest_id": "epoch3_pre_closeout_convergence_work_plan_manifest",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PRE-CLOSEOUT-CONVERGENCE-R1",
+  "lanes": [
+    {
+      "lane": "A",
+      "name": "Scheduled Watch tick exposure verification",
+      "required_output": "E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json"
+    },
+    {
+      "lane": "B",
+      "name": "Track 0 full historical corpus discovery green",
+      "required_output": "E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json"
+    },
+    {
+      "lane": "C",
+      "name": "L2.R1 backtest harness build",
+      "required_output": "E3_L2_R1_BACKTEST_HARNESS_REPORT.json"
+    },
+    {
+      "lane": "Track 0",
+      "name": "No-model guard, arming snapshot, limitations, hash/LF publication",
+      "required_output": "E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json"
+    }
+  ],
+  "non_goals": [
+    "no_ranker",
+    "no_operator_facing_learned_ranking",
+    "no_forecast_model",
+    "no_counterfactual_learner",
+    "no_case_memory_learner",
+    "no_dynamic_investigation",
+    "no_cross_city_learned_transfer"
+  ]
+}

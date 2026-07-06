@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "breakdowns": {
+      "type": "object"
+    },
+    "descriptive_only": {
+      "type": "boolean"
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "report_id": {
+      "type": "string"
+    },
+    "sample_depth_status": {
+      "enum": [
+        "INSUFFICIENT",
+        "LIMITED",
+        "SUFFICIENT"
+      ],
+      "type": "string"
+    },
+    "true_calibration_claimed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "report_id",
+    "sample_depth_status",
+    "true_calibration_claimed",
+    "descriptive_only"
+  ],
+  "title": "CalibrationReportV2",
+  "type": "object"
+}

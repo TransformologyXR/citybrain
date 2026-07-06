@@ -1,0 +1,28 @@
+{
+  "artifact_scope": "R0.2 uncertainty delta",
+  "created_at": "2026-07-06T16:44:57Z",
+  "files": [
+    {
+      "bytes": 156,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_SHARED_VALIDATOR_UPDATE_REPORT.json",
+      "sha256": "65c8f92dcba09cfa1e38770f7ed12b3db2f86720761346ab1f6383ff9db58411"
+    },
+    {
+      "bytes": 238,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_CONSUMER_IMPACT_ASSESSMENT.json",
+      "sha256": "8d406c6ba6659cc57f1be6cd4ad718a03362200fbba8fa1e7ca9d720072dce37"
+    },
+    {
+      "bytes": 310,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_CONTRACT_DELTA_ROW.json",
+      "sha256": "680f0fbcd96f193f576c6741546fa11eb07f15f87d0174a6c253305773fc27ca"
+    },
+    {
+      "bytes": 201,
+      "path": "outputs/epoch3_master_execution_r1/E3_R0_2_UNCERTAINTY_FIXTURES_REPORT.json",
+      "sha256": "b2ccc394723b69f9de90fc415634008fb1695cc2795d3dd499e458ce80377e9b"
+    }
+  ],
+  "manifest_id": "E3_R0_2_HASH_MANIFEST",
+  "schema_version": "citybrain.hash_manifest.v1"
+}

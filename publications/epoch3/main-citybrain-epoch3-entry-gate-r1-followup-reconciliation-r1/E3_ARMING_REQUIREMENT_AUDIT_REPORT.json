@@ -1,0 +1,77 @@
+{
+  "aggregation_sample_gate_metrics": {
+    "L4_AGGREGATION_FLOOR_CURRENT": "operator_data.aggregation_floor.satisfied",
+    "R3B_AGGREGATION_FLOOR": "operator_data.aggregation_floor.satisfied"
+  },
+  "audited_targets": [
+    "L4_CASE_MEMORY",
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING"
+  ],
+  "checks": {
+    "aggregation_sample_gates_use_current_satisfaction": true,
+    "l4_current_aggregation_floor_required": true,
+    "l4_remains_not_armed": true,
+    "l4_runtime_case_retention_required": true,
+    "l4_runtime_delete_path_required": true,
+    "legacy_l4_fixture_policy_paths_removed": true,
+    "r3a_full_corpus_discovery_green_required": true,
+    "r3a_remains_not_armed": true
+  },
+  "created_at": "2026-07-06T16:44:47Z",
+  "current_failed_requirement_ids": {
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT": [
+      "R3A_TOTAL_DISPOSITIONS",
+      "R3A_OPERATOR_DIVERSITY",
+      "R3A_LABEL_SET",
+      "R3A_EXPLORATION_FLOOR",
+      "R3A_STATIC_HOLDOUTS",
+      "R3A_FROZEN_REPLAY",
+      "R3A_REGISTRY_ENTRY_EXISTS",
+      "R3A_REGISTRY_STATUS",
+      "R3A_NO_CONSUMING_SURFACES",
+      "R3A_AUTHORITY",
+      "R3A_FULL_CORPUS_DISCOVERY_GREEN"
+    ],
+    "L4_CASE_MEMORY": [
+      "L4_CASE_RETENTION_RUNTIME",
+      "L4_DELETE_PATH_RUNTIME",
+      "L4_AGGREGATION_FLOOR_CURRENT",
+      "L4_SOURCE_CLASS_COVERAGE",
+      "L4_OUTCOME_LINEAGE_COVERAGE"
+    ]
+  },
+  "expected_not_armed_after_patch": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "gate_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "l4_failed_requirement_ids_expected_while_current_false": [
+    "L4_CASE_RETENTION_RUNTIME",
+    "L4_DELETE_PATH_RUNTIME",
+    "L4_AGGREGATION_FLOOR_CURRENT"
+  ],
+  "legacy_metric_paths_removed_from_l4_arming": [
+    "policy.case_retention.enforced",
+    "policy.right_to_forget_or_delete_path.enforced"
+  ],
+  "r3a_new_requirement": {
+    "expected": "green",
+    "id": "R3A_FULL_CORPUS_DISCOVERY_GREEN",
+    "metric": "corpus.full_discovery.status",
+    "op": "=="
+  },
+  "row_id": "E3_ARMING_REQUIREMENT_POINTER_AUDIT",
+  "runtime_metric_paths_required_for_l4": [
+    "policy.case_retention.runtime_case_artifact_enforced",
+    "policy.right_to_forget_or_delete_path.production_erasure_workflow",
+    "operator_data.aggregation_floor.satisfied"
+  ],
+  "schema_version": "citybrain.epoch3.entry_gate.arming_requirement_audit.v1",
+  "status": "PASS"
+}

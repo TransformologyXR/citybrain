@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "BacktestReport_exists": {
+      "type": "boolean"
+    },
+    "BacktestReport_template_exists": {
+      "type": "boolean"
+    },
+    "ForecastPacket_created": {
+      "type": "boolean"
+    },
+    "baseline_do_nothing_comparator_status": {
+      "type": "string"
+    },
+    "forecast_model_created": {
+      "type": "boolean"
+    },
+    "forecast_target_registry_status": {
+      "type": "string"
+    },
+    "frozen_eval_slice_tooling_status": {
+      "type": "string"
+    },
+    "manifest_id": {
+      "type": "string"
+    },
+    "model_work_allowed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "manifest_id",
+    "BacktestReport_template_exists",
+    "forecast_model_created",
+    "ForecastPacket_created",
+    "model_work_allowed"
+  ],
+  "title": "BacktestHarnessManifest",
+  "type": "object"
+}

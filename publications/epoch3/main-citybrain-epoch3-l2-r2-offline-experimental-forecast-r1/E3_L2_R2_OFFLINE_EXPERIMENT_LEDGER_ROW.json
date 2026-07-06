@@ -1,0 +1,9 @@
+{
+  "forecast_model_status": "experimental",
+  "ledger_row_id": "E3_L2_R2_OFFLINE_EXPERIMENT_R1_PUBLISHED",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-OFFLINE-EXPERIMENTAL-FORECAST-R1",
+  "product_surface_created": false,
+  "published_at": "2026-07-06T16:46:40Z",
+  "release_authority_granted": false,
+  "status": "PASS_E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1_WITH_LIMITATIONS"
+}

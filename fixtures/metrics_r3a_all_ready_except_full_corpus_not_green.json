@@ -1,0 +1,51 @@
+{
+  "domain_packs": {
+    "distinct_count": 2
+  },
+  "label_set": {
+    "terminal_disposition_values": [
+      "confirmed",
+      "dismissed",
+      "needs_more"
+    ]
+  },
+  "outcome": {
+    "operator_refs": {
+      "distinct_count": 3
+    },
+    "terminal_dispositions": {
+      "count": 100
+    }
+  },
+  "registry": {
+    "learned_component": {
+      "ranker_l1_r3a": {
+        "authority": "offline_eval_only",
+        "consuming_surfaces_count": 0,
+        "exists": true,
+        "status": "experimental"
+      }
+    }
+  },
+  "replay": {
+    "frozen_slice": {
+      "exists": true
+    }
+  },
+  "watch": {
+    "exploration_floor": {
+      "enabled": true
+    },
+    "families": {
+      "distinct_count": 3
+    },
+    "static_holdout_families": {
+      "enabled": true
+    }
+  },
+  "corpus": {
+    "full_discovery": {
+      "status": "not_run"
+    }
+  }
+}

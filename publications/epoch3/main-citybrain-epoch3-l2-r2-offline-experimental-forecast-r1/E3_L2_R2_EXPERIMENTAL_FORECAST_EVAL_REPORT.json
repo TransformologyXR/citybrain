@@ -1,0 +1,53 @@
+{
+  "accuracy_role": "descriptive_only_not_success_bar",
+  "baseline_comparison": {
+    "baseline_brier_score": 0.101772,
+    "baseline_stalled_class_average_precision_proxy": 0.107386,
+    "beats_baseline_average_precision_proxy": true,
+    "beats_baseline_brier": true,
+    "majority_no_model_recall_on_stalled": 0.0
+  },
+  "city_stratified_metrics": {
+    "London": {
+      "accuracy_descriptive": 0.55163,
+      "brier_score": 0.28104,
+      "calibration_error": 0.184439,
+      "median_useful_lead_time_days": 30,
+      "recall_at_fixed_precision": {
+        "precision_0_50": 0.084848,
+        "precision_0_70": 0.048485
+      },
+      "row_count": 368,
+      "stalled_class_average_precision": 0.445352,
+      "stalled_rate": 0.44837
+    },
+    "NYC": {
+      "accuracy_descriptive": 0.91024,
+      "brier_score": 0.082787,
+      "calibration_error": 0.034726,
+      "median_useful_lead_time_days": 30,
+      "recall_at_fixed_precision": {
+        "precision_0_50": 0.025039,
+        "precision_0_70": 0.025039
+      },
+      "row_count": 7119,
+      "stalled_class_average_precision": 0.099258,
+      "stalled_rate": 0.08976
+    }
+  },
+  "evaluation_scope": "offline_frozen_replay_eval_only",
+  "metrics": {
+    "accuracy_descriptive": 0.892614,
+    "brier_score": 0.092531,
+    "calibration_error": 0.042085,
+    "median_useful_lead_time_days": 30.0,
+    "recall_at_fixed_precision": {
+      "precision_0_50": 0.017413,
+      "precision_0_70": 0.00995
+    },
+    "stalled_class_average_precision": 0.191775
+  },
+  "operator_facing_forecast_created": false,
+  "product_surface_created": false,
+  "target_id": "permit_stall_v0"
+}

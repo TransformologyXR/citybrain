@@ -1,0 +1,10 @@
+{
+  "decision_ref": "E3_FOUNDATION_CLOSEOUT_DECISION.json",
+  "foundation_closeout_ready": true,
+  "full_epoch3_closeout_ready": false,
+  "ledger_id": "E3_FOUNDATION_LEDGER_ROW",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1",
+  "published_at": "2026-07-06T16:44:57Z",
+  "status": "PASS_E3_FOUNDATION_FOR_LEARNING_AND_BACKTESTING_WITH_LIMITATIONS",
+  "summary": "Epoch 3 foundation closed for governed learning and backtesting with limitations; learned/model capabilities remain blocked."
+}

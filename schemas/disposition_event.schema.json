@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "disposition": {
+      "type": "string"
+    },
+    "disposition_event_id": {
+      "type": "string"
+    },
+    "notes_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "occurred_at": {
+      "type": "string"
+    },
+    "operator_ref": {
+      "type": "string"
+    },
+    "watch_item_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "disposition_event_id",
+    "watch_item_id",
+    "operator_ref",
+    "disposition",
+    "occurred_at"
+  ],
+  "title": "DispositionEvent",
+  "type": "object"
+}

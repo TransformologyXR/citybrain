@@ -1,0 +1,78 @@
+{
+  "criteria_count": 18,
+  "criteria": [
+    {
+      "id": "AC01",
+      "text": "surfaced definition is operator-visible payload inclusion"
+    },
+    {
+      "id": "AC02",
+      "text": "re-exposure emits a new exposure event per payload inclusion"
+    },
+    {
+      "id": "AC03",
+      "text": "coverage is per run envelope with empty standing tick vacuous pass"
+    },
+    {
+      "id": "AC04",
+      "text": "verification run has >0 payload items"
+    },
+    {
+      "id": "AC05",
+      "text": "exposure_events_count equals operator_visible_payload_items_count"
+    },
+    {
+      "id": "AC06",
+      "text": "all exposure events link to watch_item_id, exposure_id, run_envelope_ref"
+    },
+    {
+      "id": "AC07",
+      "text": "training_eligibility.reason includes unverified_exposure"
+    },
+    {
+      "id": "AC08",
+      "text": "unverified exposure dispositions excluded from R3 fuel"
+    },
+    {
+      "id": "AC09",
+      "text": "scheduled tick verification row has PASS or PENDING with owner/next check/watcher"
+    },
+    {
+      "id": "AC10",
+      "text": "pending scheduled tick beyond N days creates arming-status review item"
+    },
+    {
+      "id": "AC11",
+      "text": "Watch coverage criterion added as additive delta row"
+    },
+    {
+      "id": "AC12",
+      "text": "corpus delta registers coverage fixture and frozen artifacts"
+    },
+    {
+      "id": "AC13",
+      "text": "media_candidate holdout rationale and future second non-perception rule published"
+    },
+    {
+      "id": "AC14",
+      "text": "standing no-model guard template and report emitted"
+    },
+    {
+      "id": "AC15",
+      "text": "E2.2 and L4 reconciliation citations present"
+    },
+    {
+      "id": "AC16",
+      "text": "first chained fuel-gauge snapshot emitted by arming-status family"
+    },
+    {
+      "id": "AC17",
+      "text": "no learned/model capability created or armed"
+    },
+    {
+      "id": "AC18",
+      "text": "hash and LF publication reports pass"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PHASE2-LIVE-EXPOSURE-COVERAGE-AND-HARDENING-R1"
+}

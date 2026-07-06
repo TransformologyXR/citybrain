@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "offline_ranker_registered": true,
+    "ranker_authority_offline_eval_only": true,
+    "ranker_consuming_surfaces_empty": true,
+    "ranker_status_experimental": true
+  },
+  "created_at": "2026-07-06T16:44:47Z",
+  "examples": [
+    {
+      "authority": "offline_eval_only",
+      "component_id": "ranker.l1_r3a",
+      "component_kind": "ranker",
+      "consuming_surfaces": [],
+      "eval_refs": [
+        "frozen_replay_slice_ref",
+        "ranker_off_baseline_ref",
+        "check_regression_ref"
+      ],
+      "release_ledger_row": null,
+      "rollback_ref": "noop_no_surface",
+      "status": "experimental",
+      "training_manifest_ref": "training_manifest_l1_r3a.json"
+    }
+  ],
+  "non_claim": "Registry example only; no offline ranker experiment is run by this gate.",
+  "schema_version": "citybrain.epoch3.learned_component_registry_examples.v1",
+  "status": "PASS"
+}

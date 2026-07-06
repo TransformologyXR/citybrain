@@ -1,0 +1,16 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FOUNDATION-CLOSEOUT-R1",
+  "depends_on": [
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+    "outputs/epoch3_day1_instrumentation_and_harness_r1",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1",
+    "outputs/epoch3_pre_closeout_convergence_r1"
+  ],
+  "required_minimum_artifact": "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json",
+  "blocks": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT until thresholds arm",
+    "L2.R2_FORECAST_MODEL until model-specific arming"
+  ],
+  "blocked_by": []
+}

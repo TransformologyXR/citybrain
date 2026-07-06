@@ -1,0 +1,23 @@
+{
+  "id": "E3_PHASE2_LIMITATIONS",
+  "limitations": [
+    {
+      "id": "LIMIT_PAYLOAD_AS_IMPRESSION",
+      "next_lane": "future UI telemetry / viewport tracking",
+      "owner": "Watch/UI route owner",
+      "text": "payload_presented approximates impression; actual viewport/scroll visibility is not yet tracked."
+    },
+    {
+      "id": "LIMIT_SCHEDULED_TICK_PENDING_ALLOWED",
+      "next_lane": "first scheduled tick verification",
+      "owner": "E3.ARMING_STATUS_WATCH_FAMILY",
+      "text": "No scheduled tick occurred during this package; scheduled-tick verification remains pending with an arming-status watcher."
+    },
+    {
+      "id": "LIMIT_NO_LABEL_FUEL_YET",
+      "next_lane": "fuel accumulation standing condition",
+      "owner": "L1.R1/L1.R2",
+      "text": "Outcome and calibration remain descriptive until eligible terminal dispositions exist."
+    }
+  ]
+}

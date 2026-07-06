@@ -1,0 +1,155 @@
+{
+  "metrics_snapshot_id": "metrics_pass_l1_r3b",
+  "outcome": {
+    "terminal_dispositions": {
+      "count": 240
+    },
+    "operator_refs": {
+      "distinct_count": 4
+    },
+    "min_terminal_dispositions_per_operator": 30,
+    "min_terminal_dispositions_per_armed_family": 45
+  },
+  "watch": {
+    "families": {
+      "distinct_count": 3
+    },
+    "exploration_floor": {
+      "enabled": true,
+      "percentage": 10
+    },
+    "static_holdout_families": {
+      "enabled": true,
+      "count": 1
+    },
+    "exposure_logging": {
+      "coverage": "all_training_candidates"
+    }
+  },
+  "domain_packs": {
+    "distinct_count": 2
+  },
+  "label_set": {
+    "terminal_disposition_values": [
+      "confirmed",
+      "dismissed",
+      "needs_more"
+    ]
+  },
+  "replay": {
+    "frozen_slice": {
+      "exists": true
+    }
+  },
+  "registry": {
+    "learned_component": {
+      "ranker_l1_r3a": {
+        "exists": true,
+        "status": "experimental",
+        "consuming_surfaces_count": 0,
+        "authority": "offline_eval_only"
+      }
+    },
+    "propagation_rule_registry": {
+      "exists": false
+    }
+  },
+  "ranker_off_replay": {
+    "available": true
+  },
+  "check": {
+    "claimability_regression": "green"
+  },
+  "boundary": {
+    "no_official_action_claims": true
+  },
+  "operator_data": {
+    "aggregation_floor": {
+      "satisfied": true
+    }
+  },
+  "BacktestReport": {
+    "exists": false
+  },
+  "forecast_target": {
+    "labels_or_proxy_history": {
+      "sufficient": false
+    }
+  },
+  "frozen_eval_slice": {
+    "exists": false
+  },
+  "baseline": {
+    "do_nothing_comparator": {
+      "exists": false
+    }
+  },
+  "uncertainty_schema": {
+    "approved": false
+  },
+  "ForecastPacket": {
+    "check_gate": {
+      "exists": false
+    }
+  },
+  "simulation": {
+    "fidelity_gate": {
+      "exists": false
+    }
+  },
+  "counterfactual_packet": {
+    "assumptions_schema": {
+      "exists": false
+    },
+    "uncertainty_schema": {
+      "exists": false
+    },
+    "check_gate": {
+      "coverage": "none"
+    },
+    "official_action_claims": 0
+  },
+  "policy": {
+    "case_retention": {
+      "enforced": false
+    },
+    "right_to_forget_or_delete_path": {
+      "enforced": false
+    }
+  },
+  "case_artifacts": {
+    "source_class_coverage": "partial",
+    "outcome_lineage_coverage": "partial"
+  },
+  "corpus": {
+    "full_discovery": {
+      "status": "green"
+    }
+  },
+  "cross_city_learned_transfer": {
+    "enabled": false,
+    "approved": false
+  },
+  "investigation_agent": {
+    "approval_policy": {
+      "enforced": false
+    },
+    "autonomous_action": {
+      "enabled": false
+    },
+    "check_gate": {
+      "coverage": "none"
+    }
+  },
+  "federation": {
+    "transfer_manifest": {
+      "exists": false
+    },
+    "city_scoped_ids": {
+      "enforced": true
+    },
+    "source_class_separation": {
+      "enforced": true
+    }
+  }
+}

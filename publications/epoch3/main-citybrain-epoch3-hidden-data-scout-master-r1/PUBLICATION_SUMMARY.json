@@ -1,0 +1,16 @@
+{
+  "category": "scout",
+  "closeout_type": "hidden_data_scout",
+  "key": "E3_HIDDEN_DATA_SCOUT_MASTER_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "proof_artifacts": [
+    "E3_HIDDEN_DATA_SCOUT_MASTER_DECISION.json",
+    "E3_HIDDEN_DATA_SCOUT_LEDGER.json",
+    "E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_hidden_data_scout_master_r1",
+  "status": "PASS_E3_HIDDEN_DATA_SCOUT_MASTER_R1_WITH_LIMITATIONS",
+  "summary": "Hidden-data scout cataloged candidate inventories without training-fuel promotion."
+}

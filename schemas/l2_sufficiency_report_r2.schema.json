@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "L2SufficiencyReportR2",
+  "type": "object",
+  "required": [
+    "report_id",
+    "target_id",
+    "status",
+    "label_history_sufficient",
+    "eligible_history_rows_found",
+    "minimum_required_labeled_rows",
+    "model_allowed",
+    "label_counts"
+  ],
+  "properties": {
+    "report_id": {
+      "const": "E3_L2_R1_TARGET_SUFFICIENCY_REPORT_R2"
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "status": {
+      "enum": [
+        "PASS_LABEL_HISTORY_SUFFICIENT_NO_MODEL",
+        "PASS_INSUFFICIENT_LABEL_HISTORY_RECORDED"
+      ]
+    },
+    "label_history_sufficient": {
+      "type": "boolean"
+    },
+    "eligible_history_rows_found": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "minimum_required_labeled_rows": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "model_allowed": {
+      "const": false
+    },
+    "label_counts": {
+      "type": "object",
+      "required": [
+        "total",
+        "positive_stalled",
+        "negative_not_stalled"
+      ],
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positive_stalled": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "negative_not_stalled": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

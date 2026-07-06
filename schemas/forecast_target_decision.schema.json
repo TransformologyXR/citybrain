@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://citybrain.local/schemas/forecast_target_decision.schema.json",
+  "title": "ForecastTargetDecision",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "decision_id",
+    "status",
+    "forecast_target_id",
+    "forecast_target_name",
+    "target_horizon",
+    "training_or_prediction_enabled"
+  ],
+  "properties": {
+    "decision_id": {"type": "string"},
+    "status": {"type": "string"},
+    "forecast_target_id": {"type": "string"},
+    "forecast_target_name": {"type": "string"},
+    "target_horizon": {"type": "string"},
+    "training_or_prediction_enabled": {"type": "boolean"}
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "$id": "https://citybrain.local/schemas/calibration_report.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "report_id": {
+      "type": "string"
+    },
+    "sample_depth": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "slices": {
+      "items": {
+        "additionalProperties": true,
+        "properties": {
+          "counts": {
+            "type": "object"
+          },
+          "sample_depth": {
+            "type": "integer"
+          },
+          "slice_type": {
+            "type": "string"
+          },
+          "slice_value": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "slice_type",
+          "slice_value",
+          "sample_depth"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "source_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "status": {
+      "type": "string"
+    },
+    "true_calibration_claimed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "report_id",
+    "schema_version",
+    "status",
+    "true_calibration_claimed",
+    "sample_depth",
+    "source_refs",
+    "slices",
+    "limitations"
+  ],
+  "title": "CalibrationReport",
+  "type": "object"
+}

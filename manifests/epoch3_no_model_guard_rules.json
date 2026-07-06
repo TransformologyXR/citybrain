@@ -1,0 +1,29 @@
+{
+  "allowed_component_kinds_day1": [
+    "watch_family",
+    "schema",
+    "static_policy",
+    "report",
+    "harness_shell",
+    "validator"
+  ],
+  "forbidden_capability_ids": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "forbidden_components": [
+    "ranker",
+    "forecast_model",
+    "surrogate_model",
+    "counterfactual_learner",
+    "case_memory_learner",
+    "dynamic_investigation_agent",
+    "cross_city_learned_transfer"
+  ],
+  "learned_component_registry_new_entries_allowed": false
+}

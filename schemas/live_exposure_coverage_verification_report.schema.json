@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "coverage_passed": {
+      "type": "boolean"
+    },
+    "coverage_ratio": {
+      "type": "number"
+    },
+    "coverage_scope": {
+      "const": "per_run_envelope"
+    },
+    "exposure_events_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "id": {
+      "const": "E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT"
+    },
+    "operator_visible_payload_items_count": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "watch_run_envelope_ref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "watch_run_envelope_ref",
+    "operator_visible_payload_items_count",
+    "exposure_events_count",
+    "coverage_ratio",
+    "coverage_passed"
+  ],
+  "title": "LiveExposureCoverageVerificationReport",
+  "type": "object"
+}

@@ -1,0 +1,88 @@
+{
+  "checked_files": [
+    {
+      "bytes": 32402423,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_GOVERNED_LABEL_ROWS.jsonl"
+    },
+    {
+      "bytes": 1689,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_LABEL_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 802,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_PER_CITY_LABEL_STATS.json"
+    },
+    {
+      "bytes": 143133,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_TIME_STRATIFICATION_STATS.json"
+    },
+    {
+      "bytes": 407,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_BACKFILL_R2_TRANSITION_SEQUENCE_INTEGRITY_REPORT.json"
+    },
+    {
+      "bytes": 2719,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R1_BASELINE_BACKTEST_REPORT_CORRECTED_METRICS.json"
+    },
+    {
+      "bytes": 898,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 373,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_DECISION.json"
+    },
+    {
+      "bytes": 297,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 514,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_LIMITATIONS.json"
+    },
+    {
+      "bytes": 962,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_REPORT.json"
+    },
+    {
+      "bytes": 742,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_FORECAST_METRIC_SUCCESS_CRITERIA.json"
+    },
+    {
+      "bytes": 836,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_HUMAN_AUTHORITY_DECISION_ROW.template.json"
+    },
+    {
+      "bytes": 484,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 276,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json"
+    },
+    {
+      "bytes": 499,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l2_r2_forecast_authority_preflight_r1/E3_L2_R2_TRAINING_MANIFEST_REQUIREMENTS.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:46:39Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1"
+}

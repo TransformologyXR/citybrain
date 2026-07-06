@@ -1,0 +1,103 @@
+{
+  "checked_files": [
+    {
+      "bytes": 2005,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_ARMING_STATUS_R1_R2_UPDATE.json"
+    },
+    {
+      "bytes": 6004,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CALIBRATION_REPORT_HARDENING_REPORT.json"
+    },
+    {
+      "bytes": 328,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CHECK_TO_DISPOSITION_JOIN_REPORT.json"
+    },
+    {
+      "bytes": 1409,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT_R1_R2.json"
+    },
+    {
+      "bytes": 660,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 1788,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_DECISION.json"
+    },
+    {
+      "bytes": 771,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 701,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_L1_R1_R2_LIMITATIONS.json"
+    },
+    {
+      "bytes": 392,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_NO_MODEL_GUARD_REPORT.json"
+    },
+    {
+      "bytes": 2232,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_REPORT.json"
+    },
+    {
+      "bytes": 8024,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_RECORDS_VALIDATION_FIXTURE.jsonl"
+    },
+    {
+      "bytes": 1196,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_TRAINING_ELIGIBILITY_RULES_REPORT.json"
+    },
+    {
+      "bytes": 3356,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 1262,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/check_reports_mixed.json"
+    },
+    {
+      "bytes": 1407,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/disposition_events_mixed.jsonl"
+    },
+    {
+      "bytes": 393,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/expected_training_eligibility_counts.json"
+    },
+    {
+      "bytes": 2622,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/exposure_events_for_outcome_hardening.jsonl"
+    },
+    {
+      "bytes": 505,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/phase2_dependency_refs.json"
+    },
+    {
+      "bytes": 203,
+      "crlf_count": 0,
+      "path": "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/fixtures/zero_production_fuel_metrics.json"
+    }
+  ],
+  "created_at": "2026-07-06T16:44:48Z",
+  "crlf_paths": [],
+  "report_id": "LINE_ENDING_REPORT",
+  "status": "PASS_LF_STABLE_FOR_E3_L1_R1_R2_PUBLICATION"
+}

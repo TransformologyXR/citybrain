@@ -1,0 +1,11 @@
+{
+  "blockers": [],
+  "experiment_advancement_recommendation": "review_for_later_preflight",
+  "forecast_model_created": true,
+  "next_possible_step": "L2_R2_EXPERIMENT_REVIEW_OR_PRODUCT_AUTHORITY_PREFLIGHT_ONLY_IF_METRICS_SUPPORT",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-R2-OFFLINE-EXPERIMENTAL-FORECAST-R1",
+  "product_surface_created": false,
+  "release_authority_granted": false,
+  "same_run_release_started": false,
+  "status": "PASS_E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "scout",
+  "closeout_type": "final_nonlive_hidden_fuel_scout",
+  "key": "E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "proof_artifacts": [
+    "E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_DECISION.json",
+    "E3_FINAL_NONLIVE_HIDDEN_FUEL_LEDGER_ROW.json",
+    "E3_FINAL_NONLIVE_NO_MODEL_GUARD_REPORT.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1",
+  "status": "PASS_E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1_WITH_LIMITATIONS",
+  "summary": "Final non-live scout classified closeout-affecting findings versus Epoch 4 backlog and locked finality."
+}

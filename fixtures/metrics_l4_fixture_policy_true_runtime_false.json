@@ -1,0 +1,30 @@
+{
+  "case_artifacts": {
+    "outcome_lineage_coverage": "all_cases",
+    "source_class_coverage": "all_cases"
+  },
+  "corpus": {
+    "full_discovery": {
+      "status": "not_run"
+    }
+  },
+  "cross_city_learned_transfer": {
+    "enabled": false
+  },
+  "operator_data": {
+    "aggregation_floor": {
+      "policy_enforced": true,
+      "satisfied": true
+    }
+  },
+  "policy": {
+    "case_retention": {
+      "enforced": true,
+      "runtime_case_artifact_enforced": false
+    },
+    "right_to_forget_or_delete_path": {
+      "enforced": true,
+      "production_erasure_workflow": false
+    }
+  }
+}

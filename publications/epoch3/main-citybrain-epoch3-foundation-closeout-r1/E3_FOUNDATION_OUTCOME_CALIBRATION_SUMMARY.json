@@ -1,0 +1,14 @@
+{
+  "calibration_sample_depth": 0,
+  "calibration_status": "DESCRIPTIVE_ONLY_SAMPLE_DEPTH_TOO_LOW",
+  "fixture_eligible_if_production_records": 2,
+  "production_eligible_terminal_dispositions": 0,
+  "production_training_fuel_inflated_by_fixtures": false,
+  "report_id": "E3_FOUNDATION_OUTCOME_CALIBRATION_SUMMARY",
+  "source_refs": [
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_REPORT.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_CALIBRATION_REPORT_HARDENING_REPORT.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "true_calibration_claimed": false
+}

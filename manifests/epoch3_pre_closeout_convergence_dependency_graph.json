@@ -1,0 +1,16 @@
+{
+  "graph_id": "epoch3_pre_closeout_convergence_dependency_graph",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-PRE-CLOSEOUT-CONVERGENCE-R1",
+  "inputs": [
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT_R1_R2.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_RECORDS_VALIDATION_FIXTURE.jsonl"
+  ],
+  "outputs": [
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_SCHEDULED_WATCH_TICK_EXPOSURE_VERIFICATION_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_FULL_HISTORICAL_CORPUS_DISCOVERY_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_BACKTEST_HARNESS_REPORT.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_PRE_CLOSEOUT_CONVERGENCE_DECISION.json"
+  ]
+}

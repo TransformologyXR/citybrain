@@ -1,0 +1,860 @@
+{
+  "checked_files": [
+    {
+      "bytes": 110,
+      "crlf_count": 0,
+      "lf_count": 6,
+      "lf_only": true,
+      "path": ".gitattributes"
+    },
+    {
+      "bytes": 175,
+      "crlf_count": 0,
+      "lf_count": 9,
+      "lf_only": true,
+      "path": "fixtures/expected_failed_requirement_ids.json"
+    },
+    {
+      "bytes": 1162,
+      "crlf_count": 0,
+      "lf_count": 2,
+      "lf_only": true,
+      "path": "fixtures/exposure_log_sample.jsonl"
+    },
+    {
+      "bytes": 2747,
+      "crlf_count": 0,
+      "lf_count": 149,
+      "lf_only": true,
+      "path": "fixtures/metrics_day_one.json"
+    },
+    {
+      "bytes": 2817,
+      "crlf_count": 0,
+      "lf_count": 150,
+      "lf_only": true,
+      "path": "fixtures/metrics_fail_operator_diversity.json"
+    },
+    {
+      "bytes": 2833,
+      "crlf_count": 0,
+      "lf_count": 150,
+      "lf_only": true,
+      "path": "fixtures/metrics_fail_propensity_unknown.json"
+    },
+    {
+      "bytes": 599,
+      "crlf_count": 0,
+      "lf_count": 30,
+      "lf_only": true,
+      "path": "fixtures/metrics_l4_fixture_policy_true_runtime_false.json"
+    },
+    {
+      "bytes": 2880,
+      "crlf_count": 0,
+      "lf_count": 155,
+      "lf_only": true,
+      "path": "fixtures/metrics_pass_l1_r3a.json"
+    },
+    {
+      "bytes": 2877,
+      "crlf_count": 0,
+      "lf_count": 155,
+      "lf_only": true,
+      "path": "fixtures/metrics_pass_l1_r3b.json"
+    },
+    {
+      "bytes": 860,
+      "crlf_count": 0,
+      "lf_count": 51,
+      "lf_only": true,
+      "path": "fixtures/metrics_r3a_all_ready_except_full_corpus_not_green.json"
+    },
+    {
+      "bytes": 1563,
+      "crlf_count": 0,
+      "lf_count": 53,
+      "lf_only": true,
+      "path": "manifests/epoch3_arming_evaluator_spec.yaml"
+    },
+    {
+      "bytes": 13402,
+      "crlf_count": 0,
+      "lf_count": 453,
+      "lf_only": true,
+      "path": "manifests/epoch3_arming_manifest.json"
+    },
+    {
+      "bytes": 786,
+      "crlf_count": 0,
+      "lf_count": 23,
+      "lf_only": true,
+      "path": "manifests/epoch3_day1_allowed_capabilities.json"
+    },
+    {
+      "bytes": 573,
+      "crlf_count": 0,
+      "lf_count": 16,
+      "lf_only": true,
+      "path": "manifests/epoch3_day1_required_outputs.json"
+    },
+    {
+      "bytes": 276,
+      "crlf_count": 0,
+      "lf_count": 7,
+      "lf_only": true,
+      "path": "manifests/epoch3_foundation_closeout_acceptance_criteria_manifest.json"
+    },
+    {
+      "bytes": 652,
+      "crlf_count": 0,
+      "lf_count": 16,
+      "lf_only": true,
+      "path": "manifests/epoch3_foundation_closeout_dependency_graph.json"
+    },
+    {
+      "bytes": 422,
+      "crlf_count": 0,
+      "lf_count": 23,
+      "lf_only": true,
+      "path": "manifests/epoch3_foundation_closeout_work_plan_manifest.json"
+    },
+    {
+      "bytes": 381,
+      "crlf_count": 0,
+      "lf_count": 12,
+      "lf_only": true,
+      "path": "manifests/epoch3_l1_r1_r2_acceptance_criteria_manifest.json"
+    },
+    {
+      "bytes": 1219,
+      "crlf_count": 0,
+      "lf_count": 58,
+      "lf_only": true,
+      "path": "manifests/epoch3_l1_r1_r2_dependency_graph.json"
+    },
+    {
+      "bytes": 556,
+      "crlf_count": 0,
+      "lf_count": 18,
+      "lf_only": true,
+      "path": "manifests/epoch3_l1_r1_r2_work_plan_manifest.json"
+    },
+    {
+      "bytes": 1406,
+      "crlf_count": 0,
+      "lf_count": 37,
+      "lf_only": true,
+      "path": "manifests/epoch3_l2_historical_label_backfill_expected_outputs.json"
+    },
+    {
+      "bytes": 1650,
+      "crlf_count": 0,
+      "lf_count": 39,
+      "lf_only": true,
+      "path": "manifests/epoch3_l2_r2_forecast_authority_preflight_expected_outputs.json"
+    },
+    {
+      "bytes": 1347,
+      "crlf_count": 0,
+      "lf_count": 36,
+      "lf_only": true,
+      "path": "manifests/epoch3_l2_r2_offline_experimental_forecast_expected_outputs.json"
+    },
+    {
+      "bytes": 1136,
+      "crlf_count": 0,
+      "lf_count": 42,
+      "lf_only": true,
+      "path": "manifests/epoch3_master_execution_r1_package_tracks.json"
+    },
+    {
+      "bytes": 1872,
+      "crlf_count": 0,
+      "lf_count": 44,
+      "lf_only": true,
+      "path": "manifests/epoch3_master_execution_r1_required_output_artifacts.json"
+    },
+    {
+      "bytes": 694,
+      "crlf_count": 0,
+      "lf_count": 29,
+      "lf_only": true,
+      "path": "manifests/epoch3_no_model_guard_rules.json"
+    },
+    {
+      "bytes": 2086,
+      "crlf_count": 0,
+      "lf_count": 78,
+      "lf_only": true,
+      "path": "manifests/epoch3_phase2_acceptance_criteria_manifest.json"
+    },
+    {
+      "bytes": 1364,
+      "crlf_count": 0,
+      "lf_count": 52,
+      "lf_only": true,
+      "path": "manifests/epoch3_phase2_dependency_graph.json"
+    },
+    {
+      "bytes": 1399,
+      "crlf_count": 0,
+      "lf_count": 45,
+      "lf_only": true,
+      "path": "manifests/epoch3_phase2_work_plan_manifest.json"
+    },
+    {
+      "bytes": 928,
+      "crlf_count": 0,
+      "lf_count": 21,
+      "lf_only": true,
+      "path": "manifests/epoch3_pre_closeout_convergence_acceptance_criteria_manifest.json"
+    },
+    {
+      "bytes": 1003,
+      "crlf_count": 0,
+      "lf_count": 16,
+      "lf_only": true,
+      "path": "manifests/epoch3_pre_closeout_convergence_dependency_graph.json"
+    },
+    {
+      "bytes": 1079,
+      "crlf_count": 0,
+      "lf_count": 35,
+      "lf_only": true,
+      "path": "manifests/epoch3_pre_closeout_convergence_work_plan_manifest.json"
+    },
+    {
+      "bytes": 1209,
+      "crlf_count": 0,
+      "lf_count": 37,
+      "lf_only": true,
+      "path": "manifests/gate_ledger_row.template.json"
+    },
+    {
+      "bytes": 392,
+      "crlf_count": 0,
+      "lf_count": 13,
+      "lf_only": true,
+      "path": "manifests/hash_manifest.template.json"
+    },
+    {
+      "bytes": 613,
+      "crlf_count": 0,
+      "lf_count": 20,
+      "lf_only": true,
+      "path": "manifests/learned_component_registry_examples.json"
+    },
+    {
+      "bytes": 1377,
+      "crlf_count": 0,
+      "lf_count": 43,
+      "lf_only": true,
+      "path": "schemas/arming_manifest.schema.json"
+    },
+    {
+      "bytes": 682,
+      "crlf_count": 0,
+      "lf_count": 24,
+      "lf_only": true,
+      "path": "schemas/arming_readout.schema.json"
+    },
+    {
+      "bytes": 760,
+      "crlf_count": 0,
+      "lf_count": 17,
+      "lf_only": true,
+      "path": "schemas/arming_status_report.schema.json"
+    },
+    {
+      "bytes": 928,
+      "crlf_count": 0,
+      "lf_count": 42,
+      "lf_only": true,
+      "path": "schemas/backtest_harness_manifest.schema.json"
+    },
+    {
+      "bytes": 806,
+      "crlf_count": 0,
+      "lf_count": 27,
+      "lf_only": true,
+      "path": "schemas/backtest_report.schema.json"
+    },
+    {
+      "bytes": 588,
+      "crlf_count": 0,
+      "lf_count": 21,
+      "lf_only": true,
+      "path": "schemas/baseline_comparator.schema.json"
+    },
+    {
+      "bytes": 555,
+      "crlf_count": 0,
+      "lf_count": 14,
+      "lf_only": true,
+      "path": "schemas/baseline_report.schema.json"
+    },
+    {
+      "bytes": 1459,
+      "crlf_count": 0,
+      "lf_count": 73,
+      "lf_only": true,
+      "path": "schemas/calibration_report.schema.json"
+    },
+    {
+      "bytes": 711,
+      "crlf_count": 0,
+      "lf_count": 37,
+      "lf_only": true,
+      "path": "schemas/calibration_report_v2.schema.json"
+    },
+    {
+      "bytes": 495,
+      "crlf_count": 0,
+      "lf_count": 26,
+      "lf_only": true,
+      "path": "schemas/check_to_disposition_join_report.schema.json"
+    },
+    {
+      "bytes": 570,
+      "crlf_count": 0,
+      "lf_count": 29,
+      "lf_only": true,
+      "path": "schemas/corpus_delta.schema.json"
+    },
+    {
+      "bytes": 950,
+      "crlf_count": 0,
+      "lf_count": 46,
+      "lf_only": true,
+      "path": "schemas/corrected_metric_baseline_report.schema.json"
+    },
+    {
+      "bytes": 589,
+      "crlf_count": 0,
+      "lf_count": 23,
+      "lf_only": true,
+      "path": "schemas/counterfactual_example_packet.schema.json"
+    },
+    {
+      "bytes": 646,
+      "crlf_count": 0,
+      "lf_count": 36,
+      "lf_only": true,
+      "path": "schemas/disposition_event.schema.json"
+    },
+    {
+      "bytes": 1163,
+      "crlf_count": 0,
+      "lf_count": 50,
+      "lf_only": true,
+      "path": "schemas/e3_l2_r2_human_authority_decision_row.schema.json"
+    },
+    {
+      "bytes": 946,
+      "crlf_count": 0,
+      "lf_count": 44,
+      "lf_only": true,
+      "path": "schemas/experimental_forecast_eval_report.schema.json"
+    },
+    {
+      "bytes": 1061,
+      "crlf_count": 0,
+      "lf_count": 56,
+      "lf_only": true,
+      "path": "schemas/experimental_forecast_registry_entry.schema.json"
+    },
+    {
+      "bytes": 972,
+      "crlf_count": 0,
+      "lf_count": 44,
+      "lf_only": true,
+      "path": "schemas/exploration_floor_policy.schema.json"
+    },
+    {
+      "bytes": 2038,
+      "crlf_count": 0,
+      "lf_count": 95,
+      "lf_only": true,
+      "path": "schemas/exposure_event.schema.json"
+    },
+    {
+      "bytes": 1274,
+      "crlf_count": 0,
+      "lf_count": 33,
+      "lf_only": true,
+      "path": "schemas/exposure_log.schema.json"
+    },
+    {
+      "bytes": 2348,
+      "crlf_count": 0,
+      "lf_count": 126,
+      "lf_only": true,
+      "path": "schemas/exposure_log_event.schema.json"
+    },
+    {
+      "bytes": 670,
+      "crlf_count": 0,
+      "lf_count": 21,
+      "lf_only": true,
+      "path": "schemas/forecast_packet_check_gate_scaffold.schema.json"
+    },
+    {
+      "bytes": 691,
+      "crlf_count": 0,
+      "lf_count": 23,
+      "lf_only": true,
+      "path": "schemas/forecast_target_decision.schema.json"
+    },
+    {
+      "bytes": 536,
+      "crlf_count": 0,
+      "lf_count": 19,
+      "lf_only": true,
+      "path": "schemas/forecast_uncertainty.schema.json"
+    },
+    {
+      "bytes": 876,
+      "crlf_count": 0,
+      "lf_count": 41,
+      "lf_only": true,
+      "path": "schemas/forward_accumulation_plan.schema.json"
+    },
+    {
+      "bytes": 865,
+      "crlf_count": 0,
+      "lf_count": 25,
+      "lf_only": true,
+      "path": "schemas/foundation_arming_status.schema.json"
+    },
+    {
+      "bytes": 867,
+      "crlf_count": 0,
+      "lf_count": 25,
+      "lf_only": true,
+      "path": "schemas/foundation_closeout_decision.schema.json"
+    },
+    {
+      "bytes": 703,
+      "crlf_count": 0,
+      "lf_count": 23,
+      "lf_only": true,
+      "path": "schemas/foundation_ledger_row.schema.json"
+    },
+    {
+      "bytes": 479,
+      "crlf_count": 0,
+      "lf_count": 17,
+      "lf_only": true,
+      "path": "schemas/foundation_report_base.schema.json"
+    },
+    {
+      "bytes": 746,
+      "crlf_count": 0,
+      "lf_count": 25,
+      "lf_only": true,
+      "path": "schemas/frozen_eval_slice_contract.schema.json"
+    },
+    {
+      "bytes": 647,
+      "crlf_count": 0,
+      "lf_count": 36,
+      "lf_only": true,
+      "path": "schemas/fuel_gauge_delta_snapshot.schema.json"
+    },
+    {
+      "bytes": 503,
+      "crlf_count": 0,
+      "lf_count": 17,
+      "lf_only": true,
+      "path": "schemas/fuel_generation_protocol.schema.json"
+    },
+    {
+      "bytes": 1160,
+      "crlf_count": 0,
+      "lf_count": 36,
+      "lf_only": true,
+      "path": "schemas/full_historical_corpus_discovery_report.schema.json"
+    },
+    {
+      "bytes": 2160,
+      "crlf_count": 0,
+      "lf_count": 108,
+      "lf_only": true,
+      "path": "schemas/governed_historical_label_row.schema.json"
+    },
+    {
+      "bytes": 1078,
+      "crlf_count": 0,
+      "lf_count": 54,
+      "lf_only": true,
+      "path": "schemas/historical_label_backfill_manifest.schema.json"
+    },
+    {
+      "bytes": 1855,
+      "crlf_count": 0,
+      "lf_count": 87,
+      "lf_only": true,
+      "path": "schemas/historical_transition_discovery_report.schema.json"
+    },
+    {
+      "bytes": 482,
+      "crlf_count": 0,
+      "lf_count": 25,
+      "lf_only": true,
+      "path": "schemas/holdout_rationale.schema.json"
+    },
+    {
+      "bytes": 1023,
+      "crlf_count": 0,
+      "lf_count": 53,
+      "lf_only": true,
+      "path": "schemas/human_authority_decision_row.schema.json"
+    },
+    {
+      "bytes": 549,
+      "crlf_count": 0,
+      "lf_count": 32,
+      "lf_only": true,
+      "path": "schemas/l1_r1_r2_decision.schema.json"
+    },
+    {
+      "bytes": 1396,
+      "crlf_count": 0,
+      "lf_count": 65,
+      "lf_only": true,
+      "path": "schemas/l2_sufficiency_report_r2.schema.json"
+    },
+    {
+      "bytes": 770,
+      "crlf_count": 0,
+      "lf_count": 38,
+      "lf_only": true,
+      "path": "schemas/l2r2_experiment_training_manifest.schema.json"
+    },
+    {
+      "bytes": 633,
+      "crlf_count": 0,
+      "lf_count": 21,
+      "lf_only": true,
+      "path": "schemas/l4_erasure_metric_split.schema.json"
+    },
+    {
+      "bytes": 921,
+      "crlf_count": 0,
+      "lf_count": 18,
+      "lf_only": true,
+      "path": "schemas/learned_component_registry_entry.schema.json"
+    },
+    {
+      "bytes": 897,
+      "crlf_count": 0,
+      "lf_count": 20,
+      "lf_only": true,
+      "path": "schemas/ledger_row.schema.json"
+    },
+    {
+      "bytes": 835,
+      "crlf_count": 0,
+      "lf_count": 38,
+      "lf_only": true,
+      "path": "schemas/live_exposure_coverage_verification_report.schema.json"
+    },
+    {
+      "bytes": 471,
+      "crlf_count": 0,
+      "lf_count": 28,
+      "lf_only": true,
+      "path": "schemas/no_model_guard.schema.json"
+    },
+    {
+      "bytes": 2155,
+      "crlf_count": 0,
+      "lf_count": 112,
+      "lf_only": true,
+      "path": "schemas/outcome_ledger_event.schema.json"
+    },
+    {
+      "bytes": 3166,
+      "crlf_count": 0,
+      "lf_count": 159,
+      "lf_only": true,
+      "path": "schemas/outcome_record.schema.json"
+    },
+    {
+      "bytes": 696,
+      "crlf_count": 0,
+      "lf_count": 21,
+      "lf_only": true,
+      "path": "schemas/permit_stall_label_definition.schema.json"
+    },
+    {
+      "bytes": 1929,
+      "crlf_count": 0,
+      "lf_count": 104,
+      "lf_only": true,
+      "path": "schemas/permit_stall_label_row_r2.schema.json"
+    },
+    {
+      "bytes": 576,
+      "crlf_count": 0,
+      "lf_count": 29,
+      "lf_only": true,
+      "path": "schemas/phase2_decision.schema.json"
+    },
+    {
+      "bytes": 739,
+      "crlf_count": 0,
+      "lf_count": 23,
+      "lf_only": true,
+      "path": "schemas/pre_closeout_convergence_decision.schema.json"
+    },
+    {
+      "bytes": 771,
+      "crlf_count": 0,
+      "lf_count": 37,
+      "lf_only": true,
+      "path": "schemas/scheduled_tick_exposure_verification_row.schema.json"
+    },
+    {
+      "bytes": 912,
+      "crlf_count": 0,
+      "lf_count": 26,
+      "lf_only": true,
+      "path": "schemas/scheduled_watch_tick_exposure_verification.schema.json"
+    },
+    {
+      "bytes": 926,
+      "crlf_count": 0,
+      "lf_count": 37,
+      "lf_only": true,
+      "path": "schemas/surfaced_impression_definition_row.schema.json"
+    },
+    {
+      "bytes": 494,
+      "crlf_count": 0,
+      "lf_count": 14,
+      "lf_only": true,
+      "path": "schemas/threshold.schema.json"
+    },
+    {
+      "bytes": 1896,
+      "crlf_count": 0,
+      "lf_count": 71,
+      "lf_only": true,
+      "path": "schemas/training_eligibility.schema.json"
+    },
+    {
+      "bytes": 883,
+      "crlf_count": 0,
+      "lf_count": 42,
+      "lf_only": true,
+      "path": "schemas/transition_sequence_integrity_report.schema.json"
+    },
+    {
+      "bytes": 704,
+      "crlf_count": 0,
+      "lf_count": 36,
+      "lf_only": true,
+      "path": "schemas/watch_service_coverage_criterion_delta_row.schema.json"
+    },
+    {
+      "bytes": 8010,
+      "crlf_count": 0,
+      "lf_count": 227,
+      "lf_only": true,
+      "path": "scripts/evaluate_arming_status.py"
+    },
+    {
+      "bytes": 921,
+      "crlf_count": 0,
+      "lf_count": 59,
+      "lf_only": true,
+      "path": "specs/arming_semantics.md"
+    },
+    {
+      "bytes": 2756,
+      "crlf_count": 0,
+      "lf_count": 111,
+      "lf_only": true,
+      "path": "specs/e3_entry_gate_spec.md"
+    },
+    {
+      "bytes": 1177,
+      "crlf_count": 0,
+      "lf_count": 33,
+      "lf_only": true,
+      "path": "specs/exploration_floor_spec.md"
+    },
+    {
+      "bytes": 1077,
+      "crlf_count": 0,
+      "lf_count": 63,
+      "lf_only": true,
+      "path": "specs/exposure_propensity_logging.md"
+    },
+    {
+      "bytes": 727,
+      "crlf_count": 0,
+      "lf_count": 53,
+      "lf_only": true,
+      "path": "specs/ledger_publication_spec.md"
+    },
+    {
+      "bytes": 636,
+      "crlf_count": 0,
+      "lf_count": 34,
+      "lf_only": true,
+      "path": "specs/loop_numbering_crosswalk.md"
+    },
+    {
+      "bytes": 1004,
+      "crlf_count": 0,
+      "lf_count": 60,
+      "lf_only": true,
+      "path": "specs/machine_evaluable_thresholds.md"
+    },
+    {
+      "bytes": 53099,
+      "crlf_count": 0,
+      "lf_count": 1066,
+      "lf_only": true,
+      "path": "scripts/run_epoch3_entry_gate_r1_fuel_gauge.py"
+    },
+    {
+      "bytes": 14593,
+      "crlf_count": 0,
+      "lf_count": 255,
+      "lf_only": true,
+      "path": "tests/test_epoch3_entry_gate_r1_fuel_gauge.py"
+    },
+    {
+      "bytes": 4882,
+      "crlf_count": 0,
+      "lf_count": 106,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ENTRY_GATE_DECISION.json"
+    },
+    {
+      "bytes": 19473,
+      "crlf_count": 0,
+      "lf_count": 679,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_STATUS_REPORT.json"
+    },
+    {
+      "bytes": 3337,
+      "crlf_count": 0,
+      "lf_count": 64,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_FUEL_GAUGE_BASELINE_REPORT.md"
+    },
+    {
+      "bytes": 8531,
+      "crlf_count": 0,
+      "lf_count": 245,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_BASELINE_METRICS.json"
+    },
+    {
+      "bytes": 2302,
+      "crlf_count": 0,
+      "lf_count": 57,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json"
+    },
+    {
+      "bytes": 4998,
+      "crlf_count": 0,
+      "lf_count": 73,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_METRICS_RECONCILIATION_REPORT.json"
+    },
+    {
+      "bytes": 1048,
+      "crlf_count": 0,
+      "lf_count": 17,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_POLICY_AND_AGGREGATION_RECONCILIATION_ROW.json"
+    },
+    {
+      "bytes": 1305,
+      "crlf_count": 0,
+      "lf_count": 25,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_CORPUS_SCOPE_RECONCILIATION_ROW.json"
+    },
+    {
+      "bytes": 2599,
+      "crlf_count": 0,
+      "lf_count": 77,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json"
+    },
+    {
+      "bytes": 880,
+      "crlf_count": 0,
+      "lf_count": 28,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_TRACK0_FULL_HISTORICAL_CORPUS_DISCOVERY_DEBT_ROW.json"
+    },
+    {
+      "bytes": 20031,
+      "crlf_count": 0,
+      "lf_count": 825,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_HASH_LINE_ENDING_STABILITY_REPORT.json"
+    },
+    {
+      "bytes": 19632,
+      "crlf_count": 0,
+      "lf_count": 686,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/e3_arming_status_day_one_smoke.json"
+    },
+    {
+      "bytes": 19473,
+      "crlf_count": 0,
+      "lf_count": 679,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/e3_arming_status_reconciled_baseline_smoke.json"
+    },
+    {
+      "bytes": 1778,
+      "crlf_count": 0,
+      "lf_count": 45,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_GATE_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 645,
+      "crlf_count": 0,
+      "lf_count": 18,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_THRESHOLD_CROSSING_SAMPLE.json"
+    },
+    {
+      "bytes": 902,
+      "crlf_count": 0,
+      "lf_count": 29,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_LEARNED_COMPONENT_REGISTRY_EXPERIMENTAL_EXAMPLES.json"
+    },
+    {
+      "bytes": 2867,
+      "crlf_count": 0,
+      "lf_count": 62,
+      "lf_only": true,
+      "path": "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_LIMITATIONS.json"
+    }
+  ],
+  "commit_performed": false,
+  "core_autocrlf": "true",
+  "created_at": "2026-07-06T16:44:48Z",
+  "crlf_paths": [],
+  "gitattributes_present": true,
+  "hash_manifest_rebuilt_after_publication": true,
+  "normalization_scope": "E3 entry-gate publication files and package-level static refs only.",
+  "schema_version": "citybrain.epoch3.entry_gate.hash_line_ending_stability.v1",
+  "status": "PASS_LF_STABLE_FOR_E3_PUBLICATION"
+}

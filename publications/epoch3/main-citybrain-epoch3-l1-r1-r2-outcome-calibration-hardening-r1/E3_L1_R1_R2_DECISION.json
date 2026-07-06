@@ -1,0 +1,35 @@
+{
+  "armed_now": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "blockers": [],
+  "notes": "Outcome and calibration hardening only; no models.",
+  "source_dependency_status": "PASS",
+  "source_refs": [
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SURFACED_IMPRESSION_DEFINITION_ROW.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_LIVE_EXPOSURE_COVERAGE_VERIFICATION_REPORT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_WATCH_SERVICE_COVERAGE_CRITERION_DELTA_ROW.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_NO_MODEL_GUARD_REPORT.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_E2_2_EXIT_LABEL_FUEL_RECONCILIATION_ROW.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_REQUIREMENT_AUDIT_REPORT.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_TRACK0_FULL_HISTORICAL_CORPUS_DISCOVERY_DEBT_ROW.json"
+  ],
+  "status": "PASS_E3_L1_R1_R2_OUTCOME_CALIBRATION_HARDENING_R1_WITH_LIMITATIONS",
+  "still_blocked": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "task_id": "MAIN-CITYBRAIN-EPOCH3-L1-R1-R2-OUTCOME-CALIBRATION-HARDENING-R1"
+}

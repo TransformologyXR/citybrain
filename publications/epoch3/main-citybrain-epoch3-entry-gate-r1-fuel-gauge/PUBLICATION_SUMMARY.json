@@ -1,0 +1,16 @@
+{
+  "category": "entry_gate",
+  "closeout_type": "foundation_gate",
+  "key": "E3_ENTRY_GATE_R1",
+  "missing_proof_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "proof_artifacts": [
+    "E3_ENTRY_GATE_DECISION.json",
+    "E3_GATE_LEDGER_ROW.json",
+    "E3_LIMITATIONS.json"
+  ],
+  "published_at": "2026-07-06T18:37:51Z",
+  "source_root": "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+  "status": "PASS_E3_ENTRY_FOR_DESCRIPTIVE_AND_HARNESS_WORK_WITH_LIMITATIONS",
+  "summary": "Entry gate fuel gauge established arming thresholds and no-model boundaries."
+}

@@ -1,0 +1,8 @@
+{
+  "blockers": [],
+  "forecast_model_created": false,
+  "mid_run_arming_rule": "ledger_row_only_no_forecast_model_start_in_same_run",
+  "status": "PASS_E3_L2_HISTORICAL_LABEL_BACKFILL_R1_WITH_LIMITATIONS",
+  "sub_status": "PASS_TRANSITION_HISTORY_MATERIALIZED_NO_MODEL_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-EPOCH3-L2-HISTORICAL-LABEL-BACKFILL-R1"
+}

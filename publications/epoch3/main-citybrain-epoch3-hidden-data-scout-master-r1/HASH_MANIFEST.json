@@ -1,0 +1,83 @@
+{
+  "artifact_root": "outputs/epoch3_hidden_data_scout_master_r1",
+  "created_at": "2026-07-06T17:36:02Z",
+  "files": [
+    {
+      "bytes": 238238,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_ARTIFACT_ROOT_INVENTORY.json",
+      "sha256": "9363713842e66300a9f789b55c0ee477cc89e2d3dae186d91fb77d222a9c81f8"
+    },
+    {
+      "bytes": 55936,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_CHECK_CALIBRATION_FUEL_SCOUT_REPORT.json",
+      "sha256": "b40f57cec34eed18dce33ba5bb9fbc298b4a6b667ceb843bb1de1acc000fd6a1"
+    },
+    {
+      "bytes": 78429,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_GLOBAL_HIDDEN_DATA_BACKLOG.json",
+      "sha256": "6321e4ac018abff1d6f08e1fb62cf98839447f7f3f1cec9356faca78dbda94b1"
+    },
+    {
+      "bytes": 850,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_CORPUS_DELTA.json",
+      "sha256": "c754ae59c1d84755f80049a38f3bb66c0e78ab1bad2b97d92fd7472be0d95267"
+    },
+    {
+      "bytes": 904,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LEDGER.json",
+      "sha256": "8e9bdda168e8b34837d963e1e68e6a266ddde8576dc207e086a9b22746078972"
+    },
+    {
+      "bytes": 647,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_LIMITATIONS.json",
+      "sha256": "c508beeb5cc9f27c1ab47b562b05149735639729837a4809f0bc1414c9bbd3ba"
+    },
+    {
+      "bytes": 2219,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_MASTER_DECISION.json",
+      "sha256": "8e553e26c62cb0292807a448ad883fd69128b05099f0d8a857b2a708ee84f5b1"
+    },
+    {
+      "bytes": 893,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_DATA_SCOUT_NO_MODEL_GUARD_REPORT.json",
+      "sha256": "f90a025872ee1be43a93908dfd68dd84f7300f37dabec249b45af8fc3466bf77"
+    },
+    {
+      "bytes": 34870,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_TRANSITION_TARGET_CATALOG.json",
+      "sha256": "003d2d9d1202ab313ac789121e3734963403a21f42f1a68f0bf7b6f6a30a452c"
+    },
+    {
+      "bytes": 963,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_HIDDEN_TRANSITION_TARGET_SCOUT_REPORT.json",
+      "sha256": "e7a1f5b83fb7dc5ee6b0fabccff0c0e6cde5f7b93942098fe6801e85456d14c6"
+    },
+    {
+      "bytes": 30372,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_IDENTITY_GRAPH_EVAL_FUEL_SCOUT_REPORT.json",
+      "sha256": "8292deecbac6e89a991c1293c52c1ab0c07923fc296a4694da2b0bf99af30733"
+    },
+    {
+      "bytes": 31149,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_L4_CASE_MEMORY_FUEL_SCOUT_REPORT.json",
+      "sha256": "ad412e12c50d560559d6187b0f1f828a0631c4c0bd3099d737a7bb15f0ed9d3a"
+    },
+    {
+      "bytes": 32080,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/E3_LLM_PERCEPTION_USEFULNESS_SCOUT_REPORT.json",
+      "sha256": "c9122f696794b62182ae1b0445dedb91055eddc41d557e5fd9a55e62b8604cdd"
+    },
+    {
+      "bytes": 2427,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/LINE_ENDING_REPORT.json",
+      "sha256": "f5ffbe8c8c319148cb672f8c04c8effa6b2b350de5da201dc86945be095cfbd4"
+    },
+    {
+      "bytes": 447,
+      "path": "outputs/epoch3_hidden_data_scout_master_r1/README.md",
+      "sha256": "b1e06f9016c5b9f4ed7fbf88c1b0c0cbac4a78ab2dee71af34dcd464fa5fe4bd"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "schema_version": "citybrain.hash_manifest.v1"
+}

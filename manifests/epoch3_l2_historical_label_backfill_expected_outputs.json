@@ -1,0 +1,37 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-L2-HISTORICAL-LABEL-BACKFILL-R1",
+  "expected_closeout_status": "PASS_E3_L2_HISTORICAL_LABEL_BACKFILL_R1_WITH_LIMITATIONS",
+  "required_artifacts": [
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_DECISION.json",
+    "E3_L2_HISTORICAL_TRANSITION_DISCOVERY_REPORT.json",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_MANIFEST.json",
+    "E3_L2_R1_TARGET_SUFFICIENCY_REPORT_R2.json",
+    "E3_L2_L2R2_ARMING_READOUT.json",
+    "E3_NO_MODEL_GUARD_REPORT.json",
+    "E3_L2_SOURCE_CLASS_NO_FABRICATION_AUDIT.json",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_LIMITATIONS.json",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_CORPUS_DELTA.json",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_LEDGER_ROW.json",
+    "HASH_MANIFEST.json",
+    "LINE_ENDING_REPORT.json"
+  ],
+  "transition_history_branch_artifacts": [
+    "E3_L2_GOVERNED_HISTORICAL_LABEL_ROWS.jsonl",
+    "E3_L2_R1_BASELINE_BACKTEST_REPORT_R2.json"
+  ],
+  "snapshot_only_branch_artifacts": [
+    "E3_L2_SNAPSHOT_ONLY_FORWARD_ACCUMULATION_PLAN.json",
+    "E3_L2_HISTORICAL_LABEL_INSUFFICIENCY_ROW.json"
+  ],
+  "non_goals": [
+    "No forecast model",
+    "No learned predictor",
+    "No ranker",
+    "No operator-facing learned ranking",
+    "No counterfactual learner",
+    "No case-memory learner",
+    "No dynamic investigation",
+    "No cross-city learned transfer"
+  ],
+  "mid_run_arming_rule": "ledger_row_only_no_forecast_model_start_in_same_run"
+}

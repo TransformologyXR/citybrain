@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "as_of_date": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "derived_from_source_refs": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "entity_ref": {
+      "type": "string"
+    },
+    "label": {
+      "enum": [
+        "stalled",
+        "not_stalled",
+        "censored"
+      ]
+    },
+    "label_bool": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "label_row_id": {
+      "type": "string"
+    },
+    "lineage_complete": {
+      "const": true
+    },
+    "model_allowed": {
+      "const": false
+    },
+    "observation_window_end": {
+      "type": "string"
+    },
+    "observation_window_start": {
+      "type": "string"
+    },
+    "source_class": {
+      "const": "derived_field"
+    },
+    "source_system": {
+      "type": "string"
+    },
+    "stall_threshold_days": {
+      "const": 60
+    },
+    "target_id": {
+      "const": "permit_stall_v0"
+    },
+    "temporal_split": {
+      "enum": [
+        "train_reference",
+        "eval",
+        "holdout",
+        "excluded"
+      ]
+    },
+    "terminal_outcome": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "training_allowed": {
+      "type": "boolean"
+    },
+    "transition_sequence_ref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "label_row_id",
+    "target_id",
+    "city",
+    "source_system",
+    "entity_ref",
+    "transition_sequence_ref",
+    "observation_window_start",
+    "observation_window_end",
+    "as_of_date",
+    "label",
+    "label_bool",
+    "stall_threshold_days",
+    "source_class",
+    "derived_from_source_refs",
+    "lineage_complete",
+    "temporal_split",
+    "training_allowed",
+    "model_allowed"
+  ],
+  "title": "PermitStallGovernedLabelRowR2",
+  "type": "object"
+}

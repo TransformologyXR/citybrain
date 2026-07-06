@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "deterministic_priority_tier": {
+      "type": [
+        "string",
+        "integer",
+        "null"
+      ]
+    },
+    "disposition_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exploration_bucket": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exposure_id": {
+      "type": "string"
+    },
+    "family_cap_state": {
+      "type": "object"
+    },
+    "holdout_family_flag": {
+      "type": "boolean"
+    },
+    "operator_ref": {
+      "type": "string"
+    },
+    "operator_throttle_state": {
+      "type": "object"
+    },
+    "propensity": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "propensity_status": {
+      "enum": [
+        "known",
+        "propensity_unknown",
+        "unknown",
+        "not_applicable"
+      ],
+      "type": "string"
+    },
+    "ranker_component_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ranker_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "selected_item_context_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "surface_policy": {
+      "enum": [
+        "deterministic_static",
+        "exploration_floor",
+        "holdout",
+        "manual_selected"
+      ],
+      "type": "string"
+    },
+    "surface_reason": {
+      "type": "string"
+    },
+    "surface_reason_code": {
+      "type": "string"
+    },
+    "surfaced_at": {
+      "type": "string"
+    },
+    "training_eligibility": {
+      "type": "object"
+    },
+    "watch_item_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "exposure_id",
+    "watch_item_id",
+    "operator_ref",
+    "surfaced_at",
+    "surface_policy",
+    "surface_reason",
+    "surface_reason_code",
+    "deterministic_priority_tier",
+    "family_cap_state",
+    "operator_throttle_state",
+    "exploration_bucket",
+    "holdout_family_flag",
+    "ranker_component_id",
+    "ranker_score",
+    "propensity",
+    "propensity_status",
+    "selected_item_context_ref",
+    "disposition_ref",
+    "source_class",
+    "training_eligibility"
+  ],
+  "title": "ExposureLogEvent",
+  "type": "object"
+}

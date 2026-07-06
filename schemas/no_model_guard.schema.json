@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "id": {
+      "const": "E3_NO_MODEL_GUARD_REPORT"
+    },
+    "pre_r3a_invariant": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "violations": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "pre_r3a_invariant",
+    "violations"
+  ],
+  "title": "NoModelGuardReport",
+  "type": "object"
+}

@@ -1,0 +1,29 @@
+{
+  "check_coverage_requirements": [
+    "every propagation rule has a CHECK gate",
+    "every packet carries assumptions and uncertainty refs",
+    "review-only no-action boundary asserted"
+  ],
+  "decision_id": "E3_Q3_PROPAGATION_RULE_OWNERSHIP_DECISION",
+  "edge_evidence_requirements": {
+    "dependency_edge": [
+      "source_ref",
+      "review_state",
+      "confidence_or_limitation_ref"
+    ],
+    "spatial_adjacency_edge": [
+      "geometry_or_topology_ref",
+      "scope_ref",
+      "limitation_ref"
+    ],
+    "workflow_transition_edge": [
+      "state_before",
+      "state_after",
+      "operator_or_replay_ref"
+    ]
+  },
+  "review_state_policy": "counterfactual packets may remain review_only unless a later gate promotes them",
+  "rule_authorship_owner": "Semantic Graph v2 governance owner with CHECK gate reviewer",
+  "semantic_graph_v2_substrate_ref": "Semantic Graph v2 dependency-edge substrate",
+  "status": "PUBLISHED"
+}

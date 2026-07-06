@@ -1,0 +1,28 @@
+{
+  "artifact_id": "E3_FORECAST_RESULT_FRAMING_ROW",
+  "average_precision": {
+    "baseline_proxy": 0.107386,
+    "improvement_factor": 1.786,
+    "interpretation": "real_offline_improvement",
+    "model": 0.191775
+  },
+  "brier": {
+    "baseline": 0.101772,
+    "improved": true,
+    "model": 0.092531
+  },
+  "headline": "pipeline_validated_model_not_deployable",
+  "operator_facing_forecast_armed": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "pipeline_validated": true,
+  "product_surface_armed": false,
+  "recall_at_fixed_precision": {
+    "precision_0_50": 0.017413,
+    "precision_0_70": 0.00995
+  },
+  "recall_at_fixed_precision_limitation": "weak",
+  "source_eval_report": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_EXPERIMENTAL_FORECAST_EVAL_REPORT.json",
+  "specific_r1_model_deployable": false,
+  "status": "ACCEPTED_LIMITED_RESULT",
+  "temporal_leakage_audit": "PASS"
+}

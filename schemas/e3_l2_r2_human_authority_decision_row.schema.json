@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "allowed_component_kind": {
+      "const": "forecast_model"
+    },
+    "allowed_consuming_surfaces": {
+      "maxItems": 0,
+      "type": "array"
+    },
+    "allowed_status": {
+      "const": "experimental"
+    },
+    "approval_date": {
+      "type": "string"
+    },
+    "approved_by": {
+      "const": "USER_EXPLICIT_CHAT_APPROVAL"
+    },
+    "codex_granted_authority": {
+      "const": false
+    },
+    "decision": {
+      "const": "APPROVED_OFFLINE_EXPERIMENT_ONLY"
+    },
+    "operator_surface_authority_granted": {
+      "const": false
+    },
+    "package_id": {
+      "const": "MAIN-CITYBRAIN-EPOCH3-L2-R2-OFFLINE-EXPERIMENTAL-FORECAST-R1"
+    },
+    "release_authority_granted": {
+      "const": false
+    }
+  },
+  "required": [
+    "package_id",
+    "decision",
+    "approved_by",
+    "approval_date",
+    "codex_granted_authority",
+    "release_authority_granted",
+    "operator_surface_authority_granted",
+    "allowed_component_kind",
+    "allowed_status",
+    "allowed_consuming_surfaces"
+  ],
+  "title": "E3 L2R2 Human Authority Decision Row",
+  "type": "object"
+}

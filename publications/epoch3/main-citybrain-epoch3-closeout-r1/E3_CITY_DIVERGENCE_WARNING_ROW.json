@@ -1,0 +1,14 @@
+{
+  "artifact_id": "E3_CITY_DIVERGENCE_WARNING_ROW",
+  "cross_city_learned_transfer_status": "parked",
+  "epoch4_requirement": "city_stratified_l2_forecast_improvement",
+  "interpretation": "London/NYC label rates and performance diverge sharply; pooled/product claims are unsafe.",
+  "london_average_precision": 0.445352,
+  "london_stall_rate": 0.44837,
+  "nyc_average_precision": 0.099258,
+  "nyc_stall_rate": 0.08976,
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "source_city_report": "outputs/epoch3_l2_r2_offline_experimental_forecast_r1/E3_L2_R2_CITY_STRATIFIED_EVAL_REPORT.json",
+  "status": "WARNING",
+  "supports_cross_city_learned_transfer_parking": true
+}
