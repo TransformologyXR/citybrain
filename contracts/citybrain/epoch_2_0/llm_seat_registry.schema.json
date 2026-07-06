@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": true,
+    "properties": {
+      "status": {
+        "enum": [
+          "disabled",
+          "offline_eval",
+          "proposal_only",
+          "writer_only",
+          "live_guarded"
+        ]
+      }
+    },
+    "required": [
+      "seat_id",
+      "purpose",
+      "status",
+      "allowed_input_packets",
+      "required_output_schema",
+      "forbidden_outputs",
+      "deterministic_fallback",
+      "model_ref_optional",
+      "prompt_template_ref",
+      "evaluation_refs",
+      "limitations"
+    ],
+    "title": "LLMSeatV1",
+    "type": "object"
+  },
+  "title": "LLMSeatRegistryV1",
+  "type": "array"
+}

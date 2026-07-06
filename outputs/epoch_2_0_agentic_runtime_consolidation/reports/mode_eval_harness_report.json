@@ -1,0 +1,165 @@
+{
+  "active_mode_count": 17,
+  "declared_not_active_count": 0,
+  "limitations": [
+    "fixture-slot and acceptance-gate setup only",
+    "not full model scoring"
+  ],
+  "schema_version": "citybrain.epoch_2_0.mode_eval_harness_report.v1",
+  "slots": [
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "packages/ask_v11"
+      ],
+      "mode_id": "ASK",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push2_lane_b_watch_scout_v1"
+      ],
+      "mode_id": "WATCH",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push4_lane_c_check_v1"
+      ],
+      "mode_id": "CHECK",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push3_lane_a_brief_v2_flow1_packaging"
+      ],
+      "mode_id": "BRIEF",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push3_lane_c_diff_recall_readonly"
+      ],
+      "mode_id": "DIFF",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push3_lane_c_diff_recall_readonly"
+      ],
+      "mode_id": "RECALL",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push5_lane_a_spatial_ui_ux"
+      ],
+      "mode_id": "SPATIAL",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push5_lane_b_perception_media_evidence"
+      ],
+      "mode_id": "PERCEPTION",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push5_lane_c_watch_workflow_state"
+      ],
+      "mode_id": "WORKFLOW",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push2_lane_c_app_review_route"
+      ],
+      "mode_id": "EVENT",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push6_lane_b_plan_mode"
+      ],
+      "mode_id": "PLAN",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push6_lane_c_schedule_simulate"
+      ],
+      "mode_id": "SCHEDULE",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push6_lane_c_schedule_simulate"
+      ],
+      "mode_id": "SIMULATE",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/epoch1_closedown_certified_baseline"
+      ],
+      "mode_id": "QUALITY",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push7_lane_a_federation_data_maturity"
+      ],
+      "mode_id": "FEDERATION",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/push7_lane_a_federation_data_maturity"
+      ],
+      "mode_id": "SYNTHETIC",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    },
+    {
+      "acceptance_gate": "PASS",
+      "fixture_refs": [
+        "outputs/epoch1_closedown_certified_baseline"
+      ],
+      "mode_id": "GOVERN",
+      "notes": "fixture slot only; no learned scoring",
+      "status": "active"
+    }
+  ],
+  "status": "PASS"
+}

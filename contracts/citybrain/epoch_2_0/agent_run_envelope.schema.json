@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "status": {
+      "enum": [
+        "emitted",
+        "clarify",
+        "refused",
+        "blocked",
+        "failed",
+        "partial_budget_exhausted",
+        "not_activated"
+      ]
+    }
+  },
+  "required": [
+    "run_id",
+    "schema_version",
+    "component_id",
+    "component_version",
+    "trigger",
+    "scope",
+    "inputs",
+    "tools_used",
+    "outputs",
+    "status",
+    "authority_level",
+    "check_report_refs",
+    "evidence_refs",
+    "trace_refs",
+    "budget",
+    "stop_condition_hit",
+    "started_at",
+    "ended_at",
+    "duration_ms",
+    "limitations",
+    "next_lane"
+  ],
+  "title": "AgentRunEnvelopeV1",
+  "type": "object"
+}

@@ -1,0 +1,6 @@
+{
+  "max_llm_calls_for_tests": 0,
+  "policy_count": 4,
+  "schema_version": "citybrain.epoch_2_0.budget_stop_policy_audit.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "modes": [
+    "ASK",
+    "WATCH",
+    "CHECK",
+    "BRIEF",
+    "DIFF",
+    "RECALL",
+    "SPATIAL",
+    "PERCEPTION",
+    "WORKFLOW",
+    "EVENT",
+    "PLAN",
+    "SCHEDULE",
+    "SIMULATE",
+    "QUALITY",
+    "FEDERATION",
+    "SYNTHETIC",
+    "GOVERN"
+  ],
+  "schema_version": "citybrain.epoch_2_0.mode_eval_harness_manifest.v1",
+  "script": "scripts/run_citybrain_epoch_2_0_mode_eval_harness.py"
+}

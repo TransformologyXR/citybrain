@@ -1,0 +1,131 @@
+[
+  {
+    "allowed_input_packets": [
+      "AskRequest",
+      "ConceptDraft"
+    ],
+    "deterministic_fallback": "return empty proposal and ask for deterministic CHECK/registry path",
+    "evaluation_refs": [
+      "tests/test_ask_v11_g1_g5_spine.py"
+    ],
+    "forbidden_outputs": [
+      "source truth",
+      "CHECK result",
+      "authority assignment",
+      "official action",
+      "legal finding"
+    ],
+    "limitations": [
+      "offline/proposal only; no live authority"
+    ],
+    "model_ref_optional": null,
+    "prompt_template_ref": "docs/ask-v11/g1-g5-execution-spine.md",
+    "purpose": "G2 intent/concept proposal seat",
+    "required_output_schema": "ProposalDraft",
+    "seat_id": "g2_intent_concept_proposal",
+    "status": "proposal_only"
+  },
+  {
+    "allowed_input_packets": [
+      "AnswerPacket",
+      "CheckReport"
+    ],
+    "deterministic_fallback": "render deterministic packet text",
+    "evaluation_refs": [
+      "tests/test_ask_v11_g6_g8_check_answer_render.py"
+    ],
+    "forbidden_outputs": [
+      "source truth",
+      "CHECK result",
+      "authority assignment",
+      "official action",
+      "legal finding"
+    ],
+    "limitations": [
+      "writer only; cannot alter packet semantics"
+    ],
+    "model_ref_optional": null,
+    "prompt_template_ref": "docs/ask-v11/g6-g8-check-answer-render.md",
+    "purpose": "G8 writer/render seat",
+    "required_output_schema": "RenderedAnswer",
+    "seat_id": "g8_writer_render",
+    "status": "writer_only"
+  },
+  {
+    "allowed_input_packets": [
+      "BriefPacket",
+      "CheckReport",
+      "EvidenceRefs"
+    ],
+    "deterministic_fallback": "use BRIEF v2 deterministic summary",
+    "evaluation_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "forbidden_outputs": [
+      "new fact",
+      "source truth",
+      "CHECK result",
+      "authority assignment",
+      "official action",
+      "legal finding"
+    ],
+    "limitations": [
+      "writer only; no fact generation"
+    ],
+    "model_ref_optional": null,
+    "prompt_template_ref": "docs/epoch_2_0/llm_integration_contract_v1.md",
+    "purpose": "Brief narrative writer",
+    "required_output_schema": "BriefNarrative",
+    "seat_id": "brief_narrative_writer",
+    "status": "writer_only"
+  },
+  {
+    "allowed_input_packets": [
+      "RecallMatchItem",
+      "DiffItem"
+    ],
+    "deterministic_fallback": "return deterministic diff table",
+    "evaluation_refs": [],
+    "forbidden_outputs": [
+      "source truth",
+      "CHECK result",
+      "precedent as authority",
+      "authority assignment",
+      "official action",
+      "legal finding"
+    ],
+    "limitations": [
+      "later/offline only unless future gate authorizes"
+    ],
+    "model_ref_optional": null,
+    "prompt_template_ref": "docs/epoch_2_0/llm_integration_contract_v1.md",
+    "purpose": "Precedent difference explainer",
+    "required_output_schema": "DifferenceExplanation",
+    "seat_id": "precedent_difference_explainer",
+    "status": "offline_eval"
+  },
+  {
+    "allowed_input_packets": [],
+    "deterministic_fallback": "disabled",
+    "evaluation_refs": [],
+    "forbidden_outputs": [
+      "source truth",
+      "CHECK result",
+      "authority assignment",
+      "investigation agent",
+      "official action",
+      "dispatch",
+      "control",
+      "legal finding"
+    ],
+    "limitations": [
+      "future/disabled; no compound investigation agent in Epoch 2.0"
+    ],
+    "model_ref_optional": null,
+    "prompt_template_ref": null,
+    "purpose": "Investigation decomposition proposer",
+    "required_output_schema": "DisabledSeat",
+    "seat_id": "investigation_decomposition_proposer",
+    "status": "disabled"
+  }
+]

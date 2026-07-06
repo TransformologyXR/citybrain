@@ -1,0 +1,15 @@
+{
+  "calibration_report_status": "PASS",
+  "check_reports_found": 46,
+  "disposition_events_found": 2,
+  "outcome_records_materialized": 2,
+  "rules": [
+    "No trained model",
+    "No score adjustment",
+    "No prediction",
+    "No learned ranker",
+    "No model registry release"
+  ],
+  "schema_version": "citybrain.epoch_2_0.outcome_ledger_report.v1",
+  "status": "PASS"
+}

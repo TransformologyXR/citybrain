@@ -1,0 +1,102 @@
+[
+  {
+    "applies_to": [
+      "agent"
+    ],
+    "max_files_changed": 40,
+    "max_llm_calls": 0,
+    "max_output_bytes": 500000,
+    "max_steps": 25,
+    "max_tool_calls": 25,
+    "max_wall_clock_seconds": 120,
+    "partial_result_semantics": "emit partial_budget_exhausted or not_activated; never mark success after budget stop",
+    "policy_id": "budget_policy_local_replay_agent_v1",
+    "stop_conditions": [
+      "sealed_artifact_modification_required",
+      "new_dataset_or_dependency_required",
+      "missing_or_red_acceptance_gate",
+      "unsafe_claim_or_overclaim",
+      "official_action_behavior",
+      "live_llm_authority_required",
+      "budget_cap_exceeded",
+      "unrelated_dirty_files_required",
+      "secret_or_security_issue",
+      "source_of_truth_missing"
+    ]
+  },
+  {
+    "applies_to": [
+      "epoch2_replay_harness"
+    ],
+    "max_files_changed": 40,
+    "max_llm_calls": 0,
+    "max_output_bytes": 500000,
+    "max_steps": 25,
+    "max_tool_calls": 25,
+    "max_wall_clock_seconds": 120,
+    "partial_result_semantics": "emit AgentRunEnvelope with status partial_budget_exhausted when hit",
+    "policy_id": "budget_policy_replay_harness_v1",
+    "stop_conditions": [
+      "sealed_artifact_modification_required",
+      "new_dataset_or_dependency_required",
+      "missing_or_red_acceptance_gate",
+      "unsafe_claim_or_overclaim",
+      "official_action_behavior",
+      "live_llm_authority_required",
+      "budget_cap_exceeded",
+      "unrelated_dirty_files_required",
+      "secret_or_security_issue",
+      "source_of_truth_missing"
+    ]
+  },
+  {
+    "applies_to": [
+      "epoch2_mode_eval_harness"
+    ],
+    "max_files_changed": 40,
+    "max_llm_calls": 0,
+    "max_output_bytes": 500000,
+    "max_steps": 25,
+    "max_tool_calls": 25,
+    "max_wall_clock_seconds": 120,
+    "partial_result_semantics": "mode slots remain pending_evidence if fixture missing",
+    "policy_id": "budget_policy_mode_eval_harness_v1",
+    "stop_conditions": [
+      "sealed_artifact_modification_required",
+      "new_dataset_or_dependency_required",
+      "missing_or_red_acceptance_gate",
+      "unsafe_claim_or_overclaim",
+      "official_action_behavior",
+      "live_llm_authority_required",
+      "budget_cap_exceeded",
+      "unrelated_dirty_files_required",
+      "secret_or_security_issue",
+      "source_of_truth_missing"
+    ]
+  },
+  {
+    "applies_to": [
+      "llm_seat"
+    ],
+    "max_files_changed": 0,
+    "max_llm_calls": 0,
+    "max_output_bytes": 0,
+    "max_steps": 0,
+    "max_tool_calls": 0,
+    "max_wall_clock_seconds": 0,
+    "partial_result_semantics": "LLM seats are registry-only in Epoch 2.0 tests",
+    "policy_id": "budget_policy_llm_seat_no_authority_v1",
+    "stop_conditions": [
+      "sealed_artifact_modification_required",
+      "new_dataset_or_dependency_required",
+      "missing_or_red_acceptance_gate",
+      "unsafe_claim_or_overclaim",
+      "official_action_behavior",
+      "live_llm_authority_required",
+      "budget_cap_exceeded",
+      "unrelated_dirty_files_required",
+      "secret_or_security_issue",
+      "source_of_truth_missing"
+    ]
+  }
+]

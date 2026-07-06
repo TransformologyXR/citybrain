@@ -1,0 +1,14 @@
+{
+  "allowed_source_classes": [
+    "local_replay",
+    "fixture",
+    "derived_field",
+    "synthetic"
+  ],
+  "calibration_source_class": "derived_field",
+  "outcome_source_class": [
+    "derived_field"
+  ],
+  "schema_version": "citybrain.epoch_2_0.source_class_boundary_audit.v1",
+  "status": "PASS"
+}

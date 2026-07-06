@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "source_class": {
+      "const": "derived_field"
+    },
+    "terminal_state": {
+      "enum": [
+        "confirmed",
+        "dismissed",
+        "needs_more_expired",
+        "superseded",
+        "not_terminal"
+      ]
+    }
+  },
+  "required": [
+    "outcome_record_id",
+    "target_ref",
+    "trigger_packet_refs",
+    "disposition_history_refs",
+    "terminal_state",
+    "time_to_terminal_seconds",
+    "disposition_context_summary",
+    "source_class",
+    "created_at",
+    "limitations"
+  ],
+  "title": "OutcomeRecordV1",
+  "type": "object"
+}

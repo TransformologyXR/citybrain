@@ -1,0 +1,102 @@
+[
+  {
+    "failure_behavior": "emit not_activated",
+    "from_component": "perception_media_agent",
+    "handoff_condition": "local replay candidate exported to event fabric",
+    "input_packet": "EventEnvelope",
+    "output_packet": "CandidateObservation",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "workflow_disposition_agent"
+  },
+  {
+    "failure_behavior": "emit blocked",
+    "from_component": "workflow_disposition_agent",
+    "handoff_condition": "event materialized for WATCH review prompt",
+    "input_packet": "MaterializedReviewState",
+    "output_packet": "EventEnvelope",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "watch_scout"
+  },
+  {
+    "failure_behavior": "retain watch item as review_prompt_only",
+    "from_component": "watch_scout",
+    "handoff_condition": "WATCH item requires CHECK before review",
+    "input_packet": "CheckReport",
+    "output_packet": "WatchItem",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "check_agent"
+  },
+  {
+    "failure_behavior": "emit limitation-only brief",
+    "from_component": "check_agent",
+    "handoff_condition": "CHECK report can be summarized for review",
+    "input_packet": "BriefPacket",
+    "output_packet": "CheckReport",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "briefing_agent"
+  },
+  {
+    "failure_behavior": "no official action",
+    "from_component": "briefing_agent",
+    "handoff_condition": "operator review creates disposition",
+    "input_packet": "DispositionEvent",
+    "output_packet": "BriefPacket",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "workflow_disposition_agent"
+  },
+  {
+    "failure_behavior": "refuse unsafe claim",
+    "from_component": "ask_resolver_renderer",
+    "handoff_condition": "ASK answer must preserve CHECK attachments",
+    "input_packet": "CheckReport",
+    "output_packet": "AnswerPacket",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "check_agent"
+  },
+  {
+    "failure_behavior": "read-only diff",
+    "from_component": "diff_scout",
+    "handoff_condition": "DIFF can create watch review prompt",
+    "input_packet": "WatchItem",
+    "output_packet": "DiffItem",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "watch_scout"
+  },
+  {
+    "failure_behavior": "no precedent authority",
+    "from_component": "recall_matcher",
+    "handoff_condition": "RECALL can be explained in brief",
+    "input_packet": "BriefPacket",
+    "output_packet": "RecallMatchItem",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "briefing_agent"
+  },
+  {
+    "failure_behavior": "display-only overlay",
+    "from_component": "spatial_agent",
+    "handoff_condition": "spatial overlays remain display refs checked before review",
+    "input_packet": "CheckReport",
+    "output_packet": "SpatialOverlayPacket",
+    "required_authority": 1,
+    "required_check": true,
+    "to_component": "check_agent"
+  },
+  {
+    "failure_behavior": "not_executed",
+    "from_component": "plan_agent",
+    "handoff_condition": "PLAN options require human approval",
+    "input_packet": "ApprovalRequest",
+    "output_packet": "PlanOption",
+    "required_authority": 3,
+    "required_check": true,
+    "to_component": "approval_lifecycle_agent"
+  }
+]

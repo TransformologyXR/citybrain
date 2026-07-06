@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": true,
+    "properties": {
+      "environment": {
+        "enum": [
+          "local_replay",
+          "dev",
+          "staging",
+          "production"
+        ]
+      },
+      "permission": {
+        "enum": [
+          "read",
+          "write",
+          "execute",
+          "render",
+          "validate"
+        ]
+      },
+      "secrets_allowed": {
+        "const": false
+      }
+    },
+    "required": [
+      "policy_id",
+      "component_id",
+      "tool_id",
+      "permission",
+      "environment",
+      "allowed_source_classes",
+      "forbidden_actions",
+      "timeout_seconds",
+      "max_calls",
+      "requires_check",
+      "requires_authority_level",
+      "allowed_paths_or_domains",
+      "secrets_allowed"
+    ],
+    "title": "ToolPermissionPolicyEntryV1",
+    "type": "object"
+  },
+  "title": "ToolPermissionPolicyV1",
+  "type": "array"
+}

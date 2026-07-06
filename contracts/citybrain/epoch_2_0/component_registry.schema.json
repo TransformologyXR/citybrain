@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": true,
+    "properties": {
+      "authority_level_max": {
+        "maximum": 6,
+        "minimum": 0,
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "component_id": {
+        "type": "string"
+      },
+      "consuming_surfaces": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "input_packet_types": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "kind": {
+        "enum": [
+          "agent",
+          "llm_seat",
+          "tool_adapter",
+          "retriever",
+          "renderer",
+          "ranker",
+          "forecast_model",
+          "surrogate_model",
+          "simulator_connector",
+          "validator",
+          "harness"
+        ]
+      },
+      "llm_seat_allowed": {
+        "type": [
+          "boolean",
+          "array"
+        ]
+      },
+      "output_packet_types": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "source_artifact_refs": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "source_classes_allowed": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "status": {
+        "enum": [
+          "active",
+          "disabled",
+          "offline_eval",
+          "proposal_only",
+          "writer_only",
+          "future",
+          "deprecated",
+          "missing_evidence"
+        ]
+      },
+      "tools_allowed": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      }
+    },
+    "required": [
+      "component_id",
+      "kind",
+      "name",
+      "version",
+      "status",
+      "source_artifact_refs",
+      "input_packet_types",
+      "output_packet_types",
+      "consuming_surfaces",
+      "authority_level_max",
+      "source_classes_allowed",
+      "tools_allowed",
+      "llm_seat_allowed",
+      "budget_policy_ref",
+      "evaluation_refs",
+      "limitations",
+      "non_claims"
+    ],
+    "title": "ComponentRegistryEntryV1",
+    "type": "object"
+  },
+  "title": "ComponentRegistryV1",
+  "type": "array"
+}

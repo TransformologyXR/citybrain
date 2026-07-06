@@ -1,0 +1,12 @@
+{
+  "allowed_statuses": [
+    "disabled",
+    "offline_eval",
+    "proposal_only",
+    "writer_only"
+  ],
+  "errors": [],
+  "schema_version": "citybrain.epoch_2_0.llm_no_authority_audit.v1",
+  "seat_count": 5,
+  "status": "PASS"
+}

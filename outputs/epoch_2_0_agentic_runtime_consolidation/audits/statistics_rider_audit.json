@@ -1,0 +1,7 @@
+{
+  "calibration_source_class": "derived_field",
+  "no_trained_model": true,
+  "outcome_records": 2,
+  "schema_version": "citybrain.epoch_2_0.statistics_rider_audit.v1",
+  "status": "PASS"
+}

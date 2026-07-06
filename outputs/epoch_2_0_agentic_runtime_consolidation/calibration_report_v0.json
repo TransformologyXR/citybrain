@@ -1,0 +1,61 @@
+{
+  "aggregation_floor_respected": true,
+  "calibration_report_id": "calibration:epoch2:descriptive:v0",
+  "created_at": "2026-07-06T00:00:00Z",
+  "input_refs": [
+    "origin/codex/push2-lane-a-check-authority-v1:outputs/push2_lane_a_check_authority_v1/CHECK_REPORT_FIXTURES.json",
+    "origin/codex/push2-lane-c-app-review-route-disposition:outputs/push2_lane_c_app_review_route/APP_REVIEW_ROUTE_DISPOSITION_EVENT_FIXTURES.json"
+  ],
+  "limitations": [
+    "descriptive statistics only",
+    "no trained model",
+    "no score adjustment",
+    "no prediction",
+    "no learned ranker",
+    "no model registry release"
+  ],
+  "period": {
+    "end": "2026-07-06T00:00:00Z",
+    "start": "2026-07-05T00:00:00Z"
+  },
+  "sample_size": 46,
+  "source_class": "derived_field",
+  "statistics": {
+    "cannot_claim_reason_frequency": {
+      "Candidate observation requires human review.": 16,
+      "Cannot claim dispatch/control/enforcement action.": 16,
+      "Cannot claim legal/certified finding.": 16,
+      "Cannot claim live camera or production monitoring.": 16,
+      "Cannot claim official case/ticket submission.": 16,
+      "Cannot claim official violation.": 16,
+      "dispatch/control/enforcement": 46,
+      "dispatch/control/enforcement execution": 3,
+      "identity of a natural person": 3,
+      "legal or certified finding": 46,
+      "official action": 46,
+      "official case/ticket creation": 3,
+      "official violation": 3
+    },
+    "check_result_x_disposition_cross_tab_status": "limited_descriptive_no_target_join",
+    "claimability_counts": {
+      "candidate_context_only": 39,
+      "not_claimable": 6,
+      "verified_source_record_context": 1
+    },
+    "counts_by_check_status": {
+      "FAIL": 6,
+      "PASS": 1,
+      "PASS_WITH_LIMITATIONS": 39
+    },
+    "counts_by_disposition": {
+      "dismissed": 1,
+      "needs_more": 1
+    },
+    "freshness_bucket_counts": {
+      "current": 17,
+      "not_applicable": 28,
+      "stale": 1
+    }
+  },
+  "subject": "check_type"
+}

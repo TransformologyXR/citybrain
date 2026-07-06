@@ -1,0 +1,976 @@
+[
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "ask_resolver_renderer",
+    "consuming_surfaces": [
+      "ASK app handoff / web control room"
+    ],
+    "description": "Epoch 2.0 registry entry for existing ASK Resolver/Renderer.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "AskRequest",
+      "EvidencePacket",
+      "CheckReport"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "ASK Resolver/Renderer",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "AnswerPacket",
+      "RenderedAnswer"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/main:packages/ask_v11",
+      "origin/main:docs/ask-v11/ask-v11-app-handoff-closeout.md"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "check_agent",
+    "consuming_surfaces": [
+      "CHECK v1 report / review route"
+    ],
+    "description": "Epoch 2.0 registry entry for existing CHECK Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "CandidateObservation",
+      "EvidenceRefs",
+      "AuthorityEnvelope"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "CHECK Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "CheckReport",
+      "LimitationRefs"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push4-lane-c-check-v1:outputs/push4_lane_c_check_v1/CHECK_V1_DECISION.json",
+      "origin/codex/push4-lane-c-check-v1:packages/check_v1"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "watch_scout",
+    "consuming_surfaces": [
+      "WATCH review prompts"
+    ],
+    "description": "Epoch 2.0 registry entry for existing WATCH Scout.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "EventEnvelope",
+      "MaterializedReviewState"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "WATCH Scout",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "WatchItem",
+      "CheckReportRef",
+      "AuthorityEnvelopeRef"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push2-lane-b-watch-scout-v1:outputs/push2_lane_b_watch_scout_v1/WATCH_SCOUT_V1_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "diff_scout",
+    "consuming_surfaces": [
+      "DIFF/RECALL read-only lane"
+    ],
+    "description": "Epoch 2.0 registry entry for existing DIFF Scout.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "SourceRecord360",
+      "ReviewPacket"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "DIFF Scout",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "DiffItem"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push3-lane-c-diff-recall-readonly:outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_READONLY_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "recall_matcher",
+    "consuming_surfaces": [
+      "RECALL read-only similar-case surface"
+    ],
+    "description": "Epoch 2.0 registry entry for existing RECALL matcher.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "CandidateObservation",
+      "SourceRecord360"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "RECALL matcher",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "RecallMatchItem"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push3-lane-c-diff-recall-readonly:outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_READONLY_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "briefing_agent",
+    "consuming_surfaces": [
+      "BRIEF v2 / Flow 1"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Briefing Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "CheckReport",
+      "WatchItem",
+      "DispositionSummary"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Briefing Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "BriefPacket"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push3-lane-a-brief-flow1-packaging:outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_FLOW1_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "spatial_agent",
+    "consuming_surfaces": [
+      "Spatial UI/UX review"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Spatial Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "OverlayPacket",
+      "EvidenceRefs"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Spatial Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "SpatialOverlayPacket"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push5-lane-a-spatial-ui-ux:outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "perception_media_agent",
+    "consuming_surfaces": [
+      "Perception evidence review"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Perception/Media Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "CandidateObservation",
+      "MediaEvidenceBundle"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Perception/Media Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "MediaEvidencePacket"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push5-lane-b-perception-media-evidence:outputs/push5_lane_b_perception_media_evidence/PERCEPTION_MEDIA_EVIDENCE_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "workflow_disposition_agent",
+    "consuming_surfaces": [
+      "Workflow state / disposition route"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Workflow/Disposition Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "WatchItem",
+      "DispositionEvent"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Workflow/Disposition Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "WorkflowStateEvent",
+      "OutcomeRecord"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push5-lane-c-watch-workflow-state:outputs/push5_lane_c_watch_workflow_state/WATCH_WORKFLOW_STATE_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 3,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "approval_lifecycle_agent",
+    "consuming_surfaces": [
+      "Approval lifecycle review"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Approval Lifecycle Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "ApprovalRequest",
+      "AuthorityEnvelope"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Approval Lifecycle Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "ApprovalDecision"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push6-lane-a-approval-lifecycle:outputs/push6_lane_a_approval_lifecycle/APPROVAL_LIFECYCLE_DECISION.json",
+      "origin/codex/push6-lane-a-approval-lifecycle:packages/approval_lifecycle"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "plan_agent",
+    "consuming_surfaces": [
+      "PLAN mode"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Plan Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "OptionSetV2",
+      "CheckReport"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Plan Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "PlanOption"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push6-lane-b-plan-mode:outputs/push6_lane_b_plan_mode/PLAN_MODE_DECISION.json",
+      "origin/codex/push6-lane-b-plan-mode:packages/plan_mode"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_local_replay_agent_v1",
+    "component_id": "schedule_simulate_agent",
+    "consuming_surfaces": [
+      "SCHEDULE/SIMULATE mode"
+    ],
+    "description": "Epoch 2.0 registry entry for existing Schedule/Simulate Agent.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_contracts.py",
+      "tests/test_citybrain_epoch_2_0_permissions.py"
+    ],
+    "input_packet_types": [
+      "ScheduleOption",
+      "ScenarioPacket"
+    ],
+    "kind": "agent",
+    "limitations": [
+      "local/replay/review/query context only",
+      "registered from existing evidence; no new behavior introduced"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Schedule/Simulate Agent",
+    "non_claims": [
+      "no production API claim",
+      "no official ticket/case/dispatch/enforcement/legal finding",
+      "no autonomous execution",
+      "no LLM authority",
+      "no source truth mutation"
+    ],
+    "output_packet_types": [
+      "SimulationRunRecord"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+    "release_ledger_row_ref": "outputs/epoch1_closedown_certified_baseline/EPOCH1_MASTER_LEDGER_ROWS.json",
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "origin/codex/push6-lane-c-schedule-simulate:outputs/push6_lane_c_schedule_simulate/SCHEDULE_SIMULATE_DECISION.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 0,
+    "budget_policy_ref": "budget_policy_llm_seat_no_authority_v1",
+    "component_id": "llm_seat_g2_intent_concept_proposal",
+    "consuming_surfaces": [
+      "offline/proposal/writer governance"
+    ],
+    "description": "Explicit LLM seat registry component; no live authority in Epoch 2.0.",
+    "evaluation_refs": [
+      "tests/test_ask_v11_g1_g5_spine.py"
+    ],
+    "input_packet_types": [
+      "AskRequest",
+      "ConceptDraft"
+    ],
+    "kind": "llm_seat",
+    "limitations": [
+      "offline/proposal only; no live authority"
+    ],
+    "llm_seat_allowed": false,
+    "name": "G2 intent/concept proposal seat",
+    "non_claims": [
+      "no live LLM authority",
+      "no source truth generation",
+      "no CHECK result generation",
+      "no official action"
+    ],
+    "output_packet_types": [
+      "ProposalDraft"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/llm_seat_registry.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "packages/citybrain_epoch_2_0/llm_seat_registry_v1.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "proposal_only",
+    "tools_allowed": [],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 0,
+    "budget_policy_ref": "budget_policy_llm_seat_no_authority_v1",
+    "component_id": "llm_seat_g8_writer_render",
+    "consuming_surfaces": [
+      "offline/proposal/writer governance"
+    ],
+    "description": "Explicit LLM seat registry component; no live authority in Epoch 2.0.",
+    "evaluation_refs": [
+      "tests/test_ask_v11_g6_g8_check_answer_render.py"
+    ],
+    "input_packet_types": [
+      "AnswerPacket",
+      "CheckReport"
+    ],
+    "kind": "llm_seat",
+    "limitations": [
+      "writer only; cannot alter packet semantics"
+    ],
+    "llm_seat_allowed": false,
+    "name": "G8 writer/render seat",
+    "non_claims": [
+      "no live LLM authority",
+      "no source truth generation",
+      "no CHECK result generation",
+      "no official action"
+    ],
+    "output_packet_types": [
+      "RenderedAnswer"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/llm_seat_registry.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "packages/citybrain_epoch_2_0/llm_seat_registry_v1.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "writer_only",
+    "tools_allowed": [],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 0,
+    "budget_policy_ref": "budget_policy_llm_seat_no_authority_v1",
+    "component_id": "llm_seat_brief_narrative_writer",
+    "consuming_surfaces": [
+      "offline/proposal/writer governance"
+    ],
+    "description": "Explicit LLM seat registry component; no live authority in Epoch 2.0.",
+    "evaluation_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "input_packet_types": [
+      "BriefPacket",
+      "CheckReport",
+      "EvidenceRefs"
+    ],
+    "kind": "llm_seat",
+    "limitations": [
+      "writer only; no fact generation"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Brief narrative writer",
+    "non_claims": [
+      "no live LLM authority",
+      "no source truth generation",
+      "no CHECK result generation",
+      "no official action"
+    ],
+    "output_packet_types": [
+      "BriefNarrative"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/llm_seat_registry.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "packages/citybrain_epoch_2_0/llm_seat_registry_v1.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "writer_only",
+    "tools_allowed": [],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 0,
+    "budget_policy_ref": "budget_policy_llm_seat_no_authority_v1",
+    "component_id": "llm_seat_precedent_difference_explainer",
+    "consuming_surfaces": [
+      "offline/proposal/writer governance"
+    ],
+    "description": "Explicit LLM seat registry component; no live authority in Epoch 2.0.",
+    "evaluation_refs": [],
+    "input_packet_types": [
+      "RecallMatchItem",
+      "DiffItem"
+    ],
+    "kind": "llm_seat",
+    "limitations": [
+      "later/offline only unless future gate authorizes"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Precedent difference explainer",
+    "non_claims": [
+      "no live LLM authority",
+      "no source truth generation",
+      "no CHECK result generation",
+      "no official action"
+    ],
+    "output_packet_types": [
+      "DifferenceExplanation"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/llm_seat_registry.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "packages/citybrain_epoch_2_0/llm_seat_registry_v1.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "offline_eval",
+    "tools_allowed": [],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 0,
+    "budget_policy_ref": "budget_policy_llm_seat_no_authority_v1",
+    "component_id": "llm_seat_investigation_decomposition_proposer",
+    "consuming_surfaces": [
+      "offline/proposal/writer governance"
+    ],
+    "description": "Explicit LLM seat registry component; no live authority in Epoch 2.0.",
+    "evaluation_refs": [],
+    "input_packet_types": [],
+    "kind": "llm_seat",
+    "limitations": [
+      "future/disabled; no compound investigation agent in Epoch 2.0"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Investigation decomposition proposer",
+    "non_claims": [
+      "no live LLM authority",
+      "no source truth generation",
+      "no CHECK result generation",
+      "no official action"
+    ],
+    "output_packet_types": [
+      "DisabledSeat"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/llm_seat_registry.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "packages/citybrain_epoch_2_0/llm_seat_registry_v1.json"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "disabled",
+    "tools_allowed": [],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_replay_harness_v1",
+    "component_id": "epoch2_replay_harness",
+    "consuming_surfaces": [
+      "Epoch 2.0 recertification"
+    ],
+    "description": "Harness that emits AgentRunEnvelope over existing branch evidence.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_replay.py"
+    ],
+    "input_packet_types": [
+      "CandidateObservation",
+      "EventEnvelope",
+      "WatchItem",
+      "CheckReport"
+    ],
+    "kind": "harness",
+    "limitations": [
+      "best available branch-evidence replay, not live runtime"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Epoch 2.0 Replay Harness",
+    "non_claims": [
+      "no live source/camera claim",
+      "no official action"
+    ],
+    "output_packet_types": [
+      "AgentRunEnvelope",
+      "ReplayHarnessReport"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/agent_run_envelope.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "scripts/run_citybrain_epoch_2_0_replay_harness.py"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "git_ref_read",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  },
+  {
+    "authority_level_max": 1,
+    "budget_policy_ref": "budget_policy_mode_eval_harness_v1",
+    "component_id": "epoch2_mode_eval_harness",
+    "consuming_surfaces": [
+      "Epoch 2.0 recertification"
+    ],
+    "description": "Fixture-slot mode evaluation harness.",
+    "evaluation_refs": [
+      "tests/test_citybrain_epoch_2_0_replay.py"
+    ],
+    "input_packet_types": [
+      "ModeFixture"
+    ],
+    "kind": "harness",
+    "limitations": [
+      "not full model scoring"
+    ],
+    "llm_seat_allowed": false,
+    "name": "Epoch 2.0 Mode Eval Harness",
+    "non_claims": [
+      "no learned model evaluation",
+      "no score adjustment"
+    ],
+    "output_packet_types": [
+      "ModeEvalHarnessReport"
+    ],
+    "owning_doc_or_contract": "contracts/citybrain/epoch_2_0/mode_invocation_registry.schema.json",
+    "release_ledger_row_ref": null,
+    "rollback_ref": "origin/codex/epoch1-closedown-certified-baseline",
+    "source_artifact_refs": [
+      "scripts/run_citybrain_epoch_2_0_mode_eval_harness.py"
+    ],
+    "source_classes_allowed": [
+      "local_replay",
+      "fixture",
+      "derived_field"
+    ],
+    "status": "active",
+    "tools_allowed": [
+      "local_fixture_read",
+      "schema_validate",
+      "local_report_write"
+    ],
+    "version": "1.0"
+  }
+]

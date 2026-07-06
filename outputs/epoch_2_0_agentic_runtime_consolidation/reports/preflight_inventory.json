@@ -1,0 +1,141 @@
+{
+  "authoritative_docs": [
+    {
+      "found": true,
+      "path": "docs/architecture/07_CITYBRAIN_LEARNING_AND_PREDICTIVE_INTELLIGENCE.md"
+    },
+    {
+      "found": true,
+      "path": "outputs/epoch1_closedown_certified_baseline/EPOCH1_CLOSEDOWN_FINAL_DECISION.json"
+    },
+    {
+      "found": true,
+      "path": "outputs/epoch1_closedown_certified_baseline/EPOCH1_SOURCE_OF_TRUTH_MATRIX.json"
+    }
+  ],
+  "base_head": "695fd8b",
+  "base_ref": "origin/codex/epoch1-closedown-certified-baseline",
+  "branch": "codex/epoch2-0-agentic-runtime-consolidation",
+  "check_reports_found": 46,
+  "disposition_events_found": 2,
+  "found_components": [
+    {
+      "branch": "origin/main",
+      "component_id": "ask_resolver_renderer",
+      "evidence_exists": true,
+      "name": "ASK Resolver/Renderer",
+      "source_refs": [
+        "packages/ask_v11",
+        "docs/ask-v11/ask-v11-app-handoff-closeout.md"
+      ]
+    },
+    {
+      "branch": "origin/codex/push4-lane-c-check-v1",
+      "component_id": "check_agent",
+      "evidence_exists": true,
+      "name": "CHECK Agent",
+      "source_refs": [
+        "outputs/push4_lane_c_check_v1/CHECK_V1_DECISION.json",
+        "packages/check_v1"
+      ]
+    },
+    {
+      "branch": "origin/codex/push2-lane-b-watch-scout-v1",
+      "component_id": "watch_scout",
+      "evidence_exists": true,
+      "name": "WATCH Scout",
+      "source_refs": [
+        "outputs/push2_lane_b_watch_scout_v1/WATCH_SCOUT_V1_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push3-lane-c-diff-recall-readonly",
+      "component_id": "diff_scout",
+      "evidence_exists": true,
+      "name": "DIFF Scout",
+      "source_refs": [
+        "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_READONLY_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push3-lane-c-diff-recall-readonly",
+      "component_id": "recall_matcher",
+      "evidence_exists": true,
+      "name": "RECALL matcher",
+      "source_refs": [
+        "outputs/push3_lane_c_diff_recall_readonly/DIFF_RECALL_READONLY_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push3-lane-a-brief-flow1-packaging",
+      "component_id": "briefing_agent",
+      "evidence_exists": true,
+      "name": "Briefing Agent",
+      "source_refs": [
+        "outputs/push3_lane_a_brief_v2_flow1_packaging/BRIEF_V2_FLOW1_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push5-lane-a-spatial-ui-ux",
+      "component_id": "spatial_agent",
+      "evidence_exists": true,
+      "name": "Spatial Agent",
+      "source_refs": [
+        "outputs/push5_lane_a_spatial_ui_ux/SPATIAL_UI_UX_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push5-lane-b-perception-media-evidence",
+      "component_id": "perception_media_agent",
+      "evidence_exists": true,
+      "name": "Perception/Media Agent",
+      "source_refs": [
+        "outputs/push5_lane_b_perception_media_evidence/PERCEPTION_MEDIA_EVIDENCE_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push5-lane-c-watch-workflow-state",
+      "component_id": "workflow_disposition_agent",
+      "evidence_exists": true,
+      "name": "Workflow/Disposition Agent",
+      "source_refs": [
+        "outputs/push5_lane_c_watch_workflow_state/WATCH_WORKFLOW_STATE_DECISION.json"
+      ]
+    },
+    {
+      "branch": "origin/codex/push6-lane-a-approval-lifecycle",
+      "component_id": "approval_lifecycle_agent",
+      "evidence_exists": true,
+      "name": "Approval Lifecycle Agent",
+      "source_refs": [
+        "outputs/push6_lane_a_approval_lifecycle/APPROVAL_LIFECYCLE_DECISION.json",
+        "packages/approval_lifecycle"
+      ]
+    },
+    {
+      "branch": "origin/codex/push6-lane-b-plan-mode",
+      "component_id": "plan_agent",
+      "evidence_exists": true,
+      "name": "Plan Agent",
+      "source_refs": [
+        "outputs/push6_lane_b_plan_mode/PLAN_MODE_DECISION.json",
+        "packages/plan_mode"
+      ]
+    },
+    {
+      "branch": "origin/codex/push6-lane-c-schedule-simulate",
+      "component_id": "schedule_simulate_agent",
+      "evidence_exists": true,
+      "name": "Schedule/Simulate Agent",
+      "source_refs": [
+        "outputs/push6_lane_c_schedule_simulate/SCHEDULE_SIMULATE_DECISION.json"
+      ]
+    }
+  ],
+  "head": "695fd8b",
+  "missing_or_ambiguous_components": [],
+  "push_2_7_artifact_strategy": "branch evidence via git refs; old outputs are not copied into source-only main",
+  "registry_component_count": 19,
+  "schema_version": "citybrain.epoch_2_0.preflight_inventory.v1",
+  "status_capture": "clean worktree was isolated via dedicated worktree; generated artifacts are additive only"
+}

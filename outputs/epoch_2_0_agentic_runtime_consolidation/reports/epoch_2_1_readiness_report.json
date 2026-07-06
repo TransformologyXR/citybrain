@@ -1,0 +1,25 @@
+{
+  "components_registered": 19,
+  "domain_pack_blocked_until_2_0_closeout": true,
+  "llm_policy_no_authority": true,
+  "mode_eval_harness_exists": true,
+  "outcome_calibration_rider_exists": true,
+  "permission_policy_exists": true,
+  "privacy_retention_first_lane_required": true,
+  "recommended_sequence": [
+    "2.1A operator-data privacy/retention/deletion/evidence-media retention policy",
+    "2.1B domain-pack framework",
+    "2.1C Dubai anchored synthetic intelligence pack",
+    "2.1D department-local node strategy",
+    "2.1E data maturity / quality dashboard",
+    "2.1F production RBAC / audit / observability",
+    "2.1G live-source/camera onboarding policy",
+    "2.1H native Kit UX polish",
+    "2.1I federation infrastructure",
+    "2.1J federated recall infrastructure only"
+  ],
+  "replay_harness_exists": true,
+  "runtime_contracts_exist": true,
+  "schema_version": "citybrain.epoch_2_0.epoch_2_1_readiness_report.v1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

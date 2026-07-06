@@ -1,0 +1,6 @@
+{
+  "boundary": "OutcomeRecord and CalibrationReport are derived_field descriptive artifacts only.",
+  "errors": [],
+  "schema_version": "citybrain.epoch_2_0.no_learned_model_audit.v1",
+  "status": "PASS"
+}

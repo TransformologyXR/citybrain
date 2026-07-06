@@ -1,0 +1,215 @@
+{
+  "component_count": 14,
+  "rows": [
+    {
+      "authority_level_valid": true,
+      "component_id": "ask_resolver_renderer",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "check_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "watch_scout",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "diff_scout",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "recall_matcher",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "briefing_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "spatial_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "perception_media_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "workflow_disposition_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "approval_lifecycle_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "plan_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "schedule_simulate_agent",
+      "limitations": [
+        "local/replay/review/query context only",
+        "registered from existing evidence; no new behavior introduced"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "epoch2_replay_harness",
+      "limitations": [
+        "best available branch-evidence replay, not live runtime"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    },
+    {
+      "authority_level_valid": true,
+      "component_id": "epoch2_mode_eval_harness",
+      "limitations": [
+        "not full model scoring"
+      ],
+      "no_forbidden_source_class": true,
+      "no_official_action": true,
+      "no_sealed_contract_drift": true,
+      "permission_valid": true,
+      "replay_or_eval_ref": "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json",
+      "schema_valid": true,
+      "status": "PASS"
+    }
+  ],
+  "schema_version": "citybrain.epoch_2_0.agent_recertification_report.v1",
+  "status": "PASS"
+}

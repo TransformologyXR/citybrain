@@ -1,0 +1,33 @@
+{
+  "active_component_count": 14,
+  "active_mode_count": 17,
+  "authority_level": "local/replay/review/query; max registered authority level 3 for approval lifecycle only",
+  "base_commit": "695fd8b",
+  "base_ref": "origin/codex/epoch1-closedown-certified-baseline",
+  "branch": "codex/epoch2-0-agentic-runtime-consolidation",
+  "check_reports_found": 46,
+  "component_count": 19,
+  "data_dependency_changes": false,
+  "gates": {
+    "agent_recertification": true,
+    "descriptive_statistics_rider": true,
+    "epoch_2_1_readiness": true,
+    "permissions_llm_boundaries": true,
+    "preflight_inventory": true,
+    "replay_and_mode_eval": true,
+    "runtime_contracts": true
+  },
+  "limitations": [
+    "Historical Push outputs are used as branch evidence via git refs; they are not copied into source-only main.",
+    "Mode evaluation is fixture-slot validation, not model scoring.",
+    "OutcomeRecords and CalibrationReports are derived_field descriptive artifacts only.",
+    "LLM seats are registry-only/offline/proposal/writer seats with no live authority.",
+    "Full discovery was not run because legacy generated-output tests are known to mutate ignored outputs."
+  ],
+  "mode_count": 17,
+  "outcome_records_materialized": 2,
+  "package": "CITYBRAIN-EPOCH-2-0-AGENTIC-RUNTIME-CONSOLIDATION-AND-RECERTIFICATION",
+  "schema_version": "citybrain.epoch_2_0.decision.v1",
+  "sealed_artifacts_touched": false,
+  "status": "PASS_EPOCH_2_0_AGENTIC_RUNTIME_CONSOLIDATION_WITH_LIMITATIONS"
+}

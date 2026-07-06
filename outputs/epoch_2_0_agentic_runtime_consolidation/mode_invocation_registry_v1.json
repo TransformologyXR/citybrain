@@ -1,0 +1,427 @@
+[
+  {
+    "entry_packet_types": [
+      "AskRequest"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "packages/ask_v11"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "ASK",
+    "mode_name": "ASK",
+    "output_packet_types": [
+      "AnswerPacket"
+    ],
+    "primary_components": [
+      "ask_resolver_renderer"
+    ],
+    "required_authority": 1,
+    "required_check": false,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "EventEnvelope"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push2_lane_b_watch_scout_v1"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "WATCH",
+    "mode_name": "WATCH",
+    "output_packet_types": [
+      "WatchItem"
+    ],
+    "primary_components": [
+      "watch_scout"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "CandidateObservation"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push4_lane_c_check_v1"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "CHECK",
+    "mode_name": "CHECK",
+    "output_packet_types": [
+      "CheckReport"
+    ],
+    "primary_components": [
+      "check_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "CheckReport"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push3_lane_a_brief_v2_flow1_packaging"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "BRIEF",
+    "mode_name": "BRIEF",
+    "output_packet_types": [
+      "BriefPacket"
+    ],
+    "primary_components": [
+      "briefing_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "SourceRecord360"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push3_lane_c_diff_recall_readonly"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "DIFF",
+    "mode_name": "DIFF",
+    "output_packet_types": [
+      "DiffItem"
+    ],
+    "primary_components": [
+      "diff_scout"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "CandidateObservation"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push3_lane_c_diff_recall_readonly"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "RECALL",
+    "mode_name": "RECALL",
+    "output_packet_types": [
+      "RecallMatchItem"
+    ],
+    "primary_components": [
+      "recall_matcher"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "OverlayPacket"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push5_lane_a_spatial_ui_ux"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "SPATIAL",
+    "mode_name": "SPATIAL",
+    "output_packet_types": [
+      "SpatialOverlayPacket"
+    ],
+    "primary_components": [
+      "spatial_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "MediaEvidenceBundle"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push5_lane_b_perception_media_evidence"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "PERCEPTION",
+    "mode_name": "PERCEPTION",
+    "output_packet_types": [
+      "CandidateObservation"
+    ],
+    "primary_components": [
+      "perception_media_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "DispositionEvent"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push5_lane_c_watch_workflow_state"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "WORKFLOW",
+    "mode_name": "WORKFLOW",
+    "output_packet_types": [
+      "WorkflowStateEvent"
+    ],
+    "primary_components": [
+      "workflow_disposition_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "EventEnvelope"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push2_lane_c_app_review_route"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "EVENT",
+    "mode_name": "EVENT",
+    "output_packet_types": [
+      "MaterializedReviewState"
+    ],
+    "primary_components": [
+      "workflow_disposition_agent"
+    ],
+    "required_authority": 1,
+    "required_check": false,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "OptionSetV2"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push6_lane_b_plan_mode"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "PLAN",
+    "mode_name": "PLAN",
+    "output_packet_types": [
+      "PlanOption"
+    ],
+    "primary_components": [
+      "plan_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "ScheduleOption"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push6_lane_c_schedule_simulate"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "SCHEDULE",
+    "mode_name": "SCHEDULE",
+    "output_packet_types": [
+      "ScheduleOption"
+    ],
+    "primary_components": [
+      "schedule_simulate_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "ScenarioPacket"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push6_lane_c_schedule_simulate"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "SIMULATE",
+    "mode_name": "SIMULATE",
+    "output_packet_types": [
+      "SimulationRunRecord"
+    ],
+    "primary_components": [
+      "schedule_simulate_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "CheckReport"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/epoch1_closedown_certified_baseline"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "QUALITY",
+    "mode_name": "QUALITY",
+    "output_packet_types": [
+      "QualityGateReport"
+    ],
+    "primary_components": [
+      "check_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "FederatedPacketEnvelope"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push7_lane_a_federation_data_maturity"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "FEDERATION",
+    "mode_name": "FEDERATION",
+    "output_packet_types": [
+      "DataMaturityScore"
+    ],
+    "primary_components": [
+      "approval_lifecycle_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "SyntheticFixture"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/push7_lane_a_federation_data_maturity"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "SYNTHETIC",
+    "mode_name": "SYNTHETIC",
+    "output_packet_types": [
+      "SyntheticPacket"
+    ],
+    "primary_components": [
+      "perception_media_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  },
+  {
+    "entry_packet_types": [
+      "AuditEvent"
+    ],
+    "eval_refs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/mode_eval_harness_report.json"
+    ],
+    "fixture_refs": [
+      "outputs/epoch1_closedown_certified_baseline"
+    ],
+    "limitations": [
+      "fixture-slot evaluation only; not model scoring"
+    ],
+    "mode_id": "GOVERN",
+    "mode_name": "GOVERN",
+    "output_packet_types": [
+      "GovernanceReport"
+    ],
+    "primary_components": [
+      "approval_lifecycle_agent"
+    ],
+    "required_authority": 1,
+    "required_check": true,
+    "status": "active"
+  }
+]

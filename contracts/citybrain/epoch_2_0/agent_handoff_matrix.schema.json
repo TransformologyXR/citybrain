@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": true,
+    "properties": {},
+    "required": [
+      "from_component",
+      "output_packet",
+      "to_component",
+      "input_packet",
+      "handoff_condition",
+      "required_check",
+      "required_authority",
+      "failure_behavior"
+    ],
+    "title": "AgentHandoffV1",
+    "type": "object"
+  },
+  "title": "AgentHandoffMatrixV1",
+  "type": "array"
+}

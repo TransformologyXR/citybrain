@@ -1,0 +1,8 @@
+{
+  "ask_diff_empty": true,
+  "base_ref": "origin/codex/epoch1-closedown-certified-baseline",
+  "r7_diff_empty": true,
+  "schema_version": "citybrain.epoch_2_0.no_sealed_artifact_drift_audit.v1",
+  "sealed_artifacts_touched": false,
+  "status": "PASS"
+}

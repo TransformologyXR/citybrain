@@ -1,0 +1,492 @@
+[
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "ask_resolver_renderer",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_ask_resolver_renderer_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "check_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_check_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "watch_scout",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_watch_scout_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "diff_scout",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_diff_scout_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "recall_matcher",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_recall_matcher_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "briefing_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_briefing_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "spatial_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_spatial_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "perception_media_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_perception_media_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "workflow_disposition_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_workflow_disposition_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "approval_lifecycle_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_approval_lifecycle_agent_v1",
+    "requires_authority_level": 3,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "plan_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_plan_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "schedule_simulate_agent",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "read",
+    "policy_id": "tool_policy_schedule_simulate_agent_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "epoch2_replay_harness",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "validate",
+    "policy_id": "tool_policy_epoch2_replay_harness_v1",
+    "requires_authority_level": 1,
+    "requires_check": true,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  },
+  {
+    "allowed_paths_or_domains": [
+      "contracts/citybrain/epoch_2_0",
+      "packages/citybrain_epoch_2_0",
+      "outputs/epoch_2_0_agentic_runtime_consolidation",
+      "git-ref:origin/codex/*"
+    ],
+    "allowed_source_classes": [
+      "local_replay",
+      "fixture",
+      "derived_field",
+      "synthetic"
+    ],
+    "component_id": "epoch2_mode_eval_harness",
+    "environment": "local_replay",
+    "forbidden_actions": [
+      "production_write",
+      "live_url_fetch",
+      "live_camera_connection",
+      "official_ticket_or_case_creation",
+      "dispatch_control_enforcement",
+      "legal_or_certified_finding",
+      "autonomous_execution",
+      "source_truth_mutation",
+      "secret_exposure"
+    ],
+    "max_calls": 25,
+    "permission": "validate",
+    "policy_id": "tool_policy_epoch2_mode_eval_harness_v1",
+    "requires_authority_level": 1,
+    "requires_check": false,
+    "secrets_allowed": false,
+    "timeout_seconds": 120,
+    "tool_id": "local_replay_fixture_and_report_io"
+  }
+]

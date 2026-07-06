@@ -1,0 +1,8 @@
+{
+  "emits": [
+    "AgentRunEnvelope",
+    "ReplayHarnessReport"
+  ],
+  "schema_version": "citybrain.epoch_2_0.replay_harness_manifest.v1",
+  "script": "scripts/run_citybrain_epoch_2_0_replay_harness.py"
+}

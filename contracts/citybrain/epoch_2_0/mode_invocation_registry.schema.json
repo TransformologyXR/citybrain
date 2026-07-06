@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": true,
+    "properties": {
+      "status": {
+        "enum": [
+          "active",
+          "fixture_only",
+          "pending_evidence",
+          "parked"
+        ]
+      }
+    },
+    "required": [
+      "mode_id",
+      "mode_name",
+      "status",
+      "entry_packet_types",
+      "output_packet_types",
+      "primary_components",
+      "required_check",
+      "required_authority",
+      "fixture_refs",
+      "eval_refs",
+      "limitations"
+    ],
+    "title": "ModeInvocationV1",
+    "type": "object"
+  },
+  "title": "ModeInvocationRegistryV1",
+  "type": "array"
+}

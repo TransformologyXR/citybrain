@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "required_non_claims": [
+    "no production API claim",
+    "no live source/camera claim",
+    "no official ticket/case/dispatch/enforcement/legal finding",
+    "no autonomous execution"
+  ],
+  "schema_version": "citybrain.epoch_2_0.no_official_action_audit.v1",
+  "status": "PASS"
+}

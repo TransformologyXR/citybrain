@@ -1,0 +1,8 @@
+{
+  "contracts": "contracts/citybrain/epoch_2_0",
+  "docs": "docs/epoch_2_0",
+  "outputs": "outputs/epoch_2_0_agentic_runtime_consolidation",
+  "registries": "packages/citybrain_epoch_2_0",
+  "schema_version": "citybrain.epoch_2_0.path_mapping.v1",
+  "source_of_truth_base": "origin/codex/epoch1-closedown-certified-baseline"
+}

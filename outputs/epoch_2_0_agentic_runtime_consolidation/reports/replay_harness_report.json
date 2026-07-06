@@ -1,0 +1,78 @@
+{
+  "agent_run_envelope": {
+    "authority_level": 1,
+    "budget": {
+      "max_llm_calls": 0,
+      "max_steps": 25,
+      "max_tool_calls": 25,
+      "policy_ref": "budget_policy_replay_harness_v1"
+    },
+    "check_report_refs": [
+      "check:v0:715dc894e7648b75",
+      "check:v0:640d6b87a4d77283"
+    ],
+    "component_id": "epoch2_replay_harness",
+    "component_version": "1.0",
+    "duration_ms": 0,
+    "ended_at": "2026-07-06T00:00:00Z",
+    "evidence_refs": [
+      "frame:r7a:sample-clip-002:000090",
+      "frame:r7a:west-gate-local-replay-clip:000420",
+      "source:r7a:replay-west-gate-001",
+      "source:r7a:sample-clip-002"
+    ],
+    "inputs": [
+      "origin/codex/push2-lane-c-app-review-route-disposition:APP_REVIEW_ROUTE_DISPOSITION_EVENT_FIXTURES.json",
+      "origin/codex/push2-lane-a-check-authority-v1:CHECK_REPORT_FIXTURES.json"
+    ],
+    "limitations": [
+      "branch-evidence replay only",
+      "no live runtime or external service",
+      "no official action"
+    ],
+    "next_lane": "Epoch 2.1A privacy/retention policy",
+    "outputs": [
+      "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json"
+    ],
+    "run_id": "agent-run:epoch2:replay:0001",
+    "schema_version": "citybrain.agent_run_envelope.v1",
+    "scope": "local_replay_review_query_only",
+    "started_at": "2026-07-06T00:00:00Z",
+    "status": "emitted",
+    "stop_condition_hit": null,
+    "tools_used": [
+      "git_ref_read",
+      "local_report_write"
+    ],
+    "trace_refs": [
+      "CandidateObservation/EventEnvelope",
+      "WATCH item",
+      "CHECK report",
+      "BRIEF/review route",
+      "DispositionEvent"
+    ],
+    "trigger": "epoch_2_0_closeout_replay"
+  },
+  "authority_refs": [
+    "AuthorityEnvelope refs preserved in CHECK/WATCH branch fixtures"
+  ],
+  "check_refs": [
+    "check:v0:715dc894e7648b75",
+    "check:v0:640d6b87a4d77283"
+  ],
+  "input_refs": [
+    "origin/codex/push2-lane-c-app-review-route-disposition:APP_REVIEW_ROUTE_DISPOSITION_EVENT_FIXTURES.json",
+    "origin/codex/push2-lane-a-check-authority-v1:CHECK_REPORT_FIXTURES.json"
+  ],
+  "limitations": [
+    "branch-evidence replay only",
+    "no live runtime or external service",
+    "no official action"
+  ],
+  "output_refs": [
+    "outputs/epoch_2_0_agentic_runtime_consolidation/reports/replay_harness_report.json"
+  ],
+  "scenario": "CandidateObservation/EventEnvelope -> WATCH -> CHECK -> BRIEF/review route -> DispositionEvent",
+  "schema_version": "citybrain.epoch_2_0.replay_harness_report.v1",
+  "status": "PASS"
+}

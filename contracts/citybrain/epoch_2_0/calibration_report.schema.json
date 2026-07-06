@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "source_class": {
+      "const": "derived_field"
+    }
+  },
+  "required": [
+    "calibration_report_id",
+    "subject",
+    "period",
+    "sample_size",
+    "aggregation_floor_respected",
+    "statistics",
+    "limitations",
+    "source_class",
+    "input_refs",
+    "created_at"
+  ],
+  "title": "CalibrationReportV1",
+  "type": "object"
+}
