@@ -1,0 +1,11 @@
+{
+  "allowed_existing_experimental_component_carried_forward": "forecast.permit_stall_v0.r1",
+  "artifact_id": "E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT",
+  "consuming_surfaces": [],
+  "experiment_run": false,
+  "new_model_created": false,
+  "new_training_rows_created": 0,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "reason_not_run": "Hybrid R1 prepares mechanical backlog and city-stratified requirements; it does not create a new learned forecast component.",
+  "status": "R2_PREFLIGHT_READY_EXPERIMENT_NOT_RUN"
+}

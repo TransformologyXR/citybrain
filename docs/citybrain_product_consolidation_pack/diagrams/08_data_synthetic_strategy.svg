@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880">
+<rect width="1500" height="880" fill="#f8fafc"/>
+<defs><marker id="arrow4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<text x="750" y="50" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">Dubai / Synthetic Data Strategy</text>
+<rect x="95" y="135" width="470" height="110" rx="18" fill="white" stroke="#16a34a" stroke-width="3"/>
+<text x="330" y="173" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#16a34a">Real anchors</text>
+<text x="330" y="203" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#475569">217 communities, polygons, IDs, roads,</text>
+<text x="330" y="221" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#475569">parcels, buildings, Makani when available</text>
+<line x1="565" y1="190" x2="720" y2="430" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="95" y="295" width="470" height="110" rx="18" fill="white" stroke="#2563eb" stroke-width="3"/>
+<text x="330" y="333" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#2563eb">Semi-clean source facts</text>
+<text x="330" y="363" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#475569">DLD transactions, DM permits/violations,</text>
+<text x="330" y="381" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#475569">RTA/DEWA public or sampled records</text>
+<line x1="565" y1="350" x2="720" y2="430" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="95" y="455" width="470" height="110" rx="18" fill="white" stroke="#d97706" stroke-width="3"/>
+<text x="330" y="493" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#d97706">Synthetic behavior</text>
+<text x="330" y="523" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#475569">events, statuses, incidents, workloads,</text>
+<text x="330" y="541" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" fill="#475569">alarms, lead-lag histories</text>
+<line x1="565" y1="510" x2="720" y2="430" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="650" y="350" width="250" height="150" rx="25" fill="#eef2ff" stroke="#7c3aed" stroke-width="4"/>
+<text x="775" y="405" font-family="Inter,Arial" font-size="24" font-weight="700" text-anchor="middle" fill="#7c3aed">Synthetic</text>
+<text x="775" y="435" font-family="Inter,Arial" font-size="24" font-weight="700" text-anchor="middle" fill="#7c3aed">Factory v1</text>
+<text x="775" y="468" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">validated before ingestion</text>
+<line x1="900" y1="430" x2="980" y2="150" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="980" y="95" width="430" height="105" rx="18" fill="white" stroke="#16a34a" stroke-width="3"/>
+<text x="1195" y="133" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#16a34a">Gold dataset</text>
+<text x="1195" y="165" font-family="Inter,Arial" font-size="16" text-anchor="middle" fill="#475569">clean canonical truth</text>
+<line x1="900" y1="430" x2="980" y2="300" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="980" y="245" width="430" height="105" rx="18" fill="white" stroke="#d97706" stroke-width="3"/>
+<text x="1195" y="283" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#d97706">Dirty source dataset</text>
+<text x="1195" y="315" font-family="Inter,Arial" font-size="16" text-anchor="middle" fill="#475569">messy departmental projections</text>
+<line x1="900" y1="430" x2="980" y2="450" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="980" y="395" width="430" height="105" rx="18" fill="white" stroke="#dc2626" stroke-width="3"/>
+<text x="1195" y="433" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#dc2626">Challenge dataset</text>
+<text x="1195" y="465" font-family="Inter,Arial" font-size="16" text-anchor="middle" fill="#475569">adversarial identity/relationship cases</text>
+<line x1="900" y1="430" x2="980" y2="600" stroke="#64748b" stroke-width="2" marker-end="url(#arrow4)"/>
+<rect x="980" y="545" width="430" height="105" rx="18" fill="white" stroke="#7c3aed" stroke-width="3"/>
+<text x="1195" y="583" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#7c3aed">Scenario dataset</text>
+<text x="1195" y="615" font-family="Inter,Arial" font-size="16" text-anchor="middle" fill="#475569">replayable demos and stress tests</text>
+<text x="750" y="815" font-family="Inter,Arial" font-size="17" text-anchor="middle" fill="#475569">The demo should be real where identity matters and synthetic where operational behavior is missing.</text>
+</svg>

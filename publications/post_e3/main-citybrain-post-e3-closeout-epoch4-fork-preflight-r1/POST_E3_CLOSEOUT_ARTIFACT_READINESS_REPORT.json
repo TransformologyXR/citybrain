@@ -1,0 +1,89 @@
+{
+  "artifact_count": 9,
+  "artifact_id": "POST_E3_CLOSEOUT_ARTIFACT_READINESS_REPORT",
+  "artifacts": [
+    {
+      "artifact_key": "closeout_decision",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_CLOSEOUT_DECISION.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_CLOSEOUT_DECISION.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CLOSEOUT_DECISION.json"
+    },
+    {
+      "artifact_key": "master_ledger",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_MASTER_LEDGER.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_MASTER_LEDGER.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_MASTER_LEDGER.json"
+    },
+    {
+      "artifact_key": "learned_component_registry_snapshot",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.json"
+    },
+    {
+      "artifact_key": "arming_handoff",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_ARMING_HANDOFF_TO_EPOCH4.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_ARMING_HANDOFF_TO_EPOCH4.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_ARMING_HANDOFF_TO_EPOCH4.json"
+    },
+    {
+      "artifact_key": "epoch4_fork_backlog",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_EPOCH4_FORK_DECISION_ROW.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_EPOCH4_FORK_DECISION_ROW.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_EPOCH4_FORK_DECISION_ROW.json"
+    },
+    {
+      "artifact_key": "fuel_reality",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_FUEL_REALITY_FINDING_ROW.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_FUEL_REALITY_FINDING_ROW.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_FUEL_REALITY_FINDING_ROW.json"
+    },
+    {
+      "artifact_key": "forecast_result_framing",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_FORECAST_RESULT_FRAMING_ROW.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_FORECAST_RESULT_FRAMING_ROW.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_FORECAST_RESULT_FRAMING_ROW.json"
+    },
+    {
+      "artifact_key": "no_forbidden_capability_audit",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_NO_FORBIDDEN_CAPABILITY_AUDIT.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_NO_FORBIDDEN_CAPABILITY_AUDIT.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_NO_FORBIDDEN_CAPABILITY_AUDIT.json"
+    },
+    {
+      "artifact_key": "closeout_limitations",
+      "durable_in_publication_home": true,
+      "fallback_available": true,
+      "filename": "E3_CLOSEOUT_LIMITATIONS.json",
+      "output_fallback_path": "outputs/epoch3_closeout_r1/E3_CLOSEOUT_LIMITATIONS.json",
+      "publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CLOSEOUT_LIMITATIONS.json"
+    }
+  ],
+  "created_at": "2026-07-07T10:52:18Z",
+  "durable_artifact_count": 9,
+  "e3_closeout_package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "e3_closeout_publication_home": "publications/epoch3",
+  "e3_closeout_publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1",
+  "e3_closeout_status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "limitation": null,
+  "missing_durable_artifacts": [],
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "publication_home_durable": true,
+  "status": "PASS_E3_CLOSEOUT_PUBLICATION_HOME_READY"
+}

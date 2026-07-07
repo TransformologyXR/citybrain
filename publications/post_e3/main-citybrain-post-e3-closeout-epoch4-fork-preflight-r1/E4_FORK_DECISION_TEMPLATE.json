@@ -1,0 +1,19 @@
+{
+  "allowed_values": [
+    "GO_LIVE_REVIEW_PILOT",
+    "NONLIVE_MECHANICAL_BACKLOG",
+    "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG",
+    "DEFER_EPOCH4_START"
+  ],
+  "codex_may_select_value": false,
+  "decision_id": "E4_FORK_DECISION",
+  "decision_owner": "human_product_owner",
+  "decision_rationale": null,
+  "decision_required": true,
+  "epoch4_started_by_this_template": false,
+  "notes": "Codex must not select this value automatically.",
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "selected_value": null,
+  "signed_at": null,
+  "signed_by": null
+}

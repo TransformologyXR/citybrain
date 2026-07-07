@@ -1,0 +1,194 @@
+{
+  "allowed_dispositions": [
+    "blocked_requires_live_or_human",
+    "deferred_epoch4_later",
+    "done",
+    "not_promotable",
+    "parking_lot",
+    "partially_done"
+  ],
+  "artifact_id": "E4_BACKLOG_DISPOSITION_LEDGER",
+  "classification_counts": {
+    "blocked_requires_live_or_human": 2,
+    "deferred_epoch4_later": 5,
+    "done": 5,
+    "not_promotable": 2,
+    "parking_lot": 2,
+    "partially_done": 5
+  },
+  "item_count": 21,
+  "items": [
+    {
+      "disposition": "blocked_requires_live_or_human",
+      "item_id": "final-nonlive:closeout:operator-fuel-deferred",
+      "next_ref": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "reason": "System is not live and explicit review sessions were not run for this package.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "closeout_affecting"
+    },
+    {
+      "disposition": "done",
+      "item_id": "final-nonlive:publication-home",
+      "next_ref": "E4_PUBLICATION_COVERAGE_REPORT.json",
+      "reason": "outputs/ is gitignored, so governance evidence can otherwise remain local-only.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "closeout_affecting"
+    },
+    {
+      "disposition": "done",
+      "item_id": "final-nonlive:l4-content-verified",
+      "next_ref": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "reason": "6 L4 candidates are content-backed, but no case-memory rows or learner are allowed here.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "epoch4_backlog"
+    },
+    {
+      "disposition": "parking_lot",
+      "item_id": "final-nonlive:l4-path-only",
+      "next_ref": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "reason": "2 L4 candidates have path/name lineage only.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "parking_lot"
+    },
+    {
+      "disposition": "done",
+      "item_id": "final-nonlive:check-descriptive-scorecard",
+      "next_ref": "E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json",
+      "reason": "Operator-resolved pairs are absent while the system is not live.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "epoch4_backlog"
+    },
+    {
+      "disposition": "partially_done",
+      "item_id": "final-nonlive:workflow-review-history",
+      "next_ref": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "reason": "9 workflow/review refs were found, but live operator fuel remains deferred.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "epoch4_backlog"
+    },
+    {
+      "disposition": "not_promotable",
+      "item_id": "final-nonlive:watch-ranking-unverified",
+      "next_ref": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+      "reason": "historical unverified signals are descriptive only",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "not_promotable"
+    },
+    {
+      "disposition": "done",
+      "item_id": "final-nonlive:simulation-backtest-inputs",
+      "next_ref": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "reason": "10 transition/backtest candidate families were classified without creating a forecast model.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "epoch4_backlog"
+    },
+    {
+      "disposition": "partially_done",
+      "item_id": "final-nonlive:identity-graph-eval",
+      "next_ref": "E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json",
+      "reason": "8 graph candidates were classified with zero canonical truth changes.",
+      "source": "final_nonlive_hidden_fuel_scout",
+      "source_classification": "epoch4_backlog"
+    },
+    {
+      "candidate_family": "watch_ranking_descriptive_signals",
+      "disposition": "not_promotable",
+      "item_id": "backlog:watch_ranking_descriptive_signals",
+      "next_ref": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "reason": "Bounded scout found refs/signals for Watch ranking descriptive signals; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "domain_pack_usefulness",
+      "disposition": "partially_done",
+      "item_id": "backlog:domain_pack_usefulness",
+      "next_ref": "E4_DOMAIN_PACK_USEFULNESS_REPORT.json",
+      "reason": "Bounded scout found refs/signals for domain-pack usefulness; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "simulation_backtest_inputs",
+      "disposition": "done",
+      "item_id": "backlog:simulation_backtest_inputs",
+      "next_ref": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "reason": "Bounded scout found refs/signals for simulation/backtest inputs; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "synthetic_gold_dirty_challenge_scenario_gaps",
+      "disposition": "deferred_epoch4_later",
+      "item_id": "backlog:synthetic_gold_dirty_challenge_scenario_gaps",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "reason": "Bounded scout found refs/signals for synthetic/gold/dirty/challenge/scenario gaps; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "operator_fuel_program_health",
+      "disposition": "blocked_requires_live_or_human",
+      "item_id": "backlog:operator_fuel_program_health",
+      "next_ref": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "reason": "Bounded scout found refs/signals for operator/fuel-program health; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "source_refresh_longitudinal_gaps",
+      "disposition": "deferred_epoch4_later",
+      "item_id": "backlog:source_refresh_longitudinal_gaps",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "reason": "Bounded scout found refs/signals for source-refresh longitudinal gaps; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "federation_cross_city_comparable_artifacts",
+      "disposition": "parking_lot",
+      "item_id": "backlog:federation_cross_city_comparable_artifacts",
+      "next_ref": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "reason": "Bounded scout found refs/signals for federation/cross-city comparable artifacts; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "data_quality_maturity_diagnostics",
+      "disposition": "deferred_epoch4_later",
+      "item_id": "backlog:data_quality_maturity_diagnostics",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "reason": "Bounded scout found refs/signals for data quality/maturity diagnostics; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "spatial_omniverse_traces",
+      "disposition": "partially_done",
+      "item_id": "backlog:spatial_omniverse_traces",
+      "next_ref": "E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json",
+      "reason": "Bounded scout found refs/signals for spatial/Omniverse traces; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "workflow_review_state_history",
+      "disposition": "partially_done",
+      "item_id": "backlog:workflow_review_state_history",
+      "next_ref": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "reason": "Bounded scout found refs/signals for workflow/review-state history; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "brief_export_usefulness",
+      "disposition": "deferred_epoch4_later",
+      "item_id": "backlog:brief_export_usefulness",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "reason": "Bounded scout found refs/signals for brief/export usefulness; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    },
+    {
+      "candidate_family": "plan_schedule_optimize_review_options",
+      "disposition": "deferred_epoch4_later",
+      "item_id": "backlog:plan_schedule_optimize_review_options",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "reason": "Bounded scout found refs/signals for Plan/Schedule/Optimize review options; deeper package should materialize only governed diagnostics or fixtures.",
+      "source": "hidden_data_scout_master"
+    }
+  ],
+  "no_second_generation_scouts_launched": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "PASS_ALL_BACKLOG_ITEMS_CLASSIFIED",
+  "unclassified_item_count": 0
+}

@@ -1,0 +1,12 @@
+{
+  "artifact_id": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT",
+  "eligibility_rule": "Count only human verified records with exposure linkage, valid operator/session metadata, and terminal disposition.",
+  "eligible_human_training_fuel_records": 0,
+  "human_review_inbox_files": [],
+  "human_review_records_found": 0,
+  "human_sessions_pending": true,
+  "invalid_or_noneligible_records": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "pseudo_dry_run_records_counted_as_training_fuel": 0,
+  "status": "PILOT_READY_AND_DRY_RUN_COMPLETE_HUMAN_SESSIONS_PENDING"
+}

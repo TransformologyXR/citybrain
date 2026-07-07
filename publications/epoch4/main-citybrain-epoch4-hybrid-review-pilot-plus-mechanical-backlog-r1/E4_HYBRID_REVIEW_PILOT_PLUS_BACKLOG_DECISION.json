@@ -1,0 +1,13 @@
+{
+  "artifact_id": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION",
+  "epoch4_started": true,
+  "limitations_ref": "E4_HYBRID_LIMITATIONS.json",
+  "mechanical_backlog_status": "CLEARED_WITH_LIMITATIONS",
+  "no_forbidden_capabilities": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "preconditions_passed": true,
+  "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1",
+  "review_pilot_status": "PILOT_READY_AND_DRY_RUN_COMPLETE_HUMAN_SESSIONS_PENDING",
+  "selected_fork": "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG",
+  "status": "PASS_E4_HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG_R1_WITH_LIMITATIONS"
+}

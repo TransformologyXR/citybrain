@@ -1,0 +1,60 @@
+{
+  "artifact_id": "E4_REVIEW_PILOT_DRY_RUN_REPORT",
+  "counts_toward_production_training_fuel": false,
+  "dry_run_queue_items": 12,
+  "dry_run_sessions": [
+    {
+      "eligible_families": [
+        "asset_state",
+        "traffic_flow",
+        "review_backlog",
+        "public_safety_boundary"
+      ],
+      "holdout_families": [
+        "media_candidate"
+      ],
+      "operator_ref": "operator:pseudo:001",
+      "planned_items": 12,
+      "session_id": "e4:pilot:dryrun:session:001",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "eligible_families": [
+        "asset_state",
+        "traffic_flow",
+        "review_backlog",
+        "public_safety_boundary"
+      ],
+      "holdout_families": [
+        "media_candidate"
+      ],
+      "operator_ref": "operator:pseudo:002",
+      "planned_items": 12,
+      "session_id": "e4:pilot:dryrun:session:002",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "eligible_families": [
+        "asset_state",
+        "traffic_flow",
+        "review_backlog",
+        "public_safety_boundary"
+      ],
+      "holdout_families": [
+        "media_candidate"
+      ],
+      "operator_ref": "operator:pseudo:003",
+      "planned_items": 12,
+      "session_id": "e4:pilot:dryrun:session:003",
+      "training_fuel_policy": "dry_run_non_training"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "pseudo_operator_refs": [
+    "operator:pseudo:001",
+    "operator:pseudo:002",
+    "operator:pseudo:003"
+  ],
+  "status": "PASS_DRY_RUN_NON_TRAINING",
+  "training_fuel_policy": "dry_run_non_training"
+}

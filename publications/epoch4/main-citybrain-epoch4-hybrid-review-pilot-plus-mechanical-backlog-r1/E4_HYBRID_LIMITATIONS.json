@@ -1,0 +1,16 @@
+{
+  "artifact_id": "E4_HYBRID_LIMITATIONS",
+  "limitations": [
+    "Human review sessions are pending unless verified human review files are supplied.",
+    "Dry-run and pseudo-operator records do not count as production training fuel.",
+    "R3A/R3B/L4 remain evaluator-gated and unarmed by this package.",
+    "L2 forecast work remains offline planning; no product forecast surface or ForecastPacket is created.",
+    "Transition target label definitions are published, but no training rows are materialized from current-only snapshots.",
+    "CHECK scorecard is descriptive only because operator-resolved pairs are absent.",
+    "Case stubs are retrieval-only and do not create a case-memory learner.",
+    "Dynamic investigation, cross-city learned transfer, official action, dispatch, enforcement, and legal/certified findings remain forbidden."
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "review_pilot_status": "PILOT_READY_AND_DRY_RUN_COMPLETE_HUMAN_SESSIONS_PENDING",
+  "status": "LIMITATIONS_RECORDED"
+}

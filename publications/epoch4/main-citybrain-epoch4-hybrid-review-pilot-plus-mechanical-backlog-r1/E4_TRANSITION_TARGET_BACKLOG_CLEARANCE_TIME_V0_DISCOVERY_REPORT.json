@@ -1,0 +1,24 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_DISCOVERY_REPORT",
+  "dated_transition_pairs_found": 0,
+  "lineage_strength": "strong_candidate_lineage",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "single_snapshot_conversion_allowed": false,
+  "source_refs_sample": [
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_CALIBRATION_HARDENING_START_REPORT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_OUTCOME_LEDGER_HARDENING_START_REPORT.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_TRAINING_ELIGIBILITY_RULES_REPORT.json",
+    "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_FUEL_GAUGE_BASELINE_REPORT.md",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ENTRY_GATE_DECISION.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_METRICS_RECONCILIATION_REPORT.json",
+    "outputs/epoch3_day1_instrumentation_and_harness_r1/E3_ARMING_STATUS_WATCH_FAMILY_REPORT.json"
+  ],
+  "status": "DISCOVERY_COMPLETE_WITH_LIMITATIONS",
+  "target_id": "backlog_clearance_time_v0",
+  "temporal_field_evidence": [
+    "created_at",
+    "surfaced_at"
+  ],
+  "temporal_fields_present": true
+}

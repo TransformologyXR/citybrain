@@ -1,0 +1,32 @@
+{
+  "codex_work_can_substitute_for_operator_dispositions": false,
+  "deferred_capabilities": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "PRODUCT_FORECAST_SURFACE",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "evaluator_inherited": true,
+  "fuel_gauge_snapshot_chain_inherited": true,
+  "handoff_id": "E4_ARMING_INHERITANCE_HANDOFF",
+  "inherited_infrastructure": [
+    "arming_status_evaluator",
+    "fuel_gauge_snapshot_chain",
+    "threshold_definitions",
+    "no_model_guard_cadence",
+    "exploration_floor",
+    "holdout_policy",
+    "no_same_run_release_rule"
+  ],
+  "inherits_from": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "no_model_guard_cadence_inherited": true,
+  "operator_paced_fuel_program": "blocked_until_live_or_structured_review_pilot",
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "ranking_memory_loop_fuel_requirement": "live_or_structured_review_operator_dispositions",
+  "source_artifact": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_ARMING_HANDOFF_TO_EPOCH4.json",
+  "threshold_changes_require_governance_delta": true,
+  "thresholds_changed": false,
+  "thresholds_inherited": true
+}

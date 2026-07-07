@@ -1,0 +1,9 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_SUFFICIENCY_REPORT",
+  "blocking_reason": "Dated transition-pair depth is not yet sufficient.",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "INSUFFICIENT_FOR_TRAINING_OR_BASELINE",
+  "sufficient_for_backtest": false,
+  "sufficient_for_model_training": false,
+  "target_id": "incident_duration_v0"
+}

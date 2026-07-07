@@ -1,0 +1,9 @@
+{
+  "artifact_id": "E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT",
+  "candidate_count": 8,
+  "canonical_truth_changes": 0,
+  "learned_graph_transfer_created": false,
+  "next_action": "Promote only governed evaluation fixtures after source and ambiguity checks.",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "PARTIALLY_DONE_FIXTURE_CANDIDATES_CLASSIFIED"
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_id": "E4_DOMAIN_PACK_USEFULNESS_REPORT",
+  "domain_pack_dimensions": [
+    "coverage",
+    "source_class_presence",
+    "outcome_lineage",
+    "review_readiness"
+  ],
+  "model_training_created": false,
+  "operator_fuel_counted": 0,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "PARTIALLY_DONE_DESCRIPTIVE_METRICS_ONLY"
+}

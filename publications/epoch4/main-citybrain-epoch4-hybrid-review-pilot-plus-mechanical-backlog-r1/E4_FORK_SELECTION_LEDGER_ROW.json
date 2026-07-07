@@ -1,0 +1,12 @@
+{
+  "artifact_id": "E4_FORK_SELECTION_LEDGER_ROW",
+  "blocked_reason": null,
+  "epoch4_started": true,
+  "inherited_thresholds_ref": "E4_INHERITED_ARMING_BASELINE.json",
+  "ledger_note": "Epoch 4 hybrid path selected; all deferred capabilities remain evaluator-gated.",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "preconditions_passed": true,
+  "selected_fork": "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG",
+  "selection_evidence": "User supplied the E4 hybrid master-executor package and requested execution.",
+  "selection_source": "explicit_user_selection_in_chat"
+}

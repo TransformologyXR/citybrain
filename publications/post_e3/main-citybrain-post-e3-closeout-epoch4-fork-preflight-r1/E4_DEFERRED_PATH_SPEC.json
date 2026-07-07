@@ -1,0 +1,22 @@
+{
+  "arming_effect": "No new fuel and no new Epoch 4 capability arming.",
+  "can_arm_r3a_r3b_l4_from_codex_only": false,
+  "epoch4_started_by_this_package": false,
+  "first_package_candidates_after_selection": [
+    "MAIN-CITYBRAIN-POST-E3-PUBLICATION-MAINTENANCE-R1"
+  ],
+  "human_selection_required": true,
+  "maintenance_scope": [
+    "publication-home integrity checks",
+    "hash and line-ending stability checks",
+    "no-model guard cadence"
+  ],
+  "nonlive_mechanical_work_allowed": false,
+  "operator_or_structured_review_fuel_can_accumulate": false,
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "path_id": "DEFER_EPOCH4_START",
+  "product_forecast_surface_allowed": false,
+  "ranking_memory_loops_require_operator_dispositions": true,
+  "selected_by_this_package": false,
+  "summary": "Do not start Epoch 4 execution; maintain publication and arming infrastructure only."
+}

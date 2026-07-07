@@ -1,0 +1,20 @@
+{
+  "artifact_id": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW",
+  "boundary_outcome": "hybrid_path_started_no_product_or_learned_capabilities_armed",
+  "mechanical_backlog_status": "CLEARED_WITH_LIMITATIONS",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "proof_artifacts": [
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_FORK_SELECTION_LEDGER_ROW.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_INHERITED_ARMING_BASELINE.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_BACKLOG_DISPOSITION_LEDGER.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PUBLICATION_COVERAGE_REPORT.json",
+    "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+  ],
+  "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1",
+  "review_pilot_status": "PILOT_READY_AND_DRY_RUN_COMPLETE_HUMAN_SESSIONS_PENDING",
+  "selected_fork": "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG",
+  "status": "PASS_E4_HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG_R1_WITH_LIMITATIONS"
+}

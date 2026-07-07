@@ -1,0 +1,14 @@
+{
+  "artifact_id": "POST_E3_EPOCH4_FORK_LIMITATIONS",
+  "limitations": [
+    "This package does not choose the Epoch 4 fork.",
+    "Epoch 4 is not started automatically.",
+    "The system is not live; operator-paced fuel remains blocked unless a live or structured-review pilot is selected.",
+    "Non-live mechanical work can proceed but cannot arm R3A/R3B or L4 operator-fuel-dependent capabilities.",
+    "The existing L2 forecast component remains experimental, frozen-replay-only, and not product deployable.",
+    "City divergence requires city-stratified forecast improvement before any future forecast authority work.",
+    "Dynamic investigation and cross-city learned transfer remain parked."
+  ],
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "status": "LIMITATIONS_RECORDED"
+}

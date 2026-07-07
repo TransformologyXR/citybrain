@@ -1,0 +1,21 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_DISCOVERY_REPORT",
+  "dated_transition_pairs_found": 0,
+  "lineage_strength": "strong_candidate_lineage",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "single_snapshot_conversion_allowed": false,
+  "source_refs_sample": [
+    "outputs/epoch3_master_execution_r1/E3_L2_R1_TARGET_LABEL_DEFINITION_ROW.json",
+    "scripts/run_epoch3_master_execution_r1.py",
+    "outputs/main_track2a_d4x_omniverse_kit_interaction_smoke_r1/README.md",
+    "outputs/main_track2a_d4x_omniverse_composer_selection_debug_r1/KIT_READY_EXTENSION_ROOT/txr.citybrain.selection_inspector/README.md",
+    "outputs/main_track2a_d4x_omniverse_kit_selection_extension_preflight_r1/OMNIVERSE_KIT_SELECTION_CARD_SCHEMA.json",
+    "outputs/synthetic_data_factory_d1_framework_and_seed_pack/README.md",
+    "outputs/main_track2a_d4x_omniverse_kit_composer_gui_smoke_r2/BOUNDARY_AUDIT.json",
+    "outputs/main_track2a_d4x_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_BOUNDARY_AUDIT.json"
+  ],
+  "status": "DISCOVERY_COMPLETE_WITH_LIMITATIONS",
+  "target_id": "inspection_delay_v0",
+  "temporal_field_evidence": [],
+  "temporal_fields_present": false
+}

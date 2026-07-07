@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1550" height="910" viewBox="0 0 1550 910">
+<rect width="1550" height="910" fill="#f8fafc"/>
+<text x="775" y="50" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">Scenario / Flow Portfolio</text>
+<rect x="95" y="105" width="1360" height="76" rx="16" fill="white" stroke="#2563eb" stroke-width="2"/>
+<rect x="95" y="105" width="130" height="76" rx="16" fill="#2563eb"/>
+<text x="160" y="151" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 1</text>
+<text x="250" y="135" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Situational status</text>
+<text x="250" y="162" font-family="Inter,Arial" font-size="15" fill="#475569">Descriptive · Donor: NYC/Dubai · Cheap next cartridge; status of area X.</text>
+<rect x="95" y="210" width="1360" height="76" rx="16" fill="white" stroke="#16a34a" stroke-width="2"/>
+<rect x="95" y="210" width="130" height="76" rx="16" fill="#16a34a"/>
+<text x="160" y="256" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 2</text>
+<text x="250" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Construction compliance cascade</text>
+<text x="250" y="267" font-family="Inter,Arial" font-size="15" fill="#475569">Reactive / golden path · Donor: Dubai + NYC · Deep thread: vision -&gt; graph -&gt; evidence -&gt; option/brief.</text>
+<rect x="95" y="315" width="1360" height="76" rx="16" fill="white" stroke="#7c3aed" stroke-width="2"/>
+<rect x="95" y="315" width="130" height="76" rx="16" fill="#7c3aed"/>
+<text x="160" y="361" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 3</text>
+<text x="250" y="345" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Resilient city: fire + road + air</text>
+<text x="250" y="372" font-family="Inter,Arial" font-size="15" fill="#475569">Reactive · Donor: London · Not yet proven as Flow 3; London foundation exists.</text>
+<rect x="95" y="420" width="1360" height="76" rx="16" fill="white" stroke="#d97706" stroke-width="2"/>
+<rect x="95" y="420" width="130" height="76" rx="16" fill="#d97706"/>
+<text x="160" y="466" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 4</text>
+<text x="250" y="450" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Crowd surge / major event</text>
+<text x="250" y="477" font-family="Inter,Arial" font-size="15" fill="#475569">Proactive · Donor: Melbourne/Singapore · Needs LTA/key and event/crowd data depth.</text>
+<rect x="95" y="525" width="1360" height="76" rx="16" fill="white" stroke="#0891b2" stroke-width="2"/>
+<rect x="95" y="525" width="130" height="76" rx="16" fill="#0891b2"/>
+<text x="160" y="571" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 5</text>
+<text x="250" y="555" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Flood / asset dependency cascade</text>
+<text x="250" y="582" font-family="Inter,Arial" font-size="15" fill="#475569">Proactive / forecast · Donor: NYC/London/ERA5 · Requires flood/weather/water/energy simulation.</text>
+<rect x="95" y="630" width="1360" height="76" rx="16" fill="white" stroke="#dc2626" stroke-width="2"/>
+<rect x="95" y="630" width="130" height="76" rx="16" fill="#dc2626"/>
+<text x="160" y="676" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 6</text>
+<text x="250" y="660" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Planned shutdown sequencing</text>
+<text x="250" y="687" font-family="Inter,Arial" font-size="15" fill="#475569">Proactive / domain swap · Donor: Oil &amp; gas cartridge · Powerful story but separate domain pack.</text>
+<rect x="95" y="735" width="1360" height="76" rx="16" fill="white" stroke="#16a34a" stroke-width="2"/>
+<rect x="95" y="735" width="130" height="76" rx="16" fill="#16a34a"/>
+<text x="160" y="781" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="white">Flow 7</text>
+<text x="250" y="765" font-family="Inter,Arial" font-size="20" font-weight="700" fill="#0f172a">Civic service + sensor fusion</text>
+<text x="250" y="792" font-family="Inter,Arial" font-size="15" fill="#475569">Reactive · Donor: Chicago · Strong flat-file/civic proof candidate.</text>
+</svg>

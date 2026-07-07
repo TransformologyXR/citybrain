@@ -1,0 +1,304 @@
+{
+  "armed_now": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "artifact_id": "E4_INHERITED_ARMING_BASELINE",
+  "conditionally_armed_thresholds": {
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT": {
+      "arming_semantics": "MAY_BEGIN_AFTER_ARMING_LEDGER_ROW",
+      "operator_surface": false,
+      "requires": [
+        {
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          },
+          "id": "R3A_TOTAL_DISPOSITIONS",
+          "metric": "outcome.terminal_dispositions.count",
+          "op": ">=",
+          "value": 100
+        },
+        {
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          },
+          "id": "R3A_OPERATOR_DIVERSITY",
+          "metric": "outcome.operator_refs.distinct_count",
+          "op": ">=",
+          "value": 3
+        },
+        {
+          "id": "R3A_WATCH_FAMILY_DIVERSITY",
+          "metric": "watch.families.distinct_count",
+          "op": ">=",
+          "value": 3
+        },
+        {
+          "id": "R3A_DOMAIN_PACK_DIVERSITY",
+          "metric": "domain_packs.distinct_count",
+          "op": ">=",
+          "value": 2
+        },
+        {
+          "id": "R3A_LABEL_SET",
+          "metric": "label_set.terminal_disposition_values",
+          "op": "contains_all",
+          "value": [
+            "confirmed",
+            "dismissed",
+            "needs_more"
+          ]
+        },
+        {
+          "id": "R3A_EXPLORATION_FLOOR",
+          "metric": "watch.exploration_floor.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_STATIC_HOLDOUTS",
+          "metric": "watch.static_holdout_families.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_FROZEN_REPLAY",
+          "metric": "replay.frozen_slice.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_REGISTRY_ENTRY_EXISTS",
+          "metric": "registry.learned_component.ranker_l1_r3a.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_REGISTRY_STATUS",
+          "metric": "registry.learned_component.ranker_l1_r3a.status",
+          "op": "==",
+          "value": "experimental"
+        },
+        {
+          "id": "R3A_NO_CONSUMING_SURFACES",
+          "metric": "registry.learned_component.ranker_l1_r3a.consuming_surfaces_count",
+          "op": "==",
+          "value": 0
+        },
+        {
+          "id": "R3A_AUTHORITY",
+          "metric": "registry.learned_component.ranker_l1_r3a.authority",
+          "op": "==",
+          "value": "offline_eval_only"
+        },
+        {
+          "id": "R3A_FULL_CORPUS_DISCOVERY_GREEN",
+          "metric": "corpus.full_discovery.status",
+          "op": "==",
+          "value": "green"
+        }
+      ]
+    },
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING": {
+      "arming_semantics": "MAY_BEGIN_AFTER_ARMING_LEDGER_ROW",
+      "operator_surface": true,
+      "requires": [
+        {
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          },
+          "id": "R3B_TOTAL_DISPOSITIONS",
+          "metric": "outcome.terminal_dispositions.count",
+          "op": ">=",
+          "value": 200
+        },
+        {
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          },
+          "id": "R3B_OPERATOR_DIVERSITY",
+          "metric": "outcome.operator_refs.distinct_count",
+          "op": ">=",
+          "value": 3
+        },
+        {
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          },
+          "id": "R3B_MIN_PER_OPERATOR",
+          "metric": "outcome.min_terminal_dispositions_per_operator",
+          "op": ">=",
+          "value": 20
+        },
+        {
+          "id": "R3B_WATCH_FAMILY_DIVERSITY",
+          "metric": "watch.families.distinct_count",
+          "op": ">=",
+          "value": 3
+        },
+        {
+          "id": "R3B_DOMAIN_PACK_DIVERSITY",
+          "metric": "domain_packs.distinct_count",
+          "op": ">=",
+          "value": 2
+        },
+        {
+          "id": "R3B_MIN_PER_ARMED_FAMILY",
+          "metric": "outcome.min_terminal_dispositions_per_armed_family",
+          "op": ">=",
+          "value": 40
+        },
+        {
+          "id": "R3B_AGGREGATION_FLOOR",
+          "metric": "operator_data.aggregation_floor.satisfied",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_EXPOSURE_COVERAGE",
+          "metric": "watch.exposure_logging.coverage",
+          "op": "==",
+          "value": "all_training_candidates"
+        },
+        {
+          "id": "R3B_EXPLORATION_FLOOR",
+          "metric": "watch.exploration_floor.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_STATIC_HOLDOUTS",
+          "metric": "watch.static_holdout_families.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_RANKER_OFF_REPLAY",
+          "metric": "ranker_off_replay.available",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_CHECK_REGRESSION",
+          "metric": "check.claimability_regression",
+          "op": "==",
+          "value": "green"
+        },
+        {
+          "id": "R3B_NO_OFFICIAL_ACTION",
+          "metric": "boundary.no_official_action_claims",
+          "op": "==",
+          "value": true
+        }
+      ]
+    },
+    "L2.R2_FORECAST_MODEL": {
+      "arming_semantics": "MAY_BEGIN_AFTER_ARMING_LEDGER_ROW",
+      "operator_surface": false,
+      "requires": [
+        {
+          "id": "L2R2_BACKTEST_REPORT",
+          "metric": "BacktestReport.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_LABEL_HISTORY",
+          "metric": "forecast_target.labels_or_proxy_history.sufficient",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_FROZEN_EVAL_SLICE",
+          "metric": "frozen_eval_slice.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_BASELINE_COMPARATOR",
+          "metric": "baseline.do_nothing_comparator.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_UNCERTAINTY_SCHEMA",
+          "metric": "uncertainty_schema.approved",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_FORECAST_CHECK_GATE",
+          "metric": "ForecastPacket.check_gate.exists",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  "e3_handoff_ref": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_ARMING_HANDOFF_TO_EPOCH4.json",
+  "evaluator_id": "epoch3_arming_status",
+  "evaluator_inherited": true,
+  "evaluator_is_only_arming_authority": true,
+  "inherits_from": [
+    "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+    "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1"
+  ],
+  "latest_snapshot_ref": "outputs/epoch3_master_execution_r1/E3_MASTER_EXECUTION_R1_ARMING_STATUS_SNAPSHOT.json",
+  "not_armed": {
+    "CROSS_CITY_LEARNED_TRANSFER": [
+      "CROSS_CITY_LEARNED_TRANSFER_EXPLICITLY_DEFERRED"
+    ],
+    "DYNAMIC_INVESTIGATION_AGENT": [
+      "DYNAMIC_INVESTIGATION_EXPLICITLY_DEFERRED"
+    ],
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT": [
+      "R3A_TOTAL_DISPOSITIONS",
+      "R3A_OPERATOR_DIVERSITY",
+      "R3A_LABEL_SET",
+      "R3A_EXPLORATION_FLOOR",
+      "R3A_STATIC_HOLDOUTS",
+      "R3A_FROZEN_REPLAY",
+      "R3A_REGISTRY_ENTRY_EXISTS",
+      "R3A_REGISTRY_STATUS",
+      "R3A_NO_CONSUMING_SURFACES",
+      "R3A_AUTHORITY"
+    ],
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING": [
+      "R3B_TOTAL_DISPOSITIONS",
+      "R3B_OPERATOR_DIVERSITY",
+      "R3B_MIN_PER_OPERATOR",
+      "R3B_MIN_PER_ARMED_FAMILY",
+      "R3B_AGGREGATION_FLOOR",
+      "R3B_RANKER_OFF_REPLAY",
+      "R3B_CHECK_REGRESSION"
+    ],
+    "L2.R2_FORECAST_MODEL": [
+      "L2R2_LABEL_HISTORY_SUFFICIENT",
+      "L2R2_MODEL_AUTHORITY_NOT_GRANTED",
+      "L2R2_FORECAST_MODEL_EXPLICITLY_DEFERRED"
+    ],
+    "L3_COUNTERFACTUAL": [
+      "L3_LEARNED_OR_SIMULATION_RELEASE_NOT_REQUESTED"
+    ],
+    "L4_CASE_MEMORY": [
+      "L4_AGGREGATION_FLOOR_CURRENT",
+      "L4_RUNTIME_CASE_MEMORY_AUTHORITY",
+      "L4_PRODUCTION_RELEASE_NOT_REQUESTED"
+    ]
+  },
+  "operator_paced_fuel_program": "blocked_until_live_or_structured_review_pilot",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "post_e3_handoff_ref": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_ARMING_INHERITANCE_HANDOFF.json",
+  "threshold_changes_require_governance_delta": true,
+  "threshold_crossing_does_not_start_work_in_same_run": true,
+  "thresholds_inherited_unchanged": true
+}

@@ -1,0 +1,614 @@
+{
+  "artifact_id": "LINE_ENDING_REPORT",
+  "checked_files": [
+    {
+      "bytes": 9179,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_BACKLOG_DISPOSITION_LEDGER.json"
+    },
+    {
+      "bytes": 408,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CHECK_CALIBRATION_LIMITATION_ROW.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json"
+    },
+    {
+      "bytes": 2019,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 390,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_DOMAIN_PACK_USEFULNESS_REPORT.json"
+    },
+    {
+      "bytes": 618,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_FORK_SELECTION_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 1065,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_LIMITATIONS.json"
+    },
+    {
+      "bytes": 712,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+    },
+    {
+      "bytes": 1545,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 405,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json"
+    },
+    {
+      "bytes": 9143,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_INHERITED_ARMING_BASELINE.json"
+    },
+    {
+      "bytes": 669,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS.json"
+    },
+    {
+      "bytes": 1018,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_FORECAST_IMPROVEMENT_PLAN.json"
+    },
+    {
+      "bytes": 576,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT.json"
+    },
+    {
+      "bytes": 504,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_TRANSITION_TARGET_BATCH_REPORT.json"
+    },
+    {
+      "bytes": 5659,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L4_CASE_STUBS.jsonl"
+    },
+    {
+      "bytes": 709,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 376,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_LLM_SEAT_USEFULNESS_SCORECARD.json"
+    },
+    {
+      "bytes": 1058,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "bytes": 866,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 393,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json"
+    },
+    {
+      "bytes": 880,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PRECONDITION_CHECK_REPORT.json"
+    },
+    {
+      "bytes": 14659,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PUBLICATION_COVERAGE_REPORT.json"
+    },
+    {
+      "bytes": 1642,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_DRY_RUN_REPORT.json"
+    },
+    {
+      "bytes": 607,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json"
+    },
+    {
+      "bytes": 627,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_PROTOCOL.json"
+    },
+    {
+      "bytes": 4981,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_QUEUE_MANIFEST.json"
+    },
+    {
+      "bytes": 1584,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_SESSION_PLAN.json"
+    },
+    {
+      "bytes": 594,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_SIMULATION_BACKTEST_INPUT_CATALOG.json"
+    },
+    {
+      "bytes": 316,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1321,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 595,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 469,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 427,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 306,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1152,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 580,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 459,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 417,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 304,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1246,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 594,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 457,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 415,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 3533,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION.json"
+    },
+    {
+      "bytes": 324,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1210,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 607,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 477,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 435,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 306,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1425,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 597,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 459,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 417,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 494,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json"
+    },
+    {
+      "bytes": 305,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json"
+    },
+    {
+      "bytes": 14844,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 24237,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 501,
+      "crlf_count": 0,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/README.md"
+    },
+    {
+      "bytes": 9179,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_BACKLOG_DISPOSITION_LEDGER.json"
+    },
+    {
+      "bytes": 408,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_CHECK_CALIBRATION_LIMITATION_ROW.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json"
+    },
+    {
+      "bytes": 2019,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_CORPUS_DELTA.json"
+    },
+    {
+      "bytes": 390,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_DOMAIN_PACK_USEFULNESS_REPORT.json"
+    },
+    {
+      "bytes": 618,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_FORK_SELECTION_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 1065,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_HYBRID_LIMITATIONS.json"
+    },
+    {
+      "bytes": 712,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+    },
+    {
+      "bytes": 1545,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 405,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json"
+    },
+    {
+      "bytes": 9143,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_INHERITED_ARMING_BASELINE.json"
+    },
+    {
+      "bytes": 669,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS.json"
+    },
+    {
+      "bytes": 1018,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_FORECAST_IMPROVEMENT_PLAN.json"
+    },
+    {
+      "bytes": 576,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT.json"
+    },
+    {
+      "bytes": 504,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_TRANSITION_TARGET_BATCH_REPORT.json"
+    },
+    {
+      "bytes": 5659,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L4_CASE_STUBS.jsonl"
+    },
+    {
+      "bytes": 709,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 376,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_LLM_SEAT_USEFULNESS_SCORECARD.json"
+    },
+    {
+      "bytes": 1058,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "bytes": 866,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 393,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json"
+    },
+    {
+      "bytes": 880,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_PRECONDITION_CHECK_REPORT.json"
+    },
+    {
+      "bytes": 14659,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_PUBLICATION_COVERAGE_REPORT.json"
+    },
+    {
+      "bytes": 1642,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_DRY_RUN_REPORT.json"
+    },
+    {
+      "bytes": 607,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json"
+    },
+    {
+      "bytes": 627,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_PROTOCOL.json"
+    },
+    {
+      "bytes": 4981,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_QUEUE_MANIFEST.json"
+    },
+    {
+      "bytes": 1584,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_SESSION_PLAN.json"
+    },
+    {
+      "bytes": 594,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_SIMULATION_BACKTEST_INPUT_CATALOG.json"
+    },
+    {
+      "bytes": 316,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1321,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 595,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 469,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 427,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 306,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1152,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 580,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 459,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 417,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 304,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1246,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 594,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 457,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 415,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 3533,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION.json"
+    },
+    {
+      "bytes": 324,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1210,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 607,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 477,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 435,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 306,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_BASELINE_REPORT.json"
+    },
+    {
+      "bytes": 1425,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_DISCOVERY_REPORT.json"
+    },
+    {
+      "bytes": 597,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_LABEL_DEFINITION_ROW.json"
+    },
+    {
+      "bytes": 459,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "bytes": 417,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_SUFFICIENCY_REPORT.json"
+    },
+    {
+      "bytes": 494,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json"
+    },
+    {
+      "bytes": 305,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json"
+    },
+    {
+      "bytes": 14844,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 24237,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 9197,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 501,
+      "crlf_count": 0,
+      "path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-07T10:52:20Z",
+  "crlf_paths": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "PASS_LF_STABLE_FOR_E4_HYBRID_R1"
+}

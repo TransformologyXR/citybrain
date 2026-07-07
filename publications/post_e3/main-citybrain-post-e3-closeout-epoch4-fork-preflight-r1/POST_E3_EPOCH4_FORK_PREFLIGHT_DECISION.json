@@ -1,0 +1,21 @@
+{
+  "artifact_id": "POST_E3_EPOCH4_FORK_PREFLIGHT_DECISION",
+  "closeout_type": "POST_E3_PREPARATION_NOT_EPOCH4_START",
+  "created_at": "2026-07-07T10:52:18Z",
+  "depends_on": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "e3_closeout_status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "e3_publication_home_durable": true,
+  "epoch4_started": false,
+  "forbidden_capabilities_created": [],
+  "human_fork_decision_made": false,
+  "human_fork_decision_required": true,
+  "new_learned_registry_entries": 0,
+  "new_models_created": 0,
+  "new_training_rows_created": 0,
+  "next_required_human_decision": "E4_FORK_DECISION_TEMPLATE",
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "product_surfaces_created": 0,
+  "publication_path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1",
+  "selected_fork": null,
+  "status": "PASS_POST_E3_EPOCH4_FORK_PREFLIGHT_R1_WITH_LIMITATIONS"
+}

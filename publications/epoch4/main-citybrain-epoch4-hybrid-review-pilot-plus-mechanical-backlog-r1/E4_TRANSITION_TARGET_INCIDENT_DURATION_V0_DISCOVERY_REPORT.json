@@ -1,0 +1,23 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_DISCOVERY_REPORT",
+  "dated_transition_pairs_found": 0,
+  "lineage_strength": "strong_candidate_lineage",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "single_snapshot_conversion_allowed": false,
+  "source_refs_sample": [
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_GATE_LEDGER_ROW.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_FUEL_GAUGE_BASELINE_REPORT.md",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ENTRY_GATE_DECISION.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_ARMING_STATUS_REPORT.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/E3_POLICY_AND_AGGREGATION_RECONCILIATION_ROW.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/e3_arming_status_reconciled_baseline_smoke.json",
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge/e3_arming_status_day_one_smoke.json",
+    "tests/test_epoch3_pre_closeout_convergence_r1.py"
+  ],
+  "status": "DISCOVERY_COMPLETE_WITH_LIMITATIONS",
+  "target_id": "incident_duration_v0",
+  "temporal_field_evidence": [
+    "created_at"
+  ],
+  "temporal_fields_present": true
+}

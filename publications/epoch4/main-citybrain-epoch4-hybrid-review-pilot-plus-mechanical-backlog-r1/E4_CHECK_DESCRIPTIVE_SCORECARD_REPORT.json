@@ -1,0 +1,15 @@
+{
+  "artifact_id": "E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT",
+  "candidate_count": 9,
+  "classification_counts": {
+    "fixture_only": 2,
+    "operator_resolved_pairs_absent": 3,
+    "ready_for_descriptive_scorecard": 4
+  },
+  "descriptive_only": true,
+  "operator_resolved_pairs_available": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "source_ref": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_CHECK_CALIBRATION_JOIN_READINESS_SCOUT.json",
+  "status": "PASS_DESCRIPTIVE_SCORECARD_ONLY",
+  "true_calibration_claimed": false
+}

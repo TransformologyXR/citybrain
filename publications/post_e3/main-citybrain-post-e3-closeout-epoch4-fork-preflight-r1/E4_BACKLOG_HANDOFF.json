@@ -1,0 +1,30 @@
+{
+  "backlog_id": "E4_BACKLOG_HANDOFF",
+  "live_review_pilot_dependent": [
+    "operator_fuel_program",
+    "R3A/R3B ranking arming",
+    "L4 aggregation floor",
+    "true CHECK calibration from operator-resolved pairs"
+  ],
+  "nonlive_mechanical": [
+    "L2 city-stratified forecast improvement R2",
+    "additional transition targets: inspection_delay_v0, violation_resolution_delay_v0, watch_queue_aging_v0, incident_duration_v0, backlog_clearance_time_v0",
+    "L4 content-stub materialization from verified candidates",
+    "CHECK descriptive scorecard",
+    "identity/graph eval fixture promotion",
+    "simulation/backtest input catalog",
+    "source-refresh longitudinal gap inventory",
+    "federation/cross-city comparable artifact catalog without learned transfer"
+  ],
+  "nonlive_work_cannot_close_ranking_or_memory_loops": true,
+  "operator_fuel_blocked_without_live_or_review_pilot": true,
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "parked": [
+    "dynamic investigation",
+    "cross-city learned transfer",
+    "product forecast surface",
+    "operator-facing ranking",
+    "case-memory learner",
+    "learned counterfactuals"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "blocked_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "epoch4_started": {
+      "type": "boolean"
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "preconditions_passed": {
+      "type": "boolean"
+    },
+    "selected_fork": {
+      "const": "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG"
+    },
+    "selection_source": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "package_id",
+    "selected_fork",
+    "selection_source",
+    "epoch4_started",
+    "preconditions_passed"
+  ],
+  "title": "E4 Fork Selection Ledger Row",
+  "type": "object"
+}

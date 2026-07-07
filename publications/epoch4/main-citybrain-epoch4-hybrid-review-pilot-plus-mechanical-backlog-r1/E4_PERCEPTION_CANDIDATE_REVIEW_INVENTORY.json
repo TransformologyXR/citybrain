@@ -1,0 +1,12 @@
+{
+  "artifact_id": "E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY",
+  "human_review_required_before_fuel": true,
+  "official_action_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "review_candidate_families": [
+    "candidate_observation",
+    "detection_confidence_gap",
+    "vss_cockpit_review_cards"
+  ],
+  "status": "INVENTORY_ONLY"
+}

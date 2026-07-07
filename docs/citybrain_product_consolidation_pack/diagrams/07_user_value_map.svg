@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850">
+<rect width="1500" height="850" fill="#f8fafc"/>
+<text x="750" y="50" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">Product Management Map: User Value by Audience</text>
+<rect x="110" y="120" width="620" height="160" rx="22" fill="white" stroke="#2563eb" stroke-width="3"/>
+<text x="136" y="156" font-family="Inter,Arial" font-size="22" font-weight="700" fill="#2563eb">Operator</text>
+<text x="136" y="188" font-family="Inter,Arial" font-size="17" font-weight="700" fill="#0f172a">What needs review, what can I safely do next?</text>
+<text x="136" y="225" font-family="Inter,Arial" font-size="15" fill="#475569">WATCH, CHECK, selected-item workspace, workflow state, safe</text>
+<text x="136" y="247" font-family="Inter,Arial" font-size="15" fill="#475569">next looks</text>
+<rect x="800" y="120" width="620" height="160" rx="22" fill="white" stroke="#0891b2" stroke-width="3"/>
+<text x="826" y="156" font-family="Inter,Arial" font-size="22" font-weight="700" fill="#0891b2">Analyst / planner</text>
+<text x="826" y="188" font-family="Inter,Arial" font-size="17" font-weight="700" fill="#0f172a">What do we know, what changed, what is similar?</text>
+<text x="826" y="225" font-family="Inter,Arial" font-size="15" fill="#475569">ASK, RECALL, DIFF, graph context, source-record 360</text>
+<rect x="110" y="320" width="620" height="160" rx="22" fill="white" stroke="#7c3aed" stroke-width="3"/>
+<text x="136" y="356" font-family="Inter,Arial" font-size="22" font-weight="700" fill="#7c3aed">Executive / client</text>
+<text x="136" y="388" font-family="Inter,Arial" font-size="17" font-weight="700" fill="#0f172a">What is the story, value and risk boundary?</text>
+<text x="136" y="425" font-family="Inter,Arial" font-size="15" fill="#475569">BRIEF, option-set summary, risk report, demo route</text>
+<rect x="800" y="320" width="620" height="160" rx="22" fill="white" stroke="#16a34a" stroke-width="3"/>
+<text x="826" y="356" font-family="Inter,Arial" font-size="22" font-weight="700" fill="#16a34a">Data / twin engineer</text>
+<text x="826" y="388" font-family="Inter,Arial" font-size="17" font-weight="700" fill="#0f172a">Where is truth, geometry and identity?</text>
+<text x="826" y="425" font-family="Inter,Arial" font-size="15" fill="#475569">Source registry, CER/SEG, spatial binding, data maturity</text>
+<rect x="110" y="520" width="620" height="160" rx="22" fill="white" stroke="#dc2626" stroke-width="3"/>
+<text x="136" y="556" font-family="Inter,Arial" font-size="22" font-weight="700" fill="#dc2626">Governance / risk</text>
+<text x="136" y="588" font-family="Inter,Arial" font-size="17" font-weight="700" fill="#0f172a">What must not be claimed or executed?</text>
+<text x="136" y="625" font-family="Inter,Arial" font-size="15" fill="#475569">CHECK, AuthorityEnvelope, no-action ledger, guardrails</text>
+<rect x="800" y="520" width="620" height="160" rx="22" fill="white" stroke="#d97706" stroke-width="3"/>
+<text x="826" y="556" font-family="Inter,Arial" font-size="22" font-weight="700" fill="#d97706">ML / evaluation</text>
+<text x="826" y="588" font-family="Inter,Arial" font-size="17" font-weight="700" fill="#0f172a">What can be learned safely?</text>
+<text x="826" y="625" font-family="Inter,Arial" font-size="15" fill="#475569">Outcome ledger, calibration, backtest harness, experimental</text>
+<text x="826" y="647" font-family="Inter,Arial" font-size="15" fill="#475569">forecast registry</text>
+</svg>

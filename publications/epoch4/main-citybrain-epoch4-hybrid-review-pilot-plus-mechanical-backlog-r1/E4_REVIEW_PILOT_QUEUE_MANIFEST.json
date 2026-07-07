@@ -1,0 +1,125 @@
+{
+  "artifact_id": "E4_REVIEW_PILOT_QUEUE_MANIFEST",
+  "holdout_families_retained": [
+    "media_candidate"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "queue_item_count": 12,
+  "rows": [
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:001",
+      "family": "asset_state",
+      "holdout": false,
+      "position": 1,
+      "queue_item_id": "e4:pilot:queue:001",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:002",
+      "family": "asset_state",
+      "holdout": false,
+      "position": 2,
+      "queue_item_id": "e4:pilot:queue:002",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:003",
+      "family": "asset_state",
+      "holdout": false,
+      "position": 3,
+      "queue_item_id": "e4:pilot:queue:003",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:001",
+      "family": "traffic_flow",
+      "holdout": false,
+      "position": 1,
+      "queue_item_id": "e4:pilot:queue:004",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:002",
+      "family": "traffic_flow",
+      "holdout": false,
+      "position": 2,
+      "queue_item_id": "e4:pilot:queue:005",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:003",
+      "family": "traffic_flow",
+      "holdout": false,
+      "position": 3,
+      "queue_item_id": "e4:pilot:queue:006",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:001",
+      "family": "review_backlog",
+      "holdout": false,
+      "position": 1,
+      "queue_item_id": "e4:pilot:queue:007",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:002",
+      "family": "review_backlog",
+      "holdout": false,
+      "position": 2,
+      "queue_item_id": "e4:pilot:queue:008",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:003",
+      "family": "review_backlog",
+      "holdout": false,
+      "position": 3,
+      "queue_item_id": "e4:pilot:queue:009",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:001",
+      "family": "public_safety_boundary",
+      "holdout": false,
+      "position": 1,
+      "queue_item_id": "e4:pilot:queue:010",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:002",
+      "family": "public_safety_boundary",
+      "holdout": false,
+      "position": 2,
+      "queue_item_id": "e4:pilot:queue:011",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    },
+    {
+      "assigned_session_id": "e4:pilot:dryrun:session:003",
+      "family": "public_safety_boundary",
+      "holdout": false,
+      "position": 3,
+      "queue_item_id": "e4:pilot:queue:012",
+      "source_ref": "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+      "training_fuel_policy": "dry_run_non_training"
+    }
+  ],
+  "status": "QUEUE_READY",
+  "stratified_family_coverage": [
+    "asset_state",
+    "traffic_flow",
+    "review_backlog",
+    "public_safety_boundary"
+  ]
+}

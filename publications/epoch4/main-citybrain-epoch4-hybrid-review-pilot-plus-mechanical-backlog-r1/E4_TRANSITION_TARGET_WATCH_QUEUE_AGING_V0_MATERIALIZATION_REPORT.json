@@ -1,0 +1,10 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_MATERIALIZATION_REPORT",
+  "governed_rows_materialized": 0,
+  "no_fabrication_audit": "PASS",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "reason": "No governed same-entity transition pairs were proven in this bounded package.",
+  "status": "NO_ROWS_MATERIALIZED_DEFINITION_ONLY",
+  "target_id": "watch_queue_aging_v0",
+  "training_rows_created": 0
+}

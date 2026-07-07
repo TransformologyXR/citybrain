@@ -1,0 +1,16 @@
+{
+  "artifact_id": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT",
+  "case_memory_learner_created": false,
+  "content_verified_candidates": 6,
+  "not_promoted_candidates": [
+    "e3-hidden-data-scout-c-brief-packets",
+    "e3-hidden-data-scout-c-vss-cockpit-review-cards"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "path_only_candidates": 2,
+  "predictive_memory_created": false,
+  "retrieval_only_case_stubs_created": 6,
+  "source_class_outcome_lineage_aware": true,
+  "source_ref": "outputs/epoch3_final_nonlive_hidden_fuel_scout_r1/E3_FINAL_L4_CASE_STUB_CONTENT_VERIFICATION_SCOUT.json",
+  "status": "PASS_RETRIEVAL_ONLY_STUBS_MATERIALIZED_WITH_LIMITATIONS"
+}

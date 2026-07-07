@@ -1,0 +1,11 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_LABEL_DEFINITION_ROW",
+  "censor_policy": "exclude_current_only_snapshots_and_records_without_observation_window",
+  "label_policy": "requires_two_dated_state_observations_or_explicit_open_close_events",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "source_candidate_id": "e3-hidden-data-scout-a-backlog-clearance-time-v0",
+  "source_class": "fixture_or_synthetic",
+  "status": "LABEL_DEFINITION_PUBLISHED",
+  "target_id": "backlog_clearance_time_v0",
+  "training_eligible": false
+}

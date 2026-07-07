@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720">
+<rect width="1500" height="720" fill="#f8fafc"/>
+<defs><marker id="arrow5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<text x="750" y="50" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">Governance Boundary: Candidate Intelligence, Not Autonomous Action</text>
+<rect x="75" y="200" width="205" height="130" rx="18" fill="white" stroke="#0891b2" stroke-width="3"/>
+<text x="177.5" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#0891b2">Candidate signal</text>
+<text x="177.5" y="272" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">source row, event,</text>
+<text x="177.5" y="289" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">media detection,</text>
+<text x="177.5" y="306" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">spatial selection</text>
+<line x1="284" y1="265.0" x2="307" y2="265.0" stroke="#64748b" stroke-width="2" marker-end="url(#arrow5)"/>
+<rect x="315" y="200" width="205" height="130" rx="18" fill="white" stroke="#2563eb" stroke-width="3"/>
+<text x="417.5" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#2563eb">Evidence bundle</text>
+<text x="417.5" y="272" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">source refs,</text>
+<text x="417.5" y="289" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">confidence, provenance,</text>
+<text x="417.5" y="306" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">limitations</text>
+<line x1="524" y1="265.0" x2="547" y2="265.0" stroke="#64748b" stroke-width="2" marker-end="url(#arrow5)"/>
+<rect x="555" y="200" width="205" height="130" rx="18" fill="white" stroke="#d97706" stroke-width="3"/>
+<text x="657.5" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#d97706">CHECK</text>
+<text x="657.5" y="272" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">claimability,</text>
+<text x="657.5" y="289" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">contradiction,</text>
+<text x="657.5" y="306" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">freshness, boundary</text>
+<line x1="764" y1="265.0" x2="787" y2="265.0" stroke="#64748b" stroke-width="2" marker-end="url(#arrow5)"/>
+<rect x="795" y="200" width="205" height="130" rx="18" fill="white" stroke="#7c3aed" stroke-width="3"/>
+<text x="897.5" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#7c3aed">Human review</text>
+<text x="897.5" y="272" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">hold, abstain, needs</text>
+<text x="897.5" y="289" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">source, reviewed,</text>
+<text x="897.5" y="306" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">promote</text>
+<line x1="1004" y1="265.0" x2="1027" y2="265.0" stroke="#64748b" stroke-width="2" marker-end="url(#arrow5)"/>
+<rect x="1035" y="200" width="205" height="130" rx="18" fill="white" stroke="#16a34a" stroke-width="3"/>
+<text x="1137.5" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#16a34a">Draft/sandbox only</text>
+<text x="1137.5" y="272" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">proposal / case packet,</text>
+<text x="1137.5" y="289" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">not official action</text>
+<line x1="1244" y1="265.0" x2="1267" y2="265.0" stroke="#64748b" stroke-width="2" marker-end="url(#arrow5)"/>
+<rect x="1275" y="200" width="205" height="130" rx="18" fill="white" stroke="#dc2626" stroke-width="3"/>
+<text x="1377.5" y="240" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#dc2626">Production action</text>
+<text x="1377.5" y="272" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">PARKED until authority,</text>
+<text x="1377.5" y="289" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">adapters, audit and</text>
+<text x="1377.5" y="306" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#475569">monitoring</text>
+<rect x="250" y="455" width="1000" height="95" rx="20" fill="#fee2e2" stroke="#dc2626"/>
+<text x="750" y="492" font-family="Inter,Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#dc2626">Hard boundary today</text>
+<text x="750" y="525" font-family="Inter,Arial" font-size="17" text-anchor="middle" fill="#0f172a">No dispatch, no enforcement, no legal/certified finding, no official ticket/case/work-order, no autonomous action.</text>
+</svg>

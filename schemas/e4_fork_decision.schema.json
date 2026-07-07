@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "allowed_values": {
+      "items": {
+        "enum": [
+          "GO_LIVE_REVIEW_PILOT",
+          "NONLIVE_MECHANICAL_BACKLOG",
+          "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG",
+          "DEFER_EPOCH4_START"
+        ],
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "decision_id": {
+      "type": "string"
+    },
+    "decision_owner": {
+      "type": "string"
+    },
+    "decision_required": {
+      "type": "boolean"
+    },
+    "selected_value": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "signed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "signed_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "decision_id",
+    "decision_owner",
+    "decision_required",
+    "allowed_values",
+    "selected_value"
+  ],
+  "type": "object"
+}

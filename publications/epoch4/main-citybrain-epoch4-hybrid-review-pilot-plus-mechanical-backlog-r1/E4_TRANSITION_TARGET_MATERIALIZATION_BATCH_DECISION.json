@@ -1,0 +1,62 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION",
+  "governed_rows_materialized": 0,
+  "label_definition_rows_published": 5,
+  "no_fabrication_audit": "PASS",
+  "no_single_current_snapshot_conversion": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "PASS_LABEL_DEFINITIONS_PUBLISHED_MATERIALIZATION_DEFERRED_WITH_LIMITATIONS",
+  "targets": [
+    {
+      "baseline_ref": "E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_BASELINE_REPORT.json",
+      "discovery_ref": "E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_DISCOVERY_REPORT.json",
+      "disposition": "partially_done",
+      "label_definition_ref": "E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_LABEL_DEFINITION_ROW.json",
+      "materialization_ref": "E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_MATERIALIZATION_REPORT.json",
+      "materialized_rows": 0,
+      "sufficiency_ref": "E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_SUFFICIENCY_REPORT.json",
+      "target_id": "inspection_delay_v0"
+    },
+    {
+      "baseline_ref": "E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_BASELINE_REPORT.json",
+      "discovery_ref": "E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_DISCOVERY_REPORT.json",
+      "disposition": "partially_done",
+      "label_definition_ref": "E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_LABEL_DEFINITION_ROW.json",
+      "materialization_ref": "E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_MATERIALIZATION_REPORT.json",
+      "materialized_rows": 0,
+      "sufficiency_ref": "E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_SUFFICIENCY_REPORT.json",
+      "target_id": "violation_resolution_delay_v0"
+    },
+    {
+      "baseline_ref": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_BASELINE_REPORT.json",
+      "discovery_ref": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_DISCOVERY_REPORT.json",
+      "disposition": "partially_done",
+      "label_definition_ref": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_LABEL_DEFINITION_ROW.json",
+      "materialization_ref": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_MATERIALIZATION_REPORT.json",
+      "materialized_rows": 0,
+      "sufficiency_ref": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_SUFFICIENCY_REPORT.json",
+      "target_id": "watch_queue_aging_v0"
+    },
+    {
+      "baseline_ref": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_BASELINE_REPORT.json",
+      "discovery_ref": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_DISCOVERY_REPORT.json",
+      "disposition": "partially_done",
+      "label_definition_ref": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_LABEL_DEFINITION_ROW.json",
+      "materialization_ref": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_MATERIALIZATION_REPORT.json",
+      "materialized_rows": 0,
+      "sufficiency_ref": "E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_SUFFICIENCY_REPORT.json",
+      "target_id": "incident_duration_v0"
+    },
+    {
+      "baseline_ref": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_BASELINE_REPORT.json",
+      "discovery_ref": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_DISCOVERY_REPORT.json",
+      "disposition": "partially_done",
+      "label_definition_ref": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_LABEL_DEFINITION_ROW.json",
+      "materialization_ref": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_MATERIALIZATION_REPORT.json",
+      "materialized_rows": 0,
+      "sufficiency_ref": "E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_SUFFICIENCY_REPORT.json",
+      "target_id": "backlog_clearance_time_v0"
+    }
+  ],
+  "training_rows_created": 0
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_id": "E4_LLM_SEAT_USEFULNESS_SCORECARD",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "product_surface_created": false,
+  "status": "DESCRIPTIVE_ONLY",
+  "training_rows_created": 0,
+  "usefulness_dimensions": [
+    "grounding",
+    "source_ref_density",
+    "operator_review_readiness",
+    "no_claim_boundary"
+  ]
+}

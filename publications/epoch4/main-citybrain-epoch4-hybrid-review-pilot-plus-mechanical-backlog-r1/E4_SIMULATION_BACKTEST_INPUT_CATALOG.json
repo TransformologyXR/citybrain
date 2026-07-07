@@ -1,0 +1,17 @@
+{
+  "artifact_id": "E4_SIMULATION_BACKTEST_INPUT_CATALOG",
+  "backtest_inputs_are_non_training_until_governed_materialization": true,
+  "catalog_families": [
+    "inspection_delay_v0",
+    "violation_resolution_delay_v0",
+    "watch_queue_aging_v0",
+    "incident_duration_v0",
+    "backlog_clearance_time_v0",
+    "source_record_staleness_v0",
+    "asset_state_persistence_v0"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "simulation_or_counterfactual_learner_created": false,
+  "source_candidate_count": 10,
+  "status": "DONE_CATALOG_ONLY"
+}

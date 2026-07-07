@@ -1,0 +1,28 @@
+{
+  "artifact_id": "POST_E3_EPOCH4_FORK_LEDGER_ROW",
+  "boundary_outcome": "no_epoch4_start_no_new_learned_or_product_capability",
+  "closeout_type": "POST_E3_PREPARATION_NOT_EPOCH4_START",
+  "epoch4_started": false,
+  "human_decision_required_next": true,
+  "limitations_ref": "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_LIMITATIONS.json",
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "proof_artifacts": [
+    "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_PREFLIGHT_DECISION.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_CLOSEOUT_ARTIFACT_READINESS_REPORT.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_FORK_DECISION_TEMPLATE.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_ARMING_INHERITANCE_HANDOFF.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_GO_LIVE_REVIEW_PILOT_PATH_SPEC.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_HYBRID_PATH_SPEC.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_DEFERRED_PATH_SPEC.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_FIRST_PACKAGE_SEQUENCE_MANIFEST.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_BACKLOG_HANDOFF.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/E4_PUBLICATION_GOVERNANCE_CONTINUITY_ROW.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_LIMITATIONS.json",
+    "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_LEDGER_ROW.json"
+  ],
+  "publication_path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1",
+  "selected_fork": null,
+  "status": "PASS_POST_E3_EPOCH4_FORK_PREFLIGHT_R1_WITH_LIMITATIONS"
+}

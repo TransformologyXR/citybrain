@@ -1,0 +1,14 @@
+{
+  "artifact_id": "E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS",
+  "city_stratification_required": true,
+  "cross_city_learned_transfer_allowed": false,
+  "minimum_requirements": [
+    "Report per-city support and stall rates.",
+    "Report per-city AP, Brier, and recall at fixed precision.",
+    "Do not pool London and NYC into a learned transfer claim.",
+    "Preserve no same-run release rule."
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "source_warning_ref": "publications/epoch3/main-citybrain-epoch3-closeout-r1/E3_CITY_DIVERGENCE_WARNING_ROW.json",
+  "status": "REQUIRED_BEFORE_ANY_FUTURE_FORECAST_AUTHORITY"
+}

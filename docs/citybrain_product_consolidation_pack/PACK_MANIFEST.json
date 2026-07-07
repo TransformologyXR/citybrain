@@ -1,0 +1,218 @@
+{
+  "pack": "CityBrain Product Consolidation Pack",
+  "generated": "2026-07-07",
+  "description": "Consolidated product, architecture, PM, gaps, parked work, component plug-in and visual documentation pack.",
+  "file_count": 42,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1676,
+      "sha256": "6796ae26414a7d1c1ac8a9831869817bbff323c1a519af0d8f5096f13fcb1aac"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2942,
+      "sha256": "370dc971fc16172080753915030c66f793ff4dd9e89ee7f04dcfaef73b3f1a91"
+    },
+    {
+      "path": "docs/01_EXECUTIVE_PICTURE.md",
+      "bytes": 3521,
+      "sha256": "773488bd7e949c80bc7359b8f9c8f97d88cd638ebb9bf6f5d97ab1e8e238259c"
+    },
+    {
+      "path": "docs/02_PRODUCT_MANAGEMENT_DOSSIER.md",
+      "bytes": 3402,
+      "sha256": "bdf4bdfd82f33c1e4290558bbff1777ba043daba1f22537732cff74714c1fa74"
+    },
+    {
+      "path": "docs/03_ARCHITECTURE_BLUEPRINT.md",
+      "bytes": 3307,
+      "sha256": "ed93e05ba5487e095c078afb4f600f5f6b580d465b2d5dbe4dc7956fb501cb3e"
+    },
+    {
+      "path": "docs/04_CAPABILITY_MATURITY_MAP.md",
+      "bytes": 6737,
+      "sha256": "b5e869af41b2637a39b97551907c323826def21f467de2b4a8c0c25189c33fc1"
+    },
+    {
+      "path": "docs/05_GAPS_PARKED_WORK_REGISTER.md",
+      "bytes": 6654,
+      "sha256": "cc7de7862adfe3d099e432ccbd571e2016a70a8c979798a6dfb01d6831166b03"
+    },
+    {
+      "path": "docs/06_COMPONENT_PLUGIN_MAP.md",
+      "bytes": 9634,
+      "sha256": "813f6ba0814c273919f36c0ef0433c4bfa2dfb2af419ac250955f981d5293141"
+    },
+    {
+      "path": "docs/07_ROADMAP_AND_NEXT_MOVES.md",
+      "bytes": 1670,
+      "sha256": "d0ad0d2f0640704b24c8bed3a1b2cc95e48ce1ad09ec3bbde2a7275a958eae89"
+    },
+    {
+      "path": "docs/08_CLIENT_STORY_AND_DEMO_SCRIPT.md",
+      "bytes": 1748,
+      "sha256": "806bcf563c5b24fd369f1c2a86b033f227147cc165022d9a22905aa7a5c23cf0"
+    },
+    {
+      "path": "docs/09_SOURCE_AND_EVIDENCE_CROSSWALK.md",
+      "bytes": 1757,
+      "sha256": "db35457a91452c9acccf69c37315dcfd0360267754f9fe51a7dbaf420a019e57"
+    },
+    {
+      "path": "docs/10_TECHNICAL_GLOSSARY.md",
+      "bytes": 1325,
+      "sha256": "087076ba0974100fa04f9d656f0fb0a4cb7a694179723e764d52f0bb51ad15eb"
+    },
+    {
+      "path": "docs/00_MASTER_INDEX.md",
+      "bytes": 1241,
+      "sha256": "377072bf2525d314b6748b83805c6e012f93160796795e2eec9139d59db6f53f"
+    },
+    {
+      "path": "diagrams/01_citybrain_product_loop.svg",
+      "bytes": 6300,
+      "sha256": "344061b3d9a48bbfbf80f18e0c359e26e7012622301b3e3340a192fbfc144445"
+    },
+    {
+      "path": "diagrams/02_architecture_spine.svg",
+      "bytes": 7546,
+      "sha256": "f9e6a61f11d503a1f49bb39436df828acc0da1a8143fb94ddc6c7bc3414c4f06"
+    },
+    {
+      "path": "diagrams/03_capability_maturity_heatmap.svg",
+      "bytes": 15600,
+      "sha256": "ba1e2e77401a4bd01c9fcdff0f49e2590d95d36dab05c54e6d259056d25bcb67"
+    },
+    {
+      "path": "diagrams/04_gap_priority_matrix.svg",
+      "bytes": 3996,
+      "sha256": "d179c7b12ac1f4716aafdf9681af53ce3a11ef1bfe27ac5647a72cca429b221d"
+    },
+    {
+      "path": "diagrams/05_component_plugin_map.svg",
+      "bytes": 5293,
+      "sha256": "2f4d112261421c5b7ee89fd2ec53843c948e7eeb07d040e503d0a5948f4bc0ff"
+    },
+    {
+      "path": "diagrams/06_roadmap_next_90_days.svg",
+      "bytes": 5513,
+      "sha256": "faf83b197761e49dcfd5ab390c0cd41e6e1a08beaaa2cad729ec9ce2c1cb150d"
+    },
+    {
+      "path": "diagrams/07_user_value_map.svg",
+      "bytes": 3563,
+      "sha256": "f60b7e3122202f11c43d070dd2a75bf118abc31efae139afc769495911d62b31"
+    },
+    {
+      "path": "diagrams/08_data_synthetic_strategy.svg",
+      "bytes": 5205,
+      "sha256": "6d960888ea46cdbb35604494c57b6d0ac47ded9089ff0aa80bcabcb86b79d83a"
+    },
+    {
+      "path": "diagrams/09_governance_boundary.svg",
+      "bytes": 5590,
+      "sha256": "63d6cc8c5860627408b1b2e4776bb7683421ddbfd1f6bc26fd0a20dbb22f4819"
+    },
+    {
+      "path": "diagrams/10_flow_portfolio.svg",
+      "bytes": 4552,
+      "sha256": "edc77a46920cb4830fb34c4b4a705ec6b18b596fca1f6b5c42f196abfd48c717"
+    },
+    {
+      "path": "tables/component_inventory.csv",
+      "bytes": 7508,
+      "sha256": "e5d187bc5aa04be4fdad0af6afaeadd7742716a69f4e025a88ab0125c078f96e"
+    },
+    {
+      "path": "tables/gap_parked_work_register.csv",
+      "bytes": 5104,
+      "sha256": "31aa66539485c1fce453d7b6daeac312f6936d558703241b0c1aa4d35d6b1a8a"
+    },
+    {
+      "path": "tables/roadmap_next_90_days.csv",
+      "bytes": 624,
+      "sha256": "545a12fbf261489485bfe8fe3b15033adac6506ea4c7ca881d20af6a7122b6c5"
+    },
+    {
+      "path": "tables/flow_portfolio.csv",
+      "bytes": 808,
+      "sha256": "1b65681719b43a7e517fd05d15ccf97fd30fe8b73e6447d7c8739fc554c6f8c2"
+    },
+    {
+      "path": "presentations/CityBrain_Executive_Deck.pptx",
+      "bytes": 1111714,
+      "sha256": "addd394766b6f6c81bfbebe9bcb83b0791667478bcddbf97a8e0419ab3a9fabd"
+    },
+    {
+      "path": "presentations/CityBrain_Executive_Deck.pdf",
+      "bytes": 971679,
+      "sha256": "1a332de85c861508cca6c189f7afd827ee4906320d800aacba36d99c403b56fa"
+    },
+    {
+      "path": "master/CityBrain_Master_Briefing.docx",
+      "bytes": 1111310,
+      "sha256": "43667fb81209880627963647facd319e78b5ce7f681a42ebdda2c4608b67d5c4"
+    },
+    {
+      "path": "master/CityBrain_Master_Briefing.pdf",
+      "bytes": 1090520,
+      "sha256": "9bdd8562953b5108af98b4ed95458cb9e8839052f25ad34519eb04d1eba7214e"
+    },
+    {
+      "path": "source/source_files_consulted.txt",
+      "bytes": 710,
+      "sha256": "b13dfd4c99c748e2843982355387361ebfb0f1f6b90dd08ddf0fb3c13959c5d0"
+    },
+    {
+      "path": "diagrams/png/01_citybrain_product_loop.png",
+      "bytes": 63940,
+      "sha256": "9cc5e30ffa84a274e62d6caf6e9e681b5db8c2b3740bdd28649d3d7120a9dc95"
+    },
+    {
+      "path": "diagrams/png/02_architecture_spine.png",
+      "bytes": 156050,
+      "sha256": "3ed83d481b965a7b23b0fb836faaf0778c4b72f0e3f9d185fb1daf53ecfbcf2c"
+    },
+    {
+      "path": "diagrams/png/03_capability_maturity_heatmap.png",
+      "bytes": 196275,
+      "sha256": "c5a020abb9510dfb17284647fefca102e590a5f079d951abfa20be2f8c4d287a"
+    },
+    {
+      "path": "diagrams/png/04_gap_priority_matrix.png",
+      "bytes": 99279,
+      "sha256": "6eac9328e2c651b6acbd7eb8041415def91e730b278e13706dcfb030fbfed36e"
+    },
+    {
+      "path": "diagrams/png/05_component_plugin_map.png",
+      "bytes": 134756,
+      "sha256": "4269f8a1fe8c72d7982a0e43583f5f7991043eb56ea243f30ab10c9c0e2c1860"
+    },
+    {
+      "path": "diagrams/png/06_roadmap_next_90_days.png",
+      "bytes": 68764,
+      "sha256": "4cde0bc57ff5fb52d30b00c1fe631242487bb342ea3b7f795e9578db67dd774a"
+    },
+    {
+      "path": "diagrams/png/07_user_value_map.png",
+      "bytes": 103912,
+      "sha256": "c02e3851d71da9e0d0dfd02c6522035ffad3df5b185c4b34db983719074ada98"
+    },
+    {
+      "path": "diagrams/png/08_data_synthetic_strategy.png",
+      "bytes": 127123,
+      "sha256": "708b5902404a37af2eefa6cafd51b73280dbd7c6ac8c65015bf6ba35f34a6efa"
+    },
+    {
+      "path": "diagrams/png/09_governance_boundary.png",
+      "bytes": 73085,
+      "sha256": "9d78b4d2dac2d455e9c4296e1bc4022db21327a2cc85a2fe8a0e12ea1272a51b"
+    },
+    {
+      "path": "diagrams/png/10_flow_portfolio.png",
+      "bytes": 104665,
+      "sha256": "fa6fa3dad607deaeb2e59d26bd772ee177a046a354314ba62a84fc5d58a3c990"
+    }
+  ]
+}

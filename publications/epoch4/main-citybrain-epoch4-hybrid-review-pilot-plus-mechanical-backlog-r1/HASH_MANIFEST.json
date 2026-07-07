@@ -1,0 +1,304 @@
+{
+  "artifact_id": "HASH_MANIFEST",
+  "artifact_root": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1",
+  "created_at": "2026-07-07T10:52:20Z",
+  "files": [
+    {
+      "bytes": 9179,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_BACKLOG_DISPOSITION_LEDGER.json",
+      "sha256": "8d67af25bd9976bde8342619d8ea6319f73a6dc9d589cff8920bbbceba487941"
+    },
+    {
+      "bytes": 408,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CHECK_CALIBRATION_LIMITATION_ROW.json",
+      "sha256": "e88b399fd659cc73d7411940257b64c0ec3ccc51e4b8f1019f1997493fc104c6"
+    },
+    {
+      "bytes": 592,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json",
+      "sha256": "f61b8822635c336c43e85e4c2f9f77b38d7346f71a1aeb5dca93970e6e9705c2"
+    },
+    {
+      "bytes": 2019,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CORPUS_DELTA.json",
+      "sha256": "9055e391a362937b4dc7de646c31d911a806077db88a7f31cf69b338783b8033"
+    },
+    {
+      "bytes": 390,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_DOMAIN_PACK_USEFULNESS_REPORT.json",
+      "sha256": "8733a9e696363e84db85ed93c5fbaf95f1cf72708a03e5665c9d64c95d87032f"
+    },
+    {
+      "bytes": 618,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_FORK_SELECTION_LEDGER_ROW.json",
+      "sha256": "d8a5ac92e727cf0859842716fe56cf6f2e4369303675dc0afc6dba718c33532e"
+    },
+    {
+      "bytes": 1065,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_LIMITATIONS.json",
+      "sha256": "5aec622f797554538bce53bcd1df94c034de58e3a0dfe15d40ec96e11dfcc670"
+    },
+    {
+      "bytes": 712,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+      "sha256": "52131dda9f6dd9778c39ad53bf55761f984b06e0f3b0b0c39988c859f5eaa309"
+    },
+    {
+      "bytes": 1545,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW.json",
+      "sha256": "498f5f071b3c59c99de94f12ac778cea4f60bf8c46df177a0059f3601a05fb18"
+    },
+    {
+      "bytes": 405,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json",
+      "sha256": "09a59122ec4a6d01c22ae084c7f0d05b27e54f2075013371ff7d524b6ef09bff"
+    },
+    {
+      "bytes": 9143,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_INHERITED_ARMING_BASELINE.json",
+      "sha256": "16480a0dd5db208d1da957184b9d75b941137059cb45a71969325d0f84d5d055"
+    },
+    {
+      "bytes": 669,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS.json",
+      "sha256": "b637f07eca0b8a0e40dfd123813fd156f66c237ab8a0ab96df9dddd46d4ef159"
+    },
+    {
+      "bytes": 1018,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_FORECAST_IMPROVEMENT_PLAN.json",
+      "sha256": "407c66db3f1f03b99837347c4a9c5788bbea556b307d26c90f1cde1a93e78775"
+    },
+    {
+      "bytes": 576,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT.json",
+      "sha256": "889b8f3784fc279a454efcb659191c37f9537467733bf8453de29aff34068b00"
+    },
+    {
+      "bytes": 504,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_TRANSITION_TARGET_BATCH_REPORT.json",
+      "sha256": "3b0eb5644e9601f46a9e8ee391b9db742fdcaad46757eca3ace5a3c059c83fa0"
+    },
+    {
+      "bytes": 5659,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L4_CASE_STUBS.jsonl",
+      "sha256": "23daea379f23df03ddcd9ef70860232a36d347b90c277fa800f428f38a20af94"
+    },
+    {
+      "bytes": 709,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "sha256": "9e62b5fe29927f60768f34d745969ca7ef1080202e17999403b664654a29b920"
+    },
+    {
+      "bytes": 376,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_LLM_SEAT_USEFULNESS_SCORECARD.json",
+      "sha256": "54625dee5854392ae30f08256efcf51ca1c8e17ea7448aff0ed0242a7aa2531c"
+    },
+    {
+      "bytes": 1058,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NEXT_ACTIONS_AFTER_R1.json",
+      "sha256": "be4b14c962c439de0e60fe028a392258c57b8ae0f8699c8f51503d553149ef21"
+    },
+    {
+      "bytes": 866,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "a446bf6284247b0b47b4564bf6ead0bfe0fff395ee207d72354d8c99c7844040"
+    },
+    {
+      "bytes": 393,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json",
+      "sha256": "05d30066d1fd315110baa5a5a7eeb6394bba59b61b0b2a968e4e1634c33b8786"
+    },
+    {
+      "bytes": 880,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PRECONDITION_CHECK_REPORT.json",
+      "sha256": "df268ae5a697d3e94e3873ad2c68604315893857de81b7fe9acc8567f023f012"
+    },
+    {
+      "bytes": 14659,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PUBLICATION_COVERAGE_REPORT.json",
+      "sha256": "98d6141ffc2fd458a7ad434f31f2187b28bddfa2ffcd883fb822192122f004d7"
+    },
+    {
+      "bytes": 1642,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_DRY_RUN_REPORT.json",
+      "sha256": "cc5eb32079f7dca971f9277369a529705618f12415095cc8bb49c8ffaee298f8"
+    },
+    {
+      "bytes": 607,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "sha256": "0509b8e3549e96c67e44d932984ec6ba3499b6893e6beb61cd5a9f83282bffd4"
+    },
+    {
+      "bytes": 627,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_PROTOCOL.json",
+      "sha256": "3dc10c9ee301882e60b6fe05cc46895125e389a6fbe9ba9ce4056814d93df64e"
+    },
+    {
+      "bytes": 4981,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_QUEUE_MANIFEST.json",
+      "sha256": "86beb99b75fd112e3900c44e816809d8386c56c6d27c6901fc286ca31a24a783"
+    },
+    {
+      "bytes": 1584,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_SESSION_PLAN.json",
+      "sha256": "3a753701ec84c99ae971732d5489ace6609ba0432780e9abb63d3580d463ae04"
+    },
+    {
+      "bytes": 594,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "sha256": "74681eace7ca5e11a679eceaed38593788f4555593ef979a330c5cddbc1ef1b6"
+    },
+    {
+      "bytes": 316,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_BASELINE_REPORT.json",
+      "sha256": "dc9ee068ae0d46e37d8153c7d2fcc21e95e0dba81b3110fa8fa89e35d502fa98"
+    },
+    {
+      "bytes": 1321,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_DISCOVERY_REPORT.json",
+      "sha256": "19c7796820aa0b5f67033aff63380ebd96dd59941f7e603fe40ca206b3bdd001"
+    },
+    {
+      "bytes": 595,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_LABEL_DEFINITION_ROW.json",
+      "sha256": "ff6c4fa4ba7e3b5b52c052d9db8c7c682345633c54fd431674f35ba0b23f7b16"
+    },
+    {
+      "bytes": 469,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_MATERIALIZATION_REPORT.json",
+      "sha256": "d9f486b4a79217479642c543a10e88558aefe33c9b62f3498c73119a167c8110"
+    },
+    {
+      "bytes": 427,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_BACKLOG_CLEARANCE_TIME_V0_SUFFICIENCY_REPORT.json",
+      "sha256": "e80ab0cbe5794c2bd995fc01c321e822ea9648e684361cf051a060eec417d502"
+    },
+    {
+      "bytes": 306,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_BASELINE_REPORT.json",
+      "sha256": "b9ecc82870103698593fe92e6ed73541d4648f963d3a9498dde340e35f96e498"
+    },
+    {
+      "bytes": 1152,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_DISCOVERY_REPORT.json",
+      "sha256": "b4b97b4526d7bad8ca5ac73db4fc2998489b716386da9ec2a035dc711cf4e56b"
+    },
+    {
+      "bytes": 580,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_LABEL_DEFINITION_ROW.json",
+      "sha256": "87b691b8a394b2bc6dc3139eb65a3db1b6b61308af48253f8705d435e3129e7e"
+    },
+    {
+      "bytes": 459,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_MATERIALIZATION_REPORT.json",
+      "sha256": "3e4cf84dc8f1753125bf13b98987a840b30b52df56e3da8d2877f4eb8b6d10b6"
+    },
+    {
+      "bytes": 417,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INCIDENT_DURATION_V0_SUFFICIENCY_REPORT.json",
+      "sha256": "9a06044c8b6c6b8b48938f845b91c140d65494debab65959e1fbd6ad030ba8cc"
+    },
+    {
+      "bytes": 304,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_BASELINE_REPORT.json",
+      "sha256": "60472d1fce9db6720c3ecbb44437727c2066ad4dde8df80b5fc229cbff200b80"
+    },
+    {
+      "bytes": 1246,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_DISCOVERY_REPORT.json",
+      "sha256": "bca7978a548f53937592a4e4a05431bcbc1884af02c8fb6cf3c4b4b7bd8669dc"
+    },
+    {
+      "bytes": 594,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_LABEL_DEFINITION_ROW.json",
+      "sha256": "5daa6d696b2535e92829ee4a358b34e57fbc8fb0c2bfcbf82e039b0e80e1b416"
+    },
+    {
+      "bytes": 457,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_MATERIALIZATION_REPORT.json",
+      "sha256": "19ad6b83f77db92c7433724cd90cb10b2acfa2ffecc3e388b48161377e5515e3"
+    },
+    {
+      "bytes": 415,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_INSPECTION_DELAY_V0_SUFFICIENCY_REPORT.json",
+      "sha256": "83122c2f8501a845e9be9006fea45776c21bba51a693023834c7061bc0f7c5a0"
+    },
+    {
+      "bytes": 3533,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION.json",
+      "sha256": "f82a5cac58e5da2732dbd83d24f74173c0e85e1436da02a049273a91cb022730"
+    },
+    {
+      "bytes": 324,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_BASELINE_REPORT.json",
+      "sha256": "62579200fc6958013ca7696dda7e87c924e9c75b40c7e5753afebd6264530b5b"
+    },
+    {
+      "bytes": 1210,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_DISCOVERY_REPORT.json",
+      "sha256": "4a171010560bfe4cbb952129d91103638e6fa1962f710c9981c723f3228c472f"
+    },
+    {
+      "bytes": 607,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_LABEL_DEFINITION_ROW.json",
+      "sha256": "60b8a4af6c58631a0cfd647d6bacd184201b03aa8e6ffa992a72c23778be0f91"
+    },
+    {
+      "bytes": 477,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_MATERIALIZATION_REPORT.json",
+      "sha256": "fd7de643bfe5e4f5ec3b8b29df7bc4e6ce48e56f9d236f2eb02a1dca6b6673a6"
+    },
+    {
+      "bytes": 435,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_VIOLATION_RESOLUTION_DELAY_V0_SUFFICIENCY_REPORT.json",
+      "sha256": "ff6c8ad182611a864eb783f54b29667ef820b2b3dd9f7f7cafa2766a468f09ed"
+    },
+    {
+      "bytes": 306,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_BASELINE_REPORT.json",
+      "sha256": "c3ce00f297a96f3b6172f22a443d72b5df6383f30594e2beecac9efd1933962a"
+    },
+    {
+      "bytes": 1425,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_DISCOVERY_REPORT.json",
+      "sha256": "53b1a9537cfe07d137a7a70d4a3119b045c044f3674c9428eff070fdde27cbdc"
+    },
+    {
+      "bytes": 597,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_LABEL_DEFINITION_ROW.json",
+      "sha256": "cbd265daf029bf106970110bf7077d3b20dc539b1803466bb4c24aae480cce6b"
+    },
+    {
+      "bytes": 459,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_MATERIALIZATION_REPORT.json",
+      "sha256": "9a2a1dd8efb39af2bbcab2ef74ab697e8b53689219f64ad355f72a51515f45d4"
+    },
+    {
+      "bytes": 417,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_SUFFICIENCY_REPORT.json",
+      "sha256": "0bed2b6909beac701cd72c58ef8858353148c276187c3beb20d05f278658e6d1"
+    },
+    {
+      "bytes": 494,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+      "sha256": "c24a359a53aa2c1ce1b747bf81c81ee3780321eb3faae795ff421460b8273fe1"
+    },
+    {
+      "bytes": 305,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "sha256": "6cf56893064c1d2b394ac1f139ef49d5abd45a79079782b9f42d3b4f4fd3248e"
+    },
+    {
+      "bytes": 24237,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/LINE_ENDING_REPORT.json",
+      "sha256": "c60a2a307193c01146a1a3865446fa99f0329bfed6c77b62a67c23babf39eac1"
+    },
+    {
+      "bytes": 501,
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/README.md",
+      "sha256": "ad70c0989243162dac019bf9fd2205361a3a050eccd02a9240b3a00b73b315f3"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "schema_version": "citybrain.hash_manifest.v1"
+}

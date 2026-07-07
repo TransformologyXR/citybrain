@@ -1,0 +1,20 @@
+{
+  "artifact_id": "E4_REVIEW_PILOT_PROTOCOL",
+  "eligible_families": [
+    "asset_state",
+    "traffic_flow",
+    "review_backlog",
+    "public_safety_boundary"
+  ],
+  "exposure_linkage_required": true,
+  "holdout_families": [
+    "media_candidate"
+  ],
+  "operator_count_required": 3,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "pseudo_operator_dry_run_counts_as_training_fuel": false,
+  "same_run_arming_allowed": false,
+  "scope": "hybrid_review_pilot_local_replay_and_optional_human_ingest",
+  "status": "PROTOCOL_READY",
+  "valid_operator_session_metadata_required": true
+}

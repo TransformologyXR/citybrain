@@ -1,0 +1,20 @@
+{
+  "artifact_id": "E4_PRECONDITION_CHECK_REPORT",
+  "blocked_reason": null,
+  "checks": {
+    "e3_closeout_decision_exists": true,
+    "e3_closeout_publication_exists": true,
+    "post_e3_fork_preflight_publication_exists": true,
+    "post_e3_preflight_decision_exists": true,
+    "post_e3_sequence_manifest_exists": true,
+    "publication_lf_rule_present": true,
+    "selected_fork_from_user_instruction": "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG"
+  },
+  "created_at": "2026-07-07T10:52:18Z",
+  "e3_closeout_publication_path": "publications/epoch3/main-citybrain-epoch3-closeout-r1",
+  "missing_checks": [],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "post_e3_publication_path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1",
+  "preconditions_passed": true,
+  "status": "PASS_PRECONDITIONS"
+}

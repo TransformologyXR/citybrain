@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<rect width="1600" height="520" fill="#f8fafc"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+<text x="800" y="50" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">CityBrain North-Star Product Loop</text>
+<text x="800" y="86" font-family="Inter,Arial" font-size="18" text-anchor="middle" fill="#475569">A review-only intelligence loop: truth first, claims second, human authority always.</text>
+<rect x="55" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<circle cx="73" cy="188" r="7" fill="#334155"/>
+<text x="122.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Source records</text>
+<text x="122.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Events / Media</text>
+<text x="122.5" y="260" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Spatial context</text>
+<line x1="193" y1="227.5" x2="203" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="208" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+<circle cx="226" cy="188" r="7" fill="#2563eb"/>
+<text x="275.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">IDENTITY</text>
+<text x="275.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">CER</text>
+<line x1="346" y1="227.5" x2="356" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="361" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#7c3aed" stroke-width="3"/>
+<circle cx="379" cy="188" r="7" fill="#7c3aed"/>
+<text x="428.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">GRAPH</text>
+<text x="428.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">SEG</text>
+<line x1="499" y1="227.5" x2="509" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="514" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<circle cx="532" cy="188" r="7" fill="#0891b2"/>
+<text x="581.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">WATCH</text>
+<text x="581.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Review queue</text>
+<line x1="652" y1="227.5" x2="662" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="667" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#0891b2" stroke-width="3"/>
+<circle cx="685" cy="188" r="7" fill="#0891b2"/>
+<text x="734.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">ASK</text>
+<text x="734.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Bounded Q&amp;A</text>
+<line x1="805" y1="227.5" x2="815" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="820" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+<circle cx="838" cy="188" r="7" fill="#d97706"/>
+<text x="887.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">CHECK</text>
+<text x="887.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Claimability</text>
+<line x1="958" y1="227.5" x2="968" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="973" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+<circle cx="991" cy="188" r="7" fill="#16a34a"/>
+<text x="1040.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">BRIEF</text>
+<text x="1040.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Evidence packet</text>
+<line x1="1111" y1="227.5" x2="1121" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1126" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#7c3aed" stroke-width="3"/>
+<circle cx="1144" cy="188" r="7" fill="#7c3aed"/>
+<text x="1193.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">RECALL / DIFF</text>
+<text x="1193.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">PLAN / SPATIAL</text>
+<line x1="1264" y1="227.5" x2="1274" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1279" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<circle cx="1297" cy="188" r="7" fill="#334155"/>
+<text x="1346.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">HUMAN</text>
+<text x="1346.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Workflow state</text>
+<line x1="1417" y1="227.5" x2="1427" y2="227.5" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1432" y="170" width="135" height="115" rx="18" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+<circle cx="1450" cy="188" r="7" fill="#dc2626"/>
+<text x="1499.5" y="212" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">GOVERNANCE</text>
+<text x="1499.5" y="238" font-family="Inter,Arial" font-size="15" text-anchor="middle" fill="#475569">Trace</text>
+<rect x="170" y="365" width="1260" height="70" rx="18" fill="#eef2ff" stroke="#c7d2fe"/>
+<text x="800" y="393" font-family="Inter,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#7c3aed">What this means</text>
+<text x="800" y="422" font-family="Inter,Arial" font-size="17" text-anchor="middle" fill="#0f172a">CityBrain does not jump from data to action. It assembles evidence, validates what can be claimed, and stops at human review.</text>
+</svg>

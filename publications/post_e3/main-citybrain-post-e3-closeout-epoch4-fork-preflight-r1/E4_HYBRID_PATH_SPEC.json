@@ -1,0 +1,20 @@
+{
+  "arming_effect": "Fuel can accumulate only from the review-pilot stream; mechanical work cannot be counted as live usage fuel.",
+  "can_arm_r3a_r3b_l4_from_codex_only": false,
+  "epoch4_started_by_this_package": false,
+  "first_package_candidates_after_selection": [
+    "MAIN-CITYBRAIN-EPOCH4-REVIEW-PILOT-LAUNCH-R1",
+    "MAIN-CITYBRAIN-EPOCH4-NONLIVE-MECHANICAL-BACKLOG-BATCH-R1",
+    "MAIN-CITYBRAIN-EPOCH4-FUEL-GAUGE-WEEKLY-SNAPSHOT-R1"
+  ],
+  "human_selection_required": true,
+  "nonlive_mechanical_work_allowed": true,
+  "operator_or_structured_review_fuel_can_accumulate": true,
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "path_id": "HYBRID_REVIEW_PILOT_PLUS_MECHANICAL_BACKLOG",
+  "product_forecast_surface_allowed": false,
+  "ranking_memory_loops_require_operator_dispositions": true,
+  "selected_by_this_package": false,
+  "separation_rule": "Pilot-derived operator fuel and non-live mechanical artifacts must remain provenance-separated.",
+  "summary": "Run a small review pilot while continuing non-live mechanical backlog work."
+}

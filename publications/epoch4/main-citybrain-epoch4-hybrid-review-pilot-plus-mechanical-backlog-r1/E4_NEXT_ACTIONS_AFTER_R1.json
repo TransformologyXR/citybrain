@@ -1,0 +1,24 @@
+{
+  "artifact_id": "E4_NEXT_ACTIONS_AFTER_R1",
+  "do_not_start_silently": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "recommended_next_packages": [
+    {
+      "blocked_until": "human_review_session_files_or_live_session_protocol",
+      "condition": "Run if actual human review sessions are approved and scheduled.",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-REVIEW-PILOT-HUMAN-SESSIONS-R1"
+    },
+    {
+      "blocked_until": "sufficient_two-observation_or_open-close_evidence",
+      "condition": "Run after source owners approve dated transition-pair materialization.",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-TRANSITION-TARGET-MATERIALIZATION-R2"
+    },
+    {
+      "blocked_until": "verified_operator_resolved_pairs",
+      "condition": "Run only after operator-resolved pairs exist.",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-CHECK-OPERATOR-PAIR-CALIBRATION-R1"
+    }
+  ],
+  "review_pilot_status": "PILOT_READY_AND_DRY_RUN_COMPLETE_HUMAN_SESSIONS_PENDING",
+  "status": "NEXT_ACTIONS_READY"
+}

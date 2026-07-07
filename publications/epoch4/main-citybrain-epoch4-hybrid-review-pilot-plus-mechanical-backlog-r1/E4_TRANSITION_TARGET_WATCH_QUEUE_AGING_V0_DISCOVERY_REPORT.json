@@ -1,0 +1,25 @@
+{
+  "artifact_id": "E4_TRANSITION_TARGET_WATCH_QUEUE_AGING_V0_DISCOVERY_REPORT",
+  "dated_transition_pairs_found": 0,
+  "lineage_strength": "strong_candidate_lineage",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "single_snapshot_conversion_allowed": false,
+  "source_refs_sample": [
+    "outputs/epoch3_day1_instrumentation_and_harness_r1/L1_R0_EXPOSURE_PROPENSITY_LOGGING_REPORT.json",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1/E3_OUTCOME_RECORDS_VALIDATION_FIXTURE.jsonl",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_reexposure_002.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/reexposure_run_envelope_002.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/E3_L2_R1_FROZEN_EVAL_SLICE_CONTRACT.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/fixtures/operator_visible_payload_replay.json",
+    "outputs/epoch3_pre_closeout_convergence_r1/fixtures/scheduled_watch_tick_payload.json",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1/E3_SCHEDULED_TICK_EXPOSURE_VERIFICATION_ROW.json"
+  ],
+  "status": "DISCOVERY_COMPLETE_WITH_LIMITATIONS",
+  "target_id": "watch_queue_aging_v0",
+  "temporal_field_evidence": [
+    "created_at",
+    "surfaced_at",
+    "terminal_disposition_at"
+  ],
+  "temporal_fields_present": true
+}

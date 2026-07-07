@@ -1,0 +1,6 @@
+horizon,goal,deliverables
+Now,Publish shared picture,Use this pack to align team/client language and stop definition-of-done drift.
+0-2 weeks,P0 trust gates,"CHECK v1 design, CER R1 design, human review pilot plan, Event Fabric v1 scope."
+2-6 weeks,Reference spine R1,Event Fabric local v1 + CER engine + CHECK v1 + operator sessions + selected-item/BRIEF export.
+6-10 weeks,Hero demo body,"Hero-neighbourhood twin, event overlays, Watch family expansion, one simulator path."
+10-13 weeks,Client pilot package,"Data maturity dashboard, domain pack story, privacy/retention, pilot scorecard, client-ready demo script."

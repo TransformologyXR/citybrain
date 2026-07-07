@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "items": {
+      "items": {
+        "additionalProperties": true,
+        "properties": {
+          "disposition": {
+            "enum": [
+              "done",
+              "partially_done",
+              "deferred_epoch4_later",
+              "blocked_requires_live_or_human",
+              "not_promotable",
+              "parking_lot"
+            ]
+          },
+          "item_id": {
+            "type": "string"
+          },
+          "next_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "item_id",
+          "source",
+          "disposition"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "package_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "package_id",
+    "items"
+  ],
+  "title": "Backlog Disposition Ledger",
+  "type": "object"
+}

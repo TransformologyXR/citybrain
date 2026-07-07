@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+<rect width="1600" height="600" fill="#f8fafc"/>
+<text x="800" y="54" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">Roadmap: From Consolidation to Client Pilot</text>
+<circle cx="120" cy="210" r="34" fill="#7c3aed"/>
+<text x="120" y="217" font-family="Inter,Arial" font-size="16" font-weight="700" text-anchor="middle" fill="white">1</text>
+<text x="120" y="280" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#7c3aed">Now</text>
+<text x="120" y="312" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Publish shared picture</text>
+<text x="120" y="370" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">Use this pack to align</text>
+<text x="120" y="390" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">team/client language and stop</text>
+<text x="120" y="410" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">definition-of-done drift.</text>
+<line x1="290" y1="210" x2="385" y2="210" stroke="#94a3b8" stroke-width="4"/>
+<circle cx="410" cy="210" r="34" fill="#dc2626"/>
+<text x="410" y="217" font-family="Inter,Arial" font-size="16" font-weight="700" text-anchor="middle" fill="white">2</text>
+<text x="410" y="280" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#dc2626">0-2 weeks</text>
+<text x="410" y="312" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">P0 trust gates</text>
+<text x="410" y="370" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">CHECK v1 design, CER R1 design,</text>
+<text x="410" y="390" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">human review pilot plan, Event</text>
+<text x="410" y="410" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">Fabric v1 scope.</text>
+<line x1="580" y1="210" x2="675" y2="210" stroke="#94a3b8" stroke-width="4"/>
+<circle cx="700" cy="210" r="34" fill="#2563eb"/>
+<text x="700" y="217" font-family="Inter,Arial" font-size="16" font-weight="700" text-anchor="middle" fill="white">3</text>
+<text x="700" y="280" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#2563eb">2-6 weeks</text>
+<text x="700" y="312" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Reference spine R1</text>
+<text x="700" y="370" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">Event Fabric local v1 + CER</text>
+<text x="700" y="390" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">engine + CHECK v1 + operator</text>
+<text x="700" y="410" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">sessions + selected-item/BRIEF</text>
+<text x="700" y="430" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">export.</text>
+<line x1="870" y1="210" x2="965" y2="210" stroke="#94a3b8" stroke-width="4"/>
+<circle cx="990" cy="210" r="34" fill="#16a34a"/>
+<text x="990" y="217" font-family="Inter,Arial" font-size="16" font-weight="700" text-anchor="middle" fill="white">4</text>
+<text x="990" y="280" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#16a34a">6-10 weeks</text>
+<text x="990" y="312" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Hero demo body</text>
+<text x="990" y="370" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">Hero-neighbourhood twin, event</text>
+<text x="990" y="390" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">overlays, Watch family</text>
+<text x="990" y="410" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">expansion, one simulator path.</text>
+<line x1="1160" y1="210" x2="1255" y2="210" stroke="#94a3b8" stroke-width="4"/>
+<circle cx="1280" cy="210" r="34" fill="#d97706"/>
+<text x="1280" y="217" font-family="Inter,Arial" font-size="16" font-weight="700" text-anchor="middle" fill="white">5</text>
+<text x="1280" y="280" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#d97706">10-13 weeks</text>
+<text x="1280" y="312" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Client pilot package</text>
+<text x="1280" y="370" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">Data maturity dashboard, domain</text>
+<text x="1280" y="390" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">pack story, privacy/retention,</text>
+<text x="1280" y="410" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">pilot scorecard, client-ready</text>
+<text x="1280" y="430" font-family="Inter,Arial" font-size="14" text-anchor="middle" fill="#475569">demo script.</text>
+<rect x="210" y="505" width="1180" height="55" rx="16" fill="#fef3c7" stroke="#fde68a"/>
+<text x="800" y="538" font-family="Inter,Arial" font-size="18" font-weight="700" text-anchor="middle" fill="#d97706">Principle: certify narrowly, publish visibly, and keep production/live/action claims out until authority exists.</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "artifact_id": "E4_CHECK_CALIBRATION_LIMITATION_ROW",
+  "limitation": "CHECK scorecard is descriptive only until operator-resolved pairs exist with verified exposure linkage.",
+  "operator_resolved_pairs_available": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "status": "LIMITATION_OPERATOR_RESOLVED_PAIRS_ABSENT",
+  "true_calibration_ready": false
+}

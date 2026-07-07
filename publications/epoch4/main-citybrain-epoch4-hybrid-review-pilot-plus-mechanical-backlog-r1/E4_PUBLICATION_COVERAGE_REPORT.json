@@ -1,0 +1,252 @@
+{
+  "artifact_id": "E4_PUBLICATION_COVERAGE_REPORT",
+  "artifacts": [
+    {
+      "artifact": "E4_PRECONDITION_CHECK_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PRECONDITION_CHECK_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_PRECONDITION_CHECK_REPORT.json"
+    },
+    {
+      "artifact": "E4_FORK_SELECTION_LEDGER_ROW.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_FORK_SELECTION_LEDGER_ROW.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_FORK_SELECTION_LEDGER_ROW.json"
+    },
+    {
+      "artifact": "E4_INHERITED_ARMING_BASELINE.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_INHERITED_ARMING_BASELINE.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_INHERITED_ARMING_BASELINE.json"
+    },
+    {
+      "artifact": "E4_REVIEW_PILOT_PROTOCOL.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_PROTOCOL.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_PROTOCOL.json"
+    },
+    {
+      "artifact": "E4_REVIEW_SESSION_PLAN.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_SESSION_PLAN.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_SESSION_PLAN.json"
+    },
+    {
+      "artifact": "E4_REVIEW_PILOT_QUEUE_MANIFEST.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_QUEUE_MANIFEST.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_QUEUE_MANIFEST.json"
+    },
+    {
+      "artifact": "E4_REVIEW_PILOT_DRY_RUN_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_DRY_RUN_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_DRY_RUN_REPORT.json"
+    },
+    {
+      "artifact": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json"
+    },
+    {
+      "artifact": "E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_WEEK1_FUEL_GAUGE_DELTA_SNAPSHOT.json"
+    },
+    {
+      "artifact": "E4_L2_FORECAST_IMPROVEMENT_PLAN.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_FORECAST_IMPROVEMENT_PLAN.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_FORECAST_IMPROVEMENT_PLAN.json"
+    },
+    {
+      "artifact": "E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_PERMIT_STALL_R2_READINESS_OR_EXPERIMENT_REPORT.json"
+    },
+    {
+      "artifact": "E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_CITY_STRATIFIED_EVAL_REQUIREMENTS.json"
+    },
+    {
+      "artifact": "E4_L2_TRANSITION_TARGET_BATCH_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L2_TRANSITION_TARGET_BATCH_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L2_TRANSITION_TARGET_BATCH_REPORT.json"
+    },
+    {
+      "artifact": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "artifact": "E4_L4_CASE_STUBS.jsonl",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_L4_CASE_STUBS.jsonl",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_L4_CASE_STUBS.jsonl"
+    },
+    {
+      "artifact": "E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json"
+    },
+    {
+      "artifact": "E4_CHECK_CALIBRATION_LIMITATION_ROW.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CHECK_CALIBRATION_LIMITATION_ROW.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_CHECK_CALIBRATION_LIMITATION_ROW.json"
+    },
+    {
+      "artifact": "E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_TRANSITION_TARGET_MATERIALIZATION_BATCH_DECISION.json"
+    },
+    {
+      "artifact": "E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json"
+    },
+    {
+      "artifact": "E4_LLM_SEAT_USEFULNESS_SCORECARD.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_LLM_SEAT_USEFULNESS_SCORECARD.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_LLM_SEAT_USEFULNESS_SCORECARD.json"
+    },
+    {
+      "artifact": "E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json"
+    },
+    {
+      "artifact": "E4_DOMAIN_PACK_USEFULNESS_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_DOMAIN_PACK_USEFULNESS_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_DOMAIN_PACK_USEFULNESS_REPORT.json"
+    },
+    {
+      "artifact": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_SIMULATION_BACKTEST_INPUT_CATALOG.json"
+    },
+    {
+      "artifact": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json"
+    },
+    {
+      "artifact": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_BACKLOG_DISPOSITION_LEDGER.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_BACKLOG_DISPOSITION_LEDGER.json"
+    },
+    {
+      "artifact": "E4_CORPUS_DELTA.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_CORPUS_DELTA.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_CORPUS_DELTA.json"
+    },
+    {
+      "artifact": "E4_PUBLICATION_COVERAGE_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_PUBLICATION_COVERAGE_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_PUBLICATION_COVERAGE_REPORT.json"
+    },
+    {
+      "artifact": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "artifact": "E4_HYBRID_LIMITATIONS.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_LIMITATIONS.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_HYBRID_LIMITATIONS.json"
+    },
+    {
+      "artifact": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+    },
+    {
+      "artifact": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_LEDGER_ROW.json"
+    },
+    {
+      "artifact": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NEXT_ACTIONS_AFTER_R1.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "artifact": "HASH_MANIFEST.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/HASH_MANIFEST.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/HASH_MANIFEST.json"
+    },
+    {
+      "artifact": "LINE_ENDING_REPORT.json",
+      "output_exists": true,
+      "output_path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/LINE_ENDING_REPORT.json",
+      "publication_exists": true,
+      "publication_path": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1/LINE_ENDING_REPORT.json"
+    }
+  ],
+  "durable_publication_required": true,
+  "missing_publication_artifacts": [],
+  "outputs_are_gitignored": true,
+  "outputs_root": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "publication_lf_rule_present": true,
+  "publication_root": "publications/epoch4/main-citybrain-epoch4-hybrid-review-pilot-plus-mechanical-backlog-r1",
+  "required_artifact_count": 34,
+  "status": "PASS_PUBLICATION_COVERAGE"
+}

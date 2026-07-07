@@ -1,0 +1,28 @@
+{
+  "artifact_id": "E4_L2_FORECAST_IMPROVEMENT_PLAN",
+  "average_precision": {
+    "baseline_proxy": 0.107386,
+    "improvement_factor": 1.786,
+    "interpretation": "real_offline_improvement",
+    "model": 0.191775
+  },
+  "brier": {
+    "baseline": 0.101772,
+    "improved": true,
+    "model": 0.092531
+  },
+  "city_divergence_warning": "WARNING",
+  "city_stratified_evaluation_mandatory": true,
+  "current_component": "forecast.permit_stall_v0.r1",
+  "current_component_status": "experimental",
+  "current_limitations": [
+    "R1 pipeline validated but model is not deployable.",
+    "Average precision and Brier improved offline, but recall at fixed precision remains weak.",
+    "Product forecast surface remains unarmed."
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "product_forecast_packet_created": false,
+  "product_forecast_surface_created": false,
+  "r2_work_mode": "preflight_plan_only_no_training_in_this_package",
+  "status": "PLAN_READY_OFFLINE_ONLY"
+}

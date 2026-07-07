@@ -1,0 +1,23 @@
+{
+  "allowed_existing_experimental_components": [
+    "forecast.permit_stall_v0.r1"
+  ],
+  "artifact_id": "E4_NO_FORBIDDEN_CAPABILITY_GUARD",
+  "case_memory_learner_created": false,
+  "counterfactual_learner_created": false,
+  "cross_city_learned_transfer": false,
+  "dynamic_investigation_agents": 0,
+  "forbidden_created": [],
+  "new_learned_registry_entries": 0,
+  "new_model_created": false,
+  "new_product_surfaces": 0,
+  "new_training_rows_created": 0,
+  "official_action_dispatch_enforcement_or_legal_claim_created": false,
+  "operator_facing_rankers": 0,
+  "operator_facing_ranking_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-MECHANICAL-BACKLOG-R1",
+  "product_forecast_packet_created": false,
+  "product_forecast_surface_created": false,
+  "pseudo_operator_dry_run_counted_as_training_fuel": false,
+  "status": "PASS"
+}

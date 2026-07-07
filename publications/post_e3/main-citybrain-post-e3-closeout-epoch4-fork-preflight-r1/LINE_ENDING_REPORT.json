@@ -1,0 +1,184 @@
+{
+  "artifact_id": "LINE_ENDING_REPORT",
+  "checked_files": [
+    {
+      "bytes": 1254,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_ARMING_INHERITANCE_HANDOFF.json"
+    },
+    {
+      "bytes": 1184,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_BACKLOG_HANDOFF.json"
+    },
+    {
+      "bytes": 917,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_DEFERRED_PATH_SPEC.json"
+    },
+    {
+      "bytes": 1012,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_FIRST_PACKAGE_SEQUENCE_MANIFEST.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_FORK_DECISION_TEMPLATE.json"
+    },
+    {
+      "bytes": 1072,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_GO_LIVE_REVIEW_PILOT_PATH_SPEC.json"
+    },
+    {
+      "bytes": 1084,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_HYBRID_PATH_SPEC.json"
+    },
+    {
+      "bytes": 1208,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+    },
+    {
+      "bytes": 978,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 694,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/E4_PUBLICATION_GOVERNANCE_CONTINUITY_ROW.json"
+    },
+    {
+      "bytes": 3625,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 6073,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 4254,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_CLOSEOUT_ARTIFACT_READINESS_REPORT.json"
+    },
+    {
+      "bytes": 1848,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 821,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_LIMITATIONS.json"
+    },
+    {
+      "bytes": 926,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/POST_E3_EPOCH4_FORK_PREFLIGHT_DECISION.json"
+    },
+    {
+      "bytes": 387,
+      "crlf_count": 0,
+      "path": "outputs/post_e3_epoch4_fork_preflight_r1/README.md"
+    },
+    {
+      "bytes": 1254,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_ARMING_INHERITANCE_HANDOFF.json"
+    },
+    {
+      "bytes": 1184,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_BACKLOG_HANDOFF.json"
+    },
+    {
+      "bytes": 917,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_DEFERRED_PATH_SPEC.json"
+    },
+    {
+      "bytes": 1012,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_FIRST_PACKAGE_SEQUENCE_MANIFEST.json"
+    },
+    {
+      "bytes": 592,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_FORK_DECISION_TEMPLATE.json"
+    },
+    {
+      "bytes": 1072,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_GO_LIVE_REVIEW_PILOT_PATH_SPEC.json"
+    },
+    {
+      "bytes": 1084,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_HYBRID_PATH_SPEC.json"
+    },
+    {
+      "bytes": 1208,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+    },
+    {
+      "bytes": 978,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 694,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/E4_PUBLICATION_GOVERNANCE_CONTINUITY_ROW.json"
+    },
+    {
+      "bytes": 3625,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/HASH_MANIFEST.json"
+    },
+    {
+      "bytes": 6073,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/LINE_ENDING_REPORT.json"
+    },
+    {
+      "bytes": 4254,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/POST_E3_CLOSEOUT_ARTIFACT_READINESS_REPORT.json"
+    },
+    {
+      "bytes": 1848,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/POST_E3_EPOCH4_FORK_LEDGER_ROW.json"
+    },
+    {
+      "bytes": 821,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/POST_E3_EPOCH4_FORK_LIMITATIONS.json"
+    },
+    {
+      "bytes": 926,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/POST_E3_EPOCH4_FORK_PREFLIGHT_DECISION.json"
+    },
+    {
+      "bytes": 2385,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/PUBLICATION_SUMMARY.json"
+    },
+    {
+      "bytes": 387,
+      "crlf_count": 0,
+      "path": "publications/post_e3/main-citybrain-post-e3-closeout-epoch4-fork-preflight-r1/README.md"
+    }
+  ],
+  "created_at": "2026-07-07T10:52:18Z",
+  "crlf_paths": [],
+  "package_id": "MAIN-CITYBRAIN-POST-E3-CLOSEOUT-EPOCH4-FORK-PREFLIGHT-R1",
+  "status": "PASS_LF_STABLE_FOR_POST_E3_EPOCH4_FORK_PREFLIGHT_R1"
+}

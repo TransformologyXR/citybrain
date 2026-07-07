@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "evaluator_inherited": {
+      "const": true
+    },
+    "fuel_gauge_snapshot_chain_inherited": {
+      "type": "boolean"
+    },
+    "handoff_id": {
+      "type": "string"
+    },
+    "no_model_guard_cadence_inherited": {
+      "type": "boolean"
+    },
+    "threshold_changes_require_governance_delta": {
+      "const": true
+    },
+    "thresholds_inherited": {
+      "const": true
+    }
+  },
+  "required": [
+    "handoff_id",
+    "evaluator_inherited",
+    "thresholds_inherited",
+    "threshold_changes_require_governance_delta"
+  ],
+  "type": "object"
+}
