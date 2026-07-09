@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 631,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_IMPORT_SCHEMA.json",
+      "sha256": "3d276c3804b64def339bc713574ad1eae17be20f3a67dde5a5b56042eff70498"
+    },
+    {
+      "bytes": 461,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_INPUT_KIT_DECISION.json",
+      "sha256": "fbd0da5160ce8c6c28785329f49ccb65bf8a540dc4c3a9929802890f104fafc8"
+    },
+    {
+      "bytes": 1095,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_INPUT_SOURCE_AUDIT.json",
+      "sha256": "5b116688ce56ce5a3b8b1688747a860ff1a07b3d8e0605719bb58c039f72c0f3"
+    },
+    {
+      "bytes": 1060,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_RESPONSE_TEMPLATE.csv",
+      "sha256": "743943719e4288c8edf679912e48464e964bc39b3b6516df903d6a21ab88d402"
+    },
+    {
+      "bytes": 8628,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_RESPONSE_TEMPLATE.json",
+      "sha256": "e8007d1699eeccde91fb0b77a5fd58bd6b5bd864af9d8448c6760e618a8bba0b"
+    },
+    {
+      "bytes": 427,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_SCORING_RUBRIC.json",
+      "sha256": "9f35e0601d220e82321cd42922f9db7d5650fcb57327f51a87011b6c33bc4979"
+    },
+    {
+      "bytes": 269,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_SESSION_NOT_RUN_GUARD.json",
+      "sha256": "546dc2eeb6ecde3f7ee229ef42d7ffb93601f2c254266b2f6574e53b149281e3"
+    },
+    {
+      "bytes": 31524,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_TASK_CARD_SET.json",
+      "sha256": "355022d5aa09d737324f2734abda6a4b0e045fb84c8101b49d06fdd8615e6d13"
+    },
+    {
+      "bytes": 6167,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_TASK_CARDS.md",
+      "sha256": "fe4eb8c4d46fb028922e576bc59cf34ef868bb1459f25f386ff28f4cc7b79d89"
+    },
+    {
+      "bytes": 631,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_IMPORT_SCHEMA.json",
+      "sha256": "3d276c3804b64def339bc713574ad1eae17be20f3a67dde5a5b56042eff70498"
+    },
+    {
+      "bytes": 461,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_INPUT_KIT_DECISION.json",
+      "sha256": "fbd0da5160ce8c6c28785329f49ccb65bf8a540dc4c3a9929802890f104fafc8"
+    },
+    {
+      "bytes": 1095,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_INPUT_SOURCE_AUDIT.json",
+      "sha256": "5b116688ce56ce5a3b8b1688747a860ff1a07b3d8e0605719bb58c039f72c0f3"
+    },
+    {
+      "bytes": 1060,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_RESPONSE_TEMPLATE.csv",
+      "sha256": "743943719e4288c8edf679912e48464e964bc39b3b6516df903d6a21ab88d402"
+    },
+    {
+      "bytes": 8628,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_RESPONSE_TEMPLATE.json",
+      "sha256": "e8007d1699eeccde91fb0b77a5fd58bd6b5bd864af9d8448c6760e618a8bba0b"
+    },
+    {
+      "bytes": 427,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_SCORING_RUBRIC.json",
+      "sha256": "9f35e0601d220e82321cd42922f9db7d5650fcb57327f51a87011b6c33bc4979"
+    },
+    {
+      "bytes": 269,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_SESSION_NOT_RUN_GUARD.json",
+      "sha256": "546dc2eeb6ecde3f7ee229ef42d7ffb93601f2c254266b2f6574e53b149281e3"
+    },
+    {
+      "bytes": 31524,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_TASK_CARD_SET.json",
+      "sha256": "355022d5aa09d737324f2734abda6a4b0e045fb84c8101b49d06fdd8615e6d13"
+    },
+    {
+      "bytes": 6167,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-input-kit-r2/FOUNDER_PROBE_TASK_CARDS.md",
+      "sha256": "fe4eb8c4d46fb028922e576bc59cf34ef868bb1459f25f386ff28f4cc7b79d89"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-08T04:16:45Z",
+  "status": "PASS"
+}

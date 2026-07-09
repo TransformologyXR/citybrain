@@ -1,0 +1,21 @@
+{
+  "active_path": "no_session_path",
+  "artifact_id": "PRE_PROBE_FINAL_REVERIFY_DECISION",
+  "bounded_founder_probe_status": "PASS_MAIN_CITYBRAIN_EPOCH4_BOUNDED_FOUNDER_PROBE_SESSION_R1_WITH_LIMITATIONS_NO_SESSION",
+  "eval_rerun_case_count": 12,
+  "eval_rerun_pass_count": 12,
+  "external_operator_validation_created": false,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T19:19:37Z",
+  "learning_arming_allowed": false,
+  "live_ingestion_created": false,
+  "maturity_score_inflation_created": false,
+  "official_action_created": false,
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRE-PROBE-FINAL-REVERIFY-R1",
+  "product_forecast_surface_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_PROBE_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "targeted_fix_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_PROBE_TARGETED_FIX_SEQUENCE_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

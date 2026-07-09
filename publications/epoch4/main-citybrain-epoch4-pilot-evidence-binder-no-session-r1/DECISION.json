@@ -1,0 +1,14 @@
+{
+  "artifact_id": "DECISION",
+  "binder_section_count": 6,
+  "dispositions_created": false,
+  "event_fabric_v2_3_included": true,
+  "forbidden_capabilities_created": [],
+  "founder_review_session_run": false,
+  "generated_at": "2026-07-07T16:32:39Z",
+  "operator_or_founder_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PILOT-EVIDENCE-BINDER-NO-SESSION-R1",
+  "simulation_v2_3_included": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_WITH_LIMITATIONS",
+  "training_eligibility_created": false
+}

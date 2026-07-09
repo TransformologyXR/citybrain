@@ -1,0 +1,36 @@
+{
+  "artifact_id": "SIMULATION_V2_4_SUMO_RUN_CAPABILITY_MATRIX",
+  "families": [
+    {
+      "claim_boundary": "not_calibrated_no_forecast_no_action",
+      "deterministic": false,
+      "family_id": "building_compliance_perception_candidate",
+      "netconvert_executable_detected": true,
+      "real_sumo_smoke_executed": false,
+      "sumo_applicability": "sumo_not_applicable",
+      "sumo_executable_detected": true
+    },
+    {
+      "claim_boundary": "not_calibrated_no_forecast_no_action",
+      "deterministic": false,
+      "family_id": "permit_inspection_delay",
+      "netconvert_executable_detected": true,
+      "real_sumo_smoke_executed": false,
+      "sumo_applicability": "sumo_not_applicable",
+      "sumo_executable_detected": true
+    },
+    {
+      "claim_boundary": "not_calibrated_no_forecast_no_action",
+      "deterministic": true,
+      "family_id": "city_asset_infrastructure_issue",
+      "netconvert_executable_detected": true,
+      "real_sumo_smoke_executed": true,
+      "sumo_applicability": "sumo_applicable_synthetic_road_asset_fixture",
+      "sumo_executable_detected": true
+    }
+  ],
+  "netconvert_executable": "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\netconvert.exe",
+  "real_sumo_family_count": 1,
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_executable": "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE"
+}

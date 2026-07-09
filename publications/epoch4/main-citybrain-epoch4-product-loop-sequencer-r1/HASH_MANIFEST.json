@@ -1,0 +1,39 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_SEQUENCER_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 360,
+      "path": "outputs/main_citybrain_epoch4_product_loop_sequencer_r1/PRODUCT_LOOP_SEQUENCER_AUDIT.json",
+      "sha256": "f5ecae049ffc5f192b09cb5ac3ca938253ba572b9aa4d62ba5b3bf0fe0edfa98"
+    },
+    {
+      "bytes": 532,
+      "path": "outputs/main_citybrain_epoch4_product_loop_sequencer_r1/PRODUCT_LOOP_SEQUENCER_DECISION.json",
+      "sha256": "2fac24c63f9a55aef0cec5ced052d48ce0d4a76950fe5da0a9b7010b3a8d47e7"
+    },
+    {
+      "bytes": 122,
+      "path": "outputs/main_citybrain_epoch4_product_loop_sequencer_r1/SUMMARY.md",
+      "sha256": "dea4c02b551528e2a1884e6b6c94bc5b20bb6bbdc2d487e4fcc6ef531b99def9"
+    },
+    {
+      "bytes": 360,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-sequencer-r1/PRODUCT_LOOP_SEQUENCER_AUDIT.json",
+      "sha256": "f5ecae049ffc5f192b09cb5ac3ca938253ba572b9aa4d62ba5b3bf0fe0edfa98"
+    },
+    {
+      "bytes": 532,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-sequencer-r1/PRODUCT_LOOP_SEQUENCER_DECISION.json",
+      "sha256": "2fac24c63f9a55aef0cec5ced052d48ce0d4a76950fe5da0a9b7010b3a8d47e7"
+    },
+    {
+      "bytes": 122,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-sequencer-r1/SUMMARY.md",
+      "sha256": "dea4c02b551528e2a1884e6b6c94bc5b20bb6bbdc2d487e4fcc6ef531b99def9"
+    }
+  ],
+  "entry_count": 6,
+  "generated_at": "2026-07-07T14:10:45Z",
+  "status": "PASS"
+}

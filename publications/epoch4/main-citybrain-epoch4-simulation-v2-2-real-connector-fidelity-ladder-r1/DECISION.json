@@ -1,0 +1,17 @@
+{
+  "artifact_id": "DECISION",
+  "connector_states_explicit": true,
+  "family_option_comparison_count": 3,
+  "fixture_only_pass_with_limitations": true,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T15:53:24Z",
+  "limitations": [
+    "no calibrated real connector run",
+    "fixture outputs remain review-option examples",
+    "no product forecast, recommendation authority, dispatch, or official action"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-SIMULATION-V2-2-REAL-CONNECTOR-FIDELITY-LADDER-R1",
+  "product_forecast_surface_created": false,
+  "real_connector_run_count": 0,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_2_REAL_CONNECTOR_FIDELITY_LADDER_R1_WITH_LIMITATIONS"
+}

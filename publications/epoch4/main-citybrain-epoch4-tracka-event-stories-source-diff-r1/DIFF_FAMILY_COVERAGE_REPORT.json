@@ -1,0 +1,12 @@
+{
+  "artifact_id": "DIFF_FAMILY_COVERAGE_REPORT",
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "min_three_selected_families_covered": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

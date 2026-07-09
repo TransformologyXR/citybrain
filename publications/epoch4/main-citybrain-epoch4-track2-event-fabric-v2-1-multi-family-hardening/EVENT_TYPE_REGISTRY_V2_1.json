@@ -1,0 +1,58 @@
+{
+  "artifact_id": "EVENT_TYPE_REGISTRY_V2_1",
+  "authority_boundary": "review_only_no_action",
+  "event_families": [
+    {
+      "adapter_id": "adapter:mobility_access_interruption",
+      "authority_boundary": "review_only_no_action",
+      "briefable": true,
+      "check_required": true,
+      "event_family": "mobility_access_interruption_v0",
+      "event_type": "mobility.access_interruption",
+      "family_id": "mobility_access_interruption",
+      "spatial_overlay_ready": true,
+      "state_bucket": "active",
+      "watch_admissible": true
+    },
+    {
+      "adapter_id": "adapter:building_compliance_perception_candidate",
+      "authority_boundary": "review_only_no_action",
+      "briefable": true,
+      "check_required": true,
+      "event_family": "building_compliance_perception_candidate_v0",
+      "event_type": "building.perception_candidate",
+      "family_id": "building_compliance_perception_candidate",
+      "spatial_overlay_ready": true,
+      "state_bucket": "candidate_review",
+      "watch_admissible": true
+    },
+    {
+      "adapter_id": "adapter:permit_inspection_delay",
+      "authority_boundary": "review_only_no_action",
+      "briefable": true,
+      "check_required": true,
+      "event_family": "permit_inspection_delay_v0",
+      "event_type": "permit.inspection_delay",
+      "family_id": "permit_inspection_delay",
+      "spatial_overlay_ready": true,
+      "state_bucket": "active",
+      "watch_admissible": true
+    },
+    {
+      "adapter_id": "adapter:city_asset_infrastructure_issue",
+      "authority_boundary": "review_only_no_action",
+      "briefable": true,
+      "check_required": true,
+      "event_family": "city_asset_infrastructure_issue_v0",
+      "event_type": "asset.infrastructure_issue",
+      "family_id": "city_asset_infrastructure_issue",
+      "spatial_overlay_ready": true,
+      "state_bucket": "review_required",
+      "watch_admissible": true
+    }
+  ],
+  "family_count": 4,
+  "registry_id": "event_type_registry_v2_1_multi_family",
+  "status": "PASS_WITH_LIMITATIONS",
+  "version": "v2.1"
+}

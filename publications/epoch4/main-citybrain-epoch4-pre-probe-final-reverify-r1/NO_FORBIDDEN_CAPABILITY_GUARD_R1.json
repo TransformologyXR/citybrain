@@ -1,0 +1,38 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD_R1",
+  "boundary": "local/replay/evaluation/probe-prep only",
+  "checks": {
+    "ForecastPacket_created": false,
+    "dispatch_control_enforcement_created": false,
+    "external_operator_validation_created": false,
+    "fabricated_session_results_created": false,
+    "learned_ranking_or_model_training_created": false,
+    "live_ingestion_created": false,
+    "maturity_score_inflation_created": false,
+    "official_case_ticket_action_created": false,
+    "operator_fuel_created": false,
+    "product_forecast_surface_created": false,
+    "source_truth_mutated": false,
+    "training_rows_created": false
+  },
+  "forbidden_capabilities_checked": [
+    "live_ingestion",
+    "ForecastPacket",
+    "product_forecast_surface",
+    "learned_ranking",
+    "model_training",
+    "official_case_ticket_action",
+    "dispatch_control_enforcement",
+    "source_truth_mutation",
+    "external_operator_validation",
+    "operator_fuel",
+    "training_rows",
+    "fabricated_session_results",
+    "maturity_score_inflation"
+  ],
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T19:19:37Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRE-PROBE-FINAL-REVERIFY-R1",
+  "scope": "outputs/main_citybrain_epoch4_pre_probe_final_reverify_r1",
+  "status": "PASS"
+}

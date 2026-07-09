@@ -1,0 +1,11 @@
+{
+  "application_mode": "derived_overlay_only_pending_review",
+  "artifact_id": "DERIVED_FIX_APPLICATION_PLAN",
+  "overlay_count": 50,
+  "plan_steps": [
+    "attach overlay refs to review packets and CHECK explanations as derived metadata",
+    "keep source and canonical truth immutable",
+    "require future human review before any operational use"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPARK-PROVISIONING-RUNBOOK-R6E",
+  "final_status": "PARTIAL_METROPOLIS_VSS_SPARK_RUNTIME_NOT_CONFIGURED_R6E_PROVISIONING_RUNBOOK_READY",
+  "spark_vss_runtime_configured": false,
+  "probe_attempted": false,
+  "probe_executed": false,
+  "probe_status": "NOT_CONFIGURED",
+  "r7_ready": false,
+  "narration_records_emitted": 0,
+  "candidate_event_modified_by_vss": false,
+  "official_record_created": false,
+  "action_created": false,
+  "audits": {
+    "host_allocation": "PASS",
+    "source_class_separation": "PASS",
+    "claim_boundary": "PASS",
+    "no_action": "PASS",
+    "secret": "PASS"
+  }
+}

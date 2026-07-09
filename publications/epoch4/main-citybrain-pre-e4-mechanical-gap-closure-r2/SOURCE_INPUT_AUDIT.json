@@ -1,0 +1,164 @@
+{
+  "artifact_id": "SOURCE_INPUT_AUDIT",
+  "package_id": "MAIN-CITYBRAIN-PRE-E4-MECHANICAL-GAP-CLOSURE-R2-1",
+  "source_ref_audits": {
+    "event": {
+      "all_required_present": true,
+      "missing_files": [],
+      "package_key": "event",
+      "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_event_fabric_repair_epoch_r1_1.zip",
+      "present_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "required_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "source_refs": [
+        {
+          "bytes": 9179,
+          "file": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_event_fabric_repair_epoch_r1_1.zip",
+          "sha256": "8d67af25bd9976bde8342619d8ea6319f73a6dc9d589cff8920bbbceba487941",
+          "zip_member": "event_fabric_repair_epoch_r1_1/source_refs/E4_BACKLOG_DISPOSITION_LEDGER.json"
+        },
+        {
+          "bytes": 712,
+          "file": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_event_fabric_repair_epoch_r1_1.zip",
+          "sha256": "52131dda9f6dd9778c39ad53bf55761f984b06e0f3b0b0c39988c859f5eaa309",
+          "zip_member": "event_fabric_repair_epoch_r1_1/source_refs/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+        },
+        {
+          "bytes": 1208,
+          "file": "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_event_fabric_repair_epoch_r1_1.zip",
+          "sha256": "8b15615ab19e3f3d8a16287572d55cdcc3d7fe690e679ccc4b120e000dce4a71",
+          "zip_member": "event_fabric_repair_epoch_r1_1/source_refs/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+        }
+      ]
+    },
+    "master": {
+      "all_required_present": true,
+      "missing_files": [],
+      "package_key": "master",
+      "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_codex_master_mechanical_debt_closure_r2_1.zip",
+      "present_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "required_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "source_refs": [
+        {
+          "bytes": 9179,
+          "file": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_codex_master_mechanical_debt_closure_r2_1.zip",
+          "sha256": "8d67af25bd9976bde8342619d8ea6319f73a6dc9d589cff8920bbbceba487941",
+          "zip_member": "master_mechanical_debt_closure_r2_1/source_refs/E4_BACKLOG_DISPOSITION_LEDGER.json"
+        },
+        {
+          "bytes": 712,
+          "file": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_codex_master_mechanical_debt_closure_r2_1.zip",
+          "sha256": "52131dda9f6dd9778c39ad53bf55761f984b06e0f3b0b0c39988c859f5eaa309",
+          "zip_member": "master_mechanical_debt_closure_r2_1/source_refs/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+        },
+        {
+          "bytes": 1208,
+          "file": "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_codex_master_mechanical_debt_closure_r2_1.zip",
+          "sha256": "8b15615ab19e3f3d8a16287572d55cdcc3d7fe690e679ccc4b120e000dce4a71",
+          "zip_member": "master_mechanical_debt_closure_r2_1/source_refs/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+        }
+      ]
+    },
+    "reverify": {
+      "all_required_present": true,
+      "missing_files": [],
+      "package_key": "reverify",
+      "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_pre_e4_three_package_reverify_r1.zip",
+      "present_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "required_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "source_refs": [
+        {
+          "bytes": 9179,
+          "file": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_pre_e4_three_package_reverify_r1.zip",
+          "sha256": "8d67af25bd9976bde8342619d8ea6319f73a6dc9d589cff8920bbbceba487941",
+          "zip_member": "three_package_reverify_r1/source_refs/E4_BACKLOG_DISPOSITION_LEDGER.json"
+        },
+        {
+          "bytes": 712,
+          "file": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_pre_e4_three_package_reverify_r1.zip",
+          "sha256": "52131dda9f6dd9778c39ad53bf55761f984b06e0f3b0b0c39988c859f5eaa309",
+          "zip_member": "three_package_reverify_r1/source_refs/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+        },
+        {
+          "bytes": 1208,
+          "file": "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_pre_e4_three_package_reverify_r1.zip",
+          "sha256": "8b15615ab19e3f3d8a16287572d55cdcc3d7fe690e679ccc4b120e000dce4a71",
+          "zip_member": "three_package_reverify_r1/source_refs/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+        }
+      ]
+    },
+    "simulation": {
+      "all_required_present": true,
+      "missing_files": [],
+      "package_key": "simulation",
+      "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_simulation_backtest_repair_epoch_r1_1.zip",
+      "present_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "required_files": [
+        "E4_BACKLOG_DISPOSITION_LEDGER.json",
+        "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+        "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+      ],
+      "source_refs": [
+        {
+          "bytes": 9179,
+          "file": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_simulation_backtest_repair_epoch_r1_1.zip",
+          "sha256": "8d67af25bd9976bde8342619d8ea6319f73a6dc9d589cff8920bbbceba487941",
+          "zip_member": "simulation_backtest_repair_epoch_r1_1/source_refs/E4_BACKLOG_DISPOSITION_LEDGER.json"
+        },
+        {
+          "bytes": 712,
+          "file": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_simulation_backtest_repair_epoch_r1_1.zip",
+          "sha256": "52131dda9f6dd9778c39ad53bf55761f984b06e0f3b0b0c39988c859f5eaa309",
+          "zip_member": "simulation_backtest_repair_epoch_r1_1/source_refs/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+        },
+        {
+          "bytes": 1208,
+          "file": "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+          "package_zip": "C:\\Users\\hazem\\Downloads\\citybrain_simulation_backtest_repair_epoch_r1_1.zip",
+          "sha256": "8b15615ab19e3f3d8a16287572d55cdcc3d7fe690e679ccc4b120e000dce4a71",
+          "zip_member": "simulation_backtest_repair_epoch_r1_1/source_refs/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+        }
+      ]
+    }
+  },
+  "source_refs_source_of_truth": "package-local source_refs from revised handoff zips",
+  "status": "PASS"
+}

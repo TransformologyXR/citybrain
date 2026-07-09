@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_LIVE_INGESTION_GUARD",
+  "autonomous_alerting_created": false,
+  "official_incident_truth_created": false,
+  "production_live_ingestion_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS"
+}

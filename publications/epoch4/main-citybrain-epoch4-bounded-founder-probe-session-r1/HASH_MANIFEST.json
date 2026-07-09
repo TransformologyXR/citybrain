@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 650,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/BOUNDED_FOUNDER_PROBE_SESSION_DECISION.json",
+      "sha256": "1201ede2a6800e6dce49180441d982f8d1011946492b8d497e1c1e51ca21ac97"
+    },
+    {
+      "bytes": 7510,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/BOUNDED_FOUNDER_PROBE_TASK_QUEUE_R1.json",
+      "sha256": "cfe98c225f8e82864857b46c7122288c668ee1370a3292afc74f7f7639280317"
+    },
+    {
+      "bytes": 156,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/FOUNDER_INTERNAL_CONFUSION_LOG_R1.json",
+      "sha256": "fccc5bee49135485637857cd26944fd9e68f032d430166650deed7e0c13e7856"
+    },
+    {
+      "bytes": 159,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/FOUNDER_INTERNAL_EVIDENCE_QUALITY_RATINGS_R1.json",
+      "sha256": "1b1cbf82c3f793b771a741a8ac276f96b269b6a81ff77fb67c9487597a5b4046"
+    },
+    {
+      "bytes": 221,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/FOUNDER_INTERNAL_FEEDBACK_REPORT_R1.json",
+      "sha256": "9f615f193c42753cc4ebbf99cbee0ec1b5f3c8c10b8829a63b67746f981baba4"
+    },
+    {
+      "bytes": 235,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/NO_FOUNDER_SESSION_CAPTURED_R1.json",
+      "sha256": "a5e4046c6c97995fce66f3c850de960014b58dfe119131552c740e589eb91919"
+    },
+    {
+      "bytes": 186,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/NO_LEARNED_ARMING_GUARD_R1.json",
+      "sha256": "757e0f97231b05e94679a4d3fa38f37c666861f28d770deef1ad4317ed202b71"
+    },
+    {
+      "bytes": 177,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/NO_OPERATOR_FUEL_GUARD_R1.json",
+      "sha256": "e68c051fb54f4869e5f171974711d751069a3695f21c355ffa165015ff31444f"
+    },
+    {
+      "bytes": 175,
+      "path": "outputs/main_citybrain_epoch4_bounded_founder_probe_session_r1/NO_TRAINING_ROWS_GUARD_R1.json",
+      "sha256": "286f338eb9b9f098cf94a115403836fb3ec6cd6c4106c5b1666f2382b6bf85b6"
+    },
+    {
+      "bytes": 650,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/BOUNDED_FOUNDER_PROBE_SESSION_DECISION.json",
+      "sha256": "1201ede2a6800e6dce49180441d982f8d1011946492b8d497e1c1e51ca21ac97"
+    },
+    {
+      "bytes": 7510,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/BOUNDED_FOUNDER_PROBE_TASK_QUEUE_R1.json",
+      "sha256": "cfe98c225f8e82864857b46c7122288c668ee1370a3292afc74f7f7639280317"
+    },
+    {
+      "bytes": 156,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/FOUNDER_INTERNAL_CONFUSION_LOG_R1.json",
+      "sha256": "fccc5bee49135485637857cd26944fd9e68f032d430166650deed7e0c13e7856"
+    },
+    {
+      "bytes": 159,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/FOUNDER_INTERNAL_EVIDENCE_QUALITY_RATINGS_R1.json",
+      "sha256": "1b1cbf82c3f793b771a741a8ac276f96b269b6a81ff77fb67c9487597a5b4046"
+    },
+    {
+      "bytes": 221,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/FOUNDER_INTERNAL_FEEDBACK_REPORT_R1.json",
+      "sha256": "9f615f193c42753cc4ebbf99cbee0ec1b5f3c8c10b8829a63b67746f981baba4"
+    },
+    {
+      "bytes": 235,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/NO_FOUNDER_SESSION_CAPTURED_R1.json",
+      "sha256": "a5e4046c6c97995fce66f3c850de960014b58dfe119131552c740e589eb91919"
+    },
+    {
+      "bytes": 186,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/NO_LEARNED_ARMING_GUARD_R1.json",
+      "sha256": "757e0f97231b05e94679a4d3fa38f37c666861f28d770deef1ad4317ed202b71"
+    },
+    {
+      "bytes": 177,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/NO_OPERATOR_FUEL_GUARD_R1.json",
+      "sha256": "e68c051fb54f4869e5f171974711d751069a3695f21c355ffa165015ff31444f"
+    },
+    {
+      "bytes": 175,
+      "path": "publications/epoch4/main-citybrain-epoch4-bounded-founder-probe-session-r1/NO_TRAINING_ROWS_GUARD_R1.json",
+      "sha256": "286f338eb9b9f098cf94a115403836fb3ec6cd6c4106c5b1666f2382b6bf85b6"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T19:19:37Z",
+  "status": "PASS"
+}

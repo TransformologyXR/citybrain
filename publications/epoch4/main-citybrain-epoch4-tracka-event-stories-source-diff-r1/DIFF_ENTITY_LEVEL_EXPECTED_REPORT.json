@@ -1,0 +1,15 @@
+{
+  "artifact_id": "DIFF_ENTITY_LEVEL_EXPECTED_REPORT",
+  "entity_fixture_count": 32,
+  "expected_entity_classification_counts": {
+    "changed": 4,
+    "changed_relationship_strengthened": 4,
+    "changed_relationship_weakened": 4,
+    "expired": 4,
+    "new": 4,
+    "new_candidate_only": 4,
+    "removed_or_missing": 4,
+    "stale": 4
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

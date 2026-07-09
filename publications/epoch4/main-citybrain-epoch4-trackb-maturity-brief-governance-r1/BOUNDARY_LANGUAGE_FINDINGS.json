@@ -1,0 +1,1207 @@
+{
+  "artifact_id": "BOUNDARY_LANGUAGE_FINDINGS",
+  "boundary_or_limitation_count": 27827,
+  "findings_sample": [
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/_handover_trackB_city_episode_pack_end_to_end/trackB_city_episode_pack_end_to_end_handover/00_HANDOVER.md",
+      "snippet": "ive agents or autonomous agents. - No external LLM calls. - No command/action/enforcement/dispatch/routing/control output. - No legal finding, confirmed violation, permit approval/rejectio",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/_handover_trackB_city_episode_pack_end_to_end/trackB_city_episode_pack_end_to_end_handover/00_HANDOVER.md",
+      "snippet": " API. - No live agents or autonomous agents. - No external LLM calls. - No command/action/enforcement/dispatch/routing/control output. - No legal finding, confirmed violation, permit approval",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/_handover_trackB_city_episode_pack_end_to_end/trackB_city_episode_pack_end_to_end_handover/00_HANDOVER.md",
+      "snippet": "external LLM calls. - No command/action/enforcement/dispatch/routing/control output. - No legal finding, confirmed violation, permit approval/rejection, ownership truth, or certified impact. - ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/_handover_trackB_city_episode_pack_end_to_end/trackB_city_episode_pack_end_to_end_handover/06_BOUNDARIES_AND_CLAIMS.md",
+      "snippet": "ive agents or autonomous agents. - No external LLM calls. - No command/action/enforcement/dispatch/routing/control output. - No legal finding, confirmed violation, permit approval/rejectio",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/_handover_trackB_city_episode_pack_end_to_end/trackB_city_episode_pack_end_to_end_handover/06_BOUNDARIES_AND_CLAIMS.md",
+      "snippet": " API. - No live agents or autonomous agents. - No external LLM calls. - No command/action/enforcement/dispatch/routing/control output. - No legal finding, confirmed violation, permit approval",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/_handover_trackB_city_episode_pack_end_to_end/trackB_city_episode_pack_end_to_end_handover/06_BOUNDARIES_AND_CLAIMS.md",
+      "snippet": "external LLM calls. - No command/action/enforcement/dispatch/routing/control output. - No legal finding, confirmed violation, permit approval/rejection, ownership truth, or certified impact. - ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/CLAIM_BOUNDARY_AUDIT.json",
+      "snippet": "o for review/query context. It does not claim production readiness, public API readiness, live monitoring, autonomous incident detection, alert push, dispatch, routing/control, enforcement, offic",
+      "term": "live monitoring"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json",
+      "snippet": "cle, and an inert execution stub only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json",
+      "snippet": "tified twin or certified physical geometry claim\",     \"no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or autom",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json",
+      "snippet": "only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no prod",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json",
+      "snippet": "ysical geometry claim\",     \"no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or automated action\",     \"closeout/au",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json",
+      "snippet": " no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no production/public API cl",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/COLLATERAL_R2_AFTER_TRACK_A_AND_TRACK_D_IF_GREEN_DECISION.json",
+      "snippet": "ry claim\",     \"no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or automated action\",     \"closeout/audit/freeze-readin",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/DEMO_WALKTHROUGH_SCRIPT.md",
+      "snippet": "cle, and an inert execution stub only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/DEMO_WALKTHROUGH_SCRIPT.md",
+      "snippet": "only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no prod",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/DEMO_WALKTHROUGH_SCRIPT.md",
+      "snippet": " no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no production/public API cl",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/EXECUTIVE_POSITIONING.md",
+      "snippet": "cle, and an inert execution stub only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/EXECUTIVE_POSITIONING.md",
+      "snippet": "only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no prod",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/EXECUTIVE_POSITIONING.md",
+      "snippet": " no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no production/public API cl",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/EXECUTIVE_WALKTHROUGH_SCRIPT.md",
+      "snippet": "r HITL reviewed-action objects. - Inert execution stub only. - No production, public API, live monitoring, control, enforcement, certified-twin, or certified-geometry claim. ",
+      "term": "live monitoring"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/EXECUTIVE_WALKTHROUGH_SCRIPT.md",
+      "snippet": "ects. - Inert execution stub only. - No production, public API, live monitoring, control, enforcement, certified-twin, or certified-geometry claim. ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/FORBIDDEN_TALKING_POINTS.md",
+      "snippet": "omous monitoring. - Forbidden: CityBrain confirms legal incidents. - Forbidden: CityBrain dispatches resources or controls routes. - Forbidden: CityBrain is a certified citywide digital tw",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LIMITATIONS_LEDGER.json",
+      "snippet": "tified twin or certified physical geometry claim\",     \"no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or autom",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LIMITATIONS_LEDGER.json",
+      "snippet": "ysical geometry claim\",     \"no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or automated action\",     \"closeout/au",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LIMITATIONS_LEDGER.json",
+      "snippet": "ry claim\",     \"no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or automated action\",     \"closeout/audit/freeze-readin",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LIMITATIONS_LEDGER.md",
+      "snippet": "e certified twin or certified physical geometry claim - no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or autom",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LIMITATIONS_LEDGER.md",
+      "snippet": "ed physical geometry claim - no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or automated action - closeout/audit/f",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LIMITATIONS_LEDGER.md",
+      "snippet": "eometry claim - no autonomous monitoring, alerts, dispatch, routing/control, enforcement, official ticket/case, legal/certified conclusion, or automated action - closeout/audit/freeze-readiness p",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LOCAL_OPEN_INDEX.md",
+      "snippet": "cle, and an inert execution stub only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LOCAL_OPEN_INDEX.md",
+      "snippet": "only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no prod",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/LOCAL_OPEN_INDEX.md",
+      "snippet": " no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no production/public API cl",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/NO_ACTION_BOUNDARY_AUDIT.json",
+      "snippet": "policy\": \"Collateral may recommend safe next-look review only; it must not create action, alerting, dispatch, enforcement, or execution language.\",   \"status\": \"PASS\",   \"task_name\": \"COLL",
+      "term": "alerting"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/NO_ACTION_BOUNDARY_AUDIT.json",
+      "snippet": "Collateral may recommend safe next-look review only; it must not create action, alerting, dispatch, enforcement, or execution language.\",   \"status\": \"PASS\",   \"task_name\": \"COLLATERAL-R2-",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/NO_ACTION_BOUNDARY_AUDIT.json",
+      "snippet": " may recommend safe next-look review only; it must not create action, alerting, dispatch, enforcement, or execution language.\",   \"status\": \"PASS\",   \"task_name\": \"COLLATERAL-R2-AFTER-TRACK-A",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/PERSONA_WALKTHROUGHS.md",
+      "snippet": "cle, and an inert execution stub only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/PERSONA_WALKTHROUGHS.md",
+      "snippet": "only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no prod",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/PERSONA_WALKTHROUGHS.md",
+      "snippet": " no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no production/public API cl",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/README.md",
+      "snippet": "cle, and an inert execution stub only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/README.md",
+      "snippet": "only. It creates no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no prod",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/collateral_r2_after_track_a_and_track_d_if_green/README.md",
+      "snippet": " no autonomous monitoring, no alerts, no dispatch, no routing/control, no enforcement, no official ticket/case creation, no legal/certified/confirmed incident finding, no production/public API cl",
+      "term": "official ticket"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/control_docs_addendum_r2_reconciliation/PARALLEL_TRACKS_R2.md",
+      "snippet": "runtime/body layers. It is bounded to review-safe platform capability and does not create autonomous action.  ## Track 2: Separate Flow-Promotion Queue  - `NYC-F2-F5-FLOW-ACCEPTANCE-R1` - `NYC-F4-F",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_LIMITATIONS.json",
+      "snippet": "mory learner.\",     \"Dynamic investigation, cross-city learned transfer, official action, dispatch, enforcement, and legal/certified findings remain forbidden.\"   ],   \"package_id\": \"MAIN-",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_LIMITATIONS.json",
+      "snippet": "er.\",     \"Dynamic investigation, cross-city learned transfer, official action, dispatch, enforcement, and legal/certified findings remain forbidden.\"   ],   \"package_id\": \"MAIN-CITYBRAIN-EPO",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_HYBRID_LIMITATIONS.json",
+      "snippet": "stigation, cross-city learned transfer, official action, dispatch, enforcement, and legal/certified findings remain forbidden.\"   ],   \"package_id\": \"MAIN-CITYBRAIN-EPOCH4-HYBRID-REVIEW-PILOT-PLUS-",
+      "term": "certified finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "snippet": " false,   \"new_product_surfaces\": 0,   \"new_training_rows_created\": 0,   \"official_action_dispatch_enforcement_or_legal_claim_created\": false,   \"operator_facing_rankers\": 0,   \"operator_f",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/epoch4_hybrid_review_pilot_plus_mechanical_backlog_r1/E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "snippet": " \"new_product_surfaces\": 0,   \"new_training_rows_created\": 0,   \"official_action_dispatch_enforcement_or_legal_claim_created\": false,   \"operator_facing_rankers\": 0,   \"operator_facing_rankin",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_building_compliance_r7_edge_extension_and_closeout_r1/BUILDING_COMPLIANCE_R7_TRACK2A_FUTURE_HANDOFF_CANDIDATES.json",
+      "snippet": " \"Building compliance R7 branch context only. No production readiness, public deployment, legal finding, confirmed violation, permit approval/rejection, enforcement, dispatch, routing/control, ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_BOUNDARY_AUDIT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_BOUNDARY_AUDIT.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_BOUNDARY_AUDIT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_BOUNDARY_AUDIT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/INTEGRATED_LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/MAIN_CITYBRAIN_D4X_D5_TRACK2A_INTEGRATED_FINISHING_HANDOVER_R1_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/MAIN_CITYBRAIN_D4X_D5_TRACK2A_INTEGRATED_FINISHING_HANDOVER_R1_DECISION.json",
+      "snippet": "mesh_binding_claim_made\": false,   \"integrated_reference_spine_closed\": true,   \"legal_or_enforcement_claim_made\": false,   \"limitation_refs_present\": true,   \"limitations\": [     \"bounded lo",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/MAIN_CITYBRAIN_D4X_D5_TRACK2A_INTEGRATED_FINISHING_HANDOVER_R1_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/MAIN_CITYBRAIN_D4X_D5_TRACK2A_INTEGRATED_FINISHING_HANDOVER_R1_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase0_upstream_audit_r0/PHASE0_GO_NO_GO_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase0_upstream_audit_r0/PHASE0_GO_NO_GO_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase0_upstream_audit_r0/PHASE0_GO_NO_GO_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase0_upstream_audit_r0/PHASE0_GO_NO_GO_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_HARDENED_CURRENT_STATE.json",
+      "snippet": "mple\",       \"claim_boundary\": \"resolved as candidate/context only; not legal, certified, dispatch, control, or action truth\",       \"confidence\": 0.78,       \"event_time\": \"2026-06-30T09:",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_HARDENED_QUERY_RESULTS.json",
+      "snippet": "le\",         \"claim_boundary\": \"resolved as candidate/context only; not legal, certified, dispatch, control, or action truth\",         \"confidence\": 0.78,         \"event_time\": \"2026-06-30",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_HARDENED_QUERY_RESULTS.json",
+      "snippet": "le\",         \"claim_boundary\": \"resolved as candidate/context only; not legal, certified, dispatch, control, or action truth\",         \"confidence\": 0.78,         \"event_time\": \"2026-06-30",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_HARDENED_STATE_CONTRACT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_HARDENED_STATE_CONTRACT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_HARDENED_STATE_CONTRACT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_STATE_QUERY_HARDENING_R2_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_STATE_QUERY_HARDENING_R2_DECISION.json",
+      "snippet": "im_made\": false,   \"event_count\": 3,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_STATE_QUERY_HARDENING_R2_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase1_live_event_fabric_state_query_hardening_r2/LIVE_EVENT_FABRIC_STATE_QUERY_HARDENING_R2_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/EVENT_FABRIC_HANDOFF_BOUNDARY_AUDIT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/EVENT_FABRIC_HANDOFF_BOUNDARY_AUDIT.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/EVENT_FABRIC_HANDOFF_BOUNDARY_AUDIT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/EVENT_FABRIC_HANDOFF_BOUNDARY_AUDIT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIVE_EVENT_FABRIC_HANDOFF_CERTIFICATION_R3_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIVE_EVENT_FABRIC_HANDOFF_CERTIFICATION_R3_DECISION.json",
+      "snippet": "e\": false,   \"consumer_examples\": 3,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIVE_EVENT_FABRIC_HANDOFF_CERTIFICATION_R3_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase2_live_event_fabric_handoff_certification_r3/LIVE_EVENT_FABRIC_HANDOFF_CERTIFICATION_R3_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_BOUNDARY_AUDIT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_BOUNDARY_AUDIT.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_BOUNDARY_AUDIT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_BOUNDARY_AUDIT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_FABRIC_INTEGRATION_R3_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_FABRIC_INTEGRATION_R3_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_FABRIC_INTEGRATION_R3_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_FABRIC_INTEGRATION_R3_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_RESPONSE_FIXTURES.json",
+      "snippet": "erlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_RESPONSE_FIXTURES.json",
+      "snippet": "erlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_RESPONSE_FIXTURES.json",
+      "snippet": "and marker overlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomou",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_RESPONSE_FIXTURES.json",
+      "snippet": "and marker overlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomou",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_RESPONSE_FIXTURES.json",
+      "snippet": "forcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",         \"small event fixture count\",         \"JSONL/local event fabric\",         \"Kit e",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_RESPONSE_FIXTURES.json",
+      "snippet": "forcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",         \"small event fixture count\",         \"JSONL/local event fabric\",         \"Kit e",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_TRACE_AUDIT.json",
+      "snippet": "erlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_TRACE_AUDIT.json",
+      "snippet": "erlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_TRACE_AUDIT.json",
+      "snippet": "and marker overlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomou",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_TRACE_AUDIT.json",
+      "snippet": "and marker overlays are context only, not canonical truth\",         \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomou",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_TRACE_AUDIT.json",
+      "snippet": "forcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",         \"small event fixture count\",         \"JSONL/local event fabric\",         \"Kit e",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase3_d5_event_fabric_integration_r3/LOCAL_SERVED_RUNTIME_EVENT_TRACE_AUDIT.json",
+      "snippet": "forcement, dispatch, routing, control, or certified affected-building claim\",         \"no autonomous action\",         \"small event fixture count\",         \"JSONL/local event fabric\",         \"Kit e",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_BOUNDARY_AUDIT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_BOUNDARY_AUDIT.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_BOUNDARY_AUDIT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_BOUNDARY_AUDIT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": "lays are context only, not canonical truth\",           \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",           \"no autonomous action",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": "lays are context only, not canonical truth\",           \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",           \"no autonomous action",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": " proves it.\",                   \"Review-only situational context; no emergency, policing, enforcement, health, traffic-control, or transit-control recommendation.\",                   \"['not a",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": "d marker overlays are context only, not canonical truth\",           \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",           \"no autonom",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": "d marker overlays are context only, not canonical truth\",           \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",           \"no autonom",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": "rcement, dispatch, routing, control, or certified affected-building claim\",           \"no autonomous action\",           \"small event fixture count\",           \"JSONL/local event fabric\",           ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_FIXTURES.json",
+      "snippet": "rcement, dispatch, routing, control, or certified affected-building claim\",           \"no autonomous action\",           \"small event fixture count\",           \"JSONL/local event fabric\",           ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_SMOKE_R1_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_SMOKE_R1_DECISION.json",
+      "snippet": "made\": false,   \"fixture_count\": 17,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_SMOKE_R1_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase4_d5_app_consumption_smoke_r1/LOCAL_SERVED_RUNTIME_APP_CONSUMPTION_SMOKE_R1_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_BOUNDARY_AUDIT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_BOUNDARY_AUDIT.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_BOUNDARY_AUDIT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_BOUNDARY_AUDIT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_R1_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_R1_DECISION.json",
+      "snippet": " false,   \"full_mesh_binding_claim_made\": false,   \"headless_scaffold\": true,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_R1_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase5_omniverse_kit_selection_extension_r1/OMNIVERSE_KIT_SELECTION_EXTENSION_R1_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/LIMITATIONS_AND_NEXT_STEPS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_BOUNDARY_AUDIT.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_BOUNDARY_AUDIT.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_BOUNDARY_AUDIT.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_BOUNDARY_AUDIT.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_INTEGRATION_R3_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_INTEGRATION_R3_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_INTEGRATION_R3_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase6_omniverse_event_overlay_integration_r3/OMNIVERSE_EVENT_OVERLAY_INTEGRATION_R3_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_LIMITATIONS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_LIMITATIONS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_LIMITATIONS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_SCENE_PACK_R4_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_SCENE_PACK_R4_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_SCENE_PACK_R4_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase7_omniverse_control_room_scene_pack_r4/OMNIVERSE_CONTROL_ROOM_SCENE_PACK_R4_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LIVE_EVENT_FABRIC_CLOSEOUT_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LIVE_EVENT_FABRIC_CLOSEOUT_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LIVE_EVENT_FABRIC_CLOSEOUT_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LIVE_EVENT_FABRIC_CLOSEOUT_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LOCAL_SERVED_RUNTIME_CLOSEOUT_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LOCAL_SERVED_RUNTIME_CLOSEOUT_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LOCAL_SERVED_RUNTIME_CLOSEOUT_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/LOCAL_SERVED_RUNTIME_CLOSEOUT_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/OMNIVERSE_ASSET_BINDING_CLOSEOUT_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/OMNIVERSE_ASSET_BINDING_CLOSEOUT_DECISION.json",
+      "snippet": "  \"citywide_twin_claim_made\": false,   \"full_mesh_binding_claim_made\": false,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/OMNIVERSE_ASSET_BINDING_CLOSEOUT_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/OMNIVERSE_ASSET_BINDING_CLOSEOUT_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/THREE_TRACK_CLOSEOUT_LIMITATIONS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/THREE_TRACK_CLOSEOUT_LIMITATIONS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase8_three_track_closeout/THREE_TRACK_CLOSEOUT_LIMITATIONS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_CLOSEOUT_DECISION.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_CLOSEOUT_DECISION.json",
+      "snippet": "mesh_binding_claim_made\": false,   \"integrated_reference_spine_closed\": true,   \"legal_or_enforcement_claim_made\": false,   \"limitations\": [     \"bounded local/replay/headless reference-spine",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_CLOSEOUT_DECISION.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_CLOSEOUT_DECISION.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_EVIDENCE_MATRIX.json",
+      "snippet": "r overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_EVIDENCE_MATRIX.json",
+      "snippet": "ata and marker overlays are context only, not canonical truth\",     \"no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous ac",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_EVIDENCE_MATRIX.json",
+      "snippet": ", enforcement, dispatch, routing, control, or certified affected-building claim\",     \"no autonomous action\",     \"small event fixture count\",     \"JSONL/local event fabric\",     \"Kit extension is ",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_LIMITATIONS.md",
+      "snippet": "marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small ev",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_LIMITATIONS.md",
+      "snippet": "metadata and marker overlays are context only, not canonical truth - no legal, ownership, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action ",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_d5_track2a_integrated_finishing_handover_r1/phase9_integrated_reference_spine_closeout/INTEGRATED_REFERENCE_SPINE_LIMITATIONS.md",
+      "snippet": "rship, enforcement, dispatch, routing, control, or certified affected-building claim - no autonomous action - small event fixture count - JSONL/local event fabric - Kit extension is headless/scaffo",
+      "term": "autonomous action"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d4x_live_event_fabric_minimal_local_slice/LIVE_EVENT_FABRIC_TRACK2A_HANDOFF_CONTRACT.json",
+      "snippet": "y-handoff\",   \"forbidden_overlay_claims\": [     \"certified affected-building truth\",     \"legal finding\",     \"confirmed violation\",     \"dispatch/enforcement/routing/control\",     \"production ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": ". No production service, public API readiness, live or autonomous monitoring, alert push, dispatch, routing/control, enforcement, legal/certified claim, full citywide twin claim, or automa",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "dden_actions\": [         \"no autonomous monitoring\",         \"no alert push\",         \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": ". No production service, public API readiness, live or autonomous monitoring, alert push, dispatch, routing/control, enforcement, legal/certified claim, full citywide twin claim, or automa",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "dden_actions\": [         \"no autonomous monitoring\",         \"no alert push\",         \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": ". No production service, public API readiness, live or autonomous monitoring, alert push, dispatch, routing/control, enforcement, legal/certified claim, full citywide twin claim, or automa",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "dden_actions\": [         \"no autonomous monitoring\",         \"no alert push\",         \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",    ",
+      "term": "dispatch"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "  \"no autonomous monitoring\",         \"no alert push\",         \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",         \"no certified fact cl",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "  \"no autonomous monitoring\",         \"no alert push\",         \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",         \"no certified fact cl",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "  \"no autonomous monitoring\",         \"no alert push\",         \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",         \"no certified fact cl",
+      "term": "enforcement"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "       \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",         \"no certified fact claim\",         \"no source artifact mutation\"       ],      ",
+      "term": "legal finding"
+    },
+    {
+      "classification": "boundary_or_limitation_language",
+      "path": "outputs/main_citybrain_d5_local_served_runtime_track2_handoff_r4/ASSET_OVERLAY_PACKET_FIXTURES.json",
+      "snippet": "       \"no dispatch\",         \"no enforcement\",         \"no routing/control\",         \"no legal finding\",         \"no certified fact claim\",         \"no source artifact mutation\"       ],      ",
+      "term": "legal finding"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

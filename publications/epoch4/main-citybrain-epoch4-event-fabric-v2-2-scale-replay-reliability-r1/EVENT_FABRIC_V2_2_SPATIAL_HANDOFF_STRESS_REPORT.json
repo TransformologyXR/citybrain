@@ -1,0 +1,440 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_SPATIAL_HANDOFF_STRESS_REPORT",
+  "claims_live_control": false,
+  "packet_count": 36,
+  "packets": [
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:01",
+      "event_id": "efv22-mobility_access_interruption-01",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-01"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:01",
+      "event_id": "efv22-mobility_access_interruption-02",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-02"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:03",
+      "event_id": "efv22-mobility_access_interruption-03",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-03"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:04",
+      "event_id": "efv22-mobility_access_interruption-04",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-04"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:05",
+      "event_id": "efv22-mobility_access_interruption-05",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-05"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:06",
+      "event_id": "efv22-mobility_access_interruption-06",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-06"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:08",
+      "event_id": "efv22-mobility_access_interruption-08",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-08"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:09",
+      "event_id": "efv22-mobility_access_interruption-09",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-09"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:mobility_access_interruption",
+      "check_report_ref": "check:v1:mobility_access_interruption:10",
+      "event_id": "efv22-mobility_access_interruption-10",
+      "family_id": "mobility_access_interruption",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-mobility_access_interruption-10"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:01",
+      "event_id": "efv22-building_compliance_perception_candidate-01",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-01"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:01",
+      "event_id": "efv22-building_compliance_perception_candidate-02",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-02"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:03",
+      "event_id": "efv22-building_compliance_perception_candidate-03",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-03"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:04",
+      "event_id": "efv22-building_compliance_perception_candidate-04",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-04"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:05",
+      "event_id": "efv22-building_compliance_perception_candidate-05",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-05"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:06",
+      "event_id": "efv22-building_compliance_perception_candidate-06",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-06"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:08",
+      "event_id": "efv22-building_compliance_perception_candidate-08",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-08"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:09",
+      "event_id": "efv22-building_compliance_perception_candidate-09",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-09"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:building_compliance_perception_candidate",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:10",
+      "event_id": "efv22-building_compliance_perception_candidate-10",
+      "family_id": "building_compliance_perception_candidate",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-building_compliance_perception_candidate-10"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:01",
+      "event_id": "efv22-permit_inspection_delay-01",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-01"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:01",
+      "event_id": "efv22-permit_inspection_delay-02",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-02"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:03",
+      "event_id": "efv22-permit_inspection_delay-03",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-03"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:04",
+      "event_id": "efv22-permit_inspection_delay-04",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-04"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:05",
+      "event_id": "efv22-permit_inspection_delay-05",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-05"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:06",
+      "event_id": "efv22-permit_inspection_delay-06",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-06"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:08",
+      "event_id": "efv22-permit_inspection_delay-08",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-08"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:09",
+      "event_id": "efv22-permit_inspection_delay-09",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-09"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:permit_inspection_delay",
+      "check_report_ref": "check:v1:permit_inspection_delay:10",
+      "event_id": "efv22-permit_inspection_delay-10",
+      "family_id": "permit_inspection_delay",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-permit_inspection_delay-10"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:01",
+      "event_id": "efv22-city_asset_infrastructure_issue-01",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-01"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:01",
+      "event_id": "efv22-city_asset_infrastructure_issue-02",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-02"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:03",
+      "event_id": "efv22-city_asset_infrastructure_issue-03",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-03"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:04",
+      "event_id": "efv22-city_asset_infrastructure_issue-04",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-04"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:05",
+      "event_id": "efv22-city_asset_infrastructure_issue-05",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-05"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:06",
+      "event_id": "efv22-city_asset_infrastructure_issue-06",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-06"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:08",
+      "event_id": "efv22-city_asset_infrastructure_issue-08",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-08"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:09",
+      "event_id": "efv22-city_asset_infrastructure_issue-09",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-09"
+    },
+    {
+      "authority_envelope_ref": "authority:review_only:city_asset_infrastructure_issue",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:10",
+      "event_id": "efv22-city_asset_infrastructure_issue-10",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitation_refs": [
+        "review_only",
+        "no_live_control",
+        "no_official_action"
+      ],
+      "packet_ref": "spatial:v2_2:efv22-city_asset_infrastructure_issue-10"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

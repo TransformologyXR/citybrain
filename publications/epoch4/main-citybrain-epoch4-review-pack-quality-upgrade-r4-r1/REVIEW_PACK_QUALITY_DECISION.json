@@ -1,0 +1,25 @@
+{
+  "canonical_truth_mutation": false,
+  "diagnostic_ready_cards": 13,
+  "eval_cases_crosswalked": 48,
+  "forecast_surface_created": false,
+  "founder_cards_accounted_for": 16,
+  "founder_diagnostic_ready_recommended": true,
+  "founder_session_results_created": false,
+  "learned_ranking_or_model_training_created": false,
+  "live_ingestion_created": false,
+  "maturity_score_inflation": false,
+  "official_action_control_enforcement_created": false,
+  "operator_fuel_created": false,
+  "product_review_ready_cards": 3,
+  "product_review_ready_recommended": false,
+  "source_truth_mutation": false,
+  "status": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+  "task": "MAIN-CITYBRAIN-EPOCH4-REVIEW-PACK-QUALITY-UPGRADE-R4-R1",
+  "training_rows_created": false,
+  "weakness_classification_counts": {
+    "card-quality gap": 3,
+    "derived/backfill provenance gap": 1,
+    "intentional diagnostic negative/stale/contradiction behavior": 12
+  }
+}

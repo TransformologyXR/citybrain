@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "const": "citybrain.source_registry.v1_1"
+    },
+    "sources": {
+      "items": {
+        "required": [
+          "source_id",
+          "source_name",
+          "city",
+          "domain",
+          "source_class",
+          "access_status",
+          "license_status",
+          "freshness_status",
+          "last_seen_or_landed_at",
+          "geometry_status",
+          "schema_status",
+          "coverage_status",
+          "known_limitations",
+          "consuming_flows",
+          "consuming_modes",
+          "maturity_flags",
+          "evidence_refs"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "sources"
+  ],
+  "title": "CityBrain SourceRegistry v1.1",
+  "type": "object"
+}

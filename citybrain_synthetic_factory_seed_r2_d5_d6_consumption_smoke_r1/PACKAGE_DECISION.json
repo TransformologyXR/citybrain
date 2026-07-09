@@ -1,0 +1,15 @@
+{
+  "boundaries": [
+    "synthetic_replay_only",
+    "donor_context_only",
+    "not_dubai_official_truth",
+    "no_live_monitoring",
+    "no_dispatch_control_enforcement_legal_certified_claim",
+    "no_human_person_level_records",
+    "no_raw_provider_payloads",
+    "no_credentials"
+  ],
+  "package_type": "codex_handoff",
+  "status": "READY_FOR_CODEX_SYNTHETIC_FACTORY_SEED_R2_D5_D6_CONSUMPTION_SMOKE_R1_WITH_NO_SECRETS",
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-D6-CONSUMPTION-SMOKE-R1-PACKAGE"
+}

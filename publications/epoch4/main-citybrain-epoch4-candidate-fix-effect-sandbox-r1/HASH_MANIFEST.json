@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 306,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/BEFORE_AFTER_EVAL_SUMMARY.json",
+      "sha256": "b2c3735dfceeb8dce8407ae2ee17d926e5045e6a619a3776ac9cd55ad46fb9be"
+    },
+    {
+      "bytes": 71460,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/CANDIDATE_FIX_EFFECT_MATRIX.json",
+      "sha256": "ffccbb70926e31d847e7c4d71a483860ca3721d50a86bcb10fadcc153fab1a20"
+    },
+    {
+      "bytes": 479,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/CANDIDATE_FIX_EFFECT_SANDBOX_DECISION.json",
+      "sha256": "0070f1fc52227b92f7f4fb5786faffb64d4d44f22428bbd635597525f3be3243"
+    },
+    {
+      "bytes": 944,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/DERIVED_FIX_INPUT_INVENTORY.json",
+      "sha256": "73ad46b103cdfb73bbc8fadf39ed93b0121c37b6d63475811ef2c4aef5532856"
+    },
+    {
+      "bytes": 14187,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/FIX_PROMOTION_CANDIDATE_REGISTER.json",
+      "sha256": "3d250fd924e43b07d5526f0079efbc9dbc745e7f6e0b09de62110b23d8496be1"
+    },
+    {
+      "bytes": 508,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/FIX_REJECTION_OR_DEFER_REGISTER.json",
+      "sha256": "fd62529e25351d434d406d39851d7479e15230ffdc7cefc8b6913159c6cd97f9"
+    },
+    {
+      "bytes": 188,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/SOURCE_TRUTH_NO_MUTATION_AUDIT.json",
+      "sha256": "98b06709dc39b7212a38c3544bde4f81e405e71aec35d361b83896e3eda22893"
+    },
+    {
+      "bytes": 306,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/BEFORE_AFTER_EVAL_SUMMARY.json",
+      "sha256": "b2c3735dfceeb8dce8407ae2ee17d926e5045e6a619a3776ac9cd55ad46fb9be"
+    },
+    {
+      "bytes": 71460,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/CANDIDATE_FIX_EFFECT_MATRIX.json",
+      "sha256": "ffccbb70926e31d847e7c4d71a483860ca3721d50a86bcb10fadcc153fab1a20"
+    },
+    {
+      "bytes": 479,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/CANDIDATE_FIX_EFFECT_SANDBOX_DECISION.json",
+      "sha256": "0070f1fc52227b92f7f4fb5786faffb64d4d44f22428bbd635597525f3be3243"
+    },
+    {
+      "bytes": 944,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/DERIVED_FIX_INPUT_INVENTORY.json",
+      "sha256": "73ad46b103cdfb73bbc8fadf39ed93b0121c37b6d63475811ef2c4aef5532856"
+    },
+    {
+      "bytes": 14187,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/FIX_PROMOTION_CANDIDATE_REGISTER.json",
+      "sha256": "3d250fd924e43b07d5526f0079efbc9dbc745e7f6e0b09de62110b23d8496be1"
+    },
+    {
+      "bytes": 508,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/FIX_REJECTION_OR_DEFER_REGISTER.json",
+      "sha256": "fd62529e25351d434d406d39851d7479e15230ffdc7cefc8b6913159c6cd97f9"
+    },
+    {
+      "bytes": 188,
+      "path": "publications/epoch4/main-citybrain-epoch4-candidate-fix-effect-sandbox-r1/SOURCE_TRUTH_NO_MUTATION_AUDIT.json",
+      "sha256": "98b06709dc39b7212a38c3544bde4f81e405e71aec35d361b83896e3eda22893"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T20:25:01Z",
+  "status": "PASS"
+}

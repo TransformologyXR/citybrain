@@ -1,0 +1,39 @@
+{
+  "agreements": [
+    "Both AI diagnostic reviews pass with limitations.",
+    "Both keep founder product review closed.",
+    "Both keep product/client readiness closed.",
+    "Both preserve no fuel/training/live/forecast/action boundaries.",
+    "Both find the story arc useful enough for diagnostic review with limitations."
+  ],
+  "artifact_id": "AI_REVIEW_CONCORDANCE_REPORT",
+  "chatgpt_ratings_1_to_5": {
+    "check_boundary_clarity": 5,
+    "cross_family_entity_resolution_clarity": 4,
+    "eval_expansion_usefulness": 4,
+    "evidence_traceability": 4,
+    "founder_diagnostic_usefulness": 4,
+    "product_review_readiness": 2,
+    "simulation_context_honesty": 4,
+    "story_coherence": 4
+  },
+  "claude_ratings_1_to_5": {
+    "check_boundary_clarity": 5,
+    "cross_family_entity_resolution_clarity": 4,
+    "eval_expansion_usefulness": 3,
+    "evidence_traceability": 5,
+    "founder_diagnostic_usefulness": 2,
+    "product_review_readiness": 2,
+    "simulation_context_honesty": 5,
+    "story_coherence": 4
+  },
+  "concordance_ready": true,
+  "countable_ai_artifact_review_count": 2,
+  "disagreements_or_repair_items": [
+    "Claude explicitly flags eval count framing; ChatGPT did not.",
+    "Claude rates founder diagnostic usefulness lower because cards were evidence-audit oriented.",
+    "Claude requires founder cards to be rewritten into product-judgment prompts before diagnostic review."
+  ],
+  "founder_diagnostic_review_recommendation_after_repairs": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+  "founder_product_review_recommendation": "NO_GO"
+}

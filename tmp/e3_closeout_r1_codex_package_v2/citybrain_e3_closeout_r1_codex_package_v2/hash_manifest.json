@@ -1,0 +1,211 @@
+{
+  "artifact_id": "PACKAGE_HASH_MANIFEST",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CRITERIA.md",
+      "sha256": "658c95d55faf0fc59459d54f35f31115ab13df744ac2e3ec46de677fa71ceab0",
+      "bytes": 2493
+    },
+    {
+      "path": "CODEX_TASK_PROMPT.md",
+      "sha256": "d2046198e51cd56b9f0c060039c5922f8f6d92f196de3dfc37c6dc2b87080a77",
+      "bytes": 5193
+    },
+    {
+      "path": "IMPLEMENTATION_PLAN.md",
+      "sha256": "506f7608572deb5c26f6ae646207a3d7f9c891ae2cba2051285561d460c3ead5",
+      "bytes": 2035
+    },
+    {
+      "path": "NON_GOALS_AND_BOUNDARIES.md",
+      "sha256": "ec5f962e757d55c3de51621bd81497d35a34af7fbd3501106c6196e034b02b19",
+      "bytes": 783
+    },
+    {
+      "path": "README.md",
+      "sha256": "6941ddcc54ce1bd7db2d870569fb89e0790671c9a4cd0ca200e45f0a72498b87",
+      "bytes": 1201
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_ARMING_HANDOFF_TO_EPOCH4.template.json",
+      "sha256": "277c1b5952f06bb6714d3451f5340925b6a6fc4c1529e341d7092d8b902d4c13",
+      "bytes": 390
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_CITY_DIVERGENCE_WARNING_ROW.template.json",
+      "sha256": "49a75de712183198246035e30ca342065811087e83fd0923f6418677b7b83d93",
+      "bytes": 362
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_CLOSEOUT_DECISION.template.json",
+      "sha256": "09210c3dcccfb9b482585936b727a036daf6c6010dbd752c86c2d0b1e31d87fd",
+      "bytes": 467
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_CLOSEOUT_LEDGER_ROW.template.json",
+      "sha256": "dbd0bd293ec62563dc806833df53790b9a4ba6e97e4b9e7930e03df320751c82",
+      "bytes": 357
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_CLOSEOUT_LIMITATIONS.template.json",
+      "sha256": "e3404e3775d1d764c165d6853f5f7952ec2d6bf57e2e4daf56c22b6fe758e88f",
+      "bytes": 358
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_EPOCH4_FORK_DECISION_ROW.template.json",
+      "sha256": "d4d2277ad7d2d39e331d12391a17456daccde3d78e39bb753adf7af4f311a714",
+      "bytes": 406
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_FORECAST_RESULT_FRAMING_ROW.template.json",
+      "sha256": "029f7010320a974174d62ced1dc866cdb0ea306f122916723370b883db17ea4b",
+      "bytes": 485
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_FUEL_REALITY_FINDING_ROW.template.json",
+      "sha256": "22ef03515d19b090ad8258bd0d3fb834c9ebc8182b10b1d74fd024df84d87f65",
+      "bytes": 316
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT.template.json",
+      "sha256": "4b9e71c07a9c86b5f6c995f9c25c4f0f36a89d34fe23e3b7d08876cf5ca3f2f4",
+      "bytes": 501
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_MASTER_LEDGER.template.json",
+      "sha256": "e737ce41fe0b3e51a9020aff27e6a0c8040b88901a2b431036cd502d344c352e",
+      "bytes": 485
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_NO_FORBIDDEN_CAPABILITY_AUDIT.template.json",
+      "sha256": "4e05c2281c7961e2e7f462ea5d7b15e1bb8e0d7c4ddb4cf1b6dd662d16de4ad2",
+      "bytes": 523
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_PUBLICATION_HOME_SWEEP_REPORT.template.json",
+      "sha256": "e77ac0a247eb61765b84cb1ded30f1ca6c1c5d09f9a91a6d2cb5d8259c203657",
+      "bytes": 964
+    },
+    {
+      "path": "docs/CLOSEOUT_MESSAGE_TEMPLATE.md",
+      "sha256": "eda4a0330ecc2065adf52558ecbd5d88fa5eb294ff77bc78aa78139f57dcac18",
+      "bytes": 693
+    },
+    {
+      "path": "docs/EPOCH4_BACKLOG_TEMPLATE.md",
+      "sha256": "de9d3707df6e22ce37c9f80c61ae8bc1663d1e5215c84de8b92cfb7647e524ae",
+      "bytes": 573
+    },
+    {
+      "path": "docs/LEDGER_WORDING.md",
+      "sha256": "3e839f3041094f55814bd42a711fd68958349cc27a1d862aafbdd0eea4140748",
+      "bytes": 489
+    },
+    {
+      "path": "fixtures/epoch3_chain_package_ids.json",
+      "sha256": "301f0b3f680e42e355a16bbd3bf71207e43141be3610ab16fea02196aadb4900",
+      "bytes": 878
+    },
+    {
+      "path": "manifests/epoch3_closeout_expected_artifacts.json",
+      "sha256": "d7d305e8f3b48b8cdf043a4c43f32cde0db1fcdcf46b7d6bb25d677f2cfdc13c",
+      "bytes": 656
+    },
+    {
+      "path": "package_metadata.json",
+      "sha256": "d8fc0b6291a5d55bde54ddda62aeac0251627205561ffc2c8400a3e368ee6bfd",
+      "bytes": 612
+    },
+    {
+      "path": "schemas/arming_handoff.schema.json",
+      "sha256": "e6b2af0d49f35fd3b67dc387d7d4b087575d0d88ee8b7d88f6235989f282f914",
+      "bytes": 362
+    },
+    {
+      "path": "schemas/closeout_decision.schema.json",
+      "sha256": "561a6e01d099ea9fe0481a530fca5f47bab23b2ce794e09a5128a348e15d9a75",
+      "bytes": 365
+    },
+    {
+      "path": "schemas/epoch4_fork.schema.json",
+      "sha256": "7a1873f74a6308ad2480eb75973515a117e45b2f96450a48775151ec4e52acb0",
+      "bytes": 359
+    },
+    {
+      "path": "schemas/forecast_framing.schema.json",
+      "sha256": "dbedf25986f80effaf68b307722f0fef29e07141c4921e1f8f74a5d8e2da6c11",
+      "bytes": 364
+    },
+    {
+      "path": "schemas/fuel_reality.schema.json",
+      "sha256": "25677e9f0ac32f61065a2957498df0f99be8990f1445e4a2a5b67f0b18852c70",
+      "bytes": 360
+    },
+    {
+      "path": "schemas/learned_component_registry_snapshot.schema.json",
+      "sha256": "cd2e1b1e7a155bbc1ea54eb567e6800656d2ca1a59b36b211872f7bf8fac26d2",
+      "bytes": 383
+    },
+    {
+      "path": "schemas/master_ledger.schema.json",
+      "sha256": "e3baa2523d4e36ea5f7189bc5298a94c02ad3f1d0eac9da374f9b7760d1d0b46",
+      "bytes": 361
+    },
+    {
+      "path": "schemas/no_forbidden_capability_audit.schema.json",
+      "sha256": "7fe24f7681ae0d4fc5247f2b33302e22d245c221a310aee6703ace2db4a8b5b6",
+      "bytes": 377
+    },
+    {
+      "path": "schemas/publication_home_sweep.schema.json",
+      "sha256": "97500d2e60bfdf6b973924b10873b26b2c487f24946ec66ae73108cea38c6527",
+      "bytes": 370
+    },
+    {
+      "path": "scripts/validate_closeout_v2_package.py",
+      "sha256": "36b24ba8995b453d0c05da12c6110b6c390730edae7d0b58b589f03e85eaca19",
+      "bytes": 1011
+    },
+    {
+      "path": "specs/01_publication_home_retroactive_sweep_spec.md",
+      "sha256": "9f5071404e94e173462e55dccd30225173e041442fc77d6dd1be8a3bc0e73d69",
+      "bytes": 622
+    },
+    {
+      "path": "specs/02_epoch3_master_ledger_spec.md",
+      "sha256": "e57a4ff7052c0fad1c683f47fbc960c3db6a2f2a23489f5562e19030d44967c9",
+      "bytes": 385
+    },
+    {
+      "path": "specs/03_learned_component_registry_snapshot_spec.md",
+      "sha256": "6f723e645520a85f97508b24ba779f468bd7038b18112d752e018951d1de6857",
+      "bytes": 546
+    },
+    {
+      "path": "specs/04_loop_closeout_and_forecast_framing_spec.md",
+      "sha256": "ffafdd9dcf95a201a75d39b9ebfc20f8d4e14b972da12afded599c8721465efa",
+      "bytes": 513
+    },
+    {
+      "path": "specs/05_arming_handoff_to_epoch4_spec.md",
+      "sha256": "f3a647e57ec6d2b89fc750dbcc486f57e087533347f0de75b1723fefab16d05f",
+      "bytes": 372
+    },
+    {
+      "path": "specs/06_epoch4_fork_roadmap_spec.md",
+      "sha256": "17b58296e697756f1974c9e12df1e5c1149546cc05d271d842407de4d2e0e75b",
+      "bytes": 511
+    },
+    {
+      "path": "specs/07_no_forbidden_capability_audit_spec.md",
+      "sha256": "d68bf56803bf305d7f0ca8978688179f494d66695fdf3b13718f04b24299d41c",
+      "bytes": 403
+    },
+    {
+      "path": "tests/test_closeout_v2_contract.py",
+      "sha256": "13334c97495dc229e674084767181380da731ec33cb797f887fa78e722888d8d",
+      "bytes": 2560
+    }
+  ]
+}

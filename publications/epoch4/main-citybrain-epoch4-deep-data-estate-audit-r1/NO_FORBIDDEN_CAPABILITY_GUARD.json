@@ -1,0 +1,32 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD",
+  "boundary": "read_only_data_estate_audit_outputs_only",
+  "checks": {
+    "ForecastPacket": false,
+    "dispatch_control_enforcement": false,
+    "donor_data_as_official_dubai_truth": false,
+    "founder_session_results": false,
+    "learned_arming": false,
+    "live_ingestion_claim": false,
+    "maturity_score_inflation": false,
+    "model_training": false,
+    "official_case_ticket_action": false,
+    "operator_fuel": false,
+    "product_forecast_surface": false,
+    "source_truth_mutation": false,
+    "training_rows": false
+  },
+  "dispatch_control_enforcement_created": false,
+  "forbidden_capabilities_created": [],
+  "forecast_packet_created": false,
+  "founder_session_results_created": false,
+  "generated_at": "2026-07-08T09:24:29Z",
+  "live_ingestion_claim_created": false,
+  "official_case_ticket_action_created": false,
+  "operator_fuel_created": false,
+  "product_forecast_surface_created": false,
+  "read_only_audit": true,
+  "source_truth_mutation_flag": false,
+  "status": "PASS",
+  "training_rows_created": false
+}

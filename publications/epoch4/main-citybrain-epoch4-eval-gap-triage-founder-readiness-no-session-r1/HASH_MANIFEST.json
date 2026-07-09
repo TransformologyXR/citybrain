@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 615,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/DECISION.json",
+      "sha256": "aecf709a57e1808ede11f640f482a0e4e887ee6b21fcb5b2b8421f10ed9350eb"
+    },
+    {
+      "bytes": 1071,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/EVAL_GAP_TRIAGE_REPORT.json",
+      "sha256": "26cefa80a1539c1aae4e565b0feb3f30a6028044a66bd96f5c0473c01f6325b6"
+    },
+    {
+      "bytes": 464,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/FOUNDER_REVIEW_READINESS_NO_SESSION_DECISION.json",
+      "sha256": "6fc344334ae80b607f1ccfa74c91843fcb15f92971854be91884dde440b691b5"
+    },
+    {
+      "bytes": 1495,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "c5e3219d4edc27437a5f22e98d148a31c5eaab24d2931b3398d5a309315466db"
+    },
+    {
+      "bytes": 273,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "233fefb954b5b1478a2a549b2aa620620d26d519d921f4cfe7f9111d1a213c9c"
+    },
+    {
+      "bytes": 174,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/PACKET_COMPLETENESS_READINESS.json",
+      "sha256": "0de7dd7cc0205534bc8127e57d93f32fa39493405c80ec586b10c93f1c6aa8f3"
+    },
+    {
+      "bytes": 6104,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/REVIEW_TASK_QUEUE_ADJUSTMENT_PROPOSAL.json",
+      "sha256": "594a301870ee08f5d441caedb77055e600247aa3f592d90d047112ef3f3755f2"
+    },
+    {
+      "bytes": 2022,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/TOP_FIX_QUEUE_BEFORE_FOUNDER_REVIEW.json",
+      "sha256": "7dd8e4851ef13c1446336c297c3de1623190fc2b72c1cd1c301490cda8b8fe78"
+    },
+    {
+      "bytes": 258,
+      "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/UI_UX_DEFERRAL_RISK_NOTE.json",
+      "sha256": "0776066692270e1918d303bd0206f6167b409df893cf600d5490ebf5e8555214"
+    },
+    {
+      "bytes": 615,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/DECISION.json",
+      "sha256": "aecf709a57e1808ede11f640f482a0e4e887ee6b21fcb5b2b8421f10ed9350eb"
+    },
+    {
+      "bytes": 1071,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/EVAL_GAP_TRIAGE_REPORT.json",
+      "sha256": "26cefa80a1539c1aae4e565b0feb3f30a6028044a66bd96f5c0473c01f6325b6"
+    },
+    {
+      "bytes": 464,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/FOUNDER_REVIEW_READINESS_NO_SESSION_DECISION.json",
+      "sha256": "6fc344334ae80b607f1ccfa74c91843fcb15f92971854be91884dde440b691b5"
+    },
+    {
+      "bytes": 1495,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "c5e3219d4edc27437a5f22e98d148a31c5eaab24d2931b3398d5a309315466db"
+    },
+    {
+      "bytes": 273,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "233fefb954b5b1478a2a549b2aa620620d26d519d921f4cfe7f9111d1a213c9c"
+    },
+    {
+      "bytes": 174,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/PACKET_COMPLETENESS_READINESS.json",
+      "sha256": "0de7dd7cc0205534bc8127e57d93f32fa39493405c80ec586b10c93f1c6aa8f3"
+    },
+    {
+      "bytes": 6104,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/REVIEW_TASK_QUEUE_ADJUSTMENT_PROPOSAL.json",
+      "sha256": "594a301870ee08f5d441caedb77055e600247aa3f592d90d047112ef3f3755f2"
+    },
+    {
+      "bytes": 2022,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/TOP_FIX_QUEUE_BEFORE_FOUNDER_REVIEW.json",
+      "sha256": "7dd8e4851ef13c1446336c297c3de1623190fc2b72c1cd1c301490cda8b8fe78"
+    },
+    {
+      "bytes": 258,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-gap-triage-founder-readiness-no-session-r1/UI_UX_DEFERRAL_RISK_NOTE.json",
+      "sha256": "0776066692270e1918d303bd0206f6167b409df893cf600d5490ebf5e8555214"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "status": "PASS"
+}

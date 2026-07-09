@@ -1,0 +1,18 @@
+{
+  "artifact_id": "EVENT_STORY_FAMILY_COVERAGE_REPORT",
+  "covered_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption"
+  ],
+  "family_count": 4,
+  "missing_preferred_families": [],
+  "preferred_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

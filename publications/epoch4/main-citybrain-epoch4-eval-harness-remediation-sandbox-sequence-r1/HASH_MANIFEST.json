@@ -1,0 +1,29 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 1037,
+      "path": "outputs/main_citybrain_epoch4_eval_harness_remediation_sandbox_sequence_r1/EVAL_HARNESS_REMEDIATION_SEQUENCE_DECISION.json",
+      "sha256": "68c18bbcca1ec7d9012691488d98889abe318e3cbeaa51e0f8057a2268935d53"
+    },
+    {
+      "bytes": 1613,
+      "path": "outputs/main_citybrain_epoch4_eval_harness_remediation_sandbox_sequence_r1/SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "a0ce63cf00438f883a8ddc609b6925116ad879831042fe965494c66f23573d84"
+    },
+    {
+      "bytes": 1037,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-harness-remediation-sandbox-sequence-r1/EVAL_HARNESS_REMEDIATION_SEQUENCE_DECISION.json",
+      "sha256": "68c18bbcca1ec7d9012691488d98889abe318e3cbeaa51e0f8057a2268935d53"
+    },
+    {
+      "bytes": 1613,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-harness-remediation-sandbox-sequence-r1/SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "a0ce63cf00438f883a8ddc609b6925116ad879831042fe965494c66f23573d84"
+    }
+  ],
+  "entry_count": 4,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "RECOMMENDATION",
+  "problem": "outputs_may_be_gitignored",
+  "recommended_tracked_path": "publications/epoch3/",
+  "bulk_outputs_remain_ignored": true,
+  "governance_artifacts_to_track": [
+    "decisions",
+    "ledger_rows",
+    "limitations",
+    "hash_manifests",
+    "line_ending_reports",
+    "summaries"
+  ]
+}

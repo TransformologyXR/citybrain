@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "5590b7edb53604c3e27763ea5e805ebeb726592f1c18ef67249b5e80480a1f3f",
+      "bytes": 3521
+    },
+    {
+      "path": "PACKAGE_DECISION.json",
+      "sha256": "33d13b0284d2bd980b516d13a170b4f532774573b5544c3fcf413e8d76876476",
+      "bytes": 474
+    },
+    {
+      "path": "README.md",
+      "sha256": "851cff27251a90fcf62cb54c8839dbd0cb758967100646cc428089004c8c705c",
+      "bytes": 818
+    },
+    {
+      "path": "SECRET_SCAN_REPORT.json",
+      "sha256": "a704f92ac77c4b6e90cd3fbc2996d8957eb24bed61019860875c6e1952734bcc",
+      "bytes": 121
+    },
+    {
+      "path": "docs/BOUNDARY_POLICY.md",
+      "sha256": "e039da02676cee5905e5658bccfdce8e6cbb6fd0ebda4731bcd3d545fe093028",
+      "bytes": 685
+    },
+    {
+      "path": "docs/WHY_MOBILITY_WAS_FIRST.md",
+      "sha256": "16dc4e5391e23a98ef3ea77a81d6a5ecbb2bf18311e19feb2e4bc1c0cabce6ae",
+      "bytes": 866
+    },
+    {
+      "path": "manifests/DOMAIN_TARGETS.csv",
+      "sha256": "18c6185bf3526c542e52ed4a27895121f183c1f5fa1932d6743e17de7e1aa7ad",
+      "bytes": 1629
+    },
+    {
+      "path": "manifests/EXPECTED_INPUTS.json",
+      "sha256": "dfa7a19d466ce687eafeb39a95452ff339da2fbacc0a290b322608f370bbdbe2",
+      "bytes": 949
+    },
+    {
+      "path": "manifests/EXPECTED_OUTPUTS.json",
+      "sha256": "c8c58e9ca59acef2531d7d0949d1bfde1c2f3ab557297cbad29e1ee8b905606f",
+      "bytes": 610
+    },
+    {
+      "path": "prompts/CODEX_TASK_PROMPT.md",
+      "sha256": "43614b42e6b197230f2b2aee9759c883dd44f5d86a0f3a1be65ab6f12ea80e18",
+      "bytes": 655
+    },
+    {
+      "path": "scripts/run_main_citybrain_synthetic_factory_seed_r3_cross_city_domain_fuel_preflight.py",
+      "sha256": "5af3d3689a8db7fa5fba77ba3ed34baa9036cb0f0ac9d386eb34d8acbf67c9c0",
+      "bytes": 12015
+    },
+    {
+      "path": "tests/test_seed_r3_cross_city_domain_fuel_preflight_package_static.py",
+      "sha256": "9995fbee92978691c2129ac94d68e8900267997d7589f2bade4a53d97515b6a2",
+      "bytes": 1943
+    }
+  ]
+}

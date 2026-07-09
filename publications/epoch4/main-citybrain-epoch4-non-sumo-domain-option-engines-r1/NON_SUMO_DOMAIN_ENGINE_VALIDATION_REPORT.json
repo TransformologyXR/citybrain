@@ -1,0 +1,12 @@
+{
+  "all_required_non_sumo_engines_present": true,
+  "artifact_id": "NON_SUMO_DOMAIN_ENGINE_VALIDATION_REPORT",
+  "non_sumo_family_count": 2,
+  "required_non_sumo_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay"
+  ],
+  "rule_based_only": true,
+  "status": "PASS",
+  "sumo_forced_on_non_traffic_family": false
+}

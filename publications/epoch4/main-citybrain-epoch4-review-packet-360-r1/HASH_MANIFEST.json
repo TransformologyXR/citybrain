@@ -1,0 +1,74 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 2271,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/BUILDING_COMPLIANCE_PERCEPTION_CANDIDATE_REVIEW_PACKET_360.json",
+      "sha256": "3d537655b0c5930d05087c2c03bd5a1b0806990a7c24217e80026141c5f7684f"
+    },
+    {
+      "bytes": 2146,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/CITY_ASSET_INFRASTRUCTURE_ISSUE_REVIEW_PACKET_360.json",
+      "sha256": "3707354322931a9dd20f5cd06fc4bd0262c2a92f59403d400d0be5135cc6f916"
+    },
+    {
+      "bytes": 706,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "f6aba62ab65f2b6c5f6d21af0b713c364c837d7f290bd3cfbfe9c3d7fa7b20dd"
+    },
+    {
+      "bytes": 2116,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/PERMIT_INSPECTION_DELAY_REVIEW_PACKET_360.json",
+      "sha256": "50c6cefea2049d0f4daf7deb5fdadeed01b9a27c5641ece9554586e3e4f17bf6"
+    },
+    {
+      "bytes": 7794,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json",
+      "sha256": "a73d3a83a1c9b0d2088d794225e86c6f7a5676f6a23de06127cb3948ebf4347a"
+    },
+    {
+      "bytes": 370,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "sha256": "8566d11599c0a401a50057d0db946c11557b03ab445901a18cf02aa0c5527dcf"
+    },
+    {
+      "bytes": 452,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_INDEX.json",
+      "sha256": "78d622951bc4dbae8b6074a397b94d20683cc8000d976b47faf1d4a837d66c76"
+    },
+    {
+      "bytes": 318,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/SUMMARY.md",
+      "sha256": "01249f0e123acacd3c4c8204074c08833165c11d64e0a19527ca7926604eeae5"
+    },
+    {
+      "bytes": 706,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "f6aba62ab65f2b6c5f6d21af0b713c364c837d7f290bd3cfbfe9c3d7fa7b20dd"
+    },
+    {
+      "bytes": 7794,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-r1/REVIEW_PACKET_360_BY_FAMILY.json",
+      "sha256": "a73d3a83a1c9b0d2088d794225e86c6f7a5676f6a23de06127cb3948ebf4347a"
+    },
+    {
+      "bytes": 370,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-r1/REVIEW_PACKET_360_DECISION.json",
+      "sha256": "8566d11599c0a401a50057d0db946c11557b03ab445901a18cf02aa0c5527dcf"
+    },
+    {
+      "bytes": 452,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-r1/REVIEW_PACKET_360_INDEX.json",
+      "sha256": "78d622951bc4dbae8b6074a397b94d20683cc8000d976b47faf1d4a837d66c76"
+    },
+    {
+      "bytes": 318,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-r1/SUMMARY.md",
+      "sha256": "01249f0e123acacd3c4c8204074c08833165c11d64e0a19527ca7926604eeae5"
+    }
+  ],
+  "entry_count": 13,
+  "generated_at": "2026-07-07T14:10:45Z",
+  "status": "PASS"
+}

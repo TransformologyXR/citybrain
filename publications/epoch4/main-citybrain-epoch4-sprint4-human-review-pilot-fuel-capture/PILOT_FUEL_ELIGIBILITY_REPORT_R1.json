@@ -1,0 +1,11 @@
+{
+  "artifact_id": "PILOT_FUEL_ELIGIBILITY_REPORT_R1",
+  "blocked_count": 3,
+  "calibration_only_count": 0,
+  "descriptive_only_count": 3,
+  "human_sessions_pending": true,
+  "learned_arming_allowed": false,
+  "operator_fuel_captured": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_eligible_count": 0
+}

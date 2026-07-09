@@ -1,0 +1,116 @@
+{
+  "artifact_id": "SEED_R3_CANONICAL_RESOLUTION_VS_R3_LOCAL_REPORT",
+  "category_counts": {
+    "quarantined_before_resolution": 4,
+    "r3_local_only_unresolved": 4,
+    "resolved_against_admitted_seed_r3_entity": 4,
+    "resolved_against_existing_main_loop_entity": 4
+  },
+  "required_categories": [
+    "resolved_against_existing_main_loop_entity",
+    "resolved_against_admitted_seed_r3_entity",
+    "r3_local_only_unresolved",
+    "duplicate_candidate_ambiguity",
+    "quarantined_before_resolution",
+    "unknown"
+  ],
+  "rows": [
+    {
+      "canonical_loop_family_id": "mobility_access_interruption_v0",
+      "canonical_resolution_category": "resolved_against_existing_main_loop_entity",
+      "event_id": "seed-r3-adapter:mobility_access:gold:001",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "mobility_access_interruption_v0",
+      "canonical_resolution_category": "r3_local_only_unresolved",
+      "event_id": "seed-r3-adapter:mobility_access:dirty_source:002",
+      "expected_resolution_state": "unresolved_review"
+    },
+    {
+      "canonical_loop_family_id": "mobility_access_interruption_v0",
+      "canonical_resolution_category": "quarantined_before_resolution",
+      "event_id": "seed-r3-adapter:mobility_access:challenge:003",
+      "expected_resolution_state": "quarantine_expected"
+    },
+    {
+      "canonical_loop_family_id": "mobility_access_interruption_v0",
+      "canonical_resolution_category": "resolved_against_admitted_seed_r3_entity",
+      "event_id": "seed-r3-adapter:mobility_access:scenario:004",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "building_compliance_perception_candidate",
+      "canonical_resolution_category": "resolved_against_existing_main_loop_entity",
+      "event_id": "seed-r3-adapter:building_compliance:gold:005",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "building_compliance_perception_candidate",
+      "canonical_resolution_category": "r3_local_only_unresolved",
+      "event_id": "seed-r3-adapter:building_compliance:dirty_source:006",
+      "expected_resolution_state": "unresolved_review"
+    },
+    {
+      "canonical_loop_family_id": "building_compliance_perception_candidate",
+      "canonical_resolution_category": "quarantined_before_resolution",
+      "event_id": "seed-r3-adapter:building_compliance:challenge:007",
+      "expected_resolution_state": "quarantine_expected"
+    },
+    {
+      "canonical_loop_family_id": "building_compliance_perception_candidate",
+      "canonical_resolution_category": "resolved_against_admitted_seed_r3_entity",
+      "event_id": "seed-r3-adapter:building_compliance:scenario:008",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "permit_inspection_delay",
+      "canonical_resolution_category": "resolved_against_existing_main_loop_entity",
+      "event_id": "seed-r3-adapter:permit_inspection_delay:gold:009",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "permit_inspection_delay",
+      "canonical_resolution_category": "r3_local_only_unresolved",
+      "event_id": "seed-r3-adapter:permit_inspection_delay:dirty_source:010",
+      "expected_resolution_state": "unresolved_review"
+    },
+    {
+      "canonical_loop_family_id": "permit_inspection_delay",
+      "canonical_resolution_category": "quarantined_before_resolution",
+      "event_id": "seed-r3-adapter:permit_inspection_delay:challenge:011",
+      "expected_resolution_state": "quarantine_expected"
+    },
+    {
+      "canonical_loop_family_id": "permit_inspection_delay",
+      "canonical_resolution_category": "resolved_against_admitted_seed_r3_entity",
+      "event_id": "seed-r3-adapter:permit_inspection_delay:scenario:012",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "city_asset_infrastructure_issue",
+      "canonical_resolution_category": "resolved_against_existing_main_loop_entity",
+      "event_id": "seed-r3-adapter:asset_infrastructure:gold:013",
+      "expected_resolution_state": "resolved"
+    },
+    {
+      "canonical_loop_family_id": "city_asset_infrastructure_issue",
+      "canonical_resolution_category": "r3_local_only_unresolved",
+      "event_id": "seed-r3-adapter:asset_infrastructure:dirty_source:014",
+      "expected_resolution_state": "unresolved_review"
+    },
+    {
+      "canonical_loop_family_id": "city_asset_infrastructure_issue",
+      "canonical_resolution_category": "quarantined_before_resolution",
+      "event_id": "seed-r3-adapter:asset_infrastructure:challenge:015",
+      "expected_resolution_state": "quarantine_expected"
+    },
+    {
+      "canonical_loop_family_id": "city_asset_infrastructure_issue",
+      "canonical_resolution_category": "resolved_against_admitted_seed_r3_entity",
+      "event_id": "seed-r3-adapter:asset_infrastructure:scenario:016",
+      "expected_resolution_state": "resolved"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

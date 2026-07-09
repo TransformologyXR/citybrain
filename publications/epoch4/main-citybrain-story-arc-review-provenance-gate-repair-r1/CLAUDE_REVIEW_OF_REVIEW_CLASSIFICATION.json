@@ -1,0 +1,8 @@
+{
+  "artifact_id": "CLAUDE_REVIEW_OF_REVIEW_CLASSIFICATION",
+  "classifications": [],
+  "claude_review_file_count": 0,
+  "review_input_root": "inputs/ai_diagnostic_story_review",
+  "status": "NO_CLAUDE_REVIEW_FOUND",
+  "true_second_independent_ai_artifact_review_count": 0
+}

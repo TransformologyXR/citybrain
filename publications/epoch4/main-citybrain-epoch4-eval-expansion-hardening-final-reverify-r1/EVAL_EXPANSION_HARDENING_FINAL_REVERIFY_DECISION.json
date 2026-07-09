@@ -1,0 +1,19 @@
+{
+  "artifact_id": "EVAL_EXPANSION_HARDENING_FINAL_REVERIFY_DECISION",
+  "case_count": 48,
+  "challenge_case_count": 32,
+  "eval_corpus_expansion_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_CORPUS_EXPANSION_R2_WITH_LIMITATIONS",
+  "fix_sandbox_status": "PASS_MAIN_CITYBRAIN_EPOCH4_CANDIDATE_FIX_EFFECT_SANDBOX_R1_WITH_LIMITATIONS",
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T20:25:01Z",
+  "live_ingestion_created": false,
+  "official_action_created": false,
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-CORPUS-EXPANSION-HARDENING-SEQUENCE-R1",
+  "product_forecast_surface_created": false,
+  "readiness_recommendation": "GO_FOR_BOUNDED_FOUNDER_PROBE",
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_CORPUS_EXPANSION_HARDENING_SEQUENCE_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

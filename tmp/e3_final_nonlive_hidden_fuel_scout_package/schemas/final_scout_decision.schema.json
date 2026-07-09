@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FinalNonLiveHiddenFuelScoutDecision",
+  "type": "object",
+  "required": [
+    "package_id",
+    "status",
+    "non_live_assumption",
+    "promotion_status",
+    "no_model_guard",
+    "lanes"
+  ],
+  "properties": {
+    "package_id": {
+      "const": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1"
+    },
+    "status": {
+      "type": "string"
+    },
+    "non_live_assumption": {
+      "type": "boolean"
+    },
+    "promotion_status": {
+      "const": "candidate_inventory_and_backlog_only"
+    },
+    "no_model_guard": {
+      "type": "string"
+    },
+    "lanes": {
+      "type": "object"
+    }
+  }
+}

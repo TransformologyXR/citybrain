@@ -1,0 +1,16 @@
+{
+  "artifact_id": "SIMULATION_V2_3_REAL_OR_FIXTURE_RUN_COMPARISON",
+  "city_data_used": false,
+  "families_covered_by_product_options": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "fixture_only_count": 0,
+  "forecast_created": false,
+  "real_run_count": 1,
+  "real_run_smoke_executed": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "v2_2_state": "sumo_detected_not_calibrated_real_connector_run_count_0",
+  "v2_3_state": "real_run_smoke"
+}

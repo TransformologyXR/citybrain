@@ -1,0 +1,25 @@
+{
+  "artifact_id": "THREE_FAMILY_LOOP_PLAN",
+  "control_family": "mobility_access_interruption",
+  "parallel_execution_used": false,
+  "required_chain_per_family": [
+    "event_input",
+    "cer_resolution",
+    "seg_context",
+    "event_state",
+    "check_v1",
+    "simulation_comparison",
+    "brief_v3",
+    "watch_admission_or_non_admission",
+    "runtime_web_packet",
+    "spatial_overlay_packet",
+    "workflow_state_packet"
+  ],
+  "selected_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "selected_family_count": 3,
+  "status": "PASS_WITH_LIMITATIONS"
+}

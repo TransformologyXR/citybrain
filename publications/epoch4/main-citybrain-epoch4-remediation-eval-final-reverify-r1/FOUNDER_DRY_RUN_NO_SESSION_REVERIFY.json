@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_DRY_RUN_NO_SESSION_REVERIFY",
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_REVIEW_DRY_RUN_NO_SESSION_R1_WITH_LIMITATIONS",
+  "dispositions_created": false,
+  "fuel_created": false,
+  "session_run": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_count": 12,
+  "task_count_minimum_met": true
+}

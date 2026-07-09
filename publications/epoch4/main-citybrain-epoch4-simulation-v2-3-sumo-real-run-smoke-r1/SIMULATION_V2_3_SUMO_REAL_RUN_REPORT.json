@@ -1,0 +1,121 @@
+{
+  "artifact_id": "SIMULATION_V2_3_SUMO_REAL_RUN_REPORT",
+  "calibrated": false,
+  "deterministic_across_two_runs": true,
+  "deterministic_run_hash": "6a2ba2d72cc84eebd8e8d7030a34feecdd54e9d6eb809d3ce38ba3ce497caefe",
+  "fixture_files": {
+    "config": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.sumocfg",
+    "edges": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.edg.xml",
+    "net": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.net.xml",
+    "nodes": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.nod.xml",
+    "routes": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.rou.xml"
+  },
+  "fixture_root": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture",
+  "forecast_authority": false,
+  "generated_at": "2026-07-07T16:32:39Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "simulation_v2_2_probe",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_CONNECTOR_PROBE_RESULTS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_v2_2_ladder",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_CONNECTOR_LADDER.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_loop_capability_map",
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/PRODUCT_LOOP_CAPABILITY_MAP.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "limitations": [
+    "tiny synthetic local SUMO fixture only",
+    "not calibrated to a city network",
+    "not a product forecast",
+    "no official action, dispatch, control, or enforcement"
+  ],
+  "netconvert_executable": "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\netconvert.exe",
+  "netconvert_report": {
+    "command": [
+      "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\netconvert.exe",
+      "-n",
+      "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\mini.nod.xml",
+      "-e",
+      "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\mini.edg.xml",
+      "-o",
+      "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\mini.net.xml",
+      "--no-internal-links",
+      "true"
+    ],
+    "duration_seconds": 0.0472,
+    "exit_code": 0,
+    "stderr_snippet": "",
+    "stdout_snippet": "Success.\n",
+    "timed_out": false
+  },
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-SIMULATION-V2-3-SUMO-REAL-RUN-SMOKE-R1",
+  "real_run_claim": "deterministic_local_sumo_smoke",
+  "real_run_executed": true,
+  "run_reports": [
+    {
+      "command": [
+        "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+        "-c",
+        "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\mini.sumocfg",
+        "--seed",
+        "23",
+        "--no-step-log",
+        "true",
+        "--duration-log.disable",
+        "true",
+        "--tripinfo-output",
+        "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\run1\\tripinfo.xml",
+        "--summary-output",
+        "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\run1\\summary.xml"
+      ],
+      "duration_seconds": 0.1111,
+      "exit_code": 0,
+      "stderr_snippet": "",
+      "stdout_snippet": "",
+      "summary_path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run1/summary.xml",
+      "timed_out": false,
+      "tripinfo_count": 3,
+      "tripinfo_hash": "6a2ba2d72cc84eebd8e8d7030a34feecdd54e9d6eb809d3ce38ba3ce497caefe",
+      "tripinfo_path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run1/tripinfo.xml"
+    },
+    {
+      "command": [
+        "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+        "-c",
+        "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\mini.sumocfg",
+        "--seed",
+        "23",
+        "--no-step-log",
+        "true",
+        "--duration-log.disable",
+        "true",
+        "--tripinfo-output",
+        "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\run2\\tripinfo.xml",
+        "--summary-output",
+        "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1\\sumo_fixture\\run2\\summary.xml"
+      ],
+      "duration_seconds": 0.1102,
+      "exit_code": 0,
+      "stderr_snippet": "",
+      "stdout_snippet": "",
+      "summary_path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run2/summary.xml",
+      "timed_out": false,
+      "tripinfo_count": 3,
+      "tripinfo_hash": "6a2ba2d72cc84eebd8e8d7030a34feecdd54e9d6eb809d3ce38ba3ce497caefe",
+      "tripinfo_path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run2/tripinfo.xml"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_executable": "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+  "vehicle_tripinfo_count": 3
+}

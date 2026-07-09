@@ -1,0 +1,32 @@
+{
+  "forbidden_claim_patterns": [
+    "confirmed violation",
+    "legal finding",
+    "certified finding",
+    "official case",
+    "ticket created",
+    "dispatch",
+    "enforcement action",
+    "identity confirmed",
+    "biometric",
+    "face recognition",
+    "alert command",
+    "automated action",
+    "production monitoring"
+  ],
+  "required_safe_language": [
+    "candidate observation",
+    "human review required",
+    "not a finding",
+    "model-generated review context only",
+    "VSS is not a fact source",
+    "no official record",
+    "no action"
+  ],
+  "schema_version": "metropolis-vss-sprint-closeout-r9.guardrails.v1",
+  "source_class_rules": {
+    "deepstream_metropolis": "sensor_inferred",
+    "spark_vss": "model_generated_narrative"
+  },
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+}

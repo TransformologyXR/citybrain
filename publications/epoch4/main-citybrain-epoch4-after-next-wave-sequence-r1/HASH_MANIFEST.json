@@ -1,0 +1,39 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_AFTER_NEXT_WAVE_SEQUENCE_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 514,
+      "path": "outputs/main_citybrain_epoch4_after_next_wave_sequence_r1/AFTER_NEXT_WAVE_SEQUENCE_DECISION.json",
+      "sha256": "bb42c0d73c5a92230613f9db0d90be97a3cdf8f62f0ee781cf3d96b2b070807b"
+    },
+    {
+      "bytes": 2233,
+      "path": "outputs/main_citybrain_epoch4_after_next_wave_sequence_r1/AFTER_NEXT_WAVE_SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "5872fd62142458ad5913002252ad4f51e976996d6fb9a2c51c5603b3ff7ea1a8"
+    },
+    {
+      "bytes": 588,
+      "path": "outputs/main_citybrain_epoch4_after_next_wave_sequence_r1/SUMMARY.md",
+      "sha256": "5b1cda08250542c64a59cf76c181c4bff73cd1691cbdf95900f42b528134f5b2"
+    },
+    {
+      "bytes": 514,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-next-wave-sequence-r1/AFTER_NEXT_WAVE_SEQUENCE_DECISION.json",
+      "sha256": "bb42c0d73c5a92230613f9db0d90be97a3cdf8f62f0ee781cf3d96b2b070807b"
+    },
+    {
+      "bytes": 2233,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-next-wave-sequence-r1/AFTER_NEXT_WAVE_SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "5872fd62142458ad5913002252ad4f51e976996d6fb9a2c51c5603b3ff7ea1a8"
+    },
+    {
+      "bytes": 588,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-next-wave-sequence-r1/SUMMARY.md",
+      "sha256": "5b1cda08250542c64a59cf76c181c4bff73cd1691cbdf95900f42b528134f5b2"
+    }
+  ],
+  "entry_count": 6,
+  "generated_at": "2026-07-07T16:32:39Z",
+  "status": "PASS"
+}

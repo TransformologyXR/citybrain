@@ -1,0 +1,18 @@
+{
+  "artifact_id": "DATA_MATURITY_REMEDIATION_DECISION",
+  "fabricated_coverage_created": false,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:35:41Z",
+  "item_count": 50,
+  "limitations": [
+    "remediation queues only",
+    "no source-truth mutation",
+    "no maturity score inflation"
+  ],
+  "new_maturity_score_claimed": false,
+  "original_maturity_score_preserved": 36.1,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-DATA-MATURITY-REMEDIATION-ACTIONS-R1",
+  "queue_count": 5,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_ACTIONS_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,119 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 405,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_APPLICATION_PLAN.json",
+      "sha256": "9d96f8e65f08bd6b4e6747b876d64aeafee2555e7fa4c1f41981d1dfb9c59a1d"
+    },
+    {
+      "bytes": 293,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_CHALLENGE_DELTA_PROJECTION.json",
+      "sha256": "733f501c3ca18be282263fc0105e7a0e35ee91299a51a61a5d1c34eff3d7a20c"
+    },
+    {
+      "bytes": 466,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_EVAL_DELTA_PROJECTION.json",
+      "sha256": "473998371be4496f2f74a60d908cc1adccca236cf2ced5579693ec233f21440b"
+    },
+    {
+      "bytes": 79229,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_OVERLAY_REGISTER.json",
+      "sha256": "8c967e4922e5b368020c545460da171a1b1766aca76ac73ed443085fe369b61e"
+    },
+    {
+      "bytes": 3532,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_PACKET_ATTACHMENT_EXAMPLES.json",
+      "sha256": "193790f2d04750a9b0511968514a1e753706f1096ed32a07bbe20ed4df8ebb1b"
+    },
+    {
+      "bytes": 1698,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_PROMOTION_INPUT_AUDIT.json",
+      "sha256": "fd7efb91ee9a3ef6bc4745b3176c2e998b20bdfa241e107af0d5fa054e062aaa"
+    },
+    {
+      "bytes": 482,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_PROMOTION_OVERLAY_DECISION.json",
+      "sha256": "4c7d852ba625c870f136223c3ddcc1c1670c05259202dc287a7e162763e9d2ef"
+    },
+    {
+      "bytes": 349,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_REJECTION_DEFER_REGISTER.json",
+      "sha256": "681835fb4785364ab09420b488c584007cf89e3bce3d869a59f59c39a9b3c996"
+    },
+    {
+      "bytes": 179,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/NO_FUEL_NO_TRAINING_GUARD.json",
+      "sha256": "35e1b9cb4ffbaa8c06d2ab30f5bf224a24bdc0362f31c9bafb8b2c10ef81fd62"
+    },
+    {
+      "bytes": 159,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/NO_SCORE_INFLATION_GUARD.json",
+      "sha256": "df5ac7054351d34d94d6892f37211a7eefee882eaeb897a15e2d5c90c1edb6e3"
+    },
+    {
+      "bytes": 185,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/SOURCE_TRUTH_NO_MUTATION_AUDIT.json",
+      "sha256": "9f0151266a28f7889032b99b7c7d4c30cc7b7beaa3df1ae6ea1609e1771ff7b6"
+    },
+    {
+      "bytes": 405,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_APPLICATION_PLAN.json",
+      "sha256": "9d96f8e65f08bd6b4e6747b876d64aeafee2555e7fa4c1f41981d1dfb9c59a1d"
+    },
+    {
+      "bytes": 293,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_CHALLENGE_DELTA_PROJECTION.json",
+      "sha256": "733f501c3ca18be282263fc0105e7a0e35ee91299a51a61a5d1c34eff3d7a20c"
+    },
+    {
+      "bytes": 466,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_EVAL_DELTA_PROJECTION.json",
+      "sha256": "473998371be4496f2f74a60d908cc1adccca236cf2ced5579693ec233f21440b"
+    },
+    {
+      "bytes": 79229,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_OVERLAY_REGISTER.json",
+      "sha256": "8c967e4922e5b368020c545460da171a1b1766aca76ac73ed443085fe369b61e"
+    },
+    {
+      "bytes": 3532,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_PACKET_ATTACHMENT_EXAMPLES.json",
+      "sha256": "193790f2d04750a9b0511968514a1e753706f1096ed32a07bbe20ed4df8ebb1b"
+    },
+    {
+      "bytes": 1698,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_PROMOTION_INPUT_AUDIT.json",
+      "sha256": "fd7efb91ee9a3ef6bc4745b3176c2e998b20bdfa241e107af0d5fa054e062aaa"
+    },
+    {
+      "bytes": 482,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_PROMOTION_OVERLAY_DECISION.json",
+      "sha256": "4c7d852ba625c870f136223c3ddcc1c1670c05259202dc287a7e162763e9d2ef"
+    },
+    {
+      "bytes": 349,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/DERIVED_FIX_REJECTION_DEFER_REGISTER.json",
+      "sha256": "681835fb4785364ab09420b488c584007cf89e3bce3d869a59f59c39a9b3c996"
+    },
+    {
+      "bytes": 179,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/NO_FUEL_NO_TRAINING_GUARD.json",
+      "sha256": "35e1b9cb4ffbaa8c06d2ab30f5bf224a24bdc0362f31c9bafb8b2c10ef81fd62"
+    },
+    {
+      "bytes": 159,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/NO_SCORE_INFLATION_GUARD.json",
+      "sha256": "df5ac7054351d34d94d6892f37211a7eefee882eaeb897a15e2d5c90c1edb6e3"
+    },
+    {
+      "bytes": 185,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-promotion-overlay-r1/SOURCE_TRUTH_NO_MUTATION_AUDIT.json",
+      "sha256": "9f0151266a28f7889032b99b7c7d4c30cc7b7beaa3df1ae6ea1609e1771ff7b6"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-08T04:16:45Z",
+  "status": "PASS"
+}

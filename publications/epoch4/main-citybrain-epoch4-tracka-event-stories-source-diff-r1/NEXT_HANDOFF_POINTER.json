@@ -1,0 +1,23 @@
+{
+  "artifact_id": "NEXT_HANDOFF_POINTER",
+  "consumer_candidates": [
+    "Review Packet 360",
+    "Data Maturity Dashboard R1.1",
+    "Product Loop packages"
+  ],
+  "designed_change_fixture_refs": [
+    "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/DIFF_DESIGNED_CHANGE_FIXTURES.jsonl"
+  ],
+  "limitation_refs": [
+    "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/EVENT_STORY_LIMITATIONS.json",
+    "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/DIFF_LIMITATIONS.json"
+  ],
+  "publication_path": "publications/epoch4/main-citybrain-epoch4-tracka-event-stories-source-diff-r1",
+  "source_registry_v1_1_refs": [
+    "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "story_pack_refs": [
+    "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/EVENT_STORY_PACK_R1.json"
+  ]
+}

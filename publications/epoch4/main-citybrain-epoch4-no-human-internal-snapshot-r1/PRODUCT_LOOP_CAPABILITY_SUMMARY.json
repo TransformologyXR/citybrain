@@ -1,0 +1,15 @@
+{
+  "artifact_id": "PRODUCT_LOOP_CAPABILITY_SUMMARY",
+  "capability_state": "bounded local/replay product loop with Review Packet 360 and multi-family eval support",
+  "limitations": [
+    "local/replay/review-only",
+    "no founder review yet",
+    "no production live ingestion",
+    "no official action/case/ticket",
+    "no forecast authority"
+  ],
+  "product_loop_final_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "review_packet_360_verified": true,
+  "selected_family_count": 3,
+  "status": "PASS_WITH_LIMITATIONS"
+}

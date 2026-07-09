@@ -1,0 +1,12 @@
+{
+  "all_edges_use_cer_backed_ids": true,
+  "artifact_id": "SEG_V2_CER_BRIDGE_REPORT",
+  "edge_confidence_present": true,
+  "edge_count": 2,
+  "evidence_refs_present": true,
+  "official_truth_mutated": false,
+  "raw_id_bypass_rejected": true,
+  "review_state_present": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "temporal_validity_present": true
+}

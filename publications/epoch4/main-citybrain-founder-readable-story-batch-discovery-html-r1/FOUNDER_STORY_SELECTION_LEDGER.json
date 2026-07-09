@@ -1,0 +1,91 @@
+{
+  "artifact_id": "FOUNDER_STORY_SELECTION_LEDGER",
+  "minimum_story_count_met": true,
+  "rows": [
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "cross_domain_story_arc",
+      "story_id": "founder-story-001-cross-domain-site-cascade"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-building-compliance-perception-candidate"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-permit-inspection-delay"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-city-asset-infrastructure-issue"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-mobility-access-interruption"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-01"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-02"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-03"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-04"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-mobility-access-interruption-v0"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-building-compliance-perception-candidate"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-permit-inspection-delay"
+    },
+    {
+      "selected": true,
+      "selection_reason": "Readable situation, uncertainty, cannot-claim boundary, and missing-evidence prompt could be derived from local artifacts.",
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-city-asset-infrastructure-issue"
+    }
+  ],
+  "selected_story_count": 13,
+  "selection_rules": [
+    "Use only existing local artifacts.",
+    "Rewrite technical source material into founder-readable language.",
+    "Do not fabricate stories to reach ten.",
+    "Keep technical provenance in the appendix only."
+  ]
+}

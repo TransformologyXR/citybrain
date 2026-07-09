@@ -1,0 +1,7 @@
+{
+  "artifact_id": "DERIVED_FIX_CHALLENGE_DELTA_PROJECTION",
+  "challenge_case_count": 32,
+  "projected_challenge_impact": "boundary clarity improves without changing expected abstain/downgrade/quarantine behavior",
+  "regressions_introduced": [],
+  "status": "PASS_WITH_LIMITATIONS"
+}

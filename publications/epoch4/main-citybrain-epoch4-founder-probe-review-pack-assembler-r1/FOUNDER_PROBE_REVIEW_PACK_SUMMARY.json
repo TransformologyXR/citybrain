@@ -1,0 +1,16 @@
+{
+  "artifact_id": "FOUNDER_PROBE_REVIEW_PACK_SUMMARY",
+  "card_count": 16,
+  "csv_row_count": 16,
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "generated_at": "2026-07-08T05:44:02Z",
+  "missing_evidence_card_count": 4,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-PROBE-REVIEW-PACK-ASSEMBLER-R1",
+  "reviewer_type": "founder_internal",
+  "status": "PASS_WITH_LIMITATIONS"
+}

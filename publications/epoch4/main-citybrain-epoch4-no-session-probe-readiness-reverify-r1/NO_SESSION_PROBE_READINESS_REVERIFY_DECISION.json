@@ -1,0 +1,13 @@
+{
+  "artifact_id": "NO_SESSION_PROBE_READINESS_REVERIFY_DECISION",
+  "forbidden_capabilities_created": [],
+  "founder_probe_input_kit_status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_INPUT_KIT_R2_WITH_LIMITATIONS",
+  "generated_at": "2026-07-08T04:16:45Z",
+  "operator_fuel_created": false,
+  "overlay_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_PROMOTION_OVERLAY_R1_WITH_LIMITATIONS",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NO-SESSION-PROBE-READINESS-REVERIFY-R1",
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NO_SESSION_PROBE_READINESS_REVERIFY_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

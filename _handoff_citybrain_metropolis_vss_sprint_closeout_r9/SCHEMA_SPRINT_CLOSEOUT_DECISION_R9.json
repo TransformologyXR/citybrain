@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "properties": {
+    "audits": {
+      "type": "object"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "host_allocation": {
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "lineage": {
+      "type": "object"
+    },
+    "next_sprint_recommendations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "status": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+    }
+  },
+  "required": [
+    "task_id",
+    "status",
+    "final_status",
+    "lineage",
+    "host_allocation",
+    "audits",
+    "limitations",
+    "next_sprint_recommendations"
+  ],
+  "title": "METROPOLIS_VSS_SPRINT_CLOSEOUT_R9_DECISION",
+  "type": "object"
+}

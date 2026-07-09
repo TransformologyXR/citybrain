@@ -1,0 +1,12 @@
+{
+  "artifact_id": "FOUNDER_CARD_TECHNICAL_TERM_GUARD",
+  "main_path_scanned_files": [
+    "FOUNDER_REVIEW_START_HERE_INLINE.html",
+    "FOUNDER_REVIEW_START_HERE_INLINE.md",
+    "FOUNDER_STORY_CARDS_EVIDENCE_INLINE.html",
+    "FOUNDER_STORY_CARDS_EVIDENCE_INLINE.md",
+    "FOUNDER_DIAGNOSTIC_RESPONSE_TEMPLATE_INLINE.csv"
+  ],
+  "status": "PASS",
+  "technical_terms_present": []
+}

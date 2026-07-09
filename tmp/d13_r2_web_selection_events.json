@@ -1,0 +1,33 @@
+{
+  "event_count": 2,
+  "events": [
+    {
+      "direction": "web_to_kit",
+      "command": "select",
+      "selection_id": "web-selection-1-1783074190575",
+      "entity_id": "corridor:uk-london:wood-lane-scrubbs-lane",
+      "entity_label": "Review Wood Lane works near Scrubbs Lane EV access asset",
+      "evidence_packet_ref": "TIMS-219173",
+      "limitations_ref": "Nearby works may not affect the access asset.",
+      "execution_state": "not_executed",
+      "no_action_state": "no_action_taken",
+      "source_runtime_bundle_ref": "packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_RUNTIME_BUNDLE.json",
+      "timestamp": "2026-07-03T10:23:10.575Z",
+      "browser_received_at": "2026-07-03T10:23:10.594Z"
+    },
+    {
+      "direction": "web_to_kit",
+      "command": "select",
+      "selection_id": "web-selection-2-1783074191484",
+      "entity_id": "event:us-nyc:mvc_crash:4463710",
+      "entity_label": "Review MVC crash 4463710 candidate context",
+      "evidence_packet_ref": "event:us-nyc:flow3:mvc_crash:4463710",
+      "limitations_ref": "Candidate context may be unrelated to the event.",
+      "execution_state": "not_executed",
+      "no_action_state": "no_action_taken",
+      "source_runtime_bundle_ref": "packages/fixtures/d9_product_modes/runtime_bundle/D9_PRODUCT_MODE_RUNTIME_BUNDLE.json",
+      "timestamp": "2026-07-03T10:23:11.484Z",
+      "browser_received_at": "2026-07-03T10:23:11.488Z"
+    }
+  ]
+}

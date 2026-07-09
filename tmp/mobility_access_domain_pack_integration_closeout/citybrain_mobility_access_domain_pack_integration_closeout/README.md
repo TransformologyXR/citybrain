@@ -1,0 +1,10 @@
+# Mobility Access Domain Pack Integration Closeout Prompt Pack
+
+Run in one sequential Codex thread after the Mobility Access Domain Pack milestone freeze is green.
+
+Order:
+1. MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-INTEGRATION-READINESS-REVIEW
+2. MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-FINAL-PACKAGE-REVIEW
+3. MAIN-CITYBRAIN-D6-MOBILITY-ACCESS-DOMAIN-PACK-CERTIFIED-STATE-AND-HANDOVER-REFRESH
+
+Start with `ENTRY_PROMPT.md`.

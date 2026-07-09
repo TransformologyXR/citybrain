@@ -1,0 +1,102 @@
+{
+  "artifact_id": "MAIN_CITYBRAIN_PRE_E4_THREE_PACKAGE_REVERIFY_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 133,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/TEST_LOG.txt",
+      "sha256": "6a96567ff930232bb71bf900a2c44da90d4fbd7475d3fe04d1e9560e49634dc7"
+    },
+    {
+      "bytes": 314,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json",
+      "sha256": "1211917c29370bb88d519b9ca78e6d88bf0c4f74451a0fe7f342dac757e78e26"
+    },
+    {
+      "bytes": 735,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json",
+      "sha256": "e04ebc967a7d5b109d869a8ad84069105bc06535463a9706c3bdd1b7aed8e83f"
+    },
+    {
+      "bytes": 633,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json",
+      "sha256": "b5bde30a12257fea57bffcfe17e2d8105836d50e7f968bde3159ef673cf80fc2"
+    },
+    {
+      "bytes": 1794,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "05f6c547bc048e8b798694e0f7a66b676a06a86a821041d9ca0f2442ca0e131a"
+    },
+    {
+      "bytes": 623,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_REVERIFY_CLOSEOUT.md",
+      "sha256": "f8aeb24b3f6203aa1adf6bb736d875125e31ecb6ee355c29d35dcd1fc6607e2d"
+    },
+    {
+      "bytes": 939,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_SEQUENCE_DECISION.json",
+      "sha256": "905d866062057fa8d2e65514a3f73fcc57e14bfa2e0f490962caf5f8f97bbdcb"
+    },
+    {
+      "bytes": 426,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json",
+      "sha256": "36c151dae65951353eecf886a31f837a690e3fe1558572971e6066392556d1fe"
+    },
+    {
+      "bytes": 1551,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_SOURCE_REF_AUDIT.json",
+      "sha256": "2f0d154ae6abae5eeda1c0871f8a03259c3fb55278ece701c54941d3e1920b15"
+    },
+    {
+      "bytes": 133,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/TEST_LOG.txt",
+      "sha256": "6a96567ff930232bb71bf900a2c44da90d4fbd7475d3fe04d1e9560e49634dc7"
+    },
+    {
+      "bytes": 314,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json",
+      "sha256": "1211917c29370bb88d519b9ca78e6d88bf0c4f74451a0fe7f342dac757e78e26"
+    },
+    {
+      "bytes": 735,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json",
+      "sha256": "e04ebc967a7d5b109d869a8ad84069105bc06535463a9706c3bdd1b7aed8e83f"
+    },
+    {
+      "bytes": 633,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json",
+      "sha256": "b5bde30a12257fea57bffcfe17e2d8105836d50e7f968bde3159ef673cf80fc2"
+    },
+    {
+      "bytes": 1794,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "05f6c547bc048e8b798694e0f7a66b676a06a86a821041d9ca0f2442ca0e131a"
+    },
+    {
+      "bytes": 623,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_REVERIFY_CLOSEOUT.md",
+      "sha256": "f8aeb24b3f6203aa1adf6bb736d875125e31ecb6ee355c29d35dcd1fc6607e2d"
+    },
+    {
+      "bytes": 939,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_SEQUENCE_DECISION.json",
+      "sha256": "905d866062057fa8d2e65514a3f73fcc57e14bfa2e0f490962caf5f8f97bbdcb"
+    },
+    {
+      "bytes": 426,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json",
+      "sha256": "36c151dae65951353eecf886a31f837a690e3fe1558572971e6066392556d1fe"
+    },
+    {
+      "bytes": 1551,
+      "path": "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1/THREE_PACKAGE_SOURCE_REF_AUDIT.json",
+      "sha256": "2f0d154ae6abae5eeda1c0871f8a03259c3fb55278ece701c54941d3e1920b15"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T11:10:55+00:00",
+  "included_roots": [
+    "outputs/main_citybrain_pre_e4_three_package_reverify_r1",
+    "publications/epoch4/main-citybrain-pre-e4-three-package-reverify-r1"
+  ],
+  "root": "outputs/main_citybrain_pre_e4_three_package_reverify_r1"
+}

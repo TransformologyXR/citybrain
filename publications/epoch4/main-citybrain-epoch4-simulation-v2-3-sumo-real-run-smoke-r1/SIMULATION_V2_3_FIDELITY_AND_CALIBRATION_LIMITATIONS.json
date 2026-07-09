@@ -1,0 +1,24 @@
+{
+  "artifact_id": "SIMULATION_V2_3_FIDELITY_AND_CALIBRATION_LIMITATIONS",
+  "calibration_state": "not_calibrated",
+  "fidelity_label": "deterministic_sumo_smoke_not_calibrated",
+  "limitations": [
+    "tiny synthetic local SUMO fixture only",
+    "not calibrated to a city network",
+    "not a product forecast",
+    "no official action, dispatch, control, or enforcement"
+  ],
+  "not_usable_for": [
+    "forecast",
+    "optimization",
+    "official action",
+    "dispatch",
+    "citywide truth",
+    "recommendation authority"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "usable_for": [
+    "connector smoke evidence",
+    "local deterministic execution proof"
+  ]
+}

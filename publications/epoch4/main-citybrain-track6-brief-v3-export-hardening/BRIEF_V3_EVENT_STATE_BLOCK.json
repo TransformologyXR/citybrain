@@ -1,0 +1,65 @@
+{
+  "active_event_count": 2,
+  "active_events": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:e7fde36f5a07",
+      "event_type": "mobility.access_interruption.update",
+      "evidence_refs": [
+        "evidence:inspection:alpha"
+      ],
+      "payload_keys": [
+        "access_state",
+        "late_arrival"
+      ],
+      "review_state": "candidate_reviewed",
+      "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "check_report_refs": [
+        "check_v1:beta:candidate_only"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:72f151d0679f",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:registry:beta"
+      ],
+      "payload_keys": [
+        "access_state"
+      ],
+      "review_state": "review_required",
+      "source_record_ref": "source_record:registry:beta:2026-05-01"
+    }
+  ],
+  "authority_boundary": "review_only_no_action",
+  "block_id": "event_state",
+  "counts": {
+    "active": 2,
+    "duplicates": 1,
+    "historical": 4,
+    "quarantined": 1,
+    "superseded": 1,
+    "unresolved_or_candidate": 1
+  },
+  "materialized_at": "2026-07-07T12:38:35Z",
+  "query_smoke_status": "PASS",
+  "query_types": [
+    "active_near_entity",
+    "events_by_entity",
+    "unresolved_events",
+    "quarantine",
+    "event_trace"
+  ],
+  "source_refs": [
+    "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+    "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json"
+  ],
+  "state_id": "event_state_v2_mobility_access_interruption",
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,109 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 60355,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/CANDIDATE_PATCH_OVERLAYS.json",
+      "sha256": "9d7132d56d8fa0dfac548e27163b6dda23891a1ff2206a630c38c0b6b5de6c91"
+    },
+    {
+      "bytes": 462,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/DECISION.json",
+      "sha256": "6e250313241b0e7b91c2b433725164cc696744fdc8418a1475bfc934c2326807"
+    },
+    {
+      "bytes": 335,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/DO_NOT_APPLY_REASONING.json",
+      "sha256": "5f916682b9f10166fc125b8eb0b28ba324b8fac6b0c9ab52c92aaa86c3eebdd0"
+    },
+    {
+      "bytes": 45161,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/EVAL_CASES_AFFECTED_BY_REMEDIATION.json",
+      "sha256": "4263db38738e49137eaa7ae8871c19a0c07b77d68f0cc38410b1a5b8271a89c0"
+    },
+    {
+      "bytes": 1487,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "c41fb3d1d1421cf49db07c2b15a47aa2a282b49ab48752b5a63e73391c62d142"
+    },
+    {
+      "bytes": 190,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/NO_SCORE_INFLATION_GUARD.json",
+      "sha256": "a4d76be116f3cc8cb1f5672ddb184cd83465424448693037699f61e5510870da"
+    },
+    {
+      "bytes": 224,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "31fe7846242f48cb9cf4a3ad433f66ba35e86faec523bcde21e55e7215ef78fb"
+    },
+    {
+      "bytes": 4521,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/PROJECTED_IMPACT_BY_FAMILY.json",
+      "sha256": "f69c94cad3b252f2a6689fea2df5d4a65b7cc0f1add28581872d5be932871d73"
+    },
+    {
+      "bytes": 2528,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/PROJECTED_IMPACT_BY_QUEUE.json",
+      "sha256": "3dfed3d9f10cb643d7e1ec7e610a46aa6c59bab3379e27a947853e69d37b708d"
+    },
+    {
+      "bytes": 1436,
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/SANDBOX_PROJECTION_PLAN.json",
+      "sha256": "278f1a92cb889c07208bfbf5f4b5d8749c7c3aba561add6d931f505789180518"
+    },
+    {
+      "bytes": 60355,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/CANDIDATE_PATCH_OVERLAYS.json",
+      "sha256": "9d7132d56d8fa0dfac548e27163b6dda23891a1ff2206a630c38c0b6b5de6c91"
+    },
+    {
+      "bytes": 462,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/DECISION.json",
+      "sha256": "6e250313241b0e7b91c2b433725164cc696744fdc8418a1475bfc934c2326807"
+    },
+    {
+      "bytes": 335,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/DO_NOT_APPLY_REASONING.json",
+      "sha256": "5f916682b9f10166fc125b8eb0b28ba324b8fac6b0c9ab52c92aaa86c3eebdd0"
+    },
+    {
+      "bytes": 45161,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/EVAL_CASES_AFFECTED_BY_REMEDIATION.json",
+      "sha256": "4263db38738e49137eaa7ae8871c19a0c07b77d68f0cc38410b1a5b8271a89c0"
+    },
+    {
+      "bytes": 1487,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "c41fb3d1d1421cf49db07c2b15a47aa2a282b49ab48752b5a63e73391c62d142"
+    },
+    {
+      "bytes": 190,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/NO_SCORE_INFLATION_GUARD.json",
+      "sha256": "a4d76be116f3cc8cb1f5672ddb184cd83465424448693037699f61e5510870da"
+    },
+    {
+      "bytes": 224,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "31fe7846242f48cb9cf4a3ad433f66ba35e86faec523bcde21e55e7215ef78fb"
+    },
+    {
+      "bytes": 4521,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/PROJECTED_IMPACT_BY_FAMILY.json",
+      "sha256": "f69c94cad3b252f2a6689fea2df5d4a65b7cc0f1add28581872d5be932871d73"
+    },
+    {
+      "bytes": 2528,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/PROJECTED_IMPACT_BY_QUEUE.json",
+      "sha256": "3dfed3d9f10cb643d7e1ec7e610a46aa6c59bab3379e27a947853e69d37b708d"
+    },
+    {
+      "bytes": 1436,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-candidate-sandbox-projection-r1/SANDBOX_PROJECTION_PLAN.json",
+      "sha256": "278f1a92cb889c07208bfbf5f4b5d8749c7c3aba561add6d931f505789180518"
+    }
+  ],
+  "entry_count": 20,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "status": "PASS"
+}

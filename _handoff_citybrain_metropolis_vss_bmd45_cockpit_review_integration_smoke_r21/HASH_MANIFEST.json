@@ -1,0 +1,109 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-07-04T16:40:19Z",
+  "file_count": 20,
+  "files": [
+    {
+      "bytes": 774,
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "6bdfedba725ae6551983f51471dd0acb14011e441b73ba59956e1becd2ca70f6"
+    },
+    {
+      "bytes": 985,
+      "path": "BASELINE_METRICS_FROM_R20.json",
+      "sha256": "ff14035e86204fa98d08b7d80b49cd1de96e06d3c82511b44cd5141486a789e0"
+    },
+    {
+      "bytes": 581,
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "497e6ab647e58682fc8846d5ae3be7c740a8fbfc2ba54376da6d0fe35b04d420"
+    },
+    {
+      "bytes": 2092,
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "d6af10d76da841a0fc7bc088b29dd06f0089ccb5d18f05aad1d5114ce60bb7fc"
+    },
+    {
+      "bytes": 402,
+      "path": "GUARDRAIL_TERMS_R21.json",
+      "sha256": "c7f11680146f4f997def78278d3a1b259395d72e3de84f937466db0cc9fd8d20"
+    },
+    {
+      "bytes": 1008,
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "f013081bec3367cb0f2320114cba711e2ad2116a782055e8a1fb907b7eb36df1"
+    },
+    {
+      "bytes": 378,
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "f699173ca393b6739b5ecce59f4097725cb583de14c3bc975a53da0f05ac8d88"
+    },
+    {
+      "bytes": 1344,
+      "path": "INPUT_R20_VALIDATION_SUMMARY.json",
+      "sha256": "ba4531109b2bbc9475163b25c0070598dee0ee3a670c7b853bf2734de8027bcc"
+    },
+    {
+      "bytes": 322,
+      "path": "KNOWN_LIMITATIONS_TEMPLATE_R21.md",
+      "sha256": "78be184d2e448d35888401fcd5f9e6be37eac0b9e2c0c8b561dc5a9a952b14ec"
+    },
+    {
+      "bytes": 391,
+      "path": "NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R21.md",
+      "sha256": "dddd3fe3df638af3245b0f54585a311a1021639c415f7a5f52b1ab648fe6ea97"
+    },
+    {
+      "bytes": 914,
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "06b7400d07c4b3291bccf633756754d6638c2fe389083b973c6c285d9753731b"
+    },
+    {
+      "bytes": 1615,
+      "path": "R20_ARTIFACT_INSPECTION_REPORT.json",
+      "sha256": "1bef237b210b2ef97b69cf2de50d4b2c317c937ea3c684438efe23672fa84114"
+    },
+    {
+      "bytes": 439,
+      "path": "README.md",
+      "sha256": "e0507e5f83266f62fccab19e429f04d2b41505eb51e928dfc9d9305f44734a40"
+    },
+    {
+      "bytes": 649,
+      "path": "RUNTIME_HOST_ALLOCATION_R21.json",
+      "sha256": "3c6922085bf70c2f84245a87f0a925f71940d32fd066f310efe63f06f28313d2"
+    },
+    {
+      "bytes": 732,
+      "path": "SCHEMA_COCKPIT_REVIEW_INTEGRATION_REPORT_R21.json",
+      "sha256": "02e8c594470317ec2ee370be3d123a6e0ddf12a956bb7376078e261f52f58703"
+    },
+    {
+      "bytes": 689,
+      "path": "SCHEMA_COCKPIT_REVIEW_TILE_R21.json",
+      "sha256": "07bd74f3539aecfcc352663ae52453576c854ae1db99f328d397cd09ca652116"
+    },
+    {
+      "bytes": 962,
+      "path": "SCHEMA_DECISION_R21.json",
+      "sha256": "f3a0c121863f8165f438befbcd1c2baf76aa123e12f32bdf6f81f10b92024936"
+    },
+    {
+      "bytes": 631,
+      "path": "SCHEMA_FRAME_REVIEW_CARD_R21.json",
+      "sha256": "24512b4a7a7c7efc28f630da73094c56249f115d5cf164dde0d245f90e32da5c"
+    },
+    {
+      "bytes": 1665,
+      "path": "SPEC.md",
+      "sha256": "4cedce5b9a3c8b4f2bf1155860d8fe4f17f13b1866ca982a4c9d495d9472e1f0"
+    },
+    {
+      "bytes": 484,
+      "path": "STATUS_ENUMS_R21.json",
+      "sha256": "c164bca680766e232d0c74479a460fe1e7f31870c31e718206a72805763d5dd1"
+    }
+  ],
+  "schema_version": "hash-manifest.v1",
+  "status": "PASS"
+}

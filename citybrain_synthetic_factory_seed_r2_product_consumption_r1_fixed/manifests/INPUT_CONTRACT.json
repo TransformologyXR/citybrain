@@ -1,0 +1,36 @@
+{
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+  "inputs": {
+    "seed_r1": {
+      "expected_status": "PASS_SYNTHETIC_FACTORY_DUBAI_SEED_R1_WITH_LIMITATIONS",
+      "read_only": true,
+      "expected_files_any": [
+        "SYNTHETIC_FACTORY_DUBAI_SEED_R1_DECISION.json",
+        "EVENT_REPLAY_TAPE.jsonl",
+        "WATCH_SEED_QUEUE.jsonl",
+        "ASK_ENTITY_PROFILE_FIXTURES.jsonl",
+        "CHECK_CLAIMABILITY_FIXTURES.jsonl",
+        "BRIEF_PACKET_FIXTURES.jsonl",
+        "SPATIAL_OVERLAY_FIXTURES.jsonl"
+      ]
+    },
+    "seed_r2": {
+      "expected_status": "PASS_SYNTHETIC_FACTORY_DUBAI_SEED_R2_MOBILITY_DEPTH_REFRESH_WITH_LIMITATIONS",
+      "read_only": true,
+      "expected_files_any": [
+        "SYNTHETIC_FACTORY_DUBAI_SEED_R2_MOBILITY_DEPTH_REFRESH_DECISION.json",
+        "EVENT_REPLAY_TAPE_MOBILITY_REFRESH_R2.jsonl",
+        "WATCH_MOBILITY_DEPTH_QUEUE_R2.jsonl",
+        "ASK_MOBILITY_ENTITY_PROFILE_FIXTURES_R2.jsonl",
+        "CHECK_MOBILITY_DEPTH_FIXTURES_R2.jsonl",
+        "BRIEF_MOBILITY_PACKET_FIXTURES_R2.jsonl",
+        "SPATIAL_MOBILITY_OVERLAY_FIXTURES_R2.jsonl"
+      ]
+    }
+  },
+  "source_class_rules": {
+    "seed_r1": "synthetic_or_seed_context",
+    "seed_r2": "mobility_depth_donor_context_only",
+    "lta_tfl": "donor_context_only_not_dubai_truth"
+  }
+}

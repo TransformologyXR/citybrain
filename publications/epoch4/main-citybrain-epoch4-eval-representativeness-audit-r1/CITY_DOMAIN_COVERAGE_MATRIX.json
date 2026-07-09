@@ -1,0 +1,20 @@
+{
+  "domain_mapping": {
+    "building_compliance_perception_candidate": "building_compliance",
+    "city_asset_infrastructure_issue": "municipal_asset_infrastructure",
+    "mobility_access_interruption_v0": "mobility_access",
+    "permit_inspection_delay": "permit_inspection"
+  },
+  "donor_context_cities": [
+    "Singapore",
+    "London"
+  ],
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "status": "PASS",
+  "synthetic_factory_city": "Dubai-style synthetic seed"
+}

@@ -1,0 +1,124 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "SPRINT4_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 272,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/HUMAN_REVIEW_PILOT_CLOSEOUT.md",
+      "sha256": "62d8d200cc72dc4ebe80c292ced5948105a2f4b1bb6b696bc9dd24d96e2e8e8f"
+    },
+    {
+      "bytes": 876,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/HUMAN_REVIEW_PILOT_DECISION.json",
+      "sha256": "50381f6a1749bd1069b6378d114d5ceaca80938f703f667e7e710543dff99f83"
+    },
+    {
+      "bytes": 234,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/HUMAN_REVIEW_PILOT_PROTOCOL_R1.md",
+      "sha256": "602ebcfc78ebc4c663068802e8267113282efa41c71e5b922c027d37c7ba86ad"
+    },
+    {
+      "bytes": 283,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/NO_LEARNED_ARMING_FROM_PILOT_GUARD.json",
+      "sha256": "771051d5db50c5d01edbc235ed3b2a1df3306eaf9c9e806d21ad835e82d44e47"
+    },
+    {
+      "bytes": 242,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_CAPTURE_FORM_TEMPLATE.md",
+      "sha256": "91e1fc5706fc1c4e7a7d73c2d2ef8cca1160a2d82e1565f144266695dacc1c73"
+    },
+    {
+      "bytes": 236,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_CAPTURE_TOOL_README.md",
+      "sha256": "e3ac945a50704d42b5b287c7b6c90fef25bbcba9bf02e8a27c42f10eaf863930"
+    },
+    {
+      "bytes": 324,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_FUEL_ELIGIBILITY_REPORT_R1.json",
+      "sha256": "02c58323c1bec8de55d881a9067cc883e090c249608d29589c8df7df93956b30"
+    },
+    {
+      "bytes": 212,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_NO_FABRICATED_HUMAN_SESSION_GUARD.json",
+      "sha256": "d19535e9e02e40b06680adf683149b015e8304672d243d29b8f330923596779a"
+    },
+    {
+      "bytes": 271,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_PRIVACY_RETENTION_GUARD.json",
+      "sha256": "94b2c81552a38508c90891e0a75f3e56daa1f67593571e5186550396dced3cce"
+    },
+    {
+      "bytes": 768,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_REVIEW_TASK_QUEUE_R1.jsonl",
+      "sha256": "f9db13f52aaca994551e9557dbf8f38c32e202d99036411ea38a19d7bb3cf98f"
+    },
+    {
+      "bytes": 252,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_SESSION_IMPORT_REPORT.json",
+      "sha256": "bcd08c157c993d9a849cf9ac434c9dbbb479f0e0102d216140d99d88466cbe20"
+    },
+    {
+      "bytes": 300,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_SESSION_VALIDATION_REPORT.json",
+      "sha256": "3c862d7d475087a3ef9cea2d272e7d214f0131d8389e43774595149d39705629"
+    },
+    {
+      "bytes": 137,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_TASK_PACKET_INDEX.json",
+      "sha256": "5de0af7cc623943afcb113a414f371ffbe0b481e46d9a1da41f568d783ac4649"
+    },
+    {
+      "bytes": 479,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/PILOT_USEFULNESS_REPORT_R1.json",
+      "sha256": "5d1e75054a581a2d13090aa43f7186faceaa44c62aeb381c03cdcd5803f4e70d"
+    },
+    {
+      "bytes": 146,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/TEST_LOG.txt",
+      "sha256": "1b849feb284e2a77b90c746ca2dc9c8f49ceca859a17a6de547a081fddd1c1df"
+    },
+    {
+      "bytes": 272,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_CLOSEOUT.md",
+      "sha256": "62d8d200cc72dc4ebe80c292ced5948105a2f4b1bb6b696bc9dd24d96e2e8e8f"
+    },
+    {
+      "bytes": 876,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+      "sha256": "50381f6a1749bd1069b6378d114d5ceaca80938f703f667e7e710543dff99f83"
+    },
+    {
+      "bytes": 234,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_PROTOCOL_R1.md",
+      "sha256": "602ebcfc78ebc4c663068802e8267113282efa41c71e5b922c027d37c7ba86ad"
+    },
+    {
+      "bytes": 324,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/PILOT_FUEL_ELIGIBILITY_REPORT_R1.json",
+      "sha256": "02c58323c1bec8de55d881a9067cc883e090c249608d29589c8df7df93956b30"
+    },
+    {
+      "bytes": 212,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/PILOT_NO_FABRICATED_HUMAN_SESSION_GUARD.json",
+      "sha256": "d19535e9e02e40b06680adf683149b015e8304672d243d29b8f330923596779a"
+    },
+    {
+      "bytes": 146,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/TEST_LOG.txt",
+      "sha256": "1b849feb284e2a77b90c746ca2dc9c8f49ceca859a17a6de547a081fddd1c1df"
+    },
+    {
+      "bytes": 989,
+      "path": "contracts/human_review_pilot_r1/review_disposition.schema.json",
+      "sha256": "fd7faaa4948a7408bc448158b20b900d643b3682b7e09ed71a0d7f0620d88dd7"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-07T12:38:36Z",
+  "included_roots": [
+    "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture",
+    "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture",
+    "contracts/human_review_pilot_r1"
+  ],
+  "status": "PASS"
+}

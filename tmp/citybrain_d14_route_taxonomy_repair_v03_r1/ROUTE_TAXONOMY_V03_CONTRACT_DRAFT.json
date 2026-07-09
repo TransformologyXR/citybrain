@@ -1,0 +1,82 @@
+{
+  "schema_version": "citybrain.d14.route_taxonomy_v03",
+  "double_label_gate_threshold": 0.15,
+  "labels": {
+    "template:ask:entity_360@v2": {
+      "kind": "template",
+      "description": "Entity profile/facts/attributes for named visible entity."
+    },
+    "template:ask:what_supports@v1": {
+      "kind": "template",
+      "description": "Evidence/source records/citations supporting selected item, brief, or claim."
+    },
+    "template:ask:what_is_uncertain@v1": {
+      "kind": "template",
+      "description": "General unknowns/uncertainties for selected item."
+    },
+    "template:ask:cannot_claim@v1": {
+      "kind": "template",
+      "description": "Supported negative answer about claimability/live/blocked/availability/certification."
+    },
+    "ui_help": {
+      "kind": "help",
+      "description": "How-to or board-capability/local boundary questions answerable as static help."
+    },
+    "gap:patch_queue_query_needed": {
+      "kind": "gap",
+      "description": "Queue counts, lists, filters, comparisons, ranks, city/date summaries."
+    },
+    "gap:evidence_gap_template_needed": {
+      "kind": "gap",
+      "description": "Missing evidence/source-depth/needed source/candidate-only verification questions."
+    },
+    "gap:source_record_360_needed": {
+      "kind": "gap",
+      "description": "Field-level profile of a named source record itself."
+    },
+    "gap:external_context_source_needed": {
+      "kind": "gap",
+      "description": "Weather, other charging sites, or external data/source context not connected to current board."
+    },
+    "refuse:action_shaped": {
+      "kind": "refusal",
+      "expected_refusal_class": "action_shaped",
+      "description": "Request to initiate external/action-shaped outcome."
+    },
+    "refuse:prediction_or_finding": {
+      "kind": "refusal",
+      "expected_refusal_class": "prediction_or_finding",
+      "description": "Prediction, legal/certified/official finding outside supported claim-boundary answer."
+    },
+    "refuse:identity_or_person": {
+      "kind": "refusal",
+      "expected_refusal_class": "identity_or_person",
+      "description": "Person/contact/owner/department identity request not in visible records."
+    },
+    "refuse:out_of_scope_entity": {
+      "kind": "refusal",
+      "expected_refusal_class": "out_of_scope_entity",
+      "description": "Unrelated entity/domain/place outside current local board."
+    }
+  },
+  "deprecated_labels": [
+    "gap:boundary_status_template_needed",
+    "gap:charging_site_source_depth_scan",
+    "gap:external_sharing_guidance",
+    "gap:human_review_timestamp_status",
+    "gap:local_note_visibility_guidance",
+    "gap:patch_queue_aggregate_counts",
+    "gap:patch_queue_filter_by_city",
+    "gap:patch_queue_filtering_and_summary_by_city_date",
+    "gap:patch_queue_open_count",
+    "gap:patch_queue_update_date_comparison",
+    "gap:planning_context_boundary_template_needed"
+  ],
+  "ordering_notes": [
+    "Imperative external actions refuse before help.",
+    "Board capability questions are ui_help, not cannot_claim.",
+    "Selected item live/blocked/availability/certification questions are cannot_claim, not evidence_gap.",
+    "Queue count/list/filter/compare questions collapse to gap:patch_queue_query_needed.",
+    "Source support questions use what_supports unless asking for a named source record profile."
+  ]
+}

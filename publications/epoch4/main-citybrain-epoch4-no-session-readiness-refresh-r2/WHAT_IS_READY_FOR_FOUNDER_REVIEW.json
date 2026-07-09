@@ -1,0 +1,10 @@
+{
+  "artifact_id": "WHAT_IS_READY_FOR_FOUNDER_REVIEW",
+  "ready_items": [
+    "48-case local/replay eval corpus",
+    "challenge/negative suite with abstain, downgrade, quarantine, and simulation-not-applicable cases",
+    "candidate-fix sandbox effect matrix",
+    "bounded founder-probe packet path, if package-specific input is later supplied"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

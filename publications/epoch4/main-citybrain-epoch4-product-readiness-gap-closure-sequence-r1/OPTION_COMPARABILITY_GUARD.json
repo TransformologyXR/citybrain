@@ -1,0 +1,13 @@
+{
+  "artifact_id": "OPTION_COMPARABILITY_GUARD",
+  "comparability_notes": [
+    "city asset has deterministic SUMO smoke evidence but no calibration",
+    "building compliance and permit delay use rule-based review options",
+    "mobility access remains a control family for packet parity"
+  ],
+  "fixture_only_not_calibrated_limits_preserved": true,
+  "raw_id_truth_bypass_created": false,
+  "source_class_limits_preserved": true,
+  "status": "PASS",
+  "sumo_and_non_sumo_falsely_equated": false
+}

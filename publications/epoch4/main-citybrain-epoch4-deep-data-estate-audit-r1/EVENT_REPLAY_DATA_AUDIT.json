@@ -1,0 +1,45 @@
+{
+  "artifact_id": "EVENT_REPLAY_DATA_AUDIT",
+  "consumption_refs": [
+    "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/EVENT_STORY_REPLAY_MANIFEST.json",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/EVENT_REPLAY_COMBINED_R1.jsonl",
+    "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_LOG.jsonl"
+  ],
+  "event_fabric_roots_detected": [
+    "outputs/main_citybrain_d4x_live_event_fabric_implementation_preflight",
+    "outputs/main_citybrain_d4x_live_event_fabric_minimal_local_slice",
+    "outputs/main_citybrain_d4x_live_event_fabric_r2_state_materialization_end_to_end",
+    "outputs/main_citybrain_d5_local_served_runtime_event_fabric_integration_r3",
+    "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1",
+    "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1",
+    "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1",
+    "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1",
+    "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine",
+    "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening",
+    "outputs/main_citybrain_event_fabric_r0_contract_freeze",
+    "outputs/main_citybrain_event_fabric_repair_epoch_r1",
+    "outputs/main_event_fabric_d2",
+    "outputs/main_event_fabric_d3_multicity_adapters",
+    "outputs/main_event_fabric_d3_service_hardening",
+    "outputs/main_platform_event_fabric_d1",
+    "outputs/pv1_d12_sumo_event_fabric_integration",
+    "outputs/pv1_d5_event_fabric_contract",
+    "outputs/pv1_d5d6d7_event_fabric_gate",
+    "outputs/synthetic_data_factory_d1_event_fabric_replay_smoke_r1"
+  ],
+  "generated_at": "2026-07-08T09:24:24Z",
+  "lifecycle_support": [
+    "local replay",
+    "duplicate/superseded/unresolved/quarantine handling where present in Event Fabric outputs",
+    "DIFF/source-refresh compatibility through Track A fixtures"
+  ],
+  "limitations": [
+    "Event Fabric evidence is local/replay/history only.",
+    "No live event source or official incident truth is created by this audit."
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "synthetic_product_event_replay_rows": 55,
+  "tracka_event_story_count": 4,
+  "v2_1_story_pack_count": 4,
+  "v2_5_long_history_log_rows": 1440
+}

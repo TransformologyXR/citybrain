@@ -1,0 +1,129 @@
+{
+  "block_id": "source_record_appendix",
+  "missing_source_artifacts": [],
+  "record_count": 3,
+  "records": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:592899f65e66",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:permit:alpha:100a"
+      ],
+      "observed_at": "2026-07-07T08:00:20Z",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:alpha_access:001",
+      "source_record_ref": "source_record:permit:alpha:2026-07-01"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:e7fde36f5a07",
+      "event_type": "mobility.access_interruption.update",
+      "evidence_refs": [
+        "evidence:inspection:alpha"
+      ],
+      "observed_at": "2026-07-07T07:55:45Z",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:alpha_access:002",
+      "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "check_report_refs": [
+        "check_v1:beta:candidate_only"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:72f151d0679f",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:registry:beta"
+      ],
+      "observed_at": "2026-07-07T09:01:00Z",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:beta_access:001",
+      "source_record_ref": "source_record:registry:beta:2026-05-01"
+    }
+  ],
+  "source_artifact_refs": [
+    {
+      "bytes": 765,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+      "sha256": "d799c66f0ca30454e1608ecce1ebb5b9ec1150a190a547736d1ceaba5c4f664e",
+      "source_key": "check_v1_engine_report"
+    },
+    {
+      "bytes": 604,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json",
+      "sha256": "c2c4b37dbe05d4ebcaccd4c928cf0e8f4bb5a4bdc2cf6ccc13a7e5b17b96e492",
+      "source_key": "check_v1_trust_gate"
+    },
+    {
+      "bytes": 6518,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+      "sha256": "fd210b7142d8b7713dbdaede7eef1be1f3284d1ca644931174f8be333498a597",
+      "source_key": "event_state_v2"
+    },
+    {
+      "bytes": 239,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json",
+      "sha256": "1367217131c152536bb638f9619ec041f4debc6519b5a4e203b9939b51b7b95f",
+      "source_key": "event_query_smoke"
+    },
+    {
+      "bytes": 877,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+      "sha256": "961e206d8ed6ce419d012e1ae0ad6c3eec235f04f451994073085a07ad747f81",
+      "source_key": "simulation_scenario_catalog_v2"
+    },
+    {
+      "bytes": 410,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+      "sha256": "bc4a653bde721f130f40989c0a5cf31f8e9a613e3cb04735794e48a37f11ed3e",
+      "source_key": "simulation_option_comparison"
+    },
+    {
+      "bytes": 546,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+      "sha256": "456a5dd9897591611275722ded30646769a22faf93fa883c3253b0a6c3fd7d0f",
+      "source_key": "incident_review_packet"
+    },
+    {
+      "bytes": 1370,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json",
+      "sha256": "5ce654eb5f75a4a27c7b1be2484ca95efec323f08ec6a8086336310001ecec18",
+      "source_key": "plan_option_set"
+    },
+    {
+      "bytes": 876,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+      "sha256": "50381f6a1749bd1069b6378d114d5ceaca80938f703f667e7e710543dff99f83",
+      "source_key": "human_review_pilot_decision"
+    },
+    {
+      "bytes": 663,
+      "exists": true,
+      "path": "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json",
+      "sha256": "885445125bf7b6ec02c69be1d2648a85b56194c6e2dbbda93ca8dcafcb8fa9e5",
+      "source_key": "epoch4_final_decision"
+    }
+  ],
+  "status": "PASS",
+  "truth_boundary": "Source records remain evidence inputs; CHECK/CER boundaries govern claimability."
+}

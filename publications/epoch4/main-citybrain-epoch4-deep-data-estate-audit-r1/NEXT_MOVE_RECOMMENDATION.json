@@ -1,0 +1,28 @@
+{
+  "artifact_id": "NEXT_MOVE_RECOMMENDATION",
+  "generated_at": "2026-07-08T09:24:29Z",
+  "not_recommended_now": [
+    "READY_FOR_INTERNAL_PRODUCT_SNAPSHOT",
+    "live-source onboarding without source policy/live approvals",
+    "founder session or operator fuel capture"
+  ],
+  "ranked_recommendations": [
+    {
+      "rank": 1,
+      "rationale": "Founder/review cards exist but still need readable evidence summaries, CER/SEG context, and actual CHECK outcomes before product-facing review.",
+      "recommendation": "FIX_REVIEW_PACK_QUALITY_FIRST"
+    },
+    {
+      "rank": 2,
+      "rationale": "Source freshness, geometry, consuming-flow, and source-class gaps are visible and actionable.",
+      "recommendation": "DEEPEN_DATA_MATURITY_REMEDIATION"
+    },
+    {
+      "rank": 3,
+      "rationale": "Replay/simulation artifacts are useful once review-card evidence is clearer.",
+      "recommendation": "DEEPEN_EVENT_FABRIC_OR_SIMULATION"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "top_recommendation": "FIX_REVIEW_PACK_QUALITY_FIRST"
+}

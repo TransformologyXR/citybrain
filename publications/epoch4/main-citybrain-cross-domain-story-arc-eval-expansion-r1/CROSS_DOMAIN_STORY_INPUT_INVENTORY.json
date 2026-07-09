@@ -1,0 +1,256 @@
+{
+  "artifact_id": "CROSS_DOMAIN_STORY_INPUT_INVENTORY",
+  "existing_input_count": 31,
+  "input_count": 31,
+  "missing_inputs": [],
+  "rows": [
+    {
+      "artifact_id": null,
+      "exists": true,
+      "key": "existing_eval_r2:cases",
+      "line_count": 48,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CASES_R2.jsonl",
+      "status": null
+    },
+    {
+      "artifact_id": "EVAL_CORPUS_EXPANSION_R2_DECISION",
+      "exists": true,
+      "key": "existing_eval_r2:decision",
+      "line_count": null,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CORPUS_EXPANSION_R2_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_CORPUS_EXPANSION_R2_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": "EXPANDED_CORPUS_CANONICAL_RESOLUTION_REPLAY_VALIDATED",
+      "exists": true,
+      "key": "expanded_cadence:canonical",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CANONICAL_RESOLUTION_REPLAY_VALIDATED.json",
+      "status": null
+    },
+    {
+      "artifact_id": "EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION",
+      "exists": true,
+      "key": "expanded_cadence:decision",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EVENT_FABRIC_SEED_R3_EXPANDED_CORPUS_CADENCE_REPLAY_MINING_R2_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": "EXPANDED_CORPUS_CADENCE_MODE_STATE_HASHES",
+      "exists": true,
+      "key": "expanded_cadence:hashes",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CADENCE_MODE_STATE_HASHES.json",
+      "status": null
+    },
+    {
+      "artifact_id": "NO_DIRECT_D5D6_BYPASS_GUARD",
+      "exists": true,
+      "key": "expanded_cadence:no_d5d6",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/NO_DIRECT_D5D6_BYPASS_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "NO_STANDALONE_FIXTURE_REGRESSION_GUARD",
+      "exists": true,
+      "key": "expanded_cadence:no_standalone",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/NO_STANDALONE_FIXTURE_REGRESSION_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "EXPANDED_CORPUS_QUEUE_MINING_REPORT",
+      "exists": true,
+      "key": "expanded_cadence:queue",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_QUEUE_MINING_REPORT.json",
+      "status": null
+    },
+    {
+      "artifact_id": "SEED_R3_EXPANDED_CANONICAL_RESOLUTION_REPORT",
+      "exists": true,
+      "key": "expanded_corpus:canonical",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_CANONICAL_RESOLUTION_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": "SEED_R3_EXPANDED_EVENT_COUNTS_BY_FAMILY",
+      "exists": true,
+      "key": "expanded_corpus:counts",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_EVENT_COUNTS_BY_FAMILY.json",
+      "status": null
+    },
+    {
+      "artifact_id": "SEED_R3_ADAPTER_CORPUS_EXPANSION_DECISION",
+      "exists": true,
+      "key": "expanded_corpus:decision",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_ADAPTER_CORPUS_EXPANSION_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_SEED_R3_ADAPTER_CORPUS_EXPANSION_R1_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": null,
+      "exists": true,
+      "key": "expanded_corpus:duplicate_ledger",
+      "line_count": 8,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_DUPLICATE_CANDIDATE_LEDGER.jsonl",
+      "status": null
+    },
+    {
+      "artifact_id": null,
+      "exists": true,
+      "key": "expanded_corpus:feed",
+      "line_count": 80,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "status": null
+    },
+    {
+      "artifact_id": "NO_DIRECT_D5D6_BYPASS_GUARD",
+      "exists": true,
+      "key": "expanded_corpus:no_d5d6",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/NO_DIRECT_D5D6_BYPASS_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "NO_STANDALONE_FIXTURE_REGRESSION_GUARD",
+      "exists": true,
+      "key": "expanded_corpus:no_standalone",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/NO_STANDALONE_FIXTURE_REGRESSION_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": null,
+      "exists": true,
+      "key": "expanded_corpus:quarantine",
+      "line_count": 20,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_QUARANTINE_QUEUE.jsonl",
+      "status": null
+    },
+    {
+      "artifact_id": "SEED_R3_EXPANDED_QUEUE_REASON_DISTRIBUTION",
+      "exists": true,
+      "key": "expanded_corpus:queue_distribution",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_QUEUE_REASON_DISTRIBUTION.json",
+      "status": null
+    },
+    {
+      "artifact_id": "SEED_R3_STORY_ARC_READINESS_GATE",
+      "exists": true,
+      "key": "expanded_corpus:story_gate",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_STORY_ARC_READINESS_GATE.json",
+      "status": "story_arc_ready_with_limitations"
+    },
+    {
+      "artifact_id": null,
+      "exists": true,
+      "key": "expanded_corpus:unresolved",
+      "line_count": 20,
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_UNRESOLVED_QUEUE.jsonl",
+      "status": null
+    },
+    {
+      "artifact_id": "MOBILITY_REVIEW_PACKET_360_NATIVE_REPAIR_DECISION",
+      "exists": true,
+      "key": "mobility_packet:decision",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/MOBILITY_REVIEW_PACKET_360_NATIVE_REPAIR_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_REVIEW_PACKET_360_MOBILITY_NATIVE_REPAIR_R1_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": "REVIEW_PACKET_360_FAMILY_STATUS_AFTER_MOBILITY_REPAIR",
+      "exists": true,
+      "key": "mobility_packet:family_status",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/REVIEW_PACKET_360_FAMILY_STATUS_AFTER_MOBILITY_REPAIR.json",
+      "status": null
+    },
+    {
+      "artifact_id": "MOBILITY_REVIEW_PACKET_360_NATIVE_PACKET",
+      "exists": true,
+      "key": "mobility_packet:packet",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/MOBILITY_REVIEW_PACKET_360_NATIVE_PACKET.json",
+      "status": null
+    },
+    {
+      "artifact_id": "MOBILITY_REVIEW_PACKET_360_NATIVE_VS_DERIVED_PROVENANCE_AUDIT",
+      "exists": true,
+      "key": "mobility_packet:provenance",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/MOBILITY_REVIEW_PACKET_360_NATIVE_VS_DERIVED_PROVENANCE_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "REVIEW_PACKET_360_PRODUCT_REVIEW_READINESS_RECHECK",
+      "exists": true,
+      "key": "mobility_packet:readiness",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/REVIEW_PACKET_360_PRODUCT_REVIEW_READINESS_RECHECK.json",
+      "status": null
+    },
+    {
+      "artifact_id": "DISTRIBUTION_CHECKED_SIMULATION_DECISION",
+      "exists": true,
+      "key": "simulation:decision",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/DISTRIBUTION_CHECKED_SIMULATION_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_SIMULATION_DISTRIBUTION_CHECKED_FIXTURES_R1_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": "MOBILITY_SIM_DISTRIBUTION_CHECK_REPORT",
+      "exists": true,
+      "key": "simulation:mobility",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/MOBILITY_SIM_DISTRIBUTION_CHECK_REPORT.json",
+      "status": "CHECKED_WITH_LIMITATIONS"
+    },
+    {
+      "artifact_id": "NO_CITY_CALIBRATION_CLAIM_GUARD",
+      "exists": true,
+      "key": "simulation:no_calibration",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/NO_CITY_CALIBRATION_CLAIM_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "NO_FORECAST_SURFACE_GUARD",
+      "exists": true,
+      "key": "simulation:no_forecast",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/NO_FORECAST_SURFACE_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "NO_OPERATIONAL_PREDICTION_CLAIM_GUARD",
+      "exists": true,
+      "key": "simulation:no_prediction",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/NO_OPERATIONAL_PREDICTION_CLAIM_GUARD.json",
+      "status": "PASS"
+    },
+    {
+      "artifact_id": "PERMIT_DELAY_SIM_DISTRIBUTION_CHECK_REPORT",
+      "exists": true,
+      "key": "simulation:permit",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/PERMIT_DELAY_SIM_DISTRIBUTION_CHECK_REPORT.json",
+      "status": "PARKED_NOT_DISTRIBUTION_CHECKED"
+    },
+    {
+      "artifact_id": "SIM_DONOR_DISTRIBUTION_COMPARISON_SUMMARY",
+      "exists": true,
+      "key": "simulation:summary",
+      "line_count": null,
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/SIM_DONOR_DISTRIBUTION_COMPARISON_SUMMARY.json",
+      "status": "PASS_MAIN_CITYBRAIN_SIMULATION_DISTRIBUTION_CHECKED_FIXTURES_R1_WITH_LIMITATIONS"
+    }
+  ]
+}

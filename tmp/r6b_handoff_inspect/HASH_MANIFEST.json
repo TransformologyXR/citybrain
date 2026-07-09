@@ -1,0 +1,66 @@
+{
+  "created_at_utc": "2026-07-03T21:44:25.369713+00:00",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "c610ae70610075d95682a20703d886c382c6d937c5869600c718042174d0f92b",
+      "size_bytes": 878
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "b9b71edcac06f71041e30794e4a745503d9925223019c580ac9d3a655355a83d",
+      "size_bytes": 850
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "2c878a000fb991ed1849c328aecbc181297ae6baa20e0c6a1ae0b5ad44e38e8c",
+      "size_bytes": 2730
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "f70526d04fc8da41e494b1c85e1456953b522859f4119fa6efec3d7476196d20",
+      "size_bytes": 237
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "c5835b42a38b3d04051a6ddc349dd2995325b30bc418e2fca8e82b3dcb71838f",
+      "size_bytes": 1170
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "cfde76601ecaa6f565dee3a85c75a62d34833f8fee69572c895fcf7e425095ec",
+      "size_bytes": 1103
+    },
+    {
+      "path": "R6_PARTIAL_REPORTED_SUMMARY.json",
+      "sha256": "84bdf25e961504cef721f08b58df46acd660b372430dc1a0c36dbb6e8dca386b",
+      "size_bytes": 1183
+    },
+    {
+      "path": "README.md",
+      "sha256": "7edda07edd536ca80c803d6fe8283fb846126d1f0cea06935e89abc4eb1d3686",
+      "size_bytes": 537
+    },
+    {
+      "path": "RUNTIME_CONFIG_TEMPLATE.env.example",
+      "sha256": "4a7c032dd6890b3cbd55ae0c8432ce1f4829e6c08f69878d80fc5bf330ddc407",
+      "size_bytes": 394
+    },
+    {
+      "path": "SCHEMA_VSS_RUNTIME_CONFIGURED_RERUN_R6B.json",
+      "sha256": "e85d70d8773352bbb895693bbee56d5a0c705e096709fb7cc55449db1146a90b",
+      "size_bytes": 1409
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "b0c3c7f334e088c1e537fff84b20efa9cf3136fdc925486671850093cc44672f",
+      "size_bytes": 2731
+    },
+    {
+      "path": "STATUS_ENUMS_R6B.json",
+      "sha256": "e0f29b3d066ae40edeeffdca34c2070277a940e2b4151e66da58ad8db86b3f10",
+      "size_bytes": 680
+    }
+  ]
+}

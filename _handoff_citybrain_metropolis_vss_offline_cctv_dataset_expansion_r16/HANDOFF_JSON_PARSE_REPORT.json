@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-07-04T12:55:45Z",
+  "status": "PASS",
+  "json_files": [
+    {
+      "file": "DATASET_CANDIDATE_MATRIX_R16.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_DATASET_SOURCE_REGISTRY_R16.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_DECISION_R16.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_OFFLINE_DATASET_INGEST_MANIFEST_R16.json",
+      "status": "PASS"
+    },
+    {
+      "file": "STATUS_ENUMS_R16.json",
+      "status": "PASS"
+    },
+    {
+      "file": "WEB_SOURCE_SUMMARY_R16.json",
+      "status": "PASS"
+    }
+  ]
+}

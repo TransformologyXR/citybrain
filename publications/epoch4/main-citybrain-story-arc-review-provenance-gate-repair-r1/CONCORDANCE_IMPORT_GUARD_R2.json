@@ -1,0 +1,10 @@
+{
+  "artifact_id": "CONCORDANCE_IMPORT_GUARD_R2",
+  "chatgpt_ai_diagnostic_review_present": true,
+  "concordance_import_allowed": false,
+  "decision": "WAIT_FOR_SECOND_INDEPENDENT_AI_ARTIFACT_REVIEW",
+  "reason": "A second independent artifact review is still required before concordance.",
+  "review_of_review_counts_as_second_review": false,
+  "status": "PASS",
+  "true_second_independent_ai_artifact_review_count": 0
+}

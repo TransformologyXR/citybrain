@@ -1,0 +1,9 @@
+{
+  "artifact_id": "E3_CITY_DIVERGENCE_WARNING_ROW",
+  "status": "WARNING",
+  "london_stall_rate": 0.347648,
+  "nyc_stall_rate": 0.05564,
+  "interpretation": "Pooled model/product claims are unsafe; city-stratified evaluation required.",
+  "supports_cross_city_learned_transfer_parking": true,
+  "epoch4_requirement": "city_stratified_l2_forecast_improvement"
+}

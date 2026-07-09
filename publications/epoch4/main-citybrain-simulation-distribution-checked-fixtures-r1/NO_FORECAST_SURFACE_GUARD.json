@@ -1,0 +1,9 @@
+{
+  "artifact_id": "NO_FORECAST_SURFACE_GUARD",
+  "forecast_packet_created": false,
+  "forecast_surface_created": false,
+  "no_ForecastPacket": true,
+  "product_forecast_created": false,
+  "status": "PASS",
+  "validated_forecast_claim_created": false
+}

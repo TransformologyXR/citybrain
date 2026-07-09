@@ -1,0 +1,93 @@
+{
+  "eval_family_case_type_matrix": {
+    "building_compliance_perception_candidate": {
+      "candidate_only_identity": 1,
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "proximity_only_context": 1,
+      "quarantine_invalid_event": 1,
+      "simulation_not_applicable": 1,
+      "source_class_boundary": 1,
+      "source_depth_thin": 1,
+      "spatial_packet_gap": 1,
+      "stale_freshness": 1,
+      "unresolved_entity": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "candidate_only_identity": 1,
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "proximity_only_context": 1,
+      "quarantine_invalid_event": 1,
+      "simulation_not_applicable": 1,
+      "source_class_boundary": 1,
+      "source_depth_thin": 1,
+      "spatial_packet_gap": 1,
+      "stale_freshness": 1,
+      "unresolved_entity": 1
+    },
+    "mobility_access_interruption_v0": {
+      "candidate_only_identity": 1,
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "proximity_only_context": 1,
+      "quarantine_invalid_event": 1,
+      "simulation_not_applicable": 1,
+      "source_class_boundary": 1,
+      "source_depth_thin": 1,
+      "spatial_packet_gap": 1,
+      "stale_freshness": 1,
+      "unresolved_entity": 1
+    },
+    "permit_inspection_delay": {
+      "candidate_only_identity": 1,
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "proximity_only_context": 1,
+      "quarantine_invalid_event": 1,
+      "simulation_not_applicable": 1,
+      "source_class_boundary": 1,
+      "source_depth_thin": 1,
+      "spatial_packet_gap": 1,
+      "stale_freshness": 1,
+      "unresolved_entity": 1
+    }
+  },
+  "founder_family_scenario_matrix": {
+    "building_compliance_perception_candidate": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    },
+    "mobility_access_interruption_v0": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    },
+    "permit_inspection_delay": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    }
+  },
+  "founder_primary_scenarios_expected": [
+    "positive_packet_baseline",
+    "negative_no_data",
+    "stale_freshness",
+    "contradiction_pair"
+  ],
+  "status": "PASS"
+}

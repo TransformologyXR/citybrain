@@ -1,0 +1,17 @@
+{
+  "source_id": "ms_buildings_planetary_computer",
+  "collection_id": "ms-buildings",
+  "title": "Microsoft Building Footprints",
+  "license": "ODbL-1.0",
+  "assets": [
+    "delta",
+    "global-footprints"
+  ],
+  "delta_asset": "az://footprints/delta/2023-04-25/ml-buildings.parquet/",
+  "partitioning": [
+    "Region",
+    "quadkey"
+  ],
+  "description_summary": "Open building footprints detected from Bing Maps imagery, hosted through Microsoft Planetary Computer STAC/Delta.",
+  "codex_next": "STAC search or Delta table filter by Dubai bbox/quadkeys; export GeoParquet."
+}

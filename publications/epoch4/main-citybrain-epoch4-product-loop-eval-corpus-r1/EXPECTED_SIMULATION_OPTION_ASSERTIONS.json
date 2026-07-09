@@ -1,0 +1,153 @@
+{
+  "artifact_id": "EXPECTED_SIMULATION_OPTION_ASSERTIONS",
+  "assertions": [
+    {
+      "calibration_state": "not_calibrated",
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "engine_class": "control_replay_option_evidence",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke",
+        "non_sumo_domain_engine"
+      ],
+      "option_refs": [
+        "review_packet_360_v2:mobility_control"
+      ]
+    },
+    {
+      "calibration_state": "not_calibrated",
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "engine_class": "control_replay_option_evidence",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke",
+        "non_sumo_domain_engine"
+      ],
+      "option_refs": [
+        "review_packet_360_v2:mobility_control"
+      ]
+    },
+    {
+      "calibration_state": "not_calibrated",
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "engine_class": "control_replay_option_evidence",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke",
+        "non_sumo_domain_engine"
+      ],
+      "option_refs": [
+        "review_packet_360_v2:mobility_control"
+      ]
+    },
+    {
+      "calibration_state": "not_applicable",
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "engine_class": "non_sumo_domain_option_engine",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_applicable",
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "engine_class": "non_sumo_domain_option_engine",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_applicable",
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "engine_class": "non_sumo_domain_option_engine",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_applicable",
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "engine_class": "non_sumo_domain_option_engine",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_applicable",
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "engine_class": "non_sumo_domain_option_engine",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_applicable",
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "engine_class": "non_sumo_domain_option_engine",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_calibrated",
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "engine_class": "SUMO_local_smoke_option_runner",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "non_sumo_rule_based_review_option"
+      ],
+      "option_refs": [
+        "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_calibrated",
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "engine_class": "SUMO_local_smoke_option_runner",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "non_sumo_rule_based_review_option"
+      ],
+      "option_refs": [
+        "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+      ]
+    },
+    {
+      "calibration_state": "not_calibrated",
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "engine_class": "SUMO_local_smoke_option_runner",
+      "forecast_authority": false,
+      "not_equivalent_to": [
+        "non_sumo_rule_based_review_option"
+      ],
+      "option_refs": [
+        "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+      ]
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

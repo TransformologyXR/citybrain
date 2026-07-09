@@ -1,0 +1,7 @@
+{
+  "schema_version": "handoff-json-parse-report.v1",
+  "status": "PASS",
+  "json_files_parsed": 7,
+  "jsonl_files_parsed": 0,
+  "parse_failures": []
+}

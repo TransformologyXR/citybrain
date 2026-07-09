@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_SOURCE_TRUTH_MUTATION_GUARD",
+  "candidate_overlays_only": true,
+  "canonical_truth_mutated": false,
+  "source_records_mutated": false,
+  "source_registry_mutated": false,
+  "status": "PASS"
+}

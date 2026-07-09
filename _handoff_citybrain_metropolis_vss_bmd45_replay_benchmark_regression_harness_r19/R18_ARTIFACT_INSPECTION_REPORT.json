@@ -1,0 +1,54 @@
+{
+  "schema_version": "metropolis-vss-bmd45-replay-benchmark-regression-harness-r19.v1",
+  "status": "PASS",
+  "inspection": {
+    "source_package": "/mnt/data/METROPOLIS_VSS_BMD45_THRESHOLD_CALIBRATION_AND_SAMPLE_EXPANSION_R18_PACKAGE.zip",
+    "verified_by_chatgpt": true,
+    "zip_entries": 39,
+    "zip_integrity": "PASS",
+    "json_parse": {
+      "status": "PASS",
+      "json_files": 20,
+      "jsonl_files": 4,
+      "jsonl_record_counts": {
+        "DATASET_ANNOTATION_SUBSET_R18.jsonl": 56,
+        "DEEPSTREAM_RAW_METADATA_R18.jsonl": 165,
+        "FRAME_COMPARISON_RECORDS_R18.jsonl": 8,
+        "SENSOR_INFERRED_CANDIDATE_OBSERVATIONS_R18.jsonl": 165
+      }
+    },
+    "hash_manifest": {
+      "status": "PASS",
+      "verified": 38,
+      "missing": 0,
+      "mismatches": 0
+    },
+    "final_status": "PASS_METROPOLIS_VSS_BMD45_THRESHOLD_CALIBRATION_AND_SAMPLE_EXPANSION_R18_WITH_LIMITATIONS",
+    "sample_frames": 8,
+    "external_media_refs": 8,
+    "packaged_media_files": 0,
+    "sensor_inferred_candidates": 165,
+    "dataset_annotations": 56,
+    "iou_matches": {
+      "0.25": 24,
+      "0.5": 19,
+      "0.75": 8
+    },
+    "source_classes": {
+      "dataset_annotations": "dataset_annotation",
+      "deepstream_metropolis": "sensor_inferred",
+      "vss": "model_generated_narrative_not_used"
+    },
+    "audits": {
+      "source_class": "PASS",
+      "claim_boundary": "PASS",
+      "no_action": "PASS",
+      "secret": "PASS",
+      "vss_not_fact_source": "PASS"
+    },
+    "environment_note": "pytest 9.1.1 installed in active Python 3.11 environment; not a product dependency claim"
+  },
+  "notes": [
+    "Direct inspection found 39 ZIP entries, 20 JSON files, 4 JSONL files, and HASH_MANIFEST verified 38/38."
+  ]
+}

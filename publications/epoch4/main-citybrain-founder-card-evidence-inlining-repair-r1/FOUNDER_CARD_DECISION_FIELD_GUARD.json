@@ -1,0 +1,12 @@
+{
+  "artifact_id": "FOUNDER_CARD_DECISION_FIELD_GUARD",
+  "bad_card_ids": [],
+  "cards_with_primary_decision": 13,
+  "primary_decision_options": [
+    "watch_this",
+    "ignore_for_now",
+    "need_more_before_deciding"
+  ],
+  "ratings_are_secondary": true,
+  "status": "PASS"
+}

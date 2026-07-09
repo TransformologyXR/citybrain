@@ -1,0 +1,10 @@
+{
+  "artifact_id": "NO_SESSION_NO_FUEL_GUARD",
+  "dispositions_created": false,
+  "founder_review_session_run": false,
+  "operator_or_founder_fuel_created": false,
+  "operator_review_session_run": false,
+  "session_results_created": false,
+  "status": "PASS",
+  "training_eligibility_created": false
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumption_set_id": {
+      "type": "string"
+    },
+    "assumptions": {
+      "type": "array"
+    },
+    "does_not_prove": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "assumption_set_id",
+    "assumptions",
+    "does_not_prove"
+  ],
+  "title": "SimulationAssumptionSet",
+  "type": "object"
+}

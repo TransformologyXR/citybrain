@@ -1,0 +1,20 @@
+{
+  "artifact_id": "FOUNDER_CARD_REPAIR_DECISION",
+  "boilerplate_audit_passed": true,
+  "boundary_guard_passed": true,
+  "card_count": 13,
+  "client_ready": false,
+  "decision_field_guard_passed": true,
+  "external_operator_validation": false,
+  "founder_reviewable_surface_ready_with_limitations": true,
+  "founder_session_result_created": false,
+  "main_path_technical_terms_removed": true,
+  "minimum_card_count_met": true,
+  "next_recommended_task": "FOUNDER_DIAGNOSTIC_REVIEW_CAN_PROCEED_WITH_LIMITATIONS",
+  "operator_fuel": false,
+  "product_review_ready": false,
+  "reading_the_card_is_the_review": true,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_FOUNDER_CARD_EVIDENCE_INLINING_REPAIR_R1_WITH_LIMITATIONS",
+  "training_eligible": false
+}

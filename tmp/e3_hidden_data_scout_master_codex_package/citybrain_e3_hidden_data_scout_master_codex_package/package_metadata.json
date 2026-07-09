@@ -1,0 +1,20 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "expected_status": "PASS_E3_HIDDEN_DATA_SCOUT_MASTER_R1_WITH_LIMITATIONS",
+  "created_at_utc": "2026-07-06T16:42:01Z",
+  "purpose": "Broad hidden data scout for Epoch 3 learning/intelligence dimensions",
+  "non_goals": [
+    "no_models",
+    "no_training",
+    "no_product_surface",
+    "no_training_fuel_promotion"
+  ],
+  "lanes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "TRACK0"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "case_count": 48,
+  "case_type_count": 12,
+  "case_type_counts": {
+    "candidate_only_identity": 4,
+    "contradiction_pair": 4,
+    "negative_no_data": 4,
+    "positive_packet_baseline": 4,
+    "proximity_only_context": 4,
+    "quarantine_invalid_event": 4,
+    "simulation_not_applicable": 4,
+    "source_class_boundary": 4,
+    "source_depth_thin": 4,
+    "spatial_packet_gap": 4,
+    "stale_freshness": 4,
+    "unresolved_entity": 4
+  },
+  "case_types": [
+    "candidate_only_identity",
+    "contradiction_pair",
+    "negative_no_data",
+    "positive_packet_baseline",
+    "proximity_only_context",
+    "quarantine_invalid_event",
+    "simulation_not_applicable",
+    "source_class_boundary",
+    "source_depth_thin",
+    "spatial_packet_gap",
+    "stale_freshness",
+    "unresolved_entity"
+  ],
+  "challenge_class_count": 12,
+  "challenge_class_counts": {
+    "candidate-only": 4,
+    "contradiction": 4,
+    "no-data": 4,
+    "positive": 4,
+    "proximity-only": 4,
+    "quarantine": 4,
+    "simulation-not-applicable": 4,
+    "source-class": 4,
+    "source-depth": 4,
+    "spatial-gap": 4,
+    "stale": 4,
+    "unresolved": 4
+  },
+  "challenge_classes": [
+    "candidate-only",
+    "contradiction",
+    "no-data",
+    "positive",
+    "proximity-only",
+    "quarantine",
+    "simulation-not-applicable",
+    "source-class",
+    "source-depth",
+    "spatial-gap",
+    "stale",
+    "unresolved"
+  ],
+  "expected_check_outcome_counts": {
+    "abstain_no_data": 4,
+    "abstain_unresolved": 4,
+    "candidate_only": 4,
+    "downgrade_contradiction": 4,
+    "downgrade_freshness": 4,
+    "downgrade_proximity_only": 4,
+    "downgrade_source_class": 4,
+    "downgrade_source_depth": 4,
+    "downgrade_spatial_context": 4,
+    "quarantine_invalid": 4,
+    "simulation_not_applicable": 4,
+    "sufficient_for_review": 4
+  },
+  "expected_event_handling_counts": {
+    "local_replay_state_only": 44,
+    "quarantine": 4
+  },
+  "expected_simulation_handling_counts": {
+    "SUMO_smoke_allowed_not_calibrated": 11,
+    "simulation_not_applicable": 37
+  },
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "family_counts": {
+    "building_compliance_perception_candidate": 12,
+    "city_asset_infrastructure_issue": 12,
+    "mobility_access_interruption_v0": 12,
+    "permit_inspection_delay": 12
+  },
+  "no_action_boundary_all": true,
+  "operator_fuel_any": false,
+  "source_class_counts": {
+    "replay": 48
+  },
+  "source_path": "outputs\\main_citybrain_epoch4_eval_corpus_expansion_r2\\EVAL_CASES_R2.jsonl",
+  "source_truth_mutated_any": false,
+  "status": "PASS",
+  "training_eligible_any": false
+}

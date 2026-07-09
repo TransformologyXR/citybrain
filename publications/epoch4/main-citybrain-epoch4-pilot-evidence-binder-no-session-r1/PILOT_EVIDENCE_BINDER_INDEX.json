@@ -1,0 +1,93 @@
+{
+  "artifact_id": "PILOT_EVIDENCE_BINDER_INDEX",
+  "binder_sections": [
+    {
+      "limitation": "review-only with founder sessions still parked",
+      "primary_ref": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/PRODUCT_LOOP_FINAL_REVERIFY_DECISION.json",
+      "section_id": "three_family_product_loop",
+      "status": "available",
+      "title": "Three-family product loop"
+    },
+    {
+      "limitation": "packets are internal review materials, not session results",
+      "primary_ref": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "section_id": "review_packet_360",
+      "status": "available",
+      "title": "Review Packet 360"
+    },
+    {
+      "limitation": "logical replay, not live ingestion",
+      "primary_ref": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/DECISION.json",
+      "section_id": "event_fabric_v2_3",
+      "status": "available",
+      "title": "Event Fabric V2.3 history + DIFF replay"
+    },
+    {
+      "limitation": "deterministic smoke only; not calibrated and not a forecast",
+      "primary_ref": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/DECISION.json",
+      "section_id": "simulation_v2_3",
+      "status": "available",
+      "title": "Simulation V2.3 SUMO smoke"
+    },
+    {
+      "limitation": "client-safe draft; no public deployment claim",
+      "primary_ref": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "section_id": "data_maturity_r2",
+      "status": "available",
+      "title": "Data Maturity Diagnostic Product R2"
+    },
+    {
+      "limitation": "designed-change/source-refresh readiness only",
+      "primary_ref": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/TRACKA_EVENT_STORIES_SOURCE_DIFF_DECISION.json",
+      "section_id": "source_registry_diff_governance",
+      "status": "available",
+      "title": "SourceRegistry V1.1, DIFF fixtures, governance audit"
+    }
+  ],
+  "generated_at": "2026-07-07T16:32:39Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "simulation_v2_3",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_v2_3",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_3_HISTORY_DIFF_REPLAY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_r2",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "brief_governance",
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "no_session": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PILOT-EVIDENCE-BINDER-NO-SESSION-R1",
+  "parked": [
+    "founder_review_sessions",
+    "ui_ux_polish",
+    "live_or_production_ingestion",
+    "official_workflow_adapters",
+    "product_forecast_surface",
+    "learned_ranking_model_training",
+    "case_memory_learner",
+    "cross_city_learned_transfer"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

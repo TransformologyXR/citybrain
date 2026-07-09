@@ -1,0 +1,32 @@
+{
+  "abstain_available": true,
+  "assumptions": [
+    "fixture-only demand",
+    "static access penalty",
+    "no production calibration"
+  ],
+  "baseline": "do_nothing_hold_access_constraint",
+  "best_fixture_delta_option": "option:staggered_access_window",
+  "block_id": "simulation_assumptions",
+  "comparison_status": "PASS_WITH_LIMITATIONS",
+  "event_family": "mobility_access_interruption_v0",
+  "limitations": [
+    "not a forecast",
+    "not dispatch/control",
+    "not calibrated",
+    "fixture-only simulation; not a forecast"
+  ],
+  "recommendation_authority": false,
+  "review_options": [
+    "staggered_access_window",
+    "temporary_detour_guidance"
+  ],
+  "scenario_id": "mobility_access_interruption_review_option_v2",
+  "source_class": "replay",
+  "source_refs": [
+    "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+    "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+    "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

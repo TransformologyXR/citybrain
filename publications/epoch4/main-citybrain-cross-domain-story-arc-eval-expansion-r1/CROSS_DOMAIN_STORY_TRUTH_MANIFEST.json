@@ -1,0 +1,89 @@
+{
+  "all_four_canonical_families_participate": true,
+  "artifact_id": "CROSS_DOMAIN_STORY_TRUTH_MANIFEST",
+  "cadence_final_state_hash": "a85f1f0550375a7b3afed1d46a21c13f98b6cc0d21ca46cbab3d195a1b1d6144",
+  "canonical_family_ids": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "limitations": [
+    "local/replay only",
+    "synthetic and donor-context support only",
+    "not official city truth",
+    "not a product/client readiness claim",
+    "no action, ticket, dispatch, control, enforcement, forecast, training, or fuel"
+  ],
+  "primary_asset_ref": "asset:city:synthetic:utility-node-alpha",
+  "primary_corridor_ref": "corridor:synthetic-dubai-aoi:alpha-access-corridor",
+  "primary_site_entity_ref": "cer:building:alpha",
+  "scope": "bounded local/replay truth-manifested arc",
+  "source_event_ids": [
+    "seed-r3-expanded:permit_inspection_delay:001",
+    "seed-r3-expanded:building_compliance:001",
+    "seed-r3-expanded:mobility_access:001",
+    "seed-r3-expanded:building_compliance:003",
+    "seed-r3-expanded:permit_inspection_delay:003",
+    "seed-r3-expanded:asset_infrastructure:001",
+    "seed-r3-expanded:mobility_access:011",
+    "seed-r3-expanded:asset_infrastructure:016"
+  ],
+  "source_refs": [
+    "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+    "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION.json",
+    "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/MOBILITY_REVIEW_PACKET_360_NATIVE_PACKET.json"
+  ],
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+  "title": "Construction, permit, access, compliance, and asset cascade",
+  "truth_claims": [
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "claim": "The primary site is shared by mobility, building-compliance, and permit/inspection evidence.",
+      "claim_id": "truth-claim-primary-site",
+      "expected_check_behavior": "supported_for_review_with_limitations",
+      "family_ids": [
+        "mobility_access_interruption_v0",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay"
+      ],
+      "supporting_story_event_ids": [
+        "story-step-01-permit-status",
+        "story-step-02-built-environment-site",
+        "story-step-03-mobility-access",
+        "story-step-04-civic-complaint-context",
+        "story-step-05-inspection-delay"
+      ]
+    },
+    {
+      "canonical_entity_ref": "asset:city:synthetic:utility-node-alpha",
+      "claim": "The asset issue is linked as corridor/context evidence and must not be collapsed into the site entity.",
+      "claim_id": "truth-claim-corridor-asset-context",
+      "expected_check_behavior": "contextual_link_with_limitations",
+      "family_ids": [
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption_v0"
+      ],
+      "supporting_story_event_ids": [
+        "story-step-03-mobility-access",
+        "story-step-06-asset-impact"
+      ]
+    },
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "claim": "Weak spatial, freshness, duplicate, or quarantine evidence must downgrade/hold rather than become a finding.",
+      "claim_id": "truth-claim-check-boundary",
+      "expected_check_behavior": "downgrade_or_abstain",
+      "family_ids": [
+        "mobility_access_interruption_v0",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "supporting_story_event_ids": [
+        "story-step-07-check-downgrade",
+        "story-step-08-brief-spatial-review"
+      ]
+    }
+  ]
+}

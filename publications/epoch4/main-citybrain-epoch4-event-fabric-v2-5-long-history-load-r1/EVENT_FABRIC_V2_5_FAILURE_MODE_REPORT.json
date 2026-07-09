@@ -1,0 +1,13 @@
+{
+  "all_required_failure_modes_present": true,
+  "artifact_id": "EVENT_FABRIC_V2_5_FAILURE_MODE_REPORT",
+  "failure_mode_counts": {
+    "changed_state": 96,
+    "duplicate_suppressed": 96,
+    "quarantined_invalid": 96,
+    "stale": 96,
+    "superseded": 96,
+    "unresolved_preserved": 96
+  },
+  "status": "PASS"
+}

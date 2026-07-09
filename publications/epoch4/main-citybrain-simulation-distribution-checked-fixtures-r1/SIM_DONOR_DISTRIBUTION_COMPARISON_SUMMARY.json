@@ -1,0 +1,22 @@
+{
+  "aligned_fixture_count": 1,
+  "artifact_id": "SIM_DONOR_DISTRIBUTION_COMPARISON_SUMMARY",
+  "metric_rows": [
+    {
+      "alignment_label": "donor_distribution_aligned_fixture",
+      "family": "mobility_access_interruption_v0",
+      "fixture_id": "fixture:seed_r3:mobility_access_interruption_v0:event_type_mix:r1",
+      "metric": "category_distribution_l1_distance",
+      "value": 1.155629
+    },
+    {
+      "alignment_label": "not_distribution_checked_due_to_missing_comparable_donor_fields",
+      "family": "permit_inspection_delay",
+      "fixture_id": "fixture:permit_inspection_delay:non_sumo_option_engine:r1",
+      "metric": null,
+      "value": null
+    }
+  ],
+  "parked_fixture_count": 1,
+  "status": "PASS_MAIN_CITYBRAIN_SIMULATION_DISTRIBUTION_CHECKED_FIXTURES_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "dataset_annotation_summary": {
+      "type": "object"
+    },
+    "external_media_ref": {
+      "type": "object"
+    },
+    "frame_replay_id": {
+      "type": "string"
+    },
+    "review_label": {
+      "type": "string"
+    },
+    "sensor_inferred_summary": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "frame_replay_id",
+    "external_media_ref",
+    "dataset_annotation_summary",
+    "sensor_inferred_summary",
+    "review_label"
+  ],
+  "title": "Frame Review Card R20",
+  "type": "object"
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_id": "BOUNDARY_NO_ACTION_AUDIT",
+  "local_replay_review_only": true,
+  "no_action_ticket_case_dispatch_control_enforcement": true,
+  "no_legal_or_certified_finding": true,
+  "no_live_ingestion_or_monitoring": true,
+  "no_public_api_or_production_frontend": true,
+  "status": "PASS"
+}

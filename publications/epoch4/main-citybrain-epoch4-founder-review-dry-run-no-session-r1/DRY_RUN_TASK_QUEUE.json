@@ -1,0 +1,354 @@
+{
+  "artifact_id": "DRY_RUN_TASK_QUEUE",
+  "generated_at": "2026-07-07T18:51:48Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "pre_founder_review_prep",
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_FOUNDER_REVIEW_PREP_NO_SESSION_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_readiness",
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_READINESS_GAP_CLOSURE_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_r1",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_v2",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_readiness_atlas",
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/REVIEW_PACKET_360_V3_EVIDENCE_ATLAS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-REVIEW-DRY-RUN-NO-SESSION-R1",
+  "session_run": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_count": 12,
+  "tasks": [
+    {
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "check_refs": [
+        "check:v1:mobility_access_interruption:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:mobility_access_interruption:atlas",
+        "diff:v2_5:mobility_access_interruption:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_or_control_baseline",
+        "not_calibrated"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-01"
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "check_refs": [
+        "check:v1:mobility_access_interruption:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:mobility_access_interruption:atlas",
+        "diff:v2_5:mobility_access_interruption:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_or_control_baseline",
+        "not_calibrated"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-02"
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "check_refs": [
+        "check:v1:mobility_access_interruption:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:mobility_access_interruption:atlas",
+        "diff:v2_5:mobility_access_interruption:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_or_control_baseline",
+        "not_calibrated"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-03"
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "check_refs": [
+        "check:v1:building_compliance_perception_candidate:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-04"
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "check_refs": [
+        "check:v1:building_compliance_perception_candidate:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-05"
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "check_refs": [
+        "check:v1:building_compliance_perception_candidate:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-06"
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "check_refs": [
+        "check:v1:permit_inspection_delay:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:permit_inspection_delay:atlas",
+        "diff:v2_5:permit_inspection_delay:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-07"
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "check_refs": [
+        "check:v1:permit_inspection_delay:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:permit_inspection_delay:atlas",
+        "diff:v2_5:permit_inspection_delay:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-08"
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "check_refs": [
+        "check:v1:permit_inspection_delay:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:permit_inspection_delay:atlas",
+        "diff:v2_5:permit_inspection_delay:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-09"
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "check_refs": [
+        "check:v1:city_asset_infrastructure_issue:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:city_asset_infrastructure_issue:atlas",
+        "diff:v2_5:city_asset_infrastructure_issue:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "deterministic_sumo_smoke_not_calibrated",
+        "not_calibrated"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-10"
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "check_refs": [
+        "check:v1:city_asset_infrastructure_issue:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:city_asset_infrastructure_issue:atlas",
+        "diff:v2_5:city_asset_infrastructure_issue:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "deterministic_sumo_smoke_not_calibrated",
+        "not_calibrated"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-11"
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "check_refs": [
+        "check:v1:city_asset_infrastructure_issue:stress_eval"
+      ],
+      "disposition_created": false,
+      "evidence_refs": [
+        "source:v1_1:city_asset_infrastructure_issue:atlas",
+        "diff:v2_5:city_asset_infrastructure_issue:long_history"
+      ],
+      "fuel_created": false,
+      "limitations": [
+        "local/replay/review-only",
+        "deterministic_sumo_smoke_not_calibrated",
+        "not_calibrated"
+      ],
+      "no_action_boundary": true,
+      "responses_collected": false,
+      "review_options": [
+        "packet_ready_for_future_human_review",
+        "needs_more_evidence_before_future_session",
+        "keep_candidate_only"
+      ],
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-12"
+    }
+  ]
+}

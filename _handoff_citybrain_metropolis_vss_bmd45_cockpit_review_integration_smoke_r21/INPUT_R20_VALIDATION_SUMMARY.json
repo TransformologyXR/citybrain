@@ -1,0 +1,45 @@
+{
+  "accepted_for_r21": true,
+  "created_at": "2026-07-04T16:40:19Z",
+  "input_status": "PASS_METROPOLIS_VSS_BMD45_HUMAN_REVIEW_BENCHMARK_PACKET_R20_WITH_LIMITATIONS",
+  "input_task": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-HUMAN-REVIEW-BENCHMARK-PACKET-R20",
+  "input_zip": "METROPOLIS_VSS_BMD45_HUMAN_REVIEW_BENCHMARK_PACKET_R20_PACKAGE.zip",
+  "r20_key_results": {
+    "cockpit_fixture_emitted": true,
+    "external_media_refs": 8,
+    "false_positive_review_items": 142,
+    "frame_review_cards": 8,
+    "human_review_packet_emitted": true,
+    "live_cctv_claimed": false,
+    "missed_annotation_review_items": 32,
+    "official_record_created": false,
+    "packaged_media_files": 0,
+    "source_classes": {
+      "dataset_annotations": "dataset_annotation",
+      "deepstream_metropolis": "sensor_inferred",
+      "vss": "model_generated_narrative_not_fact_source"
+    }
+  },
+  "r20_package_checks": {
+    "hash_manifest": {
+      "mismatches": 0,
+      "missing": 0,
+      "problems": [],
+      "status": "PASS",
+      "verified": 0
+    },
+    "json_parse": {
+      "errors": {},
+      "parsed": 16,
+      "status": "PASS"
+    },
+    "jsonl_parse": {
+      "counts": {},
+      "errors": {},
+      "status": "PASS"
+    },
+    "zip_integrity": "PASS"
+  },
+  "r20_validation": "PASS",
+  "schema_version": "r21.input-r20-validation-summary.v1"
+}

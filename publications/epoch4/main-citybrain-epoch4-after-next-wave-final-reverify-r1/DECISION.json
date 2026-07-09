@@ -1,0 +1,19 @@
+{
+  "all_inputs_found": true,
+  "all_inputs_passed": true,
+  "artifact_id": "DECISION",
+  "event_history_diff_replay_verified": true,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T16:32:39Z",
+  "limitations": [
+    "SUMO claim is a deterministic local smoke only, not calibrated or forecast-capable",
+    "Event Fabric V2.3 is history/DIFF replay only, not live ingestion",
+    "Pilot binder is internal and no-session/no-fuel",
+    "UI/UX, founder sessions, product forecasts, learned ranking, and official workflows remain parked"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-AFTER-NEXT-WAVE-FINAL-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "pilot_binder_no_session_verified": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_NEXT_WAVE_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "sumo_real_run_smoke_claim_verified": true
+}

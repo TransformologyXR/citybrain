@@ -1,0 +1,9 @@
+{
+  "artifact_id": "DATA_MATURITY_REMEDIATION_REVERIFY",
+  "maturity_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_ACTIONS_R1_WITH_LIMITATIONS",
+  "new_maturity_score_claimed": false,
+  "original_maturity_score_preserved": 36.1,
+  "queue_count": 5,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,25 @@
+{
+  "actual_story_arc_artifact_root": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1",
+  "actual_story_arc_required_files": [
+    "CROSS_DOMAIN_STORY_ARC_DECISION.json",
+    "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json",
+    "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json",
+    "STORY_ARC_REVIEW_PACKET_360.json",
+    "STORY_ARC_EVAL_EXPANSION_CASES.jsonl"
+  ],
+  "artifact_id": "AI_DIAGNOSTIC_REVIEW_PROVENANCE_CONTRACT",
+  "independent_review_required_fields": {
+    "artifact_availability_confirmed": true,
+    "artifact_zip_name_or_artifact_root_points_to_actual_story_arc_artifacts": true,
+    "independent_artifact_review": true,
+    "review_of_review": false,
+    "reviewer_did_not_rely_only_on_chatgpt_summary_or_review_pack": true
+  },
+  "not_independent_if": [
+    "review_of_review=true",
+    "independent_artifact_review=false",
+    "actual artifacts absent",
+    "review only pressure-tests another review",
+    "reviewer used AI diagnostic review pack instead of story-arc artifact pack"
+  ]
+}

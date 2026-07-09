@@ -1,0 +1,39 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_SEQUENCE_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 522,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_sequence_r1/POST_SUMO_HISTORY_SEQUENCE_DECISION.json",
+      "sha256": "20c10827ab2352c018934ea97eccc236ba0d049d101e334fc9193033240911ac"
+    },
+    {
+      "bytes": 2345,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_sequence_r1/POST_SUMO_HISTORY_SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "fa1bf3c7c7aeb32281e576a06de5136befaa9c22130e4407cb02032ec87a679e"
+    },
+    {
+      "bytes": 614,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_sequence_r1/SUMMARY.md",
+      "sha256": "e744e5128f3f18be0fc375a2a8327329c07f7cbea1cf59032ed54deac98ca3df"
+    },
+    {
+      "bytes": 522,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-sequence-r1/POST_SUMO_HISTORY_SEQUENCE_DECISION.json",
+      "sha256": "20c10827ab2352c018934ea97eccc236ba0d049d101e334fc9193033240911ac"
+    },
+    {
+      "bytes": 2345,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-sequence-r1/POST_SUMO_HISTORY_SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "fa1bf3c7c7aeb32281e576a06de5136befaa9c22130e4407cb02032ec87a679e"
+    },
+    {
+      "bytes": 614,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-sequence-r1/SUMMARY.md",
+      "sha256": "e744e5128f3f18be0fc375a2a8327329c07f7cbea1cf59032ed54deac98ca3df"
+    }
+  ],
+  "entry_count": 6,
+  "generated_at": "2026-07-07T16:50:30Z",
+  "status": "PASS"
+}

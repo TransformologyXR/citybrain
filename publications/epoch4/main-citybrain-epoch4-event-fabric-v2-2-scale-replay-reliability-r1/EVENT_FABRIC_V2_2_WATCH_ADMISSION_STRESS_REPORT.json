@@ -1,0 +1,86 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_WATCH_ADMISSION_STRESS_REPORT",
+  "families": [
+    {
+      "admitted": 6,
+      "cap_policy": "static family cap and review-only admission",
+      "check_refs_attached": [
+        "check:v1:mobility_access_interruption:01",
+        "check:v1:mobility_access_interruption:01",
+        "check:v1:mobility_access_interruption:03",
+        "check:v1:mobility_access_interruption:04",
+        "check:v1:mobility_access_interruption:05",
+        "check:v1:mobility_access_interruption:06",
+        "check:v1:mobility_access_interruption:08",
+        "check:v1:mobility_access_interruption:09",
+        "check:v1:mobility_access_interruption:10"
+      ],
+      "duplicate_suppressed": 1,
+      "family_id": "mobility_access_interruption",
+      "quarantined_rejected": 1,
+      "queue_cap": 6,
+      "unresolved_deferred": 1
+    },
+    {
+      "admitted": 6,
+      "cap_policy": "static family cap and review-only admission",
+      "check_refs_attached": [
+        "check:v1:building_compliance_perception_candidate:01",
+        "check:v1:building_compliance_perception_candidate:01",
+        "check:v1:building_compliance_perception_candidate:03",
+        "check:v1:building_compliance_perception_candidate:04",
+        "check:v1:building_compliance_perception_candidate:05",
+        "check:v1:building_compliance_perception_candidate:06",
+        "check:v1:building_compliance_perception_candidate:08",
+        "check:v1:building_compliance_perception_candidate:09",
+        "check:v1:building_compliance_perception_candidate:10"
+      ],
+      "duplicate_suppressed": 1,
+      "family_id": "building_compliance_perception_candidate",
+      "quarantined_rejected": 1,
+      "queue_cap": 6,
+      "unresolved_deferred": 1
+    },
+    {
+      "admitted": 6,
+      "cap_policy": "static family cap and review-only admission",
+      "check_refs_attached": [
+        "check:v1:permit_inspection_delay:01",
+        "check:v1:permit_inspection_delay:01",
+        "check:v1:permit_inspection_delay:03",
+        "check:v1:permit_inspection_delay:04",
+        "check:v1:permit_inspection_delay:05",
+        "check:v1:permit_inspection_delay:06",
+        "check:v1:permit_inspection_delay:08",
+        "check:v1:permit_inspection_delay:09",
+        "check:v1:permit_inspection_delay:10"
+      ],
+      "duplicate_suppressed": 1,
+      "family_id": "permit_inspection_delay",
+      "quarantined_rejected": 1,
+      "queue_cap": 6,
+      "unresolved_deferred": 1
+    },
+    {
+      "admitted": 6,
+      "cap_policy": "static family cap and review-only admission",
+      "check_refs_attached": [
+        "check:v1:city_asset_infrastructure_issue:01",
+        "check:v1:city_asset_infrastructure_issue:01",
+        "check:v1:city_asset_infrastructure_issue:03",
+        "check:v1:city_asset_infrastructure_issue:04",
+        "check:v1:city_asset_infrastructure_issue:05",
+        "check:v1:city_asset_infrastructure_issue:06",
+        "check:v1:city_asset_infrastructure_issue:08",
+        "check:v1:city_asset_infrastructure_issue:09",
+        "check:v1:city_asset_infrastructure_issue:10"
+      ],
+      "duplicate_suppressed": 1,
+      "family_id": "city_asset_infrastructure_issue",
+      "quarantined_rejected": 1,
+      "queue_cap": 6,
+      "unresolved_deferred": 1
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

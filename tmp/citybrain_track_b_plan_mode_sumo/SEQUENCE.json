@@ -1,0 +1,25 @@
+{
+  "title": "Track B \u2014 Plan Mode / SUMO Forward Dynamics",
+  "sequence": [
+    {
+      "task": "MAIN-CITYBRAIN-D6-PLAN-MODE-SUMO-PREFLIGHT",
+      "goal": "Preflight Plan Mode/SUMO forward-dynamics lane against Track S contract."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-PLAN-MODE-SUMO-SCENARIO-R1",
+      "goal": "Create bounded local/replay SUMO scenario for shared hero corridor."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-PLAN-MODE-OPTION-SET-NORMALIZATION-R2",
+      "goal": "Normalize scenario results into reviewed_option_set contract fixtures."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-PLAN-MODE-RUNTIME-SMOKE-R3",
+      "goal": "Smoke governed state-machine path for Plan Mode using real outputs, not nine LLM gates."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-PLAN-MODE-SUMO-CLOSEOUT",
+      "goal": "Close Plan Mode/SUMO lane and recommend inverse-dynamics only if green."
+    }
+  ]
+}

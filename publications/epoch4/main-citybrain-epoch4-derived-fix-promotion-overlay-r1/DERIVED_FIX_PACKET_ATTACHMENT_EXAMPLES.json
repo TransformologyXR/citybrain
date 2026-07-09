@@ -1,0 +1,71 @@
+{
+  "artifact_id": "DERIVED_FIX_PACKET_ATTACHMENT_EXAMPLES",
+  "example_count": 8,
+  "examples": [
+    {
+      "attachment_example_id": "attachment:09c8655510826e13",
+      "derived_overlay_id": "derived_overlay:107abd2020814b7c",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-01",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:1fdcc88d835e915f",
+      "derived_overlay_id": "derived_overlay:60ee3e2f0201d6ac",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-02",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:d571177673e0f460",
+      "derived_overlay_id": "derived_overlay:fbb74c3aa4879bd8",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-03",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:f65e917f3a5fbebf",
+      "derived_overlay_id": "derived_overlay:b3871caf4eebf5b9",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-04",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:9e46c868e049a48f",
+      "derived_overlay_id": "derived_overlay:c99c60d157480194",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-05",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:a2e33d408f48aa48",
+      "derived_overlay_id": "derived_overlay:a8b1b654f3d8df5d",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-06",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:0adfde72267d7be5",
+      "derived_overlay_id": "derived_overlay:8adcb90589e2e0a2",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-07",
+      "source_truth_mutated": false
+    },
+    {
+      "attachment_example_id": "attachment:d629f1a859d0ddc0",
+      "derived_overlay_id": "derived_overlay:6342261f2824236c",
+      "packet_attachment_scope": "review_packet_metadata_only",
+      "sample_eval_case": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-08",
+      "source_truth_mutated": false
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

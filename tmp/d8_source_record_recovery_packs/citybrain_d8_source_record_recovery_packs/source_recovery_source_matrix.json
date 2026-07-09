@@ -1,0 +1,64 @@
+{
+  "generated_utc": "2026-07-01T21:06:56.436964Z",
+  "purpose": "source record recovery after D8 source-backed UI partial",
+  "lanes": [
+    {
+      "lane": "LONDON_MOBILITY_SOURCE_RECORD_PACK",
+      "priority": 1,
+      "sources": [
+        {
+          "name": "TfL Unified API Roads disruptions",
+          "url": "https://tfl.gov.uk/info-for/open-data-users/api-documentation",
+          "value": "road disruptions/events/planned works for mobility access"
+        },
+        {
+          "name": "London Fire Brigade Incident Records",
+          "url": "https://data.london.gov.uk/dataset/london-fire-brigade-incident-records-em8xy",
+          "value": "incident/service context since 2009"
+        },
+        {
+          "name": "London Air Quality Network API",
+          "url": "https://www.londonair.org.uk/Londonair/API/",
+          "value": "environmental context if needed"
+        }
+      ]
+    },
+    {
+      "lane": "CHICAGO_SIMILAR_CASE_RECORD_PACK",
+      "priority": 2,
+      "sources": [
+        {
+          "name": "Chicago Building Violations",
+          "url": "https://data.cityofchicago.org/Buildings/Building-Violations/22u3-xenr",
+          "value": "building/code violations from 2006-present"
+        },
+        {
+          "name": "Chicago Building Permits",
+          "url": "https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu",
+          "value": "permits from 2006-present"
+        },
+        {
+          "name": "Chicago 311 Service Requests",
+          "url": "https://data.cityofchicago.org/Service-Requests/311-Service-Requests/v6vf-nfxy",
+          "value": "311 requests after new 311 launch"
+        }
+      ]
+    },
+    {
+      "lane": "HELSINKI_SEMANTIC_TWIN_FOR_VISUAL_ENTITY_PICK",
+      "priority": 3,
+      "sources": [
+        {
+          "name": "Helsinki 3D city model HRI",
+          "url": "https://hri.fi/data/en_GB/dataset/helsingin-3d-kaupunkimalli",
+          "value": "semantic city model + reality mesh"
+        },
+        {
+          "name": "Helsinki 3D official page",
+          "url": "https://www.hel.fi/en/decision-making/information-on-helsinki/maps-and-geospatial-data/helsinki-3d",
+          "value": "official digital twin framing and source access"
+        }
+      ]
+    }
+  ]
+}

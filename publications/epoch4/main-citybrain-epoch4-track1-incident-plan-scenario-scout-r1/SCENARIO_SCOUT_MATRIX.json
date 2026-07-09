@@ -1,0 +1,335 @@
+{
+  "artifact_id": "SCENARIO_SCOUT_MATRIX",
+  "families": [
+    {
+      "evidence_path_count": 5,
+      "evidence_paths": [
+        "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+        "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+        "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_REVIEW_PACKET_R1.json",
+        "packages/fixtures/mobility_access/source_record_bundle/source_record_bundle.json",
+        "packages/fixtures/mobility_access/runtime_bundle/scenario_state.json"
+      ],
+      "expansion_role": "proven_control",
+      "family_id": "mobility_access_interruption",
+      "family_name": "Mobility access interruption",
+      "implementation_cost_estimate": "low",
+      "overall_rank": 1,
+      "score_max": 45,
+      "score_percent": 0.978,
+      "score_total": 44,
+      "scores": {
+        "briefability": 5,
+        "cer_seg_readiness": 5,
+        "check_readiness": 5,
+        "demo_value": 4,
+        "event_availability": 5,
+        "evidence_depth": 5,
+        "implementation_cost_score": 5,
+        "simulation_suitability": 5,
+        "spatial_overlay_readiness": 5
+      },
+      "scout_notes": [
+        "Already proven as the narrow Sprint 3 product loop.",
+        "Use as control/reference for acceptance criteria, not as one of the three expansion slots."
+      ]
+    },
+    {
+      "evidence_path_count": 11,
+      "evidence_paths": [
+        "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CER_ENTITY_RESOLUTION_RUN_R1.json",
+        "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CHECK_V1_REPORTS.jsonl",
+        "packages/fixtures/d13_spatial_twin_omniverse_one_truth/runtime_overlay/D13_SPATIAL_ONE_TRUTH_BINDINGS.json",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/ACTION_PROPOSAL_BOUNDARY_AUDIT.json",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/action_proposals/action_proposals.jsonl",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/BOUNDARY_AUDIT.json",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/CANDIDATE_OBSERVATION_EXPORT_AUDIT.json",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/candidate_observations/candidate_observation_event_packets.jsonl",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/candidate_observations/candidate_observations.jsonl",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/CHECK_CLAIMABILITY_AUDIT.json",
+        "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/citybrain_r8_real_perception_runtime_evidence_clip_integration.zip"
+      ],
+      "expansion_rank": 1,
+      "expansion_role": "candidate",
+      "family_id": "building_compliance_perception_candidate",
+      "family_name": "Building compliance / perception candidate",
+      "implementation_cost_estimate": "medium_low",
+      "overall_rank": 2,
+      "score_max": 45,
+      "score_percent": 0.844,
+      "score_total": 38,
+      "scores": {
+        "briefability": 4,
+        "cer_seg_readiness": 5,
+        "check_readiness": 5,
+        "demo_value": 5,
+        "event_availability": 3,
+        "evidence_depth": 4,
+        "implementation_cost_score": 4,
+        "simulation_suitability": 3,
+        "spatial_overlay_readiness": 5
+      },
+      "scout_notes": [
+        "CER already contains building entities, conflicts, candidate-only cases, and proximity-only downgrades.",
+        "Strong spatial/demo value and CHECK coverage; simulation would likely be review-option/lightweight rather than calibrated."
+      ]
+    },
+    {
+      "evidence_path_count": 13,
+      "evidence_paths": [
+        "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CER_ENTITY_RESOLUTION_RUN_R1.json",
+        "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CHECK_V1_CONTRADICTION_FIXTURES.jsonl",
+        "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+        "outputs/a5d1_operator_query/evidence_bundles/q06_permit_search_9b2eb8a4.json",
+        "outputs/a5d1_operator_query/evidence_bundles/q05_permit_search_51d5f593.json",
+        "outputs/a5d1_operator_query/evidence_bundles/q05_permit_search_51d5f593.json",
+        "outputs/a5d1_operator_query/evidence_bundles/q06_permit_search_9b2eb8a4.json",
+        "outputs/a5d2_spark_portability_pack/bundle/data/a5d1_outputs/evidence_bundles/q05_permit_search_51d5f593.json",
+        "outputs/a5d2_spark_portability_pack/bundle/data/a5d1_outputs/evidence_bundles/q06_permit_search_9b2eb8a4.json",
+        "outputs/a5d2_spark_portability_pack/bundle/smoke_outputs/a5d1_clean_run/evidence_bundles/q05_permit_search_51d5f593.json",
+        "outputs/a5d2_spark_portability_pack/bundle/smoke_outputs/a5d1_clean_run/evidence_bundles/q06_permit_search_9b2eb8a4.json",
+        "outputs/a5d4_hardcode_audit/a5d1_gate_after_quarantine/evidence_bundles/q05_permit_search_51d5f593.json",
+        "outputs/a5d4_hardcode_audit/a5d1_gate_after_quarantine/evidence_bundles/q06_permit_search_9b2eb8a4.json"
+      ],
+      "expansion_rank": 2,
+      "expansion_role": "candidate",
+      "family_id": "permit_inspection_delay",
+      "family_name": "Permit / inspection delay",
+      "implementation_cost_estimate": "medium_low",
+      "overall_rank": 3,
+      "score_max": 45,
+      "score_percent": 0.822,
+      "score_total": 37,
+      "scores": {
+        "briefability": 5,
+        "cer_seg_readiness": 4,
+        "check_readiness": 5,
+        "demo_value": 4,
+        "event_availability": 3,
+        "evidence_depth": 5,
+        "implementation_cost_score": 4,
+        "simulation_suitability": 4,
+        "spatial_overlay_readiness": 3
+      },
+      "scout_notes": [
+        "Permit and inspection source records already appear in CER assertions and evidence bundles.",
+        "Good candidate for delay/state transitions and source-depth/freshness CHECK handling."
+      ]
+    },
+    {
+      "evidence_path_count": 11,
+      "evidence_paths": [
+        "packages/fixtures/d13_spatial_twin_omniverse_one_truth/runtime_overlay/D13_SPATIAL_ONE_TRUTH_BINDINGS.json",
+        "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_SPATIAL_OVERLAY_PACKET_V2.json",
+        "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_PLAN_OMNIVERSE_PACKET_R1.json",
+        "outputs/a4d3b_citywide_roundtrip_borough5/component_summary.parquet",
+        "outputs/a4d3b_citywide_roundtrip_borough5/components.parquet",
+        "outputs/a8d2_citywide_map_roundtrip_borough5/component_summary.parquet",
+        "outputs/a8d2_citywide_map_roundtrip_borough5/components.parquet",
+        "outputs/barc_allflows_data_landing_r1/files/sentilo_connecta/component.html",
+        "outputs/barc_d1_deep_source_api_scout/flow_feasibility/BARC_FLOW5_CLIMATE_ASSET_RISK_FEASIBILITY.json",
+        "outputs/barc_d1a_targeted_source_landing_recovery/landed_samples/sentilo_connecta/catalog_component.html",
+        "outputs/barc_d1a_targeted_source_landing_recovery/landed_samples/sentilo_connecta/component_map.html"
+      ],
+      "expansion_rank": 3,
+      "expansion_role": "candidate",
+      "family_id": "city_asset_infrastructure_issue",
+      "family_name": "City asset / infrastructure issue",
+      "implementation_cost_estimate": "medium",
+      "overall_rank": 4,
+      "score_max": 45,
+      "score_percent": 0.778,
+      "score_total": 35,
+      "scores": {
+        "briefability": 4,
+        "cer_seg_readiness": 4,
+        "check_readiness": 4,
+        "demo_value": 5,
+        "event_availability": 3,
+        "evidence_depth": 4,
+        "implementation_cost_score": 3,
+        "simulation_suitability": 3,
+        "spatial_overlay_readiness": 5
+      },
+      "scout_notes": [
+        "Strong spatial overlay and asset demo potential.",
+        "Needs tighter event taxonomy and asset-specific CHECK/source-depth fixtures than permit/building families."
+      ]
+    },
+    {
+      "evidence_path_count": 11,
+      "evidence_paths": [
+        "outputs/barc_allflows_data_landing_r1/profiles/urban_planning_sectors.profile.json",
+        "outputs/barc_allflows_data_landing_r1/profiles/cadastre_buildings.profile.json",
+        "outputs/a5d1_operator_query/evidence_bundles/q02_building_profile_8732bb8f.json",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_age/phase_1/4b0e0ac1-eade-4055-bea3-f07e2a79a7b4_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_age/phase_1/530ea451-2eca-4533-af15-d515a4aa0e1a_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_age/phase_1/557c5d0f-581d-4032-8328-c3f550fa3968_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_age/phase_1/e47c225f-ac68-4806-b028-ed60b21ca1d5_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_area/phase_1/0a0b14a4-3c71-4233-9136-192a6845765a_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_area/phase_1/0de087d9-90d1-4449-ae38-5c543fb4432a_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_area/phase_1/3cdfddf2-4fba-4e85-8e24-49e3d9434609_offset_000000000_limit_050000.parquet",
+        "outputs/barc_allflows_data_landing_r1/data/normalized/cadastre_building_area/phase_1/feb0de4b-6220-4ca3-8783-d638351e2fb4_offset_000000000_limit_050000.parquet"
+      ],
+      "expansion_rank": 4,
+      "expansion_role": "candidate",
+      "family_id": "property_planning_development_impact",
+      "family_name": "Property / planning development impact",
+      "implementation_cost_estimate": "medium_high",
+      "overall_rank": 5,
+      "score_max": 45,
+      "score_percent": 0.689,
+      "score_total": 31,
+      "scores": {
+        "briefability": 5,
+        "cer_seg_readiness": 3,
+        "check_readiness": 4,
+        "demo_value": 4,
+        "event_availability": 2,
+        "evidence_depth": 4,
+        "implementation_cost_score": 2,
+        "simulation_suitability": 3,
+        "spatial_overlay_readiness": 4
+      },
+      "scout_notes": [
+        "Briefability and evidence depth are promising.",
+        "Event availability and implementation cost are weaker because planning impact needs longer-horizon transition framing."
+      ]
+    },
+    {
+      "evidence_path_count": 10,
+      "evidence_paths": [
+        "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CHECK_V1_REPORTS.jsonl",
+        "outputs/barc_f7_d5_civic_sensor_fusion_hero_freeze_package/BARC_F7_D5_HERO_FREEZE_PACKAGE.json",
+        "outputs/barc_d1_deep_source_api_scout/flow_feasibility/BARC_FLOW7_CIVIC_SENSOR_FUSION_FEASIBILITY.json",
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f7_d1d2_civic_sensor_fusion/BARC_F7_D1_READINESS.json",
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f7_d1d2_civic_sensor_fusion/BARC_F7_D2_SOURCE_JOIN_CONTRACT.json",
+        "outputs/barc_f7_d3_civic_sensor_fusion_evidencebundles/BARC_F7_D3_EVIDENCEBUNDLE_CONTRACT.json",
+        "outputs/barc_f7_d3_civic_sensor_fusion_evidencebundles/BARC_F7_D3_EVIDENCEBUNDLES.json",
+        "outputs/barc_f7_d3_civic_sensor_fusion_evidencebundles/BARC_F7_D3_HARNESS_REPORT.json",
+        "outputs/barc_f7_d3_civic_sensor_fusion_evidencebundles/BARC_F7_D3_INPUT_INVENTORY.json",
+        "outputs/barc_f7_d3_civic_sensor_fusion_evidencebundles/BARC_F7_D3_NEXT_D4_HANDOFF.json"
+      ],
+      "expansion_rank": 5,
+      "expansion_role": "candidate",
+      "family_id": "civic_service_sensor_anomaly",
+      "family_name": "Civic service / sensor anomaly",
+      "implementation_cost_estimate": "medium",
+      "overall_rank": 6,
+      "score_max": 45,
+      "score_percent": 0.667,
+      "score_total": 30,
+      "scores": {
+        "briefability": 4,
+        "cer_seg_readiness": 3,
+        "check_readiness": 4,
+        "demo_value": 4,
+        "event_availability": 3,
+        "evidence_depth": 3,
+        "implementation_cost_score": 3,
+        "simulation_suitability": 2,
+        "spatial_overlay_readiness": 4
+      },
+      "scout_notes": [
+        "Sensor/proximity-only CHECK downgrade exists, and civic sensor fusion artifacts exist.",
+        "Needs more event-state and source-depth work before it is a safe three-family loop slot."
+      ]
+    }
+  ],
+  "foundation_status": {
+    "blockers": [],
+    "checks": [
+      {
+        "exists": true,
+        "key": "sprint0_decision",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+        "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS"
+      },
+      {
+        "exists": true,
+        "key": "cer_run",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CER_ENTITY_RESOLUTION_RUN_R1.json",
+        "status": "PASS_WITH_LIMITATIONS"
+      },
+      {
+        "exists": true,
+        "key": "check_report",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CHECK_V1_ENGINE_REPORT.json",
+        "status": "PASS_WITH_LIMITATIONS"
+      },
+      {
+        "exists": true,
+        "key": "event_v2_decision",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_FABRIC_V2_DECISION.json",
+        "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT1_EVENT_FABRIC_V2_PRODUCT_SPINE_WITH_LIMITATIONS"
+      },
+      {
+        "exists": true,
+        "key": "event_state_v2",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+        "status": null
+      },
+      {
+        "exists": true,
+        "key": "simulation_v2_decision",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_V2_DECISION.json",
+        "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT2_SIMULATION_V2_REVIEW_OPTION_ENGINE_WITH_LIMITATIONS"
+      },
+      {
+        "exists": true,
+        "key": "simulation_scenarios_v2",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+        "status": "PASS_WITH_LIMITATIONS"
+      },
+      {
+        "exists": true,
+        "key": "sprint3_scope",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_PLAN_SCOPE_LOCK.json",
+        "status": "PASS"
+      },
+      {
+        "exists": true,
+        "key": "sprint3_packet",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_REVIEW_PACKET_R1.json",
+        "status": null
+      },
+      {
+        "exists": true,
+        "key": "final_reverify",
+        "ok": true,
+        "path": "outputs/main_citybrain_epoch4_large_sprint_final_reverify_r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json",
+        "status": "PASS_MAIN_CITYBRAIN_EPOCH4_LARGE_SPRINT_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+      }
+    ],
+    "status": "PASS"
+  },
+  "generated_at": "2026-07-07T13:45:35Z",
+  "parallel_safe": true,
+  "purpose": "Rank candidate event families for expansion beyond the proven mobility path.",
+  "scoring": {
+    "criteria": [
+      "evidence_depth",
+      "event_availability",
+      "cer_seg_readiness",
+      "check_readiness",
+      "simulation_suitability",
+      "briefability",
+      "spatial_overlay_readiness",
+      "demo_value",
+      "implementation_cost_score"
+    ],
+    "max_score": 45,
+    "scale": "0-5 each; implementation_cost_score is inverted, where 5 means lower cost",
+    "top_3_rule": "Select top three expansion candidates; mobility access interruption is retained as the proven control and excluded from expansion slots."
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

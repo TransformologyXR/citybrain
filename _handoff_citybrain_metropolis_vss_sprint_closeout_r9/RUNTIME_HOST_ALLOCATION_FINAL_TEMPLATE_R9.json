@@ -1,0 +1,44 @@
+{
+  "boundary": {
+    "deepstream_metropolis": "sensor_inferred candidate metadata",
+    "human_review_required": true,
+    "vss": "model_generated_narrative candidate review context only",
+    "vss_is_fact_source": false
+  },
+  "generated_at": "2026-07-04T09:57:19Z",
+  "host_allocation": {
+    "spark-2445": {
+      "model_id": "nim_nvidia_cosmos-reason2-8b_hf-1208",
+      "proven_by": [
+        "R6C provisioning/connectivity PASS as reported",
+        "R7 narration runtime smoke PASS",
+        "R8 evidence join"
+      ],
+      "ready_endpoint": "http://spark-2445:38111/v1/ready",
+      "role": "Spark VSS / LVS / RT-VLM narration runtime",
+      "source_class": "model_generated_narrative"
+    },
+    "txr-3090": {
+      "active_for_this_metropolis_vss_chain": false,
+      "note": "Not used for the R1-R8 Metropolis/VSS media lane.",
+      "role": "data / graph / RAPIDS / heavier analytics"
+    },
+    "txr-4070": {
+      "evidence": {
+        "candidate_events": 1,
+        "candidate_observations": 24,
+        "container": "nvcr.io/nvidia/deepstream:8.0-samples-multiarch",
+        "media_source": "container bundled samples/streams/sample_1080p_h264.mp4",
+        "metadata_export": "gie-kitti-output-dir"
+      },
+      "proven_by": [
+        "R2 object metadata export",
+        "R8 lineage preservation"
+      ],
+      "role": "DeepStream / Metropolis media inference and object metadata export",
+      "source_class": "sensor_inferred"
+    }
+  },
+  "schema_version": "metropolis-vss-sprint-closeout-r9.host-allocation.v1",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+}

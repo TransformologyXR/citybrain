@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain Metropolis/VSS R8 Closeout Decision",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_id",
+    "status",
+    "final_status",
+    "r7_pass",
+    "joined_evidence_bundle_emitted",
+    "human_review_packet_emitted",
+    "candidate_event_mutated",
+    "vss_is_fact_source",
+    "audits"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-evidence-join-r8.v1"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-EVIDENCE-JOIN-R8"
+    },
+    "status": {
+      "type": "string"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "r7_pass": {
+      "type": "boolean"
+    },
+    "joined_evidence_bundle_emitted": {
+      "type": "boolean"
+    },
+    "human_review_packet_emitted": {
+      "type": "boolean"
+    },
+    "candidate_event_mutated": {
+      "const": false
+    },
+    "vss_is_fact_source": {
+      "const": false
+    },
+    "audits": {
+      "type": "object"
+    }
+  }
+}

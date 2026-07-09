@@ -1,0 +1,89 @@
+{
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-OFFLINE-CCTV-DATASET-EXPANSION-R16",
+  "created_at": "2026-07-04T12:55:45Z",
+  "purpose": "Select and gate license-safe offline CCTV/traffic-like data for stronger replay testing without claiming production live CCTV.",
+  "recommendation": {
+    "primary_r16_ingest": "BMD-45 frame-replay lane",
+    "reason": "Best license-clear fixed-CCTV traffic source found: Hugging Face lists license cc-by-4.0 and source imagery is captured from operational Safe City CCTV cameras. It is image/annotation based, not video, so R16 should treat it as frame replay, not prerecorded video.",
+    "secondary_video_candidate": "AI City CityFlowV2 or WTS only after license review",
+    "fallback_not_cctv": "BDD100K/CC0 mirror only if license/source provenance is independently verified and labelled as dashcam/traffic-like, not CCTV."
+  },
+  "candidates": [
+    {
+      "dataset_id": "bmd45_huggingface_iisc_aim",
+      "name": "BMD-45",
+      "source_url": "https://huggingface.co/datasets/iisc-aim/BMD-45",
+      "type": "fixed_CCTV_traffic_images_with_coco_annotations",
+      "license_gate": "PASS_CONDITIONALLY_CC_BY_4_0_ATTRIBUTION_REQUIRED",
+      "license_evidence": "Hugging Face dataset tree lists License: cc-by-4.0.",
+      "technical_fit": "HIGH for CCTV-like fixed-camera vehicle detection and multi-class hardening; MEDIUM for video replay because source is image frames not continuous clips.",
+      "recommended_use": "R16 primary source. Build frame-replay subset, sample 50-200 images, generate media provenance and attribution, optionally make synthetic MP4 from ordered frames only if source ordering supports it.",
+      "do_not_claim": [
+        "live camera",
+        "continuous video",
+        "production CCTV",
+        "official enforcement"
+      ]
+    },
+    {
+      "dataset_id": "aicity_cityflowv2_2022",
+      "name": "AI City Challenge CityFlowV2",
+      "source_url": "https://www.aicitychallenge.org/2022-data-and-evaluation/",
+      "type": "traffic_camera_video_multi_camera",
+      "license_gate": "REQUIRES_LICENSE_REVIEW_BEFORE_USE",
+      "license_evidence": "AI City quick access exists, but historical dataset licenses are limited/revocable challenge licenses; do not assume broad redistribution or commercial/demo rights.",
+      "technical_fit": "VERY_HIGH for offline traffic video replay if license gate passes.",
+      "recommended_use": "Secondary video source after explicit license approval. Use a tiny subset only, package as external media ref unless redistribution rights are clear.",
+      "do_not_claim": [
+        "license-clear until reviewed",
+        "commercial-use safe",
+        "redistributable"
+      ]
+    },
+    {
+      "dataset_id": "virat",
+      "name": "VIRAT Video Dataset",
+      "source_url": "https://viratdata.org/",
+      "type": "surveillance_video",
+      "license_gate": "REQUIRES_SIGNED_USAGE_AGREEMENT_OR_LEGAL_REVIEW",
+      "license_evidence": "VIRAT terms require acceptance/signature by all individuals with dataset access.",
+      "technical_fit": "HIGH for surveillance-style scenes, but license/admin overhead makes it unsuitable as the default R16 source.",
+      "recommended_use": "Park unless agreement is completed.",
+      "do_not_claim": [
+        "open license",
+        "ready for package redistribution"
+      ]
+    },
+    {
+      "dataset_id": "bdd100k",
+      "name": "BDD100K / BDD-derived mirrors",
+      "source_url": "https://docs.voxel51.com/dataset_zoo/datasets/bdd100k.html",
+      "type": "dashcam_driving_video",
+      "license_gate": "SOURCE_AND_LICENSE_MUST_BE_VERIFIED",
+      "license_evidence": "Official resources describe the dataset; some mirrors claim CC0 but mirrors must not override original dataset terms without review.",
+      "technical_fit": "MEDIUM; traffic-like but not fixed CCTV.",
+      "recommended_use": "Fallback only; label as dashcam/traffic-like, not CCTV.",
+      "do_not_claim": [
+        "CCTV",
+        "fixed camera",
+        "license-safe without review"
+      ]
+    },
+    {
+      "dataset_id": "stanford_drone_dataset",
+      "name": "Stanford Drone Dataset",
+      "source_url": "https://cvgl.stanford.edu/projects/uav_data/",
+      "type": "overhead_campus_video",
+      "license_gate": "NON_COMMERCIAL_ONLY_CC_BY_NC_SA_3_0",
+      "license_evidence": "Official page states CC BY-NC-SA 3.0 and non-commercial restrictions.",
+      "technical_fit": "MEDIUM for overhead multi-agent replay; not CCTV and not commercial-demo safe without review.",
+      "recommended_use": "Research-only side candidate; not default.",
+      "do_not_claim": [
+        "commercial-safe",
+        "CCTV"
+      ]
+    }
+  ],
+  "selected_default_for_r16": "bmd45_huggingface_iisc_aim",
+  "acceptance_rule": "R16 may PASS only when at least one dataset source passes license/provenance gate and a bounded replay sample is produced without overclaim."
+}

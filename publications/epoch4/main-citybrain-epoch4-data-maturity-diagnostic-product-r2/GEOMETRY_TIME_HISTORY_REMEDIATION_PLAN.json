@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "action": "fill missing geometry coverage",
+      "claim_boundary": "diagnostic_only",
+      "step": 1
+    },
+    {
+      "action": "record time-validity windows",
+      "claim_boundary": "diagnostic_only",
+      "step": 2
+    },
+    {
+      "action": "separate historic snapshot evidence from current claims",
+      "claim_boundary": "diagnostic_only",
+      "step": 3
+    }
+  ],
+  "artifact_id": "GEOMETRY_TIME_HISTORY_REMEDIATION_PLAN",
+  "not_claimed": [
+    "live remediation",
+    "source mutation",
+    "official certification"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

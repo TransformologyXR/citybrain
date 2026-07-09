@@ -1,0 +1,109 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 659,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/CHECK_DOWNGRADE_REMEDIATION_PLAN.json",
+      "sha256": "76af4e71bb0fbe4ed9c81a50cdd0cdd4ea52d15fa1daaa5ac6a7c51ac881e243"
+    },
+    {
+      "bytes": 340,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/CLIENT_SAFE_DIAGNOSTIC_NARRATIVE_DRAFT.md",
+      "sha256": "62268ab7cf68a4da331947715f3eb3b0baec4d3e5278887678cf0245a6e4010f"
+    },
+    {
+      "bytes": 942,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+      "sha256": "a1f4726ce667b966a08630acaa12dc3aadfbd4b50d02e530cf7f6c3540c8f969"
+    },
+    {
+      "bytes": 792,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.md",
+      "sha256": "5eda349d96f5ef4b00c23fff7ea202cfae49dc3771c3dd287e627288cafb7edc"
+    },
+    {
+      "bytes": 280,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_LIMITATIONS.json",
+      "sha256": "86221c9414daaafc10c2aeb123d569fc9d7854bd6fed7e8126c5a8dffd061918"
+    },
+    {
+      "bytes": 490,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "sha256": "0e39133e99bcd6270352fe8ee350877f44495d93c3b4d5e462ece303dbe2b08e"
+    },
+    {
+      "bytes": 633,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/GEOMETRY_TIME_HISTORY_REMEDIATION_PLAN.json",
+      "sha256": "8a3ff4f8f2a54635c2194417fdd254b604e2845aed37109bcbc93c9088accd8e"
+    },
+    {
+      "bytes": 670,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/IDENTITY_AMBIGUITY_REMEDIATION_PLAN.json",
+      "sha256": "cc3ab60016e02a06fb04ccf8f8fef05040bb2e4e2053ff57a40293877a7f5f43"
+    },
+    {
+      "bytes": 1126,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "27e97688d2993b375bab7a0f054591e4b4a79ffefa87d94b00ecf3becf642c9f"
+    },
+    {
+      "bytes": 674,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/TOP_SOURCE_REMEDIATION_PLAN.json",
+      "sha256": "b2a278cbc06d182df023ae0cbba4f0af5c18b7e252019bf805919135a6d89d35"
+    },
+    {
+      "bytes": 659,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/CHECK_DOWNGRADE_REMEDIATION_PLAN.json",
+      "sha256": "76af4e71bb0fbe4ed9c81a50cdd0cdd4ea52d15fa1daaa5ac6a7c51ac881e243"
+    },
+    {
+      "bytes": 340,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/CLIENT_SAFE_DIAGNOSTIC_NARRATIVE_DRAFT.md",
+      "sha256": "62268ab7cf68a4da331947715f3eb3b0baec4d3e5278887678cf0245a6e4010f"
+    },
+    {
+      "bytes": 942,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+      "sha256": "a1f4726ce667b966a08630acaa12dc3aadfbd4b50d02e530cf7f6c3540c8f969"
+    },
+    {
+      "bytes": 792,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.md",
+      "sha256": "5eda349d96f5ef4b00c23fff7ea202cfae49dc3771c3dd287e627288cafb7edc"
+    },
+    {
+      "bytes": 280,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/DATA_MATURITY_LIMITATIONS.json",
+      "sha256": "86221c9414daaafc10c2aeb123d569fc9d7854bd6fed7e8126c5a8dffd061918"
+    },
+    {
+      "bytes": 490,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/DECISION.json",
+      "sha256": "0e39133e99bcd6270352fe8ee350877f44495d93c3b4d5e462ece303dbe2b08e"
+    },
+    {
+      "bytes": 633,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/GEOMETRY_TIME_HISTORY_REMEDIATION_PLAN.json",
+      "sha256": "8a3ff4f8f2a54635c2194417fdd254b604e2845aed37109bcbc93c9088accd8e"
+    },
+    {
+      "bytes": 670,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/IDENTITY_AMBIGUITY_REMEDIATION_PLAN.json",
+      "sha256": "cc3ab60016e02a06fb04ccf8f8fef05040bb2e4e2053ff57a40293877a7f5f43"
+    },
+    {
+      "bytes": 1126,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "27e97688d2993b375bab7a0f054591e4b4a79ffefa87d94b00ecf3becf642c9f"
+    },
+    {
+      "bytes": 674,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-diagnostic-product-r2/TOP_SOURCE_REMEDIATION_PLAN.json",
+      "sha256": "b2a278cbc06d182df023ae0cbba4f0af5c18b7e252019bf805919135a6d89d35"
+    }
+  ],
+  "entry_count": 20,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "status": "PASS"
+}

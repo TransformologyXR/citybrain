@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-03T23:09:58Z",
+  "json_files_checked": 8,
+  "results": [
+    {
+      "path": "GUARDRAIL_TERMS_R7.json",
+      "status": "PASS"
+    },
+    {
+      "path": "INPUT_R6C_PASS_REPORTED_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "path": "RUNTIME_HOST_ALLOCATION_R7.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_DECISION_R7.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_VSS_NARRATION_AUDIT_R7.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_VSS_NARRATION_RECORD_R7.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_VSS_NARRATION_REQUEST_R7.json",
+      "status": "PASS"
+    },
+    {
+      "path": "STATUS_ENUMS_R7.json",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

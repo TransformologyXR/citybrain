@@ -1,0 +1,17 @@
+{
+  "artifact_id": "DECISION",
+  "family_count": 4,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T15:53:23Z",
+  "limitations": [
+    "stress events are replay fixtures, not production ingestion",
+    "WATCH admission remains review-only and static-policy bounded",
+    "spatial handoff packets do not control live systems",
+    "no official incident or case truth is created"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVENT-FABRIC-V2-2-SCALE-REPLAY-RELIABILITY-R1",
+  "replay_deterministic": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_2_SCALE_REPLAY_RELIABILITY_R1_WITH_LIMITATIONS",
+  "stress_event_count": 40,
+  "watch_and_spatial_reports_exist": true
+}

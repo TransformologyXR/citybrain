@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "audits": {
+      "type": "object"
+    },
+    "cockpit_fixture_emitted": {
+      "type": "boolean"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "r19_input_validation": {
+      "enum": [
+        "PASS",
+        "PARTIAL",
+        "FAIL"
+      ]
+    },
+    "review_packet_emitted": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-HUMAN-REVIEW-BENCHMARK-PACKET-R20"
+    }
+  },
+  "required": [
+    "task_id",
+    "status",
+    "final_status",
+    "r19_input_validation",
+    "review_packet_emitted",
+    "audits"
+  ],
+  "title": "R20 Closeout Decision",
+  "type": "object"
+}

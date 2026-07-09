@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BMD45 Replay Benchmark Config R19",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "benchmark_id",
+    "source_dataset",
+    "external_media_refs",
+    "iou_thresholds",
+    "source_classes"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "benchmark_id": {
+      "type": "string"
+    },
+    "source_dataset": {
+      "type": "string"
+    },
+    "external_media_refs": {
+      "type": "array"
+    },
+    "iou_thresholds": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "source_classes": {
+      "type": "object"
+    }
+  }
+}

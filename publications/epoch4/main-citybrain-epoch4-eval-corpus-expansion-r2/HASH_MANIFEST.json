@@ -1,0 +1,69 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 364,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CASE_FAMILY_BALANCE_REPORT.json",
+      "sha256": "9170f5c77b317fad05500f37ca7747d7909826654c28a9a9abdc5b9e797d0fa8"
+    },
+    {
+      "bytes": 737,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CASE_NEGATIVE_COVERAGE_REPORT.json",
+      "sha256": "746d95ee96bb29c12a84df0b469e0c97df69f408960d33be713d802d45b00da7"
+    },
+    {
+      "bytes": 229,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CASE_SOURCE_COVERAGE_REPORT.json",
+      "sha256": "9a6faba89ab7461a969e32d4ffcc2fead8b1bc4e24f8af4b727e925a8475cb74"
+    },
+    {
+      "bytes": 53336,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CASES_R2.jsonl",
+      "sha256": "0c9e898c92032a698a08c2ee885ba256d4aa4d8b9870c21eefe510e6ce8262fc"
+    },
+    {
+      "bytes": 471,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CORPUS_EXPANSION_R2_DECISION.json",
+      "sha256": "43d563c1cc9f6c23a001a62fadbe13ea1768b11264e7925612c4dfb9b6d3cd2b"
+    },
+    {
+      "bytes": 1921,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CORPUS_R2_INDEX.json",
+      "sha256": "2ad7ff79005a3a48398a2572ce7aaaecab03332f03017025f722b81d1acdd21d"
+    },
+    {
+      "bytes": 364,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-corpus-expansion-r2/EVAL_CASE_FAMILY_BALANCE_REPORT.json",
+      "sha256": "9170f5c77b317fad05500f37ca7747d7909826654c28a9a9abdc5b9e797d0fa8"
+    },
+    {
+      "bytes": 737,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-corpus-expansion-r2/EVAL_CASE_NEGATIVE_COVERAGE_REPORT.json",
+      "sha256": "746d95ee96bb29c12a84df0b469e0c97df69f408960d33be713d802d45b00da7"
+    },
+    {
+      "bytes": 229,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-corpus-expansion-r2/EVAL_CASE_SOURCE_COVERAGE_REPORT.json",
+      "sha256": "9a6faba89ab7461a969e32d4ffcc2fead8b1bc4e24f8af4b727e925a8475cb74"
+    },
+    {
+      "bytes": 53336,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-corpus-expansion-r2/EVAL_CASES_R2.jsonl",
+      "sha256": "0c9e898c92032a698a08c2ee885ba256d4aa4d8b9870c21eefe510e6ce8262fc"
+    },
+    {
+      "bytes": 471,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-corpus-expansion-r2/EVAL_CORPUS_EXPANSION_R2_DECISION.json",
+      "sha256": "43d563c1cc9f6c23a001a62fadbe13ea1768b11264e7925612c4dfb9b6d3cd2b"
+    },
+    {
+      "bytes": 1921,
+      "path": "publications/epoch4/main-citybrain-epoch4-eval-corpus-expansion-r2/EVAL_CORPUS_R2_INDEX.json",
+      "sha256": "2ad7ff79005a3a48398a2572ce7aaaecab03332f03017025f722b81d1acdd21d"
+    }
+  ],
+  "entry_count": 12,
+  "generated_at": "2026-07-07T20:25:01Z",
+  "status": "PASS"
+}

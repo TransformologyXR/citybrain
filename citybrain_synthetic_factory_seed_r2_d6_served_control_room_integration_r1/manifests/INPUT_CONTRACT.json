@@ -1,0 +1,30 @@
+{
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D6-SERVED-CONTROL-ROOM-INTEGRATION-R1",
+  "required_inputs": [
+    {
+      "name": "d5_served_runtime",
+      "path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-SERVED-RUNTIME-INTEGRATION-R1",
+      "required_files": [
+        "D5_SERVED_RUNTIME_INTEGRATION_R1_DECISION.json",
+        "D5_RUNTIME_REQUEST_RESPONSE_SMOKE_R1.jsonl",
+        "D5_RUNTIME_ENDPOINT_AUDIT_R1.json",
+        "RUNTIME_BOUNDARY_AND_NO_ACTION_AUDIT_R1.json"
+      ],
+      "access": "read_only"
+    }
+  ],
+  "optional_inputs": [
+    {
+      "name": "product_consumption",
+      "path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+      "access": "read_only"
+    },
+    {
+      "name": "d5d6_consumption_smoke",
+      "path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-D6-CONSUMPTION-SMOKE-R1",
+      "access": "read_only"
+    }
+  ],
+  "secret_policy": "use environment variables for scanning only; never write values",
+  "network_policy": "no external network calls"
+}

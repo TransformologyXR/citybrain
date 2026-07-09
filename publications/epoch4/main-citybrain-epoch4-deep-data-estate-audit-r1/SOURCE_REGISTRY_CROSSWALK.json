@@ -1,0 +1,1143 @@
+{
+  "artifact_id": "SOURCE_REGISTRY_CROSSWALK",
+  "city_counts": {
+    "barcelona": 186,
+    "chicago": 108,
+    "dubai": 6,
+    "helsinki": 4,
+    "london": 95,
+    "multi": 1,
+    "multi_city": 1,
+    "nyc": 134,
+    "singapore": 48,
+    "unknown": 81
+  },
+  "consuming_flow_source_count": 391,
+  "domain_counts": {
+    "amb_open_data": 2,
+    "base_geography": 10,
+    "bicing_gbfs": 5,
+    "citi_bike": 2,
+    "environment": 70,
+    "existing_london_core": 2,
+    "facilities": 1,
+    "facilities_resources": 3,
+    "general": 196,
+    "health": 3,
+    "iris": 1,
+    "lfb_mobilisation": 5,
+    "logistics": 39,
+    "london_datastore": 1,
+    "mobility": 112,
+    "noise": 1,
+    "open_data_bcn": 14,
+    "open_data_bcn_bicing": 1,
+    "panynj": 1,
+    "perception_media": 9,
+    "planning": 65,
+    "public_safety_events": 31,
+    "spatial_base": 26,
+    "tmb": 3,
+    "utilities": 61
+  },
+  "freshness_counts": {
+    "current_or_active": 20,
+    "dated_snapshot": 12,
+    "fresh_recent_snapshot": 136,
+    "stale": 34,
+    "unknown": 462
+  },
+  "gap_counts": {
+    "missing_or_unknown_geometry": 526,
+    "no_consuming_flow": 273,
+    "unknown_freshness": 462,
+    "unknown_schema": 456,
+    "unknown_source_class": 430
+  },
+  "generated_at": "2026-07-08T09:24:24Z",
+  "geometry_counts": {
+    "indirect_location_only": 14,
+    "missing_or_unknown": 526,
+    "present": 124
+  },
+  "interpretation": [
+    "SourceRegistry coverage is broad enough to power CHECK/CER/Event Fabric diagnostics.",
+    "Unknown freshness, source class, schema, geometry, and no-consuming-flow remain material findings."
+  ],
+  "registry_ref": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json",
+  "sample_sources": [
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "unknown",
+      "domain": "planning",
+      "evidence_refs": [
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f2_d1d2_planning_construction_compliance/BARC_F2_D2_SOURCE_JOIN_CONTRACT.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify from dataset metadata",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "Ajuntament de Barcelona",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:activity_and_business_licences",
+      "source_name": "Activity and business licences",
+      "source_registry_v1_ref": "source:barcelona:activity_and_business_licences",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "API_PROBED",
+      "domain": "open_data_bcn",
+      "evidence_refs": [
+        "outputs/barc_d1_deep_source_api_scout/BARC_D1_SOURCE_INVENTORY.json",
+        "outputs/barc_d1_deep_source_api_scout/reports/probe_matrix.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: API_PROBED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify from dataset metadata",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "Ajuntament de Barcelona",
+      "schema_status": "unknown",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:activity_business_licences",
+      "source_name": "Activity and business licences",
+      "source_registry_v1_ref": "source:barcelona:activity_business_licences",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [
+        "flow:F2",
+        "flow:F3",
+        "flow:F5",
+        "use:Address identity join support for parcels/facilities/events."
+      ],
+      "consuming_modes": [
+        "event"
+      ],
+      "coverage_status": "CAP_PARTIAL",
+      "domain": "utilities",
+      "evidence_refs": [
+        "outputs/barc_7flow_source_shape_scan/BARC_7FLOW_SOURCE_SHAPE_SCAN.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F2/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F3/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_SOURCE_LEDGER_FINAL.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_PHASE_MANIFEST.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_SOURCE_LEDGER.json",
+        "outputs/barc_allflows_data_landing_r1/manifests/address_table.manifest.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F2/source_inputs.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F3/source_inputs.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F5/source_inputs.json"
+      ],
+      "freshness_status": "fresh_recent_snapshot",
+      "geometry_status": "present",
+      "known_limitations": [
+        "Address-layer privacy/licence review before any person-level use.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: CAP_PARTIAL",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "2026-06-28T16:51:16Z",
+      "license_status": "unknown",
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:address_table",
+      "source_name": "Elemental postal addresses",
+      "source_registry_v1_ref": "source:barcelona:address_table",
+      "time_coverage_end": "2026-06-28T16:51:16Z",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [
+        "flow:F1",
+        "flow:F4",
+        "flow:F7",
+        "use:Hourly/day pollutant readings by station and pollutant."
+      ],
+      "consuming_modes": [],
+      "coverage_status": "WINDOWED_COMPLETE",
+      "domain": "general",
+      "evidence_refs": [
+        "outputs/barc_7flow_source_shape_scan/BARC_7FLOW_SOURCE_SHAPE_SCAN.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F1/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F4/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F7/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_SOURCE_LEDGER_FINAL.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_PHASE_MANIFEST.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_SOURCE_LEDGER.json",
+        "outputs/barc_allflows_data_landing_r1/manifests/air_quality_detail.manifest.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F1/source_inputs.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F4/source_inputs.json"
+      ],
+      "freshness_status": "fresh_recent_snapshot",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "Context evidence only; no operational recommendation.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: WINDOWED_COMPLETE",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "2026-06-28T16:48:40Z",
+      "license_status": "unknown",
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:air_quality_detail",
+      "source_name": "Air quality measurements from monitoring stations",
+      "source_registry_v1_ref": "source:barcelona:air_quality_detail",
+      "time_coverage_end": "2026-06-28T16:48:40Z",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "API_PROBED",
+      "domain": "open_data_bcn",
+      "evidence_refs": [
+        "outputs/barc_d1_deep_source_api_scout/BARC_D1_SOURCE_INVENTORY.json",
+        "outputs/barc_d1_deep_source_api_scout/reports/probe_matrix.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: API_PROBED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify from dataset metadata",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "Ajuntament de Barcelona",
+      "schema_status": "unknown",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:air_quality_observations",
+      "source_name": "Air quality measurements",
+      "source_registry_v1_ref": "source:barcelona:air_quality_observations",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [
+        "flow:F1",
+        "flow:F4",
+        "flow:F7",
+        "use:Pollutant metadata and station coverage."
+      ],
+      "consuming_modes": [],
+      "coverage_status": "FULL_COMPLETE",
+      "domain": "general",
+      "evidence_refs": [
+        "outputs/barc_7flow_source_shape_scan/BARC_7FLOW_SOURCE_SHAPE_SCAN.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F1/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F7/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_SOURCE_LEDGER_FINAL.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_PHASE_MANIFEST.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_SOURCE_LEDGER.json",
+        "outputs/barc_allflows_data_landing_r1/manifests/air_quality_pollutants.manifest.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F1/source_inputs.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F4/source_inputs.json"
+      ],
+      "freshness_status": "fresh_recent_snapshot",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "Context evidence only; no operational recommendation.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: FULL_COMPLETE",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "2026-06-28T16:58:10Z",
+      "license_status": "unknown",
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:air_quality_pollutants",
+      "source_name": "Measured pollutants by station",
+      "source_registry_v1_ref": "source:barcelona:air_quality_pollutants",
+      "time_coverage_end": "2026-06-28T16:58:10Z",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [
+        "flow:F1",
+        "flow:F4",
+        "flow:F7",
+        "use:Station locations and station-to-district/neighbourhood joins."
+      ],
+      "consuming_modes": [],
+      "coverage_status": "WINDOWED_COMPLETE",
+      "domain": "general",
+      "evidence_refs": [
+        "outputs/barc_7flow_source_shape_scan/BARC_7FLOW_SOURCE_SHAPE_SCAN.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F1/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F4/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F7/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_SOURCE_LEDGER_FINAL.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_PHASE_MANIFEST.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_SOURCE_LEDGER.json",
+        "outputs/barc_allflows_data_landing_r1/manifests/air_quality_stations.manifest.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F1/source_inputs.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F4/source_inputs.json"
+      ],
+      "freshness_status": "fresh_recent_snapshot",
+      "geometry_status": "present",
+      "known_limitations": [
+        "Context evidence only; no operational recommendation.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: WINDOWED_COMPLETE",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "2026-06-28T16:48:47Z",
+      "license_status": "unknown",
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:air_quality_stations",
+      "source_name": "Air quality station inventory",
+      "source_registry_v1_ref": "source:barcelona:air_quality_stations",
+      "time_coverage_end": "2026-06-28T16:48:47Z",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "unknown",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "environment",
+      "evidence_refs": [
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f1_d1d2_situational_status/BARC_F1_D2_SOURCE_JOIN_CONTRACT.json",
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f4_d1d2_mobility_crowd_transport_environment/BARC_F4_D2_SOURCE_JOIN_CONTRACT.json",
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f7_d1d2_civic_sensor_fusion/BARC_F7_D2_SOURCE_JOIN_CONTRACT.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "mixed official/public sources",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:air_quality_stations_and_measurements",
+      "source_name": "Air quality stations and measurements",
+      "source_registry_v1_ref": "source:barcelona:air_quality_stations_and_measurements",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "API_PROBED",
+      "domain": "amb_open_data",
+      "evidence_refs": [
+        "outputs/barc_d1_deep_source_api_scout/BARC_D1_SOURCE_INVENTORY.json",
+        "outputs/barc_d1_deep_source_api_scout/reports/probe_matrix.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "Public page may use anti-bot protection; exact GTFS-RT feed URL remains a D2 verification item.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: API_PROBED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "AMB open data terms to verify",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "Area Metropolitana de Barcelona",
+      "schema_status": "unknown",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:amb_gtfs_realtime_bus",
+      "source_name": "AMB GTFS realtime bus service candidate",
+      "source_registry_v1_ref": "source:barcelona:amb_gtfs_realtime_bus",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [
+        "flow:F3",
+        "flow:F4",
+        "use:Metropolitan bus real-time boundary outside TMB."
+      ],
+      "consuming_modes": [],
+      "coverage_status": "BLOCKED_REMOTE",
+      "domain": "spatial_base",
+      "evidence_refs": [
+        "outputs/barc_7flow_source_shape_scan/BARC_7FLOW_SOURCE_SHAPE_SCAN.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F3/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_FLOW_BUNDLES/F4/source_inputs.json",
+        "outputs/barc_allflows_consumption_prep_r1/BARC_SOURCE_LEDGER_FINAL.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_PHASE_MANIFEST.json",
+        "outputs/barc_allflows_data_landing_r1/BARC_ALLFLOWS_SOURCE_LEDGER.json",
+        "outputs/barc_allflows_data_landing_r1/manifests/amb_gtfs_rt.manifest.json",
+        "outputs/barc_f1f6_flow_acceptance_closeout_r1/flow_bundles/F4/source_inputs.json"
+      ],
+      "freshness_status": "fresh_recent_snapshot",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "Context evidence only; no operational recommendation.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: BLOCKED_REMOTE",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "2026-06-28T17:08:39Z",
+      "license_status": "unknown",
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:amb_gtfs_rt",
+      "source_name": "AMB GTFS-RT bus endpoint and metadata",
+      "source_registry_v1_ref": "source:barcelona:amb_gtfs_rt",
+      "time_coverage_end": "2026-06-28T17:08:39Z",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "unknown",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "unknown",
+      "domain": "mobility",
+      "evidence_refs": [
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f3_d1d2_incident_response_affected_context/BARC_F3_D2_SOURCE_JOIN_CONTRACT.json",
+        "outputs/barc_expansion_d1d2_all_flows/flows/barc_f4_d1d2_mobility_crowd_transport_environment/BARC_F4_D2_SOURCE_JOIN_CONTRACT.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "AMB open data terms to verify",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "mixed official/public sources",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:amb_gtfs_rt_endpoint_confirmation",
+      "source_name": "AMB GTFS-RT endpoint confirmation",
+      "source_registry_v1_ref": "source:barcelona:amb_gtfs_rt_endpoint_confirmation",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "API_PROBED",
+      "domain": "amb_open_data",
+      "evidence_refs": [
+        "outputs/barc_d1_deep_source_api_scout/BARC_D1_SOURCE_INVENTORY.json",
+        "outputs/barc_d1_deep_source_api_scout/reports/probe_matrix.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: API_PROBED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "AMB open data terms to verify",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "Area Metropolitana de Barcelona",
+      "schema_status": "unknown",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:amb_open_data_help",
+      "source_name": "AMB open data documentation",
+      "source_registry_v1_ref": "source:barcelona:amb_open_data_help",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "unknown",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [],
+      "coverage_status": "unknown",
+      "domain": "utilities",
+      "evidence_refs": [
+        "outputs/main_platform_event_fabric_d1/EVENT_FABRIC_MANIFEST.json",
+        "outputs/main_platform_event_fabric_d1/EVENT_SOURCE_REGISTRY.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "Air quality observations support context only and do not make health conclusions.",
+        "Observation values retain native source units and quality flags.",
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "unknown",
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:barc_air_quality_detail",
+      "source_name": "barc_air_quality_detail",
+      "source_registry_v1_ref": "source:barcelona:barc_air_quality_detail",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "DOWNLOAD_FAILED",
+      "domain": "environment",
+      "evidence_refs": [
+        "outputs/barc_f7_d5_civic_sensor_fusion_hero_freeze_package/BARC_F7_D5_SOURCE_LIMITATION_REPORT.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: DOWNLOAD_FAILED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "sensor_inferred",
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_2",
+      "source_name": "barc_air_quality_qualitat-aire-detall-bcn_2",
+      "source_registry_v1_ref": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_2",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "DOWNLOAD_FAILED",
+      "domain": "environment",
+      "evidence_refs": [
+        "outputs/barc_f7_d5_civic_sensor_fusion_hero_freeze_package/BARC_F7_D5_SOURCE_LIMITATION_REPORT.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: DOWNLOAD_FAILED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "sensor_inferred",
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_3",
+      "source_name": "barc_air_quality_qualitat-aire-detall-bcn_3",
+      "source_registry_v1_ref": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_3",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "DOWNLOAD_FAILED",
+      "domain": "environment",
+      "evidence_refs": [
+        "outputs/barc_f7_d5_civic_sensor_fusion_hero_freeze_package/BARC_F7_D5_SOURCE_LIMITATION_REPORT.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: DOWNLOAD_FAILED",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "sensor_inferred",
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_estacions_bcn_1",
+      "source_name": "barc_air_quality_qualitat-aire-estacions-bcn_1",
+      "source_registry_v1_ref": "source:barcelona:barc_air_quality_qualitat_aire_estacions_bcn_1",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "mobility",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "AMB open data terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_gtfs_search_candidate",
+      "source_name": "barc_amb_gtfs_rt_amb_gtfs_search_candidate",
+      "source_registry_v1_ref": "source:barcelona:barc_amb_gtfs_rt_amb_gtfs_search_candidate",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "mobility",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "AMB open data terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_mobility_open_data_page",
+      "source_name": "barc_amb_gtfs_rt_amb_mobility_open_data_page",
+      "source_registry_v1_ref": "source:barcelona:barc_amb_gtfs_rt_amb_mobility_open_data_page",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "mobility",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "AMB open data terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_open_data_help",
+      "source_name": "barc_amb_gtfs_rt_amb_open_data_help",
+      "source_registry_v1_ref": "source:barcelona:barc_amb_gtfs_rt_amb_open_data_help",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "bicing_gbfs",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "GBFS/public terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:barc_bicing_gbfs_gbfs_json",
+      "source_name": "barc_bicing_gbfs_gbfs.json",
+      "source_registry_v1_ref": "source:barcelona:barc_bicing_gbfs_gbfs_json",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "bicing_gbfs",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "present",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "GBFS/public terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:barc_bicing_gbfs_station_information",
+      "source_name": "barc_bicing_gbfs_station_information",
+      "source_registry_v1_ref": "source:barcelona:barc_bicing_gbfs_station_information",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "bicing_gbfs",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "GBFS/public terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:barc_bicing_gbfs_station_status",
+      "source_name": "barc_bicing_gbfs_station_status",
+      "source_registry_v1_ref": "source:barcelona:barc_bicing_gbfs_station_status",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "bicing_gbfs",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "GBFS/public terms to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "present",
+      "source_class": "unknown_or_unclassified",
+      "source_id": "source:barcelona:barc_bicing_gbfs_system_information",
+      "source_name": "barc_bicing_gbfs_system_information",
+      "source_registry_v1_ref": "source:barcelona:barc_bicing_gbfs_system_information",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "spatial_base",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_1",
+      "source_name": "barc_boundaries_limits-municipals-districtes_1",
+      "source_registry_v1_ref": "source:barcelona:barc_boundaries_limits_municipals_districtes_1",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    },
+    {
+      "access_status": "open_public_or_documented",
+      "city": "barcelona",
+      "consuming_flows": [],
+      "consuming_modes": [
+        "review"
+      ],
+      "coverage_status": "unknown",
+      "domain": "spatial_base",
+      "evidence_refs": [
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_DOWNLOAD_MANIFEST.json",
+        "outputs/xdata_d1_four_city_bulk_source_landing/BARC_XDATA_D1_SOURCE_PLAN.json",
+        "outputs/xdata_d2_four_city_bulk_landing_reconciliation/XDATA_D2_SOURCE_STATUS_NORMALIZATION.json",
+        "outputs/xdata_d2_r1_four_city_bulk_landing_reconciliation_refresh/XDATA_D2_R1_SOURCE_STATUS_NORMALIZATION.json"
+      ],
+      "freshness_status": "unknown",
+      "geometry_status": "missing_or_unknown",
+      "known_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ],
+      "last_seen_or_landed_at": "unknown",
+      "license_status": "Open Data BCN licence to verify",
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "owner_or_steward": "unknown",
+      "schema_status": "unknown",
+      "source_class": "official_record",
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_2",
+      "source_name": "barc_boundaries_limits-municipals-districtes_2",
+      "source_registry_v1_ref": "source:barcelona:barc_boundaries_limits_municipals_districtes_2",
+      "time_coverage_end": "unknown",
+      "time_coverage_start": "unknown"
+    }
+  ],
+  "schema_counts": {
+    "metadata_only": 5,
+    "present": 203,
+    "unknown": 456
+  },
+  "schema_version": "citybrain.source_registry.v1_1",
+  "source_class_counts": {
+    "dataset_annotation": 3,
+    "derived": 1,
+    "derived_field": 1,
+    "media_evidence": 1,
+    "model_generated_narrative_not_fact_source": 5,
+    "official_record": 115,
+    "replay": 39,
+    "replay_source_record": 3,
+    "sensor_inferred": 40,
+    "source_record": 23,
+    "synthetic": 3,
+    "unknown_or_unclassified": 430
+  },
+  "source_count": 664,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,41 @@
+{
+  "artifact_id": "PRODUCT_LOOP_EVAL_COVERAGE_AUDIT",
+  "challenge_class_counts": {
+    "candidate-only": 4,
+    "contradiction": 4,
+    "no-data": 4,
+    "positive": 4,
+    "proximity-only": 4,
+    "quarantine": 4,
+    "simulation-not-applicable": 4,
+    "source-class": 4,
+    "source-depth": 4,
+    "spatial-gap": 4,
+    "stale": 4,
+    "unresolved": 4
+  },
+  "challenge_negative_suite_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_R1_WITH_LIMITATIONS",
+  "coverage_interpretation": [
+    "48 local/replay eval cases are present with expected CHECK/event/simulation outcomes.",
+    "32 challenge/negative guard cases are present as a separate suite.",
+    "Representativeness is regression/diagnostic support, not product readiness by itself."
+  ],
+  "eval_case_count": 48,
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "generated_at": "2026-07-08T09:24:28Z",
+  "operator_fuel_any": false,
+  "separate_challenge_negative_suite_count": 32,
+  "source_class_counts": {
+    "replay": 48
+  },
+  "source_truth_mutated_any": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "target_min_cases": 48,
+  "training_eligible_any": false
+}

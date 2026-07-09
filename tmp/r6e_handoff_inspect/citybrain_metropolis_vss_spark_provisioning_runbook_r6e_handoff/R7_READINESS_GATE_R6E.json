@@ -1,0 +1,14 @@
+{
+  "r7_ready": false,
+  "blocked_reason": "Spark VSS endpoint or command has not passed connectivity probe",
+  "required_to_open_r7": [
+    "spark_vss_runtime_configured=true",
+    "probe_attempted=true",
+    "probe_executed=true",
+    "probe_status=SUCCESS",
+    "secret_audit=PASS",
+    "source_class_separation=PASS",
+    "claim_boundary=PASS",
+    "no_action=PASS"
+  ]
+}

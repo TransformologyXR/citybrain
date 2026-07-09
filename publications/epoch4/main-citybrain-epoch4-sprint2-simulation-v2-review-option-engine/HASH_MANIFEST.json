@@ -1,0 +1,159 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "SPRINT2_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 271,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_ASSUMPTION_LEDGER_V2.json",
+      "sha256": "742272f99a71c373801806a999e9e2ecfa5397a34a012d31c25e4545e6a80cfc"
+    },
+    {
+      "bytes": 247,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_BACKTEST_REPORT_SHELL_V2.json",
+      "sha256": "29f8fb3b1d5689083dc482999625f3413be25d3a0877d7a2e9da297ef745967b"
+    },
+    {
+      "bytes": 377,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_BASELINE_RESULT_V2.json",
+      "sha256": "00c8508973e05b21c29a340c50937b1d2237f8c0a29b4ca6381ece87c65a427b"
+    },
+    {
+      "bytes": 313,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_BRIEF_ATTACHMENT_V2.json",
+      "sha256": "c8950e3e69859b19757de1330e2de7a83edecbbfd4b3d12acda766a375e21f4a"
+    },
+    {
+      "bytes": 226,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_CHECK_V1_ATTACHMENTS.jsonl",
+      "sha256": "5a0b4085716c31c58988a145712dde7a0e2744cee916038f0d2303d6184be16c"
+    },
+    {
+      "bytes": 297,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_EVENT_STATE_INPUT_BRIDGE.json",
+      "sha256": "d4cc45cba80aa114d3d1c221a165abd6e9d05a6cd2ca95d439cc4e4e00365056"
+    },
+    {
+      "bytes": 268,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_FIDELITY_SCORECARD_V2.json",
+      "sha256": "c06fa257caf39f9541481cfae574c3e048749167303e762a4f36a2f626199d71"
+    },
+    {
+      "bytes": 410,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+      "sha256": "bc4a653bde721f130f40989c0a5cf31f8e9a613e3cb04735794e48a37f11ed3e"
+    },
+    {
+      "bytes": 662,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_REVIEW_OPTION_RESULTS_V2.jsonl",
+      "sha256": "2b31a719f2e20266ddd0488d81998189872334a8ee4a0f11cc6fd33a99150db5"
+    },
+    {
+      "bytes": 316,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_RUNNER_SMOKE_REPORT.json",
+      "sha256": "f6b4ee6ea60b485ef7b7c22cfccdbae1b1c4c34e46fc929319056a22c92aa4ed"
+    },
+    {
+      "bytes": 877,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+      "sha256": "961e206d8ed6ce419d012e1ae0ad6c3eec235f04f451994073085a07ad747f81"
+    },
+    {
+      "bytes": 250,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_UNCERTAINTY_BANDS_V2.json",
+      "sha256": "23834174a10e30b33136d22a99abf86dae0cd7504ed5d13df91961c4f87a6534"
+    },
+    {
+      "bytes": 634,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_V2_DECISION.json",
+      "sha256": "527213e7378f1d0b5924e8a0f4cb861f349f4f728d06ea62f10c81621dc71a5c"
+    },
+    {
+      "bytes": 436,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_V2_DELTA_PLAN.json",
+      "sha256": "87dc2e5a5c32e60c2028ae27f106656b1dd78ecbfe42a37e3ea341c0cfe68a45"
+    },
+    {
+      "bytes": 275,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_V2_PRODUCT_ROUTE.md",
+      "sha256": "15dcff0c31b68d89d5fa0af485629ed1f2f2c53cf0852821a7b45331cbf1d0a1"
+    },
+    {
+      "bytes": 1202,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_V2_R1_INTAKE_REPORT.json",
+      "sha256": "4651cc38bc33f0f7249c3746cabeb94a753911aab50ed2f29f2220603af1ef8e"
+    },
+    {
+      "bytes": 684,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATOR_CONNECTOR_REGISTRY_V2.json",
+      "sha256": "abf5c7e97f60d88a9f1996d3824b2538b4bf536c6299336525a4fcce973ca84a"
+    },
+    {
+      "bytes": 146,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/TEST_LOG.txt",
+      "sha256": "392ed5ebe90859ca6c79c6cf6860120bffe5baeb4622d020c1365522770c1047"
+    },
+    {
+      "bytes": 410,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+      "sha256": "bc4a653bde721f130f40989c0a5cf31f8e9a613e3cb04735794e48a37f11ed3e"
+    },
+    {
+      "bytes": 877,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+      "sha256": "961e206d8ed6ce419d012e1ae0ad6c3eec235f04f451994073085a07ad747f81"
+    },
+    {
+      "bytes": 634,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_V2_DECISION.json",
+      "sha256": "527213e7378f1d0b5924e8a0f4cb861f349f4f728d06ea62f10c81621dc71a5c"
+    },
+    {
+      "bytes": 436,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_V2_DELTA_PLAN.json",
+      "sha256": "87dc2e5a5c32e60c2028ae27f106656b1dd78ecbfe42a37e3ea341c0cfe68a45"
+    },
+    {
+      "bytes": 275,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_V2_PRODUCT_ROUTE.md",
+      "sha256": "15dcff0c31b68d89d5fa0af485629ed1f2f2c53cf0852821a7b45331cbf1d0a1"
+    },
+    {
+      "bytes": 1202,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_V2_R1_INTAKE_REPORT.json",
+      "sha256": "4651cc38bc33f0f7249c3746cabeb94a753911aab50ed2f29f2220603af1ef8e"
+    },
+    {
+      "bytes": 146,
+      "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/TEST_LOG.txt",
+      "sha256": "392ed5ebe90859ca6c79c6cf6860120bffe5baeb4622d020c1365522770c1047"
+    },
+    {
+      "bytes": 521,
+      "path": "contracts/simulation_v2/fidelity_scorecard_v2.schema.json",
+      "sha256": "5fc0eb825b472160eb05c6a5ec370799caaa3fddb29ec594730d9e8db4220a07"
+    },
+    {
+      "bytes": 636,
+      "path": "contracts/simulation_v2/review_option_result_v2.schema.json",
+      "sha256": "8c86fece8acd9984f3d3d09befe0ffefc4d7f70d708aa39bd48da192b8231949"
+    },
+    {
+      "bytes": 787,
+      "path": "contracts/simulation_v2/scenario_v2.schema.json",
+      "sha256": "beaaa34bcd8bcc425baebbf61feede0ffb10477a77dd1d4960f4fececfc84bd6"
+    },
+    {
+      "bytes": 767,
+      "path": "contracts/simulation_v2/simulation_run_v2.schema.json",
+      "sha256": "b6ef8817e77cd68d3374154e96313ce99b67fa2ab061667246d586909c2d1938"
+    }
+  ],
+  "entry_count": 29,
+  "generated_at": "2026-07-07T12:38:35Z",
+  "included_roots": [
+    "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine",
+    "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine",
+    "contracts/simulation_v2"
+  ],
+  "status": "PASS"
+}

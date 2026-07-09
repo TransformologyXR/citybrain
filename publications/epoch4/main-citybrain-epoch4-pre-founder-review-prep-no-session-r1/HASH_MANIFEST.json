@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_PRE_FOUNDER_REVIEW_PREP_NO_SESSION_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 515,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/DECISION.json",
+      "sha256": "ce6eb74ad502847e964d552d363e6c2513c2973103157adcac5883d568ac97cf"
+    },
+    {
+      "bytes": 296,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/FOUNDER_REVIEW_FEEDBACK_FORM_R1.md",
+      "sha256": "50636406d6cfa6a121ae53e119ee21402ed4c29d5812a5c90d7a0bcbaa3d1509"
+    },
+    {
+      "bytes": 326,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/FOUNDER_REVIEW_LIMITATIONS.json",
+      "sha256": "5bc21ff6e8957660843a156d152b929fe8624b197bfc4402edd84df2f1365f96"
+    },
+    {
+      "bytes": 307,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/FOUNDER_REVIEW_NO_SESSION_GUARD.json",
+      "sha256": "1c10b954795cd75e95c89c2671d6c0f76abba9080dd793628c0b4df0173fc772"
+    },
+    {
+      "bytes": 317,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/FOUNDER_REVIEW_PROTOCOL_R1.md",
+      "sha256": "424137af656e079d40e4520b9bd61fed26d06c1d2f8d07cc55fc903d1e34438c"
+    },
+    {
+      "bytes": 601,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/FOUNDER_REVIEW_SCORING_RUBRIC_R1.json",
+      "sha256": "f382a1188782537a4cb64b63d6e39345ad962963469394b90781bd8834796fd4"
+    },
+    {
+      "bytes": 2055,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/FOUNDER_REVIEW_TASK_QUEUE_R1.json",
+      "sha256": "5418ca9051ebe41379700a8814e7023fa83449d4771b38547b835da5397692d8"
+    },
+    {
+      "bytes": 339,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/INTELLIGENCE_LOOP_REVIEW_TEMPLATE.md",
+      "sha256": "9fffba998c6af51f6373fda9700a32f7acd4a8f5ccbb8f15dc7a471b2794c940"
+    },
+    {
+      "bytes": 240,
+      "path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/UI_UX_DEBT_CAPTURE_TEMPLATE.md",
+      "sha256": "038d9deb399e0d1e2825202f8bd198dc50f4f6ca6ae9819afe106974c16342a5"
+    },
+    {
+      "bytes": 515,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/DECISION.json",
+      "sha256": "ce6eb74ad502847e964d552d363e6c2513c2973103157adcac5883d568ac97cf"
+    },
+    {
+      "bytes": 296,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/FOUNDER_REVIEW_FEEDBACK_FORM_R1.md",
+      "sha256": "50636406d6cfa6a121ae53e119ee21402ed4c29d5812a5c90d7a0bcbaa3d1509"
+    },
+    {
+      "bytes": 326,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/FOUNDER_REVIEW_LIMITATIONS.json",
+      "sha256": "5bc21ff6e8957660843a156d152b929fe8624b197bfc4402edd84df2f1365f96"
+    },
+    {
+      "bytes": 307,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/FOUNDER_REVIEW_NO_SESSION_GUARD.json",
+      "sha256": "1c10b954795cd75e95c89c2671d6c0f76abba9080dd793628c0b4df0173fc772"
+    },
+    {
+      "bytes": 317,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/FOUNDER_REVIEW_PROTOCOL_R1.md",
+      "sha256": "424137af656e079d40e4520b9bd61fed26d06c1d2f8d07cc55fc903d1e34438c"
+    },
+    {
+      "bytes": 601,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/FOUNDER_REVIEW_SCORING_RUBRIC_R1.json",
+      "sha256": "f382a1188782537a4cb64b63d6e39345ad962963469394b90781bd8834796fd4"
+    },
+    {
+      "bytes": 2055,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/FOUNDER_REVIEW_TASK_QUEUE_R1.json",
+      "sha256": "5418ca9051ebe41379700a8814e7023fa83449d4771b38547b835da5397692d8"
+    },
+    {
+      "bytes": 339,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/INTELLIGENCE_LOOP_REVIEW_TEMPLATE.md",
+      "sha256": "9fffba998c6af51f6373fda9700a32f7acd4a8f5ccbb8f15dc7a471b2794c940"
+    },
+    {
+      "bytes": 240,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-founder-review-prep-no-session-r1/UI_UX_DEBT_CAPTURE_TEMPLATE.md",
+      "sha256": "038d9deb399e0d1e2825202f8bd198dc50f4f6ca6ae9819afe106974c16342a5"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "status": "PASS"
+}

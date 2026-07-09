@@ -1,0 +1,9 @@
+{
+  "artifact_id": "DASHBOARD_LIMITATIONS",
+  "limitations": [
+    "Dashboard is diagnostic/advisory only; it does not certify source truth.",
+    "No client session, production deployment, live ingestion, or external operator validation is present.",
+    "Weaknesses are intentionally exposed instead of hidden."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

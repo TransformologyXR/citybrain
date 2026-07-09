@@ -1,0 +1,26 @@
+{
+  "artifact_id": "PRODUCT_LOOP_SEQUENCE_AUDIT",
+  "parallel_execution_allowed": false,
+  "parallel_execution_used": false,
+  "sequence": [
+    {
+      "decision": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_DECISION.json",
+      "order": 1,
+      "package": "MAIN-CITYBRAIN-EPOCH4-INCIDENT-PLAN-THREE-FAMILY-PRODUCT-LOOP-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "order": 2,
+      "package": "MAIN-CITYBRAIN-EPOCH4-REVIEW-PACKET-360-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision": "self",
+      "order": 3,
+      "package": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-FINAL-REVERIFY-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "status": "PASS"
+}

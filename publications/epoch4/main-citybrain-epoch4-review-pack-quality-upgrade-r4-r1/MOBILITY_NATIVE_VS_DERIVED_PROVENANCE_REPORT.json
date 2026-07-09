@@ -1,0 +1,9 @@
+{
+  "derived_backfill_visible": true,
+  "mobility_card_count": 4,
+  "mobility_family": "mobility_access_interruption_v0",
+  "native_review_packet_360_found": false,
+  "source_report": "mobility_access_interruption_v0",
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

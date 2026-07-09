@@ -1,0 +1,118 @@
+{
+  "entries": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "992a7b43369c2c293a371b7c15704ff6dd4b01d30a9ba6b025eb01257087b840",
+      "size_bytes": 1045
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "e31848bc1e6161b8b310d3e5c5eb82f22ea0190d7c2ffce00d3be2161bc10c6d",
+      "size_bytes": 872
+    },
+    {
+      "path": "CROSS_HOST_ARTIFACT_EXCHANGE_CONTRACT.md",
+      "sha256": "179e1d964db87e8a6999bb9c717e8b83e618e9c15d8b9791392e9cbcccc10fcd",
+      "size_bytes": 671
+    },
+    {
+      "path": "CROSS_HOST_PAYLOAD_CONTRACT_R6D.json",
+      "sha256": "ccf17404cd38b7ff92a5ce45f44822f1bd51aae2667a09f34fdc2a7340321577",
+      "size_bytes": 865
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "ea037b345a9fca4e20745efd9f24e336d2b55468f6d560ad57915b9ad2fd26c4",
+      "size_bytes": 1953
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "f0eb5531df14bbdcccf0b46395ee779aa8dcff456fd5cbe398c4dd59b1e1f405",
+      "size_bytes": 1100
+    },
+    {
+      "path": "HOST_ALLOCATION_AUDIT_R6D.json",
+      "sha256": "14a27e61d48c413061d81a20ace71ffb5cd945d35da8bf1c178c463def10c5f0",
+      "size_bytes": 344
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "9f52d3b2a3ca9c21b14ca64d4d25904f594c28bee7964378cd7150e2cd45e62f",
+      "size_bytes": 1075
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "c0a7a3a9c92b8f7d7f8367b2b181b7b23aef26c152f0d4cffe6b252cd23aec20",
+      "size_bytes": 820
+    },
+    {
+      "path": "R7_READINESS_GATE_R6D.json",
+      "sha256": "0b319c9f03b9122c37cf864da4d29fddd94a454e468871466c491643a5bf8a8c",
+      "size_bytes": 440
+    },
+    {
+      "path": "README.md",
+      "sha256": "b39851f2d789c1ef971c1172f35f9eb45a53d97af2d34b09c21e6d2c19083b54",
+      "size_bytes": 618
+    },
+    {
+      "path": "RUNTIME_HOST_ALLOCATION_R6D.json",
+      "sha256": "d785a0a1e70380a0a894ac36742421144c8cd0b8838ac04b99bb314f4908c283",
+      "size_bytes": 1265
+    },
+    {
+      "path": "SCHEMA_HOST_ALLOCATION_R6D.json",
+      "sha256": "dc5a9939c79a52c628032cb3a6d48d2e604e2be9dfe1a3435de5899c1d41162d",
+      "size_bytes": 610
+    },
+    {
+      "path": "SCHEMA_R7_READINESS_GATE_R6D.json",
+      "sha256": "defeb2e1033e0a8c834a6f3d8449d1a200ecf9bb98babe9bb93d255c61bdbe0c",
+      "size_bytes": 381
+    },
+    {
+      "path": "SCHEMA_SPARK_VSS_CONNECTIVITY_PROBE_R6D.json",
+      "sha256": "95c1fbef5d6beacab8a6bd4a0473d8a63054b57b975f766f1d987fe20a488864",
+      "size_bytes": 650
+    },
+    {
+      "path": "SPARK_VSS_CONNECTIVITY_PROBE_CONTRACT_R6D.json",
+      "sha256": "f697240ee079293cb0d566eed580f80e8ac7f9b8d2f3250fdb4285403c668c27",
+      "size_bytes": 655
+    },
+    {
+      "path": "SPARK_VSS_RUNTIME_CONFIG_TEMPLATE.env.example",
+      "sha256": "70e520438489aa61f1d9d0d2bfe99f73bc382c10c6125998d4488285558febf2",
+      "size_bytes": 442
+    },
+    {
+      "path": "SPARK_VSS_RUNTIME_CONFIG_TEMPLATE_R6D.json",
+      "sha256": "727cfa234db5cc65124eda669834d8d7708cde70f62edd61bbab6f375b70a194",
+      "size_bytes": 474
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "e0f3ff147ac7a92e2e29a7cf14ff74ea4dd7f73d9027ea1172c5216f76b092bb",
+      "size_bytes": 1897
+    },
+    {
+      "path": "STATUS_ENUMS_R6D.json",
+      "sha256": "b6ead737eb51b23826630f143eea1abbdf6cba2050d3ad67a52ef6431ec3d0b1",
+      "size_bytes": 472
+    },
+    {
+      "path": "VSS_SPARK_COMMAND_WRAPPER_CONTRACT.md",
+      "sha256": "62f9a538a194429b99464e494831c34d5256c71519f3d1c692aef8bec8aebc80",
+      "size_bytes": 553
+    },
+    {
+      "path": "VSS_SPARK_ENDPOINT_CONTRACT.md",
+      "sha256": "3682295bc44e036ba8b34c0b702536823fd47db6a4174545fb11b76b60e9f5c0",
+      "size_bytes": 780
+    }
+  ],
+  "file_count": 22,
+  "generated_at": "2026-07-03",
+  "schema_version": "metropolis-vss-spark-split-host-readiness-r6d.v1",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPARK-SPLIT-HOST-READINESS-R6D"
+}

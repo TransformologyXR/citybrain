@@ -1,0 +1,21 @@
+{
+  "artifact_id": "INCIDENT_PLAN_NO_FORBIDDEN_CAPABILITY_GUARD",
+  "forbidden_capabilities": [
+    "live production ingestion",
+    "official action/case/ticket",
+    "dispatch/control/enforcement",
+    "learned model training",
+    "product forecast surface or ForecastPacket",
+    "operator fuel capture",
+    "fabricated human sessions",
+    "source/canonical truth mutation"
+  ],
+  "forbidden_capabilities_created": [],
+  "forecast_packet_created": false,
+  "human_session_fabricated": false,
+  "official_action_created": false,
+  "operator_fuel_captured": false,
+  "product_forecast_surface_created": false,
+  "source_or_canonical_truth_mutated": false,
+  "status": "PASS"
+}

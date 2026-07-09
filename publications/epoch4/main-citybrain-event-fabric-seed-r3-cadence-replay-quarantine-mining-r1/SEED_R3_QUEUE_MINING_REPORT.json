@@ -1,0 +1,148 @@
+{
+  "artifact_id": "SEED_R3_QUEUE_MINING_REPORT",
+  "classification": "pipeline_proof_depth_1",
+  "family_reports": [
+    {
+      "canonical_loop_family_id": "mobility_access_interruption_v0",
+      "cer_improvement_candidates": [
+        "review_candidate_entity_resolution:mobility_access_interruption_v0"
+      ],
+      "check_downgrade_claimability_candidates": [
+        "check_claimability_candidate:mobility_access_interruption_v0"
+      ],
+      "example_event_refs": [
+        "seed-r3-adapter:mobility_access:dirty_source:002",
+        "seed-r3-adapter:mobility_access:challenge:003"
+      ],
+      "quarantine_count": 1,
+      "queue_depth_per_family": "1 unresolved + 1 quarantine",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 0,
+        "impossible_time": 0,
+        "invalid_schema": 1,
+        "invalid_source_class": 0,
+        "missing_entity_ref": 0,
+        "missing_geometry": 0,
+        "other": 0,
+        "unknown_freshness": 0,
+        "weak_spatial_match": 1
+      },
+      "recommended_next_repair_lane": "Adapter Corpus Expansion R1 before Cross-Domain Story Arc",
+      "source_metadata_candidates": [
+        "source_metadata_candidate:mobility_access_interruption_v0"
+      ],
+      "spatial_geometry_candidates": [
+        "geometry_candidate:mobility_access_interruption_v0"
+      ],
+      "unresolved_count": 1
+    },
+    {
+      "canonical_loop_family_id": "building_compliance_perception_candidate",
+      "cer_improvement_candidates": [
+        "review_candidate_entity_resolution:building_compliance_perception_candidate"
+      ],
+      "check_downgrade_claimability_candidates": [
+        "check_claimability_candidate:building_compliance_perception_candidate"
+      ],
+      "example_event_refs": [
+        "seed-r3-adapter:building_compliance:dirty_source:006",
+        "seed-r3-adapter:building_compliance:challenge:007"
+      ],
+      "quarantine_count": 1,
+      "queue_depth_per_family": "1 unresolved + 1 quarantine",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 1,
+        "impossible_time": 0,
+        "invalid_schema": 0,
+        "invalid_source_class": 0,
+        "missing_entity_ref": 1,
+        "missing_geometry": 0,
+        "other": 0,
+        "unknown_freshness": 0,
+        "weak_spatial_match": 0
+      },
+      "recommended_next_repair_lane": "Adapter Corpus Expansion R1 before Cross-Domain Story Arc",
+      "source_metadata_candidates": [
+        "source_metadata_candidate:building_compliance_perception_candidate"
+      ],
+      "spatial_geometry_candidates": [
+        "geometry_candidate:building_compliance_perception_candidate"
+      ],
+      "unresolved_count": 1
+    },
+    {
+      "canonical_loop_family_id": "permit_inspection_delay",
+      "cer_improvement_candidates": [
+        "review_candidate_entity_resolution:permit_inspection_delay"
+      ],
+      "check_downgrade_claimability_candidates": [
+        "check_claimability_candidate:permit_inspection_delay"
+      ],
+      "example_event_refs": [
+        "seed-r3-adapter:permit_inspection_delay:dirty_source:010",
+        "seed-r3-adapter:permit_inspection_delay:challenge:011"
+      ],
+      "quarantine_count": 1,
+      "queue_depth_per_family": "1 unresolved + 1 quarantine",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 0,
+        "impossible_time": 1,
+        "invalid_schema": 0,
+        "invalid_source_class": 0,
+        "missing_entity_ref": 0,
+        "missing_geometry": 0,
+        "other": 0,
+        "unknown_freshness": 1,
+        "weak_spatial_match": 0
+      },
+      "recommended_next_repair_lane": "Adapter Corpus Expansion R1 before Cross-Domain Story Arc",
+      "source_metadata_candidates": [
+        "source_metadata_candidate:permit_inspection_delay"
+      ],
+      "spatial_geometry_candidates": [
+        "geometry_candidate:permit_inspection_delay"
+      ],
+      "unresolved_count": 1
+    },
+    {
+      "canonical_loop_family_id": "city_asset_infrastructure_issue",
+      "cer_improvement_candidates": [
+        "review_candidate_entity_resolution:city_asset_infrastructure_issue"
+      ],
+      "check_downgrade_claimability_candidates": [
+        "check_claimability_candidate:city_asset_infrastructure_issue"
+      ],
+      "example_event_refs": [
+        "seed-r3-adapter:asset_infrastructure:dirty_source:014",
+        "seed-r3-adapter:asset_infrastructure:challenge:015"
+      ],
+      "quarantine_count": 1,
+      "queue_depth_per_family": "1 unresolved + 1 quarantine",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 0,
+        "impossible_time": 0,
+        "invalid_schema": 0,
+        "invalid_source_class": 1,
+        "missing_entity_ref": 0,
+        "missing_geometry": 1,
+        "other": 0,
+        "unknown_freshness": 0,
+        "weak_spatial_match": 0
+      },
+      "recommended_next_repair_lane": "Adapter Corpus Expansion R1 before Cross-Domain Story Arc",
+      "source_metadata_candidates": [
+        "source_metadata_candidate:city_asset_infrastructure_issue"
+      ],
+      "spatial_geometry_candidates": [
+        "geometry_candidate:city_asset_infrastructure_issue"
+      ],
+      "unresolved_count": 1
+    }
+  ],
+  "not_resolution_quality_signal": true,
+  "quarantine_queue_count": 4,
+  "queue_depth": "1 unresolved + 1 quarantine per family",
+  "requires_adapter_corpus_expansion_before_story_arc": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "unresolved_queue_count": 4
+}

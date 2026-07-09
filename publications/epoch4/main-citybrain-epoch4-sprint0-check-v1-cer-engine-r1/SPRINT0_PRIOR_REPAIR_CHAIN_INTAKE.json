@@ -1,0 +1,62 @@
+{
+  "artifact_id": "SPRINT0_PRIOR_REPAIR_CHAIN_INTAKE",
+  "blockers": [],
+  "checks": [
+    {
+      "exists": true,
+      "key": "three_package_reverify_decision",
+      "ok": true,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_SEQUENCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_PRE_E4_THREE_PACKAGE_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "backlog_dedupe_reverify",
+      "ok": true,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json",
+      "status": "PASS"
+    },
+    {
+      "exists": true,
+      "key": "hash_manifest_reverify",
+      "ok": true,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json",
+      "status": "PASS"
+    },
+    {
+      "exists": true,
+      "key": "event_contract_reaudit",
+      "ok": true,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_pointer_reconciliation",
+      "ok": true,
+      "path": "outputs/main_citybrain_pre_e4_three_package_reverify_r1/THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json",
+      "status": "PASS"
+    }
+  ],
+  "event_fabric_r1_contract_count": 6,
+  "event_fabric_r1_contracts": [
+    "contracts/event_fabric_r1/EventEnvelope.schema.json",
+    "contracts/event_fabric_r1/EventQuery.schema.json",
+    "contracts/event_fabric_r1/EventResolution.schema.json",
+    "contracts/event_fabric_r1/EventState.schema.json",
+    "contracts/event_fabric_r1/EventTrace.schema.json",
+    "contracts/event_fabric_r1/EventTypeRegistry.schema.json"
+  ],
+  "parallel_execution_used": false,
+  "simulation_r1_contract_count": 7,
+  "simulation_r1_contracts": [
+    "contracts/simulation_r1/BacktestInputCatalog.schema.json",
+    "contracts/simulation_r1/SimulationAssumptionSet.schema.json",
+    "contracts/simulation_r1/SimulationFidelityReport.schema.json",
+    "contracts/simulation_r1/SimulationOutput.schema.json",
+    "contracts/simulation_r1/SimulationRunEnvelope.schema.json",
+    "contracts/simulation_r1/SimulationScenario.schema.json",
+    "contracts/simulation_r1/SimulatorConnector.schema.json"
+  ],
+  "status": "PASS"
+}

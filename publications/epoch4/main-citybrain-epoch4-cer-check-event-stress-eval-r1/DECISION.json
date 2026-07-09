@@ -1,0 +1,18 @@
+{
+  "artifact_id": "DECISION",
+  "authority_escalation_created": false,
+  "cer_conflict_cases_present": true,
+  "check_contradiction_cases_present": true,
+  "downgrade_cases_present": true,
+  "family_count": 4,
+  "fixture_count": 480,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:20:58Z",
+  "limitations": [
+    "stress evaluation only",
+    "no official findings",
+    "no action/case/ticket/dispatch/control/enforcement"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-CER-CHECK-EVENT-STRESS-EVAL-R1",
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS"
+}

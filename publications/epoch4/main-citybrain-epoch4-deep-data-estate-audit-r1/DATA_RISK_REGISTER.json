@@ -1,0 +1,46 @@
+{
+  "artifact_id": "DATA_RISK_REGISTER",
+  "generated_at": "2026-07-08T09:24:29Z",
+  "risk_count": 4,
+  "risks": [
+    {
+      "boundary": "Do not treat unknowns as trusted source truth.",
+      "evidence": {
+        "missing_or_unknown_geometry": 526,
+        "no_consuming_flow": 273,
+        "unknown_freshness": 462,
+        "unknown_schema": 456,
+        "unknown_source_class": 430
+      },
+      "finding": "Unknown source class/freshness/schema/geometry remain widespread.",
+      "risk_id": "risk:source_registry_unknowns",
+      "severity": "high"
+    },
+    {
+      "boundary": "Keep synthetic/replay/donor labels visible in product surfaces.",
+      "evidence": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SYNTHETIC_DATA_FACTORY_AUDIT.json",
+      "finding": "Synthetic Dubai-like and donor mobility data are useful but cannot be official Dubai truth.",
+      "risk_id": "risk:synthetic_donor_overclaim",
+      "severity": "high"
+    },
+    {
+      "boundary": "No founder session result or operator fuel is created.",
+      "evidence": {
+        "CER/SEG context": 16,
+        "CHECK actual outcome": 16,
+        "readable evidence summary": 16
+      },
+      "finding": "Founder cards are diagnostic-ready, not product-review-ready, until evidence summaries and actual CHECK/CER context are embedded.",
+      "risk_id": "risk:founder_card_product_readiness",
+      "severity": "medium"
+    },
+    {
+      "boundary": "No ForecastPacket or product forecast surface.",
+      "evidence": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SIMULATION_DATA_AUDIT.json",
+      "finding": "Simulation artifacts support review options, not calibrated forecasts.",
+      "risk_id": "risk:simulation_forecast_overclaim",
+      "severity": "medium"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

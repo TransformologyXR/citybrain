@@ -1,0 +1,15 @@
+{
+  "artifact_id": "EVAL_CORPUS_REVERIFY",
+  "case_count": 12,
+  "case_count_minimum_met": true,
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_EVAL_CORPUS_R1_WITH_LIMITATIONS",
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_eligible_cases": []
+}

@@ -1,0 +1,6 @@
+{
+  "schema_version": "citybrain-metropolis-vss-r5-handoff-json-parse-report.v1",
+  "status": "PASS",
+  "json_files_parsed": 8,
+  "json_parse_failures": []
+}

@@ -1,0 +1,32 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD",
+  "checks": {
+    "ForecastPacket_created": false,
+    "external_operator_validation_created": false,
+    "fabricated_founder_operator_sessions_created": false,
+    "learned_ranking_created": false,
+    "live_ingestion_created": false,
+    "official_workflow_action_case_ticket_dispatch_control_enforcement_created": false,
+    "operator_fuel_created": false,
+    "product_forecast_surface_created": false,
+    "source_truth_mutated": false,
+    "training_rows_created": false
+  },
+  "forbidden_capabilities_checked": [
+    "live_ingestion",
+    "production_event_monitoring",
+    "external_operator_validation",
+    "fabricated_founder_operator_sessions",
+    "operator_fuel",
+    "training_rows",
+    "learned_ranking",
+    "ForecastPacket_or_product_forecast_surface",
+    "official_workflow_action_case_ticket_dispatch_control_enforcement",
+    "source_truth_mutation"
+  ],
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T20:25:01Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-CORPUS-EXPANSION-HARDENING-SEQUENCE-R1",
+  "scope": "outputs/main_citybrain_epoch4_eval_expansion_hardening_final_reverify_r1",
+  "status": "PASS"
+}

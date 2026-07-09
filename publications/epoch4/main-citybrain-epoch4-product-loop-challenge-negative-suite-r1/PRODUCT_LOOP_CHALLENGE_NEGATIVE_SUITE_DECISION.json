@@ -1,0 +1,12 @@
+{
+  "artifact_id": "PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_DECISION",
+  "challenge_case_count": 32,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T20:25:01Z",
+  "non_sumo_forced_through_sumo": false,
+  "official_action_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-CHALLENGE-NEGATIVE-SUITE-R1",
+  "quarantine_case_count": 4,
+  "simulation_not_applicable_case_count": 4,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,89 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 379,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CER_CHECK_DOWNGRADE_AND_CONTRADICTION_REPORT.json",
+      "sha256": "3e3be2b92fb40adfddaf930c3e6887bf2268f43b4b3ccfe3cc7d814e5743d38b"
+    },
+    {
+      "bytes": 1085,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CER_CHECK_EVENT_STRESS_EVAL_SUMMARY.json",
+      "sha256": "1784eaa20181f5b9a79e45674297ec99131c52b9c498d1445f41f0dcb9e1dfff"
+    },
+    {
+      "bytes": 180912,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CER_CHECK_EVENT_STRESS_FIXTURES.jsonl",
+      "sha256": "3aa81897c0e3397e4524140996c95899ca4abb2d2e7af1aa9c96fd617f2792be"
+    },
+    {
+      "bytes": 358,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CER_RESOLUTION_STRESS_REPORT.json",
+      "sha256": "c8dc76866795e350f07b540d19ea4470d25016617ef89a224c2df0cdae8c4154"
+    },
+    {
+      "bytes": 405,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CHECK_V1_STRESS_REPORT.json",
+      "sha256": "aeba1ed8c9f376909928bc6c4e4da42153f098d05f93e520098d6b07a3a00deb"
+    },
+    {
+      "bytes": 637,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/DECISION.json",
+      "sha256": "bab06194b652c3bed871094ed7a89533802953396d6e05eb98aecc84f77547da"
+    },
+    {
+      "bytes": 226,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/NO_AUTHORITY_ESCALATION_GUARD.json",
+      "sha256": "90211f9c4abe59248b7613ed9797ab3135d62cecfe6fe90c92b830676de7c1b0"
+    },
+    {
+      "bytes": 1176,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "5bd0644f8278d19abb22e4a9cb49c4d531a26b155692bf2d52675e0e0e8bdb53"
+    },
+    {
+      "bytes": 379,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/CER_CHECK_DOWNGRADE_AND_CONTRADICTION_REPORT.json",
+      "sha256": "3e3be2b92fb40adfddaf930c3e6887bf2268f43b4b3ccfe3cc7d814e5743d38b"
+    },
+    {
+      "bytes": 1085,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/CER_CHECK_EVENT_STRESS_EVAL_SUMMARY.json",
+      "sha256": "1784eaa20181f5b9a79e45674297ec99131c52b9c498d1445f41f0dcb9e1dfff"
+    },
+    {
+      "bytes": 180912,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/CER_CHECK_EVENT_STRESS_FIXTURES.jsonl",
+      "sha256": "3aa81897c0e3397e4524140996c95899ca4abb2d2e7af1aa9c96fd617f2792be"
+    },
+    {
+      "bytes": 358,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/CER_RESOLUTION_STRESS_REPORT.json",
+      "sha256": "c8dc76866795e350f07b540d19ea4470d25016617ef89a224c2df0cdae8c4154"
+    },
+    {
+      "bytes": 405,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/CHECK_V1_STRESS_REPORT.json",
+      "sha256": "aeba1ed8c9f376909928bc6c4e4da42153f098d05f93e520098d6b07a3a00deb"
+    },
+    {
+      "bytes": 637,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/DECISION.json",
+      "sha256": "bab06194b652c3bed871094ed7a89533802953396d6e05eb98aecc84f77547da"
+    },
+    {
+      "bytes": 226,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/NO_AUTHORITY_ESCALATION_GUARD.json",
+      "sha256": "90211f9c4abe59248b7613ed9797ab3135d62cecfe6fe90c92b830676de7c1b0"
+    },
+    {
+      "bytes": 1176,
+      "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "5bd0644f8278d19abb22e4a9cb49c4d531a26b155692bf2d52675e0e0e8bdb53"
+    }
+  ],
+  "entry_count": 16,
+  "generated_at": "2026-07-07T17:20:58Z",
+  "status": "PASS"
+}

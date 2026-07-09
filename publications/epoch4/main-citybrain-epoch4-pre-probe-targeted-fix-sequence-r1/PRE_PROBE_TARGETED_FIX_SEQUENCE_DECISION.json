@@ -1,0 +1,16 @@
+{
+  "artifact_id": "PRE_PROBE_TARGETED_FIX_SEQUENCE_DECISION",
+  "derived_fix_count": 50,
+  "eval_rerun_case_count": 12,
+  "eval_rerun_pass_count": 12,
+  "external_operator_validation_created": false,
+  "fabricated_session_results_created": false,
+  "forbidden_capabilities_created": [],
+  "founder_session_run": false,
+  "generated_at": "2026-07-07T19:19:37Z",
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRE-PROBE-TARGETED-FIX-SEQUENCE-R1",
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_PROBE_TARGETED_FIX_SEQUENCE_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

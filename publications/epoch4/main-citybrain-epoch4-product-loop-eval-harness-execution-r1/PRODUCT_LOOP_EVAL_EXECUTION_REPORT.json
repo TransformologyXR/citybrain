@@ -1,0 +1,80 @@
+{
+  "artifact_id": "PRODUCT_LOOP_EVAL_EXECUTION_REPORT",
+  "assertion_types": [
+    "BRIEF",
+    "CHECK",
+    "EVENT",
+    "SIMULATION",
+    "SPATIAL"
+  ],
+  "case_count": 12,
+  "case_pass_count": 12,
+  "deterministic_eval_mode": "local_replay_expected_vs_current_refs",
+  "family_count": 4,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "remediation_eval_final_reverify",
+      "path": "outputs/main_citybrain_epoch4_remediation_eval_final_reverify_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_EVAL_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_corpus_index",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/PRODUCT_LOOP_EVAL_CORPUS_INDEX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_cases",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EVAL_CASES_4_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "expected_check",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_CHECK_OUTCOMES.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "expected_brief",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_BRIEF_BLOCKS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "expected_event",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_EVENT_STATE_ASSERTIONS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "expected_simulation",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_SIMULATION_OPTION_ASSERTIONS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "expected_spatial",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_SPATIAL_PACKET_ASSERTIONS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_r1",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "post_sumo_deepening_final",
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-EVAL-HARNESS-EXECUTION-R1",
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_or_fuel_created": false
+}

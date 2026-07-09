@@ -1,0 +1,11 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_PARKED_OR_PREPARED_AUDIT",
+  "dispositions_created": false,
+  "founder_review_state": "prepared_no_session",
+  "no_fabricated_sessions": true,
+  "operator_or_founder_fuel_captured": false,
+  "prep_root": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1",
+  "review_session_results_created": false,
+  "status": "PASS",
+  "training_eligibility_created": false
+}

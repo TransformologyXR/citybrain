@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_PROBE_READINESS_CURRENT_STATE",
+  "challenge_case_count": 32,
+  "eval_corpus_r2_case_count": 48,
+  "fix_effects_are_sandbox_only": true,
+  "founder_session_results_created": false,
+  "operator_fuel_created": false,
+  "recommendation": "GO_FOR_BOUNDED_FOUNDER_PROBE",
+  "status": "PASS_WITH_LIMITATIONS"
+}

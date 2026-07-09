@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 1053,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json",
+      "sha256": "6187eabe60d0bd8496dac2f3fd087ba110a3e523a7283c67422bb80ccfa407c5"
+    },
+    {
+      "bytes": 716,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/DECISION.json",
+      "sha256": "78eccd324a4fe647b3a1ae5953a8be80ab67913e4392b84f6da58a9997bf3c53"
+    },
+    {
+      "bytes": 1182,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "e300887033e33b1965073aaa0f0e07dffb7f109932af179f14b9cf2caeab391f"
+    },
+    {
+      "bytes": 243,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NO_FORECAST_AUTHORITY_GUARD.json",
+      "sha256": "c4b643d3e97567773559b89d0b84aef00e5e3000993ace845d1f3e0586bf0902"
+    },
+    {
+      "bytes": 242,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NO_SUMO_MISAPPLICATION_GUARD.json",
+      "sha256": "c61f302701f12be1c5f4104eb8d43183ba43208ad88be4f96a4abf4d97629cb2"
+    },
+    {
+      "bytes": 1263,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NON_SUMO_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "sha256": "7a98f17144b66c0f352950a8efb9f80d8d0c81a35940faf14e3109e8225e80ae"
+    },
+    {
+      "bytes": 365,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NON_SUMO_DOMAIN_ENGINE_VALIDATION_REPORT.json",
+      "sha256": "f5a52acd4c6c73f55ed6b7c927096ed4fb84ca9d6f3bf117ccb826ee55735f5f"
+    },
+    {
+      "bytes": 2045,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NON_SUMO_DOMAIN_OPTION_ENGINE_CATALOG.json",
+      "sha256": "6608ba19f6d77f3c1d016762d307168938b28a76ddf36180e50024a6717242b3"
+    },
+    {
+      "bytes": 1020,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json",
+      "sha256": "03c6b6fcb65c8b537ba9d858f76be642515e31f02b05fdf6c33304599156bfbd"
+    },
+    {
+      "bytes": 1053,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json",
+      "sha256": "6187eabe60d0bd8496dac2f3fd087ba110a3e523a7283c67422bb80ccfa407c5"
+    },
+    {
+      "bytes": 716,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/DECISION.json",
+      "sha256": "78eccd324a4fe647b3a1ae5953a8be80ab67913e4392b84f6da58a9997bf3c53"
+    },
+    {
+      "bytes": 1182,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "e300887033e33b1965073aaa0f0e07dffb7f109932af179f14b9cf2caeab391f"
+    },
+    {
+      "bytes": 243,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/NO_FORECAST_AUTHORITY_GUARD.json",
+      "sha256": "c4b643d3e97567773559b89d0b84aef00e5e3000993ace845d1f3e0586bf0902"
+    },
+    {
+      "bytes": 242,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/NO_SUMO_MISAPPLICATION_GUARD.json",
+      "sha256": "c61f302701f12be1c5f4104eb8d43183ba43208ad88be4f96a4abf4d97629cb2"
+    },
+    {
+      "bytes": 1263,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/NON_SUMO_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "sha256": "7a98f17144b66c0f352950a8efb9f80d8d0c81a35940faf14e3109e8225e80ae"
+    },
+    {
+      "bytes": 365,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/NON_SUMO_DOMAIN_ENGINE_VALIDATION_REPORT.json",
+      "sha256": "f5a52acd4c6c73f55ed6b7c927096ed4fb84ca9d6f3bf117ccb826ee55735f5f"
+    },
+    {
+      "bytes": 2045,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/NON_SUMO_DOMAIN_OPTION_ENGINE_CATALOG.json",
+      "sha256": "6608ba19f6d77f3c1d016762d307168938b28a76ddf36180e50024a6717242b3"
+    },
+    {
+      "bytes": 1020,
+      "path": "publications/epoch4/main-citybrain-epoch4-non-sumo-domain-option-engines-r1/PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json",
+      "sha256": "03c6b6fcb65c8b537ba9d858f76be642515e31f02b05fdf6c33304599156bfbd"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T17:20:58Z",
+  "status": "PASS"
+}

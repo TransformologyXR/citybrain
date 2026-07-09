@@ -1,0 +1,19 @@
+{
+  "source_id": "geodubai_gis_services",
+  "official_source": "Dubai Municipality GIS Centre / GeoDubai",
+  "access_paths": [
+    "Apply for Geospatial Maps and Data",
+    "Request Online Access to Geographical Databases",
+    "Request Access to Amakin Browser"
+  ],
+  "priority_layers": [
+    "communities",
+    "sectors",
+    "roads",
+    "buildings",
+    "lands/parcels",
+    "entrances",
+    "address/Makani"
+  ],
+  "codex_next": "Prepare target schemas and QA gates; human/operator requests official access/export; Codex ingests received GeoJSON/GPKG/Shapefile."
+}

@@ -1,0 +1,209 @@
+{
+  "artifact_id": "SOURCE_REGISTRY_ENRICHMENT_PATCH_CANDIDATES",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-01",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-01",
+      "source_ref": "source_registry:v1_1:01",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-01"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-02",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-02",
+      "source_ref": "source_registry:v1_1:02",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-02"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-03",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-03",
+      "source_ref": "source_registry:v1_1:03",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-03"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-04",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-04",
+      "source_ref": "source_registry:v1_1:04",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-04"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-05",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-05",
+      "source_ref": "source_registry:v1_1:05",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-05"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-06",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-06",
+      "source_ref": "source_registry:v1_1:06",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-06"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-07",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-07",
+      "source_ref": "source_registry:v1_1:07",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-07"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-08",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-08",
+      "source_ref": "source_registry:v1_1:08",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-08"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-09",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-09",
+      "source_ref": "source_registry:v1_1:09",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-09"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-10",
+      "candidate_kind": "source_registry_enrichment_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "better remediation triage",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "proposed_patch": {
+        "freshness_metadata_candidate": "to_be_verified",
+        "owner_candidate": "to_be_verified",
+        "source_class_candidate": "to_be_verified"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "source_registry_enrichment",
+      "source_queue_id": "source-enrichment-10",
+      "source_ref": "source_registry:v1_1:10",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:source_registry_enrichment:source-enrichment-10"
+    }
+  ],
+  "generated_at": "2026-07-07T18:51:48Z",
+  "source_queue": "source_registry_enrichment",
+  "status": "PASS_WITH_LIMITATIONS"
+}

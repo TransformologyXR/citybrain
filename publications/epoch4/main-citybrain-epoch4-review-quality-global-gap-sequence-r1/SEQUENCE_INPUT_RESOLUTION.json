@@ -1,0 +1,17 @@
+{
+  "inputs": {
+    "actual_outcomes": "outputs\\main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1\\FOUNDER_PROBE_ACTUAL_OUTCOME_ATTACHMENT_REPORT.json",
+    "cer_seg_context": "outputs\\main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1\\FOUNDER_PROBE_CER_SEG_CONTEXT_ATTACHMENT_REPORT.json",
+    "data_maturity": "outputs\\main_citybrain_epoch4_data_maturity_diagnostic_product_r2\\DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+    "deep_crosswalk": "outputs\\main_citybrain_epoch4_deep_data_estate_audit_r1\\SOURCE_REGISTRY_CROSSWALK.json",
+    "deep_decision": "outputs\\main_citybrain_epoch4_deep_data_estate_audit_r1\\DATA_ESTATE_AUDIT_DECISION.json",
+    "eval_cases": "outputs\\main_citybrain_epoch4_eval_corpus_expansion_r2\\EVAL_CASES_R2.jsonl",
+    "founder_cards": "outputs\\main_citybrain_epoch4_founder_probe_input_kit_r2\\FOUNDER_PROBE_TASK_CARD_SET.json",
+    "missing_backlog": "outputs\\main_citybrain_epoch4_deep_data_estate_audit_r1\\MISSING_DATA_BACKLOG.json",
+    "mobility_backfill": "outputs\\main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1\\MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json",
+    "representativeness_decision": "outputs\\main_citybrain_epoch4_eval_representativeness_audit_r1\\REPRESENTATIVENESS_AUDIT_DECISION.json",
+    "representativeness_founder": "outputs\\main_citybrain_epoch4_eval_representativeness_audit_r1\\FOUNDER_CARD_READINESS_CLASSIFICATION.json",
+    "source_registry": "outputs\\main_citybrain_track4_source_registry_v1\\SOURCE_REGISTRY_V1.json"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain Metropolis/VSS Narration Runtime Integration R4 Decision",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_name",
+    "status",
+    "runtime_status",
+    "vss_runtime_attempted",
+    "vss_runtime_executed",
+    "vss_narration_records",
+    "structured_detection_source_class",
+    "vss_output_source_class",
+    "vss_is_fact_source",
+    "candidate_event_modified_by_vss",
+    "human_review_required",
+    "no_action_taken",
+    "official_record_created",
+    "audits",
+    "limitations",
+    "validation_package_ref"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-runtime-integration-r4.v1"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-INTEGRATION-R4"
+    },
+    "status": {
+      "type": "string"
+    },
+    "runtime_status": {
+      "enum": [
+        "EXECUTED",
+        "NOT_CONFIGURED",
+        "TIMEOUT",
+        "FAILED",
+        "DRY_RUN"
+      ]
+    },
+    "vss_runtime_attempted": {
+      "type": "boolean"
+    },
+    "vss_runtime_executed": {
+      "type": "boolean"
+    },
+    "vss_narration_records": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "structured_detection_source_class": {
+      "const": "sensor_inferred"
+    },
+    "vss_output_source_class": {
+      "const": "model_generated_narrative"
+    },
+    "vss_is_fact_source": {
+      "const": false
+    },
+    "candidate_event_modified_by_vss": {
+      "const": false
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "no_action_taken": {
+      "const": true
+    },
+    "official_record_created": {
+      "const": false
+    },
+    "audits": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validation_package_ref": {
+      "type": "string"
+    }
+  }
+}

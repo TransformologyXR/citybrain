@@ -1,0 +1,7 @@
+{
+  "artifact_id": "EVAL_RERUN_REVERIFY_R1",
+  "case_count": 12,
+  "case_pass_count": 12,
+  "failures_are_blockers": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

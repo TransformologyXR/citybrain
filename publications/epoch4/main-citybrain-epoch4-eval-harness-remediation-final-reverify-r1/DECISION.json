@@ -1,0 +1,19 @@
+{
+  "all_required_outputs_present": true,
+  "artifact_id": "DECISION",
+  "eval_case_count": 12,
+  "eval_case_pass_count": 12,
+  "forbidden_capabilities_created": [],
+  "founder_review_session_run": false,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "live_ingestion_created": false,
+  "official_action_created": false,
+  "operator_or_founder_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-HARNESS-REMEDIATION-FINAL-REVERIFY-R1",
+  "product_forecast_surface_created": false,
+  "sandbox_overlay_count": 50,
+  "score_delta_claimed_as_fact": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_HARNESS_REMEDIATION_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "cannot_claim": {
+      "type": "array"
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "knowns": {
+      "type": "array"
+    },
+    "packet_id": {
+      "type": "string"
+    },
+    "review_items": {
+      "type": "array"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "unknowns": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "packet_id",
+    "subject",
+    "knowns",
+    "unknowns",
+    "cannot_claim",
+    "review_items",
+    "human_review_required"
+  ],
+  "title": "Human Review Comparison Packet R17",
+  "type": "object"
+}

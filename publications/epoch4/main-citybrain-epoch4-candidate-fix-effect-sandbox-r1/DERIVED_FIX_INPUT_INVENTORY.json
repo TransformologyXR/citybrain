@@ -1,0 +1,25 @@
+{
+  "artifact_id": "DERIVED_FIX_INPUT_INVENTORY",
+  "derived_fix_count": 50,
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "pre_probe_targeted_fix_decision",
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/PRE_PROBE_TARGETED_FIX_SEQUENCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_PROBE_TARGETED_FIX_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "pre_probe_derived_fixes",
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/DERIVED_TARGETED_FIX_APPLICATION_R1.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "candidate_fix_overlays",
+      "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/CANDIDATE_PATCH_OVERLAYS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

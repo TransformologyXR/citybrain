@@ -1,0 +1,29 @@
+{
+  "artifact_id": "PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT",
+  "authority_boundary": "review_option_only_no_workflow_action",
+  "family_id": "permit_inspection_delay",
+  "options": [
+    {
+      "option_id": "baseline_queue_observation",
+      "risk": "no intervention insight",
+      "score": 0.39,
+      "why": "keeps delay visible without action claim"
+    },
+    {
+      "option_id": "dependency_source_gap_triage",
+      "risk": "administrative data remains fixture-grade",
+      "score": 0.7,
+      "why": "separates missing refs from actual queue delay"
+    },
+    {
+      "option_id": "inspection_milestone_review_pack",
+      "risk": "no official workflow authority",
+      "score": 0.64,
+      "why": "creates reviewable packet around milestone state"
+    }
+  ],
+  "selected_for_review": "dependency_source_gap_triage",
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_not_used_reason": "domain is workflow/source dependency review, not traffic movement",
+  "sumo_used": false
+}

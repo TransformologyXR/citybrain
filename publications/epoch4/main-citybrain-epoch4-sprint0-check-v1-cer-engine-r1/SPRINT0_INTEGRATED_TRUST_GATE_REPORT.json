@@ -1,0 +1,16 @@
+{
+  "artifact_id": "SPRINT0_INTEGRATED_TRUST_GATE_REPORT",
+  "integrated_gate": "source_record_to_cer_to_seg_to_check",
+  "negative_fixture_count": 7,
+  "negative_fixtures_passed": true,
+  "official_truth_mutated": false,
+  "operator_fuel_created": false,
+  "positive_pipeline": {
+    "cer_entity": "cer:building:alpha",
+    "check_report": "check_v1:alpha:located_in",
+    "claimability_status": "claimable_with_limitations",
+    "seg_context": "seg_edge:alpha:located_in:downtown",
+    "source_record": "source_record:permit:alpha:2026-07-01"
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

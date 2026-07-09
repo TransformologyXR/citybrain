@@ -1,0 +1,79 @@
+{
+  "artifact_id": "PRODUCT_LOOP_EVAL_CORPUS_INDEX",
+  "case_count": 12,
+  "corpus_hash": "8732bad8d50b324117727a8baedf423a26d5b463255b4c52dc1ea39a99aed8db",
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "generated_at": "2026-07-07T18:51:48Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "product_readiness",
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_READINESS_GAP_CLOSURE_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_readiness_atlas",
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/REVIEW_PACKET_360_V3_EVIDENCE_ATLAS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_readiness_matrix",
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/CROSS_FAMILY_OPTION_EVIDENCE_MATRIX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_v2_5",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_consumption",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/EVENT_FABRIC_V2_5_CONSUMPTION_DEPTH_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "cer_check_stress",
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CER_CHECK_EVENT_STRESS_EVAL_SUMMARY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "non_sumo_engines",
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NON_SUMO_DOMAIN_OPTION_ENGINE_CATALOG.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_v2_4",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_stories_source_diff",
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/TRACKA_EVENT_STORIES_SOURCE_DIFF_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKA_EVENT_STORIES_SOURCE_DIFF_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "trackb_maturity_brief_governance",
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-EVAL-CORPUS-R1",
+  "purpose": "deterministic evaluation and regression corpus only",
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_corpus": false
+}

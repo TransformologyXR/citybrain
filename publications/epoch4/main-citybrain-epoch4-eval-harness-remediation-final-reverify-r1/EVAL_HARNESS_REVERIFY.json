@@ -1,0 +1,8 @@
+{
+  "artifact_id": "EVAL_HARNESS_REVERIFY",
+  "case_count": 12,
+  "case_pass_count": 12,
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_EVAL_HARNESS_EXECUTION_R1_WITH_LIMITATIONS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_fuel_created": false
+}

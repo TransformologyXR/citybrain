@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VSS Narration Sidecar R5",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_name",
+    "narration_id",
+    "source_class",
+    "vss_is_fact_source",
+    "candidate_event_ref",
+    "evidence_bundle_ref",
+    "narration_text",
+    "human_review_required",
+    "not_a_finding",
+    "no_action_taken"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-runtime-configured-smoke-r5.v1"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-CONFIGURED-SMOKE-R5"
+    },
+    "narration_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "const": "model_generated_narrative"
+    },
+    "vss_is_fact_source": {
+      "const": false
+    },
+    "candidate_event_ref": {
+      "type": "string"
+    },
+    "evidence_bundle_ref": {
+      "type": "string"
+    },
+    "narration_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "uncertainty_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "not_a_finding": {
+      "const": true
+    },
+    "no_action_taken": {
+      "const": true
+    },
+    "forbidden_claims_detected": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

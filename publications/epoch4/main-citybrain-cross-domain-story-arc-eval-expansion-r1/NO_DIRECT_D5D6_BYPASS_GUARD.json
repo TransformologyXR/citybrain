@@ -1,0 +1,6 @@
+{
+  "artifact_id": "NO_DIRECT_D5D6_BYPASS_GUARD",
+  "direct_d5_d6_bypass": false,
+  "event_fabric_cer_check_brief_path_preserved": true,
+  "status": "PASS"
+}

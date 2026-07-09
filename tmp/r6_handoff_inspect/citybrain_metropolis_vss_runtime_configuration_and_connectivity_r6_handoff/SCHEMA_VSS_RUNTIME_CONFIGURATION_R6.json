@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "allow_localhost_only": {
+      "type": "boolean"
+    },
+    "config_sources": {
+      "type": "object"
+    },
+    "redacted_command": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "redacted_endpoint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "redaction_applied": {
+      "type": "boolean"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "schema_version": {
+      "const": "metropolis-vss-runtime-configuration-r6.v1"
+    },
+    "secrets_present_after_redaction": {
+      "type": "boolean"
+    },
+    "selected_mode": {
+      "enum": [
+        "not_configured",
+        "command",
+        "endpoint",
+        "both_configured_prefer_cli",
+        "both_configured_prefer_endpoint"
+      ]
+    },
+    "selected_mode_reason": {
+      "type": "string"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-CONFIGURATION-AND-CONNECTIVITY-R6"
+    },
+    "timeout_seconds": {
+      "maximum": 300,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_name",
+    "runtime_configured",
+    "selected_mode",
+    "config_sources",
+    "redaction_applied",
+    "secrets_present_after_redaction"
+  ],
+  "title": "VSS_RUNTIME_CONFIGURATION_R6",
+  "type": "object"
+}

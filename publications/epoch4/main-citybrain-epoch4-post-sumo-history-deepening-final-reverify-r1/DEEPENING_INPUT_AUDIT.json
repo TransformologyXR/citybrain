@@ -1,0 +1,41 @@
+{
+  "all_inputs_found": true,
+  "all_inputs_passed": true,
+  "artifact_id": "DEEPENING_INPUT_AUDIT",
+  "inputs": [
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS",
+      "key": "non_sumo_domain_option_engines",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS",
+      "key": "event_fabric_v2_5_long_history_load",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS",
+      "key": "cer_check_event_stress_eval",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_INTERNAL_READINESS_SNAPSHOT_NO_SESSION_R1_WITH_LIMITATIONS",
+      "key": "internal_readiness_snapshot_no_session",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_INTERNAL_READINESS_SNAPSHOT_NO_SESSION_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "parallel_execution_used": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "CHECK_V1_REPORTS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "check_report_refs": [
+        "check_v1:near_alpha:proximity",
+        "check_v1:alpha:floors:contradiction"
+      ],
+      "claimability": "review_only_with_limitations",
+      "raw_ungrounded_graph_shortcut": false
+    },
+    "city_asset_infrastructure_issue": {
+      "check_report_refs": [
+        "check_v1:asset:source_depth_missing"
+      ],
+      "claimability": "review_only_with_limitations",
+      "raw_ungrounded_graph_shortcut": false
+    },
+    "permit_inspection_delay": {
+      "check_report_refs": [
+        "check_v1:alpha:floors:contradiction",
+        "check_v1:alpha:source_depth_missing"
+      ],
+      "claimability": "review_only_with_limitations",
+      "raw_ungrounded_graph_shortcut": false
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

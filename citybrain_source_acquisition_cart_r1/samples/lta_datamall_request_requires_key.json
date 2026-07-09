@@ -1,0 +1,14 @@
+{
+  "source_id": "lta_datamall",
+  "requires_env": "LTA_ACCOUNT_KEY",
+  "auth_header": "AccountKey: ${LTA_ACCOUNT_KEY}",
+  "base_url": "https://datamall2.mytransport.sg/ltaodataservice/",
+  "sample_endpoints": [
+    "Traffic-Images",
+    "TrafficIncidents",
+    "RoadWorks",
+    "BusArrivalv2",
+    "Taxi-Availability"
+  ],
+  "codex_next": "Request AccountKey, smoke Traffic-Images with external media refs, do not package images unless licence permits."
+}

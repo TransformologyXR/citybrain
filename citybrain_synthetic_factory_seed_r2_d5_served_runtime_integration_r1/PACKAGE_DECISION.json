@@ -1,0 +1,9 @@
+{
+  "contains_raw_provider_payloads": false,
+  "contains_secrets": false,
+  "created_at_utc": "2026-07-08T05:31:14.031169+00:00",
+  "expected_final_status": "PASS_SYNTHETIC_FACTORY_SEED_R2_D5_SERVED_RUNTIME_INTEGRATION_R1_WITH_LIMITATIONS",
+  "purpose": "Codex handoff package for localhost-only D5 served runtime integration over Seed R2 product fixtures",
+  "status": "READY_FOR_CODEX_SEED_R2_D5_SERVED_RUNTIME_INTEGRATION_R1_WITH_NO_SECRETS",
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-SERVED-RUNTIME-INTEGRATION-R1"
+}

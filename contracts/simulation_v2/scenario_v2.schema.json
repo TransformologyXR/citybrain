@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumptions": {
+      "type": "array"
+    },
+    "baseline": {
+      "type": "string"
+    },
+    "event_family": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "review_options": {
+      "type": "array"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "scenario_id",
+    "event_family",
+    "source_class",
+    "assumptions",
+    "inputs",
+    "baseline",
+    "review_options",
+    "limitations"
+  ],
+  "title": "SimulationScenarioV2",
+  "type": "object"
+}

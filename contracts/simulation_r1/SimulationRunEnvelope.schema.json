@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumptions": {
+      "type": "string"
+    },
+    "authority_boundary": {
+      "type": "string"
+    },
+    "connector_id": {
+      "type": "string"
+    },
+    "deterministic": {
+      "type": "boolean"
+    },
+    "inputs": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "outputs": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "run_id",
+    "scenario_id",
+    "source_class",
+    "connector_id",
+    "assumptions",
+    "inputs",
+    "outputs",
+    "limitations"
+  ],
+  "title": "SimulationRunEnvelope",
+  "type": "object"
+}

@@ -1,0 +1,61 @@
+{
+  "artifact_id": "TOP_3_FAMILY_SELECTION",
+  "control_family": {
+    "family_id": "mobility_access_interruption",
+    "reason": "Already proven; use as acceptance baseline rather than consuming a new expansion slot."
+  },
+  "selected_families": [
+    {
+      "family_id": "building_compliance_perception_candidate",
+      "family_name": "Building compliance / perception candidate",
+      "primary_risks": [
+        "Must not claim certified compliance or perception truth.",
+        "Simulation should remain lightweight/review-option only unless stronger transition evidence appears."
+      ],
+      "score_percent": 0.844,
+      "score_total": 38,
+      "selection_rank": 1,
+      "why_selected": [
+        "CER already contains building entities, conflicts, candidate-only cases, and proximity-only downgrades.",
+        "Strong spatial/demo value and CHECK coverage; simulation would likely be review-option/lightweight rather than calibrated."
+      ]
+    },
+    {
+      "family_id": "permit_inspection_delay",
+      "family_name": "Permit / inspection delay",
+      "primary_risks": [
+        "Needs event-time/freshness discipline to avoid fabricated transition history.",
+        "Must keep official permit/inspection status as source-attributed, not canonical truth."
+      ],
+      "score_percent": 0.822,
+      "score_total": 37,
+      "selection_rank": 2,
+      "why_selected": [
+        "Permit and inspection source records already appear in CER assertions and evidence bundles.",
+        "Good candidate for delay/state transitions and source-depth/freshness CHECK handling."
+      ]
+    },
+    {
+      "family_id": "city_asset_infrastructure_issue",
+      "family_name": "City asset / infrastructure issue",
+      "primary_risks": [
+        "Needs asset-specific event taxonomy before implementation.",
+        "Must not imply live control, dispatch, repair order, or enforcement."
+      ],
+      "score_percent": 0.778,
+      "score_total": 35,
+      "selection_rank": 3,
+      "why_selected": [
+        "Strong spatial overlay and asset demo potential.",
+        "Needs tighter event taxonomy and asset-specific CHECK/source-depth fixtures than permit/building families."
+      ]
+    }
+  ],
+  "selected_family_ids": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "selection_rule": "Top three non-control families by score and readiness.",
+  "status": "PASS_WITH_LIMITATIONS"
+}

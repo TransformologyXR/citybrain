@@ -1,0 +1,121 @@
+{
+  "artifact_id": "FOUNDER_PROBE_CER_SEG_CONTEXT_ATTACHMENT_REPORT",
+  "card_count": 16,
+  "cer_missing_count": 0,
+  "rows": [
+    {
+      "cer_context_missing": false,
+      "family": "building_compliance_perception_candidate",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-01"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "building_compliance_perception_candidate",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-02"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "building_compliance_perception_candidate",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-03"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "building_compliance_perception_candidate",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-04"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "city_asset_infrastructure_issue",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-05"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "city_asset_infrastructure_issue",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-06"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "city_asset_infrastructure_issue",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-07"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "city_asset_infrastructure_issue",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-08"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "mobility_access_interruption_v0",
+      "seg_context_missing": false,
+      "status": "attached_derived_backfill",
+      "task_id": "founder-probe-r2-09"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "mobility_access_interruption_v0",
+      "seg_context_missing": false,
+      "status": "attached_derived_backfill",
+      "task_id": "founder-probe-r2-10"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "mobility_access_interruption_v0",
+      "seg_context_missing": false,
+      "status": "attached_derived_backfill",
+      "task_id": "founder-probe-r2-11"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "mobility_access_interruption_v0",
+      "seg_context_missing": false,
+      "status": "attached_derived_backfill",
+      "task_id": "founder-probe-r2-12"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "permit_inspection_delay",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-13"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "permit_inspection_delay",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-14"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "permit_inspection_delay",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-15"
+    },
+    {
+      "cer_context_missing": false,
+      "family": "permit_inspection_delay",
+      "seg_context_missing": false,
+      "status": "attached",
+      "task_id": "founder-probe-r2-16"
+    }
+  ],
+  "seg_missing_count": 0,
+  "status": "PASS_WITH_LIMITATIONS"
+}

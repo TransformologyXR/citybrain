@@ -1,0 +1,22 @@
+{
+  "all_families_have_required_sections": true,
+  "artifact_id": "PACKET_PARITY_REPORT",
+  "event_fabric_v2_4_refs_present": true,
+  "family_count": 3,
+  "required_sections": [
+    "source_records",
+    "cer_entity",
+    "seg_context",
+    "event_state",
+    "check_v1_result",
+    "simulation_option_comparison",
+    "brief_v3_variant_refs",
+    "spatial_overlay_refs",
+    "diff_source_refresh_refs",
+    "data_maturity_refs",
+    "cannot_claim",
+    "limitations"
+  ],
+  "simulation_v2_4_refs_present": true,
+  "status": "PASS"
+}

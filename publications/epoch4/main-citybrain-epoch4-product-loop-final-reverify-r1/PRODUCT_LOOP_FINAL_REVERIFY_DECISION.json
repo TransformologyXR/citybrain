@@ -1,0 +1,18 @@
+{
+  "artifact_id": "PRODUCT_LOOP_FINAL_REVERIFY_DECISION",
+  "forbidden_capabilities_created": [],
+  "hash_manifest_verified": true,
+  "limitations": [
+    "local/replay/review-only",
+    "no founder review yet",
+    "no production live ingestion",
+    "no official action/case/ticket",
+    "no forecast authority"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-FINAL-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "review_packet_360_verified": true,
+  "selected_family_count": 3,
+  "sequence_verified": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_id": "DISTRIBUTION_CHECKED_SIMULATION_DECISION",
+  "boundaries": [
+    "read-only local audit layer",
+    "no ForecastPacket",
+    "no forecast surface",
+    "no operational prediction",
+    "no official workflow/case/action",
+    "no training rows"
+  ],
+  "client_ready": false,
+  "comparison_metric_count": 1,
+  "families_checked": [
+    "mobility_access_interruption_v0"
+  ],
+  "families_not_checked": [
+    {
+      "family": "permit_inspection_delay",
+      "reason": "No comparable permit-created-to-inspection or inspection-completed donor distribution found in inspected local artifacts."
+    }
+  ],
+  "forecast_packet_created": false,
+  "generated_at": "2026-07-08T12:01:45Z",
+  "label": "donor_distribution_aligned_fixture",
+  "labels": [
+    "donor_distribution_aligned_fixture",
+    "not_city_calibrated",
+    "not_forecast",
+    "not_operational_prediction",
+    "no_ForecastPacket"
+  ],
+  "learning_ready": false,
+  "mobility_distribution_record_count_used": 604,
+  "named_donor_distribution_count": 1,
+  "no_source_truth_mutation": true,
+  "not_city_calibrated": true,
+  "not_forecast": true,
+  "not_operational_prediction": true,
+  "product_review_ready": false,
+  "status": "PASS_MAIN_CITYBRAIN_SIMULATION_DISTRIBUTION_CHECKED_FIXTURES_R1_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1"
+}

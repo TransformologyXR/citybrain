@@ -1,0 +1,12 @@
+{
+  "abstain_available": true,
+  "artifact_id": "SIMULATION_OPTION_COMPARISON_REPORT",
+  "baseline_result_ref": "SIMULATION_BASELINE_RESULT_V2.json",
+  "best_fixture_delta_option": "option:staggered_access_window",
+  "option_result_refs": [
+    "option:staggered_access_window",
+    "option:temporary_detour_guidance"
+  ],
+  "recommendation_authority": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "canonical_entity_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "check_report_id": {
+      "type": "string"
+    },
+    "claim_id": {
+      "type": "string"
+    },
+    "claim_text": {
+      "type": "string"
+    },
+    "claimability_status": {
+      "enum": [
+        "claimable_with_limitations",
+        "downgraded_candidate_only",
+        "downgraded_proximity_only",
+        "blocked_contradiction",
+        "blocked_stale",
+        "blocked_insufficient_source_depth",
+        "blocked_raw_id_bypass"
+      ]
+    },
+    "evidence_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "review_state": {
+      "type": "string"
+    },
+    "rule_results": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "seg_edge_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "source_class_summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "check_report_id",
+    "claim_id",
+    "claim_text",
+    "canonical_entity_refs",
+    "seg_edge_refs",
+    "evidence_refs",
+    "source_class_summary",
+    "rule_results",
+    "claimability_status",
+    "review_state",
+    "limitations",
+    "authority_boundary"
+  ],
+  "title": "CheckReportV1",
+  "type": "object"
+}

@@ -1,0 +1,216 @@
+{
+  "artifact_id": "BOUNDED_FOUNDER_PROBE_TASK_QUEUE_R1",
+  "external_operator_validation": false,
+  "input_audit": [
+    {
+      "exists": false,
+      "key": "bounded_probe_session_input",
+      "path": "inputs/epoch4/bounded_founder_probe_session_r1.json",
+      "status": null
+    }
+  ],
+  "learning_arming_allowed": false,
+  "operator_fuel": false,
+  "reviewer_type": "founder_internal",
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_count": 12,
+  "tasks": [
+    {
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-01",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-02",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-03",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-04",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-05",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-06",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-07",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-08",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-09",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-10",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-11",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "evidence_loop_focus": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "reviewer_type": "founder_internal",
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-12",
+      "task_status": "ready_for_bounded_probe",
+      "training_eligible": false
+    }
+  ],
+  "training_eligible": false
+}

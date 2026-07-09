@@ -1,0 +1,14 @@
+{
+  "artifact_id": "CER_ENGINE_R1_DECISION",
+  "canonical_entity_count": 2,
+  "canonical_truth_mutated": false,
+  "confidence_and_provenance_present": true,
+  "conflict_count": 1,
+  "forbidden_capabilities_created": [],
+  "match_candidate_count": 2,
+  "official_truth_mutated": false,
+  "review_queue_count": 3,
+  "review_state_present": true,
+  "source_link_count": 5,
+  "status": "PASS_CER_ENGINE_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,15 @@
+{
+  "artifact_id": "CHECK_V1_STRESS_REPORT",
+  "contradiction_cases_present": true,
+  "downgrade_cases_present": true,
+  "fixture_count": 480,
+  "outcome_counts": {
+    "candidate_only": 80,
+    "contradiction": 80,
+    "downgrade_freshness": 80,
+    "downgrade_source_class": 80,
+    "downgrade_source_depth": 80,
+    "sufficient_for_review": 80
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

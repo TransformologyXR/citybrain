@@ -1,0 +1,28 @@
+{
+  "artifact_id": "SPATIAL_OVERLAY_PACKETS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "cer_entity_refs": [
+        "cer:building:alpha",
+        "cer:observation:near_alpha"
+      ],
+      "live_control_claim": false,
+      "spatial_packet_ref": "spatial_overlay:building_compliance_perception_candidate:incident_plan"
+    },
+    "city_asset_infrastructure_issue": {
+      "cer_entity_refs": [
+        "cer:asset:infrastructure_candidate"
+      ],
+      "live_control_claim": false,
+      "spatial_packet_ref": "spatial_overlay:city_asset_infrastructure_issue:incident_plan"
+    },
+    "permit_inspection_delay": {
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "live_control_claim": false,
+      "spatial_packet_ref": "spatial_overlay:permit_inspection_delay:incident_plan"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

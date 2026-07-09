@@ -1,0 +1,19 @@
+{
+  "artifact_id": "DECISION",
+  "event_count": 280,
+  "family_count": 4,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T16:50:30Z",
+  "limitations": [
+    "local/replay scale only",
+    "no live ingestion or autonomous alerting",
+    "no official incident truth or action authority"
+  ],
+  "live_ingestion_created": false,
+  "minimum_event_count_met": true,
+  "minimum_family_count_met": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVENT-FABRIC-V2-4-REPLAY-SCALE-CONSUMPTION-R1",
+  "replay_deterministic": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_4_REPLAY_SCALE_CONSUMPTION_R1_WITH_LIMITATIONS",
+  "watch_check_brief_spatial_consumption_verified": true
+}

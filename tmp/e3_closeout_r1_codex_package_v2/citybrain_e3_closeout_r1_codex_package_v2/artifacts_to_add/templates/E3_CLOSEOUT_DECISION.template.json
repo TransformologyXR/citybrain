@@ -1,0 +1,13 @@
+{
+  "artifact_id": "E3_CLOSEOUT_DECISION",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "closeout_type": "MINIMUM_ACCEPTABLE_WITH_LOOP2_OFFLINE_EXPERIMENT",
+  "foundation_closed": true,
+  "full_ideal_closeout": false,
+  "system_live": false,
+  "operator_fuel_program": "deferred_not_live",
+  "forecast_pipeline_validated": true,
+  "forecast_product_ready": false,
+  "no_forbidden_capability_audit": "PASS"
+}

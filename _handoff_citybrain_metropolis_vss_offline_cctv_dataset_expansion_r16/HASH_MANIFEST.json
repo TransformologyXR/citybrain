@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-07-04T12:55:45Z",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-OFFLINE-CCTV-DATASET-EXPANSION-R16",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "bytes": 779,
+      "sha256": "6267acb2b54f76dba295ad3190ae2f83a037cf0194dc9e255c4f1542d749e893"
+    },
+    {
+      "path": "AICITY_VIDEO_OPTION_R16.md",
+      "bytes": 403,
+      "sha256": "fcc861fbd0b15084e3aaf9a9952363fed684ebc7cec6b2af3ecfc47e110e6fa5"
+    },
+    {
+      "path": "BMD45_FRAME_REPLAY_PLAN_R16.md",
+      "bytes": 672,
+      "sha256": "e3dc4221e7eaf7a2183e97de564ad76b5f6578cacf1527243c29ecfdb848aa40"
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "bytes": 658,
+      "sha256": "2211023d8ad855480113960fc3cd6730cf2fae2d0495eaa008453f23679f8bc3"
+    },
+    {
+      "path": "CAMERA_SOURCE_REGISTRY_EXTENSION_R16.md",
+      "bytes": 532,
+      "sha256": "0f8296978de330c33fe64962288c135989b2d31d93b39c9787c240a473bd89b1"
+    },
+    {
+      "path": "DATASET_CANDIDATE_MATRIX_R16.json",
+      "bytes": 4907,
+      "sha256": "12d3a8773555941eb95d0f7d7f9b87907fc33287c0581c533ea783eed6143dcd"
+    },
+    {
+      "path": "DATASET_LICENSE_GATE_R16.md",
+      "bytes": 776,
+      "sha256": "3551b22e811581411043385c61c0c4486dd2b76c6ee097dcf24168a43e0367c5"
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "bytes": 1421,
+      "sha256": "8100353fbe9993360afcab6739d659ce6e2b3d5c9abc2be892e4c104cbc4ef8f"
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "bytes": 600,
+      "sha256": "0ce59435c3c9f0610bbf0c3310456853c6d077615b627e6e4171ddc26d3065c6"
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "bytes": 678,
+      "sha256": "8299c2b312e561f2e2df17c9d2fc7ff530d177bc57bccbe402fa69faf6a82ddf"
+    },
+    {
+      "path": "KNOWN_LIMITATIONS_TEMPLATE_R16.md",
+      "bytes": 355,
+      "sha256": "1523a07eadd0b3c3b4e3840ff7e266d0625d7782069abb35e0084b4ab6a57467"
+    },
+    {
+      "path": "NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R16.md",
+      "bytes": 330,
+      "sha256": "fc97f787668ef267a9ac667ec50da2c1db020d76286c0ec6873479d7ffc041a5"
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "bytes": 907,
+      "sha256": "4954e27bab8d65b7ac4dee930ac719242363186cf0e84172ea7a5f8bc71dd4fb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 574,
+      "sha256": "59bdfc7f06213aff05a8b563c4d20a776166c96c15db11c504dfc2b2af64d50f"
+    },
+    {
+      "path": "SCHEMA_DATASET_SOURCE_REGISTRY_R16.json",
+      "bytes": 619,
+      "sha256": "cb09e045e50b30a59b14764d434693818df0ea11600d91ae5631842fd0ce7816"
+    },
+    {
+      "path": "SCHEMA_DECISION_R16.json",
+      "bytes": 1138,
+      "sha256": "f270ed48158c0b5b75cbc7c5aa0ce456eb229201a9aa589f8578d0ca5a265b0a"
+    },
+    {
+      "path": "SCHEMA_OFFLINE_DATASET_INGEST_MANIFEST_R16.json",
+      "bytes": 723,
+      "sha256": "cc0f1d8c1e349d6041eb12ebd50c05ba35ef5ff2cc8e445b0849b53f8fe942cf"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 1164,
+      "sha256": "97ac67e9f12d37191aed4371a30ab0846c817d62780d86fea548a664d84bc679"
+    },
+    {
+      "path": "STATUS_ENUMS_R16.json",
+      "bytes": 982,
+      "sha256": "47a658b4019c8f2a9653587cb9e8176d3f9f1e2f5feddb006954e9591a09691c"
+    },
+    {
+      "path": "WEB_SOURCE_SUMMARY_R16.json",
+      "bytes": 1976,
+      "sha256": "507b3f616d60f386c0f14d97f0605b85544a682e2d87ff7659dc2dae09b565eb"
+    }
+  ]
+}

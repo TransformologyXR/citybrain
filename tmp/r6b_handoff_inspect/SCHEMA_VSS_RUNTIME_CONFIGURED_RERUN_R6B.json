@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VSS Runtime Configured Rerun R6B",
+  "type": "object",
+  "required": [
+    "task_id",
+    "runtime_configured",
+    "probe_attempted",
+    "probe_executed",
+    "probe_status",
+    "source_boundary"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-CONFIGURED-RERUN-R6B"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "runtime_mode": {
+      "enum": [
+        "command",
+        "endpoint",
+        "none",
+        "unknown"
+      ]
+    },
+    "configured_via": {
+      "enum": [
+        "cli",
+        "environment",
+        "none",
+        "mixed"
+      ]
+    },
+    "probe_attempted": {
+      "type": "boolean"
+    },
+    "probe_executed": {
+      "type": "boolean"
+    },
+    "probe_status": {
+      "enum": [
+        "SUCCESS",
+        "NOT_CONFIGURED",
+        "UNREACHABLE",
+        "TIMEOUT",
+        "ERROR",
+        "UNSUPPORTED_PROTOCOL"
+      ]
+    },
+    "redaction_applied": {
+      "type": "boolean"
+    },
+    "source_boundary": {
+      "type": "object",
+      "required": [
+        "deepstream_metropolis",
+        "vss"
+      ],
+      "properties": {
+        "deepstream_metropolis": {
+          "const": "sensor_inferred"
+        },
+        "vss": {
+          "const": "model_generated_narrative_only_not_fact_source"
+        }
+      }
+    }
+  }
+}

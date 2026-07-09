@@ -1,0 +1,13 @@
+{
+  "card_repair_needed_before_product_review": [
+    "Embed readable evidence summaries on each card.",
+    "Embed CER/SEG context and CHECK actual outcome, not only refs.",
+    "Mark native vs derived evidence and missing-evidence repair state visibly.",
+    "Cross-link D5/D6 runtime/control-room cards where the product surface is under review."
+  ],
+  "diagnostic_review_ready": true,
+  "product_review_ready": false,
+  "recommendation": "PROCEED_TO_FOUNDER_DIAGNOSTIC_REVIEW_NOT_PRODUCT_READINESS_REVIEW",
+  "status": "PASS",
+  "why": "Current cards are good diagnostic prompts, but they intentionally avoid session results and do not yet contain enough embedded evidence for product-readiness review."
+}

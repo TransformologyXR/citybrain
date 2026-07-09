@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "command": {
+      "type": "string"
+    },
+    "container_image": {
+      "type": "string"
+    },
+    "execution_status": {
+      "enum": [
+        "EXECUTED_SUCCESS",
+        "EXECUTED_ZERO_DETECTIONS",
+        "BLOCKED",
+        "NOT_ATTEMPTED"
+      ],
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "input_frames": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "outputs": {
+      "type": "object"
+    },
+    "replay_method": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "replay_method",
+    "host",
+    "input_frames",
+    "execution_status",
+    "outputs"
+  ],
+  "title": "DeepStream Frame Replay Report R17",
+  "type": "object"
+}

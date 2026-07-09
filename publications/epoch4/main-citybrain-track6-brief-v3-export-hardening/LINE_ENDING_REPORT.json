@@ -1,0 +1,137 @@
+{
+  "artifact_id": "BRIEF_V3_LINE_ENDING_REPORT",
+  "files_checked": 26,
+  "rows": [
+    {
+      "crlf_count": 0,
+      "lf_count": 17,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_CANNOT_CLAIM_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 39,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_CHECK_V1_SUMMARY_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 65,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EVENT_STATE_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 40,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_CONTRACT.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 24,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_HARDENING_DECISION.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 405,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_PACKET.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 103,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_PACKET.md"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 21,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_LIMITATIONS_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 48,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_REVIEW_OPTIONS_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 32,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_SIMULATION_ASSUMPTIONS_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 129,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_SOURCE_RECORD_APPENDIX.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 23,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_SPATIAL_REFERENCES_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 7,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/README.md"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 17,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_CANNOT_CLAIM_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 39,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_CHECK_V1_SUMMARY_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 65,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EVENT_STATE_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 40,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_CONTRACT.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 24,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_HARDENING_DECISION.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 405,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_PACKET.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 103,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_PACKET.md"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 21,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_LIMITATIONS_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 48,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_REVIEW_OPTIONS_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 32,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_SIMULATION_ASSUMPTIONS_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 129,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_SOURCE_RECORD_APPENDIX.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 23,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_SPATIAL_REFERENCES_BLOCK.json"
+    },
+    {
+      "crlf_count": 0,
+      "lf_count": 7,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/README.md"
+    }
+  ],
+  "status": "PASS"
+}

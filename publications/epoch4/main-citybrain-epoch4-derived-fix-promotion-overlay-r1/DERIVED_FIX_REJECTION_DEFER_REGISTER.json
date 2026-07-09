@@ -1,0 +1,10 @@
+{
+  "artifact_id": "DERIVED_FIX_REJECTION_DEFER_REGISTER",
+  "defer_rules": [
+    "Do not apply overlays to source truth.",
+    "Do not claim maturity score improvement as fact.",
+    "Do not convert founder-probe input templates into session results."
+  ],
+  "rejected_authoritative_promotions": 50,
+  "status": "PASS_WITH_LIMITATIONS"
+}

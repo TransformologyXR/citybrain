@@ -1,0 +1,24 @@
+{
+  "artifact_id": "WATCH_ADMISSION_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "admitted": true,
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "watch_item_ref": "watch:v2_1:building_compliance_perception_candidate"
+    },
+    "city_asset_infrastructure_issue": {
+      "admitted": true,
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "watch_item_ref": "watch:v2_1:city_asset_infrastructure_issue"
+    },
+    "permit_inspection_delay": {
+      "admitted": true,
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "watch_item_ref": "watch:v2_1:permit_inspection_delay"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

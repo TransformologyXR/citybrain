@@ -1,0 +1,58 @@
+{
+  "domain_requirements": {
+    "building_compliance": [
+      "permit",
+      "inspection",
+      "violation",
+      "enforcement-context-without-enforcement-claim"
+    ],
+    "built_environment": [
+      "building footprint/profile",
+      "facility/site"
+    ],
+    "civic_service_311_crm": [
+      "service request",
+      "municipal work/service context"
+    ],
+    "data_quality_maturity": [
+      "stale/missing/conflicting/source-class limitation"
+    ],
+    "environment_resilience": [
+      "flood/water/air/heat/storm context"
+    ],
+    "identity_graph_eval": [
+      "anchor/join/canonical-confidence challenge"
+    ],
+    "property_planning": [
+      "parcel",
+      "address",
+      "planning",
+      "land-use/status ambiguity"
+    ]
+  },
+  "explicit_exclusions": [
+    "human/person-level records",
+    "live monitoring",
+    "dispatch/control/enforcement/legal/certified claims",
+    "official Dubai truth",
+    "raw bulky provider payload packaging"
+  ],
+  "minimum_seed_r3_fixture_targets": {
+    "ASK": 12,
+    "BRIEF": 12,
+    "CHECK": 12,
+    "EVENT_REPLAY": 30,
+    "SPATIAL": 12,
+    "WATCH": 12
+  },
+  "required_record_fields": [
+    "source_class",
+    "truth_layer",
+    "domain_family",
+    "city_or_donor_origin",
+    "evidence_refs_or_donor_refs",
+    "limitation_refs",
+    "no_action_boundary"
+  ],
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT"
+}

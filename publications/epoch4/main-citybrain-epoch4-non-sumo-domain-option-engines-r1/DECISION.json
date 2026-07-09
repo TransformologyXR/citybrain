@@ -1,0 +1,18 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "DECISION",
+  "building_compliance_engine_created": true,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:20:58Z",
+  "limitations": [
+    "rule-based review option engines only",
+    "no forecast or workflow action authority",
+    "no learned ranking or model training"
+  ],
+  "non_sumo_engine_count": 2,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NON-SUMO-DOMAIN-OPTION-ENGINES-R1",
+  "permit_inspection_delay_engine_created": true,
+  "product_forecast_surface_created": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS",
+  "sumo_misapplied_to_non_traffic_family": false
+}

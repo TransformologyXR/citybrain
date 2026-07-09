@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "attribute_assertions": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "authority_boundary": {
+      "type": "string"
+    },
+    "canonical_entity_id": {
+      "type": "string"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "conflict_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "display_label": {
+      "type": "string"
+    },
+    "entity_family": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "provenance_refs": {
+      "type": "string"
+    },
+    "review_state": {
+      "enum": [
+        "verified_fixture",
+        "candidate_reviewed",
+        "review_required",
+        "conflicted",
+        "rejected"
+      ]
+    },
+    "source_links": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "canonical_entity_id",
+    "entity_family",
+    "display_label",
+    "review_state",
+    "confidence",
+    "provenance_refs",
+    "source_links",
+    "attribute_assertions",
+    "limitations",
+    "authority_boundary"
+  ],
+  "title": "CanonicalEntityR1",
+  "type": "object"
+}

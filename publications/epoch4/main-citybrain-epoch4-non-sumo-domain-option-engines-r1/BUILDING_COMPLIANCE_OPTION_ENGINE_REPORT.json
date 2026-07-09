@@ -1,0 +1,29 @@
+{
+  "artifact_id": "BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT",
+  "authority_boundary": "review_option_only_no_finding_no_action",
+  "family_id": "building_compliance_perception_candidate",
+  "options": [
+    {
+      "option_id": "baseline_review_only",
+      "risk": "evidence gaps remain visible",
+      "score": 0.42,
+      "why": "preserves current bounded review posture"
+    },
+    {
+      "option_id": "targeted_perception_evidence_review",
+      "risk": "still not a finding",
+      "score": 0.68,
+      "why": "focuses review on perception conflict and source-class weakness"
+    },
+    {
+      "option_id": "geometry_time_history_enrichment",
+      "risk": "requires source enrichment later",
+      "score": 0.61,
+      "why": "improves spatial/time context before packet refresh"
+    }
+  ],
+  "selected_for_review": "targeted_perception_evidence_review",
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_not_used_reason": "domain is compliance/perception evidence review, not traffic movement",
+  "sumo_used": false
+}

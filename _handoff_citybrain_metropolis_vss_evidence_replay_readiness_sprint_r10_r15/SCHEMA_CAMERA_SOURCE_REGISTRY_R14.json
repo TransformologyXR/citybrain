@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Camera Source Registry R14",
+  "type": "object",
+  "required": [
+    "camera_source_id",
+    "source_kind",
+    "host",
+    "source_class",
+    "license_status",
+    "privacy_status",
+    "hash"
+  ],
+  "properties": {
+    "camera_source_id": {
+      "type": "string"
+    },
+    "source_kind": {
+      "enum": [
+        "offline_file",
+        "rtsp_replay",
+        "live_rtsp_future"
+      ]
+    },
+    "host": {
+      "type": "string"
+    },
+    "source_class": {
+      "enum": [
+        "media_source",
+        "replay_source"
+      ]
+    },
+    "uri_or_path": {
+      "type": "string"
+    },
+    "uri_secret_redacted": {
+      "type": "boolean"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "location_known": {
+      "type": "boolean"
+    },
+    "location_confidence": {
+      "enum": [
+        "unknown",
+        "candidate",
+        "verified"
+      ]
+    },
+    "source_owner": {
+      "type": "string"
+    },
+    "license_status": {
+      "type": "string"
+    },
+    "privacy_status": {
+      "type": "string"
+    },
+    "retention_policy": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "string"
+    }
+  }
+}

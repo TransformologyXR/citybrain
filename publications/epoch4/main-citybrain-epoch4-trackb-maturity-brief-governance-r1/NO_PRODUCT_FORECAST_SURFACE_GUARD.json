@@ -1,0 +1,10 @@
+{
+  "artifact_id": "NO_PRODUCT_FORECAST_SURFACE_GUARD",
+  "capability_created": false,
+  "generated_artifact_risky_findings": [],
+  "status": "PASS",
+  "terms": [
+    "prediction authority",
+    "forecast product"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artifact_id": "BRIEF_V3_EXPORT_HARDENING_DECISION",
+  "blocked_sections": [],
+  "created_at": "2026-07-07T13:49:47Z",
+  "json_export_ref": "BRIEF_V3_EXPORT_PACKET.json",
+  "legal_or_certified_finding_created": false,
+  "markdown_export_ref": "BRIEF_V3_EXPORT_PACKET.md",
+  "missing_sources": [],
+  "no_ui_polish": true,
+  "official_action_created": false,
+  "packet_ref": "BRIEF_V3_EXPORT_PACKET.json",
+  "section_order": [
+    "source_record_appendix",
+    "check_v1_summary",
+    "simulation_assumptions",
+    "event_state",
+    "spatial_references",
+    "cannot_claim",
+    "review_options",
+    "limitations"
+  ],
+  "status": "PASS_TRACK6_BRIEF_V3_EXPORT_HARDENING_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-TRACK6-BRIEF-V3-EXPORT-HARDENING"
+}

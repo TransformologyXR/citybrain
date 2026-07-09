@@ -1,0 +1,9 @@
+{
+  "artifact_id": "INTERNAL_READINESS_NO_SESSION_AUDIT",
+  "dispositions_created": false,
+  "founder_review_session_run": false,
+  "operator_or_founder_fuel_created": false,
+  "ready_for_founder_session": false,
+  "ready_for_internal_review_prep": true,
+  "status": "PASS"
+}

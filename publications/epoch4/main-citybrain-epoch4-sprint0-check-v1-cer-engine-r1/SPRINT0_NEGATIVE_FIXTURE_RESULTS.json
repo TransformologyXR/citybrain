@@ -1,0 +1,50 @@
+{
+  "all_negative_fixtures_passed": true,
+  "artifact_id": "SPRINT0_NEGATIVE_FIXTURE_RESULTS",
+  "fixtures": [
+    {
+      "actual": "downgraded_candidate_only",
+      "expected": "downgraded_candidate_only",
+      "fixture_id": "ambiguous_identity",
+      "passed": true
+    },
+    {
+      "actual": "blocked_stale",
+      "expected": "blocked_stale",
+      "fixture_id": "stale_evidence",
+      "passed": true
+    },
+    {
+      "actual": "blocked_contradiction",
+      "expected": "blocked_contradiction",
+      "fixture_id": "contradiction",
+      "passed": true
+    },
+    {
+      "actual": "downgraded_proximity_only",
+      "expected": "downgraded_proximity_only",
+      "fixture_id": "proximity_only",
+      "passed": true
+    },
+    {
+      "actual": "downgraded_candidate_only",
+      "expected": "downgraded_candidate_only",
+      "fixture_id": "candidate_only",
+      "passed": true
+    },
+    {
+      "actual": "blocked_insufficient_source_depth",
+      "expected": "blocked_insufficient_source_depth",
+      "fixture_id": "missing_source_depth",
+      "passed": true
+    },
+    {
+      "actual": "blocked_raw_id_bypass",
+      "expected": "blocked_raw_id_bypass",
+      "fixture_id": "raw_id_bypass",
+      "passed": true
+    }
+  ],
+  "negative_fixture_count": 7,
+  "status": "PASS"
+}

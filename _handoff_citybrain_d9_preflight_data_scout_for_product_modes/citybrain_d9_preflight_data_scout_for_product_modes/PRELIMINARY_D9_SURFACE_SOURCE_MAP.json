@@ -1,0 +1,71 @@
+{
+  "pack": "citybrain_d9_preflight_data_scout_for_product_modes",
+  "current_known_records": [
+    {
+      "city": "London",
+      "story": "Wood Lane EV access review",
+      "records": [
+        "TIMS-219173",
+        "TIMS-210389",
+        "EV asset 87"
+      ],
+      "role": "primary_story",
+      "mode_fit": [
+        "ASK",
+        "WATCH",
+        "BRIEF",
+        "CHECK"
+      ]
+    },
+    {
+      "city": "NYC",
+      "story": "MVC crash 4463710 near Howard Avenue / Engine 227 context",
+      "records": [
+        "MVC crash 4463710",
+        "candidate tax-lot/affected-context records",
+        "response-resource context"
+      ],
+      "role": "primary_story",
+      "mode_fit": [
+        "ASK",
+        "WATCH",
+        "BRIEF",
+        "CHECK"
+      ]
+    },
+    {
+      "city": "Chicago",
+      "story": "building/violation precedent memory",
+      "records": [
+        "Chicago violation records from prior source bundle"
+      ],
+      "role": "recall_cutaway",
+      "mode_fit": [
+        "RECALL",
+        "BRIEF",
+        "CHECK"
+      ]
+    },
+    {
+      "city": "Helsinki",
+      "story": "visual object to semantic building entity",
+      "records": [
+        "12 semantic building/prim-mapped records"
+      ],
+      "role": "capability_cutaway",
+      "mode_fit": [
+        "ASK",
+        "BRIEF",
+        "CHECK"
+      ]
+    }
+  ],
+  "known_blockers": [
+    "D7 media observation source details missing",
+    "explicit forbidden-command refusal log record missing or not source-backed",
+    "external viewer records missing",
+    "DIFF source cadence not established",
+    "London extra candidates duplicate story-query shape",
+    "proximity is not causality/impact"
+  ]
+}

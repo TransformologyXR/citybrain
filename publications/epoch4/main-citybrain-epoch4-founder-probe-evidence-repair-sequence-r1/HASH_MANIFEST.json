@@ -1,0 +1,499 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 7578,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_ACTUAL_OUTCOME_ATTACHMENT_REPORT.json",
+      "sha256": "c7ec01c9f643fb83f643c1ebf7e350070a15c75b98687012d58610adc762a6bc"
+    },
+    {
+      "bytes": 3637,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_CER_SEG_CONTEXT_ATTACHMENT_REPORT.json",
+      "sha256": "75958eac05480ef0a509899ebcb8b3afead3b141815ea87ec67530257779ec49"
+    },
+    {
+      "bytes": 1005,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_EVIDENCE_REPAIR_DECISION.json",
+      "sha256": "882882eb9f767b6fe649731331865369a79b9a296aed29bdc2bd5d543a54a1c9"
+    },
+    {
+      "bytes": 4305,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_EXPLANATION_BLOCKS_REPORT.json",
+      "sha256": "1a8e98c38fa67def5ad971eec4c581c0f212331098add9996ec5e494bb01cb09"
+    },
+    {
+      "bytes": 4074,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_R3_INPUT_RESOLUTION_REPORT.json",
+      "sha256": "1a73c353dc15b6beb8edd19228befe4566324d502936f73b0a03b255cce91f9c"
+    },
+    {
+      "bytes": 1585,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_R3_MISSING_EVIDENCE_REPORT.json",
+      "sha256": "706fde8eac2765d1d465bbc2a37c96f30646c69a2071bffde4b919b1d1476367"
+    },
+    {
+      "bytes": 593,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_RESPONSE_GUIDE_R3.md",
+      "sha256": "1dd6cc25631b44d76e464340c5d383ee440c87a4890b10400ca2c9dfecfd7577"
+    },
+    {
+      "bytes": 4481,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_RESPONSE_TEMPLATE_PREFILLED_R3.csv",
+      "sha256": "5c1b0f0f4104c98fcfbc64937c358319ae3c8902c4a11b204fe2c6359e70b822"
+    },
+    {
+      "bytes": 5655,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_REVIEW_INDEX_R3.html",
+      "sha256": "01f27f7832cbff4395421ba4196cf577cd249c909510a2d73fb63be49de6e451"
+    },
+    {
+      "bytes": 4185,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_REVIEW_INDEX_R3.md",
+      "sha256": "f26fb50c0f4d1495dac5e33fb2db6b2b37b406dad6208dfe0ce8c735f31574d2"
+    },
+    {
+      "bytes": 3630,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL.md",
+      "sha256": "d346c5d2484515439115190d3543042eb22fb4c39c05b398da8ab6e372e6dc69"
+    },
+    {
+      "bytes": 5287,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json",
+      "sha256": "0e2c7c2296bafefdbbc942550f97a1e72c8b5561fc4b9b3fe8305aa12aa7d56a"
+    },
+    {
+      "bytes": 568,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "e35a2df66ac26188292362ac236861742fd823fd2fa898265e41f051ef465196"
+    },
+    {
+      "bytes": 522,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "f77f94f3a867c3cb64602a24a9b1160d027180809c0d5364676207bc1a608313"
+    },
+    {
+      "bytes": 270,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "49c89f4356573a5307d6bdb7af7e6517360b796347be6c7599426ecbe3d7ecad"
+    },
+    {
+      "bytes": 13881,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-01.json",
+      "sha256": "20c1e02824fe5e65c03a9dd87740eecdcb58bbd4d0e46899f161c09326351826"
+    },
+    {
+      "bytes": 9218,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-01.md",
+      "sha256": "f573328e671886e6744ca5c85ad32f89022749480ed432dc8539f6d4cd5e5d7d"
+    },
+    {
+      "bytes": 13549,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-02.json",
+      "sha256": "f9f5ff1f8fec85eecbab5d7a61177f9a970c72ec4f3a5b92d6a7de9fba8dc14d"
+    },
+    {
+      "bytes": 9615,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-02.md",
+      "sha256": "cfe86def006a31d796a60f1eea235327d570a9a16889892bcc4a0bf5cf48845e"
+    },
+    {
+      "bytes": 13554,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-03.json",
+      "sha256": "55f098796938e81a5dac8db96b65f9de52e04ff8c1406f2d6405531f67b1d802"
+    },
+    {
+      "bytes": 9614,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-03.md",
+      "sha256": "2274ea03df94b98b44567516768d662beff8852cbd53d543e476af0587c27212"
+    },
+    {
+      "bytes": 14293,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-04.json",
+      "sha256": "87a65457d4bd5773b7939b69fd4feedbe1d9d488eec8d681ebd525a8d37f09a8"
+    },
+    {
+      "bytes": 9624,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-04.md",
+      "sha256": "4d4a3a0172ccbe4bbc388d9cfba255918157e0e59af0a0175f6c67ec81a1f520"
+    },
+    {
+      "bytes": 13057,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-05.json",
+      "sha256": "21fe8ba318157c59a5d8c5e114800397a8c7e8bf2d56d8604d408ac9ae2ed56f"
+    },
+    {
+      "bytes": 8626,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-05.md",
+      "sha256": "d97e5a77bcb287c9967d0e218029fb4b2ca59e4d961ff24f0de5b22d69e39ee0"
+    },
+    {
+      "bytes": 12743,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-06.json",
+      "sha256": "de9b962896fd59dbb16b5bd95f0b3a9c2748204125adad88db717fb442ca1712"
+    },
+    {
+      "bytes": 9005,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-06.md",
+      "sha256": "eebb228e43e47ebcf81af1169745830d07d2b343c977e844ec4d41b97512f14a"
+    },
+    {
+      "bytes": 12748,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-07.json",
+      "sha256": "b6d06f47c997b34f144eabdf946d59599a0c23cdbcaab83a0310df80e199816c"
+    },
+    {
+      "bytes": 9004,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-07.md",
+      "sha256": "e26e6207e506f84c1b369c4c69a4e062b19be50720dda5640583200018c672e3"
+    },
+    {
+      "bytes": 13451,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-08.json",
+      "sha256": "46c4d1f89454530cf89b08656f3e08a9c4d5ce5df59a36e45602e84d853fd262"
+    },
+    {
+      "bytes": 9014,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-08.md",
+      "sha256": "2b20afb307069cf0ccef6719ea143ce6e19fb27b97f7b5ac0be84c99fda48dc8"
+    },
+    {
+      "bytes": 23048,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-09.json",
+      "sha256": "779a89123618af00fcea3c6e55bdefddfdc7f4fd59277bcd84af6048d8c736c0"
+    },
+    {
+      "bytes": 7813,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-09.md",
+      "sha256": "3f43ff5ed817755f9dbf629dbfc15ffb9a8a03d7dea42bebc2c3ac3eabc89546"
+    },
+    {
+      "bytes": 22746,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-10.json",
+      "sha256": "b5a3401c14b1f62efead84aceedb668562221a1ac6fc32718c1251e8d54dd30d"
+    },
+    {
+      "bytes": 8105,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-10.md",
+      "sha256": "1cf68b3734c5fdbcb2af07721b431a6a037adf6e59137fb2d8b7e1ec1edae43e"
+    },
+    {
+      "bytes": 22751,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-11.json",
+      "sha256": "756023a4b528b7499c719471e281069d4747b3ef1a7cbbc696db9faddaf83e55"
+    },
+    {
+      "bytes": 8106,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-11.md",
+      "sha256": "820b4ce88c2799d92813b102864e8503e88b94760e1647cf441276ba884559ad"
+    },
+    {
+      "bytes": 23442,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-12.json",
+      "sha256": "7c819402f46e4933a995faa0408f8041c535a528efc82a4d0d02cbb2787686f5"
+    },
+    {
+      "bytes": 8201,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-12.md",
+      "sha256": "c3fd0862a2c3e807b1e4d3d38f56ab332ee0680c6765ec1ce08c797a0213263c"
+    },
+    {
+      "bytes": 13181,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-13.json",
+      "sha256": "60f8284884aba581d45737fd054eb92f85288232526d5bbbb1b7e024b0d1a580"
+    },
+    {
+      "bytes": 8827,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-13.md",
+      "sha256": "fcc5cf8313a3e94d46b3171074457e680b5db4daf84fa6632b29a24b03566613"
+    },
+    {
+      "bytes": 12883,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-14.json",
+      "sha256": "c5983c7cf6124b0df377f844b7db920c1c664c62dca48f48a5f538178ac1c9d0"
+    },
+    {
+      "bytes": 9190,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-14.md",
+      "sha256": "223561cfe8e417dbcc3a3ca0dce45b3d64c8d98abf0dbad97ce279da15865fb7"
+    },
+    {
+      "bytes": 12888,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-15.json",
+      "sha256": "a3660c668b59fba385fe9c456c22fe6e4e2e093f7778ddee541da4ab07ff9d51"
+    },
+    {
+      "bytes": 9189,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-15.md",
+      "sha256": "ad02f120ecff36f4187d84c990c17e8e8ad7ce83fb83b635741a74085e418f9b"
+    },
+    {
+      "bytes": 13559,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-16.json",
+      "sha256": "4106cd50ce715a27a0fdedec760f79ac15b231d8b95dd59d6cab282a30bfffb4"
+    },
+    {
+      "bytes": 9199,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/review_cards_r3/founder-probe-r2-16.md",
+      "sha256": "3d3cf113e9b7206725d57e268692585a4fb08c7e889c73c3d62948272831e9b7"
+    },
+    {
+      "bytes": 1068,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/SECOND_REVIEWER_ISSUE_REGRESSION.md",
+      "sha256": "a92a2f743f8506305993b948047b96dd6a9abc5ceabbffce5a52b8a20c29c335"
+    },
+    {
+      "bytes": 1612,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/SECOND_REVIEWER_ISSUE_REGRESSION_REPORT.json",
+      "sha256": "2e267fc6444d2145b3fac68bcd02a11916376519c617bed17d9ee7d6ef72cb5d"
+    },
+    {
+      "bytes": 7578,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_ACTUAL_OUTCOME_ATTACHMENT_REPORT.json",
+      "sha256": "c7ec01c9f643fb83f643c1ebf7e350070a15c75b98687012d58610adc762a6bc"
+    },
+    {
+      "bytes": 3637,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_CER_SEG_CONTEXT_ATTACHMENT_REPORT.json",
+      "sha256": "75958eac05480ef0a509899ebcb8b3afead3b141815ea87ec67530257779ec49"
+    },
+    {
+      "bytes": 1005,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_EVIDENCE_REPAIR_DECISION.json",
+      "sha256": "882882eb9f767b6fe649731331865369a79b9a296aed29bdc2bd5d543a54a1c9"
+    },
+    {
+      "bytes": 4305,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_EXPLANATION_BLOCKS_REPORT.json",
+      "sha256": "1a8e98c38fa67def5ad971eec4c581c0f212331098add9996ec5e494bb01cb09"
+    },
+    {
+      "bytes": 4074,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_R3_INPUT_RESOLUTION_REPORT.json",
+      "sha256": "1a73c353dc15b6beb8edd19228befe4566324d502936f73b0a03b255cce91f9c"
+    },
+    {
+      "bytes": 1585,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_R3_MISSING_EVIDENCE_REPORT.json",
+      "sha256": "706fde8eac2765d1d465bbc2a37c96f30646c69a2071bffde4b919b1d1476367"
+    },
+    {
+      "bytes": 593,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_RESPONSE_GUIDE_R3.md",
+      "sha256": "1dd6cc25631b44d76e464340c5d383ee440c87a4890b10400ca2c9dfecfd7577"
+    },
+    {
+      "bytes": 4481,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_RESPONSE_TEMPLATE_PREFILLED_R3.csv",
+      "sha256": "5c1b0f0f4104c98fcfbc64937c358319ae3c8902c4a11b204fe2c6359e70b822"
+    },
+    {
+      "bytes": 5655,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_REVIEW_INDEX_R3.html",
+      "sha256": "01f27f7832cbff4395421ba4196cf577cd249c909510a2d73fb63be49de6e451"
+    },
+    {
+      "bytes": 4185,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/FOUNDER_PROBE_REVIEW_INDEX_R3.md",
+      "sha256": "f26fb50c0f4d1495dac5e33fb2db6b2b37b406dad6208dfe0ce8c735f31574d2"
+    },
+    {
+      "bytes": 3630,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/MOBILITY_REVIEW_PACKET_360_BACKFILL.md",
+      "sha256": "d346c5d2484515439115190d3543042eb22fb4c39c05b398da8ab6e372e6dc69"
+    },
+    {
+      "bytes": 5287,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json",
+      "sha256": "0e2c7c2296bafefdbbc942550f97a1e72c8b5561fc4b9b3fe8305aa12aa7d56a"
+    },
+    {
+      "bytes": 568,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "e35a2df66ac26188292362ac236861742fd823fd2fa898265e41f051ef465196"
+    },
+    {
+      "bytes": 522,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "f77f94f3a867c3cb64602a24a9b1160d027180809c0d5364676207bc1a608313"
+    },
+    {
+      "bytes": 270,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "49c89f4356573a5307d6bdb7af7e6517360b796347be6c7599426ecbe3d7ecad"
+    },
+    {
+      "bytes": 13881,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-01.json",
+      "sha256": "20c1e02824fe5e65c03a9dd87740eecdcb58bbd4d0e46899f161c09326351826"
+    },
+    {
+      "bytes": 9218,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-01.md",
+      "sha256": "f573328e671886e6744ca5c85ad32f89022749480ed432dc8539f6d4cd5e5d7d"
+    },
+    {
+      "bytes": 13549,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-02.json",
+      "sha256": "f9f5ff1f8fec85eecbab5d7a61177f9a970c72ec4f3a5b92d6a7de9fba8dc14d"
+    },
+    {
+      "bytes": 9615,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-02.md",
+      "sha256": "cfe86def006a31d796a60f1eea235327d570a9a16889892bcc4a0bf5cf48845e"
+    },
+    {
+      "bytes": 13554,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-03.json",
+      "sha256": "55f098796938e81a5dac8db96b65f9de52e04ff8c1406f2d6405531f67b1d802"
+    },
+    {
+      "bytes": 9614,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-03.md",
+      "sha256": "2274ea03df94b98b44567516768d662beff8852cbd53d543e476af0587c27212"
+    },
+    {
+      "bytes": 14293,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-04.json",
+      "sha256": "87a65457d4bd5773b7939b69fd4feedbe1d9d488eec8d681ebd525a8d37f09a8"
+    },
+    {
+      "bytes": 9624,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-04.md",
+      "sha256": "4d4a3a0172ccbe4bbc388d9cfba255918157e0e59af0a0175f6c67ec81a1f520"
+    },
+    {
+      "bytes": 13057,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-05.json",
+      "sha256": "21fe8ba318157c59a5d8c5e114800397a8c7e8bf2d56d8604d408ac9ae2ed56f"
+    },
+    {
+      "bytes": 8626,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-05.md",
+      "sha256": "d97e5a77bcb287c9967d0e218029fb4b2ca59e4d961ff24f0de5b22d69e39ee0"
+    },
+    {
+      "bytes": 12743,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-06.json",
+      "sha256": "de9b962896fd59dbb16b5bd95f0b3a9c2748204125adad88db717fb442ca1712"
+    },
+    {
+      "bytes": 9005,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-06.md",
+      "sha256": "eebb228e43e47ebcf81af1169745830d07d2b343c977e844ec4d41b97512f14a"
+    },
+    {
+      "bytes": 12748,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-07.json",
+      "sha256": "b6d06f47c997b34f144eabdf946d59599a0c23cdbcaab83a0310df80e199816c"
+    },
+    {
+      "bytes": 9004,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-07.md",
+      "sha256": "e26e6207e506f84c1b369c4c69a4e062b19be50720dda5640583200018c672e3"
+    },
+    {
+      "bytes": 13451,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-08.json",
+      "sha256": "46c4d1f89454530cf89b08656f3e08a9c4d5ce5df59a36e45602e84d853fd262"
+    },
+    {
+      "bytes": 9014,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-08.md",
+      "sha256": "2b20afb307069cf0ccef6719ea143ce6e19fb27b97f7b5ac0be84c99fda48dc8"
+    },
+    {
+      "bytes": 23048,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-09.json",
+      "sha256": "779a89123618af00fcea3c6e55bdefddfdc7f4fd59277bcd84af6048d8c736c0"
+    },
+    {
+      "bytes": 7813,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-09.md",
+      "sha256": "3f43ff5ed817755f9dbf629dbfc15ffb9a8a03d7dea42bebc2c3ac3eabc89546"
+    },
+    {
+      "bytes": 22746,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-10.json",
+      "sha256": "b5a3401c14b1f62efead84aceedb668562221a1ac6fc32718c1251e8d54dd30d"
+    },
+    {
+      "bytes": 8105,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-10.md",
+      "sha256": "1cf68b3734c5fdbcb2af07721b431a6a037adf6e59137fb2d8b7e1ec1edae43e"
+    },
+    {
+      "bytes": 22751,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-11.json",
+      "sha256": "756023a4b528b7499c719471e281069d4747b3ef1a7cbbc696db9faddaf83e55"
+    },
+    {
+      "bytes": 8106,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-11.md",
+      "sha256": "820b4ce88c2799d92813b102864e8503e88b94760e1647cf441276ba884559ad"
+    },
+    {
+      "bytes": 23442,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-12.json",
+      "sha256": "7c819402f46e4933a995faa0408f8041c535a528efc82a4d0d02cbb2787686f5"
+    },
+    {
+      "bytes": 8201,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-12.md",
+      "sha256": "c3fd0862a2c3e807b1e4d3d38f56ab332ee0680c6765ec1ce08c797a0213263c"
+    },
+    {
+      "bytes": 13181,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-13.json",
+      "sha256": "60f8284884aba581d45737fd054eb92f85288232526d5bbbb1b7e024b0d1a580"
+    },
+    {
+      "bytes": 8827,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-13.md",
+      "sha256": "fcc5cf8313a3e94d46b3171074457e680b5db4daf84fa6632b29a24b03566613"
+    },
+    {
+      "bytes": 12883,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-14.json",
+      "sha256": "c5983c7cf6124b0df377f844b7db920c1c664c62dca48f48a5f538178ac1c9d0"
+    },
+    {
+      "bytes": 9190,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-14.md",
+      "sha256": "223561cfe8e417dbcc3a3ca0dce45b3d64c8d98abf0dbad97ce279da15865fb7"
+    },
+    {
+      "bytes": 12888,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-15.json",
+      "sha256": "a3660c668b59fba385fe9c456c22fe6e4e2e093f7778ddee541da4ab07ff9d51"
+    },
+    {
+      "bytes": 9189,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-15.md",
+      "sha256": "ad02f120ecff36f4187d84c990c17e8e8ad7ce83fb83b635741a74085e418f9b"
+    },
+    {
+      "bytes": 13559,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-16.json",
+      "sha256": "4106cd50ce715a27a0fdedec760f79ac15b231d8b95dd59d6cab282a30bfffb4"
+    },
+    {
+      "bytes": 9199,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/review_cards_r3/founder-probe-r2-16.md",
+      "sha256": "3d3cf113e9b7206725d57e268692585a4fb08c7e889c73c3d62948272831e9b7"
+    },
+    {
+      "bytes": 1068,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/SECOND_REVIEWER_ISSUE_REGRESSION.md",
+      "sha256": "a92a2f743f8506305993b948047b96dd6a9abc5ceabbffce5a52b8a20c29c335"
+    },
+    {
+      "bytes": 1612,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1/SECOND_REVIEWER_ISSUE_REGRESSION_REPORT.json",
+      "sha256": "2e267fc6444d2145b3fac68bcd02a11916376519c617bed17d9ee7d6ef72cb5d"
+    }
+  ],
+  "entry_count": 98,
+  "generated_at": "2026-07-08T06:05:39Z",
+  "status": "PASS"
+}

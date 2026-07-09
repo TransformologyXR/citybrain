@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "downgrade_reason": {
+      "type": "string"
+    },
+    "evidence_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "result": {
+      "type": "string"
+    },
+    "rule_id": {
+      "type": "string"
+    },
+    "rule_name": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "WARN",
+        "FAIL"
+      ]
+    }
+  },
+  "required": [
+    "rule_id",
+    "rule_name",
+    "status",
+    "result",
+    "evidence_refs",
+    "downgrade_reason"
+  ],
+  "title": "CheckRuleV1",
+  "type": "object"
+}

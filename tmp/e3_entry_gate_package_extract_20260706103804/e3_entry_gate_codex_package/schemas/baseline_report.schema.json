@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "baseline_report.schema.json",
+  "type": "object",
+  "required": ["id", "gate_id", "status", "corpus_version", "hash_manifest_ref", "sections"],
+  "properties": {
+    "id": {"const": "E3_FUEL_GAUGE_BASELINE_REPORT"},
+    "gate_id": {"const": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE"},
+    "status": {"type": "string"},
+    "corpus_version": {"type": "string"},
+    "hash_manifest_ref": {"type": "string"},
+    "sections": {"type": "array", "items": {"type": "string"}}
+  }
+}

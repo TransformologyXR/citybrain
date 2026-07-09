@@ -1,0 +1,8 @@
+{
+  "package_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT-PACKAGE",
+  "status": "READY_FOR_CODEX_CROSS_CITY_DOMAIN_FUEL_PREFLIGHT_WITH_NO_SECRETS",
+  "task_prepared": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+  "purpose": "Audit Barcelona, NYC, Chicago, and London existing corpora for non-mobility synthetic-factory fuel before Seed R3.",
+  "secrets_packaged": false,
+  "raw_payloads_packaged": false
+}

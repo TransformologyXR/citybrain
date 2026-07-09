@@ -1,0 +1,75 @@
+{
+  "artifact_id": "SIMULATION_V2_2_OPTION_COMPARISON_BY_FAMILY",
+  "families": [
+    {
+      "brief_attachment_ref": "brief:v3:building_compliance_perception_candidate:simulation_block",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:review",
+      "family_id": "building_compliance_perception_candidate",
+      "options": [
+        {
+          "claim_level": "review_context",
+          "forecast_created": false,
+          "option_id": "do_nothing_baseline"
+        },
+        {
+          "claim_level": "review_context",
+          "forecast_created": false,
+          "option_id": "targeted_review_followup"
+        },
+        {
+          "claim_level": "diagnostic_context",
+          "forecast_created": false,
+          "option_id": "source_quality_remediation"
+        }
+      ],
+      "recommendation_authority": "none"
+    },
+    {
+      "brief_attachment_ref": "brief:v3:permit_inspection_delay:simulation_block",
+      "check_report_ref": "check:v1:permit_inspection_delay:review",
+      "family_id": "permit_inspection_delay",
+      "options": [
+        {
+          "claim_level": "review_context",
+          "forecast_created": false,
+          "option_id": "do_nothing_baseline"
+        },
+        {
+          "claim_level": "review_context",
+          "forecast_created": false,
+          "option_id": "targeted_review_followup"
+        },
+        {
+          "claim_level": "diagnostic_context",
+          "forecast_created": false,
+          "option_id": "source_quality_remediation"
+        }
+      ],
+      "recommendation_authority": "none"
+    },
+    {
+      "brief_attachment_ref": "brief:v3:city_asset_infrastructure_issue:simulation_block",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:review",
+      "family_id": "city_asset_infrastructure_issue",
+      "options": [
+        {
+          "claim_level": "review_context",
+          "forecast_created": false,
+          "option_id": "do_nothing_baseline"
+        },
+        {
+          "claim_level": "review_context",
+          "forecast_created": false,
+          "option_id": "targeted_review_followup"
+        },
+        {
+          "claim_level": "diagnostic_context",
+          "forecast_created": false,
+          "option_id": "source_quality_remediation"
+        }
+      ],
+      "recommendation_authority": "none"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

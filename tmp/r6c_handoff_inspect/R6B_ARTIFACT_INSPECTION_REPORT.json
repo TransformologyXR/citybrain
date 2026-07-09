@@ -1,0 +1,39 @@
+{
+  "schema_version": "metropolis-vss-runtime-provisioning-and-configuration-r6c.v1",
+  "source_package": "METROPOLIS_VSS_RUNTIME_CONFIGURED_RERUN_R6B_PACKAGE.zip",
+  "source_package_path": "/mnt/data/METROPOLIS_VSS_RUNTIME_CONFIGURED_RERUN_R6B_PACKAGE.zip",
+  "zip_integrity": "PASS",
+  "zip_entries": 12,
+  "json_parse": {
+    "status": "PASS",
+    "json_files_parsed": 11,
+    "parse_failures": []
+  },
+  "jsonl_parse": {
+    "status": "PASS",
+    "jsonl_files_parsed": 0,
+    "records": []
+  },
+  "hash_manifest": {
+    "status": "PASS",
+    "verified": 11,
+    "missing": [],
+    "mismatches": []
+  },
+  "closeout_status": "PARTIAL_METROPOLIS_VSS_RUNTIME_NOT_CONFIGURED_R6B_CONNECTIVITY_CONTRACT_READY",
+  "runtime_configured": false,
+  "probe_attempted": false,
+  "probe_executed": false,
+  "probe_status": "NOT_CONFIGURED",
+  "r2_candidate_observations": 24,
+  "r2_candidate_events": 1,
+  "vss_narration_records": 0,
+  "boundary": {
+    "deepstream_metropolis": "sensor_inferred",
+    "vss": "model_generated_narrative_only_not_fact_source",
+    "candidate_event_modified_by_vss": false,
+    "official_record_created": false,
+    "no_action_taken": true
+  },
+  "verified_at": "2026-07-03T22:10:00Z"
+}

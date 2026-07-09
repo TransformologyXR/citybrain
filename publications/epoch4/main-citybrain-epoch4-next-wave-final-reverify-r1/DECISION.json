@@ -1,0 +1,16 @@
+{
+  "all_selected_next_wave_outputs_found": true,
+  "all_selected_next_wave_outputs_passed": true,
+  "artifact_id": "DECISION",
+  "forbidden_capabilities_created": [],
+  "founder_review_prepared_no_session": true,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "limitations": [
+    "final reverify preserves PASS_WITH_LIMITATIONS posture",
+    "founder review remains prep-only",
+    "live ingestion, forecasts, learned ranking, official workflows, and UI/UX remain parked"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NEXT-WAVE-FINAL-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NEXT_WAVE_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+}

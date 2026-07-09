@@ -1,0 +1,16 @@
+{
+  "artifact_id": "MECHANICAL_GAP_CLOSURE_R2_DECISION",
+  "canonical_artifact_group_count": 12,
+  "forbidden_capabilities_created": [],
+  "limitations": [
+    "human sessions still pending",
+    "operator fuel accumulation blocked",
+    "Event Fabric and Simulation aftereffects require final reverify"
+  ],
+  "master_closeout_is_final_truth": false,
+  "mechanical_backlog_status": "CLEARED_WITH_LIMITATIONS",
+  "package_id": "MAIN-CITYBRAIN-PRE-E4-MECHANICAL-GAP-CLOSURE-R2-1",
+  "raw_ledger_item_count": 21,
+  "requires_final_three_package_reverify": true,
+  "status": "PASS_MAIN_CITYBRAIN_PRE_E4_MECHANICAL_GAP_CLOSURE_R2_1_WITH_LIMITATIONS"
+}

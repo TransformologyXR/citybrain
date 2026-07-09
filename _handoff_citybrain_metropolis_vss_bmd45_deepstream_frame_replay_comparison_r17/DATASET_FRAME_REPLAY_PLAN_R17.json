@@ -1,0 +1,16 @@
+{
+  "detector_source_class": "sensor_inferred",
+  "input_source": "R16 BMD-45 external media refs",
+  "live_cctv_claim_allowed": false,
+  "media_packaging": "external_refs_by_default",
+  "preferred_replay_methods": [
+    "generated_short_mp4_from_frames",
+    "image_sequence_source",
+    "per_image_pipeline"
+  ],
+  "schema_version": "metropolis-vss-bmd45-deepstream-frame-replay-comparison-r17.plan.v1",
+  "selected_dataset": "bmd45_huggingface_iisc_aim",
+  "source_class_input": "dataset_annotation",
+  "target_detector": "DeepStream/Metropolis on txr-4070",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-DEEPSTREAM-FRAME-REPLAY-COMPARISON-R17"
+}

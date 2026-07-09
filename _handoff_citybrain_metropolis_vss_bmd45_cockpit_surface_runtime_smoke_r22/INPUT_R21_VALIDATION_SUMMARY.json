@@ -1,0 +1,42 @@
+{
+  "app_fixture_emitted": true,
+  "audits": {
+    "claim_boundary": "PASS",
+    "no_action": "PASS",
+    "packaged_media": "PASS",
+    "secret": "PASS",
+    "source_class_separation": "PASS",
+    "vss_not_fact_source": "PASS"
+  },
+  "cockpit_tile_emitted": true,
+  "consumption_smoke_status": "PASS",
+  "created_at": "2026-07-05T07:15:34Z",
+  "deepstream_rerun": false,
+  "external_media_refs": 8,
+  "final_status": "PASS_METROPOLIS_VSS_BMD45_COCKPIT_REVIEW_INTEGRATION_SMOKE_R21_WITH_LIMITATIONS",
+  "frame_review_cards": 8,
+  "hash_manifest": {
+    "mismatches": 0,
+    "missing": 0,
+    "status": "PASS",
+    "total": 18,
+    "verified": 18
+  },
+  "input_package": "METROPOLIS_VSS_BMD45_COCKPIT_REVIEW_INTEGRATION_SMOKE_R21_PACKAGE.zip",
+  "json_parse": {
+    "json_files": 15,
+    "jsonl_files": 0,
+    "status": "PASS"
+  },
+  "packaged_media_files": 0,
+  "r20_input_validation": "PASS",
+  "schema_version": "r21-artifact-inspection-summary.v1",
+  "source_classes": {
+    "dataset_annotations": "dataset_annotation",
+    "deepstream_metropolis": "sensor_inferred",
+    "vss": "model_generated_narrative_not_fact_source"
+  },
+  "vss_rerun": false,
+  "zip_entries": 19,
+  "zip_integrity": "PASS"
+}

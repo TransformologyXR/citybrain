@@ -1,0 +1,23 @@
+{
+  "check_ref_family_counts": {
+    "building_compliance_perception_candidate": 4,
+    "city_asset_infrastructure_issue": 4,
+    "mobility_access_interruption": 4,
+    "permit_inspection_delay": 4
+  },
+  "expected_check_outcome_counts": {
+    "abstain_no_data": 4,
+    "abstain_unresolved": 4,
+    "candidate_only": 4,
+    "downgrade_contradiction": 4,
+    "downgrade_freshness": 4,
+    "downgrade_proximity_only": 4,
+    "downgrade_source_class": 4,
+    "downgrade_source_depth": 4,
+    "downgrade_spatial_context": 4,
+    "quarantine_invalid": 4,
+    "simulation_not_applicable": 4,
+    "sufficient_for_review": 4
+  },
+  "status": "PASS"
+}

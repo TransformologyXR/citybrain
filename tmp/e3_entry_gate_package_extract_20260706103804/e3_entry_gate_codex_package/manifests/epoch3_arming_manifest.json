@@ -1,0 +1,447 @@
+{
+  "manifest_id": "epoch3_arming_manifest",
+  "version": "1.0.0",
+  "gate_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "gate_semantics": "Epoch 3 entry gate; not a new epoch; not Epoch 2 recertification; measures fuel and publishes arming thresholds.",
+  "arming_semantics": "MAY_BEGIN_UNDER_CADENCE_AFTER_ARMING_LEDGER_ROW_NOT_STARTED",
+  "loop_crosswalk": {
+    "L1": "outcome ledger, calibration, ranking",
+    "L2": "backtest harness, forecasting",
+    "L3": "causal / counterfactual",
+    "L4": "institutional memory"
+  },
+  "evaluator": {
+    "id": "epoch3_arming_status",
+    "component_kind": "watch_family",
+    "dashboard_panel": "epoch3_arming_status",
+    "input_refs": [
+      "OutcomeRecord",
+      "CalibrationReport",
+      "WatchTelemetry",
+      "ExposureLog",
+      "OperatorValidationLog",
+      "SyntheticManifest",
+      "ScenarioReplayManifest",
+      "ComponentRegistry",
+      "LearnedComponentRegistry",
+      "CorpusManifest"
+    ],
+    "output_type": "ArmingStatusReport",
+    "ledger_event_on_crossing": "EPOCH3_ARMING_THRESHOLD_CROSSED"
+  },
+  "gate_execution_policy": {
+    "mode": "one_push_fixed_budget",
+    "extensions_allowed": false,
+    "unmeasured_items": "convert_to_limitation_rows",
+    "class_a_reproof_allowed": false,
+    "class_a_verification_only": true,
+    "class_b_empirical_measurement_required": true
+  },
+  "armed_now": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "conditionally_armed": {
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT": {
+      "operator_surface": false,
+      "arming_semantics": "MAY_BEGIN_AFTER_ARMING_LEDGER_ROW",
+      "requires": [
+        {
+          "id": "R3A_TOTAL_DISPOSITIONS",
+          "metric": "outcome.terminal_dispositions.count",
+          "op": ">=",
+          "value": 100,
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          }
+        },
+        {
+          "id": "R3A_OPERATOR_DIVERSITY",
+          "metric": "outcome.operator_refs.distinct_count",
+          "op": ">=",
+          "value": 3,
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          }
+        },
+        {
+          "id": "R3A_WATCH_FAMILY_DIVERSITY",
+          "metric": "watch.families.distinct_count",
+          "op": ">=",
+          "value": 3
+        },
+        {
+          "id": "R3A_DOMAIN_PACK_DIVERSITY",
+          "metric": "domain_packs.distinct_count",
+          "op": ">=",
+          "value": 2
+        },
+        {
+          "id": "R3A_LABEL_SET",
+          "metric": "label_set.terminal_disposition_values",
+          "op": "contains_all",
+          "value": [
+            "confirmed",
+            "dismissed",
+            "needs_more"
+          ]
+        },
+        {
+          "id": "R3A_EXPLORATION_FLOOR",
+          "metric": "watch.exploration_floor.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_STATIC_HOLDOUTS",
+          "metric": "watch.static_holdout_families.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_FROZEN_REPLAY",
+          "metric": "replay.frozen_slice.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_REGISTRY_ENTRY_EXISTS",
+          "metric": "registry.learned_component.ranker_l1_r3a.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3A_REGISTRY_STATUS",
+          "metric": "registry.learned_component.ranker_l1_r3a.status",
+          "op": "==",
+          "value": "experimental"
+        },
+        {
+          "id": "R3A_NO_CONSUMING_SURFACES",
+          "metric": "registry.learned_component.ranker_l1_r3a.consuming_surfaces_count",
+          "op": "==",
+          "value": 0
+        },
+        {
+          "id": "R3A_AUTHORITY",
+          "metric": "registry.learned_component.ranker_l1_r3a.authority",
+          "op": "==",
+          "value": "offline_eval_only"
+        }
+      ]
+    },
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING": {
+      "operator_surface": true,
+      "arming_semantics": "MAY_BEGIN_AFTER_ARMING_LEDGER_ROW",
+      "requires": [
+        {
+          "id": "R3B_TOTAL_DISPOSITIONS",
+          "metric": "outcome.terminal_dispositions.count",
+          "op": ">=",
+          "value": 200,
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          }
+        },
+        {
+          "id": "R3B_OPERATOR_DIVERSITY",
+          "metric": "outcome.operator_refs.distinct_count",
+          "op": ">=",
+          "value": 3,
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          }
+        },
+        {
+          "id": "R3B_MIN_PER_OPERATOR",
+          "metric": "outcome.min_terminal_dispositions_per_operator",
+          "op": ">=",
+          "value": 20,
+          "filters": {
+            "post_validation_fix": true,
+            "propensity_status": "known"
+          }
+        },
+        {
+          "id": "R3B_WATCH_FAMILY_DIVERSITY",
+          "metric": "watch.families.distinct_count",
+          "op": ">=",
+          "value": 3
+        },
+        {
+          "id": "R3B_DOMAIN_PACK_DIVERSITY",
+          "metric": "domain_packs.distinct_count",
+          "op": ">=",
+          "value": 2
+        },
+        {
+          "id": "R3B_MIN_PER_ARMED_FAMILY",
+          "metric": "outcome.min_terminal_dispositions_per_armed_family",
+          "op": ">=",
+          "value": 40
+        },
+        {
+          "id": "R3B_AGGREGATION_FLOOR",
+          "metric": "operator_data.aggregation_floor.satisfied",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_EXPOSURE_COVERAGE",
+          "metric": "watch.exposure_logging.coverage",
+          "op": "==",
+          "value": "all_training_candidates"
+        },
+        {
+          "id": "R3B_EXPLORATION_FLOOR",
+          "metric": "watch.exploration_floor.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_STATIC_HOLDOUTS",
+          "metric": "watch.static_holdout_families.enabled",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_RANKER_OFF_REPLAY",
+          "metric": "ranker_off_replay.available",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "R3B_CHECK_REGRESSION",
+          "metric": "check.claimability_regression",
+          "op": "==",
+          "value": "green"
+        },
+        {
+          "id": "R3B_NO_OFFICIAL_ACTION",
+          "metric": "boundary.no_official_action_claims",
+          "op": "==",
+          "value": true
+        }
+      ]
+    },
+    "L2.R2_FORECAST_MODEL": {
+      "operator_surface": false,
+      "arming_semantics": "MAY_BEGIN_AFTER_ARMING_LEDGER_ROW",
+      "requires": [
+        {
+          "id": "L2R2_BACKTEST_REPORT",
+          "metric": "BacktestReport.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_LABEL_HISTORY",
+          "metric": "forecast_target.labels_or_proxy_history.sufficient",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_FROZEN_EVAL_SLICE",
+          "metric": "frozen_eval_slice.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_BASELINE_COMPARATOR",
+          "metric": "baseline.do_nothing_comparator.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_UNCERTAINTY_SCHEMA",
+          "metric": "uncertainty_schema.approved",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L2R2_FORECAST_CHECK_GATE",
+          "metric": "ForecastPacket.check_gate.exists",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  "blocked_until": {
+    "L3_COUNTERFACTUAL": {
+      "reason": "Counterfactual learning requires causal/simulation substrate, not only outcome labels.",
+      "requires": [
+        {
+          "id": "L3_PROPAGATION_RULE_REGISTRY",
+          "metric": "registry.propagation_rule_registry.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L3_FIDELITY_GATE",
+          "metric": "simulation.fidelity_gate.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L3_ASSUMPTIONS_SCHEMA",
+          "metric": "counterfactual_packet.assumptions_schema.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L3_UNCERTAINTY_SCHEMA",
+          "metric": "counterfactual_packet.uncertainty_schema.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L3_CHECK_COVERAGE",
+          "metric": "counterfactual_packet.check_gate.coverage",
+          "op": "==",
+          "value": "all_packets"
+        },
+        {
+          "id": "L3_NO_OFFICIAL_ACTION",
+          "metric": "counterfactual_packet.official_action_claims",
+          "op": "==",
+          "value": 0
+        }
+      ]
+    },
+    "L4_CASE_MEMORY": {
+      "reason": "Institutional memory requires case retention, deletion, privacy, and source/outcome lineage enforcement.",
+      "requires": [
+        {
+          "id": "L4_CASE_RETENTION",
+          "metric": "policy.case_retention.enforced",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L4_DELETE_PATH",
+          "metric": "policy.right_to_forget_or_delete_path.enforced",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L4_AGGREGATION_FLOOR",
+          "metric": "operator_data.aggregation_floor.satisfied",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "L4_SOURCE_CLASS_COVERAGE",
+          "metric": "case_artifacts.source_class_coverage",
+          "op": "==",
+          "value": "all_cases"
+        },
+        {
+          "id": "L4_OUTCOME_LINEAGE_COVERAGE",
+          "metric": "case_artifacts.outcome_lineage_coverage",
+          "op": "==",
+          "value": "all_cases"
+        },
+        {
+          "id": "L4_NO_CROSS_CITY_TRANSFER",
+          "metric": "cross_city_learned_transfer.enabled",
+          "op": "==",
+          "value": false
+        }
+      ]
+    },
+    "DYNAMIC_INVESTIGATION_AGENT": {
+      "reason": "Investigation autonomy remains blocked until PLAN/RECALL/CHECK/outcome memory contracts mature.",
+      "requires": [
+        {
+          "id": "DIA_APPROVAL_POLICY",
+          "metric": "investigation_agent.approval_policy.enforced",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "DIA_NO_AUTONOMOUS_ACTION",
+          "metric": "investigation_agent.autonomous_action.enabled",
+          "op": "==",
+          "value": false
+        },
+        {
+          "id": "DIA_CHECK_COVERAGE",
+          "metric": "investigation_agent.check_gate.coverage",
+          "op": "==",
+          "value": "all_packets"
+        }
+      ]
+    },
+    "CROSS_CITY_LEARNED_TRANSFER": {
+      "reason": "Federated query may exist before learned cross-city transfer. Learned transfer requires explicit manifest and evaluation discipline.",
+      "requires": [
+        {
+          "id": "XFER_FEDERATION_MANIFEST",
+          "metric": "federation.transfer_manifest.exists",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "XFER_CITY_SCOPED_IDS",
+          "metric": "federation.city_scoped_ids.enforced",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "XFER_SOURCE_CLASS_SEPARATION",
+          "metric": "federation.source_class_separation.enforced",
+          "op": "==",
+          "value": true
+        },
+        {
+          "id": "XFER_LEARNED_TRANSFER_APPROVED",
+          "metric": "cross_city_learned_transfer.approved",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  "not_armed_initial": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "exposure_propensity_policy": {
+    "default": "known_required_for_training_thresholds",
+    "pre_logging_records": "flag_propensity_unknown",
+    "propensity_unknown_allowed_for": [
+      "descriptive_baseline",
+      "calibration_exploration",
+      "sensitivity_analysis"
+    ],
+    "propensity_unknown_not_allowed_for": [
+      "primary_L1_R3A_threshold",
+      "primary_L1_R3B_threshold",
+      "operator_facing_ranker_training_manifest"
+    ],
+    "override_requires_ledger_row": true
+  },
+  "non_claims": [
+    "no_official_action",
+    "no_dispatch",
+    "no_enforcement",
+    "no_certified_or_legal_finding",
+    "no_live_production_api_claim",
+    "no_silent_model_launch",
+    "no_autonomous_action"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-07-05T07:15:34Z",
+  "errors": [],
+  "json_file_count": 8,
+  "json_files_checked": [
+    "GUARDRAIL_TERMS_R22.json",
+    "INPUT_R21_VALIDATION_SUMMARY.json",
+    "R21_ARTIFACT_INSPECTION_REPORT.json",
+    "RUNTIME_HOST_ALLOCATION_R22.json",
+    "SCHEMA_COCKPIT_SURFACE_RUNTIME_REPORT_R22.json",
+    "SCHEMA_DECISION_R22.json",
+    "SCHEMA_HUMAN_REVIEW_SURFACE_PACKET_R22.json",
+    "STATUS_ENUMS_R22.json"
+  ],
+  "schema_version": "handoff-json-parse-report.v1",
+  "status": "PASS"
+}

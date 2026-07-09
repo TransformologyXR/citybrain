@@ -1,0 +1,96 @@
+{
+  "artifact_id": "TOP_IDENTITY_AMBIGUITY_CLUSTERS",
+  "clusters": [
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "queue_id": "identity-cluster-01",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:01"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "queue_id": "identity-cluster-02",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:02"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "queue_id": "identity-cluster-03",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:03"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "queue_id": "identity-cluster-04",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:04"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "queue_id": "identity-cluster-05",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:05"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "queue_id": "identity-cluster-06",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:06"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "queue_id": "identity-cluster-07",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:07"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "queue_id": "identity-cluster-08",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:08"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "queue_id": "identity-cluster-09",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:09"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "queue_id": "identity-cluster-10",
+      "recommended_action": "review entity aliases and conflict provenance",
+      "source_ref": "cer:ambiguity:10"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

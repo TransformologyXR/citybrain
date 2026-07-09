@@ -1,0 +1,25 @@
+{
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1",
+  "expected_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_LOOP_CONVERGENCE_EVENT_ADAPTER_R1_WITH_LIMITATIONS",
+  "required_files": [
+    "SEED_R3_LOOP_CONVERGENCE_EVENT_ADAPTER_DECISION.json",
+    "LOOP_FAMILY_ALIGNMENT_REPORT.json",
+    "EVENT_FABRIC_SOURCE_ADAPTER_FEED_R1.jsonl",
+    "SOURCE_ADAPTER_MANIFEST_R1.json",
+    "RESOLVER_STRESS_CASES_R1.jsonl",
+    "EXPECTED_UNRESOLVED_AND_QUARANTINE_CASES_R1.jsonl",
+    "CADENCE_REPLAY_PLAN_R1.json",
+    "EVENT_FABRIC_INGESTION_CONTRACT_R1.json",
+    "AI_DIAGNOSTIC_REVIEW_GATE_R1.md",
+    "BOUNDARY_AND_NO_ACTION_AUDIT.json",
+    "SECRET_SCAN_REPORT.json",
+    "HASH_MANIFEST.json",
+    "CODEX_CLOSEOUT.md"
+  ],
+  "minimum_counts": {
+    "event_adapter_rows": 16,
+    "resolver_stress_cases": 4,
+    "expected_unresolved_or_quarantine_cases": 4,
+    "loop_families": 4
+  }
+}

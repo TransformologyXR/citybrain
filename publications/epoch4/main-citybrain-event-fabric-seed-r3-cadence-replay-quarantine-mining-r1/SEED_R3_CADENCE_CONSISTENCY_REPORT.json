@@ -1,0 +1,18 @@
+{
+  "artifact_id": "SEED_R3_CADENCE_CONSISTENCY_REPORT",
+  "cadence_consistency_status": "PASS",
+  "final_state_hash_values": [
+    "bab02c62e743a7072ab91615e5faf64b5555ea7c1c1baf9a764a0b360efe97c3"
+  ],
+  "identical_final_state_hash": true,
+  "materialized_state_digest_agreement": true,
+  "modes": [
+    "batch",
+    "10x",
+    "60x",
+    "wall_clock_simulated"
+  ],
+  "partition_digest_agreement": true,
+  "query_state_digest_agreement": true,
+  "status": "PASS"
+}

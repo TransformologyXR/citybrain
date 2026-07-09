@@ -1,0 +1,52 @@
+{
+  "properties": {
+    "boundary_labels_present": {
+      "type": "boolean"
+    },
+    "external_media_refs_preserved": {
+      "type": "boolean"
+    },
+    "input_fixture_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "loaded_sections": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "result": {
+      "enum": [
+        "PASS",
+        "PARTIAL",
+        "FAIL"
+      ]
+    },
+    "route_url": {
+      "type": "string"
+    },
+    "source_class_labels_present": {
+      "type": "boolean"
+    },
+    "surface_mode": {
+      "enum": [
+        "app_route",
+        "static_render_fixture",
+        "contract_only"
+      ]
+    }
+  },
+  "required": [
+    "surface_mode",
+    "input_fixture_ids",
+    "loaded_sections",
+    "boundary_labels_present",
+    "source_class_labels_present",
+    "external_media_refs_preserved",
+    "result"
+  ],
+  "type": "object"
+}

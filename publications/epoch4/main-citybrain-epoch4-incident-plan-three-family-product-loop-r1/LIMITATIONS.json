@@ -1,0 +1,11 @@
+{
+  "artifact_id": "LIMITATIONS",
+  "limitations": [
+    "local/replay/review-only",
+    "fixture-bounded simulation, not forecast",
+    "no official action/ticket/case",
+    "no operator fuel",
+    "no production live ingestion"
+  ],
+  "status": "PASS"
+}

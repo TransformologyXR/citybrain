@@ -1,0 +1,25 @@
+# R22 Package Contract
+
+Expected output files:
+
+- `R22_CLOSEOUT_DECISION.json`
+- `R21_INPUT_LINEAGE_SUMMARY.json`
+- `COCKPIT_SURFACE_RUNTIME_REPORT_R22.json`
+- `COCKPIT_SURFACE_RENDER_FIXTURE_R22.json`
+- `COCKPIT_SURFACE_BOUNDARY_LABEL_AUDIT_R22.json`
+- `COCKPIT_SURFACE_SOURCE_CLASS_AUDIT_R22.json`
+- `COCKPIT_SURFACE_EXTERNAL_MEDIA_REF_AUDIT_R22.json`
+- `COCKPIT_SURFACE_CONSUMPTION_SMOKE_R22.json`
+- `HUMAN_REVIEW_SURFACE_PACKET_R22.json`
+- `SOURCE_CLASS_SEPARATION_AUDIT_R22.json`
+- `CLAIM_BOUNDARY_AUDIT_R22.json`
+- `NO_ACTION_AUDIT_R22.json`
+- `VSS_NOT_FACT_SOURCE_AUDIT_R22.json`
+- `SECRET_AUDIT_R22.json`
+- `KNOWN_LIMITATIONS_R22.md`
+- `NEXT_SPRINT_RECOMMENDATIONS_R22.md`
+- `R22_JSON_PARSE_REPORT.json`
+- `HASH_MANIFEST.json`
+
+If an app route is available, include route/URL/DOM or screenshot metadata.
+If no app route is available, emit the partial status and the static render fixture.

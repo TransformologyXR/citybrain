@@ -1,0 +1,9 @@
+{
+  "all_tasks_have_check_refs": true,
+  "all_tasks_have_evidence_refs": true,
+  "all_tasks_have_limitations": true,
+  "all_tasks_have_no_action_boundary": true,
+  "artifact_id": "DRY_RUN_PACKET_COMPLETENESS_REPORT",
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_count": 12
+}

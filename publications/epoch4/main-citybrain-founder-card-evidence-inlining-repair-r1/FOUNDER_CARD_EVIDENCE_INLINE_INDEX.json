@@ -1,0 +1,318 @@
+{
+  "artifact_id": "FOUNDER_CARD_EVIDENCE_INLINE_INDEX",
+  "card_count": 13,
+  "cards": [
+    {
+      "card_id": "founder-inline-001",
+      "card_type": "cross_domain_story_card",
+      "evidence_notes_inline_count": 8,
+      "founder_reviewable": true,
+      "limitations": [
+        "authored story arc only",
+        "not product or client review ready"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 9,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:building_compliance:003",
+        "seed-r3-expanded:permit_inspection_delay:003",
+        "seed-r3-expanded:asset_infrastructure:001",
+        "seed-r3-expanded:mobility_access:011",
+        "seed-r3-expanded:asset_infrastructure:016"
+      ],
+      "source_story_id": "founder-story-001-cross-domain-site-cascade",
+      "suggested_initial_call": "need_more_before_deciding",
+      "title": "One site with permit, access, building, and infrastructure signals"
+    },
+    {
+      "card_id": "founder-inline-002",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "single signal only",
+        "source depth may be thin"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 0,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "source_record:sensor:near_alpha:2026-07-07"
+      ],
+      "source_story_id": "founder-story-event-building-compliance-perception-candidate",
+      "suggested_initial_call": "watch_this",
+      "title": "Building concern near a site - source note inlined"
+    },
+    {
+      "card_id": "founder-inline-003",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "single signal only",
+        "source depth may be thin"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 0,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "source_record:permit:alpha:2026-07-01"
+      ],
+      "source_story_id": "founder-story-event-permit-inspection-delay",
+      "suggested_initial_call": "watch_this",
+      "title": "Permit or inspection delay - source note inlined"
+    },
+    {
+      "card_id": "founder-inline-004",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "single signal only",
+        "source depth may be thin"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 0,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "source_record:asset:infrastructure:fixture"
+      ],
+      "source_story_id": "founder-story-event-city-asset-infrastructure-issue",
+      "suggested_initial_call": "need_more_before_deciding",
+      "title": "Infrastructure or city asset concern - source note inlined"
+    },
+    {
+      "card_id": "founder-inline-005",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "single signal only",
+        "source depth may be thin"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 0,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "source_record:inspection:alpha:2026-06-30"
+      ],
+      "source_story_id": "founder-story-event-mobility-access-interruption",
+      "suggested_initial_call": "watch_this",
+      "title": "Access interruption - source note inlined"
+    },
+    {
+      "card_id": "founder-inline-006",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "diagnostic scenario card",
+        "not a real founder session result"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 2,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "founder-probe-r2-01"
+      ],
+      "source_story_id": "founder-story-card-founder-probe-r2-01",
+      "suggested_initial_call": "watch_this",
+      "title": "Building concern near a site - positive packet baseline"
+    },
+    {
+      "card_id": "founder-inline-007",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "diagnostic scenario card",
+        "not a real founder session result"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 2,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "founder-probe-r2-02"
+      ],
+      "source_story_id": "founder-story-card-founder-probe-r2-02",
+      "suggested_initial_call": "need_more_before_deciding",
+      "title": "Building concern near a site - negative no data"
+    },
+    {
+      "card_id": "founder-inline-008",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "diagnostic scenario card",
+        "not a real founder session result"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 2,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "founder-probe-r2-03"
+      ],
+      "source_story_id": "founder-story-card-founder-probe-r2-03",
+      "suggested_initial_call": "need_more_before_deciding",
+      "title": "Building concern near a site - stale freshness"
+    },
+    {
+      "card_id": "founder-inline-009",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 1,
+      "founder_reviewable": true,
+      "limitations": [
+        "diagnostic scenario card",
+        "not a real founder session result"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 2,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "founder-probe-r2-04"
+      ],
+      "source_story_id": "founder-story-card-founder-probe-r2-04",
+      "suggested_initial_call": "need_more_before_deciding",
+      "title": "Building concern near a site - contradiction pair"
+    },
+    {
+      "card_id": "founder-inline-010",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 2,
+      "founder_reviewable": true,
+      "limitations": [
+        "local synthetic sample",
+        "not a real-world source claim"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 1,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:mobility_access:002"
+      ],
+      "source_story_id": "founder-story-seed-mobility-access-interruption-v0",
+      "suggested_initial_call": "watch_this",
+      "title": "Access interruption examples"
+    },
+    {
+      "card_id": "founder-inline-011",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 2,
+      "founder_reviewable": true,
+      "limitations": [
+        "local synthetic sample",
+        "not a real-world source claim"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 1,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:building_compliance:002"
+      ],
+      "source_story_id": "founder-story-seed-building-compliance-perception-candidate",
+      "suggested_initial_call": "watch_this",
+      "title": "Building concern near a site examples"
+    },
+    {
+      "card_id": "founder-inline-012",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 2,
+      "founder_reviewable": true,
+      "limitations": [
+        "local synthetic sample",
+        "not a real-world source claim"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 1,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:permit_inspection_delay:002"
+      ],
+      "source_story_id": "founder-story-seed-permit-inspection-delay",
+      "suggested_initial_call": "watch_this",
+      "title": "Permit or inspection delay examples"
+    },
+    {
+      "card_id": "founder-inline-013",
+      "card_type": "single_family_example_card",
+      "evidence_notes_inline_count": 2,
+      "founder_reviewable": true,
+      "limitations": [
+        "local synthetic sample",
+        "not a real-world source claim"
+      ],
+      "main_path_technical_terms_present": [],
+      "missing_field_count": 0,
+      "primary_decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:asset_infrastructure:001",
+        "seed-r3-expanded:asset_infrastructure:002"
+      ],
+      "source_story_id": "founder-story-seed-city-asset-infrastructure-issue",
+      "suggested_initial_call": "watch_this",
+      "title": "Infrastructure or city asset concern examples"
+    }
+  ],
+  "main_path_technical_terms_present": [],
+  "minimum_card_count_met": true
+}

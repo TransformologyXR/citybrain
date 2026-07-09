@@ -1,0 +1,18 @@
+{
+  "dataset_annotations": {
+    "source": "BMD-45",
+    "source_class": "dataset_annotation"
+  },
+  "deepstream_metropolis": {
+    "host": "txr-4070",
+    "source_class": "sensor_inferred"
+  },
+  "schema_version": "runtime-host-allocation-r22.v1",
+  "txr_3090": {
+    "active_for_this_chain": false
+  },
+  "vss": {
+    "host": "spark-2445",
+    "source_class": "model_generated_narrative_not_fact_source"
+  }
+}

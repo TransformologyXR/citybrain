@@ -1,0 +1,14 @@
+{
+  "expected_event_handling_counts": {
+    "local_replay_state_only": 44,
+    "quarantine": 4
+  },
+  "missing_lifecycle_states": [
+    "duplicate",
+    "late",
+    "superseded",
+    "expired",
+    "reopened"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

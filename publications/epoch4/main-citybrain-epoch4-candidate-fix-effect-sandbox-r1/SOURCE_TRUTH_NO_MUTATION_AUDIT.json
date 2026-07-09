@@ -1,0 +1,7 @@
+{
+  "artifact_id": "SOURCE_TRUTH_NO_MUTATION_AUDIT",
+  "canonical_truth_mutated": false,
+  "source_records_mutated": false,
+  "source_registry_mutated": false,
+  "status": "PASS"
+}

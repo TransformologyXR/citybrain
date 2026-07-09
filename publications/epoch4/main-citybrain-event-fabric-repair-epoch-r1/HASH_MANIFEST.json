@@ -1,0 +1,203 @@
+{
+  "artifact_id": "MAIN_CITYBRAIN_EVENT_FABRIC_REPAIR_EPOCH_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 240,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_APPEND_REPORT.json",
+      "sha256": "e8a597a1c53a30c63bc0907c97323b15845b0dbbaee5b1098c963267fe87025f"
+    },
+    {
+      "bytes": 6405,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_CURRENT_STATE.json",
+      "sha256": "66078a55b444df0084acd68d0860af0bc90a62548144b9f840b935d80d55e883"
+    },
+    {
+      "bytes": 239,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_EVIDENCE_BUNDLE_HANDOFF_PACKET.json",
+      "sha256": "d257d5bdd6ce9152e2448f3f41f0287c1e5ef111feddee8ac2869f6c77c4aa72"
+    },
+    {
+      "bytes": 699,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_CONTRACT_PUBLICATION_REAUDIT_R1.json",
+      "sha256": "3337d26352e9ae6a8b74e2774dcb91510cc6c7a16af300cb100754bc353bc631"
+    },
+    {
+      "bytes": 382,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_REPAIR_EPOCH_R1_CLOSEOUT.md",
+      "sha256": "024deec59cfc2af520548425ea90155d5bcb29fee806504b570f6ba8b3f7a06e"
+    },
+    {
+      "bytes": 507,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_REPAIR_EPOCH_R1_DECISION.json",
+      "sha256": "d3f6c8cb1dc20f5fec31cbbd3ade38746b850859791e1b6ee17e85d25590fbb1"
+    },
+    {
+      "bytes": 189,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_REQUIRES_FINAL_THREE_PACKAGE_REVERIFY_R1.json",
+      "sha256": "1b4267c0b31392c62915ba506606dae01e5c020a7732407b9f88d15dbe6cbd9a"
+    },
+    {
+      "bytes": 1922,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_SOURCE_REF_AUDIT.json",
+      "sha256": "fc53699705284345839b5374aa2adb6b9d84cb7a5a19fa5529eb3e99e8dd3b47"
+    },
+    {
+      "bytes": 2717,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_LOG.jsonl",
+      "sha256": "664f45c2b8522485faaee6eef016c7a30b36b2601c4099b62ba709e6471025e6"
+    },
+    {
+      "bytes": 818,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_QUERY_FIXTURES.jsonl",
+      "sha256": "bbddc417cf01dcee4222313e2e57a187c21b2d990fe08eb796ba4379f737cd62"
+    },
+    {
+      "bytes": 351,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_QUERY_SMOKE_REPORT.json",
+      "sha256": "c058fe47d4c7c82256fc697f3fe17da21c20b151614b4c3fcf9be5795468f1ad"
+    },
+    {
+      "bytes": 372,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_REPLAY_DETERMINISM_REPORT.json",
+      "sha256": "4c9a7a3c47c1cb87add4969220001d681d1ddb703bb7f09e7d451c7636fdf16d"
+    },
+    {
+      "bytes": 199,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_REPLAY_REPORT.json",
+      "sha256": "441ce94e2f83f2432795ff661d6974461121a8237eaaf7a1d81c4585c740fd67"
+    },
+    {
+      "bytes": 248,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_RESOLUTION_NEGATIVE_FIXTURES.jsonl",
+      "sha256": "36173c47e1d0061e49d721fbb6188bed99c05b264c41d0bc856845cb8a61014d"
+    },
+    {
+      "bytes": 277,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_RESOLUTION_REPORT.json",
+      "sha256": "73deb1a5981f76d64bb977659ef000be5b94216b1562520038a222eddb0b004f"
+    },
+    {
+      "bytes": 295,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_RUNTIME_HANDOFF_PACKET.json",
+      "sha256": "1171ac4e902c10f78a98f3c4226c4d9c663218e1d2d07ef33caccb7bbf2586b7"
+    },
+    {
+      "bytes": 280,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_SPATIAL_OVERLAY_HANDOFF_PACKET.json",
+      "sha256": "cf2e0245546027ef857b88b2afe561962c9cb605a41ac890473eeca8fe3b81ad"
+    },
+    {
+      "bytes": 270,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_STATE_MATERIALIZATION_REPORT.json",
+      "sha256": "03dc3225b21e50b914a904dea55870a4877b98d9d2f9fa9f9b5593c0ed374330"
+    },
+    {
+      "bytes": 177,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_SUPERSESSION_EXPIRY_REPORT.json",
+      "sha256": "55468d2acb52aa66b005ada8a7cfda326aec3b6bb174e82883b344eea2b95622"
+    },
+    {
+      "bytes": 845,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/NO_ACTION_BOUNDARY_GUARD.json",
+      "sha256": "67be4cf1686f45a106bfffbfb2d0e13c05faad110ad1405ef76062bd1927238a"
+    },
+    {
+      "bytes": 850,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/NO_LIVE_INGESTION_CLAIM_GUARD.json",
+      "sha256": "4bf821cc9a0cc466f8b6137e178c4663b2ff6f1e93400fb04d8b049be8cdad09"
+    },
+    {
+      "bytes": 838,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/NO_MUTATION_GUARD.json",
+      "sha256": "80db9ac4495b64d4f9a044260211b2d817d48c0a810cd4b43802b74ac4f376db"
+    },
+    {
+      "bytes": 255,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/QUARANTINED_EVENT_LOG.jsonl",
+      "sha256": "258d83a513cd4fe164869fcea2cf207bafef45a4509685498d2f30a541a17782"
+    },
+    {
+      "bytes": 232,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/SECRET_SCAN_REPORT.json",
+      "sha256": "b8e94d418c8fc09108b33bc6532f9cedbbf8228beb6e7f431eb93df29254e312"
+    },
+    {
+      "bytes": 132,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/TEST_LOG.txt",
+      "sha256": "3c032c2a25d03c6f9e42ddfa00ea3f622b4a4062dff23c11a39e7aa30bca9ccf"
+    },
+    {
+      "bytes": 685,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/UNRESOLVED_EVENT_QUEUE.jsonl",
+      "sha256": "8bf092ff71ffc48b55cb03b8fc8a213b4b549567c4424ce11600e17fe6a1cb71"
+    },
+    {
+      "bytes": 699,
+      "path": "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1/EVENT_FABRIC_CONTRACT_PUBLICATION_REAUDIT_R1.json",
+      "sha256": "3337d26352e9ae6a8b74e2774dcb91510cc6c7a16af300cb100754bc353bc631"
+    },
+    {
+      "bytes": 382,
+      "path": "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1/EVENT_FABRIC_REPAIR_EPOCH_R1_CLOSEOUT.md",
+      "sha256": "024deec59cfc2af520548425ea90155d5bcb29fee806504b570f6ba8b3f7a06e"
+    },
+    {
+      "bytes": 507,
+      "path": "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1/EVENT_FABRIC_REPAIR_EPOCH_R1_DECISION.json",
+      "sha256": "d3f6c8cb1dc20f5fec31cbbd3ade38746b850859791e1b6ee17e85d25590fbb1"
+    },
+    {
+      "bytes": 1922,
+      "path": "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1/EVENT_FABRIC_SOURCE_REF_AUDIT.json",
+      "sha256": "fc53699705284345839b5374aa2adb6b9d84cb7a5a19fa5529eb3e99e8dd3b47"
+    },
+    {
+      "bytes": 850,
+      "path": "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1/NO_LIVE_INGESTION_CLAIM_GUARD.json",
+      "sha256": "4bf821cc9a0cc466f8b6137e178c4663b2ff6f1e93400fb04d8b049be8cdad09"
+    },
+    {
+      "bytes": 132,
+      "path": "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1/TEST_LOG.txt",
+      "sha256": "3c032c2a25d03c6f9e42ddfa00ea3f622b4a4062dff23c11a39e7aa30bca9ccf"
+    },
+    {
+      "bytes": 1845,
+      "path": "contracts/event_fabric_r1/EventEnvelope.schema.json",
+      "sha256": "870aed8074649cc742857f443fcc05bd80982c0d4000333c70c145e0a7e9a78c"
+    },
+    {
+      "bytes": 464,
+      "path": "contracts/event_fabric_r1/EventQuery.schema.json",
+      "sha256": "e8ec2f1ed492feb6a469f94e187d07fbbb9b22b9c72708527dfcbebeaf8d4ebc"
+    },
+    {
+      "bytes": 598,
+      "path": "contracts/event_fabric_r1/EventResolution.schema.json",
+      "sha256": "2d89aa5f1cfe1307e04e63fdb900e7e40190e93169c7ee92e7958d32e4d746f6"
+    },
+    {
+      "bytes": 469,
+      "path": "contracts/event_fabric_r1/EventState.schema.json",
+      "sha256": "fba48f82149f31a5cb56f40ae80af4d2eacd8d2d9f6353da86793f6f13989c29"
+    },
+    {
+      "bytes": 475,
+      "path": "contracts/event_fabric_r1/EventTrace.schema.json",
+      "sha256": "de37f1e2c0fefaf313f15f627bfa871db22577f89dbd88de688f8a2b4f8430ec"
+    },
+    {
+      "bytes": 467,
+      "path": "contracts/event_fabric_r1/EventTypeRegistry.schema.json",
+      "sha256": "41f3a9e7984ca457a91b68eb71626c5d17bc8e6d61cbd2b231dd5c3e7d5edb53"
+    }
+  ],
+  "entry_count": 38,
+  "generated_at": "2026-07-07T11:10:54+00:00",
+  "included_roots": [
+    "outputs/main_citybrain_event_fabric_repair_epoch_r1",
+    "publications/epoch4/main-citybrain-event-fabric-repair-epoch-r1",
+    "contracts/event_fabric_r1"
+  ],
+  "root": "outputs/main_citybrain_event_fabric_repair_epoch_r1"
+}

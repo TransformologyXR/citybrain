@@ -1,0 +1,33 @@
+{
+  "artifact_id": "FORBIDDEN_CAPABILITY_GUARD",
+  "checks": {
+    "ForecastPacket_or_product_forecast_created": false,
+    "canonical_truth_mutated": false,
+    "founder_session_results_created": false,
+    "learned_arming_created": false,
+    "live_ingestion_created": false,
+    "maturity_score_inflation_as_fact_created": false,
+    "official_workflow_action_created": false,
+    "operator_fuel_created": false,
+    "source_truth_mutated": false,
+    "training_rows_created": false
+  },
+  "forbidden_capabilities_checked": [
+    "source_truth_mutation",
+    "canonical_truth_mutation",
+    "maturity_score_inflation_as_fact",
+    "founder_session",
+    "session_results",
+    "operator_fuel",
+    "training_rows",
+    "learned_arming",
+    "live_ingestion",
+    "ForecastPacket_or_product_forecast",
+    "official_workflow_action_case_ticket_dispatch_control_enforcement"
+  ],
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-08T04:16:45Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NO-SESSION-PROBE-READINESS-REVERIFY-R1",
+  "scope": "outputs/main_citybrain_epoch4_no_session_probe_readiness_reverify_r1",
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "active_contract_target": "contracts/event_fabric_v2",
+  "artifact_id": "EVENT_FABRIC_V2_DELTA_PLAN",
+  "deltas": [
+    "deterministic event ids",
+    "source adapter contract semantics",
+    "event_time/observed_at/ingested_at/processing_time split",
+    "CER-backed resolver",
+    "WATCH/CHECK/BRIEF/spatial handoff attachments"
+  ],
+  "duplicate_contract_pack_created": false,
+  "r1_provenance_root": "outputs/main_citybrain_event_fabric_repair_epoch_r1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

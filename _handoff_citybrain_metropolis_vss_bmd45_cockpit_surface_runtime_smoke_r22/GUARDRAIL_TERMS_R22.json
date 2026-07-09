@@ -1,0 +1,22 @@
+{
+  "forbidden_claims": [
+    "live CCTV",
+    "production monitoring",
+    "confirmed violation",
+    "official ticket",
+    "case created",
+    "dispatch",
+    "enforcement action",
+    "identity",
+    "biometric",
+    "legal finding",
+    "certified finding"
+  ],
+  "required_labels": [
+    "candidate review only",
+    "not a finding",
+    "dataset_annotation",
+    "sensor_inferred",
+    "model_generated_narrative_not_fact_source"
+  ]
+}

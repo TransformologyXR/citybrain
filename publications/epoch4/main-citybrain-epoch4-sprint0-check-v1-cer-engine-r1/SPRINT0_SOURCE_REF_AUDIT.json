@@ -1,0 +1,106 @@
+{
+  "artifact_id": "SPRINT0_SOURCE_REF_AUDIT",
+  "missing_files": [],
+  "package_zip": "C:\\Users\\hazem\\Downloads\\main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1.zip",
+  "present_files": [
+    "E4_BACKLOG_DISPOSITION_LEDGER.json",
+    "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+    "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+    "README.md",
+    "THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json",
+    "THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json",
+    "THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json",
+    "THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+    "THREE_PACKAGE_REVERIFY_CLOSEOUT.md",
+    "THREE_PACKAGE_SEQUENCE_DECISION.json",
+    "THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json",
+    "THREE_PACKAGE_SOURCE_REF_AUDIT.json"
+  ],
+  "required_files": [
+    "E4_BACKLOG_DISPOSITION_LEDGER.json",
+    "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+    "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+    "THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json",
+    "THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json",
+    "THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json",
+    "THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+    "THREE_PACKAGE_SEQUENCE_DECISION.json",
+    "THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json",
+    "THREE_PACKAGE_SOURCE_REF_AUDIT.json"
+  ],
+  "source_refs": [
+    {
+      "bytes": 9179,
+      "file": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+      "sha256": "8d67af25bd9976bde8342619d8ea6319f73a6dc9d589cff8920bbbceba487941",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/E4_BACKLOG_DISPOSITION_LEDGER.json"
+    },
+    {
+      "bytes": 712,
+      "file": "E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json",
+      "sha256": "52131dda9f6dd9778c39ad53bf55761f984b06e0f3b0b0c39988c859f5eaa309",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/E4_HYBRID_REVIEW_PILOT_PLUS_BACKLOG_DECISION.json"
+    },
+    {
+      "bytes": 1208,
+      "file": "E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json",
+      "sha256": "8b15615ab19e3f3d8a16287572d55cdcc3d7fe690e679ccc4b120e000dce4a71",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/E4_NONLIVE_MECHANICAL_BACKLOG_PATH_SPEC.json"
+    },
+    {
+      "bytes": 490,
+      "file": "README.md",
+      "sha256": "fa0223a2d0e2fb8af0a0d972e1678ca7e5c24d9d3ed0bae00bc2b076ae4078aa",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/README.md"
+    },
+    {
+      "bytes": 314,
+      "file": "THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json",
+      "sha256": "1211917c29370bb88d519b9ca78e6d88bf0c4f74451a0fe7f342dac757e78e26",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY.json"
+    },
+    {
+      "bytes": 735,
+      "file": "THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json",
+      "sha256": "e04ebc967a7d5b109d869a8ad84069105bc06535463a9706c3bdd1b7aed8e83f",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT.json"
+    },
+    {
+      "bytes": 633,
+      "file": "THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json",
+      "sha256": "b5bde30a12257fea57bffcfe17e2d8105836d50e7f968bde3159ef673cf80fc2",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_HASH_MANIFEST_REVERIFY.json"
+    },
+    {
+      "bytes": 1794,
+      "file": "THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "05f6c547bc048e8b798694e0f7a66b676a06a86a821041d9ca0f2442ca0e131a",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "bytes": 623,
+      "file": "THREE_PACKAGE_REVERIFY_CLOSEOUT.md",
+      "sha256": "f8aeb24b3f6203aa1adf6bb736d875125e31ecb6ee355c29d35dcd1fc6607e2d",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_REVERIFY_CLOSEOUT.md"
+    },
+    {
+      "bytes": 939,
+      "file": "THREE_PACKAGE_SEQUENCE_DECISION.json",
+      "sha256": "905d866062057fa8d2e65514a3f73fcc57e14bfa2e0f490962caf5f8f97bbdcb",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_SEQUENCE_DECISION.json"
+    },
+    {
+      "bytes": 426,
+      "file": "THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json",
+      "sha256": "36c151dae65951353eecf886a31f837a690e3fe1558572971e6066392556d1fe",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION.json"
+    },
+    {
+      "bytes": 1551,
+      "file": "THREE_PACKAGE_SOURCE_REF_AUDIT.json",
+      "sha256": "2f0d154ae6abae5eeda1c0871f8a03259c3fb55278ece701c54941d3e1920b15",
+      "zip_member": "main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/source_refs/THREE_PACKAGE_SOURCE_REF_AUDIT.json"
+    }
+  ],
+  "status": "PASS"
+}

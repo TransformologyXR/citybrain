@@ -1,0 +1,18 @@
+# CityBrain Track I — Inverse Dynamics / Multi-Option Decision Support
+
+Run this ZIP as one sequential Codex thread.
+
+Start with:
+
+`ENTRY_PROMPT.md`
+
+Then run prompts in order:
+
+1. `MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-DECISION-SUPPORT-PREFLIGHT_PROMPT.md`
+2. `MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-GENERATOR-R1_PROMPT.md`
+3. `MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-TRADEOFF-EVALUATION-R2_PROMPT.md`
+4. `MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-HITL-PROMOTION-BRIDGE-R3_PROMPT.md`
+5. `MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-CLOSEOUT_PROMPT.md`
+6. Optional: `MAIN-CITYBRAIN-D6-INVERSE-DYNAMICS-MULTI-OPTION-MILESTONE-FREEZE_PROMPT.md`
+
+This lane is bounded local/replay review-only. It creates no executed actions and no certified recommendations.

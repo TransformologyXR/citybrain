@@ -1,0 +1,71 @@
+{
+  "all_four_families_covered": true,
+  "artifact_id": "EVENT_FABRIC_V2_3_WATCH_CHECK_BRIEF_SPATIAL_HANDOFF_REPORT",
+  "families": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_attachment_count": 24,
+      "check_attachment_count": 21,
+      "family_id": "mobility_access_interruption",
+      "quarantined_count": 3,
+      "sample_refs": {
+        "brief_ref": "brief:v3:mobility_access_interruption:history_diff",
+        "check_ref": "check:v1:mobility_access_interruption:snapshot_history",
+        "spatial_ref": "spatial:v2_3:mobility_access_interruption:history_overlay",
+        "watch_ref": "watch:v2_3:mobility_access_interruption"
+      },
+      "spatial_handoff_count": 21,
+      "unresolved_count": 3,
+      "watch_admitted_count": 15
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_attachment_count": 24,
+      "check_attachment_count": 21,
+      "family_id": "building_compliance_perception_candidate",
+      "quarantined_count": 3,
+      "sample_refs": {
+        "brief_ref": "brief:v3:building_compliance_perception_candidate:history_diff",
+        "check_ref": "check:v1:building_compliance_perception_candidate:snapshot_history",
+        "spatial_ref": "spatial:v2_3:building_compliance_perception_candidate:history_overlay",
+        "watch_ref": "watch:v2_3:building_compliance_perception_candidate"
+      },
+      "spatial_handoff_count": 21,
+      "unresolved_count": 3,
+      "watch_admitted_count": 15
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_attachment_count": 24,
+      "check_attachment_count": 21,
+      "family_id": "permit_inspection_delay",
+      "quarantined_count": 3,
+      "sample_refs": {
+        "brief_ref": "brief:v3:permit_inspection_delay:history_diff",
+        "check_ref": "check:v1:permit_inspection_delay:snapshot_history",
+        "spatial_ref": "spatial:v2_3:permit_inspection_delay:history_overlay",
+        "watch_ref": "watch:v2_3:permit_inspection_delay"
+      },
+      "spatial_handoff_count": 21,
+      "unresolved_count": 3,
+      "watch_admitted_count": 15
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_attachment_count": 24,
+      "check_attachment_count": 21,
+      "family_id": "city_asset_infrastructure_issue",
+      "quarantined_count": 3,
+      "sample_refs": {
+        "brief_ref": "brief:v3:city_asset_infrastructure_issue:history_diff",
+        "check_ref": "check:v1:city_asset_infrastructure_issue:snapshot_history",
+        "spatial_ref": "spatial:v2_3:city_asset_infrastructure_issue:history_overlay",
+        "watch_ref": "watch:v2_3:city_asset_infrastructure_issue"
+      },
+      "spatial_handoff_count": 21,
+      "unresolved_count": 3,
+      "watch_admitted_count": 15
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

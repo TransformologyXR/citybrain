@@ -1,0 +1,114 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 896,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/DECISION.json",
+      "sha256": "6ac05849fff4005bbc8610fc8c0b72d0552e92eb6514c9da7e4ede7559321fde"
+    },
+    {
+      "bytes": 667,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/SIMULATION_V2_3_CHECK_BRIEF_ATTACHMENT_SAMPLE.json",
+      "sha256": "2f6e3357546eb933cc23fa1fcf2b4dc7074ebde1154ff73ded24bd5ae458e4e1"
+    },
+    {
+      "bytes": 693,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/SIMULATION_V2_3_FIDELITY_AND_CALIBRATION_LIMITATIONS.json",
+      "sha256": "9986033c70d93e26c46f72f75c28fc9134a6547ef3a4dacd14461a3eb15a3ca6"
+    },
+    {
+      "bytes": 312,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/SIMULATION_V2_3_NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "81575c3455eeb63bd52268424cf4d24e70ddc79e0ecc98a85867bea72c903b3b"
+    },
+    {
+      "bytes": 538,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/SIMULATION_V2_3_REAL_OR_FIXTURE_RUN_COMPARISON.json",
+      "sha256": "a6fc6a3bae019d6f79941acd3dc22d5ac51f5a58244162f416eb9370e420d0ed"
+    },
+    {
+      "bytes": 5798,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/SIMULATION_V2_3_SUMO_REAL_RUN_REPORT.json",
+      "sha256": "3a9640376a0ca4e007b9523fd6fb54ee20648c5ded29aa66d9cf94a35f8a2cb7"
+    },
+    {
+      "bytes": 171,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.edg.xml",
+      "sha256": "84f3e66b7f714b9a5bb14603803bb30866a3cdd25b408d93c8b4e851f126dd34"
+    },
+    {
+      "bytes": 2136,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.net.xml",
+      "sha256": "1d7f9a90fc5680683b5f0d443199843812a83946802725ed3a0b71c9507461b7"
+    },
+    {
+      "bytes": 164,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.nod.xml",
+      "sha256": "0cf2d1f54318d49533796ac12966fe72b4f191766b122325981045377fc92b80"
+    },
+    {
+      "bytes": 327,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.rou.xml",
+      "sha256": "036937d4b45ceaef8ae39c4115c481018fcd2690c003c21399b78a9b67907975"
+    },
+    {
+      "bytes": 298,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/mini.sumocfg",
+      "sha256": "61e08088b0b33569fa021e396b947c6d1bf0d19c487a5f28ec64ef07e7137b30"
+    },
+    {
+      "bytes": 16619,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run1/summary.xml",
+      "sha256": "8fdc91f38c4b57bd501fabb58fd3b01416be8b6055dfec506c5f3119d89b5c20"
+    },
+    {
+      "bytes": 2621,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run1/tripinfo.xml",
+      "sha256": "d08f8df1015e8840155dc8d07a83fc2153ddd1042ae82b67a9b916fda21fb713"
+    },
+    {
+      "bytes": 16619,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run2/summary.xml",
+      "sha256": "431395569e914e20bed3dd22d3f6caa081ebd763d263b333cd30bc984ec9d9ab"
+    },
+    {
+      "bytes": 2621,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/sumo_fixture/run2/tripinfo.xml",
+      "sha256": "22e5911d82cb39867be73695d8109738adef63afc8a57141de44e4cef9ad9e6d"
+    },
+    {
+      "bytes": 896,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-3-sumo-real-run-smoke-r1/DECISION.json",
+      "sha256": "6ac05849fff4005bbc8610fc8c0b72d0552e92eb6514c9da7e4ede7559321fde"
+    },
+    {
+      "bytes": 667,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-3-sumo-real-run-smoke-r1/SIMULATION_V2_3_CHECK_BRIEF_ATTACHMENT_SAMPLE.json",
+      "sha256": "2f6e3357546eb933cc23fa1fcf2b4dc7074ebde1154ff73ded24bd5ae458e4e1"
+    },
+    {
+      "bytes": 693,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-3-sumo-real-run-smoke-r1/SIMULATION_V2_3_FIDELITY_AND_CALIBRATION_LIMITATIONS.json",
+      "sha256": "9986033c70d93e26c46f72f75c28fc9134a6547ef3a4dacd14461a3eb15a3ca6"
+    },
+    {
+      "bytes": 312,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-3-sumo-real-run-smoke-r1/SIMULATION_V2_3_NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "81575c3455eeb63bd52268424cf4d24e70ddc79e0ecc98a85867bea72c903b3b"
+    },
+    {
+      "bytes": 538,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-3-sumo-real-run-smoke-r1/SIMULATION_V2_3_REAL_OR_FIXTURE_RUN_COMPARISON.json",
+      "sha256": "a6fc6a3bae019d6f79941acd3dc22d5ac51f5a58244162f416eb9370e420d0ed"
+    },
+    {
+      "bytes": 5798,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-3-sumo-real-run-smoke-r1/SIMULATION_V2_3_SUMO_REAL_RUN_REPORT.json",
+      "sha256": "3a9640376a0ca4e007b9523fd6fb54ee20648c5ded29aa66d9cf94a35f8a2cb7"
+    }
+  ],
+  "entry_count": 21,
+  "generated_at": "2026-07-07T16:32:39Z",
+  "status": "PASS"
+}

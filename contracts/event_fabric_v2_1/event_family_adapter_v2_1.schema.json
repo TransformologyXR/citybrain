@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "adapter_id": {
+      "type": "string"
+    },
+    "authority_boundary": {
+      "type": "string"
+    },
+    "cer_requirements": {
+      "type": "array"
+    },
+    "check_requirements": {
+      "type": "array"
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "input_contract": {
+      "type": "string"
+    },
+    "output_event_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "adapter_id",
+    "family_id",
+    "input_contract",
+    "output_event_type",
+    "cer_requirements",
+    "check_requirements",
+    "authority_boundary"
+  ],
+  "title": "EventFamilyAdapterV2_1",
+  "type": "object"
+}

@@ -1,0 +1,8 @@
+{
+  "assessment": "Simulation appears mainly as not-applicable; expand option-engine cases.",
+  "expected_simulation_handling_counts": {
+    "SUMO_smoke_allowed_not_calibrated": 11,
+    "simulation_not_applicable": 37
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

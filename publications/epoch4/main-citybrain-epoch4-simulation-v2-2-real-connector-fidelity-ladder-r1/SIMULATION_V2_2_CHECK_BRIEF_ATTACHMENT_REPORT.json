@@ -1,0 +1,25 @@
+{
+  "artifact_id": "SIMULATION_V2_2_CHECK_BRIEF_ATTACHMENT_REPORT",
+  "families": [
+    {
+      "authority_boundary": "review_option_only_no_recommendation_authority",
+      "brief_attachment_present": true,
+      "check_attachment_present": true,
+      "family_id": "building_compliance_perception_candidate"
+    },
+    {
+      "authority_boundary": "review_option_only_no_recommendation_authority",
+      "brief_attachment_present": true,
+      "check_attachment_present": true,
+      "family_id": "permit_inspection_delay"
+    },
+    {
+      "authority_boundary": "review_option_only_no_recommendation_authority",
+      "brief_attachment_present": true,
+      "check_attachment_present": true,
+      "family_id": "city_asset_infrastructure_issue"
+    }
+  ],
+  "family_count": 3,
+  "status": "PASS"
+}

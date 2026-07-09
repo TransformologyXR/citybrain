@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "candidate_event_id": {
+      "type": "string"
+    },
+    "candidate_event_mutated": {
+      "const": false
+    },
+    "forbidden_claims_detected": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "model_or_service": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "narration_id": {
+      "type": "string"
+    },
+    "runtime_host": {
+      "const": "spark"
+    },
+    "source_class": {
+      "const": "model_generated_narrative"
+    },
+    "summary_text": {
+      "type": "string"
+    },
+    "time_refs": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "uncertainty_notes": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "narration_id",
+    "candidate_event_id",
+    "source_class",
+    "runtime_host",
+    "summary_text",
+    "human_review_required",
+    "candidate_event_mutated"
+  ],
+  "title": "CityBrain VSS Narration Record R7",
+  "type": "object"
+}

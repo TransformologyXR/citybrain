@@ -1,0 +1,23 @@
+{
+  "allocation_locked": true,
+  "hosts": {
+    "spark": {
+      "active_for_r7": true,
+      "ready_endpoint": "http://spark-2445:38111/v1/ready",
+      "role": "VSS video summarization runtime",
+      "source_class": "model_generated_narrative_only_not_fact_source",
+      "status": "R6C_ready_endpoint_reported_live"
+    },
+    "txr-3090": {
+      "active_for_this_chain": false,
+      "role": "data/graph/RAPIDS/heavier analytics"
+    },
+    "txr-4070": {
+      "active_for_r7": "input_lineage_only",
+      "role": "Metropolis / DeepStream media inference and object metadata export",
+      "source_class": "sensor_inferred",
+      "status": "proven_by_R2"
+    }
+  },
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-SMOKE-R7"
+}

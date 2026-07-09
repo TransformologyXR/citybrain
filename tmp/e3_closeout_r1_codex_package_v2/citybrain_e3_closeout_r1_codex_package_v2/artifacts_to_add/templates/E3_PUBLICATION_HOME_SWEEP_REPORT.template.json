@@ -1,0 +1,32 @@
+{
+  "artifact_id": "E3_PUBLICATION_HOME_SWEEP_REPORT",
+  "status": "REQUIRED",
+  "publication_root": "publications/epoch3/",
+  "retroactive": true,
+  "packages_to_publish": [
+    "E3_ENTRY_GATE_R1",
+    "E3_ENTRY_GATE_R1_FOLLOWUP_RECONCILIATION_R1",
+    "E3_DAY1_INSTRUMENTATION_AND_HARNESS_R1",
+    "E3_PHASE2_LIVE_EXPOSURE_COVERAGE_AND_HARDENING_R1",
+    "E3_L1_R1_R2_OUTCOME_CALIBRATION_HARDENING_R1",
+    "E3_PRE_CLOSEOUT_CONVERGENCE_R1",
+    "E3_FOUNDATION_CLOSEOUT_R1",
+    "E3_MASTER_EXECUTION_R1",
+    "E3_L2_HISTORICAL_LABEL_BACKFILL_R1",
+    "E3_L2_R2_FORECAST_AUTHORITY_PREFLIGHT_R1",
+    "E3_L2_R2_OFFLINE_EXPERIMENTAL_FORECAST_R1",
+    "E3_HIDDEN_DATA_SCOUT_MASTER_R1",
+    "E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1",
+    "E3_CLOSEOUT_R1"
+  ],
+  "include_artifact_kinds": [
+    "decision",
+    "ledger_row",
+    "limitations",
+    "hash_manifest",
+    "line_ending_report",
+    "summary"
+  ],
+  "exclude_bulk_data": true,
+  "lf_pinning_required": true
+}

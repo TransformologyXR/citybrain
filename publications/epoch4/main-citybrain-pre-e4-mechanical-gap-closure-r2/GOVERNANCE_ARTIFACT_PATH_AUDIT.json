@@ -1,0 +1,11 @@
+{
+  "artifact_id": "GOVERNANCE_ARTIFACT_PATH_AUDIT",
+  "pending_aftereffects": [
+    "contracts/event_fabric_r1/",
+    "contracts/simulation_r1/",
+    "SIMULATION_BACKTEST_INPUT_CATALOG_R2.json"
+  ],
+  "publication_root": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2",
+  "requires_final_reverify": true,
+  "status": "PASS_PROVISIONAL"
+}

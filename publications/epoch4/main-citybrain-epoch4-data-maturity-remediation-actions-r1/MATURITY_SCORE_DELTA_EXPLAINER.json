@@ -1,0 +1,9 @@
+{
+  "artifact_id": "MATURITY_SCORE_DELTA_EXPLAINER",
+  "delta_is_projection": true,
+  "derived_potential_delta_if_queues_closed": 7.5,
+  "maturity_inflation_without_evidence": false,
+  "new_maturity_score_claimed": false,
+  "original_maturity_score_preserved": 36.1,
+  "status": "PASS_WITH_LIMITATIONS"
+}

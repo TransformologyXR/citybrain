@@ -1,0 +1,935 @@
+{
+  "artifact_id": "DATA_ROOT_INVENTORY",
+  "coverage_limitations": [
+    "Large roots use deterministic bounded scans when they exceed the file cap.",
+    "Binary geospatial/parquet/duckdb files are inventoried by size and extension, not deeply parsed."
+  ],
+  "existing_root_count": 12,
+  "generated_at": "2026-07-08T09:24:24Z",
+  "root_count": 12,
+  "scan_roots": [
+    {
+      "bytes": 3617650848,
+      "classification": "processed_or_local_data",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".parquet": 856
+      },
+      "dir_count": 30,
+      "exists": true,
+      "extension_counts": {
+        ".gz": 1,
+        ".parquet": 856
+      },
+      "file_count": 857,
+      "largest_files": [
+        {
+          "bytes": 157539340,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/discovery_staging/dob_permit_issuance.parquet"
+        },
+        {
+          "bytes": 91686610,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/discovery_staging/dob_complaints.parquet"
+        },
+        {
+          "bytes": 33858680,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/discovery_staging/dob_now_filings.parquet"
+        },
+        {
+          "bytes": 31199308,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/discovery_staging/building_bin_bbl_lookup.parquet"
+        },
+        {
+          "bytes": 23114819,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/discovery_staging/parcel_bbl_block_lookup.parquet"
+        },
+        {
+          "bytes": 16213836,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__building_energy_and_water_disclosure_ll84/part-00001.parquet"
+        },
+        {
+          "bytes": 16199815,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__building_energy_and_water_disclosure_ll84/part-00000.parquet"
+        },
+        {
+          "bytes": 15882615,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/raw_tables/nyc__building_energy_and_water_disclosure_ll84/part-00001.parquet"
+        },
+        {
+          "bytes": 15871751,
+          "extension": ".parquet",
+          "path": "data/processed/nyc/harvest_v0_2/raw_tables/nyc__building_energy_and_water_disclosure_ll84/part-00000.parquet"
+        },
+        {
+          "bytes": 13604954,
+          "extension": ".gz",
+          "path": "data/a5d7_input_export/citywide_blocks_compact.jsonl.gz"
+        }
+      ],
+      "likely_generated_vs_source": "processed_or_local_data",
+      "root": "data",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 65883334549,
+      "classification": "raw_or_landed",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".csv": 2660,
+        ".json": 615
+      },
+      "dir_count": 319,
+      "exists": true,
+      "extension_counts": {
+        ".bin": 5,
+        ".csv": 2660,
+        ".dgn": 1,
+        ".dwg": 1,
+        ".gpkg": 42,
+        ".html": 45,
+        ".jpg": 1,
+        ".json": 615,
+        ".log": 1,
+        ".md": 4,
+        ".pdf": 534,
+        ".png": 1,
+        ".shp": 1,
+        ".xls": 1,
+        ".xlsx": 12,
+        ".xml": 12,
+        ".zip": 33
+      },
+      "file_count": 3969,
+      "largest_files": [
+        {
+          "bytes": 913671920,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/lids-2026-05_csv_BLPU-UPRN-Street-USRN-11.zip"
+        },
+        {
+          "bytes": 840884568,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/lids-2026-05_csv_BLPU-UPRN-TopographicArea-TOID-5.zip"
+        },
+        {
+          "bytes": 669781901,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/lids-2026-05_csv_BLPU-UPRN-RoadLink-TOID-9.zip"
+        },
+        {
+          "bytes": 617876071,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/osopenuprn_202606_csv.zip"
+        },
+        {
+          "bytes": 328582222,
+          "extension": ".csv",
+          "path": "data_landing/xdata_d1_bulk_official_sources_v1/london/raw/lfb/incident/data/LFB_Incident_data_from_2009_-_2017.csv"
+        },
+        {
+          "bytes": 307980808,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/lids-2026-05_csv_RoadLink-TOID-TopographicArea-TOID-2.zip"
+        },
+        {
+          "bytes": 296555134,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/osopenusrn_202606_gpkg.zip"
+        },
+        {
+          "bytes": 273382588,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/lids-2026-05_csv_ORRoadLink-GUID-RoadLink-TOID-12.zip"
+        },
+        {
+          "bytes": 235439656,
+          "extension": ".zip",
+          "path": "data_landing/london_d9_raw/lids-2026-05_csv_Street-USRN-TopographicArea-TOID-4.zip"
+        },
+        {
+          "bytes": 222246221,
+          "extension": ".xml",
+          "path": "data_landing/xdata_d1_bulk_official_sources_v1/barcelona/manual/raw/2025_IRIS_Peticions_Ciutadanes_OpenData_1_.xml"
+        }
+      ],
+      "likely_generated_vs_source": "raw_or_landed",
+      "root": "data_landing",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 6396967,
+      "classification": "synthetic",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".json": 16,
+        ".jsonl": 8,
+        ".parquet": 37
+      },
+      "dir_count": 22,
+      "exists": true,
+      "extension_counts": {
+        ".json": 16,
+        ".jsonl": 8,
+        ".parquet": 37
+      },
+      "file_count": 61,
+      "largest_files": [
+        {
+          "bytes": 1444865,
+          "extension": ".parquet",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/truth/synthetic_truth_edges.parquet"
+        },
+        {
+          "bytes": 706068,
+          "extension": ".parquet",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/truth/synthetic_observations.parquet"
+        },
+        {
+          "bytes": 637078,
+          "extension": ".jsonl",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/replay_packs/replay_normal_order.jsonl"
+        },
+        {
+          "bytes": 636478,
+          "extension": ".jsonl",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/replay_packs/replay_out_of_order.jsonl"
+        },
+        {
+          "bytes": 390928,
+          "extension": ".parquet",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/truth/synthetic_events.parquet"
+        },
+        {
+          "bytes": 379636,
+          "extension": ".json",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/expected_state/expected_state_after_late_arrivals.json"
+        },
+        {
+          "bytes": 355656,
+          "extension": ".json",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/expected_state/expected_state_after_normal_order.json"
+        },
+        {
+          "bytes": 307023,
+          "extension": ".parquet",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/source_projections/chicago_311_like_requests.parquet"
+        },
+        {
+          "bytes": 114792,
+          "extension": ".jsonl",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/replay_packs/replay_duplicate_events.jsonl"
+        },
+        {
+          "bytes": 100213,
+          "extension": ".parquet",
+          "path": "data_synthetic/pv1_sdf/packs/sdf_chi_near_west_side_v1/source_projections/chicago_open_air_like_observations.parquet"
+        }
+      ],
+      "likely_generated_vs_source": "synthetic",
+      "root": "data_synthetic",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 363792,
+      "classification": "raw_or_landed",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".jsonl": 6
+      },
+      "dir_count": 1,
+      "exists": true,
+      "extension_counts": {
+        ".jsonl": 6,
+        ".txt": 6
+      },
+      "file_count": 12,
+      "largest_files": [
+        {
+          "bytes": 31065,
+          "extension": ".txt",
+          "path": "corpus_raw/original/workspace_text_2_original.txt"
+        },
+        {
+          "bytes": 30885,
+          "extension": ".jsonl",
+          "path": "corpus_raw/workspace_text_2.jsonl"
+        },
+        {
+          "bytes": 30603,
+          "extension": ".jsonl",
+          "path": "corpus_raw/workspace_text_5.jsonl"
+        },
+        {
+          "bytes": 30601,
+          "extension": ".txt",
+          "path": "corpus_raw/original/workspace_text_5_original.txt"
+        },
+        {
+          "bytes": 30560,
+          "extension": ".jsonl",
+          "path": "corpus_raw/workspace_text_6.jsonl"
+        },
+        {
+          "bytes": 30558,
+          "extension": ".txt",
+          "path": "corpus_raw/original/workspace_text_6_original.txt"
+        },
+        {
+          "bytes": 30069,
+          "extension": ".txt",
+          "path": "corpus_raw/original/workspace_text_4_original.txt"
+        },
+        {
+          "bytes": 30069,
+          "extension": ".jsonl",
+          "path": "corpus_raw/workspace_text_4.jsonl"
+        },
+        {
+          "bytes": 30018,
+          "extension": ".txt",
+          "path": "corpus_raw/original/workspace_text_3_original.txt"
+        },
+        {
+          "bytes": 30018,
+          "extension": ".jsonl",
+          "path": "corpus_raw/workspace_text_3.jsonl"
+        }
+      ],
+      "likely_generated_vs_source": "raw_or_landed",
+      "root": "corpus_raw",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 677619,
+      "classification": "raw_or_landed",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".csv": 3,
+        ".json": 5,
+        ".jsonl": 1
+      },
+      "dir_count": 6,
+      "exists": true,
+      "extension_counts": {
+        ".csv": 3,
+        ".json": 5,
+        ".jsonl": 1,
+        ".md": 2,
+        ".png": 7
+      },
+      "file_count": 18,
+      "largest_files": [
+        {
+          "bytes": 176216,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/wood_lane_story_full_page.png"
+        },
+        {
+          "bytes": 97767,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/tims_records_and_ev_asset_87.png"
+        },
+        {
+          "bytes": 85996,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/wood_lane_story_title_and_boundary.png"
+        },
+        {
+          "bytes": 77843,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/review_options_and_stop.png"
+        },
+        {
+          "bytes": 76668,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/wood_lane_story_overview.png"
+        },
+        {
+          "bytes": 76559,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/wood_lane_story_beats.png"
+        },
+        {
+          "bytes": 74202,
+          "extension": ".png",
+          "path": "inputs/d8_story_first_media/limitations_boundary.png"
+        },
+        {
+          "bytes": 5326,
+          "extension": ".json",
+          "path": "inputs/d8_story_first_media/media_manifest.json"
+        },
+        {
+          "bytes": 3296,
+          "extension": ".json",
+          "path": "inputs/d11_real_operator_sessions/session_record_template.json"
+        },
+        {
+          "bytes": 992,
+          "extension": ".json",
+          "path": "inputs/d9_external_operator_sessions/session_record_template.json"
+        }
+      ],
+      "likely_generated_vs_source": "raw_or_landed",
+      "root": "inputs",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 846775126,
+      "classification": "generated_or_published_artifact",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [
+        "Scan capped at 30000 files for deterministic bounded runtime."
+      ],
+      "data_file_counts": {
+        ".csv": 12,
+        ".json": 532,
+        ".jsonl": 44,
+        ".parquet": 58
+      },
+      "dir_count": 1167,
+      "exists": true,
+      "extension_counts": {
+        ".csv": 12,
+        ".example": 2,
+        ".gz": 1,
+        ".html": 5,
+        ".json": 532,
+        ".jsonl": 44,
+        ".log": 7,
+        ".md": 27772,
+        ".media": 1,
+        ".parquet": 58,
+        ".ppm": 1,
+        ".py": 42,
+        ".sh": 1,
+        ".sha256": 1,
+        ".toml": 2,
+        ".tsv": 1,
+        ".txt": 1477,
+        ".yaml": 2,
+        ".yml": 6,
+        ".zip": 33
+      },
+      "file_count": 30000,
+      "largest_files": [
+        {
+          "bytes": 333059892,
+          "extension": ".gz",
+          "path": "outputs/a3d2_footprints_geometry_v1/a3d2_footprints_geometry_v1_map_payload.tar.gz"
+        },
+        {
+          "bytes": 136104705,
+          "extension": ".csv",
+          "path": "outputs/a4d2b_district_discovery/unresolved_complaints_report.csv"
+        },
+        {
+          "bytes": 72920195,
+          "extension": ".parquet",
+          "path": "outputs/a5d7_citywide_briefings_v1/citywide_block_evidence.parquet"
+        },
+        {
+          "bytes": 36074291,
+          "extension": ".jsonl",
+          "path": "outputs/_test_main_citybrain_r9_deepstream_product_runtime_execution_smoke/runtime_metadata/runtime_detections.jsonl"
+        },
+        {
+          "bytes": 17079098,
+          "extension": ".parquet",
+          "path": "outputs/a4d3b_citywide_roundtrip_borough5/canonical_edges.parquet"
+        },
+        {
+          "bytes": 16999468,
+          "extension": ".parquet",
+          "path": "outputs/a5d7_citywide_briefings_v1/citywide_block_traces.parquet"
+        },
+        {
+          "bytes": 15785251,
+          "extension": ".parquet",
+          "path": "outputs/a4d3b_citywide_roundtrip_borough5/canonical_entities.parquet"
+        },
+        {
+          "bytes": 13625684,
+          "extension": ".csv",
+          "path": "outputs/a4d2b_district_discovery/block_rankings.csv"
+        },
+        {
+          "bytes": 12852395,
+          "extension": ".parquet",
+          "path": "outputs/a4d3b_citywide_roundtrip_borough5/graph_projection_edges.parquet"
+        },
+        {
+          "bytes": 8763064,
+          "extension": ".json",
+          "path": "outputs/a5d7_citywide_briefings_v1/block_index.json"
+        }
+      ],
+      "likely_generated_vs_source": "generated_or_published_artifact",
+      "root": "outputs",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "bounded_recursive"
+    },
+    {
+      "bytes": 7204762,
+      "classification": "generated_or_published_artifact",
+      "committed_published_local_only": "published",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".csv": 10,
+        ".json": 862,
+        ".jsonl": 9
+      },
+      "dir_count": 95,
+      "exists": true,
+      "extension_counts": {
+        ".csv": 10,
+        ".html": 2,
+        ".json": 862,
+        ".jsonl": 9,
+        ".md": 89,
+        ".txt": 11,
+        ".zip": 1
+      },
+      "file_count": 984,
+      "largest_files": [
+        {
+          "bytes": 1260071,
+          "extension": ".json",
+          "path": "publications/epoch4/main-citybrain-epoch4-tracka-event-stories-source-diff-r1/SOURCE_REGISTRY_V1_1.json"
+        },
+        {
+          "bytes": 1048200,
+          "extension": ".jsonl",
+          "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-5-long-history-load-r1/EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_LOG.jsonl"
+        },
+        {
+          "bytes": 300662,
+          "extension": ".csv",
+          "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/data_source_catalog.csv"
+        },
+        {
+          "bytes": 210940,
+          "extension": ".jsonl",
+          "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-4-replay-scale-consumption-r1/EVENT_FABRIC_V2_4_SCALE_REPLAY_LOG.jsonl"
+        },
+        {
+          "bytes": 186799,
+          "extension": ".json",
+          "path": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/DATA_MATURITY_DASHBOARD_R1_1.json"
+        },
+        {
+          "bytes": 180912,
+          "extension": ".jsonl",
+          "path": "publications/epoch4/main-citybrain-epoch4-cer-check-event-stress-eval-r1/CER_CHECK_EVENT_STRESS_FIXTURES.jsonl"
+        },
+        {
+          "bytes": 141275,
+          "extension": ".json",
+          "path": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/FORBIDDEN_CLAIM_SCAN_RESULTS.json"
+        },
+        {
+          "bytes": 129165,
+          "extension": ".json",
+          "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/ROW_COUNT_AND_SIZE_LEDGER.json"
+        },
+        {
+          "bytes": 95460,
+          "extension": ".json",
+          "path": "publications/epoch4/main-citybrain-epoch4-tracka-event-stories-source-diff-r1/SOURCE_REGISTRY_V1_1_CONSUMING_FLOW_MAP.json"
+        },
+        {
+          "bytes": 95437,
+          "extension": ".json",
+          "path": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BOUNDARY_LANGUAGE_FINDINGS.json"
+        }
+      ],
+      "likely_generated_vs_source": "generated_or_published_artifact",
+      "root": "publications",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 168011,
+      "classification": "control_contract_or_manifest",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".json": 67
+      },
+      "dir_count": 15,
+      "exists": true,
+      "extension_counts": {
+        ".json": 67,
+        ".md": 2
+      },
+      "file_count": 69,
+      "largest_files": [
+        {
+          "bytes": 42592,
+          "extension": ".json",
+          "path": "contracts/ontology_v2/entity_classes.json"
+        },
+        {
+          "bytes": 20327,
+          "extension": ".json",
+          "path": "contracts/ontology_v2/relationship_classes.json"
+        },
+        {
+          "bytes": 20185,
+          "extension": ".json",
+          "path": "contracts/event_fabric_r0_1/fixtures/invalid_fixtures.json"
+        },
+        {
+          "bytes": 15321,
+          "extension": ".json",
+          "path": "contracts/event_fabric_r0_1/fixtures/valid_fixtures.json"
+        },
+        {
+          "bytes": 10067,
+          "extension": ".json",
+          "path": "contracts/ontology_v2/flow_namespace_registry.json"
+        },
+        {
+          "bytes": 4466,
+          "extension": ".json",
+          "path": "contracts/event_fabric_r0_1/import_map.json"
+        },
+        {
+          "bytes": 2457,
+          "extension": ".json",
+          "path": "contracts/citybrain/epoch_2_0/component_registry.schema.json"
+        },
+        {
+          "bytes": 2165,
+          "extension": ".json",
+          "path": "contracts/event_fabric_r0_1/SHA256SUMS.json"
+        },
+        {
+          "bytes": 1845,
+          "extension": ".json",
+          "path": "contracts/event_fabric_r1/EventEnvelope.schema.json"
+        },
+        {
+          "bytes": 1788,
+          "extension": ".json",
+          "path": "contracts/ontology_v2/SHA256SUMS.json"
+        }
+      ],
+      "likely_generated_vs_source": "control_contract_or_manifest",
+      "root": "contracts",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 62841,
+      "classification": "control_contract_or_manifest",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".json": 64
+      },
+      "dir_count": 0,
+      "exists": true,
+      "extension_counts": {
+        ".json": 64
+      },
+      "file_count": 64,
+      "largest_files": [
+        {
+          "bytes": 3166,
+          "extension": ".json",
+          "path": "schemas/outcome_record.schema.json"
+        },
+        {
+          "bytes": 2348,
+          "extension": ".json",
+          "path": "schemas/exposure_log_event.schema.json"
+        },
+        {
+          "bytes": 2160,
+          "extension": ".json",
+          "path": "schemas/governed_historical_label_row.schema.json"
+        },
+        {
+          "bytes": 2155,
+          "extension": ".json",
+          "path": "schemas/outcome_ledger_event.schema.json"
+        },
+        {
+          "bytes": 2038,
+          "extension": ".json",
+          "path": "schemas/exposure_event.schema.json"
+        },
+        {
+          "bytes": 1929,
+          "extension": ".json",
+          "path": "schemas/permit_stall_label_row_r2.schema.json"
+        },
+        {
+          "bytes": 1896,
+          "extension": ".json",
+          "path": "schemas/training_eligibility.schema.json"
+        },
+        {
+          "bytes": 1855,
+          "extension": ".json",
+          "path": "schemas/historical_transition_discovery_report.schema.json"
+        },
+        {
+          "bytes": 1459,
+          "extension": ".json",
+          "path": "schemas/calibration_report.schema.json"
+        },
+        {
+          "bytes": 1396,
+          "extension": ".json",
+          "path": "schemas/l2_sufficiency_report_r2.schema.json"
+        }
+      ],
+      "likely_generated_vs_source": "control_contract_or_manifest",
+      "root": "schemas",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 39258,
+      "classification": "control_contract_or_manifest",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".json": 25
+      },
+      "dir_count": 0,
+      "exists": true,
+      "extension_counts": {
+        ".json": 25,
+        ".yaml": 1
+      },
+      "file_count": 26,
+      "largest_files": [
+        {
+          "bytes": 13402,
+          "extension": ".json",
+          "path": "manifests/epoch3_arming_manifest.json"
+        },
+        {
+          "bytes": 2086,
+          "extension": ".json",
+          "path": "manifests/epoch3_phase2_acceptance_criteria_manifest.json"
+        },
+        {
+          "bytes": 1872,
+          "extension": ".json",
+          "path": "manifests/epoch3_master_execution_r1_required_output_artifacts.json"
+        },
+        {
+          "bytes": 1650,
+          "extension": ".json",
+          "path": "manifests/epoch3_l2_r2_forecast_authority_preflight_expected_outputs.json"
+        },
+        {
+          "bytes": 1563,
+          "extension": ".yaml",
+          "path": "manifests/epoch3_arming_evaluator_spec.yaml"
+        },
+        {
+          "bytes": 1406,
+          "extension": ".json",
+          "path": "manifests/epoch3_l2_historical_label_backfill_expected_outputs.json"
+        },
+        {
+          "bytes": 1399,
+          "extension": ".json",
+          "path": "manifests/epoch3_phase2_work_plan_manifest.json"
+        },
+        {
+          "bytes": 1364,
+          "extension": ".json",
+          "path": "manifests/epoch3_phase2_dependency_graph.json"
+        },
+        {
+          "bytes": 1347,
+          "extension": ".json",
+          "path": "manifests/epoch3_l2_r2_offline_experimental_forecast_expected_outputs.json"
+        },
+        {
+          "bytes": 1250,
+          "extension": ".json",
+          "path": "manifests/e4_hybrid_track_manifest.json"
+        }
+      ],
+      "likely_generated_vs_source": "control_contract_or_manifest",
+      "root": "manifests",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 242003,
+      "classification": "application_or_unknown",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {
+        ".json": 2
+      },
+      "dir_count": 5,
+      "exists": true,
+      "extension_counts": {
+        ".css": 1,
+        ".html": 1,
+        ".js": 18,
+        ".json": 2,
+        ".md": 1,
+        ".mjs": 1
+      },
+      "file_count": 24,
+      "largest_files": [
+        {
+          "bytes": 49123,
+          "extension": ".json",
+          "path": "apps/web-control-room/src/askV11/fixtures/askV11AppHandoffFixtures.json"
+        },
+        {
+          "bytes": 47746,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/views/omniverseStream.js"
+        },
+        {
+          "bytes": 37057,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/views/productModes.js"
+        },
+        {
+          "bytes": 31404,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/renderApp.js"
+        },
+        {
+          "bytes": 21342,
+          "extension": ".css",
+          "path": "apps/web-control-room/styles.css"
+        },
+        {
+          "bytes": 11502,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/views/askV11Handoff.js"
+        },
+        {
+          "bytes": 8530,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/views/storyQueue.js"
+        },
+        {
+          "bytes": 8322,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/views/storyFirst.js"
+        },
+        {
+          "bytes": 5910,
+          "extension": ".mjs",
+          "path": "apps/web-control-room/src/renderSnapshot.mjs"
+        },
+        {
+          "bytes": 5010,
+          "extension": ".js",
+          "path": "apps/web-control-room/src/askV11/askV11HandoffAdapter.js"
+        }
+      ],
+      "likely_generated_vs_source": "application_or_unknown",
+      "root": "apps/web-control-room",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    },
+    {
+      "bytes": 147073,
+      "classification": "application_or_unknown",
+      "committed_published_local_only": "local_workspace_artifact",
+      "coverage_limitations": [],
+      "data_file_counts": {},
+      "dir_count": 4,
+      "exists": true,
+      "extension_counts": {
+        ".md": 1,
+        ".py": 19,
+        ".toml": 1
+      },
+      "file_count": 21,
+      "largest_files": [
+        {
+          "bytes": 20393,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/real_scene_review_loop_registry.py"
+        },
+        {
+          "bytes": 18200,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/scene_prim_selection_registry.py"
+        },
+        {
+          "bytes": 16456,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/spatial_cockpit.py"
+        },
+        {
+          "bytes": 13340,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/event_overlay_registry.py"
+        },
+        {
+          "bytes": 13025,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/stage_model.py"
+        },
+        {
+          "bytes": 10704,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/selection_inspector.py"
+        },
+        {
+          "bytes": 9581,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/selection_message_parity.py"
+        },
+        {
+          "bytes": 9379,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/event_overlay_bridge.py"
+        },
+        {
+          "bytes": 7640,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/viewport_navigation_bridge.py"
+        },
+        {
+          "bytes": 7380,
+          "extension": ".py",
+          "path": "apps/kit/citybrain.control_room/citybrain/control_room/scene_prim_selection_bridge.py"
+        }
+      ],
+      "likely_generated_vs_source": "application_or_unknown",
+      "root": "apps/kit",
+      "sample_policy": "deterministic_path_order_with_row_count_sample",
+      "scan_mode": "recursive_full_with_exclusions"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "total_scanned_bytes": 70363062849,
+  "total_scanned_files": 36105
+}

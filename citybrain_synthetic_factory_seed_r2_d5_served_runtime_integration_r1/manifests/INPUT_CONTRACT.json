@@ -1,0 +1,35 @@
+{
+  "forbidden": [
+    "external_network_calls",
+    "credential_persistence",
+    "raw_provider_payload_packaging",
+    "input_mutation"
+  ],
+  "inputs": {
+    "d5d6_consumption_smoke_r1": {
+      "default_path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-D6-CONSUMPTION-SMOKE-R1",
+      "read_only": true,
+      "required_files": [
+        "D5_RUNTIME_SMOKE_RESPONSES_R1.jsonl",
+        "D6_CONTROL_ROOM_CONSUMPTION_INDEX_R1.html",
+        "D5_D6_CONSUMPTION_SMOKE_R1_DECISION.json",
+        "BOUNDARY_AND_NO_ACTION_AUDIT_R1.json"
+      ]
+    },
+    "product_consumption_r1": {
+      "default_path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+      "read_only": true,
+      "required_files": [
+        "D5_RUNTIME_PACKET_FIXTURES_R1.jsonl",
+        "WATCH_QUEUE_COMBINED_R1.jsonl",
+        "EVENT_REPLAY_COMBINED_R1.jsonl",
+        "ASK_FIXTURE_INDEX_R1.jsonl",
+        "CHECK_FIXTURE_INDEX_R1.jsonl",
+        "BRIEF_FIXTURE_INDEX_R1.jsonl",
+        "SPATIAL_OVERLAY_INDEX_R1.jsonl",
+        "PRODUCT_CONSUMPTION_R1_DECISION.json"
+      ]
+    }
+  },
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-SERVED-RUNTIME-INTEGRATION-R1"
+}

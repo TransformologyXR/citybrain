@@ -1,0 +1,887 @@
+{
+  "artifact_id": "FOUNDER_OPERATOR_STORY_CARDS_INLINE",
+  "cards": [
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not an official finding.",
+        "Not proof that one issue caused another.",
+        "Not a work order, prediction, customer-ready view, or operational action.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-001",
+      "card_type": "cross_domain_story",
+      "confidence_plain_english": "medium - multiple signals are visible, but some freshness and nearby-context limits remain.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Permit/inspection status attaches to the primary site.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports reviewing permit or inspection uncertainty around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Building/site context confirms the same primary site is in the review scope.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Mobility access interruption participates through the repaired direct evidence packet evidence.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports watching access or mobility constraints around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Need more before deciding; the source is only a candidate signal.",
+          "source_class": "synthetic challenge",
+          "source_note_text": "A complaint-like compliance candidate provides review context, not an official finding.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "synthetic challenge",
+          "source_note_text": "Inspection delay remains review evidence and cannot be treated as action authority.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports reviewing permit or inspection uncertainty around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "Nearby infrastructure corridor candidate",
+          "outcome_in_plain_language": "Context only; useful to watch, not enough for a same-site claim.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Infrastructure context is linked as a corridor/impact edge, not as the same site entity.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports corridor-context review around Nearby infrastructure corridor candidate."
+        },
+        {
+          "entity_or_place_label": "UNKNOWN - geometry reference exists but no plain place label was found.",
+          "outcome_in_plain_language": "Need more before deciding; the evidence is weak or stale.",
+          "source_class": "synthetic challenge",
+          "source_note_text": "evidence review should downgrade or hold when map view, freshness, or identity evidence is weak.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around UNKNOWN - geometry reference exists but no plain place label was found.."
+        },
+        {
+          "entity_or_place_label": "Nearby infrastructure corridor candidate",
+          "outcome_in_plain_language": "Ignore for now or hold; the card lacks enough data.",
+          "source_class": "synthetic scenario",
+          "source_note_text": "review summary and map view review can show evidence and limitations, not control or action.",
+          "timestamp_or_freshness": "UNKNOWN - this story row has sequence order but no recent timestamp field.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around Nearby infrastructure corridor candidate."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: if these signals are related, a reviewer may want to watch the site while keeping cause unproven.",
+      "source_card_id": "founder-inline-001",
+      "suggested_review_next_step": "Verify against the permit or inspection source and request a fresher status note.",
+      "uncertainty": [
+        "8 inline source notes are shown for One site with permit, access, building, and infrastructure signals.",
+        "Freshness is UNKNOWN for the story rows because no recent timestamp field was found.",
+        "A human place label beyond the synthetic site would make the card easier to judge."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - One site with permit, access, building, and infrastructure signals has limits that should be checked first.",
+      "what_where_line": "What/where: multiple review signals around Primary synthetic site; nearby infrastructure is context only."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not an official finding.",
+        "Not a work order, prediction, customer-ready view, or operational action.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-002",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "replay source record",
+          "source_note_text": "Building concern near a site source shows building perception candidate. Observed details: family adapter: adapter:building compliance perception candidate, overlay kind: building perception overlay, priority tier: static high.",
+          "timestamp_or_freshness": "2026-07-07T02:16:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around Primary synthetic site."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: a building concern near a site may be worth watching when the card shows both the sensor-like note and the conflict that limits trust.",
+      "source_card_id": "founder-inline-002",
+      "suggested_review_next_step": "A named source note explaining the observed building concern and the conflict.",
+      "uncertainty": [
+        "The card does not prove a building issue; it shows a candidate concern and a known conflict.",
+        "THIN - one inline source note is shown for Building concern near a site - source note inlined."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Building concern near a site - source note inlined has visible evidence but confidence is low.",
+      "what_where_line": "What/where: Building concern near a site - source note inlined around Primary synthetic site."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not an official finding.",
+        "Not a work order, prediction, customer-ready view, or operational action.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-003",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "replay source record",
+          "source_note_text": "Permit or inspection delay source shows permit inspection delay. Observed details: family adapter: adapter:permit inspection delay, overlay kind: permit inspection timeline overlay, priority tier: static medium.",
+          "timestamp_or_freshness": "2026-07-07T03:16:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports reviewing permit or inspection uncertainty around Primary synthetic site."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: a permit or inspection delay matters when it is attached to the same primary site as other review signals.",
+      "source_card_id": "founder-inline-003",
+      "suggested_review_next_step": "Verify against the permit or inspection source and request a fresher status note.",
+      "uncertainty": [
+        "The card does not prove cause or delay responsibility; it only shows review context.",
+        "THIN - one inline source note is shown for Permit or inspection delay - source note inlined."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Permit or inspection delay - source note inlined has visible evidence but confidence is low.",
+      "what_where_line": "What/where: Permit or inspection delay - source note inlined around Primary synthetic site."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not an official finding.",
+        "Not a work order, prediction, customer-ready view, or operational action.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-004",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Nearby infrastructure corridor candidate",
+          "outcome_in_plain_language": "Need more before deciding; review is required.",
+          "source_class": "derived fixture",
+          "source_note_text": "Infrastructure or city asset concern source shows asset infrastructure issue. Observed details: family adapter: adapter:city asset infrastructure issue, overlay kind: asset issue map view overlay, priority tier: static medium.",
+          "timestamp_or_freshness": "2026-07-07T04:16:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports corridor-context review around Nearby infrastructure corridor candidate."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+        "human_label": "Nearby infrastructure corridor candidate",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: an infrastructure signal matters as corridor context, but only if the card keeps it separate from the primary site.",
+      "source_card_id": "founder-inline-004",
+      "suggested_review_next_step": "Ask whether the infrastructure signal is at the site or only nearby corridor context.",
+      "uncertainty": [
+        "The card does not prove the infrastructure signal belongs to the same site.",
+        "THIN - one inline source note is shown for Infrastructure or city asset concern - source note inlined."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Infrastructure or city asset concern - source note inlined has limits that should be checked first.",
+      "what_where_line": "What/where: Infrastructure or city asset concern - source note inlined around Nearby infrastructure corridor candidate."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not an official finding.",
+        "Not a work order, prediction, customer-ready view, or operational action.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-005",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "replay source record",
+          "source_note_text": "Access interruption source shows mobility access interruption. Observed details: family adapter: adapter:mobility access interruption, overlay kind: route access constraint, priority tier: static medium.",
+          "timestamp_or_freshness": "2026-07-07T01:16:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports watching access or mobility constraints around Primary synthetic site."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: an access interruption matters if it affects review of the primary site and the card makes the timing visible.",
+      "source_card_id": "founder-inline-005",
+      "suggested_review_next_step": "Request a fresh access note and keep it in the watch queue until another source appears.",
+      "uncertainty": [
+        "The card does not prove the access issue is still current or operationally actionable.",
+        "THIN - one inline source note is shown for Access interruption - source note inlined."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Access interruption - source note inlined has visible evidence but confidence is low.",
+      "what_where_line": "What/where: Access interruption - source note inlined around Primary synthetic site."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not a source-truth correction.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-006",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+          "outcome_in_plain_language": "Watch this, with limits; it is reviewable but not action authority.",
+          "source_class": "replay",
+          "source_note_text": "Positive baseline card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome was sufficient for review, expected sufficient for review, match matched direct evidence review harness.",
+          "timestamp_or_freshness": "UNKNOWN - this review card has source refs but no direct observation timestamp.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around UNKNOWN - no plain place or entity label was found in the source artifact.."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+        "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: it matters because the baseline should show whether a useful card can proceed with visible limits.",
+      "source_card_id": "founder-inline-006",
+      "suggested_review_next_step": "A plain source note that explains why the baseline should be watched.",
+      "uncertainty": [
+        "The baseline is still a diagnostic case and not a product-ready proof.",
+        "THIN - one inline source note is shown for Building concern near a site - positive packet baseline."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Building concern near a site - positive packet baseline has visible evidence but confidence is low.",
+      "what_where_line": "What/where: Building concern near a site - positive packet baseline around UNKNOWN - no plain place or entity label was found in the source artifact.."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not a source-truth correction.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-007",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+          "outcome_in_plain_language": "Ignore for now or hold; the card lacks enough data.",
+          "source_class": "replay",
+          "source_note_text": "No-data diagnostic card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome stayed limited or abstained, expected abstain no data, match matched challenge boundary.",
+          "timestamp_or_freshness": "UNKNOWN - this review card has source refs but no direct observation timestamp.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports ignoring for now unless better evidence appears for UNKNOWN - no plain place or entity label was found in the source artifact.."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+        "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: it matters because a good review surface should show when there is not enough evidence instead of sounding confident.",
+      "source_card_id": "founder-inline-007",
+      "suggested_review_next_step": "Dismiss for now unless a concrete source note arrives.",
+      "uncertainty": [
+        "There may be no usable source behind the signal, so the correct response may be to ignore it for now.",
+        "THIN - one inline source note is shown for Building concern near a site - negative no data."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Building concern near a site - negative no data has limits that should be checked first.",
+      "what_where_line": "What/where: Building concern near a site - negative no data around UNKNOWN - no plain place or entity label was found in the source artifact.."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not a source-truth correction.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-008",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+          "outcome_in_plain_language": "Ignore for now or hold; the card lacks enough data.",
+          "source_class": "replay",
+          "source_note_text": "Stale-freshness diagnostic card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome was PASS LIMITED OR ABSTAIN, expected a freshness downgrade, match matched challenge boundary.",
+          "timestamp_or_freshness": "UNKNOWN - this diagnostic card intentionally tests stale or missing freshness evidence.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around UNKNOWN - no plain place or entity label was found in the source artifact.."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+        "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: it matters because a stale note should reduce trust even when the story is easy to understand.",
+      "source_card_id": "founder-inline-008",
+      "suggested_review_next_step": "Request a fresh source pull before treating it as current.",
+      "uncertainty": [
+        "The signal may be old enough that it should not guide a current review.",
+        "THIN - one inline source note is shown for Building concern near a site - stale freshness."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Building concern near a site - stale freshness has limits that should be checked first.",
+      "what_where_line": "What/where: Building concern near a site - stale freshness around UNKNOWN - no plain place or entity label was found in the source artifact.."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not a source-truth correction.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-009",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+          "outcome_in_plain_language": "Need more before deciding; two claims conflict.",
+          "source_class": "replay",
+          "source_note_text": "Contradiction diagnostic card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome found a conflict, expected a downgrade, match matched direct evidence review harness.",
+          "timestamp_or_freshness": "UNKNOWN - this review card has source refs but no direct observation timestamp.",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports holding review until the conflict around UNKNOWN - no plain place or entity label was found in the source artifact. is explained."
+        }
+      ],
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "place_anchor": {
+        "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+        "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: it matters because conflicting evidence should be visible and should stop overconfident claims.",
+      "source_card_id": "founder-inline-009",
+      "suggested_review_next_step": "Ask for a human-readable tie-breaker before spending more review time.",
+      "uncertainty": [
+        "The card shows a conflict, so a reviewer cannot trust the claim without a tie-breaker.",
+        "THIN - one inline source note is shown for Building concern near a site - contradiction pair."
+      ],
+      "verdict_line": "Verdict: Need more before deciding - Building concern near a site - contradiction pair has limits that should be checked first.",
+      "what_where_line": "What/where: Building concern near a site - contradiction pair around UNKNOWN - no plain place or entity label was found in the source artifact.."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not city truth.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-010",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Access Constraint example: Seed R3 mobility access gold adapter event",
+          "timestamp_or_freshness": "2026-07-08T13:07:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports watching access or mobility constraints around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "UNKNOWN - geometry reference exists but no plain place label was found.",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic dirty source",
+          "source_note_text": "Transit Disruption example: Seed R3 mobility access dirty_source adapter event",
+          "timestamp_or_freshness": "2026-07-08T13:14:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports watching access or mobility constraints around UNKNOWN - geometry reference exists but no plain place label was found.."
+        }
+      ],
+      "operator_verdict_suggestion": "watch_this",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: the examples test whether access signals can be made readable before any operational claim is made.",
+      "source_card_id": "founder-inline-010",
+      "suggested_review_next_step": "Request a fresh access note and keep it in the watch queue until another source appears.",
+      "uncertainty": [
+        "At least one example lacks a plain place label, so the card should be reviewed cautiously for access interruption.",
+        "2 inline source notes are shown for Access interruption examples."
+      ],
+      "verdict_line": "Verdict: Watch this - Access interruption examples has visible evidence, but no cause or action is proven.",
+      "what_where_line": "What/where: Access interruption examples around Primary synthetic site."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not city truth.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-011",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Site Condition example: Seed R3 building compliance gold adapter event",
+          "timestamp_or_freshness": "2026-07-08T16:27:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports limited review around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "UNKNOWN - geometry reference exists but no plain place label was found.",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic dirty source",
+          "source_note_text": "Inspection Due example: Seed R3 building compliance dirty_source adapter event",
+          "timestamp_or_freshness": "2026-07-08T16:34:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports reviewing permit or inspection uncertainty around UNKNOWN - geometry reference exists but no plain place label was found.."
+        }
+      ],
+      "operator_verdict_suggestion": "watch_this",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: the examples test whether building concerns can show both a reason to watch and a reason to hesitate.",
+      "source_card_id": "founder-inline-011",
+      "suggested_review_next_step": "A real source note with a human place label would change trust for building concern near a site.",
+      "uncertainty": [
+        "At least one example lacks a plain place label, so the card should be reviewed cautiously for building concern near a site.",
+        "2 inline source notes are shown for Building concern near a site examples."
+      ],
+      "verdict_line": "Verdict: Watch this - Building concern near a site examples has visible evidence, but no cause or action is proven.",
+      "what_where_line": "What/where: Building concern near a site examples around Primary synthetic site."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not city truth.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-012",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Primary synthetic site",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Permit Wait example: Seed R3 permit inspection delay gold adapter event",
+          "timestamp_or_freshness": "2026-07-08T19:47:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports reviewing permit or inspection uncertainty around Primary synthetic site."
+        },
+        {
+          "entity_or_place_label": "UNKNOWN - geometry reference exists but no plain place label was found.",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic dirty source",
+          "source_note_text": "Inspection Backlog example: Seed R3 permit inspection delay dirty_source adapter event",
+          "timestamp_or_freshness": "2026-07-08T19:54:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports reviewing permit or inspection uncertainty around UNKNOWN - geometry reference exists but no plain place label was found.."
+        }
+      ],
+      "operator_verdict_suggestion": "watch_this",
+      "place_anchor": {
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Primary synthetic site",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: the examples test whether permit delay signals can be reviewed without pretending to forecast outcomes.",
+      "source_card_id": "founder-inline-012",
+      "suggested_review_next_step": "Verify against the permit or inspection source and request a fresher status note.",
+      "uncertainty": [
+        "At least one example lacks a plain place label, so the card should be reviewed cautiously for permit or inspection delay.",
+        "2 inline source notes are shown for Permit or inspection delay examples."
+      ],
+      "verdict_line": "Verdict: Watch this - Permit or inspection delay examples has visible evidence, but no cause or action is proven.",
+      "what_where_line": "What/where: Permit or inspection delay examples around Primary synthetic site."
+    },
+    {
+      "audience": "operator_view",
+      "audience_fit_question": "Which audience is this card actually for? operator / manager / public-human / none-cleanly",
+      "boundary": {
+        "client_ready": false,
+        "external_operator_validation": false,
+        "founder_internal_diagnostic_only": true,
+        "operator_fuel": false,
+        "product_review_ready": false,
+        "training_eligible": false
+      },
+      "cannot_claim": [
+        "Not city truth.",
+        "Not a prediction, work order, official action, customer-ready view, or training signal.",
+        "Not official fact.",
+        "Not causation.",
+        "Not customer readiness."
+      ],
+      "card_id": "operator-view-013",
+      "card_type": "single_family_example",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "decision_question": "Would you watch this, ignore it, or need more before deciding?",
+      "evidence_snapshot": [
+        {
+          "entity_or_place_label": "Nearby infrastructure corridor candidate",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic gold",
+          "source_note_text": "Service Asset example: Seed R3 asset infrastructure gold adapter event",
+          "timestamp_or_freshness": "2026-07-08T23:07:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports corridor-context review around Nearby infrastructure corridor candidate."
+        },
+        {
+          "entity_or_place_label": "Nearby infrastructure corridor candidate",
+          "outcome_in_plain_language": "Need more before deciding; outcome detail is limited.",
+          "source_class": "synthetic dirty source",
+          "source_note_text": "Facility Context example: Seed R3 asset infrastructure dirty_source adapter event",
+          "timestamp_or_freshness": "2026-07-08T23:14:00Z",
+          "what_this_does_not_prove": "It does not prove official fact, cause, action authority, prediction, or customer readiness.",
+          "what_this_supports": "Supports corridor-context review around Nearby infrastructure corridor candidate."
+        }
+      ],
+      "operator_verdict_suggestion": "watch_this",
+      "place_anchor": {
+        "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+        "human_label": "Nearby infrastructure corridor candidate",
+        "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+        "missing_reason": ""
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what_line": "So what: the examples test whether infrastructure context can stay clearly separate from the site story.",
+      "source_card_id": "founder-inline-013",
+      "suggested_review_next_step": "Ask whether the infrastructure signal is at the site or only nearby corridor context.",
+      "uncertainty": [
+        "The examples are local synthetic samples, so they show review behavior but not real-world truth for infrastructure or city asset concern.",
+        "2 inline source notes are shown for Infrastructure or city asset concern examples."
+      ],
+      "verdict_line": "Verdict: Watch this - Infrastructure or city asset concern examples has visible evidence, but no cause or action is proven.",
+      "what_where_line": "What/where: Infrastructure or city asset concern examples around Nearby infrastructure corridor candidate."
+    }
+  ],
+  "status": "PASS_MAIN_CITYBRAIN_FOUNDER_OPERATOR_VIEW_CARD_RENDERING_R1_WITH_LIMITATIONS"
+}

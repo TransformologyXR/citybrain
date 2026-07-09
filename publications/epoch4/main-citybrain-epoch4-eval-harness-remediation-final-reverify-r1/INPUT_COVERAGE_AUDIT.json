@@ -1,0 +1,185 @@
+{
+  "all_required_outputs_present": true,
+  "artifact_id": "INPUT_COVERAGE_AUDIT",
+  "generated_at": "2026-07-07T19:07:41Z",
+  "input_files": {
+    "eval_gap_triage_founder_readiness_no_session": [
+      {
+        "exists": true,
+        "file": "EVAL_GAP_TRIAGE_REPORT.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/EVAL_GAP_TRIAGE_REPORT.json"
+      },
+      {
+        "exists": true,
+        "file": "TOP_FIX_QUEUE_BEFORE_FOUNDER_REVIEW.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/TOP_FIX_QUEUE_BEFORE_FOUNDER_REVIEW.json"
+      },
+      {
+        "exists": true,
+        "file": "FOUNDER_REVIEW_READINESS_NO_SESSION_DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/FOUNDER_REVIEW_READINESS_NO_SESSION_DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "REVIEW_TASK_QUEUE_ADJUSTMENT_PROPOSAL.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/REVIEW_TASK_QUEUE_ADJUSTMENT_PROPOSAL.json"
+      },
+      {
+        "exists": true,
+        "file": "PACKET_COMPLETENESS_READINESS.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/PACKET_COMPLETENESS_READINESS.json"
+      },
+      {
+        "exists": true,
+        "file": "UI_UX_DEFERRAL_RISK_NOTE.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/UI_UX_DEFERRAL_RISK_NOTE.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_SESSION_NO_FUEL_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/NO_SESSION_NO_FUEL_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "HASH_MANIFEST.json",
+        "path": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1/HASH_MANIFEST.json"
+      }
+    ],
+    "eval_harness_execution": [
+      {
+        "exists": true,
+        "file": "PRODUCT_LOOP_EVAL_EXECUTION_REPORT.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/PRODUCT_LOOP_EVAL_EXECUTION_REPORT.json"
+      },
+      {
+        "exists": true,
+        "file": "CASE_RESULTS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CASE_RESULTS.json"
+      },
+      {
+        "exists": true,
+        "file": "FAMILY_SCORECARD.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/FAMILY_SCORECARD.json"
+      },
+      {
+        "exists": true,
+        "file": "CHECK_ASSERTION_RESULTS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json"
+      },
+      {
+        "exists": true,
+        "file": "BRIEF_ASSERTION_RESULTS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/BRIEF_ASSERTION_RESULTS.json"
+      },
+      {
+        "exists": true,
+        "file": "EVENT_STATE_ASSERTION_RESULTS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/EVENT_STATE_ASSERTION_RESULTS.json"
+      },
+      {
+        "exists": true,
+        "file": "SIMULATION_OPTION_ASSERTION_RESULTS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/SIMULATION_OPTION_ASSERTION_RESULTS.json"
+      },
+      {
+        "exists": true,
+        "file": "SPATIAL_PACKET_ASSERTION_RESULTS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/SPATIAL_PACKET_ASSERTION_RESULTS.json"
+      },
+      {
+        "exists": true,
+        "file": "EVAL_FAILURES_AND_GAPS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/EVAL_FAILURES_AND_GAPS.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_TRAINING_FUEL_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/NO_TRAINING_FUEL_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "HASH_MANIFEST.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/HASH_MANIFEST.json"
+      }
+    ],
+    "remediation_candidate_sandbox_projection": [
+      {
+        "exists": true,
+        "file": "SANDBOX_PROJECTION_PLAN.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/SANDBOX_PROJECTION_PLAN.json"
+      },
+      {
+        "exists": true,
+        "file": "CANDIDATE_PATCH_OVERLAYS.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/CANDIDATE_PATCH_OVERLAYS.json"
+      },
+      {
+        "exists": true,
+        "file": "PROJECTED_IMPACT_BY_QUEUE.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/PROJECTED_IMPACT_BY_QUEUE.json"
+      },
+      {
+        "exists": true,
+        "file": "PROJECTED_IMPACT_BY_FAMILY.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/PROJECTED_IMPACT_BY_FAMILY.json"
+      },
+      {
+        "exists": true,
+        "file": "EVAL_CASES_AFFECTED_BY_REMEDIATION.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/EVAL_CASES_AFFECTED_BY_REMEDIATION.json"
+      },
+      {
+        "exists": true,
+        "file": "DO_NOT_APPLY_REASONING.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/DO_NOT_APPLY_REASONING.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_SCORE_INFLATION_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/NO_SCORE_INFLATION_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "HASH_MANIFEST.json",
+        "path": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1/HASH_MANIFEST.json"
+      }
+    ]
+  },
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-HARNESS-REMEDIATION-FINAL-REVERIFY-R1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

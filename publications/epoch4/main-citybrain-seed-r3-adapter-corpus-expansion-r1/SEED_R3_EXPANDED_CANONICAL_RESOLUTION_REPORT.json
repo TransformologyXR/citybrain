@@ -1,0 +1,59 @@
+{
+  "adapter_root": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1",
+  "artifact_id": "SEED_R3_EXPANDED_CANONICAL_RESOLUTION_REPORT",
+  "cadence_root": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-CADENCE-REPLAY-QUARANTINE-MINING-R1",
+  "canonical_family_ids": [
+    "mobility_access_interruption_v0",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "canonical_refs_by_family": {
+    "building_compliance_perception_candidate": [
+      "cer:building:alpha",
+      "cer:observation:near_alpha"
+    ],
+    "city_asset_infrastructure_issue": [
+      "asset:city:synthetic:utility-node-alpha",
+      "cer:asset:infrastructure_candidate"
+    ],
+    "mobility_access_interruption_v0": [
+      "cer:building:alpha",
+      "cer:building:beta_candidate"
+    ],
+    "permit_inspection_delay": [
+      "cer:building:alpha",
+      "permit:us-nyc:dob_job:121912591"
+    ]
+  },
+  "canonical_resolved_event_count": 20,
+  "limitations": [
+    "Canonical refs are resolved against existing local canonical/CER-style references where available.",
+    "R3-local synthetic-admitted events remain explicit and source-classed.",
+    "This is not official truth, live monitoring, or an action surface."
+  ],
+  "r3_local_examples_by_family": {
+    "building_compliance_perception_candidate": [
+      "seed-r3-expanded:building_compliance:002",
+      "seed-r3-expanded:building_compliance:004",
+      "seed-r3-expanded:building_compliance:006"
+    ],
+    "city_asset_infrastructure_issue": [
+      "seed-r3-expanded:asset_infrastructure:002",
+      "seed-r3-expanded:asset_infrastructure:004",
+      "seed-r3-expanded:asset_infrastructure:006"
+    ],
+    "mobility_access_interruption_v0": [
+      "seed-r3-expanded:mobility_access:002",
+      "seed-r3-expanded:mobility_access:004",
+      "seed-r3-expanded:mobility_access:006"
+    ],
+    "permit_inspection_delay": [
+      "seed-r3-expanded:permit_inspection_delay:002",
+      "seed-r3-expanded:permit_inspection_delay:004",
+      "seed-r3-expanded:permit_inspection_delay:006"
+    ]
+  },
+  "r3_local_or_synthetic_admitted_event_count": 60,
+  "status": "PASS_WITH_LIMITATIONS"
+}

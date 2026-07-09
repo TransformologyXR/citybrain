@@ -1,0 +1,14 @@
+{
+  "artifact_id": "EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT",
+  "boundary_language_count": 27827,
+  "generated_artifacts_create_forbidden_capability": false,
+  "generated_at": "2026-07-07T14:23:06Z",
+  "guard_refs": [
+    "NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+    "NO_LIVE_INGESTION_CLAIM_GUARD.json",
+    "NO_ACTION_OR_OFFICIAL_CASE_GUARD.json"
+  ],
+  "risk_finding_count": 42763,
+  "scan_ref": "FORBIDDEN_CLAIM_SCAN_RESULTS.json",
+  "status": "PASS_WITH_LIMITATIONS"
+}

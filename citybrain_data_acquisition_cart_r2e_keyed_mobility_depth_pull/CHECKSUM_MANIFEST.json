@@ -1,0 +1,96 @@
+{
+  "algorithm": "sha256",
+  "file_count": 18,
+  "files": [
+    {
+      "path": "DATA_SOURCES_CONFIRMATION.md",
+      "bytes": 817,
+      "sha256": "e902f177ce08f743b90f7549400328529d01ac2c5e5f46d2b0d1687c783afff7"
+    },
+    {
+      "path": "HTTP_CLIENT_POLICY.md",
+      "bytes": 1143,
+      "sha256": "3b07db94cd8eaab8fdcc1053a69225c3b20e1fee7f460ea591378431f67c7dae"
+    },
+    {
+      "path": "KEY_HANDLING.md",
+      "bytes": 1034,
+      "sha256": "34aeb4107fb2ba6511883e6b2b060e6fe58a9a8bd6656dd06aa8758337603e7e"
+    },
+    {
+      "path": "KNOWN_BLOCKERS.md",
+      "bytes": 1349,
+      "sha256": "e57cc97ecf8a6176b501aa8dd5f2d2b80849e9a689149825a509bf8a91a0458d"
+    },
+    {
+      "path": "R2E_PACKAGE_DECISION.json",
+      "bytes": 891,
+      "sha256": "090c87b1696b3429a4b4c7e3702abc492e0ab94e5e559c18883f2dd285178df4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2249,
+      "sha256": "47fe0d3c837e908420e72a86ac397d3b2960a11838fe9e3a68eef412a12ee51c"
+    },
+    {
+      "path": "codex/CODEX_HANDOFF.md",
+      "bytes": 2360,
+      "sha256": "7b9c91f9949565e3174f0d8254534788f5b82c438924c1d52ab1d6cbcc53af1d"
+    },
+    {
+      "path": "manifests/DEPTH_SOURCE_PLAN_R2E.csv",
+      "bytes": 2965,
+      "sha256": "407fdfa540212f511853fa25242d4d004aa71637a4cf108ec7b10c1049f84e19"
+    },
+    {
+      "path": "manifests/ENDPOINT_CATALOG_R2E.json",
+      "bytes": 6525,
+      "sha256": "c00c53083e5baa9c93cfdd851b83e40d21721357c2a6b255815d075418206cd8"
+    },
+    {
+      "path": "manifests/NORMALIZATION_CONTRACT_R2E.json",
+      "bytes": 986,
+      "sha256": "cf2029f27f6e92fbc1cc13514ece1836e2b3a589825314f587db78f61572a7ee"
+    },
+    {
+      "path": "manifests/OUTPUT_CONTRACT_R2E.json",
+      "bytes": 653,
+      "sha256": "eb3fa3c8c2ace7efeab44768bb9c85aee59ae95b7714fb225b8de895e3741ce0"
+    },
+    {
+      "path": "reports/PACKAGE_STATIC_VALIDATION_REPORT.json",
+      "bytes": 173,
+      "sha256": "75058f187855dbb53a0695978f42178cf141a73b5935b259cf76b160167e9f28"
+    },
+    {
+      "path": "reports/SECRET_SCAN_REPORT.json",
+      "bytes": 67,
+      "sha256": "079fc92774cd7ac19575865ab914199e4509c41e169cc5bbbe7d20ccfe7017e5"
+    },
+    {
+      "path": "schemas/r2e_source_status.schema.json",
+      "bytes": 951,
+      "sha256": "42003f34e022875fcfa179ac952cb3477c8ab67090547021a3eaf54053d8fb67"
+    },
+    {
+      "path": "scripts/run_main_citybrain_data_acquisition_cart_r2e_keyed_mobility_depth_pull.py",
+      "bytes": 27847,
+      "sha256": "822ce318a1bebf50e0c0c639710011164d2edd7683dbad005f9b8801cef5555c"
+    },
+    {
+      "path": "scripts/validate_package_no_secrets.py",
+      "bytes": 820,
+      "sha256": "e6e6031c93d9c5454f448a356fa1a0cd7154b722513bcd8543b35933f4e46351"
+    },
+    {
+      "path": "secrets/lta_tfl.env.template",
+      "bytes": 148,
+      "sha256": "d4bc952b03a70eccb3a857c37a360451681f032b80024ca8c33be92841d86e39"
+    },
+    {
+      "path": "tests/test_r2e_package_static.py",
+      "bytes": 2272,
+      "sha256": "54bcee53a9435c85677e2d5d947eec26e995f95dd131c5aa1b7e27305c844b66"
+    }
+  ]
+}

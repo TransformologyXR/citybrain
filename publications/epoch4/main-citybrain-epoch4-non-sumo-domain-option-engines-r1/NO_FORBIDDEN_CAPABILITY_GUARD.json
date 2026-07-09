@@ -1,0 +1,29 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD",
+  "boundary": "local/replay/review-only",
+  "checks": {
+    "dispatch_control_enforcement_created": false,
+    "founder_operator_review_session_results_created": false,
+    "learned_model_training_or_ranking_created": false,
+    "official_action_case_ticket_created": false,
+    "operator_founder_fuel_or_dispositions_created": false,
+    "product_forecast_surface_or_ForecastPacket_created": false,
+    "production_live_ingestion_created": false,
+    "source_truth_mutated": false
+  },
+  "forbidden_capabilities_checked": [
+    "production_live_ingestion",
+    "official_action_case_ticket",
+    "dispatch_control_enforcement",
+    "product_forecast_surface_or_ForecastPacket",
+    "learned_model_training_or_ranking",
+    "founder_operator_review_session_results",
+    "operator_founder_fuel_or_dispositions",
+    "source_truth_mutation"
+  ],
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:20:58Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NON-SUMO-DOMAIN-OPTION-ENGINES-R1",
+  "scope": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1",
+  "status": "PASS"
+}

@@ -1,0 +1,63 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_QUARANTINE_UNRESOLVED_REPORT",
+  "record_count": 8,
+  "records": [
+    {
+      "event_id": "efv22-mobility_access_interruption-06",
+      "family_id": "mobility_access_interruption",
+      "quarantine_reason": null,
+      "state": "unresolved",
+      "unresolved_reason": "missing_cer_resolution"
+    },
+    {
+      "event_id": "efv22-mobility_access_interruption-07",
+      "family_id": "mobility_access_interruption",
+      "quarantine_reason": "invalid_source_class_or_missing_check",
+      "state": "quarantined",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "efv22-building_compliance_perception_candidate-06",
+      "family_id": "building_compliance_perception_candidate",
+      "quarantine_reason": null,
+      "state": "unresolved",
+      "unresolved_reason": "missing_cer_resolution"
+    },
+    {
+      "event_id": "efv22-building_compliance_perception_candidate-07",
+      "family_id": "building_compliance_perception_candidate",
+      "quarantine_reason": "invalid_source_class_or_missing_check",
+      "state": "quarantined",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "efv22-permit_inspection_delay-06",
+      "family_id": "permit_inspection_delay",
+      "quarantine_reason": null,
+      "state": "unresolved",
+      "unresolved_reason": "missing_cer_resolution"
+    },
+    {
+      "event_id": "efv22-permit_inspection_delay-07",
+      "family_id": "permit_inspection_delay",
+      "quarantine_reason": "invalid_source_class_or_missing_check",
+      "state": "quarantined",
+      "unresolved_reason": null
+    },
+    {
+      "event_id": "efv22-city_asset_infrastructure_issue-06",
+      "family_id": "city_asset_infrastructure_issue",
+      "quarantine_reason": null,
+      "state": "unresolved",
+      "unresolved_reason": "missing_cer_resolution"
+    },
+    {
+      "event_id": "efv22-city_asset_infrastructure_issue-07",
+      "family_id": "city_asset_infrastructure_issue",
+      "quarantine_reason": "invalid_source_class_or_missing_check",
+      "state": "quarantined",
+      "unresolved_reason": null
+    }
+  ],
+  "status": "PASS"
+}

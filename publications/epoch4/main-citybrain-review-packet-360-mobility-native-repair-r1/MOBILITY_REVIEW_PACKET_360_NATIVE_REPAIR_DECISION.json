@@ -1,0 +1,18 @@
+{
+  "artifact_id": "MOBILITY_REVIEW_PACKET_360_NATIVE_REPAIR_DECISION",
+  "client_ready": false,
+  "derived_backfill_relabelled_as_native": false,
+  "expanded_cadence_status": "PASS_MAIN_CITYBRAIN_EVENT_FABRIC_SEED_R3_EXPANDED_CORPUS_CADENCE_REPLAY_MINING_R2_WITH_LIMITATIONS",
+  "founder_diagnostic_review_allowed_with_limitations": true,
+  "founder_session_results_created": false,
+  "missing_native_evidence_blocker_count": 0,
+  "mobility_native_packet_status": "native_packet_complete",
+  "mobility_repair_supported": true,
+  "native_mobility_event_count": 20,
+  "operator_fuel_created": false,
+  "product_review_ready": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_REVIEW_PACKET_360_MOBILITY_NATIVE_REPAIR_R1_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1",
+  "training_rows_created": false
+}

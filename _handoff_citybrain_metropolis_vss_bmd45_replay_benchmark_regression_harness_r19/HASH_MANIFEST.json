@@ -1,0 +1,106 @@
+{
+  "schema_version": "metropolis-vss-bmd45-replay-benchmark-regression-harness-r19.handoff_manifest.v1",
+  "algorithm": "sha256",
+  "created_at": "2026-07-04T15:40:00Z",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "ffcbced5f21881b63b178b9c0bf16fd4ee1c08c1bfc334fc3a928f47e09643ae",
+      "bytes": 953
+    },
+    {
+      "path": "BASELINE_METRICS_FROM_R18.json",
+      "sha256": "e789d6a9e1bb2e8efa484cbd88164e544f2a7ad31523552d0c9ae356a23d3e41",
+      "bytes": 1478
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "323d89f275a57b824b9ad97fd2e04e6224bea4e62a476e58d413071b51b44a2d",
+      "bytes": 571
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "05da377c98e987a2463df05299593009539512c2af5b2242c0aaa55193b0eaac",
+      "bytes": 1682
+    },
+    {
+      "path": "GUARDRAIL_TERMS_R19.json",
+      "sha256": "a37435e1fac98241e76159e28f53c535a2acd28c87f1799fbebd7570a5e737aa",
+      "bytes": 388
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "268e9c95260b7823894cd798a396b14fa582e051ccd13d7e9175b401d0c9dd8d",
+      "bytes": 437
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "2b16a0c254529db29b6b5ddf327822fcee09e4f36356ab068e2fcab0dabd272b",
+      "bytes": 1074
+    },
+    {
+      "path": "INPUT_R18_VALIDATION_SUMMARY.json",
+      "sha256": "2d2c67444aeebd3c3ad7c23a22849e3b579bb9ea5e20fe6f10cb0a06c8d66a6c",
+      "bytes": 1400
+    },
+    {
+      "path": "KNOWN_LIMITATIONS_TEMPLATE_R19.md",
+      "sha256": "d00d63f0dffcf288d29b3cdf2ca5ab68f3a93b1ec674f3e52c99b3b8a472cd3d",
+      "bytes": 454
+    },
+    {
+      "path": "NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R19.md",
+      "sha256": "b5e6d3fc1803d8475b1821515220dfe6c2b75d14d52b5d9f6576960762913a1e",
+      "bytes": 560
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "92d94593267fa0c01adfccdb06e3833e5e17af368da4f70e0d3c37cfc8b8cd88",
+      "bytes": 1119
+    },
+    {
+      "path": "R18_ARTIFACT_INSPECTION_REPORT.json",
+      "sha256": "4614fe4787af817ae9b9f3f9c57c0b6ae34719f8935034c7297b58a05060e55b",
+      "bytes": 1747
+    },
+    {
+      "path": "README.md",
+      "sha256": "6f59967618d3138fcc189c6c90f1ea57b3e8d1af586df0d9b057f3bbde9016c8",
+      "bytes": 432
+    },
+    {
+      "path": "RUNTIME_HOST_ALLOCATION_R19.json",
+      "sha256": "428e579a9b6caf3acd16c00c008cf86a066d0394d99cf6f88c1b5dc6a0582624",
+      "bytes": 472
+    },
+    {
+      "path": "SCHEMA_BENCHMARK_SCORECARD_R19.json",
+      "sha256": "29f4338603c538a6972f22c1718ff5dc33b4928c3aec6bad375400c19c21b726",
+      "bytes": 574
+    },
+    {
+      "path": "SCHEMA_DECISION_R19.json",
+      "sha256": "860e5b29d14d238acb62a728fc10dc3a2bd2ebf03dc9d63fce61e1921706124e",
+      "bytes": 730
+    },
+    {
+      "path": "SCHEMA_REPLAY_BENCHMARK_CONFIG_R19.json",
+      "sha256": "435ed464514959142a2368f910565f2e8b385e0da332e42dc6a6a2fa5e90690f",
+      "bytes": 685
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "b22e2815aa4b9b73dddbde5d00b61aba9269aad627036df4834e94abda5794bb",
+      "bytes": 1703
+    },
+    {
+      "path": "STATUS_ENUMS_R19.json",
+      "sha256": "f03a74406dca16a113d79c8b8b49124f527cae9d1b09dd029b98521b07d40596",
+      "bytes": 365
+    }
+  ],
+  "excludes": [
+    "HASH_MANIFEST.json"
+  ],
+  "file_count": 19
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "candidate_canonical_entity_id": {
+      "type": "string"
+    },
+    "conflict_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "evidence_refs": {
+      "type": "string"
+    },
+    "features": {
+      "type": "object"
+    },
+    "identity_claimed": {
+      "type": "boolean"
+    },
+    "left_source_entity_ref": {
+      "type": "string"
+    },
+    "match_candidate_id": {
+      "type": "string"
+    },
+    "provenance_refs": {
+      "type": "string"
+    },
+    "review_state": {
+      "type": "string"
+    },
+    "right_source_entity_ref": {
+      "type": "string"
+    },
+    "score": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    }
+  },
+  "required": [
+    "match_candidate_id",
+    "left_source_entity_ref",
+    "right_source_entity_ref",
+    "candidate_canonical_entity_id",
+    "features",
+    "score",
+    "review_state",
+    "evidence_refs",
+    "provenance_refs"
+  ],
+  "title": "MatchCandidateR1",
+  "type": "object"
+}

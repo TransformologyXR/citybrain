@@ -1,0 +1,189 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 1011,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "sha256": "2d52d07b6ab96016c39b9fca896a84d05bb6b1efd10e22f693cab15cd9dc07e0"
+    },
+    {
+      "bytes": 1204,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "1486b118b5da893d04443f1f7e6b989c52970a5c2d794067a28dd57627d8263a"
+    },
+    {
+      "bytes": 1079,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_ASSUMPTION_FIDELITY_UNCERTAINTY_REPORT.json",
+      "sha256": "d2895b4d7f49daef5d7d7d9f49310cc2552d2886a45957d3579f4340ba518fb3"
+    },
+    {
+      "bytes": 1144,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "sha256": "b406fd12e4b4e4f93c9e6acb32cc7e39fdfb8f04466d34a89245cf8c99f58ca6"
+    },
+    {
+      "bytes": 1323,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_CHECK_BRIEF_ATTACHMENT_SAMPLES.json",
+      "sha256": "abe7daba17c3819ebe66ce5488fd232cce8ffb28d188d13d979ca1cfd7eeb168"
+    },
+    {
+      "bytes": 2180,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_FAMILY_SCENARIO_CATALOG.json",
+      "sha256": "cf07ed893ee53bb221c38b4793ae170d4304c5489d5e8b75da2f703dd36001d7"
+    },
+    {
+      "bytes": 11453,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_FAMILY_SUMO_RUN_REPORT.json",
+      "sha256": "3f977caf5f4613af6441f6517310a6fb50272db65940023cc2f463f7f7d3244f"
+    },
+    {
+      "bytes": 366,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_NO_FORECAST_AUTHORITY_GUARD.json",
+      "sha256": "a76b660f229e8450883bb79d0792601048c5be8d068f3d56e9e3315943e8fdef"
+    },
+    {
+      "bytes": 1396,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_SUMO_RUN_CAPABILITY_MATRIX.json",
+      "sha256": "abc5a7c25ffc5c3f212897ff146dbf9ee287759cbd5e7bcbf48990a48f4a421e"
+    },
+    {
+      "bytes": 189,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/family.edg.xml",
+      "sha256": "c85603b4fe35e18bb914638e078fafc059b0ea1bc001b05945029f9e7a5d2275"
+    },
+    {
+      "bytes": 2379,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/family.net.xml",
+      "sha256": "5ae473bccf94803441fa9dc29b6026954e18cfe3dbda46224c21ef3cb4a203dc"
+    },
+    {
+      "bytes": 164,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/family.nod.xml",
+      "sha256": "240daa2e53ab849b6997117f0743f3f56bfd9d7f8fb4b2078064d00d75e38b23"
+    },
+    {
+      "bytes": 468,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/family.rou.xml",
+      "sha256": "559454aec9fdd7c1a9c84339ae0d0e9bba1ca70395b5acb29e3d36deb3cb5c87"
+    },
+    {
+      "bytes": 302,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/family.sumocfg",
+      "sha256": "efc09604ac85cbd91e790314a410ca4d9102984e5e9659f130ea7932951fc227"
+    },
+    {
+      "bytes": 24426,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run1/summary.xml",
+      "sha256": "d65293260e0fae234e8c09735e25526888d319346a6eb9bd2fcc3daccd0f7b96"
+    },
+    {
+      "bytes": 3694,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run1/tripinfo.xml",
+      "sha256": "1f2b421b622289c42eb7a9f4b65c09a015a2c0e09ea5d20315194326a704a8ce"
+    },
+    {
+      "bytes": 24426,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run2/summary.xml",
+      "sha256": "6ed7d4a35550a270ab1107595a1d18a754525cfe9174a2370da816d7aa8bf21f"
+    },
+    {
+      "bytes": 3694,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run2/tripinfo.xml",
+      "sha256": "e0b2a0ec3881e0a433ccc1d30f8bacd020d65677d14dca7b9502b924e7618efa"
+    },
+    {
+      "bytes": 188,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/family.edg.xml",
+      "sha256": "c1e66b5c0611ec4f89a297897e6ce8bb0927ec3df79b0c03c3d2f489f0f31461"
+    },
+    {
+      "bytes": 2429,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/family.net.xml",
+      "sha256": "18212f4217de54d593915568e55a40d21194faa8ca037999c07d66abdbb578fe"
+    },
+    {
+      "bytes": 164,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/family.nod.xml",
+      "sha256": "240daa2e53ab849b6997117f0743f3f56bfd9d7f8fb4b2078064d00d75e38b23"
+    },
+    {
+      "bytes": 468,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/family.rou.xml",
+      "sha256": "559454aec9fdd7c1a9c84339ae0d0e9bba1ca70395b5acb29e3d36deb3cb5c87"
+    },
+    {
+      "bytes": 302,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/family.sumocfg",
+      "sha256": "efc09604ac85cbd91e790314a410ca4d9102984e5e9659f130ea7932951fc227"
+    },
+    {
+      "bytes": 24455,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run1/summary.xml",
+      "sha256": "4ec502ac39b8346a21c917e0aa20704cb04811034ca16a5e0fb29dcd0440ef0d"
+    },
+    {
+      "bytes": 3757,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run1/tripinfo.xml",
+      "sha256": "1a67d9eec49c486d6a022d5a649e470fcab95b8159e175311ca90369934bd169"
+    },
+    {
+      "bytes": 24455,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run2/summary.xml",
+      "sha256": "a1284038a0e3a587b2f5618de0b21c028b76e3f321f7227f1ce9f659707a58e4"
+    },
+    {
+      "bytes": 3757,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run2/tripinfo.xml",
+      "sha256": "85eb476f982cdbbeb6bbe2b7fb8f49094fb41f73988b5464788c0e59a7b1e046"
+    },
+    {
+      "bytes": 1011,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/DECISION.json",
+      "sha256": "2d52d07b6ab96016c39b9fca896a84d05bb6b1efd10e22f693cab15cd9dc07e0"
+    },
+    {
+      "bytes": 1204,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "1486b118b5da893d04443f1f7e6b989c52970a5c2d794067a28dd57627d8263a"
+    },
+    {
+      "bytes": 1079,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_ASSUMPTION_FIDELITY_UNCERTAINTY_REPORT.json",
+      "sha256": "d2895b4d7f49daef5d7d7d9f49310cc2552d2886a45957d3579f4340ba518fb3"
+    },
+    {
+      "bytes": 1144,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "sha256": "b406fd12e4b4e4f93c9e6acb32cc7e39fdfb8f04466d34a89245cf8c99f58ca6"
+    },
+    {
+      "bytes": 1323,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_CHECK_BRIEF_ATTACHMENT_SAMPLES.json",
+      "sha256": "abe7daba17c3819ebe66ce5488fd232cce8ffb28d188d13d979ca1cfd7eeb168"
+    },
+    {
+      "bytes": 2180,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_FAMILY_SCENARIO_CATALOG.json",
+      "sha256": "cf07ed893ee53bb221c38b4793ae170d4304c5489d5e8b75da2f703dd36001d7"
+    },
+    {
+      "bytes": 11453,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_FAMILY_SUMO_RUN_REPORT.json",
+      "sha256": "3f977caf5f4613af6441f6517310a6fb50272db65940023cc2f463f7f7d3244f"
+    },
+    {
+      "bytes": 366,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_NO_FORECAST_AUTHORITY_GUARD.json",
+      "sha256": "a76b660f229e8450883bb79d0792601048c5be8d068f3d56e9e3315943e8fdef"
+    },
+    {
+      "bytes": 1396,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-4-family-sumo-option-runner-r1/SIMULATION_V2_4_SUMO_RUN_CAPABILITY_MATRIX.json",
+      "sha256": "abc5a7c25ffc5c3f212897ff146dbf9ee287759cbd5e7bcbf48990a48f4a421e"
+    }
+  ],
+  "entry_count": 36,
+  "generated_at": "2026-07-07T16:50:30Z",
+  "status": "PASS"
+}

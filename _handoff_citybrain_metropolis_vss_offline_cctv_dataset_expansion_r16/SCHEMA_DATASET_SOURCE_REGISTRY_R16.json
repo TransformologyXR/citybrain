@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offline Dataset Source Registry R16",
+  "type": "object",
+  "required": [
+    "dataset_sources",
+    "selected_source",
+    "license_reviews"
+  ],
+  "properties": {
+    "dataset_sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "selected_source": {
+      "type": "string"
+    },
+    "license_reviews": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "external_media_refs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "artifact_id": "REVIEW_PACKET_360_V3_EVIDENCE_ATLAS",
+  "covers_mobility_control_family": true,
+  "families": [
+    {
+      "brief_refs": [
+        "brief:v3:mobility_access_interruption:operator",
+        "brief:v3:mobility_access_interruption:executive",
+        "brief:v3:mobility_access_interruption:technical"
+      ],
+      "cannot_claim": [
+        "official action",
+        "case/ticket",
+        "dispatch/control/enforcement",
+        "product forecast",
+        "founder session result"
+      ],
+      "cer_entity": "cer:mobility_access_interruption:atlas_primary",
+      "check_v1_result": "check:v1:mobility_access_interruption:stress_eval",
+      "diff_refs": [
+        "diff:v2_5:mobility_access_interruption:long_history"
+      ],
+      "event_state": "event_state:v2_5:mobility_access_interruption",
+      "family_id": "mobility_access_interruption",
+      "family_label": "Mobility Access Interruption",
+      "governance_refs": [
+        "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json"
+      ],
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_or_control_baseline",
+        "not_calibrated"
+      ],
+      "maturity_refs": [
+        "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json"
+      ],
+      "option_evidence": {
+        "calibration_state": "not_calibrated",
+        "comparability_class": "control_baseline",
+        "engine_class": "control_replay_option_evidence",
+        "evidence_mode": "local_replay_control",
+        "family_id": "mobility_access_interruption",
+        "family_role": "control",
+        "fidelity_label": "fixture_or_control_baseline",
+        "not_equivalent_to": [
+          "SUMO_real_smoke",
+          "non_sumo_domain_engine"
+        ],
+        "option_refs": [
+          "review_packet_360_v2:mobility_control"
+        ],
+        "source_class": "replay"
+      },
+      "seg_context": "seg:mobility_access_interruption:atlas_context",
+      "source_records": [
+        "source:v1_1:mobility_access_interruption:atlas"
+      ],
+      "spatial_refs": [
+        "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+      ]
+    },
+    {
+      "brief_refs": [
+        "brief:v3:building_compliance_perception_candidate:operator",
+        "brief:v3:building_compliance_perception_candidate:executive",
+        "brief:v3:building_compliance_perception_candidate:technical"
+      ],
+      "cannot_claim": [
+        "official action",
+        "case/ticket",
+        "dispatch/control/enforcement",
+        "product forecast",
+        "founder session result"
+      ],
+      "cer_entity": "cer:building_compliance_perception_candidate:atlas_primary",
+      "check_v1_result": "check:v1:building_compliance_perception_candidate:stress_eval",
+      "diff_refs": [
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "event_state": "event_state:v2_5:building_compliance_perception_candidate",
+      "family_id": "building_compliance_perception_candidate",
+      "family_label": "Building Compliance Perception Candidate",
+      "governance_refs": [
+        "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json"
+      ],
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "maturity_refs": [
+        "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json"
+      ],
+      "option_evidence": {
+        "calibration_state": "not_applicable",
+        "comparability_class": "non_sumo_rule_based_review_option",
+        "engine_class": "non_sumo_domain_option_engine",
+        "evidence_mode": "rule_based_evidence_gap_review",
+        "family_id": "building_compliance_perception_candidate",
+        "family_role": "selected_product_loop_family",
+        "fidelity_label": "fixture_grade_non_sumo",
+        "not_equivalent_to": [
+          "SUMO_real_smoke"
+        ],
+        "option_refs": [
+          "BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json"
+        ],
+        "source_class": "replay"
+      },
+      "seg_context": "seg:building_compliance_perception_candidate:atlas_context",
+      "source_records": [
+        "source:v1_1:building_compliance_perception_candidate:atlas"
+      ],
+      "spatial_refs": [
+        "spatial:v2_5:building_compliance_perception_candidate:atlas_overlay"
+      ]
+    },
+    {
+      "brief_refs": [
+        "brief:v3:permit_inspection_delay:operator",
+        "brief:v3:permit_inspection_delay:executive",
+        "brief:v3:permit_inspection_delay:technical"
+      ],
+      "cannot_claim": [
+        "official action",
+        "case/ticket",
+        "dispatch/control/enforcement",
+        "product forecast",
+        "founder session result"
+      ],
+      "cer_entity": "cer:permit_inspection_delay:atlas_primary",
+      "check_v1_result": "check:v1:permit_inspection_delay:stress_eval",
+      "diff_refs": [
+        "diff:v2_5:permit_inspection_delay:long_history"
+      ],
+      "event_state": "event_state:v2_5:permit_inspection_delay",
+      "family_id": "permit_inspection_delay",
+      "family_label": "Permit Inspection Delay",
+      "governance_refs": [
+        "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json"
+      ],
+      "limitations": [
+        "local/replay/review-only",
+        "fixture_grade_non_sumo",
+        "not_applicable"
+      ],
+      "maturity_refs": [
+        "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json"
+      ],
+      "option_evidence": {
+        "calibration_state": "not_applicable",
+        "comparability_class": "non_sumo_rule_based_review_option",
+        "engine_class": "non_sumo_domain_option_engine",
+        "evidence_mode": "rule_based_queue_and_source_gap_review",
+        "family_id": "permit_inspection_delay",
+        "family_role": "selected_product_loop_family",
+        "fidelity_label": "fixture_grade_non_sumo",
+        "not_equivalent_to": [
+          "SUMO_real_smoke"
+        ],
+        "option_refs": [
+          "PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json"
+        ],
+        "source_class": "replay"
+      },
+      "seg_context": "seg:permit_inspection_delay:atlas_context",
+      "source_records": [
+        "source:v1_1:permit_inspection_delay:atlas"
+      ],
+      "spatial_refs": [
+        "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+      ]
+    },
+    {
+      "brief_refs": [
+        "brief:v3:city_asset_infrastructure_issue:operator",
+        "brief:v3:city_asset_infrastructure_issue:executive",
+        "brief:v3:city_asset_infrastructure_issue:technical"
+      ],
+      "cannot_claim": [
+        "official action",
+        "case/ticket",
+        "dispatch/control/enforcement",
+        "product forecast",
+        "founder session result"
+      ],
+      "cer_entity": "cer:city_asset_infrastructure_issue:atlas_primary",
+      "check_v1_result": "check:v1:city_asset_infrastructure_issue:stress_eval",
+      "diff_refs": [
+        "diff:v2_5:city_asset_infrastructure_issue:long_history"
+      ],
+      "event_state": "event_state:v2_5:city_asset_infrastructure_issue",
+      "family_id": "city_asset_infrastructure_issue",
+      "family_label": "City Asset Infrastructure Issue",
+      "governance_refs": [
+        "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json"
+      ],
+      "limitations": [
+        "local/replay/review-only",
+        "deterministic_sumo_smoke_not_calibrated",
+        "not_calibrated"
+      ],
+      "maturity_refs": [
+        "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json"
+      ],
+      "option_evidence": {
+        "calibration_state": "not_calibrated",
+        "comparability_class": "sumo_smoke_not_calibrated",
+        "engine_class": "SUMO_local_smoke_option_runner",
+        "evidence_mode": "synthetic_corridor_SUMO_smoke",
+        "family_id": "city_asset_infrastructure_issue",
+        "family_role": "selected_product_loop_family",
+        "fidelity_label": "deterministic_sumo_smoke_not_calibrated",
+        "not_equivalent_to": [
+          "non_sumo_rule_based_review_option"
+        ],
+        "option_refs": [
+          "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+        ],
+        "source_class": "replay"
+      },
+      "seg_context": "seg:city_asset_infrastructure_issue:atlas_context",
+      "source_records": [
+        "source:v1_1:city_asset_infrastructure_issue:atlas"
+      ],
+      "spatial_refs": [
+        "spatial:v2_5:city_asset_infrastructure_issue:atlas_overlay"
+      ]
+    }
+  ],
+  "family_count": 4,
+  "status": "PASS_WITH_LIMITATIONS",
+  "ui_polish_dependency": false
+}

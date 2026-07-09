@@ -1,0 +1,12 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "SIMULATION_REAL_RUN_CLAIM_AUDIT",
+  "calibrated_simulation_claim_created": false,
+  "claim_boundary": "real local SUMO smoke only, not calibrated forecast",
+  "deterministic_across_two_runs": true,
+  "deterministic_evidence_present": true,
+  "product_forecast_surface_created": false,
+  "real_run_claim": "deterministic_local_sumo_smoke",
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_real_run_smoke_executed": true
+}

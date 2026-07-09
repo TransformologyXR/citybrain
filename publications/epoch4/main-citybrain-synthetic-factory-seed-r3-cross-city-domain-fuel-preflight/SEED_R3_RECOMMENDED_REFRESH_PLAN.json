@@ -1,0 +1,35 @@
+{
+  "city_corpora_to_use": [
+    "barcelona",
+    "chicago",
+    "london",
+    "nyc"
+  ],
+  "fixture_outputs_to_refresh": [
+    "WATCH",
+    "ASK",
+    "CHECK",
+    "BRIEF",
+    "SPATIAL",
+    "EVENT_REPLAY"
+  ],
+  "limitations_to_carry_forward": [
+    "Counts are accepted only from local CSV/JSON/JSONL/Parquet metadata or read-only DuckDB table counts.",
+    "Some fallback city-prefix roots are candidate-only and must be semantically reviewed before Seed R3 use.",
+    "This preflight does not generate synthetic Seed R3 records.",
+    "City donor/context material is not Dubai official truth and must stay source-classed in Seed R3."
+  ],
+  "non_mutation_rule": "Consume this preflight, Seed R1/R2, Product Consumption R1, D5, and D6 read-only.",
+  "priority_domains": [
+    "property_planning",
+    "built_environment",
+    "building_compliance",
+    "civic_service_311_crm",
+    "environment_resilience",
+    "data_quality_maturity",
+    "identity_graph_eval"
+  ],
+  "rationale": "Seed R2 was mobility-heavy; this preflight verifies cross-city non-mobility fuel before any Seed R3 generation.",
+  "recommended_next_task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+  "status": "READY_TO_AUTHOR_WITH_VERIFIED_PREFLIGHT_LIMITATIONS"
+}

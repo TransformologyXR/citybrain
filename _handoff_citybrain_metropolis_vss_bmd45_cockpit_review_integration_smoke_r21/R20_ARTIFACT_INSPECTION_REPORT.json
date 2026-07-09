@@ -1,0 +1,53 @@
+{
+  "accepted_as_input": true,
+  "audits": {
+    "CLAIM_BOUNDARY_AUDIT_R20": "PASS",
+    "NO_ACTION_AUDIT_R20": "PASS",
+    "PACKAGED_MEDIA_AUDIT_R20": "PASS",
+    "SECRET_AUDIT_R20": "PASS",
+    "SOURCE_CLASS_SEPARATION_AUDIT_R20": "PASS",
+    "VSS_NOT_FACT_SOURCE_AUDIT_R20": "PASS"
+  },
+  "cockpit_fixture_emitted": true,
+  "decision_status": "PASS_METROPOLIS_VSS_BMD45_HUMAN_REVIEW_BENCHMARK_PACKET_R20_WITH_LIMITATIONS",
+  "external_media_refs": 8,
+  "false_positive_review_items": 142,
+  "frame_review_cards": 8,
+  "hash_manifest": {
+    "mismatches": 0,
+    "missing": 0,
+    "problems": [],
+    "status": "PASS",
+    "verified": 0
+  },
+  "human_review_packet_emitted": true,
+  "inspected_at": "2026-07-04T16:40:19Z",
+  "json_parse": {
+    "errors": {},
+    "parsed": 16,
+    "status": "PASS"
+  },
+  "jsonl_parse": {
+    "counts": {},
+    "errors": {},
+    "status": "PASS"
+  },
+  "live_cctv_claimed": false,
+  "missed_annotation_review_items": 32,
+  "notes": [
+    "R20 did not rerun DeepStream or VSS.",
+    "R20 converted R19 benchmark outputs into human-review/cockpit fixtures.",
+    "R21 should integrate fixture packets only; it must not claim production UI, live CCTV, findings, or actions."
+  ],
+  "official_record_created": false,
+  "packaged_media_files": 0,
+  "source_classes": {
+    "dataset_annotations": "dataset_annotation",
+    "deepstream_metropolis": "sensor_inferred",
+    "vss": "model_generated_narrative_not_fact_source"
+  },
+  "zip_entries": 20,
+  "zip_integrity": "PASS",
+  "zip_name": "METROPOLIS_VSS_BMD45_HUMAN_REVIEW_BENCHMARK_PACKET_R20_PACKAGE.zip",
+  "zip_size_bytes": 18735
+}

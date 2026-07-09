@@ -1,0 +1,56 @@
+{
+  "artifact_id": "EVAL_CORPUS_R2_INDEX",
+  "case_count": 48,
+  "case_hash": "dbecad69d060fd879c1f245e16fe3e9f0dc841366d61522c29c8bf63c576ce7d",
+  "challenge_classes": [
+    "candidate-only",
+    "contradiction",
+    "no-data",
+    "positive",
+    "proximity-only",
+    "quarantine",
+    "simulation-not-applicable",
+    "source-class",
+    "source-depth",
+    "spatial-gap",
+    "stale",
+    "unresolved"
+  ],
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "generated_at": "2026-07-07T20:25:01Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "pre_probe_final_reverify",
+      "path": "outputs/main_citybrain_epoch4_pre_probe_final_reverify_r1/PRE_PROBE_FINAL_REVERIFY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_PROBE_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_corpus_r1",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EVAL_CASES_4_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "after_deepening_cross_track",
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_DEEPENING_CROSS_TRACK_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "post_sumo_deepening_final",
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-CORPUS-EXPANSION-R2",
+  "status": "PASS_WITH_LIMITATIONS",
+  "target_min_cases": 48
+}

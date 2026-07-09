@@ -1,0 +1,9 @@
+{
+  "artifact_id": "E3_FUEL_REALITY_FINDING_ROW",
+  "status": "CENTRAL_FINDING",
+  "system_live": false,
+  "operator_paced_fuel_accumulated": false,
+  "ranking_armed": false,
+  "case_memory_armed": false,
+  "interpretation": "The epoch refused to fabricate operator fuel; this is correct governance, not failure."
+}

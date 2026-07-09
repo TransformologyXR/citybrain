@@ -1,0 +1,209 @@
+{
+  "artifact_id": "IDENTITY_AMBIGUITY_REMEDIATION_CANDIDATES",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-01",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:01",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-01",
+      "source_ref": "cer:ambiguity:01",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-01"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-02",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:02",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-02",
+      "source_ref": "cer:ambiguity:02",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-02"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-03",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:03",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-03",
+      "source_ref": "cer:ambiguity:03",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-03"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-04",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:04",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-04",
+      "source_ref": "cer:ambiguity:04",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-04"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-05",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:05",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-05",
+      "source_ref": "cer:ambiguity:05",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-05"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-06",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:06",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-06",
+      "source_ref": "cer:ambiguity:06",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-06"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-07",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:07",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-07",
+      "source_ref": "cer:ambiguity:07",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-07"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-08",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:08",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-08",
+      "source_ref": "cer:ambiguity:08",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-08"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-09",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:09",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-09",
+      "source_ref": "cer:ambiguity:09",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-09"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-10",
+      "candidate_kind": "cer_identity_bridge_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "cleaner CER-backed packet refs",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "proposed_patch": {
+        "alias_conflict_review_ref": "cer:ambiguity:10",
+        "cer_review_candidate": true,
+        "proposed_action": "prepare CER alias/provenance review packet"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "identity_ambiguity",
+      "source_queue_id": "identity-cluster-10",
+      "source_ref": "cer:ambiguity:10",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:identity_ambiguity:identity-cluster-10"
+    }
+  ],
+  "generated_at": "2026-07-07T18:51:48Z",
+  "source_queue": "identity_ambiguity",
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "required": [
+    "candidate_id",
+    "scout_lane",
+    "candidate_family",
+    "source_refs",
+    "source_class",
+    "promotion_status",
+    "recommended_follow_on"
+  ],
+  "properties": {
+    "candidate_id": {
+      "type": "string"
+    },
+    "scout_lane": {
+      "type": "string"
+    },
+    "candidate_family": {
+      "type": "string"
+    },
+    "source_roots": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "city": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "domain_pack": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lineage_strength": {
+      "type": "string"
+    },
+    "promotion_status": {
+      "type": "string"
+    },
+    "recommended_follow_on": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,25 @@
+{
+  "artifact_id": "DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2",
+  "diagnostic_sections": [
+    "top source remediation",
+    "identity ambiguity remediation",
+    "geometry/time history remediation",
+    "CHECK downgrade remediation"
+  ],
+  "generated_at": "2026-07-07T15:53:24Z",
+  "overall_maturity_score_ref": 36.1,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-DATA-MATURITY-DIAGNOSTIC-PRODUCT-R2",
+  "product_shape": {
+    "audience": "internal/client-safe diagnostic draft",
+    "not_claimed": [
+      "client-ready deployment",
+      "live source monitoring",
+      "official finding"
+    ],
+    "question_answered": "What source, identity, geometry/time, and CHECK downgrade gaps block stronger product claims?"
+  },
+  "scorecard_count": 9,
+  "source_count": 664,
+  "source_registry_ref": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json",
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,36 @@
+{
+  "artifact_id": "PILOT_READINESS_CHECKLIST_R1",
+  "items": [
+    {
+      "done": true,
+      "item": "three-family product loop has current-truth summary"
+    },
+    {
+      "done": true,
+      "item": "SUMO smoke claim is bounded and non-forecast"
+    },
+    {
+      "done": true,
+      "item": "event history/DIFF replay covers four families"
+    },
+    {
+      "done": true,
+      "item": "binder contains no completed review forms"
+    },
+    {
+      "done": false,
+      "item": "founder review session scheduled and run"
+    },
+    {
+      "done": false,
+      "item": "operator/founder feedback governance is approved"
+    },
+    {
+      "done": false,
+      "item": "UI/UX review surface is ready"
+    }
+  ],
+  "ready_for_founder_review_prep": true,
+  "ready_for_founder_review_session": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

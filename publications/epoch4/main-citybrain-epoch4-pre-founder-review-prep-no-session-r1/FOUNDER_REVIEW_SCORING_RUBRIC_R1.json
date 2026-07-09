@@ -1,0 +1,27 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_SCORING_RUBRIC_R1",
+  "no_session_results_included": true,
+  "scores": [
+    {
+      "dimension": "clarity",
+      "scale": "1-5",
+      "training_eligible": false
+    },
+    {
+      "dimension": "evidence_trust",
+      "scale": "1-5",
+      "training_eligible": false
+    },
+    {
+      "dimension": "product_value",
+      "scale": "1-5",
+      "training_eligible": false
+    },
+    {
+      "dimension": "action_boundary_understood",
+      "scale": "1-5",
+      "training_eligible": false
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

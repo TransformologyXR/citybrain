@@ -1,0 +1,48 @@
+{
+  "artifact_id": "SIMULATION_V2_4_FAMILY_SCENARIO_CATALOG",
+  "boundary": "family-aligned option evidence only, no forecast authority",
+  "families": [
+    {
+      "family_id": "building_compliance_perception_candidate",
+      "option_runner": "fixture_grade_non_sumo_review_option",
+      "reason": "Building compliance/perception review does not naturally map to traffic microsimulation.",
+      "sumo_applicability": "sumo_not_applicable"
+    },
+    {
+      "family_id": "permit_inspection_delay",
+      "option_runner": "fixture_grade_non_sumo_review_option",
+      "reason": "Permit/inspection delay is administrative workflow timing, not traffic movement.",
+      "sumo_applicability": "sumo_not_applicable"
+    },
+    {
+      "family_id": "city_asset_infrastructure_issue",
+      "option_runner": "local_sumo_smoke_baseline_vs_restriction",
+      "reason": "A road-adjacent city asset issue can be represented as a bounded corridor-speed smoke without claiming city calibration.",
+      "sumo_applicability": "sumo_applicable_synthetic_road_asset_fixture"
+    }
+  ],
+  "generated_at": "2026-07-07T16:50:28Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "simulation_v2_3_decision",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_v2_3_report",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/SIMULATION_V2_3_SUMO_REAL_RUN_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "incident_plan_loop",
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "minimum_family_count": 3,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-SIMULATION-V2-4-FAMILY-SUMO-OPTION-RUNNER-R1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

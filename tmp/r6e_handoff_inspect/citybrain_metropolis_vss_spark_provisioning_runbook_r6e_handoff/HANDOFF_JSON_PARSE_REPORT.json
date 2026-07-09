@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "R6D_REPORTED_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "file": "R6E_CLOSEOUT_DECISION_TEMPLATE.json",
+      "status": "PASS"
+    },
+    {
+      "file": "R7_READINESS_GATE_R6E.json",
+      "status": "PASS"
+    },
+    {
+      "file": "RUNTIME_HOST_ALLOCATION_R6E.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_R6E_DECISION.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SPARK_VSS_CONNECTIVITY_PROBE_PLAN_R6E.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SPARK_VSS_PROVISIONING_STATUS_R6E.json",
+      "status": "PASS"
+    },
+    {
+      "file": "STATUS_ENUMS_R6E.json",
+      "status": "PASS"
+    }
+  ]
+}

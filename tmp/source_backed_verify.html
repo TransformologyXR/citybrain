@@ -1,0 +1,259 @@
+<!doctype html><html><body data-source-record-status="PARTIAL_SOURCE_RECORD_DEPTH_INSUFFICIENT" data-execution-state="not_executed"><section id="source-cutover-verdict" class="hero-panel span-12" data-panel="source-cutover-verdict">
+    <div class="hero-copy">
+      <p class="eyebrow">Source-backed UI cutover</p>
+      <h2>Source record depth is insufficient</h2>
+      <p class="hero-line">The certified Mobility Access runtime bundle does not contain enough official/source-derived city records for viewer validation. The page now shows blockers instead of fixture-story cards.</p>
+      <div class="plain-status-row">
+        <span class="status-pill ">PARTIAL_SOURCE_RECORD_DEPTH_INSUFFICIENT</span>
+        <span class="status-pill">Source-backed cards: 0</span>
+        <span class="status-pill">Data-depth blockers: 7</span>
+        <span class="status-pill safe">No action has been taken</span>
+      </div>
+    </div>
+    <div class="hero-note">
+      <strong>Viewer-capture decision</strong>
+      <p>Do not run naive viewer validation yet. First add a source record pack for the Mobility Access corridor, similar cases, observations, and option evidence.</p>
+    </div>
+  </section>
+<section id="cutover-checks" class="panel span-12" data-panel="cutover-checks">
+    <p class="section-kicker">Cutover result</p>
+    <h2>What this screen can honestly show</h2>
+    <div class="metric-grid">
+      <div class="metric"><span>Default fixture facts</span><strong>Blocked from default view</strong></div><div class="metric"><span>Official/source-derived cards</span><strong>0 renderable</strong></div><div class="metric"><span>Data-depth blockers</span><strong>7 visible</strong></div><div class="metric"><span>Minimum green threshold</span><strong>at least 5 official/source-derived city record cards</strong></div><div class="metric"><span>Current truth label</span><strong>PARTIAL_SOURCE_RECORD_DEPTH_INSUFFICIENT</strong></div>
+    </div>
+    <p class="human-explain">Default cards now classify their evidence depth. Runtime packets, fixture refs, option IDs, and trace names are kept in the collapsed technical section.</p>
+  </section>
+<section id="source-record-cards" class="panel span-12" data-panel="source-record-cards">
+    <p class="section-kicker">Default UI cards</p>
+    <h2>Source-backed cards or blockers</h2>
+    <div class="record-grid two-col">
+      
+      <article id="source-blocker-place-entity-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="place_entity_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: place or corridor source record missing</h3>
+    <p>The certified Mobility Access bundle contains internal scenario and overlay refs, but no official or source-derived road/place/building record with city, source dataset, and external record ID.</p>
+    <div class="record-meta">
+      <span>Card type: place entity record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>city</li><li>official/source-derived place name</li><li>source dataset</li><li>external/source record ID</li><li>geometry or map reference</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">scenario_state.json</span><span class="chip">kit_overlay_packets.json</span><span class="chip">one_truth_index.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: LONDON_MOBILITY_SOURCE_RECORD_PACK, HELSINKI_SEMANTIC_TWIN_FOR_VISUAL_ENTITY_PICK</p>
+  </article><article id="source-blocker-observation-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="candidate_observation_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: candidate observation source record missing</h3>
+    <p>6 candidate observation refs are present, but the bundle does not include source media/frame, where/when fields, or a source-derived observation label.</p>
+    <div class="record-meta">
+      <span>Card type: candidate observation record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>source media or sensor record</li><li>time</li><li>location</li><li>candidate label</li><li>plain-language observation summary</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">evidence_bundle.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: LONDON_MOBILITY_SOURCE_RECORD_PACK</p>
+  </article><article id="source-blocker-similar-case-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="similar_case_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: similar-case city records missing</h3>
+    <p>4 similar-case refs are present, but the bundle does not include city, dataset/source, external case ID, match reason, or outcome fields.</p>
+    <div class="record-meta">
+      <span>Card type: similar case record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>city</li><li>dataset/source</li><li>external/source case ID</li><li>case summary</li><li>match reason</li><li>outcome</li><li>limitation</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">evidence_bundle.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: CHICAGO_SIMILAR_CASE_RECORD_PACK</p>
+  </article><article id="source-blocker-cascade-link-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="cascade_link_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: cascade link source record missing</h3>
+    <p>3 cascade refs are present, but the bundle does not include a viewer-readable source chain naming the city records and link evidence.</p>
+    <div class="record-meta">
+      <span>Card type: cascade link record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>source entity A</li><li>source entity B</li><li>link evidence</li><li>link confidence</li><li>limitation</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">evidence_bundle.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: LONDON_MOBILITY_SOURCE_RECORD_PACK</p>
+  </article><article id="source-blocker-option-tradeoff-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="option_tradeoff_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: option evidence values are fixture-only</h3>
+    <p>7 candidate options exist, but their displayed values are review fixture packets rather than city-source measurements or externally sourced constraints.</p>
+    <div class="record-meta">
+      <span>Card type: option tradeoff record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>source-backed baseline value</li><li>source-backed option value</li><li>source axis evidence</li><li>external/source record ID for each comparison</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">option_sets.json</span><span class="chip">track_d_packets.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: LONDON_MOBILITY_SOURCE_RECORD_PACK</p>
+  </article><article id="source-blocker-forbidden-command-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="guardrail_refusal_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: forbidden-command refusal log missing</h3>
+    <p>The runtime bundle has guardrail packet fields, but not a specific source/log record showing a forbidden command request and refusal.</p>
+    <div class="record-meta">
+      <span>Card type: guardrail refusal record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>forbidden request text or request class</li><li>refusal log record</li><li>guardrail source record</li><li>review timestamp</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">track_d_packets.json</span><span class="chip">review_state.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: LONDON_MOBILITY_SOURCE_RECORD_PACK</p>
+  </article><article id="source-blocker-human-review-stop-record" class="fact-card gap-card" data-card-classification="DATA_DEPTH_BLOCKER" data-card-type="human_review_stop_record">
+    <span class="record-type">Data depth blocker</span>
+    <h3>DATA DEPTH BLOCKER: human-review stop source record missing</h3>
+    <p>The bundle proves no approval or execution exists, but does not include an external/source-derived review record for the stop point.</p>
+    <div class="record-meta">
+      <span>Card type: human review stop record</span>
+      <span>Default view classification: DATA_DEPTH_BLOCKER</span>
+    </div>
+    
+    <div class="record-grid two-col">
+      <div>
+        <h3>Missing or required source fields</h3>
+        <ul class="plain-list compact"><li>review record ID</li><li>review timestamp</li><li>review actor class</li><li>source attribution</li><li>limitation</li></ul>
+      </div>
+      <div>
+        <h3>Bundle files checked</h3>
+        <div class="chip-row"><span class="chip">review_state.json</span><span class="chip">track_d_packets.json</span></div>
+      </div>
+    </div>
+    <p class="muted-copy">Next data task: LONDON_MOBILITY_SOURCE_RECORD_PACK</p>
+  </article>
+      
+    </div>
+  </section>
+<section id="moment-source-parity" class="panel span-8" data-panel="moment-source-parity">
+    <p class="section-kicker">Moment-to-record parity</p>
+    <h2>Key demo moments now require source records</h2>
+    <div class="record-grid two-col">
+      <article class="mini-record" data-moment-id="M02" data-source-record-status="blocked">
+          <strong>M02 · Similar-case source records</strong>
+          <span>4 similar-case refs are present, but the bundle does not include city, dataset/source, external case ID, match reason, or outcome fields.</span>
+        </article><article class="mini-record" data-moment-id="M03" data-source-record-status="blocked">
+          <strong>M03 · Uncertain city link record</strong>
+          <span>6 candidate observation refs are present, but the bundle does not include source media/frame, where/when fields, or a source-derived observation label.</span>
+        </article><article class="mini-record" data-moment-id="M06" data-source-record-status="blocked">
+          <strong>M06 · Tradeoff values and source axes</strong>
+          <span>7 candidate options exist, but their displayed values are review fixture packets rather than city-source measurements or externally sourced constraints.</span>
+        </article><article class="mini-record" data-moment-id="M07" data-source-record-status="blocked">
+          <strong>M07 · Forbidden-command refusal record</strong>
+          <span>The runtime bundle has guardrail packet fields, but not a specific source/log record showing a forbidden command request and refusal.</span>
+        </article><article class="mini-record" data-moment-id="M08" data-source-record-status="blocked">
+          <strong>M08 · Human-review stop record</strong>
+          <span>The bundle proves no approval or execution exists, but does not include an external/source-derived review record for the stop point.</span>
+        </article><article class="mini-record" data-moment-id="M10" data-source-record-status="blocked">
+          <strong>M10 · Entity, source, and link records</strong>
+          <span>3 cascade refs are present, but the bundle does not include a viewer-readable source chain naming the city records and link evidence.</span>
+        </article><article class="mini-record" data-moment-id="M12" data-source-record-status="not_recorded">
+          <strong>M12 · Limitations ledger</strong>
+          <span>No source-backed record has been mapped for this moment in the current bundle.</span>
+        </article><article class="mini-record" data-moment-id="M13" data-source-record-status="blocked">
+          <strong>M13 · Candidate observation source record</strong>
+          <span>6 candidate observation refs are present, but the bundle does not include source media/frame, where/when fields, or a source-derived observation label.</span>
+        </article>
+    </div>
+  </section>
+<section id="source-depth-next-actions" class="panel span-4" data-panel="source-depth-next-actions">
+    <p class="section-kicker">Data-depth next action</p>
+    <h2>What to build before viewer capture</h2>
+    <ul class="plain-list">
+      <li>LONDON_MOBILITY_SOURCE_RECORD_PACK</li><li>CHICAGO_SIMILAR_CASE_RECORD_PACK</li><li>HELSINKI_SEMANTIC_TWIN_FOR_VISUAL_ENTITY_PICK</li>
+    </ul>
+    <p class="muted-copy">These are data-pack tasks, not UI copy tasks. The UI should stay blocked until the records exist.</p>
+  </section>
+<section id="no-action-state" class="panel span-6" data-panel="no-action-state">
+    <p class="section-kicker">Action boundary</p>
+    <h2>No execution or approval is present</h2>
+    <div class="metric-grid two">
+      <div class="metric"><span>Execution state</span><strong>not executed</strong></div>
+      <div class="metric"><span>Approved proposal</span><strong>none</strong></div>
+      <div class="metric"><span>Execution authority</span><strong>none</strong></div>
+      <div class="metric"><span>Default source view</span><strong>blocker-led</strong></div>
+    </div>
+  </section>
+<section id="limitations" class="panel span-6" data-panel="limitations" data-moment-id="M12">
+    <p class="section-kicker">Boundary still intact</p>
+    <h2>Limitations ledger</h2>
+    <ul class="plain-list">
+      <li>local/LAN/replay/review/query context only</li><li>Mobility Access corridor is the active hero spine</li><li>NYC construction hero remains parked post-D8</li><li>Web local launch evidence is required and generated by this sprint</li><li>Kit runtime launch is reported honestly; source validation can pass if Kit runtime is unavailable</li><li>M04 do-nothing and M05 abstain remain documented partial unless certified option-set fields prove otherwise</li><li>D7 observations remain candidate observations, not findings</li><li>Track D remains authoritative; no approval or execution is created</li>
+    </ul>
+  </section>
+<section id="technical-details-panel" class="panel span-12">
+    <details id="technical-details">
+      <summary>Show technical details / fixture refs / packet IDs</summary>
+      <div class="technical-grid">
+        <div>
+          <h3>Scenario and entity refs</h3>
+          <ul class="list">
+            <li class="packet">HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001</li>
+            <li class="packet">mobility_access:corridor:hero-lon-corridor</li><li class="packet">mobility_access:route_segment:hero-main-eastbound</li><li class="packet">mobility_access:lane_segment:hero-blocked-lane</li><li class="packet">mobility_access:kerbside_access:hero-kerb-zone-a</li><li class="packet">mobility_access:pedestrian_context:hero-crossing-a</li><li class="packet">mobility_access:cascade_context:hero-cross-domain</li><li class="packet">mobility_access:incident_context:hero-lane-blockage</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Evidence refs</h3>
+          <ul class="list">
+            <li class="packet">d7_candidate_observation:001</li><li class="packet">d7_candidate_observation:002</li><li class="packet">d7_candidate_observation:003</li><li class="packet">d7_candidate_observation:004</li><li class="packet">d7_candidate_observation:005</li><li class="packet">d7_candidate_observation:006</li>
+            <li class="packet">similar_case:001</li><li class="packet">similar_case:002</li><li class="packet">similar_case:003</li><li class="packet">similar_case:004</li>
+            <li class="packet">cascade_attachment:001</li><li class="packet">cascade_attachment:002</li><li class="packet">cascade_attachment:003</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Option and trace refs</h3>
+          <ul class="list">
+            <li class="packet">inv_option_do_nothing_monitor | do_nothing_monitor | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_review_reroute | review_reroute_option | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_review_kerbside_access | review_kerbside_access_option | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_review_public_information | review_public_information_draft | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_abstain_escalate | escalate_to_human_operator | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_do_nothing_monitor | do_nothing_monitor | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_abstain_escalate | escalate_to_human_operator | PASS_BLOCKED_OR_CONTEXT_ONLY</li>
+            <li class="packet">RECALL | not_executed</li><li class="packet">PLAN | not_executed</li><li class="packet">VALIDATE_PLAN | not_executed</li><li class="packet">EXECUTE | not_executed</li><li class="packet">NORMALIZE | not_executed</li><li class="packet">SYNTHESIZE | not_executed</li><li class="packet">RESOLVE_ACTIONS | not_executed</li><li class="packet">SUGGEST | not_executed</li><li class="packet">COMPLETE | not_executed</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+  </section></body></html>

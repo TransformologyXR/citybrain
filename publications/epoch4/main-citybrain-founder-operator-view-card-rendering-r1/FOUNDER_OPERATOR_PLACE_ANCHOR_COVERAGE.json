@@ -1,0 +1,110 @@
+{
+  "artifact_id": "FOUNDER_OPERATOR_PLACE_ANCHOR_COVERAGE",
+  "rows": [
+    {
+      "card_id": "operator-view-001",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-002",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-003",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-004",
+      "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Nearby infrastructure corridor candidate",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-005",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-006",
+      "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "operator-view-007",
+      "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "operator-view-008",
+      "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "operator-view-009",
+      "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "UNKNOWN - no plain place or entity label was found in the source artifact.",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "operator-view-010",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-011",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-012",
+      "district_or_area": "Synthetic Dubai AOI",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Primary synthetic site",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    },
+    {
+      "card_id": "operator-view-013",
+      "district_or_area": "UNKNOWN - district or area was not present in the source card.",
+      "has_human_label_or_explicit_unknown": true,
+      "human_label": "Nearby infrastructure corridor candidate",
+      "map_or_geometry_ref": "UNKNOWN - no map or geometry reference was available on the rendered source card.",
+      "missing_reason": ""
+    }
+  ],
+  "status": "PASS"
+}

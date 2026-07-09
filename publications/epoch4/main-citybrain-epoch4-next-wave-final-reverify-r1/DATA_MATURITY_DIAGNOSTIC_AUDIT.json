@@ -1,0 +1,10 @@
+{
+  "artifact_id": "DATA_MATURITY_DIAGNOSTIC_AUDIT",
+  "client_public_deployment_claim_created": false,
+  "data_maturity_r2_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS",
+  "live_source_claim_created": false,
+  "remediation_plan_count": 4,
+  "status": "PASS_WITH_LIMITATIONS",
+  "uses_data_maturity_r1_1": true,
+  "uses_source_registry_v1_1": true
+}

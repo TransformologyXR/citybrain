@@ -1,0 +1,170 @@
+{
+  "all_required_outputs_present": true,
+  "artifact_id": "INPUT_COVERAGE_AUDIT",
+  "generated_at": "2026-07-07T18:51:48Z",
+  "input_files": {
+    "founder_review_dry_run_no_session": [
+      {
+        "exists": true,
+        "file": "DRY_RUN_TASK_QUEUE.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_TASK_QUEUE.json"
+      },
+      {
+        "exists": true,
+        "file": "DRY_RUN_FORM_VALIDATION_REPORT.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_FORM_VALIDATION_REPORT.json"
+      },
+      {
+        "exists": true,
+        "file": "DRY_RUN_PACKET_COMPLETENESS_REPORT.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_PACKET_COMPLETENESS_REPORT.json"
+      },
+      {
+        "exists": true,
+        "file": "DRY_RUN_OPERATOR_BURDEN_ESTIMATE.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_OPERATOR_BURDEN_ESTIMATE.json"
+      },
+      {
+        "exists": true,
+        "file": "FOUNDING_REVIEW_NOT_RUN_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/FOUNDING_REVIEW_NOT_RUN_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_FUEL_NO_DISPOSITIONS_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/NO_FUEL_NO_DISPOSITIONS_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "FOUNDER_REVIEW_DRY_RUN_DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/FOUNDER_REVIEW_DRY_RUN_DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "HASH_MANIFEST.json",
+        "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/HASH_MANIFEST.json"
+      }
+    ],
+    "product_loop_eval_corpus": [
+      {
+        "exists": true,
+        "file": "PRODUCT_LOOP_EVAL_CORPUS_INDEX.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/PRODUCT_LOOP_EVAL_CORPUS_INDEX.json"
+      },
+      {
+        "exists": true,
+        "file": "EVAL_CASES_4_FAMILY.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EVAL_CASES_4_FAMILY.json"
+      },
+      {
+        "exists": true,
+        "file": "EXPECTED_CHECK_OUTCOMES.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_CHECK_OUTCOMES.json"
+      },
+      {
+        "exists": true,
+        "file": "EXPECTED_BRIEF_BLOCKS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_BRIEF_BLOCKS.json"
+      },
+      {
+        "exists": true,
+        "file": "EXPECTED_EVENT_STATE_ASSERTIONS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_EVENT_STATE_ASSERTIONS.json"
+      },
+      {
+        "exists": true,
+        "file": "EXPECTED_SIMULATION_OPTION_ASSERTIONS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_SIMULATION_OPTION_ASSERTIONS.json"
+      },
+      {
+        "exists": true,
+        "file": "EXPECTED_SPATIAL_PACKET_ASSERTIONS.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_SPATIAL_PACKET_ASSERTIONS.json"
+      },
+      {
+        "exists": true,
+        "file": "REGRESSION_TEST_PLAN.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/REGRESSION_TEST_PLAN.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_TRAINING_FUEL_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/NO_TRAINING_FUEL_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "PRODUCT_LOOP_EVAL_CORPUS_DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/PRODUCT_LOOP_EVAL_CORPUS_DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "HASH_MANIFEST.json",
+        "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/HASH_MANIFEST.json"
+      }
+    ],
+    "remediation_execution_batch": [
+      {
+        "exists": true,
+        "file": "REMEDIATION_EXECUTION_PLAN.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/REMEDIATION_EXECUTION_PLAN.json"
+      },
+      {
+        "exists": true,
+        "file": "IDENTITY_AMBIGUITY_REMEDIATION_CANDIDATES.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/IDENTITY_AMBIGUITY_REMEDIATION_CANDIDATES.json"
+      },
+      {
+        "exists": true,
+        "file": "SOURCE_FRESHNESS_COVERAGE_REMEDIATION_CANDIDATES.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/SOURCE_FRESHNESS_COVERAGE_REMEDIATION_CANDIDATES.json"
+      },
+      {
+        "exists": true,
+        "file": "GEOMETRY_TIME_HISTORY_REMEDIATION_CANDIDATES.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/GEOMETRY_TIME_HISTORY_REMEDIATION_CANDIDATES.json"
+      },
+      {
+        "exists": true,
+        "file": "CHECK_DOWNGRADE_REMEDIATION_CANDIDATES.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/CHECK_DOWNGRADE_REMEDIATION_CANDIDATES.json"
+      },
+      {
+        "exists": true,
+        "file": "SOURCE_REGISTRY_ENRICHMENT_PATCH_CANDIDATES.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/SOURCE_REGISTRY_ENRICHMENT_PATCH_CANDIDATES.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_SCORE_INFLATION_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/NO_SCORE_INFLATION_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json"
+      },
+      {
+        "exists": true,
+        "file": "DATA_MATURITY_REMEDIATION_EXECUTION_DECISION.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/DATA_MATURITY_REMEDIATION_EXECUTION_DECISION.json"
+      },
+      {
+        "exists": true,
+        "file": "HASH_MANIFEST.json",
+        "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/HASH_MANIFEST.json"
+      }
+    ]
+  },
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-EVAL-FINAL-REVERIFY-R1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

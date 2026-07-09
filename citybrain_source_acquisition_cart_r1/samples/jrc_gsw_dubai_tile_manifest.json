@@ -1,0 +1,18 @@
+{
+  "source_id": "jrc_global_surface_water_dubai_tile",
+  "aoi": "Dubai, UAE",
+  "tile_guess": "50E_30N tile covers roughly 50E-60E / 20N-30N",
+  "layers": [
+    "occurrence",
+    "change",
+    "seasonality",
+    "recurrence",
+    "transitions",
+    "maximum_extent"
+  ],
+  "download_pattern_candidates": [
+    "https://storage.googleapis.com/global-surface-water/downloads2024/{layer}/{layer}_50E_30N_v1_4_2024.tif",
+    "https://storage.googleapis.com/global-surface-water/downloads2021/{layer}/{layer}_50E_30N_v1_4_2021.tif"
+  ],
+  "codex_next": "HEAD check the 2024 pattern; fallback to 2021 or JRC FTP listing; download only layers needed for smoke, clip to AOI."
+}

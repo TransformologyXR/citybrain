@@ -1,0 +1,16 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_READINESS_NO_SESSION_REPORT",
+  "boundary": "prep-only; no session has run",
+  "dispositions_created": false,
+  "materials_ready": [
+    "three-family loop summary",
+    "Review Packet 360 references",
+    "maturity and governance findings",
+    "value pockets and gaps"
+  ],
+  "operator_or_founder_fuel_captured": false,
+  "ready_for_prep": true,
+  "session_results_created": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_eligibility_created": false
+}

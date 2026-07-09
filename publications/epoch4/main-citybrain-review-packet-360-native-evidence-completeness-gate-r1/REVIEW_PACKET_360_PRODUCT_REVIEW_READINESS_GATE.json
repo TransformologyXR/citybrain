@@ -1,0 +1,16 @@
+{
+  "all_families_diagnostic_ready": true,
+  "all_families_native_or_complete_mixed": false,
+  "artifact_id": "REVIEW_PACKET_360_PRODUCT_REVIEW_READINESS_GATE",
+  "blockers": [
+    "mobility native Review Packet 360 family packet absent",
+    "R4 review quality recommends founder diagnostic review only, not product review",
+    "founder/operator session results remain absent"
+  ],
+  "client_ready_claim_allowed": false,
+  "founder_diagnostic_review_allowed_with_limitations": true,
+  "mobility_derived_backfill_only_blocks_product_review": true,
+  "product_review_ready": false,
+  "review_quality_product_review_ready_recommended": false,
+  "review_quality_status": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS"
+}

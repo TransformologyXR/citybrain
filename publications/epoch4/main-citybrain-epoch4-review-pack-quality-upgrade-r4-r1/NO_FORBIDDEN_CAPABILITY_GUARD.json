@@ -1,0 +1,13 @@
+{
+  "canonical_truth_mutation": false,
+  "forecast_surface_created": false,
+  "founder_session_results_created": false,
+  "learned_ranking_or_model_training_created": false,
+  "live_ingestion_created": false,
+  "maturity_score_inflation": false,
+  "official_action_control_enforcement_created": false,
+  "operator_fuel_created": false,
+  "source_truth_mutation": false,
+  "status": "PASS",
+  "training_rows_created": false
+}

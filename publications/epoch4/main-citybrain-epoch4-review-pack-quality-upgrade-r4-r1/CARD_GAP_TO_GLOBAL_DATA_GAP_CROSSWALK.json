@@ -1,0 +1,16 @@
+{
+  "card_gap_classes": {
+    "card-quality gap": 3,
+    "derived/backfill provenance gap": 1,
+    "intentional diagnostic negative/stale/contradiction behavior": 12
+  },
+  "deep_gap_counts": {
+    "missing_or_unknown_geometry": 526,
+    "no_consuming_flow": 273,
+    "unknown_freshness": 462,
+    "unknown_schema": 456,
+    "unknown_source_class": 430
+  },
+  "interpretation": "Card quality can be upgraded for diagnostic review, but source/freshness/schema/geometry/flow gaps remain global estate work.",
+  "status": "PASS"
+}

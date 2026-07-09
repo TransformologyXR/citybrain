@@ -1,0 +1,29 @@
+{
+  "canonical_truth_mutation": false,
+  "data_estate_gap_routing_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_ESTATE_GAP_ROUTING_R1_WITH_LIMITATIONS",
+  "deep_gap_counts": {
+    "missing_or_unknown_geometry": 526,
+    "no_consuming_flow": 273,
+    "unknown_freshness": 462,
+    "unknown_schema": 456,
+    "unknown_source_class": 430
+  },
+  "eval_cases_crosswalked": 48,
+  "final_reverify_status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_QUALITY_GLOBAL_GAP_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "forecast_surface_created": false,
+  "founder_diagnostic_ready_recommended": true,
+  "founder_session_results_created": false,
+  "learned_ranking_or_model_training_created": false,
+  "live_ingestion_created": false,
+  "maturity_score_inflation": false,
+  "next_recommended_move": "RUN_FOUNDER_DIAGNOSTIC_REVIEW",
+  "official_action_control_enforcement_created": false,
+  "operator_fuel_created": false,
+  "product_review_ready_recommended": false,
+  "review_cards_r4": 16,
+  "review_pack_quality_status": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+  "source_truth_mutation": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_QUALITY_GLOBAL_GAP_SEQUENCE_R1_WITH_LIMITATIONS",
+  "task": "MAIN-CITYBRAIN-EPOCH4-REVIEW-QUALITY-GLOBAL-GAP-SEQUENCE-R1",
+  "training_rows_created": false
+}

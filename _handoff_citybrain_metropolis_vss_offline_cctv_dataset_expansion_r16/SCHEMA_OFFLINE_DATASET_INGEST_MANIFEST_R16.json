@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offline Dataset Ingest Manifest R16",
+  "type": "object",
+  "required": [
+    "dataset_id",
+    "ingest_mode",
+    "sample_manifest",
+    "provenance",
+    "hashes"
+  ],
+  "properties": {
+    "dataset_id": {
+      "type": "string"
+    },
+    "ingest_mode": {
+      "enum": [
+        "downloaded_subset",
+        "external_media_ref",
+        "metadata_only",
+        "not_run"
+      ]
+    },
+    "sample_manifest": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "hashes": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

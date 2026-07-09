@@ -1,0 +1,28 @@
+{
+  "schema_version": "metropolis-vss-narration-evidence-join-r8.v1",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-EVIDENCE-JOIN-R8",
+  "required_safe_terms_any": [
+    "candidate",
+    "model-generated",
+    "human review",
+    "not a finding",
+    "review context"
+  ],
+  "forbidden_claim_terms": [
+    "confirmed violation",
+    "legal finding",
+    "certified finding",
+    "official case",
+    "ticket created",
+    "dispatch",
+    "enforcement action",
+    "identity confirmed",
+    "biometric",
+    "alert command",
+    "automated action"
+  ],
+  "source_class_rules": {
+    "deepstream_metropolis": "sensor_inferred",
+    "spark_vss": "model_generated_narrative"
+  }
+}

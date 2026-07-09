@@ -1,0 +1,7 @@
+{
+  "artifact_id": "SOURCE_REGISTRY_V1_1_VALIDATION_REPORT",
+  "errors": [],
+  "preserves_or_exceeds_v1_count": true,
+  "source_count": 664,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_id": "DATA_MATURITY_LIMITATIONS",
+  "limitations": [
+    "internal/client-safe draft only",
+    "no client/public deployment claim",
+    "no live source claim",
+    "no official source truth or certified finding"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

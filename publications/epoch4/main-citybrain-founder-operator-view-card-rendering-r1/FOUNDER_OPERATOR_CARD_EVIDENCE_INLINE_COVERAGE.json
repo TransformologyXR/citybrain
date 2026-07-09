@@ -1,0 +1,163 @@
+{
+  "artifact_id": "FOUNDER_OPERATOR_CARD_EVIDENCE_INLINE_COVERAGE",
+  "card_count": 13,
+  "rows": [
+    {
+      "card_id": "operator-view-001",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-002",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-003",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-004",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-005",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-006",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-007",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-008",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-009",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-010",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-011",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-012",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    },
+    {
+      "card_id": "operator-view-013",
+      "has_cannot_claim_block": true,
+      "has_confidence_plain_english": true,
+      "has_freshness_or_timestamp": true,
+      "has_place_anchor": true,
+      "has_primary_decision": true,
+      "has_so_what_line": true,
+      "has_source_class": true,
+      "has_source_note_text": true,
+      "has_suggested_review_next_step": true
+    }
+  ],
+  "status": "PASS"
+}

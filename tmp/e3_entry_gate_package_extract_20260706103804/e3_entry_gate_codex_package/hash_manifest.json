@@ -1,0 +1,186 @@
+{
+  "id": "hash_manifest",
+  "gate_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "corpus_version": "codex-package-local",
+  "corpus_hash": "<external_corpus_hash>",
+  "source_manifest_hash": "<external_source_manifest_hash>",
+  "synthetic_manifest_hash": "<external_synthetic_manifest_hash>",
+  "scenario_manifest_hash": "<external_scenario_manifest_hash>",
+  "arming_manifest_hash": "1ea15019457f40768d06804aafe8578f2ba8fa520d3b4eb076456db099988379",
+  "report_hash": "6b57a6b21a39c25a1e5c91be20dfe4d61f972a3aaa5283f988699af93b8bfa5e",
+  "generated_at": "2026-07-06T10:16:01.818013+00:00",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CRITERIA.md",
+      "sha256": "98b160f2ae10783739c46d5c27b84c6361d0defc184980e4c0f3e2f94da2d6df"
+    },
+    {
+      "path": "CODEX_TASK_PROMPT.md",
+      "sha256": "e151b72a8e42b28fc86a1d728df086fd8af627fbbd6102eb1b55994958b5bd48"
+    },
+    {
+      "path": "IMPLEMENTATION_PLAN.md",
+      "sha256": "351559df7dbf20fc0240b528a429b86c01f02be48e044fa38870ed9e994faa1a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d35c88fca6d7031e592c704d52a3d3535f69824b6c29a31f0eaf9fa173d36c96"
+    },
+    {
+      "path": "docs/E3_FUEL_GAUGE_BASELINE_REPORT.md",
+      "sha256": "6b57a6b21a39c25a1e5c91be20dfe4d61f972a3aaa5283f988699af93b8bfa5e"
+    },
+    {
+      "path": "docs/E3_FUEL_GAUGE_BASELINE_REPORT_TEMPLATE.md",
+      "sha256": "6b57a6b21a39c25a1e5c91be20dfe4d61f972a3aaa5283f988699af93b8bfa5e"
+    },
+    {
+      "path": "docs/LIMITATIONS_TEMPLATE.md",
+      "sha256": "29832f449468ffcbfa87c5795788ce940238db39f616f824058580e1a10ecfee"
+    },
+    {
+      "path": "docs/Q1_Q6_DISPOSITION_STATUS_TEMPLATE.md",
+      "sha256": "833f3eef70fea20a7baf9377c993bf148eef6452bf99a811fbd32c8db00db5a6"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "sha256": "46ca3f1f1b82f84d980c773de71649738fdfc1c8eabcb569297e3f3a9dcf7f14"
+    },
+    {
+      "path": "docs/RISK_REGISTER.md",
+      "sha256": "54e304f827c23e9b35a175502cfad2fed0b6e5cd605399920fc3747818e7a7d8"
+    },
+    {
+      "path": "fixtures/exposure_log_sample.jsonl",
+      "sha256": "085724ff2096cb2e0bf636a2aafafd27462a8c957e43737833b7718595781b4c"
+    },
+    {
+      "path": "fixtures/metrics_day_one.json",
+      "sha256": "18423439dc2f3de2a019a6f1bae9467453a315b504488c92f0354a38eb50760e"
+    },
+    {
+      "path": "fixtures/metrics_fail_operator_diversity.json",
+      "sha256": "dd205148dd0240720c5d83f6c7c8b04edb9b893a6b24eb7d02ded3f5d143a846"
+    },
+    {
+      "path": "fixtures/metrics_fail_propensity_unknown.json",
+      "sha256": "69a0acc26d20aa220f74264d68795a4d53e874ffc70ac0c34fcd6e63b0b32b9d"
+    },
+    {
+      "path": "fixtures/metrics_pass_l1_r3a.json",
+      "sha256": "a8fb23614a1f0075ed955d00d2c4578e73127e62897230560fb4fbffb27f9d9e"
+    },
+    {
+      "path": "fixtures/metrics_pass_l1_r3b.json",
+      "sha256": "c997a158100d317977e2b3e71ffda84a50eca8b64b3741f8a93fa76ecd251884"
+    },
+    {
+      "path": "gate_ledger_row.json",
+      "sha256": "4f0b19a55762351d6bc5f198367ef3d4c2cc98a8051b3eae14b7d6792872f69a"
+    },
+    {
+      "path": "hash_manifest.json",
+      "sha256": "87868ec774ad9a472e1239c93c170dd2b3f0091a9b15e8785a03836792b80150"
+    },
+    {
+      "path": "manifests/epoch3_arming_evaluator_spec.yaml",
+      "sha256": "641cd32a3aa1616ca0c409fa78d735ae5df59c1ac9d6e81a33cce757defa2c03"
+    },
+    {
+      "path": "manifests/epoch3_arming_manifest.json",
+      "sha256": "1ea15019457f40768d06804aafe8578f2ba8fa520d3b4eb076456db099988379"
+    },
+    {
+      "path": "manifests/gate_ledger_row.template.json",
+      "sha256": "6d207dbcfadefa8b57aa1a482c8d974391e553c369a61986a4ef54a71272b3dd"
+    },
+    {
+      "path": "manifests/hash_manifest.template.json",
+      "sha256": "de9f476d1032630c5934902d69061a1f381d587679736093f3821ca39968e1be"
+    },
+    {
+      "path": "manifests/learned_component_registry_examples.json",
+      "sha256": "70d3cb02722cef1eb38fd03863dd816604740c82e8c72177bd0504ca28277e79"
+    },
+    {
+      "path": "schemas/arming_manifest.schema.json",
+      "sha256": "a90adeb9a5dda3b64bc4295a8a58eb9677358ccf8679879f8678dcb79e75c0c5"
+    },
+    {
+      "path": "schemas/arming_status_report.schema.json",
+      "sha256": "5cc9e74d5f7e06c93476ef51054ee83c614281dddb4d085598f54f08e670d49c"
+    },
+    {
+      "path": "schemas/baseline_report.schema.json",
+      "sha256": "924c23f5b5d2c3c3e2a882a72c2759212933220052f0ac2ddefd6a8de1aeddb7"
+    },
+    {
+      "path": "schemas/exposure_log.schema.json",
+      "sha256": "22308c385e415d6f3cadd551d96436585275b949b8b32795a9901ec4c5a64a68"
+    },
+    {
+      "path": "schemas/learned_component_registry_entry.schema.json",
+      "sha256": "de5dc4f27623417ec17fd86b68b16ef7fe26e0ac20b9e423ead257c6c58d7406"
+    },
+    {
+      "path": "schemas/ledger_row.schema.json",
+      "sha256": "54a3d98426f057f55181ffb1136f9fc95ad6d5bec1948669853102408610c63b"
+    },
+    {
+      "path": "schemas/threshold.schema.json",
+      "sha256": "0fec3e163b60301b40c6eadf71d1ad314de1dcc654b483998ca0fb0c49c92f74"
+    },
+    {
+      "path": "scripts/build_hash_manifest.py",
+      "sha256": "48b50c762ab215839afaf5a0709f8d44171503ba50ae99261ac49a2ef938a07f"
+    },
+    {
+      "path": "scripts/evaluate_arming_status.py",
+      "sha256": "97c11902536ca24b99e50dda31dfd56e4f8b52dac4c4d95f601ae33f0e6c5ce5"
+    },
+    {
+      "path": "scripts/publish_gate_artifacts.py",
+      "sha256": "92a9a1fe331e8f747478bb91cd2fda49ab3c5548ac89fd0c8d33b460044f5d26"
+    },
+    {
+      "path": "specs/arming_semantics.md",
+      "sha256": "73178db8d2aac91c7358b0374a76df9cd012571bf6e2b76b15794302ba79989a"
+    },
+    {
+      "path": "specs/e3_entry_gate_spec.md",
+      "sha256": "30cabc7f071b323c88ccf5ec45d9ebada207127282609f615ccd30e9dfaafb3a"
+    },
+    {
+      "path": "specs/exploration_floor_spec.md",
+      "sha256": "607786d4d6a3d36db6d3fefc51083c8552ef9d8b2b61d65b77b889769004cb4e"
+    },
+    {
+      "path": "specs/exposure_propensity_logging.md",
+      "sha256": "0a2703415bc7bce41bff2ae8ad883b021c5fb15c7caa4429d393bb996c94e73b"
+    },
+    {
+      "path": "specs/ledger_publication_spec.md",
+      "sha256": "dba0f53f34e5b4167f31d7cc176b8ef6c456e8696b692f68da81329214a995a8"
+    },
+    {
+      "path": "specs/loop_numbering_crosswalk.md",
+      "sha256": "78cac26a2e6b24a805e694889ffe7e1e9b6865eba9538d92ac823c2c81ac6926"
+    },
+    {
+      "path": "specs/machine_evaluable_thresholds.md",
+      "sha256": "809216101fd5a67ab9cc5cf36500a03ffb3ed3066d81177716a205d7ecd673e4"
+    },
+    {
+      "path": "tests/test_arming_thresholds.py",
+      "sha256": "cbe4b354f7119c06b08338014c7a07c6f25f1f8d2c2f39ee64f30453e1afdaa8"
+    },
+    {
+      "path": "tests/test_manifest_schema.py",
+      "sha256": "0a1384707585fba78105ed23e6cce9113662fbe4ff22e9ae08cb687cff4f71a4"
+    },
+    {
+      "path": "tests/test_no_loop_numbering_drift.py",
+      "sha256": "614a01c4fee925c162924820f1d629ad22881bbee6f106da89c2150041a133bc"
+    }
+  ]
+}

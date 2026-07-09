@@ -1,0 +1,23 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_R1_INTAKE_REPORT",
+  "consume_supersede_rule": "V2 consumes/supersedes Event Fabric Repair R1.1 for future Event Fabric work; R1 remains historical provenance.",
+  "event_fabric_r1_contract_count": 6,
+  "prerequisites": [
+    {
+      "exists": true,
+      "label": "event_fabric_repair_r1_1",
+      "ok": true,
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_REPAIR_EPOCH_R1_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EVENT_FABRIC_REPAIR_EPOCH_R1_1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint0_trust_gate",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "r1_rederived": false,
+  "status": "PASS"
+}

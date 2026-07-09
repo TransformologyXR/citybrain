@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "package_id",
+    "added_fixtures",
+    "promotion_policy"
+  ],
+  "properties": {
+    "package_id": {
+      "type": "string"
+    },
+    "added_fixtures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "promotion_policy": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,20 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_1_DECISION",
+  "authority_boundary": "review_only_no_action",
+  "family_count": 4,
+  "family_ids": [
+    "mobility_access_interruption",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "forbidden_capabilities_created": [],
+  "hash_manifest_errors": [],
+  "hash_manifest_verified": true,
+  "official_action_or_case_created": false,
+  "output_claim": "Event Fabric supports multiple local/replay event families and can feed WATCH, CHECK, BRIEF, runtime packets, and spatial overlays.",
+  "parallel_execution_used": false,
+  "production_live_claim_created": false,
+  "source_or_canonical_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACK2_EVENT_FABRIC_V2_1_MULTI_FAMILY_HARDENING_WITH_LIMITATIONS"
+}

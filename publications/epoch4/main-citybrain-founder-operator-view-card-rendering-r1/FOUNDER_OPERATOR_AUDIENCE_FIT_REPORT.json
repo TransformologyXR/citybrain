@@ -1,0 +1,11 @@
+{
+  "artifact_id": "FOUNDER_OPERATOR_AUDIENCE_FIT_REPORT",
+  "built_audience": "operator_view",
+  "manager_rollup_view_built": false,
+  "manager_view_backlog_reason": "Managers need counts, clusters, oldest issue age, risk if ignored, trend over time, and confidence distribution.",
+  "operator_view_card_count": 13,
+  "public_human_view_backlog_reason": "Public readers need plain meaning, location anchor, what is not confirmed, resident relevance, and zero internal vocabulary.",
+  "public_human_view_built": false,
+  "status": "PASS",
+  "why_operator_view_now": "The immediate review question is whether a card should be watched, ignored, or held for more evidence."
+}

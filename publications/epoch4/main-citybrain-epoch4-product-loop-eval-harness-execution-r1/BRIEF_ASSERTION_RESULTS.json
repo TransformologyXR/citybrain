@@ -1,0 +1,524 @@
+{
+  "artifact_id": "BRIEF_ASSERTION_RESULTS",
+  "assertion_count": 12,
+  "pass_count": 12,
+  "results": [
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:mobility_access_interruption:operator",
+          "brief:v3:mobility_access_interruption:executive",
+          "brief:v3:mobility_access_interruption:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:mobility_access_interruption:operator",
+          "brief:v3:mobility_access_interruption:executive",
+          "brief:v3:mobility_access_interruption:technical"
+        ],
+        "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:mobility_access_interruption:operator",
+          "brief:v3:mobility_access_interruption:executive",
+          "brief:v3:mobility_access_interruption:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:mobility_access_interruption:operator",
+          "brief:v3:mobility_access_interruption:executive",
+          "brief:v3:mobility_access_interruption:technical"
+        ],
+        "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:mobility_access_interruption:operator",
+          "brief:v3:mobility_access_interruption:executive",
+          "brief:v3:mobility_access_interruption:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:mobility_access_interruption:operator",
+          "brief:v3:mobility_access_interruption:executive",
+          "brief:v3:mobility_access_interruption:technical"
+        ],
+        "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:building_compliance_perception_candidate:operator",
+          "brief:v3:building_compliance_perception_candidate:executive",
+          "brief:v3:building_compliance_perception_candidate:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:building_compliance_perception_candidate:operator",
+          "brief:v3:building_compliance_perception_candidate:executive",
+          "brief:v3:building_compliance_perception_candidate:technical"
+        ],
+        "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:building_compliance_perception_candidate:operator",
+          "brief:v3:building_compliance_perception_candidate:executive",
+          "brief:v3:building_compliance_perception_candidate:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:building_compliance_perception_candidate:operator",
+          "brief:v3:building_compliance_perception_candidate:executive",
+          "brief:v3:building_compliance_perception_candidate:technical"
+        ],
+        "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:building_compliance_perception_candidate:operator",
+          "brief:v3:building_compliance_perception_candidate:executive",
+          "brief:v3:building_compliance_perception_candidate:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:building_compliance_perception_candidate:operator",
+          "brief:v3:building_compliance_perception_candidate:executive",
+          "brief:v3:building_compliance_perception_candidate:technical"
+        ],
+        "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:permit_inspection_delay:operator",
+          "brief:v3:permit_inspection_delay:executive",
+          "brief:v3:permit_inspection_delay:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:permit_inspection_delay:operator",
+          "brief:v3:permit_inspection_delay:executive",
+          "brief:v3:permit_inspection_delay:technical"
+        ],
+        "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:permit_inspection_delay:operator",
+          "brief:v3:permit_inspection_delay:executive",
+          "brief:v3:permit_inspection_delay:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:permit_inspection_delay:operator",
+          "brief:v3:permit_inspection_delay:executive",
+          "brief:v3:permit_inspection_delay:technical"
+        ],
+        "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:permit_inspection_delay:operator",
+          "brief:v3:permit_inspection_delay:executive",
+          "brief:v3:permit_inspection_delay:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:permit_inspection_delay:operator",
+          "brief:v3:permit_inspection_delay:executive",
+          "brief:v3:permit_inspection_delay:technical"
+        ],
+        "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:city_asset_infrastructure_issue:operator",
+          "brief:v3:city_asset_infrastructure_issue:executive",
+          "brief:v3:city_asset_infrastructure_issue:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:city_asset_infrastructure_issue:operator",
+          "brief:v3:city_asset_infrastructure_issue:executive",
+          "brief:v3:city_asset_infrastructure_issue:technical"
+        ],
+        "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:city_asset_infrastructure_issue:operator",
+          "brief:v3:city_asset_infrastructure_issue:executive",
+          "brief:v3:city_asset_infrastructure_issue:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:city_asset_infrastructure_issue:operator",
+          "brief:v3:city_asset_infrastructure_issue:executive",
+          "brief:v3:city_asset_infrastructure_issue:technical"
+        ],
+        "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "brief_refs": [
+          "brief:v3:city_asset_infrastructure_issue:operator",
+          "brief:v3:city_asset_infrastructure_issue:executive",
+          "brief:v3:city_asset_infrastructure_issue:technical"
+        ],
+        "forbidden_blocks_present": [],
+        "required_blocks_present": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "artifact_type": "BRIEF",
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "expected": {
+        "brief_refs": [
+          "brief:v3:city_asset_infrastructure_issue:operator",
+          "brief:v3:city_asset_infrastructure_issue:executive",
+          "brief:v3:city_asset_infrastructure_issue:technical"
+        ],
+        "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+        "forbidden_blocks": [
+          "founder_response",
+          "operator_disposition",
+          "official_action"
+        ],
+        "required_blocks": [
+          "subject",
+          "evidence_refs",
+          "check_summary",
+          "limitations",
+          "review_options",
+          "no_action_boundary"
+        ]
+      },
+      "gap": null,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

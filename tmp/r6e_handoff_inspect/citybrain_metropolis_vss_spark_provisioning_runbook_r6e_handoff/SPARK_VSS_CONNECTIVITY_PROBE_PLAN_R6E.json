@@ -1,0 +1,21 @@
+{
+  "probe_plan": {
+    "health_probe": {
+      "required": true,
+      "purpose": "prove runtime reachability without narration claims"
+    },
+    "bounded_payload_probe": {
+      "required_before_r7": true,
+      "payload_source": "R2 candidate event and observation summary only",
+      "forbidden": [
+        "new detections",
+        "fact-source claims",
+        "official conclusions",
+        "identity claims",
+        "actions"
+      ]
+    },
+    "timeout_seconds_default": 30,
+    "max_response_bytes_default": 65536
+  }
+}

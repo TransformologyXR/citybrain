@@ -1,0 +1,20 @@
+{
+  "artifact_id": "FOUNDER_STORY_SELECTION_LEDGER",
+  "diagnostic_appendix_card_ids": [
+    "operator-view-001",
+    "operator-view-002",
+    "operator-view-003",
+    "operator-view-004",
+    "operator-view-005",
+    "operator-view-006",
+    "operator-view-007",
+    "operator-view-008",
+    "operator-view-009",
+    "operator-view-010",
+    "operator-view-011",
+    "operator-view-012",
+    "operator-view-013"
+  ],
+  "selected_main_card_ids": [],
+  "selection_policy": "Select founder-grade candidates only; move diagnostic, challenge, thin, unknown-place, and unknown-freshness cards to appendix."
+}

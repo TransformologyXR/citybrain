@@ -1,0 +1,30 @@
+{
+  "schema_version": "citybrain-d9-external-operator-session-r1",
+  "session_id": "replace_with_unique_session_id",
+  "participant_id": "external-participant-001",
+  "participant_type": "external_non_builder",
+  "participant_role": "operator-shaped reviewer",
+  "session_time_utc": "YYYY-MM-DDTHH:MM:SSZ",
+  "surface_used": "local D9 console or capture review",
+  "tasks": [
+    {
+      "task_id": "d9-ext-ask-wood-lane",
+      "mode": "ASK",
+      "mode_run_id": "",
+      "start_time": "",
+      "end_time": "",
+      "time_to_context_seconds": null,
+      "question_or_action_requested": "",
+      "system_output_id": "",
+      "citations_present": null,
+      "knowns_unknowns_present": null,
+      "boundary_understood_by_participant": null,
+      "participant_summary": "",
+      "participant_questions": [],
+      "pass_status": "NOT_ATTEMPTED"
+    }
+  ],
+  "overall_participant_summary": "",
+  "operator_usefulness_rating_1_to_5": null,
+  "notes": ""
+}

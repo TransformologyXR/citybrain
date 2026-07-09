@@ -1,0 +1,464 @@
+<!doctype html><html><body data-scenario-state-ref="scenario_state:mobility-access-corridor:hero-lon-corridor" data-execution-state="not_executed"><section id="hero-story" class="hero-panel span-12" data-panel="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Actual-record grounded local replay</p>
+      <h2>Mobility Access corridor</h2>
+      <p class="hero-line">Scenario record: HERO LON CORRIDOR LANE BLOCKAGE REPLAY 001. The page now renders certified runtime-bundle records or visible data-depth gaps.</p>
+      <div class="plain-status-row">
+        <span class="status-pill safe">No action has been taken.</span>
+        <span class="status-pill">Human review required before any proposal.</span>
+        <span class="status-pill">Technical IDs are collapsed by default.</span>
+      </div>
+    </div>
+    <div class="hero-note">
+      <strong>What to inspect</strong>
+      <p>Every default card is tied to a runtime-bundle record. If the bundle lacks detail, the card says exactly what is missing.</p>
+    </div>
+  </section>
+<section id="story-timeline" class="panel span-12" data-panel="story-timeline">
+    <h2>Six-step record inspection path</h2>
+    <ol class="story-steps">
+      <li>
+        <span class="step-number">1</span>
+        <div><strong>Corridor record</strong><p>The bundle names the Mobility Access corridor and scenario replay record.</p></div>
+      </li><li>
+        <span class="step-number">2</span>
+        <div><strong>Entity records</strong><p>Seven Mobility Access entity refs have overlay packets and review-context state.</p></div>
+      </li><li>
+        <span class="step-number">3</span>
+        <div><strong>Evidence depth</strong><p>Observation and similar-case refs exist, but their human summaries are missing.</p></div>
+      </li><li>
+        <span class="step-number">4</span>
+        <div><strong>Option records</strong><p>Seven review option packets show roles, eligibility, guardrails, and limitations.</p></div>
+      </li><li>
+        <span class="step-number">5</span>
+        <div><strong>Review stop</strong><p>Track D packet fields show no approval and no execution.</p></div>
+      </li><li>
+        <span class="step-number">6</span>
+        <div><strong>Data gaps</strong><p>Missing record depth is shown as a blocker, not filled with generic prose.</p></div>
+      </li>
+    </ol>
+  </section>
+<section id="situation" class="panel span-7" data-panel="situation">
+    <p class="section-kicker">What happened</p>
+    <h2>Scenario record</h2>
+    <div class="record-grid two-col">
+      <article class="fact-card" data-card-type="situation_fact_card" data-depth-status="renderable">
+        <span class="record-type">scenario_state.json</span>
+        <h3>Mobility Access corridor</h3>
+        <p>Hero spine: Mobility Access corridor. Scenario replay is in review context only.</p>
+        <div class="record-meta">
+          <span>Entity refs: 7</span>
+          <span>State: No action taken</span>
+        </div>
+      </article>
+      <article class="fact-card" data-card-type="review_state_card" data-depth-status="renderable">
+        <span class="record-type">review_state.json</span>
+        <h3>Review state</h3>
+        <p>Approved proposal created: no. Execution authority created: no.</p>
+        <div class="record-meta">
+          <span>Execution: Not Executed</span>
+          <span>Track D authority: yes</span>
+        </div>
+      </article>
+    </div>
+  </section>
+<section id="records" class="panel span-5" data-panel="records">
+    <p class="section-kicker">What records are connected</p>
+    <h2>Entity and link cards</h2>
+    <div class="record-grid">
+      <article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Corridor</span>
+      <h3>Hero Lon Corridor</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article><article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Route Segment</span>
+      <h3>Hero Main Eastbound</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article><article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Lane Segment</span>
+      <h3>Hero Blocked Lane</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article><article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Kerbside Access</span>
+      <h3>Hero Kerb Zone A</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article><article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Pedestrian Context</span>
+      <h3>Hero Crossing A</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article><article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Cascade Context</span>
+      <h3>Hero Cross Domain</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article><article class="fact-card entity-card" data-card-type="entity_card" data-depth-status="renderable">
+      <span class="record-type">Incident Context</span>
+      <h3>Hero Lane Blockage</h3>
+      <p>Overlay state: Review Context. Claim label: Not Executed.</p>
+      <div class="record-meta">
+        <span>Record source: scenario + overlay</span>
+        <span>Limitation: Local Replay Only</span>
+      </div>
+    </article>
+      <article class="fact-card link-card" data-card-type="relationship_link_card" data-depth-status="renderable">
+      <span class="record-type">option-set link</span>
+      <h3>Lane Blockage Baseline</h3>
+      <p>Connects Hero Lon Corridor, Hero Main Eastbound, Hero Blocked Lane, Hero Kerb Zone A.</p>
+      <div class="record-meta">
+        <span>Do-nothing baseline: preserved</span>
+        <span>Abstain/no-safe-option: preserved</span>
+      </div>
+      <div class="chip-row"><span class="chip">Decision Support Spine</span><span class="chip">Plan Mode Sumo</span><span class="chip">Milestone Freeze</span></div>
+    </article><article class="fact-card link-card" data-card-type="relationship_link_card" data-depth-status="renderable">
+      <span class="record-type">option-set link</span>
+      <h3>Kerbside Access Review</h3>
+      <p>Connects Hero Lon Corridor, Hero Kerb Zone A, Hero Crossing A, Hero Cross Domain.</p>
+      <div class="record-meta">
+        <span>Do-nothing baseline: preserved</span>
+        <span>Abstain/no-safe-option: preserved</span>
+      </div>
+      <div class="chip-row"><span class="chip">Decision Support Spine</span><span class="chip">Milestone Freeze</span><span class="chip">Similar Case Closeout</span></div>
+    </article><article class="fact-card link-card" data-card-type="relationship_link_card" data-depth-status="renderable">
+      <span class="record-type">option-set link</span>
+      <h3>Cascade Comparison Review</h3>
+      <p>Connects Hero Blocked Lane, Hero Lane Blockage, Hero Cross Domain.</p>
+      <div class="record-meta">
+        <span>Do-nothing baseline: preserved</span>
+        <span>Abstain/no-safe-option: preserved</span>
+      </div>
+      <div class="chip-row"><span class="chip">Milestone Freeze</span><span class="chip">Similar Case Closeout</span><span class="chip">Promotion Freeze</span></div>
+    </article>
+    </div>
+  </section>
+<section id="evidence" class="panel span-12" data-panel="evidence">
+    <p class="section-kicker">Evidence record depth</p>
+    <h2>Observed and remembered records</h2>
+    <div class="record-grid three-col">
+      <div id="observations" class="record-section" data-moment-id="M13">
+        <h3>What was observed</h3>
+        <article id="candidate-observation-depth-gap" class="fact-card gap-card" data-depth-status="id_only">
+    <span class="record-type">DATA DEPTH GAP</span>
+    <h3>Candidate observation refs are present, but summaries are missing</h3>
+    <p>6 candidate observation refs are present. The bundle does not include enough fields to tell a viewer what each observation actually suggests.</p>
+    <div class="record-meta">
+      <span>6 refs present</span>
+      <span>Source: evidence_bundle.json</span>
+    </div>
+    <ul class="plain-list compact">
+      <li>Missing: source frame or clip</li><li>Missing: time</li><li>Missing: location</li><li>Missing: candidate label</li><li>Missing: plain-language observation summary</li>
+    </ul>
+    <p class="muted-copy">Technical refs stay in Show technical details.</p>
+  </article>
+        <div class="record-list"><article class="mini-record" data-depth-status="id_only"><strong>Observation 001</strong><span>ID-only candidate record; human-readable fields missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Observation 002</strong><span>ID-only candidate record; human-readable fields missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Observation 003</strong><span>ID-only candidate record; human-readable fields missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Observation 004</strong><span>ID-only candidate record; human-readable fields missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Observation 005</strong><span>ID-only candidate record; human-readable fields missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Observation 006</strong><span>ID-only candidate record; human-readable fields missing.</span></article></div>
+      </div>
+      <div id="similar-cases" class="record-section" data-moment-id="M02">
+        <h3>What past cases were similar</h3>
+        <article id="similar-case-depth-gap" class="fact-card gap-card" data-depth-status="id_only">
+    <span class="record-type">DATA DEPTH GAP</span>
+    <h3>Similar-case refs are present, but case details are missing</h3>
+    <p>4 similar-case refs are present. The bundle does not include case records detailed enough for a viewer-ready case card.</p>
+    <div class="record-meta">
+      <span>4 refs present</span>
+      <span>Source: evidence_bundle.json</span>
+    </div>
+    <ul class="plain-list compact">
+      <li>Missing: city</li><li>Missing: case summary</li><li>Missing: match reason</li><li>Missing: outcome</li><li>Missing: evidence refs per case</li>
+    </ul>
+    <p class="muted-copy">Technical refs stay in Show technical details.</p>
+  </article>
+        <div class="record-list"><article class="mini-record" data-depth-status="id_only"><strong>Similar case 001</strong><span>ID-only case ref; plain-language case payload missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Similar case 002</strong><span>ID-only case ref; plain-language case payload missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Similar case 003</strong><span>ID-only case ref; plain-language case payload missing.</span></article><article class="mini-record" data-depth-status="id_only"><strong>Similar case 004</strong><span>ID-only case ref; plain-language case payload missing.</span></article></div>
+      </div>
+      <div id="uncertainty" class="record-section" data-moment-id="M03">
+        <h3>What is uncertain</h3>
+        <article class="fact-card warning-card" data-card-type="uncertainty_card" data-depth-status="partial">
+          <span class="record-type">evidence_bundle.json</span>
+          <h3>Candidate Observation Not Finding</h3>
+          <p>The evidence bundle labels observations as candidate evidence, context only, and not a finding.</p>
+          <div class="record-meta">
+            <span>Per-link confidence: missing</span>
+            <span>Specific uncertain link: missing</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+<section id="options" class="panel span-8" data-panel="options">
+    <p class="section-kicker">What a human can review</p>
+    <h2>Actual option packets</h2>
+    <div id="shared-axis-tradeoff" class="axis-grid human" data-moment-id="M06">
+      <div class="axis"><span>Recorded comparison axis</span><strong>access continuity</strong></div><div class="axis"><span>Recorded comparison axis</span><strong>delay risk</strong></div><div class="axis"><span>Recorded comparison axis</span><strong>kerbside safety</strong></div><div class="axis"><span>Recorded comparison axis</span><strong>evidence confidence</strong></div>
+    </div>
+    <div class="record-grid two-col">
+      <article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 1</span>
+        <h3>Keep watching; no intervention proposed</h3>
+        <p>Context only; no promotion. Guardrail: Blocked or context-only.</p>
+        <div class="record-meta">
+          <span>Role: Do Nothing Baseline</span>
+          <span>Required human decision: Review Context Only</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article><article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 2</span>
+        <h3>Review a possible corridor reroute</h3>
+        <p>Eligible for human review only. Guardrail: Eligible for human review only.</p>
+        <div class="record-meta">
+          <span>Role: Candidate Intervention</span>
+          <span>Required human decision: Promote To Track D Proposal Or Reject</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article><article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 3</span>
+        <h3>Review kerbside access adjustments</h3>
+        <p>Eligible for human review only. Guardrail: Eligible for human review only.</p>
+        <div class="record-meta">
+          <span>Role: Candidate Intervention</span>
+          <span>Required human decision: Promote To Track D Proposal Or Reject</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article><article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 4</span>
+        <h3>Review a public information draft</h3>
+        <p>Eligible for human review only. Guardrail: Eligible for human review only.</p>
+        <div class="record-meta">
+          <span>Role: Candidate Intervention</span>
+          <span>Required human decision: Promote To Track D Proposal Or Reject</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article><article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 5</span>
+        <h3>Escalate to a human operator</h3>
+        <p>Context only; no promotion. Guardrail: Blocked or context-only.</p>
+        <div class="record-meta">
+          <span>Role: Abstain Or Escalate</span>
+          <span>Required human decision: Review Context Only</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article><article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 6</span>
+        <h3>Keep watching; no intervention proposed</h3>
+        <p>Context only; no promotion. Guardrail: Blocked or context-only.</p>
+        <div class="record-meta">
+          <span>Role: Do Nothing Baseline</span>
+          <span>Required human decision: Review Context Only</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article><article class="fact-card option-card" data-card-type="option_tradeoff_card" data-depth-status="renderable">
+        <span class="record-type">option packet 7</span>
+        <h3>Escalate to a human operator</h3>
+        <p>Context only; no promotion. Guardrail: Blocked or context-only.</p>
+        <div class="record-meta">
+          <span>Role: Abstain Or Escalate</span>
+          <span>Required human decision: Review Context Only</span>
+          <span>Execution: none</span>
+          <span>Approved proposal: none</span>
+        </div>
+        <div class="chip-row"><span class="chip">Hero Corridor Event Trace</span><span class="chip">Contract Only</span><span class="chip">Local Replay Only</span></div>
+      </article>
+    </div>
+  </section>
+<section id="track-d" class="panel span-4" data-panel="track-d">
+    <p class="section-kicker">Where the system stops</p>
+    <h2>Review-stop packet records</h2>
+    <p id="track-d-stop" class="claim-line" data-moment-id="M08">Actual packet fields show 3 eligible-for-review packets and 4 context-only or blocked packets. No approved proposal is created.</p>
+    <div id="guardrail-refusal" class="record-list" data-moment-id="M07">
+      <article class="mini-record danger-mini" data-card-type="track_d_review_stop_card" data-depth-status="partial">
+        <strong>Keep watching; no intervention proposed</strong>
+        <span>Blocked or context-only; required decision: Review Context Only.</span>
+      </article><article class="mini-record danger-mini" data-card-type="track_d_review_stop_card" data-depth-status="partial">
+        <strong>Escalate to a human operator</strong>
+        <span>Blocked or context-only; required decision: Review Context Only.</span>
+      </article><article class="mini-record danger-mini" data-card-type="track_d_review_stop_card" data-depth-status="partial">
+        <strong>Keep watching; no intervention proposed</strong>
+        <span>Blocked or context-only; required decision: Review Context Only.</span>
+      </article><article class="mini-record danger-mini" data-card-type="track_d_review_stop_card" data-depth-status="partial">
+        <strong>Escalate to a human operator</strong>
+        <span>Blocked or context-only; required decision: Review Context Only.</span>
+      </article>
+    </div>
+    <p class="muted-copy">No explicit forbidden-command log record is present in this bundle; the UI renders the available guardrail packet fields instead.</p>
+  </section>
+<section id="limitations" class="panel span-6" data-panel="limitations" data-moment-id="M12">
+    <p class="section-kicker">What this does not prove</p>
+    <h2>Limitation records</h2>
+    <ul class="plain-list">
+      <li>local/LAN/replay/review/query context only</li><li>Mobility Access corridor is the active hero spine</li><li>NYC construction hero remains parked post-D8</li><li>Web local launch evidence is required and generated by this sprint</li><li>Kit runtime launch is reported honestly; source validation can pass if Kit runtime is unavailable</li><li>M04 do-nothing and M05 abstain remain documented partial unless certified option-set fields prove otherwise</li><li>D7 observations remain candidate observations, not findings</li><li>Track D remains authoritative; no approval or execution is created</li>
+    </ul>
+  </section>
+<section id="trace" class="panel span-6" data-panel="trace" data-moment-id="M15">
+    <p class="section-kicker">How the review packet was assembled</p>
+    <h2>Trace stage records</h2>
+    <div class="trace-grid human">
+      <div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>1. Recall relevant records</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>2. Plan the review path</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>3. Check the plan against boundaries</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>4. Read local fixtures only</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>5. Normalize evidence and options</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage synthesize" data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>6. Narrate grounded facts</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>Narration permitted here</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>7. Separate review candidates from action-shaped requests</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>8. Suggest safe next review steps</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div><div class="stage " data-card-type="trace_step_card" data-depth-status="renderable">
+        <strong>9. Close the review packet</strong>
+        <span>Authority: None</span>
+        <span>Execution: Not Executed</span>
+        <span>No narration stage</span>
+      </div>
+    </div>
+  </section>
+<section id="moment-drive" class="panel span-12" data-panel="moment-drive">
+    <div class="drive-header">
+      <div>
+        <p class="section-kicker">Drive mode</p>
+        <h2>Walk the viewer through records and gaps</h2>
+      </div>
+      <div class="drive-controls" aria-label="Demo drive controls">
+        <button type="button" data-drive="start">Start demo</button>
+        <button type="button" data-drive="prev">Previous moment</button>
+        <button type="button" data-drive="next">Next moment</button>
+        <button type="button" data-drive="why">Show record path</button>
+        <button type="button" data-drive="evidence">Show evidence depth</button>
+      </div>
+    </div>
+    <div class="moment-grid">
+      <article class="moment-card" data-moment-card="M02" data-target-panel="similar-cases">
+          <span>M02</span>
+          <h3>Similar-case refs are ID-only</h3>
+          <p>Four similar-case refs exist, but the bundle lacks city, summary, match reason, and outcome fields.</p>
+        </article><article class="moment-card" data-moment-card="M13" data-target-panel="observations">
+          <span>M13</span>
+          <h3>Observation refs are ID-only</h3>
+          <p>Six candidate-observation refs exist, but source/time/location/label fields are missing.</p>
+        </article><article class="moment-card" data-moment-card="M07" data-target-panel="track-d">
+          <span>M07</span>
+          <h3>Guardrail packet fields render</h3>
+          <p>Blocked/context-only packet fields are visible; no explicit forbidden-command log is present in this bundle.</p>
+        </article><article class="moment-card" data-moment-card="M08" data-target-panel="track-d">
+          <span>M08</span>
+          <h3>Human-review stop packets render</h3>
+          <p>Track D packet fields show eligible and non-promotion records with no approved proposal.</p>
+        </article><article class="moment-card" data-moment-card="M12" data-target-panel="limitations">
+          <span>M12</span>
+          <h3>Limitations render from records</h3>
+          <p>Limitations come directly from the runtime bundle.</p>
+        </article><article class="moment-card" data-moment-card="M15" data-target-panel="trace">
+          <span>M15</span>
+          <h3>Trace stage records render</h3>
+          <p>Nine governed trace records render with action_authority none and not_executed status.</p>
+        </article><article class="moment-card" data-moment-card="M10" data-target-panel="records">
+          <span>M10</span>
+          <h3>Entity and link records render</h3>
+          <p>Scenario refs, entity refs, overlay states, and option-set link records render as cards.</p>
+        </article><article class="moment-card" data-moment-card="M03" data-target-panel="uncertainty">
+          <span>M03</span>
+          <h3>Uncertainty is an actual candidate status</h3>
+          <p>The evidence bundle marks observations as candidate-only, but lacks per-link confidence details.</p>
+        </article><article class="moment-card" data-moment-card="M01" data-target-panel="records">
+          <span>M01</span>
+          <h3>Cascade refs are present, but shallow</h3>
+          <p>Cascade attachment refs exist; this bundle does not include a viewer-readable cascade chain.</p>
+        </article><article class="moment-card" data-moment-card="M06" data-target-panel="options">
+          <span>M06</span>
+          <h3>Actual option packets render</h3>
+          <p>Seven candidate option packets render with roles, eligibility, guardrail status, evidence refs, and limitations.</p>
+        </article>
+    </div>
+    <div class="partial-note">
+      <span>M04 remains documented partial: Do-nothing baseline</span><span>M05 remains documented partial: Abstain no-safe-option</span>
+    </div>
+  </section>
+<section id="technical-details-panel" class="panel span-12">
+    <details id="technical-details">
+      <summary>Show technical details / IDs / packet refs</summary>
+      <div class="technical-grid">
+        <div>
+          <h3>Raw scenario and entity refs</h3>
+          <ul class="list">
+            <li class="packet">HERO-LON-CORRIDOR-LANE-BLOCKAGE-REPLAY-001</li>
+            <li class="packet">mobility_access:corridor:hero-lon-corridor</li><li class="packet">mobility_access:route_segment:hero-main-eastbound</li><li class="packet">mobility_access:lane_segment:hero-blocked-lane</li><li class="packet">mobility_access:kerbside_access:hero-kerb-zone-a</li><li class="packet">mobility_access:pedestrian_context:hero-crossing-a</li><li class="packet">mobility_access:cascade_context:hero-cross-domain</li><li class="packet">mobility_access:incident_context:hero-lane-blockage</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Raw evidence refs</h3>
+          <ul class="list">
+            <li class="packet">d7_candidate_observation:001</li><li class="packet">d7_candidate_observation:002</li><li class="packet">d7_candidate_observation:003</li><li class="packet">d7_candidate_observation:004</li><li class="packet">d7_candidate_observation:005</li><li class="packet">d7_candidate_observation:006</li>
+            <li class="packet">similar_case:001</li><li class="packet">similar_case:002</li><li class="packet">similar_case:003</li><li class="packet">similar_case:004</li>
+            <li class="packet">cascade_attachment:001</li><li class="packet">cascade_attachment:002</li><li class="packet">cascade_attachment:003</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Raw option and trace labels</h3>
+          <ul class="list">
+            <li class="packet">inv_option_do_nothing_monitor | do_nothing_monitor | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_review_reroute | review_reroute_option | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_review_kerbside_access | review_kerbside_access_option | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_review_public_information | review_public_information_draft | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_abstain_escalate | escalate_to_human_operator | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_do_nothing_monitor | do_nothing_monitor | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_abstain_escalate | escalate_to_human_operator | PASS_BLOCKED_OR_CONTEXT_ONLY</li>
+            <li class="packet">RECALL | not_executed</li><li class="packet">PLAN | not_executed</li><li class="packet">VALIDATE_PLAN | not_executed</li><li class="packet">EXECUTE | not_executed</li><li class="packet">NORMALIZE | not_executed</li><li class="packet">SYNTHESIZE | not_executed</li><li class="packet">RESOLVE_ACTIONS | not_executed</li><li class="packet">SUGGEST | not_executed</li><li class="packet">COMPLETE | not_executed</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+  </section></body></html>

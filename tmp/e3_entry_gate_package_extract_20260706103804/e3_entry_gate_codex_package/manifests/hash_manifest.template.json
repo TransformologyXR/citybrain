@@ -1,0 +1,13 @@
+{
+  "id": "hash_manifest",
+  "gate_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "corpus_version": "<corpus_version>",
+  "corpus_hash": "<sha256>",
+  "source_manifest_hash": "<sha256>",
+  "synthetic_manifest_hash": "<sha256>",
+  "scenario_manifest_hash": "<sha256>",
+  "arming_manifest_hash": "<sha256>",
+  "report_hash": "<sha256>",
+  "generated_at": "<ISO8601>",
+  "files": []
+}

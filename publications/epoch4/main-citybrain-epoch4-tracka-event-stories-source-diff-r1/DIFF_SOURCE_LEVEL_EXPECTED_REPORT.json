@@ -1,0 +1,15 @@
+{
+  "artifact_id": "DIFF_SOURCE_LEVEL_EXPECTED_REPORT",
+  "expected_source_change_types": {
+    "changed_status": 4,
+    "expired_record": 4,
+    "new_candidate_only_record": 4,
+    "new_record": 4,
+    "removed_or_missing_record": 4,
+    "stale_record": 4,
+    "strengthened_relationship": 4,
+    "weakened_relationship": 4
+  },
+  "source_fixture_count": 4,
+  "status": "PASS_WITH_LIMITATIONS"
+}

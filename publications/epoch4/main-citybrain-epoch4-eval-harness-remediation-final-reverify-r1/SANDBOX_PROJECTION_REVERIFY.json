@@ -1,0 +1,9 @@
+{
+  "artifact_id": "SANDBOX_PROJECTION_REVERIFY",
+  "candidate_count": 50,
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_CANDIDATE_SANDBOX_PROJECTION_R1_WITH_LIMITATIONS",
+  "overlay_count": 50,
+  "score_delta_claimed_as_fact": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

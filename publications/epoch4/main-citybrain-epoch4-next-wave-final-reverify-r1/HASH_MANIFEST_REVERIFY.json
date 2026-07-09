@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_NEXT_WAVE_FINAL_REVERIFY_R1_HASH_MANIFEST_REVERIFY_json",
+  "entries": [
+    {
+      "bytes": 405,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/DATA_MATURITY_DIAGNOSTIC_AUDIT.json",
+      "sha256": "fe200bbd1d9d524dbf63edf1acda04730a918d5d3e59c0e98a07c7c09683c875"
+    },
+    {
+      "bytes": 685,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/DECISION.json",
+      "sha256": "a5a88fc6a0f1c635439d319df6aa84ff2ee70955dd8eb481dafc5b566fe66aa0"
+    },
+    {
+      "bytes": 723,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/EVENT_SIMULATION_COMPATIBILITY_AUDIT.json",
+      "sha256": "d8930706a3d0ab57c0bf6a921bc030910d743e42f34bfa6eeb581f607a01c8c3"
+    },
+    {
+      "bytes": 426,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/FOUNDER_REVIEW_PARKED_OR_PREPARED_AUDIT.json",
+      "sha256": "7de7dd3f53e4c0d912c4002b5875efb477d4618970677d94d5cca8e3be188379"
+    },
+    {
+      "bytes": 766,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/NEXT_WAVE_CAPABILITY_DELTA.json",
+      "sha256": "235104f9d5103e23cd754997d20937a47e92f58fc2c59f851ebe25b7668fbca9"
+    },
+    {
+      "bytes": 2840,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/NEXT_WAVE_INPUT_AUDIT.json",
+      "sha256": "211f3a9cbfe5e1e07da6df6219d70fcc273cf658cbc5c69300cc95b841d733c1"
+    },
+    {
+      "bytes": 1110,
+      "path": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "0dd39e37a05e9cb68db74de017c054047db119984656580e4d1fd5d8fd93d588"
+    },
+    {
+      "bytes": 405,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/DATA_MATURITY_DIAGNOSTIC_AUDIT.json",
+      "sha256": "fe200bbd1d9d524dbf63edf1acda04730a918d5d3e59c0e98a07c7c09683c875"
+    },
+    {
+      "bytes": 685,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/DECISION.json",
+      "sha256": "a5a88fc6a0f1c635439d319df6aa84ff2ee70955dd8eb481dafc5b566fe66aa0"
+    },
+    {
+      "bytes": 723,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/EVENT_SIMULATION_COMPATIBILITY_AUDIT.json",
+      "sha256": "d8930706a3d0ab57c0bf6a921bc030910d743e42f34bfa6eeb581f607a01c8c3"
+    },
+    {
+      "bytes": 426,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/FOUNDER_REVIEW_PARKED_OR_PREPARED_AUDIT.json",
+      "sha256": "7de7dd3f53e4c0d912c4002b5875efb477d4618970677d94d5cca8e3be188379"
+    },
+    {
+      "bytes": 766,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/NEXT_WAVE_CAPABILITY_DELTA.json",
+      "sha256": "235104f9d5103e23cd754997d20937a47e92f58fc2c59f851ebe25b7668fbca9"
+    },
+    {
+      "bytes": 2840,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/NEXT_WAVE_INPUT_AUDIT.json",
+      "sha256": "211f3a9cbfe5e1e07da6df6219d70fcc273cf658cbc5c69300cc95b841d733c1"
+    },
+    {
+      "bytes": 1110,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-final-reverify-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "0dd39e37a05e9cb68db74de017c054047db119984656580e4d1fd5d8fd93d588"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "status": "PASS"
+}

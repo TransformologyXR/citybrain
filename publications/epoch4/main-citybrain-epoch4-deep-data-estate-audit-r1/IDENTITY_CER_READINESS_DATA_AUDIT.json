@@ -1,0 +1,18 @@
+{
+  "artifact_id": "IDENTITY_CER_READINESS_DATA_AUDIT",
+  "attribute_assertion_count": 5,
+  "canonical_entity_count": 2,
+  "conflict_count": 1,
+  "generated_at": "2026-07-08T09:24:28Z",
+  "limitations": [
+    "CER/SEG evidence is fixture/replay bounded and review-only.",
+    "Ambiguous/conflicting identities remain data readiness findings, not official identity truth."
+  ],
+  "raw_id_bypass_allowed": false,
+  "review_queue_rows": 3,
+  "source_classes": {
+    "replay_source_record": 4,
+    "sensor_inferred": 1
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

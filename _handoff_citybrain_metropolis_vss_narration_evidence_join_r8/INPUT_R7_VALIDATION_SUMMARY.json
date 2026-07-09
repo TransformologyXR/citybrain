@@ -1,0 +1,53 @@
+{
+  "schema_version": "metropolis-vss-narration-evidence-join-r8.v1",
+  "generated_at": "2026-07-04T09:42:48Z",
+  "input_package": "METROPOLIS_VSS_NARRATION_RUNTIME_SMOKE_R7_PACKAGE.zip",
+  "input_package_sandbox_path": "/mnt/data/METROPOLIS_VSS_NARRATION_RUNTIME_SMOKE_R7_PACKAGE.zip",
+  "zip_entries": 22,
+  "zip_integrity": "PASS",
+  "json_files_parsed": 20,
+  "jsonl_files_parsed": 1,
+  "jsonl_record_counts": {
+    "VSS_NARRATION_SIDECAR_R7.jsonl": 1
+  },
+  "hash_manifest_status": "PASS",
+  "hash_manifest_verified": "21/21",
+  "manifest_mismatches": 0,
+  "r7_status": "PASS_METROPOLIS_VSS_NARRATION_RUNTIME_SMOKE_R7_WITH_LIMITATIONS",
+  "r7_pass": true,
+  "candidate_event_id": "metropolis-vss-r2-event-001",
+  "candidate_event_mutated": false,
+  "r2_candidate_observations": 24,
+  "r2_candidate_events": 1,
+  "r2_detection_class": "vehicle_presence_candidate",
+  "r2_zone_id": "bounded_vehicle_zone_r2",
+  "r2_class_label": "car",
+  "r2_structured_source_class": "sensor_inferred",
+  "r7_vss_source_class": "model_generated_narrative",
+  "vss_is_fact_source": false,
+  "vss_runtime_attempted": true,
+  "vss_runtime_executed": true,
+  "vss_runtime_status": "EXECUTED_SUCCESS",
+  "spark_ready_probe_status": "SUCCESS",
+  "spark_vss_host": "spark-2445",
+  "spark_ready_endpoint": "http://spark-2445:38111/v1/ready",
+  "spark_summarize_endpoint": "http://spark-2445:38111/v1/summarize",
+  "model_id": "nim_nvidia_cosmos-reason2-8b_hf-1208",
+  "narration_records_emitted": 1,
+  "narration_id": "metropolis-vss-r7-narration-5dbe8f70a6df",
+  "audits": {
+    "check_narration_sufficiency": "PASS",
+    "claim_boundary": "PASS",
+    "no_action": "PASS",
+    "prose_vs_detection_conflict": "PASS",
+    "secret_audit": "PASS",
+    "source_class_separation": "PASS",
+    "vss_guardrail": "PASS"
+  },
+  "host_allocation": {
+    "txr-4070": "DeepStream / Metropolis sensor_inferred object metadata; proven by R2",
+    "Spark / DGX Spark": "VSS model_generated_narrative only; proven reachable/executed by R7",
+    "txr-3090": "inactive for current Metropolis/VSS chain"
+  },
+  "security_note": "Rotate the NVIDIA/NGC key after the install window; never package secrets."
+}

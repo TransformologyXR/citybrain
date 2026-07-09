@@ -1,0 +1,25 @@
+{
+  "title": "Track R \u2014 Similar-Case Retrieval",
+  "sequence": [
+    {
+      "task": "MAIN-CITYBRAIN-D6-SIMILAR-CASE-RETRIEVAL-PREFLIGHT",
+      "goal": "Preflight cross-city similar-case retrieval consuming Track S option-set contract."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-SIMILAR-CASE-INDEX-R1",
+      "goal": "Build local/replay similar-case index over accepted cross-city artifacts."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-SIMILAR-CASE-OPTION-SET-ATTACHMENT-R2",
+      "goal": "Attach similar_case_refs to reviewed option-set fixtures without changing proposal state."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-SIMILAR-CASE-RETRIEVAL-QUALITY-GATE-R3",
+      "goal": "Test retrieval quality, provenance, and no-overclaim behavior."
+    },
+    {
+      "task": "MAIN-CITYBRAIN-D6-SIMILAR-CASE-RETRIEVAL-CLOSEOUT",
+      "goal": "Close similar-case retrieval lane and define integration with Plan/Inverse tracks."
+    }
+  ]
+}

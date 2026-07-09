@@ -1,0 +1,1129 @@
+{
+  "application_mode": "derived_artifact_overlay_only",
+  "artifact_id": "DERIVED_TARGETED_FIX_APPLICATION_R1",
+  "derived_fix_count": 50,
+  "fixes": [
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-01",
+      "derived_fix_id": "derived_pre_probe_fix:3ce592813e9cdb1f",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-02",
+      "derived_fix_id": "derived_pre_probe_fix:93ea1c447214a1f3",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-03",
+      "derived_fix_id": "derived_pre_probe_fix:af6621c9506ce13c",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-04",
+      "derived_fix_id": "derived_pre_probe_fix:a87fd7d7d05a0d2e",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-05",
+      "derived_fix_id": "derived_pre_probe_fix:e08df54afa5314eb",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-06",
+      "derived_fix_id": "derived_pre_probe_fix:d924930e6aaf58d9",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-07",
+      "derived_fix_id": "derived_pre_probe_fix:8ced270c6596704a",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-08",
+      "derived_fix_id": "derived_pre_probe_fix:2eab0106b3d7d188",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-09",
+      "derived_fix_id": "derived_pre_probe_fix:6a8c304203be6261",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-10",
+      "derived_fix_id": "derived_pre_probe_fix:71bb9cececf7a1ff",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "identity_ambiguity"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-01",
+      "derived_fix_id": "derived_pre_probe_fix:c3791545d07d30c6",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-02",
+      "derived_fix_id": "derived_pre_probe_fix:feb0290ebad0755b",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-03",
+      "derived_fix_id": "derived_pre_probe_fix:476edc7e79550cac",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-04",
+      "derived_fix_id": "derived_pre_probe_fix:cb9ebcc57e7afecc",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-05",
+      "derived_fix_id": "derived_pre_probe_fix:60af8e5e444e224f",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-06",
+      "derived_fix_id": "derived_pre_probe_fix:c3020e07bf6f9296",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-07",
+      "derived_fix_id": "derived_pre_probe_fix:d1c39acdedd97fc1",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-08",
+      "derived_fix_id": "derived_pre_probe_fix:e431c696029c639a",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-09",
+      "derived_fix_id": "derived_pre_probe_fix:a71c920c25ee1208",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-10",
+      "derived_fix_id": "derived_pre_probe_fix:164c7374d6326f7d",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "freshness_coverage"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-01",
+      "derived_fix_id": "derived_pre_probe_fix:bd2abe1c3ae5067a",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-02",
+      "derived_fix_id": "derived_pre_probe_fix:816cc5be550dc8b8",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-03",
+      "derived_fix_id": "derived_pre_probe_fix:5392e888ffcea783",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-04",
+      "derived_fix_id": "derived_pre_probe_fix:2be36476301ffa31",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-05",
+      "derived_fix_id": "derived_pre_probe_fix:d42cc15e51b0272b",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-06",
+      "derived_fix_id": "derived_pre_probe_fix:7b354232c84d0c96",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-07",
+      "derived_fix_id": "derived_pre_probe_fix:26b6893dfade4b61",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-08",
+      "derived_fix_id": "derived_pre_probe_fix:ab5bf31d42811e68",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-09",
+      "derived_fix_id": "derived_pre_probe_fix:2af15e8f9c901919",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-10",
+      "derived_fix_id": "derived_pre_probe_fix:5a6a97ad0ac3ae5f",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "geometry_time_history"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-01",
+      "derived_fix_id": "derived_pre_probe_fix:b1170c5f0c3fa4a6",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-02",
+      "derived_fix_id": "derived_pre_probe_fix:e2570cab6b413be1",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-03",
+      "derived_fix_id": "derived_pre_probe_fix:fdffb44662b97dc5",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-04",
+      "derived_fix_id": "derived_pre_probe_fix:6f73cef9208eb645",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-05",
+      "derived_fix_id": "derived_pre_probe_fix:b7c66a59b3e7ef6f",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-06",
+      "derived_fix_id": "derived_pre_probe_fix:9e3065d0c6e00547",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-07",
+      "derived_fix_id": "derived_pre_probe_fix:1700c49cf1dff36e",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-08",
+      "derived_fix_id": "derived_pre_probe_fix:a173cad9f4ea7c9a",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-09",
+      "derived_fix_id": "derived_pre_probe_fix:086a9d5f384d1a8d",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-10",
+      "derived_fix_id": "derived_pre_probe_fix:8822f0ef5608e52c",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "check_downgrade"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-01",
+      "derived_fix_id": "derived_pre_probe_fix:54f0f646ae477cea",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-02",
+      "derived_fix_id": "derived_pre_probe_fix:0e4f93765a3ca5fc",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-03",
+      "derived_fix_id": "derived_pre_probe_fix:8d0cbacfc0431741",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-04",
+      "derived_fix_id": "derived_pre_probe_fix:fae5d203907aee59",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-05",
+      "derived_fix_id": "derived_pre_probe_fix:9cbcd15ce147c5e7",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-06",
+      "derived_fix_id": "derived_pre_probe_fix:6ca620e44a4528c1",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-07",
+      "derived_fix_id": "derived_pre_probe_fix:41b72a6855b40465",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-08",
+      "derived_fix_id": "derived_pre_probe_fix:ba0094b014c100cd",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-09",
+      "derived_fix_id": "derived_pre_probe_fix:0260ad48149cb647",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-10",
+      "derived_fix_id": "derived_pre_probe_fix:f79184ee5a5cd562",
+      "fix_class": "derived_packet_or_eval_metadata_improvement",
+      "non_authoritative": true,
+      "source_truth_mutated": false,
+      "target_case_ids": [
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1"
+      ],
+      "target_families": [
+        "building_compliance_perception_candidate",
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption",
+        "permit_inspection_delay"
+      ],
+      "target_queue": "source_registry_enrichment"
+    }
+  ],
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

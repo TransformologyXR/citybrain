@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_SOURCE_TRUTH_MUTATION_GUARD",
+  "canonical_truth_mutated": false,
+  "derived_metadata_only": true,
+  "fabricated_coverage_created": false,
+  "source_records_mutated": false,
+  "status": "PASS"
+}

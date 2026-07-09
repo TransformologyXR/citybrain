@@ -1,0 +1,43 @@
+{
+  "artifact_id": "FOUNDER_GRADE_STORY_MATERIALIZATION_DECISION",
+  "client_ready": false,
+  "cross_domain_story_count": 2,
+  "founder_review_allowed": true,
+  "ignore_candidate_count": 2,
+  "main_story_count": 11,
+  "metrics": {
+    "blockers": [],
+    "classification_counts": {
+      "founder_reviewable_ignore_candidate": 2,
+      "founder_reviewable_need_more_candidate": 1,
+      "founder_reviewable_watch_candidate": 8
+    },
+    "cross_domain_story_count": 2,
+    "ignore_candidate_count": 2,
+    "main_story_count": 11,
+    "need_more_candidate_count": 1,
+    "pass_bar": {
+      "maximum_need_more_stories": 3,
+      "minimum_cross_domain_stories": 2,
+      "minimum_founder_grade_stories": 10,
+      "minimum_ignore_candidates": 2,
+      "minimum_watch_candidates": 5
+    },
+    "pass_bar_met": true,
+    "verdict_counts": {
+      "ignore_for_now": 2,
+      "need_more_before_deciding": 1,
+      "watch_this": 8
+    },
+    "watch_candidate_count": 8
+  },
+  "need_more_candidate_count": 1,
+  "next_recommendation": "RUN_FOUNDER_OPERATOR_REVIEW_FROM_MATERIALIZED_STORIES_WITH_LIMITATIONS",
+  "operator_fuel": false,
+  "product_review_ready": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_FOUNDER_GRADE_STORY_MATERIALIZATION_R1_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-FOUNDER-GRADE-STORY-MATERIALIZATION-R1",
+  "training_eligible": false,
+  "watch_candidate_count": 8
+}

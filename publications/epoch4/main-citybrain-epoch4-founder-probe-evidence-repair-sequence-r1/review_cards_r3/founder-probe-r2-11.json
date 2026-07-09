@@ -1,0 +1,526 @@
+{
+  "actual_outcome_block": {
+    "actual_outcome_limitations": [
+      "Challenge suite records observed boundary and forbidden-capability guard fields, not a full standalone CHECK report payload."
+    ],
+    "actual_outcome_match_status": "matched_challenge_boundary",
+    "actual_outcome_source_artifact": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json",
+    "challenge_boundary_evidence": {
+      "case_id": "eval-r2:mobility_access_interruption_v0:stale_freshness",
+      "expected_check_outcome": "downgrade_freshness",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    "expected_check_outcome": "downgrade_freshness",
+    "matched_actual_boundary": "PASS_LIMITED_OR_ABSTAIN",
+    "matched_actual_check_outcome": "PASS_LIMITED_OR_ABSTAIN"
+  },
+  "actual_outcome_fields_present": true,
+  "brief_summary": {
+    "available": true,
+    "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json",
+    "summary": {
+      "no_action_boundary": "review_only_no_action",
+      "packet_id": "brief_v3:founder_review:mobility_access_interruption",
+      "variant_kinds": [
+        "executive",
+        "operator",
+        "technical"
+      ]
+    },
+    "task_refs": [
+      "brief:v3:mobility_access_interruption:operator",
+      "brief:v3:mobility_access_interruption:executive",
+      "brief:v3:mobility_access_interruption:technical"
+    ]
+  },
+  "cannot_claim": [
+    "No founder/operator session result is created by this repair sequence.",
+    "No operator fuel, disposition, training row, or learned label is created.",
+    "No live ingestion, production monitoring, forecast, or recommendation authority is created.",
+    "No official case, ticket, dispatch, control, enforcement, legal finding, or certified finding is created.",
+    "No source or canonical truth is mutated.",
+    "No founder/operator session result is created by this assembler.",
+    "no source truth correction",
+    "no forecast authority",
+    "no dispatch/control/enforcement",
+    "no training eligibility"
+  ],
+  "cer_seg_context": {
+    "cer_entity": null,
+    "r1_cer_entity_resolution": null,
+    "r1_seg_context": null,
+    "raw_id_bypass": false,
+    "seg_context": null
+  },
+  "cer_seg_context_r3": {
+    "cer_context": {
+      "cer_entity_refs": [
+        "cer:building:alpha",
+        "cer:building:beta_candidate"
+      ],
+      "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json"
+    },
+    "cer_context_missing": false,
+    "context_source": "mobility_derived_backfill",
+    "seg_context": {
+      "seg_context_refs": [
+        "seg_edge:alpha:located_in:downtown"
+      ],
+      "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json"
+    },
+    "seg_context_missing": false,
+    "status": "attached_derived_backfill"
+  },
+  "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+  "check_v1_summary": {
+    "aggregate_stress_outcome_counts": {
+      "candidate_only": 80,
+      "contradiction": 80,
+      "downgrade_freshness": 80,
+      "downgrade_source_class": 80,
+      "downgrade_source_depth": 80,
+      "sufficient_for_review": 80
+    },
+    "cannot_claim": [
+      "No founder/operator session result is created by this assembler.",
+      "No operator fuel, disposition, training row, or learned label is created.",
+      "No live ingestion, production monitoring, forecast, or recommendation authority is created.",
+      "No official case, ticket, dispatch, control, enforcement, legal finding, or certified finding is created.",
+      "No source or canonical truth is mutated.",
+      "no source truth correction",
+      "no forecast authority",
+      "no dispatch/control/enforcement",
+      "no training eligibility"
+    ],
+    "challenge_class": "stale",
+    "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+    "expected_check_outcome": "downgrade_freshness",
+    "incident_check_context": {},
+    "matched_harness_assertion": {}
+  },
+  "csv_row_guidance": [
+    "task_id",
+    "family",
+    "scenario",
+    "eval_case",
+    "check_ref",
+    "derived_overlays",
+    "reviewer_id_or_alias",
+    "reviewer_type",
+    "completed_at",
+    "understood_subject",
+    "supports_claim",
+    "should_downgrade",
+    "missing_evidence",
+    "brief_usefulness_1_to_5",
+    "check_usefulness_1_to_5",
+    "simulation_usefulness_1_to_5",
+    "spatial_usefulness_1_to_5",
+    "review_decision",
+    "free_text_notes"
+  ],
+  "derived_overlay_refs": [
+    "derived_overlay:107abd2020814b7c",
+    "derived_overlay:60ee3e2f0201d6ac",
+    "derived_overlay:fbb74c3aa4879bd8",
+    "derived_overlay:b3871caf4eebf5b9",
+    "derived_overlay:c99c60d157480194"
+  ],
+  "derived_overlay_summary": [
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:3ce592813e9cdb1f",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:107abd2020814b7c",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-01"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:93ea1c447214a1f3",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:60ee3e2f0201d6ac",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-02"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:af6621c9506ce13c",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:fbb74c3aa4879bd8",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-03"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:a87fd7d7d05a0d2e",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:b3871caf4eebf5b9",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-04"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:e08df54afa5314eb",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:c99c60d157480194",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-05"
+    }
+  ],
+  "eval_case": "eval-r2:mobility_access_interruption_v0:stale_freshness",
+  "event_state": {
+    "eval_expected_event_handling": "local_replay_state_only",
+    "event_fabric_v2_5": {
+      "brief_attachment_count": 360,
+      "check_attachment_count": 336,
+      "event_count": 360,
+      "family_id": "mobility_access_interruption",
+      "materialized_state_ref": "event_state:v2_5:mobility_access_interruption",
+      "spatial_handoff_count": 336,
+      "watch_admitted_count": 144
+    },
+    "incident_plan_state": {}
+  },
+  "explanation_blocks": {
+    "review_packet_evidence_status": "derived_backfill_not_source_truth",
+    "what_citybrain_can_say": "The expected CHECK outcome is downgrade_freshness; the actual run preserved boundary PASS_LIMITED_OR_ABSTAIN.",
+    "what_citybrain_cannot_claim": [
+      "No founder/operator session result is created by this repair sequence.",
+      "No operator fuel, disposition, training row, or learned label is created.",
+      "No live ingestion, production monitoring, forecast, or recommendation authority is created.",
+      "No official case, ticket, dispatch, control, enforcement, legal finding, or certified finding is created.",
+      "No source or canonical truth is mutated."
+    ],
+    "what_evidence_is_missing": [
+      "Native mobility Review Packet 360 family packet remains absent; R3 uses derived_review_packet_backfill_not_source_truth."
+    ],
+    "what_founder_should_judge": [
+      "Is the subject understandable?",
+      "Does the evidence support the stated review-limited claim?",
+      "Should the claim be downgraded or held?",
+      "What evidence is missing before any external use?",
+      "Are CHECK, BRIEF, simulation/option context, and spatial context useful?"
+    ],
+    "what_this_case_is_testing": "Freshness downgrade case: does CHECK make stale evidence visible and prevent over-claiming?",
+    "why_check_passed_downgraded_abstained_or_held": "The case tests whether stale evidence is downgraded instead of treated as current operational truth."
+  },
+  "family": "mobility_access_interruption_v0",
+  "founder_review_questions": [
+    "Is the subject understandable?",
+    "Does the evidence support the stated claim?",
+    "Should the claim be downgraded?",
+    "What evidence is missing?",
+    "Is the BRIEF useful?",
+    "Is CHECK useful?",
+    "Is simulation useful or applicable?",
+    "Is spatial context useful or applicable?",
+    "What should be fixed before showing this to anyone else?"
+  ],
+  "known_limitations": [
+    "local/replay/offline only",
+    "no official action or workflow",
+    "derived overlays are candidate-only",
+    "not external operator validation"
+  ],
+  "missing_evidence": [
+    "Review Packet 360 family packet not found for mobility_access_interruption_v0; card uses eval, BRIEF, event fabric, and overlay refs instead."
+  ],
+  "missing_evidence_r3": [
+    "Native mobility Review Packet 360 family packet remains absent; R3 uses derived_review_packet_backfill_not_source_truth."
+  ],
+  "r3_package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-PROBE-EVIDENCE-REPAIR-SEQUENCE-R1",
+  "r3_repair_status": "PASS_WITH_LIMITATIONS",
+  "review_packet_evidence_status": {
+    "backfill_label": "derived_review_packet_backfill_not_source_truth",
+    "evidence_packet": {
+      "artifact_id": "MOBILITY_REVIEW_PACKET_360_DERIVED_BACKFILL_PACKET",
+      "authority_boundary": "review_only_no_action",
+      "backfill_label": "derived_review_packet_backfill_not_source_truth",
+      "brief_packet_refs": [
+        "brief:v3:mobility_access_interruption:executive",
+        "brief:v3:mobility_access_interruption:operator",
+        "brief:v3:mobility_access_interruption:technical"
+      ],
+      "cer_context": {
+        "cer_entity_refs": [
+          "cer:building:alpha",
+          "cer:building:beta_candidate"
+        ],
+        "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json"
+      },
+      "check_context": {
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "claimability_statuses": [
+          "blocked_contradiction",
+          "blocked_insufficient_source_depth",
+          "blocked_raw_id_bypass",
+          "blocked_stale",
+          "claimable_with_limitations",
+          "downgraded_candidate_only",
+          "downgraded_proximity_only"
+        ],
+        "covered_rules": [
+          "candidate_only",
+          "contradiction",
+          "evidence_sufficiency",
+          "freshness",
+          "proximity_only",
+          "source_class",
+          "source_depth"
+        ],
+        "stress_outcome_counts": {
+          "candidate_only": 80,
+          "contradiction": 80,
+          "downgrade_freshness": 80,
+          "downgrade_source_class": 80,
+          "downgrade_source_depth": 80,
+          "sufficient_for_review": 80
+        }
+      },
+      "event_context": {
+        "event_fabric_v2_5": {
+          "brief_attachment_count": 360,
+          "check_attachment_count": 336,
+          "event_count": 360,
+          "family_id": "mobility_access_interruption",
+          "materialized_state_ref": "event_state:v2_5:mobility_access_interruption",
+          "spatial_handoff_count": 336,
+          "watch_admitted_count": 144
+        },
+        "event_state_refs": [
+          "diff:v2_5:mobility_access_interruption:long_history"
+        ]
+      },
+      "native_review_packet_360_found": false,
+      "native_review_packet_360_source": null,
+      "review_packet_360_family_evidence_status": "derived_backfill_not_source_truth",
+      "seg_context": {
+        "seg_context_refs": [
+          "seg_edge:alpha:located_in:downtown"
+        ],
+        "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json"
+      },
+      "source_evidence_refs": [
+        "diff:v2_5:mobility_access_interruption:long_history",
+        "source:v1_1:mobility_access_interruption:atlas"
+      ],
+      "source_record_appendix": {
+        "record_count": 3,
+        "records": [
+          {
+            "authority_boundary": "review_only_no_action",
+            "check_report_refs": [
+              "check_v1:alpha:located_in"
+            ],
+            "event_family": "mobility_access_interruption_v0",
+            "event_id": "efv2:592899f65e66",
+            "event_type": "mobility.access_interruption",
+            "evidence_refs": [
+              "evidence:permit:alpha:100a"
+            ],
+            "observed_at": "2026-07-07T08:00:20Z",
+            "source_class": "replay_source_record",
+            "source_event_id": "sprint1:source:alpha_access:001",
+            "source_record_ref": "source_record:permit:alpha:2026-07-01"
+          },
+          {
+            "authority_boundary": "review_only_no_action",
+            "check_report_refs": [
+              "check_v1:alpha:located_in"
+            ],
+            "event_family": "mobility_access_interruption_v0",
+            "event_id": "efv2:e7fde36f5a07",
+            "event_type": "mobility.access_interruption.update",
+            "evidence_refs": [
+              "evidence:inspection:alpha"
+            ],
+            "observed_at": "2026-07-07T07:55:45Z",
+            "source_class": "replay_source_record",
+            "source_event_id": "sprint1:source:alpha_access:002",
+            "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+          },
+          {
+            "authority_boundary": "review_only_no_action",
+            "check_report_refs": [
+              "check_v1:beta:candidate_only"
+            ],
+            "event_family": "mobility_access_interruption_v0",
+            "event_id": "efv2:72f151d0679f",
+            "event_type": "mobility.access_interruption",
+            "evidence_refs": [
+              "evidence:registry:beta"
+            ],
+            "observed_at": "2026-07-07T09:01:00Z",
+            "source_class": "replay_source_record",
+            "source_event_id": "sprint1:source:beta_access:001",
+            "source_record_ref": "source_record:registry:beta:2026-05-01"
+          }
+        ]
+      },
+      "source_truth_mutated": false,
+      "spatial_refs": [
+        "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+      ],
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    "review_packet_360_family_evidence_present": true,
+    "source": "MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json",
+    "status": "derived_backfill_not_source_truth"
+  },
+  "scenario": "stale_freshness",
+  "simulation_option_context": {
+    "eval_expected_handling": "simulation_not_applicable",
+    "forecast_created": false,
+    "non_sumo_option_context": {},
+    "recommendation_authority": "none",
+    "simulation_v2_4_comparison": {}
+  },
+  "source_evidence_summary": {
+    "expected_product_claim": "abstain_or_limited",
+    "replay_mode": "local_offline_replay",
+    "review_packet_id": null,
+    "review_packet_source": null,
+    "source_class": "replay",
+    "source_refs": [
+      "source:v1_1:mobility_access_interruption:atlas",
+      "diff:v2_5:mobility_access_interruption:long_history"
+    ]
+  },
+  "spatial_refs": {
+    "event_fabric_v2_5_spatial_handoff_count": 336,
+    "incident_spatial": {},
+    "review_packet_spatial_refs": null,
+    "task_spatial_refs": [
+      "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+    ]
+  },
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_id": "founder-probe-r2-11",
+  "what_this_task_tests": "Freshness downgrade case: does CHECK make stale evidence visible and prevent over-claiming?"
+}

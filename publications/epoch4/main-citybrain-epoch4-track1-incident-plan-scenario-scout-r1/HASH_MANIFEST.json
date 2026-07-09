@@ -1,0 +1,54 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "TRACK1_SCENARIO_SCOUT_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 1410,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/DO_NOT_SELECT_REASONING.json",
+      "sha256": "482787768087079a54d34c74b4ba0f2f30375fb8c6ab4104048e0198c700192d"
+    },
+    {
+      "bytes": 1755,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/IMPLEMENTATION_ORDER.json",
+      "sha256": "415ec7642eaec1177f2dbf89cf2ff00ce87a740cfa591f2c67eb55cc26539a65"
+    },
+    {
+      "bytes": 16773,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/SCENARIO_SCOUT_MATRIX.json",
+      "sha256": "447ac61ab12bcf9b01aec7f6add949fd397631c92d2b4211fabe99c1c1557c98"
+    },
+    {
+      "bytes": 270,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/TEST_LOG.json",
+      "sha256": "966c886981cfbc822bb2d532bfbd012698d3304dda249a4b030456642469d012"
+    },
+    {
+      "bytes": 2538,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/TOP_3_FAMILY_SELECTION.json",
+      "sha256": "4c10f5bd60710156972f8888a37482e384debe442892d9b0f159dd1fd177c71b"
+    },
+    {
+      "bytes": 1410,
+      "path": "publications/epoch4/main-citybrain-epoch4-track1-incident-plan-scenario-scout-r1/DO_NOT_SELECT_REASONING.json",
+      "sha256": "482787768087079a54d34c74b4ba0f2f30375fb8c6ab4104048e0198c700192d"
+    },
+    {
+      "bytes": 1755,
+      "path": "publications/epoch4/main-citybrain-epoch4-track1-incident-plan-scenario-scout-r1/IMPLEMENTATION_ORDER.json",
+      "sha256": "415ec7642eaec1177f2dbf89cf2ff00ce87a740cfa591f2c67eb55cc26539a65"
+    },
+    {
+      "bytes": 16773,
+      "path": "publications/epoch4/main-citybrain-epoch4-track1-incident-plan-scenario-scout-r1/SCENARIO_SCOUT_MATRIX.json",
+      "sha256": "447ac61ab12bcf9b01aec7f6add949fd397631c92d2b4211fabe99c1c1557c98"
+    },
+    {
+      "bytes": 2538,
+      "path": "publications/epoch4/main-citybrain-epoch4-track1-incident-plan-scenario-scout-r1/TOP_3_FAMILY_SELECTION.json",
+      "sha256": "4c10f5bd60710156972f8888a37482e384debe442892d9b0f159dd1fd177c71b"
+    }
+  ],
+  "entry_count": 9,
+  "generated_at": "2026-07-07T13:45:35Z",
+  "status": "PASS"
+}

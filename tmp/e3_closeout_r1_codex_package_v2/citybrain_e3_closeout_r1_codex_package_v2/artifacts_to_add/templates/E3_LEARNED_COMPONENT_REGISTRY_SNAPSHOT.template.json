@@ -1,0 +1,17 @@
+{
+  "artifact_id": "E3_LEARNED_COMPONENT_REGISTRY_SNAPSHOT",
+  "status": "PASS_WITH_LIMITATIONS",
+  "allowed_experimental_components": [
+    {
+      "component_id": "forecast.permit_stall_v0.r1",
+      "component_kind": "forecast_model",
+      "status": "experimental",
+      "consuming_surfaces": [],
+      "frozen_replay_only": true,
+      "release_ledger_row": null,
+      "product_surface_created": false
+    }
+  ],
+  "forbidden_components_created": 0,
+  "new_components_in_closeout_package": 0
+}

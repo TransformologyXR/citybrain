@@ -1,0 +1,52 @@
+# Eval Case Evidence Atlas 48
+
+Cases: 48
+
+- `eval-r2:mobility_access_interruption_v0:positive_packet_baseline`: positive / sufficient_for_review
+- `eval-r2:mobility_access_interruption_v0:negative_no_data`: no-data / abstain_no_data
+- `eval-r2:mobility_access_interruption_v0:contradiction_pair`: contradiction / downgrade_contradiction
+- `eval-r2:mobility_access_interruption_v0:stale_freshness`: stale / downgrade_freshness
+- `eval-r2:mobility_access_interruption_v0:candidate_only_identity`: candidate-only / candidate_only
+- `eval-r2:mobility_access_interruption_v0:proximity_only_context`: proximity-only / downgrade_proximity_only
+- `eval-r2:mobility_access_interruption_v0:unresolved_entity`: unresolved / abstain_unresolved
+- `eval-r2:mobility_access_interruption_v0:quarantine_invalid_event`: quarantine / quarantine_invalid
+- `eval-r2:mobility_access_interruption_v0:simulation_not_applicable`: simulation-not-applicable / simulation_not_applicable
+- `eval-r2:mobility_access_interruption_v0:source_depth_thin`: source-depth / downgrade_source_depth
+- `eval-r2:mobility_access_interruption_v0:source_class_boundary`: source-class / downgrade_source_class
+- `eval-r2:mobility_access_interruption_v0:spatial_packet_gap`: spatial-gap / downgrade_spatial_context
+- `eval-r2:building_compliance_perception_candidate:positive_packet_baseline`: positive / sufficient_for_review
+- `eval-r2:building_compliance_perception_candidate:negative_no_data`: no-data / abstain_no_data
+- `eval-r2:building_compliance_perception_candidate:contradiction_pair`: contradiction / downgrade_contradiction
+- `eval-r2:building_compliance_perception_candidate:stale_freshness`: stale / downgrade_freshness
+- `eval-r2:building_compliance_perception_candidate:candidate_only_identity`: candidate-only / candidate_only
+- `eval-r2:building_compliance_perception_candidate:proximity_only_context`: proximity-only / downgrade_proximity_only
+- `eval-r2:building_compliance_perception_candidate:unresolved_entity`: unresolved / abstain_unresolved
+- `eval-r2:building_compliance_perception_candidate:quarantine_invalid_event`: quarantine / quarantine_invalid
+- `eval-r2:building_compliance_perception_candidate:simulation_not_applicable`: simulation-not-applicable / simulation_not_applicable
+- `eval-r2:building_compliance_perception_candidate:source_depth_thin`: source-depth / downgrade_source_depth
+- `eval-r2:building_compliance_perception_candidate:source_class_boundary`: source-class / downgrade_source_class
+- `eval-r2:building_compliance_perception_candidate:spatial_packet_gap`: spatial-gap / downgrade_spatial_context
+- `eval-r2:permit_inspection_delay:positive_packet_baseline`: positive / sufficient_for_review
+- `eval-r2:permit_inspection_delay:negative_no_data`: no-data / abstain_no_data
+- `eval-r2:permit_inspection_delay:contradiction_pair`: contradiction / downgrade_contradiction
+- `eval-r2:permit_inspection_delay:stale_freshness`: stale / downgrade_freshness
+- `eval-r2:permit_inspection_delay:candidate_only_identity`: candidate-only / candidate_only
+- `eval-r2:permit_inspection_delay:proximity_only_context`: proximity-only / downgrade_proximity_only
+- `eval-r2:permit_inspection_delay:unresolved_entity`: unresolved / abstain_unresolved
+- `eval-r2:permit_inspection_delay:quarantine_invalid_event`: quarantine / quarantine_invalid
+- `eval-r2:permit_inspection_delay:simulation_not_applicable`: simulation-not-applicable / simulation_not_applicable
+- `eval-r2:permit_inspection_delay:source_depth_thin`: source-depth / downgrade_source_depth
+- `eval-r2:permit_inspection_delay:source_class_boundary`: source-class / downgrade_source_class
+- `eval-r2:permit_inspection_delay:spatial_packet_gap`: spatial-gap / downgrade_spatial_context
+- `eval-r2:city_asset_infrastructure_issue:positive_packet_baseline`: positive / sufficient_for_review
+- `eval-r2:city_asset_infrastructure_issue:negative_no_data`: no-data / abstain_no_data
+- `eval-r2:city_asset_infrastructure_issue:contradiction_pair`: contradiction / downgrade_contradiction
+- `eval-r2:city_asset_infrastructure_issue:stale_freshness`: stale / downgrade_freshness
+- `eval-r2:city_asset_infrastructure_issue:candidate_only_identity`: candidate-only / candidate_only
+- `eval-r2:city_asset_infrastructure_issue:proximity_only_context`: proximity-only / downgrade_proximity_only
+- `eval-r2:city_asset_infrastructure_issue:unresolved_entity`: unresolved / abstain_unresolved
+- `eval-r2:city_asset_infrastructure_issue:quarantine_invalid_event`: quarantine / quarantine_invalid
+- `eval-r2:city_asset_infrastructure_issue:simulation_not_applicable`: simulation-not-applicable / simulation_not_applicable
+- `eval-r2:city_asset_infrastructure_issue:source_depth_thin`: source-depth / downgrade_source_depth
+- `eval-r2:city_asset_infrastructure_issue:source_class_boundary`: source-class / downgrade_source_class
+- `eval-r2:city_asset_infrastructure_issue:spatial_packet_gap`: spatial-gap / downgrade_spatial_context

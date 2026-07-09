@@ -1,0 +1,97 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 1443,
+      "path": "REPRESENTATIVENESS_AUDIT_DECISION.json",
+      "sha256": "b69108f9a131a64c17a710d0ca3c5a5f0dbaacf76db07c08a61672d3a66a89b7"
+    },
+    {
+      "bytes": 2645,
+      "path": "MISSING_INPUTS.json",
+      "sha256": "8417b15abf3ebdcec375766c23334db791f4e8e440ef6de0e495e02b1261419b"
+    },
+    {
+      "bytes": 2858,
+      "path": "EVAL_CORPUS_INVENTORY.json",
+      "sha256": "f9e9300b50edd1d89a4be677f21d9c14d3aa1b8337744f0f1ef52ae537ef2132"
+    },
+    {
+      "bytes": 9753,
+      "path": "FOUNDER_CARD_INVENTORY.json",
+      "sha256": "733b972ef6e4958f62aa80fce593d201f888b4381bc601ff40b553efd7e7d2d1"
+    },
+    {
+      "bytes": 5764,
+      "path": "COVERAGE_AXIS_SCORECARD.json",
+      "sha256": "f8e4d5e4a0af14452ac4f0ad553980a2b5e0b3cfa9c533a34640096cdf5f4378"
+    },
+    {
+      "bytes": 2811,
+      "path": "FAMILY_SCENARIO_COVERAGE_MATRIX.json",
+      "sha256": "816f33350b03ef8a07bcd99873baee5e047c2036d840943b4e78e73ef077986b"
+    },
+    {
+      "bytes": 192,
+      "path": "SOURCE_CLASS_COVERAGE_MATRIX.json",
+      "sha256": "9db4af2cc70b6fcc176c13132ca969924937d3ac81a96fb886c3fa40bd6d5c0f"
+    },
+    {
+      "bytes": 666,
+      "path": "CHECK_REASON_COVERAGE_MATRIX.json",
+      "sha256": "a4dd2bc57b5172d66fb62720068867088cf699d58dc04c7fc12361ebb49c47da"
+    },
+    {
+      "bytes": 266,
+      "path": "EVENT_LIFECYCLE_COVERAGE_MATRIX.json",
+      "sha256": "fc9d691e4e56d7a1854d7744451c36a1cbaae0adeada3eeec59c65ff73f9ce30"
+    },
+    {
+      "bytes": 557,
+      "path": "EVIDENCE_DEPTH_COVERAGE_MATRIX.json",
+      "sha256": "c2503b99c7f7148abc451b5df21d78810231881a71011ac3267833da2b7f0eac"
+    },
+    {
+      "bytes": 269,
+      "path": "SIMULATION_COVERAGE_MATRIX.json",
+      "sha256": "e192d83f40ee806de788c6f7e3f2bbe8ed8644e6406a8a2140210b3abbd6a86f"
+    },
+    {
+      "bytes": 621,
+      "path": "CITY_DOMAIN_COVERAGE_MATRIX.json",
+      "sha256": "2ed0e3e13706198eb81f68eea94418fe4426d39af84a4cdc22fc6efeab4d72b0"
+    },
+    {
+      "bytes": 3553,
+      "path": "SYNTHETIC_DATA_FACTORY_CROSSWALK.json",
+      "sha256": "5471009ade2f6f3fa0478327bc4ea0c0bdd3c60c08ccac49fc8f3de847acf08f"
+    },
+    {
+      "bytes": 11237,
+      "path": "FOUNDER_CARD_READINESS_CLASSIFICATION.json",
+      "sha256": "7b92384033cbf68bacf6482297a02b87a109ec2fe2c8413d7cc98de8a9359ee2"
+    },
+    {
+      "bytes": 3080,
+      "path": "REPRESENTATIVENESS_FINDINGS.md",
+      "sha256": "51e44180686f661cb34f9d32afac108f5d952f9df58e19e24df619ea25c1793c"
+    },
+    {
+      "bytes": 1191,
+      "path": "EVAL_EXPANSION_RECOMMENDATION_R1.json",
+      "sha256": "0dcef35bae639fde47d5d8a01f734cf9ccffc9ab3a9af1481df38c21eb767164"
+    },
+    {
+      "bytes": 724,
+      "path": "FOUNDER_PROBE_RECOMMENDATION_R1.json",
+      "sha256": "714e41b43a4a941ab01365b4144ffe4fa9596fdd415381df931ce489d1611ef8"
+    },
+    {
+      "bytes": 751,
+      "path": "NO_OVERCLAIM_GUARD.json",
+      "sha256": "02b24cc5213218b78ebb7fca2c4cec50dc24584a9201484284266db161d57375"
+    }
+  ],
+  "file_count": 18,
+  "status": "PASS"
+}

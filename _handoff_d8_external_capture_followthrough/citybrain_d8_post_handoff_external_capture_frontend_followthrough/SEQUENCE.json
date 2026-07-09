@@ -1,0 +1,250 @@
+{
+  "package": "citybrain_d8_post_handoff_external_capture_frontend_followthrough",
+  "generated_utc": "2026-07-01T15:14:11Z",
+  "start_after": "PASS_MAIN_CITYBRAIN_D8_DEMONSTRABILITY_CERTIFIED_STATE_HANDOFF_WITH_LIMITATIONS",
+  "hero_spine": "Mobility Access corridor",
+  "stages": [
+    {
+      "order": 1,
+      "task": "MAIN-CITYBRAIN-D8-LIVE-CAPTURE-MEDIA-PASS-PREFLIGHT",
+      "purpose": "Confirm D8 handoff is green; locate capture manifests with placeholder `media_ref`; inventory running web companion and Omniverse Kit capture ability; refuse to proceed green if neither surface can be captured.",
+      "required_artifacts": [
+        "D8_LIVE_CAPTURE_MEDIA_PASS_PREFLIGHT_DECISION.json",
+        "CAPTURE_PLACEHOLDER_INVENTORY.json",
+        "CAPTURE_TOOLCHAIN_INVENTORY.json",
+        "BOUNDARY_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 2,
+      "task": "MAIN-CITYBRAIN-D8-LIVE-CAPTURE-TOOLCHAIN-AND-SHOT-LOCK-R1",
+      "purpose": "Lock the operator/executive/moment shot list and capture toolchain. Map every capture target to a certified D8 moment or hero-spine beat. Keep M04/M05 as partial unless real option-set fields exist.",
+      "required_artifacts": [
+        "D8_CAPTURE_TOOLCHAIN_AND_SHOT_LOCK_R1_DECISION.json",
+        "D8_SHOT_LIST_LOCK.json",
+        "D8_CAPTURE_TOOLCHAIN_LOCK.json",
+        "D8_MEDIA_CLAIM_LABEL_PLAN.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 3,
+      "task": "MAIN-CITYBRAIN-D8-LIVE-OPERATOR-EXECUTIVE-CAPTURE-R2",
+      "purpose": "Run the live local surfaces and capture operator and executive walkthrough media. Actual media files must be copied into the output root or referenced by stable local paths and hashed.",
+      "required_artifacts": [
+        "D8_LIVE_OPERATOR_EXECUTIVE_CAPTURE_R2_DECISION.json",
+        "D8_OPERATOR_CAPTURE_MANIFEST.json",
+        "D8_EXECUTIVE_CAPTURE_MANIFEST.json",
+        "CAPTURE_FILE_HASHES.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 4,
+      "task": "MAIN-CITYBRAIN-D8-LIVE-MOMENT-CLIP-MANIFEST-R3",
+      "purpose": "Cut or index moment-level clips for the 10 demonstrable moments. Each clip must show claim label, limitation/boundary where applicable, and the Mobility Access certified spine.",
+      "required_artifacts": [
+        "D8_LIVE_MOMENT_CLIP_MANIFEST_R3_DECISION.json",
+        "D8_MOMENT_CLIP_MANIFEST.json",
+        "D8_MOMENT_TO_MEDIA_COVERAGE.json",
+        "MISSING_MEDIA_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 5,
+      "task": "MAIN-CITYBRAIN-D8-LIVE-CAPTURE-CLAIM-AUDIT-R4",
+      "purpose": "Audit all captured media and transcripts for boundary claims. Reject any frame/narration implying production, live autonomous monitoring, dispatch, routing/control, enforcement, legal/certified finding, or automated action.",
+      "required_artifacts": [
+        "D8_LIVE_CAPTURE_CLAIM_AUDIT_R4_DECISION.json",
+        "MEDIA_CLAIM_BOUNDARY_AUDIT.json",
+        "MEDIA_NO_ACTION_AUDIT.json",
+        "MEDIA_LIMITATION_VISIBILITY_REPORT.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 6,
+      "task": "MAIN-CITYBRAIN-D8-LIVE-CAPTURE-MEDIA-PASS-CLOSEOUT",
+      "purpose": "Close the media pass only if placeholder refs were replaced or explicitly preserved as known pending. Summarize operator/executive/moment clip coverage.",
+      "required_artifacts": [
+        "D8_LIVE_CAPTURE_MEDIA_PASS_CLOSEOUT_DECISION.json",
+        "D8_MEDIA_PASS_COVERAGE_SUMMARY.json",
+        "D8_CAPTURE_READY_LEDGER.json",
+        "D8_CAPTURE_PENDING_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 7,
+      "task": "MAIN-CITYBRAIN-D8-EXTERNAL-NAIVE-VIEWER-VALIDATION-PREFLIGHT",
+      "purpose": "Prepare external viewer validation. Require consent/anonymous IDs only; no sensitive personal data. Check whether viewer-session input files exist; if not, create templates and mark pending, not green.",
+      "required_artifacts": [
+        "D8_EXTERNAL_NAIVE_VIEWER_VALIDATION_PREFLIGHT_DECISION.json",
+        "VIEWER_INPUT_TEMPLATE.json",
+        "VIEWER_PRIVACY_AND_CONSENT_NOTE.md",
+        "VIEWER_SESSION_INPUT_INVENTORY.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 8,
+      "task": "MAIN-CITYBRAIN-D8-NAIVE-VIEWER-TEST-PACKET-R1",
+      "purpose": "Create the viewer packet: short intro, operator/executive media links, moment checklist, comprehension questions, surprise-moment question, boundary-understanding question.",
+      "required_artifacts": [
+        "D8_NAIVE_VIEWER_TEST_PACKET_R1_DECISION.json",
+        "NAIVE_VIEWER_TEST_PACKET.md",
+        "NAIVE_VIEWER_QUESTIONS.json",
+        "VIEWER_SCORING_RUBRIC.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 9,
+      "task": "MAIN-CITYBRAIN-D8-NAIVE-VIEWER-SESSION-IMPORT-R2",
+      "purpose": "Import manually collected external viewer session records from a local input folder. Do not invent records. Validate schema, anonymize viewer IDs, and preserve raw vs normalized evidence.",
+      "required_artifacts": [
+        "D8_NAIVE_VIEWER_SESSION_IMPORT_R2_DECISION.json",
+        "VIEWER_SESSION_IMPORT_REPORT.json",
+        "NORMALIZED_VIEWER_RESPONSES.json",
+        "VIEWER_EVIDENCE_HASHES.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 10,
+      "task": "MAIN-CITYBRAIN-D8-NAIVE-VIEWER-SCOREBOARD-R3",
+      "purpose": "Score external validation: unaided understanding, identified surprise moment, boundary understood, moments remembered, confusion points. Keep all scoring evidence-backed.",
+      "required_artifacts": [
+        "D8_NAIVE_VIEWER_SCOREBOARD_R3_DECISION.json",
+        "NAIVE_VIEWER_SCOREBOARD.json",
+        "NAIVE_VIEWER_SCOREBOARD.md",
+        "VIEWER_CONFUSION_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 11,
+      "task": "MAIN-CITYBRAIN-D8-EXTERNAL-NAIVE-VIEWER-VALIDATION-CLOSEOUT",
+      "purpose": "Close external validation only if real viewer records exist. If not, output a clean pending package and do not claim external validation.",
+      "required_artifacts": [
+        "D8_EXTERNAL_NAIVE_VIEWER_VALIDATION_CLOSEOUT_DECISION.json",
+        "EXTERNAL_VALIDATION_SUMMARY.json",
+        "EXTERNAL_VALIDATION_PENDING_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 12,
+      "task": "MAIN-CITYBRAIN-D8-FRONTEND-DEPTH-ISSUE-REMEDIATION-PREFLIGHT",
+      "purpose": "Start front-end remediation from actual capture/viewer/confusion evidence plus D8 defect ledgers. If there are no real defects yet, produce an issue seed ledger and wait for external/capture inputs.",
+      "required_artifacts": [
+        "D8_FRONTEND_DEPTH_ISSUE_REMEDIATION_PREFLIGHT_DECISION.json",
+        "FRONTEND_INPUT_EVIDENCE_INDEX.json",
+        "FRONTEND_SCOPE_LOCK.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 13,
+      "task": "MAIN-CITYBRAIN-D8-FRONTEND-ISSUE-TRIAGE-R1",
+      "purpose": "Triage web companion and Omniverse Kit issues by P0/P1/P2. P0: boundary drift, one-truth mismatch, broken live drive, unreadable moment. No substrate work.",
+      "required_artifacts": [
+        "D8_FRONTEND_ISSUE_TRIAGE_R1_DECISION.json",
+        "FRONTEND_ISSUE_LEDGER.json",
+        "FRONTEND_REMEDIATION_PLAN.json",
+        "FRONTEND_PARKING_LOT.md",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 14,
+      "task": "MAIN-CITYBRAIN-D8-WEB-COMPANION-DEPTH-PATCH-R2",
+      "purpose": "Patch web companion issues: option/tradeoff legibility, trace panel readability, Track D stop visibility, limitation ledger visibility, media/capture readiness. Run targeted tests.",
+      "required_artifacts": [
+        "D8_WEB_COMPANION_DEPTH_PATCH_R2_DECISION.json",
+        "WEB_PATCH_SUMMARY.json",
+        "WEB_TEST_REPORT.json",
+        "WEB_BOUNDARY_REGRESSION.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 15,
+      "task": "MAIN-CITYBRAIN-D8-OMNIVERSE-KIT-DEPTH-PATCH-R3",
+      "purpose": "Patch Omniverse Kit depth issues: hero corridor framing, overlay labels, asset highlighting, camera path, moment callouts, capture readiness. Do not claim certified geometry or control.",
+      "required_artifacts": [
+        "D8_OMNIVERSE_KIT_DEPTH_PATCH_R3_DECISION.json",
+        "KIT_PATCH_SUMMARY.json",
+        "KIT_SMOKE_REPORT.json",
+        "KIT_BOUNDARY_REGRESSION.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 16,
+      "task": "MAIN-CITYBRAIN-D8-ONE-TRUTH-REGRESSION-R4",
+      "purpose": "Run one-truth regression after patches: web, Kit, trace, option set, Track D panel, limitation ledger, and capture manifests must agree on IDs, statuses, boundaries.",
+      "required_artifacts": [
+        "D8_ONE_TRUTH_REGRESSION_R4_DECISION.json",
+        "ONE_TRUTH_REGRESSION_REPORT.json",
+        "MOMENT_REGRESSION_REPORT.json",
+        "BOUNDARY_REGRESSION_REPORT.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 17,
+      "task": "MAIN-CITYBRAIN-D8-FRONTEND-DEPTH-ISSUE-REMEDIATION-CLOSEOUT",
+      "purpose": "Close front-end remediation if P0 issues are zero and P1 issues are either fixed or accepted with reason. Produce patch log and remaining issue backlog.",
+      "required_artifacts": [
+        "D8_FRONTEND_DEPTH_ISSUE_REMEDIATION_CLOSEOUT_DECISION.json",
+        "FRONTEND_CLOSEOUT_SUMMARY.json",
+        "FRONTEND_REMAINING_ISSUE_BACKLOG.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 18,
+      "task": "MAIN-CITYBRAIN-D8-POST-HANDOFF-FOLLOWTHROUGH-INTEGRATION-READINESS-REVIEW",
+      "purpose": "Reconcile D8 handoff, live media pass, external validation, and front-end remediation. Fail-safe if any required real media/viewer evidence is missing unless explicitly deferred.",
+      "required_artifacts": [
+        "D8_POST_HANDOFF_FOLLOWTHROUGH_INTEGRATION_READINESS_REVIEW_DECISION.json",
+        "FOLLOWTHROUGH_INPUT_ARTIFACT_INDEX.json",
+        "FOLLOWTHROUGH_GAP_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 19,
+      "task": "MAIN-CITYBRAIN-D8-POST-HANDOFF-FOLLOWTHROUGH-FINAL-PACKAGE-REVIEW",
+      "purpose": "Review final follow-through package for completeness, media hashes, viewer evidence, patch regression, and boundary preservation.",
+      "required_artifacts": [
+        "D8_POST_HANDOFF_FOLLOWTHROUGH_FINAL_PACKAGE_REVIEW_DECISION.json",
+        "FOLLOWTHROUGH_FINAL_PACKAGE_MANIFEST.json",
+        "FOLLOWTHROUGH_LIMITATIONS_LEDGER.md",
+        "HASH_MANIFEST.json"
+      ]
+    },
+    {
+      "order": 20,
+      "task": "MAIN-CITYBRAIN-D8-POST-HANDOFF-FOLLOWTHROUGH-CERTIFIED-STATE-HANDOFF",
+      "purpose": "Create the certified handoff that names what is now externally/watchably demonstrable, what remains pending, and what is parked post-D8.",
+      "required_artifacts": [
+        "D8_POST_HANDOFF_FOLLOWTHROUGH_CERTIFIED_STATE_HANDOFF_DECISION.json",
+        "CURRENT_D8_POST_HANDOFF_CERTIFIED_STATE.md",
+        "READY_NEXT_TRACKS.json",
+        "DEFERRED_NOT_CLAIMED_LEDGER.json",
+        "HASH_MANIFEST.json"
+      ]
+    }
+  ],
+  "hard_gates": [
+    "real media required for capture green",
+    "external viewer records required for naive-viewer green",
+    "no new substrate",
+    "no invented option-set fields",
+    "not_executed and Track D authority preserved"
+  ]
+}

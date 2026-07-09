@@ -1,0 +1,13 @@
+{
+  "active_contract_target": "contracts/simulation_v2",
+  "artifact_id": "SIMULATION_V2_DELTA_PLAN",
+  "deltas": [
+    "event-state input bridge",
+    "baseline plus two review options",
+    "option comparison/tradeoffs",
+    "CHECK/BRIEF attachments"
+  ],
+  "duplicate_r1_catalog_created": false,
+  "r1_provenance_root": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

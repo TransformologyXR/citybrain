@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "probe_attempted": {
+      "type": "boolean"
+    },
+    "probe_executed": {
+      "type": "boolean"
+    },
+    "probe_status": {
+      "enum": [
+        "SUCCESS",
+        "NOT_CONFIGURED",
+        "FAILED",
+        "TIMEOUT",
+        "ERROR"
+      ]
+    },
+    "r7_ready": {
+      "type": "boolean"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "runtime_configured",
+    "probe_attempted",
+    "probe_executed",
+    "probe_status",
+    "r7_ready"
+  ],
+  "title": "Spark VSS connectivity probe R6D",
+  "type": "object"
+}

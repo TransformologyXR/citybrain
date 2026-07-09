@@ -1,0 +1,15 @@
+{
+  "decision_id": "MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2E-KEYED-MOBILITY-DEPTH-PULL-PACKAGE",
+  "status": "READY_FOR_CODEX_KEYED_MOBILITY_DEPTH_PULL_WITH_NO_SECRETS",
+  "generated_at": "2026-07-07T19:30:00+01:00",
+  "purpose": "Provide a Codex-ready handoff to deepen LTA DataMall and TfL acquisition after R2A/R2B proved keyed access.",
+  "not_a_run_result": true,
+  "secrets_packaged": false,
+  "raw_payloads_packaged": false,
+  "expected_run_id": "MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2E-KEYED-MOBILITY-DEPTH-PULL",
+  "input_state": {
+    "r2b_status": "PASS_R2B_BASE_CITY_PLUS_KEYED_MOBILITY_MERGE_WITH_LIMITATIONS",
+    "synthetic_factory_seed_r1_reported_status": "PASS_SYNTHETIC_FACTORY_DUBAI_SEED_R1_WITH_LIMITATIONS"
+  },
+  "boundary": "LTA/TfL feeds are donor/context mobility feeds. They are not Dubai truth and create no dispatch/control/enforcement/legal/certified claim."
+}

@@ -1,0 +1,17 @@
+{
+  "bounded_internal_regression_ready": true,
+  "client_readiness_ready": false,
+  "founder_diagnostic_ready": true,
+  "founder_product_review_ready": false,
+  "learning_readiness_ready": false,
+  "prioritized_expansion_plan": [
+    "Add eval cases that explicitly sample synthetic factory layers: seed entities, WATCH/ASK/BRIEF/SPATIAL rows, D5 runtime packets, and D6 control-room cards.",
+    "Add source-class diversity beyond replay: native official record, derived overlay, synthetic replay, donor-context, sensor-inferred, and model-generated narrative boundaries.",
+    "Add lifecycle cases for duplicate, late, superseded, expired, reopened, unresolved, and quarantine transitions.",
+    "Add simulation/option-engine cases that distinguish not-applicable, non-SUMO option engine, SUMO smoke, and uncertainty/fidelity handling.",
+    "Add evidence-depth cases with explicit native-vs-derived provenance and missing-evidence repair examples."
+  ],
+  "recommendation": "EXPAND_CORPUS_BEFORE_CLIENT_OR_LEARNING_READINESS",
+  "status": "PASS",
+  "why": "The 48-case corpus is strong for bounded internal regression, but too narrow for client or learning readiness."
+}

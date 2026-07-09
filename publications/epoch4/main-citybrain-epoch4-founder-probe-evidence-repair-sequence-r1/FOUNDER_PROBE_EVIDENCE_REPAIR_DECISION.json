@@ -1,0 +1,22 @@
+{
+  "artifact_id": "FOUNDER_PROBE_EVIDENCE_REPAIR_DECISION",
+  "card_count": 16,
+  "csv_row_count": 16,
+  "forbidden_capabilities_created": [],
+  "founder_responses_created": false,
+  "generated_at": "2026-07-08T06:05:38Z",
+  "limitations": [
+    "no founder session run",
+    "mobility native Review Packet 360 remains absent and is represented by a derived backfill",
+    "challenge actuals are boundary outcomes where full CHECK report payloads are not available",
+    "review cards are founder-internal only"
+  ],
+  "mobility_backfill_used": true,
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-PROBE-EVIDENCE-REPAIR-SEQUENCE-R1",
+  "publication_root": "publications/epoch4/main-citybrain-epoch4-founder-probe-evidence-repair-sequence-r1",
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_EVIDENCE_REPAIR_SEQUENCE_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

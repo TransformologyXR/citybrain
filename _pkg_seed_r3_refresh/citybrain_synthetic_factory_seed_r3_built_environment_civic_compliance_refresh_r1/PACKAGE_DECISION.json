@@ -1,0 +1,18 @@
+{
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+  "readable_name": "Seed R3 Built Environment + Civic + Compliance Refresh",
+  "status": "READY_FOR_CODEX_SEED_R3_BUILT_ENVIRONMENT_CIVIC_COMPLIANCE_REFRESH_R1_WITH_NO_SECRETS",
+  "generated_at": "2026-07-08T10:56:04+00:00",
+  "contains_credentials": false,
+  "contains_raw_provider_payloads": false,
+  "expected_lock_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_BUILT_ENVIRONMENT_CIVIC_COMPLIANCE_REFRESH_R1_WITH_LIMITATIONS",
+  "priority_domains": [
+    "property_planning",
+    "built_environment",
+    "building_compliance",
+    "civic_service_311_crm",
+    "environment_resilience",
+    "data_quality_maturity",
+    "identity_graph_eval"
+  ]
+}

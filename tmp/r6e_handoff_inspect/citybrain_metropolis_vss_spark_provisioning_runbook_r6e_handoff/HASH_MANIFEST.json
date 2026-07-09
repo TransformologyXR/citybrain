@@ -1,0 +1,105 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "8ed5bae9ed7b7751ab543e6f0cf67e7beb26fd5c906ce15e1488362237491e84",
+      "size_bytes": 881
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "923f31d460c3a859cdc87b87c3fc78d524f2bc47ac96392a53db27294a006727",
+      "size_bytes": 492
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "b38d8ae5b3eaeab3f7231af2110b701f79a6f6ca40876cd488f171880e9a0ff6",
+      "size_bytes": 2218
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "84d18a5b1ffbe59ec2baed7a267e7aca4cb058c28ae991e6a828ca80b4c46fb3",
+      "size_bytes": 714
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "dc46a5b7aab3f4db6ac3d3e71277a1800808359a8a1d7c9889495f9995d405ad",
+      "size_bytes": 623
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "4fdce9781b802d02ad97c151c0d80f08a9981654232adb5dfec0e7106e27babc",
+      "size_bytes": 813
+    },
+    {
+      "path": "R6D_REPORTED_SUMMARY.json",
+      "sha256": "a26815ca28a36da7c45487c65308a38a3c36b2a2f8b2ac0c0169c70596bd38f1",
+      "size_bytes": 649
+    },
+    {
+      "path": "R6E_CLOSEOUT_DECISION_TEMPLATE.json",
+      "sha256": "3efb3d7f46247422d9db49f78daa64c2f9565ae32e3e436bbf022b007bea7c54",
+      "size_bytes": 643
+    },
+    {
+      "path": "R7_READINESS_GATE_R6E.json",
+      "sha256": "bd4b51edcb36e7c0a6c9bab556be5d31f2c65dbabdd1697786f56247b2bc35b8",
+      "size_bytes": 376
+    },
+    {
+      "path": "README.md",
+      "sha256": "d6924f49d8e35ffaa8fc12465c2dc5dcc1baf4b2c3febfb8b15d15cb04218024",
+      "size_bytes": 770
+    },
+    {
+      "path": "RUNTIME_HOST_ALLOCATION_R6E.json",
+      "sha256": "d413f4b665385f716e9c6af66288fada9b645c21e795bd2672ec031d3eade645",
+      "size_bytes": 823
+    },
+    {
+      "path": "SCHEMA_R6E_DECISION.json",
+      "sha256": "f44d66c8f355a93f79a0109fb1b0d21e6d3109db352ba0c8692dfe85139afaea",
+      "size_bytes": 429
+    },
+    {
+      "path": "SPARK_VSS_COMMAND_WRAPPER_CHECKLIST_R6E.md",
+      "sha256": "f399722d646da8a7c84999d68f968406a6ac1e5c668ced1178a7a45020075c01",
+      "size_bytes": 441
+    },
+    {
+      "path": "SPARK_VSS_CONNECTIVITY_PROBE_PLAN_R6E.json",
+      "sha256": "13da449249f6e8f83e6f7c14fbb4a6315f5ec12ab44d08c8fc832da93e7a77e3",
+      "size_bytes": 534
+    },
+    {
+      "path": "SPARK_VSS_ENDPOINT_CHECKLIST_R6E.md",
+      "sha256": "f8e28adbe0bbf07858cb0b0448d14fafce9411f18e84c321d4fbf10b9c4b40f1",
+      "size_bytes": 506
+    },
+    {
+      "path": "SPARK_VSS_PROVISIONING_RUNBOOK_R6E.md",
+      "sha256": "a3d27f07c22b14800ef833a4fc3681eeee689225da096bfca88d636208903388",
+      "size_bytes": 1594
+    },
+    {
+      "path": "SPARK_VSS_PROVISIONING_STATUS_R6E.json",
+      "sha256": "fb95a7fa0b0ef701e66119cc542f6f17385e21c28689b0a7233e5b17a083ae45",
+      "size_bytes": 443
+    },
+    {
+      "path": "SPARK_VSS_RUNTIME_CONFIG_TEMPLATE.env.example",
+      "sha256": "565170c429638a0eecc0c4b1534bfe7e0d95b27157588eb81980730dbf2e7734",
+      "size_bytes": 383
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "a0e3ecb0be307b4210b9935cc3eb975400ea4cda02ec478df58b5614c7233578",
+      "size_bytes": 1937
+    },
+    {
+      "path": "STATUS_ENUMS_R6E.json",
+      "sha256": "c49935118d6001e02b640fbc0f319c96da6cb374168f7b0aab871a7e05d89094",
+      "size_bytes": 469
+    }
+  ]
+}

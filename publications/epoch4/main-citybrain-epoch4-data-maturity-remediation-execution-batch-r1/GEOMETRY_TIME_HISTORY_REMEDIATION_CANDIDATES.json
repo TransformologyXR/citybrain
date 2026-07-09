@@ -1,0 +1,209 @@
+{
+  "artifact_id": "GEOMETRY_TIME_HISTORY_REMEDIATION_CANDIDATES",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-01",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-01",
+      "source_ref": "source:v1_1:geometry_time:01",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-01"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-02",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-02",
+      "source_ref": "source:v1_1:geometry_time:02",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-02"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-03",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-03",
+      "source_ref": "source:v1_1:geometry_time:03",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-03"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-04",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-04",
+      "source_ref": "source:v1_1:geometry_time:04",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-04"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-05",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-05",
+      "source_ref": "source:v1_1:geometry_time:05",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-05"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-06",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-06",
+      "source_ref": "source:v1_1:geometry_time:06",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-06"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-07",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-07",
+      "source_ref": "source:v1_1:geometry_time:07",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-07"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-08",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-08",
+      "source_ref": "source:v1_1:geometry_time:08",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-08"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-09",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-09",
+      "source_ref": "source:v1_1:geometry_time:09",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-09"
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-10",
+      "candidate_kind": "geometry_time_history_annotation_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "spatial and history atlas parity",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "proposed_patch": {
+        "geometry_annotation_candidate": "missing_or_incomplete",
+        "spatial_overlay_readiness_target": true,
+        "time_history_annotation_candidate": "missing_or_incomplete"
+      },
+      "score_delta_claimed": false,
+      "source_queue": "geometry_time_history",
+      "source_queue_id": "geometry-time-gap-10",
+      "source_ref": "source:v1_1:geometry_time:10",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:geometry_time_history:geometry-time-gap-10"
+    }
+  ],
+  "generated_at": "2026-07-07T18:51:48Z",
+  "source_queue": "geometry_time_history",
+  "status": "PASS_WITH_LIMITATIONS"
+}

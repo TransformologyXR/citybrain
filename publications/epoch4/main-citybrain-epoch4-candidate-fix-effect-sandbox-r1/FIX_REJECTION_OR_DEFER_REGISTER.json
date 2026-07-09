@@ -1,0 +1,16 @@
+{
+  "artifact_id": "FIX_REJECTION_OR_DEFER_REGISTER",
+  "defer_or_reject_rules": [
+    {
+      "reason": "No canonical source or registry mutation is allowed in this wave.",
+      "rule_id": "defer-source-truth-patches",
+      "status": "DEFER"
+    },
+    {
+      "reason": "Maturity score changes require evidence after actual source remediation.",
+      "rule_id": "reject-score-inflation-as-fact",
+      "status": "REJECT_AS_CURRENT_CLAIM"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

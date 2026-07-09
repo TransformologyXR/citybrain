@@ -1,0 +1,16 @@
+{
+  "track": "Track S \u2014 Decision-Support Contract Spine",
+  "entry": "ENTRY_PROMPT.md",
+  "ordered_prompts": [
+    "prompts/01_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-OPTION-SET-CONTRACT-PREFLIGHT_PROMPT.md",
+    "prompts/02_MAIN-CITYBRAIN-D6-GOVERNED-9-STAGE-RUNTIME-INTERFACE-PREFLIGHT_PROMPT.md",
+    "prompts/03_MAIN-CITYBRAIN-D6-HERO-CORRIDOR-REVIEWED-ACTION-ENUM-R1_PROMPT.md",
+    "prompts/04_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-GOLDEN-QUALITY-GATE-R1_PROMPT.md",
+    "prompts/05_MAIN-CITYBRAIN-D6-DECISION-SUPPORT-CONTRACT-SPINE-CLOSEOUT_PROMPT.md"
+  ],
+  "run_mode": "single sequential Codex thread",
+  "parallelizable": false,
+  "contract_only": true,
+  "expected_closeout_status": "PASS_MAIN_CITYBRAIN_D6_DECISION_SUPPORT_CONTRACT_SPINE_CLOSEOUT_WITH_LIMITATIONS",
+  "generated_at_utc": "2026-07-01T08:17:47Z"
+}

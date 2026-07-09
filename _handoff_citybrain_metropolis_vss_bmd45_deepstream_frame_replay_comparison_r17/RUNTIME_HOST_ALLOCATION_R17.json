@@ -1,0 +1,17 @@
+{
+  "schema_version": "metropolis-vss-bmd45-deepstream-frame-replay-comparison-r17.hosts.v1",
+  "spark_2445": {
+    "role": "VSS/LVS/RT-VLM narration runtime from prior sprint, optional/not required in R17",
+    "source_class": "model_generated_narrative",
+    "status": "available_but_not_required"
+  },
+  "txr_3090": {
+    "role": "data/graph/RAPIDS/heavier analytics",
+    "status": "inactive_for_this_chain"
+  },
+  "txr_4070": {
+    "role": "DeepStream/Metropolis frame replay and metadata export",
+    "source_class": "sensor_inferred",
+    "status": "active_target_for_r17"
+  }
+}

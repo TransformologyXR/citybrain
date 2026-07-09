@@ -1,0 +1,26 @@
+{
+  "artifact_id": "DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_AUDIT",
+  "generated_at": "2026-07-08T04:16:45Z",
+  "parallel_execution_used": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "output_root": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-DERIVED-FIX-PROMOTION-OVERLAY-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_PROMOTION_OVERLAY_R1_WITH_LIMITATIONS",
+      "step_number": 1
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-PROBE-INPUT-KIT-R2",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_INPUT_KIT_R2_WITH_LIMITATIONS",
+      "step_number": 2
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_no_session_probe_readiness_reverify_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-NO-SESSION-PROBE-READINESS-REVERIFY-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NO_SESSION_PROBE_READINESS_REVERIFY_R1_WITH_LIMITATIONS",
+      "step_number": 3
+    }
+  ]
+}

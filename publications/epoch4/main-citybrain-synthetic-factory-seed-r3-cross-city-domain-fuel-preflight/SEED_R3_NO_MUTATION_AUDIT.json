@@ -1,0 +1,10 @@
+{
+  "missing_inputs_fail_closed": [],
+  "mutated_prior_roots": [],
+  "read_only_inputs_count": 196,
+  "status": "PASS",
+  "writes_limited_to": [
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+    "publications/epoch4/main-citybrain-synthetic-factory-seed-r3-cross-city-domain-fuel-preflight"
+  ]
+}

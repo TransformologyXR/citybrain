@@ -1,0 +1,131 @@
+{
+  "artifact_id": "EXPECTED_QUARANTINE_CASES",
+  "case_count": 4,
+  "cases": [
+    {
+      "brief_refs": [
+        "brief:v3:mobility_access_interruption:operator",
+        "brief:v3:mobility_access_interruption:executive",
+        "brief:v3:mobility_access_interruption:technical"
+      ],
+      "case_id": "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+      "case_number": 8,
+      "case_type": "quarantine_invalid_event",
+      "challenge_class": "quarantine",
+      "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+      "expected_check_outcome": "quarantine_invalid",
+      "expected_event_handling": "quarantine",
+      "expected_product_claim": "abstain_or_limited",
+      "expected_simulation_handling": "simulation_not_applicable",
+      "family_id": "mobility_access_interruption_v0",
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "replay_mode": "local_offline_replay",
+      "source_class": "replay",
+      "source_family_id": "mobility_access_interruption",
+      "source_refs": [
+        "source:v1_1:mobility_access_interruption:atlas",
+        "diff:v2_5:mobility_access_interruption:long_history"
+      ],
+      "source_truth_mutated": false,
+      "spatial_refs": [
+        "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+      ],
+      "training_eligible": false
+    },
+    {
+      "brief_refs": [
+        "brief:v3:building_compliance_perception_candidate:operator",
+        "brief:v3:building_compliance_perception_candidate:executive",
+        "brief:v3:building_compliance_perception_candidate:technical"
+      ],
+      "case_id": "eval-r2:building_compliance_perception_candidate:quarantine_invalid_event",
+      "case_number": 8,
+      "case_type": "quarantine_invalid_event",
+      "challenge_class": "quarantine",
+      "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+      "expected_check_outcome": "quarantine_invalid",
+      "expected_event_handling": "quarantine",
+      "expected_product_claim": "abstain_or_limited",
+      "expected_simulation_handling": "simulation_not_applicable",
+      "family_id": "building_compliance_perception_candidate",
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "replay_mode": "local_offline_replay",
+      "source_class": "replay",
+      "source_family_id": "building_compliance_perception_candidate",
+      "source_refs": [
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "source_truth_mutated": false,
+      "spatial_refs": [
+        "spatial:v2_5:building_compliance_perception_candidate:atlas_overlay"
+      ],
+      "training_eligible": false
+    },
+    {
+      "brief_refs": [
+        "brief:v3:permit_inspection_delay:operator",
+        "brief:v3:permit_inspection_delay:executive",
+        "brief:v3:permit_inspection_delay:technical"
+      ],
+      "case_id": "eval-r2:permit_inspection_delay:quarantine_invalid_event",
+      "case_number": 8,
+      "case_type": "quarantine_invalid_event",
+      "challenge_class": "quarantine",
+      "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+      "expected_check_outcome": "quarantine_invalid",
+      "expected_event_handling": "quarantine",
+      "expected_product_claim": "abstain_or_limited",
+      "expected_simulation_handling": "simulation_not_applicable",
+      "family_id": "permit_inspection_delay",
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "replay_mode": "local_offline_replay",
+      "source_class": "replay",
+      "source_family_id": "permit_inspection_delay",
+      "source_refs": [
+        "source:v1_1:permit_inspection_delay:atlas",
+        "diff:v2_5:permit_inspection_delay:long_history"
+      ],
+      "source_truth_mutated": false,
+      "spatial_refs": [
+        "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+      ],
+      "training_eligible": false
+    },
+    {
+      "brief_refs": [
+        "brief:v3:city_asset_infrastructure_issue:operator",
+        "brief:v3:city_asset_infrastructure_issue:executive",
+        "brief:v3:city_asset_infrastructure_issue:technical"
+      ],
+      "case_id": "eval-r2:city_asset_infrastructure_issue:quarantine_invalid_event",
+      "case_number": 8,
+      "case_type": "quarantine_invalid_event",
+      "challenge_class": "quarantine",
+      "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+      "expected_check_outcome": "quarantine_invalid",
+      "expected_event_handling": "quarantine",
+      "expected_product_claim": "abstain_or_limited",
+      "expected_simulation_handling": "SUMO_smoke_allowed_not_calibrated",
+      "family_id": "city_asset_infrastructure_issue",
+      "no_action_boundary": true,
+      "operator_fuel": false,
+      "replay_mode": "local_offline_replay",
+      "source_class": "replay",
+      "source_family_id": "city_asset_infrastructure_issue",
+      "source_refs": [
+        "source:v1_1:city_asset_infrastructure_issue:atlas",
+        "diff:v2_5:city_asset_infrastructure_issue:long_history"
+      ],
+      "source_truth_mutated": false,
+      "spatial_refs": [
+        "spatial:v2_5:city_asset_infrastructure_issue:atlas_overlay"
+      ],
+      "training_eligible": false
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

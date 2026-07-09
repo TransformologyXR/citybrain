@@ -1,0 +1,29 @@
+{
+  "artifact_id": "SIMULATION_V2_2_REAL_OR_FIXTURE_RUN_COMPARISON",
+  "comparison_rows": [
+    {
+      "delta_claim": "not_computed",
+      "family_id": "building_compliance_perception_candidate",
+      "fixture_state": "fixture_only",
+      "real_connector_state": "unavailable_or_not_calibrated",
+      "reason": "No calibrated real connector output exists for comparison."
+    },
+    {
+      "delta_claim": "not_computed",
+      "family_id": "permit_inspection_delay",
+      "fixture_state": "fixture_only",
+      "real_connector_state": "unavailable_or_not_calibrated",
+      "reason": "No calibrated real connector output exists for comparison."
+    },
+    {
+      "delta_claim": "not_computed",
+      "family_id": "city_asset_infrastructure_issue",
+      "fixture_state": "fixture_only",
+      "real_connector_state": "unavailable_or_not_calibrated",
+      "reason": "No calibrated real connector output exists for comparison."
+    }
+  ],
+  "fixture_run_count": 3,
+  "real_run_count": 0,
+  "status": "PASS_WITH_LIMITATIONS"
+}

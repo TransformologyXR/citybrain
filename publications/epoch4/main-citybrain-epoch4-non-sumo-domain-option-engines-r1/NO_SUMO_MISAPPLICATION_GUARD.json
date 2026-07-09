@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NO_SUMO_MISAPPLICATION_GUARD",
+  "status": "PASS",
+  "sumo_forced_on_non_traffic_family": false,
+  "sumo_used_for_building_compliance_perception_candidate": false,
+  "sumo_used_for_permit_inspection_delay": false
+}

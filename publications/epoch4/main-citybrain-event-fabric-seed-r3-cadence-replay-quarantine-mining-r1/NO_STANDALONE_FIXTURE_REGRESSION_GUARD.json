@@ -1,0 +1,6 @@
+{
+  "artifact_id": "NO_STANDALONE_FIXTURE_REGRESSION_GUARD",
+  "consumed_event_fabric_adapter_feed_only": true,
+  "standalone_watch_ask_check_brief_spatial_fixture_surface_created": false,
+  "status": "PASS"
+}

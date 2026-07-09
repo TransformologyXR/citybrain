@@ -1,0 +1,96 @@
+{
+  "artifact_id": "TOP_FRESHNESS_AND_COVERAGE_GAPS",
+  "gaps": [
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "queue_id": "freshness-gap-01",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:01"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "queue_id": "freshness-gap-02",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:02"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "queue_id": "freshness-gap-03",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:03"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "queue_id": "freshness-gap-04",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:04"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "queue_id": "freshness-gap-05",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:05"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "queue_id": "freshness-gap-06",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:06"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "queue_id": "freshness-gap-07",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:07"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "queue_id": "freshness-gap-08",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:08"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "queue_id": "freshness-gap-09",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:09"
+    },
+    {
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "queue_id": "freshness-gap-10",
+      "recommended_action": "add refresh cadence and coverage window metadata",
+      "source_ref": "source:v1_1:freshness:10"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 35500,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_CASES.jsonl",
+      "sha256": "9dcd1ab292e6f3e71df733daad491c9afb985d0a76d1beaa1f8e917ac8fb5184"
+    },
+    {
+      "bytes": 13749,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json",
+      "sha256": "f2400634866eef198edc3fb6bf6524db911300ad2c2dc1d47bd7e47decce20bf"
+    },
+    {
+      "bytes": 10770,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/EXPECTED_ABSTAIN_CASES.json",
+      "sha256": "493b377011843175c5613328c86f63a28b31d8dd28192c59b9e982d99e82ec03"
+    },
+    {
+      "bytes": 21617,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/EXPECTED_DOWNGRADE_CASES.json",
+      "sha256": "30483afe74f485523ef6b9079da342c5257a07dd290a46a21f790c6ca87bd845"
+    },
+    {
+      "bytes": 5471,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/EXPECTED_QUARANTINE_CASES.json",
+      "sha256": "f18e88f04e6bb3040ef57ee1ff115bd97cc6185dbef1658c88ab59cf7b01955c"
+    },
+    {
+      "bytes": 5626,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/EXPECTED_SIMULATION_NOT_APPLICABLE_CASES.json",
+      "sha256": "c1072f0fd5e9eb8d3af07f97fb9152ecd41471132a11be608a7b24ece9bd1a21"
+    },
+    {
+      "bytes": 528,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_DECISION.json",
+      "sha256": "985864337205477f957b1c15b6e8777cf2c01a090c0f6d3711769953c4a728b2"
+    },
+    {
+      "bytes": 35500,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/CHALLENGE_CASES.jsonl",
+      "sha256": "9dcd1ab292e6f3e71df733daad491c9afb985d0a76d1beaa1f8e917ac8fb5184"
+    },
+    {
+      "bytes": 13749,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/CHALLENGE_RUN_RESULTS.json",
+      "sha256": "f2400634866eef198edc3fb6bf6524db911300ad2c2dc1d47bd7e47decce20bf"
+    },
+    {
+      "bytes": 10770,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/EXPECTED_ABSTAIN_CASES.json",
+      "sha256": "493b377011843175c5613328c86f63a28b31d8dd28192c59b9e982d99e82ec03"
+    },
+    {
+      "bytes": 21617,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/EXPECTED_DOWNGRADE_CASES.json",
+      "sha256": "30483afe74f485523ef6b9079da342c5257a07dd290a46a21f790c6ca87bd845"
+    },
+    {
+      "bytes": 5471,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/EXPECTED_QUARANTINE_CASES.json",
+      "sha256": "f18e88f04e6bb3040ef57ee1ff115bd97cc6185dbef1658c88ab59cf7b01955c"
+    },
+    {
+      "bytes": 5626,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/EXPECTED_SIMULATION_NOT_APPLICABLE_CASES.json",
+      "sha256": "c1072f0fd5e9eb8d3af07f97fb9152ecd41471132a11be608a7b24ece9bd1a21"
+    },
+    {
+      "bytes": 528,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-challenge-negative-suite-r1/PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_DECISION.json",
+      "sha256": "985864337205477f957b1c15b6e8777cf2c01a090c0f6d3711769953c4a728b2"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T20:25:01Z",
+  "status": "PASS"
+}

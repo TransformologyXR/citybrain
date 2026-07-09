@@ -1,0 +1,48 @@
+{
+  "artifact_id": "MISSING_DATA_BACKLOG",
+  "backlog_count": 5,
+  "generated_at": "2026-07-08T09:24:29Z",
+  "items": [
+    {
+      "affected_count": 273,
+      "blocked_by": "source registry enrichment and product-flow mapping",
+      "gap": "Sources without consuming flow refs must be triaged before they can support CHECK/CER/Event Fabric claims.",
+      "gap_id": "gap:source_registry_missing_consuming_flows",
+      "priority": "high",
+      "rank": 1
+    },
+    {
+      "affected_count": 1126,
+      "blocked_by": "source manifests with native date/update fields",
+      "gap": "Freshness/time-history unknowns limit claimability, DIFF, and live-source readiness.",
+      "gap_id": "gap:unknown_freshness_and_time_history",
+      "priority": "high",
+      "rank": 2
+    },
+    {
+      "affected_count": 526,
+      "blocked_by": "geometry proofs or source-specific spatial joins",
+      "gap": "Missing/unknown geometry limits spatial overlays, CER linking, and review cards.",
+      "gap_id": "gap:missing_geometry",
+      "priority": "high",
+      "rank": 3
+    },
+    {
+      "affected_count": 48,
+      "blocked_by": "review pack quality repair",
+      "gap": "Founder cards need readable evidence summaries, CER/SEG context, and CHECK actual outcomes.",
+      "gap_id": "gap:founder_card_evidence_quality",
+      "priority": "medium",
+      "rank": 4
+    },
+    {
+      "affected_count": 9,
+      "blocked_by": "approved remediation execution path",
+      "gap": "Maturity remediation exists as plans/candidates and must stay separate from applied source-truth fixes.",
+      "gap_id": "gap:maturity_remediation_not_applied",
+      "priority": "medium",
+      "rank": 5
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

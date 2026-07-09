@@ -1,0 +1,31 @@
+{
+  "allowed_source_classes": [
+    "source_record",
+    "derived",
+    "donor_context",
+    "synthetic_or_fixture",
+    "replay"
+  ],
+  "disallowed_claims": [
+    "official_dubai_truth",
+    "live_monitoring",
+    "dispatch",
+    "control",
+    "enforcement",
+    "legal_finding",
+    "certified_fact"
+  ],
+  "personal_data_policy": {
+    "no_human_person_level_records": true,
+    "organization_or_party_fields_allowed_only_as_non_person_entity_context_where_governed": true,
+    "strip_or_exclude_person_names_emails_phones_direct_individual_records": true
+  },
+  "policy": "Barcelona, NYC, Chicago, and London material may seed source-classed donor/context distributions or source-specific review fixtures only.",
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+  "truth_policy": {
+    "must_preserve_city_and_source_class": true,
+    "not_complete_city_truth": true,
+    "not_dubai_official_truth": true,
+    "seed_r3_records_must_include_evidence_refs_or_donor_refs": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "all_families_have_required_sections": true,
+  "artifact_id": "REVIEW_PACKET_360_V2_PARITY_AUDIT",
+  "event_fabric_v2_4_refs_present": true,
+  "family_count": 3,
+  "minimum_family_count_met": true,
+  "review_packet_status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS",
+  "simulation_v2_4_refs_present": true,
+  "status": "PASS"
+}

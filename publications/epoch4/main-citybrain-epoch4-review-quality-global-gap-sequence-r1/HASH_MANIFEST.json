@@ -1,0 +1,22 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 1314,
+      "path": "REVIEW_QUALITY_GLOBAL_GAP_SEQUENCE_DECISION.json",
+      "sha256": "b9e01d530ad1a457960de7e78a028334478e9176b7d668c9ce5155c5d931934f"
+    },
+    {
+      "bytes": 1586,
+      "path": "SEQUENCE_INPUT_RESOLUTION.json",
+      "sha256": "fa3b408952e621ae1d5a8bbe0d77770490ada952945b8743c691d23b923e3fbd"
+    },
+    {
+      "bytes": 813,
+      "path": "SEQUENCE_STEP_LEDGER.json",
+      "sha256": "22bf3e79d348118cb51da3cb4b35c43729689816b0540f24e64f3c89cf79bf1e"
+    }
+  ],
+  "file_count": 3,
+  "status": "PASS"
+}

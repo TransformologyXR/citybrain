@@ -1,0 +1,24 @@
+﻿{
+  "uploaded_zip": "MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1.zip",
+  "uploaded_zip_sha256": "7b43bc38f439b8514f966723b5d27bf046caf3f59cff25daf16d7e421dca5107",
+  "zip_entries": 25,
+  "zip_integrity_pass": true,
+  "json_parse_clean_count": 16,
+  "jsonl_counts": {
+    "CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl": 8,
+    "STORY_ARC_EVAL_EXPANSION_CASES.jsonl": 120,
+    "STORY_ARC_NEGATIVE_CHALLENGE_CASES.jsonl": 70
+  },
+  "hash_manifest_entries_verified": 23,
+  "hash_manifest_missing": [],
+  "hash_manifest_mismatches": [],
+  "decision_status": "PASS_MAIN_CITYBRAIN_CROSS_DOMAIN_STORY_ARC_EVAL_EXPANSION_R1_WITH_LIMITATIONS",
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+  "new_eval_case_count": 120,
+  "existing_eval_case_count": 48,
+  "combined_eval_case_count": 168,
+  "next_step_recommendation": "GO_FOR_AI_DIAGNOSTIC_STORY_REVIEW",
+  "product_review_ready": false,
+  "client_ready": false,
+  "forbidden_capabilities_created": []
+}

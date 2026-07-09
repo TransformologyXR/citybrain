@@ -1,0 +1,80 @@
+{
+  "artifact_id": "SOURCE_DISCOVERY_REPORT",
+  "candidate_cards_loaded": 13,
+  "candidate_cards_loaded_from": "outputs/MAIN-CITYBRAIN-FOUNDER-OPERATOR-VIEW-CARD-RENDERING-R1/FOUNDER_OPERATOR_STORY_CARDS_INLINE.json",
+  "input_roots": [
+    {
+      "exists": true,
+      "key": "operator_view_rendering",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-OPERATOR-VIEW-CARD-RENDERING-R1"
+    },
+    {
+      "exists": true,
+      "key": "operator_view_publication",
+      "path": "publications/epoch4/main-citybrain-founder-operator-view-card-rendering-r1"
+    },
+    {
+      "exists": true,
+      "key": "evidence_inline_repair",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-CARD-EVIDENCE-INLINING-REPAIR-R1"
+    },
+    {
+      "exists": true,
+      "key": "story_batch_discovery",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-READABLE-STORY-BATCH-DISCOVERY-HTML-R1"
+    },
+    {
+      "exists": true,
+      "key": "cross_domain_story_arc",
+      "path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "review_quality_cards",
+      "path": "outputs/main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1"
+    },
+    {
+      "exists": true,
+      "key": "seed_r3_adapter_corpus",
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "expanded_cadence",
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2"
+    },
+    {
+      "exists": true,
+      "key": "mobility_native_repair",
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1"
+    }
+  ],
+  "key_files": [
+    {
+      "exists": true,
+      "key": "operator_cards_json",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-OPERATOR-VIEW-CARD-RENDERING-R1/FOUNDER_OPERATOR_STORY_CARDS_INLINE.json"
+    },
+    {
+      "exists": true,
+      "key": "evidence_inline_index",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-CARD-EVIDENCE-INLINING-REPAIR-R1/FOUNDER_CARD_EVIDENCE_INLINE_INDEX.json"
+    },
+    {
+      "exists": true,
+      "key": "story_batch_index",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-READABLE-STORY-BATCH-DISCOVERY-HTML-R1/FOUNDER_STORY_BATCH_INDEX.json"
+    },
+    {
+      "exists": true,
+      "key": "cross_domain_events",
+      "path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl"
+    },
+    {
+      "exists": true,
+      "key": "seed_r3_feed",
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    }
+  ],
+  "scan_scope_note": "Gate uses existing rendered operator cards as candidates and records upstream story/card roots for provenance; it does not fabricate or repair source material."
+}

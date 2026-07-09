@@ -1,0 +1,9 @@
+{
+  "artifact_id": "SIMULATION_MASTER_POINTER_RECONCILIATION_R1",
+  "contradiction_found": false,
+  "master_pointer_path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SIMULATION_BACKTEST_HANDOFF_POINTER_R1.json",
+  "master_pointer_status": "PASS_PROVISIONAL",
+  "r2_catalog_path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_INPUT_CATALOG_R2.json",
+  "relationship": "supersedes_provisional_pointer",
+  "status": "PASS"
+}

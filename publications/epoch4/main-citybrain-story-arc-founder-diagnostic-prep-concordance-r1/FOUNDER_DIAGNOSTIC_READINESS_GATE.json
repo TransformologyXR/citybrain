@@ -1,0 +1,14 @@
+{
+  "artifact_id": "FOUNDER_DIAGNOSTIC_READINESS_GATE",
+  "client_ready": false,
+  "eval_count_framing_repaired": true,
+  "final_decision": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+  "founder_cards_rewritten_to_product_judgment": true,
+  "founder_diagnostic_review_allowed_with_limitations": true,
+  "founder_product_review_allowed": false,
+  "product_review_ready": false,
+  "review_of_review_excluded_from_concordance": true,
+  "status": "PASS",
+  "valid_chatgpt_review_imported": true,
+  "valid_claude_independent_artifact_review_imported": true
+}

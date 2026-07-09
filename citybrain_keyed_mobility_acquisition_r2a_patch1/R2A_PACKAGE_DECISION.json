@@ -1,0 +1,16 @@
+{
+  "decision_id": "MAIN-CITYBRAIN-KEYED-MOBILITY-ACQUISITION-R2A-PATCH1",
+  "status": "READY_FOR_CODEX_KEYED_SMOKE_PATCH1_CURRENT_ENDPOINTS_CONFIRMED",
+  "created_at": "2026-07-07T16:55:00Z",
+  "sandbox_validation": "INCONCLUSIVE_DNS_RESOLUTION_FAILED_BEFORE_AUTH",
+  "secrets_included": false,
+  "source_count": 14,
+  "intended_next_run": "MAIN-CITYBRAIN-KEYED-MOBILITY-ACQUISITION-R2A-RUN",
+  "boundary": "No dispatch/control/enforcement/legal/certified action claim. Transport context only.",
+  "patch_notes": [
+    "Confirm DataMall2 base URL remains current; sandbox DNS/fetch failure treated as environment issue.",
+    "Use TfL swagger docs /swagger/docs/v1 as authoritative endpoint catalog.",
+    "Normalize TfL road status endpoint to /Road/all/Status.",
+    "No secrets packaged."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "all_inputs_found": true,
+  "all_inputs_passed": true,
+  "artifact_id": "AFTER_DEEPENING_INPUT_AUDIT",
+  "inputs": [
+    {
+      "exists": true,
+      "key": "product_readiness",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_READINESS_GAP_CLOSURE_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_remediation",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_actions_r1/DATA_MATURITY_REMEDIATION_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_ACTIONS_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "parallel_execution_used": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

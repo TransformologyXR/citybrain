@@ -1,0 +1,17 @@
+{
+  "all_required_outputs_present": true,
+  "artifact_id": "DECISION",
+  "dry_run_task_count": 12,
+  "eval_case_count": 12,
+  "forbidden_capabilities_created": [],
+  "founder_review_session_run": false,
+  "generated_at": "2026-07-07T18:51:48Z",
+  "live_ingestion_created": false,
+  "official_action_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-EVAL-FINAL-REVERIFY-R1",
+  "product_forecast_surface_created": false,
+  "remediation_candidate_count": 50,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_EVAL_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "training_fuel_created": false
+}

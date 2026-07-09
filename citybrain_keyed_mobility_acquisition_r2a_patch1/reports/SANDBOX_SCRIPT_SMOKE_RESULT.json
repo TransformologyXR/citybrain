@@ -1,0 +1,10 @@
+{
+  "status": "PARTIAL_KEYED_SMOKE_NO_PASSING_ENDPOINTS",
+  "reason": "sandbox DNS resolution failed before auth for LTA/TfL hosts",
+  "status_counts": {
+    "INFRA_BLOCKED_NOT_AUTH_FAILURE": 7,
+    "KEY_PRESENT_NOT_USED_FOR_STANDARD_REST": 1
+  },
+  "secrets_written": false,
+  "secret_scan_output_passed": true
+}

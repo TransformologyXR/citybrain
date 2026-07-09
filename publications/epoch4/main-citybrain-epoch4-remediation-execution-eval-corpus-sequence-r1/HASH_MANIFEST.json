@@ -1,0 +1,29 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 969,
+      "path": "outputs/main_citybrain_epoch4_remediation_execution_eval_corpus_sequence_r1/REMEDIATION_EXECUTION_EVAL_SEQUENCE_DECISION.json",
+      "sha256": "96a26b16efae44c47f9a3b742259cb75c721370c5dc394fb355fd1b5f6ea5694"
+    },
+    {
+      "bytes": 1527,
+      "path": "outputs/main_citybrain_epoch4_remediation_execution_eval_corpus_sequence_r1/SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "a6f4c2b6cca3d7727369e0abd494cd2ab5ed3a7d7425e579b4fc8cf3a7061c70"
+    },
+    {
+      "bytes": 969,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-execution-eval-corpus-sequence-r1/REMEDIATION_EXECUTION_EVAL_SEQUENCE_DECISION.json",
+      "sha256": "96a26b16efae44c47f9a3b742259cb75c721370c5dc394fb355fd1b5f6ea5694"
+    },
+    {
+      "bytes": 1527,
+      "path": "publications/epoch4/main-citybrain-epoch4-remediation-execution-eval-corpus-sequence-r1/SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "a6f4c2b6cca3d7727369e0abd494cd2ab5ed3a7d7425e579b4fc8cf3a7061c70"
+    }
+  ],
+  "entry_count": 4,
+  "generated_at": "2026-07-07T18:51:48Z",
+  "status": "PASS"
+}

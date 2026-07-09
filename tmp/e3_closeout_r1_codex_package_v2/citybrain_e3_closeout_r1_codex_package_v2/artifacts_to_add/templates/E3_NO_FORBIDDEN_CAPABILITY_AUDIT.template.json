@@ -1,0 +1,14 @@
+{
+  "artifact_id": "E3_NO_FORBIDDEN_CAPABILITY_AUDIT",
+  "status": "PASS",
+  "allowed_existing_experimental_component": "forecast.permit_stall_v0.r1",
+  "new_learned_registry_entries": 0,
+  "ranker_created": false,
+  "operator_facing_forecast_created": false,
+  "product_forecast_surface_created": false,
+  "product_forecast_packet_created": false,
+  "case_memory_learner_created": false,
+  "counterfactual_learner_created": false,
+  "dynamic_investigation_created": false,
+  "cross_city_learned_transfer_created": false
+}

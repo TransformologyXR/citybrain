@@ -1,0 +1,46 @@
+{
+  "baseline_from": "R19",
+  "confidence_distribution_current": {
+    "bands": {
+      "0_25_to_lt_0_35": 32,
+      "0_35_to_lt_0_50": 43,
+      "gte_0_50": 65,
+      "lt_0_25": 26
+    },
+    "count": 166,
+    "max": 0.89209,
+    "mean": 0.446711,
+    "median": 0.427124,
+    "min": 0.200439,
+    "p10": 0.230347,
+    "p25": 0.287109,
+    "p75": 0.583374,
+    "p90": 0.678956
+  },
+  "created_at": "2026-07-04T16:22:10Z",
+  "dataset_annotations": 56,
+  "drift_review_items": 0,
+  "false_positive_review_count": 142,
+  "frame_count": 8,
+  "iou_match_counts": {
+    "0.25": 24,
+    "0.5": 19,
+    "0.75": 8
+  },
+  "missed_annotation_review_count": 32,
+  "per_class_candidate_counts": {
+    "bicycle": 53,
+    "car": 63,
+    "person": 43,
+    "road_sign": 7
+  },
+  "r18_baseline_candidates": 165,
+  "r19_rerun_candidates": 166,
+  "schema_version": "metropolis-vss-bmd45-human-review-benchmark-packet-r20.baseline_metrics.v1",
+  "source_classes": {
+    "bmd45_annotations": "dataset_annotation",
+    "deepstream_metropolis": "sensor_inferred",
+    "vss": "model_generated_narrative_not_fact_source"
+  },
+  "status": "PASS"
+}

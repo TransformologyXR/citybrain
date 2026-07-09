@@ -1,0 +1,86 @@
+{
+  "all_four_canonical_families_present": true,
+  "artifact_id": "REVIEW_PACKET_360_FAMILY_INVENTORY",
+  "canonical_families_present": [
+    "mobility_access_interruption_v0",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "canonical_family_count": 4,
+  "family_rows": [
+    {
+      "blocking_gaps": [
+        "missing_native_family_packet"
+      ],
+      "cards_have_cer_seg_context": true,
+      "cards_have_check_actual_outcome": true,
+      "derived_backfill_source": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json",
+      "evidence_kind": "derived_review_packet_backfill_not_source_truth",
+      "family_id": "mobility_access_interruption_v0",
+      "founder_card_count": 4,
+      "missing_required_native_sections": [],
+      "native_packet_sources": [],
+      "native_packet_status": "derived_backfill_only",
+      "product_ready_candidate": false,
+      "review_readiness": "diagnostic_ready"
+    },
+    {
+      "blocking_gaps": [],
+      "cards_have_cer_seg_context": true,
+      "cards_have_check_actual_outcome": true,
+      "derived_backfill_source": null,
+      "evidence_kind": "native_review_packet",
+      "family_id": "building_compliance_perception_candidate",
+      "founder_card_count": 4,
+      "missing_required_native_sections": [],
+      "native_packet_sources": [
+        "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json",
+        "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_BY_FAMILY.json"
+      ],
+      "native_packet_status": "native_packet_complete",
+      "product_ready_candidate": true,
+      "review_readiness": "diagnostic_ready"
+    },
+    {
+      "blocking_gaps": [
+        "missing_simulation_or_not_applicable_statement"
+      ],
+      "cards_have_cer_seg_context": true,
+      "cards_have_check_actual_outcome": true,
+      "derived_backfill_source": null,
+      "evidence_kind": "native_review_packet",
+      "family_id": "permit_inspection_delay",
+      "founder_card_count": 4,
+      "missing_required_native_sections": [],
+      "native_packet_sources": [
+        "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json",
+        "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_BY_FAMILY.json"
+      ],
+      "native_packet_status": "native_packet_complete",
+      "product_ready_candidate": false,
+      "review_readiness": "diagnostic_ready"
+    },
+    {
+      "blocking_gaps": [],
+      "cards_have_cer_seg_context": true,
+      "cards_have_check_actual_outcome": true,
+      "derived_backfill_source": null,
+      "evidence_kind": "native_review_packet",
+      "family_id": "city_asset_infrastructure_issue",
+      "founder_card_count": 4,
+      "missing_required_native_sections": [],
+      "native_packet_sources": [
+        "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json",
+        "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_BY_FAMILY.json"
+      ],
+      "native_packet_status": "native_packet_complete",
+      "product_ready_candidate": true,
+      "review_readiness": "diagnostic_ready"
+    }
+  ],
+  "native_incomplete_families": [
+    "mobility_access_interruption_v0"
+  ],
+  "native_incomplete_family_count": 1
+}

@@ -1,0 +1,69 @@
+{
+  "artifact_id": "FOUNDER_STORY_SOURCE_DISCOVERY_REPORT",
+  "cross_domain_event_count": 8,
+  "input_roots": [
+    {
+      "exists": true,
+      "key": "selection_quality_gate",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-STORY-SELECTION-QUALITY-GATE-R1"
+    },
+    {
+      "exists": true,
+      "key": "selection_quality_gate_publication",
+      "path": "publications/epoch4/main-citybrain-founder-story-selection-quality-gate-r1"
+    },
+    {
+      "exists": true,
+      "key": "operator_view_rendering",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-OPERATOR-VIEW-CARD-RENDERING-R1"
+    },
+    {
+      "exists": true,
+      "key": "operator_view_rendering_publication",
+      "path": "publications/epoch4/main-citybrain-founder-operator-view-card-rendering-r1"
+    },
+    {
+      "exists": true,
+      "key": "cross_domain_story_arc",
+      "path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "cross_domain_story_arc_publication",
+      "path": "publications/epoch4/main-citybrain-cross-domain-story-arc-eval-expansion-r1"
+    },
+    {
+      "exists": true,
+      "key": "seed_r3_adapter_corpus",
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "expanded_cadence",
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2"
+    },
+    {
+      "exists": true,
+      "key": "mobility_native_repair",
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1"
+    },
+    {
+      "exists": true,
+      "key": "simulation_distribution_checked",
+      "path": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1"
+    },
+    {
+      "exists": true,
+      "key": "deep_data_estate_audit",
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1"
+    },
+    {
+      "exists": true,
+      "key": "review_quality_global_gap",
+      "path": "outputs/main_citybrain_epoch4_review_quality_global_gap_sequence_r1"
+    }
+  ],
+  "materialization_note": "Candidate stories are built only from existing source rows and previous card outputs; derived labels are non-authoritative and backed by geometry/source references.",
+  "previous_operator_card_count": 13,
+  "seed_r3_event_count": 80
+}

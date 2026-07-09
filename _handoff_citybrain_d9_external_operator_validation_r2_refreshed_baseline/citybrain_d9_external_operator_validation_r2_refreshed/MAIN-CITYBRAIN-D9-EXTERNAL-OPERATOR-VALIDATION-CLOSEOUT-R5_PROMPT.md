@@ -1,0 +1,17 @@
+# MAIN-CITYBRAIN-D9-EXTERNAL-OPERATOR-VALIDATION-CLOSEOUT-R5
+
+Close the validation lane.
+
+If no usable non-builder sessions:
+- `PARTIAL_PENDING_OPERATOR_SESSION_RECORDS`
+
+If only internal sessions:
+- `PARTIAL_INTERNAL_VALIDATION_ONLY`
+
+If non-builder sessions exist:
+- PASS or PARTIAL based on task scoreboard.
+
+Output:
+- `EXTERNAL_OPERATOR_VALIDATION_CLOSEOUT_DECISION.json`
+- `EXTERNAL_OPERATOR_VALIDATION_FINDINGS.md`
+- `NEXT_OPEN_ASK_ROUTER_INPUT_READINESS.md`

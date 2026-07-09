@@ -1,0 +1,29 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 1117,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_and_founder_input_sequence_r1/DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_AUDIT.json",
+      "sha256": "6a683c07f5891597ee65f1750b827aee7e4d3895da6a90ad12927533e95b6d1a"
+    },
+    {
+      "bytes": 542,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_and_founder_input_sequence_r1/DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_DECISION.json",
+      "sha256": "ea13d142e372565f59f520d66fcd65c34b37f3136a0d90210aa140f29f8a1233"
+    },
+    {
+      "bytes": 1117,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-and-founder-input-sequence-r1/DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_AUDIT.json",
+      "sha256": "6a683c07f5891597ee65f1750b827aee7e4d3895da6a90ad12927533e95b6d1a"
+    },
+    {
+      "bytes": 542,
+      "path": "publications/epoch4/main-citybrain-epoch4-derived-fix-and-founder-input-sequence-r1/DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_DECISION.json",
+      "sha256": "ea13d142e372565f59f520d66fcd65c34b37f3136a0d90210aa140f29f8a1233"
+    }
+  ],
+  "entry_count": 4,
+  "generated_at": "2026-07-08T04:16:45Z",
+  "status": "PASS"
+}

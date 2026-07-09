@@ -1,0 +1,25 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_REPLAY_DETERMINISM_REPORT",
+  "change_class_counts": {
+    "brief_attached": 20,
+    "changed_state": 20,
+    "check_attached": 20,
+    "diff_entity_change": 20,
+    "duplicate_suppressed": 20,
+    "expired": 20,
+    "new": 20,
+    "quarantined_invalid": 20,
+    "source_refresh_delta": 20,
+    "spatial_ready": 20,
+    "stale": 20,
+    "superseded": 20,
+    "unresolved_preserved": 20,
+    "watch_candidate": 20
+  },
+  "event_count": 280,
+  "family_count": 4,
+  "first_replay_hash": "146be77b9e5274c5486fb678e6070d359782b01d8f3396e0565cb0e629461bb2",
+  "second_replay_hash": "146be77b9e5274c5486fb678e6070d359782b01d8f3396e0565cb0e629461bb2",
+  "stable_across_two_runs": true,
+  "status": "PASS"
+}

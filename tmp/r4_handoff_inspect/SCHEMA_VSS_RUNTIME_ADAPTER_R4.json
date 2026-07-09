@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain VSS Runtime Adapter Config R4",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_name",
+    "runtime_mode",
+    "runtime_configured",
+    "timeout_sec",
+    "redacted"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-runtime-integration-r4.v1"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-INTEGRATION-R4"
+    },
+    "runtime_mode": {
+      "enum": [
+        "command",
+        "endpoint",
+        "not_configured",
+        "dry_run"
+      ]
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "timeout_sec": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3600
+    },
+    "redacted": {
+      "type": "boolean"
+    },
+    "command_source": {
+      "enum": [
+        "cli",
+        "env",
+        "none"
+      ]
+    },
+    "endpoint_source": {
+      "enum": [
+        "cli",
+        "env",
+        "none"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+  "required_outputs": [
+    "PRODUCT_CONSUMPTION_R1_DECISION.json",
+    "PRODUCT_FEED_MANIFEST_R1.json",
+    "WATCH_QUEUE_COMBINED_R1.jsonl",
+    "EVENT_REPLAY_COMBINED_R1.jsonl",
+    "ASK_FIXTURE_INDEX_R1.jsonl",
+    "CHECK_FIXTURE_INDEX_R1.jsonl",
+    "BRIEF_FIXTURE_INDEX_R1.jsonl",
+    "SPATIAL_OVERLAY_INDEX_R1.jsonl",
+    "D5_RUNTIME_PACKET_FIXTURES_R1.jsonl",
+    "D6_SYNTHETIC_CONTROL_ROOM_LOCAL_INDEX_R1.html",
+    "BOUNDARY_AND_NO_ACTION_AUDIT_R1.json",
+    "SECRET_SCAN_REPORT_R1.json",
+    "HASH_MANIFEST.json",
+    "CODEX_CLOSEOUT.md"
+  ],
+  "minimum_counts": {
+    "watch_rows": 1,
+    "event_replay_rows": 1,
+    "ask_rows": 1,
+    "check_rows": 1,
+    "brief_rows": 1,
+    "spatial_rows": 1,
+    "d5_runtime_packets": 1
+  }
+}

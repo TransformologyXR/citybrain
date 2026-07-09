@@ -1,0 +1,15 @@
+{
+  "artifact_id": "REVIEW_PACKET_360_INDEX",
+  "families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "packet_count": 3,
+  "packet_files": [
+    "BUILDING_COMPLIANCE_PERCEPTION_CANDIDATE_REVIEW_PACKET_360.json",
+    "PERMIT_INSPECTION_DELAY_REVIEW_PACKET_360.json",
+    "CITY_ASSET_INFRASTRUCTURE_ISSUE_REVIEW_PACKET_360.json"
+  ],
+  "status": "PASS"
+}

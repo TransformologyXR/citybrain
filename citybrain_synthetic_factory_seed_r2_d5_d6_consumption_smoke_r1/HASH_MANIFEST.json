@@ -1,0 +1,87 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 37,
+      "path": ".pytest_cache/.gitignore",
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "bytes": 191,
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "bytes": 302,
+      "path": ".pytest_cache/README.md",
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "bytes": 102,
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "sha256": "119cec552a816d884653e99003097f066c8968d82e49ad9b7235a58207acfdf3"
+    },
+    {
+      "bytes": 509,
+      "path": ".pytest_cache/v/cache/nodeids",
+      "sha256": "f28d1d87cd37dcefe38c66752d5e4e70cbd6455950e54f4997e008b4da70bbbf"
+    },
+    {
+      "bytes": 1921,
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "70a89c7cd14b04a5ee848252c38210ee10b38bc0e19f1c3ff011b3299cfcd73f"
+    },
+    {
+      "bytes": 513,
+      "path": "PACKAGE_DECISION.json",
+      "sha256": "2b653fdbf2bd2cc998fbead626008ba011be275825d1865f802ae81ef2b87b18"
+    },
+    {
+      "bytes": 1586,
+      "path": "README.md",
+      "sha256": "a7ddd934ef57094d4ef174862de8324d349a1dca9bd40af7d51f7952895bd301"
+    },
+    {
+      "bytes": 228,
+      "path": "SECRET_SCAN_REPORT.json",
+      "sha256": "3d02ce89438e9f5d39818659d2cfca3cc699a05c26625c84cf1a6c7cf9716d1e"
+    },
+    {
+      "bytes": 890,
+      "path": "docs/BOUNDARY_POLICY.md",
+      "sha256": "56f781167889b41fd58b0f0025f16cb0020eaf8ecf9ecd3223363e366edef639"
+    },
+    {
+      "bytes": 713,
+      "path": "manifests/EXPECTED_OUTPUTS.json",
+      "sha256": "d35f82bcdbdd8db32501d488c816b3fb4b09c6ad8c1e14bf21473cd745ad9ea2"
+    },
+    {
+      "bytes": 831,
+      "path": "manifests/INPUT_CONTRACT.json",
+      "sha256": "df1b0412fafdcf103baca1840849aaab38f67e5a66d9eec75dcc6b54b21e1949"
+    },
+    {
+      "bytes": 834,
+      "path": "prompts/CODEX_TASK_PROMPT.md",
+      "sha256": "b182912b5d489370c75f38176413e3be0e52f623c41021fd2d90fddaddf4f4ab"
+    },
+    {
+      "bytes": 14330,
+      "path": "scripts/run_main_citybrain_synthetic_factory_seed_r2_d5_d6_consumption_smoke_r1.py",
+      "sha256": "2c2794af5e7ee356e4e318c61ad6254ad0c170bf833dca0aae7879ac04955000"
+    },
+    {
+      "bytes": 8985,
+      "path": "tests/__pycache__/test_seed_r2_d5_d6_consumption_smoke_package_static.cpython-313-pytest-9.0.2.pyc",
+      "sha256": "8cdd726c6c5043798669ffe72a0a98750456759e87833dd245e073cb5de57456"
+    },
+    {
+      "bytes": 2311,
+      "path": "tests/test_seed_r2_d5_d6_consumption_smoke_package_static.py",
+      "sha256": "557224149bcb7aad1322f6a7b04a58a16583417570e7210434ae1ed935541d99"
+    }
+  ],
+  "file_count": 16,
+  "status": "PASS"
+}

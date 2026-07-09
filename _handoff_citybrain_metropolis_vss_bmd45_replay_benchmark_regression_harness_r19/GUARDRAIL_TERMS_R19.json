@@ -1,0 +1,20 @@
+{
+  "forbidden_claims": [
+    "confirmed violation",
+    "legal finding",
+    "certified finding",
+    "official case",
+    "ticket created",
+    "dispatch",
+    "enforcement action",
+    "identity confirmed",
+    "biometric"
+  ],
+  "allowed_terms": [
+    "candidate observation",
+    "review threshold",
+    "dataset_annotation",
+    "sensor_inferred",
+    "human review required"
+  ]
+}

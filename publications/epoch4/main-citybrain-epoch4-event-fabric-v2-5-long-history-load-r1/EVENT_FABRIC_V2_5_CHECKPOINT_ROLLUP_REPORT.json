@@ -1,0 +1,67 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_5_CHECKPOINT_ROLLUP_REPORT",
+  "checkpoint_count": 12,
+  "checkpoints": [
+    {
+      "checkpoint_hash": "16abee4b4c6315fd10c36c56cde35b7122b050fd9bf6db3d5b11d43a8542b7fb",
+      "checkpoint_id": "snapshot_001",
+      "event_count": 120
+    },
+    {
+      "checkpoint_hash": "67bd3c614afbd65d0f8cddfe18ddff5cdf0d58a624e6efdcd18c40a745883a4c",
+      "checkpoint_id": "snapshot_002",
+      "event_count": 240
+    },
+    {
+      "checkpoint_hash": "c940d5383d2f52289260ae923817a0d48e6605c26e15a9206abbd1260708b9ca",
+      "checkpoint_id": "snapshot_003",
+      "event_count": 360
+    },
+    {
+      "checkpoint_hash": "bd99acebcc74440ebb237cc335c0a76f07fc87e54baf6b1ace9ecc97cba2f1b9",
+      "checkpoint_id": "snapshot_004",
+      "event_count": 480
+    },
+    {
+      "checkpoint_hash": "03d73342e1a99a117c26cc732a980dec8c6340f991460744d5c27bfca7749aa8",
+      "checkpoint_id": "snapshot_005",
+      "event_count": 600
+    },
+    {
+      "checkpoint_hash": "00273a55513ac8f605627e0b5a999bd862d3211a59caaf842ebe6caaca19370d",
+      "checkpoint_id": "snapshot_006",
+      "event_count": 720
+    },
+    {
+      "checkpoint_hash": "3b2629257dd6c069535ffc5b0461645fa8888f8b4b03c4c353acfc4b2729b846",
+      "checkpoint_id": "snapshot_007",
+      "event_count": 840
+    },
+    {
+      "checkpoint_hash": "3193e5e6d7c72bd37f15baa653738f738fb5fae4dea36ea65df9d6da3c45fc91",
+      "checkpoint_id": "snapshot_008",
+      "event_count": 960
+    },
+    {
+      "checkpoint_hash": "63f19297ff7aae0c79a1696ac7c451796b2b092da4454b2f24a795972698a1a8",
+      "checkpoint_id": "snapshot_009",
+      "event_count": 1080
+    },
+    {
+      "checkpoint_hash": "0deaca659ff2f9faa1a2ca9b5062a5277367d039aecb62d80ddf014736a90535",
+      "checkpoint_id": "snapshot_010",
+      "event_count": 1200
+    },
+    {
+      "checkpoint_hash": "af2a91b78f022e0499844d0da68aa0c839ff3b57ed83ec38d25b4e3c293208e6",
+      "checkpoint_id": "snapshot_011",
+      "event_count": 1320
+    },
+    {
+      "checkpoint_hash": "213c7de73abae57e88b7f8c6dd5babab20f75c2c51c8bcecbdd3a1f808f3765b",
+      "checkpoint_id": "snapshot_012",
+      "event_count": 1440
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

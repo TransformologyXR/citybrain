@@ -1,0 +1,57 @@
+{
+  "artifact_id": "TRACKA_EVENT_STORIES_SOURCE_DIFF_DECISION",
+  "diff_family_count": 4,
+  "diff_fixture_count": 32,
+  "diff_status": "PASS_WITH_LIMITATIONS",
+  "event_story_count": 4,
+  "event_story_status": "PASS_WITH_LIMITATIONS",
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T14:15:03Z",
+  "input_status": {
+    "event_fabric_v2_1": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening",
+      "repo_path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening"
+    },
+    "package_zip": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Downloads\\main-citybrain-epoch4-tracka-event-stories-source-diff-r1.zip",
+      "repo_path": "C:\\Users\\hazem\\Downloads\\main-citybrain-epoch4-tracka-event-stories-source-diff-r1.zip"
+    },
+    "progress_md": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Documents\\CityBrain\\progress.md",
+      "repo_path": "progress.md"
+    },
+    "source_registry_v1": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_track4_source_registry_v1\\SOURCE_REGISTRY_V1.json",
+      "repo_path": "outputs/main_citybrain_track4_source_registry_v1/SOURCE_REGISTRY_V1.json"
+    },
+    "sprint0_check_cer": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1",
+      "repo_path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1"
+    },
+    "track1_scenario_scout": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1",
+      "repo_path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1"
+    },
+    "track7_diff_readiness": {
+      "exists": true,
+      "path": "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\track7_diff_source_refresh_readiness",
+      "repo_path": "outputs/track7_diff_source_refresh_readiness"
+    }
+  },
+  "limitations": [
+    "No live refresh or real changed snapshots.",
+    "No live ingestion, official incident truth, external operator validation, product forecast, or learned model.",
+    "SourceRegistry enrichment preserves unknowns and maturity gaps."
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-TRACKA-EVENT-STORIES-SOURCE-DIFF-R1",
+  "publication_root": "publications/epoch4/main-citybrain-epoch4-tracka-event-stories-source-diff-r1",
+  "source_registry_v1_1_source_count": 664,
+  "source_registry_v1_1_status": "PASS_WITH_LIMITATIONS",
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKA_EVENT_STORIES_SOURCE_DIFF_R1_WITH_LIMITATIONS"
+}

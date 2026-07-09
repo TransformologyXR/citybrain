@@ -1,0 +1,9 @@
+{
+  "artifact_id": "BOUNDED_PROBE_READINESS_REFRESH_R1",
+  "bounded_probe_readiness": "READY_FOR_BOUNDED_FOUNDER_INTERNAL_PROBE_WITH_LIMITATIONS",
+  "broad_founder_review_recommendation": "defer_until_targeted_probe_feedback_or_specific_user_decision",
+  "case_count_ready": 12,
+  "founder_session_run": false,
+  "operator_fuel_created": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

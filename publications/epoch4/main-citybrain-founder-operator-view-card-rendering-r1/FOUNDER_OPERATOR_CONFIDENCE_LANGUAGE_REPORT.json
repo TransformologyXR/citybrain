@@ -1,0 +1,63 @@
+{
+  "artifact_id": "FOUNDER_OPERATOR_CONFIDENCE_LANGUAGE_REPORT",
+  "counts": {
+    "high": 0,
+    "low": 8,
+    "medium": 5
+  },
+  "rows": [
+    {
+      "card_id": "operator-view-001",
+      "confidence_plain_english": "medium - multiple signals are visible, but some freshness and nearby-context limits remain."
+    },
+    {
+      "card_id": "operator-view-002",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-003",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-004",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-005",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-006",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-007",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-008",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-009",
+      "confidence_plain_english": "low - source depth is thin or key fields such as freshness or place are missing."
+    },
+    {
+      "card_id": "operator-view-010",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled."
+    },
+    {
+      "card_id": "operator-view-011",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled."
+    },
+    {
+      "card_id": "operator-view-012",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled."
+    },
+    {
+      "card_id": "operator-view-013",
+      "confidence_plain_english": "medium - more than one note is visible and the basic source fields are mostly labelled."
+    }
+  ],
+  "status": "PASS"
+}

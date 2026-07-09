@@ -1,0 +1,44 @@
+{
+  "all_required_regressions_passed": true,
+  "artifact_id": "SECOND_REVIEWER_ISSUE_REGRESSION_REPORT",
+  "mobility_backfill_label": "derived_review_packet_backfill_not_source_truth",
+  "mobility_native_packet_absent": true,
+  "rows": [
+    {
+      "detail": "Mobility cards use native packet evidence if present; otherwise derived_review_packet_backfill_not_source_truth is attached.",
+      "issue": "mobility_cards_have_packet_evidence_or_backfill",
+      "passed": true
+    },
+    {
+      "detail": "CER/SEG context is attached from mobility backfill.",
+      "issue": "mobility_cards_have_cer_seg_context",
+      "passed": true
+    },
+    {
+      "detail": "No-data cards use challenge boundary actuals.",
+      "issue": "negative_no_data_actual_outcomes",
+      "passed": true
+    },
+    {
+      "detail": "Stale cards use challenge boundary actuals.",
+      "issue": "stale_freshness_actual_outcomes",
+      "passed": true
+    },
+    {
+      "detail": "Contradiction cards explain the conflict and CHECK downgrade/hold behavior.",
+      "issue": "contradiction_explanations",
+      "passed": true
+    },
+    {
+      "detail": "Existing simulation context remains no-forecast and non-SUMO families are not converted to SUMO claims.",
+      "issue": "non_sumo_families_not_forced_through_sumo",
+      "passed": true
+    },
+    {
+      "detail": "Generated guards assert no session/fuel/training/live/forecast/action/source-truth mutation.",
+      "issue": "no_forbidden_capability_language",
+      "passed": true
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

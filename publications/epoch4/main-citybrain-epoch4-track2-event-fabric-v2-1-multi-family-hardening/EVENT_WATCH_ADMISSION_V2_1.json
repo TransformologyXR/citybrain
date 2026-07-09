@@ -1,0 +1,45 @@
+{
+  "artifact_id": "EVENT_WATCH_ADMISSION_V2_1",
+  "family_count": 4,
+  "findings_created": false,
+  "learned_ranking_used": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "watch_items": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "event_id": "efv2_1:1a32d22bf8e2",
+      "family_id": "mobility_access_interruption",
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "priority_tier": "static_medium",
+      "watch_item_id": "watch:v2_1:mobility_access_interruption"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "event_id": "efv2_1:00fa2780598a",
+      "family_id": "building_compliance_perception_candidate",
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "priority_tier": "static_high",
+      "watch_item_id": "watch:v2_1:building_compliance_perception_candidate"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "event_id": "efv2_1:1e97261f8ea0",
+      "family_id": "permit_inspection_delay",
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "priority_tier": "static_medium",
+      "watch_item_id": "watch:v2_1:permit_inspection_delay"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "event_id": "efv2_1:326d9153f57d",
+      "family_id": "city_asset_infrastructure_issue",
+      "finding_created": false,
+      "learned_ranking_used": false,
+      "priority_tier": "static_medium",
+      "watch_item_id": "watch:v2_1:city_asset_infrastructure_issue"
+    }
+  ]
+}

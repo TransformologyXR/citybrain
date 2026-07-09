@@ -1,0 +1,2 @@
+- Run after external-review and promotion-readiness lanes are green/deferred
+- Upload ZIP for validation

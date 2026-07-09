@@ -1,0 +1,12 @@
+{
+  "artifact_id": "DECISION",
+  "forbidden_capabilities_created": [],
+  "founder_probe_input_kit_ready": true,
+  "generated_at": "2026-07-08T05:27:15Z",
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NO-HUMAN-INTERNAL-SNAPSHOT-R1",
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NO_HUMAN_INTERNAL_SNAPSHOT_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

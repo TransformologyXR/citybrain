@@ -1,0 +1,15 @@
+{
+  "authority_boundary": "review_only_no_action",
+  "cer_entity_refs": [
+    "cer:building:alpha"
+  ],
+  "check_report_ref": "check_v1:alpha:located_in",
+  "event_family": "mobility_access_interruption_v0",
+  "event_id": "efv2:e7fde36f5a07",
+  "event_state_ref": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+  "official_case_created": false,
+  "packet_id": "incident_review_packet:mobility_access:alpha",
+  "seg_context_refs": [
+    "seg_edge:alpha:located_in:downtown"
+  ]
+}

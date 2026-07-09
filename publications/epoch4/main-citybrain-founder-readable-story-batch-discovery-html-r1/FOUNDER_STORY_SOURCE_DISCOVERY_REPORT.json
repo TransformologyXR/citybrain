@@ -1,0 +1,54 @@
+{
+  "artifact_id": "FOUNDER_STORY_SOURCE_DISCOVERY_REPORT",
+  "bucket_counts": {
+    "cross_domain_story_arc": 1,
+    "event_story_pack_r1": 4,
+    "review_cards_r4": 4,
+    "seed_r3_examples": 4
+  },
+  "candidate_story_count": 13,
+  "enough_material_for_pass": true,
+  "minimum_story_count": 10,
+  "source_roots": [
+    {
+      "exists": true,
+      "key": "cross_domain_story_arc",
+      "path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "cross_domain_story_arc_publication",
+      "path": "publications/epoch4/main-citybrain-cross-domain-story-arc-eval-expansion-r1"
+    },
+    {
+      "exists": true,
+      "key": "event_story_pack",
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1"
+    },
+    {
+      "exists": true,
+      "key": "event_story_pack_publication",
+      "path": "publications/epoch4/main-citybrain-epoch4-tracka-event-stories-source-diff-r1"
+    },
+    {
+      "exists": true,
+      "key": "review_quality_cards",
+      "path": "outputs/main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1"
+    },
+    {
+      "exists": true,
+      "key": "review_quality_cards_publication",
+      "path": "publications/epoch4/main-citybrain-epoch4-review-pack-quality-upgrade-r4-r1"
+    },
+    {
+      "exists": true,
+      "key": "seed_r3_adapter_corpus",
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "seed_r3_cadence",
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2"
+    }
+  ]
+}

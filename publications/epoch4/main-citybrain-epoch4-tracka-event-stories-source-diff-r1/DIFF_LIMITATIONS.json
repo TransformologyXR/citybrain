@@ -1,0 +1,9 @@
+{
+  "artifact_id": "DIFF_LIMITATIONS",
+  "limitations": [
+    "Designed-change fixtures only; no real changed snapshots are claimed.",
+    "No live refresh, production DIFF, or current-truth assertion was made.",
+    "Fixtures are local/replay/review-only and safe for future changed-snapshot testing."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

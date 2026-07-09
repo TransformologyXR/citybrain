@@ -1,0 +1,12 @@
+{
+  "source_id": "makani_open_data",
+  "official_source": "Dubai Municipality",
+  "purpose": "smart geo-tagging / precise location codes for building entrances",
+  "usage_notes": [
+    "Use as geo-tagging system",
+    "Attribution to Dubai Municipality required",
+    "Do not sell Makani data",
+    "Do not alter source/content attribution"
+  ],
+  "codex_next": "Fetch Makani public web service manual; smoke one public endpoint if available; otherwise prepare manual import schema for address/entrance records."
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "confidence": {
+      "type": "number"
+    },
+    "entity_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "event_time": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "expires_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geometry_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "location": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "payload": {
+      "type": "string"
+    },
+    "processing_time": {
+      "type": "string"
+    },
+    "provenance_refs": {
+      "type": "string"
+    },
+    "resolution_status": {
+      "type": "string"
+    },
+    "review_state": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "source_event_id": {
+      "type": "string"
+    },
+    "source_system": {
+      "type": "string"
+    },
+    "superseded_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "trace_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "event_id",
+    "source_event_id",
+    "source_system",
+    "source_class",
+    "event_type",
+    "event_time",
+    "processing_time",
+    "payload",
+    "resolution_status",
+    "review_state",
+    "provenance_refs"
+  ],
+  "title": "EventEnvelope",
+  "type": "object"
+}

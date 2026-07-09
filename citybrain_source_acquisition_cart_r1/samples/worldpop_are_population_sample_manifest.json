@@ -1,0 +1,17 @@
+{
+  "source_id": "worldpop_are_population",
+  "country": "United Arab Emirates",
+  "sample_2020_100m": {
+    "title": "United Arab Emirates 100m. Population",
+    "doi": "10.5258/SOTON/WP00685",
+    "date_of_production": "2020-09-16",
+    "data_file_size": "1.63 MB",
+    "units": "number of people per pixel",
+    "license_notes": "CC BY 4.0 generally; ODbL where derived from OSM/Microsoft footprints/roads"
+  },
+  "stac_examples": [
+    "ARE item are_pop_2030_CN_100m_R2025A_v1",
+    "ARE item are_pop_2029_CN_1km_R2025A_UA_v1"
+  ],
+  "codex_next": "Download 2020 100m first as tiny smoke; then pull 2015-2030 Global2 series if needed and aggregate to Dubai communities."
+}

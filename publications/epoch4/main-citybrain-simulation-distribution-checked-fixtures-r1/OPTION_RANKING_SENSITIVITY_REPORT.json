@@ -1,0 +1,84 @@
+{
+  "artifact_id": "OPTION_RANKING_SENSITIVITY_REPORT",
+  "generated_at": "2026-07-08T12:01:45Z",
+  "labels": [
+    "not_forecast",
+    "not_operational_prediction",
+    "no_ForecastPacket"
+  ],
+  "ranking_flip_detected": false,
+  "sensitivity_checks": [
+    {
+      "assumption_name": "donor_proxy_weight_on_roadworks_bucket",
+      "base_value": 1.0,
+      "family": "mobility_access_interruption_v0",
+      "fixture_id": "fixture:seed_r3:mobility_access_interruption_v0:event_type_mix:r1",
+      "high_value": 1.5,
+      "low_value": 0.5,
+      "notes": "Ranking is static review-option ordering only; no learned ranking or forecast was produced.",
+      "option_ranking_base": [
+        "normal_corridor",
+        "restricted_asset_corridor_review",
+        "defer_until_better_donor_duration"
+      ],
+      "option_ranking_high": [
+        "normal_corridor",
+        "restricted_asset_corridor_review",
+        "defer_until_better_donor_duration"
+      ],
+      "option_ranking_low": [
+        "normal_corridor",
+        "restricted_asset_corridor_review",
+        "defer_until_better_donor_duration"
+      ],
+      "ranking_flipped": false
+    },
+    {
+      "assumption_name": "source_gap_penalty_weight",
+      "base_value": 1.0,
+      "family": "permit_inspection_delay",
+      "fixture_id": "fixture:permit_inspection_delay:non_sumo_option_engine:r1",
+      "high_value": 1.25,
+      "low_value": 0.75,
+      "notes": "Permit ranking remains review-only and is not distribution checked due to missing comparable service-time donor fields.",
+      "option_ranking_base": [
+        "dependency_source_gap_triage",
+        "inspection_milestone_review_pack",
+        "baseline_queue_observation"
+      ],
+      "option_ranking_high": [
+        "dependency_source_gap_triage",
+        "inspection_milestone_review_pack",
+        "baseline_queue_observation"
+      ],
+      "option_ranking_low": [
+        "dependency_source_gap_triage",
+        "inspection_milestone_review_pack",
+        "baseline_queue_observation"
+      ],
+      "ranking_flipped": false
+    },
+    {
+      "assumption_name": "perception_conflict_review_weight",
+      "base_value": 1.0,
+      "family": "building_compliance_perception_candidate",
+      "fixture_id": "fixture:building_compliance_perception_candidate:non_sumo_option_engine:r1",
+      "high_value": 1.2,
+      "low_value": 0.8,
+      "notes": "Included because the option engine is adjacent; no domain-specific distribution label is claimed here.",
+      "option_ranking_base": [
+        "targeted_perception_evidence_review",
+        "baseline_review_only"
+      ],
+      "option_ranking_high": [
+        "targeted_perception_evidence_review",
+        "baseline_review_only"
+      ],
+      "option_ranking_low": [
+        "targeted_perception_evidence_review",
+        "baseline_review_only"
+      ],
+      "ranking_flipped": false
+    }
+  ]
+}

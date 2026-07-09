@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumption_count": {
+      "type": "string"
+    },
+    "does_not_prove": {
+      "type": "array"
+    },
+    "fidelity_level": {
+      "type": "string"
+    },
+    "scorecard_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "scorecard_id",
+    "fidelity_level",
+    "assumption_count",
+    "does_not_prove"
+  ],
+  "title": "FidelityScorecardV2",
+  "type": "object"
+}

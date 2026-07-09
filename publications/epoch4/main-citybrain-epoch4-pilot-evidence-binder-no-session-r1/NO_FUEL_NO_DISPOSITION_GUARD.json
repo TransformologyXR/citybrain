@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_FUEL_NO_DISPOSITION_GUARD",
+  "case_memory_training_signal_created": false,
+  "dispositions_created": false,
+  "founder_fuel_created": false,
+  "operator_fuel_created": false,
+  "status": "PASS"
+}

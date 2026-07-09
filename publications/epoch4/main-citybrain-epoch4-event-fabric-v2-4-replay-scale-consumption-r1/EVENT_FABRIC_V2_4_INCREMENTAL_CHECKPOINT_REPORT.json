@@ -1,0 +1,32 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_INCREMENTAL_CHECKPOINT_REPORT",
+  "checkpoint_count": 5,
+  "checkpoints": [
+    {
+      "checkpoint_hash": "9cdefb84894332014c9f24efa25dabe3e5c77538a83e72558ddc0b298ee6b3b5",
+      "checkpoint_id": "snapshot_001",
+      "event_count": 56
+    },
+    {
+      "checkpoint_hash": "23fd00f258e9160d27bf00e1b507a4a9a28bd2bb9f58c3694bcedf1b10fa8221",
+      "checkpoint_id": "snapshot_002",
+      "event_count": 112
+    },
+    {
+      "checkpoint_hash": "6f576900463c7c9ab3d91e2658ec12ef1515828dde9c1148101cbc0e16b8affa",
+      "checkpoint_id": "snapshot_003",
+      "event_count": 168
+    },
+    {
+      "checkpoint_hash": "c49ac572f42249994f77992350494122f74439fa2c9a2b854aecae64e774fe9d",
+      "checkpoint_id": "snapshot_004",
+      "event_count": 224
+    },
+    {
+      "checkpoint_hash": "146be77b9e5274c5486fb678e6070d359782b01d8f3396e0565cb0e629461bb2",
+      "checkpoint_id": "snapshot_005",
+      "event_count": 280
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

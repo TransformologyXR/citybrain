@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain Metropolis/VSS Narration Evidence Join R8",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_id",
+    "join_id",
+    "candidate_event_id",
+    "sensor_inferred_source",
+    "model_generated_narrative_sources",
+    "candidate_event_mutated",
+    "vss_is_fact_source",
+    "human_review_required"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-evidence-join-r8.v1"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-EVIDENCE-JOIN-R8"
+    },
+    "join_id": {
+      "type": "string"
+    },
+    "candidate_event_id": {
+      "type": "string"
+    },
+    "sensor_inferred_source": {
+      "type": "object"
+    },
+    "model_generated_narrative_sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "candidate_event_mutated": {
+      "const": false
+    },
+    "vss_is_fact_source": {
+      "const": false
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

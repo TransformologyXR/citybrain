@@ -1,0 +1,9 @@
+{
+  "artifact_id": "NO_PRODUCT_CLIENT_READY_CLAIM_GUARD",
+  "client_ready": false,
+  "client_ready_claim_created": false,
+  "product_review_ready": false,
+  "product_review_ready_claim_created": false,
+  "recommended_review": "AI diagnostic story review only",
+  "status": "PASS"
+}

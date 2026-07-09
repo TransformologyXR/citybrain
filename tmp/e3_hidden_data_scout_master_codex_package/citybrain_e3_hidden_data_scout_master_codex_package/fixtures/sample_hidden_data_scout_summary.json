@@ -1,0 +1,15 @@
+{
+  "status": "SAMPLE_ONLY",
+  "scout_lanes_completed": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "TRACK0"
+  ],
+  "top_follow_on_recommendations": [
+    "MAIN-CITYBRAIN-EPOCH3-HIDDEN-TRANSITION-TARGET-MATERIALIZATION-R1",
+    "MAIN-CITYBRAIN-EPOCH3-CHECK-CALIBRATION-FUEL-MATERIALIZATION-R1"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "artifact_id": "NEXT_WAVE_RECOMMENDATION",
+  "execution_mode_requested": "sequential_same_worktree",
+  "parallel_execution_used": false,
+  "recommended_order": [
+    "product_loop_consolidation_and_pilot_readiness_r1",
+    "event_fabric_v2_2_scale_replay_reliability_r1",
+    "simulation_v2_2_real_connector_fidelity_ladder_r1",
+    "data_maturity_diagnostic_product_r2",
+    "pre_founder_review_prep_no_session_r1",
+    "next_wave_final_reverify_r1"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "why": "The user requested one sequential execution in the same worktree."
+}

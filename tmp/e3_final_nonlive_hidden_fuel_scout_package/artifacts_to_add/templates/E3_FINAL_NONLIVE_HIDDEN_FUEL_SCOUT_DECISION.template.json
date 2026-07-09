@@ -1,0 +1,17 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "status": "PASS_E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1_WITH_LIMITATIONS",
+  "non_live_assumption": true,
+  "promotion_status": "candidate_inventory_and_backlog_only",
+  "no_model_guard": "PASS",
+  "full_epoch3_closeout_ready": false,
+  "lanes": {
+    "A_l4_content_verification": "REQUIRED",
+    "B_check_calibration_readiness": "REQUIRED",
+    "C_workflow_review_state": "REQUIRED",
+    "D_watch_ranking_descriptive": "REQUIRED",
+    "E_simulation_backtest_inputs": "REQUIRED",
+    "F_identity_graph_eval": "REQUIRED"
+  },
+  "finality_rule": "NO_MORE_PRE_CLOSEOUT_SCOUTS_UNLESS_HUMAN_REOPENS"
+}

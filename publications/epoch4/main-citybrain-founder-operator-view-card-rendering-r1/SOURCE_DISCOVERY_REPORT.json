@@ -1,0 +1,65 @@
+{
+  "artifact_id": "SOURCE_DISCOVERY_REPORT",
+  "input_roots": [
+    {
+      "exists": true,
+      "key": "cross_domain",
+      "path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "cross_domain_publication",
+      "path": "publications/epoch4/main-citybrain-cross-domain-story-arc-eval-expansion-r1"
+    },
+    {
+      "exists": true,
+      "key": "concordance",
+      "path": "outputs/MAIN-CITYBRAIN-STORY-ARC-FOUNDER-DIAGNOSTIC-PREP-CONCORDANCE-R1"
+    },
+    {
+      "exists": true,
+      "key": "concordance_publication",
+      "path": "publications/epoch4/main-citybrain-story-arc-founder-diagnostic-prep-concordance-r1"
+    },
+    {
+      "exists": true,
+      "key": "founder_story_batch",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-READABLE-STORY-BATCH-DISCOVERY-HTML-R1"
+    },
+    {
+      "exists": true,
+      "key": "founder_story_batch_publication",
+      "path": "publications/epoch4/main-citybrain-founder-readable-story-batch-discovery-html-r1"
+    },
+    {
+      "exists": true,
+      "key": "evidence_inline_repair",
+      "path": "outputs/MAIN-CITYBRAIN-FOUNDER-CARD-EVIDENCE-INLINING-REPAIR-R1"
+    },
+    {
+      "exists": true,
+      "key": "evidence_inline_repair_publication",
+      "path": "publications/epoch4/main-citybrain-founder-card-evidence-inlining-repair-r1"
+    },
+    {
+      "exists": true,
+      "key": "seed_r3",
+      "path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1"
+    },
+    {
+      "exists": true,
+      "key": "expanded_cadence",
+      "path": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2"
+    },
+    {
+      "exists": true,
+      "key": "mobility_repair",
+      "path": "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1"
+    }
+  ],
+  "notes": [
+    "Operator cards are rendered from the evidence-inlining repair layer when available.",
+    "The render layer does not mutate source truth or create review results."
+  ],
+  "preferred_input": "outputs/MAIN-CITYBRAIN-FOUNDER-CARD-EVIDENCE-INLINING-REPAIR-R1"
+}

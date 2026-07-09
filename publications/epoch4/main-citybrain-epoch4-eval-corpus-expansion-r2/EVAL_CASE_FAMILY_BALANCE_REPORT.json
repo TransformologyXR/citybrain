@@ -1,0 +1,12 @@
+{
+  "artifact_id": "EVAL_CASE_FAMILY_BALANCE_REPORT",
+  "family_counts": {
+    "building_compliance_perception_candidate": 12,
+    "city_asset_infrastructure_issue": 12,
+    "mobility_access_interruption_v0": 12,
+    "permit_inspection_delay": 12
+  },
+  "max_family_case_count": 12,
+  "min_family_case_count": 12,
+  "status": "PASS_WITH_LIMITATIONS"
+}

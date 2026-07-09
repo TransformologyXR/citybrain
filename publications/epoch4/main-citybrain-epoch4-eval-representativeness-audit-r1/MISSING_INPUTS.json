@@ -1,0 +1,81 @@
+{
+  "best_effort_roots": [
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_track4_source_registry_v1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1"
+    },
+    {
+      "exists": true,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2"
+    }
+  ],
+  "missing_roots": [],
+  "resolved_eval_corpus": "outputs\\main_citybrain_epoch4_eval_corpus_expansion_r2\\EVAL_CASES_R2.jsonl",
+  "resolved_founder_cards": "outputs\\main_citybrain_epoch4_founder_probe_input_kit_r2\\FOUNDER_PROBE_TASK_CARD_SET.json",
+  "resolved_synthetic_factory_source_ref": "citybrain_epoch4_eval_representativeness_audit_pack_20260708\\source_refs\\SYNTHETIC_DUBAI_DATA_FACTORY_THREAD_SUMMARY.md",
+  "status": "PASS_WITH_MISSING_RECORDED"
+}

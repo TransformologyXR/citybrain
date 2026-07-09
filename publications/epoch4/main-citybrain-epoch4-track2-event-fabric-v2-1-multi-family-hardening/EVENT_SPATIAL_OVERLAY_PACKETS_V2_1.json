@@ -1,0 +1,61 @@
+{
+  "artifact_id": "EVENT_SPATIAL_OVERLAY_PACKETS_V2_1",
+  "family_count": 4,
+  "live_control_claim_created": false,
+  "packets": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "event_id": "efv2_1:1a32d22bf8e2",
+      "family_id": "mobility_access_interruption",
+      "live_control_claim": false,
+      "omniverse_overlay_ready": true,
+      "overlay_kind": "route_access_constraint",
+      "spatial_packet_id": "spatial_overlay:v2_1:mobility_access_interruption",
+      "web_overlay_ready": true
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha",
+        "cer:observation:near_alpha"
+      ],
+      "event_id": "efv2_1:00fa2780598a",
+      "family_id": "building_compliance_perception_candidate",
+      "live_control_claim": false,
+      "omniverse_overlay_ready": true,
+      "overlay_kind": "building_perception_overlay",
+      "spatial_packet_id": "spatial_overlay:v2_1:building_compliance_perception_candidate",
+      "web_overlay_ready": true
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "event_id": "efv2_1:1e97261f8ea0",
+      "family_id": "permit_inspection_delay",
+      "live_control_claim": false,
+      "omniverse_overlay_ready": true,
+      "overlay_kind": "permit_inspection_timeline_overlay",
+      "spatial_packet_id": "spatial_overlay:v2_1:permit_inspection_delay",
+      "web_overlay_ready": true
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:asset:infrastructure_candidate"
+      ],
+      "event_id": "efv2_1:326d9153f57d",
+      "family_id": "city_asset_infrastructure_issue",
+      "live_control_claim": false,
+      "omniverse_overlay_ready": true,
+      "overlay_kind": "asset_issue_spatial_overlay",
+      "spatial_packet_id": "spatial_overlay:v2_1:city_asset_infrastructure_issue",
+      "web_overlay_ready": true
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

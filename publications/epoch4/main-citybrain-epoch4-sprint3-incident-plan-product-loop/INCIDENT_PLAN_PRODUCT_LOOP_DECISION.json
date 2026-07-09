@@ -1,0 +1,12 @@
+{
+  "artifact_id": "INCIDENT_PLAN_PRODUCT_LOOP_DECISION",
+  "dispatch_control_enforcement_created": false,
+  "event_family_count": 1,
+  "forbidden_capabilities_created": [],
+  "hash_manifest_verified": true,
+  "official_case_or_ticket_created": false,
+  "package_id": "MAIN_CITYBRAIN_EPOCH4_SPRINT3_INCIDENT_PLAN_PRODUCT_LOOP_R1",
+  "parallel_execution_used": false,
+  "scenario_type_count": 1,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT3_INCIDENT_PLAN_PRODUCT_LOOP_R1_WITH_LIMITATIONS"
+}

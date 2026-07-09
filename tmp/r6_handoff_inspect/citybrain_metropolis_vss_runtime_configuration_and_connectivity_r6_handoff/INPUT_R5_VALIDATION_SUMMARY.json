@@ -1,0 +1,28 @@
+{
+  "accepted_interpretation": "R5 is an honest guarded partial. Runtime remains not configured; no narration was fabricated.",
+  "blocker": "No --vss-command, --vss-endpoint, CITYBRAIN_VSS_COMMAND, or CITYBRAIN_VSS_ENDPOINT configured.",
+  "created_at_utc": "2026-07-03T21:33:50.495449+00:00",
+  "hash_manifest_mismatches": 0,
+  "hash_manifest_status": "PASS",
+  "hash_manifest_verified": "20/20",
+  "input_zip": "/mnt/data/METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_PACKAGE.zip",
+  "json_files_parsed": 19,
+  "json_parse_status": "PASS",
+  "jsonl_files_parsed": 1,
+  "jsonl_parse_status": "PASS",
+  "jsonl_record_counts": [
+    {
+      "file": "VSS_NARRATION_SIDECARS_R5.jsonl",
+      "records": 0
+    }
+  ],
+  "r2_candidate_events": 1,
+  "r2_candidate_observations": 24,
+  "r5_status": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R5_GUARDRAILS_READY",
+  "schema_version": "metropolis-vss-r5-upload-inspection-summary.v1",
+  "vss_narration_records": 0,
+  "vss_runtime_attempted": false,
+  "vss_runtime_executed": false,
+  "zip_entries": 21,
+  "zip_integrity": "PASS"
+}

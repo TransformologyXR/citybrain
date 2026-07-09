@@ -1,0 +1,13 @@
+{
+  "artifact_id": "EVAL_CORPUS_EXPANSION_R2_DECISION",
+  "case_count": 48,
+  "family_count": 4,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T20:25:01Z",
+  "local_replay_only": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-CORPUS-EXPANSION-R2",
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_CORPUS_EXPANSION_R2_WITH_LIMITATIONS",
+  "target_min_cases_met": true,
+  "training_rows_created": false
+}

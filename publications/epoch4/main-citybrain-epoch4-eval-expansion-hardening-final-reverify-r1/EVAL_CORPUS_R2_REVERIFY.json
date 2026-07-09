@@ -1,0 +1,7 @@
+{
+  "artifact_id": "EVAL_CORPUS_R2_REVERIFY",
+  "case_count": 48,
+  "family_count": 4,
+  "status": "PASS_WITH_LIMITATIONS",
+  "target_min_cases_met": true
+}

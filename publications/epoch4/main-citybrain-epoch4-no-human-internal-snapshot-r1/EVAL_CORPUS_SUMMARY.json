@@ -1,0 +1,15 @@
+{
+  "artifact_id": "EVAL_CORPUS_SUMMARY",
+  "challenge_case_count": 32,
+  "eval_corpus_case_count": 48,
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "family_count": 4,
+  "final_reverify_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_CORPUS_EXPANSION_HARDENING_SEQUENCE_R1_WITH_LIMITATIONS",
+  "local_replay_only": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

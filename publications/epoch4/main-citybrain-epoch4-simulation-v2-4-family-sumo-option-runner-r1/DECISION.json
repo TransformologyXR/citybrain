@@ -1,0 +1,24 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "DECISION",
+  "calibrated_simulation_claim_created": false,
+  "deterministic_option_runs": true,
+  "family_count": 3,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T16:50:30Z",
+  "limitations": [
+    "SUMO run is a synthetic city-asset corridor smoke, not calibrated",
+    "building compliance and permit delay remain non-SUMO fixture-grade comparisons",
+    "no forecast, recommendation, dispatch, control, enforcement, or official action authority"
+  ],
+  "minimum_families_met": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-SIMULATION-V2-4-FAMILY-SUMO-OPTION-RUNNER-R1",
+  "product_forecast_surface_created": false,
+  "real_sumo_family_count": 1,
+  "real_sumo_smoke_executed": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS",
+  "sumo_not_applicable_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay"
+  ]
+}

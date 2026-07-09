@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NO_FOUNDER_SESSION_CAPTURED_R1",
+  "fabricated_session_results_created": false,
+  "reason": "No package-specific real founder session input was supplied.",
+  "session_status": "NOT_RUN",
+  "status": "PASS"
+}

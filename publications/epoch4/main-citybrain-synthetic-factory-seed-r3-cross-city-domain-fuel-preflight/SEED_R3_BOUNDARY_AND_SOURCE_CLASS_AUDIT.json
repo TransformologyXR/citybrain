@@ -1,0 +1,14 @@
+{
+  "donor_context_not_dubai_truth": true,
+  "no_dispatch_control_enforcement_legal_certified_claim": true,
+  "no_human_person_level_records": true,
+  "no_live_monitoring_claim": true,
+  "no_official_dubai_truth_claim": true,
+  "no_raw_bulky_data_packaged": true,
+  "no_seed_r3_generated_by_this_task": true,
+  "source_class_separation_required": true,
+  "source_truth_allowed_only_for_original_city_source_context": true,
+  "status": "PASS",
+  "synthetic_replay_not_real_world_fact": true,
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT"
+}

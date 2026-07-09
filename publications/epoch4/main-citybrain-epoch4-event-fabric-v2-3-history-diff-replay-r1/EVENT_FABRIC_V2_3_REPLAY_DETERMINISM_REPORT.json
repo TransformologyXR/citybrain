@@ -1,0 +1,10 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_3_REPLAY_DETERMINISM_REPORT",
+  "duplicate_suppressed_examples": 12,
+  "event_count": 96,
+  "first_replay_hash": "76ff3d59230f591775bec4af2d641957a27971f45f847f202790d88734c68682",
+  "idempotency_verified": true,
+  "second_replay_hash": "76ff3d59230f591775bec4af2d641957a27971f45f847f202790d88734c68682",
+  "stable_across_two_runs": true,
+  "status": "PASS"
+}

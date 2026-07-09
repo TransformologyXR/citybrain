@@ -1,0 +1,18 @@
+{
+  "artifact_id": "NEXT_DECISION_OPTIONS",
+  "options": [
+    {
+      "description": "Use this snapshot as current internal state and continue non-human hardening.",
+      "option_id": "keep_no_human_path"
+    },
+    {
+      "description": "Fill the response template with real package-specific founder input, then run response import and reverify.",
+      "option_id": "run_founder_probe_import_later"
+    },
+    {
+      "description": "Inspect derived overlays and decide which remain candidate-only before any broader review.",
+      "option_id": "review_derived_overlays"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

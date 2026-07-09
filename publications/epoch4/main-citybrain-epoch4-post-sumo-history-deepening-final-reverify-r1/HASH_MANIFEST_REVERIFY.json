@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_HASH_MANIFEST_REVERIFY_json",
+  "entries": [
+    {
+      "bytes": 261,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/CER_CHECK_STRESS_AUDIT.json",
+      "sha256": "337360614150322681547f5c09e0162124efa18af82d070c99ddc31c87df04f7"
+    },
+    {
+      "bytes": 756,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/DECISION.json",
+      "sha256": "5e8ec1974312a31b2d6f6153b5e789fd44e16a8e180889279e98f053e7fbc82a"
+    },
+    {
+      "bytes": 1862,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/DEEPENING_INPUT_AUDIT.json",
+      "sha256": "5b5908b94f74378c84083ff36f60a58143a6727aa37ab9363188dc4a3638a88b"
+    },
+    {
+      "bytes": 280,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/EVENT_FABRIC_V2_5_LOAD_AUDIT.json",
+      "sha256": "f100a8f0aa585d4e08110f8283d2972b34f956a6d3175de8556a706d2126a75a"
+    },
+    {
+      "bytes": 285,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/INTERNAL_READINESS_NO_SESSION_AUDIT.json",
+      "sha256": "e502e51515e5d23a5b02d4eaecaaefea6877843eeaa77317e187016cc27f380b"
+    },
+    {
+      "bytes": 1206,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "167976935cb88372425b33c2463954a112da609cf82ce6342f48ec2a9f5c6e3a"
+    },
+    {
+      "bytes": 292,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/NON_SUMO_DOMAIN_ENGINE_AUDIT.json",
+      "sha256": "5ce8cc0359ad7d5d660a7034e057b95e78cbbb3c841f1d9e3f2c75230b7deea6"
+    },
+    {
+      "bytes": 261,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/CER_CHECK_STRESS_AUDIT.json",
+      "sha256": "337360614150322681547f5c09e0162124efa18af82d070c99ddc31c87df04f7"
+    },
+    {
+      "bytes": 756,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/DECISION.json",
+      "sha256": "5e8ec1974312a31b2d6f6153b5e789fd44e16a8e180889279e98f053e7fbc82a"
+    },
+    {
+      "bytes": 1862,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/DEEPENING_INPUT_AUDIT.json",
+      "sha256": "5b5908b94f74378c84083ff36f60a58143a6727aa37ab9363188dc4a3638a88b"
+    },
+    {
+      "bytes": 280,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/EVENT_FABRIC_V2_5_LOAD_AUDIT.json",
+      "sha256": "f100a8f0aa585d4e08110f8283d2972b34f956a6d3175de8556a706d2126a75a"
+    },
+    {
+      "bytes": 285,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/INTERNAL_READINESS_NO_SESSION_AUDIT.json",
+      "sha256": "e502e51515e5d23a5b02d4eaecaaefea6877843eeaa77317e187016cc27f380b"
+    },
+    {
+      "bytes": 1206,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "167976935cb88372425b33c2463954a112da609cf82ce6342f48ec2a9f5c6e3a"
+    },
+    {
+      "bytes": 292,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-deepening-final-reverify-r1/NON_SUMO_DOMAIN_ENGINE_AUDIT.json",
+      "sha256": "5ce8cc0359ad7d5d660a7034e057b95e78cbbb3c841f1d9e3f2c75230b7deea6"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T17:20:59Z",
+  "status": "PASS"
+}

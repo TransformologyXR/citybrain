@@ -1,0 +1,44 @@
+{
+  "artifact_id": "POST_SUMO_HISTORY_SEQUENTIAL_EXECUTION_LOG",
+  "parallel_execution_used": false,
+  "same_worktree": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "decision": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1",
+      "sequence": 1,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS",
+      "step": "simulation_v2_4_family_sumo_option_runner_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_4_REPLAY_SCALE_CONSUMPTION_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1",
+      "sequence": 2,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_4_REPLAY_SCALE_CONSUMPTION_R1_WITH_LIMITATIONS",
+      "step": "event_fabric_v2_4_replay_scale_consumption_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1",
+      "sequence": 3,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS",
+      "step": "review_packet_360_v2_pilot_binder_refresh_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1",
+      "sequence": 4,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step": "post_sumo_history_final_reverify_r1"
+    }
+  ]
+}

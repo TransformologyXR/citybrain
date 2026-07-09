@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_3_HISTORY_DIFF_REPLAY_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 819,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/DECISION.json",
+      "sha256": "c74d19df59cec22d85023cc12b971efdcf66306501ee33976488ef6ac3896fd1"
+    },
+    {
+      "bytes": 28921,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/EVENT_FABRIC_V2_3_ENTITY_STATE_CHANGE_REPORT.json",
+      "sha256": "e4d6eb457b2a533affdd7b1d8bdda227ad9b642965852fa68a9ba119f66ae612"
+    },
+    {
+      "bytes": 2261,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/EVENT_FABRIC_V2_3_EVENT_TO_DIFF_BRIDGE_REPORT.json",
+      "sha256": "fa923e3fedaccd6a797229b69bc7f7c937593ecf7a220b58b844b0c9b8335b13"
+    },
+    {
+      "bytes": 406,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/EVENT_FABRIC_V2_3_REPLAY_DETERMINISM_REPORT.json",
+      "sha256": "787a37067fb19e104eaacbbd1ecc5ea2f89fcfa73f96738fd4a9a0eb805a2c1d"
+    },
+    {
+      "bytes": 76764,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/EVENT_FABRIC_V2_3_SNAPSHOT_EVENT_LOG.jsonl",
+      "sha256": "42d12cfec28395228e27b6ab2b228c135a2afdf1eee666fbe731cad8ea937936"
+    },
+    {
+      "bytes": 477,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/EVENT_FABRIC_V2_3_SOURCE_REFRESH_COMPATIBILITY_REPORT.json",
+      "sha256": "d699c02c410c11029184177c1148b26b788edf67afcd76607d09cf7796784f68"
+    },
+    {
+      "bytes": 2893,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/EVENT_FABRIC_V2_3_WATCH_CHECK_BRIEF_SPATIAL_HANDOFF_REPORT.json",
+      "sha256": "b45e4760ab1eec2f8b76ad3e086c8e2b183b8863f9bb15471b911b1929e91908"
+    },
+    {
+      "bytes": 1196,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "70a0f3092b6cf38ed8103b53f4223ff8848c49edee31277abfc9240f152c38e1"
+    },
+    {
+      "bytes": 279,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/NO_LIVE_INGESTION_GUARD.json",
+      "sha256": "55043d1b20f1a4a61a9a8c420b9e659e5a9daaea491f4c6a273767528ef4f5c0"
+    },
+    {
+      "bytes": 819,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/DECISION.json",
+      "sha256": "c74d19df59cec22d85023cc12b971efdcf66306501ee33976488ef6ac3896fd1"
+    },
+    {
+      "bytes": 28921,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/EVENT_FABRIC_V2_3_ENTITY_STATE_CHANGE_REPORT.json",
+      "sha256": "e4d6eb457b2a533affdd7b1d8bdda227ad9b642965852fa68a9ba119f66ae612"
+    },
+    {
+      "bytes": 2261,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/EVENT_FABRIC_V2_3_EVENT_TO_DIFF_BRIDGE_REPORT.json",
+      "sha256": "fa923e3fedaccd6a797229b69bc7f7c937593ecf7a220b58b844b0c9b8335b13"
+    },
+    {
+      "bytes": 406,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/EVENT_FABRIC_V2_3_REPLAY_DETERMINISM_REPORT.json",
+      "sha256": "787a37067fb19e104eaacbbd1ecc5ea2f89fcfa73f96738fd4a9a0eb805a2c1d"
+    },
+    {
+      "bytes": 76764,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/EVENT_FABRIC_V2_3_SNAPSHOT_EVENT_LOG.jsonl",
+      "sha256": "42d12cfec28395228e27b6ab2b228c135a2afdf1eee666fbe731cad8ea937936"
+    },
+    {
+      "bytes": 477,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/EVENT_FABRIC_V2_3_SOURCE_REFRESH_COMPATIBILITY_REPORT.json",
+      "sha256": "d699c02c410c11029184177c1148b26b788edf67afcd76607d09cf7796784f68"
+    },
+    {
+      "bytes": 2893,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/EVENT_FABRIC_V2_3_WATCH_CHECK_BRIEF_SPATIAL_HANDOFF_REPORT.json",
+      "sha256": "b45e4760ab1eec2f8b76ad3e086c8e2b183b8863f9bb15471b911b1929e91908"
+    },
+    {
+      "bytes": 1196,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "70a0f3092b6cf38ed8103b53f4223ff8848c49edee31277abfc9240f152c38e1"
+    },
+    {
+      "bytes": 279,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-3-history-diff-replay-r1/NO_LIVE_INGESTION_GUARD.json",
+      "sha256": "55043d1b20f1a4a61a9a8c420b9e659e5a9daaea491f4c6a273767528ef4f5c0"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T16:32:39Z",
+  "status": "PASS"
+}

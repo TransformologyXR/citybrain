@@ -1,0 +1,27 @@
+{
+  "artifact_id": "EXPANDED_CORPUS_CANONICAL_RESOLUTION_REPLAY_VALIDATED",
+  "canonical_refs_by_family": {
+    "building_compliance_perception_candidate": [
+      "cer:building:alpha",
+      "cer:observation:near_alpha"
+    ],
+    "city_asset_infrastructure_issue": [
+      "asset:city:synthetic:utility-node-alpha",
+      "cer:asset:infrastructure_candidate"
+    ],
+    "mobility_access_interruption_v0": [
+      "cer:building:alpha",
+      "cer:building:beta_candidate"
+    ],
+    "permit_inspection_delay": [
+      "cer:building:alpha",
+      "permit:us-nyc:dob_job:121912591"
+    ]
+  },
+  "canonical_resolved_event_count": 20,
+  "input_artifact": "SEED_R3_EXPANDED_CANONICAL_RESOLUTION_REPORT.json",
+  "input_canonical_resolved_event_count": 20,
+  "input_r3_local_or_synthetic_admitted_event_count": 60,
+  "matches_input_counts": true,
+  "r3_local_or_synthetic_admitted_event_count": 60
+}

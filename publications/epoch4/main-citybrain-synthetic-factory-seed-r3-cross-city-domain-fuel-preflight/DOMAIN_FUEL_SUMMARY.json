@@ -1,0 +1,928 @@
+{
+  "by_city": {
+    "barcelona": {
+      "counted_or_manifest_sources": 386,
+      "domains": {
+        "building_compliance": {
+          "file_count": 15,
+          "landed_features": 0,
+          "landed_rows": 1968768,
+          "ledger_rows": 25,
+          "registered_or_total_count": 1231791,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "built_environment": {
+          "file_count": 81,
+          "landed_features": 0,
+          "landed_rows": 1518145,
+          "ledger_rows": 35,
+          "registered_or_total_count": 592066,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "civic_service_311_crm": {
+          "file_count": 31,
+          "landed_features": 0,
+          "landed_rows": 1845072,
+          "ledger_rows": 6,
+          "registered_or_total_count": 615024,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "data_quality_maturity": {
+          "file_count": 73,
+          "landed_features": 0,
+          "landed_rows": 7,
+          "ledger_rows": 11,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "economy_logistics": {
+          "file_count": 188,
+          "landed_features": 0,
+          "landed_rows": 290990,
+          "ledger_rows": 61,
+          "registered_or_total_count": 143222,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "environment_resilience": {
+          "file_count": 128,
+          "landed_features": 0,
+          "landed_rows": 556970,
+          "ledger_rows": 83,
+          "registered_or_total_count": 253585,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "identity_graph_eval": {
+          "file_count": 31,
+          "landed_features": 0,
+          "landed_rows": 10255,
+          "ledger_rows": 8,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "mobility_transport": {
+          "file_count": 227,
+          "landed_features": 0,
+          "landed_rows": 21454563,
+          "ledger_rows": 94,
+          "registered_or_total_count": 16083108,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "property_planning": {
+          "file_count": 94,
+          "landed_features": 715566,
+          "landed_rows": 12790,
+          "ledger_rows": 27,
+          "registered_or_total_count": 715566,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "public_safety_incident": {
+          "file_count": 3,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 2,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "unclassified_review_needed": {
+          "file_count": 44,
+          "landed_features": 0,
+          "landed_rows": 5945,
+          "ledger_rows": 27,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context"
+          ]
+        },
+        "utilities_energy_water": {
+          "file_count": 44,
+          "landed_features": 0,
+          "landed_rows": 4827725,
+          "ledger_rows": 7,
+          "registered_or_total_count": 2160795,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        }
+      },
+      "file_count": 1118,
+      "landed_features": 715566,
+      "landed_rows": 32491230,
+      "registered_or_total_count": 21795157,
+      "roots": 24
+    },
+    "chicago": {
+      "counted_or_manifest_sources": 361,
+      "domains": {
+        "building_compliance": {
+          "file_count": 241,
+          "landed_features": 0,
+          "landed_rows": 11774104,
+          "ledger_rows": 43,
+          "registered_or_total_count": 15766662,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "built_environment": {
+          "file_count": 81,
+          "landed_features": 0,
+          "landed_rows": 1645059,
+          "ledger_rows": 18,
+          "registered_or_total_count": 824376,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "civic_service_311_crm": {
+          "file_count": 27,
+          "landed_features": 0,
+          "landed_rows": 1100000,
+          "ledger_rows": 8,
+          "registered_or_total_count": 14150892,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "data_quality_maturity": {
+          "file_count": 195,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 42,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "economy_logistics": {
+          "file_count": 408,
+          "landed_features": 0,
+          "landed_rows": 4207730,
+          "ledger_rows": 56,
+          "registered_or_total_count": 611897490,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "environment_resilience": {
+          "file_count": 165,
+          "landed_features": 0,
+          "landed_rows": 6598621,
+          "ledger_rows": 36,
+          "registered_or_total_count": 24625833,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "identity_graph_eval": {
+          "file_count": 61,
+          "landed_features": 0,
+          "landed_rows": 51257,
+          "ledger_rows": 21,
+          "registered_or_total_count": 101140912,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "mobility_transport": {
+          "file_count": 54,
+          "landed_features": 0,
+          "landed_rows": 2637201,
+          "ledger_rows": 39,
+          "registered_or_total_count": 211913866,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "property_planning": {
+          "file_count": 99,
+          "landed_features": 0,
+          "landed_rows": 4053211,
+          "ledger_rows": 19,
+          "registered_or_total_count": 25530247,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "public_safety_incident": {
+          "file_count": 201,
+          "landed_features": 0,
+          "landed_rows": 6000280,
+          "ledger_rows": 29,
+          "registered_or_total_count": 5596852,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "unclassified_review_needed": {
+          "file_count": 0,
+          "landed_features": 0,
+          "landed_rows": 2129268,
+          "ledger_rows": 41,
+          "registered_or_total_count": 21307346,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "utilities_energy_water": {
+          "file_count": 14,
+          "landed_features": 0,
+          "landed_rows": 183607,
+          "ledger_rows": 9,
+          "registered_or_total_count": 89957,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        }
+      },
+      "file_count": 2317,
+      "landed_features": 0,
+      "landed_rows": 40380338,
+      "registered_or_total_count": 1032844433,
+      "roots": 63
+    },
+    "cross_city_or_product": {
+      "counted_or_manifest_sources": 9,
+      "domains": {
+        "data_quality_maturity": {
+          "file_count": 11,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 4,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "economy_logistics": {
+          "file_count": 14,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 4,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "mobility_transport": {
+          "file_count": 1,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 1,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        }
+      },
+      "file_count": 57,
+      "landed_features": 0,
+      "landed_rows": 0,
+      "registered_or_total_count": 0,
+      "roots": 4
+    },
+    "london": {
+      "counted_or_manifest_sources": 338,
+      "domains": {
+        "building_compliance": {
+          "file_count": 35,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 7,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "built_environment": {
+          "file_count": 36,
+          "landed_features": 0,
+          "landed_rows": 2052,
+          "ledger_rows": 24,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "civic_service_311_crm": {
+          "file_count": 72,
+          "landed_features": 0,
+          "landed_rows": 80000,
+          "ledger_rows": 12,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "data_quality_maturity": {
+          "file_count": 111,
+          "landed_features": 0,
+          "landed_rows": 7,
+          "ledger_rows": 28,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "economy_logistics": {
+          "file_count": 665,
+          "landed_features": 0,
+          "landed_rows": 212,
+          "ledger_rows": 53,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "environment_resilience": {
+          "file_count": 231,
+          "landed_features": 0,
+          "landed_rows": 11993,
+          "ledger_rows": 34,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact",
+            "source_record"
+          ]
+        },
+        "identity_graph_eval": {
+          "file_count": 104,
+          "landed_features": 0,
+          "landed_rows": 37066,
+          "ledger_rows": 27,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "mobility_transport": {
+          "file_count": 59,
+          "landed_features": 0,
+          "landed_rows": 4412,
+          "ledger_rows": 33,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "population_demand": {
+          "file_count": 69,
+          "landed_features": 0,
+          "landed_rows": 2512,
+          "ledger_rows": 11,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "property_planning": {
+          "file_count": 321,
+          "landed_features": 0,
+          "landed_rows": 249047,
+          "ledger_rows": 53,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact",
+            "source_record"
+          ]
+        },
+        "public_safety_incident": {
+          "file_count": 142,
+          "landed_features": 0,
+          "landed_rows": 21560515,
+          "ledger_rows": 23,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "existing_city_source_or_derived_artifact",
+            "source_record"
+          ]
+        },
+        "unclassified_review_needed": {
+          "file_count": 84,
+          "landed_features": 0,
+          "landed_rows": 14310399,
+          "ledger_rows": 18,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact",
+            "source_record"
+          ]
+        },
+        "utilities_energy_water": {
+          "file_count": 75,
+          "landed_features": 0,
+          "landed_rows": 97698,
+          "ledger_rows": 15,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        }
+      },
+      "file_count": 1823,
+      "landed_features": 0,
+      "landed_rows": 36355913,
+      "registered_or_total_count": 0,
+      "roots": 56
+    },
+    "nyc": {
+      "counted_or_manifest_sources": 373,
+      "domains": {
+        "building_compliance": {
+          "file_count": 270,
+          "landed_features": 0,
+          "landed_rows": 15299386,
+          "ledger_rows": 53,
+          "registered_or_total_count": 60569208,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "built_environment": {
+          "file_count": 104,
+          "landed_features": 0,
+          "landed_rows": 69416,
+          "ledger_rows": 18,
+          "registered_or_total_count": 69416,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "civic_service_311_crm": {
+          "file_count": 84,
+          "landed_features": 0,
+          "landed_rows": 4000000,
+          "ledger_rows": 15,
+          "registered_or_total_count": 88468716,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "data_quality_maturity": {
+          "file_count": 79,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 25,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "economy_logistics": {
+          "file_count": 338,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 46,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "environment_resilience": {
+          "file_count": 54,
+          "landed_features": 0,
+          "landed_rows": 553384,
+          "ledger_rows": 53,
+          "registered_or_total_count": 553384,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "identity_graph_eval": {
+          "file_count": 96,
+          "landed_features": 0,
+          "landed_rows": 0,
+          "ledger_rows": 13,
+          "registered_or_total_count": 0,
+          "source_classes": [
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "mobility_transport": {
+          "file_count": 109,
+          "landed_features": 0,
+          "landed_rows": 2425674,
+          "ledger_rows": 62,
+          "registered_or_total_count": 218464010,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "property_planning": {
+          "file_count": 102,
+          "landed_features": 0,
+          "landed_rows": 1717204,
+          "ledger_rows": 7,
+          "registered_or_total_count": 1717204,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        },
+        "public_safety_incident": {
+          "file_count": 161,
+          "landed_features": 0,
+          "landed_rows": 6000000,
+          "ledger_rows": 26,
+          "registered_or_total_count": 87321726,
+          "source_classes": [
+            "donor_context",
+            "existing_city_source_or_derived_artifact",
+            "replay"
+          ]
+        },
+        "unclassified_review_needed": {
+          "file_count": 0,
+          "landed_features": 0,
+          "landed_rows": 5082536,
+          "ledger_rows": 55,
+          "registered_or_total_count": 22152714,
+          "source_classes": [
+            "derived",
+            "donor_context",
+            "existing_city_source_or_derived_artifact"
+          ]
+        }
+      },
+      "file_count": 1954,
+      "landed_features": 0,
+      "landed_rows": 35147600,
+      "registered_or_total_count": 479316378,
+      "roots": 49
+    }
+  },
+  "by_domain": {
+    "building_compliance": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 561,
+      "landed_features": 0,
+      "landed_rows": 29042258,
+      "ledger_rows": 128,
+      "priority": "P0",
+      "registered_or_total_count": 77567661,
+      "seed_r3_use": "permit/inspection/violation/compliance CHECK and BRIEF fixtures"
+    },
+    "built_environment": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 302,
+      "landed_features": 0,
+      "landed_rows": 3234672,
+      "ledger_rows": 95,
+      "priority": "P0",
+      "registered_or_total_count": 1485858,
+      "seed_r3_use": "building/entity profiles and SPATIAL overlays"
+    },
+    "civic_service_311_crm": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 214,
+      "landed_features": 0,
+      "landed_rows": 7025072,
+      "ledger_rows": 41,
+      "priority": "P0",
+      "registered_or_total_count": 103234632,
+      "seed_r3_use": "civic-service WATCH queues and replay-only incident/event fixtures"
+    },
+    "data_quality_maturity": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "cross_city_or_product",
+        "london",
+        "nyc"
+      ],
+      "file_count": 469,
+      "landed_features": 0,
+      "landed_rows": 14,
+      "ledger_rows": 110,
+      "priority": "P0",
+      "registered_or_total_count": 0,
+      "seed_r3_use": "quality/maturity product fixtures and limitation ledgers"
+    },
+    "economy_logistics": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "cross_city_or_product",
+        "london",
+        "nyc"
+      ],
+      "file_count": 1613,
+      "landed_features": 0,
+      "landed_rows": 4498932,
+      "ledger_rows": 220,
+      "priority": "P2",
+      "registered_or_total_count": 612040712,
+      "seed_r3_use": "business/logistics context and scenario distributions"
+    },
+    "environment_resilience": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 578,
+      "landed_features": 0,
+      "landed_rows": 7720968,
+      "ledger_rows": 206,
+      "priority": "P1",
+      "registered_or_total_count": 25432802,
+      "seed_r3_use": "weather/flood/air/water/environment stress overlays"
+    },
+    "identity_graph_eval": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 292,
+      "landed_features": 0,
+      "landed_rows": 98578,
+      "ledger_rows": 69,
+      "priority": "P0",
+      "registered_or_total_count": 101140912,
+      "seed_r3_use": "CER/SEG join-confidence challenge fixtures"
+    },
+    "mobility_transport": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "cross_city_or_product",
+        "london",
+        "nyc"
+      ],
+      "file_count": 450,
+      "landed_features": 0,
+      "landed_rows": 26521850,
+      "ledger_rows": 229,
+      "priority": "P1",
+      "registered_or_total_count": 446460984,
+      "seed_r3_use": "cross-check only; Seed R2 already deepened mobility"
+    },
+    "population_demand": {
+      "cities": [
+        "london"
+      ],
+      "file_count": 69,
+      "landed_features": 0,
+      "landed_rows": 2512,
+      "ledger_rows": 11,
+      "priority": "P2",
+      "registered_or_total_count": 0,
+      "seed_r3_use": "aggregate demand/exposure context only"
+    },
+    "property_planning": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 616,
+      "landed_features": 715566,
+      "landed_rows": 6032252,
+      "ledger_rows": 106,
+      "priority": "P0",
+      "registered_or_total_count": 27963017,
+      "seed_r3_use": "property/planning entity profiles and WATCH/CHECK ambiguity fixtures"
+    },
+    "public_safety_incident": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 507,
+      "landed_features": 0,
+      "landed_rows": 33560795,
+      "ledger_rows": 80,
+      "priority": "P1",
+      "registered_or_total_count": 92918578,
+      "seed_r3_use": "review-only incident context, not dispatch or emergency advice"
+    },
+    "unclassified_review_needed": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "file_count": 128,
+      "landed_features": 0,
+      "landed_rows": 21528148,
+      "ledger_rows": 141,
+      "priority": "review",
+      "registered_or_total_count": 43460060,
+      "seed_r3_use": "review before use"
+    },
+    "utilities_energy_water": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london"
+      ],
+      "file_count": 133,
+      "landed_features": 0,
+      "landed_rows": 5109030,
+      "ledger_rows": 31,
+      "priority": "P1",
+      "registered_or_total_count": 2250752,
+      "seed_r3_use": "utility dependency and resilience scenarios where source-safe"
+    }
+  },
+  "city_roots_discovered": 196,
+  "domain_fuel_ledger_rows": 1467,
+  "expected_roots_missing_fail_closed": 0,
+  "generated_at": "2026-07-08T10:50:02+00:00",
+  "limitations": [
+    "Counts are accepted only from local CSV/JSON/JSONL/Parquet metadata or read-only DuckDB table counts.",
+    "Some fallback city-prefix roots are candidate-only and must be semantically reviewed before Seed R3 use.",
+    "This preflight does not generate synthetic Seed R3 records.",
+    "City donor/context material is not Dubai official truth and must stay source-classed in Seed R3."
+  ],
+  "priority_non_mobility_coverage": {
+    "building_compliance": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 0,
+      "landed_rows": 29042258,
+      "present": true,
+      "registered_or_total_count": 77567661
+    },
+    "built_environment": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 0,
+      "landed_rows": 3234672,
+      "present": true,
+      "registered_or_total_count": 1485858
+    },
+    "civic_service_311_crm": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 0,
+      "landed_rows": 7025072,
+      "present": true,
+      "registered_or_total_count": 103234632
+    },
+    "data_quality_maturity": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "cross_city_or_product",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 0,
+      "landed_rows": 14,
+      "present": true,
+      "registered_or_total_count": 0
+    },
+    "environment_resilience": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 0,
+      "landed_rows": 7720968,
+      "present": true,
+      "registered_or_total_count": 25432802
+    },
+    "identity_graph_eval": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 0,
+      "landed_rows": 98578,
+      "present": true,
+      "registered_or_total_count": 101140912
+    },
+    "property_planning": {
+      "cities": [
+        "barcelona",
+        "chicago",
+        "london",
+        "nyc"
+      ],
+      "landed_features": 715566,
+      "landed_rows": 6032252,
+      "present": true,
+      "registered_or_total_count": 27963017
+    }
+  },
+  "priority_non_mobility_domains_present": 7,
+  "priority_non_mobility_domains_required": 7,
+  "recommend_seed_r3_refresh": true,
+  "status": "PASS_SYNTHETIC_FACTORY_SEED_R3_CROSS_CITY_DOMAIN_FUEL_PREFLIGHT_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+  "verified_landed_features": 715566,
+  "verified_landed_rows": 144375081,
+  "verified_registered_or_total_count": 1533955968
+}

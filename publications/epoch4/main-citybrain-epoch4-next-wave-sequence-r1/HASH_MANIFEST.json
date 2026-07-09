@@ -1,0 +1,39 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_NEXT_WAVE_SEQUENCE_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 490,
+      "path": "outputs/main_citybrain_epoch4_next_wave_sequence_r1/NEXT_WAVE_SEQUENCE_DECISION.json",
+      "sha256": "77ad446eeb47cbda9f74fa2aba7f927c6ebd9c18e4145e437d74d1a64c15dc22"
+    },
+    {
+      "bytes": 3355,
+      "path": "outputs/main_citybrain_epoch4_next_wave_sequence_r1/SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "f10e7d2f10125acecfddd5d1e29b7e8428e1caea000ce778858140a2f043efe0"
+    },
+    {
+      "bytes": 467,
+      "path": "outputs/main_citybrain_epoch4_next_wave_sequence_r1/SUMMARY.md",
+      "sha256": "1815dea08e43533aac98b24e5a776693cf07577be9011f4a287c0303a30f917e"
+    },
+    {
+      "bytes": 490,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-sequence-r1/NEXT_WAVE_SEQUENCE_DECISION.json",
+      "sha256": "77ad446eeb47cbda9f74fa2aba7f927c6ebd9c18e4145e437d74d1a64c15dc22"
+    },
+    {
+      "bytes": 3355,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-sequence-r1/SEQUENTIAL_EXECUTION_LOG.json",
+      "sha256": "f10e7d2f10125acecfddd5d1e29b7e8428e1caea000ce778858140a2f043efe0"
+    },
+    {
+      "bytes": 467,
+      "path": "publications/epoch4/main-citybrain-epoch4-next-wave-sequence-r1/SUMMARY.md",
+      "sha256": "1815dea08e43533aac98b24e5a776693cf07577be9011f4a287c0303a30f917e"
+    }
+  ],
+  "entry_count": 6,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "status": "PASS"
+}

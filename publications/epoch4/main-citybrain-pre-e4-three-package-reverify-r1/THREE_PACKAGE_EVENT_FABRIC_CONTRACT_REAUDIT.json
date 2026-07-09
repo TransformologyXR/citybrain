@@ -1,0 +1,16 @@
+{
+  "artifact_id": "THREE_PACKAGE_EVENT_FABRIC_CONTRACT_REAUDIT",
+  "contract_file_count": 6,
+  "contract_files": [
+    "contracts/event_fabric_r1/EventEnvelope.schema.json",
+    "contracts/event_fabric_r1/EventQuery.schema.json",
+    "contracts/event_fabric_r1/EventResolution.schema.json",
+    "contracts/event_fabric_r1/EventState.schema.json",
+    "contracts/event_fabric_r1/EventTrace.schema.json",
+    "contracts/event_fabric_r1/EventTypeRegistry.schema.json"
+  ],
+  "contract_root": "contracts/event_fabric_r1",
+  "local_replay_only": true,
+  "publication_audit_path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/EVENT_FABRIC_CONTRACT_PUBLICATION_REAUDIT_R1.json",
+  "status": "PASS_WITH_LIMITATIONS"
+}

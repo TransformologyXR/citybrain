@@ -1,0 +1,43 @@
+{
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-OFFLINE-CCTV-DATASET-EXPANSION-R16",
+  "allowed_final_statuses": [
+    "PASS_METROPOLIS_VSS_OFFLINE_CCTV_DATASET_EXPANSION_R16_WITH_LIMITATIONS",
+    "PARTIAL_METROPOLIS_VSS_OFFLINE_DATASET_SCOUT_READY_LICENSE_GATE_PENDING",
+    "PARTIAL_METROPOLIS_VSS_CCTV_IMAGE_REPLAY_READY_VIDEO_DATASET_PENDING",
+    "FAIL_METROPOLIS_VSS_DATASET_LICENSE_OR_BOUNDARY_RISK_R16"
+  ],
+  "gates": {
+    "dataset_license_gate": [
+      "PASS",
+      "PARTIAL_REVIEW_REQUIRED",
+      "FAIL"
+    ],
+    "dataset_download_gate": [
+      "PASS",
+      "NOT_RUN",
+      "FAIL"
+    ],
+    "media_ingest_gate": [
+      "PASS",
+      "PARTIAL",
+      "FAIL"
+    ],
+    "frame_replay_gate": [
+      "PASS",
+      "NOT_APPLICABLE",
+      "FAIL"
+    ],
+    "deepstream_compatibility_gate": [
+      "PASS",
+      "PARTIAL",
+      "NOT_RUN",
+      "FAIL"
+    ],
+    "vss_compatibility_gate": [
+      "PASS",
+      "PARTIAL",
+      "NOT_RUN",
+      "FAIL"
+    ]
+  }
+}

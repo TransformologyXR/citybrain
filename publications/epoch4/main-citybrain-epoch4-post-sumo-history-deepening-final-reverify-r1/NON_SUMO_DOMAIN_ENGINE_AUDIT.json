@@ -1,0 +1,9 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "NON_SUMO_DOMAIN_ENGINE_AUDIT",
+  "building_compliance_engine_created": true,
+  "non_sumo_engine_count": 2,
+  "permit_inspection_delay_engine_created": true,
+  "status": "PASS",
+  "sumo_misapplied_to_non_traffic_family": false
+}

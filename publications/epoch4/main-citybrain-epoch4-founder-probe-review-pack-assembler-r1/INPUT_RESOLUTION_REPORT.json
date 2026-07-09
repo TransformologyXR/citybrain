@@ -1,0 +1,131 @@
+{
+  "all_task_cards_present": true,
+  "artifact_id": "INPUT_RESOLUTION_REPORT",
+  "generated_at": "2026-07-08T05:44:02Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "founder_probe_task_card_set",
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_TASK_CARD_SET.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "founder_probe_input_kit_decision",
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_INPUT_KIT_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_INPUT_KIT_R2_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "founder_probe_import_schema",
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_IMPORT_SCHEMA.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_v2_by_family",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_BY_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_r1_by_family",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_corpus_r2_index",
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CORPUS_R2_INDEX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_cases_r2",
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CASES_R2.jsonl",
+      "record_count": 48,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_harness_case_results",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CASE_RESULTS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_harness_check_assertions",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "check_v1_stress_report",
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/CHECK_V1_STRESS_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "derived_fix_overlay_register",
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_OVERLAY_REGISTER.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "derived_fix_overlay_decision",
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_PROMOTION_OVERLAY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_PROMOTION_OVERLAY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "incident_event_state_by_family",
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/EVENT_STATE_PACKETS_BY_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "incident_check_reports_by_family",
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/CHECK_V1_REPORTS_BY_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "incident_brief_packets_by_family",
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/BRIEF_V3_PACKETS_BY_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "incident_spatial_packets_by_family",
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/SPATIAL_OVERLAY_PACKETS_BY_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_v2_5_consumption",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/EVENT_FABRIC_V2_5_CONSUMPTION_DEPTH_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_v2_4_baseline_options",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "non_sumo_option_comparison",
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/NON_SUMO_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "trackb_brief_v3_variants",
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "input_count": 20,
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_card_count": 16
+}

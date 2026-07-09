@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ledger_row.schema.json",
+  "type": "object",
+  "required": ["id", "gate_id", "status", "report_ref", "arming_manifest_ref", "evaluator_ref", "hash_manifest_ref", "armed_now", "not_armed", "non_claims"],
+  "properties": {
+    "id": {"type": "string"},
+    "gate_id": {"const": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE"},
+    "status": {"type": "string"},
+    "report_ref": {"type": "string"},
+    "arming_manifest_ref": {"type": "string"},
+    "evaluator_ref": {"const": "epoch3_arming_status"},
+    "hash_manifest_ref": {"type": "string"},
+    "armed_now": {"type": "array", "items": {"type": "string"}},
+    "not_armed": {"type": "array", "items": {"type": "string"}},
+    "non_claims": {"type": "array", "items": {"type": "string"}},
+    "created_at": {"type": "string"},
+    "created_by": {"type": "string"}
+  }
+}

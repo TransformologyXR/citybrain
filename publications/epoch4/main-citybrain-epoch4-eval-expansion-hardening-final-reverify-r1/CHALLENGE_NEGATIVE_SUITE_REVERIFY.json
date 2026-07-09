@@ -1,0 +1,8 @@
+{
+  "artifact_id": "CHALLENGE_NEGATIVE_SUITE_REVERIFY",
+  "challenge_case_count": 32,
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_R1_WITH_LIMITATIONS",
+  "non_sumo_forced_through_sumo": false,
+  "official_action_created": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

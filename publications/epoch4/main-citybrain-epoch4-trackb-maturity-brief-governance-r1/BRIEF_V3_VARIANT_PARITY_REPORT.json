@@ -1,0 +1,23 @@
+{
+  "all_variants_share_evidence_signature": true,
+  "artifact_id": "BRIEF_V3_VARIANT_PARITY_REPORT",
+  "claim_authority_changed": false,
+  "required_sections_preserved": [
+    "source_record_appendix",
+    "check_v1_summary",
+    "simulation_assumptions",
+    "event_state",
+    "spatial_references",
+    "cannot_claim",
+    "review_options",
+    "limitations",
+    "no_action_boundary"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "variant_count": 3,
+  "variant_signatures": {
+    "executive": "b514353b5d938ad7",
+    "operator": "b514353b5d938ad7",
+    "technical": "b514353b5d938ad7"
+  }
+}

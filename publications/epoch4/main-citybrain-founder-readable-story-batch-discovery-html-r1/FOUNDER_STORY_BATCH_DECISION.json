@@ -1,0 +1,13 @@
+{
+  "artifact_id": "FOUNDER_STORY_BATCH_DECISION",
+  "client_ready": false,
+  "founder_diagnostic_ready": true,
+  "main_path_technical_terms_removed": true,
+  "minimum_story_count_met": true,
+  "next_recommended_task": "MAIN-CITYBRAIN-FOUNDER-DIAGNOSTIC-BATCH-RESPONSE-IMPORT-ANALYSIS-R1",
+  "no_forbidden_capabilities_created": true,
+  "product_review_ready": false,
+  "status": "PASS_MAIN_CITYBRAIN_FOUNDER_READABLE_STORY_BATCH_DISCOVERY_HTML_R1_WITH_LIMITATIONS",
+  "story_count": 13,
+  "technical_appendix_present": true
+}

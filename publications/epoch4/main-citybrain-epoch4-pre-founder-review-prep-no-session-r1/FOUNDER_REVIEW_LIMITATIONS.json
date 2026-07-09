@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_LIMITATIONS",
+  "limitations": [
+    "preparation only; no founder/internal review session has run",
+    "no feedback forms are filled",
+    "no operator/founder fuel or dispositions are created",
+    "no training eligibility is created"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

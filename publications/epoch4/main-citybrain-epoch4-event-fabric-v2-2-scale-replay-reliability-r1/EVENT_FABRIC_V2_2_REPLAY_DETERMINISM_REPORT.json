@@ -1,0 +1,9 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_REPLAY_DETERMINISM_REPORT",
+  "determinism_basis": "family/idempotency/state/check/watch materialization sorted canonically",
+  "event_count": 40,
+  "first_replay_hash": "9acc57dd1e99d9aa72241ad0c1cc6ce0aece62c760f8632870ba424ab5caea34",
+  "second_replay_hash": "9acc57dd1e99d9aa72241ad0c1cc6ce0aece62c760f8632870ba424ab5caea34",
+  "stable_across_two_runs": true,
+  "status": "PASS"
+}

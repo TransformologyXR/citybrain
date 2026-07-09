@@ -1,0 +1,262 @@
+{
+  "artifact_id": "MAIN_CITYBRAIN_PRE_E4_MECHANICAL_GAP_CLOSURE_R2_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 18902,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/BACKLOG_LEDGER_DEDUPLICATION_MAP_R1.json",
+      "sha256": "041a01b6a8726de5b9782f672d385dbdb82153d13a6e00537c5d04631294c953"
+    },
+    {
+      "bytes": 9595,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/BACKLOG_LEDGER_INTAKE_REPORT.json",
+      "sha256": "cd3be27a003f825acd60bd1165e8ede9c9577bad503641006fadbc590979c7ab"
+    },
+    {
+      "bytes": 275,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/BRIEF_EXPORT_FIXTURE_MANIFEST.json",
+      "sha256": "c2f5012f72043ad99abb53db418ac3b6ac4be01a22de51dbf8d3e26d658b5f57"
+    },
+    {
+      "bytes": 278,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/BRIEF_EXPORT_USEFULNESS_DIAGNOSTIC_R1.json",
+      "sha256": "40fb807e70ac3c3a5c9f53dc8ea6357eeeb76477ff4a10c0fd61c7dd631bd023"
+    },
+    {
+      "bytes": 249,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/CER_SEG_AMBIGUITY_FIXTURE_MANIFEST.json",
+      "sha256": "4e0ac765cbbd386ffd32dc814d5e812bed82a4fc67ac51fd45f2c5382eb5413a"
+    },
+    {
+      "bytes": 782,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/CHECK_DESCRIPTIVE_SCORECARD_R2.json",
+      "sha256": "a9dd9182919ddf8f986392474ac70c36cf31d59393d765511dfef6a49fc5694a"
+    },
+    {
+      "bytes": 860,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/CHECK_SCORECARD_NO_OPERATOR_FUEL_GUARD.json",
+      "sha256": "dd4b0eb28cc02171399b2f966bfa16d7b1551c7847307819b6564e038f4ff0c8"
+    },
+    {
+      "bytes": 3149,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/CHECK_SCORECARD_SOURCE_DEPTH_REPORT.json",
+      "sha256": "2985bb4cc7bd1615b8075b3b0a60831fed4979ca0ebd5fa92988a3551fd343d4"
+    },
+    {
+      "bytes": 302,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/DATA_QUALITY_DIMENSION_COVERAGE_MATRIX.json",
+      "sha256": "7c10458d42a6c211228a53228fc60f4b28685aab868ac45b4843a74a77746c71"
+    },
+    {
+      "bytes": 350,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/DATA_QUALITY_MATURITY_DIAGNOSTIC_R1.json",
+      "sha256": "fba6450247f9fd6bbfebdeead2ff30d6453e6bb2d436ed270a9d987af4242f8c"
+    },
+    {
+      "bytes": 665,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/DOMAIN_PACK_CONSUMER_COVERAGE_MATRIX.json",
+      "sha256": "9f18c03df4863f7add6460af0b690ea45dcdd53b28a9998f7289ac9909a54088"
+    },
+    {
+      "bytes": 861,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/DOMAIN_PACK_NO_CUSTOM_AGENT_DRIFT_GUARD.json",
+      "sha256": "2125394e5f1a8388ca43831e6b6bfc870d46e076ef227a06a07b1c285c9b073d"
+    },
+    {
+      "bytes": 1354,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/DOMAIN_PACK_USEFULNESS_R2.json",
+      "sha256": "35dbdf0c99e2f907c850a2c46b052335be272283f25da703ec5d8e995b2464a9"
+    },
+    {
+      "bytes": 221,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/GITIGNORED_OUTPUT_PUBLICATION_GAP_REPORT.json",
+      "sha256": "c9c0a4dc35c1872404997eb52f9ea96278e6bf2bb2c5772d6afa9dddc6502d58"
+    },
+    {
+      "bytes": 372,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/GOVERNANCE_ARTIFACT_PATH_AUDIT.json",
+      "sha256": "a8e2d062d824dec29a29ee8401382dc2368ca6d5936c8c19e8c83bd814b98c6b"
+    },
+    {
+      "bytes": 263,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/IDENTITY_GRAPH_EVAL_FIXTURE_REPORT_R2.json",
+      "sha256": "050067c9e647471c8b6398405e0addfbbdb151b13fc253084d6f48324133ae51"
+    },
+    {
+      "bytes": 1840,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/IDENTITY_GRAPH_EVAL_FIXTURES_R2.jsonl",
+      "sha256": "00e5f3916551543dc1dde6e911ea1c447580074d466e3f02f955afa654250d87"
+    },
+    {
+      "bytes": 324,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/L4_CASE_STUB_MATERIALIZATION_R2_REPORT.json",
+      "sha256": "d53549ba14c3b73d900dfb8fcff5e480f005e12ce5cf00e421f1553ff497edc8"
+    },
+    {
+      "bytes": 1610,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/L4_CASE_STUBS_R2.jsonl",
+      "sha256": "6f63fa0926df8f466aca54a3be406dabab3a965f4163be31afd2ff12f84f786a"
+    },
+    {
+      "bytes": 853,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/L4_NO_CASE_MEMORY_LEARNER_GUARD.json",
+      "sha256": "3d124439e3f3e656a7b68c8abd6c6f7b6ae87b17005bbe862ca3e2663052ca16"
+    },
+    {
+      "bytes": 209,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/L4_PATH_ONLY_PARKING_LOT.json",
+      "sha256": "bf7e68723596c9f7af751a24511e4ed581491382231741824678e825258874d1"
+    },
+    {
+      "bytes": 231,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/LONGITUDINAL_TRANSITION_EVIDENCE_COVERAGE_REPORT.json",
+      "sha256": "78ccb6a52506da4f6738f17bb4033739db7cfddc01269eea7728a25f65358705"
+    },
+    {
+      "bytes": 558,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/MECHANICAL_GAP_CLOSURE_R2_CLOSEOUT.md",
+      "sha256": "085966f48c0d5776076cf0e4ffe58031140addb0c616c7b76e37d2eab6cbb622"
+    },
+    {
+      "bytes": 664,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/MECHANICAL_GAP_CLOSURE_R2_DECISION.json",
+      "sha256": "e8279c6f13535245a93ed07db1251345a8e7cc89f93bc7c4d11eca8b74c6b9f5"
+    },
+    {
+      "bytes": 344,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/MECHANICAL_SCOPE_DECISION.json",
+      "sha256": "e92398c3fef65484166143bd98e5442dc22d7f7a505995ca51457c29f3c1880e"
+    },
+    {
+      "bytes": 855,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/NO_CANONICAL_TRUTH_MUTATION_GUARD.json",
+      "sha256": "83dee260eca4b7b65999b0a0ca74a11d0fc0b1de4f701b0a77c03927b86f10b2"
+    },
+    {
+      "bytes": 850,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/NO_EXECUTION_ACTION_GUARD_R1.json",
+      "sha256": "28c77e6f0667e366a6bb072bf345a894cf3532dca812c6432e6cb6f449df40d9"
+    },
+    {
+      "bytes": 854,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/NO_FORBIDDEN_CAPABILITY_GUARD_R2.json",
+      "sha256": "a702a68c68cfec0687627d4ac4f4b7023192527b088d651faaddcd40a289a8a2"
+    },
+    {
+      "bytes": 333,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/OPERATOR_FUEL_BLOCKER_REPORT_R2.json",
+      "sha256": "f129a13b5a2148d08b3a8f132ae88c0aa1b645b9c8ad5bcf44f3c05d82fe568b"
+    },
+    {
+      "bytes": 601,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/PACKAGE_SEQUENCE_STATE_R1.json",
+      "sha256": "bc54d1322c996fc142f4e936ce663a22d7eacb7b87c45932b08b75712f5159b8"
+    },
+    {
+      "bytes": 280,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/PLAN_SCHEDULE_OPTIMIZE_REVIEW_OPTION_FIXTURE_CATALOG_R1.json",
+      "sha256": "606cf36435190a4ff3064bf45b4e9fa891197c6f5816bac98c6dd5cedef38ebb"
+    },
+    {
+      "bytes": 610,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/PUBLICATION_HOME_RECHECK_REPORT.json",
+      "sha256": "d658422fef05b15ac1e0d0edff3632ecd15af2444b9da553cd0c191b4c27dcdb"
+    },
+    {
+      "bytes": 283,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/REQUIRES_FINAL_THREE_PACKAGE_REVERIFY_R1.json",
+      "sha256": "54b772f529a77aa14c28c26af14f4fb80a6327a00143731f18824914ce58b82b"
+    },
+    {
+      "bytes": 449,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SIMULATION_BACKTEST_HANDOFF_POINTER_R1.json",
+      "sha256": "1d4c27e8ed3301ce96b189263638fac20894b8d81c8335f94a822820dda1beeb"
+    },
+    {
+      "bytes": 8023,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SOURCE_INPUT_AUDIT.json",
+      "sha256": "bcc3bf54bf3e33c18f2482da863ee6a75fc1f97b68e6d436ccb0a23be40066ac"
+    },
+    {
+      "bytes": 336,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SOURCE_REFRESH_LONGITUDINAL_GAP_INVENTORY_R1.json",
+      "sha256": "2004951964f78c6cda98a116391ef0bf99861aab7f48f4cefaefb7ebd2f125b4"
+    },
+    {
+      "bytes": 197,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SYNTHETIC_FACTORY_READINESS_REPORT_R1.json",
+      "sha256": "1dd2c74801ac10fe339e162cdd4fd01b11a4ed860dbe72588aebf35971234358"
+    },
+    {
+      "bytes": 361,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SYNTHETIC_TIER_GAP_MANIFEST_R1.json",
+      "sha256": "c981c500530202ec98a75a8cba41bae8ee4d674dc06410d62311bc9fd2b3bc26"
+    },
+    {
+      "bytes": 132,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/TEST_LOG.txt",
+      "sha256": "3c032c2a25d03c6f9e42ddfa00ea3f622b4a4062dff23c11a39e7aa30bca9ccf"
+    },
+    {
+      "bytes": 2115,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/WORKFLOW_REVIEW_STATE_HISTORY_R2.jsonl",
+      "sha256": "11d09b617ceca4aa7f1c90cf1e8fdaa4009f8b2d53a9d938ae16be39fc072c24"
+    },
+    {
+      "bytes": 326,
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/WORKFLOW_REVIEW_STATE_HISTORY_REPORT_R2.json",
+      "sha256": "cb10d56eeea1a7491d2084788b38cc1e12c432b5501ae88396e359614439907b"
+    },
+    {
+      "bytes": 18902,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/BACKLOG_LEDGER_DEDUPLICATION_MAP_R1.json",
+      "sha256": "041a01b6a8726de5b9782f672d385dbdb82153d13a6e00537c5d04631294c953"
+    },
+    {
+      "bytes": 9595,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/BACKLOG_LEDGER_INTAKE_REPORT.json",
+      "sha256": "cd3be27a003f825acd60bd1165e8ede9c9577bad503641006fadbc590979c7ab"
+    },
+    {
+      "bytes": 372,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/GOVERNANCE_ARTIFACT_PATH_AUDIT.json",
+      "sha256": "a8e2d062d824dec29a29ee8401382dc2368ca6d5936c8c19e8c83bd814b98c6b"
+    },
+    {
+      "bytes": 558,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/MECHANICAL_GAP_CLOSURE_R2_CLOSEOUT.md",
+      "sha256": "085966f48c0d5776076cf0e4ffe58031140addb0c616c7b76e37d2eab6cbb622"
+    },
+    {
+      "bytes": 664,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/MECHANICAL_GAP_CLOSURE_R2_DECISION.json",
+      "sha256": "e8279c6f13535245a93ed07db1251345a8e7cc89f93bc7c4d11eca8b74c6b9f5"
+    },
+    {
+      "bytes": 854,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/NO_FORBIDDEN_CAPABILITY_GUARD_R2.json",
+      "sha256": "a702a68c68cfec0687627d4ac4f4b7023192527b088d651faaddcd40a289a8a2"
+    },
+    {
+      "bytes": 610,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/PUBLICATION_HOME_RECHECK_REPORT.json",
+      "sha256": "d658422fef05b15ac1e0d0edff3632ecd15af2444b9da553cd0c191b4c27dcdb"
+    },
+    {
+      "bytes": 8023,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/SOURCE_INPUT_AUDIT.json",
+      "sha256": "bcc3bf54bf3e33c18f2482da863ee6a75fc1f97b68e6d436ccb0a23be40066ac"
+    },
+    {
+      "bytes": 132,
+      "path": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2/TEST_LOG.txt",
+      "sha256": "3c032c2a25d03c6f9e42ddfa00ea3f622b4a4062dff23c11a39e7aa30bca9ccf"
+    }
+  ],
+  "entry_count": 50,
+  "generated_at": "2026-07-07T11:10:54+00:00",
+  "included_roots": [
+    "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2",
+    "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2"
+  ],
+  "root": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2"
+}

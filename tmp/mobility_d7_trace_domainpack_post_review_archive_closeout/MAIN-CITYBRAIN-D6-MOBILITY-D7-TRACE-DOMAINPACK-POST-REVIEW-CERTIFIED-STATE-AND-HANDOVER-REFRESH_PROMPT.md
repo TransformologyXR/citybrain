@@ -1,0 +1,21 @@
+# MAIN-CITYBRAIN-D6-MOBILITY-D7-TRACE-DOMAINPACK-POST-REVIEW-CERTIFIED-STATE-AND-HANDOVER-REFRESH
+
+Refresh certified state after archive/index and final package review.
+
+Expected output root:
+`outputs/main_citybrain_d6_mobility_d7_trace_domainpack_post_review_certified_state_and_handover_refresh/`
+
+Required artifacts:
+- `MAIN_CITYBRAIN_D6_MOBILITY_D7_TRACE_DOMAINPACK_POST_REVIEW_CERTIFIED_STATE_AND_HANDOVER_REFRESH_DECISION.json`
+- `CURRENT_CERTIFIED_STATE.md`
+- `HANDOVER_BRIEF.md`
+- `CLOSED_TRACK_LEDGER.json`
+- `READY_NEXT_TRACKS.json`
+- `DEFERRED_TRACKS.json`
+- `STALE_RECOMMENDATION_DETECTION.json`
+- `VALIDATION_REPORT.json`
+- audits and hash manifest
+- `LOCAL_OPEN_INDEX.md`
+
+Final status:
+`PASS_MAIN_CITYBRAIN_D6_MOBILITY_D7_TRACE_DOMAINPACK_POST_REVIEW_CERTIFIED_STATE_AND_HANDOVER_REFRESH_WITH_LIMITATIONS`

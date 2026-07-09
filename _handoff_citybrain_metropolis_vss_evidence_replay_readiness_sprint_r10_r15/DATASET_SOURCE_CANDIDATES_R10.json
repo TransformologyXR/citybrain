@@ -1,0 +1,30 @@
+{
+  "selected_default": "nvidia_deepstream_local_sample",
+  "candidates": [
+    {
+      "id": "nvidia_deepstream_local_sample",
+      "status": "immediate_local_default",
+      "example": "samples/streams/sample_1080p_h264.mp4",
+      "use": "deterministic R10/R11 baseline",
+      "license_action": "confirm local SDK/EULA use; do not redistribute outside package policy"
+    },
+    {
+      "id": "ai_city_2022_cityflowv2",
+      "status": "candidate_external_download",
+      "use": "traffic camera multi-source replay",
+      "license_action": "verify AI City terms before packaging video"
+    },
+    {
+      "id": "ai_city_2024_wts",
+      "status": "candidate_external_download",
+      "use": "traffic safety narration stress test",
+      "license_action": "verify AI City / WTS terms before packaging video"
+    },
+    {
+      "id": "virat_surveillance_like",
+      "status": "candidate_requires_license_verification",
+      "use": "surveillance-like scenes if authoritative source/license found",
+      "license_action": "do not use mirror/rehost without license review"
+    }
+  ]
+}

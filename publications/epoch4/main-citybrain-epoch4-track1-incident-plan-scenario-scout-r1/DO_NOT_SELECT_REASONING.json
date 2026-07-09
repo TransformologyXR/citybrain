@@ -1,0 +1,27 @@
+{
+  "artifact_id": "DO_NOT_SELECT_REASONING",
+  "not_selected": [
+    {
+      "family_id": "mobility_access_interruption",
+      "family_name": "Mobility access interruption",
+      "future_revisit_trigger": "Use as regression baseline for every new family; revisit only when changing the control path.",
+      "reason": "Already proven by Sprint 3; keep as control/regression path rather than spending an expansion slot.",
+      "score_total": 44
+    },
+    {
+      "family_id": "property_planning_development_impact",
+      "family_name": "Property / planning development impact",
+      "future_revisit_trigger": "Revisit after dated planning/property impact transitions or stronger simulation backtest inputs exist.",
+      "reason": "Promising briefing/evidence surface, but event availability and implementation cost are weaker because development impact needs longer-horizon transition framing.",
+      "score_total": 31
+    },
+    {
+      "family_id": "civic_service_sensor_anomaly",
+      "family_name": "Civic service / sensor anomaly",
+      "future_revisit_trigger": "Revisit after at least two source-backed anomaly event examples and a non-proximity-only CHECK path exist.",
+      "reason": "Useful but too proximity/sensor-heavy today; source-depth and event availability are weaker than the selected families.",
+      "score_total": 30
+    }
+  ],
+  "status": "PASS"
+}

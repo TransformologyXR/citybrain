@@ -1,0 +1,17 @@
+{
+  "block_id": "cannot_claim",
+  "claims": [
+    "No production or public API claim.",
+    "No live monitoring, alerting, dispatch, routing, control, enforcement, or automated action.",
+    "No official ticket, case, citation, inspection, legal finding, or certified finding is created.",
+    "No citywide certified twin or certified physical geometry claim.",
+    "No forecast model, learned ranking, counterfactual learner, case-memory learner, or dynamic investigation agent.",
+    "No recommendation authority; review options remain human-owned and may be abstained from.",
+    "No source record is converted into official truth without CHECK/CER review boundaries."
+  ],
+  "legal_or_certified_finding_created": false,
+  "official_action_created": false,
+  "production_live_monitoring_created": false,
+  "status": "PASS",
+  "ui_polish_performed": false
+}

@@ -1,0 +1,11 @@
+{
+  "adapter_decision_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_LOOP_CONVERGENCE_EVENT_ADAPTER_R1_WITH_LIMITATIONS",
+  "adapter_root": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1",
+  "alignment_status": "PASS",
+  "cadence_plan_status": "PLAN_READY_LOCAL_REPLAY_ONLY",
+  "event_count": 16,
+  "event_feed": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1/EVENT_FABRIC_SOURCE_ADAPTER_FEED_R1.jsonl",
+  "expected_queue_rows": 8,
+  "manifest_event_count": 16,
+  "status": "PASS"
+}

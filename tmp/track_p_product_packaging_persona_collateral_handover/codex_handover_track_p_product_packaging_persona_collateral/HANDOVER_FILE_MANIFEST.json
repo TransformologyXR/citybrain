@@ -1,0 +1,37 @@
+[
+  {
+    "path": "00_SHARED_CONTEXT.md",
+    "bytes": 2383,
+    "sha256": "ca8ab62c55be8a6e65cd8fbddbda981d3624d7bc3f776afecc982ded8adc4fa4"
+  },
+  {
+    "path": "CHECKLIST.md",
+    "bytes": 1572,
+    "sha256": "3e6a6ce55379c0c34f77bee4f30e0383196d8b5044749f16cf47fba8c1fdeef7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1786,
+    "sha256": "b19a600795e237aa0a27e1aa47f452a2868ecc868c53928aaeb10cad1d8055d6"
+  },
+  {
+    "path": "prompts/P0_PRODUCT_PACKAGING_AND_PERSONA_PREFLIGHT_PROMPT.md",
+    "bytes": 3462,
+    "sha256": "624ce9af97c35087d22bd6a9d95e6ba3bcbb2dfe77019dcf814cf6ced642c962"
+  },
+  {
+    "path": "prompts/P1_PERSONA_RENDERING_POLICIES_R1_PROMPT.md",
+    "bytes": 3039,
+    "sha256": "f9649e59c5d96c9d1c6b66a20b39f085fd4393fe977f4de2a0bbc4c0c1b445dd"
+  },
+  {
+    "path": "prompts/P2_HERO_NEIGHBOURHOOD_COLLATERAL_PACK_R1_PROMPT.md",
+    "bytes": 3278,
+    "sha256": "ad4fb5ac203038204781fceba2c2e376c9111230d4c539a39360070c52f48eee"
+  },
+  {
+    "path": "prompts/P3_PRODUCT_PACKAGING_CLOSEOUT_PROMPT.md",
+    "bytes": 2679,
+    "sha256": "c9ff96e4806e264cda8de1fe2ba46046c41bafc5e0fd90b1fb28ed3aab9eb985"
+  }
+]

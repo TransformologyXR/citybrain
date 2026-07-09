@@ -1,0 +1,90 @@
+{
+  "artifact_id": "EXPECTED_EVENT_STATE_ASSERTIONS",
+  "assertions": [
+    {
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "event_state_ref": "event_state:v2_5:mobility_access_interruption",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "event_state_ref": "event_state:v2_5:mobility_access_interruption",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "event_state_ref": "event_state:v2_5:mobility_access_interruption",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "event_state_ref": "event_state:v2_5:building_compliance_perception_candidate",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "event_state_ref": "event_state:v2_5:building_compliance_perception_candidate",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "event_state_ref": "event_state:v2_5:building_compliance_perception_candidate",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "event_state_ref": "event_state:v2_5:permit_inspection_delay",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "event_state_ref": "event_state:v2_5:permit_inspection_delay",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "event_state_ref": "event_state:v2_5:permit_inspection_delay",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "event_state_ref": "event_state:v2_5:city_asset_infrastructure_issue",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "event_state_ref": "event_state:v2_5:city_asset_infrastructure_issue",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "event_state_ref": "event_state:v2_5:city_asset_infrastructure_issue",
+      "expected_mode": "local_replay_history_state",
+      "must_be_deterministic": true,
+      "must_not_create_live_ingestion": true
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

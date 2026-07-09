@@ -1,0 +1,8 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-HIDDEN-DATA-SCOUT-MASTER-R1",
+  "status": "PASS_E3_HIDDEN_DATA_SCOUT_MASTER_R1_WITH_LIMITATIONS",
+  "scout_completed": false,
+  "no_model_guard": "PASS_EXPECTED",
+  "top_findings": [],
+  "limitations": []
+}

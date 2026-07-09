@@ -1,0 +1,31 @@
+{
+  "contract_id": "R2E_MOBILITY_DONOR_NORMALIZATION_CONTRACT",
+  "record_classes": [
+    "mobility_stop_point",
+    "mobility_route",
+    "mobility_service",
+    "mobility_status_event",
+    "roadwork_event",
+    "traffic_incident_event",
+    "traffic_camera_metadata",
+    "bike_point_observation",
+    "parking_availability_observation",
+    "taxi_availability_observation",
+    "air_quality_context"
+  ],
+  "required_fields": [
+    "source_id",
+    "provider",
+    "source_record_id",
+    "source_class",
+    "city",
+    "observed_at_or_snapshot_at",
+    "geometry_or_location_ref",
+    "payload_ref",
+    "donor_context_only",
+    "not_dubai_truth",
+    "limitation_refs"
+  ],
+  "source_class_rule": "All R2E outputs are donor/context sources unless explicitly reclassified in a later governed merge. They must not become Dubai truth.",
+  "person_level_policy": "No person-level, identity, biometric, passenger-identifiable, driver-identifiable, or enforcement data is accepted."
+}

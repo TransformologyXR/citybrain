@@ -1,0 +1,776 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_3_ENTITY_STATE_CHANGE_REPORT",
+  "authority_boundary": "state_change_replay_only_no_official_truth",
+  "entities": [
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "stale",
+          "event_id": "efv23-building_compliance_perception_candidate-01-04",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-building_compliance_perception_candidate-01-08",
+          "event_state": "quarantined",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-building_compliance_perception_candidate-02-04",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-building_compliance_perception_candidate-02-08",
+          "event_state": "quarantined",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-building_compliance_perception_candidate-03-04",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-building_compliance_perception_candidate-03-08",
+          "event_state": "quarantined",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:building_compliance_perception_candidate:entity:1"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "new",
+          "event_id": "efv23-building_compliance_perception_candidate-01-01",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-building_compliance_perception_candidate-01-05",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-building_compliance_perception_candidate-02-01",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-building_compliance_perception_candidate-02-05",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-building_compliance_perception_candidate-03-01",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-building_compliance_perception_candidate-03-05",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:building_compliance_perception_candidate:entity:2"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "changed",
+          "event_id": "efv23-building_compliance_perception_candidate-01-02",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-building_compliance_perception_candidate-01-06",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-building_compliance_perception_candidate-02-02",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-building_compliance_perception_candidate-02-06",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-building_compliance_perception_candidate-03-02",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-building_compliance_perception_candidate-03-06",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:building_compliance_perception_candidate:entity:3"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "expired",
+          "event_id": "efv23-building_compliance_perception_candidate-01-03",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-building_compliance_perception_candidate-01-07",
+          "event_state": "unresolved",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-building_compliance_perception_candidate-02-03",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-building_compliance_perception_candidate-02-07",
+          "event_state": "unresolved",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-building_compliance_perception_candidate-03-03",
+          "event_state": "materialized",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-building_compliance_perception_candidate-03-07",
+          "event_state": "unresolved",
+          "family_id": "building_compliance_perception_candidate",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:building_compliance_perception_candidate:entity:4"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "stale",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-04",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-08",
+          "event_state": "quarantined",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-04",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-08",
+          "event_state": "quarantined",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-04",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-08",
+          "event_state": "quarantined",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:city_asset_infrastructure_issue:entity:1"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "new",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-01",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-05",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-01",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-05",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-01",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-05",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:city_asset_infrastructure_issue:entity:2"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "changed",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-02",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-06",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-02",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-06",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-02",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-06",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:city_asset_infrastructure_issue:entity:3"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "expired",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-03",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-city_asset_infrastructure_issue-01-07",
+          "event_state": "unresolved",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-03",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-city_asset_infrastructure_issue-02-07",
+          "event_state": "unresolved",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-03",
+          "event_state": "materialized",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-city_asset_infrastructure_issue-03-07",
+          "event_state": "unresolved",
+          "family_id": "city_asset_infrastructure_issue",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:city_asset_infrastructure_issue:entity:4"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "stale",
+          "event_id": "efv23-mobility_access_interruption-01-04",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-mobility_access_interruption-01-08",
+          "event_state": "quarantined",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-mobility_access_interruption-02-04",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-mobility_access_interruption-02-08",
+          "event_state": "quarantined",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-mobility_access_interruption-03-04",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-mobility_access_interruption-03-08",
+          "event_state": "quarantined",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:mobility_access_interruption:entity:1"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "new",
+          "event_id": "efv23-mobility_access_interruption-01-01",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-mobility_access_interruption-01-05",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-mobility_access_interruption-02-01",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-mobility_access_interruption-02-05",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-mobility_access_interruption-03-01",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-mobility_access_interruption-03-05",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:mobility_access_interruption:entity:2"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "changed",
+          "event_id": "efv23-mobility_access_interruption-01-02",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-mobility_access_interruption-01-06",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-mobility_access_interruption-02-02",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-mobility_access_interruption-02-06",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-mobility_access_interruption-03-02",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-mobility_access_interruption-03-06",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:mobility_access_interruption:entity:3"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "expired",
+          "event_id": "efv23-mobility_access_interruption-01-03",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-mobility_access_interruption-01-07",
+          "event_state": "unresolved",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-mobility_access_interruption-02-03",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-mobility_access_interruption-02-07",
+          "event_state": "unresolved",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-mobility_access_interruption-03-03",
+          "event_state": "materialized",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-mobility_access_interruption-03-07",
+          "event_state": "unresolved",
+          "family_id": "mobility_access_interruption",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:mobility_access_interruption:entity:4"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "stale",
+          "event_id": "efv23-permit_inspection_delay-01-04",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-permit_inspection_delay-01-08",
+          "event_state": "quarantined",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-permit_inspection_delay-02-04",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-permit_inspection_delay-02-08",
+          "event_state": "quarantined",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "stale",
+          "event_id": "efv23-permit_inspection_delay-03-04",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "quarantined_invalid",
+          "event_id": "efv23-permit_inspection_delay-03-08",
+          "event_state": "quarantined",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:permit_inspection_delay:entity:1"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "new",
+          "event_id": "efv23-permit_inspection_delay-01-01",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-permit_inspection_delay-01-05",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-permit_inspection_delay-02-01",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-permit_inspection_delay-02-05",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "new",
+          "event_id": "efv23-permit_inspection_delay-03-01",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "superseded",
+          "event_id": "efv23-permit_inspection_delay-03-05",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:permit_inspection_delay:entity:2"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "changed",
+          "event_id": "efv23-permit_inspection_delay-01-02",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-permit_inspection_delay-01-06",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-permit_inspection_delay-02-02",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-permit_inspection_delay-02-06",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "changed",
+          "event_id": "efv23-permit_inspection_delay-03-02",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "duplicate_suppressed",
+          "event_id": "efv23-permit_inspection_delay-03-06",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:permit_inspection_delay:entity:3"
+    },
+    {
+      "change_count": 6,
+      "changes": [
+        {
+          "change_class": "expired",
+          "event_id": "efv23-permit_inspection_delay-01-03",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-permit_inspection_delay-01-07",
+          "event_state": "unresolved",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_001"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-permit_inspection_delay-02-03",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-permit_inspection_delay-02-07",
+          "event_state": "unresolved",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_002"
+        },
+        {
+          "change_class": "expired",
+          "event_id": "efv23-permit_inspection_delay-03-03",
+          "event_state": "materialized",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        },
+        {
+          "change_class": "unresolved_preserved",
+          "event_id": "efv23-permit_inspection_delay-03-07",
+          "event_state": "unresolved",
+          "family_id": "permit_inspection_delay",
+          "snapshot_id": "snapshot_003"
+        }
+      ],
+      "entity_ref": "cer:permit_inspection_delay:entity:4"
+    }
+  ],
+  "entity_count": 16,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,117 @@
+{
+  "artifact_id": "CROSS_FAMILY_OPTION_EVIDENCE_MATRIX",
+  "family_count": 4,
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "deepening_sequence",
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_sequence_r1/POST_SUMO_HISTORY_DEEPENING_SEQUENCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "non_sumo_engines",
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_v2_4",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_v2_5",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "cer_check_stress",
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_v2",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_r2",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS"
+    }
+  ],
+  "matrix_hash": "21ba1bd67ffe621a666dbe93686ec70bab430c09c5cf14dbf4306c193100a2e7",
+  "rows": [
+    {
+      "calibration_state": "not_calibrated",
+      "comparability_class": "control_baseline",
+      "engine_class": "control_replay_option_evidence",
+      "evidence_mode": "local_replay_control",
+      "family_id": "mobility_access_interruption",
+      "family_role": "control",
+      "fidelity_label": "fixture_or_control_baseline",
+      "not_equivalent_to": [
+        "SUMO_real_smoke",
+        "non_sumo_domain_engine"
+      ],
+      "option_refs": [
+        "review_packet_360_v2:mobility_control"
+      ],
+      "source_class": "replay"
+    },
+    {
+      "calibration_state": "not_applicable",
+      "comparability_class": "non_sumo_rule_based_review_option",
+      "engine_class": "non_sumo_domain_option_engine",
+      "evidence_mode": "rule_based_evidence_gap_review",
+      "family_id": "building_compliance_perception_candidate",
+      "family_role": "selected_product_loop_family",
+      "fidelity_label": "fixture_grade_non_sumo",
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "BUILDING_COMPLIANCE_OPTION_ENGINE_REPORT.json"
+      ],
+      "source_class": "replay"
+    },
+    {
+      "calibration_state": "not_applicable",
+      "comparability_class": "non_sumo_rule_based_review_option",
+      "engine_class": "non_sumo_domain_option_engine",
+      "evidence_mode": "rule_based_queue_and_source_gap_review",
+      "family_id": "permit_inspection_delay",
+      "family_role": "selected_product_loop_family",
+      "fidelity_label": "fixture_grade_non_sumo",
+      "not_equivalent_to": [
+        "SUMO_real_smoke"
+      ],
+      "option_refs": [
+        "PERMIT_INSPECTION_DELAY_OPTION_ENGINE_REPORT.json"
+      ],
+      "source_class": "replay"
+    },
+    {
+      "calibration_state": "not_calibrated",
+      "comparability_class": "sumo_smoke_not_calibrated",
+      "engine_class": "SUMO_local_smoke_option_runner",
+      "evidence_mode": "synthetic_corridor_SUMO_smoke",
+      "family_id": "city_asset_infrastructure_issue",
+      "family_role": "selected_product_loop_family",
+      "fidelity_label": "deterministic_sumo_smoke_not_calibrated",
+      "not_equivalent_to": [
+        "non_sumo_rule_based_review_option"
+      ],
+      "option_refs": [
+        "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+      ],
+      "source_class": "replay"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

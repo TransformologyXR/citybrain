@@ -1,0 +1,89 @@
+{
+  "eval_case_count": 48,
+  "founder_card_count": 16,
+  "layers": [
+    {
+      "assessment": "Represented as context only; eval/founder cases do not sample the acquisition rows directly.",
+      "available_count": 66737,
+      "layer": "base_data_foundation",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "Represented through the mobility_access_interruption family and later runtime/control-room chain.",
+      "available_count": 46106,
+      "layer": "mobility_donor_depth",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "Available in the factory, but current eval/founder artifacts do not enumerate seed entity coverage.",
+      "available_count": 144,
+      "layer": "synthetic_seed_entities",
+      "represented_in_current_eval_founder": "thin"
+    },
+    {
+      "assessment": "Eval rows use local replay mode and product consumption has 55 event rows.",
+      "available_count": 55,
+      "layer": "event_replay_rows",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "Product fixture layer exists; current eval/founder cards do not explicitly cover each WATCH row.",
+      "available_count": 11,
+      "layer": "watch_fixtures",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "Product fixture layer exists; current eval/founder cards do not explicitly cover each ASK row.",
+      "available_count": 11,
+      "layer": "ask_fixtures",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "CHECK outcomes are strongly represented through expected_check_outcome across 48 eval cases.",
+      "available_count": 11,
+      "layer": "check_fixtures",
+      "represented_in_current_eval_founder": "adequate_for_internal_regression"
+    },
+    {
+      "assessment": "Founder cards carry BRIEF refs, but not full embedded brief evidence summaries.",
+      "available_count": 11,
+      "layer": "brief_fixtures",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "Founder cards carry spatial refs, but not full spatial overlay acceptance.",
+      "available_count": 11,
+      "layer": "spatial_fixtures",
+      "represented_in_current_eval_founder": "partial"
+    },
+    {
+      "assessment": "D5 runtime packets exist after product consumption; current eval/founder corpus was not authored around runtime packet variation.",
+      "available_count": 6,
+      "layer": "runtime_packets",
+      "represented_in_current_eval_founder": "thin"
+    },
+    {
+      "assessment": "D6 cards exist but are downstream product surface smoke, not yet folded back into the eval corpus.",
+      "available_count": 6,
+      "layer": "control_room_cards",
+      "represented_in_current_eval_founder": "thin"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "summary": "The synthetic factory materially improves available coverage, but the current 48 eval cases and 16 cards only partially represent those layers.",
+  "synthetic_factory_counts": {
+    "ask_fixtures": 11,
+    "base_city_rows": 20631,
+    "brief_fixtures": 11,
+    "check_fixtures": 11,
+    "control_room_cards": 6,
+    "event_replay_rows": 55,
+    "main_acquisition_fuel_rows": 66737,
+    "mobility_depth_rows": 46106,
+    "runtime_packets": 6,
+    "served_runtime_responses": 6,
+    "spatial_fixtures": 11,
+    "synthetic_seed_entities": 144,
+    "watch_fixtures": 11
+  }
+}

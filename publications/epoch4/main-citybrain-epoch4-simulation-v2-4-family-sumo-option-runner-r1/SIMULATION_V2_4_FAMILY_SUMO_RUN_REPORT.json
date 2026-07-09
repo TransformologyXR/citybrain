@@ -1,0 +1,203 @@
+{
+  "artifact_id": "SIMULATION_V2_4_FAMILY_SUMO_RUN_REPORT",
+  "deterministic_option_runs": true,
+  "family_run_results": {
+    "building_compliance_perception_candidate": {
+      "fixture_grade_option_comparison": true,
+      "sumo_status": "sumo_not_applicable"
+    },
+    "city_asset_infrastructure_issue": {
+      "baseline": {
+        "deterministic": true,
+        "deterministic_hash": "9bc692ac452caf33b17fe6bb3ed51447cfbf7b3c2ec0936135363fd9bb3cf170",
+        "executed": true,
+        "fixture_root": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline",
+        "metrics": {
+          "avg_duration": 21.0,
+          "avg_time_loss": 0.0,
+          "vehicle_count": 5
+        },
+        "netconvert_report": {
+          "command": [
+            "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\netconvert.exe",
+            "-n",
+            "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\family.nod.xml",
+            "-e",
+            "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\family.edg.xml",
+            "-o",
+            "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\family.net.xml",
+            "--no-internal-links",
+            "true"
+          ],
+          "duration_seconds": 0.2312,
+          "exit_code": 0,
+          "stderr_snippet": "",
+          "stdout_snippet": "Success.\n",
+          "timed_out": false
+        },
+        "runs": [
+          {
+            "command": [
+              "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+              "-c",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\family.sumocfg",
+              "--seed",
+              "41",
+              "--no-step-log",
+              "true",
+              "--duration-log.disable",
+              "true",
+              "--tripinfo-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\run1\\tripinfo.xml",
+              "--summary-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\run1\\summary.xml"
+            ],
+            "duration_seconds": 0.2629,
+            "exit_code": 0,
+            "metrics": {
+              "avg_duration": 21.0,
+              "avg_time_loss": 0.0,
+              "vehicle_count": 5
+            },
+            "stderr_snippet": "",
+            "stdout_snippet": "",
+            "summary_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run1/summary.xml",
+            "timed_out": false,
+            "tripinfo_hash": "9bc692ac452caf33b17fe6bb3ed51447cfbf7b3c2ec0936135363fd9bb3cf170",
+            "tripinfo_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run1/tripinfo.xml"
+          },
+          {
+            "command": [
+              "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+              "-c",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\family.sumocfg",
+              "--seed",
+              "41",
+              "--no-step-log",
+              "true",
+              "--duration-log.disable",
+              "true",
+              "--tripinfo-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\run2\\tripinfo.xml",
+              "--summary-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\baseline\\run2\\summary.xml"
+            ],
+            "duration_seconds": 0.3906,
+            "exit_code": 0,
+            "metrics": {
+              "avg_duration": 21.0,
+              "avg_time_loss": 0.0,
+              "vehicle_count": 5
+            },
+            "stderr_snippet": "",
+            "stdout_snippet": "",
+            "summary_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run2/summary.xml",
+            "timed_out": false,
+            "tripinfo_hash": "9bc692ac452caf33b17fe6bb3ed51447cfbf7b3c2ec0936135363fd9bb3cf170",
+            "tripinfo_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/baseline/run2/tripinfo.xml"
+          }
+        ]
+      },
+      "restricted_asset_corridor": {
+        "deterministic": true,
+        "deterministic_hash": "91c8e814f729b4e620aed6e489b9187f0381c0888e07d93a860398834b5b5bcb",
+        "executed": true,
+        "fixture_root": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor",
+        "metrics": {
+          "avg_duration": 31.6,
+          "avg_time_loss": 0.572,
+          "vehicle_count": 5
+        },
+        "netconvert_report": {
+          "command": [
+            "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\netconvert.exe",
+            "-n",
+            "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\family.nod.xml",
+            "-e",
+            "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\family.edg.xml",
+            "-o",
+            "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\family.net.xml",
+            "--no-internal-links",
+            "true"
+          ],
+          "duration_seconds": 0.1633,
+          "exit_code": 0,
+          "stderr_snippet": "",
+          "stdout_snippet": "Success.\n",
+          "timed_out": false
+        },
+        "runs": [
+          {
+            "command": [
+              "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+              "-c",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\family.sumocfg",
+              "--seed",
+              "41",
+              "--no-step-log",
+              "true",
+              "--duration-log.disable",
+              "true",
+              "--tripinfo-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\run1\\tripinfo.xml",
+              "--summary-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\run1\\summary.xml"
+            ],
+            "duration_seconds": 0.1192,
+            "exit_code": 0,
+            "metrics": {
+              "avg_duration": 31.6,
+              "avg_time_loss": 0.572,
+              "vehicle_count": 5
+            },
+            "stderr_snippet": "",
+            "stdout_snippet": "",
+            "summary_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run1/summary.xml",
+            "timed_out": false,
+            "tripinfo_hash": "91c8e814f729b4e620aed6e489b9187f0381c0888e07d93a860398834b5b5bcb",
+            "tripinfo_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run1/tripinfo.xml"
+          },
+          {
+            "command": [
+              "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+              "-c",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\family.sumocfg",
+              "--seed",
+              "41",
+              "--no-step-log",
+              "true",
+              "--duration-log.disable",
+              "true",
+              "--tripinfo-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\run2\\tripinfo.xml",
+              "--summary-output",
+              "C:\\Users\\hazem\\Documents\\CityBrain\\outputs\\main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1\\sumo_option_fixtures\\city_asset_infrastructure_issue\\restricted_asset_corridor\\run2\\summary.xml"
+            ],
+            "duration_seconds": 0.11,
+            "exit_code": 0,
+            "metrics": {
+              "avg_duration": 31.6,
+              "avg_time_loss": 0.572,
+              "vehicle_count": 5
+            },
+            "stderr_snippet": "",
+            "stdout_snippet": "",
+            "summary_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run2/summary.xml",
+            "timed_out": false,
+            "tripinfo_hash": "91c8e814f729b4e620aed6e489b9187f0381c0888e07d93a860398834b5b5bcb",
+            "tripinfo_path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/sumo_option_fixtures/city_asset_infrastructure_issue/restricted_asset_corridor/run2/tripinfo.xml"
+          }
+        ]
+      }
+    },
+    "permit_inspection_delay": {
+      "fixture_grade_option_comparison": true,
+      "sumo_status": "sumo_not_applicable"
+    }
+  },
+  "forecast_authority": false,
+  "not_calibrated": true,
+  "real_sumo_run_count": 2,
+  "real_sumo_smoke_executed": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

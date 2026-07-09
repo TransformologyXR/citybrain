@@ -1,0 +1,35 @@
+{
+  "artifact_id": "FAMILY_SCORECARD",
+  "families": [
+    {
+      "case_count": 3,
+      "family_id": "mobility_access_interruption",
+      "needs_work_count": 0,
+      "pass_count": 3,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "case_count": 3,
+      "family_id": "building_compliance_perception_candidate",
+      "needs_work_count": 0,
+      "pass_count": 3,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "case_count": 3,
+      "family_id": "permit_inspection_delay",
+      "needs_work_count": 0,
+      "pass_count": 3,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "case_count": 3,
+      "family_id": "city_asset_infrastructure_issue",
+      "needs_work_count": 0,
+      "pass_count": 3,
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "family_count": 4,
+  "status": "PASS_WITH_LIMITATIONS"
+}

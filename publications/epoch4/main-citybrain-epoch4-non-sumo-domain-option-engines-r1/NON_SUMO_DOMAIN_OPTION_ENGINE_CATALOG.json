@@ -1,0 +1,57 @@
+{
+  "artifact_id": "NON_SUMO_DOMAIN_OPTION_ENGINE_CATALOG",
+  "engine_count": 2,
+  "engines": [
+    {
+      "engine_id": "building_compliance_evidence_option_engine_r1",
+      "engine_type": "rule_based_evidence_gap_and_review_option",
+      "family_id": "building_compliance_perception_candidate",
+      "option_dimensions": [
+        "evidence_depth",
+        "perception_conflict",
+        "source_class",
+        "geometry_time_completeness",
+        "review_cost"
+      ],
+      "sumo_status": "not_used_by_design"
+    },
+    {
+      "engine_id": "permit_delay_workflow_option_engine_r1",
+      "engine_type": "rule_based_queue_and_source_gap_option",
+      "family_id": "permit_inspection_delay",
+      "option_dimensions": [
+        "queue_age",
+        "inspection_dependency",
+        "source_freshness",
+        "missing_authority_ref",
+        "review_cost"
+      ],
+      "sumo_status": "not_used_by_design"
+    }
+  ],
+  "forecast_authority": false,
+  "generated_at": "2026-07-07T17:20:58Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "simulation_v2_4",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "simulation_v2_4_catalog",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_FAMILY_SCENARIO_CATALOG.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_v2",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "learned_model_used": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NON-SUMO-DOMAIN-OPTION-ENGINES-R1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

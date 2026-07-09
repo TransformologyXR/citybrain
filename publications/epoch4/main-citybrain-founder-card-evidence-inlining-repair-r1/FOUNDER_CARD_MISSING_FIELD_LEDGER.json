@@ -1,0 +1,202 @@
+{
+  "artifact_id": "FOUNDER_CARD_MISSING_FIELD_LEDGER",
+  "missing_or_thin_field_count": 28,
+  "rows": [
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 2,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 3,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 4,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 5,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 6,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 7,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 7,
+      "visible_value": "UNKNOWN - geometry reference exists but no plain place label was found."
+    },
+    {
+      "card_id": "founder-inline-001",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 8,
+      "visible_value": "UNKNOWN - this story row has sequence order but no recent timestamp field."
+    },
+    {
+      "card_id": "founder-inline-002",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Building concern near a site - source note inlined."
+    },
+    {
+      "card_id": "founder-inline-003",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Permit or inspection delay - source note inlined."
+    },
+    {
+      "card_id": "founder-inline-004",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Infrastructure or city asset concern - source note inlined."
+    },
+    {
+      "card_id": "founder-inline-005",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Access interruption - source note inlined."
+    },
+    {
+      "card_id": "founder-inline-006",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - this review card has source refs but no direct observation timestamp."
+    },
+    {
+      "card_id": "founder-inline-006",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "founder-inline-006",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Building concern near a site - positive packet baseline."
+    },
+    {
+      "card_id": "founder-inline-007",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - this review card has source refs but no direct observation timestamp."
+    },
+    {
+      "card_id": "founder-inline-007",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "founder-inline-007",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Building concern near a site - negative no data."
+    },
+    {
+      "card_id": "founder-inline-008",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - this diagnostic card intentionally tests stale or missing freshness evidence."
+    },
+    {
+      "card_id": "founder-inline-008",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "founder-inline-008",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Building concern near a site - stale freshness."
+    },
+    {
+      "card_id": "founder-inline-009",
+      "field": "freshness",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - this review card has source refs but no direct observation timestamp."
+    },
+    {
+      "card_id": "founder-inline-009",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 1,
+      "visible_value": "UNKNOWN - no plain place or entity label was found in the source artifact."
+    },
+    {
+      "card_id": "founder-inline-009",
+      "field": "source_depth",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": null,
+      "visible_value": "THIN - one inline source note is shown for Building concern near a site - contradiction pair."
+    },
+    {
+      "card_id": "founder-inline-010",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 2,
+      "visible_value": "UNKNOWN - geometry reference exists but no plain place label was found."
+    },
+    {
+      "card_id": "founder-inline-011",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 2,
+      "visible_value": "UNKNOWN - geometry reference exists but no plain place label was found."
+    },
+    {
+      "card_id": "founder-inline-012",
+      "field": "place_or_entity",
+      "handled_as": "explicit_missingness_visible_on_card",
+      "note_index": 2,
+      "visible_value": "UNKNOWN - geometry reference exists but no plain place label was found."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "block_id": "limitations",
+  "human_sessions_pending": true,
+  "limitations": [
+    "human review sessions remain pending",
+    "production live monitoring absent",
+    "simulation remains fixture-only",
+    "no product forecast authority",
+    "Packet polish only; UI polish is intentionally deferred.",
+    "Founder-review packet uses local/replay artifacts and existing publications.",
+    "Human review pilot sessions remain pending.",
+    "Simulation remains fixture-only and not calibrated.",
+    "Review options are presentable but not recommendations."
+  ],
+  "pilot_ready": true,
+  "source_refs": [
+    "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+    "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

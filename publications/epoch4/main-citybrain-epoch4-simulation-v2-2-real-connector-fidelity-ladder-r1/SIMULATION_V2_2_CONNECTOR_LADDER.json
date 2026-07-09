@@ -1,0 +1,30 @@
+{
+  "artifact_id": "SIMULATION_V2_2_CONNECTOR_LADDER",
+  "levels": [
+    {
+      "current": true,
+      "description": "Static replay fixtures and review-option examples.",
+      "level": 0,
+      "state": "fixture_only"
+    },
+    {
+      "current": true,
+      "description": "Connector executable present but not calibrated or contract-bound.",
+      "level": 1,
+      "state": "not_calibrated"
+    },
+    {
+      "current": false,
+      "description": "Deterministic local connector run with recorded inputs/outputs.",
+      "level": 2,
+      "state": "real_run"
+    },
+    {
+      "current": false,
+      "description": "Backtested/calibrated run with source provenance and uncertainty labels.",
+      "level": 3,
+      "state": "real_run"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_id": "THREE_PACKAGE_BACKLOG_DEDUP_REVERIFY",
+  "canonical_artifact_group_count": 12,
+  "fully_done_canonical_group_count": 3,
+  "no_duplicate_done_inflation": true,
+  "raw_item_coverage_count": 21,
+  "raw_ledger_item_count": 21,
+  "status": "PASS",
+  "unique_raw_item_coverage_count": 21
+}

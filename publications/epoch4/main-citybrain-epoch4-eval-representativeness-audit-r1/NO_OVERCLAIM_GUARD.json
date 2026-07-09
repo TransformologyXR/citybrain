@@ -1,0 +1,24 @@
+{
+  "audit_mode": "read_only",
+  "forbidden_capabilities": {
+    "ForecastPacket": false,
+    "canonical_truth_mutation": false,
+    "client_ready_claim": false,
+    "dispatch_control_enforcement_action": false,
+    "founder_session_results": false,
+    "learned_ranking": false,
+    "live_ingestion_claim": false,
+    "maturity_score_inflation": false,
+    "model_training": false,
+    "official_case_ticket_workflow": false,
+    "operator_fuel": false,
+    "product_forecast_surface": false,
+    "source_truth_mutation": false,
+    "training_rows": false
+  },
+  "no_forbidden_capability_created": true,
+  "operator_fuel_any": false,
+  "source_truth_mutated_any": false,
+  "status": "PASS",
+  "training_eligible_any": false
+}

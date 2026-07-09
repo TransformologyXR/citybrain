@@ -1,0 +1,46 @@
+# Package Contract — R10–R15
+
+Final output root:
+
+```text
+outputs/main_citybrain_metropolis_vss_evidence_replay_readiness_sprint_r10_r15
+```
+
+Final ZIP:
+
+```text
+METROPOLIS_VSS_EVIDENCE_REPLAY_READINESS_SPRINT_R10_R15_PACKAGE.zip
+```
+
+Required files:
+
+```text
+SPRINT_CLOSEOUT_DECISION_R15.json
+R10_R15_LINEAGE_SUMMARY.json
+RUNTIME_HOST_ALLOCATION_R10_R15.json
+OFFLINE_VIDEO_SOURCE_SELECTION_R10.json
+EVIDENCE_FRAME_MANIFEST_R10.json
+EVIDENCE_CLIP_MANIFEST_R10.json
+RTSP_REPLAY_INFRA_REPORT_R11.json
+LIVE_CAMERA_INTERFACE_CONTRACT_R11.json
+MULTIZONE_DEFINITION_R12.json
+MULTICLASS_POLICY_R12.json
+CANDIDATE_OBSERVATIONS_R12.jsonl
+HUMAN_REVIEW_UI_PACKET_R13.json
+CAMERA_SOURCE_REGISTRY_R14.json
+MEDIA_PROVENANCE_R14.json
+SOURCE_CLASS_SEPARATION_FINAL_AUDIT_R15.json
+CLAIM_BOUNDARY_FINAL_AUDIT_R15.json
+NO_ACTION_FINAL_AUDIT_R15.json
+VSS_NOT_FACT_SOURCE_FINAL_AUDIT_R15.json
+SECRET_AUDIT_R15.json
+KNOWN_LIMITATIONS_R15.md
+NEXT_SPRINT_RECOMMENDATIONS_R15.md
+HASH_MANIFEST.json
+```
+
+Optional files:
+- extracted frames under `evidence_frames/`
+- clips under `evidence_clips/`
+- RTSP config under `rtsp_replay/`
+- UI fixture examples under `ui_packets/`

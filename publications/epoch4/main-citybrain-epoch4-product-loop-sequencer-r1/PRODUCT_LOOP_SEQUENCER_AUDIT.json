@@ -1,0 +1,11 @@
+{
+  "artifact_id": "PRODUCT_LOOP_SEQUENCER_AUDIT",
+  "parallel_execution_allowed": false,
+  "parallel_execution_used": false,
+  "sequence": [
+    "MAIN-CITYBRAIN-EPOCH4-INCIDENT-PLAN-THREE-FAMILY-PRODUCT-LOOP-R1",
+    "MAIN-CITYBRAIN-EPOCH4-REVIEW-PACKET-360-R1",
+    "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-FINAL-REVERIFY-R1"
+  ],
+  "status": "PASS"
+}

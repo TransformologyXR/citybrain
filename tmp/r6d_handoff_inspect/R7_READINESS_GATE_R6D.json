@@ -1,0 +1,8 @@
+{
+  "next_task_when_ready": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-SMOKE-R7",
+  "r7_ready": false,
+  "reason": "Spark VSS is being installed; no successful configured probe has been recorded by this handoff package.",
+  "required_prior_success": "spark_vss_probe_status=SUCCESS",
+  "schema_version": "metropolis-vss-spark-split-host-readiness-r6d.v1",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPARK-SPLIT-HOST-READINESS-R6D"
+}

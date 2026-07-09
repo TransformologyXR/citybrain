@@ -1,0 +1,119 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 27208,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EVAL_CASES_4_FAMILY.json",
+      "sha256": "fa84b6dfce212956c3460e3511e5ed1f7d91310b4a770fb71028138ecf764cc7"
+    },
+    {
+      "bytes": 7674,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_BRIEF_BLOCKS.json",
+      "sha256": "aa827bb3e8a7bb733c3d4c75382b903ab969980101f1e59370660bc92398c999"
+    },
+    {
+      "bytes": 3472,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_CHECK_OUTCOMES.json",
+      "sha256": "62c6cb03f5e029f9f78965bbe5478f68c95fb447d7192127e3dc0b73510d9d7c"
+    },
+    {
+      "bytes": 3832,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_EVENT_STATE_ASSERTIONS.json",
+      "sha256": "378756662699dadabef9fc5010cc4cb77b81b34743585ba16c941e8ffd4897b2"
+    },
+    {
+      "bytes": 4972,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_SIMULATION_OPTION_ASSERTIONS.json",
+      "sha256": "e95ac84514676b24b86fa13d175bb95ff2efb05ec3046b761cc572577f28073e"
+    },
+    {
+      "bytes": 3439,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EXPECTED_SPATIAL_PACKET_ASSERTIONS.json",
+      "sha256": "e1330a873bd879ed5333dd45a9488980014083965d745615139702b658f087a3"
+    },
+    {
+      "bytes": 1367,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "eff949926281fa07b207ce025256325a494fa5e355a8e450a72138ce3bed8191"
+    },
+    {
+      "bytes": 252,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/NO_TRAINING_FUEL_GUARD.json",
+      "sha256": "1b09efff807759286b2e53ae82da5bff14eee5dacca86e8b1371d7e4b03269a1"
+    },
+    {
+      "bytes": 784,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/PRODUCT_LOOP_EVAL_CORPUS_DECISION.json",
+      "sha256": "a8cff88c73e31bc7f918d6cecc684ee60557770116ea55128d0e42e2e77ed76c"
+    },
+    {
+      "bytes": 3343,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/PRODUCT_LOOP_EVAL_CORPUS_INDEX.json",
+      "sha256": "6d28f814410fd555de6ccb8a6ed50c020cdf45083cdcde3a8ebecf318be9e163"
+    },
+    {
+      "bytes": 1345,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/REGRESSION_TEST_PLAN.json",
+      "sha256": "6def3b3a50159c73b4050dcdb9ac9115e5be8b9c7ba3580bde3626c97d1f3f0c"
+    },
+    {
+      "bytes": 27208,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/EVAL_CASES_4_FAMILY.json",
+      "sha256": "fa84b6dfce212956c3460e3511e5ed1f7d91310b4a770fb71028138ecf764cc7"
+    },
+    {
+      "bytes": 7674,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/EXPECTED_BRIEF_BLOCKS.json",
+      "sha256": "aa827bb3e8a7bb733c3d4c75382b903ab969980101f1e59370660bc92398c999"
+    },
+    {
+      "bytes": 3472,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/EXPECTED_CHECK_OUTCOMES.json",
+      "sha256": "62c6cb03f5e029f9f78965bbe5478f68c95fb447d7192127e3dc0b73510d9d7c"
+    },
+    {
+      "bytes": 3832,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/EXPECTED_EVENT_STATE_ASSERTIONS.json",
+      "sha256": "378756662699dadabef9fc5010cc4cb77b81b34743585ba16c941e8ffd4897b2"
+    },
+    {
+      "bytes": 4972,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/EXPECTED_SIMULATION_OPTION_ASSERTIONS.json",
+      "sha256": "e95ac84514676b24b86fa13d175bb95ff2efb05ec3046b761cc572577f28073e"
+    },
+    {
+      "bytes": 3439,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/EXPECTED_SPATIAL_PACKET_ASSERTIONS.json",
+      "sha256": "e1330a873bd879ed5333dd45a9488980014083965d745615139702b658f087a3"
+    },
+    {
+      "bytes": 1367,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "eff949926281fa07b207ce025256325a494fa5e355a8e450a72138ce3bed8191"
+    },
+    {
+      "bytes": 252,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/NO_TRAINING_FUEL_GUARD.json",
+      "sha256": "1b09efff807759286b2e53ae82da5bff14eee5dacca86e8b1371d7e4b03269a1"
+    },
+    {
+      "bytes": 784,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/PRODUCT_LOOP_EVAL_CORPUS_DECISION.json",
+      "sha256": "a8cff88c73e31bc7f918d6cecc684ee60557770116ea55128d0e42e2e77ed76c"
+    },
+    {
+      "bytes": 3343,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/PRODUCT_LOOP_EVAL_CORPUS_INDEX.json",
+      "sha256": "6d28f814410fd555de6ccb8a6ed50c020cdf45083cdcde3a8ebecf318be9e163"
+    },
+    {
+      "bytes": 1345,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-corpus-r1/REGRESSION_TEST_PLAN.json",
+      "sha256": "6def3b3a50159c73b4050dcdb9ac9115e5be8b9c7ba3580bde3626c97d1f3f0c"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-07T18:51:48Z",
+  "status": "PASS"
+}

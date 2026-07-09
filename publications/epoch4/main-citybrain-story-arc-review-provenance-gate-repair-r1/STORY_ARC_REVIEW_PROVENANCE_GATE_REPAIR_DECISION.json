@@ -1,0 +1,34 @@
+{
+  "artifact_id": "STORY_ARC_REVIEW_PROVENANCE_GATE_REPAIR_DECISION",
+  "asset_infrastructure_link_type": "corridor_context_not_same_entity",
+  "client_ready": false,
+  "decision": "WAIT_FOR_SECOND_INDEPENDENT_AI_ARTIFACT_REVIEW",
+  "deprecated_field": "shared_canonical_entity_3plus_gate_met",
+  "forbidden_capabilities_created": [],
+  "forecast_packet_created": false,
+  "founder_session_results_created": false,
+  "operator_fuel_created": false,
+  "product_review_ready": false,
+  "replacement_field": "shared_canonical_entity_family_span_gate_met",
+  "shared_canonical_entity_count": 1,
+  "shared_canonical_entity_family_span": 3,
+  "shared_canonical_entity_ref": "cer:building:alpha",
+  "source_artifact_hashes_after": {
+    "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json": "1bfad67c2f9c276c1bfdb44c6c4a5c7f3ec71676e0c19b2817d9f2567c2e2952",
+    "CROSS_DOMAIN_STORY_ARC_DECISION.json": "d9d2cf6bf067d2c0f88f1c0bc60407db317db938f57d6f9d1dafb025a44f4d2f",
+    "CROSS_FAMILY_CAUSAL_LINK_LEDGER.json": "224e358a1a4fcef1c3190e4de068cdf8c2cc79a06f93982510336c984ee66065",
+    "STORY_ARC_REVIEW_PACKET_360.json": "8f8a738f17c628f6dbb05c27978e955effb3228aa4c11af5106f883eb2ae3f8f"
+  },
+  "source_artifact_hashes_before": {
+    "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json": "1bfad67c2f9c276c1bfdb44c6c4a5c7f3ec71676e0c19b2817d9f2567c2e2952",
+    "CROSS_DOMAIN_STORY_ARC_DECISION.json": "d9d2cf6bf067d2c0f88f1c0bc60407db317db938f57d6f9d1dafb025a44f4d2f",
+    "CROSS_FAMILY_CAUSAL_LINK_LEDGER.json": "224e358a1a4fcef1c3190e4de068cdf8c2cc79a06f93982510336c984ee66065",
+    "STORY_ARC_REVIEW_PACKET_360.json": "8f8a738f17c628f6dbb05c27978e955effb3228aa4c11af5106f883eb2ae3f8f"
+  },
+  "source_artifacts_rewritten": false,
+  "source_story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_STORY_ARC_REVIEW_PROVENANCE_GATE_REPAIR_R1_WITH_LIMITATIONS",
+  "training_rows_created": false,
+  "true_second_independent_ai_artifact_review_count": 0
+}

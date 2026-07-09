@@ -1,0 +1,69 @@
+{
+  "accepted_status": "PASS_METROPOLIS_VSS_BMD45_REPLAY_BENCHMARK_REGRESSION_HARNESS_R19_WITH_LIMITATIONS",
+  "created_at": "2026-07-04T16:22:10Z",
+  "hash_manifest": {
+    "expected": 36,
+    "mismatches": [],
+    "missing": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "status": "PASS",
+    "verified": 0
+  },
+  "json_parse": {
+    "count": 19,
+    "status": "PASS"
+  },
+  "jsonl_parse": {
+    "counts": {
+      "DEEPSTREAM_RAW_METADATA_R19.jsonl": 166,
+      "FRAME_COMPARISON_RECORDS_R19.jsonl": 8,
+      "SENSOR_INFERRED_CANDIDATE_OBSERVATIONS_R19.jsonl": 166
+    },
+    "status": "PASS"
+  },
+  "notes": [
+    "R19 is accepted as the benchmark/regression source of truth for R20.",
+    "R20 should not re-run DeepStream unless explicitly requested; it should transform R19 benchmark outputs into review/cockpit packets."
+  ],
+  "package_path": "/mnt/data/METROPOLIS_VSS_BMD45_REPLAY_BENCHMARK_REGRESSION_HARNESS_R19_PACKAGE.zip",
+  "schema_version": "metropolis-vss-bmd45-human-review-benchmark-packet-r20.r19_inspection.v1",
+  "status": "PASS",
+  "zip_entries": 37,
+  "zip_integrity": "PASS"
+}

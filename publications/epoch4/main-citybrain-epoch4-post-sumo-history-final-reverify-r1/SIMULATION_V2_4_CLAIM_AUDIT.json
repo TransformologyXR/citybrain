@@ -1,0 +1,14 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "SIMULATION_V2_4_CLAIM_AUDIT",
+  "calibrated_simulation_claim_created": false,
+  "deterministic_option_runs": true,
+  "family_count": 3,
+  "product_forecast_surface_created": false,
+  "real_sumo_smoke_executed": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_not_applicable_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay"
+  ]
+}

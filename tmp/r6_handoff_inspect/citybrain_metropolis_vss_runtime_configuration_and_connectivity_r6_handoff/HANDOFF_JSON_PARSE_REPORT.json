@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-07-03T21:33:50.495449+00:00",
+  "errors": [],
+  "json_files": [
+    "GUARDRAIL_TERMS_R6.json",
+    "INPUT_R5_VALIDATION_SUMMARY.json",
+    "R5_ARTIFACT_INSPECTION_REPORT.json",
+    "SCHEMA_DECISION_R6.json",
+    "SCHEMA_VSS_RUNTIME_CONFIGURATION_R6.json",
+    "SCHEMA_VSS_RUNTIME_CONNECTIVITY_PROBE_R6.json",
+    "STATUS_ENUMS_R6.json"
+  ],
+  "schema_version": "handoff-json-parse-report.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,37 @@
+{
+  "allowed_states": [
+    "real_run",
+    "fixture_only",
+    "unavailable",
+    "not_calibrated"
+  ],
+  "artifact_id": "SIMULATION_V2_2_CONNECTOR_PROBE_RESULTS",
+  "generated_at": "2026-07-07T15:53:24Z",
+  "honesty_note": "No real calibrated simulator run is claimed by this package.",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-SIMULATION-V2-2-REAL-CONNECTOR-FIDELITY-LADDER-R1",
+  "probes": [
+    {
+      "connector": "sumo",
+      "executable_found": true,
+      "executable_path": "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo.EXE",
+      "real_run_executed": false,
+      "reason": "Executable detected but no calibrated local run contract exists.",
+      "state": "not_calibrated"
+    },
+    {
+      "connector": "cuopt",
+      "executable_found": false,
+      "executable_path": null,
+      "real_run_executed": false,
+      "reason": "Executable not found in PATH.",
+      "state": "unavailable"
+    },
+    {
+      "connector": "local_fixture_runner",
+      "real_run_executed": false,
+      "state": "fixture_only"
+    }
+  ],
+  "real_connector_run_count": 0,
+  "status": "PASS_WITH_LIMITATIONS"
+}

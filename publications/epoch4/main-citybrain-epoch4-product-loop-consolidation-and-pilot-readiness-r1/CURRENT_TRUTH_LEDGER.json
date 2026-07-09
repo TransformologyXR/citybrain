@@ -1,0 +1,153 @@
+{
+  "artifact_id": "CURRENT_TRUTH_LEDGER",
+  "current_truth": {
+    "brief_variant_count": 3,
+    "brief_variant_parity": true,
+    "control_family": "mobility_access_interruption",
+    "diff_fixture_count": 32,
+    "event_story_count": 4,
+    "governance_files_scanned": 4550,
+    "parallel_execution_used": false,
+    "product_posture": "bounded three-family local/replay/review product loop with diagnostic assets",
+    "review_packet_360_verified": true,
+    "scorecard_count": 9,
+    "selected_families": [
+      "building_compliance_perception_candidate",
+      "permit_inspection_delay",
+      "city_asset_infrastructure_issue"
+    ],
+    "selected_family_count": 3,
+    "source_registry_v1_1_source_count": 664
+  },
+  "generated_at": "2026-07-07T15:53:23Z",
+  "input_audit": [
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "sprint0_check_cer",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "track1_scenario_scout",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/TOP_3_FAMILY_SELECTION.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "track2_event_fabric_v2_1",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_FABRIC_V2_1_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACK2_EVENT_FABRIC_V2_1_MULTI_FAMILY_HARDENING_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": "outputs/main_citybrain_epoch4_track3_simulation_v2_1_connector_upgrade_path",
+      "exists": true,
+      "key": "track3_simulation_v2_1",
+      "ok": true,
+      "path": "outputs/track3_simulation_v2_1_connector_upgrade_path/SIMULATION_V2_1_CONNECTOR_UPGRADE_DECISION.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "track4_source_registry_v1",
+      "ok": true,
+      "path": "outputs/main_citybrain_track4_source_registry_v1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_TRACK4_SOURCE_REGISTRY_V1_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "track5_data_maturity_r1",
+      "ok": true,
+      "path": "outputs/main_citybrain_track5_data_quality_maturity_dashboard_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_TRACK5_DATA_QUALITY_MATURITY_DASHBOARD_R1_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "track6_brief_v3",
+      "ok": true,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_HARDENING_DECISION.json",
+      "status": "PASS_TRACK6_BRIEF_V3_EXPORT_HARDENING_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "track7_diff_readiness",
+      "ok": true,
+      "path": "outputs/track7_diff_source_refresh_readiness/TRACK7_DIFF_SOURCE_REFRESH_DECISION.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "package_a_event_stories_source_diff",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/TRACKA_EVENT_STORIES_SOURCE_DIFF_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKA_EVENT_STORIES_SOURCE_DIFF_R1_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "package_b_maturity_brief_governance",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "review_packet_360",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+    },
+    {
+      "equivalent_for": null,
+      "exists": true,
+      "key": "product_loop_final_reverify",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/PRODUCT_LOOP_FINAL_REVERIFY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "limitations": [
+    "human/founder review sessions have not run",
+    "diagnostic and review outputs are not production monitoring",
+    "simulation remains no-forecast and bounded by explicit assumptions",
+    "no official workflow, case, ticket, dispatch, control, or enforcement adapter exists"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-CONSOLIDATION-AND-PILOT-READINESS-R1",
+  "parked": [
+    "founder_review_sessions",
+    "ui_ux_sprint",
+    "live_or_production_ingestion",
+    "official_workflow_adapter",
+    "forecast_productization",
+    "learned_ranking",
+    "case_memory_learner",
+    "cross_city_learned_transfer"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "status_by_track": {
+    "package_a_event_stories_source_diff": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKA_EVENT_STORIES_SOURCE_DIFF_R1_WITH_LIMITATIONS",
+    "package_b_maturity_brief_governance": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS",
+    "product_loop_final_reverify": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+    "review_packet_360": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS",
+    "sprint0_check_cer": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS",
+    "track1_scenario_scout": "PASS_WITH_LIMITATIONS",
+    "track2_event_fabric_v2_1": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACK2_EVENT_FABRIC_V2_1_MULTI_FAMILY_HARDENING_WITH_LIMITATIONS",
+    "track3_simulation_v2_1": "PASS_WITH_LIMITATIONS",
+    "track4_source_registry_v1": "PASS_MAIN_CITYBRAIN_TRACK4_SOURCE_REGISTRY_V1_WITH_LIMITATIONS",
+    "track5_data_maturity_r1": "PASS_MAIN_CITYBRAIN_TRACK5_DATA_QUALITY_MATURITY_DASHBOARD_R1_WITH_LIMITATIONS",
+    "track6_brief_v3": "PASS_TRACK6_BRIEF_V3_EXPORT_HARDENING_WITH_LIMITATIONS",
+    "track7_diff_readiness": "PASS_WITH_LIMITATIONS"
+  }
+}

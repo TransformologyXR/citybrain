@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "counts": {
+      "type": "object"
+    },
+    "current_events": {
+      "type": "array"
+    },
+    "history": {
+      "type": "array"
+    },
+    "state_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "state_id",
+    "current_events",
+    "history",
+    "counts"
+  ],
+  "title": "EventState",
+  "type": "object"
+}

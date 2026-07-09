@@ -1,0 +1,11 @@
+{
+  "next_recommended_move": "RUN_FOUNDER_DIAGNOSTIC_REVIEW",
+  "not_recommended_now": [
+    "PREPARE_PRODUCT_REVIEW_LATER",
+    "client_ready_claim",
+    "learning_readiness",
+    "live_ingestion"
+  ],
+  "rationale": "R4 cards are diagnostic-ready, not product-review-ready; global data gap queues are now visible and candidate-only.",
+  "status": "PASS"
+}

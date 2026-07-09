@@ -1,0 +1,53 @@
+id: epoch3_arming_status
+component_kind: watch_family
+status: proposed_day_one
+scope: epoch3_entry_gate
+manifest_ref: epoch3_arming_manifest.json
+purpose: >
+  Watch CityBrain's own Epoch 3 fuel gauge. Evaluate machine-readable arming
+  thresholds, publish status, and emit ledger rows when increments transition
+  from not_armed to armed.
+inputs:
+  - OutcomeRecord
+  - CalibrationReport
+  - WatchTelemetry
+  - ExposureLog
+  - OperatorValidationLog
+  - SyntheticManifest
+  - ScenarioReplayManifest
+  - ComponentRegistry
+  - LearnedComponentRegistry
+  - CorpusManifest
+outputs:
+  - ArmingStatusReport
+  - EPOCH3_ARMING_THRESHOLD_CROSSED ledger rows on transitions
+arming_semantics: MAY_BEGIN_UNDER_CADENCE_AFTER_ARMING_LEDGER_ROW_NOT_STARTED
+polling:
+  default: on_demand_or_daily
+  allowed: [on_demand, daily, closeout]
+metrics_strategy:
+  preferred: consume_filtered_aggregates_from_telemetry
+  allowed_fallback: compute_filtered_aggregates_from_raw_records
+  missing_metric_behavior: failed_requirement_and_limitation_row
+ledger_behavior:
+  emit_on_transition_only: true
+  threshold_crossing_event: EPOCH3_ARMING_THRESHOLD_CROSSED
+  crossing_does_not_start_work: true
+  required_fields:
+    - gate_id
+    - increment_id
+    - previous_state
+    - new_state
+    - satisfied_requirements
+    - metrics_snapshot_ref
+    - manifest_ref
+    - report_ref
+    - hash_manifest_ref
+non_claims:
+  - no_official_action
+  - no_dispatch
+  - no_enforcement
+  - no_certified_or_legal_finding
+  - no_live_production_api_claim
+  - no_silent_model_launch
+  - no_autonomous_action

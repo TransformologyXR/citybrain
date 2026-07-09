@@ -1,0 +1,14 @@
+{
+  "actions": [
+    "Create native Review Packet 360 family packet evidence for mobility_access_interruption_v0 from source records, CER/SEG, CHECK actual outcomes, event state, simulation/not-applicable context, BRIEF, and spatial refs.",
+    "Keep the R3 derived backfill labeled as derived_review_packet_backfill_not_source_truth until native packet evidence exists.",
+    "Do not run founder review or product review from this gate."
+  ],
+  "all_family_packet_weakness_detected": false,
+  "artifact_id": "REVIEW_PACKET_360_ALL_FAMILY_REPAIR_PLAN",
+  "mobility_only_native_gap": true,
+  "native_incomplete_families": [
+    "mobility_access_interruption_v0"
+  ],
+  "recommendation": "MOBILITY_NATIVE_PACKET_REPAIR_ONLY"
+}

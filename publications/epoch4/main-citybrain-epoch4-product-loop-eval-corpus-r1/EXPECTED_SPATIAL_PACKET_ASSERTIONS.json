@@ -1,0 +1,102 @@
+{
+  "artifact_id": "EXPECTED_SPATIAL_PACKET_ASSERTIONS",
+  "assertions": [
+    {
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:building_compliance_perception_candidate:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:building_compliance_perception_candidate:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:building_compliance_perception_candidate:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:city_asset_infrastructure_issue:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:city_asset_infrastructure_issue:atlas_overlay"
+      ]
+    },
+    {
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "no_live_control_claim": true,
+      "no_official_action_claim": true,
+      "spatial_refs": [
+        "spatial:v2_5:city_asset_infrastructure_issue:atlas_overlay"
+      ]
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

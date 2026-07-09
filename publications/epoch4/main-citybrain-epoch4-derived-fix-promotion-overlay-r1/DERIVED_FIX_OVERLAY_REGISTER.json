@@ -1,0 +1,1607 @@
+{
+  "artifact_id": "DERIVED_FIX_OVERLAY_REGISTER",
+  "overlay_count": 50,
+  "overlays": [
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:3ce592813e9cdb1f",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:107abd2020814b7c",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-01"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:93ea1c447214a1f3",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:60ee3e2f0201d6ac",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-02"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:af6621c9506ce13c",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:fbb74c3aa4879bd8",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-03"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:a87fd7d7d05a0d2e",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:b3871caf4eebf5b9",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-04"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:e08df54afa5314eb",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:c99c60d157480194",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-05"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:d924930e6aaf58d9",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:a8b1b654f3d8df5d",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-06"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:8ced270c6596704a",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:8adcb90589e2e0a2",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-07"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:2eab0106b3d7d188",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:6342261f2824236c",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-08"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:6a8c304203be6261",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:57af58d14b5e6312",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-09"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:71bb9cececf7a1ff",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:3edeaf2e63667852",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "identity_ambiguity",
+      "requires_review": true,
+      "source_candidate_id": "cer_identity_bridge_candidate:identity-cluster-10"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:c3791545d07d30c6",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:0b097f536ca9b3a4",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-01"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:feb0290ebad0755b",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:0574972373bd62f8",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-02"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:476edc7e79550cac",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:d2bf6cafac5d223e",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-03"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:cb9ebcc57e7afecc",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:017b4b784cde58e7",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-04"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:60af8e5e444e224f",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:b0c993cf5818089a",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-05"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:c3020e07bf6f9296",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:d77c234a71f751e4",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-06"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:d1c39acdedd97fc1",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:decdb5e215c91c8b",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-07"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:e431c696029c639a",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:f6d30b00358b0018",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-08"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:a71c920c25ee1208",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:2383acaa32b8b01d",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-09"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:164c7374d6326f7d",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": true,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:0fc9fc75fffe7c8c",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "freshness_coverage",
+      "requires_review": true,
+      "source_candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-10"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:bd2abe1c3ae5067a",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:1568006ec1155b78",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-01"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:816cc5be550dc8b8",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:e4043ad6bf09d58c",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-02"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:5392e888ffcea783",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:327482b8d4c97a0a",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-03"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:2be36476301ffa31",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:0616a7e75a8c4cef",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-04"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:d42cc15e51b0272b",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:72f55c38d9f1fda4",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-05"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:7b354232c84d0c96",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:246508d37f0f2cfe",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-06"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:26b6893dfade4b61",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:ad48947b0aa905e9",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-07"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:ab5bf31d42811e68",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:450ebab8db985d61",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-08"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:2af15e8f9c901919",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:cd5c3578697dc379",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-09"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:5a6a97ad0ac3ae5f",
+      "effect_type": {
+        "check_clarity": false,
+        "evidence_quality": true,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:954a38d2fb66ad89",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "geometry_time_history",
+      "requires_review": true,
+      "source_candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-10"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:b1170c5f0c3fa4a6",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:1e867fecdc038fdf",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-01"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:e2570cab6b413be1",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:f43c73a5bd1cb3d1",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-02"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:fdffb44662b97dc5",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:05e58dc91b46728b",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-03"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:6f73cef9208eb645",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:754b642ef351d687",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-04"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:b7c66a59b3e7ef6f",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:3f77d2378effd54f",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-05"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:9e3065d0c6e00547",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:df9250587c6d7628",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-06"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:1700c49cf1dff36e",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:ef63c9ceea4dd2d7",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-07"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:a173cad9f4ea7c9a",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:bea6971bd1ea3b77",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-08"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:086a9d5f384d1a8d",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:d52febecfdd6c7ef",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-09"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:8822f0ef5608e52c",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": false
+      },
+      "overlay_id": "derived_overlay:a67915ec1455e95b",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "check_downgrade",
+      "requires_review": true,
+      "source_candidate_id": "check_downgrade_fixture_candidate:check-downgrade-10"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:54f0f646ae477cea",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:1c4b86aefd55a75a",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-01"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:0e4f93765a3ca5fc",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:a589f89aead5cc9a",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-02"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:8d0cbacfc0431741",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:2c2bc08f4a859cdf",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-03"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:fae5d203907aee59",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:870710acfd822888",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-04"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:9cbcd15ce147c5e7",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:11573783544cb96d",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-05"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:6ca620e44a4528c1",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:aa169ae1538323a8",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-06"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:41b72a6855b40465",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:57d6711ccd0fa73c",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-07"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:ba0094b014c100cd",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:23d905af26ffd224",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-08"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:0260ad48149cb647",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:8dc1a713580b8edd",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-09"
+    },
+    {
+      "affected_eval_cases": [
+        "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+        "eval-r2:mobility_access_interruption_v0:negative_no_data",
+        "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+        "eval-r2:mobility_access_interruption_v0:stale_freshness",
+        "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+        "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+        "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+        "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+        "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+        "eval-r2:mobility_access_interruption_v0:source_depth_thin",
+        "eval-r2:mobility_access_interruption_v0:source_class_boundary",
+        "eval-r2:mobility_access_interruption_v0:spatial_packet_gap"
+      ],
+      "affected_family": [
+        "mobility_access_interruption_v0"
+      ],
+      "derived_fix_id": "derived_pre_probe_fix:f79184ee5a5cd562",
+      "effect_type": {
+        "check_clarity": true,
+        "evidence_quality": false,
+        "review_packet_completeness": true
+      },
+      "overlay_id": "derived_overlay:a6a316c2d74094bd",
+      "permitted_scope": "derived_overlay_only",
+      "promoted_to_canonical_truth": false,
+      "promoted_to_source_truth": false,
+      "queue": "source_registry_enrichment",
+      "requires_review": true,
+      "source_candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-10"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

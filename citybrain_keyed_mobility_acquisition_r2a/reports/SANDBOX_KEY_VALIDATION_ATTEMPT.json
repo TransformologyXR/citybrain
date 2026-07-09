@@ -1,0 +1,28 @@
+{
+  "status": "INCONCLUSIVE_SANDBOX_DNS_BLOCKED",
+  "attempted_at": "2026-07-07T16:55:00Z",
+  "secret_values_logged": false,
+  "tests": [
+    {
+      "name": "lta_busstops_skip0",
+      "host": "datamall2.mytransport.sg",
+      "result": "DNS_RESOLUTION_FAILED_BEFORE_AUTH"
+    },
+    {
+      "name": "lta_traffic_incidents",
+      "host": "datamall2.mytransport.sg",
+      "result": "DNS_RESOLUTION_FAILED_BEFORE_AUTH"
+    },
+    {
+      "name": "tfl_tube_status",
+      "host": "api.tfl.gov.uk",
+      "result": "DNS_RESOLUTION_FAILED_BEFORE_AUTH"
+    },
+    {
+      "name": "tfl_stop_points_tube",
+      "host": "api.tfl.gov.uk",
+      "result": "DNS_RESOLUTION_FAILED_BEFORE_AUTH"
+    }
+  ],
+  "interpretation": "This does not prove the keys are invalid. Run the packaged smoke from a networked Codex/local environment."
+}

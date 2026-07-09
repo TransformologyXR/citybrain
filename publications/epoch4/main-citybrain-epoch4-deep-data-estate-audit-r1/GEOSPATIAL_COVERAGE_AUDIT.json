@@ -1,0 +1,16 @@
+{
+  "artifact_id": "GEOSPATIAL_COVERAGE_AUDIT",
+  "generated_at": "2026-07-08T09:24:24Z",
+  "geometry_counts": {
+    "indirect_location_only": 14,
+    "missing_or_unknown": 526,
+    "present": 124
+  },
+  "geometry_present_or_partial_count": 124,
+  "limitations": [
+    "Geometry status is registry-derived; this audit does not open or validate every geospatial payload."
+  ],
+  "missing_or_unknown_geometry_count": 526,
+  "source_count": 664,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,20 @@
+{
+  "all_inputs_found": true,
+  "all_inputs_passed": true,
+  "artifact_id": "DECISION",
+  "event_fabric_v2_4_consumption_verified": true,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T16:50:30Z",
+  "limitations": [
+    "SUMO option run is synthetic and not calibrated",
+    "Event Fabric V2.4 is local/replay scale only",
+    "Review Packet 360 V2 and binder are internal no-session artifacts",
+    "founder review, UI/UX, live ingestion, forecasts, learned ranking, official workflows, and source-truth mutation remain parked"
+  ],
+  "no_session_no_fuel_verified": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-POST-SUMO-HISTORY-FINAL-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "review_packet_360_v2_parity_verified": true,
+  "simulation_v2_4_verified": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+}

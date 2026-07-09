@@ -1,0 +1,15 @@
+{
+  "artifact_id": "DECISION",
+  "dispositions_created": false,
+  "event_fabric_v2_4_included": true,
+  "family_count": 3,
+  "forbidden_capabilities_created": [],
+  "founder_review_session_run": false,
+  "generated_at": "2026-07-07T16:50:30Z",
+  "minimum_family_count_met": true,
+  "operator_or_founder_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REVIEW-PACKET-360-V2-PILOT-BINDER-REFRESH-R1",
+  "packet_parity_passed": true,
+  "simulation_v2_4_included": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS"
+}

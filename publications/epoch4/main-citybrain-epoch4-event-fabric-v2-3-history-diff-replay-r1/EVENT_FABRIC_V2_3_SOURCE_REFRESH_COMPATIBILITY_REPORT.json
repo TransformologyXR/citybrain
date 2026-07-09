@@ -1,0 +1,14 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_3_SOURCE_REFRESH_COMPATIBILITY_REPORT",
+  "compatible_with_track7_source_refresh_readiness": true,
+  "compatible_with_tracka_diff_designed_change_fixtures": true,
+  "live_source_fetch_performed": false,
+  "logical_snapshots": [
+    "snapshot_001",
+    "snapshot_002",
+    "snapshot_003"
+  ],
+  "source_refresh_claim": "replay_compatible_not_live_refresh",
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

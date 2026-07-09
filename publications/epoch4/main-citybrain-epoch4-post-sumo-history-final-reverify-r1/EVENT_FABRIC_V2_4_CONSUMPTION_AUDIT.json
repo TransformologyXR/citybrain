@@ -1,0 +1,11 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_CONSUMPTION_AUDIT",
+  "event_count": 280,
+  "family_count": 4,
+  "live_ingestion_created": false,
+  "minimum_event_count_met": true,
+  "minimum_family_count_met": true,
+  "replay_deterministic": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "watch_check_brief_spatial_consumption_verified": true
+}

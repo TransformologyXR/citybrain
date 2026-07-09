@@ -1,0 +1,24 @@
+{
+  "forbidden_claim_terms": [
+    "confirmed violation",
+    "legal finding",
+    "ticket created",
+    "official case",
+    "dispatch",
+    "route unit",
+    "enforcement",
+    "identity",
+    "face recognition",
+    "biometric",
+    "license plate identity",
+    "autonomous action"
+  ],
+  "required_safe_framing_terms_any": [
+    "candidate",
+    "model-generated",
+    "human review",
+    "not a finding",
+    "uncertain"
+  ],
+  "source_class_required": "model_generated_narrative"
+}

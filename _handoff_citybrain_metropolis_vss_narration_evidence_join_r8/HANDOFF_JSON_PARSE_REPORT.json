@@ -1,0 +1,8 @@
+{
+  "schema_version": "metropolis-vss-narration-evidence-join-r8.v1",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-EVIDENCE-JOIN-R8",
+  "status": "PASS",
+  "json_files_parsed": 7,
+  "jsonl_files_parsed": 0,
+  "failures": []
+}

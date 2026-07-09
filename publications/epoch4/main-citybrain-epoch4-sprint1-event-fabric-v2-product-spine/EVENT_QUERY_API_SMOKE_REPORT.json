@@ -1,0 +1,12 @@
+{
+  "artifact_id": "EVENT_QUERY_API_SMOKE_REPORT",
+  "query_count": 5,
+  "query_types": [
+    "active_near_entity",
+    "events_by_entity",
+    "unresolved_events",
+    "quarantine",
+    "event_trace"
+  ],
+  "status": "PASS"
+}

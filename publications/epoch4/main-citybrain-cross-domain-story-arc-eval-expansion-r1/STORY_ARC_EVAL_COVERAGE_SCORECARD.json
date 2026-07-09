@@ -1,0 +1,49 @@
+{
+  "artifact_id": "STORY_ARC_EVAL_COVERAGE_SCORECARD",
+  "category_counts": {
+    "cer_identity_ambiguity": 8,
+    "check_cannot_claim_boundary": 8,
+    "contradiction": 8,
+    "cross_family_linkage": 24,
+    "entity_resolution": 16,
+    "family_positive": 32,
+    "no_data_insufficient": 8,
+    "quarantine_unresolved": 8,
+    "stale_freshness": 8
+  },
+  "challenge_negative_case_count": 70,
+  "combined_160_target_met_if_existing_discoverable": true,
+  "combined_eval_case_count": 168,
+  "cross_family_20plus_met": true,
+  "cross_family_case_count": 40,
+  "each_family_has_20plus_cases": true,
+  "existing_eval_case_count": 48,
+  "family_case_counts": {
+    "building_compliance_perception_candidate": 39,
+    "city_asset_infrastructure_issue": 26,
+    "mobility_access_interruption_v0": 55,
+    "permit_inspection_delay": 44
+  },
+  "minimum_distribution_met": {
+    "cer_identity_ambiguity_8plus": true,
+    "challenge_negative_16plus": true,
+    "check_cannot_claim_boundary_8plus": true,
+    "contradiction_8plus": true,
+    "no_data_insufficient_8plus": true,
+    "quarantine_unresolved_8plus": true,
+    "stale_freshness_8plus": true
+  },
+  "negative_or_challenge_counts": {
+    "cannot_claim_boundary": 8,
+    "cer_identity_context": 16,
+    "contradiction": 8,
+    "cross_family_challenge": 6,
+    "duplicate_candidate_ambiguity": 8,
+    "no_data_or_insufficient_evidence": 8,
+    "quarantine_or_unresolved": 8,
+    "stale_or_unknown_freshness": 8
+  },
+  "new_eval_case_count": 120,
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+  "target_new_eval_case_count_met": true
+}

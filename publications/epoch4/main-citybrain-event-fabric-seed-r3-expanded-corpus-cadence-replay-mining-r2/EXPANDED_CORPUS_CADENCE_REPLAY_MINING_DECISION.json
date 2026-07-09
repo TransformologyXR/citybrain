@@ -1,0 +1,39 @@
+{
+  "artifact_id": "EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION",
+  "cadence_determinism_gate_pass": true,
+  "cadence_modes": [
+    "batch",
+    "10x",
+    "60x",
+    "wall_clock_simulated"
+  ],
+  "canonical_loop_family_ids": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "disagreement_count": 0,
+  "duplicate_candidate_ambiguity_count": 8,
+  "events_per_family": {
+    "building_compliance_perception_candidate": 20,
+    "city_asset_infrastructure_issue": 20,
+    "mobility_access_interruption_v0": 20,
+    "permit_inspection_delay": 20
+  },
+  "expanded_corpus_root": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1",
+  "family_count": 4,
+  "forbidden_capabilities_created": [],
+  "identical_final_state_hash": true,
+  "identical_resolved_unresolved_quarantine_partition": true,
+  "input_event_count": 80,
+  "input_expansion_status": "PASS_MAIN_CITYBRAIN_SEED_R3_ADAPTER_CORPUS_EXPANSION_R1_WITH_LIMITATIONS",
+  "input_integrity_pass": true,
+  "not_real_world_resolution_quality_signal": true,
+  "quarantine_expected_count": 20,
+  "queue_mining_classification": "bounded_synthetic_resolution_signal_depth_20_per_family",
+  "resolved_count": 40,
+  "status": "PASS_MAIN_CITYBRAIN_EVENT_FABRIC_SEED_R3_EXPANDED_CORPUS_CADENCE_REPLAY_MINING_R2_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2",
+  "unresolved_review_count": 20
+}

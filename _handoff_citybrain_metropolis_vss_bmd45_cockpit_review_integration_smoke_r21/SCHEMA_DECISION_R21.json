@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "app_surface_available": {
+      "type": "boolean"
+    },
+    "audits": {
+      "type": "object"
+    },
+    "cockpit_integration_packet_emitted": {
+      "type": "boolean"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "human_review_packet_consumed": {
+      "type": "boolean"
+    },
+    "r20_input_validation": {
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "source_classes": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-COCKPIT-REVIEW-INTEGRATION-SMOKE-R21"
+    }
+  },
+  "required": [
+    "task_id",
+    "status",
+    "final_status",
+    "r20_input_validation",
+    "human_review_packet_consumed",
+    "cockpit_integration_packet_emitted",
+    "source_classes",
+    "audits"
+  ],
+  "title": "R21 closeout decision",
+  "type": "object"
+}

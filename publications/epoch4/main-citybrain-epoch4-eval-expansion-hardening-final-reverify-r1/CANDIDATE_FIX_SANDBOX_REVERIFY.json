@@ -1,0 +1,8 @@
+{
+  "artifact_id": "CANDIDATE_FIX_SANDBOX_REVERIFY",
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_CANDIDATE_FIX_EFFECT_SANDBOX_R1_WITH_LIMITATIONS",
+  "derived_fix_count": 50,
+  "promoted_to_authoritative_truth": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

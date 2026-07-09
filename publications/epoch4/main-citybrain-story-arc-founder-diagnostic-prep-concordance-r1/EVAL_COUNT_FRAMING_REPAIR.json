@@ -1,0 +1,17 @@
+{
+  "artifact_id": "EVAL_COUNT_FRAMING_REPAIR",
+  "challenge_cases_are_subset_of_unique_eval_cases": true,
+  "combined_unique_eval_case_count": 168,
+  "count_framing_statement": "120 unique story-arc eval cases; 70 challenge/negative cases are a subset of those cases, not additional cases.",
+  "forbidden_190_case_claim_created": false,
+  "prior_eval_case_count": 48,
+  "prior_eval_cases_discovered": true,
+  "source_refs": [
+    "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/STORY_ARC_EVAL_EXPANSION_CASES.jsonl",
+    "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/STORY_ARC_NEGATIVE_CHALLENGE_CASES.jsonl"
+  ],
+  "story_arc_additive_eval_count": 120,
+  "story_arc_challenge_negative_cases": 70,
+  "story_arc_not_120_plus_70": true,
+  "story_arc_unique_eval_cases": 120
+}

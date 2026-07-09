@@ -1,0 +1,41 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_TASK_QUEUE_R1",
+  "source_refs": [
+    "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+    "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/PRODUCT_LOOP_FINAL_REVERIFY_DECISION.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_count": 3,
+  "tasks": [
+    {
+      "creates_operator_fuel": false,
+      "creates_session_result": false,
+      "expected_output": "qualitative feedback form only",
+      "family_id": "building_compliance_perception_candidate",
+      "objective": "Review Building Compliance Perception Candidate packet for clarity, trust, and product value.",
+      "review_packet_ref": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json#building_compliance_perception_candidate",
+      "task_id": "founder-prep-building_compliance_perception_candidate",
+      "training_eligible": false
+    },
+    {
+      "creates_operator_fuel": false,
+      "creates_session_result": false,
+      "expected_output": "qualitative feedback form only",
+      "family_id": "permit_inspection_delay",
+      "objective": "Review Permit Inspection Delay packet for clarity, trust, and product value.",
+      "review_packet_ref": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json#permit_inspection_delay",
+      "task_id": "founder-prep-permit_inspection_delay",
+      "training_eligible": false
+    },
+    {
+      "creates_operator_fuel": false,
+      "creates_session_result": false,
+      "expected_output": "qualitative feedback form only",
+      "family_id": "city_asset_infrastructure_issue",
+      "objective": "Review City Asset Infrastructure Issue packet for clarity, trust, and product value.",
+      "review_packet_ref": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_BY_FAMILY.json#city_asset_infrastructure_issue",
+      "task_id": "founder-prep-city_asset_infrastructure_issue",
+      "training_eligible": false
+    }
+  ]
+}

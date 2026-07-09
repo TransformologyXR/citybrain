@@ -1,0 +1,90 @@
+{
+  "artifact_id": "EXPANDED_CORPUS_QUEUE_REASON_DISTRIBUTION_REPLAY_VALIDATED",
+  "classification": "bounded_synthetic_resolution_signal_depth_20_per_family",
+  "input_artifact": "SEED_R3_EXPANDED_QUEUE_REASON_DISTRIBUTION.json",
+  "input_by_family": {
+    "building_compliance_perception_candidate": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "mobility_access_interruption_v0": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "permit_inspection_delay": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    }
+  },
+  "matches_input_distribution": true,
+  "replay_by_family": {
+    "building_compliance_perception_candidate": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "mobility_access_interruption_v0": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "permit_inspection_delay": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    }
+  }
+}

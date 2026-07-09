@@ -1,0 +1,256 @@
+{
+  "overlay_count": 25,
+  "overlays": [
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0001",
+      "not_source_truth": true,
+      "proposed_field": "source_class",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:amb_gtfs_realtime_bus"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0002",
+      "not_source_truth": true,
+      "proposed_field": "source_class",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:amb_open_data_help"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0003",
+      "not_source_truth": true,
+      "proposed_field": "source_class",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_bicing_gbfs_gbfs_json"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0004",
+      "not_source_truth": true,
+      "proposed_field": "source_class",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_bicing_gbfs_station_information"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0005",
+      "not_source_truth": true,
+      "proposed_field": "source_class",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_bicing_gbfs_station_status"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0006",
+      "not_source_truth": true,
+      "proposed_field": "source_class",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_bicing_gbfs_system_information"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0007",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:bicing_gbfs_public_realtime_feeds"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0008",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:air_quality_stations_and_measurements"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0009",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_2"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0010",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_3"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0011",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_estacions_bcn_1"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0012",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_facilities_equipament_companyies_de_serveis_2"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0013",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_facilities_equipament_mitjans_de_comunicacio_i_serveis_relacionats_3"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0014",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_facilities_equipament_transports_i_serveis_relacionats_1"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0015",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_iris_iris_1"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0016",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_iris_iris_2"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0017",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_iris_iris_3"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0018",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_noise_risc_contaminacio_acustica_1"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0019",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_noise_risc_contaminacio_acustica_2"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0020",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_noise_xarxasoroll_equipsmonitor_instal_3"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0021",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_sentilo_connecta_catalog_component"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0022",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_sentilo_connecta_component_map"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0023",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_sentilo_connecta_connecta_api_catalog_candidate"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0024",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_traffic_state_itineraris_3"
+    },
+    {
+      "basis": "deep data estate audit gap routing",
+      "confidence": "low_candidate",
+      "derived_overlay_id": "candidate_gap_overlay:0025",
+      "not_source_truth": true,
+      "proposed_field": "consuming_flow_hint",
+      "proposed_value": "manual_triage_required",
+      "review_state": "candidate",
+      "source_id": "source:barcelona:barc_traffic_state_transit_relacio_trams_1"
+    }
+  ],
+  "status": "PASS"
+}

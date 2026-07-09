@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "R19 Closeout Decision",
+  "type": "object",
+  "required": [
+    "task_id",
+    "status",
+    "final_status",
+    "r18_input_validation",
+    "benchmark_config_status",
+    "audits"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-REPLAY-BENCHMARK-REGRESSION-HARNESS-R19"
+    },
+    "status": {
+      "type": "string"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "r18_input_validation": {
+      "type": "string"
+    },
+    "benchmark_config_status": {
+      "type": "string"
+    },
+    "rerun_execution_status": {
+      "type": "string"
+    },
+    "audits": {
+      "type": "object"
+    }
+  }
+}

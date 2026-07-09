@@ -1,0 +1,9 @@
+{
+  "artifact_id": "FOUNDING_REVIEW_NOT_RUN_GUARD",
+  "dispositions_created": false,
+  "founder_review_session_run": false,
+  "founder_session_results_created": false,
+  "human_responses_collected": false,
+  "operator_review_session_run": false,
+  "status": "PASS"
+}

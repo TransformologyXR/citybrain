@@ -1,0 +1,13 @@
+{
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPARK-PROVISIONING-RUNBOOK-R6E",
+  "spark_vss_runtime_configured": false,
+  "spark_vss_mode": "none",
+  "install_state": "external_install_in_progress_or_unknown",
+  "probe_attempted": false,
+  "probe_executed": false,
+  "probe_status": "NOT_CONFIGURED",
+  "narration_records_emitted": 0,
+  "candidate_event_modified_by_vss": false,
+  "official_record_created": false,
+  "action_created": false
+}

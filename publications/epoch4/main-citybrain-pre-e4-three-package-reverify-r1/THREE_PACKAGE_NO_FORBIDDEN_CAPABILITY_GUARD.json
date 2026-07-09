@@ -1,0 +1,46 @@
+{
+  "artifact_id": "THREE_PACKAGE_NO_FORBIDDEN_CAPABILITY_GUARD",
+  "final_posture": "WITH_LIMITATIONS",
+  "forbidden_capabilities": [
+    "live operator fuel",
+    "operator-facing learned ranking",
+    "product forecast surface",
+    "product ForecastPacket",
+    "case-memory learner",
+    "dynamic investigation",
+    "cross-city learned transfer",
+    "production live event fabric",
+    "production CCTV/perception claim",
+    "dispatch/control/enforcement/official case creation",
+    "autonomous action"
+  ],
+  "forbidden_capabilities_created": [],
+  "guard_results": {
+    "NO_FORBIDDEN_CAPABILITY_GUARD_R2.json": {
+      "forbidden_capabilities_created": [],
+      "path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/NO_FORBIDDEN_CAPABILITY_GUARD_R2.json",
+      "status": "PASS"
+    },
+    "NO_FORECASTPACKET_PROMOTION_GUARD.json": {
+      "forbidden_capabilities_created": [],
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_FORECASTPACKET_PROMOTION_GUARD.json",
+      "status": "PASS"
+    },
+    "NO_LIVE_INGESTION_CLAIM_GUARD.json": {
+      "forbidden_capabilities_created": [],
+      "path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/NO_LIVE_INGESTION_CLAIM_GUARD.json",
+      "status": "PASS"
+    },
+    "NO_MODEL_TRAINING_GUARD.json": {
+      "forbidden_capabilities_created": [],
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_MODEL_TRAINING_GUARD.json",
+      "status": "PASS"
+    },
+    "NO_PRODUCT_FORECAST_SURFACE_GUARD.json": {
+      "forbidden_capabilities_created": [],
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "status": "PASS"
+    }
+  },
+  "status": "PASS"
+}

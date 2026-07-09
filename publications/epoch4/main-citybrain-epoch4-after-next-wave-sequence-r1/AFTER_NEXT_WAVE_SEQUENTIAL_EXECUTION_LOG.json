@@ -1,0 +1,44 @@
+{
+  "artifact_id": "AFTER_NEXT_WAVE_SEQUENTIAL_EXECUTION_LOG",
+  "parallel_execution_used": false,
+  "same_worktree": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "decision": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1",
+      "sequence": 1,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_WITH_LIMITATIONS",
+      "step": "simulation_v2_3_sumo_real_run_smoke_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_3_HISTORY_DIFF_REPLAY_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1",
+      "sequence": 2,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_3_HISTORY_DIFF_REPLAY_R1_WITH_LIMITATIONS",
+      "step": "event_fabric_v2_3_history_diff_replay_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1",
+      "sequence": 3,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_WITH_LIMITATIONS",
+      "step": "pilot_evidence_binder_no_session_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_after_next_wave_final_reverify_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_NEXT_WAVE_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_after_next_wave_final_reverify_r1",
+      "sequence": 4,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_NEXT_WAVE_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step": "after_next_wave_final_reverify_r1"
+    }
+  ]
+}

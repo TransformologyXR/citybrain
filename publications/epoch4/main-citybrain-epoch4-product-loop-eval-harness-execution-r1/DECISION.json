@@ -1,0 +1,12 @@
+{
+  "artifact_id": "DECISION",
+  "case_count": 12,
+  "case_pass_count": 12,
+  "eval_blocking_failure_count": 0,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T19:07:41Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-EVAL-HARNESS-EXECUTION-R1",
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_EVAL_HARNESS_EXECUTION_R1_WITH_LIMITATIONS",
+  "training_fuel_created": false
+}

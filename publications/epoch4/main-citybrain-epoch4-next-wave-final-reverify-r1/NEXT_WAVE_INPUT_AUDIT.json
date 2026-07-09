@@ -1,0 +1,53 @@
+{
+  "all_selected_outputs_found": true,
+  "artifact_id": "NEXT_WAVE_INPUT_AUDIT",
+  "parallel_execution_used": false,
+  "selected_next_wave_outputs": [
+    {
+      "decision_path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CONSOLIDATION_AND_PILOT_READINESS_R1_WITH_LIMITATIONS",
+      "key": "product_loop_consolidation",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CONSOLIDATION_AND_PILOT_READINESS_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision_path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_2_SCALE_REPLAY_RELIABILITY_R1_WITH_LIMITATIONS",
+      "key": "event_fabric_v2_2",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_2_SCALE_REPLAY_RELIABILITY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision_path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_2_REAL_CONNECTOR_FIDELITY_LADDER_R1_WITH_LIMITATIONS",
+      "key": "simulation_v2_2",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_2_REAL_CONNECTOR_FIDELITY_LADDER_R1_WITH_LIMITATIONS"
+    },
+    {
+      "decision_path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS",
+      "key": "data_maturity_r2",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS"
+    },
+    {
+      "decision_path": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/DECISION.json",
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_FOUNDER_REVIEW_PREP_NO_SESSION_R1_WITH_LIMITATIONS",
+      "key": "pre_founder_review_prep_no_session",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_FOUNDER_REVIEW_PREP_NO_SESSION_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

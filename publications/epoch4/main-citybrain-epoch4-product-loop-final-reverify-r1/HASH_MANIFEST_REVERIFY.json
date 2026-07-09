@@ -1,0 +1,16 @@
+{
+  "artifact_id": "HASH_MANIFEST_REVERIFY",
+  "manifests": [
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/HASH_MANIFEST.json",
+      "package": "incident_plan"
+    },
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_review_packet_360_r1/HASH_MANIFEST.json",
+      "package": "review_packet_360"
+    }
+  ],
+  "status": "PASS"
+}

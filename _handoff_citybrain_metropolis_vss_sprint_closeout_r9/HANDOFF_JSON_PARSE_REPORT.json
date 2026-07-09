@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "file": "GUARDRAIL_TERMS_R9.json",
+      "status": "PASS"
+    },
+    {
+      "file": "INPUT_R8_VALIDATION_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "file": "R8_ARTIFACT_INSPECTION_REPORT.json",
+      "status": "PASS"
+    },
+    {
+      "file": "RUNTIME_HOST_ALLOCATION_FINAL_TEMPLATE_R9.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_FINAL_AUDIT_R9.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_R1_R9_LINEAGE_SUMMARY_R9.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_SPRINT_CLOSEOUT_DECISION_R9.json",
+      "status": "PASS"
+    },
+    {
+      "file": "STATUS_ENUMS_R9.json",
+      "status": "PASS"
+    }
+  ],
+  "generated_at": "2026-07-04T09:57:19Z",
+  "schema_version": "handoff-json-parse-report.v1",
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_id": "FOUNDER_DIAGNOSTIC_READINESS_AFTER_REPAIR",
+  "client_ready": false,
+  "founder_diagnostic_review_allowed": false,
+  "founder_product_review_allowed": false,
+  "product_review_ready": false,
+  "reason": "Do not advance from review-of-review concordance; import a true second independent artifact review first.",
+  "status": "WAIT_FOR_SECOND_INDEPENDENT_AI_ARTIFACT_REVIEW"
+}

@@ -1,0 +1,3 @@
+- Run ENTRY_PROMPT.md
+- Validate outputs
+- Upload ZIP for validation

@@ -1,0 +1,23 @@
+{
+  "README.md": "aed8faf4084d72ee57bff158f4367dc26520ec221858d7fb13e2dff00df023a8",
+  "KNOWN_BLOCKERS.md": "f7680858d18457b7db94c49ea403a8b6b963f4dc471b03cafc90be07195f2604",
+  "samples/overture_dubai_duckdb.sql": "77bb5cbda0398267479b38c4d36ba5702d386a4e599f96e14a3a476a3b66c025",
+  "samples/geofabrik_gcc_manifest.json": "028525bcacfb715c30ce1489f1f4fe8e9588bdfa0e58b1028ee3233277785e84",
+  "samples/ms_buildings_stac_collection_sample.json": "873e9d1141d33bd16eb58d5aa9d4d9a0dbb38043f0b222cbbf8fbf878ec622e3",
+  "samples/worldpop_are_population_sample_manifest.json": "bd9cdcd4d66a1bf96d55bf01d03cc3e0a2f8dfb73123008db36c365053fddb80",
+  "samples/open_meteo_dubai_request.json": "f717da9f0c04a7a3c2098fbd06ff5fdc5c98aa353c44fe27dfb64ed7529b70dc",
+  "samples/openaq_request_requires_key.json": "6b07db14570362fd677848ed54e950dee6b847883fd9b6348726219b899cbca4",
+  "samples/jrc_gsw_dubai_tile_manifest.json": "e0dcc5fd7e1829a1415f2cc0e1632fc594b675afbfc3d4f8b990fed0bc54daba",
+  "samples/opsd_time_series_datapackage_sample.json": "7d9840b691134cde4a90cc21515053014c0e11d3a0e87ddd7bda707af05e6dd9",
+  "samples/tfl_unified_api_request_requires_key.json": "7683164a696a075461ef6be260407105e0aff287faf272f8587c296c61b963b0",
+  "samples/lta_datamall_request_requires_key.json": "f267ee2f8a6c9bffcc7d3f08fd5acab23ebd8baef139d7c69f618895139731dd",
+  "samples/cds_era5_sample_request.py": "9f9be02e623163957fbaf21bf3e757d1db09d37c20a565dd5729db1f23a23de9",
+  "samples/dld_real_estate_schema_manifest.json": "51c339c2cda8b34edfdc0a76eb833928dda4b21d279f19159974da78caee2526",
+  "samples/dubai_municipality_open_data_manifest.json": "36c398d2a0c87732374bf4da2ede1e7b5a9e2663112fad605f10e5fc6e1c1c87",
+  "samples/makani_open_data_manifest.json": "da97bb1ffee92b95b0f2a5651ae17e24c6b7d268fa0dd44bbbf030714d583d49",
+  "samples/geodubai_gis_access_manifest.json": "cf0589338c240c6d92961bfb71e967e95df3d7ed416cc967d0ae25830c40ffb6",
+  "scripts/harvest_sources.py": "f01dfcbc88547211bc97cf72d62dd6e95dcb8db98efb6d9bd19ce21cd4b17a8a",
+  "manifests/source_inventory.csv": "21433f145ad94ca9a60fea5422a6f7b43e6b514b7a469d6fee8882f736fc4ca9",
+  "manifests/source_inventory.json": "6dd291510769d6def34028d2621f5213e9f3132100618842623d6de7b1dbcf55",
+  "codex/CODEX_HANDOVER.md": "15d8fce90d2afcd0e56d21d02c144cb79908ec5d9fbf0f66454114828b6511be"
+}

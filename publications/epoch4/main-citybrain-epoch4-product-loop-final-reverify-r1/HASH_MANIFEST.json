@@ -1,0 +1,89 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 443,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/HASH_MANIFEST_REVERIFY.json",
+      "sha256": "8b5dcf5cfd3d1a3a881d19b0fa07524967bff7e103beec0be6ab774739948cd6"
+    },
+    {
+      "bytes": 2554,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/INPUT_TRACK_STATUS_AUDIT.json",
+      "sha256": "2a5c0252a9abd652756db127a0bbdc05acd190a517ec8edc7c6aa28fae8320f3"
+    },
+    {
+      "bytes": 707,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "40848544dbe484b3487a1a8e2aa65e2e11d32ced23bf797519571ac9423167dc"
+    },
+    {
+      "bytes": 634,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/PRODUCT_LOOP_FINAL_REVERIFY_DECISION.json",
+      "sha256": "66cab855e1cbea23f46ef22265bb1b860fe082bf613d7dbeda315627a4c003a8"
+    },
+    {
+      "bytes": 1065,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/PRODUCT_LOOP_SEQUENCE_AUDIT.json",
+      "sha256": "e8e6473cb55e3677bdb9d371dd04da98b88fa3c006195e91358a5dd1252848dd"
+    },
+    {
+      "bytes": 624,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/REVIEW_PACKET_360_AUDIT.json",
+      "sha256": "146e4085d91d987e191fb8eb3131a4b6fb2da8be92f1998c2057b1fc117a2758"
+    },
+    {
+      "bytes": 292,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/SUMMARY.md",
+      "sha256": "cd82ebc512688b355d374ef92a008d9a73af07953d6cfbdb34596fe1373963e9"
+    },
+    {
+      "bytes": 1122,
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/THREE_FAMILY_COMPLETENESS_AUDIT.json",
+      "sha256": "0e07bada6c8a84668af38c2adf1cdca8c79dab820230616566ec9f7f4bcecef7"
+    },
+    {
+      "bytes": 443,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/HASH_MANIFEST_REVERIFY.json",
+      "sha256": "8b5dcf5cfd3d1a3a881d19b0fa07524967bff7e103beec0be6ab774739948cd6"
+    },
+    {
+      "bytes": 2554,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/INPUT_TRACK_STATUS_AUDIT.json",
+      "sha256": "2a5c0252a9abd652756db127a0bbdc05acd190a517ec8edc7c6aa28fae8320f3"
+    },
+    {
+      "bytes": 707,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "40848544dbe484b3487a1a8e2aa65e2e11d32ced23bf797519571ac9423167dc"
+    },
+    {
+      "bytes": 634,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/PRODUCT_LOOP_FINAL_REVERIFY_DECISION.json",
+      "sha256": "66cab855e1cbea23f46ef22265bb1b860fe082bf613d7dbeda315627a4c003a8"
+    },
+    {
+      "bytes": 1065,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/PRODUCT_LOOP_SEQUENCE_AUDIT.json",
+      "sha256": "e8e6473cb55e3677bdb9d371dd04da98b88fa3c006195e91358a5dd1252848dd"
+    },
+    {
+      "bytes": 624,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/REVIEW_PACKET_360_AUDIT.json",
+      "sha256": "146e4085d91d987e191fb8eb3131a4b6fb2da8be92f1998c2057b1fc117a2758"
+    },
+    {
+      "bytes": 292,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/SUMMARY.md",
+      "sha256": "cd82ebc512688b355d374ef92a008d9a73af07953d6cfbdb34596fe1373963e9"
+    },
+    {
+      "bytes": 1122,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-final-reverify-r1/THREE_FAMILY_COMPLETENESS_AUDIT.json",
+      "sha256": "0e07bada6c8a84668af38c2adf1cdca8c79dab820230616566ec9f7f4bcecef7"
+    }
+  ],
+  "entry_count": 16,
+  "generated_at": "2026-07-07T14:10:45Z",
+  "status": "PASS"
+}

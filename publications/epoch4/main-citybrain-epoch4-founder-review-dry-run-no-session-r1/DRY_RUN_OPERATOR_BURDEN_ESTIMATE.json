@@ -1,0 +1,10 @@
+{
+  "artifact_id": "DRY_RUN_OPERATOR_BURDEN_ESTIMATE",
+  "basis": "dry-run queue sizing only; not a session result",
+  "estimated_minutes_per_task": 6,
+  "estimated_total_minutes": 72,
+  "fuel_created": false,
+  "session_run": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_count": 12
+}

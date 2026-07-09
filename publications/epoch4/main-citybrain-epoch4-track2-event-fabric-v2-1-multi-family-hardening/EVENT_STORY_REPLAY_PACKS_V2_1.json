@@ -1,0 +1,191 @@
+{
+  "artifact_id": "EVENT_STORY_REPLAY_PACKS_V2_1",
+  "deterministic_replay_hash": "6d077610f0449ede1e4af89d319ea3bd7d01a0b377e89fb23c02098b4f9b5f90",
+  "status": "PASS_WITH_LIMITATIONS",
+  "story_pack_count": 4,
+  "story_packs": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_packet_ref": "brief_packet:v2_1:mobility_access_interruption",
+      "check_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "events": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:building:alpha"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:located_in"
+          ],
+          "event_family": "mobility_access_interruption_v0",
+          "event_id": "efv2_1:1a32d22bf8e2",
+          "event_time": "2026-07-07T01:15:00Z",
+          "event_type": "mobility.access_interruption",
+          "evidence_refs": [
+            "evidence:inspection:alpha"
+          ],
+          "family_id": "mobility_access_interruption",
+          "ingested_at": "2026-07-07T01:17:00Z",
+          "observed_at": "2026-07-07T01:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:mobility_access_interruption",
+            "overlay_kind": "route_access_constraint",
+            "priority_tier": "static_medium"
+          },
+          "processing_time": "2026-07-07T01:17:05Z",
+          "review_state": "active",
+          "source_class": "replay_source_record",
+          "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+        }
+      ],
+      "family_id": "mobility_access_interruption",
+      "replay_mode": "local_replay",
+      "spatial_packet_ref": "spatial_overlay:v2_1:mobility_access_interruption",
+      "story_pack_id": "event_story_pack:v2_1:mobility_access_interruption",
+      "watch_refs": [
+        "watch:v2_1:mobility_access_interruption"
+      ]
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_packet_ref": "brief_packet:v2_1:building_compliance_perception_candidate",
+      "check_refs": [
+        "check_v1:near_alpha:proximity",
+        "check_v1:alpha:floors:contradiction"
+      ],
+      "events": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:building:alpha",
+            "cer:observation:near_alpha"
+          ],
+          "check_report_refs": [
+            "check_v1:near_alpha:proximity",
+            "check_v1:alpha:floors:contradiction"
+          ],
+          "event_family": "building_compliance_perception_candidate_v0",
+          "event_id": "efv2_1:00fa2780598a",
+          "event_time": "2026-07-07T02:15:00Z",
+          "event_type": "building.perception_candidate",
+          "evidence_refs": [
+            "evidence:sensor:near_alpha",
+            "conflict:alpha:floors"
+          ],
+          "family_id": "building_compliance_perception_candidate",
+          "ingested_at": "2026-07-07T02:17:00Z",
+          "observed_at": "2026-07-07T02:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:building_compliance_perception_candidate",
+            "overlay_kind": "building_perception_overlay",
+            "priority_tier": "static_high"
+          },
+          "processing_time": "2026-07-07T02:17:05Z",
+          "review_state": "candidate_review",
+          "source_class": "replay_source_record",
+          "source_record_ref": "source_record:sensor:near_alpha:2026-07-07"
+        }
+      ],
+      "family_id": "building_compliance_perception_candidate",
+      "replay_mode": "local_replay",
+      "spatial_packet_ref": "spatial_overlay:v2_1:building_compliance_perception_candidate",
+      "story_pack_id": "event_story_pack:v2_1:building_compliance_perception_candidate",
+      "watch_refs": [
+        "watch:v2_1:building_compliance_perception_candidate"
+      ]
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_packet_ref": "brief_packet:v2_1:permit_inspection_delay",
+      "check_refs": [
+        "check_v1:alpha:floors:contradiction",
+        "check_v1:alpha:source_depth_missing"
+      ],
+      "events": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:building:alpha"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:floors:contradiction",
+            "check_v1:alpha:source_depth_missing"
+          ],
+          "event_family": "permit_inspection_delay_v0",
+          "event_id": "efv2_1:1e97261f8ea0",
+          "event_time": "2026-07-07T03:15:00Z",
+          "event_type": "permit.inspection_delay",
+          "evidence_refs": [
+            "evidence:permit:alpha:100a",
+            "evidence:inspection:alpha"
+          ],
+          "family_id": "permit_inspection_delay",
+          "ingested_at": "2026-07-07T03:17:00Z",
+          "observed_at": "2026-07-07T03:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:permit_inspection_delay",
+            "overlay_kind": "permit_inspection_timeline_overlay",
+            "priority_tier": "static_medium"
+          },
+          "processing_time": "2026-07-07T03:17:05Z",
+          "review_state": "active",
+          "source_class": "replay_source_record",
+          "source_record_ref": "source_record:permit:alpha:2026-07-01"
+        }
+      ],
+      "family_id": "permit_inspection_delay",
+      "replay_mode": "local_replay",
+      "spatial_packet_ref": "spatial_overlay:v2_1:permit_inspection_delay",
+      "story_pack_id": "event_story_pack:v2_1:permit_inspection_delay",
+      "watch_refs": [
+        "watch:v2_1:permit_inspection_delay"
+      ]
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "brief_packet_ref": "brief_packet:v2_1:city_asset_infrastructure_issue",
+      "check_refs": [
+        "check_v1:asset:source_depth_missing"
+      ],
+      "events": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:asset:infrastructure_candidate"
+          ],
+          "check_report_refs": [
+            "check_v1:asset:source_depth_missing"
+          ],
+          "event_family": "city_asset_infrastructure_issue_v0",
+          "event_id": "efv2_1:326d9153f57d",
+          "event_time": "2026-07-07T04:15:00Z",
+          "event_type": "asset.infrastructure_issue",
+          "evidence_refs": [
+            "evidence:asset:spatial_overlay_fixture"
+          ],
+          "family_id": "city_asset_infrastructure_issue",
+          "ingested_at": "2026-07-07T04:17:00Z",
+          "observed_at": "2026-07-07T04:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:city_asset_infrastructure_issue",
+            "overlay_kind": "asset_issue_spatial_overlay",
+            "priority_tier": "static_medium"
+          },
+          "processing_time": "2026-07-07T04:17:05Z",
+          "review_state": "review_required",
+          "source_class": "derived_fixture",
+          "source_record_ref": "source_record:asset:infrastructure:fixture"
+        }
+      ],
+      "family_id": "city_asset_infrastructure_issue",
+      "replay_mode": "local_replay",
+      "spatial_packet_ref": "spatial_overlay:v2_1:city_asset_infrastructure_issue",
+      "story_pack_id": "event_story_pack:v2_1:city_asset_infrastructure_issue",
+      "watch_refs": [
+        "watch:v2_1:city_asset_infrastructure_issue"
+      ]
+    }
+  ]
+}

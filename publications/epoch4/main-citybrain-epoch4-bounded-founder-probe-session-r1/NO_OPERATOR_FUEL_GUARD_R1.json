@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NO_OPERATOR_FUEL_GUARD_R1",
+  "external_operator_validation": false,
+  "operator_fuel": false,
+  "operator_fuel_created": false,
+  "status": "PASS"
+}

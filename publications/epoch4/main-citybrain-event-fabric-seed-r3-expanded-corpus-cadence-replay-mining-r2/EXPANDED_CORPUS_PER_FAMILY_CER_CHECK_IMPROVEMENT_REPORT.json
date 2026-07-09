@@ -1,0 +1,98 @@
+{
+  "artifact_id": "EXPANDED_CORPUS_PER_FAMILY_CER_CHECK_IMPROVEMENT_REPORT",
+  "classification": "bounded_synthetic_resolution_signal_depth_20_per_family",
+  "family_reports": [
+    {
+      "cer_improvement_focus": [
+        "canonical-vs-R3-local provenance surfacing",
+        "duplicate candidate disambiguation review queues"
+      ],
+      "check_improvement_focus": [
+        "freshness downgrade visibility",
+        "geometry/spatial weakness separation",
+        "schema/source-class quarantine explanation"
+      ],
+      "distinct_reason_class_count": 8,
+      "family_id": "mobility_access_interruption_v0",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 2,
+        "impossible_time": 1,
+        "invalid_schema": 1,
+        "invalid_source_class": 1,
+        "missing_entity_ref": 1,
+        "missing_geometry": 2,
+        "unknown_freshness": 1,
+        "weak_spatial_match": 1
+      }
+    },
+    {
+      "cer_improvement_focus": [
+        "canonical-vs-R3-local provenance surfacing",
+        "duplicate candidate disambiguation review queues"
+      ],
+      "check_improvement_focus": [
+        "freshness downgrade visibility",
+        "geometry/spatial weakness separation",
+        "schema/source-class quarantine explanation"
+      ],
+      "distinct_reason_class_count": 8,
+      "family_id": "building_compliance_perception_candidate",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 2,
+        "impossible_time": 1,
+        "invalid_schema": 1,
+        "invalid_source_class": 1,
+        "missing_entity_ref": 1,
+        "missing_geometry": 2,
+        "unknown_freshness": 1,
+        "weak_spatial_match": 1
+      }
+    },
+    {
+      "cer_improvement_focus": [
+        "canonical-vs-R3-local provenance surfacing",
+        "duplicate candidate disambiguation review queues"
+      ],
+      "check_improvement_focus": [
+        "freshness downgrade visibility",
+        "geometry/spatial weakness separation",
+        "schema/source-class quarantine explanation"
+      ],
+      "distinct_reason_class_count": 8,
+      "family_id": "permit_inspection_delay",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 2,
+        "impossible_time": 1,
+        "invalid_schema": 1,
+        "invalid_source_class": 1,
+        "missing_entity_ref": 1,
+        "missing_geometry": 2,
+        "unknown_freshness": 1,
+        "weak_spatial_match": 1
+      }
+    },
+    {
+      "cer_improvement_focus": [
+        "canonical-vs-R3-local provenance surfacing",
+        "duplicate candidate disambiguation review queues"
+      ],
+      "check_improvement_focus": [
+        "freshness downgrade visibility",
+        "geometry/spatial weakness separation",
+        "schema/source-class quarantine explanation"
+      ],
+      "distinct_reason_class_count": 8,
+      "family_id": "city_asset_infrastructure_issue",
+      "reason_counts": {
+        "duplicate_candidate_ambiguity": 2,
+        "impossible_time": 1,
+        "invalid_schema": 1,
+        "invalid_source_class": 1,
+        "missing_entity_ref": 1,
+        "missing_geometry": 2,
+        "unknown_freshness": 1,
+        "weak_spatial_match": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD",
+  "boundary": "local_replay_review_only_no_action",
+  "checks": {
+    "ForecastPacket": false,
+    "autonomous_monitoring_or_alerting": false,
+    "dispatch_control_enforcement": false,
+    "founder_or_operator_fuel_capture": false,
+    "learned_ranking_or_model_training": false,
+    "legal_or_certified_finding": false,
+    "official_case_or_ticket_submission": false,
+    "product_forecast_surface": false,
+    "production_live_ingestion": false,
+    "ui_ux_polish": false,
+    "upstream_source_mutation": false
+  },
+  "forbidden_capabilities_created": [],
+  "status": "PASS"
+}

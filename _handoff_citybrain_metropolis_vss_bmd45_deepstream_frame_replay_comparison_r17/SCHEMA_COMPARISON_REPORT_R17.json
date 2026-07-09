@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "annotation_count": {
+      "type": "integer"
+    },
+    "certification_claim": {
+      "const": false
+    },
+    "frame_count": {
+      "type": "integer"
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "iou_thresholds": {
+      "items": {
+        "type": "number"
+      },
+      "type": "array"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "sensor_detection_count": {
+      "type": "integer"
+    },
+    "source_classes": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "frame_count",
+    "annotation_count",
+    "sensor_detection_count",
+    "iou_thresholds",
+    "metrics",
+    "source_classes"
+  ],
+  "title": "IoU Comparison Report R17",
+  "type": "object"
+}

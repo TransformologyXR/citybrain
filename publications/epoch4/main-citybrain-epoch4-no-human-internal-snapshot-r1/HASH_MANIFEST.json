@@ -1,0 +1,119 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 4262,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/CURRENT_EPOCH4_NO_HUMAN_STATE.json",
+      "sha256": "45c960683f7794f8228824aff3234209fdc355cf7d5c845772313d813a23c1d4"
+    },
+    {
+      "bytes": 550,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/DATA_MATURITY_CURRENT_STATE.json",
+      "sha256": "b1b04040de2e8ed8013702b4c856352abd48b6c699eb7a6a36c510b02075bdf0"
+    },
+    {
+      "bytes": 464,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/DECISION.json",
+      "sha256": "b890b87aefa5a379f68b637b2193c1a3f0bec24676b4b8cfed594d5759b63293"
+    },
+    {
+      "bytes": 661,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/EPOCH4_NO_HUMAN_INTERNAL_SNAPSHOT.md",
+      "sha256": "cea135ab17edfccb964f5f81e90f8f7d500494c05180f02a3641538e0438f2be"
+    },
+    {
+      "bytes": 502,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/EVAL_CORPUS_SUMMARY.json",
+      "sha256": "968ec89b22c03bc7736cc44c3c5ccb111977670b6a948bc0ecffdf27c84ee71b"
+    },
+    {
+      "bytes": 370,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/FOUNDER_PROBE_INPUT_KIT_STATUS.json",
+      "sha256": "19fb1ba63835d444e8705e466432eb10177e31c531993c338a7c7ae8c7d781ba"
+    },
+    {
+      "bytes": 644,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/NEXT_DECISION_OPTIONS.json",
+      "sha256": "ca9786d6e88d32caba53cf07ca213dc234507e750a65b6a48e7bb316e658a705"
+    },
+    {
+      "bytes": 258,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "b89fe6c4dc4404947338da1197811f8196823e69be4ef2e8e5c212f4dbd44232"
+    },
+    {
+      "bytes": 600,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/PARKED_ITEMS_REGISTER.json",
+      "sha256": "c71a8deea268dd6acf58af7a065b48ec01c6992456f53d738556c50fa425c7ed"
+    },
+    {
+      "bytes": 583,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/PRODUCT_LOOP_CAPABILITY_SUMMARY.json",
+      "sha256": "8ff49ecf245cb784740c00156ac45ea865bfa79f88feebd0d42e88f595e24aa0"
+    },
+    {
+      "bytes": 456,
+      "path": "outputs/main_citybrain_epoch4_no_human_internal_snapshot_r1/REMEDIATION_OVERLAY_SUMMARY.json",
+      "sha256": "3a53dee2902498665ded959d73c7d8e655c2ac5c12ec94656813ed048423f606"
+    },
+    {
+      "bytes": 4262,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/CURRENT_EPOCH4_NO_HUMAN_STATE.json",
+      "sha256": "45c960683f7794f8228824aff3234209fdc355cf7d5c845772313d813a23c1d4"
+    },
+    {
+      "bytes": 550,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/DATA_MATURITY_CURRENT_STATE.json",
+      "sha256": "b1b04040de2e8ed8013702b4c856352abd48b6c699eb7a6a36c510b02075bdf0"
+    },
+    {
+      "bytes": 464,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/DECISION.json",
+      "sha256": "b890b87aefa5a379f68b637b2193c1a3f0bec24676b4b8cfed594d5759b63293"
+    },
+    {
+      "bytes": 661,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/EPOCH4_NO_HUMAN_INTERNAL_SNAPSHOT.md",
+      "sha256": "cea135ab17edfccb964f5f81e90f8f7d500494c05180f02a3641538e0438f2be"
+    },
+    {
+      "bytes": 502,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/EVAL_CORPUS_SUMMARY.json",
+      "sha256": "968ec89b22c03bc7736cc44c3c5ccb111977670b6a948bc0ecffdf27c84ee71b"
+    },
+    {
+      "bytes": 370,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/FOUNDER_PROBE_INPUT_KIT_STATUS.json",
+      "sha256": "19fb1ba63835d444e8705e466432eb10177e31c531993c338a7c7ae8c7d781ba"
+    },
+    {
+      "bytes": 644,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/NEXT_DECISION_OPTIONS.json",
+      "sha256": "ca9786d6e88d32caba53cf07ca213dc234507e750a65b6a48e7bb316e658a705"
+    },
+    {
+      "bytes": 258,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "b89fe6c4dc4404947338da1197811f8196823e69be4ef2e8e5c212f4dbd44232"
+    },
+    {
+      "bytes": 600,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/PARKED_ITEMS_REGISTER.json",
+      "sha256": "c71a8deea268dd6acf58af7a065b48ec01c6992456f53d738556c50fa425c7ed"
+    },
+    {
+      "bytes": 583,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/PRODUCT_LOOP_CAPABILITY_SUMMARY.json",
+      "sha256": "8ff49ecf245cb784740c00156ac45ea865bfa79f88feebd0d42e88f595e24aa0"
+    },
+    {
+      "bytes": 456,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-human-internal-snapshot-r1/REMEDIATION_OVERLAY_SUMMARY.json",
+      "sha256": "3a53dee2902498665ded959d73c7d8e655c2ac5c12ec94656813ed048423f606"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-08T05:27:15Z",
+  "status": "PASS"
+}

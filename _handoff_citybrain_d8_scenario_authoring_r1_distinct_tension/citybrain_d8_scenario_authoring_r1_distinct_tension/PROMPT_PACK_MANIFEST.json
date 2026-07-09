@@ -1,0 +1,27 @@
+[
+  {
+    "path": "00_SHARED_CONTEXT.md",
+    "sha256": "25249778cf8fc80a675f55796c09a215a7223d5bbaf947e4d954561d33218e15",
+    "bytes": 1643
+  },
+  {
+    "path": "CHECKLIST.md",
+    "sha256": "c9f917600a8f81ea73838f07c9afa5e561aa0555dda41783553324a87a25c85f",
+    "bytes": 914
+  },
+  {
+    "path": "ENTRY_PROMPT.md",
+    "sha256": "0f24ecd8430611bce4f7d815024641ecfd718f156aab6591255759d9697f5359",
+    "bytes": 812
+  },
+  {
+    "path": "MAIN-CITYBRAIN-D8-SCENARIO-AUTHORING-R1_PROMPT.md",
+    "sha256": "fd23db141632430b2748a0c7dbc979211db76481586867929ff1035bfe70795f",
+    "bytes": 7180
+  },
+  {
+    "path": "README.md",
+    "sha256": "dbe13343cb0fd2ef52a01c56fdd158cbe13082de86254f96ae0c38bb1c4965c4",
+    "bytes": 583
+  }
+]

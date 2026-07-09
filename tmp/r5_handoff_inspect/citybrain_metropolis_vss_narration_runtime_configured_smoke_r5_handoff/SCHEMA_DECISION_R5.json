@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "R5 Closeout Decision",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_name",
+    "status",
+    "input_r4_package_validation_status",
+    "runtime_status",
+    "runtime_configured",
+    "vss_runtime_attempted",
+    "vss_runtime_executed",
+    "vss_narration_records",
+    "structured_detection_source_class",
+    "vss_output_source_class",
+    "vss_is_fact_source",
+    "candidate_event_modified_by_vss",
+    "human_review_required",
+    "no_action_taken",
+    "official_record_created",
+    "audits",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-runtime-configured-smoke-r5.v1"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-CONFIGURED-SMOKE-R5"
+    },
+    "status": {
+      "enum": [
+        "PASS_METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_WITH_LIMITATIONS",
+        "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R5_GUARDRAILS_READY",
+        "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_EXECUTION_FAILED_R5_GUARDRAILS_READY",
+        "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NO_USABLE_PROSE_R5_GUARDRAILS_READY",
+        "FAIL_METROPOLIS_VSS_NARRATION_RUNTIME_R5_BOUNDARY_OR_FABRICATION"
+      ]
+    },
+    "input_r4_package_validation_status": {
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "runtime_status": {
+      "type": "string"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "vss_runtime_attempted": {
+      "type": "boolean"
+    },
+    "vss_runtime_executed": {
+      "type": "boolean"
+    },
+    "vss_narration_records": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "structured_detection_source_class": {
+      "const": "sensor_inferred"
+    },
+    "vss_output_source_class": {
+      "enum": [
+        "model_generated_narrative",
+        null
+      ]
+    },
+    "vss_is_fact_source": {
+      "const": false
+    },
+    "candidate_event_modified_by_vss": {
+      "const": false
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "no_action_taken": {
+      "const": true
+    },
+    "official_record_created": {
+      "const": false
+    },
+    "audits": {
+      "type": "object"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

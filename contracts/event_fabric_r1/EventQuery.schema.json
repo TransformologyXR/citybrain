@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "expected_result_count": {
+      "type": "integer"
+    },
+    "filters": {
+      "type": "object"
+    },
+    "query_id": {
+      "type": "string"
+    },
+    "query_type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "query_id",
+    "query_type",
+    "filters"
+  ],
+  "title": "EventQuery",
+  "type": "object"
+}

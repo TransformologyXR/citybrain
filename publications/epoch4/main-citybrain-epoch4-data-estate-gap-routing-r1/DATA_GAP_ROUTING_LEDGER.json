@@ -1,0 +1,19 @@
+{
+  "deep_audit_gap_counts": {
+    "missing_or_unknown_geometry": 526,
+    "no_consuming_flow": 273,
+    "unknown_freshness": 462,
+    "unknown_schema": 456,
+    "unknown_source_class": 430
+  },
+  "queue_counts": {
+    "FRESHNESS_UNKNOWN_TRIAGE_QUEUE.json": 462,
+    "GEOMETRY_UNKNOWN_TRIAGE_QUEUE.json": 526,
+    "NO_CONSUMING_FLOW_TRIAGE_QUEUE.json": 273,
+    "SCHEMA_UNKNOWN_TRIAGE_QUEUE.json": 456,
+    "SOURCE_CLASS_UNKNOWN_TRIAGE_QUEUE.json": 430
+  },
+  "review_pack_quality_status": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+  "source_registry_source_count": 664,
+  "status": "PASS"
+}

@@ -1,0 +1,149 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "BRIEF_V3_EXPORT_HARDENING_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 860,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_CANNOT_CLAIM_BLOCK.json",
+      "sha256": "8d3d66cef18b55f804383ef545c14e03041208576ee78d9dc88ec5b5145e6806"
+    },
+    {
+      "bytes": 1278,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_CHECK_V1_SUMMARY_BLOCK.json",
+      "sha256": "37c2826f6b8ec79f5d1ddd3a0d6efc8ceed8bf6967458af83c2f6bfcbbd0f849"
+    },
+    {
+      "bytes": 1939,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EVENT_STATE_BLOCK.json",
+      "sha256": "06b0ac6ac5622d4f15f2ee7f680cf70b5a0756ce455dd1edb9047cc3aeb742b9"
+    },
+    {
+      "bytes": 1393,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_CONTRACT.json",
+      "sha256": "3df80809c4d5d4eb5e05c63a8d35a01eb198bd559c1ffbd879adcdcd00c91ebb"
+    },
+    {
+      "bytes": 758,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_HARDENING_DECISION.json",
+      "sha256": "efe57a275f9a1128f9d365b80af085e638677d37f04e9e9db93030afc31b578f"
+    },
+    {
+      "bytes": 16116,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_PACKET.json",
+      "sha256": "aca3e084bc13da9c7000cd90957489f5d675d9b919c6fbfb64873b39cbab63eb"
+    },
+    {
+      "bytes": 4921,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_PACKET.md",
+      "sha256": "8c9dc10bc40332760e283aab392440eca9fd79de2c06f5db8809dc5cba0a0d06"
+    },
+    {
+      "bytes": 896,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_LIMITATIONS_BLOCK.json",
+      "sha256": "3a561d485f8700dd0c813e4c9b53a95aba7464372cde3391c31f5c9efe06ac82"
+    },
+    {
+      "bytes": 1330,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_REVIEW_OPTIONS_BLOCK.json",
+      "sha256": "c8bc5dd8dc1280dcb84ac72736b7bcc7c160a4ef0fea2088c8f1fc1c817dd750"
+    },
+    {
+      "bytes": 1193,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_SIMULATION_ASSUMPTIONS_BLOCK.json",
+      "sha256": "cd3e7ff1a1c3fc1adc91a0cfc20c1e3f6f9508d9d843af621d5a7db12d45bfcc"
+    },
+    {
+      "bytes": 5142,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_SOURCE_RECORD_APPENDIX.json",
+      "sha256": "264d87c5a56ade3364f42b9b3c442911d4b1eb5cc3fb354821a3c849c6e05375"
+    },
+    {
+      "bytes": 820,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_SPATIAL_REFERENCES_BLOCK.json",
+      "sha256": "0f081314b5a8766db503bc095fcdd95bbadaaf76e32c4f0a572de15e35aed476"
+    },
+    {
+      "bytes": 4494,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/LINE_ENDING_REPORT.json",
+      "sha256": "89dbf56b1207c8c3e3778618c2877a2bb13ea77ad55f9ed99c7c622edb460148"
+    },
+    {
+      "bytes": 625,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/README.md",
+      "sha256": "44dbf877c26cf25e2feeea876d6bdf29fc5fb6e7997b3065a1bb2fb07964ee66"
+    },
+    {
+      "bytes": 860,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_CANNOT_CLAIM_BLOCK.json",
+      "sha256": "8d3d66cef18b55f804383ef545c14e03041208576ee78d9dc88ec5b5145e6806"
+    },
+    {
+      "bytes": 1278,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_CHECK_V1_SUMMARY_BLOCK.json",
+      "sha256": "37c2826f6b8ec79f5d1ddd3a0d6efc8ceed8bf6967458af83c2f6bfcbbd0f849"
+    },
+    {
+      "bytes": 1939,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EVENT_STATE_BLOCK.json",
+      "sha256": "06b0ac6ac5622d4f15f2ee7f680cf70b5a0756ce455dd1edb9047cc3aeb742b9"
+    },
+    {
+      "bytes": 1393,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_CONTRACT.json",
+      "sha256": "3df80809c4d5d4eb5e05c63a8d35a01eb198bd559c1ffbd879adcdcd00c91ebb"
+    },
+    {
+      "bytes": 758,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_HARDENING_DECISION.json",
+      "sha256": "efe57a275f9a1128f9d365b80af085e638677d37f04e9e9db93030afc31b578f"
+    },
+    {
+      "bytes": 16116,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_PACKET.json",
+      "sha256": "aca3e084bc13da9c7000cd90957489f5d675d9b919c6fbfb64873b39cbab63eb"
+    },
+    {
+      "bytes": 4921,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_EXPORT_PACKET.md",
+      "sha256": "8c9dc10bc40332760e283aab392440eca9fd79de2c06f5db8809dc5cba0a0d06"
+    },
+    {
+      "bytes": 896,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_LIMITATIONS_BLOCK.json",
+      "sha256": "3a561d485f8700dd0c813e4c9b53a95aba7464372cde3391c31f5c9efe06ac82"
+    },
+    {
+      "bytes": 1330,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_REVIEW_OPTIONS_BLOCK.json",
+      "sha256": "c8bc5dd8dc1280dcb84ac72736b7bcc7c160a4ef0fea2088c8f1fc1c817dd750"
+    },
+    {
+      "bytes": 1193,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_SIMULATION_ASSUMPTIONS_BLOCK.json",
+      "sha256": "cd3e7ff1a1c3fc1adc91a0cfc20c1e3f6f9508d9d843af621d5a7db12d45bfcc"
+    },
+    {
+      "bytes": 5142,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_SOURCE_RECORD_APPENDIX.json",
+      "sha256": "264d87c5a56ade3364f42b9b3c442911d4b1eb5cc3fb354821a3c849c6e05375"
+    },
+    {
+      "bytes": 820,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/BRIEF_V3_SPATIAL_REFERENCES_BLOCK.json",
+      "sha256": "0f081314b5a8766db503bc095fcdd95bbadaaf76e32c4f0a572de15e35aed476"
+    },
+    {
+      "bytes": 4494,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/LINE_ENDING_REPORT.json",
+      "sha256": "89dbf56b1207c8c3e3778618c2877a2bb13ea77ad55f9ed99c7c622edb460148"
+    },
+    {
+      "bytes": 625,
+      "path": "publications/epoch4/main-citybrain-track6-brief-v3-export-hardening/README.md",
+      "sha256": "44dbf877c26cf25e2feeea876d6bdf29fc5fb6e7997b3065a1bb2fb07964ee66"
+    }
+  ],
+  "entry_count": 28,
+  "generated_at": "2026-07-07T13:49:47Z",
+  "status": "PASS"
+}

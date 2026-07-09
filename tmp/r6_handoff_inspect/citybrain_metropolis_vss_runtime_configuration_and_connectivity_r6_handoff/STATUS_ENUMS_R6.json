@@ -1,0 +1,24 @@
+{
+  "fail": "FAIL_METROPOLIS_VSS_RUNTIME_CONFIGURATION_BOUNDARY_BREACH_R6",
+  "partials": [
+    "PARTIAL_METROPOLIS_VSS_RUNTIME_NOT_CONFIGURED_R6_CONNECTIVITY_CONTRACT_READY",
+    "PARTIAL_METROPOLIS_VSS_RUNTIME_CONFIGURED_CONNECTIVITY_FAILED_R6"
+  ],
+  "pass": "PASS_METROPOLIS_VSS_RUNTIME_CONFIGURATION_AND_CONNECTIVITY_R6_WITH_LIMITATIONS",
+  "probe_statuses": [
+    "PASS",
+    "NOT_CONFIGURED",
+    "FAILED",
+    "TIMEOUT",
+    "ERROR"
+  ],
+  "runtime_modes": [
+    "not_configured",
+    "command",
+    "endpoint",
+    "both_configured_prefer_cli",
+    "both_configured_prefer_endpoint"
+  ],
+  "schema_version": "metropolis-vss-runtime-configuration-and-connectivity-r6-status-enums.v1",
+  "task_name": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-CONFIGURATION-AND-CONNECTIVITY-R6"
+}

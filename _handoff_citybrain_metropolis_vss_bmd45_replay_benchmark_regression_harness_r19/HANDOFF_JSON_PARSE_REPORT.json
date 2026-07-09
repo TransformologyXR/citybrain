@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "json_files_parsed": 9,
+  "json_errors": [],
+  "json_files": [
+    "INPUT_R18_VALIDATION_SUMMARY.json",
+    "R18_ARTIFACT_INSPECTION_REPORT.json",
+    "BASELINE_METRICS_FROM_R18.json",
+    "RUNTIME_HOST_ALLOCATION_R19.json",
+    "SCHEMA_DECISION_R19.json",
+    "SCHEMA_REPLAY_BENCHMARK_CONFIG_R19.json",
+    "SCHEMA_BENCHMARK_SCORECARD_R19.json",
+    "STATUS_ENUMS_R19.json",
+    "GUARDRAIL_TERMS_R19.json"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "artifact_id": "NEXT_WAVE_CAPABILITY_DELTA",
+  "deltas": [
+    "current-truth ledger consolidated after product loop and Track A/B",
+    "Event Fabric V2.2 stress replay covers 4 families and 40 events",
+    "Simulation V2.2 exposes connector/fidelity ladder without forecast authority",
+    "Data Maturity R2 frames remediation as a diagnostic product draft",
+    "Pre-founder materials prepared without sessions, fuel, or dispositions"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "still_parked": [
+    "founder_review_sessions",
+    "ui_ux_sprint",
+    "live_or_production_ingestion",
+    "official_workflow_adapter",
+    "forecast_productization",
+    "learned_ranking",
+    "case_memory_learner",
+    "cross_city_learned_transfer"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "artifact_id": "CHECK_DOWNGRADE_REMEDIATION_CANDIDATES",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-01",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:01",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-01",
+      "source_ref": "check:v1:downgrade:01",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-01"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-02",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:02",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-02",
+      "source_ref": "check:v1:downgrade:02",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-02"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-03",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:03",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-03",
+      "source_ref": "check:v1:downgrade:03",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-03"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-04",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:04",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-04",
+      "source_ref": "check:v1:downgrade:04",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-04"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-05",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:05",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-05",
+      "source_ref": "check:v1:downgrade:05",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-05"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-06",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:06",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-06",
+      "source_ref": "check:v1:downgrade:06",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-06"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-07",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:07",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-07",
+      "source_ref": "check:v1:downgrade:07",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-07"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-08",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:08",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-08",
+      "source_ref": "check:v1:downgrade:08",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-08"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-09",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:09",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-09",
+      "source_ref": "check:v1:downgrade:09",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-09"
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-10",
+      "candidate_kind": "check_downgrade_fixture_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer evidence sufficiency review",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "proposed_patch": {
+        "check_downgrade_reason_ref": "check:v1:downgrade:10",
+        "fixture_candidate": true,
+        "maps_to_source_remediation_queue": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "check_downgrade",
+      "source_queue_id": "check-downgrade-10",
+      "source_ref": "check:v1:downgrade:10",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:check_downgrade:check-downgrade-10"
+    }
+  ],
+  "generated_at": "2026-07-07T18:51:48Z",
+  "source_queue": "check_downgrade",
+  "status": "PASS_WITH_LIMITATIONS"
+}

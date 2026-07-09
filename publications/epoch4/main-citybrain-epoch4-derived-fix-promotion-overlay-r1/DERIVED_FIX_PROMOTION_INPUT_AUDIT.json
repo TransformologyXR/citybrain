@@ -1,0 +1,44 @@
+{
+  "all_required_inputs_present": true,
+  "artifact_id": "DERIVED_FIX_PROMOTION_INPUT_AUDIT",
+  "generated_at": "2026-07-08T04:16:45Z",
+  "inputs": [
+    {
+      "exists": true,
+      "key": "fix_sandbox_decision",
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/CANDIDATE_FIX_EFFECT_SANDBOX_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_CANDIDATE_FIX_EFFECT_SANDBOX_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "fix_effect_matrix",
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/CANDIDATE_FIX_EFFECT_MATRIX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "fix_promotion_candidates",
+      "path": "outputs/main_citybrain_epoch4_candidate_fix_effect_sandbox_r1/FIX_PROMOTION_CANDIDATE_REGISTER.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_corpus_r2_index",
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CORPUS_R2_INDEX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "challenge_results",
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "readiness_refresh",
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/NO_SESSION_READINESS_REFRESH_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NO_SESSION_READINESS_REFRESH_R2_WITH_LIMITATIONS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

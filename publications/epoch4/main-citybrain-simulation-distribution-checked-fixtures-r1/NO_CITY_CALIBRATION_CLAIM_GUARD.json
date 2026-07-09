@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NO_CITY_CALIBRATION_CLAIM_GUARD",
+  "calibration_boundary": "Fixture distribution audit only; no city calibration baseline or positive calibration claim.",
+  "not_city_calibrated": true,
+  "positive_city_calibration_claim_created": false,
+  "status": "PASS"
+}

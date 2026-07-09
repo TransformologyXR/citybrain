@@ -1,0 +1,8 @@
+{
+  "artifact_id": "SIMULATION_BACKTEST_CATALOG_R2_SUPERSESSION_REPORT",
+  "status": "PASS",
+  "supersedes": [
+    "SIMULATION_BACKTEST_HANDOFF_POINTER_R1.json"
+  ],
+  "supersession_reason": "R2 catalog is the stronger package output with explicit transition/current-only reconciliation."
+}

@@ -1,0 +1,99 @@
+{
+  "artifact_id": "STORY_ARC_REVIEW_PACKET_360",
+  "brief_summary": {
+    "brief_type": "diagnostic_story_review_packet",
+    "not_recommended": "founder product review",
+    "recommended_next_step": "GO_FOR_AI_DIAGNOSTIC_STORY_REVIEW",
+    "review_question": "Is the cross-family story coherent enough for AI diagnostic story review?"
+  },
+  "causal_link_boundary": "review_story_hypothesis_not_proven_causality",
+  "check_summary": {
+    "cannot_claim": [
+      "official finding",
+      "ticket/case/action",
+      "dispatch/control/enforcement",
+      "forecast or ForecastPacket",
+      "product/client readiness",
+      "source truth mutation"
+    ],
+    "downgrades_or_holds": [
+      "weak spatial match",
+      "unknown freshness",
+      "duplicate candidate ambiguity",
+      "quarantine expected"
+    ],
+    "supported_claims": [
+      "shared primary site review linkage",
+      "mobility native packet participation"
+    ]
+  },
+  "client_ready": false,
+  "entity_resolution_summary": {
+    "families_attached_to_primary_site": [
+      "building_compliance_perception_candidate",
+      "mobility_access_interruption_v0",
+      "permit_inspection_delay"
+    ],
+    "r3_local_only_event_count": 2,
+    "shared_canonical_entity_count": 1
+  },
+  "event_refs": [
+    "seed-r3-expanded:permit_inspection_delay:001",
+    "seed-r3-expanded:building_compliance:001",
+    "seed-r3-expanded:mobility_access:001",
+    "seed-r3-expanded:building_compliance:003",
+    "seed-r3-expanded:permit_inspection_delay:003",
+    "seed-r3-expanded:asset_infrastructure:001",
+    "seed-r3-expanded:mobility_access:011",
+    "seed-r3-expanded:asset_infrastructure:016"
+  ],
+  "family_ids": [
+    "mobility_access_interruption_v0",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "limitations": [
+    "local/replay only",
+    "synthetic and donor-context support only",
+    "not official city truth",
+    "not a product/client readiness claim",
+    "no action, ticket, dispatch, control, enforcement, forecast, training, or fuel"
+  ],
+  "product_review_ready": false,
+  "review_status": "ai_diagnostic_review_ready_with_limitations",
+  "simulation_context": {
+    "limitations": [
+      "donor-distribution-aligned fixture only",
+      "not city-calibrated",
+      "not forecast",
+      "not operational prediction",
+      "no ForecastPacket"
+    ],
+    "mobility_status": "donor_distribution_aligned_fixture",
+    "permit_delay_status": "parked_or_not_distribution_checked_when_no_comparable_donor_service_time_distribution_exists"
+  },
+  "source_refs": [
+    "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+    "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION.json",
+    "outputs/MAIN-CITYBRAIN-REVIEW-PACKET-360-MOBILITY-NATIVE-REPAIR-R1/MOBILITY_REVIEW_PACKET_360_NATIVE_PACKET.json"
+  ],
+  "spatial_context_refs": [
+    "corridor:synthetic-dubai-aoi:alpha-access-corridor",
+    "geometry:synthetic-dubai-aoi:asset_infrastructure:013",
+    "geometry:synthetic-dubai-aoi:asset_infrastructure:016",
+    "geometry:synthetic-dubai-aoi:building_compliance:005",
+    "geometry:synthetic-dubai-aoi:building_compliance:007",
+    "geometry:synthetic-dubai-aoi:mobility_access:001",
+    "geometry:synthetic-dubai-aoi:mobility_access:003",
+    "geometry:synthetic-dubai-aoi:permit_inspection_delay:009",
+    "geometry:synthetic-dubai-aoi:permit_inspection_delay:011"
+  ],
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+  "story_summary": [
+    "Permit/inspection, building/site, mobility/access, compliance candidate, and asset-context evidence are packaged as one local/replay review arc.",
+    "The primary hard gate is the shared canonical site entity used by mobility, building-compliance, and permit/inspection evidence.",
+    "Asset evidence is preserved as corridor/context evidence rather than being collapsed into the site entity."
+  ],
+  "title": "Construction, permit, access, compliance, and asset cascade"
+}

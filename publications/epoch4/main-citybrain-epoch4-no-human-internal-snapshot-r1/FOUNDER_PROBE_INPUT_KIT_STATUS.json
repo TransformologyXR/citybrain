@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_PROBE_INPUT_KIT_STATUS",
+  "card_count": 16,
+  "founder_probe_input_kit_status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_INPUT_KIT_R2_WITH_LIMITATIONS",
+  "operator_fuel_created": false,
+  "response_template_ready": true,
+  "session_results_created": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

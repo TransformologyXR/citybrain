@@ -1,0 +1,32 @@
+{
+  "allowed_final_statuses": [
+    "PASS_METROPOLIS_VSS_MEDIA_CANDIDATE_OBSERVATION_AND_NARRATION_SPRINT_CLOSEOUT_WITH_LIMITATIONS",
+    "PARTIAL_METROPOLIS_VSS_MEDIA_CANDIDATE_OBSERVATION_PROVEN_VSS_CONNECTED_NARRATION_PENDING",
+    "PARTIAL_METROPOLIS_VSS_SPRINT_CLOSEOUT_BLOCKED_MISSING_R8_OR_AUDITS",
+    "FAIL_METROPOLIS_VSS_SPRINT_CLOSEOUT_BOUNDARY_OR_SOURCE_CLASS_VIOLATION"
+  ],
+  "audit_statuses": [
+    "PASS",
+    "PARTIAL",
+    "FAIL",
+    "NOT_APPLICABLE"
+  ],
+  "review_states": [
+    "candidate_unreviewed",
+    "ready_for_human_review",
+    "reviewed_with_limitations",
+    "abstain_missing_evidence",
+    "rejected_boundary_violation"
+  ],
+  "schema_version": "metropolis-vss-sprint-closeout-r9.status-enums.v1",
+  "source_classes": [
+    "sensor_inferred",
+    "model_generated_narrative",
+    "official_record",
+    "source_record",
+    "derived",
+    "synthetic",
+    "replay"
+  ],
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+}

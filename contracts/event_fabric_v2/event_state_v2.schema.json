@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "active_events": {
+      "type": "array"
+    },
+    "authority_boundary": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object"
+    },
+    "history": {
+      "type": "array"
+    },
+    "materialized_at": {
+      "type": "string"
+    },
+    "state_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "state_id",
+    "active_events",
+    "history",
+    "counts",
+    "materialized_at",
+    "authority_boundary"
+  ],
+  "title": "EventStateV2",
+  "type": "object"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_STILL_PARKED_GUARD",
+  "dispositions_created": false,
+  "founder_review_session_run": false,
+  "operator_or_founder_fuel_created": false,
+  "operator_review_session_run": false,
+  "session_results_created": false,
+  "status": "PASS",
+  "training_eligible_fuel_created": false
+}

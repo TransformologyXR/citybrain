@@ -1,0 +1,8 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_5_DETERMINISM_REPORT",
+  "event_count": 1440,
+  "first_replay_hash": "213c7de73abae57e88b7f8c6dd5babab20f75c2c51c8bcecbdd3a1f808f3765b",
+  "second_replay_hash": "213c7de73abae57e88b7f8c6dd5babab20f75c2c51c8bcecbdd3a1f808f3765b",
+  "stable_across_two_runs": true,
+  "status": "PASS"
+}

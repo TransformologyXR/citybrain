@@ -1,0 +1,26 @@
+{
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPARK-PROVISIONING-RUNBOOK-R6E",
+  "host_allocation": {
+    "deepstream_metropolis": {
+      "host": "txr-4070",
+      "source_class": "sensor_inferred",
+      "status": "proven_by_r2",
+      "evidence": [
+        "DeepStream 8.0 container",
+        "gie-kitti-output-dir",
+        "container bundled samples/streams/sample_1080p_h264.mp4",
+        "24 car records normalized to vehicle_presence_candidate"
+      ]
+    },
+    "vss": {
+      "host": "Spark / DGX Spark",
+      "source_class": "model_generated_narrative_only_not_fact_source",
+      "status": "installing_or_not_configured"
+    },
+    "txr-3090": {
+      "active_for_this_chain": false,
+      "role": "data_graph_rapids_heavier_analytics"
+    }
+  },
+  "r7_gate": "blocked_until_spark_vss_connectivity_success"
+}

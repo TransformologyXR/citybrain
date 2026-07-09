@@ -1,0 +1,9 @@
+{
+  "artifact_id": "NO_TRAINING_FUEL_GUARD",
+  "founder_fuel_created": false,
+  "human_review_labels_created": false,
+  "operator_fuel_created": false,
+  "session_results_created": false,
+  "status": "PASS",
+  "training_rows_created": false
+}

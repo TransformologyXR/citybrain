@@ -1,0 +1,152 @@
+{
+  "axes": {
+    "check_reason_coverage": {
+      "evidence": {
+        "abstain_no_data": 4,
+        "abstain_unresolved": 4,
+        "candidate_only": 4,
+        "downgrade_contradiction": 4,
+        "downgrade_freshness": 4,
+        "downgrade_proximity_only": 4,
+        "downgrade_source_class": 4,
+        "downgrade_source_depth": 4,
+        "downgrade_spatial_context": 4,
+        "quarantine_invalid": 4,
+        "simulation_not_applicable": 4,
+        "sufficient_for_review": 4
+      },
+      "reason": "CHECK outcomes include sufficient, abstain, contradiction, freshness, candidate-only, proximity, unresolved, quarantine, source-depth, source-class, and spatial-context reasons.",
+      "score": "strong_internal"
+    },
+    "city_domain_source_variety": {
+      "evidence": {
+        "families": [
+          "building_compliance_perception_candidate",
+          "city_asset_infrastructure_issue",
+          "mobility_access_interruption_v0",
+          "permit_inspection_delay"
+        ]
+      },
+      "reason": "The selected product-loop families span building, city asset, mobility, and permit domains, but the new synthetic Dubai factory layers are only partially reflected.",
+      "score": "partial"
+    },
+    "client_demo_readiness": {
+      "evidence": {
+        "control_room_cards": 6
+      },
+      "reason": "The material supports an internal bounded demo surface, but no client-ready or production claim should be made.",
+      "score": "thin"
+    },
+    "event_lifecycle_coverage": {
+      "evidence": {
+        "local_replay_state_only": 44,
+        "quarantine": 4
+      },
+      "reason": "Quarantine and local replay handling appear, but late/superseded/expired/duplicate lifecycle states are not explicit enough.",
+      "score": "partial"
+    },
+    "evidence_depth_coverage": {
+      "evidence": {
+        "candidate-only": 4,
+        "contradiction": 4,
+        "no-data": 4,
+        "positive": 4,
+        "proximity-only": 4,
+        "quarantine": 4,
+        "simulation-not-applicable": 4,
+        "source-class": 4,
+        "source-depth": 4,
+        "spatial-gap": 4,
+        "stale": 4,
+        "unresolved": 4
+      },
+      "reason": "The corpus intentionally includes positive, no-data, stale, contradiction, source-depth, source-class, spatial-gap, candidate-only, unresolved, proximity-only, and quarantine cases.",
+      "score": "adequate_for_internal_regression"
+    },
+    "family_coverage": {
+      "evidence": {
+        "eval_family_count": 4,
+        "founder_family_count": 4
+      },
+      "reason": "All 4 selected product-loop families appear in the 48-case eval corpus and 16 founder cards.",
+      "score": "adequate_for_internal_regression"
+    },
+    "human_review_readiness": {
+      "evidence": {
+        "founder_card_count": 16
+      },
+      "reason": "16 cards are enough for founder diagnostic review, but not product-review or client-readiness review without stronger card evidence summaries and actual review sessions.",
+      "score": "partial"
+    },
+    "learning_fuel_readiness": {
+      "evidence": {
+        "training_eligible_any": false
+      },
+      "reason": "No training rows, labels, dispositions, learned ranking, or model training are created or allowed by this audit.",
+      "score": "none"
+    },
+    "native_vs_derived_backfill_coverage": {
+      "evidence": {
+        "cards_with_derived_overlay_refs": 4
+      },
+      "reason": "Founder cards expose derived overlay refs for mobility cards, but native-vs-derived provenance is not consistently visible across all cards.",
+      "score": "partial"
+    },
+    "scenario_type_coverage": {
+      "evidence": {
+        "eval_case_type_count": 12,
+        "founder_scenarios": {
+          "contradiction_pair": 4,
+          "negative_no_data": 4,
+          "positive_packet_baseline": 4,
+          "stale_freshness": 4
+        }
+      },
+      "reason": "Eval corpus covers 12 challenge/scenario classes; founder cards cover the 4 primary human-probe scenarios.",
+      "score": "strong_internal"
+    },
+    "simulation_option_engine_coverage": {
+      "evidence": {
+        "SUMO_smoke_allowed_not_calibrated": 11,
+        "simulation_not_applicable": 37
+      },
+      "reason": "Current 48 eval cases mostly mark simulation as not applicable; separate option-engine artifacts exist but are not deeply represented in the founder cards.",
+      "score": "thin"
+    },
+    "source_class_coverage": {
+      "evidence": {
+        "replay": 48
+      },
+      "reason": "Eval rows are dominated by replay source_class; official/native/sensor/model-generated classes are not represented as independent classes.",
+      "score": "thin"
+    },
+    "synthetic_data_factory_coverage": {
+      "evidence": {
+        "ask_fixtures": 11,
+        "base_city_rows": 20631,
+        "brief_fixtures": 11,
+        "check_fixtures": 11,
+        "control_room_cards": 6,
+        "event_replay_rows": 55,
+        "main_acquisition_fuel_rows": 66737,
+        "mobility_depth_rows": 46106,
+        "runtime_packets": 6,
+        "served_runtime_responses": 6,
+        "spatial_fixtures": 11,
+        "synthetic_seed_entities": 144,
+        "watch_fixtures": 11
+      },
+      "reason": "Product fixtures, event replay, runtime, and control-room layers are now available, but the current eval/founder corpus was not built to sample all 66,737 acquisition rows or 144 seed entities directly.",
+      "score": "partial"
+    }
+  },
+  "score_enum": [
+    "none",
+    "thin",
+    "partial",
+    "adequate_for_internal_regression",
+    "strong_internal",
+    "not_applicable"
+  ],
+  "status": "PASS"
+}

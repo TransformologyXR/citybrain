@@ -1,0 +1,25 @@
+{
+  "artifact_id": "EVAL_RERUN_DIFF_R1",
+  "baseline_case_count": 12,
+  "baseline_case_pass_count": 12,
+  "regression_count": 0,
+  "rerun_case_count": 12,
+  "rerun_case_pass_count": 12,
+  "residual_gaps_preserved_as_limitations": [
+    {
+      "description": "Eval corpus passes deterministic assertions, but remediation candidates remain projection-only and should be reviewed before broad founder review.",
+      "gap_id": "residual:source_maturity:projection_needed",
+      "gap_type": "residual_data_maturity",
+      "severity": "medium",
+      "source": "remediation_candidate_sandbox_projection_required"
+    },
+    {
+      "description": "UI/UX remains parked; review packet can be probed, but full review ergonomics are not claimed.",
+      "gap_id": "residual:ui_ux:deferred",
+      "gap_type": "founder_review_operability",
+      "severity": "low",
+      "source": "current_scope_boundary"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

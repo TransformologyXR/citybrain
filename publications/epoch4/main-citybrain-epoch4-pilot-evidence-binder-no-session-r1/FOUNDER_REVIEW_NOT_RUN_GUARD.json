@@ -1,0 +1,9 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_NOT_RUN_GUARD",
+  "completed_feedback_forms_created": false,
+  "founder_review_session_run": false,
+  "operator_review_session_run": false,
+  "session_results_created": false,
+  "status": "PASS",
+  "training_eligibility_created": false
+}

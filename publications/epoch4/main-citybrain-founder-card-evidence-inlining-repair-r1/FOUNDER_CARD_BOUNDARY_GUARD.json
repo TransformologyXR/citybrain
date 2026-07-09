@@ -1,0 +1,14 @@
+{
+  "artifact_id": "FOUNDER_CARD_BOUNDARY_GUARD",
+  "client_ready": false,
+  "external_operator_validation": false,
+  "forecast_packet_created": false,
+  "founder_internal": true,
+  "founder_session_result_created": false,
+  "official_action_control_enforcement_created": false,
+  "operator_fuel": false,
+  "product_review_ready": false,
+  "source_truth_mutated": false,
+  "status": "PASS",
+  "training_eligible": false
+}

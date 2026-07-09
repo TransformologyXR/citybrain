@@ -1,0 +1,298 @@
+{
+  "artifact_id": "FOUNDER_CARD_EVIDENCE_EXTRACTION_LEDGER",
+  "note_count": 24,
+  "rows": [
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "Permit/inspection status attaches to the primary site.",
+      "displayed_source_ref": "seed-r3-expanded:permit_inspection_delay:001",
+      "note_index": 1,
+      "raw_refs": [
+        "story-step-01-permit-status",
+        "permit_inspection_delay"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "Building/site context confirms the same primary site is in the review scope.",
+      "displayed_source_ref": "seed-r3-expanded:building_compliance:001",
+      "note_index": 2,
+      "raw_refs": [
+        "story-step-02-built-environment-site",
+        "building_compliance_perception_candidate"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "Mobility access interruption participates through the repaired direct evidence packet evidence.",
+      "displayed_source_ref": "seed-r3-expanded:mobility_access:001",
+      "note_index": 3,
+      "raw_refs": [
+        "story-step-03-mobility-access",
+        "mobility_access_interruption_v0"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "A complaint-like compliance candidate provides review context, not an official finding.",
+      "displayed_source_ref": "seed-r3-expanded:building_compliance:003",
+      "note_index": 4,
+      "raw_refs": [
+        "story-step-04-civic-complaint-context",
+        "building_compliance_perception_candidate"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "Inspection delay remains review evidence and cannot be treated as action authority.",
+      "displayed_source_ref": "seed-r3-expanded:permit_inspection_delay:003",
+      "note_index": 5,
+      "raw_refs": [
+        "story-step-05-inspection-delay",
+        "permit_inspection_delay"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "Infrastructure context is linked as a corridor/impact edge, not as the same site entity.",
+      "displayed_source_ref": "seed-r3-expanded:asset_infrastructure:001",
+      "note_index": 6,
+      "raw_refs": [
+        "story-step-06-asset-impact",
+        "city_asset_infrastructure_issue"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "evidence review should downgrade or hold when map view, freshness, or identity evidence is weak.",
+      "displayed_source_ref": "seed-r3-expanded:mobility_access:011",
+      "note_index": 7,
+      "raw_refs": [
+        "story-step-07-check-downgrade",
+        "mobility_access_interruption_v0"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-001",
+      "displayed_note_text": "review summary and map view review can show evidence and limitations, not control or action.",
+      "displayed_source_ref": "seed-r3-expanded:asset_infrastructure:016",
+      "note_index": 8,
+      "raw_refs": [
+        "story-step-08-brief-spatial-review",
+        "city_asset_infrastructure_issue"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_EVENTS.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-002",
+      "displayed_note_text": "Building concern near a site source shows building perception candidate. Observed details: family adapter: adapter:building compliance perception candidate, overlay kind: building perception overlay, priority tier: static high.",
+      "displayed_source_ref": "source_record:sensor:near_alpha:2026-07-07",
+      "note_index": 1,
+      "raw_refs": [
+        "efv2_1:00fa2780598a",
+        "building_compliance_perception_candidate"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-003",
+      "displayed_note_text": "Permit or inspection delay source shows permit inspection delay. Observed details: family adapter: adapter:permit inspection delay, overlay kind: permit inspection timeline overlay, priority tier: static medium.",
+      "displayed_source_ref": "source_record:permit:alpha:2026-07-01",
+      "note_index": 1,
+      "raw_refs": [
+        "efv2_1:1e97261f8ea0",
+        "permit_inspection_delay"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-004",
+      "displayed_note_text": "Infrastructure or city asset concern source shows asset infrastructure issue. Observed details: family adapter: adapter:city asset infrastructure issue, overlay kind: asset issue map view overlay, priority tier: static medium.",
+      "displayed_source_ref": "source_record:asset:infrastructure:fixture",
+      "note_index": 1,
+      "raw_refs": [
+        "efv2_1:326d9153f57d",
+        "city_asset_infrastructure_issue"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-005",
+      "displayed_note_text": "Access interruption source shows mobility access interruption. Observed details: family adapter: adapter:mobility access interruption, overlay kind: route access constraint, priority tier: static medium.",
+      "displayed_source_ref": "source_record:inspection:alpha:2026-06-30",
+      "note_index": 1,
+      "raw_refs": [
+        "efv2_1:1a32d22bf8e2",
+        "mobility_access_interruption"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-006",
+      "displayed_note_text": "Positive baseline card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome was sufficient for review, expected sufficient for review, match matched direct evidence review harness.",
+      "displayed_source_ref": "founder-probe-r2-01",
+      "note_index": 1,
+      "raw_refs": [
+        "eval-r2:building_compliance_perception_candidate:positive_packet_baseline",
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1/review_cards_r4/founder-probe-r2-01.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-007",
+      "displayed_note_text": "No-data diagnostic card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome stayed limited or abstained, expected abstain no data, match matched challenge boundary.",
+      "displayed_source_ref": "founder-probe-r2-02",
+      "note_index": 1,
+      "raw_refs": [
+        "eval-r2:building_compliance_perception_candidate:negative_no_data",
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1/review_cards_r4/founder-probe-r2-02.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-008",
+      "displayed_note_text": "Stale-freshness diagnostic card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome was PASS LIMITED OR ABSTAIN, expected a freshness downgrade, match matched challenge boundary.",
+      "displayed_source_ref": "founder-probe-r2-03",
+      "note_index": 1,
+      "raw_refs": [
+        "eval-r2:building_compliance_perception_candidate:stale_freshness",
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1/review_cards_r4/founder-probe-r2-03.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-009",
+      "displayed_note_text": "Contradiction diagnostic card: source refs are source:v1_1:building_compliance_perception_candidate:atlas, diff:v2_5:building_compliance_perception_candidate:long_history; actual outcome found a conflict, expected a downgrade, match matched direct evidence review harness.",
+      "displayed_source_ref": "founder-probe-r2-04",
+      "note_index": 1,
+      "raw_refs": [
+        "eval-r2:building_compliance_perception_candidate:contradiction_pair",
+        "source:v1_1:building_compliance_perception_candidate:atlas",
+        "diff:v2_5:building_compliance_perception_candidate:long_history"
+      ],
+      "source_path": "outputs/main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1/review_cards_r4/founder-probe-r2-04.json",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-010",
+      "displayed_note_text": "Access Constraint example: Seed R3 mobility access gold adapter event",
+      "displayed_source_ref": "seed-r3-expanded:mobility_access:001",
+      "note_index": 1,
+      "raw_refs": [
+        "seed-r3-adapter:mobility_access:gold:001",
+        "mobility_access_interruption_v0"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-010",
+      "displayed_note_text": "Transit Disruption example: Seed R3 mobility access dirty_source adapter event",
+      "displayed_source_ref": "seed-r3-expanded:mobility_access:002",
+      "note_index": 2,
+      "raw_refs": [
+        "seed-r3-adapter:mobility_access:dirty_source:002",
+        "mobility_access_interruption_v0"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-011",
+      "displayed_note_text": "Site Condition example: Seed R3 building compliance gold adapter event",
+      "displayed_source_ref": "seed-r3-expanded:building_compliance:001",
+      "note_index": 1,
+      "raw_refs": [
+        "seed-r3-adapter:building_compliance:gold:005",
+        "building_compliance_perception_candidate"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-011",
+      "displayed_note_text": "Inspection Due example: Seed R3 building compliance dirty_source adapter event",
+      "displayed_source_ref": "seed-r3-expanded:building_compliance:002",
+      "note_index": 2,
+      "raw_refs": [
+        "seed-r3-adapter:building_compliance:dirty_source:006",
+        "building_compliance_perception_candidate"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-012",
+      "displayed_note_text": "Permit Wait example: Seed R3 permit inspection delay gold adapter event",
+      "displayed_source_ref": "seed-r3-expanded:permit_inspection_delay:001",
+      "note_index": 1,
+      "raw_refs": [
+        "seed-r3-adapter:permit_inspection_delay:gold:009",
+        "permit_inspection_delay"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-012",
+      "displayed_note_text": "Inspection Backlog example: Seed R3 permit inspection delay dirty_source adapter event",
+      "displayed_source_ref": "seed-r3-expanded:permit_inspection_delay:002",
+      "note_index": 2,
+      "raw_refs": [
+        "seed-r3-adapter:permit_inspection_delay:dirty_source:010",
+        "permit_inspection_delay"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-013",
+      "displayed_note_text": "Service Asset example: Seed R3 asset infrastructure gold adapter event",
+      "displayed_source_ref": "seed-r3-expanded:asset_infrastructure:001",
+      "note_index": 1,
+      "raw_refs": [
+        "seed-r3-adapter:asset_infrastructure:gold:013",
+        "city_asset_infrastructure_issue"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    },
+    {
+      "card_id": "founder-inline-013",
+      "displayed_note_text": "Facility Context example: Seed R3 asset infrastructure dirty_source adapter event",
+      "displayed_source_ref": "seed-r3-expanded:asset_infrastructure:002",
+      "note_index": 2,
+      "raw_refs": [
+        "seed-r3-adapter:asset_infrastructure:dirty_source:014",
+        "city_asset_infrastructure_issue"
+      ],
+      "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+      "source_truth_mutated": false
+    }
+  ]
+}

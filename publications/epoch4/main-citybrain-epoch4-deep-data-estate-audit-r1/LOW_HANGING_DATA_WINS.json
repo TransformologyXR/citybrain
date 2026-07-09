@@ -1,0 +1,48 @@
+{
+  "artifact_id": "LOW_HANGING_DATA_WINS",
+  "generated_at": "2026-07-08T09:24:29Z",
+  "items": [
+    {
+      "action": "Use SourceRegistry v1.1 gap counts to drive a visible trust/maturity backlog.",
+      "effort": "low",
+      "rank": 1,
+      "value": "high",
+      "why_safe": "Additive diagnostics only; no source mutation.",
+      "win_id": "win:source_registry_v1_1_gaps_to_backlog"
+    },
+    {
+      "action": "Embed concise evidence summaries, CER/SEG context, and actual CHECK outcomes into review cards.",
+      "effort": "low",
+      "rank": 2,
+      "value": "high",
+      "why_safe": "Uses existing replay/eval artifacts and improves review clarity without creating session fuel.",
+      "win_id": "win:founder_cards_evidence_summary"
+    },
+    {
+      "action": "Expose factory reference counts with evidence refs and truth-boundary labels.",
+      "effort": "low",
+      "rank": 3,
+      "value": "medium",
+      "why_safe": "Clarifies synthetic/donor/replay boundaries and prevents Dubai-truth overclaim.",
+      "win_id": "win:synthetic_factory_count_traceability"
+    },
+    {
+      "action": "Turn CHECK downgrade reasons into product-facing data maturity diagnostics.",
+      "effort": "low",
+      "rank": 4,
+      "value": "medium",
+      "why_safe": "Advisory only; does not certify legal/official findings.",
+      "win_id": "win:check_downgrade_reason_index"
+    },
+    {
+      "action": "Use Event Story Pack R1 and DIFF fixtures as a replay catalog for internal demos.",
+      "effort": "medium",
+      "rank": 5,
+      "value": "medium",
+      "why_safe": "Local/replay only; no live ingestion or official incident claim.",
+      "win_id": "win:event_story_pack_replay_catalog"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "win_count": 5
+}

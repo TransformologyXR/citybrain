@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumptions": {
+      "type": "string"
+    },
+    "baseline": {
+      "type": "string"
+    },
+    "check_hooks": {
+      "type": "array"
+    },
+    "entities": {
+      "type": "string"
+    },
+    "expected_outputs": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "string"
+    },
+    "review_options": {
+      "type": "array"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "scenario_id",
+    "source_class",
+    "entities",
+    "assumptions",
+    "inputs",
+    "baseline",
+    "review_options",
+    "expected_outputs",
+    "limitations",
+    "check_hooks"
+  ],
+  "title": "SimulationScenario",
+  "type": "object"
+}

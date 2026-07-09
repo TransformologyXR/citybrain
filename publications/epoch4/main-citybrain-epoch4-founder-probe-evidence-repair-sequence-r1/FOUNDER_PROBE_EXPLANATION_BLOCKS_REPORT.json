@@ -1,0 +1,152 @@
+{
+  "all_cards_have_explanation_blocks": true,
+  "artifact_id": "FOUNDER_PROBE_EXPLANATION_BLOCKS_REPORT",
+  "card_count": 16,
+  "rows": [
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-01"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-02"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-03"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-04"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-05"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-06"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-07"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-08"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-09"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-10"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-11"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-12"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-13"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-14"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-15"
+    },
+    {
+      "has_can_say": true,
+      "has_cannot_claim": true,
+      "has_case_testing": true,
+      "has_founder_judgment": true,
+      "has_why_check": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-16"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

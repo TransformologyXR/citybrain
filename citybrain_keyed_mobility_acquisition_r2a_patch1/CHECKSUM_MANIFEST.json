@@ -1,0 +1,90 @@
+{
+  "manifest_version": "r2a_patch1",
+  "files": [
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/DATA_SOURCES_CONFIRMATION.md",
+      "bytes": 1245,
+      "sha256": "0dfba3087f44abf64881b3c351bb2fbbf5f0b16cfb32d0e04bef9161cc2e02cb"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/KEY_HANDLING.md",
+      "bytes": 1188,
+      "sha256": "98fab5c4bc8e99dedb9a22f7d54d07db553a542810fd63dc2174eca84938dd96"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/KNOWN_BLOCKERS.md",
+      "bytes": 1474,
+      "sha256": "bf21889c3c18a974ffff802964e1afcba3b89cee0ff1b1e0520342fa37e3d316"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/R2A_PACKAGE_DECISION.json",
+      "bytes": 798,
+      "sha256": "a07bf4ab216330fea2704fa04581f30563735435c3111168530436dbe01027d1"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/README.md",
+      "bytes": 2059,
+      "sha256": "88b91a8e765d0771c89e9b74189e9d83ccec2e6167a326c0ee2a81091b21b8f4"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/codex/CODEX_HANDOVER.md",
+      "bytes": 3778,
+      "sha256": "85dcb874ebc0fd47f2c7a2495ac131d54fff8b9853cf89c55a14dfd6e964acd8"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/manifests/source_inventory_lta_tfl.csv",
+      "bytes": 2384,
+      "sha256": "cbad889c0fa1a09163a540e0471b9594cb9d9ba9f3f7037b00f2725c402ab2b0"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/manifests/source_inventory_lta_tfl.json",
+      "bytes": 5198,
+      "sha256": "5de397391626addec7e65506ebd004990ea06b6ea5dfb6d756a17ec7e08e6d2a"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/reports/SANDBOX_KEY_VALIDATION_ATTEMPT.json",
+      "bytes": 826,
+      "sha256": "4925f37e4e6af5ab0e7f843eb58c616aa84991fb1e92dcfa65529de428ea1ebc"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/reports/SANDBOX_SCRIPT_SMOKE_RESULT.json",
+      "bytes": 313,
+      "sha256": "d7fa2a1cbb358ad8457430b730cb7b03e37fe564ce3a53cf6f51b15ed8b7d3c1"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/reports/SECRET_SCAN_REPORT.json",
+      "bytes": 300,
+      "sha256": "15550d7aae3a000d5a1e16e784e387f47400011582219239df51a000850cd1b7"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/reports/SECRET_SCAN_REPORT_PATCH1.json",
+      "bytes": 48,
+      "sha256": "9c97d6655c4d514028d3947e08e6cd933ddd468b833b54004d6d0c8268a000e1"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/schemas/keyed_source_status.schema.json",
+      "bytes": 964,
+      "sha256": "a3a940f3397b5d374ace97877029321280cd6b9255af5640eb122345d7e7c98c"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/scripts/harvest_lta_tfl_keyed_sources.py",
+      "bytes": 13039,
+      "sha256": "fa35a9f97f928e88e83ff6064a60629b6403031c880d1da61ba81e364a0343de"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/scripts/validate_package_no_secrets.py",
+      "bytes": 1139,
+      "sha256": "3219b6ccf2ebb2f3900b36b27162234bb8c7cbe31c5cd0f8c62e7c312173a1aa"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/secrets/lta_tfl.env.template",
+      "bytes": 165,
+      "sha256": "488c49ac0c86c2a0726d9f675e1ce633c09391a6221a6fe919ced549ded0fa07"
+    },
+    {
+      "path": "citybrain_keyed_mobility_acquisition_r2a_patch1/tests/test_keyed_package_static.py",
+      "bytes": 1209,
+      "sha256": "890b3c64be431389e5083c11828319b659e0f1b9018a0a856c737f6fe75cdce1"
+    }
+  ]
+}

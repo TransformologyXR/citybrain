@@ -1,0 +1,26 @@
+{
+  "artifact_id": "READINESS_GAP_REGISTER",
+  "gaps": [
+    {
+      "gap_id": "human_review_not_run",
+      "status": "open",
+      "why_it_matters": "founder/operator feedback still cannot be claimed"
+    },
+    {
+      "gap_id": "ui_ux_not_started",
+      "status": "open",
+      "why_it_matters": "review ergonomics still need a later sprint"
+    },
+    {
+      "gap_id": "real_data_connector_depth",
+      "status": "open",
+      "why_it_matters": "load and option engines remain local/replay/fixture-grade"
+    },
+    {
+      "gap_id": "forecast_authority_absent_by_design",
+      "status": "parked",
+      "why_it_matters": "product forecast surfaces remain forbidden"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

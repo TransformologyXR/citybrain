@@ -1,0 +1,50 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_FAMILY_STATE_MATERIALIZATION_REPORT",
+  "families": [
+    {
+      "event_count": 70,
+      "family_id": "mobility_access_interruption",
+      "materialized_state_ref": "event_state:v2_4:mobility_access_interruption",
+      "review_packet_candidate_count": 20,
+      "state_counts": {
+        "materialized": 60,
+        "quarantined": 5,
+        "unresolved": 5
+      }
+    },
+    {
+      "event_count": 70,
+      "family_id": "building_compliance_perception_candidate",
+      "materialized_state_ref": "event_state:v2_4:building_compliance_perception_candidate",
+      "review_packet_candidate_count": 20,
+      "state_counts": {
+        "materialized": 60,
+        "quarantined": 5,
+        "unresolved": 5
+      }
+    },
+    {
+      "event_count": 70,
+      "family_id": "permit_inspection_delay",
+      "materialized_state_ref": "event_state:v2_4:permit_inspection_delay",
+      "review_packet_candidate_count": 20,
+      "state_counts": {
+        "materialized": 60,
+        "quarantined": 5,
+        "unresolved": 5
+      }
+    },
+    {
+      "event_count": 70,
+      "family_id": "city_asset_infrastructure_issue",
+      "materialized_state_ref": "event_state:v2_4:city_asset_infrastructure_issue",
+      "review_packet_candidate_count": 20,
+      "state_counts": {
+        "materialized": 60,
+        "quarantined": 5,
+        "unresolved": 5
+      }
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

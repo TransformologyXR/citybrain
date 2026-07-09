@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "task_id",
+    "final_status",
+    "spark_vss_runtime_configured",
+    "probe_status",
+    "r7_ready",
+    "audits"
+  ],
+  "properties": {
+    "task_id": {"type": "string"},
+    "final_status": {"type": "string"},
+    "spark_vss_runtime_configured": {"type": "boolean"},
+    "probe_status": {"type": "string"},
+    "r7_ready": {"type": "boolean"},
+    "audits": {"type": "object"}
+  }
+}

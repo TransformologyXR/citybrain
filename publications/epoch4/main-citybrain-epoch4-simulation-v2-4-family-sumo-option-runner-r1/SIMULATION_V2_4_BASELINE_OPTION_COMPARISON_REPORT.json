@@ -1,0 +1,34 @@
+{
+  "artifact_id": "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT",
+  "comparisons": [
+    {
+      "baseline_avg_duration": 21.0,
+      "baseline_option": "normal_corridor",
+      "duration_delta_seconds": 10.6,
+      "family_id": "city_asset_infrastructure_issue",
+      "forecast_created": false,
+      "intervention_option": "restricted_asset_corridor",
+      "option_avg_duration": 31.6,
+      "recommendation_authority": "none",
+      "runner": "SUMO_local_smoke"
+    },
+    {
+      "baseline_option": "no_extra_review",
+      "family_id": "building_compliance_perception_candidate",
+      "forecast_created": false,
+      "intervention_option": "targeted_evidence_review",
+      "recommendation_authority": "none",
+      "runner": "fixture_grade_non_sumo"
+    },
+    {
+      "baseline_option": "current_review_queue",
+      "family_id": "permit_inspection_delay",
+      "forecast_created": false,
+      "intervention_option": "source_gap_triage",
+      "recommendation_authority": "none",
+      "runner": "fixture_grade_non_sumo"
+    }
+  ],
+  "family_count": 3,
+  "status": "PASS_WITH_LIMITATIONS"
+}

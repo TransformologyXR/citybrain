@@ -1,0 +1,967 @@
+{
+  "answers": [
+    {
+      "eval_case_id": "story-arc-r1-eval-001",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-002",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-003",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-004",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-005",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-006",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-007",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-008",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-009",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-010",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-011",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-012",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-013",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-014",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-015",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-016",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-017",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-018",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-019",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-020",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-021",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-022",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-023",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-024",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-025",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-026",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-027",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-028",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-029",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-030",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-031",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-032",
+      "expected_answer_or_decision": "supported_for_review_with_limitations",
+      "expected_behavior": "support_if_source_refs_and_canonical_or_admitted_resolution_match",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-033",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-034",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-035",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-036",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-037",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-038",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-039",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-040",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-041",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-042",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-043",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-044",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-045",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-046",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-047",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-048",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-049",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-050",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-051",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-052",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-053",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-054",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-055",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-056",
+      "expected_answer_or_decision": "linked_for_review_not_causal_or_actionable",
+      "expected_behavior": "support_only_when_shared_entity_or_context_edge_is_explicit",
+      "truth_refs": [
+        "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json#cross_family_resolution_edges"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-057",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-058",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-059",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-060",
+      "expected_answer_or_decision": "contextual_corridor_resolution_only",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-061",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-062",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-063",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-064",
+      "expected_answer_or_decision": "contextual_corridor_resolution_only",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-065",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-066",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-067",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-068",
+      "expected_answer_or_decision": "contextual_corridor_resolution_only",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-069",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-070",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-071",
+      "expected_answer_or_decision": "canonical_resolution_supported_with_limitations",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-072",
+      "expected_answer_or_decision": "contextual_corridor_resolution_only",
+      "expected_behavior": "shared_canonical_entity_required_for_site_linkage",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-primary-site"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-073",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-074",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-075",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-076",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-077",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-078",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-079",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-080",
+      "expected_answer_or_decision": "downgrade_or_hold_for_contradiction",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-081",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-082",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-083",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-084",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-085",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-086",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-087",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-088",
+      "expected_answer_or_decision": "downgrade_freshness_or_request_refresh",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-089",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-090",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-091",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-092",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-093",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-094",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-095",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-096",
+      "expected_answer_or_decision": "abstain_or_request_more_evidence",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-097",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-098",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-099",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-100",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-101",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-102",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-103",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-104",
+      "expected_answer_or_decision": "hold_for_identity_review",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-105",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-106",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-107",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-108",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-109",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-110",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-111",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-112",
+      "expected_answer_or_decision": "hold_in_unresolved_or_quarantine_queue",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-113",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-114",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-115",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-116",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-117",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-118",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-119",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    },
+    {
+      "eval_case_id": "story-arc-r1-eval-120",
+      "expected_answer_or_decision": "must_not_claim_action_forecast_or_readiness",
+      "expected_behavior": "downgrade_hold_abstain_or_limit_claim",
+      "truth_refs": [
+        "CROSS_DOMAIN_STORY_TRUTH_MANIFEST.json#truth-claim-check-boundary"
+      ]
+    }
+  ],
+  "artifact_id": "STORY_ARC_EVAL_ANSWER_KEY",
+  "case_count": 120,
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade"
+}

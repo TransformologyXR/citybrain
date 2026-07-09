@@ -1,0 +1,48 @@
+{
+  "artifact_id": "INTERNAL_READINESS_SNAPSHOT_NO_SESSION",
+  "generated_at": "2026-07-07T17:20:59Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "non_sumo_domain_option_engines",
+      "path": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_v2_5",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "cer_check_event_stress",
+      "path": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_v2",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-INTERNAL-READINESS-SNAPSHOT-NO-SESSION-R1",
+  "parked": [
+    "founder review session",
+    "UI/UX polish",
+    "live ingestion",
+    "product forecast surface",
+    "learned ranking/model training",
+    "official workflow/case/ticket/action adapter"
+  ],
+  "readiness_signals": [
+    "non-SUMO option engines exist for building compliance and permit delay",
+    "Event Fabric V2.5 long-history load is deterministic",
+    "CER/CHECK stress includes ambiguity, contradiction, downgrade, and conflict cases",
+    "Review Packet 360 V2 remains available as no-session evidence"
+  ],
+  "ready_for_founder_session": false,
+  "ready_for_internal_review_prep": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

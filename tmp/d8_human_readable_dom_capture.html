@@ -1,0 +1,250 @@
+<!doctype html><html><body data-scenario-state-ref="scenario_state:mobility-access-corridor:hero-lon-corridor" data-execution-state="not_executed"><section id="hero-story" class="hero-panel span-12" data-panel="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">CityBrain D8 live surface</p>
+      <h2>Mobility Access corridor</h2>
+      <p class="hero-line">A local replay scenario for human review: CityBrain connects corridor context, possible observations, similar cases, and review-only choices.</p>
+      <div class="plain-status-row">
+        <span class="status-pill safe">No action has been taken.</span>
+        <span class="status-pill">Human review required before any proposal.</span>
+        <span class="status-pill">Local replay review only.</span>
+      </div>
+    </div>
+    <div class="hero-note">
+      <strong>What to notice</strong>
+      <p>The system explains what happened, what it connected, what is uncertain, and where it stops.</p>
+    </div>
+  </section>
+<section id="story-timeline" class="panel span-12" data-panel="story-timeline">
+    <h2>Six-step operator story</h2>
+    <ol class="story-steps">
+      <li>
+        <span class="step-number">1</span>
+        <div><strong>Issue appears</strong><p>A mobility access issue appears in the hero corridor replay.</p></div>
+      </li><li>
+        <span class="step-number">2</span>
+        <div><strong>Data connected</strong><p>CityBrain connects the corridor, possible observations, similar cases, and access context.</p></div>
+      </li><li>
+        <span class="step-number">3</span>
+        <div><strong>Uncertainty shown</strong><p>Uncertain links stay visible instead of being turned into findings.</p></div>
+      </li><li>
+        <span class="step-number">4</span>
+        <div><strong>Choices compared</strong><p>Review-only choices are compared on the same axes.</p></div>
+      </li><li>
+        <span class="step-number">5</span>
+        <div><strong>Unsafe action refused</strong><p>Forbidden command-shaped requests are blocked.</p></div>
+      </li><li>
+        <span class="step-number">6</span>
+        <div><strong>Human review stop</strong><p>Only the human review lane can decide whether anything becomes a proposal.</p></div>
+      </li>
+    </ol>
+  </section>
+<section id="situation" class="panel span-7" data-panel="situation">
+    <p class="section-kicker">What happened</p>
+    <h2>A corridor access issue needs review</h2>
+    <p>The hero corridor replay shows a mobility access issue around lane, route, kerbside, pedestrian, and incident context. CityBrain has connected 7 access-related references without taking action.</p>
+    <div class="metric-grid human">
+      <div class="metric"><span>Action status</span><strong>No action taken</strong></div>
+      <div class="metric"><span>Review choices</span><strong>3 prepared</strong></div>
+      <div class="metric"><span>Possible paths</span><strong>7 for review</strong></div>
+      <div class="metric"><span>Trace</span><strong>9 review stages</strong></div>
+    </div>
+    <p id="mobility-source-fusion" class="human-explain">CityBrain connects Mobility Access context, D7 candidate observations, similar cases, cascade context, the governed trace, and Track D review boundaries.</p>
+  </section>
+<section id="evidence" class="panel span-5" data-panel="evidence">
+    <p class="section-kicker">What CityBrain connected</p>
+    <h2>Evidence is helpful, but not a finding</h2>
+    <div class="evidence-stack">
+      <article id="similar-cases" class="callout info" data-moment-id="M02">
+        <strong>This looks like a past case</strong>
+        <p>Cross-city memory provides 4 similar cases as context. They help the reviewer compare, but they do not mandate a response.</p>
+      </article>
+      <article id="d7-evidence" class="callout" data-moment-id="M13">
+        <strong>Possible observation from demo media; human review required.</strong>
+        <p>6 D7 candidate observations are visible as possible evidence, not confirmed findings.</p>
+      </article>
+      <article id="uncertainty-affordance" class="callout warning" data-moment-id="M03">
+        <strong>What CityBrain is unsure about</strong>
+        <p>Some links are qualitative and context-only. The page keeps uncertainty and limitations attached instead of hiding them behind a confident-looking answer.</p>
+      </article>
+    </div>
+  </section>
+<section id="options" class="panel span-8" data-panel="options">
+    <p class="section-kicker">What a human can review</p>
+    <h2>Review choices prepared for a human</h2>
+    <p>These are possible next review paths. They are not instructions and they are not executed.</p>
+    <div id="shared-axis-tradeoff" class="axis-grid human" data-moment-id="M06">
+      <div class="axis"><span>Shared comparison axis</span><strong>access continuity</strong></div><div class="axis"><span>Shared comparison axis</span><strong>delay risk</strong></div><div class="axis"><span>Shared comparison axis</span><strong>kerbside safety</strong></div><div class="axis"><span>Shared comparison axis</span><strong>evidence confidence</strong></div>
+    </div>
+    <div class="choice-list">
+      <article class="choice-card">
+        <strong>Keep watching; no intervention proposed</strong>
+        <p>Context only; no promotion No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article><article class="choice-card">
+        <strong>Review a possible corridor reroute</strong>
+        <p>Eligible for human review only No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article><article class="choice-card">
+        <strong>Review kerbside access adjustments</strong>
+        <p>Eligible for human review only No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article><article class="choice-card">
+        <strong>Review a public information draft</strong>
+        <p>Eligible for human review only No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article><article class="choice-card">
+        <strong>Escalate because no safe automated choice is available</strong>
+        <p>Context only; no promotion No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article><article class="choice-card">
+        <strong>Keep watching; no intervention proposed</strong>
+        <p>Context only; no promotion No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article><article class="choice-card">
+        <strong>Escalate because no safe automated choice is available</strong>
+        <p>Context only; no promotion No action has been taken.</p>
+        <span class="soft-label">No approved proposal created</span>
+      </article>
+    </div>
+  </section>
+<section id="track-d" class="panel span-4" data-panel="track-d">
+    <p class="section-kicker">Where the system stops</p>
+    <h2>Human review is required</h2>
+    <p id="track-d-stop" class="claim-line" data-moment-id="M08">Only the human review lane can decide whether this should become a proposal.</p>
+    <p id="guardrail-refusal" class="danger-card" data-moment-id="M07"><strong>Unsafe action refused.</strong> Forbidden action-shaped commands are rejected. No dispatch, routing, enforcement, ticket, alert, or automated action is created.</p>
+    <div class="metric-grid two">
+      <div class="metric"><span>Eligible for human review</span><strong>3</strong></div>
+      <div class="metric"><span>Approved proposals</span><strong>None</strong></div>
+    </div>
+  </section>
+<section id="limitations" class="panel span-6" data-panel="limitations" data-moment-id="M12">
+    <p class="section-kicker">What this does not prove</p>
+    <h2>Limitations stay visible</h2>
+    <ul class="plain-list">
+      <li>local/LAN/replay/review/query context only</li><li>Mobility Access corridor is the active hero spine</li><li>NYC construction hero remains parked post-D8</li><li>Web local launch evidence is required and generated by this sprint</li><li>Kit runtime launch is reported honestly; source validation can pass if Kit runtime is unavailable</li><li>M04 do-nothing and M05 abstain remain documented partial unless certified option-set fields prove otherwise</li>
+    </ul>
+    <p class="human-explain">M04 do-nothing and M05 abstain/no-safe-option remain documented partial unless certified fields prove otherwise.</p>
+  </section>
+<section id="trace" class="panel span-6" data-panel="trace" data-moment-id="M15">
+    <p class="section-kicker">How the review packet was assembled</p>
+    <h2>Governed trace, explained</h2>
+    <div class="trace-grid human">
+      <div class="stage ">
+        <strong>1. Recall relevant context</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>2. Plan the review path</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>3. Check the plan against boundaries</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>4. Read local fixtures only</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>5. Normalize evidence and options</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage synthesize">
+        <strong>6. Narrate the evidence once facts are assembled</strong>
+        <span>Narration boundary</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>7. Separate review candidates from forbidden actions</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>8. Suggest safe next review steps</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div><div class="stage ">
+        <strong>9. Close the review packet</strong>
+        <span>Deterministic or review stage</span>
+        <span>No action taken</span>
+      </div>
+    </div>
+  </section>
+<section id="moment-drive" class="panel span-12" data-panel="moment-drive">
+    <div class="drive-header">
+      <div>
+        <p class="section-kicker">Drive mode</p>
+        <h2>Walk the viewer through the surprise moments</h2>
+      </div>
+      <div class="drive-controls" aria-label="Demo drive controls">
+        <button type="button" data-drive="start">Start demo</button>
+        <button type="button" data-drive="prev">Previous moment</button>
+        <button type="button" data-drive="next">Next moment</button>
+        <button type="button" data-drive="why">Show why this matters</button>
+        <button type="button" data-drive="evidence">Show evidence</button>
+      </div>
+    </div>
+    <div class="moment-grid">
+      <article class="moment-card" data-moment-card="M02" data-target-panel="evidence">
+          <span>M02</span>
+          <h3>This looks like a past case</h3>
+          <p>Cross-city memory offers similar cases as context, not instructions.</p>
+        </article><article class="moment-card" data-moment-card="M13" data-target-panel="evidence">
+          <span>M13</span>
+          <h3>Possible observation, not a finding</h3>
+          <p>D7 media-derived observations are candidates that require human review.</p>
+        </article><article class="moment-card" data-moment-card="M07" data-target-panel="track-d">
+          <span>M07</span>
+          <h3>The system refuses to act</h3>
+          <p>A forbidden action-shaped command is rejected. No action is taken.</p>
+        </article><article class="moment-card" data-moment-card="M08" data-target-panel="track-d">
+          <span>M08</span>
+          <h3>Human review is required</h3>
+          <p>Eligible items stop at Track D; no approved proposal is created here.</p>
+        </article><article class="moment-card" data-moment-card="M12" data-target-panel="limitations">
+          <span>M12</span>
+          <h3>Limits are visible</h3>
+          <p>The page keeps the no-action, local replay, and candidate-observation limits in view.</p>
+        </article><article class="moment-card" data-moment-card="M15" data-target-panel="trace">
+          <span>M15</span>
+          <h3>Nine-stage reasoning trace</h3>
+          <p>The trace explains how the review packet was assembled without creating action authority.</p>
+        </article><article class="moment-card" data-moment-card="M10" data-target-panel="situation">
+          <span>M10</span>
+          <h3>Sources come together</h3>
+          <p>Mobility Access, D7, similar cases, cascade, trace, and Track D are shown together.</p>
+        </article><article class="moment-card" data-moment-card="M03" data-target-panel="uncertainty">
+          <span>M03</span>
+          <h3>CityBrain shows an uncertain link</h3>
+          <p>Confidence is qualitative and limitations stay attached.</p>
+        </article><article class="moment-card" data-moment-card="M01" data-target-panel="situation">
+          <span>M01</span>
+          <h3>Mobility corridor cascade</h3>
+          <p>The issue is connected to corridor, lane, kerbside, pedestrian, and cascade context.</p>
+        </article><article class="moment-card" data-moment-card="M06" data-target-panel="options">
+          <span>M06</span>
+          <h3>Choices are compared fairly</h3>
+          <p>Review choices use shared axes: access continuity, delay risk, kerbside safety, and evidence confidence.</p>
+        </article>
+    </div>
+    <div class="partial-note">
+      <span>M04 remains documented partial: Do-nothing baseline</span><span>M05 remains documented partial: Abstain no-safe-option</span>
+    </div>
+  </section>
+<section id="technical-details-panel" class="panel span-12">
+    <details id="technical-details">
+      <summary>Show technical details / IDs / packet refs</summary>
+      <div class="technical-grid">
+        <div>
+          <h3>Raw candidate observation refs</h3>
+          <ul class="list"><li class="packet">d7_candidate_observation:001</li><li class="packet">d7_candidate_observation:002</li><li class="packet">d7_candidate_observation:003</li><li class="packet">d7_candidate_observation:004</li><li class="packet">d7_candidate_observation:005</li><li class="packet">d7_candidate_observation:006</li></ul>
+        </div>
+        <div>
+          <h3>Raw option packet refs</h3>
+          <ul class="list"><li class="packet">inv_option_do_nothing_monitor | do_nothing_monitor | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_review_reroute | review_reroute_option | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_review_kerbside_access | review_kerbside_access_option | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_review_public_information | review_public_information_draft | PASS_ELIGIBLE_REVIEW_ONLY</li><li class="packet">inv_option_abstain_escalate | escalate_to_human_operator | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_do_nothing_monitor | do_nothing_monitor | PASS_BLOCKED_OR_CONTEXT_ONLY</li><li class="packet">inv_option_abstain_escalate | escalate_to_human_operator | PASS_BLOCKED_OR_CONTEXT_ONLY</li></ul>
+        </div>
+        <div>
+          <h3>Raw trace stage labels</h3>
+          <ul class="list"><li class="packet">RECALL | not_executed</li><li class="packet">PLAN | not_executed</li><li class="packet">VALIDATE_PLAN | not_executed</li><li class="packet">EXECUTE | not_executed</li><li class="packet">NORMALIZE | not_executed</li><li class="packet">SYNTHESIZE | not_executed</li><li class="packet">RESOLVE_ACTIONS | not_executed</li><li class="packet">SUGGEST | not_executed</li><li class="packet">COMPLETE | not_executed</li></ul>
+        </div>
+      </div>
+    </details>
+  </section></body></html>

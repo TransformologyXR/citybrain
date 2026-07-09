@@ -1,0 +1,12 @@
+{
+  "artifact_id": "SEED_R3_STORY_ARC_READINESS_GATE",
+  "limitations": [
+    "Expanded corpus is local/replay/review-only.",
+    "Story arcs may consume this only after this package is locked with tests.",
+    "No product/client/founder product-review readiness is claimed."
+  ],
+  "next_valid_milestone": "MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1",
+  "status": "story_arc_ready_with_limitations",
+  "story_arc_readiness": "story_arc_ready_with_limitations",
+  "story_arc_ready": true
+}

@@ -1,0 +1,24 @@
+{
+  "artifact_id": "THREE_PACKAGE_SEQUENCE_DECISION",
+  "dedupe_verified": true,
+  "event_contracts_reaudited": true,
+  "forbidden_capabilities_created": [],
+  "hash_manifests_verified": true,
+  "limitations": [
+    "human review sessions still pending",
+    "production event ingestion absent",
+    "simulation remains fixture-only/assumption-bound",
+    "no product forecast authority exists"
+  ],
+  "package_id": "MAIN-CITYBRAIN-PRE-E4-THREE-PACKAGE-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "sequence_used": [
+    "MAIN-CITYBRAIN-PRE-E4-MECHANICAL-GAP-CLOSURE-R2-1",
+    "MAIN-CITYBRAIN-EVENT-FABRIC-REPAIR-EPOCH-R1-1",
+    "MAIN-CITYBRAIN-SIMULATION-BACKTEST-REPAIR-EPOCH-R1-1",
+    "MAIN-CITYBRAIN-PRE-E4-THREE-PACKAGE-REVERIFY-R1"
+  ],
+  "simulation_pointer_reconciled": true,
+  "source_refs_hash_stable": true,
+  "status": "PASS_MAIN_CITYBRAIN_PRE_E4_THREE_PACKAGE_REVERIFY_R1_WITH_LIMITATIONS"
+}

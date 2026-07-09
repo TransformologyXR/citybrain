@@ -1,0 +1,17 @@
+{
+  "artifact_id": "EPOCH4_LARGE_SPRINT_FINAL_DECISION",
+  "forbidden_capabilities_created": [],
+  "hash_manifest_verified": true,
+  "limitations": [
+    "human review sessions remain pending",
+    "production live monitoring absent",
+    "simulation remains fixture-only",
+    "no product forecast authority"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-LARGE-SPRINT-SEQUENCER-AND-FINAL-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "sequence_verified": true,
+  "sprint3_narrow_scope_verified": true,
+  "sprint4_no_fabricated_human_sessions": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_LARGE_SPRINT_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,23 @@
+{
+  "forbidden_claims": [
+    "confirmed violation",
+    "official ticket",
+    "dispatch",
+    "identity",
+    "biometric",
+    "legal finding",
+    "certified finding",
+    "live CCTV",
+    "production monitoring",
+    "automated action"
+  ],
+  "required_phrases_or_equivalent": [
+    "candidate review",
+    "human review required",
+    "dataset_annotation",
+    "sensor_inferred",
+    "not a finding"
+  ],
+  "schema_version": "metropolis-vss-bmd45-human-review-benchmark-packet-r20.guardrails.v1",
+  "status": "PASS"
+}

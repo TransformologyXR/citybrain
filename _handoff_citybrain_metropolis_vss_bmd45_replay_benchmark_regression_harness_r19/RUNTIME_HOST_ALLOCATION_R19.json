@@ -1,0 +1,17 @@
+{
+  "schema_version": "metropolis-vss-bmd45-replay-benchmark-regression-harness-r19.v1",
+  "deepstream_metropolis": {
+    "host": "txr-4070",
+    "source_class": "sensor_inferred",
+    "status": "proven_r2_r17_r18"
+  },
+  "spark_vss": {
+    "host": "spark-2445",
+    "source_class": "model_generated_narrative",
+    "status": "not_required_for_r19_benchmark"
+  },
+  "txr_3090": {
+    "active_for_this_chain": false,
+    "role": "data_graph_rapids_heavier_analytics"
+  }
+}

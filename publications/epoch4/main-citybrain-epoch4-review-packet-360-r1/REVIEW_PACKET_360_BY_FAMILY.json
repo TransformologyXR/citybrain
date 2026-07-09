@@ -1,0 +1,218 @@
+{
+  "artifact_id": "REVIEW_PACKET_360_BY_FAMILY",
+  "packets": [
+    {
+      "all_required_sections_present": true,
+      "authority_boundary": "review_only_no_action",
+      "family_id": "building_compliance_perception_candidate",
+      "packet_id": "review_packet_360:building_compliance_perception_candidate",
+      "sections": {
+        "brief_v3": {
+          "brief_ref": "brief_v3:building_compliance_perception_candidate:review_packet",
+          "source": "BRIEF_V3_EXPORT_PACKET.json"
+        },
+        "cannot_claim": {
+          "claims": [
+            "official truth",
+            "production monitoring",
+            "forecast authority",
+            "dispatch/control/enforcement",
+            "operator fuel"
+          ]
+        },
+        "cer_entity_resolution": {
+          "cer_entity_refs": [
+            "cer:building:alpha",
+            "cer:observation:near_alpha"
+          ],
+          "raw_id_bypass": false
+        },
+        "check_v1_result": {
+          "check_report_refs": [
+            "check_v1:near_alpha:proximity",
+            "check_v1:alpha:floors:contradiction"
+          ]
+        },
+        "data_maturity_source_quality_notes": {
+          "data_quality_ref": "outputs/main_citybrain_track5_data_quality_maturity_dashboard_r1/DATA_QUALITY_MATURITY_DASHBOARD_R1.json",
+          "source_registry_ref": "outputs/main_citybrain_track4_source_registry_v1/SOURCE_REGISTRY_V1.json"
+        },
+        "event_state": {
+          "event_state_ref": "event_state:v2_1:building_compliance_perception_candidate"
+        },
+        "limitations": {
+          "items": [
+            "local/replay/review-only",
+            "requires human review before any external use"
+          ]
+        },
+        "seg_context": {
+          "cer_backed": true,
+          "seg_context_refs": [
+            "seg_edge:building_compliance_perception_candidate:context"
+          ]
+        },
+        "simulation_baseline_and_options": {
+          "forecast_claim": false,
+          "simulation_ref": "simulation_v2_1:building_compliance_perception_candidate:bounded_review_option"
+        },
+        "source_event_record": {
+          "event_ref": "event:v2_1:building_compliance_perception_candidate:review_loop",
+          "source_class": "replay_source_record"
+        },
+        "spatial_overlay_refs": {
+          "spatial_packet_ref": "spatial_overlay:building_compliance_perception_candidate:incident_plan"
+        },
+        "workflow_state": {
+          "workflow_state": "needs_source"
+        }
+      }
+    },
+    {
+      "all_required_sections_present": true,
+      "authority_boundary": "review_only_no_action",
+      "family_id": "permit_inspection_delay",
+      "packet_id": "review_packet_360:permit_inspection_delay",
+      "sections": {
+        "brief_v3": {
+          "brief_ref": "brief_v3:permit_inspection_delay:review_packet",
+          "source": "BRIEF_V3_EXPORT_PACKET.json"
+        },
+        "cannot_claim": {
+          "claims": [
+            "official truth",
+            "production monitoring",
+            "forecast authority",
+            "dispatch/control/enforcement",
+            "operator fuel"
+          ]
+        },
+        "cer_entity_resolution": {
+          "cer_entity_refs": [
+            "cer:building:alpha"
+          ],
+          "raw_id_bypass": false
+        },
+        "check_v1_result": {
+          "check_report_refs": [
+            "check_v1:alpha:floors:contradiction",
+            "check_v1:alpha:source_depth_missing"
+          ]
+        },
+        "data_maturity_source_quality_notes": {
+          "data_quality_ref": "outputs/main_citybrain_track5_data_quality_maturity_dashboard_r1/DATA_QUALITY_MATURITY_DASHBOARD_R1.json",
+          "source_registry_ref": "outputs/main_citybrain_track4_source_registry_v1/SOURCE_REGISTRY_V1.json"
+        },
+        "event_state": {
+          "event_state_ref": "event_state:v2_1:permit_inspection_delay"
+        },
+        "limitations": {
+          "items": [
+            "local/replay/review-only",
+            "requires human review before any external use"
+          ]
+        },
+        "seg_context": {
+          "cer_backed": true,
+          "seg_context_refs": [
+            "seg_edge:permit_inspection_delay:context"
+          ]
+        },
+        "simulation_baseline_and_options": {
+          "forecast_claim": false,
+          "simulation_ref": "simulation_v2_1:permit_inspection_delay:bounded_review_option"
+        },
+        "source_event_record": {
+          "event_ref": "event:v2_1:permit_inspection_delay:review_loop",
+          "source_class": "replay_source_record"
+        },
+        "spatial_overlay_refs": {
+          "spatial_packet_ref": "spatial_overlay:permit_inspection_delay:incident_plan"
+        },
+        "workflow_state": {
+          "workflow_state": "hold_for_status_crosscheck"
+        }
+      }
+    },
+    {
+      "all_required_sections_present": true,
+      "authority_boundary": "review_only_no_action",
+      "family_id": "city_asset_infrastructure_issue",
+      "packet_id": "review_packet_360:city_asset_infrastructure_issue",
+      "sections": {
+        "brief_v3": {
+          "brief_ref": "brief_v3:city_asset_infrastructure_issue:review_packet",
+          "source": "BRIEF_V3_EXPORT_PACKET.json"
+        },
+        "cannot_claim": {
+          "claims": [
+            "official truth",
+            "production monitoring",
+            "forecast authority",
+            "dispatch/control/enforcement",
+            "operator fuel"
+          ]
+        },
+        "cer_entity_resolution": {
+          "cer_entity_refs": [
+            "cer:asset:infrastructure_candidate"
+          ],
+          "raw_id_bypass": false
+        },
+        "check_v1_result": {
+          "check_report_refs": [
+            "check_v1:asset:source_depth_missing"
+          ]
+        },
+        "data_maturity_source_quality_notes": {
+          "data_quality_ref": "outputs/main_citybrain_track5_data_quality_maturity_dashboard_r1/DATA_QUALITY_MATURITY_DASHBOARD_R1.json",
+          "source_registry_ref": "outputs/main_citybrain_track4_source_registry_v1/SOURCE_REGISTRY_V1.json"
+        },
+        "event_state": {
+          "event_state_ref": "event_state:v2_1:city_asset_infrastructure_issue"
+        },
+        "limitations": {
+          "items": [
+            "local/replay/review-only",
+            "requires human review before any external use"
+          ]
+        },
+        "seg_context": {
+          "cer_backed": true,
+          "seg_context_refs": [
+            "seg_edge:city_asset_infrastructure_issue:context"
+          ]
+        },
+        "simulation_baseline_and_options": {
+          "forecast_claim": false,
+          "simulation_ref": "simulation_v2_1:city_asset_infrastructure_issue:bounded_review_option"
+        },
+        "source_event_record": {
+          "event_ref": "event:v2_1:city_asset_infrastructure_issue:review_loop",
+          "source_class": "replay_source_record"
+        },
+        "spatial_overlay_refs": {
+          "spatial_packet_ref": "spatial_overlay:city_asset_infrastructure_issue:incident_plan"
+        },
+        "workflow_state": {
+          "workflow_state": "needs_asset_confirmation"
+        }
+      }
+    }
+  ],
+  "required_packet_sections": [
+    "source_event_record",
+    "cer_entity_resolution",
+    "seg_context",
+    "event_state",
+    "check_v1_result",
+    "simulation_baseline_and_options",
+    "brief_v3",
+    "spatial_overlay_refs",
+    "workflow_state",
+    "data_maturity_source_quality_notes",
+    "cannot_claim",
+    "limitations"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

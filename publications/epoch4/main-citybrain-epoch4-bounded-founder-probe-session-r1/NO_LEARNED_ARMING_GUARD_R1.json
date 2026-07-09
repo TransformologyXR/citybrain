@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NO_LEARNED_ARMING_GUARD_R1",
+  "learned_ranking_activated": false,
+  "learning_arming_allowed": false,
+  "model_training_started": false,
+  "status": "PASS"
+}

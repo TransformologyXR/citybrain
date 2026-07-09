@@ -1,0 +1,316 @@
+{
+  "actual_outcome_block": {
+    "actual_outcome_limitations": [
+      "Challenge suite records observed boundary and forbidden-capability guard fields, not a full standalone CHECK report payload."
+    ],
+    "actual_outcome_match_status": "matched_challenge_boundary",
+    "actual_outcome_source_artifact": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json",
+    "challenge_boundary_evidence": {
+      "case_id": "eval-r2:permit_inspection_delay:stale_freshness",
+      "expected_check_outcome": "downgrade_freshness",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    "expected_check_outcome": "downgrade_freshness",
+    "matched_actual_boundary": "PASS_LIMITED_OR_ABSTAIN",
+    "matched_actual_check_outcome": "PASS_LIMITED_OR_ABSTAIN"
+  },
+  "actual_outcome_fields_present": true,
+  "brief_summary": {
+    "available": true,
+    "source": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/BRIEF_V3_PACKETS_BY_FAMILY.json",
+    "summary": {
+      "brief_ref": "brief_v3:permit_inspection_delay:review_packet",
+      "brief_v3_source": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_PACKET.json",
+      "official_report_created": false
+    },
+    "task_refs": [
+      "brief:v3:permit_inspection_delay:operator",
+      "brief:v3:permit_inspection_delay:executive",
+      "brief:v3:permit_inspection_delay:technical"
+    ]
+  },
+  "cannot_claim": [
+    "No founder/operator session result is created by this repair sequence.",
+    "No operator fuel, disposition, training row, or learned label is created.",
+    "No live ingestion, production monitoring, forecast, or recommendation authority is created.",
+    "No official case, ticket, dispatch, control, enforcement, legal finding, or certified finding is created.",
+    "No source or canonical truth is mutated.",
+    "No founder/operator session result is created by this assembler.",
+    "no source truth correction",
+    "no forecast authority",
+    "no dispatch/control/enforcement",
+    "no training eligibility",
+    "Review Packet 360: official action",
+    "Review Packet 360: case/ticket",
+    "Review Packet 360: dispatch/control/enforcement",
+    "Review Packet 360: product forecast",
+    "Review Packet 360: session result"
+  ],
+  "cer_seg_context": {
+    "cer_entity": "cer:permit_inspection_delay:primary",
+    "r1_cer_entity_resolution": null,
+    "r1_seg_context": null,
+    "raw_id_bypass": false,
+    "seg_context": "seg:permit_inspection_delay:context"
+  },
+  "cer_seg_context_r3": {
+    "cer_context": {
+      "cer_entity": "cer:permit_inspection_delay:primary",
+      "cer_entity_resolution": null
+    },
+    "cer_context_missing": false,
+    "context_source": "review_packet_360_v2",
+    "seg_context": {
+      "seg_context": "seg:permit_inspection_delay:context",
+      "seg_context_r1": null
+    },
+    "seg_context_missing": false,
+    "status": "attached"
+  },
+  "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+  "check_v1_summary": {
+    "aggregate_stress_outcome_counts": {
+      "candidate_only": 80,
+      "contradiction": 80,
+      "downgrade_freshness": 80,
+      "downgrade_source_class": 80,
+      "downgrade_source_depth": 80,
+      "sufficient_for_review": 80
+    },
+    "cannot_claim": [
+      "No founder/operator session result is created by this assembler.",
+      "No operator fuel, disposition, training row, or learned label is created.",
+      "No live ingestion, production monitoring, forecast, or recommendation authority is created.",
+      "No official case, ticket, dispatch, control, enforcement, legal finding, or certified finding is created.",
+      "No source or canonical truth is mutated.",
+      "no source truth correction",
+      "no forecast authority",
+      "no dispatch/control/enforcement",
+      "no training eligibility",
+      "Review Packet 360: official action",
+      "Review Packet 360: case/ticket",
+      "Review Packet 360: dispatch/control/enforcement",
+      "Review Packet 360: product forecast",
+      "Review Packet 360: session result"
+    ],
+    "challenge_class": "stale",
+    "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+    "expected_check_outcome": "downgrade_freshness",
+    "incident_check_context": {
+      "check_report_refs": [
+        "check_v1:alpha:floors:contradiction",
+        "check_v1:alpha:source_depth_missing"
+      ],
+      "claimability": "review_only_with_limitations",
+      "raw_ungrounded_graph_shortcut": false
+    },
+    "matched_harness_assertion": {}
+  },
+  "csv_row_guidance": [
+    "task_id",
+    "family",
+    "scenario",
+    "eval_case",
+    "check_ref",
+    "derived_overlays",
+    "reviewer_id_or_alias",
+    "reviewer_type",
+    "completed_at",
+    "understood_subject",
+    "supports_claim",
+    "should_downgrade",
+    "missing_evidence",
+    "brief_usefulness_1_to_5",
+    "check_usefulness_1_to_5",
+    "simulation_usefulness_1_to_5",
+    "spatial_usefulness_1_to_5",
+    "review_decision",
+    "free_text_notes"
+  ],
+  "derived_overlay_refs": [],
+  "derived_overlay_summary": [],
+  "eval_case": "eval-r2:permit_inspection_delay:stale_freshness",
+  "event_state": {
+    "eval_expected_event_handling": "local_replay_state_only",
+    "event_fabric_v2_5": {
+      "brief_attachment_count": 360,
+      "check_attachment_count": 336,
+      "event_count": 360,
+      "family_id": "permit_inspection_delay",
+      "materialized_state_ref": "event_state:v2_5:permit_inspection_delay",
+      "spatial_handoff_count": 336,
+      "watch_admitted_count": 144
+    },
+    "incident_plan_state": {
+      "event_fabric_v2_1_ref": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_FAMILY_STATE_MATERIALIZATION_V2_1.json",
+      "event_state_ref": "event_state:v2_1:permit_inspection_delay",
+      "state": "review_required"
+    }
+  },
+  "explanation_blocks": {
+    "review_packet_evidence_status": "native_review_packet_360_attached",
+    "what_citybrain_can_say": "The expected CHECK outcome is downgrade_freshness; the actual run preserved boundary PASS_LIMITED_OR_ABSTAIN.",
+    "what_citybrain_cannot_claim": [
+      "No founder/operator session result is created by this repair sequence.",
+      "No operator fuel, disposition, training row, or learned label is created.",
+      "No live ingestion, production monitoring, forecast, or recommendation authority is created.",
+      "No official case, ticket, dispatch, control, enforcement, legal finding, or certified finding is created.",
+      "No source or canonical truth is mutated."
+    ],
+    "what_evidence_is_missing": [],
+    "what_founder_should_judge": [
+      "Is the subject understandable?",
+      "Does the evidence support the stated review-limited claim?",
+      "Should the claim be downgraded or held?",
+      "What evidence is missing before any external use?",
+      "Are CHECK, BRIEF, simulation/option context, and spatial context useful?"
+    ],
+    "what_this_case_is_testing": "Freshness downgrade case: does CHECK make stale evidence visible and prevent over-claiming?",
+    "why_check_passed_downgraded_abstained_or_held": "The case tests whether stale evidence is downgraded instead of treated as current operational truth."
+  },
+  "family": "permit_inspection_delay",
+  "founder_review_questions": [
+    "Is the subject understandable?",
+    "Does the evidence support the stated claim?",
+    "Should the claim be downgraded?",
+    "What evidence is missing?",
+    "Is the BRIEF useful?",
+    "Is CHECK useful?",
+    "Is simulation useful or applicable?",
+    "Is spatial context useful or applicable?",
+    "What should be fixed before showing this to anyone else?"
+  ],
+  "known_limitations": [
+    "local/replay/offline only",
+    "no official action or workflow",
+    "derived overlays are candidate-only",
+    "not external operator validation"
+  ],
+  "missing_evidence": [],
+  "missing_evidence_r3": [],
+  "r3_package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-PROBE-EVIDENCE-REPAIR-SEQUENCE-R1",
+  "r3_repair_status": "PASS_WITH_LIMITATIONS",
+  "review_packet_evidence_status": {
+    "backfill_label": null,
+    "evidence_packet": {
+      "all_required_sections_present": true,
+      "brief_v3_variant_refs": [
+        "brief:v3:permit_inspection_delay:operator",
+        "brief:v3:permit_inspection_delay:executive",
+        "brief:v3:permit_inspection_delay:technical"
+      ],
+      "cannot_claim": [
+        "official action",
+        "case/ticket",
+        "dispatch/control/enforcement",
+        "product forecast",
+        "session result"
+      ],
+      "cer_entity": "cer:permit_inspection_delay:primary",
+      "check_v1_result_ref": "check:v1:permit_inspection_delay:simulation_v2_4",
+      "data_maturity_refs": [
+        "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json"
+      ],
+      "diff_source_refresh_refs": [
+        "diff:v2_4:permit_inspection_delay:history_delta"
+      ],
+      "event_state_ref": "event_state:v2_4:permit_inspection_delay",
+      "family_id": "permit_inspection_delay",
+      "limitations": [
+        "internal packet only",
+        "no founder review session run",
+        "local/replay/review-only"
+      ],
+      "sections": [
+        "source_records",
+        "cer_entity",
+        "seg_context",
+        "event_state",
+        "check_v1_result",
+        "simulation_option_comparison",
+        "brief_v3_variant_refs",
+        "spatial_overlay_refs",
+        "diff_source_refresh_refs",
+        "data_maturity_refs",
+        "cannot_claim",
+        "limitations"
+      ],
+      "seg_context": "seg:permit_inspection_delay:context",
+      "simulation_option_comparison_ref": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json",
+      "source_records": [
+        "source:v1_1:permit_inspection_delay:v2_packet"
+      ],
+      "spatial_overlay_refs": [
+        "spatial:v2_4:permit_inspection_delay:review_packet"
+      ]
+    },
+    "review_packet_360_family_evidence_present": true,
+    "source": "review_packet_360_v2",
+    "status": "native_review_packet_360_attached"
+  },
+  "scenario": "stale_freshness",
+  "simulation_option_context": {
+    "eval_expected_handling": "simulation_not_applicable",
+    "forecast_created": false,
+    "non_sumo_option_context": {
+      "baseline_option": {
+        "option_id": "baseline_queue_observation",
+        "risk": "no intervention insight",
+        "score": 0.39,
+        "why": "keeps delay visible without action claim"
+      },
+      "best_review_option": {
+        "option_id": "dependency_source_gap_triage",
+        "risk": "administrative data remains fixture-grade",
+        "score": 0.7,
+        "why": "separates missing refs from actual queue delay"
+      },
+      "family_id": "permit_inspection_delay"
+    },
+    "recommendation_authority": "none",
+    "simulation_v2_4_comparison": {
+      "baseline_option": "current_review_queue",
+      "family_id": "permit_inspection_delay",
+      "forecast_created": false,
+      "intervention_option": "source_gap_triage",
+      "recommendation_authority": "none",
+      "runner": "fixture_grade_non_sumo"
+    }
+  },
+  "source_evidence_summary": {
+    "expected_product_claim": "abstain_or_limited",
+    "replay_mode": "local_offline_replay",
+    "review_packet_id": "permit_inspection_delay",
+    "review_packet_source": "review_packet_360_v2_by_family",
+    "source_class": "replay",
+    "source_refs": [
+      "source:v1_1:permit_inspection_delay:atlas",
+      "diff:v2_5:permit_inspection_delay:long_history",
+      "source:v1_1:permit_inspection_delay:v2_packet"
+    ]
+  },
+  "spatial_refs": {
+    "event_fabric_v2_5_spatial_handoff_count": 336,
+    "incident_spatial": {
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "live_control_claim": false,
+      "spatial_packet_ref": "spatial_overlay:permit_inspection_delay:incident_plan"
+    },
+    "review_packet_spatial_refs": [
+      "spatial:v2_4:permit_inspection_delay:review_packet"
+    ],
+    "task_spatial_refs": [
+      "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+    ]
+  },
+  "status": "PASS_WITH_LIMITATIONS",
+  "task_id": "founder-probe-r2-15",
+  "what_this_task_tests": "Freshness downgrade case: does CHECK make stale evidence visible and prevent over-claiming?"
+}

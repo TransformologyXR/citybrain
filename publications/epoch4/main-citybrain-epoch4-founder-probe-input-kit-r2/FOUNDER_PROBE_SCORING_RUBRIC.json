@@ -1,0 +1,16 @@
+{
+  "artifact_id": "FOUNDER_PROBE_SCORING_RUBRIC",
+  "ratings": {
+    "1": "not useful or unclear",
+    "3": "usable with gaps",
+    "5": "clear and useful for bounded internal probe"
+  },
+  "scoring_fields": [
+    "brief_usefulness_1_to_5",
+    "check_usefulness_1_to_5",
+    "simulation_usefulness_1_to_5",
+    "spatial_usefulness_1_to_5",
+    "decision_confidence"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

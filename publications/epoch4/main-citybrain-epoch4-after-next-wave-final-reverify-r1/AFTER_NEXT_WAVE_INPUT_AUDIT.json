@@ -1,0 +1,33 @@
+{
+  "all_inputs_found": true,
+  "all_inputs_passed": true,
+  "artifact_id": "AFTER_NEXT_WAVE_INPUT_AUDIT",
+  "inputs": [
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_WITH_LIMITATIONS",
+      "key": "simulation_v2_3",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_3_sumo_real_run_smoke_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_3_SUMO_REAL_RUN_SMOKE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_3_HISTORY_DIFF_REPLAY_R1_WITH_LIMITATIONS",
+      "key": "event_fabric_v2_3",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_3_history_diff_replay_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_3_HISTORY_DIFF_REPLAY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_WITH_LIMITATIONS",
+      "key": "pilot_evidence_binder_no_session",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "parallel_execution_used": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

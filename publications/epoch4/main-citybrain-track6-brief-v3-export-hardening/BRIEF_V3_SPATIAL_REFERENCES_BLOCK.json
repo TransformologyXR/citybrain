@@ -1,0 +1,23 @@
+{
+  "block_id": "spatial_references",
+  "cer_entity_refs": [
+    "cer:building:alpha",
+    "cer:building:beta_candidate"
+  ],
+  "check_report_refs": [
+    "check_v1:alpha:located_in",
+    "check_v1:beta:candidate_only"
+  ],
+  "citywide_twin_claim": false,
+  "event_state_ref": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+  "geometry_certified": false,
+  "seg_context_refs": [
+    "seg_edge:alpha:located_in:downtown"
+  ],
+  "source_refs": [
+    "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+    "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json"
+  ],
+  "spatial_overlay_kind": "CER/SEG reference only",
+  "status": "PASS_WITH_LIMITATIONS"
+}

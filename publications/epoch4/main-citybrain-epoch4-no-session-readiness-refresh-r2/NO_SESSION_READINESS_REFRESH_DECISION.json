@@ -1,0 +1,15 @@
+{
+  "artifact_id": "NO_SESSION_READINESS_REFRESH_DECISION",
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T20:25:01Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-NO-SESSION-READINESS-REFRESH-R2",
+  "reasons": [
+    "R2 corpus meets target size and family coverage.",
+    "Challenge suite passes without confident product claims.",
+    "Candidate fix effects remain non-authoritative sandbox projections.",
+    "No session/fuel/training/source mutation was created."
+  ],
+  "recommendation": "GO_FOR_BOUNDED_FOUNDER_PROBE",
+  "session_results_created": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NO_SESSION_READINESS_REFRESH_R2_WITH_LIMITATIONS"
+}

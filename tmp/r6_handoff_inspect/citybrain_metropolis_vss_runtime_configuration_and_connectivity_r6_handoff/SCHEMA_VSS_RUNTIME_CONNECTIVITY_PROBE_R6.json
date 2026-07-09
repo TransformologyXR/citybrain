@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "attempted": {
+      "type": "boolean"
+    },
+    "error_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "executed": {
+      "type": "boolean"
+    },
+    "exit_code": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "http_status": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "latency_ms": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "probe_status": {
+      "enum": [
+        "PASS",
+        "NOT_CONFIGURED",
+        "FAILED",
+        "TIMEOUT",
+        "ERROR"
+      ]
+    },
+    "response_snippet_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "runtime_mode": {
+      "enum": [
+        "not_configured",
+        "command",
+        "endpoint",
+        "both_configured_prefer_cli",
+        "both_configured_prefer_endpoint"
+      ]
+    },
+    "schema_version": {
+      "const": "metropolis-vss-runtime-connectivity-probe-r6.v1"
+    },
+    "stderr_snippet_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stdout_snippet_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-CONFIGURATION-AND-CONNECTIVITY-R6"
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_name",
+    "attempted",
+    "executed",
+    "probe_status",
+    "runtime_mode",
+    "latency_ms"
+  ],
+  "title": "VSS_RUNTIME_CONNECTIVITY_PROBE_R6",
+  "type": "object"
+}

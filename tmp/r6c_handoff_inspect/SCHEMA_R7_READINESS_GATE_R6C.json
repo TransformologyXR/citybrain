@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "R7 Readiness Gate R6C",
+  "type": "object",
+  "required": [
+    "task_id",
+    "r7_ready",
+    "runtime_configured",
+    "probe_status",
+    "reason"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-PROVISIONING-AND-CONFIGURATION-R6C"
+    },
+    "r7_ready": {
+      "type": "boolean"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "probe_status": {
+      "enum": [
+        "SUCCESS",
+        "NOT_CONFIGURED",
+        "UNREACHABLE",
+        "TIMEOUT",
+        "UNSUPPORTED_RESPONSE",
+        "FAILED_GUARDRAIL"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}

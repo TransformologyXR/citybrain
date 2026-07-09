@@ -1,0 +1,21 @@
+{
+  "artifact_id": "TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION",
+  "brief_status": "PASS_WITH_LIMITATIONS",
+  "brief_variant_count": 3,
+  "brief_variant_parity": true,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T14:23:06Z",
+  "governance_files_scanned": 4550,
+  "governance_status": "PASS_WITH_LIMITATIONS",
+  "limitations": [
+    "No clients, external operators, live ingestion, product forecast authority, or production deployment.",
+    "BRIEF variants are templates over the same evidence base, not new facts.",
+    "Governance scan records risky language but fails only if generated artifacts create forbidden capability."
+  ],
+  "maturity_status": "PASS_WITH_LIMITATIONS",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-TRACKB-MATURITY-BRIEF-GOVERNANCE-R1",
+  "publication_root": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1",
+  "scorecard_count": 9,
+  "source_registry_v1_1_status": "available",
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS"
+}

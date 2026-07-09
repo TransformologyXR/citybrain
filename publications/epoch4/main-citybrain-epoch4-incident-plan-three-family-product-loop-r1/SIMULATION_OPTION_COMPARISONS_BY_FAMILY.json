@@ -1,0 +1,27 @@
+{
+  "artifact_id": "SIMULATION_OPTION_COMPARISONS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "abstain_available": true,
+      "comparison_source": "outputs/track3_simulation_v2_1_connector_upgrade_path/REVIEW_OPTION_COMPARISON_BY_FAMILY.json",
+      "forecast_packet_created": false,
+      "product_forecast_surface_created": false,
+      "simulation_ref": "simulation_v2_1:building_compliance_perception_candidate:bounded_review_option"
+    },
+    "city_asset_infrastructure_issue": {
+      "abstain_available": true,
+      "comparison_source": "outputs/track3_simulation_v2_1_connector_upgrade_path/REVIEW_OPTION_COMPARISON_BY_FAMILY.json",
+      "forecast_packet_created": false,
+      "product_forecast_surface_created": false,
+      "simulation_ref": "simulation_v2_1:city_asset_infrastructure_issue:bounded_review_option"
+    },
+    "permit_inspection_delay": {
+      "abstain_available": true,
+      "comparison_source": "outputs/track3_simulation_v2_1_connector_upgrade_path/REVIEW_OPTION_COMPARISON_BY_FAMILY.json",
+      "forecast_packet_created": false,
+      "product_forecast_surface_created": false,
+      "simulation_ref": "simulation_v2_1:permit_inspection_delay:bounded_review_option"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

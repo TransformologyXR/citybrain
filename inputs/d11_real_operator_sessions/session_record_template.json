@@ -1,0 +1,97 @@
+{
+  "schema_version": "citybrain.d11.real_operator_session.r2",
+  "session_id": "replace_with_unique_session_id",
+  "participant_type": "non_builder",
+  "participant_role": "operator/reviewer/planner/other",
+  "surface_target": "outputs/main_citybrain_d11_operator_workflow_review_workspace_r1/D11_VALIDATION_PACKAGE.zip",
+  "session_time_utc": "YYYY-MM-DDTHH:MM:SSZ",
+  "builder_assistance_level": "none/minimal/moderate/high",
+  "tasks": [
+    {
+      "task_id": "d11-r1-task-01",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-02",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-03",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-04",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-05",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-06",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-07",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-08",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-09",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    },
+    {
+      "task_id": "d11-r1-task-10",
+      "answer": "",
+      "task_outcome": "not_attempted/pass/partial/fail",
+      "source_records_understood": null,
+      "known_unknown_cannot_claim_understood": null,
+      "no_action_understood": null
+    }
+  ],
+  "spontaneous_questions": [],
+  "confusion_notes": [],
+  "no_action_comprehension": "",
+  "can_work_patch_without_builder": null,
+  "overall_comments": "",
+  "do_not_count_if_internal_or_builder_filled": false
+}

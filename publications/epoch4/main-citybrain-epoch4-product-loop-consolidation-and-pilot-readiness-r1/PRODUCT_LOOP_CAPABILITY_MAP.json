@@ -1,0 +1,115 @@
+{
+  "artifact_id": "PRODUCT_LOOP_CAPABILITY_MAP",
+  "cross_cutting_assets": [
+    "CER Engine R1",
+    "CHECK v1",
+    "Event Fabric V2.1",
+    "Simulation V2.1",
+    "SourceRegistry V1.1",
+    "Data Maturity Dashboard R1.1",
+    "BRIEF v3 variants",
+    "DIFF designed-change fixtures",
+    "Review Packet 360"
+  ],
+  "families": [
+    {
+      "brief_v3_available": true,
+      "cer_check_boundary": "required",
+      "event_fabric_state_available": true,
+      "event_story_available": true,
+      "family_id": "mobility_access_interruption",
+      "family_label": "Mobility Access Interruption",
+      "limitations": [
+        "review-only",
+        "no official action",
+        "no forecast authority"
+      ],
+      "refs": {
+        "brief_ref": "brief:v3:mobility_access_interruption:review_variant",
+        "check_report_ref": "check:v1:mobility_access_interruption:replay_review",
+        "event_state_ref": "event_fabric:v2_2:mobility_access_interruption:state_materialization",
+        "spatial_packet_ref": "spatial_overlay:v2_2:mobility_access_interruption:handoff",
+        "watch_ref": "watch_admission:v2_2:mobility_access_interruption:review_queue"
+      },
+      "review_packet_360_available": false,
+      "role": "control",
+      "simulation_review_option_available": true,
+      "spatial_overlay_ready": true
+    },
+    {
+      "brief_v3_available": true,
+      "cer_check_boundary": "required",
+      "event_fabric_state_available": true,
+      "event_story_available": true,
+      "family_id": "building_compliance_perception_candidate",
+      "family_label": "Building Compliance Perception Candidate",
+      "limitations": [
+        "review-only",
+        "no official action",
+        "no forecast authority"
+      ],
+      "refs": {
+        "brief_ref": "brief:v3:building_compliance_perception_candidate:review_variant",
+        "check_report_ref": "check:v1:building_compliance_perception_candidate:replay_review",
+        "event_state_ref": "event_fabric:v2_2:building_compliance_perception_candidate:state_materialization",
+        "spatial_packet_ref": "spatial_overlay:v2_2:building_compliance_perception_candidate:handoff",
+        "watch_ref": "watch_admission:v2_2:building_compliance_perception_candidate:review_queue"
+      },
+      "review_packet_360_available": true,
+      "role": "selected_product_loop_family",
+      "simulation_review_option_available": true,
+      "spatial_overlay_ready": true
+    },
+    {
+      "brief_v3_available": true,
+      "cer_check_boundary": "required",
+      "event_fabric_state_available": true,
+      "event_story_available": true,
+      "family_id": "permit_inspection_delay",
+      "family_label": "Permit Inspection Delay",
+      "limitations": [
+        "review-only",
+        "no official action",
+        "no forecast authority"
+      ],
+      "refs": {
+        "brief_ref": "brief:v3:permit_inspection_delay:review_variant",
+        "check_report_ref": "check:v1:permit_inspection_delay:replay_review",
+        "event_state_ref": "event_fabric:v2_2:permit_inspection_delay:state_materialization",
+        "spatial_packet_ref": "spatial_overlay:v2_2:permit_inspection_delay:handoff",
+        "watch_ref": "watch_admission:v2_2:permit_inspection_delay:review_queue"
+      },
+      "review_packet_360_available": true,
+      "role": "selected_product_loop_family",
+      "simulation_review_option_available": true,
+      "spatial_overlay_ready": true
+    },
+    {
+      "brief_v3_available": true,
+      "cer_check_boundary": "required",
+      "event_fabric_state_available": true,
+      "event_story_available": true,
+      "family_id": "city_asset_infrastructure_issue",
+      "family_label": "City Asset Infrastructure Issue",
+      "limitations": [
+        "review-only",
+        "no official action",
+        "no forecast authority"
+      ],
+      "refs": {
+        "brief_ref": "brief:v3:city_asset_infrastructure_issue:review_variant",
+        "check_report_ref": "check:v1:city_asset_infrastructure_issue:replay_review",
+        "event_state_ref": "event_fabric:v2_2:city_asset_infrastructure_issue:state_materialization",
+        "spatial_packet_ref": "spatial_overlay:v2_2:city_asset_infrastructure_issue:handoff",
+        "watch_ref": "watch_admission:v2_2:city_asset_infrastructure_issue:review_queue"
+      },
+      "review_packet_360_available": true,
+      "role": "selected_product_loop_family",
+      "simulation_review_option_available": true,
+      "spatial_overlay_ready": true
+    }
+  ],
+  "generated_at": "2026-07-07T15:53:23Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-CONSOLIDATION-AND-PILOT-READINESS-R1",
+  "status": "PASS_WITH_LIMITATIONS"
+}

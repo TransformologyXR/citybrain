@@ -1,0 +1,21 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "DECISION",
+  "cross_track_reference_parity_passed": true,
+  "data_maturity_remediation_passed": true,
+  "forbidden_capabilities_created": [],
+  "founder_review_still_parked": true,
+  "generated_at": "2026-07-07T17:35:41Z",
+  "limitations": [
+    "cross-track reverify only",
+    "founder review and UI/UX still parked",
+    "no live/forecast/official-action/source mutation"
+  ],
+  "live_ingestion_created": false,
+  "official_action_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-AFTER-DEEPENING-CROSS-TRACK-REVERIFY-R1",
+  "product_forecast_surface_created": false,
+  "product_readiness_passed": true,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_DEEPENING_CROSS_TRACK_REVERIFY_R1_WITH_LIMITATIONS"
+}

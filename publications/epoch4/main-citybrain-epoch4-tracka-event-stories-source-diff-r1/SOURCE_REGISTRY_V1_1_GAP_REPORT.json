@@ -1,0 +1,1945 @@
+{
+  "artifact_id": "SOURCE_REGISTRY_V1_1_GAP_REPORT",
+  "gap_counts": {
+    "candidate_only": 318,
+    "freshness_gap": 508,
+    "geometry_gap": 540,
+    "no_consuming_flow": 436,
+    "schema_gap": 461,
+    "time_history_gap": 551,
+    "unknown_source_class": 430
+  },
+  "status": "PASS_WITH_LIMITATIONS",
+  "top_gap_source_refs": [
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:activity_and_business_licences"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:activity_business_licences"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:address_table"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:air_quality_detail"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:air_quality_observations"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:air_quality_pollutants"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:air_quality_stations"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:air_quality_stations_and_measurements"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:amb_gtfs_realtime_bus"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:amb_gtfs_rt"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:amb_gtfs_rt_endpoint_confirmation"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:amb_open_data_help"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_air_quality_detail"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_2"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_3"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_estacions_bcn_1"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_gtfs_search_candidate"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_mobility_open_data_page"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_open_data_help"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_bicing_gbfs_gbfs_json"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_bicing_gbfs_station_information"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_bicing_gbfs_station_status"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_bicing_gbfs_system_information"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_1"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_2"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_3"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_cadastre_addresses_inspire_capabilities"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_cadastre_buildings_inspire_capabilities"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_cadastre_parcels_inspire_capabilities"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_d1_flow_feasibility_matrix"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_exp_d2_all_flows_source_join_contracts"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_f7_d5_hero_2_source_limitations"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_facilities_equipament_companyies_de_serveis_2"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_facilities_equipament_mitjans_de_comunicacio_i_serveis_relacionats_3"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_facilities_equipament_transports_i_serveis_relacionats_1"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_iris"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_iris_iris_1"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_iris_iris_2"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_iris_iris_3"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_noise_risc_contaminacio_acustica_1"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_noise_risc_contaminacio_acustica_2"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_noise_xarxasoroll_equipsmonitor_instal_3"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_maritime_signalling_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_rail_services_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_service_companies_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_ship_traffic_statistics_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_ships_in_port_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_tenders_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_weather_bocana_nord_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_port_weather_zal_prat_ckan_metadata"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_sentilo_connecta_catalog_component"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_sentilo_connecta_component_map"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_sentilo_connecta_connecta_api_catalog_candidate"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_tmb_ibus_lines"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_tmb_metro_lines"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_tmb_static_gtfs"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_traffic_state_itineraris_3"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_traffic_state_transit_relacio_trams_1"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barc_traffic_state_transit_relacio_trams_2"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barc_traffic_trams"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_acceptance"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_candidate_review_snapshot"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_consumption_prep"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_data_landing"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_final_wsl1"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_integratedmesh"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_land_plots"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:barcelona_land_plots_and_cadastral_parcel_reference_layers"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_lidar"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_mobility_environment"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_air_quality_detail"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_air_quality_stations"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_bicing_gbfs"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_iris"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_traffic_itineraries"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_traffic_sections"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_traffic_sections_by_itinerary"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:barcelona_source_traffic_trams"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:bicing_gbfs"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:bicing_gbfs_public_realtime_feeds"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:bicing_gbfs_realtime"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:bike_lanes"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:bikepoint_json"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:boundaries_admin_units"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:boundaries_districts"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:building_licences_and_works_permits"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:building_works_licences"
+    },
+    {
+      "maturity_flags": [
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:cadastre_addresses"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:cadastre_addresses_inspire"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:cadastre_building_age"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:cadastre_building_area"
+    },
+    {
+      "maturity_flags": [
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:cadastre_buildings"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:cadastre_buildings_inspire"
+    },
+    {
+      "maturity_flags": [
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:cadastre_parcels"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:cadastre_parcels_inspire"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:civic_sensor_fusion"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:climate_shelters"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:cycle_paths"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:district_neighbourhood_and_boundary_context"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:district_neighbourhood_boundaries"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:economic_activity_codes"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:economic_activity_premises"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:edif_bcn_3d"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:electricity_consumption"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:energy_consumption_by_postal_code_time_or_economic_sector"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:energy_consumption_postal_sector"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:facilities_and_public_services_context"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:facilities_media_services"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap"
+      ],
+      "source_id": "source:barcelona:facilities_service_companies"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:facilities_transport"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:flood_climate_asset_dependency"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:green_space_deficit"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:groundwater_or_piezometric_level_context"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:groundwater_piezometric_levels"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:incident_response_affected_context"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:iris"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:iris_2025_json"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:iris_citizen_requests"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:iris_civic_incidents_complaints_suggestions_inquiries_and_gratitudes"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:land_plots"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:meteorological_readings"
+    },
+    {
+      "maturity_flags": [
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:meteorological_stations"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:mobility_counters_detail"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:mobility_counters_equipment"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:mobility_crowd_transport_environment"
+    },
+    {
+      "maturity_flags": [
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:noise_monitor_installations"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:noise_monitor_readings"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:noise_monitoring"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:noise_monitoring_or_strategic_noise_context"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:noise_population_exposure"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:noise_risk_resilience"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:open_data_bcn_traffic_state_and_road_section_sources"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:parking_waste_cleaning_context"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:piezometer_inventory"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:piezometer_readings"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:planning_construction_compliance"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_logistics_industrial_sequencing"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_maritime_signalling"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:port_meteorological_station_bocana_nord"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:port_meteorological_station_zal_prat"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:port_rail_services"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_service_companies"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_ship_traffic_statistics"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_ship_traffic_stats"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_ships_in_port"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_ships_today"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_tenders"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:port_tenders_and_transparency"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_weather_bocana_nord"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:port_weather_zal_prat"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:public_facilities_services"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:railway_services_of_the_port_of_barcelona"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:rainfall_history"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "no_consuming_flow",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:seccions_censals"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:sentilo_connecta"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:sentilo_connecta_bcn_catalogue_and_sensor_map"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:sentilo_connecta_catalog"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:sentilo_connecta_map"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:ship_traffic_statistics"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:ships_in_port_of_barcelona_today"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:situational_status"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:source_sample_media_01"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:tmb_developer_docs"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:tmb_ibus"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:tmb_ibus_realtime_api"
+    },
+    {
+      "maturity_flags": [
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:tmb_static_gtfs"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:tmb_static_gtfs_api"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:tmb_static_gtfs_ibus_and_line_stop_api_credential_boundary"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_accident_causes"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_accident_people"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_accident_vehicles"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_accidents"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_accidents_guardia_urbana"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:traffic_accidents_handled_by_guardia_urbana"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:traffic_incidence_notices"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_itineraries"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_sections"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_sections_by_itinerary"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_state_sections"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:traffic_trams"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:tram_opendata"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:urban_planning_sectors"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:urban_planning_sectors_and_planning_areas"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:vehicles_involved_in_traffic_accidents"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:barcelona:weather_and_rainfall_measurements"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:barcelona:weather_rainfall"
+    },
+    {
+      "maturity_flags": [
+        "freshness_gap",
+        "geometry_gap",
+        "no_consuming_flow",
+        "schema_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:chi:similar_cases"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "unknown_source_class"
+      ],
+      "source_id": "source:chicago:311_service_requests"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "unknown_source_class"
+      ],
+      "source_id": "source:chicago:active_business_licenses"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:chicago:air_records"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:chicago:array_of_things_locations"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "geometry_gap",
+        "schema_gap",
+        "time_history_gap",
+        "unknown_source_class"
+      ],
+      "source_id": "source:chicago:arterial_daily_traffic"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:chicago:average_daily_traffic_counts"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "freshness_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:chicago:beach_sensor_locations"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap"
+      ],
+      "source_id": "source:chicago:beach_water_quality_automated_sensors"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap"
+      ],
+      "source_id": "source:chicago:beach_water_sensors"
+    },
+    {
+      "maturity_flags": [
+        "candidate_only",
+        "geometry_gap"
+      ],
+      "source_id": "source:chicago:beach_weather_stations"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap"
+      ],
+      "source_id": "source:chicago:boundaries_city"
+    },
+    {
+      "maturity_flags": [
+        "time_history_gap"
+      ],
+      "source_id": "source:chicago:boundaries_community_areas"
+    },
+    {
+      "maturity_flags": [
+        "geometry_gap",
+        "time_history_gap"
+      ],
+      "source_id": "source:chicago:boundaries_neighborhoods"
+    }
+  ]
+}

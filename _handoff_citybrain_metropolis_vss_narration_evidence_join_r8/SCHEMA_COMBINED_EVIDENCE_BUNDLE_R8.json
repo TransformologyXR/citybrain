@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain Metropolis/VSS Combined Evidence Bundle R8",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_id",
+    "evidence_bundle_id",
+    "candidate_event_id",
+    "source_sections",
+    "claim_boundary",
+    "human_review_required"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-evidence-join-r8.v1"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-EVIDENCE-JOIN-R8"
+    },
+    "evidence_bundle_id": {
+      "type": "string"
+    },
+    "candidate_event_id": {
+      "type": "string"
+    },
+    "source_sections": {
+      "type": "object",
+      "required": [
+        "sensor_inferred",
+        "model_generated_narrative"
+      ],
+      "properties": {
+        "sensor_inferred": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "model_generated_narrative": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "claim_boundary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_review_required": {
+      "const": true
+    }
+  }
+}

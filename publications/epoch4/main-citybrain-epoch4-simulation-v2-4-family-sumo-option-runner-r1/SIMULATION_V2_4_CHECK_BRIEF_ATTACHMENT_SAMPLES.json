@@ -1,0 +1,27 @@
+{
+  "artifact_id": "SIMULATION_V2_4_CHECK_BRIEF_ATTACHMENT_SAMPLES",
+  "samples": [
+    {
+      "authority_boundary": "review_only_no_forecast_no_action",
+      "brief_ref": "brief:v3:building_compliance_perception_candidate:simulation_v2_4",
+      "check_report_ref": "check:v1:building_compliance_perception_candidate:simulation_v2_4",
+      "family_id": "building_compliance_perception_candidate",
+      "simulation_comparison_ref": "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+    },
+    {
+      "authority_boundary": "review_only_no_forecast_no_action",
+      "brief_ref": "brief:v3:permit_inspection_delay:simulation_v2_4",
+      "check_report_ref": "check:v1:permit_inspection_delay:simulation_v2_4",
+      "family_id": "permit_inspection_delay",
+      "simulation_comparison_ref": "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+    },
+    {
+      "authority_boundary": "review_only_no_forecast_no_action",
+      "brief_ref": "brief:v3:city_asset_infrastructure_issue:simulation_v2_4",
+      "check_report_ref": "check:v1:city_asset_infrastructure_issue:simulation_v2_4",
+      "family_id": "city_asset_infrastructure_issue",
+      "simulation_comparison_ref": "SIMULATION_V2_4_BASELINE_OPTION_COMPARISON_REPORT.json"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

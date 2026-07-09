@@ -1,0 +1,30 @@
+{
+  "artifact_id": "SIMULATION_V2_R1_INTAKE_REPORT",
+  "consume_supersede_rule": "V2 consumes/supersedes Simulation Repair R1.1 for future simulation work.",
+  "prerequisites": [
+    {
+      "exists": true,
+      "label": "simulation_repair_r1_1",
+      "ok": true,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_REPAIR_EPOCH_R1_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_SIMULATION_BACKTEST_REPAIR_EPOCH_R1_1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint0_trust_gate",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint1_event_fabric_v2",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_FABRIC_V2_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT1_EVENT_FABRIC_V2_PRODUCT_SPINE_WITH_LIMITATIONS"
+    }
+  ],
+  "r1_rederived": false,
+  "simulation_r1_contract_count": 7,
+  "status": "PASS"
+}

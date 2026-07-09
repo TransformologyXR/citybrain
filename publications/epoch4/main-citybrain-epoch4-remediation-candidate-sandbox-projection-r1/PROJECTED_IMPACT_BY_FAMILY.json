@@ -1,0 +1,91 @@
+{
+  "artifact_id": "PROJECTED_IMPACT_BY_FAMILY",
+  "families": [
+    {
+      "affected_case_count": 12,
+      "affected_case_ids": [
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1"
+      ],
+      "candidate_count": 50,
+      "family_id": "mobility_access_interruption",
+      "non_authoritative_projection": true,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "affected_case_count": 12,
+      "affected_case_ids": [
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1"
+      ],
+      "candidate_count": 50,
+      "family_id": "building_compliance_perception_candidate",
+      "non_authoritative_projection": true,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "affected_case_count": 12,
+      "affected_case_ids": [
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1"
+      ],
+      "candidate_count": 50,
+      "family_id": "permit_inspection_delay",
+      "non_authoritative_projection": true,
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "affected_case_count": 12,
+      "affected_case_ids": [
+        "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+        "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+        "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "eval:mobility_access_interruption:contradiction_guard:r1",
+        "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "eval:mobility_access_interruption:packet_baseline:r1",
+        "eval:permit_inspection_delay:contradiction_guard:r1",
+        "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "eval:permit_inspection_delay:packet_baseline:r1"
+      ],
+      "candidate_count": 50,
+      "family_id": "city_asset_infrastructure_issue",
+      "non_authoritative_projection": true,
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "family_count": 4,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_id": "CER_CHECK_STRESS_AUDIT",
+  "authority_escalation_created": false,
+  "cer_conflict_cases_present": true,
+  "check_contradiction_cases_present": true,
+  "family_count": 4,
+  "fixture_count": 480,
+  "status": "PASS_WITH_LIMITATIONS"
+}

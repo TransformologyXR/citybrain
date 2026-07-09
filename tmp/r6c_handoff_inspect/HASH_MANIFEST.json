@@ -1,0 +1,99 @@
+{
+  "schema_version": "metropolis-vss-runtime-provisioning-and-configuration-r6c.v1",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-PROVISIONING-AND-CONFIGURATION-R6C",
+  "algorithm": "sha256",
+  "generated_at": "2026-07-03T22:10:00Z",
+  "excludes": [
+    "HASH_MANIFEST.json",
+    "citybrain_metropolis_vss_runtime_provisioning_and_configuration_r6c_handoff.zip"
+  ],
+  "file_count": 17,
+  "files": [
+    {
+      "file": "ACCEPTANCE_CHECKS.md",
+      "bytes": 837,
+      "sha256": "55429c37ecc2e75fb89430aee416b8273a53c930de68498acac09b3dbcaee173"
+    },
+    {
+      "file": "BOUNDARY_POLICY.md",
+      "bytes": 676,
+      "sha256": "8de03d1df2e99b2e74333d2dcfb59b011b2925e4ecb0afb499bd88484dc5e60b"
+    },
+    {
+      "file": "ENTRY_PROMPT.md",
+      "bytes": 2242,
+      "sha256": "77b3afb0dd55842e4d13993ebfd677e013fc5e7cae706295eb867bad64c36de5"
+    },
+    {
+      "file": "HANDOFF_JSON_PARSE_REPORT.json",
+      "bytes": 245,
+      "sha256": "43924801d8b90f609a516b6730e319f572f1a45ea5b84dc6cf69bec09b2a2766"
+    },
+    {
+      "file": "IMPLEMENTATION_NOTES.md",
+      "bytes": 875,
+      "sha256": "e5a9fe5ec8bd3962f47d9adb5ee6f3ec19f1b184fb38010fe07aef905938dd62"
+    },
+    {
+      "file": "INPUT_R6B_VALIDATION_SUMMARY.json",
+      "bytes": 1207,
+      "sha256": "b784d7e479a417ac5e249ad01aa08ff2711ffd725498c12df5c95ac7fd1016b9"
+    },
+    {
+      "file": "PACKAGE_CONTRACT.md",
+      "bytes": 961,
+      "sha256": "595d64e9ead0ae69fd2daed496125edbf1e0fc433254331909acdf9f035c2176"
+    },
+    {
+      "file": "R6B_ARTIFACT_INSPECTION_REPORT.json",
+      "bytes": 1207,
+      "sha256": "b784d7e479a417ac5e249ad01aa08ff2711ffd725498c12df5c95ac7fd1016b9"
+    },
+    {
+      "file": "README.md",
+      "bytes": 994,
+      "sha256": "878128d3b0e58e9f0326fc1d8940dc38badd86d4e80b48e88553aefa16f285db"
+    },
+    {
+      "file": "RUNTIME_CONFIG_TEMPLATE.env.example",
+      "bytes": 469,
+      "sha256": "003d8f1a36e083c06379eaf8a26a6d73beebf9e70462ee4590ad35f8e500eeae"
+    },
+    {
+      "file": "SCHEMA_DECISION_R6C.json",
+      "bytes": 914,
+      "sha256": "e07b2b13ffe9d229cc0d3fa3850cd307613654927b8a642f5e99b4fe5fc048d6"
+    },
+    {
+      "file": "SCHEMA_R7_READINESS_GATE_R6C.json",
+      "bytes": 714,
+      "sha256": "b1f91265c9a054350ae880f22778a7d6948694277b4d971f11582246bab206fd"
+    },
+    {
+      "file": "SCHEMA_VSS_RUNTIME_PROVISIONING_R6C.json",
+      "bytes": 1229,
+      "sha256": "d5ddffb07ce7fac615dcded2d215d158e603f973bb93f629ffe260a815a71dba"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 2778,
+      "sha256": "7dfbffdd86af61fdf66feb0d86bef5e1cfab8242a4faddc17cd1dca5f397367f"
+    },
+    {
+      "file": "STATUS_ENUMS_R6C.json",
+      "bytes": 732,
+      "sha256": "4b027eb2a678bdaa5a7ad9d08e4953910a149dad276b5467fae9e9ab3e5b1f80"
+    },
+    {
+      "file": "VSS_COMMAND_WRAPPER_CONTRACT.md",
+      "bytes": 364,
+      "sha256": "6bdf4596852f5319b5019f787af5c2893789ee3d350b0232dea21822569fd7ee"
+    },
+    {
+      "file": "VSS_ENDPOINT_CONTRACT.md",
+      "bytes": 392,
+      "sha256": "09847c0009305e2b646007b4f37ba92f68f7ab2c3a328a9d9a33754ebf24b2c6"
+    }
+  ],
+  "status": "PASS"
+}

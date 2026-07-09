@@ -1,0 +1,31 @@
+{
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+  "expected_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_BUILT_ENVIRONMENT_CIVIC_COMPLIANCE_REFRESH_R1_WITH_LIMITATIONS",
+  "required_outputs": [
+    "SEED_R3_BEE_CIVIC_COMPLIANCE_DECISION.json",
+    "SEED_R3_DOMAIN_SELECTION_LEDGER.csv",
+    "SEED_R3_SYNTHETIC_ENTITY_REFRESH.jsonl",
+    "EVENT_REPLAY_SEED_R3.jsonl",
+    "WATCH_SEED_R3.jsonl",
+    "ASK_SEED_R3.jsonl",
+    "CHECK_SEED_R3.jsonl",
+    "BRIEF_SEED_R3.jsonl",
+    "SPATIAL_SEED_R3.jsonl",
+    "QUALITY_MATURITY_FIXTURES_SEED_R3.jsonl",
+    "CROSS_CITY_DONOR_DISTRIBUTION_REPORT.json",
+    "BOUNDARY_AND_NO_ACTION_AUDIT.json",
+    "SECRET_SCAN_REPORT.json",
+    "HASH_MANIFEST.json",
+    "CODEX_CLOSEOUT.md"
+  ],
+  "minimum_counts": {
+    "priority_domains": 7,
+    "watch_rows": 7,
+    "ask_rows": 7,
+    "check_rows": 7,
+    "brief_rows": 7,
+    "spatial_rows": 7,
+    "event_rows": 14,
+    "entity_refresh_rows": 14
+  }
+}

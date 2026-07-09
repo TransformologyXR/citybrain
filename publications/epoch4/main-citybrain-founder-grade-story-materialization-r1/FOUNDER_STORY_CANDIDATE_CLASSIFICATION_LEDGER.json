@@ -1,0 +1,94 @@
+{
+  "artifact_id": "FOUNDER_STORY_CANDIDATE_CLASSIFICATION_LEDGER",
+  "candidate_count": 11,
+  "rows": [
+    {
+      "card_type": "cross_domain_story",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 6,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-cross-alpha-permit-access-compliance"
+    },
+    {
+      "card_type": "cross_domain_story",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 5,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-cross-alpha-repeat-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-mobility-alpha-access-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-building-alpha-site-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-permit-alpha-timeline-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-asset-corridor-context-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-mobility-second-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "watch_this",
+      "selected_for_main": true,
+      "story_id": "founder-grade-permit-second-window"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_ignore_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "ignore_for_now",
+      "selected_for_main": true,
+      "story_id": "founder-grade-ignore-asset-invalid-shape"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_ignore_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "ignore_for_now",
+      "selected_for_main": true,
+      "story_id": "founder-grade-ignore-access-missing-link"
+    },
+    {
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_need_more_candidate",
+      "evidence_note_count": 2,
+      "operator_verdict": "need_more_before_deciding",
+      "selected_for_main": true,
+      "story_id": "founder-grade-need-more-building-weak-match"
+    }
+  ]
+}

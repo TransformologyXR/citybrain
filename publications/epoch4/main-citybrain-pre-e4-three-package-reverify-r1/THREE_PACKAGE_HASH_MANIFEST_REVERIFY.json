@@ -1,0 +1,21 @@
+{
+  "artifact_id": "THREE_PACKAGE_HASH_MANIFEST_REVERIFY",
+  "package_manifests": {
+    "event": {
+      "errors": [],
+      "manifest_path": "outputs/main_citybrain_event_fabric_repair_epoch_r1/HASH_MANIFEST.json",
+      "verified": true
+    },
+    "master": {
+      "errors": [],
+      "manifest_path": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/HASH_MANIFEST.json",
+      "verified": true
+    },
+    "simulation": {
+      "errors": [],
+      "manifest_path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/HASH_MANIFEST.json",
+      "verified": true
+    }
+  },
+  "status": "PASS"
+}

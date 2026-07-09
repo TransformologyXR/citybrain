@@ -1,0 +1,21 @@
+{
+  "artifact_id": "WORKFLOW_REVIEW_STATE_PACKETS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "official_ticket_created": false,
+      "operator_fuel_captured": false,
+      "workflow_state": "needs_source"
+    },
+    "city_asset_infrastructure_issue": {
+      "official_ticket_created": false,
+      "operator_fuel_captured": false,
+      "workflow_state": "needs_asset_confirmation"
+    },
+    "permit_inspection_delay": {
+      "official_ticket_created": false,
+      "operator_fuel_captured": false,
+      "workflow_state": "hold_for_status_crosscheck"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

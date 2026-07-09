@@ -1,0 +1,14 @@
+{
+  "active_path": "no_session_path",
+  "artifact_id": "CURRENT_STATE_AFTER_PRE_PROBE_R1",
+  "bounded_founder_probe_package_run": true,
+  "case_count": 12,
+  "case_pass_count": 12,
+  "external_operator_validation": false,
+  "founder_internal_session_status": "NOT_RUN",
+  "learning_arming_allowed": false,
+  "operator_fuel": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_eligible": false
+}

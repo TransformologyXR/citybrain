@@ -1,0 +1,45 @@
+{
+  "artifact_id": "EVAL_REPRESENTATIVENESS_AUDIT_PACK_HASH_MANIFEST",
+  "files": [
+    {
+      "path": "00_PACKAGE_INDEX.md",
+      "sha256": "974b3063d889545e635996fd0b566bb3b5030e7bfb107b1f6a9919591df932eb",
+      "bytes": 317
+    },
+    {
+      "path": "01_CODEX_PROMPT_EVAL_REPRESENTATIVENESS_AUDIT_R1.md",
+      "sha256": "4f70352516bc2a6a79e1ac69e8b79bfc6fafb4509a5e3d48e64486141e6e3173",
+      "bytes": 7222
+    },
+    {
+      "path": "02_TASK_SPEC_EVAL_REPRESENTATIVENESS_AUDIT_R1.json",
+      "sha256": "8375e12ff7fdd9519429a036b0446e1908246a6a092fafcab0a75541c2780ebc",
+      "bytes": 4523
+    },
+    {
+      "path": "03_RUN_GUIDANCE.md",
+      "sha256": "776c32d7dd4505d947552a4b601befed448dcabfcdfaf28fd0f820431d18b3dd",
+      "bytes": 786
+    },
+    {
+      "path": "README.md",
+      "sha256": "4031de71195feb2d78b992a5023c0c03c2b0b626a6a4b417e835854fa157290d",
+      "bytes": 1192
+    },
+    {
+      "path": "diagrams/representativeness_audit_flow.svg",
+      "sha256": "38294ea25f07e822d40e947204e6aef804c51abe1f6448fd0eea198fdc224ea9",
+      "bytes": 2997
+    },
+    {
+      "path": "source_refs/SYNTHETIC_DUBAI_DATA_FACTORY_THREAD_SUMMARY.md",
+      "sha256": "91fa6270e411d662361cdb4ca307fcafcd282974dd8c469046c7bd82880b8ea8",
+      "bytes": 10693
+    },
+    {
+      "path": "templates/coverage_axes_template.json",
+      "sha256": "64d9c83b40acb344d2aa2a04d119f77e3a5fe1b58e4385a1a792a2166085c624",
+      "bytes": 2211
+    }
+  ]
+}

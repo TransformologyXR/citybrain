@@ -1,0 +1,202 @@
+{
+  "accepted_status": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R5_GUARDRAILS_READY",
+  "created_at_utc": "2026-07-03T21:33:50.495449+00:00",
+  "entries": [
+    "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+    "CLAIM_BOUNDARY_AUDIT_R5.json",
+    "HASH_MANIFEST.json",
+    "HUMAN_REVIEW_HANDOFF_PACKET_SAMPLE_R5.json",
+    "INPUT_R4_PACKAGE_VALIDATION_R5.json",
+    "JSON_PARSE_REPORT_R5.json",
+    "MEDIA_EVIDENCEBUNDLE_WITH_VSS_NARRATION_R5.json",
+    "METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_CLOSEOUT_DECISION.json",
+    "METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_DECISION.json",
+    "NO_ACTION_AUDIT_R5.json",
+    "README.md",
+    "SECRET_AUDIT_R5.json",
+    "SOURCE_CLASS_SEPARATION_AUDIT_R5.json",
+    "VSS_INPUT_PACKET_R5.json",
+    "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+    "VSS_NARRATION_NORMALIZATION_REPORT_R5.json",
+    "VSS_NARRATION_SIDECARS_R5.jsonl",
+    "VSS_PROSE_VS_DETECTION_CONFLICT_AUDIT_R5.json",
+    "VSS_RAW_RESPONSE_CAPTURE_R5.json",
+    "VSS_RUNTIME_ADAPTER_CONFIG_R5.json",
+    "VSS_RUNTIME_EXECUTION_REPORT_R5.json"
+  ],
+  "entry_count": 21,
+  "hash_manifest_expected_count": 20,
+  "hash_manifest_mismatches": [],
+  "hash_manifest_status": "PASS",
+  "hash_manifest_verified_count": 20,
+  "input_zip": "/mnt/data/METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_PACKAGE.zip",
+  "interpretation": "Accepted as guarded partial due to no configured VSS runtime. R6 should focus on runtime configuration/connectivity.",
+  "json_files_parsed": [
+    "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+    "CLAIM_BOUNDARY_AUDIT_R5.json",
+    "HASH_MANIFEST.json",
+    "HUMAN_REVIEW_HANDOFF_PACKET_SAMPLE_R5.json",
+    "INPUT_R4_PACKAGE_VALIDATION_R5.json",
+    "JSON_PARSE_REPORT_R5.json",
+    "MEDIA_EVIDENCEBUNDLE_WITH_VSS_NARRATION_R5.json",
+    "METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_CLOSEOUT_DECISION.json",
+    "METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_DECISION.json",
+    "NO_ACTION_AUDIT_R5.json",
+    "SECRET_AUDIT_R5.json",
+    "SOURCE_CLASS_SEPARATION_AUDIT_R5.json",
+    "VSS_INPUT_PACKET_R5.json",
+    "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+    "VSS_NARRATION_NORMALIZATION_REPORT_R5.json",
+    "VSS_PROSE_VS_DETECTION_CONFLICT_AUDIT_R5.json",
+    "VSS_RAW_RESPONSE_CAPTURE_R5.json",
+    "VSS_RUNTIME_ADAPTER_CONFIG_R5.json",
+    "VSS_RUNTIME_EXECUTION_REPORT_R5.json"
+  ],
+  "json_parse_errors": [],
+  "jsonl_files_parsed": [
+    {
+      "file": "VSS_NARRATION_SIDECARS_R5.jsonl",
+      "records": 0
+    }
+  ],
+  "jsonl_parse_errors": [],
+  "schema_version": "metropolis-vss-r5-artifact-inspection-report.v1",
+  "status_values": [
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[0].status",
+      "value": "PASS"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[1].status",
+      "value": "PARTIAL"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[2].status",
+      "value": "PARTIAL"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[3].status",
+      "value": "PARTIAL"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[4].status",
+      "value": "PASS"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[5].status",
+      "value": "PASS"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[6].status",
+      "value": "PASS"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.dimension_results[7].status",
+      "value": "PASS"
+    },
+    {
+      "file": "CHECK_NARRATION_SUFFICIENCY_REPORT_R5.json",
+      "path": "$.status",
+      "value": "PARTIAL"
+    },
+    {
+      "file": "CLAIM_BOUNDARY_AUDIT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "HASH_MANIFEST.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "HUMAN_REVIEW_HANDOFF_PACKET_SAMPLE_R5.json",
+      "path": "$.status",
+      "value": "ready_for_human_review"
+    },
+    {
+      "file": "INPUT_R4_PACKAGE_VALIDATION_R5.json",
+      "path": "$.hash_manifest.status",
+      "value": "PASS"
+    },
+    {
+      "file": "INPUT_R4_PACKAGE_VALIDATION_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "JSON_PARSE_REPORT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_CLOSEOUT_DECISION.json",
+      "path": "$.status",
+      "value": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R5_GUARDRAILS_READY"
+    },
+    {
+      "file": "METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_DECISION.json",
+      "path": "$.status",
+      "value": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R5_GUARDRAILS_READY"
+    },
+    {
+      "file": "NO_ACTION_AUDIT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "SECRET_AUDIT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "SOURCE_CLASS_SEPARATION_AUDIT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+      "path": "$.checks[0].status",
+      "value": "PASS"
+    },
+    {
+      "file": "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+      "path": "$.checks[1].status",
+      "value": "PASS"
+    },
+    {
+      "file": "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+      "path": "$.checks[2].status",
+      "value": "PASS"
+    },
+    {
+      "file": "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+      "path": "$.checks[3].status",
+      "value": "PASS"
+    },
+    {
+      "file": "VSS_NARRATION_GUARDRAIL_REPORT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    },
+    {
+      "file": "VSS_NARRATION_NORMALIZATION_REPORT_R5.json",
+      "path": "$.status",
+      "value": "PARTIAL"
+    },
+    {
+      "file": "VSS_PROSE_VS_DETECTION_CONFLICT_AUDIT_R5.json",
+      "path": "$.status",
+      "value": "PASS"
+    }
+  ],
+  "zip_integrity": "PASS"
+}

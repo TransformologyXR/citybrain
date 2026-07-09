@@ -1,0 +1,56 @@
+{
+  "artifact_id": "DIFF_EXPECTED_CLASSIFICATION_MATRIX",
+  "change_type_to_expected_classification": {
+    "changed_status": "changed",
+    "expired_record": "expired",
+    "new_candidate_only_record": "new_candidate_only",
+    "new_record": "new",
+    "removed_or_missing_record": "removed_or_missing",
+    "stale_record": "stale",
+    "strengthened_relationship": "changed_relationship_strengthened",
+    "weakened_relationship": "changed_relationship_weakened"
+  },
+  "family_change_coverage": {
+    "building_compliance_perception_candidate": {
+      "changed_status": 1,
+      "expired_record": 1,
+      "new_candidate_only_record": 1,
+      "new_record": 1,
+      "removed_or_missing_record": 1,
+      "stale_record": 1,
+      "strengthened_relationship": 1,
+      "weakened_relationship": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "changed_status": 1,
+      "expired_record": 1,
+      "new_candidate_only_record": 1,
+      "new_record": 1,
+      "removed_or_missing_record": 1,
+      "stale_record": 1,
+      "strengthened_relationship": 1,
+      "weakened_relationship": 1
+    },
+    "mobility_access_interruption": {
+      "changed_status": 1,
+      "expired_record": 1,
+      "new_candidate_only_record": 1,
+      "new_record": 1,
+      "removed_or_missing_record": 1,
+      "stale_record": 1,
+      "strengthened_relationship": 1,
+      "weakened_relationship": 1
+    },
+    "permit_inspection_delay": {
+      "changed_status": 1,
+      "expired_record": 1,
+      "new_candidate_only_record": 1,
+      "new_record": 1,
+      "removed_or_missing_record": 1,
+      "stale_record": 1,
+      "strengthened_relationship": 1,
+      "weakened_relationship": 1
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

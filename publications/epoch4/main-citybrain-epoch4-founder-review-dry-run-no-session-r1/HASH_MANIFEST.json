@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 350,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_FORM_VALIDATION_REPORT.json",
+      "sha256": "40d4e2e6fdfa88310898f0279f5e3375016c8bc026e46a315f35318fc25477e4"
+    },
+    {
+      "bytes": 302,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_OPERATOR_BURDEN_ESTIMATE.json",
+      "sha256": "1e3e0c495f433164580ee00641df7bde2732ffa605949a08292774ffb1645a1d"
+    },
+    {
+      "bytes": 284,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_PACKET_COMPLETENESS_REPORT.json",
+      "sha256": "c192907792f9f61d736cf14fd8567c2d2061d111621a05c1f80346fa5629c94c"
+    },
+    {
+      "bytes": 12596,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/DRY_RUN_TASK_QUEUE.json",
+      "sha256": "1c1a8385de819abd7521800e1a6d4fcd4619df74d25c8ad773db5880cf94b2d6"
+    },
+    {
+      "bytes": 479,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/FOUNDER_REVIEW_DRY_RUN_DECISION.json",
+      "sha256": "c31df3e395a38119a578dcc07371de161b496c22ef9b8fa2f74a6094b2d5f3b1"
+    },
+    {
+      "bytes": 276,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/FOUNDING_REVIEW_NOT_RUN_GUARD.json",
+      "sha256": "bcebf005aaab3252e3177cf1e3b323b973dcc605e99bb0b2ab81872e19f3f123"
+    },
+    {
+      "bytes": 224,
+      "path": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1/NO_FUEL_NO_DISPOSITIONS_GUARD.json",
+      "sha256": "df066b550448e0f916692d18f2ea0977cb1c4ddb7004840dfdd1e1786f07a9a1"
+    },
+    {
+      "bytes": 350,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/DRY_RUN_FORM_VALIDATION_REPORT.json",
+      "sha256": "40d4e2e6fdfa88310898f0279f5e3375016c8bc026e46a315f35318fc25477e4"
+    },
+    {
+      "bytes": 302,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/DRY_RUN_OPERATOR_BURDEN_ESTIMATE.json",
+      "sha256": "1e3e0c495f433164580ee00641df7bde2732ffa605949a08292774ffb1645a1d"
+    },
+    {
+      "bytes": 284,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/DRY_RUN_PACKET_COMPLETENESS_REPORT.json",
+      "sha256": "c192907792f9f61d736cf14fd8567c2d2061d111621a05c1f80346fa5629c94c"
+    },
+    {
+      "bytes": 12596,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/DRY_RUN_TASK_QUEUE.json",
+      "sha256": "1c1a8385de819abd7521800e1a6d4fcd4619df74d25c8ad773db5880cf94b2d6"
+    },
+    {
+      "bytes": 479,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/FOUNDER_REVIEW_DRY_RUN_DECISION.json",
+      "sha256": "c31df3e395a38119a578dcc07371de161b496c22ef9b8fa2f74a6094b2d5f3b1"
+    },
+    {
+      "bytes": 276,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/FOUNDING_REVIEW_NOT_RUN_GUARD.json",
+      "sha256": "bcebf005aaab3252e3177cf1e3b323b973dcc605e99bb0b2ab81872e19f3f123"
+    },
+    {
+      "bytes": 224,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-review-dry-run-no-session-r1/NO_FUEL_NO_DISPOSITIONS_GUARD.json",
+      "sha256": "df066b550448e0f916692d18f2ea0977cb1c4ddb7004840dfdd1e1786f07a9a1"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T18:51:48Z",
+  "status": "PASS"
+}

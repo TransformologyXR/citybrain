@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 1611,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/BEST_STORY_AND_PACKET_INDEX_R1.json",
+      "sha256": "6c9572c0a2c5c593fd960b4fb32a0e822fdae93d84aca2c6aea9565921eda17c"
+    },
+    {
+      "bytes": 561,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/DECISION.json",
+      "sha256": "76fa556f2a8dff9388e08021d6c0912832fcf18091f10459efcb8d21e2c9b908"
+    },
+    {
+      "bytes": 282,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/FOUNDER_REVIEW_NOT_RUN_GUARD.json",
+      "sha256": "ac0e0f58ee0fc13b21af5c669d34021a91ee8ef783bbae4ccbd4e82d996141c0"
+    },
+    {
+      "bytes": 228,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/NO_FUEL_NO_DISPOSITION_GUARD.json",
+      "sha256": "76662aa62fa35a9b966930c91c7353334f340ee4e834a8c05f4a94f8f851baf8"
+    },
+    {
+      "bytes": 3937,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/PILOT_EVIDENCE_BINDER_INDEX.json",
+      "sha256": "ba8c89e2525d6520b4340d7d85df1366b2c013d24d06f0c73ade3f050ca38f66"
+    },
+    {
+      "bytes": 1526,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/PILOT_EVIDENCE_BINDER_INDEX.md",
+      "sha256": "43a29de13c883dd8ee590d94134fb122ebf3bf5f1a267d2ef2a045f315a3ac80"
+    },
+    {
+      "bytes": 880,
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/PILOT_READINESS_CHECKLIST_R1.json",
+      "sha256": "86d57a3f5b140274ee146decb39a6f4cfc7fbd54bd8fcadae034906e230cfdc1"
+    },
+    {
+      "bytes": 1611,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/BEST_STORY_AND_PACKET_INDEX_R1.json",
+      "sha256": "6c9572c0a2c5c593fd960b4fb32a0e822fdae93d84aca2c6aea9565921eda17c"
+    },
+    {
+      "bytes": 561,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/DECISION.json",
+      "sha256": "76fa556f2a8dff9388e08021d6c0912832fcf18091f10459efcb8d21e2c9b908"
+    },
+    {
+      "bytes": 282,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/FOUNDER_REVIEW_NOT_RUN_GUARD.json",
+      "sha256": "ac0e0f58ee0fc13b21af5c669d34021a91ee8ef783bbae4ccbd4e82d996141c0"
+    },
+    {
+      "bytes": 228,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/NO_FUEL_NO_DISPOSITION_GUARD.json",
+      "sha256": "76662aa62fa35a9b966930c91c7353334f340ee4e834a8c05f4a94f8f851baf8"
+    },
+    {
+      "bytes": 3937,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/PILOT_EVIDENCE_BINDER_INDEX.json",
+      "sha256": "ba8c89e2525d6520b4340d7d85df1366b2c013d24d06f0c73ade3f050ca38f66"
+    },
+    {
+      "bytes": 1526,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/PILOT_EVIDENCE_BINDER_INDEX.md",
+      "sha256": "43a29de13c883dd8ee590d94134fb122ebf3bf5f1a267d2ef2a045f315a3ac80"
+    },
+    {
+      "bytes": 880,
+      "path": "publications/epoch4/main-citybrain-epoch4-pilot-evidence-binder-no-session-r1/PILOT_READINESS_CHECKLIST_R1.json",
+      "sha256": "86d57a3f5b140274ee146decb39a6f4cfc7fbd54bd8fcadae034906e230cfdc1"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T16:32:39Z",
+  "status": "PASS"
+}

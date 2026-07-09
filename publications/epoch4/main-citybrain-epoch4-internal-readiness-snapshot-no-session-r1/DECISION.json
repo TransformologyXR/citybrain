@@ -1,0 +1,12 @@
+{
+  "artifact_id": "DECISION",
+  "dispositions_created": false,
+  "forbidden_capabilities_created": [],
+  "founder_review_session_run": false,
+  "generated_at": "2026-07-07T17:20:59Z",
+  "operator_or_founder_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-INTERNAL-READINESS-SNAPSHOT-NO-SESSION-R1",
+  "ready_for_founder_session": false,
+  "ready_for_internal_review_prep": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_INTERNAL_READINESS_SNAPSHOT_NO_SESSION_R1_WITH_LIMITATIONS"
+}

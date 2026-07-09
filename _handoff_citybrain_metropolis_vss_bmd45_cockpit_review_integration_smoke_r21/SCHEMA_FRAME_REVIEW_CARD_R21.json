@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "dataset_annotation_summary": {
+      "type": "object"
+    },
+    "external_media_ref": {
+      "type": "object"
+    },
+    "frame_id": {
+      "type": "string"
+    },
+    "review_boundary": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "sensor_inferred_summary": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "frame_id",
+    "external_media_ref",
+    "dataset_annotation_summary",
+    "sensor_inferred_summary",
+    "review_boundary"
+  ],
+  "title": "Frame review card R21",
+  "type": "object"
+}

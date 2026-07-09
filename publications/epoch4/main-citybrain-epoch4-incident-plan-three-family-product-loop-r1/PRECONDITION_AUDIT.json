@@ -1,0 +1,71 @@
+{
+  "artifact_id": "PRECONDITION_AUDIT",
+  "rows": [
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS",
+      "track": "sprint0"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/TOP_3_FAMILY_SELECTION.json",
+      "status": "PASS_WITH_LIMITATIONS",
+      "track": "track1"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_FABRIC_V2_1_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACK2_EVENT_FABRIC_V2_1_MULTI_FAMILY_HARDENING_WITH_LIMITATIONS",
+      "track": "track2"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/track3_simulation_v2_1_connector_upgrade_path/SIMULATION_V2_1_CONNECTOR_UPGRADE_DECISION.json",
+      "status": "PASS_WITH_LIMITATIONS",
+      "track": "track3"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/main_citybrain_track4_source_registry_v1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_TRACK4_SOURCE_REGISTRY_V1_WITH_LIMITATIONS",
+      "track": "track4"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/main_citybrain_track5_data_quality_maturity_dashboard_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_TRACK5_DATA_QUALITY_MATURITY_DASHBOARD_R1_WITH_LIMITATIONS",
+      "track": "track5"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/main_citybrain_track6_brief_v3_export_hardening/BRIEF_V3_EXPORT_HARDENING_DECISION.json",
+      "status": "PASS_TRACK6_BRIEF_V3_EXPORT_HARDENING_WITH_LIMITATIONS",
+      "track": "track6"
+    },
+    {
+      "exists": true,
+      "ok": true,
+      "path": "outputs/track7_diff_source_refresh_readiness/TRACK7_DIFF_SOURCE_REFRESH_DECISION.json",
+      "status": "PASS_WITH_LIMITATIONS",
+      "track": "track7"
+    },
+    {
+      "actual_path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening",
+      "exists": false,
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multifamily_hardening_r1",
+      "status": "ALIAS_NOT_PRESENT_ACTUAL_ROOT_USED",
+      "track": "track2_spec_path_alias"
+    }
+  ],
+  "sequence_position": 1,
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_id": "NO_FORECAST_ACTION_GUARD",
+  "dispatch_control_enforcement_created": false,
+  "forecast_packet_created": false,
+  "forecast_surface_created": false,
+  "legal_or_certified_finding_created": false,
+  "official_workflow_case_action_created": false,
+  "status": "PASS"
+}

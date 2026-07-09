@@ -1,0 +1,7 @@
+{
+  "artifact_id": "CONTROL_FAMILY_REGRESSION_REPORT",
+  "control_family": "mobility_access_interruption",
+  "control_source": "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_PLAN_PRODUCT_LOOP_DECISION.json",
+  "status": "PASS",
+  "used_as_regression_baseline": true
+}

@@ -1,0 +1,109 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 8935,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/CHECK_DOWNGRADE_REMEDIATION_CANDIDATES.json",
+      "sha256": "6987728a69c9faaf3977b4cbb71005970233dd61b01511fc86a8c15af977d180"
+    },
+    {
+      "bytes": 880,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/DATA_MATURITY_REMEDIATION_EXECUTION_DECISION.json",
+      "sha256": "6706580bc886067f1b0d471f7de1c0d2ca413a67be558da0fe7c4ff590f24a5c"
+    },
+    {
+      "bytes": 9727,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/GEOMETRY_TIME_HISTORY_REMEDIATION_CANDIDATES.json",
+      "sha256": "dbde522ba763f122252bd161dbf45737989091ba088c2284a2dfa407f8bcfa77"
+    },
+    {
+      "bytes": 9051,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/IDENTITY_AMBIGUITY_REMEDIATION_CANDIDATES.json",
+      "sha256": "f9df813658bdabce53945121a9b11bc17ebce13295c455ec7e14336cd716d424"
+    },
+    {
+      "bytes": 1401,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "0855f60d9c6ab901c775a2456050e2dc18cf481af8ed66960b89a93a75e4f910"
+    },
+    {
+      "bytes": 240,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/NO_SCORE_INFLATION_GUARD.json",
+      "sha256": "61e78658cd5f10d7d9563063a4ee88a62547d0a1284314c99978a942e6a3488b"
+    },
+    {
+      "bytes": 267,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "ba66568aed7d578a13489c0a7a6da656a1628660821d8dcfd3e36e10f938fc83"
+    },
+    {
+      "bytes": 2675,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/REMEDIATION_EXECUTION_PLAN.json",
+      "sha256": "73b6c362f7052846ea137b166432d641669fd6a17f3a8d5cdc851e385e3c871a"
+    },
+    {
+      "bytes": 9098,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/SOURCE_FRESHNESS_COVERAGE_REMEDIATION_CANDIDATES.json",
+      "sha256": "14590306d8df6337daabed12b06bf232c76f5bc77d8dbdfc269de764e348bb40"
+    },
+    {
+      "bytes": 9401,
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/SOURCE_REGISTRY_ENRICHMENT_PATCH_CANDIDATES.json",
+      "sha256": "5128fc875dd63b180af9898f454fefef8263af3c2c85f7c243c6b059a69b0ebf"
+    },
+    {
+      "bytes": 8935,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/CHECK_DOWNGRADE_REMEDIATION_CANDIDATES.json",
+      "sha256": "6987728a69c9faaf3977b4cbb71005970233dd61b01511fc86a8c15af977d180"
+    },
+    {
+      "bytes": 880,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/DATA_MATURITY_REMEDIATION_EXECUTION_DECISION.json",
+      "sha256": "6706580bc886067f1b0d471f7de1c0d2ca413a67be558da0fe7c4ff590f24a5c"
+    },
+    {
+      "bytes": 9727,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/GEOMETRY_TIME_HISTORY_REMEDIATION_CANDIDATES.json",
+      "sha256": "dbde522ba763f122252bd161dbf45737989091ba088c2284a2dfa407f8bcfa77"
+    },
+    {
+      "bytes": 9051,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/IDENTITY_AMBIGUITY_REMEDIATION_CANDIDATES.json",
+      "sha256": "f9df813658bdabce53945121a9b11bc17ebce13295c455ec7e14336cd716d424"
+    },
+    {
+      "bytes": 1401,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "0855f60d9c6ab901c775a2456050e2dc18cf481af8ed66960b89a93a75e4f910"
+    },
+    {
+      "bytes": 240,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/NO_SCORE_INFLATION_GUARD.json",
+      "sha256": "61e78658cd5f10d7d9563063a4ee88a62547d0a1284314c99978a942e6a3488b"
+    },
+    {
+      "bytes": 267,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "ba66568aed7d578a13489c0a7a6da656a1628660821d8dcfd3e36e10f938fc83"
+    },
+    {
+      "bytes": 2675,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/REMEDIATION_EXECUTION_PLAN.json",
+      "sha256": "73b6c362f7052846ea137b166432d641669fd6a17f3a8d5cdc851e385e3c871a"
+    },
+    {
+      "bytes": 9098,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/SOURCE_FRESHNESS_COVERAGE_REMEDIATION_CANDIDATES.json",
+      "sha256": "14590306d8df6337daabed12b06bf232c76f5bc77d8dbdfc269de764e348bb40"
+    },
+    {
+      "bytes": 9401,
+      "path": "publications/epoch4/main-citybrain-epoch4-data-maturity-remediation-execution-batch-r1/SOURCE_REGISTRY_ENRICHMENT_PATCH_CANDIDATES.json",
+      "sha256": "5128fc875dd63b180af9898f454fefef8263af3c2c85f7c243c6b059a69b0ebf"
+    }
+  ],
+  "entry_count": 20,
+  "generated_at": "2026-07-07T18:51:48Z",
+  "status": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "SAMPLE_ONLY",
+  "targets": [
+    {
+      "candidate_id": "candidate-target:inspection_delay_v0",
+      "scout_lane": "A",
+      "candidate_family": "inspection_delay",
+      "source_refs": [
+        "outputs/.../example_inspection_status_history.json"
+      ],
+      "source_class": "candidate_inventory_only",
+      "city": "NYC",
+      "lineage_strength": "unknown_sample",
+      "promotion_status": "candidate_inventory_only",
+      "recommended_follow_on": "MATERIALIZATION_PREFLIGHT_IF_COUNTS_SUFFICIENT",
+      "limitations": [
+        "sample fixture only"
+      ]
+    }
+  ]
+}

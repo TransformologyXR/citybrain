@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "action": "prioritize high-impact sources with unknown freshness",
+      "claim_boundary": "diagnostic_only",
+      "step": 1
+    },
+    {
+      "action": "add stable source owner and refresh cadence metadata",
+      "claim_boundary": "diagnostic_only",
+      "step": 2
+    },
+    {
+      "action": "separate real, replay, fixture, and synthetic source classes",
+      "claim_boundary": "diagnostic_only",
+      "step": 3
+    }
+  ],
+  "artifact_id": "TOP_SOURCE_REMEDIATION_PLAN",
+  "not_claimed": [
+    "live remediation",
+    "source mutation",
+    "official certification"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

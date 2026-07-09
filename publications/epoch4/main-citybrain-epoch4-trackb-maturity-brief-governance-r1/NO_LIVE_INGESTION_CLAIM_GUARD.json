@@ -1,0 +1,11 @@
+{
+  "artifact_id": "NO_LIVE_INGESTION_CLAIM_GUARD",
+  "capability_created": false,
+  "generated_artifact_risky_findings": [],
+  "status": "PASS",
+  "terms": [
+    "live monitoring",
+    "production api",
+    "real-time operational control"
+  ]
+}

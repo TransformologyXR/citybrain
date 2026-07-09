@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "candidate_event_id": {
+      "type": "string"
+    },
+    "command_wrapper": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "media_ref": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "ready_endpoint": {
+      "type": "string"
+    },
+    "runtime_host": {
+      "const": "spark"
+    },
+    "source_boundary": {
+      "properties": {
+        "deepstream_metropolis": {
+          "const": "sensor_inferred"
+        },
+        "vss": {
+          "const": "model_generated_narrative"
+        }
+      },
+      "required": [
+        "deepstream_metropolis",
+        "vss"
+      ],
+      "type": "object"
+    },
+    "summarize_endpoint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-SMOKE-R7"
+    }
+  },
+  "required": [
+    "task_id",
+    "candidate_event_id",
+    "media_ref",
+    "runtime_host",
+    "source_boundary"
+  ],
+  "title": "CityBrain VSS Narration Smoke Request R7",
+  "type": "object"
+}

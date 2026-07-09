@@ -1,0 +1,907 @@
+{
+  "artifact_id": "CITY_DOMAIN_COVERAGE_MATRIX",
+  "cities": [
+    "barcelona",
+    "chicago",
+    "dubai",
+    "helsinki",
+    "london",
+    "multi",
+    "multi_city",
+    "nyc",
+    "singapore",
+    "unknown"
+  ],
+  "domains": [
+    "amb_open_data",
+    "base_geography",
+    "bicing_gbfs",
+    "citi_bike",
+    "environment",
+    "existing_london_core",
+    "facilities",
+    "facilities_resources",
+    "general",
+    "health",
+    "iris",
+    "lfb_mobilisation",
+    "logistics",
+    "london_datastore",
+    "mobility",
+    "noise",
+    "open_data_bcn",
+    "open_data_bcn_bicing",
+    "panynj",
+    "perception_media",
+    "planning",
+    "public_safety_events",
+    "spatial_base",
+    "tmb",
+    "utilities"
+  ],
+  "generated_at": "2026-07-08T09:24:24Z",
+  "matrix": [
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 0,
+      "domain": "amb_open_data",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "unknown_or_unclassified": 2
+      },
+      "source_count": 2,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 2
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 5,
+      "domain": "bicing_gbfs",
+      "missing_geometry_count": 4,
+      "source_class_counts": {
+        "official_record": 1,
+        "unknown_or_unclassified": 4
+      },
+      "source_count": 5,
+      "unknown_freshness_count": 5,
+      "unknown_source_class_count": 4
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 23,
+      "domain": "environment",
+      "missing_geometry_count": 28,
+      "source_class_counts": {
+        "official_record": 2,
+        "sensor_inferred": 20,
+        "unknown_or_unclassified": 7
+      },
+      "source_count": 29,
+      "unknown_freshness_count": 26,
+      "unknown_source_class_count": 7
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 1,
+      "domain": "facilities",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 28,
+      "domain": "general",
+      "missing_geometry_count": 26,
+      "source_class_counts": {
+        "model_generated_narrative_not_fact_source": 1,
+        "official_record": 3,
+        "unknown_or_unclassified": 33
+      },
+      "source_count": 37,
+      "unknown_freshness_count": 9,
+      "unknown_source_class_count": 33
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 1,
+      "domain": "iris",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 13,
+      "domain": "logistics",
+      "missing_geometry_count": 22,
+      "source_class_counts": {
+        "model_generated_narrative_not_fact_source": 1,
+        "official_record": 13,
+        "unknown_or_unclassified": 11
+      },
+      "source_count": 25,
+      "unknown_freshness_count": 20,
+      "unknown_source_class_count": 11
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 16,
+      "domain": "mobility",
+      "missing_geometry_count": 19,
+      "source_class_counts": {
+        "model_generated_narrative_not_fact_source": 1,
+        "official_record": 9,
+        "unknown_or_unclassified": 14
+      },
+      "source_count": 24,
+      "unknown_freshness_count": 13,
+      "unknown_source_class_count": 14
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 1,
+      "domain": "noise",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 1,
+      "domain": "open_data_bcn",
+      "missing_geometry_count": 14,
+      "source_class_counts": {
+        "unknown_or_unclassified": 14
+      },
+      "source_count": 14,
+      "unknown_freshness_count": 14,
+      "unknown_source_class_count": 14
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 0,
+      "domain": "open_data_bcn_bicing",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 1,
+      "domain": "perception_media",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "sensor_inferred": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 4,
+      "domain": "planning",
+      "missing_geometry_count": 9,
+      "source_class_counts": {
+        "official_record": 4,
+        "unknown_or_unclassified": 5
+      },
+      "source_count": 9,
+      "unknown_freshness_count": 5,
+      "unknown_source_class_count": 5
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 1,
+      "domain": "public_safety_events",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "official_record": 1,
+        "unknown_or_unclassified": 3
+      },
+      "source_count": 4,
+      "unknown_freshness_count": 3,
+      "unknown_source_class_count": 3
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 9,
+      "domain": "spatial_base",
+      "missing_geometry_count": 15,
+      "source_class_counts": {
+        "official_record": 7,
+        "unknown_or_unclassified": 8
+      },
+      "source_count": 15,
+      "unknown_freshness_count": 13,
+      "unknown_source_class_count": 8
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 2,
+      "domain": "tmb",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "official_record": 3
+      },
+      "source_count": 3,
+      "unknown_freshness_count": 3,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "barcelona",
+      "consuming_flow_source_count": 6,
+      "domain": "utilities",
+      "missing_geometry_count": 11,
+      "source_class_counts": {
+        "official_record": 2,
+        "sensor_inferred": 1,
+        "unknown_or_unclassified": 11
+      },
+      "source_count": 14,
+      "unknown_freshness_count": 9,
+      "unknown_source_class_count": 11
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 10,
+      "domain": "base_geography",
+      "missing_geometry_count": 4,
+      "source_class_counts": {
+        "official_record": 10
+      },
+      "source_count": 10,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 16,
+      "domain": "environment",
+      "missing_geometry_count": 6,
+      "source_class_counts": {
+        "official_record": 3,
+        "sensor_inferred": 4,
+        "unknown_or_unclassified": 11
+      },
+      "source_count": 18,
+      "unknown_freshness_count": 4,
+      "unknown_source_class_count": 11
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 3,
+      "domain": "facilities_resources",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "official_record": 3
+      },
+      "source_count": 3,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 9,
+      "domain": "general",
+      "missing_geometry_count": 9,
+      "source_class_counts": {
+        "unknown_or_unclassified": 17
+      },
+      "source_count": 17,
+      "unknown_freshness_count": 7,
+      "unknown_source_class_count": 17
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 1,
+      "domain": "health",
+      "missing_geometry_count": 0,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 3,
+      "domain": "logistics",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "unknown_or_unclassified": 5
+      },
+      "source_count": 5,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 5
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 19,
+      "domain": "mobility",
+      "missing_geometry_count": 11,
+      "source_class_counts": {
+        "official_record": 3,
+        "unknown_or_unclassified": 17
+      },
+      "source_count": 20,
+      "unknown_freshness_count": 6,
+      "unknown_source_class_count": 17
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 1,
+      "domain": "perception_media",
+      "missing_geometry_count": 0,
+      "source_class_counts": {
+        "sensor_inferred": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 14,
+      "domain": "planning",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 4,
+        "unknown_or_unclassified": 11
+      },
+      "source_count": 15,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 11
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 4,
+      "domain": "public_safety_events",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "unknown_or_unclassified": 6
+      },
+      "source_count": 6,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 6
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 4,
+      "domain": "spatial_base",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "unknown_or_unclassified": 5
+      },
+      "source_count": 5,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 5
+    },
+    {
+      "city": "chicago",
+      "consuming_flow_source_count": 6,
+      "domain": "utilities",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "sensor_inferred": 2,
+        "unknown_or_unclassified": 5
+      },
+      "source_count": 7,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 5
+    },
+    {
+      "city": "dubai",
+      "consuming_flow_source_count": 1,
+      "domain": "general",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "official_record": 2,
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 3,
+      "unknown_freshness_count": 3,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "dubai",
+      "consuming_flow_source_count": 3,
+      "domain": "planning",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "synthetic": 3
+      },
+      "source_count": 3,
+      "unknown_freshness_count": 3,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "helsinki",
+      "consuming_flow_source_count": 0,
+      "domain": "general",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "helsinki",
+      "consuming_flow_source_count": 0,
+      "domain": "spatial_base",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "unknown_or_unclassified": 3
+      },
+      "source_count": 3,
+      "unknown_freshness_count": 3,
+      "unknown_source_class_count": 3
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 7,
+      "domain": "environment",
+      "missing_geometry_count": 5,
+      "source_class_counts": {
+        "official_record": 1,
+        "replay": 1,
+        "unknown_or_unclassified": 7
+      },
+      "source_count": 9,
+      "unknown_freshness_count": 9,
+      "unknown_source_class_count": 7
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 0,
+      "domain": "existing_london_core",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "official_record": 2
+      },
+      "source_count": 2,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 14,
+      "domain": "general",
+      "missing_geometry_count": 20,
+      "source_class_counts": {
+        "official_record": 1,
+        "replay": 1,
+        "unknown_or_unclassified": 19
+      },
+      "source_count": 21,
+      "unknown_freshness_count": 21,
+      "unknown_source_class_count": 19
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 1,
+      "domain": "health",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 5,
+      "domain": "lfb_mobilisation",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "official_record": 5
+      },
+      "source_count": 5,
+      "unknown_freshness_count": 5,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 1,
+      "domain": "logistics",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 1,
+      "domain": "london_datastore",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 3,
+      "domain": "mobility",
+      "missing_geometry_count": 15,
+      "source_class_counts": {
+        "replay": 2,
+        "source_record": 13,
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 16,
+      "unknown_freshness_count": 16,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 16,
+      "domain": "planning",
+      "missing_geometry_count": 18,
+      "source_class_counts": {
+        "unknown_or_unclassified": 19
+      },
+      "source_count": 19,
+      "unknown_freshness_count": 19,
+      "unknown_source_class_count": 19
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 6,
+      "domain": "public_safety_events",
+      "missing_geometry_count": 12,
+      "source_class_counts": {
+        "official_record": 7,
+        "replay": 1,
+        "unknown_or_unclassified": 5
+      },
+      "source_count": 13,
+      "unknown_freshness_count": 13,
+      "unknown_source_class_count": 5
+    },
+    {
+      "city": "london",
+      "consuming_flow_source_count": 5,
+      "domain": "utilities",
+      "missing_geometry_count": 6,
+      "source_class_counts": {
+        "official_record": 2,
+        "unknown_or_unclassified": 5
+      },
+      "source_count": 7,
+      "unknown_freshness_count": 7,
+      "unknown_source_class_count": 5
+    },
+    {
+      "city": "multi",
+      "consuming_flow_source_count": 1,
+      "domain": "perception_media",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "sensor_inferred": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "multi_city",
+      "consuming_flow_source_count": 0,
+      "domain": "general",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 5,
+      "domain": "environment",
+      "missing_geometry_count": 10,
+      "source_class_counts": {
+        "sensor_inferred": 1,
+        "unknown_or_unclassified": 11
+      },
+      "source_count": 12,
+      "unknown_freshness_count": 7,
+      "unknown_source_class_count": 11
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 44,
+      "domain": "general",
+      "missing_geometry_count": 48,
+      "source_class_counts": {
+        "replay": 34,
+        "unknown_or_unclassified": 22
+      },
+      "source_count": 56,
+      "unknown_freshness_count": 42,
+      "unknown_source_class_count": 22
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 1,
+      "domain": "health",
+      "missing_geometry_count": 0,
+      "source_class_counts": {
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 1,
+      "domain": "logistics",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "unknown_or_unclassified": 2
+      },
+      "source_count": 2,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 2
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 13,
+      "domain": "mobility",
+      "missing_geometry_count": 11,
+      "source_class_counts": {
+        "unknown_or_unclassified": 18
+      },
+      "source_count": 18,
+      "unknown_freshness_count": 8,
+      "unknown_source_class_count": 18
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 9,
+      "domain": "planning",
+      "missing_geometry_count": 8,
+      "source_class_counts": {
+        "unknown_or_unclassified": 15
+      },
+      "source_count": 15,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 15
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 5,
+      "domain": "public_safety_events",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "unknown_or_unclassified": 8
+      },
+      "source_count": 8,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 8
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 0,
+      "domain": "spatial_base",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "unknown_or_unclassified": 2
+      },
+      "source_count": 2,
+      "unknown_freshness_count": 0,
+      "unknown_source_class_count": 2
+    },
+    {
+      "city": "nyc",
+      "consuming_flow_source_count": 7,
+      "domain": "utilities",
+      "missing_geometry_count": 16,
+      "source_class_counts": {
+        "source_record": 1,
+        "unknown_or_unclassified": 19
+      },
+      "source_count": 20,
+      "unknown_freshness_count": 16,
+      "unknown_source_class_count": 19
+    },
+    {
+      "city": "singapore",
+      "consuming_flow_source_count": 0,
+      "domain": "environment",
+      "missing_geometry_count": 2,
+      "source_class_counts": {
+        "official_record": 1,
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 2,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "singapore",
+      "consuming_flow_source_count": 0,
+      "domain": "general",
+      "missing_geometry_count": 28,
+      "source_class_counts": {
+        "official_record": 13,
+        "unknown_or_unclassified": 15
+      },
+      "source_count": 28,
+      "unknown_freshness_count": 28,
+      "unknown_source_class_count": 15
+    },
+    {
+      "city": "singapore",
+      "consuming_flow_source_count": 0,
+      "domain": "mobility",
+      "missing_geometry_count": 10,
+      "source_class_counts": {
+        "official_record": 1,
+        "unknown_or_unclassified": 9
+      },
+      "source_count": 10,
+      "unknown_freshness_count": 10,
+      "unknown_source_class_count": 9
+    },
+    {
+      "city": "singapore",
+      "consuming_flow_source_count": 0,
+      "domain": "planning",
+      "missing_geometry_count": 4,
+      "source_class_counts": {
+        "official_record": 4
+      },
+      "source_count": 4,
+      "unknown_freshness_count": 4,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "singapore",
+      "consuming_flow_source_count": 0,
+      "domain": "spatial_base",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "singapore",
+      "consuming_flow_source_count": 0,
+      "domain": "utilities",
+      "missing_geometry_count": 3,
+      "source_class_counts": {
+        "official_record": 2,
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 3,
+      "unknown_freshness_count": 3,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 1,
+      "domain": "citi_bike",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "unknown_or_unclassified": 2
+      },
+      "source_count": 2,
+      "unknown_freshness_count": 2,
+      "unknown_source_class_count": 2
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 22,
+      "domain": "general",
+      "missing_geometry_count": 32,
+      "source_class_counts": {
+        "source_record": 9,
+        "unknown_or_unclassified": 23
+      },
+      "source_count": 32,
+      "unknown_freshness_count": 32,
+      "unknown_source_class_count": 23
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 0,
+      "domain": "logistics",
+      "missing_geometry_count": 6,
+      "source_class_counts": {
+        "derived": 1,
+        "derived_field": 1,
+        "replay_source_record": 3,
+        "unknown_or_unclassified": 1
+      },
+      "source_count": 6,
+      "unknown_freshness_count": 6,
+      "unknown_source_class_count": 1
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 7,
+      "domain": "mobility",
+      "missing_geometry_count": 23,
+      "source_class_counts": {
+        "sensor_inferred": 2,
+        "unknown_or_unclassified": 22
+      },
+      "source_count": 24,
+      "unknown_freshness_count": 24,
+      "unknown_source_class_count": 22
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 1,
+      "domain": "panynj",
+      "missing_geometry_count": 1,
+      "source_class_counts": {
+        "official_record": 1
+      },
+      "source_count": 1,
+      "unknown_freshness_count": 1,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 2,
+      "domain": "perception_media",
+      "missing_geometry_count": 6,
+      "source_class_counts": {
+        "dataset_annotation": 3,
+        "media_evidence": 1,
+        "model_generated_narrative_not_fact_source": 2
+      },
+      "source_count": 6,
+      "unknown_freshness_count": 6,
+      "unknown_source_class_count": 0
+    },
+    {
+      "city": "unknown",
+      "consuming_flow_source_count": 7,
+      "domain": "utilities",
+      "missing_geometry_count": 10,
+      "source_class_counts": {
+        "sensor_inferred": 7,
+        "unknown_or_unclassified": 3
+      },
+      "source_count": 10,
+      "unknown_freshness_count": 10,
+      "unknown_source_class_count": 3
+    }
+  ],
+  "matrix_count": 68,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,23 @@
+{
+  "candidate_overlay_count": 25,
+  "canonical_truth_mutation": false,
+  "forecast_surface_created": false,
+  "founder_session_results_created": false,
+  "learned_ranking_or_model_training_created": false,
+  "live_ingestion_created": false,
+  "maturity_score_inflation": false,
+  "official_action_control_enforcement_created": false,
+  "operator_fuel_created": false,
+  "queue_counts": {
+    "FRESHNESS_UNKNOWN_TRIAGE_QUEUE.json": 462,
+    "GEOMETRY_UNKNOWN_TRIAGE_QUEUE.json": 526,
+    "NO_CONSUMING_FLOW_TRIAGE_QUEUE.json": 273,
+    "SCHEMA_UNKNOWN_TRIAGE_QUEUE.json": 456,
+    "SOURCE_CLASS_UNKNOWN_TRIAGE_QUEUE.json": 430
+  },
+  "source_registry_source_count": 664,
+  "source_truth_mutation": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_ESTATE_GAP_ROUTING_R1_WITH_LIMITATIONS",
+  "task": "MAIN-CITYBRAIN-EPOCH4-DATA-ESTATE-GAP-ROUTING-R1",
+  "training_rows_created": false
+}

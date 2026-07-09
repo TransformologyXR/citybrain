@@ -1,0 +1,1145 @@
+{
+  "artifact_id": "SOURCE_REGISTRY_V1_1_CONSUMING_FLOW_MAP",
+  "flow_count": 178,
+  "flows": {
+    "flow1": [
+      "source:chicago:311_service_requests",
+      "source:chicago:array_of_things_locations",
+      "source:chicago:average_daily_traffic_counts",
+      "source:chicago:beach_sensor_locations",
+      "source:chicago:beach_water_quality_automated_sensors",
+      "source:chicago:bldg_code_violations",
+      "source:chicago:boundaries_city",
+      "source:chicago:boundaries_community_areas",
+      "source:chicago:boundaries_neighborhoods",
+      "source:chicago:boundaries_police_districts",
+      "source:chicago:boundaries_wards_2023",
+      "source:chicago:building_footprints_map",
+      "source:chicago:building_footprints_primary",
+      "source:chicago:building_permits",
+      "source:chicago:building_violations",
+      "source:chicago:business_licenses",
+      "source:chicago:business_licenses_current_active",
+      "source:chicago:chicago_building_footprints_alt",
+      "source:chicago:city_owned_land_inventory",
+      "source:chicago:cook_county_hospitals",
+      "source:chicago:cook_county_parcel_universe",
+      "source:chicago:cps_school_locations",
+      "source:chicago:crimes_2001_present",
+      "source:chicago:cta_rail_stations",
+      "source:chicago:fire_stations",
+      "source:chicago:food_inspections",
+      "source:chicago:libraries",
+      "source:chicago:neighborhoods_2012b",
+      "source:chicago:open_air_chicago_hour_aggregations",
+      "source:chicago:open_air_chicago_individual_measurements",
+      "source:chicago:ordinance_violations_buildings",
+      "source:chicago:police_stations",
+      "source:chicago:police_stations_shapefiles",
+      "source:chicago:street_center_lines",
+      "source:chicago:traffic_tracker_current",
+      "source:chicago:traffic_tracker_historical_2024_current"
+    ],
+    "flow7": [
+      "source:chicago:311_service_requests",
+      "source:chicago:array_of_things_locations",
+      "source:chicago:beach_sensor_locations",
+      "source:chicago:beach_water_quality_automated_sensors",
+      "source:chicago:boundaries_community_areas",
+      "source:chicago:boundaries_neighborhoods",
+      "source:chicago:boundaries_police_districts",
+      "source:chicago:boundaries_wards_2023",
+      "source:chicago:building_violations",
+      "source:chicago:business_licenses",
+      "source:chicago:business_licenses_current_active",
+      "source:chicago:cook_county_hospitals",
+      "source:chicago:cps_school_locations",
+      "source:chicago:crimes_2001_present",
+      "source:chicago:divvy_trips",
+      "source:chicago:fire_stations",
+      "source:chicago:food_inspections",
+      "source:chicago:libraries",
+      "source:chicago:open_air_chicago_hour_aggregations",
+      "source:chicago:open_air_chicago_individual_measurements",
+      "source:chicago:police_stations",
+      "source:chicago:red_light_camera_violations",
+      "source:chicago:speed_camera_violations",
+      "source:chicago:traffic_crashes_crashes",
+      "source:chicago:traffic_crashes_people",
+      "source:chicago:traffic_crashes_vehicles",
+      "source:chicago:traffic_tracker_current",
+      "source:chicago:traffic_tracker_historical_2024_current"
+    ],
+    "flow:1": [
+      "source:nyc:mta_gtfs_rt_subway",
+      "source:nyc:mta_gtfs_static",
+      "source:nyc:mta_service_alerts",
+      "source:nyc:nyc_311_2010_2019",
+      "source:nyc:nyc_311_2020_present",
+      "source:nyc:nyc_air_quality",
+      "source:nyc:nyc_dot_traffic_speeds",
+      "source:nyc:nyc_ems_dispatch",
+      "source:nyc:nyc_facilities_database",
+      "source:nyc:nyc_fire_dispatch",
+      "source:nyc:nyc_mvc_crashes",
+      "source:nyc:nyc_parks_properties",
+      "source:nyc:nyc_permitted_events",
+      "source:nyc:nyc_queens_air_sensor_pilot",
+      "source:nyc:nyc_restaurant_inspections",
+      "source:nyc:nyc_school_points_2019_2020"
+    ],
+    "flow:2": [
+      "source:nyc:nyc_3d_building_model",
+      "source:nyc:nyc_centerline",
+      "source:nyc:nyc_dob_complaints",
+      "source:nyc:nyc_dob_ecb_violations",
+      "source:nyc:nyc_dob_now_build_filings",
+      "source:nyc:nyc_dob_permit_issuance",
+      "source:nyc:nyc_dob_safety_violations",
+      "source:nyc:nyc_dob_violations",
+      "source:nyc:nyc_hpd_hmc_complaints",
+      "source:nyc:nyc_hpd_jurisdiction_buildings",
+      "source:nyc:nyc_pluto",
+      "source:nyc:nyc_street_closures_block",
+      "source:nyc:nyc_street_closures_combined",
+      "source:nyc:nyc_street_closures_intersection"
+    ],
+    "flow:3": [
+      "source:nyc:nyc_311_2020_present",
+      "source:nyc:nyc_3d_building_model",
+      "source:nyc:nyc_dob_complaints",
+      "source:nyc:nyc_dob_ecb_violations",
+      "source:nyc:nyc_dob_now_build_filings",
+      "source:nyc:nyc_dob_permit_issuance",
+      "source:nyc:nyc_dob_safety_violations",
+      "source:nyc:nyc_dob_violations",
+      "source:nyc:nyc_ems_dispatch",
+      "source:nyc:nyc_facilities_database",
+      "source:nyc:nyc_fire_dispatch",
+      "source:nyc:nyc_hpd_hmc_complaints",
+      "source:nyc:nyc_hpd_jurisdiction_buildings",
+      "source:nyc:nyc_mvc_crashes",
+      "source:nyc:nyc_mvc_persons",
+      "source:nyc:nyc_mvc_vehicles",
+      "source:nyc:nyc_pluto",
+      "source:nyc:nyc_school_points_2019_2020"
+    ],
+    "flow:4": [
+      "source:nyc:mta_gtfs_rt_subway",
+      "source:nyc:mta_gtfs_static",
+      "source:nyc:mta_service_alerts",
+      "source:nyc:nyc_311_2020_present",
+      "source:nyc:nyc_air_quality",
+      "source:nyc:nyc_bike_routes",
+      "source:nyc:nyc_centerline",
+      "source:nyc:nyc_dot_traffic_speeds",
+      "source:nyc:nyc_ems_dispatch",
+      "source:nyc:nyc_fhv_base_aggregate",
+      "source:nyc:nyc_fire_dispatch",
+      "source:nyc:nyc_mvc_crashes",
+      "source:nyc:nyc_mvc_persons",
+      "source:nyc:nyc_mvc_vehicles",
+      "source:nyc:nyc_permitted_events",
+      "source:nyc:nyc_queens_air_sensor_pilot",
+      "source:nyc:nyc_street_closures_block",
+      "source:nyc:nyc_street_closures_combined",
+      "source:nyc:nyc_street_closures_intersection",
+      "source:nyc:nyc_taxi_pickups_dropoffs_zone_industry",
+      "source:nyc:nyc_taxi_zones",
+      "source:nyc:nyc_traffic_volume_counts"
+    ],
+    "flow:5": [
+      "source:nyc:nyc_1ft_dem",
+      "source:nyc:nyc_3d_building_model",
+      "source:nyc:nyc_air_quality",
+      "source:nyc:nyc_facilities_database",
+      "source:nyc:nyc_flood_vulnerability_index",
+      "source:nyc:nyc_flood_vulnerability_index_map",
+      "source:nyc:nyc_harbor_water_quality",
+      "source:nyc:nyc_hpd_jurisdiction_buildings",
+      "source:nyc:nyc_ll84_energy_water",
+      "source:nyc:nyc_parks_properties",
+      "source:nyc:nyc_pluto"
+    ],
+    "flow:6": [
+      "source:nyc:nyc_fhv_base_aggregate",
+      "source:nyc:nyc_taxi_pickups_dropoffs_zone_industry",
+      "source:nyc:nyc_taxi_zones",
+      "source:nyc:panynj_air_passenger_traffic",
+      "source:nyc:panynj_airport_cargo_tonnage",
+      "source:nyc:panynj_airport_stats_page",
+      "source:nyc:panynj_port_facts_page"
+    ],
+    "flow:7": [
+      "source:nyc:mta_gtfs_rt_subway",
+      "source:nyc:mta_gtfs_static",
+      "source:nyc:mta_service_alerts",
+      "source:nyc:nyc_311_2010_2019",
+      "source:nyc:nyc_311_2020_present",
+      "source:nyc:nyc_3d_building_model",
+      "source:nyc:nyc_air_quality",
+      "source:nyc:nyc_bike_routes",
+      "source:nyc:nyc_centerline",
+      "source:nyc:nyc_dob_complaints",
+      "source:nyc:nyc_dot_traffic_speeds",
+      "source:nyc:nyc_ems_dispatch",
+      "source:nyc:nyc_facilities_database",
+      "source:nyc:nyc_fhv_base_aggregate",
+      "source:nyc:nyc_fire_dispatch",
+      "source:nyc:nyc_flood_vulnerability_index",
+      "source:nyc:nyc_flood_vulnerability_index_map",
+      "source:nyc:nyc_harbor_water_quality",
+      "source:nyc:nyc_hpd_hmc_complaints",
+      "source:nyc:nyc_hpd_jurisdiction_buildings",
+      "source:nyc:nyc_ll84_energy_water",
+      "source:nyc:nyc_mvc_crashes",
+      "source:nyc:nyc_mvc_persons",
+      "source:nyc:nyc_mvc_vehicles",
+      "source:nyc:nyc_parks_properties",
+      "source:nyc:nyc_permitted_events",
+      "source:nyc:nyc_pluto",
+      "source:nyc:nyc_queens_air_sensor_pilot",
+      "source:nyc:nyc_restaurant_inspections",
+      "source:nyc:nyc_school_points_2019_2020",
+      "source:nyc:nyc_taxi_pickups_dropoffs_zone_industry",
+      "source:nyc:nyc_taxi_zones",
+      "source:nyc:nyc_traffic_volume_counts"
+    ],
+    "flow:F1": [
+      "source:barcelona:air_quality_detail",
+      "source:barcelona:air_quality_pollutants",
+      "source:barcelona:air_quality_stations",
+      "source:barcelona:bicing_gbfs",
+      "source:barcelona:boundaries_admin_units",
+      "source:barcelona:boundaries_districts",
+      "source:barcelona:climate_shelters",
+      "source:barcelona:facilities_media_services",
+      "source:barcelona:facilities_service_companies",
+      "source:barcelona:facilities_transport",
+      "source:barcelona:iris",
+      "source:barcelona:mobility_counters_detail",
+      "source:barcelona:mobility_counters_equipment",
+      "source:barcelona:noise_monitor_installations",
+      "source:barcelona:noise_monitor_readings",
+      "source:barcelona:noise_population_exposure",
+      "source:barcelona:noise_risk_resilience",
+      "source:barcelona:sentilo_connecta",
+      "source:barcelona:traffic_incidence_notices",
+      "source:barcelona:traffic_itineraries",
+      "source:barcelona:traffic_sections",
+      "source:barcelona:traffic_sections_by_itinerary",
+      "source:barcelona:traffic_trams",
+      "source:chicago:311_service_requests",
+      "source:chicago:active_business_licenses",
+      "source:chicago:arterial_daily_traffic",
+      "source:chicago:building_footprints",
+      "source:chicago:business_licenses",
+      "source:chicago:cdph_environmental_complaints",
+      "source:chicago:community_areas",
+      "source:chicago:crimes_2001_present",
+      "source:chicago:cta_bus_tracker",
+      "source:chicago:cta_customer_alerts",
+      "source:chicago:cta_gtfs_static",
+      "source:chicago:cta_train_tracker",
+      "source:chicago:divvy_trips",
+      "source:chicago:fire_stations",
+      "source:chicago:food_inspections",
+      "source:chicago:hospitals",
+      "source:chicago:libraries",
+      "source:chicago:library_events",
+      "source:chicago:police_districts",
+      "source:chicago:police_stations",
+      "source:chicago:red_light_camera_violations",
+      "source:chicago:schools",
+      "source:chicago:special_events",
+      "source:chicago:speed_camera_violations",
+      "source:chicago:street_center_lines",
+      "source:chicago:taxi_trips",
+      "source:chicago:tnp_trips_2018_2022",
+      "source:chicago:tnp_trips_2023_2024",
+      "source:chicago:tnp_trips_2025",
+      "source:chicago:traffic_crashes_crashes",
+      "source:chicago:traffic_tracker_current",
+      "source:chicago:traffic_tracker_historical",
+      "source:chicago:wards",
+      "source:london:borough_service_requests",
+      "source:london:business_rates_premises",
+      "source:london:data_police_street_crime",
+      "source:london:employment_economic_activity",
+      "source:london:fixmystreet_open311",
+      "source:london:imd_deprivation",
+      "source:london:london_air_daily_no2",
+      "source:london:london_air_sites",
+      "source:london:london_core_boundaries",
+      "source:london:mps_crime_dashboard",
+      "source:london:noise_mapping",
+      "source:london:ons_population",
+      "source:london:tfl_bikepoint",
+      "source:london:tfl_road_disruptions"
+    ],
+    "flow:F1,F2,F3,F5,F7": [
+      "source:chicago:building_footprints"
+    ],
+    "flow:F1,F2,F5,F7": [
+      "source:chicago:community_areas",
+      "source:chicago:wards"
+    ],
+    "flow:F1,F2,F6": [
+      "source:chicago:active_business_licenses",
+      "source:chicago:business_licenses"
+    ],
+    "flow:F1,F2,F7": [
+      "source:chicago:food_inspections"
+    ],
+    "flow:F1,F3": [
+      "source:chicago:crimes_2001_present"
+    ],
+    "flow:F1,F3,F4": [
+      "source:chicago:cta_bus_tracker",
+      "source:chicago:cta_customer_alerts",
+      "source:chicago:cta_gtfs_static",
+      "source:chicago:cta_train_tracker",
+      "source:chicago:red_light_camera_violations",
+      "source:chicago:speed_camera_violations",
+      "source:chicago:traffic_crashes_crashes",
+      "source:chicago:traffic_tracker_historical"
+    ],
+    "flow:F1,F3,F4,F6": [
+      "source:chicago:street_center_lines"
+    ],
+    "flow:F1,F3,F7": [
+      "source:chicago:fire_stations",
+      "source:chicago:hospitals",
+      "source:chicago:police_districts",
+      "source:chicago:police_stations"
+    ],
+    "flow:F1,F4": [
+      "source:chicago:arterial_daily_traffic",
+      "source:chicago:divvy_trips",
+      "source:chicago:traffic_tracker_current"
+    ],
+    "flow:F1,F4,F6": [
+      "source:chicago:taxi_trips",
+      "source:chicago:tnp_trips_2018_2022",
+      "source:chicago:tnp_trips_2023_2024",
+      "source:chicago:tnp_trips_2025"
+    ],
+    "flow:F1,F4,F6,F7": [
+      "source:chicago:special_events"
+    ],
+    "flow:F1,F5,F7": [
+      "source:chicago:311_service_requests",
+      "source:chicago:cdph_environmental_complaints",
+      "source:chicago:schools"
+    ],
+    "flow:F1,F7": [
+      "source:chicago:libraries",
+      "source:chicago:library_events"
+    ],
+    "flow:F2": [
+      "source:barcelona:address_table",
+      "source:barcelona:boundaries_admin_units",
+      "source:barcelona:boundaries_districts",
+      "source:barcelona:cadastre_addresses",
+      "source:barcelona:cadastre_building_age",
+      "source:barcelona:cadastre_building_area",
+      "source:barcelona:cadastre_buildings",
+      "source:barcelona:cadastre_parcels",
+      "source:barcelona:economic_activity_codes",
+      "source:barcelona:economic_activity_premises",
+      "source:barcelona:electricity_consumption",
+      "source:barcelona:land_plots",
+      "source:barcelona:urban_planning_sectors",
+      "source:chicago:active_business_licenses",
+      "source:chicago:building_footprints",
+      "source:chicago:building_permits",
+      "source:chicago:building_violations",
+      "source:chicago:business_licenses",
+      "source:chicago:cdph_asbestos_demolition",
+      "source:chicago:cdph_environmental_enforcement",
+      "source:chicago:cdph_environmental_inspections",
+      "source:chicago:cdph_environmental_permits",
+      "source:chicago:community_areas",
+      "source:chicago:cook_parcel_sales",
+      "source:chicago:cook_parcels_chicago",
+      "source:chicago:energy_benchmarking_current",
+      "source:chicago:energy_benchmarking_history",
+      "source:chicago:environmental_hold_lust_nfr",
+      "source:chicago:food_inspections",
+      "source:chicago:pedestrian_streets",
+      "source:chicago:transportation_department_permits",
+      "source:chicago:wards",
+      "source:chicago:zoning_current_boundaries",
+      "source:chicago:zoning_tabular",
+      "source:london:brownfield_land",
+      "source:london:business_rates_premises",
+      "source:london:ev_charging_context",
+      "source:london:london_core_boundaries",
+      "source:london:os_open_linked_identifiers",
+      "source:london:planning_datahub",
+      "source:london:planning_local_plan_data"
+    ],
+    "flow:F2,F4,F6": [
+      "source:chicago:pedestrian_streets",
+      "source:chicago:transportation_department_permits"
+    ],
+    "flow:F2,F5": [
+      "source:chicago:building_violations",
+      "source:chicago:cook_parcel_sales",
+      "source:chicago:energy_benchmarking_current",
+      "source:chicago:energy_benchmarking_history"
+    ],
+    "flow:F2,F5,F6": [
+      "source:chicago:building_permits",
+      "source:chicago:cdph_asbestos_demolition",
+      "source:chicago:cdph_environmental_enforcement",
+      "source:chicago:cdph_environmental_inspections",
+      "source:chicago:cdph_environmental_permits",
+      "source:chicago:environmental_hold_lust_nfr",
+      "source:chicago:zoning_current_boundaries",
+      "source:chicago:zoning_tabular"
+    ],
+    "flow:F2,F5,F7": [
+      "source:chicago:cook_parcels_chicago"
+    ],
+    "flow:F3": [
+      "source:barcelona:address_table",
+      "source:barcelona:amb_gtfs_rt",
+      "source:barcelona:boundaries_admin_units",
+      "source:barcelona:boundaries_districts",
+      "source:barcelona:facilities_transport",
+      "source:barcelona:tmb_ibus",
+      "source:barcelona:tmb_static_gtfs",
+      "source:barcelona:traffic_accident_causes",
+      "source:barcelona:traffic_accident_people",
+      "source:barcelona:traffic_accident_vehicles",
+      "source:barcelona:traffic_accidents",
+      "source:barcelona:traffic_incidence_notices",
+      "source:barcelona:traffic_itineraries",
+      "source:barcelona:traffic_sections",
+      "source:barcelona:traffic_sections_by_itinerary",
+      "source:barcelona:traffic_trams",
+      "source:barcelona:tram_opendata",
+      "source:chicago:building_footprints",
+      "source:chicago:crimes_2001_present",
+      "source:chicago:cta_bus_tracker",
+      "source:chicago:cta_customer_alerts",
+      "source:chicago:cta_gtfs_static",
+      "source:chicago:cta_train_tracker",
+      "source:chicago:fire_stations",
+      "source:chicago:hospitals",
+      "source:chicago:police_districts",
+      "source:chicago:police_stations",
+      "source:chicago:red_light_camera_violations",
+      "source:chicago:speed_camera_violations",
+      "source:chicago:street_center_lines",
+      "source:chicago:traffic_crashes_crashes",
+      "source:chicago:traffic_crashes_people",
+      "source:chicago:traffic_crashes_vehicles",
+      "source:chicago:traffic_tracker_historical",
+      "source:chicago:utility_hit_tickets",
+      "source:london:data_police_street_crime",
+      "source:london:ea_current_floods",
+      "source:london:lfb_incidents",
+      "source:london:lfb_mobilisations",
+      "source:london:london_core_boundaries",
+      "source:london:tfl_line_status",
+      "source:london:tfl_road_disruptions"
+    ],
+    "flow:F3,F4": [
+      "source:chicago:traffic_crashes_vehicles"
+    ],
+    "flow:F3,F5,F6": [
+      "source:chicago:utility_hit_tickets"
+    ],
+    "flow:F4": [
+      "source:barcelona:air_quality_detail",
+      "source:barcelona:air_quality_pollutants",
+      "source:barcelona:air_quality_stations",
+      "source:barcelona:amb_gtfs_rt",
+      "source:barcelona:bicing_gbfs",
+      "source:barcelona:bike_lanes",
+      "source:barcelona:boundaries_admin_units",
+      "source:barcelona:boundaries_districts",
+      "source:barcelona:cycle_paths",
+      "source:barcelona:mobility_counters_detail",
+      "source:barcelona:mobility_counters_equipment",
+      "source:barcelona:noise_monitor_installations",
+      "source:barcelona:noise_monitor_readings",
+      "source:barcelona:tmb_ibus",
+      "source:barcelona:tmb_static_gtfs",
+      "source:barcelona:traffic_incidence_notices",
+      "source:barcelona:traffic_itineraries",
+      "source:barcelona:traffic_sections",
+      "source:barcelona:traffic_sections_by_itinerary",
+      "source:barcelona:traffic_trams",
+      "source:barcelona:tram_opendata",
+      "source:chicago:array_of_things_locations",
+      "source:chicago:arterial_daily_traffic",
+      "source:chicago:cta_bus_tracker",
+      "source:chicago:cta_customer_alerts",
+      "source:chicago:cta_gtfs_static",
+      "source:chicago:cta_train_tracker",
+      "source:chicago:divvy_trips",
+      "source:chicago:height_weight_limits",
+      "source:chicago:open_air_day",
+      "source:chicago:open_air_hourly",
+      "source:chicago:open_air_individual",
+      "source:chicago:pedestrian_streets",
+      "source:chicago:red_light_camera_violations",
+      "source:chicago:roadway_construction_moratoriums",
+      "source:chicago:special_events",
+      "source:chicago:speed_camera_violations",
+      "source:chicago:street_center_lines",
+      "source:chicago:taxi_trips",
+      "source:chicago:tnp_trips_2018_2022",
+      "source:chicago:tnp_trips_2023_2024",
+      "source:chicago:tnp_trips_2025",
+      "source:chicago:tnp_vehicles",
+      "source:chicago:traffic_crashes_crashes",
+      "source:chicago:traffic_crashes_vehicles",
+      "source:chicago:traffic_tracker_current",
+      "source:chicago:traffic_tracker_historical",
+      "source:chicago:transportation_department_permits",
+      "source:london:ev_charging_context",
+      "source:london:london_air_daily_no2",
+      "source:london:london_air_site_species",
+      "source:london:london_air_sites",
+      "source:london:london_core_boundaries",
+      "source:london:tfl_arrivals_modes",
+      "source:london:tfl_bikepoint",
+      "source:london:tfl_line_status",
+      "source:london:tfl_road_disruptions"
+    ],
+    "flow:F4,F5,F7": [
+      "source:chicago:array_of_things_locations",
+      "source:chicago:open_air_day",
+      "source:chicago:open_air_hourly",
+      "source:chicago:open_air_individual"
+    ],
+    "flow:F4,F6": [
+      "source:chicago:height_weight_limits",
+      "source:chicago:roadway_construction_moratoriums",
+      "source:chicago:tnp_vehicles"
+    ],
+    "flow:F5": [
+      "source:barcelona:address_table",
+      "source:barcelona:boundaries_admin_units",
+      "source:barcelona:boundaries_districts",
+      "source:barcelona:cadastre_addresses",
+      "source:barcelona:cadastre_building_age",
+      "source:barcelona:cadastre_building_area",
+      "source:barcelona:cadastre_buildings",
+      "source:barcelona:cadastre_parcels",
+      "source:barcelona:climate_shelters",
+      "source:barcelona:economic_activity_premises",
+      "source:barcelona:electricity_consumption",
+      "source:barcelona:facilities_service_companies",
+      "source:barcelona:facilities_transport",
+      "source:barcelona:green_space_deficit",
+      "source:barcelona:land_plots",
+      "source:barcelona:meteorological_readings",
+      "source:barcelona:meteorological_stations",
+      "source:barcelona:noise_population_exposure",
+      "source:barcelona:noise_risk_resilience",
+      "source:barcelona:piezometer_inventory",
+      "source:barcelona:piezometer_readings",
+      "source:barcelona:port_weather_zal_prat",
+      "source:barcelona:rainfall_history",
+      "source:barcelona:sentilo_connecta",
+      "source:barcelona:urban_planning_sectors",
+      "source:chicago:311_service_requests",
+      "source:chicago:air_records",
+      "source:chicago:array_of_things_locations",
+      "source:chicago:beach_sensor_locations",
+      "source:chicago:beach_water_sensors",
+      "source:chicago:beach_weather_stations",
+      "source:chicago:building_footprints",
+      "source:chicago:building_permits",
+      "source:chicago:building_violations",
+      "source:chicago:cdph_asbestos_demolition",
+      "source:chicago:cdph_environmental_complaints",
+      "source:chicago:cdph_environmental_enforcement",
+      "source:chicago:cdph_environmental_inspections",
+      "source:chicago:cdph_environmental_permits",
+      "source:chicago:community_areas",
+      "source:chicago:cook_parcel_sales",
+      "source:chicago:cook_parcels_chicago",
+      "source:chicago:energy_benchmarking_current",
+      "source:chicago:energy_benchmarking_history",
+      "source:chicago:environmental_hold_lust_nfr",
+      "source:chicago:environmental_storage_tanks",
+      "source:chicago:green_infra_sensors",
+      "source:chicago:open_air_day",
+      "source:chicago:open_air_hourly",
+      "source:chicago:open_air_individual",
+      "source:chicago:schools",
+      "source:chicago:utility_hit_tickets",
+      "source:chicago:wards",
+      "source:chicago:zoning_current_boundaries",
+      "source:chicago:zoning_tabular",
+      "source:london:brownfield_land",
+      "source:london:ea_current_floods",
+      "source:london:ea_london_flood_areas",
+      "source:london:ea_london_measures",
+      "source:london:ea_london_stations",
+      "source:london:energy_consumption",
+      "source:london:ev_charging_context",
+      "source:london:laei",
+      "source:london:london_air_daily_no2",
+      "source:london:london_air_site_species",
+      "source:london:london_air_sites",
+      "source:london:london_core_boundaries",
+      "source:london:noise_mapping",
+      "source:london:planning_datahub",
+      "source:london:planning_local_plan_data"
+    ],
+    "flow:F5,F6": [
+      "source:chicago:air_records",
+      "source:chicago:environmental_storage_tanks"
+    ],
+    "flow:F5,F7": [
+      "source:chicago:beach_sensor_locations",
+      "source:chicago:beach_water_sensors",
+      "source:chicago:beach_weather_stations",
+      "source:chicago:green_infra_sensors"
+    ],
+    "flow:F6": [
+      "source:barcelona:port_rail_services",
+      "source:barcelona:port_service_companies",
+      "source:barcelona:port_ship_traffic_stats",
+      "source:barcelona:port_ships_today",
+      "source:barcelona:port_tenders",
+      "source:barcelona:port_weather_zal_prat",
+      "source:chicago:active_business_licenses",
+      "source:chicago:air_records",
+      "source:chicago:building_permits",
+      "source:chicago:business_licenses",
+      "source:chicago:cdph_asbestos_demolition",
+      "source:chicago:cdph_environmental_enforcement",
+      "source:chicago:cdph_environmental_inspections",
+      "source:chicago:cdph_environmental_permits",
+      "source:chicago:environmental_hold_lust_nfr",
+      "source:chicago:environmental_storage_tanks",
+      "source:chicago:height_weight_limits",
+      "source:chicago:pedestrian_streets",
+      "source:chicago:roadway_construction_moratoriums",
+      "source:chicago:special_events",
+      "source:chicago:street_center_lines",
+      "source:chicago:taxi_trips",
+      "source:chicago:tnp_trips_2018_2022",
+      "source:chicago:tnp_trips_2023_2024",
+      "source:chicago:tnp_trips_2025",
+      "source:chicago:tnp_vehicles",
+      "source:chicago:transportation_department_permits",
+      "source:chicago:utility_hit_tickets",
+      "source:chicago:zoning_current_boundaries",
+      "source:chicago:zoning_tabular",
+      "source:london:business_rates_premises",
+      "source:london:employment_economic_activity",
+      "source:london:energy_consumption",
+      "source:london:imd_deprivation",
+      "source:london:nhs_ae_london_hourly",
+      "source:london:nhs_england_ae_monthly",
+      "source:london:ons_population"
+    ],
+    "flow:F7": [
+      "source:barcelona:air_quality_detail",
+      "source:barcelona:air_quality_pollutants",
+      "source:barcelona:air_quality_stations",
+      "source:barcelona:bicing_gbfs",
+      "source:barcelona:boundaries_admin_units",
+      "source:barcelona:boundaries_districts",
+      "source:barcelona:climate_shelters",
+      "source:barcelona:facilities_media_services",
+      "source:barcelona:facilities_service_companies",
+      "source:barcelona:facilities_transport",
+      "source:barcelona:iris",
+      "source:barcelona:meteorological_readings",
+      "source:barcelona:meteorological_stations",
+      "source:barcelona:mobility_counters_detail",
+      "source:barcelona:mobility_counters_equipment",
+      "source:barcelona:noise_monitor_installations",
+      "source:barcelona:noise_monitor_readings",
+      "source:barcelona:noise_population_exposure",
+      "source:barcelona:noise_risk_resilience",
+      "source:barcelona:sentilo_connecta",
+      "source:barcelona:traffic_incidence_notices",
+      "source:barcelona:traffic_itineraries",
+      "source:barcelona:traffic_sections",
+      "source:barcelona:traffic_sections_by_itinerary",
+      "source:barcelona:traffic_trams",
+      "source:chicago:311_service_requests",
+      "source:chicago:array_of_things_locations",
+      "source:chicago:beach_sensor_locations",
+      "source:chicago:beach_water_sensors",
+      "source:chicago:beach_weather_stations",
+      "source:chicago:building_footprints",
+      "source:chicago:cdph_environmental_complaints",
+      "source:chicago:community_areas",
+      "source:chicago:cook_parcels_chicago",
+      "source:chicago:fire_stations",
+      "source:chicago:food_inspections",
+      "source:chicago:green_infra_sensors",
+      "source:chicago:hospitals",
+      "source:chicago:libraries",
+      "source:chicago:library_events",
+      "source:chicago:open_air_day",
+      "source:chicago:open_air_hourly",
+      "source:chicago:open_air_individual",
+      "source:chicago:police_districts",
+      "source:chicago:police_stations",
+      "source:chicago:schools",
+      "source:chicago:special_events",
+      "source:chicago:wards",
+      "source:london:borough_service_requests",
+      "source:london:business_rates_premises",
+      "source:london:data_police_street_crime",
+      "source:london:ea_current_floods",
+      "source:london:ea_london_flood_areas",
+      "source:london:ea_london_measures",
+      "source:london:ea_london_stations",
+      "source:london:employment_economic_activity",
+      "source:london:energy_consumption",
+      "source:london:ev_charging_context",
+      "source:london:fixmystreet_open311",
+      "source:london:fusion_existing_xdata",
+      "source:london:imd_deprivation",
+      "source:london:laei",
+      "source:london:lfb_incidents",
+      "source:london:lfb_mobilisations",
+      "source:london:london_air_daily_no2",
+      "source:london:london_air_site_species",
+      "source:london:london_air_sites",
+      "source:london:london_core_boundaries",
+      "source:london:mps_crime_dashboard",
+      "source:london:nhs_ae_london_hourly",
+      "source:london:noise_mapping",
+      "source:london:ons_population",
+      "source:london:tfl_bikepoint",
+      "source:london:tfl_line_status",
+      "source:london:tfl_road_disruptions"
+    ],
+    "flow:{'BARC-F1-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'IRIS remains civic-service context only.', 'Traffic and sensor sources are status context, not operational control.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F1-D2', 'd3_handoff': 'BARC-F1-D3 situational status EvidenceBundles', 'flow': 1, 'join_keys': ['district_id', 'neighbourhood_id', 'lat_lon', 'facility_id', 'source_event_id', 'observed_at'], 'landed_or_confirmed_source_families': 8, 'name': 'Situational Status', 'primary_anchor': 'area_id/time_window/source_event_id/facility_id', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'iris', 'family_status': 'PASS', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'MEDIUM', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'IRIS civic incidents, complaints, suggestions, inquiries, and gratitudes', 'url': None}, {'family': 'traffic_state', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Open Data BCN traffic state and road-section sources', 'url': None}, {'family': 'bicing_gbfs', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'GBFS/public terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Bicing GBFS public realtime feeds', 'url': None}, {'family': 'air_quality', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Air quality stations and measurements', 'url': None}, {'family': 'noise', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Noise monitoring or strategic noise context', 'url': None}, {'family': 'facilities', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Facilities and public services context', 'url': None}, {'family': 'boundaries', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'District, neighbourhood, and boundary context', 'url': None}, {'family': 'sentilo_connecta', 'family_status': 'PASS', 'landing_status': 'ENDPOINT_CONFIRMED,LANDED_FULL', 'licence': 'Sentilo/Connecta terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Sentilo / Connecta BCN catalogue and sensor map', 'url': None}], 'status': 'PASS_WITH_BOUNDED_SOURCE_LANDING'}, 'BARC-F2-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'Permit, activity-licence, inspection, and violation datasets need record-level verification.', 'Cadastre address layers require privacy and licence review before use.', 'No enforcement or compliance recommendations.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F2-D2', 'd3_handoff': 'BARC-F2-D3 planning/compliance EvidenceBundles', 'flow': 2, 'join_keys': ['parcel_id', 'building_id', 'address_id', 'district_id', 'neighbourhood_id', 'licence_id', 'planning_area_id'], 'landed_or_confirmed_source_families': 6, 'name': 'Planning / Construction / Compliance', 'primary_anchor': 'parcel_id/building_id/address_id/planning_area_id/licence_id', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'cadastre', 'landing_status': 'NOT_LANDED_IN_D1_D1A', 'source': 'missing_or_future_target'}, {'family': 'barcelona_land_plots', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'source': 'BARC-D1', 'title': 'Barcelona land plots and cadastral/parcel reference layers', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=parcelari+solars+cadastre+Barcelona'}, {'family': 'urban_planning_sectors', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'source': 'BARC-D1', 'title': 'Urban planning sectors and planning areas', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=planejament+urbanistic+sectors+ambits'}, {'family': 'building_works_licences', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'source': 'BARC-D1', 'title': 'Building licences and works permits', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=llicencies+obres+permisos+edificacio'}, {'family': 'activity_business_licences', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'source': 'BARC-D1', 'title': 'Activity and business licences', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=llicencies+activitats'}, {'family': 'boundaries', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'District, neighbourhood, and boundary context', 'url': None}], 'status': 'PASS_WITH_PERMIT_LICENSE_LIMITATIONS'}, 'BARC-F3-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'Traffic accidents are not emergency dispatch feeds.', 'Affected context is contextual and not certified affected assets.', 'No emergency, dispatch, or public-safety recommendations.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F3-D2', 'd3_handoff': 'BARC-F3-D3 traffic incident context EvidenceBundles', 'flow': 3, 'join_keys': ['accident_id', 'road_section_id', 'district_id', 'neighbourhood_id', 'facility_id', 'event_time', 'lat_lon'], 'landed_or_confirmed_source_families': 7, 'name': 'Incident / Response / Affected Context', 'primary_anchor': 'traffic_incident_id/time_window/road_section_id/facility_context_id', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'traffic_accidents_guardia_urbana', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'source': 'BARC-D1', 'title': 'Traffic accidents handled by Guardia Urbana', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=accidents+Guardia+Urbana'}, {'family': 'traffic_accident_vehicles', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'source': 'BARC-D1', 'title': 'Vehicles involved in traffic accidents', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=vehicles+implicats+accidents+Guardia+Urbana'}, {'family': 'traffic_state', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Open Data BCN traffic state and road-section sources', 'url': None}, {'family': 'tmb_boundary', 'family_status': 'PASS', 'landing_status': 'DOWNLOAD_FAILED,LANDED_FULL,LANDED_SAMPLE', 'licence': 'TMB developer terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'TMB static GTFS, iBus, and line/stop API credential boundary', 'url': None}, {'family': 'amb_gtfs_rt', 'family_status': 'PASS', 'landing_status': 'API_PROBED,ENDPOINT_CONFIRMED,LANDED_FULL', 'licence': 'AMB open data terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'AMB GTFS-RT endpoint confirmation', 'url': None}, {'family': 'facilities', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Facilities and public services context', 'url': None}, {'family': 'boundaries', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'District, neighbourhood, and boundary context', 'url': None}], 'status': 'PASS_WITH_CONTEXT_LIMITATIONS'}, 'BARC-F4-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'TMB iBus endpoint needs exact parameter refinement.', 'AMB GTFS-RT exact protobuf feed remains endpoint-confirmation work.', 'No traffic-control, transit operations, or crowd-control recommendations.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F4-D2', 'd3_handoff': 'BARC-F4-D3 mobility/environment EvidenceBundles', 'flow': 4, 'join_keys': ['station_id', 'stop_id', 'route_id', 'road_section_id', 'district_id', 'neighbourhood_id', 'observed_at'], 'landed_or_confirmed_source_families': 7, 'name': 'Mobility / Crowd / Transport / Environment', 'primary_anchor': 'station_id/stop_id/route_id/road_section_id/area_id/time_window', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'bicing_gbfs', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'GBFS/public terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Bicing GBFS public realtime feeds', 'url': None}, {'family': 'traffic_state', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Open Data BCN traffic state and road-section sources', 'url': None}, {'family': 'tmb_boundary', 'family_status': 'PASS', 'landing_status': 'DOWNLOAD_FAILED,LANDED_FULL,LANDED_SAMPLE', 'licence': 'TMB developer terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'TMB static GTFS, iBus, and line/stop API credential boundary', 'url': None}, {'family': 'amb_gtfs_rt', 'family_status': 'PASS', 'landing_status': 'API_PROBED,ENDPOINT_CONFIRMED,LANDED_FULL', 'licence': 'AMB open data terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'AMB GTFS-RT endpoint confirmation', 'url': None}, {'family': 'air_quality', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Air quality stations and measurements', 'url': None}, {'family': 'noise', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Noise monitoring or strategic noise context', 'url': None}, {'family': 'boundaries', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'District, neighbourhood, and boundary context', 'url': None}], 'status': 'PASS_WITH_BOUNDED_SOURCE_LANDING'}, 'BARC-F5-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'Flood-risk layers still need confirmed public WMS/WFS/download endpoints.', 'Asset dependency graph is not built in D1/D2.', 'No emergency, health, evacuation, utility, or insurance determinations.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F5-D2', 'd3_handoff': 'BARC-F5-D3 flood/climate asset-context EvidenceBundles', 'flow': 5, 'join_keys': ['district_id', 'neighbourhood_id', 'facility_id', 'sensor_id', 'postal_code', 'time_window', 'lat_lon'], 'landed_or_confirmed_source_families': 6, 'name': 'Flood / Climate / Asset Dependency', 'primary_anchor': 'area_id/asset_context_id/climate_observation_id/time_window', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'weather_rainfall', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public environmental sources', 'source': 'BARC-D1', 'title': 'Weather and rainfall measurements', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=pluja+meteorologia+Barcelona'}, {'family': 'groundwater_piezometric_levels', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public water sources', 'source': 'BARC-D1', 'title': 'Groundwater or piezometric level context', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=piezometric+nivell+aigua+Barcelona'}, {'family': 'energy_consumption_postal_sector', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify from dataset metadata', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / public energy sources', 'source': 'BARC-D1', 'title': 'Energy consumption by postal code, time, or economic sector', 'url': 'https://opendata-ajuntament.barcelona.cat/data/en/dataset?q=consum+energia+codi+postal+sector+economic'}, {'family': 'facilities', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Facilities and public services context', 'url': None}, {'family': 'boundaries', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'District, neighbourhood, and boundary context', 'url': None}, {'family': 'sentilo_connecta', 'family_status': 'PASS', 'landing_status': 'ENDPOINT_CONFIRMED,LANDED_FULL', 'licence': 'Sentilo/Connecta terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Sentilo / Connecta BCN catalogue and sensor map', 'url': None}], 'status': 'PASS_WITH_FLOOD_SOURCE_GAPS'}, 'BARC-F6-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'Port data is historical/statistical/contextual only.', 'No port-control, vessel-control, industrial sequencing, or operational logistics recommendations.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F6-D2', 'd3_handoff': 'BARC-F6-D3 port/logistics context EvidenceBundles', 'flow': 6, 'join_keys': ['port_resource_id', 'vessel_context_id', 'service_company_id', 'rail_service_id', 'month', 'observed_at'], 'landed_or_confirmed_source_families': 7, 'name': 'Port / Logistics / Industrial Sequencing', 'primary_anchor': 'port_resource_id/month/vessel_context_id/service_context_id', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'port_ships_in_port', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Ships in Port of Barcelona today', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/vaixells-en-port'}, {'family': 'port_ship_traffic_statistics', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Ship traffic statistics', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/estadistiques-de-trfic-de-vaixells'}, {'family': 'port_weather_bocana_nord', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Port meteorological station Bocana Nord', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/estacio-meteorolgica-bocana-nord'}, {'family': 'port_weather_zal_prat', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Port meteorological station ZAL Prat', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/estacio-meteorolgica-zal-prat'}, {'family': 'port_rail_services', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Railway services of the Port of Barcelona', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/serveis-ferroviaris-del-port-de-barcelona'}, {'family': 'port_service_companies', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Port service companies', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/empreses-prestadores-de-serveis-portuaris'}, {'family': 'port_tenders', 'landing_status': 'LANDED_SAMPLE', 'licence': 'CC BY-SA 4.0', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'source': 'BARC-D1', 'title': 'Port tenders and transparency', 'url': 'https://opendata.portdebarcelona.cat/en/dataset/licitacions'}], 'status': 'PASS_AS_CONTEXT_ONLY_SOURCE_LANDING'}, 'BARC-F7-D1D2': {'boundary_lines': ['BARC Expansion D1/D2 treats Barcelona as a candidate city core, not an accepted city core.', 'BARC-D2 is an identity/geography spine contract only and does not certify Barcelona.', 'BARC-F1 through BARC-F7 D1/D2 outputs are readiness and source/join contracts only.', 'No Barcelona flow is accepted by this package.', 'D3/D4/D5/D6 work must only advance from flows that pass D2 source and join gates.', 'No flow makes operational, public-safety, policing, enforcement, health, emergency, dispatch, traffic-control, or port-control recommendations.', 'Traffic, transit, civic, sensor, climate, and port sources remain context evidence only.', 'Sentilo live observation endpoints need endpoint-specific validation.', 'IRIS remains civic-service context only.', 'No enforcement, health, emergency, or public-safety recommendations.'], 'claim': 'D2 source/join contract only; not an accepted Barcelona flow.', 'code': 'BARC-F7-D2', 'd3_handoff': 'BARC-F7-D3 civic/sensor fusion EvidenceBundles', 'flow': 7, 'join_keys': ['civic_event_id', 'sensor_id', 'station_id', 'road_section_id', 'facility_id', 'district_id', 'neighbourhood_id', 'observed_at'], 'landed_or_confirmed_source_families': 8, 'name': 'Civic + Sensor Fusion', 'primary_anchor': 'civic_event_id/sensor_id/station_id/area_id/time_window', 'required_before_d3': ['freeze source schema fingerprints', 'bind source records to district/neighbourhood/facility join spine', 'carry privacy and licence limits into EvidenceBundle schema', 'write source limitation boundary into every downstream artifact'], 'source_evidence': [{'family': 'iris', 'family_status': 'PASS', 'landing_status': 'LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'MEDIUM', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'IRIS civic incidents, complaints, suggestions, inquiries, and gratitudes', 'url': None}, {'family': 'sentilo_connecta', 'family_status': 'PASS', 'landing_status': 'ENDPOINT_CONFIRMED,LANDED_FULL', 'licence': 'Sentilo/Connecta terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Sentilo / Connecta BCN catalogue and sensor map', 'url': None}, {'family': 'air_quality', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Air quality stations and measurements', 'url': None}, {'family': 'noise', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Noise monitoring or strategic noise context', 'url': None}, {'family': 'traffic_state', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Open Data BCN traffic state and road-section sources', 'url': None}, {'family': 'bicing_gbfs', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'GBFS/public terms to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Bicing GBFS public realtime feeds', 'url': None}, {'family': 'facilities', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL,LANDED_SAMPLE', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'Facilities and public services context', 'url': None}, {'family': 'boundaries', 'family_status': 'PASS', 'landing_status': 'LANDED_FULL', 'licence': 'Open Data BCN licence to verify', 'privacy_risk': 'LOW', 'publisher': 'mixed official/public sources', 'source': 'BARC-D1A', 'title': 'District, neighbourhood, and boundary context', 'url': None}], 'status': 'PASS_WITH_BOUNDED_SOURCE_LANDING'}}": [
+      "source:barcelona:barc_exp_d2_all_flows_source_join_contracts"
+    ],
+    "flow:{'Flow 1': {'claim_boundary': 'Situational context only; no public-safety, policing, dispatch, traffic-control, or health recommendations.', 'flow': 'Flow 1 - Situational Status', 'missing_blockers': ['Open Data BCN catalogue/package metadata should be re-probed from a network path that can reach the CKAN endpoint.', 'Confirm traffic-state, IRIS, air-quality, noise, facilities, and boundary update frequencies from dataset metadata.'], 'recommended_next_gate': 'BARC-D2 Flow 1 source landing with Open Data BCN direct resource URLs and capped samples.', 'score': 3, 'score_label': 'strong cartridge candidate', 'supporting_sources': [{'key': 'bicing_gbfs_realtime', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Bicing / BSM / Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Bicing GBFS realtime station information and status'}, {'key': 'iris_citizen_requests', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'IRIS citizen incidents, complaints, and suggestions'}, {'key': 'traffic_state_sections', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Traffic state by road sections'}, {'key': 'air_quality_observations', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Air quality measurements'}, {'key': 'noise_monitoring', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Noise monitoring and strategic noise sources'}, {'key': 'public_facilities_services', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Facilities and public services'}, {'key': 'district_neighbourhood_boundaries', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'District and neighbourhood boundaries'}, {'key': 'sentilo_connecta_catalog', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta public sensor catalogue'}, {'key': 'sentilo_connecta_map', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta sensor map'}]}, 'Flow 2': {'claim_boundary': 'Planning feasibility only; no enforcement or compliance recommendations.', 'flow': 'Flow 2 - Planning / Construction / Compliance', 'missing_blockers': ['Verify public building works permit, activity licence, inspection, and violation datasets at record level.', 'Confirm legal reuse terms for Spanish Cadastre INSPIRE parcel/building/address layers.', 'Avoid address/person-level publication in D1 samples.'], 'recommended_next_gate': 'BARC-D2 planning/compliance identity source review before any graph ingest.', 'score': 3, 'score_label': 'strong cartridge candidate with permit/licence verification blocker', 'supporting_sources': [{'key': 'district_neighbourhood_boundaries', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'District and neighbourhood boundaries'}, {'key': 'barcelona_land_plots', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Barcelona land plots and cadastral/parcel reference layers'}, {'key': 'urban_planning_sectors', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Urban planning sectors and planning areas'}, {'key': 'building_works_licences', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Building licences and works permits'}, {'key': 'activity_business_licences', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Activity and business licences'}, {'key': 'cadastre_parcels_inspire', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'LOW', 'publisher': 'Direccion General del Catastro', 'requires_api_key': False, 'title': 'Spanish Cadastre INSPIRE cadastral parcels WFS'}, {'key': 'cadastre_buildings_inspire', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'LOW', 'publisher': 'Direccion General del Catastro', 'requires_api_key': False, 'title': 'Spanish Cadastre INSPIRE buildings WFS'}, {'key': 'cadastre_addresses_inspire', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'MEDIUM', 'publisher': 'Direccion General del Catastro', 'requires_api_key': False, 'title': 'Spanish Cadastre INSPIRE addresses WFS'}]}, 'Flow 3': {'claim_boundary': 'Traffic incident context only; no emergency, dispatch, public-safety, or operational recommendations.', 'flow': 'Flow 3 - Incident / Response / Affected Context', 'missing_blockers': ['Traffic accident sources are not emergency dispatch feeds.', 'TMB/AMB disruption feeds need official authenticated or documented endpoint verification.', 'Facility/resource context must remain contextual.'], 'recommended_next_gate': 'BARC-D2 traffic-incident context pack with accident, traffic-state, transit-disruption, and facility samples.', 'score': 3, 'score_label': 'strong traffic-incident context candidate', 'supporting_sources': [{'key': 'traffic_state_sections', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Traffic state by road sections'}, {'key': 'public_facilities_services', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Facilities and public services'}, {'key': 'district_neighbourhood_boundaries', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'District and neighbourhood boundaries'}, {'key': 'traffic_accidents_guardia_urbana', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'requires_api_key': False, 'title': 'Traffic accidents handled by Guardia Urbana'}, {'key': 'traffic_accident_vehicles', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'requires_api_key': False, 'title': 'Vehicles involved in traffic accidents'}, {'key': 'tmb_ibus_realtime_api', 'landing_status': 'API_KEY_REQUIRED', 'privacy_risk': 'LOW', 'publisher': 'Transports Metropolitans de Barcelona', 'requires_api_key': True, 'title': 'TMB iBus and public transport realtime APIs'}]}, 'Flow 4': {'claim_boundary': 'Mobility status and environmental context only; no traffic-control or crowd-control recommendations.', 'flow': 'Flow 4 - Mobility / Crowd / Transport / Environment', 'missing_blockers': ['TMB static/realtime endpoints require official app credentials.', 'AMB GTFS-RT endpoint URL needs official confirmation because the public page used anti-bot protection in this run.', 'Open Data BCN traffic/environment package metadata should be re-probed.'], 'recommended_next_gate': 'BARC-D2 mobility/environment cartridge scout with Bicing GBFS, TMB credentials, AMB GTFS-RT verification, traffic, air, noise, and rainfall samples.', 'score': 4, 'score_label': 'high-confidence near-term cartridge candidate', 'supporting_sources': [{'key': 'bicing_gbfs_realtime', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Bicing / BSM / Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Bicing GBFS realtime station information and status'}, {'key': 'traffic_state_sections', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Traffic state by road sections'}, {'key': 'air_quality_observations', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Air quality measurements'}, {'key': 'noise_monitoring', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Noise monitoring and strategic noise sources'}, {'key': 'district_neighbourhood_boundaries', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'District and neighbourhood boundaries'}, {'key': 'traffic_accidents_guardia_urbana', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'requires_api_key': False, 'title': 'Traffic accidents handled by Guardia Urbana'}, {'key': 'traffic_accident_vehicles', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'requires_api_key': False, 'title': 'Vehicles involved in traffic accidents'}, {'key': 'weather_rainfall', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public environmental sources', 'requires_api_key': False, 'title': 'Weather and rainfall measurements'}, {'key': 'tmb_static_gtfs_api', 'landing_status': 'API_KEY_REQUIRED', 'privacy_risk': 'LOW', 'publisher': 'Transports Metropolitans de Barcelona', 'requires_api_key': True, 'title': 'TMB static GTFS API'}, {'key': 'tmb_ibus_realtime_api', 'landing_status': 'API_KEY_REQUIRED', 'privacy_risk': 'LOW', 'publisher': 'Transports Metropolitans de Barcelona', 'requires_api_key': True, 'title': 'TMB iBus and public transport realtime APIs'}, {'key': 'tmb_developer_docs', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Transports Metropolitans de Barcelona', 'requires_api_key': False, 'title': 'TMB developer documentation portal'}, {'key': 'amb_open_data_help', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Area Metropolitana de Barcelona', 'requires_api_key': False, 'title': 'AMB open data documentation'}, {'key': 'amb_gtfs_realtime_bus', 'landing_status': 'API_PROBED', 'privacy_risk': 'LOW', 'publisher': 'Area Metropolitana de Barcelona', 'requires_api_key': False, 'title': 'AMB GTFS realtime bus service candidate'}, {'key': 'sentilo_connecta_catalog', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta public sensor catalogue'}, {'key': 'sentilo_connecta_map', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta sensor map'}]}, 'Flow 5': {'claim_boundary': 'Climate and asset-risk context only; no emergency, evacuation, health, or utility operations recommendations.', 'flow': 'Flow 5 - Flood / Climate / Asset Dependency', 'missing_blockers': ['Flood-risk layers need confirmed public WMS/WFS/download endpoints.', 'Rainfall, groundwater/piezometric, energy, and critical-facility layers need exact dataset resource validation.', 'Asset dependency graph is out of scope for D1.'], 'recommended_next_gate': 'BARC-D2 climate/asset source recovery with ACA/municipal flood-risk endpoints and bounded environmental samples.', 'score': 2, 'score_label': 'partial cartridge candidate', 'supporting_sources': [{'key': 'public_facilities_services', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Facilities and public services'}, {'key': 'district_neighbourhood_boundaries', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'District and neighbourhood boundaries'}, {'key': 'barcelona_land_plots', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Barcelona land plots and cadastral/parcel reference layers'}, {'key': 'weather_rainfall', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public environmental sources', 'requires_api_key': False, 'title': 'Weather and rainfall measurements'}, {'key': 'groundwater_piezometric_levels', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public water sources', 'requires_api_key': False, 'title': 'Groundwater or piezometric level context'}, {'key': 'energy_consumption_postal_sector', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / public energy sources', 'requires_api_key': False, 'title': 'Energy consumption by postal code, time, or economic sector'}, {'key': 'cadastre_parcels_inspire', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'LOW', 'publisher': 'Direccion General del Catastro', 'requires_api_key': False, 'title': 'Spanish Cadastre INSPIRE cadastral parcels WFS'}, {'key': 'cadastre_buildings_inspire', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'LOW', 'publisher': 'Direccion General del Catastro', 'requires_api_key': False, 'title': 'Spanish Cadastre INSPIRE buildings WFS'}, {'key': 'sentilo_connecta_catalog', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta public sensor catalogue'}, {'key': 'sentilo_connecta_map', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta sensor map'}, {'key': 'port_weather_bocana_nord', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port meteorological station Bocana Nord'}, {'key': 'port_weather_zal_prat', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port meteorological station ZAL Prat'}]}, 'Flow 6': {'claim_boundary': 'Port/logistics context and historical/statistical analysis only; no port-control or operational recommendations.', 'flow': 'Flow 6 - Port / Logistics / Industrial Sequencing', 'missing_blockers': ['Port samples are source validation only, not full operational history.', 'No port-control, vessel-control, or industrial sequencing decisions may be inferred.', 'Operational APIs beyond open CKAN resources require separate official review.'], 'recommended_next_gate': 'BARC-D2 port logistics source landing with Port CKAN resource-by-resource licence and size review.', 'score': 3, 'score_label': 'strong port/logistics source candidate', 'supporting_sources': [{'key': 'port_ships_in_port', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Ships in Port of Barcelona today'}, {'key': 'port_ship_traffic_statistics', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Ship traffic statistics'}, {'key': 'port_maritime_signalling', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Maritime signalling'}, {'key': 'port_weather_bocana_nord', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port meteorological station Bocana Nord'}, {'key': 'port_weather_zal_prat', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port meteorological station ZAL Prat'}, {'key': 'port_rail_services', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Railway services of the Port of Barcelona'}, {'key': 'port_service_companies', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port service companies'}, {'key': 'port_tenders', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port tenders and transparency'}]}, 'Flow 7': {'claim_boundary': 'Civic and sensor fusion context only; no enforcement, health, or emergency recommendations.', 'flow': 'Flow 7 - Civic + Sensor Fusion', 'missing_blockers': ['Sentilo/Connecta live observation endpoints need endpoint-specific verification.', 'IRIS and Open Data BCN civic package metadata should be re-probed from a reachable network path.', 'Privacy controls needed for citizen-service and licence/business sources.'], 'recommended_next_gate': 'BARC-D2 civic/sensor fusion scout with IRIS, Sentilo, air, noise, traffic, Bicing, parking/waste, and facilities samples.', 'score': 4, 'score_label': 'high-confidence near-term cartridge candidate', 'supporting_sources': [{'key': 'bicing_gbfs_realtime', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Bicing / BSM / Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Bicing GBFS realtime station information and status'}, {'key': 'iris_citizen_requests', 'landing_status': 'DOWNLOAD_FAILED', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'IRIS citizen incidents, complaints, and suggestions'}, {'key': 'traffic_state_sections', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Traffic state by road sections'}, {'key': 'air_quality_observations', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Air quality measurements'}, {'key': 'noise_monitoring', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Noise monitoring and strategic noise sources'}, {'key': 'public_facilities_services', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Facilities and public services'}, {'key': 'district_neighbourhood_boundaries', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'District and neighbourhood boundaries'}, {'key': 'activity_business_licences', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Activity and business licences'}, {'key': 'traffic_accidents_guardia_urbana', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'requires_api_key': False, 'title': 'Traffic accidents handled by Guardia Urbana'}, {'key': 'traffic_accident_vehicles', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'MEDIUM', 'publisher': 'Ajuntament de Barcelona / Guardia Urbana', 'requires_api_key': False, 'title': 'Vehicles involved in traffic accidents'}, {'key': 'weather_rainfall', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public environmental sources', 'requires_api_key': False, 'title': 'Weather and rainfall measurements'}, {'key': 'groundwater_piezometric_levels', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / public water sources', 'requires_api_key': False, 'title': 'Groundwater or piezometric level context'}, {'key': 'parking_waste_cleaning_context', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona', 'requires_api_key': False, 'title': 'Parking, waste, and cleaning civic context'}, {'key': 'sentilo_connecta_catalog', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta public sensor catalogue'}, {'key': 'sentilo_connecta_map', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Ajuntament de Barcelona / Sentilo', 'requires_api_key': False, 'title': 'Barcelona Sentilo/Connecta sensor map'}, {'key': 'port_weather_bocana_nord', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port meteorological station Bocana Nord'}, {'key': 'port_weather_zal_prat', 'landing_status': 'LANDED_SAMPLE', 'privacy_risk': 'LOW', 'publisher': 'Port de Barcelona', 'requires_api_key': False, 'title': 'Port meteorological station ZAL Prat'}]}}": [
+      "source:barcelona:barc_d1_flow_feasibility_matrix"
+    ],
+    "use:3D geometry context; heavy asset, not first landing": [
+      "source:nyc:nyc_3d_building_model"
+    ],
+    "use:Address identity join support for parcels/facilities/events.": [
+      "source:barcelona:address_table"
+    ],
+    "use:Aggregate health-system pressure context by time.": [
+      "source:london:nhs_ae_london_hourly"
+    ],
+    "use:Aggregated building stock context by area/use.": [
+      "source:barcelona:cadastre_building_area"
+    ],
+    "use:Air monitoring station inventory and site metadata.": [
+      "source:london:london_air_sites"
+    ],
+    "use:Alternative/expanded cycling network source.": [
+      "source:barcelona:cycle_paths"
+    ],
+    "use:Alternative/parallel section-state history to itineraries; compare schema and retention.": [
+      "source:barcelona:traffic_trams"
+    ],
+    "use:Area vulnerability/context dimension.": [
+      "source:london:imd_deprivation"
+    ],
+    "use:Area-level exposure context for climate/resilience and sensor fusion.": [
+      "source:barcelona:noise_population_exposure"
+    ],
+    "use:Asset/dependency load context by postal code and economic sector.": [
+      "source:barcelona:electricity_consumption"
+    ],
+    "use:Bike-share node and current availability context.": [
+      "source:london:tfl_bikepoint"
+    ],
+    "use:Bike-share station inventory, availability, e-bike capacity, and live status.": [
+      "source:barcelona:bicing_gbfs"
+    ],
+    "use:Brownfield register entity context for planning/development risk.": [
+      "source:london:brownfield_land"
+    ],
+    "use:Building-age risk/context variable.": [
+      "source:barcelona:cadastre_building_age"
+    ],
+    "use:Business/activity premises context and land-use signal.": [
+      "source:barcelona:economic_activity_premises"
+    ],
+    "use:Cadastre parcel/building/address identity-geography context.": [
+      "source:barcelona:cadastre_addresses",
+      "source:barcelona:cadastre_buildings",
+      "source:barcelona:cadastre_parcels"
+    ],
+    "use:Candidate live bus arrival/line state if exact endpoint shape is resolved.": [
+      "source:barcelona:tmb_ibus"
+    ],
+    "use:Candidate stop/arrival shape for live replay if scoped by stops/modes.": [
+      "source:london:tfl_arrivals_modes"
+    ],
+    "use:Cause/type context for accident classification.": [
+      "source:barcelona:traffic_accident_causes"
+    ],
+    "use:City core geography spine: boroughs, districts, wards, local-plan geometries.": [
+      "source:london:london_core_boundaries"
+    ],
+    "use:City/borough crime dashboard context if machine-readable resources found.": [
+      "source:london:mps_crime_dashboard"
+    ],
+    "use:Civic issue reports where borough coverage exists; uneven source coverage.": [
+      "source:london:fixmystreet_open311"
+    ],
+    "use:Civic-service event context by time, area, topic, channel, and closure state.": [
+      "source:barcelona:iris"
+    ],
+    "use:Core geography spine for area joins.": [
+      "source:barcelona:boundaries_districts"
+    ],
+    "use:Counter inventory for traffic/mobility time series.": [
+      "source:barcelona:mobility_counters_equipment"
+    ],
+    "use:Current flood warning/alert context.": [
+      "source:london:ea_current_floods"
+    ],
+    "use:Current vessel context at port scale.": [
+      "source:barcelona:port_ships_today"
+    ],
+    "use:Cycling network geometry for multimodal context.": [
+      "source:barcelona:bike_lanes"
+    ],
+    "use:Daily air-quality context aggregated from hourly site/species observations.": [
+      "source:london:london_air_daily_no2"
+    ],
+    "use:Denominator/vulnerability context for all aggregate status surfaces.": [
+      "source:london:ons_population"
+    ],
+    "use:ECB/OATH-linked compliance context": [
+      "source:nyc:nyc_dob_ecb_violations"
+    ],
+    "use:EV charging infrastructure and EV-related planning context.": [
+      "source:london:ev_charging_context"
+    ],
+    "use:Economic-pressure context for status/fusion surfaces.": [
+      "source:london:employment_economic_activity"
+    ],
+    "use:Emissions context by pollutant/source sector once data resources are landed.": [
+      "source:london:laei"
+    ],
+    "use:Energy demand/context by geography and time where available.": [
+      "source:london:energy_consumption"
+    ],
+    "use:FHV operating context; aggregate only": [
+      "source:nyc:nyc_fhv_base_aggregate"
+    ],
+    "use:FVI geography/map joins": [
+      "source:nyc:nyc_flood_vulnerability_index_map"
+    ],
+    "use:Facilities context for civic/situational reporting.": [
+      "source:barcelona:facilities_media_services"
+    ],
+    "use:Facilities, transport service places, and public-service context joins.": [
+      "source:barcelona:facilities_transport"
+    ],
+    "use:Find active site/species pairs for deeper air-quality pulls.": [
+      "source:london:london_air_site_species"
+    ],
+    "use:Flood-area geography and identifiers.": [
+      "source:london:ea_london_flood_areas"
+    ],
+    "use:Fusion candidate substrate across LFB, TfL, air, flood, planning/context sources.": [
+      "source:london:fusion_existing_xdata"
+    ],
+    "use:Groundwater station inventory and locations.": [
+      "source:barcelona:piezometer_inventory"
+    ],
+    "use:Groundwater/piezometric level context.": [
+      "source:barcelona:piezometer_readings"
+    ],
+    "use:Heat-wave shelter facility context.": [
+      "source:barcelona:climate_shelters"
+    ],
+    "use:High-frequency noise time series by monitor.": [
+      "source:barcelona:noise_monitor_readings"
+    ],
+    "use:Historical/statistical port traffic context.": [
+      "source:barcelona:port_ship_traffic_stats"
+    ],
+    "use:Hourly/day pollutant readings by station and pollutant.": [
+      "source:barcelona:air_quality_detail"
+    ],
+    "use:Incident consequence/person category context; privacy-sensitive aggregation only.": [
+      "source:barcelona:traffic_accident_people"
+    ],
+    "use:Incident/affected-context bundles by incident type, borough, ward, UPRN/USRN and time.": [
+      "source:london:lfb_incidents"
+    ],
+    "use:Join table from itinerary IDs to road sections.": [
+      "source:barcelona:traffic_sections_by_itinerary"
+    ],
+    "use:Line disruption/status periods for mobility and affected-context replay.": [
+      "source:london:tfl_line_status"
+    ],
+    "use:Local Plan policy/designation geography for Flow 2 and risk context.": [
+      "source:london:planning_local_plan_data"
+    ],
+    "use:Long-run rainfall climatology baseline.": [
+      "source:barcelona:rainfall_history"
+    ],
+    "use:Lookup table for economic activity categories.": [
+      "source:barcelona:economic_activity_codes"
+    ],
+    "use:Metropolitan bus real-time boundary outside TMB.": [
+      "source:barcelona:amb_gtfs_rt"
+    ],
+    "use:Narrative traffic incident notices for context bundles.": [
+      "source:barcelona:traffic_incidence_notices"
+    ],
+    "use:Neighbourhood/district identity spine.": [
+      "source:barcelona:boundaries_admin_units"
+    ],
+    "use:Noise exposure/risk context.": [
+      "source:london:noise_mapping"
+    ],
+    "use:Noise monitor locations and install/remove dates.": [
+      "source:barcelona:noise_monitor_installations"
+    ],
+    "use:Official aggregate emergency-care pressure context.": [
+      "source:london:nhs_england_ae_monthly"
+    ],
+    "use:Parcel geography for planning/compliance and asset-context joins.": [
+      "source:barcelona:land_plots"
+    ],
+    "use:Planning application/event context and identity hardening around UPRN/TOID/USRN where present.": [
+      "source:london:planning_datahub"
+    ],
+    "use:Planning-sector geography for F2 evidence bundles.": [
+      "source:barcelona:urban_planning_sectors"
+    ],
+    "use:Pollutant metadata and station coverage.": [
+      "source:barcelona:air_quality_pollutants"
+    ],
+    "use:Port-local weather context.": [
+      "source:barcelona:port_weather_zal_prat"
+    ],
+    "use:Potential borough-level civic status feeds.": [
+      "source:london:borough_service_requests"
+    ],
+    "use:Premises/economic activity context.": [
+      "source:london:business_rates_premises"
+    ],
+    "use:Privacy-safe public crime context by location/month; needs borough/grid strategy for London-wide landing.": [
+      "source:london:data_police_street_crime"
+    ],
+    "use:Public sensor catalogue/context; live observations need endpoint-specific validation.": [
+      "source:barcelona:sentilo_connecta"
+    ],
+    "use:Rail-service context for port/logistics narratives.": [
+      "source:barcelona:port_rail_services"
+    ],
+    "use:Resilience/vulnerability context.": [
+      "source:barcelona:green_space_deficit"
+    ],
+    "use:Response-context signal around appliance mobilisation, station ground, attendance timing.": [
+      "source:london:lfb_mobilisations"
+    ],
+    "use:Road-section travel-time/current-vs-forecast signal for mobility and situational context.": [
+      "source:barcelona:traffic_itineraries"
+    ],
+    "use:Road/street disruption context by time, street, closure, geometry string.": [
+      "source:london:tfl_road_disruptions"
+    ],
+    "use:Service company facility context for asset/dependency narratives.": [
+      "source:barcelona:facilities_service_companies"
+    ],
+    "use:Service company lookup/context.": [
+      "source:barcelona:port_service_companies"
+    ],
+    "use:Static road-section geometry and section IDs for joining traffic state to geography.": [
+      "source:barcelona:traffic_sections"
+    ],
+    "use:Station locations and station-to-district/neighbourhood joins.": [
+      "source:barcelona:air_quality_stations"
+    ],
+    "use:Strategic noise-risk geography; remaining direct downloads need better endpoint/manual file.": [
+      "source:barcelona:noise_risk_resilience"
+    ],
+    "use:Traffic accident context by date, location, district, type, and coordinates.": [
+      "source:barcelona:traffic_accidents"
+    ],
+    "use:Traffic/mobility counts by equipment and time.": [
+      "source:barcelona:mobility_counters_detail"
+    ],
+    "use:Tram data source boundary for transit coverage.": [
+      "source:barcelona:tram_opendata"
+    ],
+    "use:Transit route/stop/trip graph and metro line metadata.": [
+      "source:barcelona:tmb_static_gtfs"
+    ],
+    "use:Transparency/procurement context.": [
+      "source:barcelona:port_tenders"
+    ],
+    "use:UPRN/USRN/TOID link support for identity joins.": [
+      "source:london:os_open_linked_identifiers"
+    ],
+    "use:Vehicle context for traffic-incident bundles.": [
+      "source:barcelona:traffic_accident_vehicles"
+    ],
+    "use:Water level/flow measure catalogue for climate/flood time series.": [
+      "source:london:ea_london_measures"
+    ],
+    "use:Water station inventory around London.": [
+      "source:london:ea_london_stations"
+    ],
+    "use:Weather observations for climate context.": [
+      "source:barcelona:meteorological_readings"
+    ],
+    "use:Weather station location and metadata.": [
+      "source:barcelona:meteorological_stations"
+    ],
+    "use:airport cargo/logistics context": [
+      "source:nyc:panynj_airport_cargo_tonnage"
+    ],
+    "use:airport logistics/passenger demand context": [
+      "source:nyc:panynj_air_passenger_traffic"
+    ],
+    "use:bike mobility network context": [
+      "source:nyc:nyc_bike_routes"
+    ],
+    "use:building complaint evidence and affected-context candidate signals": [
+      "source:nyc:nyc_dob_complaints"
+    ],
+    "use:building energy/water benchmark risk context": [
+      "source:nyc:nyc_ll84_energy_water"
+    ],
+    "use:building universe for housing-context joins": [
+      "source:nyc:nyc_hpd_jurisdiction_buildings"
+    ],
+    "use:candidate demo-media disclosure and labels, not VSS corpus by itself": [
+      "source:unknown:local_d7_demo_media_review"
+    ],
+    "use:citywide civic condition stream; issue clustering; service context": [
+      "source:nyc:nyc_311_2020_present"
+    ],
+    "use:combined closure context; de-duplicate with block/intersection feeds": [
+      "source:nyc:nyc_street_closures_combined"
+    ],
+    "use:compliance status and enforcement-history context": [
+      "source:nyc:nyc_dob_violations"
+    ],
+    "use:construction mobility impact context": [
+      "source:nyc:nyc_street_closures_block"
+    ],
+    "use:construction/compliance activity spine": [
+      "source:nyc:nyc_dob_now_build_filings"
+    ],
+    "use:elevation/flood modeling; likely tile/file strategy": [
+      "source:nyc:nyc_1ft_dem"
+    ],
+    "use:environmental condition and long-run exposure context": [
+      "source:nyc:nyc_air_quality"
+    ],
+    "use:event/crowd/mobility context": [
+      "source:nyc:nyc_permitted_events"
+    ],
+    "use:facility/inspection enrichment; not health determination": [
+      "source:nyc:nyc_restaurant_inspections"
+    ],
+    "use:fire response modeling and context; high boundary risk": [
+      "source:nyc:nyc_fire_dispatch"
+    ],
+    "use:flood/climate vulnerability screening": [
+      "source:nyc:nyc_flood_vulnerability_index"
+    ],
+    "use:historical baselines once current 311 is normalized": [
+      "source:nyc:nyc_311_2010_2019"
+    ],
+    "use:housing condition evidence; complement to DOB": [
+      "source:nyc:nyc_hpd_hmc_complaints"
+    ],
+    "use:incident/mobility safety context": [
+      "source:nyc:nyc_mvc_crashes"
+    ],
+    "use:intersection-level closure context": [
+      "source:nyc:nyc_street_closures_intersection"
+    ],
+    "use:mobility demand by taxi zone/industry": [
+      "source:nyc:nyc_taxi_pickups_dropoffs_zone_industry"
+    ],
+    "use:official monthly airport passenger/cargo/flight stats page": [
+      "source:nyc:panynj_airport_stats_page"
+    ],
+    "use:official port cargo/container context": [
+      "source:nyc:panynj_port_facts_page"
+    ],
+    "use:parcel/tax-lot join spine for buildings, land use, zoning, risk": [
+      "source:nyc:nyc_pluto"
+    ],
+    "use:park/open-space/facility context": [
+      "source:nyc:nyc_parks_properties"
+    ],
+    "use:permit lifecycle and location/building context": [
+      "source:nyc:nyc_dob_permit_issuance"
+    ],
+    "use:possible traffic image donor if key is valid": [
+      "source:unknown:singapore_lta_datamall_traffic_images"
+    ],
+    "use:privacy-safe selected fields only for person context": [
+      "source:nyc:nyc_mvc_persons"
+    ],
+    "use:public/private facility context and proximity joins": [
+      "source:nyc:nyc_facilities_database"
+    ],
+    "use:real-time subway trip updates/service state": [
+      "source:nyc:mta_gtfs_rt_subway"
+    ],
+    "use:real-time transit disruption context": [
+      "source:nyc:mta_service_alerts"
+    ],
+    "use:response-time modeling and public-safety context; high boundary risk": [
+      "source:nyc:nyc_ems_dispatch"
+    ],
+    "use:road demand baselines and calibration": [
+      "source:nyc:nyc_traffic_volume_counts"
+    ],
+    "use:routes/stops/schedules static transit graph": [
+      "source:nyc:mta_gtfs_static"
+    ],
+    "use:safety-violation context; operator review only": [
+      "source:nyc:nyc_dob_safety_violations"
+    ],
+    "use:school/facility context; find newer source before priority landing": [
+      "source:nyc:nyc_school_points_2019_2020"
+    ],
+    "use:sensor-pilot enrichment if coverage/window fits": [
+      "source:nyc:nyc_queens_air_sensor_pilot"
+    ],
+    "use:street network/geocoder support; not routing command": [
+      "source:nyc:nyc_centerline"
+    ],
+    "use:tabular camera/event alternatives only unless licensed media found": [
+      "source:unknown:chicago_open_data_camera_alternatives"
+    ],
+    "use:traffic state, congestion replay, mobility context": [
+      "source:nyc:nyc_dot_traffic_speeds"
+    ],
+    "use:vehicle-level crash context": [
+      "source:nyc:nyc_mvc_vehicles"
+    ],
+    "use:visual context, not perception evidence": [
+      "source:unknown:helsinki_visual_mesh_backdrop"
+    ],
+    "use:water/environment context; station/time-series joins": [
+      "source:nyc:nyc_harbor_water_quality"
+    ],
+    "use:zone geography for TLC/FHV aggregation": [
+      "source:nyc:nyc_taxi_zones"
+    ]
+  },
+  "status": "PASS_WITH_LIMITATIONS",
+  "unmapped_source_count": 436
+}

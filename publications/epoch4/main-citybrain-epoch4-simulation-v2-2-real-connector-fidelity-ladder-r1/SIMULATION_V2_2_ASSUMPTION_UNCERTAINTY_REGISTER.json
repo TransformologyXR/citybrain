@@ -1,0 +1,24 @@
+{
+  "artifact_id": "SIMULATION_V2_2_ASSUMPTION_UNCERTAINTY_REGISTER",
+  "rows": [
+    {
+      "assumption": "fixture parameters approximate review tension only",
+      "family_id": "building_compliance_perception_candidate",
+      "mitigation": "replace with calibrated connector and backtest evidence",
+      "uncertainty": "high"
+    },
+    {
+      "assumption": "fixture parameters approximate review tension only",
+      "family_id": "permit_inspection_delay",
+      "mitigation": "replace with calibrated connector and backtest evidence",
+      "uncertainty": "high"
+    },
+    {
+      "assumption": "fixture parameters approximate review tension only",
+      "family_id": "city_asset_infrastructure_issue",
+      "mitigation": "replace with calibrated connector and backtest evidence",
+      "uncertainty": "high"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

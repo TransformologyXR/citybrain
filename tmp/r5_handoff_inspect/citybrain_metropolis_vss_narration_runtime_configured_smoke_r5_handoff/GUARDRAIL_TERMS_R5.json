@@ -1,0 +1,41 @@
+{
+  "schema_version": "metropolis-vss-narration-runtime-configured-smoke-r5.guardrail-terms.v1",
+  "task_name": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-CONFIGURED-SMOKE-R5",
+  "forbidden_claim_families": [
+    "confirmed violation",
+    "legal or certified finding",
+    "identity or biometric inference",
+    "official case or ticket",
+    "dispatch/routing/control/enforcement",
+    "operational alert command",
+    "automated action",
+    "production live monitoring",
+    "new detection class invented by VSS",
+    "object count override from prose"
+  ],
+  "suggested_scan_terms": [
+    "confirmed violation",
+    "violation confirmed",
+    "legal finding",
+    "certified",
+    "identified person",
+    "face recognition",
+    "biometric",
+    "official ticket",
+    "case created",
+    "dispatch",
+    "enforce",
+    "route crew",
+    "alert operator to act",
+    "autonomous",
+    "production monitoring",
+    "live CCTV",
+    "new object detected"
+  ],
+  "required_safe_language": [
+    "candidate observation",
+    "human review required",
+    "not a finding",
+    "VSS narration only"
+  ]
+}

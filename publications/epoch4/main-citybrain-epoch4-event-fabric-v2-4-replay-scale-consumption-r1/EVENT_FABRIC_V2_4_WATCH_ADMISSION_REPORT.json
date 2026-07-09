@@ -1,0 +1,38 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_WATCH_ADMISSION_REPORT",
+  "families": [
+    {
+      "authority_boundary": "review_only_no_autonomous_alert",
+      "deferred_unresolved_count": 5,
+      "family_id": "mobility_access_interruption",
+      "quarantined_count": 5,
+      "suppressed_duplicate_count": 5,
+      "watch_admitted_count": 35
+    },
+    {
+      "authority_boundary": "review_only_no_autonomous_alert",
+      "deferred_unresolved_count": 5,
+      "family_id": "building_compliance_perception_candidate",
+      "quarantined_count": 5,
+      "suppressed_duplicate_count": 5,
+      "watch_admitted_count": 35
+    },
+    {
+      "authority_boundary": "review_only_no_autonomous_alert",
+      "deferred_unresolved_count": 5,
+      "family_id": "permit_inspection_delay",
+      "quarantined_count": 5,
+      "suppressed_duplicate_count": 5,
+      "watch_admitted_count": 35
+    },
+    {
+      "authority_boundary": "review_only_no_autonomous_alert",
+      "deferred_unresolved_count": 5,
+      "family_id": "city_asset_infrastructure_issue",
+      "quarantined_count": 5,
+      "suppressed_duplicate_count": 5,
+      "watch_admitted_count": 35
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

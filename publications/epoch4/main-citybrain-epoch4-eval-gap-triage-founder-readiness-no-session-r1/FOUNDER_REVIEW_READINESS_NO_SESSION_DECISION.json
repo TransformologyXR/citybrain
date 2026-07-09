@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_READINESS_NO_SESSION_DECISION",
+  "founder_review_session_run": false,
+  "full_founder_review_recommendation": "targeted_fix_queue_first",
+  "go_no_go": "GO_FOR_BOUNDED_PROBE_WITH_LIMITATIONS",
+  "non_authoritative_readiness_rating": "PROBE_READY_WITH_TARGETED_FIXES_RECOMMENDED_BEFORE_FULL_REVIEW",
+  "operator_or_founder_fuel_created": false,
+  "session_results_created": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

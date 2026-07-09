@@ -1,0 +1,7 @@
+{
+  "artifact_id": "NO_TRAINING_ROWS_GUARD_R1",
+  "learned_labels_created": false,
+  "status": "PASS",
+  "training_eligible": false,
+  "training_rows_created": false
+}

@@ -1,0 +1,19 @@
+{
+  "package_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-DUBAI-SEED-R2-MOBILITY-DEPTH-REFRESH-PACKAGE",
+  "status": "READY_FOR_CODEX_SYNTHETIC_FACTORY_SEED_R2_MOBILITY_DEPTH_REFRESH_WITH_NO_SECRETS",
+  "created_at": "2026-07-07T19:25:26Z",
+  "contains_credentials": false,
+  "contains_raw_payloads": false,
+  "intended_run_status": "PASS_SYNTHETIC_FACTORY_DUBAI_SEED_R2_MOBILITY_DEPTH_REFRESH_WITH_LIMITATIONS",
+  "inputs_read_only": [
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-DUBAI-SEED-R1",
+    "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2E-KEYED-MOBILITY-DEPTH-PULL"
+  ],
+  "boundaries": [
+    "R2E LTA/TfL donor context only, not Dubai truth",
+    "Seed R1 read-only; addendum output only",
+    "No live monitoring/dispatch/control/enforcement/legal/certified claim",
+    "No human/person-level records",
+    "No raw bulky data or credentials packaged"
+  ]
+}

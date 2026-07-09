@@ -1,0 +1,12 @@
+{
+  "fail": [
+    "FAIL_METROPOLIS_VSS_BMD45_HUMAN_REVIEW_PACKET_BOUNDARY_OR_SOURCE_CLASS_DRIFT"
+  ],
+  "partial": [
+    "PARTIAL_METROPOLIS_VSS_BMD45_HUMAN_REVIEW_PACKET_CONTRACT_READY_APP_INTEGRATION_PENDING"
+  ],
+  "schema_version": "metropolis-vss-bmd45-human-review-benchmark-packet-r20.status_enums.v1",
+  "success": [
+    "PASS_METROPOLIS_VSS_BMD45_HUMAN_REVIEW_BENCHMARK_PACKET_R20_WITH_LIMITATIONS"
+  ]
+}

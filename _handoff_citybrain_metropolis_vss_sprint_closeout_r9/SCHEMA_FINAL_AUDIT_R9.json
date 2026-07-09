@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "properties": {
+    "checks": {
+      "type": "object"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "PARTIAL",
+        "FAIL",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+    }
+  },
+  "required": [
+    "task_id",
+    "status",
+    "checks"
+  ],
+  "title": "R9_FINAL_AUDIT",
+  "type": "object"
+}

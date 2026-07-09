@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "decision": {
+      "enum": [
+        "accept_candidate_fixture",
+        "review_required",
+        "reject_raw_id_bypass",
+        "reject_conflict"
+      ]
+    },
+    "match_candidate_id": {
+      "type": "string"
+    },
+    "match_decision_id": {
+      "type": "string"
+    },
+    "provenance_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "review_state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "match_decision_id",
+    "match_candidate_id",
+    "decision",
+    "confidence",
+    "review_state",
+    "rationale",
+    "provenance_refs"
+  ],
+  "title": "MatchDecisionR1",
+  "type": "object"
+}

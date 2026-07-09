@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-07-04T12:55:45Z",
+  "sources": [
+    {
+      "name": "BMD-45 Hugging Face dataset",
+      "url": "https://huggingface.co/datasets/iisc-aim/BMD-45",
+      "facts_used": [
+        "captured from 3,679 operational Safe City CCTV cameras across Bengaluru",
+        "45,986 images, ~481,947 bounding boxes, 14 vehicle classes",
+        "license listed as cc-by-4.0"
+      ],
+      "r16_use": "primary fixed-CCTV frame replay candidate"
+    },
+    {
+      "name": "BMD-45 arXiv paper",
+      "url": "https://arxiv.org/abs/2604.24419",
+      "facts_used": [
+        "large-scale CCTV vehicle detection dataset",
+        "480K boxes over 45K images from more than 3.6K operational Safe City CCTV cameras"
+      ],
+      "r16_use": "domain fit evidence"
+    },
+    {
+      "name": "AI City Challenge Quick Access",
+      "url": "https://www.aicitychallenge.org/ai-city-challenge-dataset-access/",
+      "facts_used": [
+        "datasets available without request form and password protection removed for listed datasets"
+      ],
+      "r16_use": "candidate source discovery, not automatic license clearance"
+    },
+    {
+      "name": "AI City 2022 CityFlowV2",
+      "url": "https://www.aicitychallenge.org/2022-data-and-evaluation/",
+      "facts_used": [
+        "3.58 hours / 215.03 minutes of videos from 46 cameras across 16 intersections"
+      ],
+      "r16_use": "secondary video candidate after license review"
+    },
+    {
+      "name": "VIRAT",
+      "url": "https://viratdata.org/",
+      "facts_used": [
+        "designed for realistic challenging video surveillance domains"
+      ],
+      "r16_use": "parked surveillance candidate; usage agreement required"
+    },
+    {
+      "name": "VIRAT terms",
+      "url": "https://viratdata.org/resources/VIRAT-Video-Data-Set-Protection-Agreement-1-4-11.pdf",
+      "facts_used": [
+        "terms require user agreement/signature for dataset access"
+      ],
+      "r16_use": "license gate"
+    }
+  ]
+}

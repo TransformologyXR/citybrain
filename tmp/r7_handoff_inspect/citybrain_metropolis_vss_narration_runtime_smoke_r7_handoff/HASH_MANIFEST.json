@@ -1,0 +1,111 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "e8aa837fdc196336021f55ba1c94b147cabc39861277ba590afe28391916e1aa",
+      "size_bytes": 1498
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "8aeba6879e32b41c18dc9482a1fda2a7509227521ddb7f8988b66a0c17d30d30",
+      "size_bytes": 771
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "b4a38a255f5fd30e63c88d0e6e28d8c1887a16a0d7238a5570a76e2a13dd5ce3",
+      "size_bytes": 1895
+    },
+    {
+      "path": "GUARDRAIL_TERMS_R7.json",
+      "sha256": "caecf44085b070e20953f8eff67f80e50ce0eba809e8568337476be10a011e2e",
+      "size_bytes": 489
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "339868c9418004ecda127fc5b0dbaf8078ed6c1113c558b82667593fcc722a11",
+      "size_bytes": 781
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "4c13b94425d95dafca2f60e65b681d43e409b656732c723189eeb02eebdd192b",
+      "size_bytes": 1339
+    },
+    {
+      "path": "INPUT_R6C_PASS_REPORTED_SUMMARY.json",
+      "sha256": "95dfdfd567e68b441473c57f638c8ecb148b5efce0cbe260921c080b85d43602",
+      "size_bytes": 819
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "0847c6fea3be15c72c37e6b8c6fd8299ca00e3d28474d4166d760a0bf49d5d47",
+      "size_bytes": 940
+    },
+    {
+      "path": "README.md",
+      "sha256": "755d0937e94f01ec5c3b09c4a574aede27a06c24517e474be16a0bf18bc683a2",
+      "size_bytes": 1220
+    },
+    {
+      "path": "RUNTIME_HOST_ALLOCATION_R7.json",
+      "sha256": "b60754f6702f7f809fad14f6c21a2ea7a4b028f6efecfdcd9e3f8c75b2b56ded",
+      "size_bytes": 746
+    },
+    {
+      "path": "SCHEMA_DECISION_R7.json",
+      "sha256": "5c0b532648156f9fb8b15075af988480e018150a6401fad0d192af3498d288b7",
+      "size_bytes": 861
+    },
+    {
+      "path": "SCHEMA_VSS_NARRATION_AUDIT_R7.json",
+      "sha256": "58541bbbfaf3762f2d7424bb554dd64a025d6cd16bad09c9ff7a9552e7f0aceb",
+      "size_bytes": 572
+    },
+    {
+      "path": "SCHEMA_VSS_NARRATION_RECORD_R7.json",
+      "sha256": "2195bc1ccf266f8d3d6c4a190b55a54880132c4673b8a9f7123b0453c47776f1",
+      "size_bytes": 1156
+    },
+    {
+      "path": "SCHEMA_VSS_NARRATION_REQUEST_R7.json",
+      "sha256": "5cf4d1022c2d53c471bb37cdaba002260be89f9678e10da5b87a6abd2395510a",
+      "size_bytes": 1139
+    },
+    {
+      "path": "SECRET_ROTATION_NOTE_R7.md",
+      "sha256": "92f2cd23bd0bf4ad90464d80485254d89038d13a5f5c401c3baf9bc6f6555c5c",
+      "size_bytes": 483
+    },
+    {
+      "path": "SPARK_VSS_RUNTIME_CONFIG_TEMPLATE.env.example",
+      "sha256": "98e651aa20e0a2a0f30441fd9d7b57198ee405fd17f1e11a555a905c88df2c5f",
+      "size_bytes": 669
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "8530096788bfd4c343d60dd374226b5558254749a244a743f565d4ba6b94c75a",
+      "size_bytes": 2609
+    },
+    {
+      "path": "STATUS_ENUMS_R7.json",
+      "sha256": "83ad1518a5c76178a883dddf92017c7e8bc9a9b4da1a9621cba97c0c81996dbf",
+      "size_bytes": 777
+    },
+    {
+      "path": "VSS_NARRATION_NORMALIZATION_RULES_R7.md",
+      "sha256": "f120e32d9dfd76cd587deb3754aab5e19e46c3f8c6093f6b6241c0529c008ff7",
+      "size_bytes": 479
+    },
+    {
+      "path": "VSS_NARRATION_SMOKE_REQUEST_CONTRACT_R7.md",
+      "sha256": "a61418de4b69fc35aad6bd711f24cd4dee1ccb97c7c9fffc0a39b233a831824a",
+      "size_bytes": 1083
+    },
+    {
+      "path": "VSS_OUTPUT_GUARDRAILS_R7.md",
+      "sha256": "e4de635c49874f971da567616950bf1e4990b14f36e684bf223d3bc387f19720",
+      "size_bytes": 505
+    }
+  ],
+  "generated_at": "2026-07-03T23:09:58Z"
+}

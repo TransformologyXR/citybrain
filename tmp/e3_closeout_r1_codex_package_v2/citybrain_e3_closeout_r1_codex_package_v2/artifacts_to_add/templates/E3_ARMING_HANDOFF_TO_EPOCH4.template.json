@@ -1,0 +1,14 @@
+{
+  "artifact_id": "E3_ARMING_HANDOFF_TO_EPOCH4",
+  "status": "ACTIVE_HANDOFF",
+  "inherited_infrastructure": [
+    "arming_status_evaluator",
+    "fuel_gauge_snapshot_chain",
+    "threshold_definitions",
+    "no_model_guard_cadence",
+    "exploration_floor",
+    "holdout_policy"
+  ],
+  "thresholds_relitigated_in_epoch4": false,
+  "governance_delta_required_to_change_thresholds": true
+}

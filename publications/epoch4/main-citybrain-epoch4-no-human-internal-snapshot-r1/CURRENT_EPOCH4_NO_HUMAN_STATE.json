@@ -1,0 +1,91 @@
+{
+  "artifact_id": "CURRENT_EPOCH4_NO_HUMAN_STATE",
+  "generated_at": "2026-07-08T05:27:15Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "derived_fix_sequence",
+      "path": "outputs/main_citybrain_epoch4_derived_fix_and_founder_input_sequence_r1/DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "derived_fix_overlay",
+      "path": "outputs/main_citybrain_epoch4_derived_fix_promotion_overlay_r1/DERIVED_FIX_PROMOTION_OVERLAY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_PROMOTION_OVERLAY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "founder_probe_input_kit",
+      "path": "outputs/main_citybrain_epoch4_founder_probe_input_kit_r2/FOUNDER_PROBE_INPUT_KIT_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_INPUT_KIT_R2_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "no_session_probe_reverify",
+      "path": "outputs/main_citybrain_epoch4_no_session_probe_readiness_reverify_r1/NO_SESSION_PROBE_READINESS_REVERIFY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NO_SESSION_PROBE_READINESS_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_expansion_final",
+      "path": "outputs/main_citybrain_epoch4_eval_expansion_hardening_final_reverify_r1/EVAL_EXPANSION_HARDENING_FINAL_REVERIFY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_CORPUS_EXPANSION_HARDENING_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_corpus_r2",
+      "path": "outputs/main_citybrain_epoch4_eval_corpus_expansion_r2/EVAL_CORPUS_R2_INDEX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "challenge_suite",
+      "path": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CHALLENGE_NEGATIVE_SUITE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "remediation_eval_sequence",
+      "path": "outputs/main_citybrain_epoch4_remediation_execution_eval_corpus_sequence_r1/REMEDIATION_EXECUTION_EVAL_SEQUENCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_EXECUTION_EVAL_CORPUS_SEQUENCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "after_deepening_cross_track",
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_DEEPENING_CROSS_TRACK_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_loop_final",
+      "path": "outputs/main_citybrain_epoch4_product_loop_final_reverify_r1/PRODUCT_LOOP_FINAL_REVERIFY_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_product",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_decision",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_remediation",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_actions_r1/DATA_MATURITY_REMEDIATION_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_ACTIONS_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "latest_sequence_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_R1_WITH_LIMITATIONS",
+  "no_human_snapshot": true,
+  "operator_fuel_created": false,
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

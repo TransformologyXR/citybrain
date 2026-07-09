@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human Review UI Packet R13",
+  "type": "object",
+  "required": [
+    "packet_id",
+    "candidate_event_id",
+    "source_classes",
+    "media_refs",
+    "knowns",
+    "unknowns",
+    "cannot_claim",
+    "allowed_review_states"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string"
+    },
+    "candidate_event_id": {
+      "type": "string"
+    },
+    "source_classes": {
+      "type": "object"
+    },
+    "media_refs": {
+      "type": "array"
+    },
+    "knowns": {
+      "type": "array"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "cannot_claim": {
+      "type": "array"
+    },
+    "allowed_review_states": {
+      "type": "array"
+    },
+    "forbidden_actions": {
+      "type": "array"
+    }
+  }
+}

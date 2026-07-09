@@ -1,0 +1,21 @@
+{
+  "artifact_id": "EVENT_STATE_PACKETS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "event_fabric_v2_1_ref": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_FAMILY_STATE_MATERIALIZATION_V2_1.json",
+      "event_state_ref": "event_state:v2_1:building_compliance_perception_candidate",
+      "state": "review_required"
+    },
+    "city_asset_infrastructure_issue": {
+      "event_fabric_v2_1_ref": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_FAMILY_STATE_MATERIALIZATION_V2_1.json",
+      "event_state_ref": "event_state:v2_1:city_asset_infrastructure_issue",
+      "state": "review_required"
+    },
+    "permit_inspection_delay": {
+      "event_fabric_v2_1_ref": "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_FAMILY_STATE_MATERIALIZATION_V2_1.json",
+      "event_state_ref": "event_state:v2_1:permit_inspection_delay",
+      "state": "review_required"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,261 @@
+{
+  "card_count": 16,
+  "cards": [
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:positive_packet_baseline",
+      "family": "building_compliance_perception_candidate",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-01"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:negative_no_data",
+      "family": "building_compliance_perception_candidate",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-02"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:stale_freshness",
+      "family": "building_compliance_perception_candidate",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-03"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:contradiction_pair",
+      "family": "building_compliance_perception_candidate",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-04"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:positive_packet_baseline",
+      "family": "city_asset_infrastructure_issue",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-05"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:negative_no_data",
+      "family": "city_asset_infrastructure_issue",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-06"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:stale_freshness",
+      "family": "city_asset_infrastructure_issue",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-07"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:contradiction_pair",
+      "family": "city_asset_infrastructure_issue",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-08"
+    },
+    {
+      "derived_overlay_ref_count": 5,
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "family": "mobility_access_interruption_v0",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-09"
+    },
+    {
+      "derived_overlay_ref_count": 5,
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:negative_no_data",
+      "family": "mobility_access_interruption_v0",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-10"
+    },
+    {
+      "derived_overlay_ref_count": 5,
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:stale_freshness",
+      "family": "mobility_access_interruption_v0",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-11"
+    },
+    {
+      "derived_overlay_ref_count": 5,
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+      "family": "mobility_access_interruption_v0",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-12"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:permit_inspection_delay:positive_packet_baseline",
+      "family": "permit_inspection_delay",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-13"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:permit_inspection_delay:negative_no_data",
+      "family": "permit_inspection_delay",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-14"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:permit_inspection_delay:stale_freshness",
+      "family": "permit_inspection_delay",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-15"
+    },
+    {
+      "derived_overlay_ref_count": 0,
+      "eval_case_ref": "eval-r2:permit_inspection_delay:contradiction_pair",
+      "family": "permit_inspection_delay",
+      "has_brief_refs": true,
+      "has_check_ref": true,
+      "has_do_not_claim_reminders": true,
+      "has_reviewer_question": true,
+      "has_spatial_refs": true,
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-16"
+    }
+  ],
+  "eval_case_refs": [
+    "eval-r2:building_compliance_perception_candidate:contradiction_pair",
+    "eval-r2:building_compliance_perception_candidate:negative_no_data",
+    "eval-r2:building_compliance_perception_candidate:positive_packet_baseline",
+    "eval-r2:building_compliance_perception_candidate:stale_freshness",
+    "eval-r2:city_asset_infrastructure_issue:contradiction_pair",
+    "eval-r2:city_asset_infrastructure_issue:negative_no_data",
+    "eval-r2:city_asset_infrastructure_issue:positive_packet_baseline",
+    "eval-r2:city_asset_infrastructure_issue:stale_freshness",
+    "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+    "eval-r2:mobility_access_interruption_v0:negative_no_data",
+    "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+    "eval-r2:mobility_access_interruption_v0:stale_freshness",
+    "eval-r2:permit_inspection_delay:contradiction_pair",
+    "eval-r2:permit_inspection_delay:negative_no_data",
+    "eval-r2:permit_inspection_delay:positive_packet_baseline",
+    "eval-r2:permit_inspection_delay:stale_freshness"
+  ],
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "family_counts": {
+    "building_compliance_perception_candidate": 4,
+    "city_asset_infrastructure_issue": 4,
+    "mobility_access_interruption_v0": 4,
+    "permit_inspection_delay": 4
+  },
+  "family_scenario_matrix": {
+    "building_compliance_perception_candidate": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    },
+    "mobility_access_interruption_v0": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    },
+    "permit_inspection_delay": {
+      "contradiction_pair": 1,
+      "negative_no_data": 1,
+      "positive_packet_baseline": 1,
+      "stale_freshness": 1
+    }
+  },
+  "scenario_counts": {
+    "contradiction_pair": 4,
+    "negative_no_data": 4,
+    "positive_packet_baseline": 4,
+    "stale_freshness": 4
+  },
+  "source_path": "outputs\\main_citybrain_epoch4_founder_probe_input_kit_r2\\FOUNDER_PROBE_TASK_CARD_SET.json",
+  "status": "PASS"
+}

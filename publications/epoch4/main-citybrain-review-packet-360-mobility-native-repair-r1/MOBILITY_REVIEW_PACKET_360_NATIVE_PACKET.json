@@ -1,0 +1,202 @@
+{
+  "artifact_id": "MOBILITY_REVIEW_PACKET_360_NATIVE_PACKET",
+  "authority_boundary": "local_replay_review_only_no_action",
+  "cannot_claim": [
+    "product/client readiness",
+    "founder/operator validation",
+    "official action/case/ticket",
+    "dispatch/control/enforcement",
+    "forecast or ForecastPacket",
+    "city calibration",
+    "source truth mutation"
+  ],
+  "cer_seg_context": {
+    "cer_seg_card_rows": [
+      {
+        "cer_context_missing": false,
+        "family": "mobility_access_interruption_v0",
+        "seg_context_missing": false,
+        "status": "attached_derived_backfill",
+        "task_id": "founder-probe-r2-09"
+      },
+      {
+        "cer_context_missing": false,
+        "family": "mobility_access_interruption_v0",
+        "seg_context_missing": false,
+        "status": "attached_derived_backfill",
+        "task_id": "founder-probe-r2-10"
+      },
+      {
+        "cer_context_missing": false,
+        "family": "mobility_access_interruption_v0",
+        "seg_context_missing": false,
+        "status": "attached_derived_backfill",
+        "task_id": "founder-probe-r2-11"
+      },
+      {
+        "cer_context_missing": false,
+        "family": "mobility_access_interruption_v0",
+        "seg_context_missing": false,
+        "status": "attached_derived_backfill",
+        "task_id": "founder-probe-r2-12"
+      }
+    ],
+    "cer_style_canonical_refs": [
+      "cer:building:alpha",
+      "cer:building:beta_candidate"
+    ]
+  },
+  "check_actual_outcomes": [
+    {
+      "actual_outcome_match_status": "matched_direct_check_harness",
+      "expected_check_outcome": "sufficient_for_review",
+      "family": "mobility_access_interruption_v0",
+      "matched_actual_check_outcome": "sufficient_for_review",
+      "scenario": "positive_packet_baseline",
+      "source": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json",
+      "task_id": "founder-probe-r2-09"
+    },
+    {
+      "actual_outcome_match_status": "matched_challenge_boundary",
+      "expected_check_outcome": "abstain_no_data",
+      "family": "mobility_access_interruption_v0",
+      "matched_actual_check_outcome": "PASS_LIMITED_OR_ABSTAIN",
+      "scenario": "negative_no_data",
+      "source": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json",
+      "task_id": "founder-probe-r2-10"
+    },
+    {
+      "actual_outcome_match_status": "matched_challenge_boundary",
+      "expected_check_outcome": "downgrade_freshness",
+      "family": "mobility_access_interruption_v0",
+      "matched_actual_check_outcome": "PASS_LIMITED_OR_ABSTAIN",
+      "scenario": "stale_freshness",
+      "source": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json",
+      "task_id": "founder-probe-r2-11"
+    },
+    {
+      "actual_outcome_match_status": "matched_direct_check_harness",
+      "expected_check_outcome": "downgrade_contradiction",
+      "family": "mobility_access_interruption_v0",
+      "matched_actual_check_outcome": "contradiction",
+      "scenario": "contradiction_pair",
+      "source": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json",
+      "task_id": "founder-probe-r2-12"
+    }
+  ],
+  "derived_backfill_comparison": {
+    "label": "derived_review_packet_backfill_not_source_truth",
+    "source_ref": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json",
+    "used_as_native_evidence": false
+  },
+  "evidence_kind": "native_review_packet",
+  "expanded_cadence_decision_ref": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION.json",
+  "expanded_cadence_final_state_hash": "a85f1f0550375a7b3afed1d46a21c13f98b6cc0d21ca46cbab3d195a1b1d6144",
+  "family_id": "mobility_access_interruption_v0",
+  "native_event_fabric_refs": [
+    "seed-r3-expanded:mobility_access:001",
+    "seed-r3-expanded:mobility_access:002",
+    "seed-r3-expanded:mobility_access:003",
+    "seed-r3-expanded:mobility_access:004",
+    "seed-r3-expanded:mobility_access:005",
+    "seed-r3-expanded:mobility_access:006",
+    "seed-r3-expanded:mobility_access:007",
+    "seed-r3-expanded:mobility_access:008",
+    "seed-r3-expanded:mobility_access:009",
+    "seed-r3-expanded:mobility_access:010",
+    "seed-r3-expanded:mobility_access:011",
+    "seed-r3-expanded:mobility_access:012",
+    "seed-r3-expanded:mobility_access:013",
+    "seed-r3-expanded:mobility_access:014",
+    "seed-r3-expanded:mobility_access:015",
+    "seed-r3-expanded:mobility_access:016",
+    "seed-r3-expanded:mobility_access:017",
+    "seed-r3-expanded:mobility_access:018",
+    "seed-r3-expanded:mobility_access:019",
+    "seed-r3-expanded:mobility_access:020"
+  ],
+  "native_event_fabric_source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+  "native_packet_status": "native_packet_complete",
+  "quarantine_queue_refs": [
+    "seed-r3-expanded:mobility_access:016",
+    "seed-r3-expanded:mobility_access:017",
+    "seed-r3-expanded:mobility_access:018",
+    "seed-r3-expanded:mobility_access:019",
+    "seed-r3-expanded:mobility_access:020"
+  ],
+  "resolution_summary": {
+    "event_count": 20,
+    "quarantine_expected_count": 5,
+    "reason_counts": {
+      "duplicate_candidate_ambiguity": 2,
+      "impossible_time": 1,
+      "invalid_schema": 1,
+      "invalid_source_class": 1,
+      "missing_entity_ref": 1,
+      "missing_geometry": 2,
+      "unknown_freshness": 1,
+      "weak_spatial_match": 1
+    },
+    "resolved_count": 10,
+    "unresolved_review_count": 5
+  },
+  "simulation_context": {
+    "claim_boundary": "donor_distribution_aligned_fixture only; not_city_calibrated, not_forecast, not_operational_prediction, no_ForecastPacket.",
+    "comparison_metrics": [
+      {
+        "comparison_metric_name": "category_distribution_l1_distance",
+        "comparison_metric_value": 1.155629,
+        "donor_sample_count": 604,
+        "fixture_id": "fixture:seed_r3:mobility_access_interruption_v0:event_type_mix:r1",
+        "fixture_sample_count": 4
+      }
+    ],
+    "named_donor_distributions_used": [
+      "donor_distribution:mobility_access_interruption_v0:lta_tfl_event_type_proxy_counts:r1"
+    ],
+    "status": "CHECKED_WITH_LIMITATIONS"
+  },
+  "source_refs_with_provenance": [
+    {
+      "kind": "native_event_fabric_expanded_adapter_feed",
+      "ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "kind": "native_cadence_replay_validation",
+      "ref": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-EXPANDED-CORPUS-CADENCE-REPLAY-MINING-R2/EXPANDED_CORPUS_CADENCE_REPLAY_MINING_DECISION.json"
+    },
+    {
+      "kind": "canonical_resolution_report",
+      "ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_CANONICAL_RESOLUTION_REPORT.json"
+    },
+    {
+      "kind": "check_actual_outcome_attachment",
+      "ref": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/FOUNDER_PROBE_ACTUAL_OUTCOME_ATTACHMENT_REPORT.json"
+    },
+    {
+      "kind": "simulation_donor_distribution_context",
+      "ref": "outputs/MAIN-CITYBRAIN-SIMULATION-DISTRIBUTION-CHECKED-FIXTURES-R1/MOBILITY_SIM_DISTRIBUTION_CHECK_REPORT.json"
+    },
+    {
+      "kind": "derived_backfill_comparison_only",
+      "ref": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json"
+    }
+  ],
+  "spatial_context_refs": [
+    "geometry:synthetic-dubai-aoi:mobility_access:001",
+    "geometry:synthetic-dubai-aoi:mobility_access:002",
+    "geometry:synthetic-dubai-aoi:mobility_access:003",
+    "geometry:synthetic-dubai-aoi:mobility_access:004",
+    "geometry:synthetic-dubai-aoi:mobility_access:001",
+    "geometry:synthetic-dubai-aoi:mobility_access:002",
+    "geometry:synthetic-dubai-aoi:mobility_access:003",
+    "geometry:synthetic-dubai-aoi:mobility_access:004"
+  ],
+  "unresolved_queue_refs": [
+    "seed-r3-expanded:mobility_access:011",
+    "seed-r3-expanded:mobility_access:012",
+    "seed-r3-expanded:mobility_access:013",
+    "seed-r3-expanded:mobility_access:014",
+    "seed-r3-expanded:mobility_access:015"
+  ]
+}

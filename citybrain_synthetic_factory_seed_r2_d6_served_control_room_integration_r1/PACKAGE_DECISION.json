@@ -1,0 +1,9 @@
+{
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D6-SERVED-CONTROL-ROOM-INTEGRATION-R1-PACKAGE",
+  "status": "READY_FOR_CODEX_SYNTHETIC_FACTORY_SEED_R2_D6_SERVED_CONTROL_ROOM_INTEGRATION_R1_WITH_NO_SECRETS",
+  "generated_at": "2026-07-08",
+  "package_role": "codex_handoff_package",
+  "expected_run_status": "PASS_SYNTHETIC_FACTORY_SEED_R2_D6_SERVED_CONTROL_ROOM_INTEGRATION_R1_WITH_LIMITATIONS",
+  "secrets_embedded": false,
+  "raw_payloads_embedded": false
+}

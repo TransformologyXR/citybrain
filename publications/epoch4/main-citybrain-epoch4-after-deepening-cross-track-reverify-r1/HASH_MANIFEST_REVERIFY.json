@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_AFTER_DEEPENING_CROSS_TRACK_REVERIFY_R1_HASH_MANIFEST_REVERIFY_json",
+  "entries": [
+    {
+      "bytes": 834,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/AFTER_DEEPENING_INPUT_AUDIT.json",
+      "sha256": "f689326d61f09f2e7d4b21c8ea27293b35c67238bff2660b2d1d2859dcc98d69"
+    },
+    {
+      "bytes": 1378,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/CROSS_TRACK_REFERENCE_PARITY.json",
+      "sha256": "1eb0739ed2fcd9046041f960161122a56ce44e5670c6e1208a1ce01c5bd95321"
+    },
+    {
+      "bytes": 346,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/DATA_MATURITY_REMEDIATION_REVERIFY.json",
+      "sha256": "4ee3c16d1bb84088adec6130277001eb8fcbb3e08e2023018784f93a8341cf8f"
+    },
+    {
+      "bytes": 822,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/DECISION.json",
+      "sha256": "9a98adf19ad180bc43fd8abd6871d284d5e43ca91e51d4738e55dc89c2bf15f0"
+    },
+    {
+      "bytes": 323,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/FOUNDER_REVIEW_STILL_PARKED_GUARD.json",
+      "sha256": "31acba5589c3913d59d2e70254ff8497b47ce73f6feb754c63cb7ac322fcc495"
+    },
+    {
+      "bytes": 1265,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "a7c2c9aefedaed55ee087591e2a3368070e04d9bb3a3165507d62bd9396bed1f"
+    },
+    {
+      "bytes": 389,
+      "path": "outputs/main_citybrain_epoch4_after_deepening_cross_track_reverify_r1/PRODUCT_READINESS_REVERIFY.json",
+      "sha256": "61bb6799196d17c028b66aa2ef9cdbcfca2f442efb99d1da2ca0280eba429c07"
+    },
+    {
+      "bytes": 834,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/AFTER_DEEPENING_INPUT_AUDIT.json",
+      "sha256": "f689326d61f09f2e7d4b21c8ea27293b35c67238bff2660b2d1d2859dcc98d69"
+    },
+    {
+      "bytes": 1378,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/CROSS_TRACK_REFERENCE_PARITY.json",
+      "sha256": "1eb0739ed2fcd9046041f960161122a56ce44e5670c6e1208a1ce01c5bd95321"
+    },
+    {
+      "bytes": 346,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/DATA_MATURITY_REMEDIATION_REVERIFY.json",
+      "sha256": "4ee3c16d1bb84088adec6130277001eb8fcbb3e08e2023018784f93a8341cf8f"
+    },
+    {
+      "bytes": 822,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/DECISION.json",
+      "sha256": "9a98adf19ad180bc43fd8abd6871d284d5e43ca91e51d4738e55dc89c2bf15f0"
+    },
+    {
+      "bytes": 323,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/FOUNDER_REVIEW_STILL_PARKED_GUARD.json",
+      "sha256": "31acba5589c3913d59d2e70254ff8497b47ce73f6feb754c63cb7ac322fcc495"
+    },
+    {
+      "bytes": 1265,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "a7c2c9aefedaed55ee087591e2a3368070e04d9bb3a3165507d62bd9396bed1f"
+    },
+    {
+      "bytes": 389,
+      "path": "publications/epoch4/main-citybrain-epoch4-after-deepening-cross-track-reverify-r1/PRODUCT_READINESS_REVERIFY.json",
+      "sha256": "61bb6799196d17c028b66aa2ef9cdbcfca2f442efb99d1da2ca0280eba429c07"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T17:35:41Z",
+  "status": "PASS"
+}

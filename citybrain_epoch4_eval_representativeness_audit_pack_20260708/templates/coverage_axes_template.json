@@ -1,0 +1,77 @@
+{
+  "score_enum": [
+    "none",
+    "thin",
+    "partial",
+    "adequate_for_internal_regression",
+    "strong_internal",
+    "not_applicable"
+  ],
+  "axes": [
+    {
+      "axis": "family_coverage",
+      "questions": [
+        "Which families are represented?",
+        "Which selected product-loop families are absent?",
+        "Are non-selected families parked or omitted accidentally?"
+      ]
+    },
+    {
+      "axis": "scenario_type_coverage",
+      "questions": [
+        "Are positive/no-data/stale/contradiction represented?",
+        "Are proximity-only, candidate-only, duplicate, quarantine, late, superseded represented?"
+      ]
+    },
+    {
+      "axis": "source_class_coverage",
+      "questions": [
+        "Which source_class values appear?",
+        "Are official_record, derived, replay, synthetic, sensor_inferred, model_generated_narrative represented?"
+      ]
+    },
+    {
+      "axis": "event_lifecycle_coverage",
+      "questions": [
+        "Are new/updated/duplicate/late/superseded/expired/unresolved/quarantined represented?"
+      ]
+    },
+    {
+      "axis": "check_reason_coverage",
+      "questions": [
+        "Which CHECK downgrade reasons appear?",
+        "Which are absent?"
+      ]
+    },
+    {
+      "axis": "evidence_depth_coverage",
+      "questions": [
+        "Strong evidence vs partial vs conflicting vs source-only vs graph-only vs simulation-only?"
+      ]
+    },
+    {
+      "axis": "simulation_option_engine_coverage",
+      "questions": [
+        "SUMO real smoke? non-SUMO option engines? fixture_only? not_applicable? uncertainty/fidelity labels?"
+      ]
+    },
+    {
+      "axis": "native_vs_derived_backfill_coverage",
+      "questions": [
+        "Which cards rely on native Review Packet 360? Which use derived backfill? Is that visible?"
+      ]
+    },
+    {
+      "axis": "city_domain_source_variety",
+      "questions": [
+        "Which cities/domains/sources are represented in evals? Which data factory layers are unused?"
+      ]
+    },
+    {
+      "axis": "synthetic_data_factory_coverage",
+      "questions": [
+        "Do evals exercise WATCH/ASK/CHECK/BRIEF/SPATIAL/runtime/control-room fixtures from synthetic factory?"
+      ]
+    }
+  ]
+}

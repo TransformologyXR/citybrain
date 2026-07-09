@@ -1,0 +1,17 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "version": "v2",
+  "expected_status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "closeout_type": "MINIMUM_ACCEPTABLE_WITH_LOOP2_OFFLINE_EXPERIMENT",
+  "created_for": "CityBrain Epoch 3 closeout with publication durability, master ledger, arming handoff, forecast framing, and Epoch 4 fork",
+  "forbidden_work": [
+    "new model training",
+    "operator-facing ranking",
+    "product forecast surface",
+    "product ForecastPacket",
+    "case-memory learner",
+    "counterfactual learner",
+    "dynamic investigation",
+    "cross-city learned transfer"
+  ]
+}

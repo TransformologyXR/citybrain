@@ -1,0 +1,12 @@
+{
+  "active_path": "no_session_path",
+  "artifact_id": "FOUNDER_SESSION_LABEL_REVERIFY_R1",
+  "external_operator_validation": false,
+  "learning_arming_allowed": false,
+  "operator_fuel": false,
+  "reviewer_type": "founder_internal",
+  "session_record_count": 0,
+  "session_status": "NOT_RUN",
+  "status": "PASS_WITH_LIMITATIONS",
+  "training_eligible": false
+}

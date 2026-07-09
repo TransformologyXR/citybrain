@@ -1,0 +1,35 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD",
+  "boundary": "local/replay/evaluation-only; non-authoritative projections only",
+  "checks": {
+    "ForecastPacket_or_product_forecast_surface_created": false,
+    "calibrated_simulation_claim_created": false,
+    "dispatch_control_enforcement_created": false,
+    "founder_or_operator_session_results_created": false,
+    "learned_ranking_or_model_training_created": false,
+    "maturity_score_inflation_as_fact_created": false,
+    "official_action_case_ticket_created": false,
+    "operator_or_founder_fuel_created": false,
+    "production_live_ingestion_created": false,
+    "source_truth_mutated": false,
+    "training_rows_or_learned_labels_created": false
+  },
+  "forbidden_capabilities_checked": [
+    "founder_or_operator_session_results",
+    "operator_or_founder_fuel",
+    "training_rows_or_learned_labels",
+    "learned_ranking_or_model_training",
+    "ForecastPacket_or_product_forecast_surface",
+    "calibrated_simulation_claim",
+    "production_live_ingestion",
+    "official_action_case_ticket",
+    "dispatch_control_enforcement",
+    "source_truth_mutation",
+    "maturity_score_inflation_as_fact"
+  ],
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T19:07:41Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-EVAL-HARNESS-EXECUTION-R1",
+  "scope": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1",
+  "status": "PASS"
+}

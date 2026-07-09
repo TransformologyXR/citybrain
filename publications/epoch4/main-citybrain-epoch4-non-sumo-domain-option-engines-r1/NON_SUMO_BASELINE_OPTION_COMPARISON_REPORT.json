@@ -1,0 +1,38 @@
+{
+  "artifact_id": "NON_SUMO_BASELINE_OPTION_COMPARISON_REPORT",
+  "families": [
+    {
+      "baseline_option": {
+        "option_id": "baseline_review_only",
+        "risk": "evidence gaps remain visible",
+        "score": 0.42,
+        "why": "preserves current bounded review posture"
+      },
+      "best_review_option": {
+        "option_id": "targeted_perception_evidence_review",
+        "risk": "still not a finding",
+        "score": 0.68,
+        "why": "focuses review on perception conflict and source-class weakness"
+      },
+      "family_id": "building_compliance_perception_candidate"
+    },
+    {
+      "baseline_option": {
+        "option_id": "baseline_queue_observation",
+        "risk": "no intervention insight",
+        "score": 0.39,
+        "why": "keeps delay visible without action claim"
+      },
+      "best_review_option": {
+        "option_id": "dependency_source_gap_triage",
+        "risk": "administrative data remains fixture-grade",
+        "score": 0.7,
+        "why": "separates missing refs from actual queue delay"
+      },
+      "family_id": "permit_inspection_delay"
+    }
+  ],
+  "forecast_created": false,
+  "recommendation_authority": "none",
+  "status": "PASS_WITH_LIMITATIONS"
+}

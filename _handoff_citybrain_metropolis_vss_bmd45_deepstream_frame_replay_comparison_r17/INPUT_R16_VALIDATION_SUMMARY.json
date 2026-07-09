@@ -1,0 +1,45 @@
+{
+  "candidate_fixture_records": 9,
+  "dataset_license": "cc-by-4.0",
+  "dataset_source_class": "dataset_annotation",
+  "external_media_refs": [
+    {
+      "bytes": 2723262,
+      "file_name": "images_000/100040.png",
+      "height": 1080,
+      "image_id": 5233,
+      "media_url": "https://huggingface.co/datasets/iisc-aim/BMD-45/resolve/main/BMD-45-Val/images_000/100040.png?download=true",
+      "packaged_file": false,
+      "sha256": "b98962b44ad1ac968db19689d39601a3f93c2082aea3caa263515ab82582d944",
+      "width": 1920
+    },
+    {
+      "bytes": 3109544,
+      "file_name": "images_000/100068.png",
+      "height": 1080,
+      "image_id": 5234,
+      "media_url": "https://huggingface.co/datasets/iisc-aim/BMD-45/resolve/main/BMD-45-Val/images_000/100068.png?download=true",
+      "packaged_file": false,
+      "sha256": "6ebee34cded670a1314159a763cad014c41c28d3db92d1fce900ebdf5e912d4c",
+      "width": 1920
+    },
+    {
+      "bytes": 3152525,
+      "file_name": "images_000/10013.png",
+      "height": 1080,
+      "image_id": 535,
+      "media_url": "https://huggingface.co/datasets/iisc-aim/BMD-45/resolve/main/BMD-45-Val/images_000/10013.png?download=true",
+      "packaged_file": false,
+      "sha256": "af2f27a78c9583f79271f2dca2be7a856d738eace9c7dc4e0750cf7725db330b",
+      "width": 1920
+    }
+  ],
+  "external_media_refs_count": 3,
+  "final_status": "PASS_METROPOLIS_VSS_OFFLINE_CCTV_DATASET_EXPANSION_R16_WITH_LIMITATIONS",
+  "live_camera_claimed": false,
+  "selected_source_id": "bmd45_huggingface_iisc_aim",
+  "source_package": "METROPOLIS_VSS_OFFLINE_CCTV_DATASET_EXPANSION_R16_PACKAGE.zip",
+  "source_package_present": true,
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-DEEPSTREAM-FRAME-REPLAY-COMPARISON-R17",
+  "video_dataset_pending": true
+}

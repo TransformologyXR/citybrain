@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-01",
+  "files": [
+    {
+      "file": "CHICAGO-SIMILAR-CASE-DEMO-QUERY-SMOKE-R3_PROMPT.md",
+      "sha256": "6e55932eee7aafd97f4cd974d8f87b5e2707e277496df07ed2676725c814f1ee",
+      "bytes": 3979
+    },
+    {
+      "file": "ENTRY_PROMPT.md",
+      "sha256": "9d6b67cc5b7f12e9858885395d0826f0720b55e9caab104867b8a14cef812c69",
+      "bytes": 2557
+    },
+    {
+      "file": "HELSINKI-KIT-OBJECT-PICK-MANUAL-REVIEW-CAPTURE-R3_PROMPT.md",
+      "sha256": "58fff7574903d9ba9b2574233b9ba47ddb8ce8387f371131e62e0b02c1c6bd57",
+      "bytes": 4214
+    },
+    {
+      "file": "MAIN-CITYBRAIN-D8-VSS-LICENSED-CORPUS-SAMPLE-INGEST-SMOKE-R3_PROMPT.md",
+      "sha256": "c365d94910633eed47f78627425d0bc57b47a876cecbcff41860ca651954917b",
+      "bytes": 5265
+    },
+    {
+      "file": "OPTIONAL_CITYBRAIN-D8-R3-FOLLOWON-PROMPT-PACK-CLOSEOUT_PROMPT.md",
+      "sha256": "4a2db828068d29bffd620bd877cf72228604639672dc6e878a2183ff4a7fa957",
+      "bytes": 753
+    },
+    {
+      "file": "README.md",
+      "sha256": "6b67304a4097b8baa9c8619882e0c2758489a2a4903ade669ac0b4ee7d27bb7e",
+      "bytes": 939
+    }
+  ]
+}

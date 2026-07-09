@@ -1,0 +1,16 @@
+{
+  "schema_version": "citybrain-metropolis-vss-r4-artifact-inspection-report-for-r5.v1",
+  "inspected_zip": "/mnt/data/METROPOLIS_VSS_NARRATION_RUNTIME_INTEGRATION_R4_PACKAGE.zip",
+  "inspection_time_utc": "2026-07-03T21:23:15Z",
+  "zip_entries": 20,
+  "json_files": 18,
+  "jsonl_files": 1,
+  "json_parse_status": "PASS",
+  "hash_manifest_status": "PASS",
+  "verified_manifest_entries": 19,
+  "r4_closeout_status": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R4_GUARDRAILS_READY",
+  "runtime_status": "NOT_CONFIGURED",
+  "accepted_as_clean_guarded_partial": true,
+  "material_blocker": "No --vss-command, --vss-endpoint, CITYBRAIN_VSS_COMMAND, or CITYBRAIN_VSS_ENDPOINT was configured.",
+  "recommendation": "Proceed to configured smoke R5; PASS requires actual configured runtime execution and at least one normalized VSS narration sidecar."
+}

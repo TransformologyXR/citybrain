@@ -1,0 +1,10 @@
+{
+  "artifact_id": "REMEDIATION_OVERLAY_SUMMARY",
+  "derived_overlay_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_PROMOTION_OVERLAY_R1_WITH_LIMITATIONS",
+  "maturity_remediation_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_ACTIONS_R1_WITH_LIMITATIONS",
+  "overlay_count": 50,
+  "promoted_to_canonical_truth": false,
+  "promoted_to_source_truth": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

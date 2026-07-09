@@ -1,0 +1,53 @@
+{
+  "artifact_id": "POST_SUMO_HISTORY_DEEPENING_SEQUENTIAL_EXECUTION_LOG",
+  "parallel_execution_used": false,
+  "same_worktree": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "decision": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_non_sumo_domain_option_engines_r1",
+      "sequence": 1,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NON_SUMO_DOMAIN_OPTION_ENGINES_R1_WITH_LIMITATIONS",
+      "step": "non_sumo_domain_option_engines_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1",
+      "sequence": 2,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS",
+      "step": "event_fabric_v2_5_long_history_load_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_cer_check_event_stress_eval_r1",
+      "sequence": 3,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_CER_CHECK_EVENT_STRESS_EVAL_R1_WITH_LIMITATIONS",
+      "step": "cer_check_event_stress_eval_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_INTERNAL_READINESS_SNAPSHOT_NO_SESSION_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1",
+      "sequence": 4,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_INTERNAL_READINESS_SNAPSHOT_NO_SESSION_R1_WITH_LIMITATIONS",
+      "step": "internal_readiness_snapshot_no_session_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_final_reverify_r1",
+      "sequence": 5,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step": "post_sumo_history_deepening_final_reverify_r1"
+    }
+  ]
+}

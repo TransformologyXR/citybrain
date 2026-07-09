@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BMD45 Replay Benchmark Scorecard R19",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "baseline_metrics",
+    "regression_assertions",
+    "human_review_required"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "baseline_metrics": {
+      "type": "object"
+    },
+    "regression_assertions": {
+      "type": "object"
+    },
+    "human_review_required": {
+      "type": "boolean"
+    }
+  }
+}

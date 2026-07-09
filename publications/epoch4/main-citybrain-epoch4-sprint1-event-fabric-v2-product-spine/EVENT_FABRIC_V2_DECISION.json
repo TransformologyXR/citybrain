@@ -1,0 +1,12 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_DECISION",
+  "consumes_supersedes": "Event Fabric Repair R1.1 consumed/superseded for future Event Fabric work",
+  "forbidden_capabilities_created": [],
+  "hash_manifest_verified": true,
+  "live_production_claim_created": false,
+  "official_event_truth_created": false,
+  "package_id": "MAIN_CITYBRAIN_EPOCH4_SPRINT1_EVENT_FABRIC_V2_PRODUCT_SPINE",
+  "parallel_execution_used": false,
+  "requires_sprint0": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT1_EVENT_FABRIC_V2_PRODUCT_SPINE_WITH_LIMITATIONS"
+}

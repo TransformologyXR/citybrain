@@ -1,0 +1,40 @@
+{
+  "acceptance": {
+    "coverage_axes_scored": true,
+    "eval_cases_inventoried_or_missing_reported": true,
+    "founder_cards_inventoried_or_missing_reported": true,
+    "no_forbidden_capability_created": true,
+    "required_outputs_written": true,
+    "synthetic_data_factory_crosswalked": true
+  },
+  "counts": {
+    "eval_cases": 48,
+    "founder_cards": 16,
+    "product_event_rows": 55,
+    "product_fixture_rows_each_watch_ask_check_brief_spatial": 11,
+    "runtime_control_room_cards": 6,
+    "synthetic_factory_main_acquisition_rows": 66737,
+    "synthetic_seed_entities": 144
+  },
+  "limitations": [
+    "read_only_audit_only",
+    "not_client_ready_claim",
+    "not_learning_ready_claim",
+    "no_founder_session_results",
+    "no_operator_fuel",
+    "no_training_rows",
+    "no_source_truth_mutation",
+    "synthetic_factory_context_not_official_dubai_truth"
+  ],
+  "mode": "read_only_audit",
+  "readiness": {
+    "bounded_internal_regression_ready": true,
+    "client_readiness_ready": false,
+    "founder_diagnostic_ready": true,
+    "founder_product_review_ready": false,
+    "learning_readiness_ready": false
+  },
+  "recommendation": "PROCEED_TO_FOUNDER_DIAGNOSTIC_REVIEW_AND_EXPAND_CORPUS_BEFORE_PRODUCT_OR_CLIENT_REVIEW",
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_REPRESENTATIVENESS_AUDIT_R1_WITH_LIMITATIONS",
+  "task": "MAIN-CITYBRAIN-EPOCH4-EVAL-REPRESENTATIVENESS-AUDIT-R1"
+}

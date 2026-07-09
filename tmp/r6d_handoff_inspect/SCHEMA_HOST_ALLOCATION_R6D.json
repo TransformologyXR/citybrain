@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "deepstream_metropolis_lane": {
+      "type": "object"
+    },
+    "r7_gate": {
+      "type": "object"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "spark_vss_lane": {
+      "type": "object"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "txr_3090_role": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_id",
+    "deepstream_metropolis_lane",
+    "spark_vss_lane",
+    "txr_3090_role",
+    "r7_gate"
+  ],
+  "title": "Host allocation R6D",
+  "type": "object"
+}

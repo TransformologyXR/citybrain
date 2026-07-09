@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_SOURCE_TRUTH_MUTATION_GUARD",
+  "canonical_truth_mutated": false,
+  "mobility_backfill_label": "derived_review_packet_backfill_not_source_truth",
+  "raw_source_records_mutated": false,
+  "source_truth_mutated": false,
+  "status": "PASS"
+}

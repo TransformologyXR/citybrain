@@ -1,0 +1,14 @@
+{
+  "deep_data_estate_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DEEP_DATA_ESTATE_AUDIT_R1_WITH_LIMITATIONS",
+  "deep_gap_counts": {
+    "missing_or_unknown_geometry": 526,
+    "no_consuming_flow": 273,
+    "unknown_freshness": 462,
+    "unknown_schema": 456,
+    "unknown_source_class": 430
+  },
+  "eval_cases": 48,
+  "founder_cards": 16,
+  "representativeness_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_REPRESENTATIVENESS_AUDIT_R1_WITH_LIMITATIONS",
+  "status": "PASS"
+}

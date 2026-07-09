@@ -1,0 +1,43 @@
+{
+  "artifact_id": "SEED_R3_QUERY_STATE_REPORT",
+  "canonical_loop_family_ids": [
+    "mobility_access_interruption_v0",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "family_counts": {
+    "building_compliance_perception_candidate": 4,
+    "city_asset_infrastructure_issue": 4,
+    "mobility_access_interruption_v0": 4,
+    "permit_inspection_delay": 4
+  },
+  "quarantine_event_ids": [
+    "seed-r3-adapter:mobility_access:challenge:003",
+    "seed-r3-adapter:building_compliance:challenge:007",
+    "seed-r3-adapter:permit_inspection_delay:challenge:011",
+    "seed-r3-adapter:asset_infrastructure:challenge:015"
+  ],
+  "resolution_status_counts": {
+    "quarantine_expected": 4,
+    "resolved": 8,
+    "unresolved_review": 4
+  },
+  "resolved_event_ids": [
+    "seed-r3-adapter:mobility_access:gold:001",
+    "seed-r3-adapter:mobility_access:scenario:004",
+    "seed-r3-adapter:building_compliance:gold:005",
+    "seed-r3-adapter:building_compliance:scenario:008",
+    "seed-r3-adapter:permit_inspection_delay:gold:009",
+    "seed-r3-adapter:permit_inspection_delay:scenario:012",
+    "seed-r3-adapter:asset_infrastructure:gold:013",
+    "seed-r3-adapter:asset_infrastructure:scenario:016"
+  ],
+  "status": "PASS_WITH_LIMITATIONS",
+  "unresolved_event_ids": [
+    "seed-r3-adapter:mobility_access:dirty_source:002",
+    "seed-r3-adapter:building_compliance:dirty_source:006",
+    "seed-r3-adapter:permit_inspection_delay:dirty_source:010",
+    "seed-r3-adapter:asset_infrastructure:dirty_source:014"
+  ]
+}

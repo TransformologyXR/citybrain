@@ -1,0 +1,32 @@
+{
+  "required_roots": [
+    "outputs",
+    "manifests",
+    "schemas",
+    "fixtures",
+    "tests",
+    "scripts",
+    "docs"
+  ],
+  "epoch3_artifact_roots_to_prioritize": [
+    "outputs/epoch_3_entry_gate_r1_fuel_gauge",
+    "outputs/epoch3_day1_instrumentation_and_harness_r1",
+    "outputs/epoch3_phase2_live_exposure_coverage_and_hardening_r1",
+    "outputs/epoch3_l1_r1_r2_outcome_calibration_hardening_r1",
+    "outputs/epoch3_pre_closeout_convergence_r1",
+    "outputs/epoch3_foundation_closeout_r1",
+    "outputs/epoch3_master_execution_r1",
+    "outputs/epoch3_l2_historical_label_backfill_r1",
+    "outputs/epoch3_l2_r2_forecast_authority_preflight_r1"
+  ],
+  "file_patterns": [
+    "*.json",
+    "*.jsonl",
+    "*.md",
+    "*.csv",
+    "*.geojson",
+    "*.yaml",
+    "*.yml",
+    "*.txt"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "artifact_id": "BRIEF_V3_EXPORT_CONTRACT",
+  "export_formats": [
+    "markdown",
+    "json"
+  ],
+  "local_replay_review_only": true,
+  "non_claim_policy": [
+    "No production or public API claim.",
+    "No live monitoring, alerting, dispatch, routing, control, enforcement, or automated action.",
+    "No official ticket, case, citation, inspection, legal finding, or certified finding is created.",
+    "No citywide certified twin or certified physical geometry claim.",
+    "No forecast model, learned ranking, counterfactual learner, case-memory learner, or dynamic investigation agent.",
+    "No recommendation authority; review options remain human-owned and may be abstained from.",
+    "No source record is converted into official truth without CHECK/CER review boundaries."
+  ],
+  "required_blocks": [
+    "source record appendix",
+    "CHECK v1 summary block",
+    "simulation assumptions block",
+    "event state block",
+    "spatial references block",
+    "cannot-claim block",
+    "review options block",
+    "limitations block"
+  ],
+  "required_section_order": [
+    "source_record_appendix",
+    "check_v1_summary",
+    "simulation_assumptions",
+    "event_state",
+    "spatial_references",
+    "cannot_claim",
+    "review_options",
+    "limitations"
+  ],
+  "schema_version": "main-citybrain.brief_v3.export_contract.v1",
+  "status": "PASS",
+  "ui_polish_in_scope": false
+}

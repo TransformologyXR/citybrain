@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "confusion_flag": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "disposition": {
+      "enum": [
+        "accept_for_review",
+        "needs_source",
+        "abstain",
+        "not_useful",
+        "conflicted"
+      ]
+    },
+    "reviewer_role": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "usefulness_rating": {
+      "maximum": 5,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "session_id",
+    "task_id",
+    "reviewer_role",
+    "disposition",
+    "usefulness_rating",
+    "confusion_flag",
+    "created_at",
+    "authority_boundary"
+  ],
+  "title": "HumanReviewDispositionR1",
+  "type": "object"
+}

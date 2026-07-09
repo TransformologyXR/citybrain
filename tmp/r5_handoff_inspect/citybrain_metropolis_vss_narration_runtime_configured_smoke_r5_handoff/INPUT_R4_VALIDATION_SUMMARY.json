@@ -1,0 +1,40 @@
+{
+  "schema_version": "citybrain-metropolis-vss-r5-handoff-input-summary.v1",
+  "source_zip": "/mnt/data/METROPOLIS_VSS_NARRATION_RUNTIME_INTEGRATION_R4_PACKAGE.zip",
+  "source_zip_sha256": "c0cfaf0d4b590eebac99bf2e550b4824abd528f1d587cb058a9634f7d52bc3c8",
+  "zip_entries": 20,
+  "zip_integrity_status": "PASS",
+  "json_files_parsed": 18,
+  "json_parse_failures": [],
+  "jsonl_files_parsed": 1,
+  "jsonl_record_counts": {
+    "VSS_NARRATION_SIDECARS_R4.jsonl": 0
+  },
+  "jsonl_parse_failures": [],
+  "hash_manifest": {
+    "status": "PASS",
+    "manifest_file_count": 19,
+    "verified": 19,
+    "missing": [],
+    "mismatches": []
+  },
+  "r4_closeout_status": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R4_GUARDRAILS_READY",
+  "r4_runtime_status": "NOT_CONFIGURED",
+  "r4_runtime_configured": false,
+  "vss_runtime_attempted": false,
+  "vss_runtime_executed": false,
+  "vss_narration_records": 0,
+  "r2_candidate_observations": 24,
+  "r2_candidate_events": 1,
+  "structured_detection_source_class": "sensor_inferred",
+  "vss_output_source_class": "model_generated_narrative",
+  "vss_is_fact_source": false,
+  "candidate_event_modified_by_vss": false,
+  "human_review_required": true,
+  "no_action_taken": true,
+  "official_record_created": false,
+  "check_narration_sufficiency_status": "PARTIAL",
+  "blocked_reason": "No --vss-command, --vss-endpoint, CITYBRAIN_VSS_COMMAND, or CITYBRAIN_VSS_ENDPOINT was configured.",
+  "accepted_as_input_for_r5": true,
+  "r5_input_contract": "R4 is a valid guarded partial; R5 must configure and execute a real VSS command/endpoint or remain partial with zero fabricated narration."
+}

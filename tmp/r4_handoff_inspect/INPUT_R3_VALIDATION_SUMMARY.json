@@ -1,0 +1,43 @@
+{
+  "source_zip": "/mnt/data/METROPOLIS_VSS_VSS_NARRATION_RUNTIME_DRY_RUN_R3_PACKAGE.zip",
+  "zip_exists": true,
+  "zip_entries": 19,
+  "zip_test": "PASS",
+  "json_files_parsed_by_inspection": 17,
+  "jsonl_files_parsed_by_inspection": 1,
+  "jsonl_counts": {
+    "VSS_NARRATION_OUTPUT_SAMPLE_R3.jsonl": 0
+  },
+  "parse_failures": [],
+  "hash_manifest": {
+    "status": "PASS",
+    "manifest_file_count": 18,
+    "verified": 18,
+    "mismatches": []
+  },
+  "r3_closeout_status": "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_BLOCKED_GUARDRAILS_READY",
+  "r3_runtime_status": "BLOCKED",
+  "r3_runtime_blocked_reason": "No --vss-command, --vss-endpoint, CITYBRAIN_VSS_COMMAND, or CITYBRAIN_VSS_ENDPOINT was configured.",
+  "vss_runtime_attempted": false,
+  "vss_runtime_executed": false,
+  "vss_output_records": 0,
+  "r2_validation_status": "PASS",
+  "r2_candidate_observations": 24,
+  "r2_candidate_events": 1,
+  "r2_scope": {
+    "class_label": "car",
+    "detection_class": "vehicle_presence_candidate",
+    "media_source": "container bundled samples/streams/sample_1080p_h264.mp4",
+    "source_class": "sensor_inferred",
+    "zone": "bounded_vehicle_zone_r2"
+  },
+  "source_class_truth": {
+    "structured_detection_source_class": "sensor_inferred",
+    "vss_output_source_class": "model_generated_narrative",
+    "vss_is_fact_source": false,
+    "candidate_event_modified_by_vss": false,
+    "human_review_required": true,
+    "no_action_taken": true,
+    "official_record_created": false
+  }
+}

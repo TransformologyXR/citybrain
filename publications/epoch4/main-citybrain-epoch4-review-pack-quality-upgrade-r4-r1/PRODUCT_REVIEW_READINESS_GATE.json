@@ -1,0 +1,10 @@
+{
+  "product_review_ready_cards": 3,
+  "product_review_ready_recommended": false,
+  "required_before_product_review": [
+    "embed native evidence where available",
+    "resolve derived/backfill provenance gaps",
+    "address global source/data gaps"
+  ],
+  "status": "NOT_READY_WITH_LIMITATIONS"
+}

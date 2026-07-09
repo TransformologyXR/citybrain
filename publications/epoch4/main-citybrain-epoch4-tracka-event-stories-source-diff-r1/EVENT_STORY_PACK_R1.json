@@ -1,0 +1,336 @@
+{
+  "artifact_id": "EVENT_STORY_PACK_R1",
+  "generated_at": "2026-07-07T14:15:03Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-TRACKA-EVENT-STORIES-SOURCE-DIFF-R1",
+  "schema_version": "citybrain.event_story_pack.r1",
+  "status": "PASS_WITH_LIMITATIONS",
+  "stories": [
+    {
+      "brief_candidate_ref": "brief_packet:v2_1:building_compliance_perception_candidate",
+      "cannot_claim": [
+        "official incident truth",
+        "case or ticket submission",
+        "dispatch/control/enforcement",
+        "legal or certified finding",
+        "product forecast"
+      ],
+      "cer_entity_refs": [
+        "cer:building:alpha",
+        "cer:observation:near_alpha"
+      ],
+      "check_refs": [
+        "check_v1:alpha:floors:contradiction",
+        "check_v1:near_alpha:proximity"
+      ],
+      "event_family": "building_compliance_perception_candidate_v0",
+      "event_refs": [
+        "efv2_1:00fa2780598a"
+      ],
+      "evidence_refs": [
+        "conflict:alpha:floors",
+        "evidence:sensor:near_alpha"
+      ],
+      "family_id": "building_compliance_perception_candidate",
+      "input_refs": [
+        "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json"
+      ],
+      "replay_steps": [
+        {
+          "action": "load_replay_event_family",
+          "refs": [
+            "building_compliance_perception_candidate_v0"
+          ],
+          "step": 1
+        },
+        {
+          "action": "attach_source_records_or_gap",
+          "refs": [
+            "source_record:sensor:near_alpha:2026-07-07"
+          ],
+          "step": 2
+        },
+        {
+          "action": "resolve_cer_context_if_available",
+          "refs": [
+            "cer:building:alpha",
+            "cer:observation:near_alpha"
+          ],
+          "step": 3
+        },
+        {
+          "action": "attach_check_and_authority_boundary",
+          "refs": [
+            "check_v1:alpha:floors:contradiction",
+            "check_v1:near_alpha:proximity"
+          ],
+          "step": 4
+        },
+        {
+          "action": "emit_review_only_story_packet",
+          "refs": [
+            "brief_packet:v2_1:building_compliance_perception_candidate"
+          ],
+          "step": 5
+        }
+      ],
+      "review_only_state": "candidate_review",
+      "seg_context_refs": [
+        "seg_edge:alpha:located_in:downtown",
+        "seg_edge:near_alpha:proximity_to:alpha"
+      ],
+      "source_class": "replay_source_record",
+      "source_gap": null,
+      "source_records": [
+        "source_record:sensor:near_alpha:2026-07-07"
+      ],
+      "spatial_overlay_ref": "spatial_overlay:v2_1:building_compliance_perception_candidate",
+      "story_id": "event_story_r1:building_compliance_perception_candidate",
+      "story_pack_ref": "event_story_pack:v2_1:building_compliance_perception_candidate",
+      "watch_refs": [
+        "watch:v2_1:building_compliance_perception_candidate"
+      ]
+    },
+    {
+      "brief_candidate_ref": "brief_packet:v2_1:permit_inspection_delay",
+      "cannot_claim": [
+        "official incident truth",
+        "case or ticket submission",
+        "dispatch/control/enforcement",
+        "legal or certified finding",
+        "product forecast"
+      ],
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_refs": [
+        "check_v1:alpha:floors:contradiction",
+        "check_v1:alpha:source_depth_missing"
+      ],
+      "event_family": "permit_inspection_delay_v0",
+      "event_refs": [
+        "efv2_1:1e97261f8ea0"
+      ],
+      "evidence_refs": [
+        "evidence:inspection:alpha",
+        "evidence:permit:alpha:100a"
+      ],
+      "family_id": "permit_inspection_delay",
+      "input_refs": [
+        "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json"
+      ],
+      "replay_steps": [
+        {
+          "action": "load_replay_event_family",
+          "refs": [
+            "permit_inspection_delay_v0"
+          ],
+          "step": 1
+        },
+        {
+          "action": "attach_source_records_or_gap",
+          "refs": [
+            "source_record:permit:alpha:2026-07-01"
+          ],
+          "step": 2
+        },
+        {
+          "action": "resolve_cer_context_if_available",
+          "refs": [
+            "cer:building:alpha"
+          ],
+          "step": 3
+        },
+        {
+          "action": "attach_check_and_authority_boundary",
+          "refs": [
+            "check_v1:alpha:floors:contradiction",
+            "check_v1:alpha:source_depth_missing"
+          ],
+          "step": 4
+        },
+        {
+          "action": "emit_review_only_story_packet",
+          "refs": [
+            "brief_packet:v2_1:permit_inspection_delay"
+          ],
+          "step": 5
+        }
+      ],
+      "review_only_state": "active",
+      "seg_context_refs": [
+        "seg_edge:alpha:located_in:downtown",
+        "seg_edge:near_alpha:proximity_to:alpha"
+      ],
+      "source_class": "replay_source_record",
+      "source_gap": null,
+      "source_records": [
+        "source_record:permit:alpha:2026-07-01"
+      ],
+      "spatial_overlay_ref": "spatial_overlay:v2_1:permit_inspection_delay",
+      "story_id": "event_story_r1:permit_inspection_delay",
+      "story_pack_ref": "event_story_pack:v2_1:permit_inspection_delay",
+      "watch_refs": [
+        "watch:v2_1:permit_inspection_delay"
+      ]
+    },
+    {
+      "brief_candidate_ref": "brief_packet:v2_1:city_asset_infrastructure_issue",
+      "cannot_claim": [
+        "official incident truth",
+        "case or ticket submission",
+        "dispatch/control/enforcement",
+        "legal or certified finding",
+        "product forecast",
+        "source-backed production fact"
+      ],
+      "cer_entity_refs": [
+        "cer:asset:infrastructure_candidate"
+      ],
+      "check_refs": [
+        "check_v1:asset:source_depth_missing"
+      ],
+      "event_family": "city_asset_infrastructure_issue_v0",
+      "event_refs": [
+        "efv2_1:326d9153f57d"
+      ],
+      "evidence_refs": [
+        "evidence:asset:spatial_overlay_fixture"
+      ],
+      "family_id": "city_asset_infrastructure_issue",
+      "input_refs": [
+        "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json"
+      ],
+      "replay_steps": [
+        {
+          "action": "load_replay_event_family",
+          "refs": [
+            "city_asset_infrastructure_issue_v0"
+          ],
+          "step": 1
+        },
+        {
+          "action": "attach_source_records_or_gap",
+          "refs": [
+            "source_record:asset:infrastructure:fixture"
+          ],
+          "step": 2
+        },
+        {
+          "action": "resolve_cer_context_if_available",
+          "refs": [
+            "cer:asset:infrastructure_candidate"
+          ],
+          "step": 3
+        },
+        {
+          "action": "attach_check_and_authority_boundary",
+          "refs": [
+            "check_v1:asset:source_depth_missing"
+          ],
+          "step": 4
+        },
+        {
+          "action": "emit_review_only_story_packet",
+          "refs": [
+            "brief_packet:v2_1:city_asset_infrastructure_issue"
+          ],
+          "step": 5
+        }
+      ],
+      "review_only_state": "review_required",
+      "seg_context_refs": [],
+      "source_class": "derived_fixture",
+      "source_gap": null,
+      "source_records": [
+        "source_record:asset:infrastructure:fixture"
+      ],
+      "spatial_overlay_ref": "spatial_overlay:v2_1:city_asset_infrastructure_issue",
+      "story_id": "event_story_r1:city_asset_infrastructure_issue",
+      "story_pack_ref": "event_story_pack:v2_1:city_asset_infrastructure_issue",
+      "watch_refs": [
+        "watch:v2_1:city_asset_infrastructure_issue"
+      ]
+    },
+    {
+      "brief_candidate_ref": "brief_packet:v2_1:mobility_access_interruption",
+      "cannot_claim": [
+        "official incident truth",
+        "case or ticket submission",
+        "dispatch/control/enforcement",
+        "legal or certified finding",
+        "product forecast"
+      ],
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_refs": [
+        "efv2_1:1a32d22bf8e2"
+      ],
+      "evidence_refs": [
+        "evidence:inspection:alpha"
+      ],
+      "family_id": "mobility_access_interruption",
+      "input_refs": [
+        "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json"
+      ],
+      "replay_steps": [
+        {
+          "action": "load_replay_event_family",
+          "refs": [
+            "mobility_access_interruption_v0"
+          ],
+          "step": 1
+        },
+        {
+          "action": "attach_source_records_or_gap",
+          "refs": [
+            "source_record:inspection:alpha:2026-06-30"
+          ],
+          "step": 2
+        },
+        {
+          "action": "resolve_cer_context_if_available",
+          "refs": [
+            "cer:building:alpha"
+          ],
+          "step": 3
+        },
+        {
+          "action": "attach_check_and_authority_boundary",
+          "refs": [
+            "check_v1:alpha:located_in"
+          ],
+          "step": 4
+        },
+        {
+          "action": "emit_review_only_story_packet",
+          "refs": [
+            "brief_packet:v2_1:mobility_access_interruption"
+          ],
+          "step": 5
+        }
+      ],
+      "review_only_state": "active",
+      "seg_context_refs": [
+        "seg_edge:alpha:located_in:downtown",
+        "seg_edge:near_alpha:proximity_to:alpha"
+      ],
+      "source_class": "replay_source_record",
+      "source_gap": null,
+      "source_records": [
+        "source_record:inspection:alpha:2026-06-30"
+      ],
+      "spatial_overlay_ref": "spatial_overlay:v2_1:mobility_access_interruption",
+      "story_id": "event_story_r1:mobility_access_interruption",
+      "story_pack_ref": "event_story_pack:v2_1:mobility_access_interruption",
+      "watch_refs": [
+        "watch:v2_1:mobility_access_interruption"
+      ]
+    }
+  ],
+  "story_count": 4
+}

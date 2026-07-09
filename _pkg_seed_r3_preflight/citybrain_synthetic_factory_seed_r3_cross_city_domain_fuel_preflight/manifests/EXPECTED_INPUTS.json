@@ -1,0 +1,19 @@
+{
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+  "read_only_inputs": [
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-SERVED-RUNTIME-INTEGRATION-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D6-SERVED-CONTROL-ROOM-INTEGRATION-R1",
+    "outputs/barc_allflows_data_landing_r1",
+    "outputs/barc_allflows_consumption_prep_r1",
+    "outputs/nyc_allflows_data_landing_r1",
+    "outputs/nyc_flow_consumption_prep_r1",
+    "outputs/chi_allflows_data_landing_r1",
+    "outputs/chi_allflows_consumption_prep_r1",
+    "outputs/lon_allflows_data_landing_r1",
+    "outputs/lon_allflows_consumption_prep_r1",
+    "outputs/chi_f2x_f5x_data_strengthening_r1",
+    "outputs/chi_f2x_f5x_recheck_for_r5_addendum_r1"
+  ],
+  "fallback_discovery_globs": ["outputs/barc*", "outputs/nyc*", "outputs/chi*", "outputs/lon*"]
+}

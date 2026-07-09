@@ -1,0 +1,11 @@
+{
+  "source_id": "tfl_unified_api",
+  "requires_env": "TFL_APP_KEY",
+  "auth": "append app_key query parameter",
+  "sample_requests": [
+    "https://api.tfl.gov.uk/Line/Mode/tube,dlr,overground/Status?app_key=${TFL_APP_KEY}",
+    "https://api.tfl.gov.uk/Road/all/Disruption?app_key=${TFL_APP_KEY}",
+    "https://api.tfl.gov.uk/StopPoint/Mode/bus?app_key=${TFL_APP_KEY}"
+  ],
+  "codex_next": "Register key, smoke 3 endpoints, store raw JSON and normalized mobility_event/service_status tables."
+}

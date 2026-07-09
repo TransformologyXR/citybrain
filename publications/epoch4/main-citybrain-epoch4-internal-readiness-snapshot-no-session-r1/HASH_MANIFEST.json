@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_INTERNAL_READINESS_SNAPSHOT_NO_SESSION_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 507,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/DECISION.json",
+      "sha256": "89e9044ec599ae2961eee35a01e9c535f94f4a77662341169236fb44d2544b8a"
+    },
+    {
+      "bytes": 1999,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/INTERNAL_READINESS_SNAPSHOT_NO_SESSION.json",
+      "sha256": "1a427383358604d3e563cf3c3371718536873040fd652191b30dc28cc3a7ae7e"
+    },
+    {
+      "bytes": 517,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/INTERNAL_READINESS_SNAPSHOT_NO_SESSION.md",
+      "sha256": "3f5f218e7f5dbe95bdb28d58bc77c3699d34e9821514395e07d5b06a4db3beff"
+    },
+    {
+      "bytes": 355,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/NEXT_REVIEW_PREP_ACTIONS.json",
+      "sha256": "2473857df2e64ba542959ad7d2b20edb302d2375ed90413cec107f13806e965e"
+    },
+    {
+      "bytes": 1198,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "3cac21a47bcf816eb7823646bab27a2af6cd11b431f82de11150b951e876d99d"
+    },
+    {
+      "bytes": 312,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "9eb9f8695a09bd4b119be5ce38ed016e771c497c274a00650c5e01e1af4e7cc0"
+    },
+    {
+      "bytes": 751,
+      "path": "outputs/main_citybrain_epoch4_internal_readiness_snapshot_no_session_r1/READINESS_GAP_REGISTER.json",
+      "sha256": "59298d58e5a9f63e9992bb93033492e030fc8c3c93623f7636dce832eca61a6a"
+    },
+    {
+      "bytes": 507,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/DECISION.json",
+      "sha256": "89e9044ec599ae2961eee35a01e9c535f94f4a77662341169236fb44d2544b8a"
+    },
+    {
+      "bytes": 1999,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/INTERNAL_READINESS_SNAPSHOT_NO_SESSION.json",
+      "sha256": "1a427383358604d3e563cf3c3371718536873040fd652191b30dc28cc3a7ae7e"
+    },
+    {
+      "bytes": 517,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/INTERNAL_READINESS_SNAPSHOT_NO_SESSION.md",
+      "sha256": "3f5f218e7f5dbe95bdb28d58bc77c3699d34e9821514395e07d5b06a4db3beff"
+    },
+    {
+      "bytes": 355,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/NEXT_REVIEW_PREP_ACTIONS.json",
+      "sha256": "2473857df2e64ba542959ad7d2b20edb302d2375ed90413cec107f13806e965e"
+    },
+    {
+      "bytes": 1198,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "3cac21a47bcf816eb7823646bab27a2af6cd11b431f82de11150b951e876d99d"
+    },
+    {
+      "bytes": 312,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "9eb9f8695a09bd4b119be5ce38ed016e771c497c274a00650c5e01e1af4e7cc0"
+    },
+    {
+      "bytes": 751,
+      "path": "publications/epoch4/main-citybrain-epoch4-internal-readiness-snapshot-no-session-r1/READINESS_GAP_REGISTER.json",
+      "sha256": "59298d58e5a9f63e9992bb93033492e030fc8c3c93623f7636dce832eca61a6a"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T17:20:59Z",
+  "status": "PASS"
+}

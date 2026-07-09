@@ -1,0 +1,39 @@
+{
+  "authority_boundary": "review_only_no_action",
+  "block_id": "check_v1_summary",
+  "claimability_statuses": [
+    "blocked_contradiction",
+    "blocked_insufficient_source_depth",
+    "blocked_raw_id_bypass",
+    "blocked_stale",
+    "claimable_with_limitations",
+    "downgraded_candidate_only",
+    "downgraded_proximity_only"
+  ],
+  "covered_rules": [
+    "candidate_only",
+    "contradiction",
+    "evidence_sufficiency",
+    "freshness",
+    "proximity_only",
+    "source_class",
+    "source_depth"
+  ],
+  "negative_fixture_count": 7,
+  "negative_fixtures_passed": true,
+  "official_truth_claim_created": false,
+  "positive_pipeline": {
+    "cer_entity": "cer:building:alpha",
+    "check_report": "check_v1:alpha:located_in",
+    "claimability_status": "claimable_with_limitations",
+    "seg_context": "seg_edge:alpha:located_in:downtown",
+    "source_record": "source_record:permit:alpha:2026-07-01"
+  },
+  "raw_ungrounded_graph_shortcuts_allowed": false,
+  "report_count": 7,
+  "source_refs": [
+    "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+    "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,38 @@
+{
+  "artifact_id": "SANDBOX_PROJECTION_PLAN",
+  "candidate_count": 50,
+  "eval_case_count": 12,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "remediation_execution",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/DATA_MATURITY_REMEDIATION_EXECUTION_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_EXECUTION_BATCH_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "remediation_plan",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1/REMEDIATION_EXECUTION_PLAN.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_corpus_index",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/PRODUCT_LOOP_EVAL_CORPUS_INDEX.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "eval_cases",
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1/EVAL_CASES_4_FAMILY.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "mutates_source_truth": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-CANDIDATE-SANDBOX-PROJECTION-R1",
+  "projection_mode": "sandbox_overlay_only",
+  "queue_count": 5,
+  "score_delta_claimed_as_fact": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

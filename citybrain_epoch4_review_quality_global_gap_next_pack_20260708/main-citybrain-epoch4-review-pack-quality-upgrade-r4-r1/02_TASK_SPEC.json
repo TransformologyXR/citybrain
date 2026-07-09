@@ -1,0 +1,15 @@
+{
+  "package_id": "MAIN_CITYBRAIN_EPOCH4_REVIEW_PACK_QUALITY_UPGRADE_R4_R1",
+  "created_for": "CityBrain Epoch 4 post deep-data-estate-audit review-quality/global-gap action",
+  "expected_status": "*_WITH_LIMITATIONS",
+  "prompt_file": "01_CODEX_PROMPT.md",
+  "forbidden_capabilities": [
+    "founder session fabrication",
+    "operator fuel",
+    "training rows",
+    "source truth mutation",
+    "live ingestion",
+    "forecast surface",
+    "official action/control/enforcement"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "artifact_id": "SYNTHETIC_DATA_FACTORY_AUDIT",
+  "comparison_count": 12,
+  "comparisons": [
+    {
+      "count_name": "main_acquisition_fuel_rows",
+      "evidence_ref": "sum(base_city_rows,mobility_depth_rows)",
+      "observed_count": 66737,
+      "reference_count": 66737,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "base_city_rows",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2-P0-FULL-PULL-AND-NORMALIZATION/SAMPLE_ROW_COUNTS_R2.csv",
+      "observed_count": 20631,
+      "reference_count": 20631,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "mobility_depth_rows",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2E-KEYED-MOBILITY-DEPTH-PULL/SAMPLE_ROW_COUNTS_R2E.csv",
+      "observed_count": 46106,
+      "reference_count": 46106,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "synthetic_seed_entities",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-DUBAI-SEED-R1/SEED_ENTITY_MANIFEST.json",
+      "observed_count": 144,
+      "reference_count": 144,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "combined_event_replay_rows",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 55,
+      "reference_count": 55,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "watch_fixtures",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 11,
+      "reference_count": 11,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "ask_fixtures",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 11,
+      "reference_count": 11,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "check_fixtures",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 11,
+      "reference_count": 11,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "brief_fixtures",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 11,
+      "reference_count": 11,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "spatial_fixtures",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 11,
+      "reference_count": 11,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "runtime_packet_fixtures",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1/PRODUCT_FEED_MANIFEST_R1.json",
+      "observed_count": 6,
+      "reference_count": 6,
+      "verification_status": "matched"
+    },
+    {
+      "count_name": "control_room_cards",
+      "evidence_ref": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D6-SERVED-CONTROL-ROOM-INTEGRATION-R1/D6_CONTROL_ROOM_CARD_INDEX_R1.jsonl",
+      "observed_count": 6,
+      "reference_count": 6,
+      "verification_status": "matched"
+    }
+  ],
+  "factory_roots": [
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-DUBAI-SEED-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D6-SERVED-CONTROL-ROOM-INTEGRATION-R1",
+    "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2-P0-FULL-PULL-AND-NORMALIZATION",
+    "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2E-KEYED-MOBILITY-DEPTH-PULL"
+  ],
+  "generated_at": "2026-07-08T09:24:24Z",
+  "limitations": [
+    "Counts are verified against local manifests and row-count ledgers; this audit does not recreate the factory.",
+    "Acquisition counts are source-manifest/sample-count backed, not live re-pulled."
+  ],
+  "matched_count": 12,
+  "status": "PASS_WITH_LIMITATIONS",
+  "truth_boundary": "Synthetic Dubai-like and donor mobility records are factory/replay/context only, not official Dubai truth."
+}

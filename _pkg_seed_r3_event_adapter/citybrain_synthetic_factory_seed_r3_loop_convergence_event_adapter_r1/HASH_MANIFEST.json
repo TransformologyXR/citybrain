@@ -1,0 +1,56 @@
+{
+  "created_at": "2026-07-08T00:00:00Z",
+  "file_count": 10,
+  "files": [
+    {
+      "bytes": 3005,
+      "path": "CODEX_HANDOFF.md",
+      "sha256": "2f9480b731545f53cf4115708f33dd903fda8f447d8983d7d995e0fdd6630653"
+    },
+    {
+      "bytes": 753,
+      "path": "PACKAGE_DECISION.json",
+      "sha256": "08ec69a2c206840686f088b8a422b5e7deb1720d680f1fff99dabb436de7b080"
+    },
+    {
+      "bytes": 3468,
+      "path": "README.md",
+      "sha256": "642621eb0c31242031684c5da57faca3f905dcda40b566a563ec9a000c34f50f"
+    },
+    {
+      "bytes": 136,
+      "path": "SECRET_SCAN_REPORT.json",
+      "sha256": "5902982bb0d8491bb3737a5206339e5f848501f6eb959c2c717b4bdadb7bac88"
+    },
+    {
+      "bytes": 1136,
+      "path": "docs/BOUNDARY_POLICY.md",
+      "sha256": "6305ff56b5d519e119fea77947f09693f5a3451f9a124352223dcab0132372e9"
+    },
+    {
+      "bytes": 913,
+      "path": "manifests/EXPECTED_OUTPUTS.json",
+      "sha256": "955355b5ee69fb6cb8cc94a7b4040eb3d8ebf4b74b59061e0e638d4a5956cc6b"
+    },
+    {
+      "bytes": 910,
+      "path": "manifests/INPUT_CONTRACT.json",
+      "sha256": "003c7a8ee4554a9ef6c15e6691ff89d5aaf6a9650891b2eef37bcfb0ca2a7e2a"
+    },
+    {
+      "bytes": 800,
+      "path": "prompts/CODEX_TASK_PROMPT.md",
+      "sha256": "fb7b20ea84c6893b97f56c494de2f83e6d0c528e13669564163aec7ccf60d943"
+    },
+    {
+      "bytes": 18348,
+      "path": "scripts/run_main_citybrain_synthetic_factory_seed_r3_loop_convergence_event_adapter_r1.py",
+      "sha256": "08f90fcbe08d4bf0be84af60438642175b9646c1841528717d19d9a4b63650d4"
+    },
+    {
+      "bytes": 2075,
+      "path": "tests/test_seed_r3_loop_convergence_event_adapter_package_static.py",
+      "sha256": "6b9e3646f687085c117fce952f096cc439a325d651009391d570af5d476fc587"
+    }
+  ]
+}

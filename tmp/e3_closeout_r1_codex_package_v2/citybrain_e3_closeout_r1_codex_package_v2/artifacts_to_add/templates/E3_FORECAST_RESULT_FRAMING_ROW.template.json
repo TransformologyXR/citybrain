@@ -1,0 +1,18 @@
+{
+  "artifact_id": "E3_FORECAST_RESULT_FRAMING_ROW",
+  "status": "ACCEPTED_LIMITED_RESULT",
+  "headline": "pipeline_validated_model_not_deployable",
+  "average_precision": {
+    "model": 0.191775,
+    "baseline_proxy": 0.107386,
+    "improvement_factor": 1.786
+  },
+  "brier": {
+    "model": 0.092531,
+    "baseline": 0.101772
+  },
+  "temporal_leakage_audit": "PASS",
+  "recall_at_fixed_precision": "weak",
+  "product_surface_armed": false,
+  "operator_facing_forecast_armed": false
+}

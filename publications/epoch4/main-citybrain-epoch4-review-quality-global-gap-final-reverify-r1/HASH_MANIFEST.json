@@ -1,0 +1,42 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 276,
+      "path": "CARD_READINESS_SUMMARY.json",
+      "sha256": "e4f7c6e8c8efcf05ee546267dfd6f8aa9ade7a9b1ae816bfcdfa29223d8f3c8f"
+    },
+    {
+      "bytes": 464,
+      "path": "GLOBAL_DATA_GAP_ROUTING_SUMMARY.json",
+      "sha256": "5cae1b6e4eb6f825b083bb50e904fd3af4efaaf52aceac4caaf3c9c7178ff789"
+    },
+    {
+      "bytes": 369,
+      "path": "NEXT_RECOMMENDED_MOVE.json",
+      "sha256": "78ec3cb2b78fc55d0777031f5f562b93554ba51f8b6fa57b1db14a20c13a13a8"
+    },
+    {
+      "bytes": 438,
+      "path": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "d33e4e8eb531c96dec0913dd927586541ac673e6a6c7b9a611f469d084dae156"
+    },
+    {
+      "bytes": 141,
+      "path": "NO_SESSION_NO_FUEL_REVERIFY.json",
+      "sha256": "bdefb07e5fe820ab6af2857a9d953b4501ab9f94b42a902af97150171782bc44"
+    },
+    {
+      "bytes": 135,
+      "path": "NO_SOURCE_TRUTH_MUTATION_REVERIFY.json",
+      "sha256": "7a9279de226b4f3727c250cb6ae6d901102a98646bbb267fa51bf1b191536b44"
+    },
+    {
+      "bytes": 954,
+      "path": "REVIEW_QUALITY_GLOBAL_GAP_FINAL_DECISION.json",
+      "sha256": "81998f74f0da3d5adbfc0c8f1d41ba8ed5766e1f4d181672b5e9d4ecfe1fb9dc"
+    }
+  ],
+  "file_count": 7,
+  "status": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "required_outputs": [
+    "R2E_MASTER_DECISION.json",
+    "SOURCE_STATUS_LEDGER_R2E.csv",
+    "DEPTH_PULL_REPORT_R2E.json",
+    "DOMAIN_FEED_MANIFEST_R2E.json",
+    "RAW_EXTERNAL_CHECKSUM_MANIFEST_R2E.json",
+    "SAMPLE_ROW_COUNTS_R2E.csv",
+    "NORMALIZED_MOBILITY_DONOR_SAMPLE_R2E.jsonl",
+    "HTTP_CLIENT_POLICY_REPORT_R2E.json",
+    "SECRET_SCAN_REPORT_R2E.json",
+    "KNOWN_BLOCKERS_RUNTIME_R2E.md",
+    "CODEX_CLOSEOUT.md"
+  ],
+  "no_raw_payloads_in_package": true,
+  "external_raw_root_expected": "C:/data/citybrain/raw/keyed_mobility_r2e",
+  "no_mutation_inputs": [
+    "R2",
+    "R2A",
+    "R2B",
+    "SYNTHETIC_FACTORY_DUBAI_SEED_R1"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "artifact_id": "INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_DECISION",
+  "control_family": "mobility_access_interruption",
+  "forbidden_capabilities_created": [],
+  "forecast_packet_created": false,
+  "hash_manifest_verified": true,
+  "human_session_fabricated": false,
+  "official_action_created": false,
+  "operator_fuel_captured": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-INCIDENT-PLAN-THREE-FAMILY-PRODUCT-LOOP-R1",
+  "parallel_execution_used": false,
+  "product_forecast_surface_created": false,
+  "raw_id_bypass": false,
+  "selected_families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "selected_family_count": 3,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_R1_WITH_LIMITATIONS"
+}

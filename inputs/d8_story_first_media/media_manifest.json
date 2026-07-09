@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-07-02T07:55:18.142130+00:00",
+  "media": [
+    {
+      "beats_covered": [
+        "human_review_stop",
+        "limitations_boundary"
+      ],
+      "boundary_visible": true,
+      "bytes": 74202,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/limitations_boundary.png",
+      "limitations_visible": true,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "4142ddb1ef4fef968ffc55650adeee3e65ccee7ec42d4627a762f5b389ce74ad",
+      "source_records_visible": [
+        "EV asset 87",
+        "TIMS-210389",
+        "TIMS-219173"
+      ],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    },
+    {
+      "beats_covered": [
+        "review_options",
+        "human_review_stop"
+      ],
+      "boundary_visible": true,
+      "bytes": 77843,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/review_options_and_stop.png",
+      "limitations_visible": true,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "e86f3eba2c2d006de937a0ae98f56b89aac350ad41b089bfc1eae685f1c0dfe9",
+      "source_records_visible": [],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    },
+    {
+      "beats_covered": [
+        "tims_records",
+        "ev_asset_87"
+      ],
+      "boundary_visible": false,
+      "bytes": 97767,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/tims_records_and_ev_asset_87.png",
+      "limitations_visible": false,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "9e09a8e3077a4b15eeacef7246761b923a1323fcaa1ec6a0b1cf0fecfd5d79f7",
+      "source_records_visible": [
+        "EV asset 87",
+        "TIMS-210389",
+        "TIMS-219173"
+      ],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    },
+    {
+      "beats_covered": [
+        "wood_lane_story_overview",
+        "tims_records"
+      ],
+      "boundary_visible": true,
+      "bytes": 76559,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/wood_lane_story_beats.png",
+      "limitations_visible": true,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "fdca1aa9b5c274abd9899f70f07bcf7e1e5cafeaca8270324d8064e7f8648d10",
+      "source_records_visible": [
+        "EV asset 87",
+        "TIMS-210389",
+        "TIMS-219173"
+      ],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    },
+    {
+      "beats_covered": [
+        "wood_lane_story_overview",
+        "limitations_boundary"
+      ],
+      "boundary_visible": true,
+      "bytes": 176216,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/wood_lane_story_full_page.png",
+      "limitations_visible": true,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "38cb495c525f19fde2a5451bc7a802c725ea0957bacdc0f36999bc0fe26c5b9a",
+      "source_records_visible": [
+        "EV asset 87",
+        "TIMS-210389",
+        "TIMS-219173"
+      ],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    },
+    {
+      "beats_covered": [
+        "wood_lane_story_overview"
+      ],
+      "boundary_visible": true,
+      "bytes": 76668,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/wood_lane_story_overview.png",
+      "limitations_visible": true,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "6116aa153be012603da31f5e23168e52ccfc2cbf6b16b4ec133739192aec7432",
+      "source_records_visible": [
+        "EV asset 87",
+        "TIMS-210389",
+        "TIMS-219173"
+      ],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    },
+    {
+      "beats_covered": [
+        "wood_lane_story_overview",
+        "human_review_stop",
+        "limitations_boundary"
+      ],
+      "boundary_visible": true,
+      "bytes": 85996,
+      "claim_labels_visible": true,
+      "file": "inputs/d8_story_first_media/wood_lane_story_title_and_boundary.png",
+      "limitations_visible": true,
+      "reviewer_notes": "Captured from local rendered story-first web UI; no viewer record is implied.",
+      "sha256": "c0b8b3077a3d9b3e2e946d694f2f88ef44a8afec1a6a57cca64df0e31caad63c",
+      "source_records_visible": [
+        "EV asset 87",
+        "TIMS-210389",
+        "TIMS-219173"
+      ],
+      "story_id": "story:lon:wood_lane_ev_access_review",
+      "surface": "web-control-room",
+      "type": "screenshot"
+    }
+  ],
+  "media_count": 7,
+  "story_id": "story:lon:wood_lane_ev_access_review"
+}

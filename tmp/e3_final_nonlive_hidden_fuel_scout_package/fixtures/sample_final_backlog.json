@@ -1,0 +1,18 @@
+[
+  {
+    "item_id": "final-scout:l4:case-stub-content-verification",
+    "source_lane": "A",
+    "priority": "P0",
+    "classification": "closeout_affecting",
+    "recommendation": "Verify L4 candidate content before any future materialization.",
+    "reason": "Prior scout lineage was path_or_name_lineage_only."
+  },
+  {
+    "item_id": "final-scout:check:descriptive-scorecard",
+    "source_lane": "B",
+    "priority": "P1",
+    "classification": "epoch4_backlog",
+    "recommendation": "Build descriptive CHECK scorecard after closeout if needed.",
+    "reason": "Operator-resolved pairs are not available."
+  }
+]

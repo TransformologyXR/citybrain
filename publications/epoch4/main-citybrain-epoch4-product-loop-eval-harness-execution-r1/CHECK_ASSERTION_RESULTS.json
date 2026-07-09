@@ -1,0 +1,212 @@
+{
+  "artifact_id": "CHECK_ASSERTION_RESULTS",
+  "assertion_count": 12,
+  "pass_count": 12,
+  "results": [
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "outcome": "sufficient_for_review"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "expected": {
+        "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "expected_outcome": "sufficient_for_review",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "outcome": "downgrade_source_depth"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "expected": {
+        "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "expected_outcome": "downgrade_source_depth",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "outcome": "contradiction"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "expected": {
+        "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+        "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+        "expected_outcome": "contradiction",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+        "outcome": "sufficient_for_review"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "expected": {
+        "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+        "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+        "expected_outcome": "sufficient_for_review",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+        "outcome": "downgrade_source_depth"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "expected": {
+        "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+        "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+        "expected_outcome": "downgrade_source_depth",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+        "outcome": "contradiction"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "expected": {
+        "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+        "check_ref": "check:v1:building_compliance_perception_candidate:stress_eval",
+        "expected_outcome": "contradiction",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+        "outcome": "sufficient_for_review"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "expected": {
+        "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+        "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+        "expected_outcome": "sufficient_for_review",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+        "outcome": "downgrade_source_depth"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "expected": {
+        "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+        "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+        "expected_outcome": "downgrade_source_depth",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+        "outcome": "contradiction"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "expected": {
+        "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+        "check_ref": "check:v1:permit_inspection_delay:stress_eval",
+        "expected_outcome": "contradiction",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+        "outcome": "sufficient_for_review"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "expected": {
+        "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+        "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+        "expected_outcome": "sufficient_for_review",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+        "outcome": "downgrade_source_depth"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "expected": {
+        "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+        "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+        "expected_outcome": "downgrade_source_depth",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "candidate_or_downgrade_boundary_preserved": true,
+        "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+        "outcome": "contradiction"
+      },
+      "artifact_type": "CHECK",
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "expected": {
+        "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+        "check_ref": "check:v1:city_asset_infrastructure_issue:stress_eval",
+        "expected_outcome": "contradiction",
+        "must_preserve_candidate_or_downgrade_boundary": true
+      },
+      "gap": null,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

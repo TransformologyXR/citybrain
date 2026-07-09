@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "action": "Classify unknown source_class for high-value consumed sources",
+      "expected_effect": "CHECK/CER source-class clarity",
+      "rank": 1
+    },
+    {
+      "action": "Add freshness metadata overlays from source manifests",
+      "expected_effect": "claimability and stale downgrade clarity",
+      "rank": 2
+    },
+    {
+      "action": "Route missing geometry sources to source-specific spatial join review",
+      "expected_effect": "SPATIAL/CER coverage",
+      "rank": 3
+    },
+    {
+      "action": "Map no-consuming-flow sources to candidate product modes",
+      "expected_effect": "SourceRegistry utility and coverage",
+      "rank": 4
+    }
+  ],
+  "status": "PASS"
+}

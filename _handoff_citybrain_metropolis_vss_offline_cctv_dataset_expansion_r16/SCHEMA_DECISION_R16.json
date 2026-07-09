@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Offline CCTV Dataset Expansion R16 Decision",
+  "type": "object",
+  "required": [
+    "task_id",
+    "status",
+    "selected_dataset",
+    "license_gate",
+    "source_type",
+    "replay_mode",
+    "source_class_policy",
+    "boundary",
+    "acceptance"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-OFFLINE-CCTV-DATASET-EXPANSION-R16"
+    },
+    "status": {
+      "type": "string"
+    },
+    "selected_dataset": {
+      "type": "object"
+    },
+    "license_gate": {
+      "type": "object"
+    },
+    "source_type": {
+      "enum": [
+        "fixed_cctv_video",
+        "fixed_cctv_image_replay",
+        "dashcam_video",
+        "surveillance_video",
+        "not_selected"
+      ]
+    },
+    "replay_mode": {
+      "enum": [
+        "offline_video_replay",
+        "offline_frame_replay",
+        "offline_external_media_ref",
+        "not_run"
+      ]
+    },
+    "source_class_policy": {
+      "type": "object"
+    },
+    "boundary": {
+      "type": "object"
+    },
+    "acceptance": {
+      "type": "object"
+    }
+  }
+}

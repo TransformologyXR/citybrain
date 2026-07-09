@@ -1,0 +1,48 @@
+{
+  "json_files_checked": 10,
+  "results": [
+    {
+      "file": "CROSS_HOST_PAYLOAD_CONTRACT_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "HOST_ALLOCATION_AUDIT_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "R7_READINESS_GATE_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "RUNTIME_HOST_ALLOCATION_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_HOST_ALLOCATION_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_R7_READINESS_GATE_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SCHEMA_SPARK_VSS_CONNECTIVITY_PROBE_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SPARK_VSS_CONNECTIVITY_PROBE_CONTRACT_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "SPARK_VSS_RUNTIME_CONFIG_TEMPLATE_R6D.json",
+      "status": "PASS"
+    },
+    {
+      "file": "STATUS_ENUMS_R6D.json",
+      "status": "PASS"
+    }
+  ],
+  "schema_version": "metropolis-vss-spark-split-host-readiness-r6d.v1",
+  "status": "PASS",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPARK-SPLIT-HOST-READINESS-R6D"
+}

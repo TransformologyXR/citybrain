@@ -1,0 +1,21 @@
+{
+  "artifact_id": "HUMAN_REVIEW_PILOT_DECISION",
+  "fabricated_human_sessions_created": false,
+  "forbidden_capabilities_created": [],
+  "hash_manifest_verified": true,
+  "human_sessions_pending": true,
+  "learned_arming_created": false,
+  "operator_fuel_captured": false,
+  "package_id": "MAIN_CITYBRAIN_EPOCH4_SPRINT4_HUMAN_REVIEW_PILOT_FUEL_CAPTURE_R1",
+  "parallel_execution_used": false,
+  "pilot_ready": true,
+  "prerequisite": {
+    "exists": true,
+    "label": "sprint3",
+    "ok": true,
+    "path": "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_PLAN_PRODUCT_LOOP_DECISION.json",
+    "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT3_INCIDENT_PLAN_PRODUCT_LOOP_R1_WITH_LIMITATIONS"
+  },
+  "real_sessions_imported": 0,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT4_HUMAN_REVIEW_PILOT_FUEL_CAPTURE_R1_WITH_LIMITATIONS"
+}

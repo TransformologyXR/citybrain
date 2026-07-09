@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-07-04T10:46:25.789847Z",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "size_bytes": 951,
+      "sha256": "eb436fd848b3e0788dbfa037e86f24eaecaa35897f2a758d56f7506d176695c3"
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "size_bytes": 809,
+      "sha256": "8764deb5e39ed5556fc197e66cafdfd282b946d548032974526ea0bc643bd876"
+    },
+    {
+      "path": "CAMERA_SOURCE_REGISTRY_PROVENANCE_R14.md",
+      "size_bytes": 828,
+      "sha256": "4337da9effa52b762a1847eec529c982bf792c5ca79c534bd27659472a44e763"
+    },
+    {
+      "path": "DATASET_SOURCE_CANDIDATES_R10.json",
+      "size_bytes": 1090,
+      "sha256": "e7df47bb2d03fe73746050fcabc7f1a2e0715f21afa924518fdc8eadc4901b9c"
+    },
+    {
+      "path": "DEEPSTREAM_EVIDENCE_FRAME_EXPORT_R10.md",
+      "size_bytes": 821,
+      "sha256": "259171f88460c770f3ac67dd8bb073e64d1fe89d8baf8ea01ac70f3960cd23be"
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "size_bytes": 2601,
+      "sha256": "d5183efb78460e93e94de7ecccea560f8a681a9429fe9136785e3939d2a42ff8"
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "size_bytes": 266,
+      "sha256": "b7105c9d065e4d9e5118f525f99357c22a97b27e2c76bce2cfb7281ff3030ec8"
+    },
+    {
+      "path": "HUMAN_REVIEW_UI_PACKET_R13.md",
+      "size_bytes": 575,
+      "sha256": "273ac888e9868059a308748f18a322f7d9900cf17c05562fca5a7805fdf086fd"
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "size_bytes": 858,
+      "sha256": "fb63e46f6b74648ccc66ab3357dcb3f0b192f86c77c723da67733987e3e13754"
+    },
+    {
+      "path": "KNOWN_LIMITATIONS_TEMPLATE_R15.md",
+      "size_bytes": 543,
+      "sha256": "12798377e76d6960e1f742bae09fc98b2e8f86e591211566f61812d1d4f834b6"
+    },
+    {
+      "path": "LIVE_RTSP_INFRA_PREP_R11.md",
+      "size_bytes": 827,
+      "sha256": "fc6c70a40d88c845968de41ae9d14bed2f7e310cd968c1c3756e1af89f27311b"
+    },
+    {
+      "path": "MULTI_ZONE_MULTI_CLASS_R12.md",
+      "size_bytes": 782,
+      "sha256": "0fbecd3ddfd5f2b2c0d0ec44f992ab9a074cb8eae5aa98eb80ec6abdbec7481d"
+    },
+    {
+      "path": "NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R15.md",
+      "size_bytes": 465,
+      "sha256": "1859200e52a547364914cf67b4003466eaf4d624a9e3bd6992f1bbcce55847bc"
+    },
+    {
+      "path": "OFFLINE_VIDEO_SOURCE_SCOUT_R10.md",
+      "size_bytes": 1805,
+      "sha256": "893c9b87a3603cdcfa5e93ddbba00da96aa01283b4b7ada117859cd14264f877"
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "size_bytes": 1151,
+      "sha256": "964ace681fdf14421f68824cea4386cf15e270a55ce18fee9ae8ba25679c28ed"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 924,
+      "sha256": "dfc86deb0ab71a137aacdb01e35f66ab2ebe210cb2abb5c358c685a4a1b1a5ec"
+    },
+    {
+      "path": "ROADMAP_R10_R15.md",
+      "size_bytes": 2347,
+      "sha256": "5c467beec01fec315e60d2d92a8e03b72a52ac6219d1c0277a8d9c11b8be9088"
+    },
+    {
+      "path": "SCHEMA_CAMERA_SOURCE_REGISTRY_R14.json",
+      "size_bytes": 1218,
+      "sha256": "6872e80a4bd55295fb32d22d7d331cd4311db3461d751dc7c6b2a6cd957435ac"
+    },
+    {
+      "path": "SCHEMA_HUMAN_REVIEW_UI_PACKET_R13.json",
+      "size_bytes": 798,
+      "sha256": "10b61fbf76ca061e55b98b53aabbb1ddefa32934cffa20e4e2d78ff41dd05177"
+    },
+    {
+      "path": "SCHEMA_SPRINT_DECISION_R15.json",
+      "size_bytes": 872,
+      "sha256": "4fc32776679029e9c014fe6555f6d3e1e4f135a82813731165410ef10d7de7ea"
+    },
+    {
+      "path": "SECRET_ROTATION_REMINDER.md",
+      "size_bytes": 347,
+      "sha256": "6de6bcd9a6a4172c896f27630171a677edf125e3820d3a30d25f1b4e13645059"
+    },
+    {
+      "path": "SPEC.md",
+      "size_bytes": 2505,
+      "sha256": "250a2d2ae26f5b194611231ff0d29740bbc6275af9406f969a3ad693d0aaaaa0"
+    },
+    {
+      "path": "STATUS_ENUMS_R10_R15.json",
+      "size_bytes": 1002,
+      "sha256": "17b9d10638156e52de0920687d789db4877f412eb58f8e71cf533da8f00b39cf"
+    }
+  ]
+}

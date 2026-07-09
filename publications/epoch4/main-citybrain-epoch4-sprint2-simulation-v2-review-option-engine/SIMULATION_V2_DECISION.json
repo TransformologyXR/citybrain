@@ -1,0 +1,14 @@
+{
+  "artifact_id": "SIMULATION_V2_DECISION",
+  "consumes_supersedes": "Simulation Repair R1.1 consumed/superseded for future simulation work",
+  "forbidden_capabilities_created": [],
+  "forecast_packet_created": false,
+  "hash_manifest_verified": true,
+  "model_training_created": false,
+  "package_id": "MAIN_CITYBRAIN_EPOCH4_SPRINT2_SIMULATION_V2_REVIEW_OPTION_ENGINE",
+  "parallel_execution_used": false,
+  "product_forecast_surface_created": false,
+  "requires_sprint0": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT2_SIMULATION_V2_REVIEW_OPTION_ENGINE_WITH_LIMITATIONS",
+  "uses_sprint1_event_state": true
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_id": "REMEDIATION_CANDIDATE_REVERIFY",
+  "candidate_count": 50,
+  "candidate_count_minimum_met": true,
+  "candidate_statuses": [
+    "proposed_candidate_only"
+  ],
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_EXECUTION_BATCH_R1_WITH_LIMITATIONS",
+  "mutating_candidates": [],
+  "new_maturity_score_claimed": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

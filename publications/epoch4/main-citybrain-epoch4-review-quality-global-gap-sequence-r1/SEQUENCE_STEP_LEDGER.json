@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "name": "Review Pack Quality Upgrade R4/R5",
+      "output_root": "outputs\\main_citybrain_epoch4_review_pack_quality_upgrade_r4_r1",
+      "status": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+      "step": 1
+    },
+    {
+      "name": "Data Estate Gap Routing R1",
+      "output_root": "outputs\\main_citybrain_epoch4_data_estate_gap_routing_r1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_ESTATE_GAP_ROUTING_R1_WITH_LIMITATIONS",
+      "step": 2
+    },
+    {
+      "name": "Final Reverify",
+      "output_root": "outputs\\main_citybrain_epoch4_review_quality_global_gap_final_reverify_r1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_QUALITY_GLOBAL_GAP_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step": 3
+    }
+  ]
+}

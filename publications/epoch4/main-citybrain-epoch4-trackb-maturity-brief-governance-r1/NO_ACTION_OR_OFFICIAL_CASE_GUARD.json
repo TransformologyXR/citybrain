@@ -1,0 +1,18 @@
+{
+  "artifact_id": "NO_ACTION_OR_OFFICIAL_CASE_GUARD",
+  "capability_created": false,
+  "generated_artifact_risky_findings": [],
+  "status": "PASS",
+  "terms": [
+    "alerting",
+    "dispatch",
+    "enforcement",
+    "official case",
+    "official ticket",
+    "certified finding",
+    "legal conclusion",
+    "legal finding",
+    "autonomous action",
+    "routing execution"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "forbidden_claims": [
+    "confirmed violation",
+    "legal finding",
+    "certified finding",
+    "identity inferred",
+    "biometric",
+    "official case",
+    "official ticket",
+    "dispatch",
+    "route command",
+    "control command",
+    "enforcement",
+    "automated action"
+  ],
+  "required_phrases_or_equivalents": [
+    "candidate observation",
+    "human review required",
+    "VSS is model-generated narrative only",
+    "not a fact source"
+  ],
+  "schema_version": "metropolis-vss-runtime-configuration-guardrails-r6.v1",
+  "secret_redaction_terms": [
+    "token",
+    "api_key",
+    "apikey",
+    "password",
+    "secret",
+    "bearer",
+    "authorization",
+    "x-api-key"
+  ],
+  "task_name": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-CONFIGURATION-AND-CONNECTIVITY-R6"
+}

@@ -1,0 +1,35 @@
+{
+  "artifact_id": "CER_CHECK_EVENT_STRESS_EVAL_SUMMARY",
+  "cer_outcome_counts": {
+    "ambiguous": 96,
+    "candidate_only": 96,
+    "conflict": 96,
+    "resolved": 96,
+    "unresolved": 96
+  },
+  "check_outcome_counts": {
+    "candidate_only": 80,
+    "contradiction": 80,
+    "downgrade_freshness": 80,
+    "downgrade_source_class": 80,
+    "downgrade_source_depth": 80,
+    "sufficient_for_review": 80
+  },
+  "family_count": 4,
+  "fixture_count": 480,
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "event_fabric_v2_5",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_5_long_history_load_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_5_LONG_HISTORY_LOAD_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "sprint0_check_cer",
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,69 @@
+{
+  "artifact_id": "PRODUCT_LOOP_REGRESSION_HARNESS_R2_REPORT",
+  "deterministic": true,
+  "family_count": 4,
+  "selected_product_loop_family_count": 3,
+  "status": "PASS_WITH_LIMITATIONS",
+  "tests": [
+    {
+      "families": [
+        "mobility_access_interruption",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "status": "PASS",
+      "test_id": "event_replay_v2_5_deterministic"
+    },
+    {
+      "families": [
+        "mobility_access_interruption",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "status": "PASS",
+      "test_id": "option_evidence_schema_parity"
+    },
+    {
+      "families": [
+        "mobility_access_interruption",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "status": "PASS",
+      "test_id": "check_refs_present"
+    },
+    {
+      "families": [
+        "mobility_access_interruption",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "status": "PASS",
+      "test_id": "brief_packet_refs_present"
+    },
+    {
+      "families": [
+        "mobility_access_interruption",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "status": "PASS",
+      "test_id": "spatial_refs_present"
+    },
+    {
+      "families": [
+        "mobility_access_interruption",
+        "building_compliance_perception_candidate",
+        "permit_inspection_delay",
+        "city_asset_infrastructure_issue"
+      ],
+      "status": "PASS",
+      "test_id": "governance_guards_clean"
+    }
+  ]
+}

@@ -1,0 +1,1164 @@
+{
+  "artifact_id": "BRIEF_V3_VARIANTS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "variants": {
+    "executive": {
+      "emphasis": "concise maturity and risk narrative with non-claims",
+      "evidence_signature": "b514353b5d938ad7",
+      "no_action_boundary": "review_only_no_action",
+      "packet_id": "brief_v3:founder_review:mobility_access_interruption",
+      "sections": {
+        "cannot_claim": {
+          "block_id": "cannot_claim",
+          "claims": [
+            "No production or public API claim.",
+            "No live monitoring, alerting, dispatch, routing, control, enforcement, or automated action.",
+            "No official ticket, case, citation, inspection, legal finding, or certified finding is created.",
+            "No citywide certified twin or certified physical geometry claim.",
+            "No forecast model, learned ranking, counterfactual learner, case-memory learner, or dynamic investigation agent.",
+            "No recommendation authority; review options remain human-owned and may be abstained from.",
+            "No source record is converted into official truth without CHECK/CER review boundaries."
+          ],
+          "legal_or_certified_finding_created": false,
+          "official_action_created": false,
+          "production_live_monitoring_created": false,
+          "status": "PASS",
+          "ui_polish_performed": false
+        },
+        "check_v1_summary": {
+          "authority_boundary": "review_only_no_action",
+          "block_id": "check_v1_summary",
+          "claimability_statuses": [
+            "blocked_contradiction",
+            "blocked_insufficient_source_depth",
+            "blocked_raw_id_bypass",
+            "blocked_stale",
+            "claimable_with_limitations",
+            "downgraded_candidate_only",
+            "downgraded_proximity_only"
+          ],
+          "covered_rules": [
+            "candidate_only",
+            "contradiction",
+            "evidence_sufficiency",
+            "freshness",
+            "proximity_only",
+            "source_class",
+            "source_depth"
+          ],
+          "negative_fixture_count": 7,
+          "negative_fixtures_passed": true,
+          "official_truth_claim_created": false,
+          "positive_pipeline": {
+            "cer_entity": "cer:building:alpha",
+            "check_report": "check_v1:alpha:located_in",
+            "claimability_status": "claimable_with_limitations",
+            "seg_context": "seg_edge:alpha:located_in:downtown",
+            "source_record": "source_record:permit:alpha:2026-07-01"
+          },
+          "raw_ungrounded_graph_shortcuts_allowed": false,
+          "report_count": 7,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "event_state": {
+          "active_event_count": 2,
+          "active_events": [
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:e7fde36f5a07",
+              "event_type": "mobility.access_interruption.update",
+              "evidence_refs": [
+                "evidence:inspection:alpha"
+              ],
+              "payload_keys": [
+                "access_state",
+                "late_arrival"
+              ],
+              "review_state": "candidate_reviewed",
+              "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:beta:candidate_only"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:72f151d0679f",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:registry:beta"
+              ],
+              "payload_keys": [
+                "access_state"
+              ],
+              "review_state": "review_required",
+              "source_record_ref": "source_record:registry:beta:2026-05-01"
+            }
+          ],
+          "authority_boundary": "review_only_no_action",
+          "block_id": "event_state",
+          "counts": {
+            "active": 2,
+            "duplicates": 1,
+            "historical": 4,
+            "quarantined": 1,
+            "superseded": 1,
+            "unresolved_or_candidate": 1
+          },
+          "materialized_at": "2026-07-07T12:38:35Z",
+          "query_smoke_status": "PASS",
+          "query_types": [
+            "active_near_entity",
+            "events_by_entity",
+            "unresolved_events",
+            "quarantine",
+            "event_trace"
+          ],
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json"
+          ],
+          "state_id": "event_state_v2_mobility_access_interruption",
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "limitations": {
+          "block_id": "limitations",
+          "human_sessions_pending": true,
+          "limitations": [
+            "human review sessions remain pending",
+            "production live monitoring absent",
+            "simulation remains fixture-only",
+            "no product forecast authority",
+            "Packet polish only; UI polish is intentionally deferred.",
+            "Founder-review packet uses local/replay artifacts and existing publications.",
+            "Human review pilot sessions remain pending.",
+            "Simulation remains fixture-only and not calibrated.",
+            "Review options are presentable but not recommendations."
+          ],
+          "pilot_ready": true,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+            "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "no_action_boundary": "review_only_no_action",
+        "review_options": {
+          "abstain_option": {
+            "available": true,
+            "option_id": "abstain:no_safe_option"
+          },
+          "block_id": "review_options",
+          "option_set_id": "plan_option_set:mobility_access:alpha",
+          "options": [
+            {
+              "assumptions": [
+                "requires human review",
+                "fixture-only"
+              ],
+              "claim_boundary": "review_only_no_action",
+              "feasible": true,
+              "metrics": {
+                "access_delay_minutes": 22,
+                "delta_vs_baseline_minutes": -10
+              },
+              "option_id": "option:staggered_access_window",
+              "scenario_id": "mobility_access_interruption_review_option_v2",
+              "tradeoffs": [
+                "longer pedestrian wait"
+              ]
+            },
+            {
+              "assumptions": [
+                "route availability fixture-only"
+              ],
+              "claim_boundary": "review_only_no_action",
+              "feasible": true,
+              "metrics": {
+                "access_delay_minutes": 26,
+                "delta_vs_baseline_minutes": -6
+              },
+              "option_id": "option:temporary_detour_guidance",
+              "scenario_id": "mobility_access_interruption_review_option_v2",
+              "tradeoffs": [
+                "detour spillover uncertain"
+              ]
+            }
+          ],
+          "recommendation_authority": false,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "simulation_assumptions": {
+          "abstain_available": true,
+          "assumptions": [
+            "fixture-only demand",
+            "static access penalty",
+            "no production calibration"
+          ],
+          "baseline": "do_nothing_hold_access_constraint",
+          "best_fixture_delta_option": "option:staggered_access_window",
+          "block_id": "simulation_assumptions",
+          "comparison_status": "PASS_WITH_LIMITATIONS",
+          "event_family": "mobility_access_interruption_v0",
+          "limitations": [
+            "not a forecast",
+            "not dispatch/control",
+            "not calibrated",
+            "fixture-only simulation; not a forecast"
+          ],
+          "recommendation_authority": false,
+          "review_options": [
+            "staggered_access_window",
+            "temporary_detour_guidance"
+          ],
+          "scenario_id": "mobility_access_interruption_review_option_v2",
+          "source_class": "replay",
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "source_record_appendix": {
+          "block_id": "source_record_appendix",
+          "missing_source_artifacts": [],
+          "record_count": 3,
+          "records": [
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:592899f65e66",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:permit:alpha:100a"
+              ],
+              "observed_at": "2026-07-07T08:00:20Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:alpha_access:001",
+              "source_record_ref": "source_record:permit:alpha:2026-07-01"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:e7fde36f5a07",
+              "event_type": "mobility.access_interruption.update",
+              "evidence_refs": [
+                "evidence:inspection:alpha"
+              ],
+              "observed_at": "2026-07-07T07:55:45Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:alpha_access:002",
+              "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:beta:candidate_only"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:72f151d0679f",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:registry:beta"
+              ],
+              "observed_at": "2026-07-07T09:01:00Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:beta_access:001",
+              "source_record_ref": "source_record:registry:beta:2026-05-01"
+            }
+          ],
+          "source_artifact_refs": [
+            {
+              "bytes": 765,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+              "sha256": "d799c66f0ca30454e1608ecce1ebb5b9ec1150a190a547736d1ceaba5c4f664e",
+              "source_key": "check_v1_engine_report"
+            },
+            {
+              "bytes": 604,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json",
+              "sha256": "c2c4b37dbe05d4ebcaccd4c928cf0e8f4bb5a4bdc2cf6ccc13a7e5b17b96e492",
+              "source_key": "check_v1_trust_gate"
+            },
+            {
+              "bytes": 6518,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+              "sha256": "fd210b7142d8b7713dbdaede7eef1be1f3284d1ca644931174f8be333498a597",
+              "source_key": "event_state_v2"
+            },
+            {
+              "bytes": 239,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json",
+              "sha256": "1367217131c152536bb638f9619ec041f4debc6519b5a4e203b9939b51b7b95f",
+              "source_key": "event_query_smoke"
+            },
+            {
+              "bytes": 877,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+              "sha256": "961e206d8ed6ce419d012e1ae0ad6c3eec235f04f451994073085a07ad747f81",
+              "source_key": "simulation_scenario_catalog_v2"
+            },
+            {
+              "bytes": 410,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+              "sha256": "bc4a653bde721f130f40989c0a5cf31f8e9a613e3cb04735794e48a37f11ed3e",
+              "source_key": "simulation_option_comparison"
+            },
+            {
+              "bytes": 546,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+              "sha256": "456a5dd9897591611275722ded30646769a22faf93fa883c3253b0a6c3fd7d0f",
+              "source_key": "incident_review_packet"
+            },
+            {
+              "bytes": 1370,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json",
+              "sha256": "5ce654eb5f75a4a27c7b1be2484ca95efec323f08ec6a8086336310001ecec18",
+              "source_key": "plan_option_set"
+            },
+            {
+              "bytes": 876,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+              "sha256": "50381f6a1749bd1069b6378d114d5ceaca80938f703f667e7e710543dff99f83",
+              "source_key": "human_review_pilot_decision"
+            },
+            {
+              "bytes": 663,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json",
+              "sha256": "885445125bf7b6ec02c69be1d2648a85b56194c6e2dbbda93ca8dcafcb8fa9e5",
+              "source_key": "epoch4_final_decision"
+            }
+          ],
+          "status": "PASS",
+          "truth_boundary": "Source records remain evidence inputs; CHECK/CER boundaries govern claimability."
+        },
+        "spatial_references": {
+          "block_id": "spatial_references",
+          "cer_entity_refs": [
+            "cer:building:alpha",
+            "cer:building:beta_candidate"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:located_in",
+            "check_v1:beta:candidate_only"
+          ],
+          "citywide_twin_claim": false,
+          "event_state_ref": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+          "geometry_certified": false,
+          "seg_context_refs": [
+            "seg_edge:alpha:located_in:downtown"
+          ],
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json"
+          ],
+          "spatial_overlay_kind": "CER/SEG reference only",
+          "status": "PASS_WITH_LIMITATIONS"
+        }
+      },
+      "status": "PASS_WITH_LIMITATIONS",
+      "variant_id": "brief_v3:executive",
+      "variant_kind": "executive"
+    },
+    "operator": {
+      "emphasis": "what a reviewer can inspect next without action authority",
+      "evidence_signature": "b514353b5d938ad7",
+      "no_action_boundary": "review_only_no_action",
+      "packet_id": "brief_v3:founder_review:mobility_access_interruption",
+      "sections": {
+        "cannot_claim": {
+          "block_id": "cannot_claim",
+          "claims": [
+            "No production or public API claim.",
+            "No live monitoring, alerting, dispatch, routing, control, enforcement, or automated action.",
+            "No official ticket, case, citation, inspection, legal finding, or certified finding is created.",
+            "No citywide certified twin or certified physical geometry claim.",
+            "No forecast model, learned ranking, counterfactual learner, case-memory learner, or dynamic investigation agent.",
+            "No recommendation authority; review options remain human-owned and may be abstained from.",
+            "No source record is converted into official truth without CHECK/CER review boundaries."
+          ],
+          "legal_or_certified_finding_created": false,
+          "official_action_created": false,
+          "production_live_monitoring_created": false,
+          "status": "PASS",
+          "ui_polish_performed": false
+        },
+        "check_v1_summary": {
+          "authority_boundary": "review_only_no_action",
+          "block_id": "check_v1_summary",
+          "claimability_statuses": [
+            "blocked_contradiction",
+            "blocked_insufficient_source_depth",
+            "blocked_raw_id_bypass",
+            "blocked_stale",
+            "claimable_with_limitations",
+            "downgraded_candidate_only",
+            "downgraded_proximity_only"
+          ],
+          "covered_rules": [
+            "candidate_only",
+            "contradiction",
+            "evidence_sufficiency",
+            "freshness",
+            "proximity_only",
+            "source_class",
+            "source_depth"
+          ],
+          "negative_fixture_count": 7,
+          "negative_fixtures_passed": true,
+          "official_truth_claim_created": false,
+          "positive_pipeline": {
+            "cer_entity": "cer:building:alpha",
+            "check_report": "check_v1:alpha:located_in",
+            "claimability_status": "claimable_with_limitations",
+            "seg_context": "seg_edge:alpha:located_in:downtown",
+            "source_record": "source_record:permit:alpha:2026-07-01"
+          },
+          "raw_ungrounded_graph_shortcuts_allowed": false,
+          "report_count": 7,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "event_state": {
+          "active_event_count": 2,
+          "active_events": [
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:e7fde36f5a07",
+              "event_type": "mobility.access_interruption.update",
+              "evidence_refs": [
+                "evidence:inspection:alpha"
+              ],
+              "payload_keys": [
+                "access_state",
+                "late_arrival"
+              ],
+              "review_state": "candidate_reviewed",
+              "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:beta:candidate_only"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:72f151d0679f",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:registry:beta"
+              ],
+              "payload_keys": [
+                "access_state"
+              ],
+              "review_state": "review_required",
+              "source_record_ref": "source_record:registry:beta:2026-05-01"
+            }
+          ],
+          "authority_boundary": "review_only_no_action",
+          "block_id": "event_state",
+          "counts": {
+            "active": 2,
+            "duplicates": 1,
+            "historical": 4,
+            "quarantined": 1,
+            "superseded": 1,
+            "unresolved_or_candidate": 1
+          },
+          "materialized_at": "2026-07-07T12:38:35Z",
+          "query_smoke_status": "PASS",
+          "query_types": [
+            "active_near_entity",
+            "events_by_entity",
+            "unresolved_events",
+            "quarantine",
+            "event_trace"
+          ],
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json"
+          ],
+          "state_id": "event_state_v2_mobility_access_interruption",
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "limitations": {
+          "block_id": "limitations",
+          "human_sessions_pending": true,
+          "limitations": [
+            "human review sessions remain pending",
+            "production live monitoring absent",
+            "simulation remains fixture-only",
+            "no product forecast authority",
+            "Packet polish only; UI polish is intentionally deferred.",
+            "Founder-review packet uses local/replay artifacts and existing publications.",
+            "Human review pilot sessions remain pending.",
+            "Simulation remains fixture-only and not calibrated.",
+            "Review options are presentable but not recommendations."
+          ],
+          "pilot_ready": true,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+            "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "no_action_boundary": "review_only_no_action",
+        "review_options": {
+          "abstain_option": {
+            "available": true,
+            "option_id": "abstain:no_safe_option"
+          },
+          "block_id": "review_options",
+          "option_set_id": "plan_option_set:mobility_access:alpha",
+          "options": [
+            {
+              "assumptions": [
+                "requires human review",
+                "fixture-only"
+              ],
+              "claim_boundary": "review_only_no_action",
+              "feasible": true,
+              "metrics": {
+                "access_delay_minutes": 22,
+                "delta_vs_baseline_minutes": -10
+              },
+              "option_id": "option:staggered_access_window",
+              "scenario_id": "mobility_access_interruption_review_option_v2",
+              "tradeoffs": [
+                "longer pedestrian wait"
+              ]
+            },
+            {
+              "assumptions": [
+                "route availability fixture-only"
+              ],
+              "claim_boundary": "review_only_no_action",
+              "feasible": true,
+              "metrics": {
+                "access_delay_minutes": 26,
+                "delta_vs_baseline_minutes": -6
+              },
+              "option_id": "option:temporary_detour_guidance",
+              "scenario_id": "mobility_access_interruption_review_option_v2",
+              "tradeoffs": [
+                "detour spillover uncertain"
+              ]
+            }
+          ],
+          "recommendation_authority": false,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "simulation_assumptions": {
+          "abstain_available": true,
+          "assumptions": [
+            "fixture-only demand",
+            "static access penalty",
+            "no production calibration"
+          ],
+          "baseline": "do_nothing_hold_access_constraint",
+          "best_fixture_delta_option": "option:staggered_access_window",
+          "block_id": "simulation_assumptions",
+          "comparison_status": "PASS_WITH_LIMITATIONS",
+          "event_family": "mobility_access_interruption_v0",
+          "limitations": [
+            "not a forecast",
+            "not dispatch/control",
+            "not calibrated",
+            "fixture-only simulation; not a forecast"
+          ],
+          "recommendation_authority": false,
+          "review_options": [
+            "staggered_access_window",
+            "temporary_detour_guidance"
+          ],
+          "scenario_id": "mobility_access_interruption_review_option_v2",
+          "source_class": "replay",
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "source_record_appendix": {
+          "block_id": "source_record_appendix",
+          "missing_source_artifacts": [],
+          "record_count": 3,
+          "records": [
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:592899f65e66",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:permit:alpha:100a"
+              ],
+              "observed_at": "2026-07-07T08:00:20Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:alpha_access:001",
+              "source_record_ref": "source_record:permit:alpha:2026-07-01"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:e7fde36f5a07",
+              "event_type": "mobility.access_interruption.update",
+              "evidence_refs": [
+                "evidence:inspection:alpha"
+              ],
+              "observed_at": "2026-07-07T07:55:45Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:alpha_access:002",
+              "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:beta:candidate_only"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:72f151d0679f",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:registry:beta"
+              ],
+              "observed_at": "2026-07-07T09:01:00Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:beta_access:001",
+              "source_record_ref": "source_record:registry:beta:2026-05-01"
+            }
+          ],
+          "source_artifact_refs": [
+            {
+              "bytes": 765,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+              "sha256": "d799c66f0ca30454e1608ecce1ebb5b9ec1150a190a547736d1ceaba5c4f664e",
+              "source_key": "check_v1_engine_report"
+            },
+            {
+              "bytes": 604,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json",
+              "sha256": "c2c4b37dbe05d4ebcaccd4c928cf0e8f4bb5a4bdc2cf6ccc13a7e5b17b96e492",
+              "source_key": "check_v1_trust_gate"
+            },
+            {
+              "bytes": 6518,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+              "sha256": "fd210b7142d8b7713dbdaede7eef1be1f3284d1ca644931174f8be333498a597",
+              "source_key": "event_state_v2"
+            },
+            {
+              "bytes": 239,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json",
+              "sha256": "1367217131c152536bb638f9619ec041f4debc6519b5a4e203b9939b51b7b95f",
+              "source_key": "event_query_smoke"
+            },
+            {
+              "bytes": 877,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+              "sha256": "961e206d8ed6ce419d012e1ae0ad6c3eec235f04f451994073085a07ad747f81",
+              "source_key": "simulation_scenario_catalog_v2"
+            },
+            {
+              "bytes": 410,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+              "sha256": "bc4a653bde721f130f40989c0a5cf31f8e9a613e3cb04735794e48a37f11ed3e",
+              "source_key": "simulation_option_comparison"
+            },
+            {
+              "bytes": 546,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+              "sha256": "456a5dd9897591611275722ded30646769a22faf93fa883c3253b0a6c3fd7d0f",
+              "source_key": "incident_review_packet"
+            },
+            {
+              "bytes": 1370,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json",
+              "sha256": "5ce654eb5f75a4a27c7b1be2484ca95efec323f08ec6a8086336310001ecec18",
+              "source_key": "plan_option_set"
+            },
+            {
+              "bytes": 876,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+              "sha256": "50381f6a1749bd1069b6378d114d5ceaca80938f703f667e7e710543dff99f83",
+              "source_key": "human_review_pilot_decision"
+            },
+            {
+              "bytes": 663,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json",
+              "sha256": "885445125bf7b6ec02c69be1d2648a85b56194c6e2dbbda93ca8dcafcb8fa9e5",
+              "source_key": "epoch4_final_decision"
+            }
+          ],
+          "status": "PASS",
+          "truth_boundary": "Source records remain evidence inputs; CHECK/CER boundaries govern claimability."
+        },
+        "spatial_references": {
+          "block_id": "spatial_references",
+          "cer_entity_refs": [
+            "cer:building:alpha",
+            "cer:building:beta_candidate"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:located_in",
+            "check_v1:beta:candidate_only"
+          ],
+          "citywide_twin_claim": false,
+          "event_state_ref": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+          "geometry_certified": false,
+          "seg_context_refs": [
+            "seg_edge:alpha:located_in:downtown"
+          ],
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json"
+          ],
+          "spatial_overlay_kind": "CER/SEG reference only",
+          "status": "PASS_WITH_LIMITATIONS"
+        }
+      },
+      "status": "PASS_WITH_LIMITATIONS",
+      "variant_id": "brief_v3:operator",
+      "variant_kind": "operator"
+    },
+    "technical": {
+      "emphasis": "evidence refs, CHECK states, simulation assumptions, and packet parity",
+      "evidence_signature": "b514353b5d938ad7",
+      "no_action_boundary": "review_only_no_action",
+      "packet_id": "brief_v3:founder_review:mobility_access_interruption",
+      "sections": {
+        "cannot_claim": {
+          "block_id": "cannot_claim",
+          "claims": [
+            "No production or public API claim.",
+            "No live monitoring, alerting, dispatch, routing, control, enforcement, or automated action.",
+            "No official ticket, case, citation, inspection, legal finding, or certified finding is created.",
+            "No citywide certified twin or certified physical geometry claim.",
+            "No forecast model, learned ranking, counterfactual learner, case-memory learner, or dynamic investigation agent.",
+            "No recommendation authority; review options remain human-owned and may be abstained from.",
+            "No source record is converted into official truth without CHECK/CER review boundaries."
+          ],
+          "legal_or_certified_finding_created": false,
+          "official_action_created": false,
+          "production_live_monitoring_created": false,
+          "status": "PASS",
+          "ui_polish_performed": false
+        },
+        "check_v1_summary": {
+          "authority_boundary": "review_only_no_action",
+          "block_id": "check_v1_summary",
+          "claimability_statuses": [
+            "blocked_contradiction",
+            "blocked_insufficient_source_depth",
+            "blocked_raw_id_bypass",
+            "blocked_stale",
+            "claimable_with_limitations",
+            "downgraded_candidate_only",
+            "downgraded_proximity_only"
+          ],
+          "covered_rules": [
+            "candidate_only",
+            "contradiction",
+            "evidence_sufficiency",
+            "freshness",
+            "proximity_only",
+            "source_class",
+            "source_depth"
+          ],
+          "negative_fixture_count": 7,
+          "negative_fixtures_passed": true,
+          "official_truth_claim_created": false,
+          "positive_pipeline": {
+            "cer_entity": "cer:building:alpha",
+            "check_report": "check_v1:alpha:located_in",
+            "claimability_status": "claimable_with_limitations",
+            "seg_context": "seg_edge:alpha:located_in:downtown",
+            "source_record": "source_record:permit:alpha:2026-07-01"
+          },
+          "raw_ungrounded_graph_shortcuts_allowed": false,
+          "report_count": 7,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "event_state": {
+          "active_event_count": 2,
+          "active_events": [
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:e7fde36f5a07",
+              "event_type": "mobility.access_interruption.update",
+              "evidence_refs": [
+                "evidence:inspection:alpha"
+              ],
+              "payload_keys": [
+                "access_state",
+                "late_arrival"
+              ],
+              "review_state": "candidate_reviewed",
+              "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:beta:candidate_only"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:72f151d0679f",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:registry:beta"
+              ],
+              "payload_keys": [
+                "access_state"
+              ],
+              "review_state": "review_required",
+              "source_record_ref": "source_record:registry:beta:2026-05-01"
+            }
+          ],
+          "authority_boundary": "review_only_no_action",
+          "block_id": "event_state",
+          "counts": {
+            "active": 2,
+            "duplicates": 1,
+            "historical": 4,
+            "quarantined": 1,
+            "superseded": 1,
+            "unresolved_or_candidate": 1
+          },
+          "materialized_at": "2026-07-07T12:38:35Z",
+          "query_smoke_status": "PASS",
+          "query_types": [
+            "active_near_entity",
+            "events_by_entity",
+            "unresolved_events",
+            "quarantine",
+            "event_trace"
+          ],
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json"
+          ],
+          "state_id": "event_state_v2_mobility_access_interruption",
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "limitations": {
+          "block_id": "limitations",
+          "human_sessions_pending": true,
+          "limitations": [
+            "human review sessions remain pending",
+            "production live monitoring absent",
+            "simulation remains fixture-only",
+            "no product forecast authority",
+            "Packet polish only; UI polish is intentionally deferred.",
+            "Founder-review packet uses local/replay artifacts and existing publications.",
+            "Human review pilot sessions remain pending.",
+            "Simulation remains fixture-only and not calibrated.",
+            "Review options are presentable but not recommendations."
+          ],
+          "pilot_ready": true,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+            "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "no_action_boundary": "review_only_no_action",
+        "review_options": {
+          "abstain_option": {
+            "available": true,
+            "option_id": "abstain:no_safe_option"
+          },
+          "block_id": "review_options",
+          "option_set_id": "plan_option_set:mobility_access:alpha",
+          "options": [
+            {
+              "assumptions": [
+                "requires human review",
+                "fixture-only"
+              ],
+              "claim_boundary": "review_only_no_action",
+              "feasible": true,
+              "metrics": {
+                "access_delay_minutes": 22,
+                "delta_vs_baseline_minutes": -10
+              },
+              "option_id": "option:staggered_access_window",
+              "scenario_id": "mobility_access_interruption_review_option_v2",
+              "tradeoffs": [
+                "longer pedestrian wait"
+              ]
+            },
+            {
+              "assumptions": [
+                "route availability fixture-only"
+              ],
+              "claim_boundary": "review_only_no_action",
+              "feasible": true,
+              "metrics": {
+                "access_delay_minutes": 26,
+                "delta_vs_baseline_minutes": -6
+              },
+              "option_id": "option:temporary_detour_guidance",
+              "scenario_id": "mobility_access_interruption_review_option_v2",
+              "tradeoffs": [
+                "detour spillover uncertain"
+              ]
+            }
+          ],
+          "recommendation_authority": false,
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "simulation_assumptions": {
+          "abstain_available": true,
+          "assumptions": [
+            "fixture-only demand",
+            "static access penalty",
+            "no production calibration"
+          ],
+          "baseline": "do_nothing_hold_access_constraint",
+          "best_fixture_delta_option": "option:staggered_access_window",
+          "block_id": "simulation_assumptions",
+          "comparison_status": "PASS_WITH_LIMITATIONS",
+          "event_family": "mobility_access_interruption_v0",
+          "limitations": [
+            "not a forecast",
+            "not dispatch/control",
+            "not calibrated",
+            "fixture-only simulation; not a forecast"
+          ],
+          "recommendation_authority": false,
+          "review_options": [
+            "staggered_access_window",
+            "temporary_detour_guidance"
+          ],
+          "scenario_id": "mobility_access_interruption_review_option_v2",
+          "source_class": "replay",
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json"
+          ],
+          "status": "PASS_WITH_LIMITATIONS"
+        },
+        "source_record_appendix": {
+          "block_id": "source_record_appendix",
+          "missing_source_artifacts": [],
+          "record_count": 3,
+          "records": [
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:592899f65e66",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:permit:alpha:100a"
+              ],
+              "observed_at": "2026-07-07T08:00:20Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:alpha_access:001",
+              "source_record_ref": "source_record:permit:alpha:2026-07-01"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:alpha:located_in"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:e7fde36f5a07",
+              "event_type": "mobility.access_interruption.update",
+              "evidence_refs": [
+                "evidence:inspection:alpha"
+              ],
+              "observed_at": "2026-07-07T07:55:45Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:alpha_access:002",
+              "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+            },
+            {
+              "authority_boundary": "review_only_no_action",
+              "check_report_refs": [
+                "check_v1:beta:candidate_only"
+              ],
+              "event_family": "mobility_access_interruption_v0",
+              "event_id": "efv2:72f151d0679f",
+              "event_type": "mobility.access_interruption",
+              "evidence_refs": [
+                "evidence:registry:beta"
+              ],
+              "observed_at": "2026-07-07T09:01:00Z",
+              "source_class": "replay_source_record",
+              "source_event_id": "sprint1:source:beta_access:001",
+              "source_record_ref": "source_record:registry:beta:2026-05-01"
+            }
+          ],
+          "source_artifact_refs": [
+            {
+              "bytes": 765,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/CHECK_V1_ENGINE_REPORT.json",
+              "sha256": "d799c66f0ca30454e1608ecce1ebb5b9ec1150a190a547736d1ceaba5c4f664e",
+              "source_key": "check_v1_engine_report"
+            },
+            {
+              "bytes": 604,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint0-check-v1-cer-engine-r1/SPRINT0_INTEGRATED_TRUST_GATE_REPORT.json",
+              "sha256": "c2c4b37dbe05d4ebcaccd4c928cf0e8f4bb5a4bdc2cf6ccc13a7e5b17b96e492",
+              "source_key": "check_v1_trust_gate"
+            },
+            {
+              "bytes": 6518,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json",
+              "sha256": "fd210b7142d8b7713dbdaede7eef1be1f3284d1ca644931174f8be333498a597",
+              "source_key": "event_state_v2"
+            },
+            {
+              "bytes": 239,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_QUERY_API_SMOKE_REPORT.json",
+              "sha256": "1367217131c152536bb638f9619ec041f4debc6519b5a4e203b9939b51b7b95f",
+              "source_key": "event_query_smoke"
+            },
+            {
+              "bytes": 877,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_SCENARIO_CATALOG_V2.json",
+              "sha256": "961e206d8ed6ce419d012e1ae0ad6c3eec235f04f451994073085a07ad747f81",
+              "source_key": "simulation_scenario_catalog_v2"
+            },
+            {
+              "bytes": 410,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint2-simulation-v2-review-option-engine/SIMULATION_OPTION_COMPARISON_REPORT.json",
+              "sha256": "bc4a653bde721f130f40989c0a5cf31f8e9a613e3cb04735794e48a37f11ed3e",
+              "source_key": "simulation_option_comparison"
+            },
+            {
+              "bytes": 546,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+              "sha256": "456a5dd9897591611275722ded30646769a22faf93fa883c3253b0a6c3fd7d0f",
+              "source_key": "incident_review_packet"
+            },
+            {
+              "bytes": 1370,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/PLAN_OPTION_SET_R1.json",
+              "sha256": "5ce654eb5f75a4a27c7b1be2484ca95efec323f08ec6a8086336310001ecec18",
+              "source_key": "plan_option_set"
+            },
+            {
+              "bytes": 876,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-sprint4-human-review-pilot-fuel-capture/HUMAN_REVIEW_PILOT_DECISION.json",
+              "sha256": "50381f6a1749bd1069b6378d114d5ceaca80938f703f667e7e710543dff99f83",
+              "source_key": "human_review_pilot_decision"
+            },
+            {
+              "bytes": 663,
+              "exists": true,
+              "path": "publications/epoch4/main-citybrain-epoch4-large-sprint-final-reverify-r1/EPOCH4_LARGE_SPRINT_FINAL_DECISION.json",
+              "sha256": "885445125bf7b6ec02c69be1d2648a85b56194c6e2dbbda93ca8dcafcb8fa9e5",
+              "source_key": "epoch4_final_decision"
+            }
+          ],
+          "status": "PASS",
+          "truth_boundary": "Source records remain evidence inputs; CHECK/CER boundaries govern claimability."
+        },
+        "spatial_references": {
+          "block_id": "spatial_references",
+          "cer_entity_refs": [
+            "cer:building:alpha",
+            "cer:building:beta_candidate"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:located_in",
+            "check_v1:beta:candidate_only"
+          ],
+          "citywide_twin_claim": false,
+          "event_state_ref": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json",
+          "geometry_certified": false,
+          "seg_context_refs": [
+            "seg_edge:alpha:located_in:downtown"
+          ],
+          "source_refs": [
+            "publications/epoch4/main-citybrain-epoch4-sprint3-incident-plan-product-loop/INCIDENT_REVIEW_PACKET_R1.json",
+            "publications/epoch4/main-citybrain-epoch4-sprint1-event-fabric-v2-product-spine/EVENT_CURRENT_STATE_V2.json"
+          ],
+          "spatial_overlay_kind": "CER/SEG reference only",
+          "status": "PASS_WITH_LIMITATIONS"
+        }
+      },
+      "status": "PASS_WITH_LIMITATIONS",
+      "variant_id": "brief_v3:technical",
+      "variant_kind": "technical"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_id": "SIMULATION_V2_2_BACKTEST_READINESS_REPORT",
+  "missing_for_backtest": [
+    "calibrated real connector run",
+    "ground truth outcomes",
+    "stable repeated source snapshots",
+    "human review acceptance records"
+  ],
+  "ready_for_fixture_review": true,
+  "ready_for_official_decision_support": false,
+  "ready_for_product_forecast": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,9 @@
+{
+  "artifact_id": "CURRENT_NEXT_ACTIONS",
+  "next_actions": [
+    "Fill the founder-probe response template with real package-specific founder input before any bounded probe session is rerun.",
+    "Keep derived overlays as candidate-only until reviewed.",
+    "Do not arm learning, operator fuel, or official workflow semantics from this no-session package."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

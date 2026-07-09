@@ -1,0 +1,39 @@
+{
+  "artifact_id": "REVIEW_PACKET_360_V2_INDEX",
+  "families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "family_count": 3,
+  "generated_at": "2026-07-07T16:50:30Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "simulation_v2_4",
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_4_FAMILY_SUMO_OPTION_RUNNER_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_fabric_v2_4",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_4_REPLAY_SCALE_CONSUMPTION_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "review_packet_360_v1",
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_r1/REVIEW_PACKET_360_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "pilot_binder_v1",
+      "path": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PILOT_EVIDENCE_BINDER_NO_SESSION_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REVIEW-PACKET-360-V2-PILOT-BINDER-REFRESH-R1",
+  "packet_ref": "REVIEW_PACKET_360_V2_BY_FAMILY.json",
+  "status": "PASS_WITH_LIMITATIONS"
+}

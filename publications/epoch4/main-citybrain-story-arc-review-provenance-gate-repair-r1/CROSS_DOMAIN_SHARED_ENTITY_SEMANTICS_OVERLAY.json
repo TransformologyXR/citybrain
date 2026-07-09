@@ -1,0 +1,27 @@
+{
+  "artifact_id": "CROSS_DOMAIN_SHARED_ENTITY_SEMANTICS_OVERLAY",
+  "deprecated_field": "shared_canonical_entity_3plus_gate_met",
+  "deprecated_field_value": true,
+  "overclaim_guard": "Do not read this as three shared entities. It means one shared canonical entity spans three families.",
+  "replacement_fields": {
+    "asset_infrastructure_link_type": "corridor_context_not_same_entity",
+    "families_spanned_by_primary_shared_entity": [
+      "building_compliance_perception_candidate",
+      "mobility_access_interruption_v0",
+      "permit_inspection_delay"
+    ],
+    "shared_canonical_entity_count": 1,
+    "shared_canonical_entity_family_span": 3,
+    "shared_canonical_entity_family_span_gate_met": true,
+    "shared_canonical_entity_family_span_minimum": 3,
+    "shared_canonical_entity_refs": [
+      "cer:building:alpha"
+    ]
+  },
+  "source_decision_status": "PASS_MAIN_CITYBRAIN_CROSS_DOMAIN_STORY_ARC_EVAL_EXPANSION_R1_WITH_LIMITATIONS",
+  "source_refs": [
+    "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_STORY_ARC_DECISION.json",
+    "outputs/MAIN-CITYBRAIN-CROSS-DOMAIN-STORY-ARC-EVAL-EXPANSION-R1/CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT.json"
+  ],
+  "source_story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade"
+}

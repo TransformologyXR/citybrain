@@ -1,0 +1,10 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "expected_status": "PASS_E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_R1_WITH_LIMITATIONS",
+  "scope": "final_nonlive_hidden_fuel_scout",
+  "live_operator_fuel_program": "deferred_not_live",
+  "new_training_rows_allowed": false,
+  "new_models_allowed": false,
+  "new_learned_registry_entries_allowed": false,
+  "finality": "no_more_pre_closeout_scouts_unless_human_reopens"
+}

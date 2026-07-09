@@ -1,0 +1,12 @@
+{
+  "artifact_id": "REVIEW_PACKET_360_MOBILITY_NATIVE_PACKET_FINDING",
+  "derived_backfill_used": true,
+  "diagnostic_ready_with_limitations": true,
+  "evidence_kind": "derived_review_packet_backfill_not_source_truth",
+  "family_id": "mobility_access_interruption_v0",
+  "finding": "Mobility is the only canonical family lacking native Review Packet 360 family packet evidence; current coverage is a derived backfill, not source truth.",
+  "mobility_native_review_packet_exists": false,
+  "native_packet_status": "derived_backfill_only",
+  "product_review_blocked": true,
+  "source": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json"
+}

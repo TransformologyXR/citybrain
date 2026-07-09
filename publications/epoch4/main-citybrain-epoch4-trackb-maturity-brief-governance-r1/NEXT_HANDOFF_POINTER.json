@@ -1,0 +1,30 @@
+{
+  "artifact_id": "NEXT_HANDOFF_POINTER",
+  "brief_variant_refs": [
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_OPERATOR_VARIANT.md",
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_EXECUTIVE_VARIANT.md",
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_TECHNICAL_VARIANT.md"
+  ],
+  "consumer_candidates": [
+    "Review Packet 360",
+    "client materials",
+    "founder review packages"
+  ],
+  "dashboard_refs": [
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/DATA_MATURITY_DASHBOARD_R1_1.json"
+  ],
+  "governance_audit_refs": [
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json"
+  ],
+  "limitation_refs": [
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/DASHBOARD_LIMITATIONS.json",
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_TEMPLATE_LIMITATIONS.json"
+  ],
+  "publication_path": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1",
+  "status": "PASS_WITH_LIMITATIONS",
+  "top_gap_refs": [
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TOP_10_SOURCE_GAPS.json",
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TOP_10_IDENTITY_AMBIGUITY_CLUSTERS.json",
+    "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TOP_10_MISSING_GEOMETRY_OR_TIME_HISTORY_GAPS.json"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "citybrain.d14.route_taxonomy_v04_anchor_set_draft",
+  "source": "D14_DOUBLE_LABEL_V03_AUDIT.json 21 disagreement rows",
+  "anchors": [
+    {"row_id":"syn-v0-0005","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"Static registry vs live status is supported claimability boundary."},
+    {"row_id":"syn-v0-0008","canonical_route":"ui_help","expected_refusal_class":null,"reason":"Question asks board boundary/capability, not a city fact claim."},
+    {"row_id":"syn-v0-0009","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"'What does source record prove' is claimability/proof boundary."},
+    {"row_id":"syn-v0-0012","canonical_route":"gap:evidence_gap_template_needed","expected_refusal_class":null,"reason":"Explicitly asks what evidence is missing before unavailability claim."},
+    {"row_id":"syn-v0-0013","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"'What exactly does source row establish' is proof/claimability wording."},
+    {"row_id":"syn-v0-0015","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"Current charger availability is supported negative answer, not entity profile."},
+    {"row_id":"syn-v0-0017","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"Verified planning constraints is proof/certification boundary."},
+    {"row_id":"syn-v0-0020","canonical_route":"ui_help","expected_refusal_class":null,"reason":"Asks whether operator/local notes can certify legal finding; board capability/boundary."},
+    {"row_id":"syn-v0-0023","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"Down/working/live status claimability."},
+    {"row_id":"syn-v0-0025","canonical_route":"gap:patch_queue_query_needed","expected_refusal_class":null,"reason":"Relationship between queue item #3 and #1 is patch queue query."},
+    {"row_id":"syn-v0-0028","canonical_route":"template:ask:what_supports@v1","expected_refusal_class":null,"reason":"Asks what source record supports a claim."},
+    {"row_id":"syn-v0-0036","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"Asks what a source row proves and does not prove."},
+    {"row_id":"syn-v0-0037","canonical_route":"template:ask:what_supports@v1","expected_refusal_class":null,"reason":"Requests evidence and uncertainty in a brief; source/evidence retrieval primary."},
+    {"row_id":"syn-v0-0038","canonical_route":"template:ask:cannot_claim@v1","expected_refusal_class":null,"reason":"Working right now is live-status claimability."},
+    {"row_id":"syn-v0-0048","canonical_route":"ui_help","expected_refusal_class":null,"reason":"Asks evidence/details for board not being live monitoring; board boundary/capability."},
+    {"row_id":"syn-v0-0050","canonical_route":"ui_help","expected_refusal_class":null,"reason":"Asks whether board can alert, not requesting it to alert now."},
+    {"row_id":"syn-v0-0093","canonical_route":"gap:patch_queue_query_needed","expected_refusal_class":null,"reason":"Total records for entire patch is patch aggregate query."},
+    {"row_id":"syn-v0-0094","canonical_route":"refuse:prediction_or_finding","expected_refusal_class":"prediction_or_finding","reason":"Compliance with cybersecurity standards is unsupported official/compliance finding."},
+    {"row_id":"syn-v0-0113","canonical_route":"gap:evidence_gap_template_needed","expected_refusal_class":null,"reason":"Explicit missing evidence to confirm blockage."},
+    {"row_id":"syn-v0-0137","canonical_route":"template:ask:what_supports@v1","expected_refusal_class":null,"reason":"Asks which source records indicate missing live service availability details."},
+    {"row_id":"syn-v0-0142","canonical_route":"ui_help","expected_refusal_class":null,"reason":"Asks whether calling police is possible from screen; board capability question."}
+  ]
+}

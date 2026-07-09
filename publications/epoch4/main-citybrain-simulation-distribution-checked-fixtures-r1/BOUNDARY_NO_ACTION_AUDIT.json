@@ -1,0 +1,15 @@
+{
+  "artifact_id": "BOUNDARY_NO_ACTION_AUDIT",
+  "dispatch_control_enforcement_created": false,
+  "human_founder_operator_session_result_created": false,
+  "legal_or_certified_finding_created": false,
+  "live_ingestion_or_monitoring_created": false,
+  "official_workflow_case_action_created": false,
+  "operator_fuel_created": false,
+  "public_api_or_production_frontend_created": false,
+  "raw_payload_rewritten": false,
+  "read_only": true,
+  "source_truth_mutated": false,
+  "status": "PASS",
+  "training_rows_created": false
+}

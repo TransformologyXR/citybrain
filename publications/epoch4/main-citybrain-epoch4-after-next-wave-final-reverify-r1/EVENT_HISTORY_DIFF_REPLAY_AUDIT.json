@@ -1,0 +1,11 @@
+{
+  "artifact_id": "EVENT_HISTORY_DIFF_REPLAY_AUDIT",
+  "event_count": 96,
+  "event_to_diff_bridge_created": true,
+  "family_count": 4,
+  "live_ingestion_created": false,
+  "logical_snapshot_count": 3,
+  "minimum_targets_met": true,
+  "replay_deterministic": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

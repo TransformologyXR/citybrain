@@ -1,0 +1,45 @@
+{
+  "abstain_option": {
+    "available": true,
+    "option_id": "abstain:no_safe_option"
+  },
+  "baseline_ref": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_BASELINE_RESULT_V2.json",
+  "option_set_id": "plan_option_set:mobility_access:alpha",
+  "options": [
+    {
+      "assumptions": [
+        "requires human review",
+        "fixture-only"
+      ],
+      "claim_boundary": "review_only_no_action",
+      "feasible": true,
+      "metrics": {
+        "access_delay_minutes": 22,
+        "delta_vs_baseline_minutes": -10
+      },
+      "option_id": "option:staggered_access_window",
+      "scenario_id": "mobility_access_interruption_review_option_v2",
+      "tradeoffs": [
+        "longer pedestrian wait"
+      ]
+    },
+    {
+      "assumptions": [
+        "route availability fixture-only"
+      ],
+      "claim_boundary": "review_only_no_action",
+      "feasible": true,
+      "metrics": {
+        "access_delay_minutes": 26,
+        "delta_vs_baseline_minutes": -6
+      },
+      "option_id": "option:temporary_detour_guidance",
+      "scenario_id": "mobility_access_interruption_review_option_v2",
+      "tradeoffs": [
+        "detour spillover uncertain"
+      ]
+    }
+  ],
+  "recommendation_authority": false,
+  "scenario_id": "mobility_access_interruption_review_option_v2"
+}

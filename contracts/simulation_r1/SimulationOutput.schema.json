@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumptions": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "output_id": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "output_id",
+    "run_id",
+    "source_class",
+    "metrics",
+    "assumptions",
+    "limitations"
+  ],
+  "title": "SimulationOutput",
+  "type": "object"
+}

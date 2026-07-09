@@ -1,0 +1,213 @@
+{
+  "artifact_id": "MAIN_CITYBRAIN_SIMULATION_BACKTEST_REPAIR_EPOCH_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 367,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/BACKTEST_INPUT_COVERAGE_MATRIX_R2.json",
+      "sha256": "ef050bc659974e7c2a31a8683b82a5e17f049be51dc15e76df7e124255099ddc"
+    },
+    {
+      "bytes": 851,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_EXECUTION_ACTION_GUARD.json",
+      "sha256": "f29dd58004759fb169b32cf7de11da9059829643e6f32ac6ed58390492254da4"
+    },
+    {
+      "bytes": 859,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_FORECASTPACKET_PROMOTION_GUARD.json",
+      "sha256": "75e7aea87f775ca1c5d2cb9d87ebf4a40d5137703e869a00f2368c3f35ca0066"
+    },
+    {
+      "bytes": 849,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_MODEL_TRAINING_GUARD.json",
+      "sha256": "cb16c78ffe145badd30b8262d117c5100024de1c27dc415f223d4d9b3635067a"
+    },
+    {
+      "bytes": 859,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "8c7b6105f2d42ff9ac4878e50ea714d8b795b8a6f5993915a9b49e15e64676e4"
+    },
+    {
+      "bytes": 442,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_ASSUMPTION_REPORT_R1.json",
+      "sha256": "9ef7b22024e88667c9245c935cb923b36cc98b8fc274ef2c656c1edf5fb2a73e"
+    },
+    {
+      "bytes": 299,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_CATALOG_R2_SUPERSESSION_REPORT.json",
+      "sha256": "ba3535cf4bc154e60477574781923a14f3b2bfdaa418156052b0c3189b7046f7"
+    },
+    {
+      "bytes": 1227,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_INPUT_CATALOG_R2.json",
+      "sha256": "3e93dabb5200843322e487ca2d72ee715b01544aa05c305e6e76fdffdca18852"
+    },
+    {
+      "bytes": 518,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_REPAIR_EPOCH_R1_CLOSEOUT.md",
+      "sha256": "e2d3d9a97e607bed289d52e1797e9bea413397345b2ff11af1f46044b1bec923"
+    },
+    {
+      "bytes": 542,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_REPAIR_EPOCH_R1_DECISION.json",
+      "sha256": "a38550dc745c32a3dea933d59141de922fce253ffaec3d30cbc4cada0ce1ee4c"
+    },
+    {
+      "bytes": 513,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BASELINE_RESULT.json",
+      "sha256": "70351592bda8369dfc877e9553fd4f2098a9553e7f1b24c04d3aef8c43e63426"
+    },
+    {
+      "bytes": 175,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BRIEF_ATTACHMENT_SAMPLE.json",
+      "sha256": "86c81fff453ba314c0519fe01193c67114bc02ad4936d633aa1ec81f89990c18"
+    },
+    {
+      "bytes": 238,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_CHECK_ATTACHMENT_SAMPLE.json",
+      "sha256": "a2ad0964f04a871db00b4b9f7658d4e24a49ec22e24baf6c1098c3f4ec4034fe"
+    },
+    {
+      "bytes": 277,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_FIDELITY_REPORT_R1.json",
+      "sha256": "fb56b2eecf64bac856e639292d8551d0049467bd61b4fef76421e54e5dc2e7be"
+    },
+    {
+      "bytes": 480,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_MASTER_POINTER_RECONCILIATION_R1.json",
+      "sha256": "c1193ba200001e07fc2368eb6555bbdeade189b9a044a375bd55a33ac5f5c5de"
+    },
+    {
+      "bytes": 204,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_REQUIRES_FINAL_THREE_PACKAGE_REVERIFY_R1.json",
+      "sha256": "ccf795bf115090d57617b8f24e3243ad60d5fdee202492be1a32438e7a4366f3"
+    },
+    {
+      "bytes": 297,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_REVIEW_OPTION_PACKET_SAMPLE.json",
+      "sha256": "70d3bd9e4093b109d039058549e495aeec33c03b404f9abe98086d79ca2828ee"
+    },
+    {
+      "bytes": 578,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_REVIEW_OPTION_RESULT.json",
+      "sha256": "60dc97c67fc84c79ef451921f073432ef99b2aee43b2e024bd548637feb289e1"
+    },
+    {
+      "bytes": 740,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_RUN_ENVELOPE_SAMPLE.json",
+      "sha256": "dc536e4e6e3cf06f42dc2c0f089bad64220efcc9063f1fdf78fe61efe74d99ca"
+    },
+    {
+      "bytes": 395,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_RUN_REPORT.json",
+      "sha256": "f0eef2309f07e810152863718a35530a49c81e677b4d9c312c87424e41fd4172"
+    },
+    {
+      "bytes": 3754,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_SCENARIO_CATALOG_R1.json",
+      "sha256": "27c528551f2f3a4d35a5fb5abfadb5dd9141a12c8219909b04efa9a8476d6d45"
+    },
+    {
+      "bytes": 1974,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_SOURCE_REF_AUDIT.json",
+      "sha256": "ddae16831d67b2587f7a26b396295b783c156e133fbd2e5eb7406a322a0e29bb"
+    },
+    {
+      "bytes": 319,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_UNCERTAINTY_REPORT_R1.json",
+      "sha256": "2a262983699644797a2ab8939ff347019105fbd565cd3463ed69e29e1a78870b"
+    },
+    {
+      "bytes": 1085,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATOR_CONNECTOR_REGISTRY_R1.json",
+      "sha256": "1d94e4c68b50c0dd612e24cabcdcb7d8e01be6da601623276e905a80dfa46afb"
+    },
+    {
+      "bytes": 132,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/TEST_LOG.txt",
+      "sha256": "3c032c2a25d03c6f9e42ddfa00ea3f622b4a4062dff23c11a39e7aa30bca9ccf"
+    },
+    {
+      "bytes": 349,
+      "path": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/TRANSITION_TARGET_TO_SIMULATION_COVERAGE_R1.json",
+      "sha256": "6f4810b0023bdd3cfcb5fa5f23c8e3c7daa9675d8a17a164817660dc1b37fb4d"
+    },
+    {
+      "bytes": 859,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "8c7b6105f2d42ff9ac4878e50ea714d8b795b8a6f5993915a9b49e15e64676e4"
+    },
+    {
+      "bytes": 299,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/SIMULATION_BACKTEST_CATALOG_R2_SUPERSESSION_REPORT.json",
+      "sha256": "ba3535cf4bc154e60477574781923a14f3b2bfdaa418156052b0c3189b7046f7"
+    },
+    {
+      "bytes": 1227,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/SIMULATION_BACKTEST_INPUT_CATALOG_R2.json",
+      "sha256": "3e93dabb5200843322e487ca2d72ee715b01544aa05c305e6e76fdffdca18852"
+    },
+    {
+      "bytes": 518,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/SIMULATION_BACKTEST_REPAIR_EPOCH_R1_CLOSEOUT.md",
+      "sha256": "e2d3d9a97e607bed289d52e1797e9bea413397345b2ff11af1f46044b1bec923"
+    },
+    {
+      "bytes": 542,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/SIMULATION_BACKTEST_REPAIR_EPOCH_R1_DECISION.json",
+      "sha256": "a38550dc745c32a3dea933d59141de922fce253ffaec3d30cbc4cada0ce1ee4c"
+    },
+    {
+      "bytes": 480,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/SIMULATION_MASTER_POINTER_RECONCILIATION_R1.json",
+      "sha256": "c1193ba200001e07fc2368eb6555bbdeade189b9a044a375bd55a33ac5f5c5de"
+    },
+    {
+      "bytes": 132,
+      "path": "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1/TEST_LOG.txt",
+      "sha256": "3c032c2a25d03c6f9e42ddfa00ea3f622b4a4062dff23c11a39e7aa30bca9ccf"
+    },
+    {
+      "bytes": 592,
+      "path": "contracts/simulation_r1/BacktestInputCatalog.schema.json",
+      "sha256": "84de7966a89f28c73e2b3e605e67fcfab6b15f378f295f1a1906b8b81a34c3c5"
+    },
+    {
+      "bytes": 444,
+      "path": "contracts/simulation_r1/SimulationAssumptionSet.schema.json",
+      "sha256": "52f35336aba93ed0cda24b4b0e308a1797d80d85ac31e8e2d23d06bd29610d1d"
+    },
+    {
+      "bytes": 500,
+      "path": "contracts/simulation_r1/SimulationFidelityReport.schema.json",
+      "sha256": "6dd8ced42daff61feed7209bab826c296cc9156c2b66041940b360c1fe8a5931"
+    },
+    {
+      "bytes": 622,
+      "path": "contracts/simulation_r1/SimulationOutput.schema.json",
+      "sha256": "7362b1ee36f4de1cc21e02ff6dc806ba2d4e01d826a508f1baa25edeabb81185"
+    },
+    {
+      "bytes": 890,
+      "path": "contracts/simulation_r1/SimulationRunEnvelope.schema.json",
+      "sha256": "db224ff30d3509cbbd5d5240d18757a178d8da1e53084731d79543d8dfb9f623"
+    },
+    {
+      "bytes": 935,
+      "path": "contracts/simulation_r1/SimulationScenario.schema.json",
+      "sha256": "13f8a2a35e9fb9b510160efdab0431ac513fb7d7ab50e2877e05a974a6abad2f"
+    },
+    {
+      "bytes": 490,
+      "path": "contracts/simulation_r1/SimulatorConnector.schema.json",
+      "sha256": "ffd170f672c3956878a06073326a503a5756a2e665f749e389c5c5cf30aca2b8"
+    }
+  ],
+  "entry_count": 40,
+  "generated_at": "2026-07-07T11:10:54+00:00",
+  "included_roots": [
+    "outputs/main_citybrain_simulation_backtest_repair_epoch_r1",
+    "publications/epoch4/main-citybrain-simulation-backtest-repair-epoch-r1",
+    "contracts/simulation_r1"
+  ],
+  "root": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1"
+}

@@ -1,0 +1,9 @@
+{
+  "source_id": "openaq_air_quality",
+  "requires_env": "OPENAQ_API_KEY",
+  "header": "X-API-Key: ${OPENAQ_API_KEY}",
+  "sample_locations_bbox_url": "https://api.openaq.org/v3/locations?bbox=55.05,24.85,55.55,25.35&limit=1000",
+  "sample_latest_pm25_url": "https://api.openaq.org/v3/parameters/2/latest?limit=1000",
+  "expected_block_without_key": "HTTP 401 or equivalent auth failure",
+  "codex_next": "If Dubai coverage sparse, pull donor cities for PM2.5/NO2 distributions and label as donor-distribution fuel."
+}

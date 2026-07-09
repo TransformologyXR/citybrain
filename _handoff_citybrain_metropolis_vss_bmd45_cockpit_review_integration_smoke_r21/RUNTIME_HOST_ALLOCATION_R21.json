@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-07-04T16:40:19Z",
+  "hosts": {
+    "spark-2445": {
+      "role": "VSS/LVS/RT-VLM host",
+      "source_class": "model_generated_narrative_not_fact_source",
+      "status": "proven_R7_R8"
+    },
+    "txr-3090": {
+      "role": "data/graph/RAPIDS/heavier analytics",
+      "status": "inactive_for_metropolis_vss_chain"
+    },
+    "txr-4070": {
+      "role": "DeepStream/Metropolis inference host",
+      "source_class": "sensor_inferred",
+      "status": "proven_R2_R17_R18_R19"
+    }
+  },
+  "r21_runtime_requirement": "No GPU inference required; fixture generation only.",
+  "schema_version": "r21.runtime-host-allocation.v1"
+}

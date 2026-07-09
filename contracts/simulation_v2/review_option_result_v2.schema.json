@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "assumptions": {
+      "type": "string"
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "option_id": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "tradeoffs": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "option_id",
+    "scenario_id",
+    "metrics",
+    "assumptions",
+    "tradeoffs",
+    "claim_boundary"
+  ],
+  "title": "ReviewOptionResultV2",
+  "type": "object"
+}

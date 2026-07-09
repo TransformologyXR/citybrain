@@ -1,0 +1,810 @@
+{
+  "appendix_story_count": 13,
+  "artifact_id": "FOUNDER_GRADE_STORY_BATCH_INDEX",
+  "main_story_count": 11,
+  "status": "PASS_MAIN_CITYBRAIN_FOUNDER_GRADE_STORY_MATERIALIZATION_R1_WITH_LIMITATIONS",
+  "stories": [
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped evidence notes and a derived place anchor are available, but the story is still non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T23:07:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:013",
+          "note_text": "service asset: Seed R3 asset infrastructure gold adapter event",
+          "place": "Synthetic Dubai AOI, nearby infrastructure corridor",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:asset_infrastructure:001",
+          "supports": "Supports reviewing infrastructure concern around Synthetic Dubai AOI, nearby infrastructure corridor."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T23:14:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:014",
+          "note_text": "facility context: Seed R3 asset infrastructure dirty_source adapter event",
+          "place": "Synthetic Dubai AOI, nearby infrastructure corridor",
+          "source_class": "local dirty-source sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:asset_infrastructure:002",
+          "supports": "Supports reviewing infrastructure concern around Synthetic Dubai AOI, nearby infrastructure corridor."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, nearby infrastructure corridor",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:013"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If nearby infrastructure notes repeat in the corridor, they may explain context an operator should keep separate from the Alpha site.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-asset-corridor-context-window",
+      "suggested_next_step": "Ask whether the asset note is at the site or nearby corridor context, then keep it separate in review.",
+      "title": "Infrastructure corridor context near Alpha",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Infrastructure corridor context near Alpha around Synthetic Dubai AOI, nearby infrastructure corridor."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped evidence notes and a derived place anchor are available, but the story is still non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T16:27:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:005",
+          "note_text": "site condition: Seed R3 building compliance gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:building_compliance:001",
+          "supports": "Supports reviewing building concern around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T16:34:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:006",
+          "note_text": "inspection due: Seed R3 building compliance dirty_source adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local dirty-source sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:building_compliance:002",
+          "supports": "Supports reviewing building concern around Synthetic Dubai AOI, Alpha site."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:005"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If building-context notes repeat near Alpha, the reviewer can watch the site while keeping the concern non-authoritative.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-building-alpha-site-window",
+      "suggested_next_step": "Compare the building note against the latest permit or site context before advancing the story.",
+      "title": "Building concern review window near Alpha",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Building concern review window near Alpha around Synthetic Dubai AOI, Alpha site."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "cross_domain_story",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "multiple timestamped source notes point to the same review area, while corridor context remains non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T19:47:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:009",
+          "note_text": "permit wait: Permit/inspection status attaches to the primary site.",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:permit_inspection_delay:001",
+          "supports": "Supports reviewing permit or inspection delay around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T16:27:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:005",
+          "note_text": "site condition: Building/site context confirms the same primary site is in the review scope.",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:building_compliance:001",
+          "supports": "Supports reviewing building concern around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:07:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Mobility access interruption participates through the repaired direct evidence packet evidence.",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:001",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T16:41:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:007",
+          "note_text": "violation candidate: A complaint-like compliance candidate provides review context, not an official finding.",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local challenge sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:building_compliance:003",
+          "supports": "Supports reviewing building concern around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T20:01:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:011",
+          "note_text": "stale status: Inspection delay remains review evidence and cannot be treated as action authority.",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local challenge sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:permit_inspection_delay:003",
+          "supports": "Supports reviewing permit or inspection delay around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T23:07:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:013",
+          "note_text": "service asset: Infrastructure context is linked as a corridor/impact edge, not as the same site entity.",
+          "place": "Synthetic Dubai AOI, nearby infrastructure corridor",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:asset_infrastructure:001",
+          "supports": "Supports reviewing infrastructure concern around Synthetic Dubai AOI, nearby infrastructure corridor."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site and nearby corridor",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:009"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If these signals stay related, an operator-style reviewer can watch one site where permit status, access, and building context appear together without claiming cause.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-cross-alpha-permit-access-compliance",
+      "suggested_next_step": "Compare the permit status, access note, and building note in the next review pass before any customer-facing use.",
+      "title": "Alpha site permit, access, and building review bundle",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Alpha site permit, access, and building review bundle around Synthetic Dubai AOI, Alpha site and nearby corridor."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "cross_domain_story",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "the group has several timestamped notes and derived place labels backed by geometry references, but it remains non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:07:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Seed R3 mobility access gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:001",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:21:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:003",
+          "note_text": "roadworks: Seed R3 mobility access challenge adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local challenge sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:003",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:35:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Seed R3 mobility access gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:005",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:49:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:003",
+          "note_text": "roadworks: Seed R3 mobility access challenge adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local challenge sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:007",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T14:03:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Seed R3 mobility access gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:009",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site and nearby corridor",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If repeated access, permit, and building signals keep landing on the same review area, the site is worth watching as a compact operator triage story.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-cross-alpha-repeat-window",
+      "suggested_next_step": "Keep this grouped story in the watch queue and request one fresh source pull that confirms the current state of the site.",
+      "title": "Alpha site repeated review window",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Alpha site repeated review window around Synthetic Dubai AOI, Alpha site and nearby corridor."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped evidence notes and a derived place anchor are available, but the story is still non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:07:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Seed R3 mobility access gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:001",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:14:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:002",
+          "note_text": "transit disruption: Seed R3 mobility access dirty_source adapter event",
+          "place": "Synthetic Dubai AOI, access corridor near Alpha site",
+          "source_class": "local dirty-source sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:002",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, access corridor near Alpha site."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If access constraints persist near the same review area, the operator can watch for repeated disruption without treating it as live control.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-mobility-alpha-access-window",
+      "suggested_next_step": "Request one fresh access source note and compare it with the current permit/building review area.",
+      "title": "Access corridor review window near Alpha",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Access corridor review window near Alpha around Synthetic Dubai AOI, Alpha site."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped evidence notes and a derived place anchor are available, but the story is still non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:35:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Seed R3 mobility access gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:005",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T13:42:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:002",
+          "note_text": "transit disruption: Seed R3 mobility access dirty_source adapter event",
+          "place": "Synthetic Dubai AOI, access corridor near Alpha site",
+          "source_class": "local dirty-source sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:006",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, access corridor near Alpha site."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "A second access window gives the reviewer a repeat pattern to watch instead of a one-off caveat.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-mobility-second-window",
+      "suggested_next_step": "Compare the later access window with the earlier one and ask whether the interruption is still current.",
+      "title": "Second access signal window near Alpha",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Second access signal window near Alpha around Synthetic Dubai AOI, Alpha site."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped evidence notes and a derived place anchor are available, but the story is still non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T19:47:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:009",
+          "note_text": "permit wait: Seed R3 permit inspection delay gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:permit_inspection_delay:001",
+          "supports": "Supports reviewing permit or inspection delay around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T19:54:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:010",
+          "note_text": "inspection backlog: Seed R3 permit inspection delay dirty_source adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local dirty-source sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:permit_inspection_delay:002",
+          "supports": "Supports reviewing permit or inspection delay around Synthetic Dubai AOI, Alpha site."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:009"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If permit and inspection signals stay attached to Alpha, the reviewer can track uncertainty that may affect site review sequencing.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-permit-alpha-timeline-window",
+      "suggested_next_step": "Verify the latest permit or inspection status before any founder diagnostic response is collected.",
+      "title": "Permit and inspection timeline near Alpha",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Permit and inspection timeline near Alpha around Synthetic Dubai AOI, Alpha site."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_watch_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped evidence notes and a derived place anchor are available, but the story is still non-authoritative.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T20:15:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:009",
+          "note_text": "permit wait: Seed R3 permit inspection delay gold adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:permit_inspection_delay:005",
+          "supports": "Supports reviewing permit or inspection delay around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T20:22:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:010",
+          "note_text": "inspection backlog: Seed R3 permit inspection delay dirty_source adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local dirty-source sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:permit_inspection_delay:006",
+          "supports": "Supports reviewing permit or inspection delay around Synthetic Dubai AOI, Alpha site."
+        }
+      ],
+      "operator_verdict": "watch_this",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:permit_inspection_delay:009"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "A second permit window gives enough structure to watch the review timeline without inventing a forecast.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-permit-second-window",
+      "suggested_next_step": "Request one current permit-source pull and compare it with the older review window.",
+      "title": "Second permit review window near Alpha",
+      "uncertainty": [
+        "This is still a founder-internal diagnostic story, not a product or client-ready claim.",
+        "Place labels are derived from existing geometry and entity references, not asserted as official truth."
+      ],
+      "what_where": "Second permit review window near Alpha around Synthetic Dubai AOI, Alpha site."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_ignore_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped notes show why the safe review choice is to ignore for now rather than escalate.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T14:52:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:004",
+          "note_text": "access constraint: Seed R3 mobility access scenario adapter event",
+          "place": "Synthetic Dubai AOI, access corridor near Alpha site",
+          "source_class": "local scenario sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:016",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, access corridor near Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T14:59:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:001",
+          "note_text": "access constraint: Seed R3 mobility access gold adapter event",
+          "place": "Synthetic Dubai AOI, access corridor near Alpha site",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:mobility_access:017",
+          "supports": "Supports reviewing access interruption around Synthetic Dubai AOI, access corridor near Alpha site."
+        }
+      ],
+      "operator_verdict": "ignore_for_now",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, access corridor near Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:mobility_access:004"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If the access note cannot be cleanly tied to the review area, ignoring it for now prevents a noisy watch queue.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-ignore-access-missing-link",
+      "suggested_next_step": "Dismiss for now unless a fresh access source confirms the place link.",
+      "title": "Ignore access signal until place link is cleaner",
+      "uncertainty": [
+        "The signal may become useful later if a cleaner source note arrives.",
+        "This is an honest abstain/ignore story, not a product failure."
+      ],
+      "what_where": "Ignore access signal until place link is cleaner around Synthetic Dubai AOI, access corridor near Alpha site."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_ignore_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped notes show why the safe review choice is to ignore for now rather than escalate.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-09T00:52:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:016",
+          "note_text": "service asset: Seed R3 asset infrastructure scenario adapter event",
+          "place": "Synthetic Dubai AOI, nearby infrastructure corridor",
+          "source_class": "local scenario sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:asset_infrastructure:016",
+          "supports": "Supports reviewing infrastructure concern around Synthetic Dubai AOI, nearby infrastructure corridor."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-09T00:59:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:013",
+          "note_text": "service asset: Seed R3 asset infrastructure gold adapter event",
+          "place": "Synthetic Dubai AOI, nearby infrastructure corridor",
+          "source_class": "local gold sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:asset_infrastructure:017",
+          "supports": "Supports reviewing infrastructure concern around Synthetic Dubai AOI, nearby infrastructure corridor."
+        }
+      ],
+      "operator_verdict": "ignore_for_now",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, nearby infrastructure corridor",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:asset_infrastructure:016"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If the source shape is unreliable, the useful operator action is to not spend main review attention yet.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-ignore-asset-invalid-shape",
+      "suggested_next_step": "Dismiss this signal from the main watch set unless a cleaner asset source note arrives.",
+      "title": "Ignore infrastructure signal with unreliable source shape",
+      "uncertainty": [
+        "The signal may become useful later if a cleaner source note arrives.",
+        "This is an honest abstain/ignore story, not a product failure."
+      ],
+      "what_where": "Ignore infrastructure signal with unreliable source shape around Synthetic Dubai AOI, nearby infrastructure corridor."
+    },
+    {
+      "audience_fit": "operator",
+      "cannot_claim": [
+        "official fact",
+        "causation",
+        "work order",
+        "prediction",
+        "customer readiness",
+        "official action"
+      ],
+      "card_type": "single_family_example",
+      "classification": "founder_reviewable_need_more_candidate",
+      "confidence_label": "medium",
+      "confidence_reason": "two timestamped notes are visible, but the matching reason remains weak.",
+      "decision_options": [
+        "watch_this",
+        "ignore_for_now",
+        "need_more_before_deciding"
+      ],
+      "evidence_notes": [
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T17:37:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:007",
+          "note_text": "violation candidate: Seed R3 building compliance challenge adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local challenge sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:building_compliance:011",
+          "supports": "Supports reviewing building concern around Synthetic Dubai AOI, Alpha site."
+        },
+        {
+          "does_not_prove": "It does not prove official fact, causation, action authority, prediction, or customer readiness.",
+          "freshness": "2026-07-08T17:44:00Z",
+          "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:008",
+          "note_text": "site condition: Seed R3 building compliance scenario adapter event",
+          "place": "Synthetic Dubai AOI, Alpha site",
+          "source_class": "local scenario sample, non-authoritative",
+          "source_path": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl",
+          "source_ref": "seed-r3-expanded:building_compliance:012",
+          "supports": "Supports reviewing building concern around Synthetic Dubai AOI, Alpha site."
+        }
+      ],
+      "operator_verdict": "need_more_before_deciding",
+      "place_anchor": {
+        "derived_non_authoritative": true,
+        "district_or_area": "Synthetic Dubai AOI",
+        "human_label": "Synthetic Dubai AOI, Alpha site",
+        "map_or_geometry_ref": "geometry:synthetic-dubai-aoi:building_compliance:007"
+      },
+      "secondary_ratings": [
+        "usefulness_1_to_5",
+        "readability_1_to_5",
+        "trust_1_to_5"
+      ],
+      "so_what": "If the weak match improves, this could become a useful building concern story; until then it should not crowd out stronger watch candidates.",
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-need-more-building-weak-match",
+      "suggested_next_step": "Request one clearer building-source note before deciding whether to watch this story.",
+      "title": "Building concern that needs one stronger source",
+      "uncertainty": [
+        "This belongs in the main set only if the batch has enough stronger watch and ignore stories."
+      ],
+      "what_where": "Building concern that needs one stronger source around Synthetic Dubai AOI, Alpha site."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "all_inputs_found": true,
+  "all_inputs_passed": true,
+  "artifact_id": "DECISION",
+  "cer_check_stress_verified": true,
+  "event_fabric_v2_5_load_verified": true,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:20:59Z",
+  "internal_readiness_no_session_verified": true,
+  "limitations": [
+    "deepening is local/replay/review-only",
+    "no founder session or fuel",
+    "no forecast/live/official action/source-truth mutation"
+  ],
+  "non_sumo_domain_engines_verified": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-POST-SUMO-HISTORY-DEEPENING-FINAL-REVERIFY-R1",
+  "parallel_execution_used": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_WITH_LIMITATIONS"
+}

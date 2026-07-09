@@ -1,0 +1,148 @@
+{
+  "appendix_candidate_count": 13,
+  "artifact_id": "FOUNDER_STORY_MATERIALIZATION_LEDGER",
+  "derived_labels_policy": "Derived place labels are candidate-only, non-authoritative, and backed by existing geometry/source references.",
+  "main_count": 11,
+  "materialized_candidate_count": 11,
+  "rows": [
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site and nearby corridor",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:building_compliance:003",
+        "seed-r3-expanded:permit_inspection_delay:003",
+        "seed-r3-expanded:asset_infrastructure:001"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-cross-alpha-permit-access-compliance"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site and nearby corridor",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:mobility_access:003",
+        "seed-r3-expanded:mobility_access:005",
+        "seed-r3-expanded:mobility_access:007",
+        "seed-r3-expanded:mobility_access:009"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-cross-alpha-repeat-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:mobility_access:002"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-mobility-alpha-access-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:building_compliance:002"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-building-alpha-site-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:permit_inspection_delay:002"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-permit-alpha-timeline-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, nearby infrastructure corridor",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:asset_infrastructure:001",
+        "seed-r3-expanded:asset_infrastructure:002"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-asset-corridor-context-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:mobility_access:005",
+        "seed-r3-expanded:mobility_access:006"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-mobility-second-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:permit_inspection_delay:005",
+        "seed-r3-expanded:permit_inspection_delay:006"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-permit-second-window"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, nearby infrastructure corridor",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:asset_infrastructure:016",
+        "seed-r3-expanded:asset_infrastructure:017"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-ignore-asset-invalid-shape"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, access corridor near Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:mobility_access:016",
+        "seed-r3-expanded:mobility_access:017"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-ignore-access-missing-link"
+    },
+    {
+      "derived_place_label": "Synthetic Dubai AOI, Alpha site",
+      "source_paths": [
+        "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+      ],
+      "source_refs": [
+        "seed-r3-expanded:building_compliance:011",
+        "seed-r3-expanded:building_compliance:012"
+      ],
+      "source_truth_mutated": false,
+      "story_id": "founder-grade-need-more-building-weak-match"
+    }
+  ]
+}

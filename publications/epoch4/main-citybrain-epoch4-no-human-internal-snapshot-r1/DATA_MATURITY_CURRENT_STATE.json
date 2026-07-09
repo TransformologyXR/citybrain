@@ -1,0 +1,16 @@
+{
+  "artifact_id": "DATA_MATURITY_CURRENT_STATE",
+  "data_maturity_status": "PASS_WITH_LIMITATIONS",
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS",
+  "diagnostic_sections": [
+    "top source remediation",
+    "identity ambiguity remediation",
+    "geometry/time history remediation",
+    "CHECK downgrade remediation"
+  ],
+  "overall_maturity_score_ref": 36.1,
+  "remediation_plan_count": 4,
+  "scorecard_count": 9,
+  "source_count": 664,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "learned_component_registry_entry.schema.json",
+  "type": "object",
+  "required": ["component_id", "component_kind", "status", "consuming_surfaces", "training_manifest_ref", "eval_refs", "rollback_ref", "authority"],
+  "properties": {
+    "component_id": {"type": "string"},
+    "component_kind": {"enum": ["ranker", "forecast_model", "surrogate_model", "case_memory_model", "counterfactual_model"]},
+    "status": {"enum": ["experimental", "candidate", "released", "retired", "blocked"]},
+    "consuming_surfaces": {"type": "array", "items": {"type": "string"}},
+    "training_manifest_ref": {"type": "string"},
+    "eval_refs": {"type": "array", "items": {"type": "string"}},
+    "release_ledger_row": {"type": ["string", "null"]},
+    "rollback_ref": {"type": "string"},
+    "authority": {"type": "string"}
+  },
+  "additionalProperties": false
+}

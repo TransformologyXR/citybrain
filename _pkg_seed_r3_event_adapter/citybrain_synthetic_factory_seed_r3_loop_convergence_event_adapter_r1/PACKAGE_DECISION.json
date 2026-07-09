@@ -1,0 +1,11 @@
+{
+  "boundary": "local/replay/synthetic/donor-context only; not Dubai official truth; no live/control/legal/certified claims",
+  "created_at": "2026-07-08T00:00:00Z",
+  "expected_lock_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_LOOP_CONVERGENCE_EVENT_ADAPTER_R1_WITH_LIMITATIONS",
+  "no_secrets_packaged": true,
+  "package": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1-PACKAGE",
+  "purpose": "Emit Seed R3 synthetic factory output as Event Fabric source-adapter feeds aligned to the four product loop families.",
+  "raw_payloads_packaged": false,
+  "status": "READY_FOR_CODEX_SEED_R3_LOOP_CONVERGENCE_EVENT_ADAPTER_R1_WITH_NO_SECRETS",
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1"
+}

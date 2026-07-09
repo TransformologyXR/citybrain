@@ -1,0 +1,14 @@
+{
+  "artifact_id": "E3_EPOCH4_FORK_DECISION_ROW",
+  "status": "ROADMAP_FORK",
+  "forks": [
+    {
+      "id": "GO_LIVE_OR_REVIEW_PILOT",
+      "effect": "fuel program runs; R3A/R3B/L4 may arm by inherited thresholds"
+    },
+    {
+      "id": "NON_LIVE_MECHANICAL_BACKLOG",
+      "effect": "city-stratified L2 improvement, transition targets, L4 stubs, CHECK scorecards, identity/graph fixtures"
+    }
+  ]
+}

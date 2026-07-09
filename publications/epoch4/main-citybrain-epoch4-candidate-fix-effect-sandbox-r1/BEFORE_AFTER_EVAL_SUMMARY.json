@@ -1,0 +1,9 @@
+{
+  "after_case_count": 48,
+  "after_pass_count": 48,
+  "artifact_id": "BEFORE_AFTER_EVAL_SUMMARY",
+  "before_case_count": 12,
+  "before_pass_count": 12,
+  "interpretation": "Expanded corpus remains deterministic; improvements are sandbox projections only.",
+  "status": "PASS_WITH_LIMITATIONS"
+}

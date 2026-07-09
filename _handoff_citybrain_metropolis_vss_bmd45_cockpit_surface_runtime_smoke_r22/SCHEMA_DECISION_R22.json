@@ -1,0 +1,71 @@
+{
+  "properties": {
+    "action_created": {
+      "type": "boolean"
+    },
+    "audits": {
+      "type": "object"
+    },
+    "cockpit_surface_mode": {
+      "enum": [
+        "app_route",
+        "static_render_fixture",
+        "contract_only"
+      ]
+    },
+    "consumption_smoke_status": {
+      "enum": [
+        "PASS",
+        "PARTIAL",
+        "FAIL"
+      ]
+    },
+    "external_media_refs": {
+      "type": "integer"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "frame_review_cards": {
+      "type": "integer"
+    },
+    "live_cctv_claimed": {
+      "type": "boolean"
+    },
+    "official_record_created": {
+      "type": "boolean"
+    },
+    "packaged_media_files": {
+      "type": "integer"
+    },
+    "r21_input_validation": {
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "source_classes": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-COCKPIT-SURFACE-RUNTIME-SMOKE-R22"
+    }
+  },
+  "required": [
+    "task_id",
+    "status",
+    "final_status",
+    "r21_input_validation",
+    "cockpit_surface_mode",
+    "consumption_smoke_status",
+    "source_classes",
+    "live_cctv_claimed",
+    "official_record_created",
+    "action_created",
+    "audits"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,31 @@
+{
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1",
+  "required_inputs": [
+    {
+      "name": "seed_r3_preflight",
+      "default_path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+      "must_exist": true,
+      "read_only": true
+    },
+    {
+      "name": "product_consumption_r1",
+      "default_path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+      "must_exist": true,
+      "read_only": true
+    }
+  ],
+  "optional_inputs": [
+    {
+      "name": "seed_r3_refresh",
+      "default_path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+      "must_exist": false,
+      "read_only": true
+    }
+  ],
+  "required_loop_families": [
+    "mobility_access",
+    "building_compliance",
+    "permit_inspection_delay",
+    "asset_infrastructure"
+  ]
+}

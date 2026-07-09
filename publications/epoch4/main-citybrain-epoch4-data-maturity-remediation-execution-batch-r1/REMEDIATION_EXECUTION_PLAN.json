@@ -1,0 +1,70 @@
+{
+  "artifact_id": "REMEDIATION_EXECUTION_PLAN",
+  "candidate_count": 50,
+  "candidate_counts_by_queue": {
+    "check_downgrade": 10,
+    "freshness_coverage": 10,
+    "geometry_time_history": 10,
+    "identity_ambiguity": 10,
+    "source_registry_enrichment": 10
+  },
+  "generated_at": "2026-07-07T18:51:48Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "remediation_actions",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_actions_r1/DATA_MATURITY_REMEDIATION_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_ACTIONS_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "remediation_queue",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_remediation_actions_r1/MATURITY_REMEDIATION_QUEUE.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "source_registry_v1",
+      "path": "outputs/main_citybrain_track4_source_registry_v1/SOURCE_REGISTRY_V1.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "source_registry_v1_1",
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "event_stories_source_diff",
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/TRACKA_EVENT_STORIES_SOURCE_DIFF_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKA_EVENT_STORIES_SOURCE_DIFF_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "trackb_maturity_brief_governance",
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "product_readiness",
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_READINESS_GAP_CLOSURE_SEQUENCE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "mutates_source_truth": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-DATA-MATURITY-REMEDIATION-EXECUTION-BATCH-R1",
+  "queue_count": 5,
+  "queues_consumed": [
+    "identity_ambiguity",
+    "freshness_coverage",
+    "geometry_time_history",
+    "check_downgrade",
+    "source_registry_enrichment"
+  ],
+  "raw_remediation_item_count": 50,
+  "score_delta_claimed": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "unavailable_queues": []
+}

@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-07-04T16:40:19Z",
+  "errors": [],
+  "json_files": [
+    {
+      "path": "BASELINE_METRICS_FROM_R20.json",
+      "status": "PASS"
+    },
+    {
+      "path": "GUARDRAIL_TERMS_R21.json",
+      "status": "PASS"
+    },
+    {
+      "path": "INPUT_R20_VALIDATION_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "path": "R20_ARTIFACT_INSPECTION_REPORT.json",
+      "status": "PASS"
+    },
+    {
+      "path": "RUNTIME_HOST_ALLOCATION_R21.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_COCKPIT_REVIEW_INTEGRATION_REPORT_R21.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_COCKPIT_REVIEW_TILE_R21.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_DECISION_R21.json",
+      "status": "PASS"
+    },
+    {
+      "path": "SCHEMA_FRAME_REVIEW_CARD_R21.json",
+      "status": "PASS"
+    },
+    {
+      "path": "STATUS_ENUMS_R21.json",
+      "status": "PASS"
+    }
+  ],
+  "schema_version": "handoff-json-parse-report.v1",
+  "status": "PASS"
+}

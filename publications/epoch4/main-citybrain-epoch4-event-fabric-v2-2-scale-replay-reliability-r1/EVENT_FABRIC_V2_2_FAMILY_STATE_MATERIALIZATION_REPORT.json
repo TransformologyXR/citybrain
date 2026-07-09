@@ -1,0 +1,74 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_FAMILY_STATE_MATERIALIZATION_REPORT",
+  "families": [
+    {
+      "check_attachment_ready": true,
+      "event_count": 10,
+      "family_id": "mobility_access_interruption",
+      "materialized_state_ref": "event_state:v2_2:mobility_access_interruption",
+      "spatial_overlay_ready": true,
+      "state_counts": {
+        "accepted": 4,
+        "accepted_superseding": 1,
+        "duplicate_suppressed": 1,
+        "late_out_of_order_accepted": 1,
+        "quarantined": 1,
+        "superseded": 1,
+        "unresolved": 1
+      },
+      "watch_feed_ready": true
+    },
+    {
+      "check_attachment_ready": true,
+      "event_count": 10,
+      "family_id": "building_compliance_perception_candidate",
+      "materialized_state_ref": "event_state:v2_2:building_compliance_perception_candidate",
+      "spatial_overlay_ready": true,
+      "state_counts": {
+        "accepted": 4,
+        "accepted_superseding": 1,
+        "duplicate_suppressed": 1,
+        "late_out_of_order_accepted": 1,
+        "quarantined": 1,
+        "superseded": 1,
+        "unresolved": 1
+      },
+      "watch_feed_ready": true
+    },
+    {
+      "check_attachment_ready": true,
+      "event_count": 10,
+      "family_id": "permit_inspection_delay",
+      "materialized_state_ref": "event_state:v2_2:permit_inspection_delay",
+      "spatial_overlay_ready": true,
+      "state_counts": {
+        "accepted": 4,
+        "accepted_superseding": 1,
+        "duplicate_suppressed": 1,
+        "late_out_of_order_accepted": 1,
+        "quarantined": 1,
+        "superseded": 1,
+        "unresolved": 1
+      },
+      "watch_feed_ready": true
+    },
+    {
+      "check_attachment_ready": true,
+      "event_count": 10,
+      "family_id": "city_asset_infrastructure_issue",
+      "materialized_state_ref": "event_state:v2_2:city_asset_infrastructure_issue",
+      "spatial_overlay_ready": true,
+      "state_counts": {
+        "accepted": 4,
+        "accepted_superseding": 1,
+        "duplicate_suppressed": 1,
+        "late_out_of_order_accepted": 1,
+        "quarantined": 1,
+        "superseded": 1,
+        "unresolved": 1
+      },
+      "watch_feed_ready": true
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "SEQUENTIAL_EXECUTION_LOG",
+  "generated_at": "2026-07-07T18:51:48Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-EXECUTION-EVAL-CORPUS-SEQUENCE-R1",
+  "parallel_execution_used": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "output_root": "outputs/main_citybrain_epoch4_data_maturity_remediation_execution_batch_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-DATA-MATURITY-REMEDIATION-EXECUTION-BATCH-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_REMEDIATION_EXECUTION_BATCH_R1_WITH_LIMITATIONS",
+      "step_number": 1
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_product_loop_eval_corpus_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-EVAL-CORPUS-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_EVAL_CORPUS_R1_WITH_LIMITATIONS",
+      "step_number": 2
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_founder_review_dry_run_no_session_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-REVIEW-DRY-RUN-NO-SESSION-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_REVIEW_DRY_RUN_NO_SESSION_R1_WITH_LIMITATIONS",
+      "step_number": 3
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_remediation_eval_final_reverify_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-EVAL-FINAL-REVERIFY-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_EVAL_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step_number": 4
+    }
+  ]
+}

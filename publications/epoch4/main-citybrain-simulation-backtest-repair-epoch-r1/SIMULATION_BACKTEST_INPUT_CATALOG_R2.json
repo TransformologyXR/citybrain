@@ -1,0 +1,41 @@
+{
+  "catalog_id": "SIMULATION_BACKTEST_INPUT_CATALOG_R2",
+  "current_only_count": 2,
+  "inputs": [
+    {
+      "evidence_depth": "dated_transition_capable",
+      "input_id": "mobility_incident_replay_events",
+      "source_class": "replay",
+      "training_row_created": false
+    },
+    {
+      "evidence_depth": "dated_transition_capable",
+      "input_id": "roadworks_access_constraint_replay",
+      "source_class": "replay",
+      "training_row_created": false
+    },
+    {
+      "evidence_depth": "dated_transition_capable",
+      "input_id": "inspection_backlog_review_option",
+      "source_class": "derived",
+      "training_row_created": false
+    },
+    {
+      "evidence_depth": "current_only",
+      "input_id": "synthetic_tier_gap_probe",
+      "source_class": "synthetic",
+      "training_row_created": false
+    },
+    {
+      "evidence_depth": "current_only",
+      "input_id": "domain_pack_usefulness_snapshot",
+      "source_class": "derived",
+      "training_row_created": false
+    }
+  ],
+  "no_fake_transition_history_generated": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "supersedes_master_pointer": true,
+  "transition_capable_count": 3,
+  "version": "R2"
+}

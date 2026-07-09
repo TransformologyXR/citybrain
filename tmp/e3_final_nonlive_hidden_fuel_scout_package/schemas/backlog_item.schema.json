@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HiddenFuelBacklogItem",
+  "type": "object",
+  "required": [
+    "item_id",
+    "source_lane",
+    "priority",
+    "classification",
+    "recommendation",
+    "reason"
+  ],
+  "properties": {
+    "item_id": {
+      "type": "string"
+    },
+    "source_lane": {
+      "type": "string"
+    },
+    "priority": {
+      "enum": [
+        "P0",
+        "P1",
+        "P2",
+        "PARK"
+      ]
+    },
+    "classification": {
+      "enum": [
+        "closeout_affecting",
+        "epoch4_backlog",
+        "parking_lot",
+        "not_promotable"
+      ]
+    },
+    "recommendation": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}

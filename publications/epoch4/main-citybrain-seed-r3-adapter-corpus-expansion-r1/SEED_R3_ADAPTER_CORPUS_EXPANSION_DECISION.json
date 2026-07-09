@@ -1,0 +1,30 @@
+{
+  "adapter_root": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1",
+  "artifact_id": "SEED_R3_ADAPTER_CORPUS_EXPANSION_DECISION",
+  "cadence_root": "outputs/MAIN-CITYBRAIN-EVENT-FABRIC-SEED-R3-CADENCE-REPLAY-QUARANTINE-MINING-R1",
+  "cadence_status": "PASS_MAIN_CITYBRAIN_EVENT_FABRIC_SEED_R3_CADENCE_REPLAY_QUARANTINE_MINING_R1_WITH_LIMITATIONS",
+  "canonical_family_count": 4,
+  "canonical_resolved_event_count": 20,
+  "direct_d5d6_bypass": false,
+  "duplicate_candidate_ambiguity_count": 8,
+  "families": [
+    "mobility_access_interruption_v0",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "generated_at": "2026-07-08T12:16:47Z",
+  "minimum_events_per_family": 15,
+  "product_client_founder_review_ready_claim_created": false,
+  "quarantine_expected_count": 20,
+  "r3_local_or_synthetic_admitted_event_count": 60,
+  "resolved_count": 40,
+  "source_adapter_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_LOOP_CONVERGENCE_EVENT_ADAPTER_R1_WITH_LIMITATIONS",
+  "standalone_fixture_surface_created": false,
+  "status": "PASS_MAIN_CITYBRAIN_SEED_R3_ADAPTER_CORPUS_EXPANSION_R1_WITH_LIMITATIONS",
+  "story_arc_readiness": "story_arc_ready_with_limitations",
+  "target_events_per_family": 20,
+  "task_id": "MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1",
+  "total_event_count": 80,
+  "unresolved_review_count": 20
+}

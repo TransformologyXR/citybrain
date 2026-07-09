@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "event_families": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "registry_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "registry_id",
+    "version",
+    "event_families",
+    "authority_boundary"
+  ],
+  "title": "EventTypeRegistryV2_1",
+  "type": "object"
+}

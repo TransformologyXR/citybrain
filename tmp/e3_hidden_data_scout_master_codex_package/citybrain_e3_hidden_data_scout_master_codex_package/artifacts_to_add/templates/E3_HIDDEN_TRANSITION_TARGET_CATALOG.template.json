@@ -1,0 +1,4 @@
+{
+  "target_catalog": [],
+  "promotion_policy": "candidate_inventory_only_until_governed_materialization"
+}

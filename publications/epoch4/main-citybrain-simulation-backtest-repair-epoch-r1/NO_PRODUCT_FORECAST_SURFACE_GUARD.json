@@ -1,0 +1,24 @@
+{
+  "allowed_boundary": "local/replay/review/query only",
+  "artifact_id": "NO_PRODUCT_FORECAST_SURFACE_GUARD",
+  "forbidden_capabilities": [
+    "live operator fuel",
+    "operator-facing learned ranking",
+    "product forecast surface",
+    "product ForecastPacket",
+    "case-memory learner",
+    "dynamic investigation",
+    "cross-city learned transfer",
+    "production live event fabric",
+    "production CCTV/perception claim",
+    "dispatch/control/enforcement/official case creation",
+    "autonomous action"
+  ],
+  "forbidden_capabilities_created": [],
+  "notes": "Guard records prohibition and confirms this package did not create the capability.",
+  "official_action_created": false,
+  "operator_fuel_accumulated": false,
+  "product_forecast_surface_created": false,
+  "source_package": "simulation",
+  "status": "PASS"
+}

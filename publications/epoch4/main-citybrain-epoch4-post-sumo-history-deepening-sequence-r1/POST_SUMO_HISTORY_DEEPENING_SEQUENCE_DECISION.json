@@ -1,0 +1,11 @@
+{
+  "all_steps_passed_with_limitations": true,
+  "artifact_id": "POST_SUMO_HISTORY_DEEPENING_SEQUENCE_DECISION",
+  "final_reverify_status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:20:59Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-POST-SUMO-HISTORY-DEEPENING-SEQUENCE-R1",
+  "parallel_execution_used": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_DEEPENING_SEQUENCE_R1_WITH_LIMITATIONS",
+  "step_count": 5
+}

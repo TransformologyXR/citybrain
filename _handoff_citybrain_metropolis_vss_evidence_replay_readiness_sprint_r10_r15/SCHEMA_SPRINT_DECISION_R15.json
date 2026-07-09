@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metropolis VSS Evidence Replay Readiness Sprint Decision R15",
+  "type": "object",
+  "required": [
+    "task_id",
+    "status",
+    "r9_input_status",
+    "r10",
+    "r11",
+    "r12",
+    "r13",
+    "r14",
+    "audits",
+    "final_boundary"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-EVIDENCE-REPLAY-READINESS-SPRINT-R10-R15"
+    },
+    "status": {
+      "type": "string"
+    },
+    "r9_input_status": {
+      "type": "string"
+    },
+    "r10": {
+      "type": "object"
+    },
+    "r11": {
+      "type": "object"
+    },
+    "r12": {
+      "type": "object"
+    },
+    "r13": {
+      "type": "object"
+    },
+    "r14": {
+      "type": "object"
+    },
+    "audits": {
+      "type": "object"
+    },
+    "final_boundary": {
+      "type": "object"
+    }
+  }
+}

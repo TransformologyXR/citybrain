@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "bytes": 57211,
+      "path": "CITY_CORPUS_DISCOVERY_LEDGER.csv",
+      "sha256": "20d164f35fe56fcba67211af4c74aea1ba1afdab6421c830c2f3e2ba0942ea8e"
+    },
+    {
+      "bytes": 1280,
+      "path": "CODEX_CLOSEOUT.md",
+      "sha256": "5c20ba236e0806fe433bbf431e8b9425617f6ed450ecd29f80f46a1997b4adab"
+    },
+    {
+      "bytes": 1056,
+      "path": "CROSS_CITY_DONOR_POLICY.json",
+      "sha256": "6f24c82e05f4997088b6e0086bfbaa6327bdc18f80ad7bce826164d8ed5596d9"
+    },
+    {
+      "bytes": 572905,
+      "path": "DOMAIN_FUEL_LEDGER.csv",
+      "sha256": "53cd1c203f7ad8207c85bcdcc003d0c64c098c4718ade05c0f3457ae33e4f70f"
+    },
+    {
+      "bytes": 27534,
+      "path": "DOMAIN_FUEL_SUMMARY.json",
+      "sha256": "0e0e0a83eef0ebbf8833fd4b8ab49c5136680900d91f2992fed5ed90d2858ff1"
+    },
+    {
+      "bytes": 594,
+      "path": "SEED_R3_BOUNDARY_AND_SOURCE_CLASS_AUDIT.json",
+      "sha256": "5dcb7eefbf658e3c10550c97c2b4fe6122c745e59cc67fd04a717011198fe7e9"
+    },
+    {
+      "bytes": 1612,
+      "path": "SEED_R3_CROSS_CITY_DOMAIN_FUEL_PREFLIGHT_DECISION.json",
+      "sha256": "d932ff86ee1df2b08effe714a21851c3b9a36400abb321a0dc5bbc8a215089a8"
+    },
+    {
+      "bytes": 348,
+      "path": "SEED_R3_NO_MUTATION_AUDIT.json",
+      "sha256": "4cdd4c3d1297718dfbd85ec015d657637f3959466edb9f50bc4af4262839b329"
+    },
+    {
+      "bytes": 1480,
+      "path": "SEED_R3_PRODUCT_FIXTURE_REQUIREMENTS.json",
+      "sha256": "f91095e705b15477716cc7f6af2db5fc1d957b6b3b575d54d810be41f4365947"
+    },
+    {
+      "bytes": 1321,
+      "path": "SEED_R3_RECOMMENDED_REFRESH_PLAN.json",
+      "sha256": "25758a98bea711043fc7a8bce1c076b0d416599752203bed809f676dcbb9e432"
+    },
+    {
+      "bytes": 197,
+      "path": "SEED_R3_SECRET_SCAN_REPORT.json",
+      "sha256": "39b6e81516ade8f2b9051d30026d5368f56e6f02cd821c6acccba92e03086abd"
+    }
+  ],
+  "generated_at": "2026-07-08T10:50:02+00:00",
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT"
+}

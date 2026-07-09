@@ -1,0 +1,419 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 946,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/FOUNDER_PROBE_ASSEMBLY_DECISION.json",
+      "sha256": "e1989024ec4af9d98c4840c35a4bf67053f5b0d87593f442835005b6a6c05632"
+    },
+    {
+      "bytes": 672,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/FOUNDER_PROBE_RESPONSE_GUIDE.md",
+      "sha256": "0fd667d038f2cfbb4b23f8d5ea8bb8763fc149b14e8967c38c9a6a3e978a67a9"
+    },
+    {
+      "bytes": 4481,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/FOUNDER_PROBE_RESPONSE_TEMPLATE_PREFILLED.csv",
+      "sha256": "5c1b0f0f4104c98fcfbc64937c358319ae3c8902c4a11b204fe2c6359e70b822"
+    },
+    {
+      "bytes": 6713,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/FOUNDER_PROBE_REVIEW_INDEX.html",
+      "sha256": "8e1099613591bbc78cc167804f8ee00a26d7c48d30e198f1812239076379f976"
+    },
+    {
+      "bytes": 5027,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/FOUNDER_PROBE_REVIEW_INDEX.md",
+      "sha256": "316350da2e499de165f94398e3d105e8a51cb263a74e3f189be418a839c2b924"
+    },
+    {
+      "bytes": 527,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/FOUNDER_PROBE_REVIEW_PACK_SUMMARY.json",
+      "sha256": "c611241d2e8c0e7f24c9d6011416f964c939a88c1c0fc6abd4e99dd7e0e4f9eb"
+    },
+    {
+      "bytes": 5202,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/INPUT_RESOLUTION_REPORT.json",
+      "sha256": "a30bda35e95894d6dfe2ffdefe5189f9aa74b2b40a8bfad6a6c7a55d7505f252"
+    },
+    {
+      "bytes": 1655,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/MISSING_EVIDENCE_REPORT.json",
+      "sha256": "2b5bed5938d9b9c944dcc3b681c28e02a82edfc4a3752ecf9f80bf0b69ea8f68"
+    },
+    {
+      "bytes": 394,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/NO_FABRICATED_SESSION_GUARD.json",
+      "sha256": "9cd60adbad5aa67a932886a5bda87631e88c8a8a21d6582e93e6641a535ea062"
+    },
+    {
+      "bytes": 8749,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-01.json",
+      "sha256": "e039f2053d613449a49ee28dd7a5f28e3b283568e5cd00894e527eca94805699"
+    },
+    {
+      "bytes": 7163,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-01.md",
+      "sha256": "9ca2eaf6c75db3c2a98ca909fd40a574ce1a522884a3853901bbb2e940e4273c"
+    },
+    {
+      "bytes": 7981,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-02.json",
+      "sha256": "280375a3b2aab87989452832c27ae095c166e102a72cbc77c15696869803720f"
+    },
+    {
+      "bytes": 7114,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-02.md",
+      "sha256": "973c51e62fcaa45b6037416ff64b229de17a0510e080368585a13dcc17d98393"
+    },
+    {
+      "bytes": 7985,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-03.json",
+      "sha256": "28f1f7a98d38f79dbfb3c352742f58d625bc9e58c25dfbcb24c411d386be75cc"
+    },
+    {
+      "bytes": 7116,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-03.md",
+      "sha256": "c33f7db9c82197993a2762185a199deca0f8fac70fc9a266b8e6eaf8916af632"
+    },
+    {
+      "bytes": 8720,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-04.json",
+      "sha256": "665175693431efe4a8a6dbca4302b86138aa6e5ba2568e063745c8545a91e62b"
+    },
+    {
+      "bytes": 7135,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-04.md",
+      "sha256": "28f21c0b6b928915e037567966ebac845ede834382060f5d3027174298e6b177"
+    },
+    {
+      "bytes": 8042,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-05.json",
+      "sha256": "8a865b4cccfff68e311d139fa35d971a228608bd7b1acc2a19a25ea7595f6673"
+    },
+    {
+      "bytes": 6627,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-05.md",
+      "sha256": "7a7d50a5ac8ccfc324dd887c665b7b7b523f97ff3d4406256754dce8110c2e17"
+    },
+    {
+      "bytes": 7310,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-06.json",
+      "sha256": "b7849184c34651e7a2c404115607aa8e97029a99f8f50e5d856e365cd8bd3fcf"
+    },
+    {
+      "bytes": 6578,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-06.md",
+      "sha256": "777dd520037836dd06bed47fc078298d737f8ca40e1f82e66b375751418f4dee"
+    },
+    {
+      "bytes": 7314,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-07.json",
+      "sha256": "33cb8c470bfef39e34f9f27967496aa3af8a92227f8b92469e61a27607a654bf"
+    },
+    {
+      "bytes": 6580,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-07.md",
+      "sha256": "638887c1598bd0ec4ab677ed88bcf1dbddc033da990a110bb2cd16c15229d880"
+    },
+    {
+      "bytes": 8013,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-08.json",
+      "sha256": "e55f5e3c7c3b6847555d2b3bd854c1708baddeacf6cdf66745c968f93e2aa370"
+    },
+    {
+      "bytes": 6599,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-08.md",
+      "sha256": "a62cde4ec51541d223d739673765e8c208e405aa62a7597902997d14de14a520"
+    },
+    {
+      "bytes": 14385,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-09.json",
+      "sha256": "68b3fcfc201dc1a95b65c332d5f80d7c5763d91106912f7af516483e21f45a16"
+    },
+    {
+      "bytes": 6469,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-09.md",
+      "sha256": "3ec9f80da87afd9019f1a238616eebbd285ebc717246acba0256becc0e9b1a6b"
+    },
+    {
+      "bytes": 13665,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-10.json",
+      "sha256": "9015e89bdc535b38b17bb8d4562119f2fcb5721ea50eacd29dc287223d381b73"
+    },
+    {
+      "bytes": 6420,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-10.md",
+      "sha256": "a2b0faa4ddd2ec041e7ef6488f4d1219984adf3c197ee6de874924d59ad908d8"
+    },
+    {
+      "bytes": 13669,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-11.json",
+      "sha256": "34665c638dab2b04401ab842d27c9c2c22e1a907e5f86667c867cfb3025ed4dc"
+    },
+    {
+      "bytes": 6422,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-11.md",
+      "sha256": "a683c44aaa5b8a336eecee86529afaf666eae7b986abcfef603839d6d0b96b9b"
+    },
+    {
+      "bytes": 14356,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-12.json",
+      "sha256": "a6778a15d83d505f564a8b5198cb60171feb809cd21d62b67ac3bb926fffadd5"
+    },
+    {
+      "bytes": 6441,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-12.md",
+      "sha256": "c72c6239a82c734089c385071d695d876019efa25b0278e81d97b3a03de7c3e1"
+    },
+    {
+      "bytes": 8270,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-13.json",
+      "sha256": "3bbcd79499ed7da81b71bbd2914997ef80f3f5b134beb9d8145df40275d8ec4e"
+    },
+    {
+      "bytes": 6804,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-13.md",
+      "sha256": "fcb564f4291dc7a587afeb9b236ed5bf1d676bda0c542e9206fa6d1d3a2bfbae"
+    },
+    {
+      "bytes": 7570,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-14.json",
+      "sha256": "c685933d5d9458699c9addc88dbb18666af4271364d678a78cae6964afcd0879"
+    },
+    {
+      "bytes": 6755,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-14.md",
+      "sha256": "d2dce1d24f3c29f13a78d36ba1696f8db316616e24c8f49519cd35f0dc8c8092"
+    },
+    {
+      "bytes": 7574,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-15.json",
+      "sha256": "bf990e189a9bec0a879bb320a879558133f786a9cab6b9fa40d5eee25d3de903"
+    },
+    {
+      "bytes": 6757,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-15.md",
+      "sha256": "2422867725ab386357ce10007ae8cee82d879bc6d908e745a10f2eb29f9f1fca"
+    },
+    {
+      "bytes": 8241,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-16.json",
+      "sha256": "1f60fd1c479032b56565db5f8836e77ee42ce46a8e65f8b8ab8d333c05855b82"
+    },
+    {
+      "bytes": 6776,
+      "path": "outputs/main_citybrain_epoch4_founder_probe_review_pack_assembler_r1/review_cards/founder-probe-r2-16.md",
+      "sha256": "69f102ea6763cb8c9219251bc4d9903b5e9f4e0b6c4e1837c8e0eeaed8659285"
+    },
+    {
+      "bytes": 946,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/FOUNDER_PROBE_ASSEMBLY_DECISION.json",
+      "sha256": "e1989024ec4af9d98c4840c35a4bf67053f5b0d87593f442835005b6a6c05632"
+    },
+    {
+      "bytes": 672,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/FOUNDER_PROBE_RESPONSE_GUIDE.md",
+      "sha256": "0fd667d038f2cfbb4b23f8d5ea8bb8763fc149b14e8967c38c9a6a3e978a67a9"
+    },
+    {
+      "bytes": 4481,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/FOUNDER_PROBE_RESPONSE_TEMPLATE_PREFILLED.csv",
+      "sha256": "5c1b0f0f4104c98fcfbc64937c358319ae3c8902c4a11b204fe2c6359e70b822"
+    },
+    {
+      "bytes": 6713,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/FOUNDER_PROBE_REVIEW_INDEX.html",
+      "sha256": "8e1099613591bbc78cc167804f8ee00a26d7c48d30e198f1812239076379f976"
+    },
+    {
+      "bytes": 5027,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/FOUNDER_PROBE_REVIEW_INDEX.md",
+      "sha256": "316350da2e499de165f94398e3d105e8a51cb263a74e3f189be418a839c2b924"
+    },
+    {
+      "bytes": 527,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/FOUNDER_PROBE_REVIEW_PACK_SUMMARY.json",
+      "sha256": "c611241d2e8c0e7f24c9d6011416f964c939a88c1c0fc6abd4e99dd7e0e4f9eb"
+    },
+    {
+      "bytes": 5202,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/INPUT_RESOLUTION_REPORT.json",
+      "sha256": "a30bda35e95894d6dfe2ffdefe5189f9aa74b2b40a8bfad6a6c7a55d7505f252"
+    },
+    {
+      "bytes": 1655,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/MISSING_EVIDENCE_REPORT.json",
+      "sha256": "2b5bed5938d9b9c944dcc3b681c28e02a82edfc4a3752ecf9f80bf0b69ea8f68"
+    },
+    {
+      "bytes": 394,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/NO_FABRICATED_SESSION_GUARD.json",
+      "sha256": "9cd60adbad5aa67a932886a5bda87631e88c8a8a21d6582e93e6641a535ea062"
+    },
+    {
+      "bytes": 8749,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-01.json",
+      "sha256": "e039f2053d613449a49ee28dd7a5f28e3b283568e5cd00894e527eca94805699"
+    },
+    {
+      "bytes": 7163,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-01.md",
+      "sha256": "9ca2eaf6c75db3c2a98ca909fd40a574ce1a522884a3853901bbb2e940e4273c"
+    },
+    {
+      "bytes": 7981,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-02.json",
+      "sha256": "280375a3b2aab87989452832c27ae095c166e102a72cbc77c15696869803720f"
+    },
+    {
+      "bytes": 7114,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-02.md",
+      "sha256": "973c51e62fcaa45b6037416ff64b229de17a0510e080368585a13dcc17d98393"
+    },
+    {
+      "bytes": 7985,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-03.json",
+      "sha256": "28f1f7a98d38f79dbfb3c352742f58d625bc9e58c25dfbcb24c411d386be75cc"
+    },
+    {
+      "bytes": 7116,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-03.md",
+      "sha256": "c33f7db9c82197993a2762185a199deca0f8fac70fc9a266b8e6eaf8916af632"
+    },
+    {
+      "bytes": 8720,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-04.json",
+      "sha256": "665175693431efe4a8a6dbca4302b86138aa6e5ba2568e063745c8545a91e62b"
+    },
+    {
+      "bytes": 7135,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-04.md",
+      "sha256": "28f21c0b6b928915e037567966ebac845ede834382060f5d3027174298e6b177"
+    },
+    {
+      "bytes": 8042,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-05.json",
+      "sha256": "8a865b4cccfff68e311d139fa35d971a228608bd7b1acc2a19a25ea7595f6673"
+    },
+    {
+      "bytes": 6627,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-05.md",
+      "sha256": "7a7d50a5ac8ccfc324dd887c665b7b7b523f97ff3d4406256754dce8110c2e17"
+    },
+    {
+      "bytes": 7310,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-06.json",
+      "sha256": "b7849184c34651e7a2c404115607aa8e97029a99f8f50e5d856e365cd8bd3fcf"
+    },
+    {
+      "bytes": 6578,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-06.md",
+      "sha256": "777dd520037836dd06bed47fc078298d737f8ca40e1f82e66b375751418f4dee"
+    },
+    {
+      "bytes": 7314,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-07.json",
+      "sha256": "33cb8c470bfef39e34f9f27967496aa3af8a92227f8b92469e61a27607a654bf"
+    },
+    {
+      "bytes": 6580,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-07.md",
+      "sha256": "638887c1598bd0ec4ab677ed88bcf1dbddc033da990a110bb2cd16c15229d880"
+    },
+    {
+      "bytes": 8013,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-08.json",
+      "sha256": "e55f5e3c7c3b6847555d2b3bd854c1708baddeacf6cdf66745c968f93e2aa370"
+    },
+    {
+      "bytes": 6599,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-08.md",
+      "sha256": "a62cde4ec51541d223d739673765e8c208e405aa62a7597902997d14de14a520"
+    },
+    {
+      "bytes": 14385,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-09.json",
+      "sha256": "68b3fcfc201dc1a95b65c332d5f80d7c5763d91106912f7af516483e21f45a16"
+    },
+    {
+      "bytes": 6469,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-09.md",
+      "sha256": "3ec9f80da87afd9019f1a238616eebbd285ebc717246acba0256becc0e9b1a6b"
+    },
+    {
+      "bytes": 13665,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-10.json",
+      "sha256": "9015e89bdc535b38b17bb8d4562119f2fcb5721ea50eacd29dc287223d381b73"
+    },
+    {
+      "bytes": 6420,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-10.md",
+      "sha256": "a2b0faa4ddd2ec041e7ef6488f4d1219984adf3c197ee6de874924d59ad908d8"
+    },
+    {
+      "bytes": 13669,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-11.json",
+      "sha256": "34665c638dab2b04401ab842d27c9c2c22e1a907e5f86667c867cfb3025ed4dc"
+    },
+    {
+      "bytes": 6422,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-11.md",
+      "sha256": "a683c44aaa5b8a336eecee86529afaf666eae7b986abcfef603839d6d0b96b9b"
+    },
+    {
+      "bytes": 14356,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-12.json",
+      "sha256": "a6778a15d83d505f564a8b5198cb60171feb809cd21d62b67ac3bb926fffadd5"
+    },
+    {
+      "bytes": 6441,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-12.md",
+      "sha256": "c72c6239a82c734089c385071d695d876019efa25b0278e81d97b3a03de7c3e1"
+    },
+    {
+      "bytes": 8270,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-13.json",
+      "sha256": "3bbcd79499ed7da81b71bbd2914997ef80f3f5b134beb9d8145df40275d8ec4e"
+    },
+    {
+      "bytes": 6804,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-13.md",
+      "sha256": "fcb564f4291dc7a587afeb9b236ed5bf1d676bda0c542e9206fa6d1d3a2bfbae"
+    },
+    {
+      "bytes": 7570,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-14.json",
+      "sha256": "c685933d5d9458699c9addc88dbb18666af4271364d678a78cae6964afcd0879"
+    },
+    {
+      "bytes": 6755,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-14.md",
+      "sha256": "d2dce1d24f3c29f13a78d36ba1696f8db316616e24c8f49519cd35f0dc8c8092"
+    },
+    {
+      "bytes": 7574,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-15.json",
+      "sha256": "bf990e189a9bec0a879bb320a879558133f786a9cab6b9fa40d5eee25d3de903"
+    },
+    {
+      "bytes": 6757,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-15.md",
+      "sha256": "2422867725ab386357ce10007ae8cee82d879bc6d908e745a10f2eb29f9f1fca"
+    },
+    {
+      "bytes": 8241,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-16.json",
+      "sha256": "1f60fd1c479032b56565db5f8836e77ee42ce46a8e65f8b8ab8d333c05855b82"
+    },
+    {
+      "bytes": 6776,
+      "path": "publications/epoch4/main-citybrain-epoch4-founder-probe-review-pack-assembler-r1/review_cards/founder-probe-r2-16.md",
+      "sha256": "69f102ea6763cb8c9219251bc4d9903b5e9f4e0b6c4e1837c8e0eeaed8659285"
+    }
+  ],
+  "entry_count": 82,
+  "generated_at": "2026-07-08T05:44:03Z",
+  "status": "PASS"
+}

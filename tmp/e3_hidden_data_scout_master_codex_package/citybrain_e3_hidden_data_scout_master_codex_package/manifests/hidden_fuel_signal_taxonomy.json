@@ -1,0 +1,29 @@
+{
+  "signal_families": [
+    "dated_transition_history",
+    "terminal_outcome",
+    "operator_disposition",
+    "check_resolution",
+    "case_memory_candidate",
+    "identity_match_decision",
+    "graph_edge_challenge",
+    "watch_exposure",
+    "llm_seat_usefulness",
+    "perception_candidate_review",
+    "domain_pack_usefulness",
+    "simulation_backtest_history",
+    "synthetic_challenge_gap",
+    "data_quality_maturity",
+    "spatial_selection_trace",
+    "workflow_review_state"
+  ],
+  "promotion_levels": [
+    "candidate_inventory_only",
+    "descriptive_metric",
+    "governed_materialization_ready",
+    "governed_rows_exist",
+    "blocked_by_policy",
+    "blocked_by_missing_lineage",
+    "blocked_by_missing_outcomes"
+  ]
+}

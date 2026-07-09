@@ -1,0 +1,84 @@
+{
+  "algorithm": "sha256",
+  "created_at_utc": "2026-07-03T21:33:50.495449+00:00",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "001d4d9c566f4c794f1e8e97ff01a5ffd1a6da378aaa7f0456d5c633325bbc4a",
+      "size_bytes": 1704
+    },
+    {
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "c4474e171f1373769632a8399ced92bfe98585df1fc12cdfe4722f71d9f41d27",
+      "size_bytes": 980
+    },
+    {
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "fcab0cbb0931393761038e33b8821af675dd14e8f6df36a08338e3dc5806eaf2",
+      "size_bytes": 3388
+    },
+    {
+      "path": "GUARDRAIL_TERMS_R6.json",
+      "sha256": "6733005dc7fe834b132992505396d335ac7fb0375dfb538a7c489e501358b1d6",
+      "size_bytes": 788
+    },
+    {
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "5a5ace4ab1c499183d9ad0e09e5726dda182d5a41fea65a756ab806f7a718dc5",
+      "size_bytes": 441
+    },
+    {
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "aa9fd2b1d885dde52a8b36fee7e7f85efb481bbb450f775b3f69213960a39c37",
+      "size_bytes": 1404
+    },
+    {
+      "path": "INPUT_R5_VALIDATION_SUMMARY.json",
+      "sha256": "2ff1f26a85595e89b9cf2756aaf59e205a76a28dc0d30e0225137f91bb1246be",
+      "size_bytes": 1093
+    },
+    {
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "0f25ae5ec93a93b8db21211f28389c0352eaace4a7933265d7f1fdd1ae62d648",
+      "size_bytes": 1994
+    },
+    {
+      "path": "R5_ARTIFACT_INSPECTION_REPORT.json",
+      "sha256": "3de851e37a9ebc8c68a3e2654eb6551e61fb618b7668102fe9012f733153e8a2",
+      "size_bytes": 6260
+    },
+    {
+      "path": "README.md",
+      "sha256": "55338ec98b67f4c4c9db9c112f161d8d5f4f2203d858edc361a940254945b47c",
+      "size_bytes": 1228
+    },
+    {
+      "path": "SCHEMA_DECISION_R6.json",
+      "sha256": "c6ac327aaa0de7069327f81b532579d67aecddd50e44fd9bce78e7e44d708cf9",
+      "size_bytes": 2138
+    },
+    {
+      "path": "SCHEMA_VSS_RUNTIME_CONFIGURATION_R6.json",
+      "sha256": "63bb59bb10c1a8fb3633832e0b671e0b92ef1925bd543939d5715120e89f7d0a",
+      "size_bytes": 1388
+    },
+    {
+      "path": "SCHEMA_VSS_RUNTIME_CONNECTIVITY_PROBE_R6.json",
+      "sha256": "9e4150b3048631c5f00c87bc822440a5974699566428131a872ab29b7c494519",
+      "size_bytes": 1578
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "63efed54f8cfbd528cde1df6831d0a50b35ee1309bb32f9d42957a057d6fb00c",
+      "size_bytes": 3506
+    },
+    {
+      "path": "STATUS_ENUMS_R6.json",
+      "sha256": "c30201b002d254578975b50852ab85a3217840a17f95dd0677bf44871890ecd6",
+      "size_bytes": 783
+    }
+  ],
+  "schema_version": "hash-manifest-v1",
+  "status": "PASS"
+}

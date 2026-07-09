@@ -1,0 +1,16 @@
+{
+  "artifact_id": "DECISION",
+  "forbidden_capabilities_created": [],
+  "founder_review_no_session_only": true,
+  "generated_at": "2026-07-07T15:53:23Z",
+  "inputs_accounted": true,
+  "limitations": [
+    "human/founder review sessions have not run",
+    "diagnostic and review outputs are not production monitoring",
+    "simulation remains no-forecast and bounded by explicit assumptions",
+    "no official workflow, case, ticket, dispatch, control, or enforcement adapter exists"
+  ],
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-CONSOLIDATION-AND-PILOT-READINESS-R1",
+  "selected_family_count": 3,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CONSOLIDATION_AND_PILOT_READINESS_R1_WITH_LIMITATIONS"
+}

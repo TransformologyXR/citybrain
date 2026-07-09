@@ -1,0 +1,33 @@
+{
+  "artifact_id": "SEQUENTIAL_EXECUTION_LOG",
+  "generated_at": "2026-07-07T19:07:41Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-HARNESS-REMEDIATION-SANDBOX-SEQUENCE-R1",
+  "parallel_execution_used": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "output_root": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-LOOP-EVAL-HARNESS-EXECUTION-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_EVAL_HARNESS_EXECUTION_R1_WITH_LIMITATIONS",
+      "step_number": 1
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_remediation_candidate_sandbox_projection_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-CANDIDATE-SANDBOX-PROJECTION-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_CANDIDATE_SANDBOX_PROJECTION_R1_WITH_LIMITATIONS",
+      "step_number": 2
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_eval_gap_triage_founder_readiness_no_session_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-GAP-TRIAGE-FOUNDER-READINESS-NO-SESSION-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_GAP_TRIAGE_FOUNDER_READINESS_NO_SESSION_R1_WITH_LIMITATIONS",
+      "step_number": 3
+    },
+    {
+      "output_root": "outputs/main_citybrain_epoch4_eval_harness_remediation_final_reverify_r1",
+      "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-HARNESS-REMEDIATION-FINAL-REVERIFY-R1",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_HARNESS_REMEDIATION_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step_number": 4
+    }
+  ]
+}

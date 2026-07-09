@@ -1,0 +1,129 @@
+{
+  "artifact_id": "PRODUCT_LOOP_EVAL_RERUN_R2",
+  "case_count": 12,
+  "case_pass_count": 12,
+  "cases": [
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "case_type": "packet_baseline",
+      "family_id": "mobility_access_interruption",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "case_type": "downgrade_pressure",
+      "family_id": "mobility_access_interruption",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "case_type": "contradiction_guard",
+      "family_id": "mobility_access_interruption",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "case_type": "packet_baseline",
+      "family_id": "building_compliance_perception_candidate",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "case_type": "downgrade_pressure",
+      "family_id": "building_compliance_perception_candidate",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "case_type": "contradiction_guard",
+      "family_id": "building_compliance_perception_candidate",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "case_type": "packet_baseline",
+      "family_id": "permit_inspection_delay",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "case_type": "downgrade_pressure",
+      "family_id": "permit_inspection_delay",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "case_type": "contradiction_guard",
+      "family_id": "permit_inspection_delay",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "case_type": "packet_baseline",
+      "family_id": "city_asset_infrastructure_issue",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "case_type": "downgrade_pressure",
+      "family_id": "city_asset_infrastructure_issue",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    },
+    {
+      "assertion_count": 5,
+      "assertion_pass_count": 5,
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "case_type": "contradiction_guard",
+      "family_id": "city_asset_infrastructure_issue",
+      "rerun_status": "PASS",
+      "source_truth_mutated": false,
+      "training_row_created": false
+    }
+  ],
+  "deterministic_rerun_mode": "same_12_case_corpus_after_derived_overlay_refresh",
+  "status": "PASS_WITH_LIMITATIONS"
+}

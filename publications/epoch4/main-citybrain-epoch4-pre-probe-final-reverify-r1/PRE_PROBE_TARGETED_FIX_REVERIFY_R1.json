@@ -1,0 +1,9 @@
+{
+  "artifact_id": "PRE_PROBE_TARGETED_FIX_REVERIFY_R1",
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_PROBE_TARGETED_FIX_SEQUENCE_R1_WITH_LIMITATIONS",
+  "derived_fix_count": 50,
+  "external_operator_validation_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "targeted_fixes_are_derived_candidate_only": true
+}

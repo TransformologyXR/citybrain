@@ -1,0 +1,6 @@
+{
+  "artifact_id": "NO_SCORE_INFLATION_GUARD",
+  "maturity_score_inflation_as_fact": false,
+  "score_delta_claimed_as_fact": false,
+  "status": "PASS"
+}

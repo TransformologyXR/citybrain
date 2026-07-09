@@ -1,0 +1,211 @@
+{
+  "artifact_id": "MOBILITY_REVIEW_PACKET_360_NATIVE_VS_DERIVED_PROVENANCE_AUDIT",
+  "derived_backfill_relabelled_as_native": false,
+  "derived_backfill_sources": [
+    {
+      "derived_backfill": true,
+      "evidence_id": "mobility_derived_backfill_comparison",
+      "evidence_type": "derived_backfill_comparison_only",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": false,
+      "source_ref": "outputs/main_citybrain_epoch4_founder_probe_evidence_repair_sequence_r1/MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT.json"
+    }
+  ],
+  "derived_backfill_used_as_comparison_only": true,
+  "mobility_repair_supported": true,
+  "native_evidence_sources": [
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:001",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:002",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:003",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:004",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:005",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:006",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:007",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:008",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:009",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:010",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:011",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:012",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:013",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:014",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:015",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:016",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:017",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:018",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:019",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "seed-r3-expanded:mobility_access:020",
+      "evidence_type": "native_event_fabric_expanded_adapter_event",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/MAIN-CITYBRAIN-SEED-R3-ADAPTER-CORPUS-EXPANSION-R1/SEED_R3_EXPANDED_ADAPTER_FEED.jsonl"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "founder-probe-r2-09",
+      "evidence_type": "check_actual_outcome",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "founder-probe-r2-10",
+      "evidence_type": "check_actual_outcome",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "founder-probe-r2-11",
+      "evidence_type": "check_actual_outcome",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json"
+    },
+    {
+      "derived_backfill": false,
+      "evidence_id": "founder-probe-r2-12",
+      "evidence_type": "check_actual_outcome",
+      "family_id": "mobility_access_interruption_v0",
+      "native_evidence": true,
+      "source_ref": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json"
+    }
+  ],
+  "status": "PASS"
+}

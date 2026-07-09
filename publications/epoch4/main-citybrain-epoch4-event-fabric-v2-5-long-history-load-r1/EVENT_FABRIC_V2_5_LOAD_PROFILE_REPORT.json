@@ -1,0 +1,32 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_5_LOAD_PROFILE_REPORT",
+  "event_count": 1440,
+  "events_per_family": {
+    "building_compliance_perception_candidate": 360,
+    "city_asset_infrastructure_issue": 360,
+    "mobility_access_interruption": 360,
+    "permit_inspection_delay": 360
+  },
+  "family_count": 4,
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "event_fabric_v2_4",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_4_REPLAY_SCALE_CONSUMPTION_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "jsonl_row_count": 280,
+      "key": "event_fabric_v2_4_log",
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1/EVENT_FABRIC_V2_4_SCALE_REPLAY_LOG.jsonl"
+    }
+  ],
+  "load_bucket_counts": {
+    "cold": 480,
+    "hot": 360,
+    "warm": 600
+  },
+  "logical_snapshot_count": 12,
+  "status": "PASS_WITH_LIMITATIONS"
+}

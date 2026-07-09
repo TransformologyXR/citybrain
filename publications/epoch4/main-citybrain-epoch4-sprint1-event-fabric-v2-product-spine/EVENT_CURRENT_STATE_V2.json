@@ -1,0 +1,190 @@
+{
+  "active_events": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:e7fde36f5a07",
+      "event_time": "2026-07-07T07:55:00Z",
+      "event_type": "mobility.access_interruption.update",
+      "evidence_refs": [
+        "evidence:inspection:alpha"
+      ],
+      "expires_at": "2026-07-07T10:00:00Z",
+      "ingested_at": "2026-07-07T08:06:00Z",
+      "observed_at": "2026-07-07T07:55:45Z",
+      "payload": {
+        "access_state": "constrained",
+        "late_arrival": true
+      },
+      "processing_time": "2026-07-07T08:06:04Z",
+      "review_state": "candidate_reviewed",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:alpha_access:002",
+      "source_record_ref": "source_record:inspection:alpha:2026-06-30",
+      "supersedes": "efv2:592899f65e66"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:beta_candidate"
+      ],
+      "check_report_refs": [
+        "check_v1:beta:candidate_only"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:72f151d0679f",
+      "event_time": "2026-07-07T09:00:00Z",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:registry:beta"
+      ],
+      "expires_at": null,
+      "ingested_at": "2026-07-07T09:02:00Z",
+      "observed_at": "2026-07-07T09:01:00Z",
+      "payload": {
+        "access_state": "candidate_only"
+      },
+      "processing_time": "2026-07-07T09:02:02Z",
+      "review_state": "review_required",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:beta_access:001",
+      "source_record_ref": "source_record:registry:beta:2026-05-01",
+      "supersedes": null
+    }
+  ],
+  "authority_boundary": "review_only_no_action",
+  "counts": {
+    "active": 2,
+    "duplicates": 1,
+    "historical": 4,
+    "quarantined": 1,
+    "superseded": 1,
+    "unresolved_or_candidate": 1
+  },
+  "history": [
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:592899f65e66",
+      "event_time": "2026-07-07T08:00:00Z",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:permit:alpha:100a",
+        "EVENT_FABRIC_V2_R1_INTAKE_REPORT.json"
+      ],
+      "expires_at": "2026-07-07T10:00:00Z",
+      "ingested_at": "2026-07-07T08:01:00Z",
+      "observed_at": "2026-07-07T08:00:20Z",
+      "payload": {
+        "access_state": "interrupted",
+        "lane_state": "single_lane",
+        "severity": "medium"
+      },
+      "processing_time": "2026-07-07T08:01:05Z",
+      "review_state": "candidate_reviewed",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:alpha_access:001",
+      "source_record_ref": "source_record:permit:alpha:2026-07-01",
+      "supersedes": null
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:592899f65e66",
+      "event_time": "2026-07-07T08:00:00Z",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:permit:alpha:100a"
+      ],
+      "expires_at": "2026-07-07T10:00:00Z",
+      "ingested_at": "2026-07-07T08:03:00Z",
+      "observed_at": "2026-07-07T08:00:20Z",
+      "payload": {
+        "duplicate_of": "efv2:592899f65e66"
+      },
+      "processing_time": "2026-07-07T08:03:04Z",
+      "review_state": "duplicate_rejected",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:alpha_access:001",
+      "source_record_ref": "source_record:permit:alpha:2026-07-01",
+      "supersedes": null
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_report_refs": [
+        "check_v1:alpha:located_in"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:e7fde36f5a07",
+      "event_time": "2026-07-07T07:55:00Z",
+      "event_type": "mobility.access_interruption.update",
+      "evidence_refs": [
+        "evidence:inspection:alpha"
+      ],
+      "expires_at": "2026-07-07T10:00:00Z",
+      "ingested_at": "2026-07-07T08:06:00Z",
+      "observed_at": "2026-07-07T07:55:45Z",
+      "payload": {
+        "access_state": "constrained",
+        "late_arrival": true
+      },
+      "processing_time": "2026-07-07T08:06:04Z",
+      "review_state": "candidate_reviewed",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:alpha_access:002",
+      "source_record_ref": "source_record:inspection:alpha:2026-06-30",
+      "supersedes": "efv2:592899f65e66"
+    },
+    {
+      "authority_boundary": "review_only_no_action",
+      "cer_entity_refs": [
+        "cer:building:beta_candidate"
+      ],
+      "check_report_refs": [
+        "check_v1:beta:candidate_only"
+      ],
+      "event_family": "mobility_access_interruption_v0",
+      "event_id": "efv2:72f151d0679f",
+      "event_time": "2026-07-07T09:00:00Z",
+      "event_type": "mobility.access_interruption",
+      "evidence_refs": [
+        "evidence:registry:beta"
+      ],
+      "expires_at": null,
+      "ingested_at": "2026-07-07T09:02:00Z",
+      "observed_at": "2026-07-07T09:01:00Z",
+      "payload": {
+        "access_state": "candidate_only"
+      },
+      "processing_time": "2026-07-07T09:02:02Z",
+      "review_state": "review_required",
+      "source_class": "replay_source_record",
+      "source_event_id": "sprint1:source:beta_access:001",
+      "source_record_ref": "source_record:registry:beta:2026-05-01",
+      "supersedes": null
+    }
+  ],
+  "materialized_at": "2026-07-07T12:38:35Z",
+  "state_id": "event_state_v2_mobility_access_interruption"
+}

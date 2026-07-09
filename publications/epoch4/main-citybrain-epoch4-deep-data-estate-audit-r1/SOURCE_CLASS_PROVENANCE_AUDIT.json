@@ -1,0 +1,36 @@
+{
+  "artifact_id": "SOURCE_CLASS_PROVENANCE_AUDIT",
+  "generated_at": "2026-07-08T09:24:24Z",
+  "non_claims": [
+    "Synthetic and donor records are not official Dubai truth.",
+    "Replay and fixture records are review/eval support, not live facts."
+  ],
+  "normalized_provenance_counts": {
+    "derived_candidate": 2,
+    "donor_real": 0,
+    "fixture_only": 0,
+    "model_generated_narrative": 5,
+    "official_record": 115,
+    "replay_fixture": 87,
+    "sensor_inferred": 40,
+    "source_record": 26,
+    "synthetic_seed": 147,
+    "unknown": 434
+  },
+  "raw_source_class_counts": {
+    "dataset_annotation": 3,
+    "derived": 1,
+    "derived_field": 1,
+    "media_evidence": 1,
+    "model_generated_narrative_not_fact_source": 5,
+    "official_record": 115,
+    "replay": 39,
+    "replay_source_record": 3,
+    "sensor_inferred": 40,
+    "source_record": 23,
+    "synthetic": 3,
+    "unknown_or_unclassified": 430
+  },
+  "status": "PASS_WITH_LIMITATIONS",
+  "unknown_is_finding": true
+}

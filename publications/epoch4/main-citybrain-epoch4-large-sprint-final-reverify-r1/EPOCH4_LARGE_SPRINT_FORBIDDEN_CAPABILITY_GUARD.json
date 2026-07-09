@@ -1,0 +1,16 @@
+{
+  "artifact_id": "EPOCH4_LARGE_SPRINT_FORBIDDEN_CAPABILITY_GUARD",
+  "forbidden_capabilities": [
+    "production live city monitoring",
+    "autonomous alerts, routing, dispatch, enforcement, command, or control",
+    "official tickets, official cases, legal findings, certified affected-building truth, or public-safety determinations",
+    "learned ranking, operator-facing prediction, product ForecastPacket, model training, model release, or learned component release row",
+    "fabricated human review sessions, fabricated operator dispositions, fabricated transition history, fabricated source evidence, or synthetic data relabeled as official/live",
+    "mutation of source truth or canonical truth without explicit candidate/review state and provenance"
+  ],
+  "forbidden_capabilities_created": [],
+  "forecast_packet_created": false,
+  "production_live_claim_created": false,
+  "sprint4_fabricated_human_sessions_created": false,
+  "status": "PASS"
+}

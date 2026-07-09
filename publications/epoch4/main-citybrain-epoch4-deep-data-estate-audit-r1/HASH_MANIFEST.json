@@ -1,0 +1,329 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "DEEP_DATA_ESTATE_AUDIT_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 2595,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/CHECK_CLAIMABILITY_DATA_AUDIT.json",
+      "sha256": "aaf39ffda412b5c5a728ccf516f2962af1ffe71ecfdddb90cd06483318249ba4"
+    },
+    {
+      "bytes": 24822,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/CITY_DOMAIN_COVERAGE_MATRIX.json",
+      "sha256": "2eeda719340b0b93fdccecf8864821821ed6b324d89371d55b61cf92401d78ec"
+    },
+    {
+      "bytes": 4540,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/DATA_ESTATE_AUDIT_DECISION.json",
+      "sha256": "a0e9f7cda03394d40263a21c5aa62c11da1d3d4d80b88a4e90a0dbfa0cde2bc7"
+    },
+    {
+      "bytes": 2996,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/DATA_MATURITY_REMEDIATION_CROSSWALK.json",
+      "sha256": "9b678cbf0a89af948bff76a9299a226bf1c5a2791e43d58ae36a8a9b55254297"
+    },
+    {
+      "bytes": 1866,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/DATA_RISK_REGISTER.json",
+      "sha256": "dfee7aefc7b79b28773d75f279cc4add59ae25ace6c80df7a07a59b12e10a836"
+    },
+    {
+      "bytes": 30549,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/DATA_ROOT_INVENTORY.json",
+      "sha256": "ce17a92ab41f14b961446bdae050275b01d1cfaa793ba4ea5eb4e7fbb0fca968"
+    },
+    {
+      "bytes": 2418,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/EVENT_REPLAY_DATA_AUDIT.json",
+      "sha256": "fdc49b17cd053b738a5010db5463246b6bde61238dc12f18444fd6bd4ad254f0"
+    },
+    {
+      "bytes": 1062,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/EXECUTIVE_DATA_ESTATE_SUMMARY.md",
+      "sha256": "6bd9f0e4a6a389b306e19f6a500538019b2747a61d539e016b5eea032387bedd"
+    },
+    {
+      "bytes": 6295,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/FOUNDER_PROBE_REPRESENTATIVENESS_CROSSWALK.json",
+      "sha256": "35d3f00915c2d24d6fefc5f028cc153b5712899c5e5ea133d34d83855103017b"
+    },
+    {
+      "bytes": 497,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/GEOSPATIAL_COVERAGE_AUDIT.json",
+      "sha256": "63f63131d976526c1f31a2c856c64776f8a30eeaa82468c297eb24b6faff5c87"
+    },
+    {
+      "bytes": 576,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/IDENTITY_CER_READINESS_DATA_AUDIT.json",
+      "sha256": "536aa450621f81ece866272e8ea0732e97d081cc4473fa5d4719983bee466c81"
+    },
+    {
+      "bytes": 1826,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/LOW_HANGING_DATA_WINS.json",
+      "sha256": "bd8c12abb2633670a1bded68c6878b5688ea41c03eb1f7a2083b5aa40d09cb3c"
+    },
+    {
+      "bytes": 1778,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/MISSING_DATA_BACKLOG.json",
+      "sha256": "eb816cfc6416a301a2a1573d4426b895bdd280eee1a812f08c61912bc2248ecc"
+    },
+    {
+      "bytes": 1081,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/NEXT_MOVE_RECOMMENDATION.json",
+      "sha256": "9ca36dc085b73b31910c27f439292fdd49e34f612836e51088a20530f90ff34b"
+    },
+    {
+      "bytes": 1124,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "9e539c4324d490e9b6f40ba8cd9633b39b906cf0e45cda9b029d697d30668f4a"
+    },
+    {
+      "bytes": 1351,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/PRODUCT_LOOP_EVAL_COVERAGE_AUDIT.json",
+      "sha256": "5e55098c17d237e3f95ef63b1338bbb63804fadd3e04795cfe94054d29a29aad"
+    },
+    {
+      "bytes": 10796,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/PUBLICATION_COVERAGE_REPORT.json",
+      "sha256": "dc532943550b50f9a0765f640ae84440229e806a7cd6af8610d19407767d8c54"
+    },
+    {
+      "bytes": 129165,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/ROW_COUNT_AND_SIZE_LEDGER.json",
+      "sha256": "73e537e00d49d929cee8bac0f0eb7d17e9c8582243577ecaabdf824e34dab59d"
+    },
+    {
+      "bytes": 10327,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SIMULATION_DATA_AUDIT.json",
+      "sha256": "89a33266d8d22fd6fcf3bee1c9f05e7e826277945a39c78aacd035a24730b34a"
+    },
+    {
+      "bytes": 1029,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SOURCE_CLASS_PROVENANCE_AUDIT.json",
+      "sha256": "8299cf0e81d737885fbb93e7134fe11ec5e2b32ca60ef493949a4233af59202f"
+    },
+    {
+      "bytes": 10351,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SOURCE_MANIFEST_INVENTORY.json",
+      "sha256": "0e20c269129028c94f1f86db8eedca5d6c973f1c657cd99e0929f206c30dadc7"
+    },
+    {
+      "bytes": 47345,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SOURCE_REGISTRY_CROSSWALK.json",
+      "sha256": "d520d38c0deca1eac3a8861247f8debf7a0e14cb4c018a0b93b97e39753c7029"
+    },
+    {
+      "bytes": 4386,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/SYNTHETIC_DATA_FACTORY_AUDIT.json",
+      "sha256": "94305c1324dd3743a8c8f97edd76876fb0d554a7a53de177611bbefda105cba4"
+    },
+    {
+      "bytes": 5685,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/city_domain_coverage.csv",
+      "sha256": "41524a9ce11224b89b28da104a5b6a224ef3008c59a68dad5ff90e08f0863f7d"
+    },
+    {
+      "bytes": 300662,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/data_source_catalog.csv",
+      "sha256": "6b3461f0e2c60757e70f0bbc8251bba483db7abc5c718f904fb71be59f2f2698"
+    },
+    {
+      "bytes": 178,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/eval_coverage_matrix.csv",
+      "sha256": "975ae5db95d2ae94b1c9b796f9f3ff8cf77f0fab15819251d5d725b71e6e97e4"
+    },
+    {
+      "bytes": 1053,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/low_hanging_data_wins.csv",
+      "sha256": "3d9a01070024905ee75b4f6c30bce88ce3f033ca0b6b510f98c77192fd1cac71"
+    },
+    {
+      "bytes": 976,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/missing_data_backlog.csv",
+      "sha256": "2fb07957f5abff003aabc6303fdaf1294590d435eda2a5fa7801d78bdd94e9b8"
+    },
+    {
+      "bytes": 211,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/source_class_coverage.csv",
+      "sha256": "2ea959edf4f7ef011f6ea5af8b9fed7105ba2572983eac94c190907003c2d29a"
+    },
+    {
+      "bytes": 1108,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/tables/value_pocket_data_map.csv",
+      "sha256": "1af47935fbf08c33fa91ead7da422fd4c4a894ba4c33862d14da4e611dc1bbf2"
+    },
+    {
+      "bytes": 604,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/TEMPORAL_FRESHNESS_AUDIT.json",
+      "sha256": "33d2da4bfab1f59ef62c68668cffbed22a490eea930b846335f258a497e68114"
+    },
+    {
+      "bytes": 1454,
+      "path": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/VALUE_POCKET_DATA_MAP.md",
+      "sha256": "4271178a18a1ba6cc0aadcd83835d41069f994d51bbb3318d9a6575fbd655d7d"
+    },
+    {
+      "bytes": 2595,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/CHECK_CLAIMABILITY_DATA_AUDIT.json",
+      "sha256": "aaf39ffda412b5c5a728ccf516f2962af1ffe71ecfdddb90cd06483318249ba4"
+    },
+    {
+      "bytes": 24822,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/CITY_DOMAIN_COVERAGE_MATRIX.json",
+      "sha256": "2eeda719340b0b93fdccecf8864821821ed6b324d89371d55b61cf92401d78ec"
+    },
+    {
+      "bytes": 4540,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/DATA_ESTATE_AUDIT_DECISION.json",
+      "sha256": "a0e9f7cda03394d40263a21c5aa62c11da1d3d4d80b88a4e90a0dbfa0cde2bc7"
+    },
+    {
+      "bytes": 2996,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/DATA_MATURITY_REMEDIATION_CROSSWALK.json",
+      "sha256": "9b678cbf0a89af948bff76a9299a226bf1c5a2791e43d58ae36a8a9b55254297"
+    },
+    {
+      "bytes": 1866,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/DATA_RISK_REGISTER.json",
+      "sha256": "dfee7aefc7b79b28773d75f279cc4add59ae25ace6c80df7a07a59b12e10a836"
+    },
+    {
+      "bytes": 30549,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/DATA_ROOT_INVENTORY.json",
+      "sha256": "ce17a92ab41f14b961446bdae050275b01d1cfaa793ba4ea5eb4e7fbb0fca968"
+    },
+    {
+      "bytes": 2418,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/EVENT_REPLAY_DATA_AUDIT.json",
+      "sha256": "fdc49b17cd053b738a5010db5463246b6bde61238dc12f18444fd6bd4ad254f0"
+    },
+    {
+      "bytes": 1062,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/EXECUTIVE_DATA_ESTATE_SUMMARY.md",
+      "sha256": "6bd9f0e4a6a389b306e19f6a500538019b2747a61d539e016b5eea032387bedd"
+    },
+    {
+      "bytes": 6295,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/FOUNDER_PROBE_REPRESENTATIVENESS_CROSSWALK.json",
+      "sha256": "35d3f00915c2d24d6fefc5f028cc153b5712899c5e5ea133d34d83855103017b"
+    },
+    {
+      "bytes": 497,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/GEOSPATIAL_COVERAGE_AUDIT.json",
+      "sha256": "63f63131d976526c1f31a2c856c64776f8a30eeaa82468c297eb24b6faff5c87"
+    },
+    {
+      "bytes": 576,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/IDENTITY_CER_READINESS_DATA_AUDIT.json",
+      "sha256": "536aa450621f81ece866272e8ea0732e97d081cc4473fa5d4719983bee466c81"
+    },
+    {
+      "bytes": 1826,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/LOW_HANGING_DATA_WINS.json",
+      "sha256": "bd8c12abb2633670a1bded68c6878b5688ea41c03eb1f7a2083b5aa40d09cb3c"
+    },
+    {
+      "bytes": 1778,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/MISSING_DATA_BACKLOG.json",
+      "sha256": "eb816cfc6416a301a2a1573d4426b895bdd280eee1a812f08c61912bc2248ecc"
+    },
+    {
+      "bytes": 1081,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/NEXT_MOVE_RECOMMENDATION.json",
+      "sha256": "9ca36dc085b73b31910c27f439292fdd49e34f612836e51088a20530f90ff34b"
+    },
+    {
+      "bytes": 1124,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "9e539c4324d490e9b6f40ba8cd9633b39b906cf0e45cda9b029d697d30668f4a"
+    },
+    {
+      "bytes": 1351,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/PRODUCT_LOOP_EVAL_COVERAGE_AUDIT.json",
+      "sha256": "5e55098c17d237e3f95ef63b1338bbb63804fadd3e04795cfe94054d29a29aad"
+    },
+    {
+      "bytes": 10796,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/PUBLICATION_COVERAGE_REPORT.json",
+      "sha256": "dc532943550b50f9a0765f640ae84440229e806a7cd6af8610d19407767d8c54"
+    },
+    {
+      "bytes": 129165,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/ROW_COUNT_AND_SIZE_LEDGER.json",
+      "sha256": "73e537e00d49d929cee8bac0f0eb7d17e9c8582243577ecaabdf824e34dab59d"
+    },
+    {
+      "bytes": 10327,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/SIMULATION_DATA_AUDIT.json",
+      "sha256": "89a33266d8d22fd6fcf3bee1c9f05e7e826277945a39c78aacd035a24730b34a"
+    },
+    {
+      "bytes": 1029,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/SOURCE_CLASS_PROVENANCE_AUDIT.json",
+      "sha256": "8299cf0e81d737885fbb93e7134fe11ec5e2b32ca60ef493949a4233af59202f"
+    },
+    {
+      "bytes": 10351,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/SOURCE_MANIFEST_INVENTORY.json",
+      "sha256": "0e20c269129028c94f1f86db8eedca5d6c973f1c657cd99e0929f206c30dadc7"
+    },
+    {
+      "bytes": 47345,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/SOURCE_REGISTRY_CROSSWALK.json",
+      "sha256": "d520d38c0deca1eac3a8861247f8debf7a0e14cb4c018a0b93b97e39753c7029"
+    },
+    {
+      "bytes": 4386,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/SYNTHETIC_DATA_FACTORY_AUDIT.json",
+      "sha256": "94305c1324dd3743a8c8f97edd76876fb0d554a7a53de177611bbefda105cba4"
+    },
+    {
+      "bytes": 5685,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/city_domain_coverage.csv",
+      "sha256": "41524a9ce11224b89b28da104a5b6a224ef3008c59a68dad5ff90e08f0863f7d"
+    },
+    {
+      "bytes": 300662,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/data_source_catalog.csv",
+      "sha256": "6b3461f0e2c60757e70f0bbc8251bba483db7abc5c718f904fb71be59f2f2698"
+    },
+    {
+      "bytes": 178,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/eval_coverage_matrix.csv",
+      "sha256": "975ae5db95d2ae94b1c9b796f9f3ff8cf77f0fab15819251d5d725b71e6e97e4"
+    },
+    {
+      "bytes": 1053,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/low_hanging_data_wins.csv",
+      "sha256": "3d9a01070024905ee75b4f6c30bce88ce3f033ca0b6b510f98c77192fd1cac71"
+    },
+    {
+      "bytes": 976,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/missing_data_backlog.csv",
+      "sha256": "2fb07957f5abff003aabc6303fdaf1294590d435eda2a5fa7801d78bdd94e9b8"
+    },
+    {
+      "bytes": 211,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/source_class_coverage.csv",
+      "sha256": "2ea959edf4f7ef011f6ea5af8b9fed7105ba2572983eac94c190907003c2d29a"
+    },
+    {
+      "bytes": 1108,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/tables/value_pocket_data_map.csv",
+      "sha256": "1af47935fbf08c33fa91ead7da422fd4c4a894ba4c33862d14da4e611dc1bbf2"
+    },
+    {
+      "bytes": 604,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/TEMPORAL_FRESHNESS_AUDIT.json",
+      "sha256": "33d2da4bfab1f59ef62c68668cffbed22a490eea930b846335f258a497e68114"
+    },
+    {
+      "bytes": 1454,
+      "path": "publications/epoch4/main-citybrain-epoch4-deep-data-estate-audit-r1/VALUE_POCKET_DATA_MAP.md",
+      "sha256": "4271178a18a1ba6cc0aadcd83835d41069f994d51bbb3318d9a6575fbd655d7d"
+    }
+  ],
+  "entry_count": 64,
+  "generated_at": "2026-07-08T09:24:29Z",
+  "status": "PASS"
+}

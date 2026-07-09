@@ -1,0 +1,21 @@
+{
+  "artifact_id": "RUNTIME_WEB_HANDOFF_PACKETS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "event_ref": "event:v2_1:building_compliance_perception_candidate:review_loop",
+      "official_action_enabled": false,
+      "web_packet_ref": "web_packet:building_compliance_perception_candidate:incident_plan"
+    },
+    "city_asset_infrastructure_issue": {
+      "event_ref": "event:v2_1:city_asset_infrastructure_issue:review_loop",
+      "official_action_enabled": false,
+      "web_packet_ref": "web_packet:city_asset_infrastructure_issue:incident_plan"
+    },
+    "permit_inspection_delay": {
+      "event_ref": "event:v2_1:permit_inspection_delay:review_loop",
+      "official_action_enabled": false,
+      "web_packet_ref": "web_packet:permit_inspection_delay:incident_plan"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,209 @@
+{
+  "artifact_id": "SOURCE_FRESHNESS_COVERAGE_REMEDIATION_CANDIDATES",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-01",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 1,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-01",
+      "source_ref": "source:v1_1:freshness:01",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-01"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-02",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 2,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-02",
+      "source_ref": "source:v1_1:freshness:02",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-02"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-03",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 3,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-03",
+      "source_ref": "source:v1_1:freshness:03",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-03"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-04",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 4,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-04",
+      "source_ref": "source:v1_1:freshness:04",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-04"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-05",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 5,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-05",
+      "source_ref": "source:v1_1:freshness:05",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-05"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-06",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 6,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-06",
+      "source_ref": "source:v1_1:freshness:06",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-06"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-07",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 7,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-07",
+      "source_ref": "source:v1_1:freshness:07",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-07"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-08",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 8,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-08",
+      "source_ref": "source:v1_1:freshness:08",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-08"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-09",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 9,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-09",
+      "source_ref": "source:v1_1:freshness:09",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-09"
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-10",
+      "candidate_kind": "source_freshness_coverage_patch_candidate",
+      "candidate_status": "proposed_candidate_only",
+      "claim_boundary": "remediation_queue_only",
+      "expected_unlock": "clearer CHECK freshness posture",
+      "mutates_source_truth": false,
+      "priority": 10,
+      "proposed_patch": {
+        "coverage_window_candidate": "to_be_verified",
+        "refresh_cadence_candidate": "to_be_verified",
+        "source_metadata_only": true
+      },
+      "score_delta_claimed": false,
+      "source_queue": "freshness_coverage",
+      "source_queue_id": "freshness-gap-10",
+      "source_ref": "source:v1_1:freshness:10",
+      "source_truth_patch_applied": false,
+      "verification_fixture_ref": "fixture:freshness_coverage:freshness-gap-10"
+    }
+  ],
+  "generated_at": "2026-07-07T18:51:48Z",
+  "source_queue": "freshness_coverage",
+  "status": "PASS_WITH_LIMITATIONS"
+}

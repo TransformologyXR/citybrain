@@ -1,0 +1,67 @@
+{
+  "actual_vs_expected": {
+    "explanation": "Negative, stale, and contradiction cases are safe diagnostic behavior, not product failure, when they abstain, limit, or downgrade.",
+    "status": "PASS_EXPLAINED"
+  },
+  "brief_summary": {
+    "brief_refs": [
+      "brief:v3:permit_inspection_delay:operator",
+      "brief:v3:permit_inspection_delay:executive",
+      "brief:v3:permit_inspection_delay:technical"
+    ],
+    "summary": "BRIEF refs are present; R4 card assembles them into a review prompt without changing source truth."
+  },
+  "cannot_claim_or_downgrade_reasons": [
+    "no source truth correction",
+    "no forecast authority",
+    "no dispatch/control/enforcement",
+    "no training eligibility",
+    "local/replay/offline only",
+    "no official action or workflow",
+    "derived overlays are candidate-only",
+    "not external operator validation"
+  ],
+  "cer_seg_context_summary": {
+    "cer_missing": false,
+    "seg_missing": false,
+    "status": "attached"
+  },
+  "check_v1_actual_outcome": {
+    "actual": "PASS_LIMITED_OR_ABSTAIN",
+    "expected": "abstain_no_data",
+    "match_status": "matched_challenge_boundary",
+    "source": "outputs/main_citybrain_epoch4_product_loop_challenge_negative_suite_r1/CHALLENGE_RUN_RESULTS.json"
+  },
+  "eval_case_ref": "eval-r2:permit_inspection_delay:negative_no_data",
+  "event_state_replay_context": "local_replay_state_only",
+  "family": "permit_inspection_delay",
+  "founder_should_judge": [
+    "Can the subject and evidence loop be understood quickly?",
+    "Does CHECK explain why the claim should proceed, downgrade, abstain, or quarantine?",
+    "Are derived overlay notes helpful without over-claiming truth?"
+  ],
+  "no_action_boundary": true,
+  "not_source_truth": true,
+  "plain_language_case_summary": "permit_inspection_delay / negative_no_data review card assembled from eval, CHECK, BRIEF, spatial, and R3 evidence attachments.",
+  "provenance": "native_or_replay_review_evidence",
+  "review_readiness_classification": "founder_diagnostic_ready",
+  "scenario": "negative_no_data",
+  "simulation_option_context": "simulation_not_applicable",
+  "source_evidence_summary": {
+    "derived_overlay_refs": [],
+    "not_source_truth": false,
+    "source_class": "replay",
+    "source_refs": [
+      "source:v1_1:permit_inspection_delay:atlas",
+      "diff:v2_5:permit_inspection_delay:long_history"
+    ]
+  },
+  "spatial_context": {
+    "claim": "review overlay context only",
+    "spatial_refs": [
+      "spatial:v2_5:permit_inspection_delay:atlas_overlay"
+    ]
+  },
+  "task_id": "founder-probe-r2-14",
+  "weakness_classification": "intentional diagnostic negative/stale/contradiction behavior"
+}

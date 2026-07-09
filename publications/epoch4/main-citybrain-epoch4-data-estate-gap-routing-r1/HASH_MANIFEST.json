@@ -1,0 +1,77 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 911,
+      "path": "DATA_ESTATE_GAP_ROUTING_DECISION.json",
+      "sha256": "8dfdccf17a360e21441696af0becdfe0080c2a28d58c7bcc94936107d7a445ff"
+    },
+    {
+      "bytes": 622,
+      "path": "DATA_GAP_ROUTING_LEDGER.json",
+      "sha256": "31899e4774fc54a3197c9ffb8bcae42c29eda33b8a42a0ebc7a7fd84364a36d9"
+    },
+    {
+      "bytes": 127,
+      "path": "DATA_MATURITY_SCORE_NO_INFLATION_GUARD.json",
+      "sha256": "de619327d1b24377568fca5b68f6e1c068a2098b27136a4e5e5795ac788bbdc6"
+    },
+    {
+      "bytes": 497390,
+      "path": "FRESHNESS_UNKNOWN_TRIAGE_QUEUE.json",
+      "sha256": "8211a12da0ba8cccb58e0e713767515c80326ff8a651130545168c4ddba29126"
+    },
+    {
+      "bytes": 635211,
+      "path": "GEOMETRY_UNKNOWN_TRIAGE_QUEUE.json",
+      "sha256": "417e7da1eca8f09b5022cb35241d57138e4de809e8b8a79dda952fb83098b968"
+    },
+    {
+      "bytes": 336,
+      "path": "GLOBAL_GAPS_NOT_FIXED_BY_CARD_REPAIR.md",
+      "sha256": "d443ea6d07c58af7bd6d27bf34c5e298f0df3da94ec3c6d6f0c429006dfa30dc"
+    },
+    {
+      "bytes": 743,
+      "path": "LOW_HANGING_WINS_ACTION_PLAN.json",
+      "sha256": "10e9032a04afa883014a5cdb9bdca3079385d6a453d0746968672f2662a6a401"
+    },
+    {
+      "bytes": 293044,
+      "path": "NO_CONSUMING_FLOW_TRIAGE_QUEUE.json",
+      "sha256": "0d903515f2309af77f4351eae2163e795dd0f2f590c3589f8a168cd6fcf3239b"
+    },
+    {
+      "bytes": 438,
+      "path": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "d33e4e8eb531c96dec0913dd927586541ac673e6a6c7b9a611f469d084dae156"
+    },
+    {
+      "bytes": 135,
+      "path": "NO_SOURCE_TRUTH_MUTATION_GUARD.json",
+      "sha256": "7a9279de226b4f3727c250cb6ae6d901102a98646bbb267fa51bf1b191536b44"
+    },
+    {
+      "bytes": 433,
+      "path": "REVIEW_CARD_GAP_TO_SOURCE_GAP_CROSSWALK.json",
+      "sha256": "65b006a04dfa3e3676a391391d2580d7674bc967288d0d008e7071bd50125eff"
+    },
+    {
+      "bytes": 10303,
+      "path": "SAFE_CANDIDATE_ENRICHMENT_OVERLAYS.json",
+      "sha256": "d2af293ad814576a2f4e3f5c2bfffd61e88eec340504aab4b1e8577f197b8c4e"
+    },
+    {
+      "bytes": 537090,
+      "path": "SCHEMA_UNKNOWN_TRIAGE_QUEUE.json",
+      "sha256": "f1445d9e2db2e13221a40bb8cc1b454a8d8e88c96d4ad51c85db50c0c7ca9656"
+    },
+    {
+      "bytes": 527019,
+      "path": "SOURCE_CLASS_UNKNOWN_TRIAGE_QUEUE.json",
+      "sha256": "f62ed04be2546a4d5ac37145998df9e6bd5c9f4df50d58976dd2c0502085d812"
+    }
+  ],
+  "file_count": 14,
+  "status": "PASS"
+}

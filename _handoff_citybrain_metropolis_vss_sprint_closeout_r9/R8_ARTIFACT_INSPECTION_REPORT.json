@@ -1,0 +1,73 @@
+{
+  "audits": {
+    "check_source_depth": "PASS",
+    "claim_boundary": "PASS",
+    "no_action": "PASS",
+    "prose_vs_detection_conflict": "PASS",
+    "secret": "PASS",
+    "source_class_separation": "PASS"
+  },
+  "candidate_event_id": "metropolis-vss-r2-event-001",
+  "candidate_event_mutated": false,
+  "candidate_observation_count": 24,
+  "files_seen": [
+    "CHECK_SOURCE_DEPTH_R8.json",
+    "CLAIM_BOUNDARY_AUDIT_R8.json",
+    "EVIDENCE_BUNDLE_JOINED_R8.json",
+    "HASH_MANIFEST.json",
+    "HUMAN_REVIEW_PACKET_R8.json",
+    "NARRATION_EVIDENCE_JOIN_R8.json",
+    "NO_ACTION_AUDIT_R8.json",
+    "PROSE_VS_DETECTION_CONFLICT_AUDIT_R8.json",
+    "R2_R7_INPUT_LINEAGE_SUMMARY_R8.json",
+    "R8_CLOSEOUT_DECISION.json",
+    "R8_JSON_PARSE_REPORT.json",
+    "README.md",
+    "SECRET_AUDIT_R8.json",
+    "SOURCE_CLASS_SEPARATION_AUDIT_R8.json",
+    "TEST_LOG_R8.txt"
+  ],
+  "final_status": "PASS_METROPOLIS_VSS_NARRATION_EVIDENCE_JOIN_R8_WITH_LIMITATIONS",
+  "hash_manifest_status": "PASS",
+  "hash_manifest_verified": "14/14",
+  "human_review_packet_emitted": true,
+  "inspection_time_utc": "2026-07-04T09:57:19Z",
+  "joined_evidence_bundle_emitted": true,
+  "json_files_parsed": 13,
+  "json_parse": "PASS",
+  "json_parse_failures": [],
+  "jsonl_files_parsed": 0,
+  "limitations": [
+    "R8 did not rerun DeepStream/Metropolis.",
+    "R8 did not rerun Spark VSS.",
+    "VSS narration remains model-generated review context only and not a fact source.",
+    "No frame image export is present in the R2/R8 chain.",
+    "This remains bounded sample-media review evidence, not production monitoring.",
+    "No official record, ticket, dispatch, enforcement, legal/certified finding, identity inference, or automated action is created."
+  ],
+  "manifest_mismatches": [],
+  "narration_sidecar_count": 1,
+  "notable_values": {
+    "candidate_event_hash": "656067424f17388ec3319bb3612d7b82d7bf0098166877c6b2caf1cc5ac02164",
+    "candidate_event_hash_matches_r7_lineage": true,
+    "class_label": "car",
+    "detection_class": "vehicle_presence_candidate",
+    "human_review_packet_id": "metropolis-vss-r8-human-review-packet-001",
+    "joined_evidence_bundle_id": "metropolis-vss-r8-evidence-bundle-001",
+    "vss_narration_id": "metropolis-vss-r7-narration-5dbe8f70a6df",
+    "zone_id": "bounded_vehicle_zone_r2"
+  },
+  "r2_structured_source_class": "sensor_inferred",
+  "r7_vss_source_class": "model_generated_narrative",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-EVIDENCE-JOIN-R8",
+  "tests": {
+    "full_discovery": "PASS",
+    "full_discovery_count": 209,
+    "targeted_r8": "PASS",
+    "targeted_r8_count": 8
+  },
+  "uploaded_zip": "METROPOLIS_VSS_NARRATION_EVIDENCE_JOIN_R8_PACKAGE.zip",
+  "vss_is_fact_source": false,
+  "zip_entries": 15,
+  "zip_integrity": "PASS"
+}

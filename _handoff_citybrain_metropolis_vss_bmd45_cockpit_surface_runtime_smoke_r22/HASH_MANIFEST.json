@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-07-05T07:15:34Z",
+  "file_count": 18,
+  "files": [
+    {
+      "bytes": 779,
+      "path": "ACCEPTANCE_CHECKS.md",
+      "sha256": "e0e9447aad1e4de04e7137ef5e5d9fcafcf3a16e61f5948abd2de10e0d5a6cd2"
+    },
+    {
+      "bytes": 618,
+      "path": "BOUNDARY_POLICY.md",
+      "sha256": "f460557e6bf7728e14825962f8d703514ddfc44bffb8e0c004db0e0f57c8b831"
+    },
+    {
+      "bytes": 1513,
+      "path": "ENTRY_PROMPT.md",
+      "sha256": "0419ff36ccdb84203832a55a89e7a67df7c5920e5f10bfadc0b82106fdccef24"
+    },
+    {
+      "bytes": 443,
+      "path": "GUARDRAIL_TERMS_R22.json",
+      "sha256": "08e7578c264ade424928c728a6f957e86d2cc0276348192808ebc77e335a346e"
+    },
+    {
+      "bytes": 507,
+      "path": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "8b8afbdce84be9c9462b7bbad03cb0ebe994f2689d9444ea4c42877adf1fe007"
+    },
+    {
+      "bytes": 704,
+      "path": "IMPLEMENTATION_NOTES.md",
+      "sha256": "d254de3254c50d8beb82df1efec403e99949a703745c254c6884bea9b8e55c91"
+    },
+    {
+      "bytes": 1201,
+      "path": "INPUT_R21_VALIDATION_SUMMARY.json",
+      "sha256": "9258e180f95a0f891c18257b0d73462eb98f516cc6be80672eb4b506d71ad7e9"
+    },
+    {
+      "bytes": 400,
+      "path": "KNOWN_LIMITATIONS_TEMPLATE_R22.md",
+      "sha256": "c879aeb264b8d0c95e2fdcb1a2b77e962d03b0e015e07594c06644e883bb0a23"
+    },
+    {
+      "bytes": 563,
+      "path": "NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R22.md",
+      "sha256": "9a959f83868f9d82818136a4f4f1d7173e1a0936f1bb864018a1df3af63867f4"
+    },
+    {
+      "bytes": 897,
+      "path": "PACKAGE_CONTRACT.md",
+      "sha256": "c02fcf6a4a2e5bfdbb27fbbdef9894a875ec62b5470e8ec3b78087f2a367710a"
+    },
+    {
+      "bytes": 1201,
+      "path": "R21_ARTIFACT_INSPECTION_REPORT.json",
+      "sha256": "9258e180f95a0f891c18257b0d73462eb98f516cc6be80672eb4b506d71ad7e9"
+    },
+    {
+      "bytes": 541,
+      "path": "README.md",
+      "sha256": "ba6fe219b52f42129e90ae822e1d91f224a23800fec0790a9283fa1e0b584467"
+    },
+    {
+      "bytes": 412,
+      "path": "RUNTIME_HOST_ALLOCATION_R22.json",
+      "sha256": "611a1b98c9e52663786ae74b037fe2fbe82a9db5ef42d1b95229e631a7fd49af"
+    },
+    {
+      "bytes": 941,
+      "path": "SCHEMA_COCKPIT_SURFACE_RUNTIME_REPORT_R22.json",
+      "sha256": "be4e6dd8797d9676ced9c8f86d840d292e5ea5b63a6ae150eba4ed64ff985e57"
+    },
+    {
+      "bytes": 1328,
+      "path": "SCHEMA_DECISION_R22.json",
+      "sha256": "4c0376e664ac1e85f368cfdf7afc8dc45bd598fbb4e3c48f3567d6457d4cf875"
+    },
+    {
+      "bytes": 755,
+      "path": "SCHEMA_HUMAN_REVIEW_SURFACE_PACKET_R22.json",
+      "sha256": "4c2d7ddc32d54a2f54d563821a84c4e93841cf19943bcbf1ec1f07fe0fb9b5ae"
+    },
+    {
+      "bytes": 1703,
+      "path": "SPEC.md",
+      "sha256": "af8e6aeb32f27c923ad6abc710cd8a06a9033d8bbd5afc48d23e09be8b5de905"
+    },
+    {
+      "bytes": 451,
+      "path": "STATUS_ENUMS_R22.json",
+      "sha256": "8f57e277da3f045709115931cfa03f53235f4b14e1ea36229c6d186e448c8845"
+    }
+  ],
+  "schema_version": "hash-manifest.v1",
+  "status": "PASS"
+}

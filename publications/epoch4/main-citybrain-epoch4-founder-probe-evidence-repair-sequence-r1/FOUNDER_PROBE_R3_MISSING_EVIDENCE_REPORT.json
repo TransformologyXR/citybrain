@@ -1,0 +1,41 @@
+{
+  "artifact_id": "FOUNDER_PROBE_R3_MISSING_EVIDENCE_REPORT",
+  "card_count": 16,
+  "cards_with_missing_or_backfilled_evidence": 4,
+  "missing_evidence": [
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence_r3": [
+        "Native mobility Review Packet 360 family packet remains absent; R3 uses derived_review_packet_backfill_not_source_truth."
+      ],
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-09"
+    },
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence_r3": [
+        "Native mobility Review Packet 360 family packet remains absent; R3 uses derived_review_packet_backfill_not_source_truth."
+      ],
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-10"
+    },
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence_r3": [
+        "Native mobility Review Packet 360 family packet remains absent; R3 uses derived_review_packet_backfill_not_source_truth."
+      ],
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-11"
+    },
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence_r3": [
+        "Native mobility Review Packet 360 family packet remains absent; R3 uses derived_review_packet_backfill_not_source_truth."
+      ],
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-12"
+    }
+  ],
+  "policy": "Missing or backfilled evidence is marked explicitly and is not invented.",
+  "status": "PASS_WITH_LIMITATIONS"
+}

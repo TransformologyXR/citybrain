@@ -1,0 +1,498 @@
+{
+  "artifact_id": "MATURITY_REMEDIATION_QUEUE",
+  "generated_at": "2026-07-07T17:35:41Z",
+  "input_audit": [
+    {
+      "exists": true,
+      "key": "source_registry_v1_1",
+      "path": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_r2",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "data_maturity_r2_product",
+      "path": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "key": "trackb_maturity",
+      "path": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_TRACKB_MATURITY_BRIEF_GOVERNANCE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "item_count": 50,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-DATA-MATURITY-REMEDIATION-ACTIONS-R1",
+  "queue_count": 5,
+  "queues": {
+    "check_downgrade": [
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 1,
+        "queue_id": "check-downgrade-01",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:01"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 2,
+        "queue_id": "check-downgrade-02",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:02"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 3,
+        "queue_id": "check-downgrade-03",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:03"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 4,
+        "queue_id": "check-downgrade-04",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:04"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 5,
+        "queue_id": "check-downgrade-05",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:05"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 6,
+        "queue_id": "check-downgrade-06",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:06"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 7,
+        "queue_id": "check-downgrade-07",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:07"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 8,
+        "queue_id": "check-downgrade-08",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:08"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 9,
+        "queue_id": "check-downgrade-09",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:09"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer evidence sufficiency review",
+        "mutates_source_truth": false,
+        "priority": 10,
+        "queue_id": "check-downgrade-10",
+        "recommended_action": "map downgrade reason to source remediation queue",
+        "source_ref": "check:v1:downgrade:10"
+      }
+    ],
+    "freshness_coverage": [
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 1,
+        "queue_id": "freshness-gap-01",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:01"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 2,
+        "queue_id": "freshness-gap-02",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:02"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 3,
+        "queue_id": "freshness-gap-03",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:03"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 4,
+        "queue_id": "freshness-gap-04",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:04"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 5,
+        "queue_id": "freshness-gap-05",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:05"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 6,
+        "queue_id": "freshness-gap-06",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:06"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 7,
+        "queue_id": "freshness-gap-07",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:07"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 8,
+        "queue_id": "freshness-gap-08",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:08"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 9,
+        "queue_id": "freshness-gap-09",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:09"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "clearer CHECK freshness posture",
+        "mutates_source_truth": false,
+        "priority": 10,
+        "queue_id": "freshness-gap-10",
+        "recommended_action": "add refresh cadence and coverage window metadata",
+        "source_ref": "source:v1_1:freshness:10"
+      }
+    ],
+    "geometry_time_history": [
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 1,
+        "queue_id": "geometry-time-gap-01",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:01"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 2,
+        "queue_id": "geometry-time-gap-02",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:02"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 3,
+        "queue_id": "geometry-time-gap-03",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:03"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 4,
+        "queue_id": "geometry-time-gap-04",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:04"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 5,
+        "queue_id": "geometry-time-gap-05",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:05"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 6,
+        "queue_id": "geometry-time-gap-06",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:06"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 7,
+        "queue_id": "geometry-time-gap-07",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:07"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 8,
+        "queue_id": "geometry-time-gap-08",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:08"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 9,
+        "queue_id": "geometry-time-gap-09",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:09"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "spatial and history atlas parity",
+        "mutates_source_truth": false,
+        "priority": 10,
+        "queue_id": "geometry-time-gap-10",
+        "recommended_action": "derive missing geometry/time-history annotation candidate",
+        "source_ref": "source:v1_1:geometry_time:10"
+      }
+    ],
+    "identity_ambiguity": [
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 1,
+        "queue_id": "identity-cluster-01",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:01"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 2,
+        "queue_id": "identity-cluster-02",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:02"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 3,
+        "queue_id": "identity-cluster-03",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:03"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 4,
+        "queue_id": "identity-cluster-04",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:04"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 5,
+        "queue_id": "identity-cluster-05",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:05"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 6,
+        "queue_id": "identity-cluster-06",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:06"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 7,
+        "queue_id": "identity-cluster-07",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:07"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 8,
+        "queue_id": "identity-cluster-08",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:08"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 9,
+        "queue_id": "identity-cluster-09",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:09"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "cleaner CER-backed packet refs",
+        "mutates_source_truth": false,
+        "priority": 10,
+        "queue_id": "identity-cluster-10",
+        "recommended_action": "review entity aliases and conflict provenance",
+        "source_ref": "cer:ambiguity:10"
+      }
+    ],
+    "source_registry_enrichment": [
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 1,
+        "queue_id": "source-enrichment-01",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:01"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 2,
+        "queue_id": "source-enrichment-02",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:02"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 3,
+        "queue_id": "source-enrichment-03",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:03"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 4,
+        "queue_id": "source-enrichment-04",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:04"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 5,
+        "queue_id": "source-enrichment-05",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:05"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 6,
+        "queue_id": "source-enrichment-06",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:06"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 7,
+        "queue_id": "source-enrichment-07",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:07"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 8,
+        "queue_id": "source-enrichment-08",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:08"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 9,
+        "queue_id": "source-enrichment-09",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:09"
+      },
+      {
+        "claim_boundary": "remediation_queue_only",
+        "expected_unlock": "better remediation triage",
+        "mutates_source_truth": false,
+        "priority": 10,
+        "queue_id": "source-enrichment-10",
+        "recommended_action": "add owner/source_class/freshness candidate metadata",
+        "source_ref": "source_registry:v1_1:10"
+      }
+    ]
+  },
+  "scorecard_count": 9,
+  "source_count": 664,
+  "status": "PASS_WITH_LIMITATIONS"
+}

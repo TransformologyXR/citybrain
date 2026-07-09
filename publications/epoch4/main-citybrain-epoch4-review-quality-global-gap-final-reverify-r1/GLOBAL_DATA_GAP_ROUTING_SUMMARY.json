@@ -1,0 +1,13 @@
+{
+  "candidate_overlay_count": 25,
+  "gap_routing_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_ESTATE_GAP_ROUTING_R1_WITH_LIMITATIONS",
+  "queue_counts": {
+    "FRESHNESS_UNKNOWN_TRIAGE_QUEUE.json": 462,
+    "GEOMETRY_UNKNOWN_TRIAGE_QUEUE.json": 526,
+    "NO_CONSUMING_FLOW_TRIAGE_QUEUE.json": 273,
+    "SCHEMA_UNKNOWN_TRIAGE_QUEUE.json": 456,
+    "SOURCE_CLASS_UNKNOWN_TRIAGE_QUEUE.json": 430
+  },
+  "source_truth_mutation": false,
+  "status": "PASS"
+}

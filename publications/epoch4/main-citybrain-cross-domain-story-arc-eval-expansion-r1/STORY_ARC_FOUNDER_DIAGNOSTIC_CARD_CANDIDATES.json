@@ -1,0 +1,41 @@
+{
+  "artifact_id": "STORY_ARC_FOUNDER_DIAGNOSTIC_CARD_CANDIDATES",
+  "candidate_count": 4,
+  "client_ready": false,
+  "product_review_ready": false,
+  "rows": [
+    {
+      "candidate_id": "story-diagnostic-card-01",
+      "operator_fuel": false,
+      "review_question": "Is the shared canonical site linkage understandable?",
+      "session_result_created": false,
+      "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+      "training_eligible": false
+    },
+    {
+      "candidate_id": "story-diagnostic-card-02",
+      "operator_fuel": false,
+      "review_question": "Are the CHECK downgrade boundaries clear?",
+      "session_result_created": false,
+      "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+      "training_eligible": false
+    },
+    {
+      "candidate_id": "story-diagnostic-card-03",
+      "operator_fuel": false,
+      "review_question": "Is the asset/corridor limitation honest enough?",
+      "session_result_created": false,
+      "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+      "training_eligible": false
+    },
+    {
+      "candidate_id": "story-diagnostic-card-04",
+      "operator_fuel": false,
+      "review_question": "Are the 112+ eval cases useful for AI diagnostic review?",
+      "session_result_created": false,
+      "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade",
+      "training_eligible": false
+    }
+  ],
+  "status": "CANDIDATES_ONLY_NO_SESSION_RESULT"
+}

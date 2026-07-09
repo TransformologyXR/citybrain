@@ -1,0 +1,27 @@
+{
+  "artifact_id": "EVAL_GAP_TRIAGE_REPORT",
+  "blocking_failure_count": 0,
+  "blocking_failures": [],
+  "case_count": 12,
+  "case_pass_count": 12,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-GAP-TRIAGE-FOUNDER-READINESS-NO-SESSION-R1",
+  "residual_gap_count": 2,
+  "residual_gaps": [
+    {
+      "description": "Eval corpus passes deterministic assertions, but remediation candidates remain projection-only and should be reviewed before broad founder review.",
+      "gap_id": "residual:source_maturity:projection_needed",
+      "gap_type": "residual_data_maturity",
+      "severity": "medium",
+      "source": "remediation_candidate_sandbox_projection_required"
+    },
+    {
+      "description": "UI/UX remains parked; review packet can be probed, but full review ergonomics are not claimed.",
+      "gap_id": "residual:ui_ux:deferred",
+      "gap_type": "founder_review_operability",
+      "severity": "low",
+      "source": "current_scope_boundary"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

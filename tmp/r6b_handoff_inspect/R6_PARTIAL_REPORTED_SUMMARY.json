@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-07-03T21:44:25.369713+00:00",
+  "source": "user_reported_closeout_no_uploaded_r6_zip_seen_in_sandbox",
+  "reported_status": "PARTIAL_METROPOLIS_VSS_RUNTIME_NOT_CONFIGURED_R6_CONNECTIVITY_CONTRACT_READY",
+  "reported_runner": "scripts/run_main_citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6.py",
+  "reported_output_root": "outputs/main_citybrain_metropolis_vss_runtime_configuration_and_connectivity_r6",
+  "reported_freeze_zip": "METROPOLIS_VSS_RUNTIME_CONFIGURATION_AND_CONNECTIVITY_R6_PACKAGE.zip",
+  "reported_r5_validation": "PASS",
+  "reported_r5_hash_manifest": "20/20",
+  "reported_r2_candidate_observations_events_preserved": "24/1",
+  "reported_runtime_configured": false,
+  "reported_probe_attempted": false,
+  "reported_probe_executed": false,
+  "reported_probe_status": "NOT_CONFIGURED",
+  "reported_json_parse": "PASS 14 JSON + 0 JSONL",
+  "reported_hash_manifest": "14/14",
+  "reported_zip_entries": 15,
+  "reported_limitation": "no --vss-command, --vss-endpoint, CITYBRAIN_VSS_COMMAND, or CITYBRAIN_VSS_ENDPOINT configured",
+  "direct_verification_status": "NOT_VERIFIED_IN_SANDBOX_BECAUSE_R6_FREEZE_ZIP_NOT_UPLOADED"
+}

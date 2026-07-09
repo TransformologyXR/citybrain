@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "new_learned_registry_entries",
+    "forbidden_capabilities_created"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL"
+      ]
+    },
+    "new_learned_registry_entries": {
+      "type": "integer"
+    },
+    "forbidden_capabilities_created": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,319 @@
+{
+  "artifact_id": "SOURCE_MANIFEST_INVENTORY",
+  "candidate_file_count": 1928,
+  "generated_at": "2026-07-08T09:24:24Z",
+  "limitations": [
+    "Manifest inventory is sourced from SourceRegistry v1's deterministic source-like file scan.",
+    "A file mention is not treated as source readiness unless SourceRegistry mapped it."
+  ],
+  "sample_files": [
+    {
+      "bytes": 1102,
+      "path": "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/evidence_clips/evidence_clip_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1103,
+      "path": "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/evidence_frames/evidence_frame_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 344,
+      "path": "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/PERCEPTION_SOURCE_REGISTRY_AUDIT.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 813,
+      "path": "outputs/_test_main_citybrain_r8_real_perception_runtime_evidence_clip_integration/source_media/MEDIA_INVENTORY.json",
+      "source_rows": 1,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 350,
+      "path": "outputs/_test_main_citybrain_r9_deepstream_product_runtime_execution_smoke/evidence_metadata/evidence_metadata_manifest.json",
+      "source_rows": 1,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 761,
+      "path": "outputs/a3d2_footprints_geometry_v1/A3D2_3090_TO_4070_PUSH_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 35536,
+      "path": "outputs/a4_mn_block_1060/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2690,
+      "path": "outputs/a4d2b_district_discovery/discovery_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 360678,
+      "path": "outputs/a4d3a_multidistrict_projection/districts/1-01060/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 775344,
+      "path": "outputs/a4d3a_multidistrict_projection/districts/1-01158/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 55938,
+      "path": "outputs/a4d3a_multidistrict_projection/districts/2-02316/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1487,
+      "path": "outputs/a4d3a_multidistrict_projection/districts_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 996,
+      "path": "outputs/a4d3b_citywide_roundtrip_borough5/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 43088,
+      "path": "outputs/a5_dob_district_enrichment/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2522,
+      "path": "outputs/a5d1_operator_query/a5d1_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d1_operator_query/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 4810,
+      "path": "outputs/a5d2_spark_portability_pack/A5D2_SPARK_PORT_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d2_spark_portability_pack/bundle/config/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2507,
+      "path": "outputs/a5d2_spark_portability_pack/bundle/smoke_outputs/a5d1_clean_run/a5d1_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d2_spark_portability_pack/bundle/smoke_outputs/a5d1_clean_run/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2549,
+      "path": "outputs/a5d4_hardcode_audit/a5d1_gate_after_quarantine/a5d1_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d4_hardcode_audit/a5d1_gate_after_quarantine/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1907,
+      "path": "outputs/a5d4_hardcode_audit/expected_hit_source_random_sample.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2602,
+      "path": "outputs/a5d4a_evidence_grounding_core/A5D4A_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1684,
+      "path": "outputs/a5d4b_request_trace_core/A5D4B_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 300,
+      "path": "outputs/a5d4b_request_trace_core/A5D4B_TOOL_REGISTRY.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1353,
+      "path": "outputs/a5d5_nemo_oracle_wrapper/A5D5_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1148,
+      "path": "outputs/a5d6_live_nemo_nim_replay/A5D6_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 43088,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5_dob_district_enrichment/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2522,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d1_operator_query/a5d1_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d1_operator_query/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 4810,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d2_spark_portability_pack/A5D2_SPARK_PORT_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d2_spark_portability_pack/bundle/config/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2507,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d2_spark_portability_pack/bundle/smoke_outputs/a5d1_clean_run/a5d1_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2218,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d2_spark_portability_pack/bundle/smoke_outputs/a5d1_clean_run/query_catalog.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2602,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d4a_evidence_grounding_core/A5D4A_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1684,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d4b_request_trace_core/A5D4B_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 300,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d4b_request_trace_core/A5D4B_TOOL_REGISTRY.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1353,
+      "path": "outputs/a5d6_live_nemo_nim_replay/remote_bundle/citybrain_project/outputs/a5d5_nemo_oracle_wrapper/A5D5_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 724,
+      "path": "outputs/a5d7_citywide_briefings_v1/A5D7_DEV_TO_4070_PUSH_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 996,
+      "path": "outputs/a8d2_citywide_map_roundtrip_borough5/district_cut_manifest.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 3317,
+      "path": "outputs/a8d3_route_overlay_v1/bridge_payload/A8D3_3090_TO_4070_PUSH_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2707,
+      "path": "outputs/a8d3_route_overlay_v1/bridge_payload/A8D3_INPUT_INVENTORY.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1482,
+      "path": "outputs/a8d3_route_overlay_v1/bridge_payload/A8D3_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 3317,
+      "path": "outputs/a8d3_route_overlay_v1/final_4070/A8D3_3090_TO_4070_PUSH_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 2707,
+      "path": "outputs/a8d3_route_overlay_v1/final_4070/A8D3_INPUT_INVENTORY.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 1482,
+      "path": "outputs/a8d3_route_overlay_v1/final_4070/A8D3_MANIFEST.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 11103,
+      "path": "outputs/a8d3_route_overlay_v1/final_4070/clips/clip_manifest_downloaded.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 563,
+      "path": "outputs/a9_g1_board_reconciliation/A9_G1_READINESS_LEDGER.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    },
+    {
+      "bytes": 8215,
+      "path": "outputs/a9_wire_e2e_g1_snapshot/A9_WIRE_E2E_ACCEPTED_STATE_LEDGER.json",
+      "source_rows": 0,
+      "status": "SCANNED"
+    }
+  ],
+  "scanned_file_count": 1928,
+  "source_file_index_ref": "outputs/main_citybrain_track4_source_registry_v1/SOURCE_REGISTRY_SOURCE_FILE_INDEX.json",
+  "source_rows_detected_total": 3787,
+  "status": "PASS_WITH_LIMITATIONS",
+  "status_counts": {
+    "SCANNED": 1924,
+    "SKIPPED": 4
+  }
+}

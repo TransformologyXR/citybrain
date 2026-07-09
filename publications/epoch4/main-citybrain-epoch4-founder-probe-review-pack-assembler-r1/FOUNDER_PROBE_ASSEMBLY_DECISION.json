@@ -1,0 +1,24 @@
+{
+  "artifact_id": "FOUNDER_PROBE_ASSEMBLY_DECISION",
+  "card_count": 16,
+  "csv_row_count": 16,
+  "evidence_completeness_depends_on_available_prior_artifacts": true,
+  "external_operator_validation_claimed": false,
+  "forbidden_capabilities_created": [],
+  "founder_internal_only": true,
+  "founder_responses_fabricated": false,
+  "generated_at": "2026-07-08T05:44:02Z",
+  "limitations": [
+    "no founder session run",
+    "no operator fuel",
+    "no external validation",
+    "evidence completeness depends on available prior artifacts",
+    "review cards are for founder-internal assessment only"
+  ],
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-PROBE-REVIEW-PACK-ASSEMBLER-R1",
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_PROBE_REVIEW_PACK_ASSEMBLER_R1_WITH_LIMITATIONS",
+  "training_rows_created": false
+}

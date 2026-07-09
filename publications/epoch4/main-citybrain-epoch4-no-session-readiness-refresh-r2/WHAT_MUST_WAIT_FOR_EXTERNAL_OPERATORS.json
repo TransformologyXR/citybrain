@@ -1,0 +1,11 @@
+{
+  "artifact_id": "WHAT_MUST_WAIT_FOR_EXTERNAL_OPERATORS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "wait_items": [
+    "external operator validation",
+    "operator fuel accumulation",
+    "training rows or learned ranking arming",
+    "official workflow/action/case/ticket semantics",
+    "live ingestion and forecast productization"
+  ]
+}

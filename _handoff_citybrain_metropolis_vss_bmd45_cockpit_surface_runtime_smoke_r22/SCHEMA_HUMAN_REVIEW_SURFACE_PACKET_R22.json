@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "boundary_labels": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "frame_cards": {
+      "type": "array"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "packet_id": {
+      "type": "string"
+    },
+    "review_only": {
+      "const": true
+    },
+    "source_class_legend": {
+      "type": "object"
+    },
+    "source_packet_id": {
+      "type": "string"
+    },
+    "surface_title": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "packet_id",
+    "source_packet_id",
+    "surface_title",
+    "review_only",
+    "frame_cards",
+    "source_class_legend",
+    "boundary_labels",
+    "limitations"
+  ],
+  "type": "object"
+}

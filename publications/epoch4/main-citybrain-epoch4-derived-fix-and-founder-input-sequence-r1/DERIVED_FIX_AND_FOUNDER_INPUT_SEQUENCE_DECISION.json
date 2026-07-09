@@ -1,0 +1,13 @@
+{
+  "artifact_id": "DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_DECISION",
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-08T04:16:45Z",
+  "operator_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-DERIVED-FIX-AND-FOUNDER-INPUT-SEQUENCE-R1",
+  "parallel_execution_used": false,
+  "session_results_created": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_AND_FOUNDER_INPUT_SEQUENCE_R1_WITH_LIMITATIONS",
+  "step_count": 3,
+  "training_rows_created": false
+}

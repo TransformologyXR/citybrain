@@ -1,0 +1,7 @@
+{
+  "artifact_id": "PACKET_COMPLETENESS_READINESS",
+  "case_count": 12,
+  "packet_ready_count": 12,
+  "packet_ready_ratio": 1.0,
+  "status": "PASS_WITH_LIMITATIONS"
+}

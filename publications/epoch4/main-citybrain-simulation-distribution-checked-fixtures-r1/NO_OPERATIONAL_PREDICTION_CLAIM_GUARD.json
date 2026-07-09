@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_OPERATIONAL_PREDICTION_CLAIM_GUARD",
+  "learned_ranking_created": false,
+  "model_training_or_arming_created": false,
+  "not_operational_prediction": true,
+  "operational_prediction_created": false,
+  "status": "PASS"
+}

@@ -1,0 +1,33 @@
+# PACKAGE CONTRACT — R20
+
+Expected package:
+
+`METROPOLIS_VSS_BMD45_HUMAN_REVIEW_BENCHMARK_PACKET_R20_PACKAGE.zip`
+
+Required files:
+
+- `R20_CLOSEOUT_DECISION.json`
+- `R19_INPUT_LINEAGE_SUMMARY.json`
+- `HUMAN_REVIEW_BENCHMARK_PACKET_R20.json`
+- `COCKPIT_REVIEW_TILE_FIXTURE_R20.json`
+- `FRAME_REVIEW_CARD_FIXTURES_R20.json`
+- `BENCHMARK_SCORECARD_SUMMARY_R20.json`
+- `FALSE_POSITIVE_REVIEW_LIST_R20.json`
+- `MISSED_ANNOTATION_REVIEW_LIST_R20.json`
+- `SOURCE_CLASS_SEPARATION_AUDIT_R20.json`
+- `CLAIM_BOUNDARY_AUDIT_R20.json`
+- `NO_ACTION_AUDIT_R20.json`
+- `VSS_NOT_FACT_SOURCE_AUDIT_R20.json`
+- `SECRET_AUDIT_R20.json`
+- `R20_JSON_PARSE_REPORT.json`
+- `TEST_LOG_R20.txt`
+- `KNOWN_LIMITATIONS_R20.md`
+- `NEXT_SPRINT_RECOMMENDATIONS_R20.md`
+- `HASH_MANIFEST.json`
+
+Media policy:
+
+- No packaged BMD-45 image files by default.
+- External media refs must include URL/path/bytes/SHA/provenance.
+- `HASH_MANIFEST.json.files` hashes only files in the ZIP.
+- External media refs must be listed separately.

@@ -1,0 +1,10 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_NO_SESSION_GUARD",
+  "dispositions_created": false,
+  "operator_or_founder_fuel_captured": false,
+  "prep_only": true,
+  "review_session_results_created": false,
+  "session_execution_claimed": false,
+  "status": "PASS",
+  "training_eligibility_created": false
+}

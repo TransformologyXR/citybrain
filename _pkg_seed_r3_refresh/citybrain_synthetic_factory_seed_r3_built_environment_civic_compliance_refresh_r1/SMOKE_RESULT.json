@@ -1,0 +1,22 @@
+{
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+  "smoke_input_uploaded_preflight_zip_sha256": "B7F51A24C911A30D8DA9F6E54F6597169B8D28B20A97A3DE58DA0129C2A93F76",
+  "smoke_status": "PASS_SYNTHETIC_FACTORY_SEED_R3_BUILT_ENVIRONMENT_CIVIC_COMPLIANCE_REFRESH_R1_WITH_LIMITATIONS",
+  "smoke_counts": {
+    "ask_rows": 29,
+    "brief_rows": 29,
+    "check_rows": 29,
+    "domain_selection_rows": 29,
+    "entity_refresh_rows": 29,
+    "event_replay_rows": 29,
+    "preflight_ledger_rows_consumed": 1467,
+    "quality_maturity_rows": 9,
+    "spatial_rows": 29,
+    "watch_rows": 29
+  },
+  "smoke_output_root": "/mnt/data/smoke_seed_r3_bee_refresh_out",
+  "notes": [
+    "Smoke run used uploaded Seed R3 preflight ZIP extracted in sandbox.",
+    "Smoke output is not included in the package; package is a Codex run/handoff package."
+  ]
+}

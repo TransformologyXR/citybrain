@@ -1,0 +1,15 @@
+{
+  "artifact_id": "QUALITY_GATE_GUARD",
+  "client_ready_claim": false,
+  "forecast_packet_created": false,
+  "founder_review_executed": false,
+  "founder_session_result_created": false,
+  "main_set_padded_with_weak_cards": false,
+  "official_action_created": false,
+  "operator_fuel_created": false,
+  "product_review_ready_claim": false,
+  "source_truth_mutated": false,
+  "status": "PASS",
+  "training_rows_created": false,
+  "weak_cards_moved_to_appendix": true
+}

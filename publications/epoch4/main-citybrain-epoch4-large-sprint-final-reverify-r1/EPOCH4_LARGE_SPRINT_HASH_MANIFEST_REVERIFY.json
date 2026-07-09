@@ -1,0 +1,36 @@
+{
+  "artifact_id": "EPOCH4_LARGE_SPRINT_HASH_MANIFEST_REVERIFY",
+  "manifests": [
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/HASH_MANIFEST.json",
+      "package": "sprint1",
+      "verified": true
+    },
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/HASH_MANIFEST.json",
+      "package": "sprint2",
+      "verified": true
+    },
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/HASH_MANIFEST.json",
+      "package": "sprint3",
+      "verified": true
+    },
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/HASH_MANIFEST.json",
+      "package": "sprint4",
+      "verified": true
+    },
+    {
+      "errors": [],
+      "manifest": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/HASH_MANIFEST.json",
+      "package": "sprint0",
+      "verified": true
+    }
+  ],
+  "status": "PASS"
+}

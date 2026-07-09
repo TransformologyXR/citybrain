@@ -1,0 +1,62 @@
+{
+  "artifact_id": "SEQUENTIAL_EXECUTION_LOG",
+  "parallel_execution_used": false,
+  "same_worktree": true,
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "decision": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CONSOLIDATION_AND_PILOT_READINESS_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1",
+      "sequence": 1,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CONSOLIDATION_AND_PILOT_READINESS_R1_WITH_LIMITATIONS",
+      "step": "product_loop_consolidation_and_pilot_readiness_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_2_SCALE_REPLAY_RELIABILITY_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1",
+      "sequence": 2,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_2_SCALE_REPLAY_RELIABILITY_R1_WITH_LIMITATIONS",
+      "step": "event_fabric_v2_2_scale_replay_reliability_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_2_REAL_CONNECTOR_FIDELITY_LADDER_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1",
+      "sequence": 3,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_2_REAL_CONNECTOR_FIDELITY_LADDER_R1_WITH_LIMITATIONS",
+      "step": "simulation_v2_2_real_connector_fidelity_ladder_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2",
+      "sequence": 4,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2_WITH_LIMITATIONS",
+      "step": "data_maturity_diagnostic_product_r2"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_FOUNDER_REVIEW_PREP_NO_SESSION_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_pre_founder_review_prep_no_session_r1",
+      "sequence": 5,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRE_FOUNDER_REVIEW_PREP_NO_SESSION_R1_WITH_LIMITATIONS",
+      "step": "pre_founder_review_prep_no_session_r1"
+    },
+    {
+      "decision": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1/DECISION.json",
+      "expected_status": "PASS_MAIN_CITYBRAIN_EPOCH4_NEXT_WAVE_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "ok": true,
+      "root": "outputs/main_citybrain_epoch4_next_wave_final_reverify_r1",
+      "sequence": 6,
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_NEXT_WAVE_FINAL_REVERIFY_R1_WITH_LIMITATIONS",
+      "step": "next_wave_final_reverify_r1"
+    }
+  ]
+}

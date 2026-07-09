@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "next_task_when_ready": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "r7_ready": {
+      "type": "boolean"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "r7_ready",
+    "reason"
+  ],
+  "title": "R7 readiness gate R6D",
+  "type": "object"
+}

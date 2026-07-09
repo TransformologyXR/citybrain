@@ -1,0 +1,295 @@
+{
+  "ambiguous_or_duplicate_candidate_edges": [
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:mobility_access:duplicate-a:013",
+        "cer:seed-r3-local:mobility_access:duplicate-b:013"
+      ],
+      "event_id": "seed-r3-expanded:mobility_access:013",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:mobility_access:duplicate-a:019",
+        "cer:seed-r3-local:mobility_access:duplicate-b:019"
+      ],
+      "event_id": "seed-r3-expanded:mobility_access:019",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:building_compliance:duplicate-a:013",
+        "cer:seed-r3-local:building_compliance:duplicate-b:013"
+      ],
+      "event_id": "seed-r3-expanded:building_compliance:013",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:building_compliance:duplicate-a:019",
+        "cer:seed-r3-local:building_compliance:duplicate-b:019"
+      ],
+      "event_id": "seed-r3-expanded:building_compliance:019",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:permit_inspection_delay:duplicate-a:013",
+        "cer:seed-r3-local:permit_inspection_delay:duplicate-b:013"
+      ],
+      "event_id": "seed-r3-expanded:permit_inspection_delay:013",
+      "family_id": "permit_inspection_delay",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:permit_inspection_delay:duplicate-a:019",
+        "cer:seed-r3-local:permit_inspection_delay:duplicate-b:019"
+      ],
+      "event_id": "seed-r3-expanded:permit_inspection_delay:019",
+      "family_id": "permit_inspection_delay",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:asset_infrastructure:duplicate-a:013",
+        "cer:seed-r3-local:asset_infrastructure:duplicate-b:013"
+      ],
+      "event_id": "seed-r3-expanded:asset_infrastructure:013",
+      "family_id": "city_asset_infrastructure_issue",
+      "reason_class": "duplicate_candidate_ambiguity"
+    },
+    {
+      "action": "keep_in_unresolved_or_quarantine_queue_for_review",
+      "candidate_entity_refs": [
+        "cer:seed-r3-local:asset_infrastructure:duplicate-a:019",
+        "cer:seed-r3-local:asset_infrastructure:duplicate-b:019"
+      ],
+      "event_id": "seed-r3-expanded:asset_infrastructure:019",
+      "family_id": "city_asset_infrastructure_issue",
+      "reason_class": "duplicate_candidate_ambiguity"
+    }
+  ],
+  "artifact_id": "CROSS_DOMAIN_ENTITY_RESOLUTION_REPORT",
+  "blocked_resolution_edges": [
+    {
+      "event_id": "seed-r3-expanded:mobility_access:011",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "weak_spatial_match",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:012",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "missing_entity_ref",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:013",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "duplicate_candidate_ambiguity",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:014",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "unknown_freshness",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:015",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "missing_geometry",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:building_compliance:011",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "weak_spatial_match",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:building_compliance:012",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "missing_entity_ref",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:building_compliance:013",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "duplicate_candidate_ambiguity",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:016",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "invalid_schema",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:017",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "invalid_source_class",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:018",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "impossible_time",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:019",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "duplicate_candidate_ambiguity",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:mobility_access:020",
+      "family_id": "mobility_access_interruption_v0",
+      "reason_class": "missing_geometry",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:building_compliance:016",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "invalid_schema",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:building_compliance:017",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "invalid_source_class",
+      "resolution_outcome": null
+    },
+    {
+      "event_id": "seed-r3-expanded:building_compliance:018",
+      "family_id": "building_compliance_perception_candidate",
+      "reason_class": "impossible_time",
+      "resolution_outcome": null
+    }
+  ],
+  "cross_family_resolution_edges": [
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "edge_id": "edge-primary-site-permit-mobility",
+      "edge_type": "shared_canonical_site",
+      "family_ids": [
+        "permit_inspection_delay",
+        "mobility_access_interruption_v0"
+      ],
+      "source_event_ids": [
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:permit_inspection_delay:003"
+      ],
+      "supports_gate": true
+    },
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "edge_id": "edge-primary-site-building-mobility",
+      "edge_type": "shared_canonical_site",
+      "family_ids": [
+        "building_compliance_perception_candidate",
+        "mobility_access_interruption_v0"
+      ],
+      "source_event_ids": [
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:building_compliance:003"
+      ],
+      "supports_gate": true
+    },
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "edge_id": "edge-primary-site-permit-building",
+      "edge_type": "shared_canonical_site",
+      "family_ids": [
+        "permit_inspection_delay",
+        "building_compliance_perception_candidate"
+      ],
+      "source_event_ids": [
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:building_compliance:003",
+        "seed-r3-expanded:permit_inspection_delay:003"
+      ],
+      "supports_gate": true
+    },
+    {
+      "canonical_entity_ref": "corridor:synthetic-dubai-aoi:alpha-access-corridor",
+      "edge_id": "edge-corridor-asset-mobility-context",
+      "edge_type": "spatial_corridor_context_not_same_entity",
+      "family_ids": [
+        "city_asset_infrastructure_issue",
+        "mobility_access_interruption_v0"
+      ],
+      "limitation": "Context edge only; the asset is not relabelled as the building/site entity.",
+      "source_event_ids": [
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:asset_infrastructure:001",
+        "seed-r3-expanded:mobility_access:011",
+        "seed-r3-expanded:asset_infrastructure:016"
+      ],
+      "supports_gate": false
+    }
+  ],
+  "families_attached_to_primary_asset_or_corridor": [
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption_v0"
+  ],
+  "families_attached_to_primary_site": [
+    "building_compliance_perception_candidate",
+    "mobility_access_interruption_v0",
+    "permit_inspection_delay"
+  ],
+  "minimum_gate_met": true,
+  "not_r3_local_only": true,
+  "r3_local_only_event_count": 2,
+  "r3_local_only_event_ids": [
+    "seed-r3-expanded:mobility_access:011",
+    "seed-r3-expanded:asset_infrastructure:016"
+  ],
+  "shared_canonical_entities": [
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "family_count": 3,
+      "family_ids": [
+        "building_compliance_perception_candidate",
+        "mobility_access_interruption_v0",
+        "permit_inspection_delay"
+      ],
+      "source_event_ids": [
+        "seed-r3-expanded:building_compliance:001",
+        "seed-r3-expanded:building_compliance:003",
+        "seed-r3-expanded:mobility_access:001",
+        "seed-r3-expanded:permit_inspection_delay:001",
+        "seed-r3-expanded:permit_inspection_delay:003"
+      ]
+    }
+  ],
+  "shared_canonical_entities_with_3plus_families": [
+    {
+      "canonical_entity_ref": "cer:building:alpha",
+      "family_count": 3,
+      "family_ids": [
+        "building_compliance_perception_candidate",
+        "mobility_access_interruption_v0",
+        "permit_inspection_delay"
+      ]
+    }
+  ],
+  "shared_canonical_entity_count": 1,
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade"
+}

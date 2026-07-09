@@ -1,0 +1,328 @@
+{
+  "artifact_id": "CHALLENGE_RUN_RESULTS",
+  "case_count": 32,
+  "pass_count": 32,
+  "results": [
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:negative_no_data",
+      "expected_check_outcome": "abstain_no_data",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+      "expected_check_outcome": "downgrade_contradiction",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:stale_freshness",
+      "expected_check_outcome": "downgrade_freshness",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:candidate_only_identity",
+      "expected_check_outcome": "candidate_only",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:proximity_only_context",
+      "expected_check_outcome": "downgrade_proximity_only",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:unresolved_entity",
+      "expected_check_outcome": "abstain_unresolved",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:quarantine_invalid_event",
+      "expected_check_outcome": "quarantine_invalid",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:mobility_access_interruption_v0:simulation_not_applicable",
+      "expected_check_outcome": "simulation_not_applicable",
+      "family_id": "mobility_access_interruption_v0",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:negative_no_data",
+      "expected_check_outcome": "abstain_no_data",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:contradiction_pair",
+      "expected_check_outcome": "downgrade_contradiction",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:stale_freshness",
+      "expected_check_outcome": "downgrade_freshness",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:candidate_only_identity",
+      "expected_check_outcome": "candidate_only",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:proximity_only_context",
+      "expected_check_outcome": "downgrade_proximity_only",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:unresolved_entity",
+      "expected_check_outcome": "abstain_unresolved",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:quarantine_invalid_event",
+      "expected_check_outcome": "quarantine_invalid",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:building_compliance_perception_candidate:simulation_not_applicable",
+      "expected_check_outcome": "simulation_not_applicable",
+      "family_id": "building_compliance_perception_candidate",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:negative_no_data",
+      "expected_check_outcome": "abstain_no_data",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:contradiction_pair",
+      "expected_check_outcome": "downgrade_contradiction",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:stale_freshness",
+      "expected_check_outcome": "downgrade_freshness",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:candidate_only_identity",
+      "expected_check_outcome": "candidate_only",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:proximity_only_context",
+      "expected_check_outcome": "downgrade_proximity_only",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:unresolved_entity",
+      "expected_check_outcome": "abstain_unresolved",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:quarantine_invalid_event",
+      "expected_check_outcome": "quarantine_invalid",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:permit_inspection_delay:simulation_not_applicable",
+      "expected_check_outcome": "simulation_not_applicable",
+      "family_id": "permit_inspection_delay",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:negative_no_data",
+      "expected_check_outcome": "abstain_no_data",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:contradiction_pair",
+      "expected_check_outcome": "downgrade_contradiction",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:stale_freshness",
+      "expected_check_outcome": "downgrade_freshness",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:candidate_only_identity",
+      "expected_check_outcome": "candidate_only",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:proximity_only_context",
+      "expected_check_outcome": "downgrade_proximity_only",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:unresolved_entity",
+      "expected_check_outcome": "abstain_unresolved",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:quarantine_invalid_event",
+      "expected_check_outcome": "quarantine_invalid",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    },
+    {
+      "case_id": "eval-r2:city_asset_infrastructure_issue:simulation_not_applicable",
+      "expected_check_outcome": "simulation_not_applicable",
+      "family_id": "city_asset_infrastructure_issue",
+      "observed_boundary": "PASS_LIMITED_OR_ABSTAIN",
+      "official_action_created": false,
+      "product_claim_confident": false,
+      "simulation_forced_when_not_applicable": false,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

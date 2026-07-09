@@ -1,0 +1,28 @@
+{
+  "artifact_id": "CHECK_V1_ENGINE_REPORT",
+  "authority_boundary": "review_only_no_action",
+  "claimability_statuses": [
+    "blocked_contradiction",
+    "blocked_insufficient_source_depth",
+    "blocked_raw_id_bypass",
+    "blocked_stale",
+    "claimable_with_limitations",
+    "downgraded_candidate_only",
+    "downgraded_proximity_only"
+  ],
+  "consumes_cer_outputs": true,
+  "consumes_seg_outputs": true,
+  "covered_rules": [
+    "candidate_only",
+    "contradiction",
+    "evidence_sufficiency",
+    "freshness",
+    "proximity_only",
+    "source_class",
+    "source_depth"
+  ],
+  "official_truth_claim_created": false,
+  "raw_ungrounded_graph_shortcuts_allowed": false,
+  "report_count": 7,
+  "status": "PASS_WITH_LIMITATIONS"
+}

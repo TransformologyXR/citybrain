@@ -1,0 +1,28 @@
+{
+  "source_id": "dubai_municipality_open_data",
+  "available_groups": {
+    "construction_development": [
+      "Building Permits",
+      "Building Demolition Permits",
+      "Building Usages",
+      "Building Floor Level Information",
+      "Building Summary Information",
+      "Project Building Information",
+      "Project Information",
+      "Project Applications",
+      "In Progress Application SLA",
+      "Sand Shifting Application Details"
+    ],
+    "geographic_location_services": [
+      "Community",
+      "Entrances",
+      "Sectors",
+      "Makani Open Data"
+    ],
+    "environment_public_health": [
+      "Wastewater domestic sources",
+      "Treated Sewage Effluent reuse"
+    ]
+  },
+  "codex_next": "Click/resolve Dubai Pulse resource URLs; determine if CSV/API requires key; pull 100-row samples first; generate importer schemas."
+}

@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "action": "triage contradiction and freshness downgrade causes",
+      "claim_boundary": "diagnostic_only",
+      "step": 1
+    },
+    {
+      "action": "add source-depth evidence where available",
+      "claim_boundary": "diagnostic_only",
+      "step": 2
+    },
+    {
+      "action": "keep proximity-only and candidate-only labels visible",
+      "claim_boundary": "diagnostic_only",
+      "step": 3
+    }
+  ],
+  "artifact_id": "CHECK_DOWNGRADE_REMEDIATION_PLAN",
+  "not_claimed": [
+    "live remediation",
+    "source mutation",
+    "official certification"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

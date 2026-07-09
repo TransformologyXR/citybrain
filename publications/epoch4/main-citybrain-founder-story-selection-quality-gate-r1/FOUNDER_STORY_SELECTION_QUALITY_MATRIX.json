@@ -1,0 +1,409 @@
+{
+  "artifact_id": "FOUNDER_STORY_SELECTION_QUALITY_MATRIX",
+  "rows": [
+    {
+      "card_id": "operator-view-001",
+      "card_type": "cross_domain_story",
+      "classification": "not_reviewable_due_to_missing_freshness",
+      "confidence_level": "medium",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 8,
+        "freshness_or_timestamp_present": false,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": 35,
+      "score_reasons": [
+        "need-more verdict",
+        "medium confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness missing",
+        "two or more evidence notes",
+        "clear so-what",
+        "next review step present",
+        "cross-domain card",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - One site with permit, access, building, and infrastructure signals has limits that should be checked first."
+    },
+    {
+      "card_id": "operator-view-002",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": 27,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "one strong named source note",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Building concern near a site - source note inlined has visible evidence but confidence is low."
+    },
+    {
+      "card_id": "operator-view-003",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": 27,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "one strong named source note",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Permit or inspection delay - source note inlined has visible evidence but confidence is low."
+    },
+    {
+      "card_id": "operator-view-004",
+      "card_type": "single_family_example",
+      "classification": "not_reviewable_due_to_thin_source_depth",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": false,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": -3,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "thin source depth",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Infrastructure or city asset concern - source note inlined has limits that should be checked first."
+    },
+    {
+      "card_id": "operator-view-005",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": 27,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "one strong named source note",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Access interruption - source note inlined has visible evidence but confidence is low."
+    },
+    {
+      "card_id": "operator-view-006",
+      "card_type": "single_family_example",
+      "classification": "not_reviewable_due_to_missing_place",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": false,
+        "has_two_notes_or_strong_named_source": false,
+        "human_readable_place": false,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": -88,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "missing human-readable place",
+        "map or geometry ref missing",
+        "freshness missing",
+        "thin source depth",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Building concern near a site - positive packet baseline has visible evidence but confidence is low."
+    },
+    {
+      "card_id": "operator-view-007",
+      "card_type": "single_family_example",
+      "classification": "not_reviewable_due_to_missing_place",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": false,
+        "has_two_notes_or_strong_named_source": false,
+        "human_readable_place": false,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": -88,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "missing human-readable place",
+        "map or geometry ref missing",
+        "freshness missing",
+        "thin source depth",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Building concern near a site - negative no data has limits that should be checked first."
+    },
+    {
+      "card_id": "operator-view-008",
+      "card_type": "single_family_example",
+      "classification": "not_reviewable_due_to_missing_place",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": false,
+        "has_two_notes_or_strong_named_source": false,
+        "human_readable_place": false,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": -88,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "missing human-readable place",
+        "map or geometry ref missing",
+        "freshness missing",
+        "thin source depth",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Building concern near a site - stale freshness has limits that should be checked first."
+    },
+    {
+      "card_id": "operator-view-009",
+      "card_type": "single_family_example",
+      "classification": "not_reviewable_due_to_missing_place",
+      "confidence_level": "low",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 1,
+        "freshness_or_timestamp_present": false,
+        "has_two_notes_or_strong_named_source": false,
+        "human_readable_place": false,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "need_more_before_deciding",
+      "quality_score": -88,
+      "score_reasons": [
+        "need-more verdict",
+        "low confidence",
+        "missing human-readable place",
+        "map or geometry ref missing",
+        "freshness missing",
+        "thin source depth",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Need more before deciding - Building concern near a site - contradiction pair has limits that should be checked first."
+    },
+    {
+      "card_id": "operator-view-010",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "medium",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 2,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "watch_this",
+      "quality_score": 77,
+      "score_reasons": [
+        "watch verdict",
+        "medium confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "two or more evidence notes",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Watch this - Access interruption examples has visible evidence, but no cause or action is proven."
+    },
+    {
+      "card_id": "operator-view-011",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "medium",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 2,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "watch_this",
+      "quality_score": 77,
+      "score_reasons": [
+        "watch verdict",
+        "medium confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "two or more evidence notes",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Watch this - Building concern near a site examples has visible evidence, but no cause or action is proven."
+    },
+    {
+      "card_id": "operator-view-012",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "medium",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 2,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "watch_this",
+      "quality_score": 77,
+      "score_reasons": [
+        "watch verdict",
+        "medium confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "two or more evidence notes",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Watch this - Permit or inspection delay examples has visible evidence, but no cause or action is proven."
+    },
+    {
+      "card_id": "operator-view-013",
+      "card_type": "single_family_example",
+      "classification": "diagnostic_boundary_case",
+      "confidence_level": "medium",
+      "founder_grade_criteria": {
+        "clear_next_review_step": true,
+        "clear_so_what": true,
+        "diagnostic_fixture": true,
+        "evidence_note_count": 2,
+        "freshness_or_timestamp_present": true,
+        "has_two_notes_or_strong_named_source": true,
+        "human_readable_place": true,
+        "map_or_geometry_ref_present": false,
+        "plain_confidence_reason": true
+      },
+      "operator_verdict_suggestion": "watch_this",
+      "quality_score": 77,
+      "score_reasons": [
+        "watch verdict",
+        "medium confidence",
+        "human-readable place",
+        "map or geometry ref missing",
+        "freshness or timestamp visible",
+        "two or more evidence notes",
+        "clear so-what",
+        "next review step present",
+        "diagnostic/challenge fixture"
+      ],
+      "title_or_verdict": "Verdict: Watch this - Infrastructure or city asset concern examples has visible evidence, but no cause or action is proven."
+    }
+  ]
+}

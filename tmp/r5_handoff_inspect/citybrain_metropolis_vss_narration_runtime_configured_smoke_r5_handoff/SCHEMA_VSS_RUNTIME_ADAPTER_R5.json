@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VSS Runtime Adapter Config R5",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "task_name",
+    "runtime_configured",
+    "runtime_mode",
+    "redacted",
+    "timeout_sec"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "metropolis-vss-narration-runtime-configured-smoke-r5.v1"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-CONFIGURED-SMOKE-R5"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "runtime_mode": {
+      "enum": [
+        "not_configured",
+        "command",
+        "endpoint"
+      ]
+    },
+    "command_source": {
+      "enum": [
+        "none",
+        "cli",
+        "env"
+      ]
+    },
+    "endpoint_source": {
+      "enum": [
+        "none",
+        "cli",
+        "env"
+      ]
+    },
+    "redacted": {
+      "const": true
+    },
+    "timeout_sec": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "additionalProperties": true
+}

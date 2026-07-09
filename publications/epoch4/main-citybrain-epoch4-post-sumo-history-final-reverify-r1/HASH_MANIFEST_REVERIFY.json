@@ -1,0 +1,79 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_POST_SUMO_HISTORY_FINAL_REVERIFY_R1_HASH_MANIFEST_REVERIFY_json",
+  "entries": [
+    {
+      "bytes": 909,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/DECISION.json",
+      "sha256": "2a6b67a70b2eac51f900797555f905574fdbfd8003bef8cf506afda92be4de2a"
+    },
+    {
+      "bytes": 346,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/EVENT_FABRIC_V2_4_CONSUMPTION_AUDIT.json",
+      "sha256": "fefa93475267d0975a3e1db258a37563a7e9ea1ac5354ac8ae530f66ba6028eb"
+    },
+    {
+      "bytes": 1186,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "77f60f5c02d3b3426f5fe4418109054bb00d01292cb64a06deea9a1d5547df8a"
+    },
+    {
+      "bytes": 337,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/NO_SESSION_NO_FUEL_AUDIT.json",
+      "sha256": "7e8ff1604331588fef07f7485f2624dd02d03c2104365eafc900961bc6a58e33"
+    },
+    {
+      "bytes": 1489,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/POST_SUMO_HISTORY_INPUT_AUDIT.json",
+      "sha256": "63903246a19e436ed9a4b2f30cd2fde56a7244c296da1c399b28b130eb2c0d83"
+    },
+    {
+      "bytes": 391,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/REVIEW_PACKET_360_V2_PARITY_AUDIT.json",
+      "sha256": "078979c43d08ae7ebde7b2d837372e093be6219f5775986ac5dca802880eae86"
+    },
+    {
+      "bytes": 443,
+      "path": "outputs/main_citybrain_epoch4_post_sumo_history_final_reverify_r1/SIMULATION_V2_4_CLAIM_AUDIT.json",
+      "sha256": "5190bd7b8cf031f08fd95d71b52db564e2f0c03ab2d7d9cf13562717d5b5fd1d"
+    },
+    {
+      "bytes": 909,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/DECISION.json",
+      "sha256": "2a6b67a70b2eac51f900797555f905574fdbfd8003bef8cf506afda92be4de2a"
+    },
+    {
+      "bytes": 346,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/EVENT_FABRIC_V2_4_CONSUMPTION_AUDIT.json",
+      "sha256": "fefa93475267d0975a3e1db258a37563a7e9ea1ac5354ac8ae530f66ba6028eb"
+    },
+    {
+      "bytes": 1186,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "77f60f5c02d3b3426f5fe4418109054bb00d01292cb64a06deea9a1d5547df8a"
+    },
+    {
+      "bytes": 337,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/NO_SESSION_NO_FUEL_AUDIT.json",
+      "sha256": "7e8ff1604331588fef07f7485f2624dd02d03c2104365eafc900961bc6a58e33"
+    },
+    {
+      "bytes": 1489,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/POST_SUMO_HISTORY_INPUT_AUDIT.json",
+      "sha256": "63903246a19e436ed9a4b2f30cd2fde56a7244c296da1c399b28b130eb2c0d83"
+    },
+    {
+      "bytes": 391,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/REVIEW_PACKET_360_V2_PARITY_AUDIT.json",
+      "sha256": "078979c43d08ae7ebde7b2d837372e093be6219f5775986ac5dca802880eae86"
+    },
+    {
+      "bytes": 443,
+      "path": "publications/epoch4/main-citybrain-epoch4-post-sumo-history-final-reverify-r1/SIMULATION_V2_4_CLAIM_AUDIT.json",
+      "sha256": "5190bd7b8cf031f08fd95d71b52db564e2f0c03ab2d7d9cf13562717d5b5fd1d"
+    }
+  ],
+  "entry_count": 14,
+  "generated_at": "2026-07-07T16:50:30Z",
+  "status": "PASS"
+}

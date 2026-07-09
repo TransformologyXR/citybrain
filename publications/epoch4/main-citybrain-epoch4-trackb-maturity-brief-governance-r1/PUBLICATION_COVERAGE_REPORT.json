@@ -1,0 +1,141 @@
+{
+  "artifact_id": "PUBLICATION_COVERAGE_REPORT",
+  "limitations": [
+    "Publication mirrors generated local artifacts only; no external/client release was performed."
+  ],
+  "publication_root": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1",
+  "published_file_count": 26,
+  "published_files": [
+    {
+      "file": "DATA_MATURITY_DASHBOARD_R1_1.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/DATA_MATURITY_DASHBOARD_R1_1.json",
+      "sha256": "61925f42f8d6f6e31842877140c677b66acf930d5cdf1dfcabf87e599497fe5f"
+    },
+    {
+      "file": "DATA_MATURITY_DASHBOARD_R1_1.md",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/DATA_MATURITY_DASHBOARD_R1_1.md",
+      "sha256": "70d216546669f3fe05ac4f12f79e25d13fd45948b4a910f5621212ce6f4ff586"
+    },
+    {
+      "file": "TOP_10_SOURCE_GAPS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/TOP_10_SOURCE_GAPS.json",
+      "sha256": "feac86cdd1e43bb4420a91624f37052b22213178a4530a15ef5adebf78f84f88"
+    },
+    {
+      "file": "TOP_10_IDENTITY_AMBIGUITY_CLUSTERS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/TOP_10_IDENTITY_AMBIGUITY_CLUSTERS.json",
+      "sha256": "a223b2ca75f6f4ccca334cef8cd6e62f00c223d821d5109240509855436cda23"
+    },
+    {
+      "file": "TOP_10_MISSING_GEOMETRY_OR_TIME_HISTORY_GAPS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/TOP_10_MISSING_GEOMETRY_OR_TIME_HISTORY_GAPS.json",
+      "sha256": "bdc4176b8e2413562b903850f8da0e79b2a8e29e62bfd2c4c0c05413c5e4176f"
+    },
+    {
+      "file": "CHECK_DOWNGRADE_REASON_SUMMARY.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/CHECK_DOWNGRADE_REASON_SUMMARY.json",
+      "sha256": "ac033df3a556335779241c221cdbede5c73627428f842e92cba88173b5d8b157"
+    },
+    {
+      "file": "MATURITY_RECOMMENDED_NEXT_ACTIONS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/MATURITY_RECOMMENDED_NEXT_ACTIONS.json",
+      "sha256": "05f02c80b442a4f9ff56d24a941cab3b5959387815bbc6a256afe1601d37c8a1"
+    },
+    {
+      "file": "DASHBOARD_LIMITATIONS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/DASHBOARD_LIMITATIONS.json",
+      "sha256": "85640487177126d62fe62db58dbeec80ac6c6e2b0ca1771fd9eddf2514c17ea3"
+    },
+    {
+      "file": "BRIEF_V3_OPERATOR_VARIANT.md",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BRIEF_V3_OPERATOR_VARIANT.md",
+      "sha256": "744a226da38adc1456de4d6f897c645cbbd3183d81add2b23a18230798f5d9c5"
+    },
+    {
+      "file": "BRIEF_V3_EXECUTIVE_VARIANT.md",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BRIEF_V3_EXECUTIVE_VARIANT.md",
+      "sha256": "7b5092650446c7939690c1a8c7f977c5b9d57767c83bf028ebe5c538d0df47df"
+    },
+    {
+      "file": "BRIEF_V3_TECHNICAL_VARIANT.md",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BRIEF_V3_TECHNICAL_VARIANT.md",
+      "sha256": "a94568750ce5b165023507d41b05fefebd865a9212111ba0468d92487f3b7fe9"
+    },
+    {
+      "file": "BRIEF_V3_VARIANTS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BRIEF_V3_VARIANTS.json",
+      "sha256": "622aeb50626225404d87797992b2733f0215370243c12e3c9298667e67e0d97c"
+    },
+    {
+      "file": "BRIEF_V3_VARIANT_PARITY_REPORT.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BRIEF_V3_VARIANT_PARITY_REPORT.json",
+      "sha256": "ddb6793eff33e19a45d2500d70c0fa05caf3323179b6a7cf46ebf999bb879ae3"
+    },
+    {
+      "file": "BRIEF_V3_TEMPLATE_LIMITATIONS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BRIEF_V3_TEMPLATE_LIMITATIONS.json",
+      "sha256": "53325f94ca94c0ae823298e69baf1794e3333797b5a7f6ab359da434a2d881ad"
+    },
+    {
+      "file": "EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.json",
+      "sha256": "e0542e242cf5d90152d98de8b0e5e8872c21d4d437cb09641574b7a28777b48e"
+    },
+    {
+      "file": "EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.md",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/EPOCH4_GOVERNANCE_CLAIM_AUDIT_REPORT.md",
+      "sha256": "a25c322206fc4c7ecd1dd09240a86bfe5af79e767a208eb5824d8e5a129f3bc6"
+    },
+    {
+      "file": "FORBIDDEN_CLAIM_SCAN_RESULTS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/FORBIDDEN_CLAIM_SCAN_RESULTS.json",
+      "sha256": "c9060ae4ebf96e412bc51db70a0ea957fed53dda75a188e3fb28a19396411884"
+    },
+    {
+      "file": "BOUNDARY_LANGUAGE_FINDINGS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/BOUNDARY_LANGUAGE_FINDINGS.json",
+      "sha256": "16854bb90f5cf164c24f0e82e64ad5cdfbe39218a370468a663ceb8cf284cdb1"
+    },
+    {
+      "file": "NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "2550677f27706acd50b609c3a78261911e07d41f2ab7fde6b363fdfe92cbe5e3"
+    },
+    {
+      "file": "NO_LIVE_INGESTION_CLAIM_GUARD.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/NO_LIVE_INGESTION_CLAIM_GUARD.json",
+      "sha256": "ac4ba5185e7b1685125f1a2cb4203ea602afd881af0fc3a670dcf90960c5d8cb"
+    },
+    {
+      "file": "NO_ACTION_OR_OFFICIAL_CASE_GUARD.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/NO_ACTION_OR_OFFICIAL_CASE_GUARD.json",
+      "sha256": "b0fe334d6edf8be6e3addb8c7003ef0a7ec11ed5b2c8a28563043b7eb98126b7"
+    },
+    {
+      "file": "GOVERNANCE_REMEDIATION_SUGGESTIONS.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/GOVERNANCE_REMEDIATION_SUGGESTIONS.json",
+      "sha256": "72a5e717a38ef091bdd8540493c6bc23ff8892630100236e0cd5ed983b7eb450"
+    },
+    {
+      "file": "TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "sha256": "b2ac07d0156f48c6fae0296d8b17ca2a106aad563401f38e74e38c0ad6d3619e"
+    },
+    {
+      "file": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "077e8a475b48742387a221b5a1eff217245dcf87ddd73a679da2b14cad4e557a"
+    },
+    {
+      "file": "NEXT_HANDOFF_POINTER.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/NEXT_HANDOFF_POINTER.json",
+      "sha256": "50c8eb4a256dc92f94086abb3ae93ac7777de3d0fdaf2cdf5a4844fe0999c560"
+    },
+    {
+      "file": "HASH_MANIFEST.json",
+      "publication_ref": "publications/epoch4/main-citybrain-epoch4-trackb-maturity-brief-governance-r1/HASH_MANIFEST.json",
+      "sha256": "a63a87602edaf6e7fa6ad9e506c67c2a449792cc0d60ae7f20d6e8b94b86eb1e"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

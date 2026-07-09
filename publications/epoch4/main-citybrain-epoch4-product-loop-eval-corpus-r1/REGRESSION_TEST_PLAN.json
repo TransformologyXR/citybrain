@@ -1,0 +1,33 @@
+{
+  "artifact_id": "REGRESSION_TEST_PLAN",
+  "case_ids": [
+    "eval:mobility_access_interruption:packet_baseline:r1",
+    "eval:mobility_access_interruption:downgrade_pressure:r1",
+    "eval:mobility_access_interruption:contradiction_guard:r1",
+    "eval:building_compliance_perception_candidate:packet_baseline:r1",
+    "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+    "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+    "eval:permit_inspection_delay:packet_baseline:r1",
+    "eval:permit_inspection_delay:downgrade_pressure:r1",
+    "eval:permit_inspection_delay:contradiction_guard:r1",
+    "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+    "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+    "eval:city_asset_infrastructure_issue:contradiction_guard:r1"
+  ],
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption",
+    "permit_inspection_delay"
+  ],
+  "planned_checks": [
+    "case_schema_completeness",
+    "check_expected_outcome_parity",
+    "brief_block_presence",
+    "event_state_determinism",
+    "simulation_option_boundary",
+    "spatial_packet_no_action_boundary",
+    "no_training_fuel_guard"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

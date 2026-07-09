@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_AUTHORITY_ESCALATION_GUARD",
+  "case_ticket_created": false,
+  "dispatch_control_enforcement_created": false,
+  "max_authority_level": 3,
+  "official_action_created": false,
+  "status": "PASS"
+}

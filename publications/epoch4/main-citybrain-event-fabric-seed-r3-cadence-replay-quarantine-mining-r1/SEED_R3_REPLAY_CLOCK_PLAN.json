@@ -1,0 +1,13 @@
+{
+  "artifact_id": "SEED_R3_REPLAY_CLOCK_PLAN",
+  "modes": [
+    "batch",
+    "10x",
+    "60x",
+    "wall_clock_simulated"
+  ],
+  "real_sleep_used": false,
+  "source_plan": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-LOOP-CONVERGENCE-EVENT-ADAPTER-R1/CADENCE_REPLAY_PLAN_R1.json",
+  "status": "PASS",
+  "wall_clock_simulated": true
+}

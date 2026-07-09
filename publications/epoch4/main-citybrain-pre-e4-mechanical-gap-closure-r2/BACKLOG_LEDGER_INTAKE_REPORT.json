@@ -1,0 +1,206 @@
+{
+  "all_items_accounted": true,
+  "artifact_id": "BACKLOG_LEDGER_INTAKE_REPORT",
+  "canonical_artifact_group_count": 12,
+  "classification_counts": {
+    "blocked_requires_live_or_human": 2,
+    "deferred_epoch4_later": 5,
+    "done": 5,
+    "not_promotable": 2,
+    "parking_lot": 2,
+    "partially_done": 5
+  },
+  "items": [
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:10:e4_review_pilot_fuel_eligibility_report",
+      "canonical_next_ref": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "disposition": "blocked_requires_live_or_human",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "final-nonlive:closeout:operator-fuel-deferred",
+      "next_ref": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:09:e4_publication_coverage_report",
+      "canonical_next_ref": "E4_PUBLICATION_COVERAGE_REPORT.json",
+      "disposition": "done",
+      "handling": "single_artifact",
+      "item_id": "final-nonlive:publication-home",
+      "next_ref": "E4_PUBLICATION_COVERAGE_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:05:e4_l4_case_stub_materialization_report",
+      "canonical_next_ref": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "disposition": "done",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "final-nonlive:l4-content-verified",
+      "next_ref": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:05:e4_l4_case_stub_materialization_report",
+      "canonical_next_ref": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json",
+      "disposition": "parking_lot",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "final-nonlive:l4-path-only",
+      "next_ref": "E4_L4_CASE_STUB_MATERIALIZATION_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:02:e4_check_descriptive_scorecard_report",
+      "canonical_next_ref": "E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json",
+      "disposition": "done",
+      "handling": "single_artifact",
+      "item_id": "final-nonlive:check-descriptive-scorecard",
+      "next_ref": "E4_CHECK_DESCRIPTIVE_SCORECARD_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:12:e4_workflow_review_state_history_report",
+      "canonical_next_ref": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "disposition": "partially_done",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "final-nonlive:workflow-review-history",
+      "next_ref": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:01:e4_backlog_disposition_ledger",
+      "canonical_next_ref": "E4_BACKLOG_DISPOSITION_LEDGER.json",
+      "disposition": "not_promotable",
+      "handling": "single_artifact",
+      "item_id": "final-nonlive:watch-ranking-unverified",
+      "next_ref": "E4_BACKLOG_DISPOSITION_LEDGER.json"
+    },
+    {
+      "action": "delegated_to_simulation_package_with_master_pointer",
+      "canonical_group_id": "group:11:e4_simulation_backtest_input_catalog",
+      "canonical_next_ref": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "disposition": "done",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "final-nonlive:simulation-backtest-inputs",
+      "next_ref": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:04:e4_identity_graph_eval_fixture_report",
+      "canonical_next_ref": "E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json",
+      "disposition": "partially_done",
+      "handling": "single_artifact",
+      "item_id": "final-nonlive:identity-graph-eval",
+      "next_ref": "E4_IDENTITY_GRAPH_EVAL_FIXTURE_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:07:e4_no_forbidden_capability_guard",
+      "canonical_next_ref": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "disposition": "not_promotable",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:watch_ranking_descriptive_signals",
+      "next_ref": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:03:e4_domain_pack_usefulness_report",
+      "canonical_next_ref": "E4_DOMAIN_PACK_USEFULNESS_REPORT.json",
+      "disposition": "partially_done",
+      "handling": "single_artifact",
+      "item_id": "backlog:domain_pack_usefulness",
+      "next_ref": "E4_DOMAIN_PACK_USEFULNESS_REPORT.json"
+    },
+    {
+      "action": "delegated_to_simulation_package_with_master_pointer",
+      "canonical_group_id": "group:11:e4_simulation_backtest_input_catalog",
+      "canonical_next_ref": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json",
+      "disposition": "done",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:simulation_backtest_inputs",
+      "next_ref": "E4_SIMULATION_BACKTEST_INPUT_CATALOG.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:06:e4_next_actions_after_r1",
+      "canonical_next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "disposition": "deferred_epoch4_later",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:synthetic_gold_dirty_challenge_scenario_gaps",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:10:e4_review_pilot_fuel_eligibility_report",
+      "canonical_next_ref": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json",
+      "disposition": "blocked_requires_live_or_human",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:operator_fuel_program_health",
+      "next_ref": "E4_REVIEW_PILOT_FUEL_ELIGIBILITY_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:06:e4_next_actions_after_r1",
+      "canonical_next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "disposition": "deferred_epoch4_later",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:source_refresh_longitudinal_gaps",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:07:e4_no_forbidden_capability_guard",
+      "canonical_next_ref": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "disposition": "parking_lot",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:federation_cross_city_comparable_artifacts",
+      "next_ref": "E4_NO_FORBIDDEN_CAPABILITY_GUARD.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:06:e4_next_actions_after_r1",
+      "canonical_next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "disposition": "deferred_epoch4_later",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:data_quality_maturity_diagnostics",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:08:e4_perception_candidate_review_inventory",
+      "canonical_next_ref": "E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json",
+      "disposition": "partially_done",
+      "handling": "single_artifact",
+      "item_id": "backlog:spatial_omniverse_traces",
+      "next_ref": "E4_PERCEPTION_CANDIDATE_REVIEW_INVENTORY.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:12:e4_workflow_review_state_history_report",
+      "canonical_next_ref": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json",
+      "disposition": "partially_done",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:workflow_review_state_history",
+      "next_ref": "E4_WORKFLOW_REVIEW_STATE_HISTORY_REPORT.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:06:e4_next_actions_after_r1",
+      "canonical_next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "disposition": "deferred_epoch4_later",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:brief_export_usefulness",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json"
+    },
+    {
+      "action": "materialized_or_guarded_in_master",
+      "canonical_group_id": "group:06:e4_next_actions_after_r1",
+      "canonical_next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json",
+      "disposition": "deferred_epoch4_later",
+      "handling": "collapse_to_one_artifact_with_raw_item_coverage",
+      "item_id": "backlog:plan_schedule_optimize_review_options",
+      "next_ref": "E4_NEXT_ACTIONS_AFTER_R1.json"
+    }
+  ],
+  "raw_ledger_item_count": 21,
+  "status": "PASS"
+}

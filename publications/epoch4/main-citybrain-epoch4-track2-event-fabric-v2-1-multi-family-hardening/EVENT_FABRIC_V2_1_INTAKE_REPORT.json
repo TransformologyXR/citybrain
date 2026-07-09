@@ -1,0 +1,28 @@
+{
+  "additive_hardening": true,
+  "artifact_id": "EVENT_FABRIC_V2_1_INTAKE_REPORT",
+  "parallel_safe_with_simulation_v2_1_if_separate_worktree": true,
+  "prerequisites": [
+    {
+      "key": "event_fabric_v2",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_FABRIC_V2_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT1_EVENT_FABRIC_V2_PRODUCT_SPINE_WITH_LIMITATIONS"
+    },
+    {
+      "key": "scenario_scout",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_track1_incident_plan_scenario_scout_r1/TOP_3_FAMILY_SELECTION.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "key": "sprint0_check",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/CHECK_V1_ENGINE_REPORT.json",
+      "status": "PASS_WITH_LIMITATIONS"
+    }
+  ],
+  "status": "PASS",
+  "v2_1_contract_root": "contracts/event_fabric_v2_1",
+  "v2_contract_root": "contracts/event_fabric_v2"
+}

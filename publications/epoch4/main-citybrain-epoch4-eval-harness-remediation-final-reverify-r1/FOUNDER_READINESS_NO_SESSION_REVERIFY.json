@@ -1,0 +1,9 @@
+{
+  "artifact_id": "FOUNDER_READINESS_NO_SESSION_REVERIFY",
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_GAP_TRIAGE_FOUNDER_READINESS_NO_SESSION_R1_WITH_LIMITATIONS",
+  "founder_review_session_run": false,
+  "go_no_go": "GO_FOR_BOUNDED_PROBE_WITH_LIMITATIONS",
+  "operator_or_founder_fuel_created": false,
+  "readiness_posture": "PROBE_READY_WITH_TARGETED_FIXES_RECOMMENDED_BEFORE_FULL_REVIEW",
+  "status": "PASS_WITH_LIMITATIONS"
+}

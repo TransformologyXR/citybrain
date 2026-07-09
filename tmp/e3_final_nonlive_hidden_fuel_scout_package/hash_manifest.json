@@ -1,0 +1,110 @@
+{
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-FINAL-NONLIVE-HIDDEN-FUEL-SCOUT-R1",
+  "files": [
+    {
+      "path": "ACCEPTANCE_CRITERIA.md",
+      "sha256": "ae0d51eb395e9837f71d6f922a05dc6165511d7946019ce8ee8e2cf378404948",
+      "bytes": 1874
+    },
+    {
+      "path": "CODEX_TASK_PROMPT.md",
+      "sha256": "ab8f8cb35cc16ef49c139d52ce471f5a8ae3d18e301920b3563dde1ee0412140",
+      "bytes": 3738
+    },
+    {
+      "path": "IMPLEMENTATION_PLAN.md",
+      "sha256": "f579a783482c982e8d6d0d9cb891c6bb0548e050a4584523c0a86ef8e3da76ad",
+      "bytes": 2253
+    },
+    {
+      "path": "NON_GOALS_AND_BOUNDARIES.md",
+      "sha256": "0a853f2b9b5de52a866dd324e8e58d66c2cce873e8ed6c20c15a3be1462ddb73",
+      "bytes": 860
+    },
+    {
+      "path": "README.md",
+      "sha256": "997c772a649a6369c25c2b2e9cb7ff6f097a8d74347102ee87bd04d48145a6a5",
+      "bytes": 1784
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_FINAL_L4_CASE_STUB_CONTENT_VERIFICATION_SCOUT.template.json",
+      "sha256": "3fe1476418a036cc83a73e135657f70608078f86142af15b4ff4242e9f4d7bb1",
+      "bytes": 194
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_FINAL_NONLIVE_HIDDEN_FUEL_SCOUT_DECISION.template.json",
+      "sha256": "9e0939c8c86c6965dde20f4e0104808d33699200eec1c79e24535af895056290",
+      "bytes": 675
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_FINAL_NONLIVE_NO_MODEL_GUARD_REPORT.template.json",
+      "sha256": "2308406743aa60f66a47ab5df02332913a3174a845d115883b408d6b8d034503",
+      "bytes": 329
+    },
+    {
+      "path": "artifacts_to_add/templates/E3_PUBLICATION_HOME_RECOMMENDATION_ROW.template.json",
+      "sha256": "7b3b5c21bfc6bb7560d5755473a9750e9f26b5618899a11e6c1a415f11290c36",
+      "bytes": 330
+    },
+    {
+      "path": "docs/CLOSEOUT_MESSAGE_TEMPLATE.md",
+      "sha256": "a239bc41fa66183c31fe99264a55d4d2d4f261bbbb7ce995421d569a417bf0a5",
+      "bytes": 571
+    },
+    {
+      "path": "fixtures/sample_final_backlog.json",
+      "sha256": "c58cd5d32131ce93cbad921af9bafe54769d754903862f0079fa32f81bc11796",
+      "bytes": 618
+    },
+    {
+      "path": "line_ending_report.json",
+      "sha256": "ff2a989d1b32639c53b939a25ab22f6e169f64b1b97a65c86b248924da12487e",
+      "bytes": 180
+    },
+    {
+      "path": "manifests/package_requirements.json",
+      "sha256": "b4a28f3c200d18b72d4db28a52e91864ea1b762560142169905165142b44dab3",
+      "bytes": 446
+    },
+    {
+      "path": "package_metadata.json",
+      "sha256": "b5303daf3ef19fba4ee810c97b035c677ed323b3803eb844e2496c799175ad93",
+      "bytes": 278
+    },
+    {
+      "path": "schemas/backlog_item.schema.json",
+      "sha256": "dec84bead12ba74c68c02d481914fc7971f4c87fd2909a3ca39aebb7de2a01dc",
+      "bytes": 733
+    },
+    {
+      "path": "schemas/final_scout_decision.schema.json",
+      "sha256": "c013514e48caeedb239ab063f38c2de22b93282eecba6992d56472763e1d812c",
+      "bytes": 687
+    },
+    {
+      "path": "scripts/validate_final_scout_package.py",
+      "sha256": "d1d25d4b4b9e549b700fbfd3053b0fbfc8d85b7a9a26b20b2dfe89161467ad66",
+      "bytes": 1131
+    },
+    {
+      "path": "specs/01_final_scout_scope.md",
+      "sha256": "ea129d362e33684e3c40e15021939da2351582b8dadfd4df2e4de59c281205eb",
+      "bytes": 430
+    },
+    {
+      "path": "specs/02_l4_content_verification_spec.md",
+      "sha256": "43082eaf1e3a385e709490cf527e9726461297bff4ecad35bd14b33e7564bf1d",
+      "bytes": 563
+    },
+    {
+      "path": "specs/03_publication_home_recommendation_spec.md",
+      "sha256": "c00dd7475e4bc29b319f0b663976a1fbec591efbea6f8ac3b52c18d2d4ecce54",
+      "bytes": 650
+    },
+    {
+      "path": "tests/test_final_nonlive_hidden_fuel_scout_contract.py",
+      "sha256": "5acadeabb4f8647ac923b5ec88e705341762353326020125f16be4120b9a0710",
+      "bytes": 1805
+    }
+  ]
+}

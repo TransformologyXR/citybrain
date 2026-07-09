@@ -1,0 +1,51 @@
+{
+  "artifact_id": "SIMULATION_V2_2_SCENARIO_FIDELITY_SCORECARD",
+  "scorecards": [
+    {
+      "assumption_depth": "explicit_but_not_calibrated",
+      "connector_state": "fixture_only",
+      "family_id": "building_compliance_perception_candidate",
+      "fidelity_level": 0,
+      "fidelity_score": 0.31000000000000005,
+      "not_usable_for": [
+        "forecast",
+        "dispatch",
+        "official action",
+        "optimization authority"
+      ],
+      "uncertainty_label": "high",
+      "usable_for": "review-option framing only"
+    },
+    {
+      "assumption_depth": "explicit_but_not_calibrated",
+      "connector_state": "fixture_only",
+      "family_id": "permit_inspection_delay",
+      "fidelity_level": 0,
+      "fidelity_score": 0.34,
+      "not_usable_for": [
+        "forecast",
+        "dispatch",
+        "official action",
+        "optimization authority"
+      ],
+      "uncertainty_label": "high",
+      "usable_for": "review-option framing only"
+    },
+    {
+      "assumption_depth": "explicit_but_not_calibrated",
+      "connector_state": "fixture_only",
+      "family_id": "city_asset_infrastructure_issue",
+      "fidelity_level": 0,
+      "fidelity_score": 0.37,
+      "not_usable_for": [
+        "forecast",
+        "dispatch",
+        "official action",
+        "optimization authority"
+      ],
+      "uncertainty_label": "high",
+      "usable_for": "review-option framing only"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

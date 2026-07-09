@@ -1,0 +1,9 @@
+{
+  "artifact_id": "BRIEF_V3_TEMPLATE_LIMITATIONS",
+  "limitations": [
+    "Variants change emphasis and length only.",
+    "No evidence, authority, source record, CHECK status, simulation assumption, event state, spatial ref, review option, or cannot-claim block is changed.",
+    "No UI/UX polish, human session, official action, or client-demo claim is created."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

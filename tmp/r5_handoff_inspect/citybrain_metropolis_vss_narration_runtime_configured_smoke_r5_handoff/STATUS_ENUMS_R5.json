@@ -1,0 +1,25 @@
+{
+  "schema_version": "metropolis-vss-narration-runtime-configured-smoke-r5.status-enums.v1",
+  "task_name": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-CONFIGURED-SMOKE-R5",
+  "final_statuses": [
+    "PASS_METROPOLIS_VSS_NARRATION_RUNTIME_CONFIGURED_SMOKE_R5_WITH_LIMITATIONS",
+    "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NOT_CONFIGURED_R5_GUARDRAILS_READY",
+    "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_EXECUTION_FAILED_R5_GUARDRAILS_READY",
+    "PARTIAL_METROPOLIS_VSS_NARRATION_RUNTIME_NO_USABLE_PROSE_R5_GUARDRAILS_READY",
+    "FAIL_METROPOLIS_VSS_NARRATION_RUNTIME_R5_BOUNDARY_OR_FABRICATION"
+  ],
+  "runtime_statuses": [
+    "NOT_CONFIGURED",
+    "CONFIGURED_NOT_ATTEMPTED",
+    "ATTEMPTED_EXECUTED",
+    "ATTEMPTED_FAILED",
+    "ATTEMPTED_TIMEOUT",
+    "EXECUTED_NO_USABLE_PROSE"
+  ],
+  "source_classes": [
+    "sensor_inferred",
+    "model_generated_narrative",
+    "official_record"
+  ],
+  "allowed_detection_class": "vehicle_presence_candidate"
+}

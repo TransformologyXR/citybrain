@@ -1,0 +1,15 @@
+{
+  "source_id": "open_meteo_dubai_weather",
+  "sample_forecast_url": "https://api.open-meteo.com/v1/forecast?latitude=25.2048&longitude=55.2708&hourly=temperature_2m,precipitation,wind_speed_10m&forecast_days=1&timezone=UTC",
+  "sample_historical_url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.2048&longitude=55.2708&start_date=2026-07-01&end_date=2026-07-07&hourly=temperature_2m,precipitation,wind_speed_10m&timezone=UTC",
+  "expected_shape": {
+    "latitude": "float",
+    "longitude": "float",
+    "hourly.time": "array[ISO8601]",
+    "hourly.temperature_2m": "array[float]",
+    "hourly.precipitation": "array[float]",
+    "hourly.wind_speed_10m": "array[float]"
+  },
+  "auth": "none for non-commercial use",
+  "codex_next": "GET request, save raw JSON, normalize to weather_observations.parquet."
+}

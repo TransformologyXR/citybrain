@@ -1,0 +1,189 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_R1_HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 958,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/BRIEF_V3_PACKETS_BY_FAMILY.json",
+      "sha256": "9d69f61ceb28ccdd4cbbd214d113213a0680676af06fcab1cfa3e31b46db4e1d"
+    },
+    {
+      "bytes": 918,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/CHECK_V1_REPORTS_BY_FAMILY.json",
+      "sha256": "ce626f69f6acd9a8a2214edf00a53e38d7141ab0e4a9a6b885e339f8bdfbcd6d"
+    },
+    {
+      "bytes": 303,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/CONTROL_FAMILY_REGRESSION_REPORT.json",
+      "sha256": "f7523ac3f454d8290543e2ca5a475e4ab0f70fd63f0a55857c974b1998647588"
+    },
+    {
+      "bytes": 1078,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/EVENT_STATE_PACKETS_BY_FAMILY.json",
+      "sha256": "f65aac0222c61d06274b927bea0ce4f204149168beca9d0ee7e6f0c136913383"
+    },
+    {
+      "bytes": 979,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/EVENT_TO_CER_RESOLUTION_PACKETS.json",
+      "sha256": "859f0cd65d68f1c5adcfd98cae6a1f0195fab81edb579368464f0a2b31dd9911"
+    },
+    {
+      "bytes": 1449,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/FAMILY_EVENT_INPUTS.json",
+      "sha256": "08747fcc85daf35dd760ef82b15020624ea52a64078ef1464cb821aa2a4e816a"
+    },
+    {
+      "bytes": 833,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_DECISION.json",
+      "sha256": "a23c2e3a5fe187f5d5c5011bd0b2368190e98f0770751834ed8e7d0dd98f0bb2"
+    },
+    {
+      "bytes": 267,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/LIMITATIONS.json",
+      "sha256": "5701827506a73dba57519e5aabff9bf92de26f5c655e918ec5a9a0f40d564128"
+    },
+    {
+      "bytes": 702,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "6becc6832207a98d9c173ed64d6a6f0ab8717d6b35e2f7dbd65c7c95a4a658ac"
+    },
+    {
+      "bytes": 2573,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/PRECONDITION_AUDIT.json",
+      "sha256": "d69a1ba924f042539220f89697fda99c8d99c68730e1cec5fd4743a645e082fd"
+    },
+    {
+      "bytes": 886,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/RUNTIME_WEB_HANDOFF_PACKETS_BY_FAMILY.json",
+      "sha256": "d1775f222213aeb1306071985ddf6e7604f4a360ca70e8859b5f82f54c08cb7e"
+    },
+    {
+      "bytes": 982,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/SEG_CONTEXT_PACKETS_BY_FAMILY.json",
+      "sha256": "19f5ee685915ea1fcc2847e9197b60769464c84bd158f10d3d288e098ca4e0ef"
+    },
+    {
+      "bytes": 1319,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/SIMULATION_OPTION_COMPARISONS_BY_FAMILY.json",
+      "sha256": "a743187e7b609d2e330e6e49cde34e593145a10db856184db2e948efcfbf2cec"
+    },
+    {
+      "bytes": 918,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/SPATIAL_OVERLAY_PACKETS_BY_FAMILY.json",
+      "sha256": "4dc06d509aa338f871dba03fcfc364a39b8dac980bb572378f443067a203f247"
+    },
+    {
+      "bytes": 342,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/SUMMARY.md",
+      "sha256": "ffcb617fb6a467bc856e0e6480caf463eacf31279f32fea179ef567dc802d41d"
+    },
+    {
+      "bytes": 675,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/THREE_FAMILY_LOOP_PLAN.json",
+      "sha256": "92bb339aae571f6d3a2ead69eaed1f3561eb34471a8acd5a7fc3e8c53a3ffb21"
+    },
+    {
+      "bytes": 762,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/WATCH_ADMISSION_BY_FAMILY.json",
+      "sha256": "6f38d33a1dc02cf9029328ab9fd2e1a1a97211ab6c35cee0850b21e4e998aacd"
+    },
+    {
+      "bytes": 666,
+      "path": "outputs/main_citybrain_epoch4_incident_plan_three_family_product_loop_r1/WORKFLOW_REVIEW_STATE_PACKETS_BY_FAMILY.json",
+      "sha256": "6b056258a99f9b72e3202f802bd66192671d585b111b629d1602e1914bd61c42"
+    },
+    {
+      "bytes": 958,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/BRIEF_V3_PACKETS_BY_FAMILY.json",
+      "sha256": "9d69f61ceb28ccdd4cbbd214d113213a0680676af06fcab1cfa3e31b46db4e1d"
+    },
+    {
+      "bytes": 918,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/CHECK_V1_REPORTS_BY_FAMILY.json",
+      "sha256": "ce626f69f6acd9a8a2214edf00a53e38d7141ab0e4a9a6b885e339f8bdfbcd6d"
+    },
+    {
+      "bytes": 303,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/CONTROL_FAMILY_REGRESSION_REPORT.json",
+      "sha256": "f7523ac3f454d8290543e2ca5a475e4ab0f70fd63f0a55857c974b1998647588"
+    },
+    {
+      "bytes": 1078,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/EVENT_STATE_PACKETS_BY_FAMILY.json",
+      "sha256": "f65aac0222c61d06274b927bea0ce4f204149168beca9d0ee7e6f0c136913383"
+    },
+    {
+      "bytes": 979,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/EVENT_TO_CER_RESOLUTION_PACKETS.json",
+      "sha256": "859f0cd65d68f1c5adcfd98cae6a1f0195fab81edb579368464f0a2b31dd9911"
+    },
+    {
+      "bytes": 1449,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/FAMILY_EVENT_INPUTS.json",
+      "sha256": "08747fcc85daf35dd760ef82b15020624ea52a64078ef1464cb821aa2a4e816a"
+    },
+    {
+      "bytes": 833,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/INCIDENT_PLAN_THREE_FAMILY_PRODUCT_LOOP_DECISION.json",
+      "sha256": "a23c2e3a5fe187f5d5c5011bd0b2368190e98f0770751834ed8e7d0dd98f0bb2"
+    },
+    {
+      "bytes": 267,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/LIMITATIONS.json",
+      "sha256": "5701827506a73dba57519e5aabff9bf92de26f5c655e918ec5a9a0f40d564128"
+    },
+    {
+      "bytes": 702,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "6becc6832207a98d9c173ed64d6a6f0ab8717d6b35e2f7dbd65c7c95a4a658ac"
+    },
+    {
+      "bytes": 2573,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/PRECONDITION_AUDIT.json",
+      "sha256": "d69a1ba924f042539220f89697fda99c8d99c68730e1cec5fd4743a645e082fd"
+    },
+    {
+      "bytes": 886,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/RUNTIME_WEB_HANDOFF_PACKETS_BY_FAMILY.json",
+      "sha256": "d1775f222213aeb1306071985ddf6e7604f4a360ca70e8859b5f82f54c08cb7e"
+    },
+    {
+      "bytes": 982,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/SEG_CONTEXT_PACKETS_BY_FAMILY.json",
+      "sha256": "19f5ee685915ea1fcc2847e9197b60769464c84bd158f10d3d288e098ca4e0ef"
+    },
+    {
+      "bytes": 1319,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/SIMULATION_OPTION_COMPARISONS_BY_FAMILY.json",
+      "sha256": "a743187e7b609d2e330e6e49cde34e593145a10db856184db2e948efcfbf2cec"
+    },
+    {
+      "bytes": 918,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/SPATIAL_OVERLAY_PACKETS_BY_FAMILY.json",
+      "sha256": "4dc06d509aa338f871dba03fcfc364a39b8dac980bb572378f443067a203f247"
+    },
+    {
+      "bytes": 342,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/SUMMARY.md",
+      "sha256": "ffcb617fb6a467bc856e0e6480caf463eacf31279f32fea179ef567dc802d41d"
+    },
+    {
+      "bytes": 675,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/THREE_FAMILY_LOOP_PLAN.json",
+      "sha256": "92bb339aae571f6d3a2ead69eaed1f3561eb34471a8acd5a7fc3e8c53a3ffb21"
+    },
+    {
+      "bytes": 762,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/WATCH_ADMISSION_BY_FAMILY.json",
+      "sha256": "6f38d33a1dc02cf9029328ab9fd2e1a1a97211ab6c35cee0850b21e4e998aacd"
+    },
+    {
+      "bytes": 666,
+      "path": "publications/epoch4/main-citybrain-epoch4-incident-plan-three-family-product-loop-r1/WORKFLOW_REVIEW_STATE_PACKETS_BY_FAMILY.json",
+      "sha256": "6b056258a99f9b72e3202f802bd66192671d585b111b629d1602e1914bd61c42"
+    }
+  ],
+  "entry_count": 36,
+  "generated_at": "2026-07-07T14:10:44Z",
+  "status": "PASS"
+}

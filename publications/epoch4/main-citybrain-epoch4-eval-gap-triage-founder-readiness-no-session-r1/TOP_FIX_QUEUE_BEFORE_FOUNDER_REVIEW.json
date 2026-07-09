@@ -1,0 +1,53 @@
+{
+  "artifact_id": "TOP_FIX_QUEUE_BEFORE_FOUNDER_REVIEW",
+  "fixes_are_candidate_only": true,
+  "queue": [
+    {
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_eval_case_count_affected": 8,
+      "projected_quality_improvement": "clearer freshness posture and coverage windows",
+      "queue": "freshness_coverage",
+      "rank": 1,
+      "recommendation": "review_candidate_overlays_before_full_founder_review"
+    },
+    {
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_eval_case_count_affected": 8,
+      "projected_quality_improvement": "stronger spatial packet and history assertions",
+      "queue": "geometry_time_history",
+      "rank": 2,
+      "recommendation": "review_candidate_overlays_before_full_founder_review"
+    },
+    {
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_eval_case_count_affected": 8,
+      "projected_quality_improvement": "cleaner entity refs and conflict provenance",
+      "queue": "identity_ambiguity",
+      "rank": 3,
+      "recommendation": "review_candidate_overlays_before_full_founder_review"
+    },
+    {
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_eval_case_count_affected": 4,
+      "projected_quality_improvement": "clearer downgrade reason mapping and remediation routing",
+      "queue": "check_downgrade",
+      "rank": 4,
+      "recommendation": "review_candidate_overlays_before_full_founder_review"
+    },
+    {
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_eval_case_count_affected": 4,
+      "projected_quality_improvement": "better source-class, owner, and freshness explainability",
+      "queue": "source_registry_enrichment",
+      "rank": 5,
+      "recommendation": "review_candidate_overlays_before_full_founder_review"
+    }
+  ],
+  "queue_count": 5,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,19 @@
+{
+  "artifact_id": "FOUNDER_SESSION_READINESS_GAP_CLOSURE_NO_SESSION",
+  "fuel_created": false,
+  "future_review_checklist": [
+    "select two evidence atlas slices",
+    "select one non-SUMO engine example",
+    "select one SUMO smoke example",
+    "prepare blank feedback form",
+    "confirm no training eligibility before session"
+  ],
+  "remaining_pre_session_gaps": [
+    "review agenda and facilitation script still need owner approval",
+    "UI/UX review surface remains parked",
+    "data maturity remediation queues need triage",
+    "founder/operator feedback governance still needs explicit approval"
+  ],
+  "session_run": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

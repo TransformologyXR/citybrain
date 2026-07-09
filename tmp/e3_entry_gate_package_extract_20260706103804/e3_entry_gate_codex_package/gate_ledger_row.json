@@ -1,0 +1,37 @@
+{
+  "id": "E3_ENTRY_GATE_R1_FUEL_GAUGE_BASELINE_PUBLISHED",
+  "gate_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+  "status": "PASS_E3_ENTRY_FOR_DESCRIPTIVE_AND_HARNESS_WORK_WITH_LIMITATIONS",
+  "report_ref": "E3_FUEL_GAUGE_BASELINE_REPORT.md",
+  "arming_manifest_ref": "epoch3_arming_manifest.json",
+  "evaluator_ref": "epoch3_arming_status",
+  "hash_manifest_ref": "hash_manifest.json",
+  "armed_now": [
+    "L1.R0_EXPOSURE_AND_PROPENSITY_LOGGING",
+    "L1.R0_WATCH_EXPLORATION_FLOOR_INFRA",
+    "L1.R1_OUTCOME_LEDGER_HARDENING",
+    "L1.R2_CALIBRATION_REPORT_HARDENING",
+    "L2.R1_BACKTEST_HARNESS_BUILD",
+    "E3.ARMING_STATUS_WATCH_FAMILY"
+  ],
+  "not_armed": [
+    "L1.R3A_OFFLINE_RANKER_EXPERIMENT",
+    "L1.R3B_OPERATOR_FACING_LEARNED_RANKING",
+    "L2.R2_FORECAST_MODEL",
+    "L3_COUNTERFACTUAL",
+    "L4_CASE_MEMORY",
+    "DYNAMIC_INVESTIGATION_AGENT",
+    "CROSS_CITY_LEARNED_TRANSFER"
+  ],
+  "non_claims": [
+    "no_official_action",
+    "no_dispatch",
+    "no_enforcement",
+    "no_certified_or_legal_finding",
+    "no_live_production_api_claim",
+    "no_silent_model_launch",
+    "no_autonomous_action"
+  ],
+  "created_at": "2026-07-06T10:16:03.071167+00:00",
+  "created_by": "publish_gate_artifacts.py"
+}

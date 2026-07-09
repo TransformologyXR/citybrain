@@ -1,0 +1,11 @@
+{
+  "artifact_id": "SIMULATION_BACKTEST_REPAIR_EPOCH_R1_DECISION",
+  "connector_status_honest": true,
+  "forbidden_capabilities_created": [],
+  "package_id": "MAIN-CITYBRAIN-SIMULATION-BACKTEST-REPAIR-EPOCH-R1-1",
+  "r2_catalog_supersedes_master_pointer": true,
+  "requires_final_three_package_reverify": true,
+  "scenario_count": 4,
+  "status": "PASS_MAIN_CITYBRAIN_SIMULATION_BACKTEST_REPAIR_EPOCH_R1_1_WITH_LIMITATIONS",
+  "status_alias_from_prompt": "PASS_MAIN_CITYBRAIN_SIMULATION_BACKTEST_REPAIR_EPOCH_R1_WITH_LIMITATIONS"
+}

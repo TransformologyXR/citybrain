@@ -1,0 +1,235 @@
+{
+  "card_count": 16,
+  "cards": [
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:positive_packet_baseline",
+      "family": "building_compliance_perception_candidate",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-01",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:negative_no_data",
+      "family": "building_compliance_perception_candidate",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-02",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:stale_freshness",
+      "family": "building_compliance_perception_candidate",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-03",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:building_compliance_perception_candidate:contradiction_pair",
+      "family": "building_compliance_perception_candidate",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-04",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:positive_packet_baseline",
+      "family": "city_asset_infrastructure_issue",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-05",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:negative_no_data",
+      "family": "city_asset_infrastructure_issue",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-06",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:stale_freshness",
+      "family": "city_asset_infrastructure_issue",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-07",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:city_asset_infrastructure_issue:contradiction_pair",
+      "family": "city_asset_infrastructure_issue",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-08",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:positive_packet_baseline",
+      "family": "mobility_access_interruption_v0",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-09",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:negative_no_data",
+      "family": "mobility_access_interruption_v0",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-10",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:stale_freshness",
+      "family": "mobility_access_interruption_v0",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-11",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:mobility_access_interruption_v0:contradiction_pair",
+      "family": "mobility_access_interruption_v0",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-12",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:permit_inspection_delay:positive_packet_baseline",
+      "family": "permit_inspection_delay",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-13",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:permit_inspection_delay:negative_no_data",
+      "family": "permit_inspection_delay",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-14",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:permit_inspection_delay:stale_freshness",
+      "family": "permit_inspection_delay",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-15",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    },
+    {
+      "classification": "diagnostic_review_ready",
+      "eval_case_ref": "eval-r2:permit_inspection_delay:contradiction_pair",
+      "family": "permit_inspection_delay",
+      "missing_for_product_review_ready": [
+        "readable evidence summary",
+        "CER/SEG context",
+        "CHECK actual outcome"
+      ],
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-16",
+      "weakness_interpretation": "card_evidence_incomplete_not_product_failure",
+      "why": "Useful for founder diagnostic review, but not product-review-ready until evidence summaries, CER/SEG context, and CHECK actual outcomes are embedded."
+    }
+  ],
+  "classification_counts": {
+    "diagnostic_review_ready": 16
+  },
+  "diagnostic_review_ready_count": 16,
+  "product_review_ready_count": 0,
+  "status": "PASS"
+}

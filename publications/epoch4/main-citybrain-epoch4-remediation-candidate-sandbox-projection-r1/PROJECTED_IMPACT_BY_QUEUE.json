@@ -1,0 +1,77 @@
+{
+  "artifact_id": "PROJECTED_IMPACT_BY_QUEUE",
+  "queue_count": 5,
+  "queues": [
+    {
+      "assertion_targets": [
+        "CHECK",
+        "BRIEF"
+      ],
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_case_quality_delta_points": 2.0,
+      "projected_eval_case_count_affected": 8,
+      "projected_quality_improvement": "cleaner entity refs and conflict provenance",
+      "queue": "identity_ambiguity",
+      "score_delta_claimed_as_fact": false,
+      "source_truth_mutated": false
+    },
+    {
+      "assertion_targets": [
+        "CHECK",
+        "EVENT"
+      ],
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_case_quality_delta_points": 2.0,
+      "projected_eval_case_count_affected": 8,
+      "projected_quality_improvement": "clearer freshness posture and coverage windows",
+      "queue": "freshness_coverage",
+      "score_delta_claimed_as_fact": false,
+      "source_truth_mutated": false
+    },
+    {
+      "assertion_targets": [
+        "EVENT",
+        "SPATIAL"
+      ],
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_case_quality_delta_points": 2.0,
+      "projected_eval_case_count_affected": 8,
+      "projected_quality_improvement": "stronger spatial packet and history assertions",
+      "queue": "geometry_time_history",
+      "score_delta_claimed_as_fact": false,
+      "source_truth_mutated": false
+    },
+    {
+      "assertion_targets": [
+        "CHECK"
+      ],
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_case_quality_delta_points": 2.0,
+      "projected_eval_case_count_affected": 4,
+      "projected_quality_improvement": "clearer downgrade reason mapping and remediation routing",
+      "queue": "check_downgrade",
+      "score_delta_claimed_as_fact": false,
+      "source_truth_mutated": false
+    },
+    {
+      "assertion_targets": [
+        "CHECK",
+        "BRIEF",
+        "EVENT"
+      ],
+      "candidate_count": 10,
+      "non_authoritative_projection": true,
+      "projected_case_quality_delta_points": 2.0,
+      "projected_eval_case_count_affected": 4,
+      "projected_quality_improvement": "better source-class, owner, and freshness explainability",
+      "queue": "source_registry_enrichment",
+      "score_delta_claimed_as_fact": false,
+      "source_truth_mutated": false
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

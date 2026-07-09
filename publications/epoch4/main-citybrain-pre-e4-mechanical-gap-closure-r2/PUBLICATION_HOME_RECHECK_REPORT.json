@@ -1,0 +1,13 @@
+{
+  "artifact_id": "PUBLICATION_HOME_RECHECK_REPORT",
+  "governance_critical_reports_published": [
+    "SOURCE_INPUT_AUDIT.json",
+    "BACKLOG_LEDGER_DEDUPLICATION_MAP_R1.json",
+    "MECHANICAL_GAP_CLOSURE_R2_DECISION.json",
+    "MECHANICAL_GAP_CLOSURE_R2_CLOSEOUT.md"
+  ],
+  "limitation": "Publication audit is provisional until Event Fabric and Simulation aftereffects are reverified.",
+  "outputs_root": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2",
+  "publication_root": "publications/epoch4/main-citybrain-pre-e4-mechanical-gap-closure-r2",
+  "status": "PASS_WITH_LIMITATIONS"
+}

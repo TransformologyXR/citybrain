@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "properties": {
+    "final_boundary": {
+      "type": "object"
+    },
+    "milestones": {
+      "items": {
+        "required": [
+          "milestone",
+          "status",
+          "summary"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+    }
+  },
+  "required": [
+    "task_id",
+    "milestones",
+    "final_boundary"
+  ],
+  "title": "R1_R9_LINEAGE_SUMMARY",
+  "type": "object"
+}

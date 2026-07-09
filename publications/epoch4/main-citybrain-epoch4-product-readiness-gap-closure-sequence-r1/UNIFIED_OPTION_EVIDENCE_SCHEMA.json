@@ -1,0 +1,19 @@
+{
+  "artifact_id": "UNIFIED_OPTION_EVIDENCE_SCHEMA",
+  "generated_at": "2026-07-07T17:35:40Z",
+  "non_equivalence_rule": "SUMO smoke, non-SUMO rule engines, and control replay evidence may be normalized in one schema but must not be treated as equivalent confidence or simulator evidence.",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-PRODUCT-READINESS-GAP-CLOSURE-SEQUENCE-R1",
+  "required_fields": [
+    "family_id",
+    "family_role",
+    "engine_class",
+    "evidence_mode",
+    "comparability_class",
+    "fidelity_label",
+    "source_class",
+    "calibration_state",
+    "option_refs",
+    "not_equivalent_to"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

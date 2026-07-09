@@ -1,0 +1,8 @@
+{
+  "artifact_id": "SOURCE_REGISTRY_V1_1_ENRICHMENT_REPORT",
+  "enriched_field_count": 17,
+  "status": "PASS_WITH_LIMITATIONS",
+  "unknowns_preserved": true,
+  "v1_1_source_count": 664,
+  "v1_source_count": 664
+}

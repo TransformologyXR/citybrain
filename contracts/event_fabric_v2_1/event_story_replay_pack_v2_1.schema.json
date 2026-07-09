@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "brief_packet_ref": {
+      "type": "string"
+    },
+    "check_refs": {
+      "type": "array"
+    },
+    "events": {
+      "type": "array"
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "spatial_packet_ref": {
+      "type": "string"
+    },
+    "story_pack_id": {
+      "type": "string"
+    },
+    "watch_refs": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "story_pack_id",
+    "family_id",
+    "events",
+    "watch_refs",
+    "check_refs",
+    "brief_packet_ref",
+    "spatial_packet_ref",
+    "authority_boundary"
+  ],
+  "title": "EventStoryReplayPackV2_1",
+  "type": "object"
+}

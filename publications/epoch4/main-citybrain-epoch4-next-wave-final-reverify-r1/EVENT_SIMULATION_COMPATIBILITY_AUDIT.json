@@ -1,0 +1,22 @@
+{
+  "artifact_id": "EVENT_SIMULATION_COMPATIBILITY_AUDIT",
+  "compatible_with_product_loop": true,
+  "event_families": [
+    "mobility_access_interruption",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "event_family_count": 4,
+  "limitations": [
+    "simulation covers selected product-loop families; mobility remains control/event stress family"
+  ],
+  "selected_families_covered_by_simulation": true,
+  "simulation_families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "permit_inspection_delay"
+  ],
+  "simulation_family_count": 3,
+  "status": "PASS_WITH_LIMITATIONS"
+}

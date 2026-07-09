@@ -1,0 +1,22 @@
+{
+  "artifact_id": "SPRINT0_DECISION",
+  "cer_engine_status": "PASS_WITH_LIMITATIONS",
+  "check_v1_status": "PASS_WITH_LIMITATIONS",
+  "forbidden_capabilities_created": [],
+  "hash_manifest_errors": [],
+  "hash_manifest_verified": true,
+  "integrated_trust_gate_status": "PASS_WITH_LIMITATIONS",
+  "package_id": "MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1",
+  "parallel_execution_used": false,
+  "seg_v2_bridge_status": "PASS_WITH_LIMITATIONS",
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS",
+  "still_not_claimed": [
+    "production MDM",
+    "official/certified identity",
+    "operator fuel",
+    "live ingestion",
+    "learned ranking",
+    "product forecast authority",
+    "autonomous action"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "EVAL_CASE_NEGATIVE_COVERAGE_REPORT",
+  "challenge_class_counts": {
+    "candidate-only": 4,
+    "contradiction": 4,
+    "no-data": 4,
+    "positive": 4,
+    "proximity-only": 4,
+    "quarantine": 4,
+    "simulation-not-applicable": 4,
+    "source-class": 4,
+    "source-depth": 4,
+    "spatial-gap": 4,
+    "stale": 4,
+    "unresolved": 4
+  },
+  "coverage_includes": [
+    "candidate-only",
+    "contradiction",
+    "no-data",
+    "positive",
+    "proximity-only",
+    "quarantine",
+    "simulation-not-applicable",
+    "source-class",
+    "source-depth",
+    "spatial-gap",
+    "stale",
+    "unresolved"
+  ],
+  "required_classes_present": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,11 @@
+{
+  "all_steps_passed_with_limitations": true,
+  "artifact_id": "AFTER_DEEPENING_NEXT_WAVE_SEQUENCE_DECISION",
+  "final_reverify_status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_DEEPENING_CROSS_TRACK_REVERIFY_R1_WITH_LIMITATIONS",
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T17:35:41Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-AFTER-DEEPENING-NEXT-WAVE-SEQUENCE-R1",
+  "parallel_execution_used": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_AFTER_DEEPENING_NEXT_WAVE_SEQUENCE_R1_WITH_LIMITATIONS",
+  "step_count": 3
+}

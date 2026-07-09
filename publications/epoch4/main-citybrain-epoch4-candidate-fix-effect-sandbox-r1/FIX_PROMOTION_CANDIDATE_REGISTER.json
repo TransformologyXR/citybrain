@@ -1,0 +1,258 @@
+{
+  "artifact_id": "FIX_PROMOTION_CANDIDATE_REGISTER",
+  "candidate_count": 50,
+  "candidates": [
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-01",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-02",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-03",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-04",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-05",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-06",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-07",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-08",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-09",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "cer_identity_bridge_candidate:identity-cluster-10",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-01",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-02",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-03",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-04",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-05",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-06",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-07",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-08",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-09",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_freshness_coverage_patch_candidate:freshness-gap-10",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-01",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-02",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-03",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-04",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-05",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-06",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-07",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-08",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-09",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "geometry_time_history_annotation_candidate:geometry-time-gap-10",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-01",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-02",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-03",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-04",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-05",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-06",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-07",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-08",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-09",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "check_downgrade_fixture_candidate:check-downgrade-10",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-01",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-02",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-03",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-04",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-05",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-06",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-07",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-08",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-09",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    },
+    {
+      "candidate_id": "source_registry_enrichment_patch_candidate:source-enrichment-10",
+      "promotion_scope": "future_derived_artifact_only_pending_review",
+      "reason": "May improve local/replay packet metadata or CHECK clarity without changing source truth."
+    }
+  ],
+  "promotion_is_authoritative": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

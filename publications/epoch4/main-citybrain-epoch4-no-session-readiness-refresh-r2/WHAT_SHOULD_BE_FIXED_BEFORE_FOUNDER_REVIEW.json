@@ -1,0 +1,9 @@
+{
+  "artifact_id": "WHAT_SHOULD_BE_FIXED_BEFORE_FOUNDER_REVIEW",
+  "fixes": [
+    "Prepare package-specific founder input kit before any actual probe session.",
+    "Review sandbox fix promotion candidates without mutating source truth.",
+    "Keep UI/UX polish deferred until actual probe findings identify friction."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

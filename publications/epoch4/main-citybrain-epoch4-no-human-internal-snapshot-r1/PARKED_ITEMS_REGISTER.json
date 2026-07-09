@@ -1,0 +1,17 @@
+{
+  "artifact_id": "PARKED_ITEMS_REGISTER",
+  "parked_item_count": 10,
+  "parked_items": [
+    "actual founder probe session results",
+    "external operator validation",
+    "operator fuel accumulation",
+    "training rows or learned labels",
+    "learned ranking or model arming",
+    "live ingestion or production monitoring",
+    "ForecastPacket or product forecast surface",
+    "official workflow/action/case/ticket/dispatch/control/enforcement",
+    "source-truth or canonical-truth mutation",
+    "maturity score inflation as fact"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

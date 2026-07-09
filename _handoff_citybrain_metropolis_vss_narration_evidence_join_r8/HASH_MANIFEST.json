@@ -1,0 +1,86 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-07-04T09:42:48Z",
+  "excludes": [
+    "HASH_MANIFEST.json",
+    "citybrain_metropolis_vss_narration_evidence_join_r8_handoff.zip"
+  ],
+  "file_count": 15,
+  "files": [
+    {
+      "file": "ACCEPTANCE_CHECKS.md",
+      "bytes": 1184,
+      "sha256": "c0f71970cc66205d925cb6d8c1d916fd3525714136572b4f09f7c4b8d5a418b1"
+    },
+    {
+      "file": "BOUNDARY_POLICY.md",
+      "bytes": 604,
+      "sha256": "9c957c448426b23ba93b6eea85222f10ae445492e27905137daa578dfedf60d2"
+    },
+    {
+      "file": "ENTRY_PROMPT.md",
+      "bytes": 2080,
+      "sha256": "c836f5adb1016fa1c9a225788c5525c0deba1ccbd813ef4ba4860c1abc7c0c09"
+    },
+    {
+      "file": "GUARDRAIL_TERMS_R8.json",
+      "bytes": 684,
+      "sha256": "d867e1a43d19af54fa71577d9535e1ae376e12d3560a2e796c917c455874868f"
+    },
+    {
+      "file": "HANDOFF_JSON_PARSE_REPORT.json",
+      "bytes": 234,
+      "sha256": "19c5d6b5d11169bbaf0424d505f18d2b80661e9e9bd5f4d3a61063df56165c19"
+    },
+    {
+      "file": "IMPLEMENTATION_NOTES.md",
+      "bytes": 883,
+      "sha256": "76d9f7876332e1dd66059763a41efe6d3262f576fc729d3957cb1268a0d4f24c"
+    },
+    {
+      "file": "INPUT_R7_VALIDATION_SUMMARY.json",
+      "bytes": 2166,
+      "sha256": "2bc98c36e747bb64474a411461e8cae74c179b8cf9851981c99734b84a280d6e"
+    },
+    {
+      "file": "PACKAGE_CONTRACT.md",
+      "bytes": 959,
+      "sha256": "cec57d19b8fd0617972fe36b184d3ce79b629815aa4c6af6c6f6878e36474177"
+    },
+    {
+      "file": "R7_ARTIFACT_INSPECTION_REPORT.json",
+      "bytes": 1002,
+      "sha256": "fe32f725d8ac4591b3da2d4223d86a800aaaee4435c0cd5b5d459c86d3bc4c55"
+    },
+    {
+      "file": "README.md",
+      "bytes": 816,
+      "sha256": "4738e493e43e965cc44513c85a5bd54fe634cbfcf5b01f404ab0df5fa60efd11"
+    },
+    {
+      "file": "SCHEMA_COMBINED_EVIDENCE_BUNDLE_R8.json",
+      "bytes": 1269,
+      "sha256": "71ce9fd8afe0b22bac190b02a3a05e76cd7d76b1a2fc5ed79f0e2af91d11ede8"
+    },
+    {
+      "file": "SCHEMA_DECISION_R8.json",
+      "bytes": 1054,
+      "sha256": "86ff5a1f414d780a43aaf0c304c12129b3e96db19c4a199aa5151008418297c9"
+    },
+    {
+      "file": "SCHEMA_NARRATION_EVIDENCE_JOIN_R8.json",
+      "bytes": 1183,
+      "sha256": "8fd3c6db670ca6a2ae281c34b7de83f28f01a0857b0cd965b0ca3e42d13d4a59"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 1894,
+      "sha256": "f1bf724f3b7cc30840ce5a5afe3cf21b3549760024b0ee0753610bb0cd9c2607"
+    },
+    {
+      "file": "STATUS_ENUMS_R8.json",
+      "bytes": 439,
+      "sha256": "04e1f04733ccc5d755cf83688883a93df10a0f666ac993b499d45161055aca5a"
+    }
+  ]
+}

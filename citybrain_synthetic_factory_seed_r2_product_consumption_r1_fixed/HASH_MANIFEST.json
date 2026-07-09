@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "algorithm": "sha256",
+  "file_count": 10,
+  "entries": [
+    {
+      "path": "CODEX_HANDOFF.md",
+      "bytes": 2239,
+      "sha256": "89310265e0b2c8947f05afff22de4126a877bf1d95f8621d89c7eaae57656e57"
+    },
+    {
+      "path": "PACKAGE_DECISION.json",
+      "bytes": 413,
+      "sha256": "ef59fec635052ff17536a58f839d91e3208c1ccb29155dedb68235a47477aac8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1123,
+      "sha256": "0f6f442cddeef5c783f9e2b5554abe84dd34957c9cd0476b3cf9806def514e91"
+    },
+    {
+      "path": "SECRET_SCAN_REPORT.json",
+      "bytes": 126,
+      "sha256": "de97ffe17eccb846d7ac10232ecfd6da2eecd38b100413af250c21cfdc188b0e"
+    },
+    {
+      "path": "docs/BOUNDARY_POLICY.md",
+      "bytes": 782,
+      "sha256": "bf46a56e0e42c186ac33af56b8c00f332b8f526edd0415a0c38db87230303a13"
+    },
+    {
+      "path": "manifests/EXPECTED_OUTPUTS.json",
+      "bytes": 820,
+      "sha256": "b58047355a98577cb19d3a82b41aefa5a5c9c92a4b77874cabc54615323dd842"
+    },
+    {
+      "path": "manifests/INPUT_CONTRACT.json",
+      "bytes": 1326,
+      "sha256": "f2afbcd05a8491636dc3dc05c6bf5a2c3e6636f37ba79c16ae3912e046796cfd"
+    },
+    {
+      "path": "prompts/CODEX_TASK_PROMPT.md",
+      "bytes": 922,
+      "sha256": "2efac8d7ee3b13331c6c0eb05c25966e59e6436b5ac89fdf7146baf786ffd991"
+    },
+    {
+      "path": "scripts/run_main_citybrain_synthetic_factory_seed_r2_product_consumption_r1.py",
+      "bytes": 11188,
+      "sha256": "774a7058cdb7e98e1c1f04a19e87503d905a5821138f69f8aefb8887900bca3f"
+    },
+    {
+      "path": "tests/test_seed_r2_product_consumption_package_static.py",
+      "bytes": 1976,
+      "sha256": "cc4fa8cacfd92268b03c83d26f59e3004e106809f819da22df623b1c8d3b589c"
+    }
+  ]
+}

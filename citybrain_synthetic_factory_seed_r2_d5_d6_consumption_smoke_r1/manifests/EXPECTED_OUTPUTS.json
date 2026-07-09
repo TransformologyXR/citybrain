@@ -1,0 +1,24 @@
+{
+  "expected_counts": {
+    "ask": 11,
+    "brief": 11,
+    "check": 11,
+    "d5_runtime_packets": 6,
+    "event": 55,
+    "spatial": 11,
+    "watch": 11
+  },
+  "expected_status": "PASS_SYNTHETIC_FACTORY_SEED_R2_D5_D6_CONSUMPTION_SMOKE_R1_WITH_LIMITATIONS",
+  "required_outputs": [
+    "D5_D6_CONSUMPTION_SMOKE_R1_DECISION.json",
+    "PRODUCT_FEED_COUNTS_R1.json",
+    "D5_RUNTIME_SMOKE_RESPONSES_R1.jsonl",
+    "D6_LOCAL_INDEX_VALIDATION_R1.json",
+    "D6_CONTROL_ROOM_CONSUMPTION_INDEX_R1.html",
+    "BOUNDARY_AND_NO_ACTION_AUDIT_R1.json",
+    "SECRET_SCAN_REPORT_R1.json",
+    "HASH_MANIFEST.json",
+    "CODEX_CLOSEOUT.md"
+  ],
+  "task": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-D6-CONSUMPTION-SMOKE-R1"
+}

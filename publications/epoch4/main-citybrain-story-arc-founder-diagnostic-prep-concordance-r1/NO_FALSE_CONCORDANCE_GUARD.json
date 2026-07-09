@@ -1,0 +1,8 @@
+{
+  "artifact_id": "NO_FALSE_CONCORDANCE_GUARD",
+  "countable_ai_artifact_review_count": 2,
+  "false_second_ai_review_count_created": false,
+  "review_of_review_excluded_from_concordance": true,
+  "status": "PASS",
+  "valid_claude_independent_artifact_review_imported": true
+}

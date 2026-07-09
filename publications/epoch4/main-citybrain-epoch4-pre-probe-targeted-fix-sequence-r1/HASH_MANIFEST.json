@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 392,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/BOUNDED_PROBE_READINESS_REFRESH_R1.json",
+      "sha256": "d53f0808f69d2c47bdadd38aba55d7b80b0f5c4e203dadae1da238b144c0d287"
+    },
+    {
+      "bytes": 52327,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/DERIVED_TARGETED_FIX_APPLICATION_R1.json",
+      "sha256": "b1d25c3fe2e296f60d3ccc255ea7f5617934f778b53255d22ccdd2d8d649ffc4"
+    },
+    {
+      "bytes": 2595,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/EVAL_GAP_EXTRACT_R1.json",
+      "sha256": "cd862bf990f24467f34ed9046eb714a23cc1a0ca445d304d7054f219a4f4988c"
+    },
+    {
+      "bytes": 974,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/EVAL_RERUN_DIFF_R1.json",
+      "sha256": "7ba41958bd2febd091c2c086f372975b6067db72178a40772c2197746b131b1a"
+    },
+    {
+      "bytes": 7304,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/FOUNDER_PROBE_TASK_QUEUE_REFRESH_R1.json",
+      "sha256": "ed5ea1ab2d1bf3bec7541b4635c57e447ff163feecfd7145dd5478f34b71e423"
+    },
+    {
+      "bytes": 650,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/PRE_PROBE_TARGETED_FIX_SEQUENCE_DECISION.json",
+      "sha256": "14ade03f47dbc12bf89fa072dda58e3c7cb24edf0ec2f1170b320eeb25edadd4"
+    },
+    {
+      "bytes": 4545,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/PRODUCT_LOOP_EVAL_RERUN_R2.json",
+      "sha256": "952bc1044e1e322fa049104af2e7cadd80074533ce3135a8688ffa4af6a99f31"
+    },
+    {
+      "bytes": 226,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/SOURCE_TRUTH_NO_MUTATION_AUDIT.json",
+      "sha256": "0063f62ae802564ac2a434d2b9ca345fed17ff038e7699ca1967991f4eee1a84"
+    },
+    {
+      "bytes": 5564,
+      "path": "outputs/main_citybrain_epoch4_pre_probe_targeted_fix_sequence_r1/TARGETED_FIX_CANDIDATE_SELECTION_R1.json",
+      "sha256": "4088c19ed9dc7116a06ae6fdfd36f11b079152cc00723670d071e5dd6dc878ad"
+    },
+    {
+      "bytes": 392,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/BOUNDED_PROBE_READINESS_REFRESH_R1.json",
+      "sha256": "d53f0808f69d2c47bdadd38aba55d7b80b0f5c4e203dadae1da238b144c0d287"
+    },
+    {
+      "bytes": 52327,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/DERIVED_TARGETED_FIX_APPLICATION_R1.json",
+      "sha256": "b1d25c3fe2e296f60d3ccc255ea7f5617934f778b53255d22ccdd2d8d649ffc4"
+    },
+    {
+      "bytes": 2595,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/EVAL_GAP_EXTRACT_R1.json",
+      "sha256": "cd862bf990f24467f34ed9046eb714a23cc1a0ca445d304d7054f219a4f4988c"
+    },
+    {
+      "bytes": 974,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/EVAL_RERUN_DIFF_R1.json",
+      "sha256": "7ba41958bd2febd091c2c086f372975b6067db72178a40772c2197746b131b1a"
+    },
+    {
+      "bytes": 7304,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/FOUNDER_PROBE_TASK_QUEUE_REFRESH_R1.json",
+      "sha256": "ed5ea1ab2d1bf3bec7541b4635c57e447ff163feecfd7145dd5478f34b71e423"
+    },
+    {
+      "bytes": 650,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/PRE_PROBE_TARGETED_FIX_SEQUENCE_DECISION.json",
+      "sha256": "14ade03f47dbc12bf89fa072dda58e3c7cb24edf0ec2f1170b320eeb25edadd4"
+    },
+    {
+      "bytes": 4545,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/PRODUCT_LOOP_EVAL_RERUN_R2.json",
+      "sha256": "952bc1044e1e322fa049104af2e7cadd80074533ce3135a8688ffa4af6a99f31"
+    },
+    {
+      "bytes": 226,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/SOURCE_TRUTH_NO_MUTATION_AUDIT.json",
+      "sha256": "0063f62ae802564ac2a434d2b9ca345fed17ff038e7699ca1967991f4eee1a84"
+    },
+    {
+      "bytes": 5564,
+      "path": "publications/epoch4/main-citybrain-epoch4-pre-probe-targeted-fix-sequence-r1/TARGETED_FIX_CANDIDATE_SELECTION_R1.json",
+      "sha256": "4088c19ed9dc7116a06ae6fdfd36f11b079152cc00723670d071e5dd6dc878ad"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T19:19:37Z",
+  "status": "PASS"
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "R6C Closeout Decision",
+  "type": "object",
+  "required": [
+    "task_id",
+    "schema_version",
+    "status",
+    "runtime_configured",
+    "probe_attempted",
+    "probe_executed",
+    "probe_status",
+    "r7_ready",
+    "audits"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-PROVISIONING-AND-CONFIGURATION-R6C"
+    },
+    "schema_version": {
+      "const": "metropolis-vss-runtime-provisioning-and-configuration-r6c.v1"
+    },
+    "status": {
+      "type": "string"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "probe_attempted": {
+      "type": "boolean"
+    },
+    "probe_executed": {
+      "type": "boolean"
+    },
+    "probe_status": {
+      "type": "string"
+    },
+    "r7_ready": {
+      "type": "boolean"
+    },
+    "audits": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "artifact_id": "AI_REVIEW_PROVENANCE_LEDGER",
+  "countable_ai_artifact_review_count": 2,
+  "review_input_root": "inputs/ai_diagnostic_story_review",
+  "review_of_review_excluded_from_concordance": true,
+  "rows": [
+    {
+      "ai_diagnostic_review": true,
+      "classification_note": "Imported from local ChatGPT AI diagnostic review JSON; source validation details are in inputs/ai_diagnostic_story_review.",
+      "count_toward_concordance": true,
+      "founder_diagnostic_review_recommendation": "CONDITIONAL_GO_AFTER_SECOND_AI_REVIEW_CONCORDANCE",
+      "founder_product_review_recommendation": "NO_GO",
+      "independent_artifact_review": true,
+      "not_fabricated": true,
+      "path": "inputs/ai_diagnostic_story_review/chatgpt_story_review_r1.json",
+      "present": true,
+      "ratings_1_to_5": {
+        "check_boundary_clarity": 5,
+        "cross_family_entity_resolution_clarity": 4,
+        "eval_expansion_usefulness": 4,
+        "evidence_traceability": 4,
+        "founder_diagnostic_usefulness": 4,
+        "product_review_readiness": 2,
+        "simulation_context_honesty": 4,
+        "story_coherence": 4
+      },
+      "review_id": "chatgpt_ai_diagnostic_review_r1",
+      "review_of_review": false,
+      "reviewer": "chatgpt",
+      "status": "PASS_CHATGPT_AI_DIAGNOSTIC_STORY_REVIEW_R1_WITH_LIMITATIONS"
+    },
+    {
+      "ai_diagnostic_review": true,
+      "artifact_pointer_confirmed": true,
+      "classification_note": "Imported from local Claude independent artifact review markdown.",
+      "count_toward_concordance": true,
+      "founder_diagnostic_review_recommendation": "GO_FOR_FOUNDER_DIAGNOSTIC_REVIEW_WITH_LIMITATIONS",
+      "founder_product_review_recommendation": "NO_GO",
+      "independent_artifact_review": true,
+      "not_fabricated": true,
+      "path": "inputs/ai_diagnostic_story_review/CLAUDE_INDEPENDENT_ARTIFACT_REVIEW_R1.md",
+      "present": true,
+      "ratings_1_to_5": {
+        "check_boundary_clarity": 5,
+        "cross_family_entity_resolution_clarity": 4,
+        "eval_expansion_usefulness": 3,
+        "evidence_traceability": 5,
+        "founder_diagnostic_usefulness": 2,
+        "product_review_readiness": 2,
+        "simulation_context_honesty": 5,
+        "story_coherence": 4
+      },
+      "review_id": "claude_independent_artifact_review_r1",
+      "review_of_review": false,
+      "reviewer": "claude",
+      "status": "PASS_WITH_LIMITATIONS"
+    },
+    {
+      "ai_diagnostic_review": false,
+      "count_toward_concordance": false,
+      "independent_artifact_review": false,
+      "path": null,
+      "present": false,
+      "review_id": "claude_review_of_review_r0",
+      "review_of_review": true,
+      "reviewer": "claude",
+      "status": "NOT_PRESENT"
+    }
+  ],
+  "valid_chatgpt_review_imported": true,
+  "valid_claude_independent_artifact_review_imported": true
+}

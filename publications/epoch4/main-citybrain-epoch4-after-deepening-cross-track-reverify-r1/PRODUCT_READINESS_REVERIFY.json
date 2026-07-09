@@ -1,0 +1,10 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "PRODUCT_READINESS_REVERIFY",
+  "comparability_guard_passed": true,
+  "evidence_atlas_created": true,
+  "founder_review_session_run": false,
+  "product_status": "PASS_MAIN_CITYBRAIN_EPOCH4_PRODUCT_READINESS_GAP_CLOSURE_SEQUENCE_R1_WITH_LIMITATIONS",
+  "regression_harness_passed": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

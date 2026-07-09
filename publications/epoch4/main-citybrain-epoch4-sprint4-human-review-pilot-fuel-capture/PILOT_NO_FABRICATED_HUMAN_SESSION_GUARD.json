@@ -1,0 +1,7 @@
+{
+  "artifact_id": "PILOT_NO_FABRICATED_HUMAN_SESSION_GUARD",
+  "fabricated_human_sessions_created": false,
+  "operator_fuel_fabricated": false,
+  "real_session_files_present": false,
+  "status": "PASS"
+}

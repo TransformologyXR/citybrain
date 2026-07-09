@@ -1,0 +1,28 @@
+{
+  "all_family_packet_weakness_detected": false,
+  "all_four_canonical_families_inventoried": true,
+  "artifact_id": "REVIEW_PACKET_360_NATIVE_EVIDENCE_COMPLETENESS_DECISION",
+  "cadence_status": "PASS_MAIN_CITYBRAIN_EVENT_FABRIC_SEED_R3_CADENCE_REPLAY_QUARANTINE_MINING_R1_WITH_LIMITATIONS",
+  "canonical_family_count": 4,
+  "client_ready": false,
+  "family_native_status_counts": {
+    "derived_backfill_only": 1,
+    "native_packet_complete": 3
+  },
+  "family_review_readiness_counts": {
+    "diagnostic_ready": 4
+  },
+  "founder_diagnostic_review_allowed_with_limitations": true,
+  "founder_session_results_created": false,
+  "generated_at": "2026-07-08T12:13:06Z",
+  "mobility_native_packet_status": "derived_backfill_only",
+  "mobility_only_native_gap": true,
+  "operator_fuel_created": false,
+  "product_review_ready": false,
+  "recommended_repair_scope": "MOBILITY_NATIVE_PACKET_REPAIR_ONLY",
+  "simulation_distribution_status": "PASS_MAIN_CITYBRAIN_SIMULATION_DISTRIBUTION_CHECKED_FIXTURES_R1_WITH_LIMITATIONS",
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_REVIEW_PACKET_360_NATIVE_EVIDENCE_COMPLETENESS_GATE_R1_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-REVIEW-PACKET-360-NATIVE-EVIDENCE-COMPLETENESS-GATE-R1",
+  "training_rows_created": false
+}

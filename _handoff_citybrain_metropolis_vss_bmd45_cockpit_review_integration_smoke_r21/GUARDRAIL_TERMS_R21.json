@@ -1,0 +1,19 @@
+{
+  "forbidden_claim_terms": [
+    "confirmed violation",
+    "official finding",
+    "ticket created",
+    "dispatch",
+    "enforcement",
+    "identity recognized",
+    "legal conclusion"
+  ],
+  "required_boundary_terms": [
+    "candidate review",
+    "human review required",
+    "not a finding",
+    "no live CCTV claim",
+    "VSS not fact source"
+  ],
+  "schema_version": "r21.guardrail-terms.v1"
+}

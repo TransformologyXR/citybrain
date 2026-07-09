@@ -1,0 +1,13 @@
+{
+  "artifact_id": "DERIVED_FIX_EVAL_DELTA_PROJECTION",
+  "baseline_eval_case_count": 48,
+  "projected_overlay_eval_case_count": 48,
+  "projected_structural_improvements": [
+    "clearer CHECK downgrade explanations",
+    "more explicit evidence and source coverage notes",
+    "review packet attachment metadata for founder-probe tasks"
+  ],
+  "regressions_introduced": [],
+  "score_delta_claimed_as_fact": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

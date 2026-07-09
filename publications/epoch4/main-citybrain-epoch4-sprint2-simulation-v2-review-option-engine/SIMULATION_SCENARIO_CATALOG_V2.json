@@ -1,0 +1,30 @@
+{
+  "artifact_id": "SIMULATION_SCENARIO_CATALOG_V2",
+  "scenario_count": 1,
+  "scenarios": [
+    {
+      "assumptions": [
+        "fixture-only demand",
+        "static access penalty",
+        "no production calibration"
+      ],
+      "baseline": "do_nothing_hold_access_constraint",
+      "event_family": "mobility_access_interruption_v0",
+      "inputs": [
+        "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_CURRENT_STATE_V2.json"
+      ],
+      "limitations": [
+        "not a forecast",
+        "not dispatch/control",
+        "not calibrated"
+      ],
+      "review_options": [
+        "staggered_access_window",
+        "temporary_detour_guidance"
+      ],
+      "scenario_id": "mobility_access_interruption_review_option_v2",
+      "source_class": "replay"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

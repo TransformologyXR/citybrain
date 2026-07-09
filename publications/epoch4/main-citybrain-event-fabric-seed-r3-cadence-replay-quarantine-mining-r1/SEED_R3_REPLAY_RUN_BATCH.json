@@ -1,0 +1,29 @@
+{
+  "append_count": 16,
+  "boundary_label": "local_replay_no_action_no_live_ingestion",
+  "canonical_loop_family_ids": [
+    "mobility_access_interruption_v0",
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "family_counts": {
+    "building_compliance_perception_candidate": 4,
+    "city_asset_infrastructure_issue": 4,
+    "mobility_access_interruption_v0": 4,
+    "permit_inspection_delay": 4
+  },
+  "final_state_hash": "bab02c62e743a7072ab91615e5faf64b5555ea7c1c1baf9a764a0b360efe97c3",
+  "input_event_count": 16,
+  "materialized_count": 8,
+  "materialized_state_digest": "687b9dccf6bd63b42a4b68c393482b44dae1c4f735b2e2b036947bdad234891b",
+  "mode": "batch",
+  "order_preserved": true,
+  "partition_digest": "0d7500ca048b54c2ab77d1a0404a17e16714c3c28ad55a68a1c02dad4812c81b",
+  "quarantine_expected_count": 4,
+  "query_state_count": 16,
+  "query_state_digest": "f53bdd7f8f89066f6a4aa311b18d38656c472a41ad2de0d510379b027347ebee",
+  "resolved_count": 8,
+  "status": "PASS_WITH_LIMITATIONS",
+  "unresolved_review_count": 4
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain Keyed Source Status R2A",
+  "type": "object",
+  "required": [
+    "source_id",
+    "provider",
+    "city",
+    "status",
+    "auth_status",
+    "http_status",
+    "raw_policy",
+    "secret_redacted"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "auth_status": {
+      "type": "string"
+    },
+    "http_status": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "row_count_estimate": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "sample_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_policy": {
+      "type": "string"
+    },
+    "secret_redacted": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

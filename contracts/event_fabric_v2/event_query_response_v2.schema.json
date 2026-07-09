@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "filters": {
+      "type": "object"
+    },
+    "query_id": {
+      "type": "string"
+    },
+    "query_type": {
+      "type": "string"
+    },
+    "result_event_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "query_id",
+    "query_type",
+    "filters",
+    "result_event_ids",
+    "authority_boundary"
+  ],
+  "title": "EventQueryResponseV2",
+  "type": "object"
+}

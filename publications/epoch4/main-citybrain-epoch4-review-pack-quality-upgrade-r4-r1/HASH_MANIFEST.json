@@ -1,0 +1,247 @@
+{
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "bytes": 544,
+      "path": "CARD_GAP_TO_GLOBAL_DATA_GAP_CROSSWALK.json",
+      "sha256": "8975864799ac18b17b79adc33353fc50efddf4a374aefe1d190284afa70917e5"
+    },
+    {
+      "bytes": 6390,
+      "path": "CARD_TO_EVAL_CASE_COVERAGE_CROSSWALK.json",
+      "sha256": "1c3afd87dd23ddce14954c8b7d285cceb6b40e43b705d7c24a0ce1e265808aaf"
+    },
+    {
+      "bytes": 174,
+      "path": "DIAGNOSTIC_REVIEW_READINESS_GATE.json",
+      "sha256": "966e6dfbea02b155716760e5a1265910dc5d0bb01a4b5d556720affd155eb755"
+    },
+    {
+      "bytes": 42522,
+      "path": "EVAL_CASE_EVIDENCE_ATLAS_48.json",
+      "sha256": "f49557ac64de1fe198254bce97a1d052680ff03e38cd4d89406167a290153110"
+    },
+    {
+      "bytes": 5014,
+      "path": "EVAL_CASE_EVIDENCE_ATLAS_48.md",
+      "sha256": "f0542278967aa3b511c7358d842d10f85ae038c7b171f5cea8f1ed6177064471"
+    },
+    {
+      "bytes": 6523,
+      "path": "FOUNDER_CARD_R4_REPAIR_CLASSIFICATION.json",
+      "sha256": "586b1df595076080df2bd03d156942c0f6069883d4f0dc1132f3449b0267844d"
+    },
+    {
+      "bytes": 1693,
+      "path": "FOUNDER_PROBE_RESPONSE_TEMPLATE_PREFILLED_R4.csv",
+      "sha256": "c249a5beb76724f14eb976e613cfd57a25aeb1fb52ffc1b0376b4791de333fa5"
+    },
+    {
+      "bytes": 2393,
+      "path": "FOUNDER_PROBE_REVIEW_INDEX_R4.html",
+      "sha256": "8e74bccb2ce4fe9405b4aa0849c47aa4028f16a4b0ad45db318ff425cb27def0"
+    },
+    {
+      "bytes": 1860,
+      "path": "FOUNDER_PROBE_REVIEW_INDEX_R4.md",
+      "sha256": "1a5f079f4197c6d8ed3503443a5d3e278b9e4c4a66697e79142caa080612fd3e"
+    },
+    {
+      "bytes": 299,
+      "path": "MOBILITY_NATIVE_VS_DERIVED_PROVENANCE_REPORT.json",
+      "sha256": "c425f958916d2041656753003f56876c6cd86021b62a6b88fc18d439269ae808"
+    },
+    {
+      "bytes": 438,
+      "path": "NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "d33e4e8eb531c96dec0913dd927586541ac673e6a6c7b9a611f469d084dae156"
+    },
+    {
+      "bytes": 141,
+      "path": "NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "bdefb07e5fe820ab6af2857a9d953b4501ab9f94b42a902af97150171782bc44"
+    },
+    {
+      "bytes": 309,
+      "path": "PRODUCT_REVIEW_READINESS_GATE.json",
+      "sha256": "09e11da7c88d51ea3f5890f7a1e295b70587db67a1cec0c77eab50116d91a712"
+    },
+    {
+      "bytes": 6852,
+      "path": "REVIEW_CARD_EVIDENCE_QUALITY_SCORECARD.json",
+      "sha256": "96b07be279ea2ae3dedaf2a159593cf7f468f6a85179b6cb6017bc9b3bf5a1e0"
+    },
+    {
+      "bytes": 2882,
+      "path": "review_cards_r4/founder-probe-r2-01.json",
+      "sha256": "451a6f8dce0555f5a5ddc76473075097b271b79970192940574fb54bd4d15e9d"
+    },
+    {
+      "bytes": 803,
+      "path": "review_cards_r4/founder-probe-r2-01.md",
+      "sha256": "44618a0499eea4d4c294e61bee9f20db522dc08809ef6869eaac4c0600faba4e"
+    },
+    {
+      "bytes": 2892,
+      "path": "review_cards_r4/founder-probe-r2-02.json",
+      "sha256": "b0fee34713bd390a58279405d1f1a1840352ed073c9af932d04fb450ba8de75b"
+    },
+    {
+      "bytes": 831,
+      "path": "review_cards_r4/founder-probe-r2-02.md",
+      "sha256": "e146a680f1a697fe535a1cf75cdad562df87f627a7cf10b6be3411360c9d8206"
+    },
+    {
+      "bytes": 2893,
+      "path": "review_cards_r4/founder-probe-r2-03.json",
+      "sha256": "016f66b57c22c1d980ebba0073874f747b2d1bf38cb61caef3e3dcd249eb9998"
+    },
+    {
+      "bytes": 834,
+      "path": "review_cards_r4/founder-probe-r2-03.md",
+      "sha256": "5d6e846528df9e72102b6d06c3cb77d90f95833779847725f3d154797f8d2319"
+    },
+    {
+      "bytes": 2898,
+      "path": "review_cards_r4/founder-probe-r2-04.json",
+      "sha256": "6c3df089ec06afb956e6f1f1af6ab6e1da0a9a119bf727124f2bedb44a8ffdd8"
+    },
+    {
+      "bytes": 831,
+      "path": "review_cards_r4/founder-probe-r2-04.md",
+      "sha256": "aee844ac605ac80bbe88f61afa3492cafe247f367d6dec4d331c31236c2c528e"
+    },
+    {
+      "bytes": 2809,
+      "path": "review_cards_r4/founder-probe-r2-05.json",
+      "sha256": "29c040fb8ee157f69e384fc463de025b63eceb7382b044955070e924ca682b59"
+    },
+    {
+      "bytes": 794,
+      "path": "review_cards_r4/founder-probe-r2-05.md",
+      "sha256": "d98248530360e821a0f40d16ce448e113cde7bcb00a6a163ad3fcf9cc7e852dc"
+    },
+    {
+      "bytes": 2819,
+      "path": "review_cards_r4/founder-probe-r2-06.json",
+      "sha256": "c9a35ceaf5cfe94ba388e2bf583c583fa7528b1ae9b4f2755a6356dfd8e892ec"
+    },
+    {
+      "bytes": 822,
+      "path": "review_cards_r4/founder-probe-r2-06.md",
+      "sha256": "d2e11a92df2d7158735a9a44a32f4ec2e881f098f7461689a9fa9834b0176260"
+    },
+    {
+      "bytes": 2820,
+      "path": "review_cards_r4/founder-probe-r2-07.json",
+      "sha256": "c7662d57e6282e15c1df4ff3856211c7eab125a9e460733c1b9c7ed65818d9a7"
+    },
+    {
+      "bytes": 825,
+      "path": "review_cards_r4/founder-probe-r2-07.md",
+      "sha256": "3b0821fc5f56e0b2b5c9fc80b3e15f1f0a593d50614db42de1e59c98acc74320"
+    },
+    {
+      "bytes": 2825,
+      "path": "review_cards_r4/founder-probe-r2-08.json",
+      "sha256": "4144a3d979755cd42cd8b3b6dd6d79842e392036ae9a911f81ce48f1f1b342a8"
+    },
+    {
+      "bytes": 822,
+      "path": "review_cards_r4/founder-probe-r2-08.md",
+      "sha256": "464e0c7585e93a287b952b6481e00ee71b952339ee4c58d04fe4f9d8f98e33e3"
+    },
+    {
+      "bytes": 3031,
+      "path": "review_cards_r4/founder-probe-r2-09.json",
+      "sha256": "4da91892f7124fd02a7bbf4c7d929f59896893cf29fa7711f14fbcff131d8f29"
+    },
+    {
+      "bytes": 806,
+      "path": "review_cards_r4/founder-probe-r2-09.md",
+      "sha256": "334ab4304130f63027ec4b8287dc0a453140bc3303b183797e3bd2a25e2f9b72"
+    },
+    {
+      "bytes": 3030,
+      "path": "review_cards_r4/founder-probe-r2-10.json",
+      "sha256": "77db152c0d70c0c791f37bb51be8e88dd9a08f157de89f9573d9d600050ffbb5"
+    },
+    {
+      "bytes": 823,
+      "path": "review_cards_r4/founder-probe-r2-10.md",
+      "sha256": "d87f6383958cf488526821eaa12d7ff79a9e62001f46a17f070ff819fd64db22"
+    },
+    {
+      "bytes": 3031,
+      "path": "review_cards_r4/founder-probe-r2-11.json",
+      "sha256": "fd088f938cca57bf3c074445fb88f108fb8adb5de91504ca0ec3a905c5f0dcc6"
+    },
+    {
+      "bytes": 826,
+      "path": "review_cards_r4/founder-probe-r2-11.md",
+      "sha256": "3243a70c04fb12635973f4915907095fd3f956cb22e9c956a88d93220e03167f"
+    },
+    {
+      "bytes": 3036,
+      "path": "review_cards_r4/founder-probe-r2-12.json",
+      "sha256": "c77f984994017d2e1bba700d84c3108efe445cd31fb0f53d5b46c8131c9234c7"
+    },
+    {
+      "bytes": 823,
+      "path": "review_cards_r4/founder-probe-r2-12.md",
+      "sha256": "00064fc5d857e03d2ac658560cd42e4d1b7d06b38999a8e5b5c09bd102eb774c"
+    },
+    {
+      "bytes": 2729,
+      "path": "review_cards_r4/founder-probe-r2-13.json",
+      "sha256": "bbd4edda174eef76ded579ea754e43c1da18f3dcb45a0a9bcad472897bcc90b5"
+    },
+    {
+      "bytes": 786,
+      "path": "review_cards_r4/founder-probe-r2-13.md",
+      "sha256": "c1b54fc1bcfd66d00573fd4e5c0f6aec18810d810fa5797927a8638970d186db"
+    },
+    {
+      "bytes": 2739,
+      "path": "review_cards_r4/founder-probe-r2-14.json",
+      "sha256": "d2c8cf410022fc1d36ad754a3341a192329f28c264a8aa0ee077a73c579beb84"
+    },
+    {
+      "bytes": 814,
+      "path": "review_cards_r4/founder-probe-r2-14.md",
+      "sha256": "d3196aff94da8ee39fa8526731f969325f657cec156b50d78df389d95d161f25"
+    },
+    {
+      "bytes": 2740,
+      "path": "review_cards_r4/founder-probe-r2-15.json",
+      "sha256": "3886af9a620c85aafee8647d8c847fe31fc2b8bdc67a0484460405c700712968"
+    },
+    {
+      "bytes": 817,
+      "path": "review_cards_r4/founder-probe-r2-15.md",
+      "sha256": "be8fcfa7a43d75c42fe1a15fe113488260e3ac988673a9f3084166db4a8cc3d2"
+    },
+    {
+      "bytes": 2745,
+      "path": "review_cards_r4/founder-probe-r2-16.json",
+      "sha256": "4e5736a5bb0aad697208ca2c11e2af4999565c16da1b894a2f336bafe5f4ddee"
+    },
+    {
+      "bytes": 814,
+      "path": "review_cards_r4/founder-probe-r2-16.md",
+      "sha256": "bbf0269fd0c79d05dff5ef1efcd5520b339ee796d7b2c5d458d93bdf6d28cdbb"
+    },
+    {
+      "bytes": 480,
+      "path": "REVIEW_PACK_QUALITY_BASELINE.json",
+      "sha256": "c53f39023cbba640fbd8ba45a3657eaa783bc3c7a9c9bbc484d4422f8899cf4e"
+    },
+    {
+      "bytes": 976,
+      "path": "REVIEW_PACK_QUALITY_DECISION.json",
+      "sha256": "01a293200a963637fe736d50315f92cd8c8800964f5b97ebb8f35ed54bc5e8c6"
+    }
+  ],
+  "file_count": 48,
+  "status": "PASS"
+}

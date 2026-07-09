@@ -1,0 +1,119 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_SIMULATION_V2_2_REAL_CONNECTOR_FIDELITY_LADDER_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 730,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/DECISION.json",
+      "sha256": "94a70d1e6563c95ff5ee0a034bc8ac7dabcffb8363c180f9944293e5d12a8772"
+    },
+    {
+      "bytes": 1154,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "2bd8b57e68732c9863bd1c55bfe75ccda527359d80b45687d8a7598745f2cdd8"
+    },
+    {
+      "bytes": 240,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "497c7f8b9d51e3d08e55e9781a03a09f5660e17b0f7cd124fca1c8bd4a90c395"
+    },
+    {
+      "bytes": 893,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_ASSUMPTION_UNCERTAINTY_REGISTER.json",
+      "sha256": "65b87c8ce938e97306ec41dd74534614fbc5df42027fb0dbcaf9d0a0dd7c63e3"
+    },
+    {
+      "bytes": 415,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_BACKTEST_READINESS_REPORT.json",
+      "sha256": "c9e516f45ddfb93ad3810f0d538e276c9f8d1e360fb1f50c9a0a75747e44832b"
+    },
+    {
+      "bytes": 828,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_CHECK_BRIEF_ATTACHMENT_REPORT.json",
+      "sha256": "18a94d19eb880750bebf8259e31a5492aa6c8469f7de14200df99c2119309d81"
+    },
+    {
+      "bytes": 824,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_CONNECTOR_LADDER.json",
+      "sha256": "36809297078d841dd20c13dcb5bcb1c31d061e2f601373eb1f08a2dc176dcbec"
+    },
+    {
+      "bytes": 1147,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_CONNECTOR_PROBE_RESULTS.json",
+      "sha256": "6b60fedfd3fd959d358ee468af059b30ca599dde35cc3792a2ecf53c456ccfa4"
+    },
+    {
+      "bytes": 2473,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_OPTION_COMPARISON_BY_FAMILY.json",
+      "sha256": "93e2c12ba85c29a16c4e393ebaff9b730bb504cf2118d15bbca4ed25e23ef9a5"
+    },
+    {
+      "bytes": 1062,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_REAL_OR_FIXTURE_RUN_COMPARISON.json",
+      "sha256": "36369628e30b25096f8f485b26977521745b62cf7418ba6c6736e7001dfe6aa8"
+    },
+    {
+      "bytes": 1516,
+      "path": "outputs/main_citybrain_epoch4_simulation_v2_2_real_connector_fidelity_ladder_r1/SIMULATION_V2_2_SCENARIO_FIDELITY_SCORECARD.json",
+      "sha256": "1f777e9f052de00368c2f3ee03f5dfe16a3d7adb43f3701f94573f09dbe1e09a"
+    },
+    {
+      "bytes": 730,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/DECISION.json",
+      "sha256": "94a70d1e6563c95ff5ee0a034bc8ac7dabcffb8363c180f9944293e5d12a8772"
+    },
+    {
+      "bytes": 1154,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "2bd8b57e68732c9863bd1c55bfe75ccda527359d80b45687d8a7598745f2cdd8"
+    },
+    {
+      "bytes": 240,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/NO_PRODUCT_FORECAST_SURFACE_GUARD.json",
+      "sha256": "497c7f8b9d51e3d08e55e9781a03a09f5660e17b0f7cd124fca1c8bd4a90c395"
+    },
+    {
+      "bytes": 893,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_ASSUMPTION_UNCERTAINTY_REGISTER.json",
+      "sha256": "65b87c8ce938e97306ec41dd74534614fbc5df42027fb0dbcaf9d0a0dd7c63e3"
+    },
+    {
+      "bytes": 415,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_BACKTEST_READINESS_REPORT.json",
+      "sha256": "c9e516f45ddfb93ad3810f0d538e276c9f8d1e360fb1f50c9a0a75747e44832b"
+    },
+    {
+      "bytes": 828,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_CHECK_BRIEF_ATTACHMENT_REPORT.json",
+      "sha256": "18a94d19eb880750bebf8259e31a5492aa6c8469f7de14200df99c2119309d81"
+    },
+    {
+      "bytes": 824,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_CONNECTOR_LADDER.json",
+      "sha256": "36809297078d841dd20c13dcb5bcb1c31d061e2f601373eb1f08a2dc176dcbec"
+    },
+    {
+      "bytes": 1147,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_CONNECTOR_PROBE_RESULTS.json",
+      "sha256": "6b60fedfd3fd959d358ee468af059b30ca599dde35cc3792a2ecf53c456ccfa4"
+    },
+    {
+      "bytes": 2473,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_OPTION_COMPARISON_BY_FAMILY.json",
+      "sha256": "93e2c12ba85c29a16c4e393ebaff9b730bb504cf2118d15bbca4ed25e23ef9a5"
+    },
+    {
+      "bytes": 1062,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_REAL_OR_FIXTURE_RUN_COMPARISON.json",
+      "sha256": "36369628e30b25096f8f485b26977521745b62cf7418ba6c6736e7001dfe6aa8"
+    },
+    {
+      "bytes": 1516,
+      "path": "publications/epoch4/main-citybrain-epoch4-simulation-v2-2-real-connector-fidelity-ladder-r1/SIMULATION_V2_2_SCENARIO_FIDELITY_SCORECARD.json",
+      "sha256": "1f777e9f052de00368c2f3ee03f5dfe16a3d7adb43f3701f94573f09dbe1e09a"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "status": "PASS"
+}

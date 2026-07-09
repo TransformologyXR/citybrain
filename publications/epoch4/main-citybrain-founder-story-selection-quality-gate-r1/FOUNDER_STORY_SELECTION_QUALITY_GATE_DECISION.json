@@ -1,0 +1,38 @@
+{
+  "artifact_id": "FOUNDER_STORY_SELECTION_QUALITY_GATE_DECISION",
+  "do_not_run_founder_review_on_current_batch": true,
+  "founder_review_allowed": false,
+  "metrics": {
+    "blockers": [
+      "only 0 founder-grade main candidates; need 10",
+      "only 0 watch/review-worthy candidates; need 5",
+      "only 0 cross-domain candidates; need 2",
+      "only 0 honest abstain/ignore candidates; need 2"
+    ],
+    "candidate_count": 13,
+    "classification_counts": {
+      "diagnostic_boundary_case": 7,
+      "not_reviewable_due_to_missing_freshness": 1,
+      "not_reviewable_due_to_missing_place": 4,
+      "not_reviewable_due_to_thin_source_depth": 1
+    },
+    "pass_bar": {
+      "maximum_need_more_cards_in_main": 3,
+      "minimum_cross_domain_cards": 2,
+      "minimum_honest_abstain_or_ignore_cards": 2,
+      "minimum_main_cards": 10,
+      "minimum_watch_or_review_worthy": 5
+    },
+    "pass_bar_met": false,
+    "selected_classification_counts": {},
+    "selected_cross_domain_count": 0,
+    "selected_honest_abstain_or_ignore_count": 0,
+    "selected_main_candidate_count": 0,
+    "selected_need_more_count": 0,
+    "selected_watch_or_review_worthy_count": 0
+  },
+  "next_recommended_task": "SOURCE_OR_STORY_EXPANSION_BEFORE_FOUNDER_REVIEW",
+  "operator_rendering_allowed_for_founder_batch": false,
+  "status": "NOT_ENOUGH_FOUNDER_GRADE_STORIES_WITH_LIMITATIONS",
+  "task_id": "MAIN-CITYBRAIN-FOUNDER-STORY-SELECTION-QUALITY-GATE-R1"
+}

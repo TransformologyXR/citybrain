@@ -1,0 +1,61 @@
+{
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+  "generated_at": "2026-07-08T10:58:44+00:00",
+  "files": [
+    {
+      "path": "CODEX_HANDOFF.md",
+      "bytes": 2629,
+      "sha256": "26113434291d5169574b968ea618c21b70c1623754496e438dc8573aff3d78ae"
+    },
+    {
+      "path": "PACKAGE_DECISION.json",
+      "bytes": 749,
+      "sha256": "8436f2a529ad5759521adff9f10dac461a6db123f6daa09c06e7ad3f5d3592ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2107,
+      "sha256": "bbd2a8e7a27f7d26e471cfa8906732a817d9b9055617f99330f315a0a98738d0"
+    },
+    {
+      "path": "SECRET_SCAN_REPORT.json",
+      "bytes": 291,
+      "sha256": "db14fad1449d723fccebc1be272b3120d32cace3083b3d6fc6662b68689256f0"
+    },
+    {
+      "path": "SMOKE_RESULT.json",
+      "bytes": 888,
+      "sha256": "bfc166d80bfbe0510f3acda6a65d906d07ca5dea3639d09ec5373352e8caae02"
+    },
+    {
+      "path": "docs/BOUNDARY_POLICY.md",
+      "bytes": 696,
+      "sha256": "9b65bdaeb229f2bc6b16992903408924110c3110cd06a3b7d5c5fd0840ed08a3"
+    },
+    {
+      "path": "manifests/EXPECTED_OUTPUTS.json",
+      "bytes": 989,
+      "sha256": "73a9de38c574074b765289e040e6a8100fecce03f83607820a725c876669c883"
+    },
+    {
+      "path": "manifests/INPUT_CONTRACT.json",
+      "bytes": 1415,
+      "sha256": "b40f799cd37a18d03480bd8ae26f703331ad2f4d82fe6372c1c6209a4f65363c"
+    },
+    {
+      "path": "prompts/CODEX_TASK_PROMPT.md",
+      "bytes": 726,
+      "sha256": "bbabe44e929d61b9455ea9399b444df398c85ce7e5a72c3c5360bb662a26b008"
+    },
+    {
+      "path": "scripts/run_main_citybrain_synthetic_factory_seed_r3_built_environment_civic_compliance_refresh_r1.py",
+      "bytes": 21112,
+      "sha256": "bf349b5a5581e6f566e42d1f1be05efc06a562766e735c2090a4d2f0e88e6e5f"
+    },
+    {
+      "path": "tests/test_seed_r3_built_environment_civic_compliance_refresh_package_static.py",
+      "bytes": 2877,
+      "sha256": "9b07794a4f5324e2ff498111df94261e7a5dc17153b9e7a135aea6208b3c24de"
+    }
+  ]
+}

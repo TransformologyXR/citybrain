@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "lineage": {
+      "type": "array"
+    },
+    "provenance_refs": {
+      "type": "array"
+    },
+    "trace_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "trace_id",
+    "event_id",
+    "lineage",
+    "provenance_refs"
+  ],
+  "title": "EventTrace",
+  "type": "object"
+}

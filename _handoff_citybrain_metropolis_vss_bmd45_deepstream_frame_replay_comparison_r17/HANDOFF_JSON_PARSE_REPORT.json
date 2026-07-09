@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "json_files": [
+    "DATASET_FRAME_REPLAY_PLAN_R17.json",
+    "GUARDRAIL_TERMS_R17.json",
+    "INPUT_R16_VALIDATION_SUMMARY.json",
+    "RUNTIME_HOST_ALLOCATION_R17.json",
+    "SCHEMA_COMPARISON_REPORT_R17.json",
+    "SCHEMA_DECISION_R17.json",
+    "SCHEMA_DEEPSTREAM_FRAME_REPLAY_REPORT_R17.json",
+    "SCHEMA_HUMAN_REVIEW_COMPARISON_PACKET_R17.json",
+    "STATUS_ENUMS_R17.json"
+  ],
+  "schema_version": "handoff-json-parse-report.v1",
+  "status": "PASS"
+}

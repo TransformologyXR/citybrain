@@ -1,0 +1,17 @@
+{
+  "artifact_id": "E3_MASTER_LEDGER",
+  "status": "REQUIRED",
+  "rows": [
+    {
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE",
+      "status": "PASS_WITH_LIMITATIONS",
+      "publication_path": "publications/epoch3/<package>/"
+    },
+    {
+      "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+      "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+      "publication_path": "publications/epoch3/<package>/"
+    }
+  ],
+  "must_cover_full_epoch3_chain": true
+}

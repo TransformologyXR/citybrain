@@ -1,0 +1,99 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_V2_PILOT_BINDER_REFRESH_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 599,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/DECISION.json",
+      "sha256": "710c2e817f192c6b1d976d0c5b0788fd8dcef81fab83517001b83e172a2da350"
+    },
+    {
+      "bytes": 1204,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "b1818d3450ddd777fedb2100154df3a33871e8ab56d8fc94315a132ab62890b2"
+    },
+    {
+      "bytes": 312,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "9eb9f8695a09bd4b119be5ce38ed016e771c497c274a00650c5e01e1af4e7cc0"
+    },
+    {
+      "bytes": 556,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/PACKET_PARITY_REPORT.json",
+      "sha256": "ac4962ee3715a799fd280aef0a1b9beed7030ced00029780e6bf864a4afc3c82"
+    },
+    {
+      "bytes": 858,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/PILOT_EVIDENCE_BINDER_V2.md",
+      "sha256": "bb6b206e6ad159193ffee4a2cd95d9a894c9197857f66c46171d1577a240e422"
+    },
+    {
+      "bytes": 1183,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/PILOT_EVIDENCE_BINDER_V2_INDEX.json",
+      "sha256": "0873a1cdd69def3a5773a5d78f7f5ca907c8a0aeb42e40c955b6a348f6bcde72"
+    },
+    {
+      "bytes": 6221,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_BY_FAMILY.json",
+      "sha256": "da8b12c92ad68007e2385b4da37a60b910c007685dfc07c8202b6092e2e6afd8"
+    },
+    {
+      "bytes": 1572,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_INDEX.json",
+      "sha256": "49515990e74e5ffcd8bf95d89852c5291adc467192b51ada39314caff0646715"
+    },
+    {
+      "bytes": 1356,
+      "path": "outputs/main_citybrain_epoch4_review_packet_360_v2_pilot_binder_refresh_r1/REVIEW_PACKET_360_V2_MARKDOWN.md",
+      "sha256": "861899c7490d394c7aa3e533a293bc506529d8523ec0f681cea7c408e37d95b0"
+    },
+    {
+      "bytes": 599,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/DECISION.json",
+      "sha256": "710c2e817f192c6b1d976d0c5b0788fd8dcef81fab83517001b83e172a2da350"
+    },
+    {
+      "bytes": 1204,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "b1818d3450ddd777fedb2100154df3a33871e8ab56d8fc94315a132ab62890b2"
+    },
+    {
+      "bytes": 312,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "9eb9f8695a09bd4b119be5ce38ed016e771c497c274a00650c5e01e1af4e7cc0"
+    },
+    {
+      "bytes": 556,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/PACKET_PARITY_REPORT.json",
+      "sha256": "ac4962ee3715a799fd280aef0a1b9beed7030ced00029780e6bf864a4afc3c82"
+    },
+    {
+      "bytes": 858,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/PILOT_EVIDENCE_BINDER_V2.md",
+      "sha256": "bb6b206e6ad159193ffee4a2cd95d9a894c9197857f66c46171d1577a240e422"
+    },
+    {
+      "bytes": 1183,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/PILOT_EVIDENCE_BINDER_V2_INDEX.json",
+      "sha256": "0873a1cdd69def3a5773a5d78f7f5ca907c8a0aeb42e40c955b6a348f6bcde72"
+    },
+    {
+      "bytes": 6221,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/REVIEW_PACKET_360_V2_BY_FAMILY.json",
+      "sha256": "da8b12c92ad68007e2385b4da37a60b910c007685dfc07c8202b6092e2e6afd8"
+    },
+    {
+      "bytes": 1572,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/REVIEW_PACKET_360_V2_INDEX.json",
+      "sha256": "49515990e74e5ffcd8bf95d89852c5291adc467192b51ada39314caff0646715"
+    },
+    {
+      "bytes": 1356,
+      "path": "publications/epoch4/main-citybrain-epoch4-review-packet-360-v2-pilot-binder-refresh-r1/REVIEW_PACKET_360_V2_MARKDOWN.md",
+      "sha256": "861899c7490d394c7aa3e533a293bc506529d8523ec0f681cea7c408e37d95b0"
+    }
+  ],
+  "entry_count": 18,
+  "generated_at": "2026-07-07T16:50:30Z",
+  "status": "PASS"
+}

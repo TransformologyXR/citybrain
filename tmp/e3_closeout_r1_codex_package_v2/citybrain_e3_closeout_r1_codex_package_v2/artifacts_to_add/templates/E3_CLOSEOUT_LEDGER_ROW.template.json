@@ -1,0 +1,6 @@
+{
+  "artifact_id": "E3_CLOSEOUT_LEDGER_ROW",
+  "package_id": "MAIN-CITYBRAIN-EPOCH3-CLOSEOUT-R1",
+  "status": "PASS_E3_CLOSEOUT_WITH_LIMITATIONS",
+  "ledger_text": "Epoch 3 closes with limitations: governed foundation complete, Loop 2 offline experiment complete, no product learned capabilities armed, operator fuel deferred because system is not live."
+}

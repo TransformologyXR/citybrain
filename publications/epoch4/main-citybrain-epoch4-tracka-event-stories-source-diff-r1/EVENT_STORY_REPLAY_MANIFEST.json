@@ -1,0 +1,167 @@
+{
+  "artifact_id": "EVENT_STORY_REPLAY_MANIFEST",
+  "replay_inputs": [
+    "outputs/main_citybrain_epoch4_track2_event_fabric_v2_1_multi_family_hardening/EVENT_STORY_REPLAY_PACKS_V2_1.json"
+  ],
+  "replay_mode": "local_replay_review_only",
+  "replay_steps_by_story": {
+    "event_story_r1:building_compliance_perception_candidate": [
+      {
+        "action": "load_replay_event_family",
+        "refs": [
+          "building_compliance_perception_candidate_v0"
+        ],
+        "step": 1
+      },
+      {
+        "action": "attach_source_records_or_gap",
+        "refs": [
+          "source_record:sensor:near_alpha:2026-07-07"
+        ],
+        "step": 2
+      },
+      {
+        "action": "resolve_cer_context_if_available",
+        "refs": [
+          "cer:building:alpha",
+          "cer:observation:near_alpha"
+        ],
+        "step": 3
+      },
+      {
+        "action": "attach_check_and_authority_boundary",
+        "refs": [
+          "check_v1:alpha:floors:contradiction",
+          "check_v1:near_alpha:proximity"
+        ],
+        "step": 4
+      },
+      {
+        "action": "emit_review_only_story_packet",
+        "refs": [
+          "brief_packet:v2_1:building_compliance_perception_candidate"
+        ],
+        "step": 5
+      }
+    ],
+    "event_story_r1:city_asset_infrastructure_issue": [
+      {
+        "action": "load_replay_event_family",
+        "refs": [
+          "city_asset_infrastructure_issue_v0"
+        ],
+        "step": 1
+      },
+      {
+        "action": "attach_source_records_or_gap",
+        "refs": [
+          "source_record:asset:infrastructure:fixture"
+        ],
+        "step": 2
+      },
+      {
+        "action": "resolve_cer_context_if_available",
+        "refs": [
+          "cer:asset:infrastructure_candidate"
+        ],
+        "step": 3
+      },
+      {
+        "action": "attach_check_and_authority_boundary",
+        "refs": [
+          "check_v1:asset:source_depth_missing"
+        ],
+        "step": 4
+      },
+      {
+        "action": "emit_review_only_story_packet",
+        "refs": [
+          "brief_packet:v2_1:city_asset_infrastructure_issue"
+        ],
+        "step": 5
+      }
+    ],
+    "event_story_r1:mobility_access_interruption": [
+      {
+        "action": "load_replay_event_family",
+        "refs": [
+          "mobility_access_interruption_v0"
+        ],
+        "step": 1
+      },
+      {
+        "action": "attach_source_records_or_gap",
+        "refs": [
+          "source_record:inspection:alpha:2026-06-30"
+        ],
+        "step": 2
+      },
+      {
+        "action": "resolve_cer_context_if_available",
+        "refs": [
+          "cer:building:alpha"
+        ],
+        "step": 3
+      },
+      {
+        "action": "attach_check_and_authority_boundary",
+        "refs": [
+          "check_v1:alpha:located_in"
+        ],
+        "step": 4
+      },
+      {
+        "action": "emit_review_only_story_packet",
+        "refs": [
+          "brief_packet:v2_1:mobility_access_interruption"
+        ],
+        "step": 5
+      }
+    ],
+    "event_story_r1:permit_inspection_delay": [
+      {
+        "action": "load_replay_event_family",
+        "refs": [
+          "permit_inspection_delay_v0"
+        ],
+        "step": 1
+      },
+      {
+        "action": "attach_source_records_or_gap",
+        "refs": [
+          "source_record:permit:alpha:2026-07-01"
+        ],
+        "step": 2
+      },
+      {
+        "action": "resolve_cer_context_if_available",
+        "refs": [
+          "cer:building:alpha"
+        ],
+        "step": 3
+      },
+      {
+        "action": "attach_check_and_authority_boundary",
+        "refs": [
+          "check_v1:alpha:floors:contradiction",
+          "check_v1:alpha:source_depth_missing"
+        ],
+        "step": 4
+      },
+      {
+        "action": "emit_review_only_story_packet",
+        "refs": [
+          "brief_packet:v2_1:permit_inspection_delay"
+        ],
+        "step": 5
+      }
+    ]
+  },
+  "status": "PASS_WITH_LIMITATIONS",
+  "story_refs": [
+    "event_story_r1:building_compliance_perception_candidate",
+    "event_story_r1:permit_inspection_delay",
+    "event_story_r1:city_asset_infrastructure_issue",
+    "event_story_r1:mobility_access_interruption"
+  ]
+}

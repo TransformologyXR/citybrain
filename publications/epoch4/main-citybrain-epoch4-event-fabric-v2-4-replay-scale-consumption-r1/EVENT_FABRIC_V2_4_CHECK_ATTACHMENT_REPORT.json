@@ -1,0 +1,50 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_CHECK_ATTACHMENT_REPORT",
+  "families": [
+    {
+      "check_count": 65,
+      "family_id": "mobility_access_interruption",
+      "sample_refs": [
+        "check:v1:mobility_access_interruption:snapshot_001:01",
+        "check:v1:mobility_access_interruption:snapshot_001:02",
+        "check:v1:mobility_access_interruption:snapshot_001:03",
+        "check:v1:mobility_access_interruption:snapshot_001:04",
+        "check:v1:mobility_access_interruption:snapshot_001:05"
+      ]
+    },
+    {
+      "check_count": 65,
+      "family_id": "building_compliance_perception_candidate",
+      "sample_refs": [
+        "check:v1:building_compliance_perception_candidate:snapshot_001:01",
+        "check:v1:building_compliance_perception_candidate:snapshot_001:02",
+        "check:v1:building_compliance_perception_candidate:snapshot_001:03",
+        "check:v1:building_compliance_perception_candidate:snapshot_001:04",
+        "check:v1:building_compliance_perception_candidate:snapshot_001:05"
+      ]
+    },
+    {
+      "check_count": 65,
+      "family_id": "permit_inspection_delay",
+      "sample_refs": [
+        "check:v1:permit_inspection_delay:snapshot_001:01",
+        "check:v1:permit_inspection_delay:snapshot_001:02",
+        "check:v1:permit_inspection_delay:snapshot_001:03",
+        "check:v1:permit_inspection_delay:snapshot_001:04",
+        "check:v1:permit_inspection_delay:snapshot_001:05"
+      ]
+    },
+    {
+      "check_count": 65,
+      "family_id": "city_asset_infrastructure_issue",
+      "sample_refs": [
+        "check:v1:city_asset_infrastructure_issue:snapshot_001:01",
+        "check:v1:city_asset_infrastructure_issue:snapshot_001:02",
+        "check:v1:city_asset_infrastructure_issue:snapshot_001:03",
+        "check:v1:city_asset_infrastructure_issue:snapshot_001:04",
+        "check:v1:city_asset_infrastructure_issue:snapshot_001:05"
+      ]
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,69 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST",
+  "entries": [
+    {
+      "bytes": 343,
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/FOUNDER_PROBE_READINESS_CURRENT_STATE.json",
+      "sha256": "77cfbf91253f304d0e8565a83f3d332490a8b1445aa183e1dc05115145520ddb"
+    },
+    {
+      "bytes": 258,
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "b89fe6c4dc4404947338da1197811f8196823e69be4ef2e8e5c212f4dbd44232"
+    },
+    {
+      "bytes": 685,
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/NO_SESSION_READINESS_REFRESH_DECISION.json",
+      "sha256": "33e1113516a5e88d333c2745c920e55e6004d41ab2d7023b13f56f5a20627b8b"
+    },
+    {
+      "bytes": 400,
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/WHAT_IS_READY_FOR_FOUNDER_REVIEW.json",
+      "sha256": "fab143d4fa378106958b1e0005af3425a548b21704dab360d00d6272bf2ab466"
+    },
+    {
+      "bytes": 352,
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/WHAT_MUST_WAIT_FOR_EXTERNAL_OPERATORS.json",
+      "sha256": "f49b023b6b9b4d8f5e5578963be527743e2302952338980a5e7bc619090129c0"
+    },
+    {
+      "bytes": 371,
+      "path": "outputs/main_citybrain_epoch4_no_session_readiness_refresh_r2/WHAT_SHOULD_BE_FIXED_BEFORE_FOUNDER_REVIEW.json",
+      "sha256": "3dddcb15e2b6bd30a5a733d7ad180e991a5882e91d3714da4e78c013081d8fc2"
+    },
+    {
+      "bytes": 343,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-session-readiness-refresh-r2/FOUNDER_PROBE_READINESS_CURRENT_STATE.json",
+      "sha256": "77cfbf91253f304d0e8565a83f3d332490a8b1445aa183e1dc05115145520ddb"
+    },
+    {
+      "bytes": 258,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-session-readiness-refresh-r2/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "b89fe6c4dc4404947338da1197811f8196823e69be4ef2e8e5c212f4dbd44232"
+    },
+    {
+      "bytes": 685,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-session-readiness-refresh-r2/NO_SESSION_READINESS_REFRESH_DECISION.json",
+      "sha256": "33e1113516a5e88d333c2745c920e55e6004d41ab2d7023b13f56f5a20627b8b"
+    },
+    {
+      "bytes": 400,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-session-readiness-refresh-r2/WHAT_IS_READY_FOR_FOUNDER_REVIEW.json",
+      "sha256": "fab143d4fa378106958b1e0005af3425a548b21704dab360d00d6272bf2ab466"
+    },
+    {
+      "bytes": 352,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-session-readiness-refresh-r2/WHAT_MUST_WAIT_FOR_EXTERNAL_OPERATORS.json",
+      "sha256": "f49b023b6b9b4d8f5e5578963be527743e2302952338980a5e7bc619090129c0"
+    },
+    {
+      "bytes": 371,
+      "path": "publications/epoch4/main-citybrain-epoch4-no-session-readiness-refresh-r2/WHAT_SHOULD_BE_FIXED_BEFORE_FOUNDER_REVIEW.json",
+      "sha256": "3dddcb15e2b6bd30a5a733d7ad180e991a5882e91d3714da4e78c013081d8fc2"
+    }
+  ],
+  "entry_count": 12,
+  "generated_at": "2026-07-07T20:25:01Z",
+  "status": "PASS"
+}

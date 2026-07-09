@@ -1,0 +1,87 @@
+{
+  "algorithm": "sha256",
+  "generated_at": "2026-07-03T20:00:00Z",
+  "status": "PASS",
+  "file_count": 15,
+  "excludes": [
+    "HASH_MANIFEST.json",
+    "citybrain_metropolis_vss_narration_runtime_integration_r4_handoff.zip"
+  ],
+  "files": [
+    {
+      "file": "ACCEPTANCE_CHECKS.md",
+      "bytes": 1444,
+      "sha256": "1c17a8bd730831511882a6b48ebf319209492ac75011062f52d529f54447d5a3"
+    },
+    {
+      "file": "BOUNDARY_POLICY.md",
+      "bytes": 865,
+      "sha256": "b1876cb20b0ccd76b2294dc5373d579680076409c000fc9213cb76c85886318c"
+    },
+    {
+      "file": "ENTRY_PROMPT.md",
+      "bytes": 5486,
+      "sha256": "be979a7daf5fe661a9106200dd1ef80a0768756c83841e967121de065483ca26"
+    },
+    {
+      "file": "GUARDRAIL_TERMS_R4.json",
+      "bytes": 803,
+      "sha256": "f9c990689a818dd2e59d30f4db0e52f611e49852293eb3bd9786bc229e7f0f6b"
+    },
+    {
+      "file": "HANDOFF_JSON_PARSE_REPORT.json",
+      "bytes": 151,
+      "sha256": "8053eb352b21cde513cb913c56d0dae1a020ddb3128b50354cb15ef0a02e1e1b"
+    },
+    {
+      "file": "IMPLEMENTATION_NOTES.md",
+      "bytes": 1003,
+      "sha256": "24e32e26b514b3d68bf2168a6b9d46f8221b2fae0738fd5c1de8cf29c73cb508"
+    },
+    {
+      "file": "INPUT_R3_VALIDATION_SUMMARY.json",
+      "bytes": 1491,
+      "sha256": "f33e6be6d38d2a7b3e83d0e62bdd1416e621543e53692af765eae2f83fbddd86"
+    },
+    {
+      "file": "PACKAGE_CONTRACT.md",
+      "bytes": 1542,
+      "sha256": "de3fffa8c7859ebf1e9c73065e678764402f58a1fdde0a0e6ea37c9e4e397e06"
+    },
+    {
+      "file": "R3_ARTIFACT_INSPECTION_REPORT.json",
+      "bytes": 1617,
+      "sha256": "367c69a8bfabbf3cd50293af74ed8d6914079675e852d6a1997830b174d662c0"
+    },
+    {
+      "file": "README.md",
+      "bytes": 824,
+      "sha256": "73ffb91533d1b1add9a51c9a37e14879423ce5714a09458b28a639a5cf6a5c43"
+    },
+    {
+      "file": "SCHEMA_DECISION_R4.json",
+      "bytes": 1933,
+      "sha256": "a7f8937b9c267d309c337c13a0f3dd78d4173776b5d5d208d088a099c4d73495"
+    },
+    {
+      "file": "SCHEMA_VSS_NARRATION_RECORD_R4.json",
+      "bytes": 1889,
+      "sha256": "100d85b14ded090085b019f865d9b6144a20a6487f60849bbb31e6bcb0af9874"
+    },
+    {
+      "file": "SCHEMA_VSS_RUNTIME_ADAPTER_R4.json",
+      "bytes": 1139,
+      "sha256": "2ca1111f44531e8339d8be4ff8a0f2af220ae90eae40b991f41f3bca489d5584"
+    },
+    {
+      "file": "SPEC.md",
+      "bytes": 3286,
+      "sha256": "4ee6efdf17f0b0fb8d40b9e7526de17ee74d02148fa02e27b27178d4247bad39"
+    },
+    {
+      "file": "STATUS_ENUMS_R4.json",
+      "bytes": 882,
+      "sha256": "f4e0a2ff7aec949131147fbf3954b75224ea4a94c9788d8ad894f524b01c127e"
+    }
+  ]
+}

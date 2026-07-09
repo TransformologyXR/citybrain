@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VSS Runtime Provisioning R6C",
+  "type": "object",
+  "required": [
+    "task_id",
+    "schema_version",
+    "runtime_configured",
+    "runtime_mode",
+    "configured_via",
+    "redaction_applied",
+    "source_boundary"
+  ],
+  "properties": {
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-PROVISIONING-AND-CONFIGURATION-R6C"
+    },
+    "schema_version": {
+      "const": "metropolis-vss-runtime-provisioning-and-configuration-r6c.v1"
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "runtime_mode": {
+      "enum": [
+        "none",
+        "endpoint",
+        "command"
+      ]
+    },
+    "configured_via": {
+      "enum": [
+        "none",
+        "cli",
+        "env",
+        "cli_and_env"
+      ]
+    },
+    "redacted_endpoint": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "redacted_command": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "health_path": {
+      "type": "string"
+    },
+    "timeout_seconds": {
+      "type": "integer"
+    },
+    "redaction_applied": {
+      "type": "boolean"
+    },
+    "source_boundary": {
+      "type": "object"
+    }
+  }
+}

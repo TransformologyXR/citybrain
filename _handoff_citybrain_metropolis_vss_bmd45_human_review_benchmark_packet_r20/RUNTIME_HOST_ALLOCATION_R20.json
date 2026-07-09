@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-07-04T16:22:10Z",
+  "hosts": {
+    "spark-2445": {
+      "active_for_r20": false,
+      "note": "VSS not needed for R20.",
+      "role": "VSS/LVS/RT-VLM narration runtime",
+      "source_class": "model_generated_narrative"
+    },
+    "txr-3090": {
+      "active_for_this_chain": false,
+      "role": "data/graph/RAPIDS/heavier analytics"
+    },
+    "txr-4070": {
+      "active_for_r20": false,
+      "note": "R20 consumes R19 outputs; it does not need to rerun DeepStream.",
+      "role": "DeepStream/Metropolis replay inference",
+      "source_class": "sensor_inferred"
+    }
+  },
+  "schema_version": "metropolis-vss-bmd45-human-review-benchmark-packet-r20.host_allocation.v1",
+  "status": "PASS"
+}

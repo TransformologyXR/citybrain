@@ -1,0 +1,8 @@
+{
+  "artifact_id": "DERIVED_FIX_OVERLAY_REVERIFY",
+  "canonical_truth_mutated": false,
+  "decision_status": "PASS_MAIN_CITYBRAIN_EPOCH4_DERIVED_FIX_PROMOTION_OVERLAY_R1_WITH_LIMITATIONS",
+  "overlay_count": 50,
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

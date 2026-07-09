@@ -1,0 +1,15 @@
+{
+  "artifact_id": "CER_RESOLUTION_STRESS_REPORT",
+  "candidate_only_cases_present": true,
+  "conflict_cases_present": true,
+  "family_count": 4,
+  "fixture_count": 480,
+  "outcome_counts": {
+    "ambiguous": 96,
+    "candidate_only": 96,
+    "conflict": 96,
+    "resolved": 96,
+    "unresolved": 96
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

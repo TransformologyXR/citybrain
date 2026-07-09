@@ -1,0 +1,28 @@
+{
+  "all_references_current_or_disclosed": true,
+  "artifact_id": "CROSS_TRACK_REFERENCE_PARITY",
+  "rows": [
+    {
+      "matches_current_truth": true,
+      "maturity_ref": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+      "product_ref": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DATA_MATURITY_DIAGNOSTIC_PRODUCT_R2.json",
+      "reference": "data_maturity_refs",
+      "stale_superseded_without_disclosure": false
+    },
+    {
+      "matches_current_truth": true,
+      "maturity_ref": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json",
+      "product_ref": "outputs/main_citybrain_epoch4_tracka_event_stories_source_diff_r1/SOURCE_REGISTRY_V1_1.json",
+      "reference": "source_registry_v1_1",
+      "stale_superseded_without_disclosure": false
+    },
+    {
+      "matches_current_truth": true,
+      "maturity_ref": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_sequence_r1/POST_SUMO_HISTORY_DEEPENING_SEQUENCE_DECISION.json",
+      "product_ref": "outputs/main_citybrain_epoch4_post_sumo_history_deepening_sequence_r1/POST_SUMO_HISTORY_DEEPENING_SEQUENCE_DECISION.json",
+      "reference": "deepening_sequence",
+      "stale_superseded_without_disclosure": false
+    }
+  ],
+  "status": "PASS"
+}

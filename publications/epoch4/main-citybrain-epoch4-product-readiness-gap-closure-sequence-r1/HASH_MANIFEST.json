@@ -1,0 +1,119 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_PRODUCT_READINESS_GAP_CLOSURE_SEQUENCE_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 4612,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/CROSS_FAMILY_OPTION_EVIDENCE_MATRIX.json",
+      "sha256": "43af8992c732bd16044ffb3f99e1210e8745978afc1f5d92609751eaf43c45b3"
+    },
+    {
+      "bytes": 742,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/DECISION.json",
+      "sha256": "e0eebdad879070abbb7257b1f660d66cd04426a586b3b1bfd316445252f67c82"
+    },
+    {
+      "bytes": 698,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/FOUNDER_SESSION_READINESS_GAP_CLOSURE_NO_SESSION.json",
+      "sha256": "55549f146626bf3a802d00fad03a7d62dcb688c23a84d8ee34d7f8bed03da50c"
+    },
+    {
+      "bytes": 1269,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "6f18bba60cb9244d0ac34c0b27034a38c35bca676a33faaa33918fe69fb8febd"
+    },
+    {
+      "bytes": 314,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "6f372eb59aef81557c516df72db7d91a0f30316654ccbe1e3fea73ea5c8a316f"
+    },
+    {
+      "bytes": 512,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/OPTION_COMPARABILITY_GUARD.json",
+      "sha256": "106df5d556c308f4f096b85f9eeb578d6132d4fb6f9efec0ff000d222cf15d52"
+    },
+    {
+      "bytes": 1953,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/PRODUCT_LOOP_REGRESSION_HARNESS_R2_REPORT.json",
+      "sha256": "98bc72905f40c2b095101a280df6b9191221d48471f8e2078c97a834ccabcafe"
+    },
+    {
+      "bytes": 253,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/PRODUCT_READINESS_GAP_CLOSURE_FINAL_REVERIFY.json",
+      "sha256": "b340d3fc748b52a2d3c2e97fba58b8641db9ecbc7decf9d486e6fcc431d1dc8b"
+    },
+    {
+      "bytes": 9172,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/REVIEW_PACKET_360_V3_EVIDENCE_ATLAS.json",
+      "sha256": "e10dfd13671f22dc368fe1e6c9ed4b55227ad9d0034c632a8c004fbced2cd607"
+    },
+    {
+      "bytes": 1562,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/REVIEW_PACKET_360_V3_EVIDENCE_ATLAS.md",
+      "sha256": "1af5de76acb519c2681e280e34f98d9ed27b1486b15ec4d78b8e7e6e8f28f416"
+    },
+    {
+      "bytes": 673,
+      "path": "outputs/main_citybrain_epoch4_product_readiness_gap_closure_sequence_r1/UNIFIED_OPTION_EVIDENCE_SCHEMA.json",
+      "sha256": "4edc102e329ae661e70839781da979fdfedbfece6cd32858582eea795339f71f"
+    },
+    {
+      "bytes": 4612,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/CROSS_FAMILY_OPTION_EVIDENCE_MATRIX.json",
+      "sha256": "43af8992c732bd16044ffb3f99e1210e8745978afc1f5d92609751eaf43c45b3"
+    },
+    {
+      "bytes": 742,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/DECISION.json",
+      "sha256": "e0eebdad879070abbb7257b1f660d66cd04426a586b3b1bfd316445252f67c82"
+    },
+    {
+      "bytes": 698,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/FOUNDER_SESSION_READINESS_GAP_CLOSURE_NO_SESSION.json",
+      "sha256": "55549f146626bf3a802d00fad03a7d62dcb688c23a84d8ee34d7f8bed03da50c"
+    },
+    {
+      "bytes": 1269,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "6f18bba60cb9244d0ac34c0b27034a38c35bca676a33faaa33918fe69fb8febd"
+    },
+    {
+      "bytes": 314,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/NO_SESSION_NO_FUEL_GUARD.json",
+      "sha256": "6f372eb59aef81557c516df72db7d91a0f30316654ccbe1e3fea73ea5c8a316f"
+    },
+    {
+      "bytes": 512,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/OPTION_COMPARABILITY_GUARD.json",
+      "sha256": "106df5d556c308f4f096b85f9eeb578d6132d4fb6f9efec0ff000d222cf15d52"
+    },
+    {
+      "bytes": 1953,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/PRODUCT_LOOP_REGRESSION_HARNESS_R2_REPORT.json",
+      "sha256": "98bc72905f40c2b095101a280df6b9191221d48471f8e2078c97a834ccabcafe"
+    },
+    {
+      "bytes": 253,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/PRODUCT_READINESS_GAP_CLOSURE_FINAL_REVERIFY.json",
+      "sha256": "b340d3fc748b52a2d3c2e97fba58b8641db9ecbc7decf9d486e6fcc431d1dc8b"
+    },
+    {
+      "bytes": 9172,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/REVIEW_PACKET_360_V3_EVIDENCE_ATLAS.json",
+      "sha256": "e10dfd13671f22dc368fe1e6c9ed4b55227ad9d0034c632a8c004fbced2cd607"
+    },
+    {
+      "bytes": 1562,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/REVIEW_PACKET_360_V3_EVIDENCE_ATLAS.md",
+      "sha256": "1af5de76acb519c2681e280e34f98d9ed27b1486b15ec4d78b8e7e6e8f28f416"
+    },
+    {
+      "bytes": 673,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-readiness-gap-closure-sequence-r1/UNIFIED_OPTION_EVIDENCE_SCHEMA.json",
+      "sha256": "4edc102e329ae661e70839781da979fdfedbfece6cd32858582eea795339f71f"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-07T17:35:40Z",
+  "status": "PASS"
+}

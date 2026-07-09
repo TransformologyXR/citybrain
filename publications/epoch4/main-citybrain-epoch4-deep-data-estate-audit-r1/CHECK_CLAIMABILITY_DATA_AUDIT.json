@@ -1,0 +1,53 @@
+{
+  "artifact_id": "CHECK_CLAIMABILITY_DATA_AUDIT",
+  "check_report_count": 7,
+  "claimability_statuses": [
+    "blocked_contradiction",
+    "blocked_insufficient_source_depth",
+    "blocked_raw_id_bypass",
+    "blocked_stale",
+    "claimable_with_limitations",
+    "downgraded_candidate_only",
+    "downgraded_proximity_only"
+  ],
+  "covered_rules": [
+    "candidate_only",
+    "contradiction",
+    "evidence_sufficiency",
+    "freshness",
+    "proximity_only",
+    "source_class",
+    "source_depth"
+  ],
+  "downgrade_reason_index_ref": "outputs/main_citybrain_track5_data_quality_maturity_dashboard_r1/CHECK_DOWNGRADE_REASON_INDEX.json",
+  "downgrade_summary": {
+    "All Track D packet execution_state values remain not_executed.": 1,
+    "Chicago similar-case records have source IDs, but match reasons remain generic.": 2,
+    "Diff has no established source-change cadence in this runtime; it is not greened.": 2,
+    "Evidence frame/clip files are hashed refs for human review, not legal/certified proof.": 2,
+    "NYC cascade stays candidate-only and refuses certified affected-building truth.": 2,
+    "No approved proposal or execution authority is created.": 1,
+    "No candidate has all of usable license/access, sufficient camera metadata, privacy posture, and deterministic oracle labeling path.": 1,
+    "No official submission, dispatch, control, enforcement, or automated action is executed.": 2,
+    "Non-story brief has a source row and limitations, with no action semantics.": 2,
+    "Perception/VSS is outside D9 AWB Check runtime and is not claimed.": 2,
+    "Runtime metadata is exported as CandidateObservation with event_truth_status=candidate_not_confirmed.": 2,
+    "UI is contextual review overlay only.": 1,
+    "VSS review assist has truth_role=review_assistance_only and vss_output_used_as_truth=false.": 2,
+    "Wood Lane packet states proximity is not causality and makes no EV blockage/availability claim.": 2,
+    "candidate-only downgrade": 2,
+    "conflict does not block location claim": 2,
+    "contradiction": 2,
+    "missing source depth": 2,
+    "proximity-only downgrade": 2,
+    "raw ID bypass blocked": 2,
+    "stale evidence": 2
+  },
+  "generated_at": "2026-07-08T09:24:28Z",
+  "limitations": [
+    "CHECK v1 has useful downgrade coverage, but source freshness/geometry/identity gaps still constrain claimability.",
+    "No legal/certified finding, official action, ticket, or enforcement workflow is created."
+  ],
+  "official_truth_claim_created": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

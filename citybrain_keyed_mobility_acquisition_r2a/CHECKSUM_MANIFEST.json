@@ -1,0 +1,81 @@
+{
+  "root": "citybrain_keyed_mobility_acquisition_r2a",
+  "created_at": "2026-07-07T16:55:00Z",
+  "files": [
+    {
+      "path": "KEY_HANDLING.md",
+      "bytes": 1188,
+      "sha256": "98fab5c4bc8e99dedb9a22f7d54d07db553a542810fd63dc2174eca84938dd96"
+    },
+    {
+      "path": "KNOWN_BLOCKERS.md",
+      "bytes": 1070,
+      "sha256": "3a14e81d1a2c9e9f3b27ecbb7c8bf620f8353e8b62ad71b0000f012c1906491e"
+    },
+    {
+      "path": "R2A_PACKAGE_DECISION.json",
+      "bytes": 491,
+      "sha256": "458a400e0914b2a315f135dcbde321367b52567114da2626ac2b37f3dc03abf9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1739,
+      "sha256": "3b288c4d004b4f776de6fd6871e0c146083e73fa0de03421f621d7969d952a16"
+    },
+    {
+      "path": "codex/CODEX_HANDOVER.md",
+      "bytes": 3778,
+      "sha256": "85dcb874ebc0fd47f2c7a2495ac131d54fff8b9853cf89c55a14dfd6e964acd8"
+    },
+    {
+      "path": "manifests/source_inventory_lta_tfl.csv",
+      "bytes": 2399,
+      "sha256": "2691eba03e2f873d8368ba0d48f6d2157b0e097d87756a474e754c6902416bc0"
+    },
+    {
+      "path": "manifests/source_inventory_lta_tfl.json",
+      "bytes": 5198,
+      "sha256": "19d6d0a6de1cd7ef0ebc4a15ead59a1d19e8ab50b79a17468150e1572c66d20d"
+    },
+    {
+      "path": "reports/SANDBOX_KEY_VALIDATION_ATTEMPT.json",
+      "bytes": 826,
+      "sha256": "4925f37e4e6af5ab0e7f843eb58c616aa84991fb1e92dcfa65529de428ea1ebc"
+    },
+    {
+      "path": "reports/SANDBOX_SCRIPT_SMOKE_RESULT.json",
+      "bytes": 313,
+      "sha256": "d7fa2a1cbb358ad8457430b730cb7b03e37fe564ce3a53cf6f51b15ed8b7d3c1"
+    },
+    {
+      "path": "reports/SECRET_SCAN_REPORT.json",
+      "bytes": 300,
+      "sha256": "15550d7aae3a000d5a1e16e784e387f47400011582219239df51a000850cd1b7"
+    },
+    {
+      "path": "schemas/keyed_source_status.schema.json",
+      "bytes": 964,
+      "sha256": "a3a940f3397b5d374ace97877029321280cd6b9255af5640eb122345d7e7c98c"
+    },
+    {
+      "path": "scripts/harvest_lta_tfl_keyed_sources.py",
+      "bytes": 13039,
+      "sha256": "d7bdf59aa310ff7b4a1ce0aed862912b85dc557c125285655f71f4b1aaa3528e"
+    },
+    {
+      "path": "scripts/validate_package_no_secrets.py",
+      "bytes": 1139,
+      "sha256": "3219b6ccf2ebb2f3900b36b27162234bb8c7cbe31c5cd0f8c62e7c312173a1aa"
+    },
+    {
+      "path": "secrets/lta_tfl.env.template",
+      "bytes": 165,
+      "sha256": "488c49ac0c86c2a0726d9f675e1ce633c09391a6221a6fe919ced549ded0fa07"
+    },
+    {
+      "path": "tests/test_keyed_package_static.py",
+      "bytes": 962,
+      "sha256": "fb4b8d2eef271152a2309438ba063bd3dad94b499242da39870619d598650376"
+    }
+  ]
+}

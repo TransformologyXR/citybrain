@@ -1,0 +1,226 @@
+{
+  "artifact_id": "TOP_10_SOURCE_GAPS",
+  "items": [
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "environment",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 1,
+      "source_id": "source:barcelona:air_quality_stations_and_measurements",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "time coverage missing or unknown"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "environment",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 2,
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_2",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: DOWNLOAD_FAILED"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "environment",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 3,
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_detall_bcn_3",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: DOWNLOAD_FAILED"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "environment",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 4,
+      "source_id": "source:barcelona:barc_air_quality_qualitat_aire_estacions_bcn_1",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "schema status: unknown",
+        "source status: DOWNLOAD_FAILED"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "mobility",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 5,
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_gtfs_search_candidate",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "mobility",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 6,
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_mobility_open_data_page",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "mobility",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 7,
+      "source_id": "source:barcelona:barc_amb_gtfs_rt_amb_open_data_help",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "spatial_base",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 8,
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_1",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "spatial_base",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 9,
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_2",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown"
+      ]
+    },
+    {
+      "active_flags": [
+        "candidate_only_records",
+        "coverage_gaps",
+        "identity_ambiguity",
+        "missing_geometry",
+        "missing_time_history",
+        "source_freshness",
+        "weak_relationships"
+      ],
+      "city": "barcelona",
+      "domain": "spatial_base",
+      "issue_count": 7,
+      "maturity_score": 16,
+      "rank": 10,
+      "source_id": "source:barcelona:barc_boundaries_limits_municipals_districtes_3",
+      "top_limitations": [
+        "geometry status: missing_or_unknown",
+        "review-context only; no emergency, dispatch, health, utility-control, routing, or certified affected-asset claim",
+        "schema status: unknown"
+      ]
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

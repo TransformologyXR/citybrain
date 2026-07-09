@@ -1,0 +1,9 @@
+{
+  "all_cases_local_replay_or_offline": true,
+  "artifact_id": "EVAL_CASE_SOURCE_COVERAGE_REPORT",
+  "source_class_counts": {
+    "replay": 48
+  },
+  "source_truth_mutated": false,
+  "status": "PASS_WITH_LIMITATIONS"
+}

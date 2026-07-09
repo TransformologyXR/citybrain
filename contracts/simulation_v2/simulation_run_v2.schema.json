@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "baseline_result_ref": {
+      "type": "string"
+    },
+    "connector_id": {
+      "type": "string"
+    },
+    "review_option_result_refs": {
+      "type": "array"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "run_id",
+    "scenario_id",
+    "connector_id",
+    "source_class",
+    "baseline_result_ref",
+    "review_option_result_refs",
+    "authority_boundary"
+  ],
+  "title": "SimulationRunV2",
+  "type": "object"
+}

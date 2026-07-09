@@ -1,0 +1,11 @@
+{
+  "artifact_id": "DO_NOT_APPLY_REASONING",
+  "candidate_patches_applied": false,
+  "reasons": [
+    "source truth must not be mutated in this wave",
+    "projected quality deltas are non-authoritative",
+    "maturity score must not be inflated as fact",
+    "human/founder review remains parked"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "canonical_entity_id": {
+      "type": "string"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "type": "number"
+    },
+    "evidence_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "provenance_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "review_state": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "source_entity_id": {
+      "type": "string"
+    },
+    "source_entity_link_id": {
+      "type": "string"
+    },
+    "source_record_ref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_entity_link_id",
+    "canonical_entity_id",
+    "source_entity_id",
+    "source_record_ref",
+    "source_class",
+    "confidence",
+    "review_state",
+    "evidence_refs",
+    "provenance_refs"
+  ],
+  "title": "SourceEntityLinkR1",
+  "type": "object"
+}

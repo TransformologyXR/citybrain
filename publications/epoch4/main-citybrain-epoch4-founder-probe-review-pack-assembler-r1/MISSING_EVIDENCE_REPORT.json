@@ -1,0 +1,42 @@
+{
+  "artifact_id": "MISSING_EVIDENCE_REPORT",
+  "card_count": 16,
+  "cards_with_missing_evidence": 4,
+  "generated_at": "2026-07-08T05:44:02Z",
+  "missing_evidence": [
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence": [
+        "Review Packet 360 family packet not found for mobility_access_interruption_v0; card uses eval, BRIEF, event fabric, and overlay refs instead."
+      ],
+      "scenario": "positive_packet_baseline",
+      "task_id": "founder-probe-r2-09"
+    },
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence": [
+        "Review Packet 360 family packet not found for mobility_access_interruption_v0; card uses eval, BRIEF, event fabric, and overlay refs instead."
+      ],
+      "scenario": "negative_no_data",
+      "task_id": "founder-probe-r2-10"
+    },
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence": [
+        "Review Packet 360 family packet not found for mobility_access_interruption_v0; card uses eval, BRIEF, event fabric, and overlay refs instead."
+      ],
+      "scenario": "stale_freshness",
+      "task_id": "founder-probe-r2-11"
+    },
+    {
+      "family": "mobility_access_interruption_v0",
+      "missing_evidence": [
+        "Review Packet 360 family packet not found for mobility_access_interruption_v0; card uses eval, BRIEF, event fabric, and overlay refs instead."
+      ],
+      "scenario": "contradiction_pair",
+      "task_id": "founder-probe-r2-12"
+    }
+  ],
+  "policy": "Missing evidence is marked explicitly and is not invented.",
+  "status": "PASS_WITH_LIMITATIONS"
+}

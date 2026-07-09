@@ -1,0 +1,9 @@
+{
+  "artifact_id": "NO_SOURCE_TRUTH_MUTATION_GUARD",
+  "candidate_patches_only": true,
+  "canonical_truth_mutated": false,
+  "fabricated_coverage_created": false,
+  "source_records_mutated": false,
+  "source_truth_patch_applied": false,
+  "status": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "artifact_id": "TEMPORAL_FRESHNESS_AUDIT",
+  "freshness_counts": {
+    "current_or_active": 20,
+    "dated_snapshot": 12,
+    "fresh_recent_snapshot": 136,
+    "stale": 34,
+    "unknown": 462
+  },
+  "generated_at": "2026-07-08T09:24:24Z",
+  "limitations": [
+    "Most sources expose freshness/time coverage as source-registry metadata rather than verified native refresh histories."
+  ],
+  "missing_time_history_count": 664,
+  "source_count": 664,
+  "status": "PASS_WITH_LIMITATIONS",
+  "time_coverage_signal_counts": {
+    "unknown": 664
+  },
+  "unknown_freshness_count": 462
+}

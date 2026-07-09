@@ -1,0 +1,25 @@
+{
+  "all_required_sections_present": true,
+  "artifact_id": "REVIEW_PACKET_360_AUDIT",
+  "families": [
+    "building_compliance_perception_candidate",
+    "permit_inspection_delay",
+    "city_asset_infrastructure_issue"
+  ],
+  "packet_count": 3,
+  "required_sections": [
+    "source_event_record",
+    "cer_entity_resolution",
+    "seg_context",
+    "event_state",
+    "check_v1_result",
+    "simulation_baseline_and_options",
+    "brief_v3",
+    "spatial_overlay_refs",
+    "workflow_state",
+    "data_maturity_source_quality_notes",
+    "cannot_claim",
+    "limitations"
+  ],
+  "status": "PASS"
+}

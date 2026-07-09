@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "arming_status_report.schema.json",
+  "type": "object",
+  "required": ["evaluator_id", "gate_id", "status", "armed_now", "conditionally_armed", "blocked_until", "not_armed", "threshold_crossings"],
+  "properties": {
+    "evaluator_id": {"const": "epoch3_arming_status"},
+    "gate_id": {"const": "MAIN-CITYBRAIN-EPOCH3-ENTRY-GATE-R1-FUEL-GAUGE"},
+    "status": {"type": "string"},
+    "armed_now": {"type": "array", "items": {"type": "string"}},
+    "conditionally_armed": {"type": "object"},
+    "blocked_until": {"type": "object"},
+    "not_armed": {"type": "array", "items": {"type": "string"}},
+    "threshold_crossings": {"type": "array"},
+    "created_at": {"type": "string"}
+  }
+}

@@ -1,0 +1,3532 @@
+{
+  "artifact_id": "ROW_COUNT_AND_SIZE_LEDGER",
+  "bounded_sample_policy": "first 500 data-like files by deterministic path order, plus named package count files",
+  "entries": [
+    {
+      "bytes": 4246,
+      "extension": ".csv",
+      "method": "sum_csv_column:row_count",
+      "path": "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2-P0-FULL-PULL-AND-NORMALIZATION/SAMPLE_ROW_COUNTS_R2.csv",
+      "row_count": 20631,
+      "semantic_count": "base_city_rows"
+    },
+    {
+      "bytes": 2632,
+      "extension": ".csv",
+      "method": "sum_csv_column:row_count_estimate",
+      "path": "outputs/MAIN-CITYBRAIN-DATA-ACQUISITION-CART-R2E-KEYED-MOBILITY-DEPTH-PULL/SAMPLE_ROW_COUNTS_R2E.csv",
+      "row_count": 46106,
+      "semantic_count": "mobility_depth_rows"
+    },
+    {
+      "bytes": 104,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "apps/web-control-room/package.json",
+      "row_count": null
+    },
+    {
+      "bytes": 49123,
+      "extension": ".json",
+      "method": "list_key:fixtures",
+      "path": "apps/web-control-room/src/askV11/fixtures/askV11AppHandoffFixtures.json",
+      "row_count": 8
+    },
+    {
+      "bytes": 1499,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/cer_engine_r1/canonical_entity.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1168,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/cer_engine_r1/match_candidate.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 962,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/cer_engine_r1/match_decision.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1087,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/cer_engine_r1/source_entity_link.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1632,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/check_v1/check_report_v1.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 725,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/check_v1/check_rule.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 549,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/agent_handoff_matrix.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 820,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/agent_run_envelope.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 611,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/budget_stop_policy.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 480,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/calibration_report.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 2457,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/component_registry.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 817,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/llm_seat_registry.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 776,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/mode_invocation_registry.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 700,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/outcome_record.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1081,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/citybrain/epoch_2_0/tool_permission_policy.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 309,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/EVENT_FABRIC_R0_1_MANIFEST.json",
+      "row_count": null
+    },
+    {
+      "bytes": 2165,
+      "extension": ".json",
+      "method": "list_key:entries",
+      "path": "contracts/event_fabric_r0_1/SHA256SUMS.json",
+      "row_count": 11
+    },
+    {
+      "bytes": 20185,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/fixtures/invalid_fixtures.json",
+      "row_count": null
+    },
+    {
+      "bytes": 15321,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/fixtures/valid_fixtures.json",
+      "row_count": null
+    },
+    {
+      "bytes": 4466,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/import_map.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1614,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/schemas/EVENT_FABRIC_R0_1_EVENT_ENVELOPE_SCHEMA.json",
+      "row_count": null
+    },
+    {
+      "bytes": 765,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/schemas/EVENT_FABRIC_R0_1_EVENT_TYPE_REGISTRY.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1557,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/schemas/EVENT_FABRIC_R0_1_MATERIALIZED_REVIEW_STATE_SCHEMA.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1551,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/schemas/EVENT_FABRIC_R0_1_OVERLAY_PACKET_SCHEMA.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1434,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/schemas/EVENT_FABRIC_R0_1_QUERY_RESULT_PACKET_SCHEMA.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1145,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r0_1/schemas/EVENT_FABRIC_R0_1_REVIEW_STATE_SCHEMA.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1845,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r1/EventEnvelope.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 464,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r1/EventQuery.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 598,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r1/EventResolution.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 469,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r1/EventState.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 475,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r1/EventTrace.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 467,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_r1/EventTypeRegistry.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1727,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_v2/event_envelope_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 634,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_v2/event_query_response_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 639,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_v2/event_state_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 771,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_v2_1/event_family_adapter_v2_1.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 820,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_v2_1/event_story_replay_pack_v2_1.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 565,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/event_fabric_v2_1/event_type_registry_v2_1.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 989,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/human_review_pilot_r1/review_disposition.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1788,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/SHA256SUMS.json",
+      "row_count": null
+    },
+    {
+      "bytes": 965,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/canonical_id_policy.json",
+      "row_count": null
+    },
+    {
+      "bytes": 901,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/city_namespace_registry.json",
+      "row_count": null
+    },
+    {
+      "bytes": 649,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/claim_label_policy.json",
+      "row_count": null
+    },
+    {
+      "bytes": 798,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/compatibility_test_manifest.json",
+      "row_count": null
+    },
+    {
+      "bytes": 42592,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/entity_classes.json",
+      "row_count": null
+    },
+    {
+      "bytes": 10067,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/flow_namespace_registry.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1079,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/geometry_location_policy.json",
+      "row_count": null
+    },
+    {
+      "bytes": 1482,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/native_id_registry.json",
+      "row_count": null
+    },
+    {
+      "bytes": 927,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/ontology_v2_spec.json",
+      "row_count": null
+    },
+    {
+      "bytes": 20327,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/relationship_classes.json",
+      "row_count": null
+    },
+    {
+      "bytes": 275,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/schemas/ontology_city_mapping_schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 248,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/schemas/ontology_claim_label_schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 296,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/schemas/ontology_compatibility_result_schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 747,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/schemas/ontology_entity_schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 246,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/schemas/ontology_flow_mapping_schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 719,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/ontology_v2/schemas/ontology_relationship_schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 592,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/BacktestInputCatalog.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 444,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/SimulationAssumptionSet.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 500,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/SimulationFidelityReport.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 622,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/SimulationOutput.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 890,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/SimulationRunEnvelope.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 935,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/SimulationScenario.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 490,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_r1/SimulatorConnector.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 521,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_v2/fidelity_scorecard_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 636,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_v2/review_option_result_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 787,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_v2/scenario_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 767,
+      "extension": ".json",
+      "method": "parsed_no_row_count",
+      "path": "contracts/simulation_v2/simulation_run_v2.schema.json",
+      "row_count": null
+    },
+    {
+      "bytes": 29673,
+      "extension": ".jsonl",
+      "method": "jsonl_nonempty_lines",
+      "path": "corpus_raw/workspace_text_1.jsonl",
+      "row_count": 80
+    },
+    {
+      "bytes": 30885,
+      "extension": ".jsonl",
+      "method": "jsonl_nonempty_lines",
+      "path": "corpus_raw/workspace_text_2.jsonl",
+      "row_count": 80
+    },
+    {
+      "bytes": 30018,
+      "extension": ".jsonl",
+      "method": "jsonl_nonempty_lines",
+      "path": "corpus_raw/workspace_text_3.jsonl",
+      "row_count": 80
+    },
+    {
+      "bytes": 30069,
+      "extension": ".jsonl",
+      "method": "jsonl_nonempty_lines",
+      "path": "corpus_raw/workspace_text_4.jsonl",
+      "row_count": 80
+    },
+    {
+      "bytes": 30603,
+      "extension": ".jsonl",
+      "method": "jsonl_nonempty_lines",
+      "path": "corpus_raw/workspace_text_5.jsonl",
+      "row_count": 80
+    },
+    {
+      "bytes": 30560,
+      "extension": ".jsonl",
+      "method": "jsonl_nonempty_lines",
+      "path": "corpus_raw/workspace_text_6.jsonl",
+      "row_count": 80
+    },
+    {
+      "bytes": 16199815,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__building_energy_and_water_disclosure_ll84/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 16213836,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__building_energy_and_water_disclosure_ll84/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 741375,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__building_energy_and_water_disclosure_ll84/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162997,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160708,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162543,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160848,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161551,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2159880,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160318,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00006.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163459,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00007.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2159807,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00008.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160211,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00009.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162194,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00010.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162948,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00011.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161303,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00012.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163765,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00013.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2159561,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00014.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161695,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00015.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162813,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00016.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163342,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00017.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163160,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00018.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163311,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00019.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160235,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00020.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160498,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00021.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162378,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00022.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2159843,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00023.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163167,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00024.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162494,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00025.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161663,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00026.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160066,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00027.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2156957,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00028.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162289,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00029.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163161,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00030.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160733,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00031.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161646,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00032.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162428,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00033.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161825,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00034.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161529,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00035.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161358,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00036.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2165388,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00037.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162624,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00038.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2159223,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00039.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162502,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00040.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160377,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00041.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162463,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00042.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162874,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00043.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161280,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00044.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161367,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00045.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161319,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00046.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160220,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00047.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161677,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00048.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162791,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00049.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162668,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00050.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160398,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00051.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162892,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00052.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160225,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00053.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162154,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00054.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2160793,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00055.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2158776,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00056.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2163059,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00057.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162844,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00058.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161710,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00059.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2159773,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00060.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2161219,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00061.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 59265,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_complaints_received/part-00062.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 8841784,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10185469,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10568535,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10624331,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10621050,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10643632,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10263899,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00006.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10535359,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00007.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10672894,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00008.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10707171,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00009.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10686893,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00010.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10679659,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00011.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10676110,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00012.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10667823,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00013.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10687174,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00014.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10690742,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00015.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10693211,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00016.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 10720180,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00017.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4865159,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_now_build_job_application_filings/part-00018.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 8248605,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 8155667,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6399696,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6512151,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6344860,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6341175,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6330543,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00006.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6358479,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00007.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6349337,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00008.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6511411,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00009.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6314873,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00010.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6346863,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00011.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6317042,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00012.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6294898,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00013.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6257049,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00014.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6287092,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00015.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6262654,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00016.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6212352,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00017.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6210005,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00018.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6197284,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00019.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6029932,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00020.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6221196,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00021.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6080545,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00022.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5637109,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00023.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5510885,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00024.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5545211,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00025.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5486096,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00026.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5322332,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00027.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5311703,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00028.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5282873,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00029.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5278118,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00030.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5246981,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00031.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5244571,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00032.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5219466,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00033.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5215073,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00034.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5241647,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00035.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5226417,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00036.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5205011,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00037.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5184020,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00038.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5205396,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00039.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5230818,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00040.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5148768,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00041.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5178896,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00042.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5166128,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00043.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5158812,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00044.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5150280,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00045.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5191791,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00046.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5209883,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00047.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5183277,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00048.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5205933,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00049.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5211254,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00050.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5259802,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00051.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5247354,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00052.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5252367,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00053.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5213625,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00054.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5250608,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00055.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5260501,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00056.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5257476,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00057.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5285139,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00058.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5328672,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00059.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5384310,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00060.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5389796,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00061.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5503020,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00062.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5452811,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00063.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5400720,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00064.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5371298,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00065.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5148493,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00066.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6357321,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00067.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6568350,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00068.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6552447,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00069.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6490636,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00070.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6515381,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00071.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6477474,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00072.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6463393,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00073.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6456631,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00074.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6440682,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00075.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6468574,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00076.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6399263,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00077.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 6381568,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00078.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 5058154,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dob_permit_issuance/part-00079.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 46138,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__dot_traffic_speeds/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3730064,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722985,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3713571,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3726685,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3723830,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3726661,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3703196,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00006.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3728999,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00007.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3707960,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00008.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3702241,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00009.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3705378,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00010.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3716878,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00011.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3680040,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00012.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3706422,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00013.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3703010,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00014.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3685125,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00015.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3705047,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00016.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3738397,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00017.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3710706,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00018.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3712674,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00019.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3714235,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00020.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3718094,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00021.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3705861,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00022.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3724180,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00023.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3718936,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00024.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3733102,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00025.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3730267,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00026.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3727459,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00027.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3720646,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00028.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3725814,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00029.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3724118,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00030.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3728923,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00031.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3712974,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00032.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3706911,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00033.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3691519,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00034.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3685223,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00035.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3684621,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00036.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3700934,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00037.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3736868,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00038.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3742175,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00039.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3741835,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00040.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3737232,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00041.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722388,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00042.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3725994,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00043.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3718950,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00044.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3731896,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00045.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3716238,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00046.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3728709,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00047.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722311,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00048.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3738751,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00049.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3745768,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00050.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3730545,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00051.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3746859,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00052.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3747575,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00053.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3744311,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00054.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3736775,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00055.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3732149,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00056.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3703638,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00057.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3703697,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00058.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3710399,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00059.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3704630,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00060.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3709266,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00061.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3711385,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00062.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722476,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00063.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3730743,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00064.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3752247,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00065.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3753927,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00066.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3762032,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00067.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3756382,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00068.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3732250,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00069.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3738480,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00070.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3742900,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00071.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3746783,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00072.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3767586,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00073.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3728744,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00074.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3757333,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00075.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3746562,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00076.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722728,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00077.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3737709,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00078.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3742643,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00079.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3727337,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00080.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3724100,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00081.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3708994,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00082.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3689035,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00083.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3704119,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00084.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722697,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00085.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3739655,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00086.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3721256,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00087.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3717156,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00088.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3732404,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00089.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3748363,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00090.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3759681,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00091.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3722935,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00092.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3738570,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00093.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3745463,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00094.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3729930,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00095.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3739858,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00096.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3762511,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00097.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3732498,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00098.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3738920,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__ems_incident_dispatch_data/part-00099.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4236386,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4248898,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4243327,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4241750,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4248591,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4232307,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4244482,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00006.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4241430,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00007.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4228103,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00008.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4229576,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00009.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4238982,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00010.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4259573,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00011.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4242696,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00012.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4247744,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00013.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4229762,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00014.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4217154,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00015.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4252743,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00016.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4239849,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00017.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4215250,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00018.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4237320,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00019.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4226136,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00020.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4234144,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00021.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4223567,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00022.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4227167,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00023.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4217634,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00024.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4232406,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00025.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4218983,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00026.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4231419,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00027.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4215895,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00028.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4232027,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00029.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4212645,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00030.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4245306,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00031.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4232600,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00032.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4212041,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00033.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4233788,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00034.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4216307,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00035.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4246540,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00036.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4239252,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00037.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4238787,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00038.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4233084,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00039.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4243712,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00040.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4236671,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00041.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4254121,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00042.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4228555,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00043.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4251376,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00044.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4218833,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00045.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4254710,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00046.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4222272,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00047.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4257487,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00048.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4267384,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00049.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4243416,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00050.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4262738,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00051.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4256924,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00052.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4199222,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00053.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4249024,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00054.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4253317,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00055.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4252459,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00056.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4255341,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00057.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4256541,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00058.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4265078,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00059.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4261679,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00060.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4263659,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00061.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4208801,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00062.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4246422,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00063.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4256515,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00064.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4204633,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00065.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4258956,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00066.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4260195,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00067.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4253751,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00068.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4205441,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00069.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4260955,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00070.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4258548,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00071.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4200018,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00072.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4253441,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00073.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4199119,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00074.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4261346,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00075.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4226106,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00076.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4203762,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00077.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4267830,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00078.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4222216,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00079.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4285359,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00080.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4218884,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00081.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4273556,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00082.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4267815,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00083.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4201815,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00084.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4273738,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00085.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4284296,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00086.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4281677,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00087.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4211671,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00088.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4293508,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00089.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4277615,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00090.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4273241,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00091.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4271288,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00092.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4269164,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00093.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4195355,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00094.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4269963,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00095.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4265136,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00096.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4276747,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00097.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4266674,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00098.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4201467,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__fire_incident_dispatch_data/part-00099.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2395597,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2460338,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2357589,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2376154,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2384733,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2389484,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2547867,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00006.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2429274,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00007.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2407790,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00008.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2344490,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00009.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2347898,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00010.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2359906,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00011.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2330965,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00012.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2343485,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00013.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2346428,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00014.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2365566,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00015.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2353315,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00016.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2342152,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00017.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2343360,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00018.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2394563,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00019.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2352340,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00020.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2318401,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00021.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2347500,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00022.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2357612,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00023.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2364680,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00024.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2337439,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00025.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2272966,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00026.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2172361,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00027.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2142406,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00028.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2162624,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00029.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2149273,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00030.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2166334,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00031.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2133661,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00032.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2137281,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00033.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2114037,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00034.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2157600,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00035.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2147710,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00036.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2142957,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00037.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2133765,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00038.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2148229,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00039.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2142462,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00040.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2127165,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00041.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2604734,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00042.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2441511,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00043.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2390733,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00044.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 1050630,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__motor_vehicle_collisions_-_crashes/part-00045.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 353240,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__nyc_permitted_event_information/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4224098,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__restaurant_inspection_results/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4202661,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__restaurant_inspection_results/part-00001.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4181676,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__restaurant_inspection_results/part-00002.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4193183,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__restaurant_inspection_results/part-00003.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 4190452,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__restaurant_inspection_results/part-00004.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 3878501,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__restaurant_inspection_results/part-00005.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 246369,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/deduped_tables/nyc__traffic_volume_counts/part-00000.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 2911989,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/discovery_staging/block_dob_activity_base.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 31199308,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/discovery_staging/building_bin_bbl_lookup.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 91686610,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/discovery_staging/dob_complaints.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 33858680,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/discovery_staging/dob_now_filings.parquet",
+      "row_count": null
+    },
+    {
+      "bytes": 157539340,
+      "extension": ".parquet",
+      "method": "binary_data_file_inventory_only",
+      "path": "data/processed/nyc/harvest_v0_2/discovery_staging/dob_permit_issuance.parquet",
+      "row_count": null
+    }
+  ],
+  "generated_at": "2026-07-08T09:24:24Z",
+  "inventory_ref": "outputs/main_citybrain_epoch4_deep_data_estate_audit_r1/DATA_ROOT_INVENTORY.json",
+  "limitations": [
+    "Row counts are direct for JSONL/CSV and schema-derived for selected JSON manifests.",
+    "Parquet and DuckDB files are inventoried but not deeply read by this lightweight audit runner."
+  ],
+  "row_count_entry_count": 502,
+  "status": "PASS_WITH_LIMITATIONS",
+  "total_scanned_bytes": 70363062849,
+  "total_scanned_files": 36105
+}

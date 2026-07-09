@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "catalog_id": {
+      "type": "string"
+    },
+    "current_only_count": {
+      "type": "string"
+    },
+    "inputs": {
+      "type": "array"
+    },
+    "transition_capable_count": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "catalog_id",
+    "version",
+    "inputs",
+    "transition_capable_count",
+    "current_only_count"
+  ],
+  "title": "BacktestInputCatalog",
+  "type": "object"
+}

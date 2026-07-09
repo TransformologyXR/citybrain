@@ -1,0 +1,16 @@
+{
+  "artifact_id": "BOUNDARY_AND_NO_FUEL_GUARD",
+  "client_ready_claim_created": false,
+  "forecast_packet_created": false,
+  "founder_session_results_created": false,
+  "legal_or_certified_claim_created": false,
+  "live_ingestion_created": false,
+  "model_training_or_learning_arming_created": false,
+  "official_workflow_action_case_dispatch_control_enforcement_created": false,
+  "operator_fuel_created": false,
+  "product_ready_claim_created": false,
+  "provider_raw_payload_rewritten": false,
+  "source_truth_mutated": false,
+  "status": "PASS",
+  "training_rows_created": false
+}

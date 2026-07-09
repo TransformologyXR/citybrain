@@ -1,0 +1,12 @@
+{
+  "artifact_id": "DECISION",
+  "candidate_count": 50,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T19:07:41Z",
+  "overlay_count": 50,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REMEDIATION-CANDIDATE-SANDBOX-PROJECTION-R1",
+  "projection_only": true,
+  "score_delta_claimed_as_fact": false,
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REMEDIATION_CANDIDATE_SANDBOX_PROJECTION_R1_WITH_LIMITATIONS"
+}

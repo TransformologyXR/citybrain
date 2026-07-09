@@ -1,0 +1,8 @@
+{
+  "artifact_id": "THREE_PACKAGE_SIMULATION_POINTER_RECONCILIATION",
+  "contradiction_found": false,
+  "master_pointer": "outputs/main_citybrain_pre_e4_mechanical_gap_closure_r2/SIMULATION_BACKTEST_HANDOFF_POINTER_R1.json",
+  "r2_catalog": "outputs/main_citybrain_simulation_backtest_repair_epoch_r1/SIMULATION_BACKTEST_INPUT_CATALOG_R2.json",
+  "relationship": "supersedes_provisional_pointer",
+  "status": "PASS"
+}

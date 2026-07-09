@@ -1,0 +1,170 @@
+{
+  "adjusted_task_count": 12,
+  "artifact_id": "REVIEW_TASK_QUEUE_ADJUSTMENT_PROPOSAL",
+  "dry_run_task_source": "publication_fallback",
+  "proposal_only": true,
+  "session_results_created": false,
+  "status": "PASS_WITH_LIMITATIONS",
+  "tasks": [
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:mobility_access_interruption:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-01"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:mobility_access_interruption:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-02"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:mobility_access_interruption:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "Mobility Access Interruption dry-run review packet",
+      "task_id": "dry-run-task-03"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:building_compliance_perception_candidate:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-04"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:building_compliance_perception_candidate:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-05"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:building_compliance_perception_candidate:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "Building Compliance Perception Candidate dry-run review packet",
+      "task_id": "dry-run-task-06"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:permit_inspection_delay:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-07"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:permit_inspection_delay:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-08"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:permit_inspection_delay:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "Permit Inspection Delay dry-run review packet",
+      "task_id": "dry-run-task-09"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:city_asset_infrastructure_issue:packet_baseline:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "freshness_coverage",
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-10"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:city_asset_infrastructure_issue:downgrade_pressure:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "check_downgrade",
+        "freshness_coverage"
+      ],
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-11"
+    },
+    {
+      "adjustment_type": "add_projection_context_only",
+      "case_id": "eval:city_asset_infrastructure_issue:contradiction_guard:r1",
+      "creates_fuel": false,
+      "creates_session_result": false,
+      "no_action_boundary": true,
+      "recommended_queue_context": [
+        "geometry_time_history",
+        "identity_ambiguity"
+      ],
+      "subject": "City Asset Infrastructure Issue dry-run review packet",
+      "task_id": "dry-run-task-12"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "forbidden_claims": [
+    "confirmed violation",
+    "official violation",
+    "legal finding",
+    "certified finding",
+    "ticket created",
+    "case created",
+    "dispatch",
+    "enforcement",
+    "identity recognized",
+    "biometric",
+    "live CCTV monitoring",
+    "production monitoring"
+  ],
+  "required_phrases": [
+    "candidate observation",
+    "human review required",
+    "dataset annotation",
+    "sensor inferred",
+    "not a finding"
+  ],
+  "source_class_rules": {
+    "dataset_annotations": "dataset_annotation",
+    "deepstream_outputs": "sensor_inferred",
+    "vss_outputs": "model_generated_narrative"
+  }
+}

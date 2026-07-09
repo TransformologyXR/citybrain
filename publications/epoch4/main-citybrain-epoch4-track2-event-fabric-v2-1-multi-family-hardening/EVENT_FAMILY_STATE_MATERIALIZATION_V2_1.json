@@ -1,0 +1,179 @@
+{
+  "artifact_id": "EVENT_FAMILY_STATE_MATERIALIZATION_V2_1",
+  "authority_boundary": "review_only_no_action",
+  "counts_by_family": {
+    "building_compliance_perception_candidate": {
+      "active": 0,
+      "quarantined": 0,
+      "review_required": 1
+    },
+    "city_asset_infrastructure_issue": {
+      "active": 0,
+      "quarantined": 1,
+      "review_required": 1
+    },
+    "mobility_access_interruption": {
+      "active": 1,
+      "quarantined": 0,
+      "review_required": 0
+    },
+    "permit_inspection_delay": {
+      "active": 1,
+      "quarantined": 0,
+      "review_required": 0
+    }
+  },
+  "families": {
+    "building_compliance_perception_candidate": {
+      "active": [],
+      "quarantined": [],
+      "review_required": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:building:alpha",
+            "cer:observation:near_alpha"
+          ],
+          "check_report_refs": [
+            "check_v1:near_alpha:proximity",
+            "check_v1:alpha:floors:contradiction"
+          ],
+          "event_family": "building_compliance_perception_candidate_v0",
+          "event_id": "efv2_1:00fa2780598a",
+          "event_time": "2026-07-07T02:15:00Z",
+          "event_type": "building.perception_candidate",
+          "evidence_refs": [
+            "evidence:sensor:near_alpha",
+            "conflict:alpha:floors"
+          ],
+          "family_id": "building_compliance_perception_candidate",
+          "ingested_at": "2026-07-07T02:17:00Z",
+          "observed_at": "2026-07-07T02:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:building_compliance_perception_candidate",
+            "overlay_kind": "building_perception_overlay",
+            "priority_tier": "static_high"
+          },
+          "processing_time": "2026-07-07T02:17:05Z",
+          "review_state": "candidate_review",
+          "source_class": "replay_source_record",
+          "source_record_ref": "source_record:sensor:near_alpha:2026-07-07"
+        }
+      ]
+    },
+    "city_asset_infrastructure_issue": {
+      "active": [],
+      "quarantined": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "event_id": "efv2_1:326d9153f57d:quarantine_fixture",
+          "family_id": "city_asset_infrastructure_issue",
+          "reason": "raw_asset_control_or_repair_order_claim"
+        }
+      ],
+      "review_required": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:asset:infrastructure_candidate"
+          ],
+          "check_report_refs": [
+            "check_v1:asset:source_depth_missing"
+          ],
+          "event_family": "city_asset_infrastructure_issue_v0",
+          "event_id": "efv2_1:326d9153f57d",
+          "event_time": "2026-07-07T04:15:00Z",
+          "event_type": "asset.infrastructure_issue",
+          "evidence_refs": [
+            "evidence:asset:spatial_overlay_fixture"
+          ],
+          "family_id": "city_asset_infrastructure_issue",
+          "ingested_at": "2026-07-07T04:17:00Z",
+          "observed_at": "2026-07-07T04:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:city_asset_infrastructure_issue",
+            "overlay_kind": "asset_issue_spatial_overlay",
+            "priority_tier": "static_medium"
+          },
+          "processing_time": "2026-07-07T04:17:05Z",
+          "review_state": "review_required",
+          "source_class": "derived_fixture",
+          "source_record_ref": "source_record:asset:infrastructure:fixture"
+        }
+      ]
+    },
+    "mobility_access_interruption": {
+      "active": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:building:alpha"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:located_in"
+          ],
+          "event_family": "mobility_access_interruption_v0",
+          "event_id": "efv2_1:1a32d22bf8e2",
+          "event_time": "2026-07-07T01:15:00Z",
+          "event_type": "mobility.access_interruption",
+          "evidence_refs": [
+            "evidence:inspection:alpha"
+          ],
+          "family_id": "mobility_access_interruption",
+          "ingested_at": "2026-07-07T01:17:00Z",
+          "observed_at": "2026-07-07T01:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:mobility_access_interruption",
+            "overlay_kind": "route_access_constraint",
+            "priority_tier": "static_medium"
+          },
+          "processing_time": "2026-07-07T01:17:05Z",
+          "review_state": "active",
+          "source_class": "replay_source_record",
+          "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+        }
+      ],
+      "quarantined": [],
+      "review_required": []
+    },
+    "permit_inspection_delay": {
+      "active": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "cer_entity_refs": [
+            "cer:building:alpha"
+          ],
+          "check_report_refs": [
+            "check_v1:alpha:floors:contradiction",
+            "check_v1:alpha:source_depth_missing"
+          ],
+          "event_family": "permit_inspection_delay_v0",
+          "event_id": "efv2_1:1e97261f8ea0",
+          "event_time": "2026-07-07T03:15:00Z",
+          "event_type": "permit.inspection_delay",
+          "evidence_refs": [
+            "evidence:permit:alpha:100a",
+            "evidence:inspection:alpha"
+          ],
+          "family_id": "permit_inspection_delay",
+          "ingested_at": "2026-07-07T03:17:00Z",
+          "observed_at": "2026-07-07T03:16:00Z",
+          "payload": {
+            "family_adapter": "adapter:permit_inspection_delay",
+            "overlay_kind": "permit_inspection_timeline_overlay",
+            "priority_tier": "static_medium"
+          },
+          "processing_time": "2026-07-07T03:17:05Z",
+          "review_state": "active",
+          "source_class": "replay_source_record",
+          "source_record_ref": "source_record:permit:alpha:2026-07-01"
+        }
+      ],
+      "quarantined": [],
+      "review_required": []
+    }
+  },
+  "family_count": 4,
+  "materialized_at": "2026-07-07T13:48:43Z",
+  "status": "PASS_WITH_LIMITATIONS"
+}

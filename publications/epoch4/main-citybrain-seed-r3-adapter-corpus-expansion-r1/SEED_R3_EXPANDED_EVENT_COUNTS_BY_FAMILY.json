@@ -1,0 +1,105 @@
+{
+  "artifact_id": "SEED_R3_EXPANDED_EVENT_COUNTS_BY_FAMILY",
+  "family_count": 4,
+  "minimum_pass_event_count": 60,
+  "rows": [
+    {
+      "distinct_reason_class_count": 8,
+      "distinct_unresolved_quarantine_reason_classes": [
+        "duplicate_candidate_ambiguity",
+        "impossible_time",
+        "invalid_schema",
+        "invalid_source_class",
+        "missing_entity_ref",
+        "missing_geometry",
+        "unknown_freshness",
+        "weak_spatial_match"
+      ],
+      "event_count": 20,
+      "family_id": "mobility_access_interruption_v0",
+      "meets_minimum_15": true,
+      "meets_quarantine_floor": true,
+      "meets_reason_class_floor": true,
+      "meets_resolved_floor": true,
+      "meets_target_20": true,
+      "meets_unresolved_floor": true,
+      "quarantine_expected_count": 5,
+      "resolved_count": 10,
+      "unresolved_review_count": 5
+    },
+    {
+      "distinct_reason_class_count": 8,
+      "distinct_unresolved_quarantine_reason_classes": [
+        "duplicate_candidate_ambiguity",
+        "impossible_time",
+        "invalid_schema",
+        "invalid_source_class",
+        "missing_entity_ref",
+        "missing_geometry",
+        "unknown_freshness",
+        "weak_spatial_match"
+      ],
+      "event_count": 20,
+      "family_id": "building_compliance_perception_candidate",
+      "meets_minimum_15": true,
+      "meets_quarantine_floor": true,
+      "meets_reason_class_floor": true,
+      "meets_resolved_floor": true,
+      "meets_target_20": true,
+      "meets_unresolved_floor": true,
+      "quarantine_expected_count": 5,
+      "resolved_count": 10,
+      "unresolved_review_count": 5
+    },
+    {
+      "distinct_reason_class_count": 8,
+      "distinct_unresolved_quarantine_reason_classes": [
+        "duplicate_candidate_ambiguity",
+        "impossible_time",
+        "invalid_schema",
+        "invalid_source_class",
+        "missing_entity_ref",
+        "missing_geometry",
+        "unknown_freshness",
+        "weak_spatial_match"
+      ],
+      "event_count": 20,
+      "family_id": "permit_inspection_delay",
+      "meets_minimum_15": true,
+      "meets_quarantine_floor": true,
+      "meets_reason_class_floor": true,
+      "meets_resolved_floor": true,
+      "meets_target_20": true,
+      "meets_unresolved_floor": true,
+      "quarantine_expected_count": 5,
+      "resolved_count": 10,
+      "unresolved_review_count": 5
+    },
+    {
+      "distinct_reason_class_count": 8,
+      "distinct_unresolved_quarantine_reason_classes": [
+        "duplicate_candidate_ambiguity",
+        "impossible_time",
+        "invalid_schema",
+        "invalid_source_class",
+        "missing_entity_ref",
+        "missing_geometry",
+        "unknown_freshness",
+        "weak_spatial_match"
+      ],
+      "event_count": 20,
+      "family_id": "city_asset_infrastructure_issue",
+      "meets_minimum_15": true,
+      "meets_quarantine_floor": true,
+      "meets_reason_class_floor": true,
+      "meets_resolved_floor": true,
+      "meets_target_20": true,
+      "meets_unresolved_floor": true,
+      "quarantine_expected_count": 5,
+      "resolved_count": 10,
+      "unresolved_review_count": 5
+    }
+  ],
+  "target_total_event_count": 80,
+  "total_event_count": 80
+}

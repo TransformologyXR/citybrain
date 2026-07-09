@@ -1,0 +1,50 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_4_SPATIAL_OVERLAY_HANDOFF_REPORT",
+  "families": [
+    {
+      "family_id": "mobility_access_interruption",
+      "sample_refs": [
+        "spatial:v2_4:efv24-mobility_access_interruption-01-01",
+        "spatial:v2_4:efv24-mobility_access_interruption-01-02",
+        "spatial:v2_4:efv24-mobility_access_interruption-01-03",
+        "spatial:v2_4:efv24-mobility_access_interruption-01-04",
+        "spatial:v2_4:efv24-mobility_access_interruption-01-05"
+      ],
+      "spatial_overlay_count": 65
+    },
+    {
+      "family_id": "building_compliance_perception_candidate",
+      "sample_refs": [
+        "spatial:v2_4:efv24-building_compliance_perception_candidate-01-01",
+        "spatial:v2_4:efv24-building_compliance_perception_candidate-01-02",
+        "spatial:v2_4:efv24-building_compliance_perception_candidate-01-03",
+        "spatial:v2_4:efv24-building_compliance_perception_candidate-01-04",
+        "spatial:v2_4:efv24-building_compliance_perception_candidate-01-05"
+      ],
+      "spatial_overlay_count": 65
+    },
+    {
+      "family_id": "permit_inspection_delay",
+      "sample_refs": [
+        "spatial:v2_4:efv24-permit_inspection_delay-01-01",
+        "spatial:v2_4:efv24-permit_inspection_delay-01-02",
+        "spatial:v2_4:efv24-permit_inspection_delay-01-03",
+        "spatial:v2_4:efv24-permit_inspection_delay-01-04",
+        "spatial:v2_4:efv24-permit_inspection_delay-01-05"
+      ],
+      "spatial_overlay_count": 65
+    },
+    {
+      "family_id": "city_asset_infrastructure_issue",
+      "sample_refs": [
+        "spatial:v2_4:efv24-city_asset_infrastructure_issue-01-01",
+        "spatial:v2_4:efv24-city_asset_infrastructure_issue-01-02",
+        "spatial:v2_4:efv24-city_asset_infrastructure_issue-01-03",
+        "spatial:v2_4:efv24-city_asset_infrastructure_issue-01-04",
+        "spatial:v2_4:efv24-city_asset_infrastructure_issue-01-05"
+      ],
+      "spatial_overlay_count": 65
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

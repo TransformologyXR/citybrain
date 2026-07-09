@@ -1,0 +1,24 @@
+{
+  "artifact_id": "DIFF_DESIGNED_CHANGE_EXPANSION_R1",
+  "change_types": [
+    "new_record",
+    "changed_status",
+    "expired_record",
+    "stale_record",
+    "strengthened_relationship",
+    "weakened_relationship",
+    "new_candidate_only_record",
+    "removed_or_missing_record"
+  ],
+  "families": [
+    "building_compliance_perception_candidate",
+    "city_asset_infrastructure_issue",
+    "mobility_access_interruption",
+    "permit_inspection_delay"
+  ],
+  "fixture_count": 32,
+  "generated_at": "2026-07-07T14:15:03Z",
+  "schema_version": "citybrain.diff_designed_change_expansion.r1",
+  "status": "PASS_WITH_LIMITATIONS",
+  "track7_fixture_ref": "outputs/track7_diff_source_refresh_readiness/DESIGNED_CHANGE_FIXTURE.json"
+}

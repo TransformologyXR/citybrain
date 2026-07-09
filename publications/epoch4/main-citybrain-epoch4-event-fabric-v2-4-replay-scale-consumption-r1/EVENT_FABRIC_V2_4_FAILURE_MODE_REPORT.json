@@ -1,0 +1,13 @@
+{
+  "all_required_failure_modes_present": true,
+  "artifact_id": "EVENT_FABRIC_V2_4_FAILURE_MODE_REPORT",
+  "failure_modes": {
+    "changed_state": 20,
+    "duplicate_suppressed": 20,
+    "quarantined_invalid": 20,
+    "stale": 20,
+    "superseded": 20,
+    "unresolved_preserved": 20
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

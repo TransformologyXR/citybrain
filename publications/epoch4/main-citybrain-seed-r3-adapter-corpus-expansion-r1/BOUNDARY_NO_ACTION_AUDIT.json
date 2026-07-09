@@ -1,0 +1,13 @@
+{
+  "artifact_id": "BOUNDARY_NO_ACTION_AUDIT",
+  "dispatch_control_enforcement_created": false,
+  "forecast_packet_created": false,
+  "live_ingestion_created": false,
+  "official_workflow_case_action_created": false,
+  "operator_fuel_created": false,
+  "product_client_founder_review_ready_claim_created": false,
+  "read_only_inputs": true,
+  "source_truth_mutated": false,
+  "status": "PASS",
+  "training_rows_created": false
+}

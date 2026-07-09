@@ -1,0 +1,12 @@
+{
+  "artifact_id": "SEED_R3_STATUS_CANONICALIZATION_MAP",
+  "map": {
+    "dirty_source_duplicate_or_weak_match": "duplicate_candidate_ambiguity",
+    "quarantine_expected": "quarantined_before_resolution",
+    "resolved_gold": "resolved_against_existing_main_loop_entity",
+    "resolved_scenario": "resolved_against_admitted_seed_r3_entity",
+    "unknown": "unknown",
+    "unresolved_review": "r3_local_only_unresolved"
+  },
+  "status": "PASS"
+}

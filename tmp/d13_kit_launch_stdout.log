@@ -1,0 +1,246 @@
+Loading user config located at: 'C:/Users/hazem/AppData/Local/ov/data/Kit/txr.citybrain/0.1/user.config.json'
+2026-07-02T22:37:45Z [Info] [carb] Logging to file: C:/Users/hazem/.nvidia-omniverse/logs/Kit/txr.citybrain/0.1/kit_20260702_233745.log
+[0.264s] [ext: omni.activity.core-1.0.3] startup
+[0.449s] [ext: omni.activity.profiler-1.0.4] startup
+[0.492s] [ext: omni.assets.plugins-0.0.0] startup
+[0.519s] [ext: omni.blobkey-1.1.2] startup
+[0.541s] [ext: omni.kit.async_engine-0.0.3] startup
+[0.569s] [ext: omni.client.lib-1.1.1] startup
+[0.604s] [ext: omni.client-1.3.0] startup
+[0.629s] [ext: omni.protobuf.lib-1.0.0] startup
+[0.631s] [ext: omni.grpc.lib-1.0.0] startup
+[0.634s] [ext: omni.metrics.core-0.0.3] startup
+[0.636s] [ext: omni.datastore-0.0.0] startup
+[0.640s] [ext: omni.gpu_foundation.shadercache.d3d12-1.0.0] startup
+[0.649s] [ext: omni.hsscclient-1.1.4] startup
+[0.652s] [ext: omni.stats-1.0.1] startup
+[0.655s] [ext: omni.ujitso.default-1.0.0] startup
+[0.665s] [ext: omni.gpu_foundation-0.0.0] startup
+[0.690s] [ext: carb.windowing.plugins-1.0.1] startup
+[0.695s] [ext: omni.kit.renderer.init-1.0.1] startup
+[0.698s] [ext: omni.kit.pipapi-0.0.0] startup
+[0.704s] [ext: omni.kit.pip_archive-0.0.0] startup
+[0.707s] [ext: omni.kit.telemetry-0.5.2] startup
+[0.719s] [ext: omni.kit.loop-default-0.2.2] startup
+[0.722s] [ext: omni.kit.test-2.0.7] startup
+[0.801s] [ext: omni.materialx.libs-1.0.9] startup
+[0.813s] [ext: omni.gpucompute.plugins-0.0.0] startup
+[0.817s] [ext: omni.usd.config-1.0.7] startup
+[0.837s] [ext: omni.usd.libs-1.0.3] startup
+[0.912s] [ext: omni.iray.libs-0.0.1] startup
+[0.935s] [ext: omni.mdl-57.0.3] startup
+[1.035s] [ext: omni.mdl.neuraylib-0.2.20] startup
+[1.042s] [ext: omni.kit.usd.mdl-1.1.9] startup
+[1.125s] [ext: omni.appwindow-1.2.2] startup
+[1.130s] [ext: omni.kit.renderer.core-1.2.2] startup
+[1.139s] [ext: omni.kit.renderer.capture-2.0.1] startup
+[1.149s] [ext: omni.kit.renderer.imgui-2.0.6] startup
+[1.161s] [ext: omni.ui-3.2.0] startup
+[1.171s] [ext: omni.kit.mainwindow-1.0.3] startup
+[1.174s] [ext: omni.usd.schema.metrics.assembler-110.1.1] startup
+[1.185s] [ext: omni.usd.schema.anim-0.0.1] startup
+[1.206s] [ext: omni.usd.schema.audio-0.0.1] startup
+[1.213s] [ext: omni.usd.schema.geospatial-0.0.1] startup
+[1.219s] [ext: carb.audio-0.1.0] startup
+[1.221s] [ext: omni.cubric-0.1.0] startup
+[1.224s] [ext: omni.graph.exec-0.9.6] startup
+[1.227s] [ext: omni.usd_resolver-1.0.0] startup
+[1.234s] [ext: omni.usd.core-1.8.3] startup
+[1.238s] [ext: omni.hydra.scene_delegate-0.3.5] startup
+[1.243s] [ext: usdrt.scenegraph-7.6.3] startup
+[1.277s] [ext: omni.hydra.usdrt_delegate-7.5.2] startup
+[1.287s] [ext: omni.kit.actions.core-1.0.0] startup
+[1.292s] [ext: omni.kit.audiodeviceenum-1.0.2] startup
+[1.297s] [ext: omni.kit.commands-1.5.0] startup
+[1.304s] [ext: omni.kit.exec.core-0.13.5] startup
+[1.309s] [ext: omni.kit.usd_undo-0.1.8] startup
+[1.311s] [ext: omni.kit.window.popup_dialog-2.0.25] startup
+[1.319s] [ext: omni.kit.widget.nucleus_connector-2.3.1] startup
+[1.326s] [ext: omni.timeline-1.1.0] startup
+[1.331s] [ext: omni.usd-1.16.0] startup
+[1.383s] [ext: omni.kit.asset_converter-6.0.1] startup
+[1.392s] [ext: omni.usd.schema.newton-1.2.0] startup
+[1.395s] [ext: omni.usd.schema.omni_projectors-1.0.0] startup
+[1.399s] [ext: omni.usd.schema.omnigraph-1.0.1] startup
+[1.407s] [ext: omni.usd.schema.physical_lighting-0.1.0] startup
+[1.413s] [ext: omni.usd.schema.physx-110.1.13] startup
+[1.436s] [ext: omni.usd.schema.render_settings.rtx-1.0.2] startup
+[1.444s] [ext: omni.usd.schema.usd_particle_field-1.0.0] startup
+[1.447s] [ext: omni.activity.pump-1.0.1] startup
+[1.450s] [ext: omni.inspect-1.0.2] startup
+[1.455s] [ext: omni.graph.core-3.1.2] startup
+[1.460s] [ext: omni.graph.tools-1.81.0] startup
+[1.499s] [ext: omni.graph-1.142.5] startup
+[1.547s] [ext: omni.kit.menu.core-1.2.0] startup
+[1.551s] [ext: omni.kit.menu.utils-2.2.4] startup
+[1.567s] [ext: omni.kit.notification_manager-1.0.11] startup
+[1.574s] [ext: omni.kit.usd.layers-2.6.1] startup
+[1.623s] [ext: omni.kit.primitive.mesh-1.1.0] startup
+[1.633s] [ext: omni.kit.stage_template.core-1.1.22] startup
+[1.638s] [ext: omni.kit.stage_templates-2.0.2] startup
+[1.645s] [ext: omni.anim.curve.core-1.6.0] startup
+[1.672s] [ext: omni.convexdecomposition-110.1.13] startup
+[1.681s] [ext: omni.graph.action_core-1.1.9] startup
+[1.688s] [ext: omni.graph.action_nodes_core-2.11.0] startup
+[1.696s] [ext: omni.kit.clipboard-1.1.1] startup
+[1.700s] [ext: omni.kit.helper.file_utils-0.1.10] startup
+[1.706s] [ext: omni.kit.widget.path_field-2.0.13] startup
+[1.711s] [ext: omni.kit.widget.browser_bar-2.0.10] startup
+[1.717s] [ext: omni.kit.widget.context_menu-1.4.0] startup
+[1.723s] [ext: omni.kit.widget.filebrowser-2.13.4] startup
+[1.734s] [ext: omni.kit.widget.options_menu-1.1.6] startup
+[1.742s] [ext: omni.kit.widget.options_button-1.0.3] startup
+[1.747s] [ext: omni.ui.scene-2.0.3] startup
+[1.755s] [ext: omni.kit.window.filepicker-2.15.5] startup
+[1.779s] [ext: omni.graph.action_nodes-2.11.0] startup
+[1.831s] [ext: omni.graph.action-2.10.2] startup
+[1.837s] [ext: omni.graph.image.core-0.6.1] startup
+[1.845s] [ext: omni.graph.image.nodes-1.3.1] startup
+[1.850s] [ext: omni.graph.nodes_core-2.11.0] startup
+[1.859s] [ext: omni.graph.nodes-2.12.0] startup
+[1.869s] [ext: omni.kit.context_menu-1.9.0] startup
+[1.876s] [ext: omni.kit.hotkeys.core-1.3.12] startup
+[1.880s] [ext: omni.kit.property.adapter.core-1.1.1] startup
+[1.889s] [ext: omni.kit.property.adapter.usd-1.0.5] startup
+[1.895s] [ext: omni.kit.widget.filter-1.1.5] startup
+[1.899s] [ext: omni.kit.widget.highlight_label-1.0.3] startup
+[1.903s] [ext: omni.kit.widget.searchfield-1.1.8] startup
+[1.908s] [ext: omni.kit.window.file_exporter-1.0.36] startup
+[1.916s] [ext: omni.kit.widget.stage-4.4.0] startup
+[1.934s] [ext: omni.kit.window.content_browser_registry-0.0.6] startup
+[1.940s] [ext: omni.kit.window.drop_support-1.0.8] startup
+[1.944s] [ext: omni.kit.window.file_importer-1.1.21] startup
+[1.949s] [ext: omni.kit.window.file-2.0.10] startup
+[1.956s] [ext: omni.kit.window.content_browser-3.1.8] startup
+2026-07-02T22:37:47Z [1,920ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics
+2026-07-02T22:37:47Z [1,920ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics
+2026-07-02T22:37:47Z [1,921ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics
+2026-07-02T22:37:47Z [1,921ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics
+2026-07-02T22:37:47Z [1,922ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics
+2026-07-02T22:37:47Z [1,922ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 610.62        | Graphics API: D3D12
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 5090 Laptop.. | Yes: 0 |     | 24137   MB | 10de      | 60360100.. |
+|     |                                  |        |     |            | 2c58      | 0          |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Graphics                |        |     | 128     MB | 8086      | 45320100.. |
+|     |                                  |        |     |            | 7d67      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Graphics                |        |     | 128     MB | 8086      | c23d6bf2.. |
+|     |                                  |        |     |            | 7d67      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 3   | Intel(R) Graphics                |        |     | 128     MB | 8086      | 403c6bf2.. |
+|     |                                  |        |     |            | 7d67      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.8655
+| Processor: Intel(R) Core(TM) Ultra 9 275HX
+| Cores: 24 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 64980 | Free Memory: 19633
+| Total Page/Swap (MB): 93652 | Free Page/Swap: 19980
+|---------------------------------------------------------------------------------------------|
+2026-07-02T22:37:47Z [2,333ms] [Warning] [omni.rtx] PCIe link width current (8) and maximum (16) for device 0 don't match.
+[2.819s] [ext: omni.kit.window.property-1.15.1] startup
+[3.028s] [ext: omni.usd.schema.playback-1.0.0] startup
+[3.051s] [ext: omni.kit.property.usd-4.9.4] startup
+[3.092s] [ext: omni.kit.widget.text_editor-1.1.1] startup
+[3.104s] [ext: omni.graph.scriptnode-2.10.2] startup
+[3.145s] [ext: omni.hydra.engine.stats-1.0.5] startup
+[3.160s] [ext: omni.hydra.rtx.shadercache.d3d12-1.0.0] startup
+[3.176s] [ext: omni.index.libs-387500.4413.0] startup
+[3.185s] [ext: omni.index-1.0.1] startup
+[3.193s] [ext: omni.ujitso.client-0.0.0] startup
+[3.202s] [ext: omni.volume-0.5.2] startup
+[3.213s] [ext: omni.hydra.rtx-1.0.4] startup
+[3.277s] [ext: omni.kit.hydra_texture-1.6.0] startup
+[3.289s] [ext: omni.kit.material.library-3.1.2] startup
+[3.312s] [ext: omni.kit.raycast.query-1.2.0] startup
+[3.323s] [ext: omni.kit.viewport.legacy_gizmos-1.0.24] startup
+[3.331s] [ext: omni.kit.viewport.registry-104.0.6] startup
+[3.339s] [ext: omni.kit.viewport.scene_camera_model-1.0.7] startup
+[3.348s] [ext: omni.kit.widget.viewport-109.2.0] startup
+[3.367s] [ext: omni.kit.viewport.window-109.0.2] startup
+[3.407s] [ext: omni.kit.viewport.utility-2.0.1] startup
+[3.419s] [ext: omni.graph.ui_nodes-2.11.1] startup
+[3.542s] [ext: omni.hydra.scene_api-0.1.3] startup
+[3.554s] [ext: omni.kit.debug.python-1.0.1] startup
+[omni.kit.debug.python] Error running python debugger: Can't listen for client connections: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+[3.966s] [ext: omni.kit.widget.searchable_combobox-1.0.7] startup
+[3.973s] [ext: omni.kit.widget.settings-2.0.0] startup
+[3.988s] [ext: omni.kit.debug.settings-1.0.3] startup
+[4.002s] [ext: omni.kit.debug.vscode-0.1.7] startup
+[4.010s] [ext: omni.kit.window.commands-0.2.9] startup
+[4.020s] [ext: omni.kit.window.extensions-1.5.10] startup
+[4.036s] [ext: omni.kit.window.script_editor-2.0.7] startup
+[4.056s] [ext: omni.kit.dev.utilities.bundle-0.2.1] startup
+[4.067s] [ext: omni.kit.developer.bundle-0.2.0] startup
+[4.082s] [ext: omni.kit.manipulator.camera-110.0.0] startup
+[4.099s] [ext: omni.kit.manipulator.selector-1.1.4] startup
+[4.111s] [ext: omni.kit.window.preferences-1.8.3] startup
+[4.140s] [ext: omni.kit.manipulator.transform-107.0.0] startup
+[4.161s] [ext: omni.kit.widget.toolbar-2.1.0] startup
+[4.191s] [ext: omni.kit.manipulator.tool.snap-1.5.14] startup
+[4.212s] [ext: omni.kit.viewport.manipulator.transform-107.0.4] startup
+[4.226s] [ext: omni.kit.manipulator.prim.core-108.0.2] startup
+[4.247s] [ext: omni.kit.manipulator.prim.usd-107.0.3] startup
+[4.257s] [ext: omni.kit.manipulator.prim-108.0.0] startup
+[4.263s] [ext: omni.kit.manipulator.selection-109.0.1] startup
+[4.273s] [ext: omni.kit.menu.create-2.0.2] startup
+[4.284s] [ext: omni.kit.selection-0.1.6] startup
+[4.293s] [ext: omni.kit.menu.edit-2.0.8] startup
+[4.308s] [ext: omni.kit.menu.file-1.1.22] startup
+[4.318s] [ext: omni.kit.property.audio-1.0.16] startup
+[4.338s] [ext: omni.kit.property.camera-1.0.14] startup
+[4.353s] [ext: omni.kit.property.geometry-2.1.2] startup
+[4.372s] [ext: omni.kit.property.light-1.0.14] startup
+[4.479s] [ext: omni.kit.property.material-1.14.6] startup
+[4.503s] [ext: omni.kit.property.render-1.2.2] startup
+[4.512s] [ext: omni.kit.property.transform-1.6.9] startup
+[4.528s] [ext: omni.kit.property.bundle-1.5.1] startup
+[4.538s] [ext: omni.kit.usd.collect-3.0.6] startup
+[4.548s] [ext: omni.kit.widget.prompt-1.0.7] startup
+[4.559s] [ext: omni.kit.usdz_export-1.1.0] startup
+[4.565s] [ext: omni.kit.tool.asset_importer-6.0.1] startup
+[4.587s] [ext: omni.kit.tool.collect-2.2.19] startup
+[4.598s] [ext: omni.kit.ui.actions-1.0.5] startup
+[4.616s] [ext: omni.kit.viewport.actions-110.0.0] startup
+[4.628s] [ext: omni.kit.viewport.menubar.core-107.2.2] startup
+[4.667s] [ext: omni.kit.viewport.menubar.camera-107.0.10] startup
+[4.689s] [ext: omni.kit.viewport.menubar.display-107.1.3] startup
+[4.698s] [ext: omni.kit.viewport.menubar.lighting-107.3.2] startup
+[4.708s] [ext: omni.kit.viewport.menubar.render-110.0.0] startup
+[4.719s] [ext: omni.kit.viewport.menubar.settings-110.0.1] startup
+[4.733s] [ext: omni.kit.viewport.ready-1.0.9] startup
+[4.738s] [ext: omni.kit.widget.cache_indicator-3.0.12] startup
+[4.852s] [ext: omni.kit.widget.stage_icons-1.0.8] startup
+2026-07-02T22:37:50Z [4,722ms] [Warning] [omni.kit.widget.cache_indicator.cache_state_menu] Unable to detect Omniverse Cache Server. File C:/Users/hazem/.nvidia-omniverse/config/omniverse.toml is not found. Consider installing it for better IO performance.
+[4.859s] [ext: omni.kit.window.console-1.1.9] startup
+[4.871s] [ext: omni.kit.window.stage-2.6.1] startup
+[4.884s] [ext: omni.kit.window.status_bar-0.1.11] startup
+[4.891s] [ext: omni.kit.window.toolbar-3.0.3] startup
+[4.901s] [ext: omni.ocio-0.1.1] startup
+[4.907s] [ext: omni.physx.gpu-110.1.13] startup
+[4.913s] [ext: omni.physx.foundation-110.1.13] startup
+[4.925s] [ext: omni.usdphysics-110.1.13] startup
+[4.932s] [ext: omni.physx.cooking-110.1.13] startup
+[4.940s] [ext: omni.physx-110.1.13] startup
+[4.962s] [ext: omni.physx.stageupdate-110.1.13] startup
+[4.973s] [ext: omni.rtx.window.settings-0.8.0] startup
+[4.987s] [ext: omni.rtx.settings.core-0.7.1] startup
+[4.997s] [ext: omni.uiaudio-1.0.0] startup
+[5.003s] [ext: omni.usd.metrics.assembler-110.1.2] startup
+[5.014s] [ext: omni.usd.metrics.assembler.ui-110.1.2] startup
+[5.030s] [ext: omni.warp.core-1.13.0] startup
+[5.033s] [ext: omni.kit.menu.common-2.0.2] startup
+[5.038s] [ext: txr.citybrain-0.1.0] startup
+[5.482s] app ready

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "authority_boundary": {
+      "type": "string"
+    },
+    "cer_entity_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "check_report_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "event_family": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "event_time": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "evidence_refs": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "expires_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ingested_at": {
+      "type": "string"
+    },
+    "observed_at": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "processing_time": {
+      "type": "string"
+    },
+    "review_state": {
+      "type": "string"
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "source_event_id": {
+      "type": "string"
+    },
+    "source_record_ref": {
+      "type": "string"
+    },
+    "supersedes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "event_id",
+    "source_event_id",
+    "event_family",
+    "event_type",
+    "source_class",
+    "source_record_ref",
+    "event_time",
+    "observed_at",
+    "ingested_at",
+    "processing_time",
+    "cer_entity_refs",
+    "payload",
+    "review_state",
+    "authority_boundary"
+  ],
+  "title": "EventEnvelopeV2",
+  "type": "object"
+}

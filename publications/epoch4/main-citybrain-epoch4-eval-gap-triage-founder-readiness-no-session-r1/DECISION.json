@@ -1,0 +1,13 @@
+{
+  "artifact_id": "DECISION",
+  "blocking_failure_count": 0,
+  "forbidden_capabilities_created": [],
+  "founder_review_session_run": false,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "go_no_go": "GO_FOR_BOUNDED_PROBE_WITH_LIMITATIONS",
+  "operator_or_founder_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVAL-GAP-TRIAGE-FOUNDER-READINESS-NO-SESSION-R1",
+  "readiness_posture": "PROBE_READY_WITH_TARGETED_FIXES_RECOMMENDED_BEFORE_FULL_REVIEW",
+  "source_truth_mutated": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_EVAL_GAP_TRIAGE_FOUNDER_READINESS_NO_SESSION_R1_WITH_LIMITATIONS"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "audits": {
+      "type": "object"
+    },
+    "comparison_metrics": {
+      "type": "object"
+    },
+    "deepstream_execution": {
+      "type": "object"
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "r16_validation": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "source_classes": {
+      "type": "object"
+    },
+    "status": {
+      "type": "string"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-BMD45-DEEPSTREAM-FRAME-REPLAY-COMPARISON-R17"
+    },
+    "validation_package_ref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_id",
+    "status",
+    "final_status",
+    "r16_validation",
+    "deepstream_execution",
+    "source_classes",
+    "audits",
+    "validation_package_ref"
+  ],
+  "title": "R17 Closeout Decision",
+  "type": "object"
+}

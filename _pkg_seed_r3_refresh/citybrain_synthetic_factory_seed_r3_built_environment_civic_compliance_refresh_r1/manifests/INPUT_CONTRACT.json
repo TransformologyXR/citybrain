@@ -1,0 +1,40 @@
+{
+  "task_id": "MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-BUILT-ENVIRONMENT-CIVIC-COMPLIANCE-REFRESH-R1",
+  "required_inputs": [
+    {
+      "name": "Seed R3 cross-city domain fuel preflight",
+      "path": "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R3-CROSS-CITY-DOMAIN-FUEL-PREFLIGHT",
+      "required_files": [
+        "DOMAIN_FUEL_SUMMARY.json",
+        "DOMAIN_FUEL_LEDGER.csv",
+        "SEED_R3_BOUNDARY_AND_SOURCE_CLASS_AUDIT.json",
+        "SEED_R3_PRODUCT_FIXTURE_REQUIREMENTS.json"
+      ],
+      "mode": "read_only"
+    }
+  ],
+  "optional_inputs": [
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-DUBAI-SEED-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-DUBAI-SEED-R2-MOBILITY-DEPTH-REFRESH",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-PRODUCT-CONSUMPTION-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D5-SERVED-RUNTIME-INTEGRATION-R1",
+    "outputs/MAIN-CITYBRAIN-SYNTHETIC-FACTORY-SEED-R2-D6-SERVED-CONTROL-ROOM-INTEGRATION-R1"
+  ],
+  "priority_domains": [
+    "property_planning",
+    "built_environment",
+    "building_compliance",
+    "civic_service_311_crm",
+    "environment_resilience",
+    "data_quality_maturity",
+    "identity_graph_eval"
+  ],
+  "disallowed": [
+    "credentials",
+    "raw_bulky_data",
+    "human_person_level_records",
+    "official_dubai_truth_claim",
+    "live_monitoring_claim",
+    "dispatch_control_enforcement_legal_certified_claim"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "algorithm": "sha256",
+  "excludes": [
+    "HASH_MANIFEST.json",
+    "citybrain_metropolis_vss_sprint_closeout_r9_handoff.zip"
+  ],
+  "file_count": 18,
+  "files": [
+    {
+      "bytes": 1157,
+      "file": "ACCEPTANCE_CHECKS.md",
+      "sha256": "8edac88c3e90c3fe0dc2c44abf7dc84380a11da8a3f2a28664f82b602e7d7bcf"
+    },
+    {
+      "bytes": 673,
+      "file": "BOUNDARY_POLICY.md",
+      "sha256": "74727425cb627771742805132ce2965684ecff897ee01a3db9c6d49ff83eba7b"
+    },
+    {
+      "bytes": 2698,
+      "file": "ENTRY_PROMPT.md",
+      "sha256": "7a6cfb8b2123464b7acb94bffb11a4493f7d40883b85cb4005d5df033a300bb2"
+    },
+    {
+      "bytes": 828,
+      "file": "GUARDRAIL_TERMS_R9.json",
+      "sha256": "fa00c871ddc986da86297a6a3ba5248977fbc64f168567cd10aae781d2ae2ec9"
+    },
+    {
+      "bytes": 821,
+      "file": "HANDOFF_JSON_PARSE_REPORT.json",
+      "sha256": "c53aa3c52f4998d2d372bb6604c918125659a78bbef84756ee1f281646892c48"
+    },
+    {
+      "bytes": 873,
+      "file": "IMPLEMENTATION_NOTES.md",
+      "sha256": "29c542f90901ed5dd26acfd52cd7cc8a1394bfdbd41e9ad1ad25c8cdc5edff5f"
+    },
+    {
+      "bytes": 1735,
+      "file": "INPUT_R8_VALIDATION_SUMMARY.json",
+      "sha256": "adc23d2878d1313f3733f634f78bbc11cb1c6d95d5d5f120eefefaae1ed8898e"
+    },
+    {
+      "bytes": 493,
+      "file": "KNOWN_LIMITATIONS_TEMPLATE_R9.md",
+      "sha256": "3a46edb143e5e82946d5291542aff7b732363f123994ef5209c35c3eba7f6a2c"
+    },
+    {
+      "bytes": 893,
+      "file": "NEXT_SPRINT_RECOMMENDATIONS_TEMPLATE_R9.md",
+      "sha256": "6765d28a68f660d5f133231b2971d89e896f554d9cd476144a6b8bd98ad35950"
+    },
+    {
+      "bytes": 1173,
+      "file": "PACKAGE_CONTRACT.md",
+      "sha256": "d5fd5597778cd841323b53ac4f011c59cea55b1f9593a322cb9395f7b3c53e82"
+    },
+    {
+      "bytes": 2780,
+      "file": "R8_ARTIFACT_INSPECTION_REPORT.json",
+      "sha256": "8b2cf85813701b37add810c3a6ef082afb63547b3bb23b21723750e6dd808d74"
+    },
+    {
+      "bytes": 1097,
+      "file": "README.md",
+      "sha256": "ddfdd8a390937e80d5bd392915a3b5c62906fd57f1d29215c24f6e7551e9778e"
+    },
+    {
+      "bytes": 1606,
+      "file": "RUNTIME_HOST_ALLOCATION_FINAL_TEMPLATE_R9.json",
+      "sha256": "ab27c4a701f8a4d4d4be1ac6ef0bde0c052f900c104ed56192f395b51af07d3b"
+    },
+    {
+      "bytes": 483,
+      "file": "SCHEMA_FINAL_AUDIT_R9.json",
+      "sha256": "059323e69b871e2113e52344a7a949019508b40cd0742305a4cbb51daadbdc9f"
+    },
+    {
+      "bytes": 583,
+      "file": "SCHEMA_R1_R9_LINEAGE_SUMMARY_R9.json",
+      "sha256": "96004795306906602e96efceb302edb77108fea7402493d93c1a01fbaf0e62bd"
+    },
+    {
+      "bytes": 918,
+      "file": "SCHEMA_SPRINT_CLOSEOUT_DECISION_R9.json",
+      "sha256": "f63e5f3dcf202f2e4a2e28376f88bb84efc13b654bd1272f329763c5fb014c3c"
+    },
+    {
+      "bytes": 2118,
+      "file": "SPEC.md",
+      "sha256": "c8901cef4ac1286f80b72965e82ee5a746c45ecdf0e42c4511cdf77906e2edba"
+    },
+    {
+      "bytes": 968,
+      "file": "STATUS_ENUMS_R9.json",
+      "sha256": "b90dc06811ddd7016be2fa2dde6ab0bd32131d3d2ce95efedaca44ffaed4c3fb"
+    }
+  ],
+  "generated_at": "2026-07-04T09:57:19Z",
+  "schema_version": "hash-manifest.v1",
+  "status": "PASS",
+  "task_id": "MAIN-CITYBRAIN-METROPOLIS-VSS-SPRINT-CLOSEOUT-R9"
+}

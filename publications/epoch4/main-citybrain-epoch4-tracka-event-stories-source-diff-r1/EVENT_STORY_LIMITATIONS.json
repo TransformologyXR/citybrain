@@ -1,0 +1,9 @@
+{
+  "artifact_id": "EVENT_STORY_LIMITATIONS",
+  "limitations": [
+    "Stories are replay/design stories, not official incident truth.",
+    "No live source ingestion or product-loop execution was run.",
+    "CER, SEG, CHECK, BRIEF, and spatial refs are attached only where upstream artifacts already expose them."
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

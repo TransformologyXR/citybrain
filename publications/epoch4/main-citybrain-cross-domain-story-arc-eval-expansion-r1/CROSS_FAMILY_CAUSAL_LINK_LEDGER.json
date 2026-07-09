@@ -1,0 +1,58 @@
+{
+  "artifact_id": "CROSS_FAMILY_CAUSAL_LINK_LEDGER",
+  "causal_claim_strength": "review_story_hypothesis_not_proven_causality",
+  "links": [
+    {
+      "canonical_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_boundary": "may support review linkage; cannot claim caused interruption",
+      "from_story_event_id": "story-step-01-permit-status",
+      "link_id": "link-permit-site-access",
+      "link_type": "shared_site_review_context",
+      "to_story_event_id": "story-step-03-mobility-access"
+    },
+    {
+      "canonical_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_boundary": "candidate-only compliance context, not a finding",
+      "from_story_event_id": "story-step-02-built-environment-site",
+      "link_id": "link-site-compliance",
+      "link_type": "same_site_candidate_review_context",
+      "to_story_event_id": "story-step-04-civic-complaint-context"
+    },
+    {
+      "canonical_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "check_boundary": "reviewable relationship, not official case or ticket semantics",
+      "from_story_event_id": "story-step-05-inspection-delay",
+      "link_id": "link-inspection-compliance",
+      "link_type": "shared_site_inspection_review_context",
+      "to_story_event_id": "story-step-04-civic-complaint-context"
+    },
+    {
+      "canonical_entity_refs": [
+        "asset:city:synthetic:utility-node-alpha",
+        "corridor:synthetic-dubai-aoi:alpha-access-corridor"
+      ],
+      "check_boundary": "spatial/context edge only; no operational action or control",
+      "from_story_event_id": "story-step-06-asset-impact",
+      "link_id": "link-asset-access-corridor",
+      "link_type": "corridor_contextual_impact",
+      "to_story_event_id": "story-step-03-mobility-access"
+    }
+  ],
+  "source_story_event_ids": [
+    "story-step-01-permit-status",
+    "story-step-02-built-environment-site",
+    "story-step-03-mobility-access",
+    "story-step-04-civic-complaint-context",
+    "story-step-05-inspection-delay",
+    "story-step-06-asset-impact",
+    "story-step-07-check-downgrade",
+    "story-step-08-brief-spatial-review"
+  ],
+  "story_arc_id": "cross-domain-story-arc-r1-construction-permit-access-compliance-asset-cascade"
+}

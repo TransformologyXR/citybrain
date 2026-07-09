@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CityBrain VSS Narration Sidecar Record R4",
+  "type": "object",
+  "required": [
+    "narration_id",
+    "source_class",
+    "input_candidate_event_ref",
+    "input_evidence_bundle_ref",
+    "supported_candidate_observation_refs",
+    "narration_text",
+    "claim_boundary_label",
+    "vss_runtime_ref",
+    "runtime_mode",
+    "created_at",
+    "guardrail_status",
+    "unsupported_claims",
+    "conflict_flags",
+    "human_review_required",
+    "official_record_created",
+    "no_action_taken"
+  ],
+  "properties": {
+    "narration_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "const": "model_generated_narrative"
+    },
+    "input_candidate_event_ref": {
+      "type": "string"
+    },
+    "input_evidence_bundle_ref": {
+      "type": "string"
+    },
+    "supported_candidate_observation_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "narration_text": {
+      "type": "string"
+    },
+    "uncertainty_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_boundary_label": {
+      "type": "string"
+    },
+    "vss_runtime_ref": {
+      "type": "string"
+    },
+    "runtime_mode": {
+      "enum": [
+        "command",
+        "endpoint"
+      ]
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "guardrail_status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "NEEDS_REVIEW"
+      ]
+    },
+    "unsupported_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conflict_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "official_record_created": {
+      "const": false
+    },
+    "no_action_taken": {
+      "const": true
+    }
+  }
+}

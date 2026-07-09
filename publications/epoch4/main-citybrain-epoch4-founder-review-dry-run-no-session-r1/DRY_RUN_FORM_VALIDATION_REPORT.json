@@ -1,0 +1,15 @@
+{
+  "artifact_id": "DRY_RUN_FORM_VALIDATION_REPORT",
+  "human_response_fields_created": false,
+  "missing_required_fields_by_task": {},
+  "required_fields": [
+    "subject",
+    "evidence_refs",
+    "check_refs",
+    "limitations",
+    "review_options",
+    "no_action_boundary"
+  ],
+  "status": "PASS",
+  "task_count_validated": 12
+}

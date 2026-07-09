@@ -1,0 +1,141 @@
+{
+  "artifact_id": "MOBILITY_REVIEW_PACKET_360_BACKFILL_REPORT",
+  "complete_native_review_packet_360_family_evidence_exists": false,
+  "family_evidence_backfill_packet": {
+    "artifact_id": "MOBILITY_REVIEW_PACKET_360_DERIVED_BACKFILL_PACKET",
+    "authority_boundary": "review_only_no_action",
+    "backfill_label": "derived_review_packet_backfill_not_source_truth",
+    "brief_packet_refs": [
+      "brief:v3:mobility_access_interruption:executive",
+      "brief:v3:mobility_access_interruption:operator",
+      "brief:v3:mobility_access_interruption:technical"
+    ],
+    "cer_context": {
+      "cer_entity_refs": [
+        "cer:building:alpha",
+        "cer:building:beta_candidate"
+      ],
+      "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json"
+    },
+    "check_context": {
+      "check_ref": "check:v1:mobility_access_interruption:stress_eval",
+      "claimability_statuses": [
+        "blocked_contradiction",
+        "blocked_insufficient_source_depth",
+        "blocked_raw_id_bypass",
+        "blocked_stale",
+        "claimable_with_limitations",
+        "downgraded_candidate_only",
+        "downgraded_proximity_only"
+      ],
+      "covered_rules": [
+        "candidate_only",
+        "contradiction",
+        "evidence_sufficiency",
+        "freshness",
+        "proximity_only",
+        "source_class",
+        "source_depth"
+      ],
+      "stress_outcome_counts": {
+        "candidate_only": 80,
+        "contradiction": 80,
+        "downgrade_freshness": 80,
+        "downgrade_source_class": 80,
+        "downgrade_source_depth": 80,
+        "sufficient_for_review": 80
+      }
+    },
+    "event_context": {
+      "event_fabric_v2_5": {
+        "brief_attachment_count": 360,
+        "check_attachment_count": 336,
+        "event_count": 360,
+        "family_id": "mobility_access_interruption",
+        "materialized_state_ref": "event_state:v2_5:mobility_access_interruption",
+        "spatial_handoff_count": 336,
+        "watch_admitted_count": 144
+      },
+      "event_state_refs": [
+        "diff:v2_5:mobility_access_interruption:long_history"
+      ]
+    },
+    "native_review_packet_360_found": false,
+    "native_review_packet_360_source": null,
+    "review_packet_360_family_evidence_status": "derived_backfill_not_source_truth",
+    "seg_context": {
+      "seg_context_refs": [
+        "seg_edge:alpha:located_in:downtown"
+      ],
+      "source": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/BRIEF_V3_VARIANTS.json"
+    },
+    "source_evidence_refs": [
+      "diff:v2_5:mobility_access_interruption:long_history",
+      "source:v1_1:mobility_access_interruption:atlas"
+    ],
+    "source_record_appendix": {
+      "record_count": 3,
+      "records": [
+        {
+          "authority_boundary": "review_only_no_action",
+          "check_report_refs": [
+            "check_v1:alpha:located_in"
+          ],
+          "event_family": "mobility_access_interruption_v0",
+          "event_id": "efv2:592899f65e66",
+          "event_type": "mobility.access_interruption",
+          "evidence_refs": [
+            "evidence:permit:alpha:100a"
+          ],
+          "observed_at": "2026-07-07T08:00:20Z",
+          "source_class": "replay_source_record",
+          "source_event_id": "sprint1:source:alpha_access:001",
+          "source_record_ref": "source_record:permit:alpha:2026-07-01"
+        },
+        {
+          "authority_boundary": "review_only_no_action",
+          "check_report_refs": [
+            "check_v1:alpha:located_in"
+          ],
+          "event_family": "mobility_access_interruption_v0",
+          "event_id": "efv2:e7fde36f5a07",
+          "event_type": "mobility.access_interruption.update",
+          "evidence_refs": [
+            "evidence:inspection:alpha"
+          ],
+          "observed_at": "2026-07-07T07:55:45Z",
+          "source_class": "replay_source_record",
+          "source_event_id": "sprint1:source:alpha_access:002",
+          "source_record_ref": "source_record:inspection:alpha:2026-06-30"
+        },
+        {
+          "authority_boundary": "review_only_no_action",
+          "check_report_refs": [
+            "check_v1:beta:candidate_only"
+          ],
+          "event_family": "mobility_access_interruption_v0",
+          "event_id": "efv2:72f151d0679f",
+          "event_type": "mobility.access_interruption",
+          "evidence_refs": [
+            "evidence:registry:beta"
+          ],
+          "observed_at": "2026-07-07T09:01:00Z",
+          "source_class": "replay_source_record",
+          "source_event_id": "sprint1:source:beta_access:001",
+          "source_record_ref": "source_record:registry:beta:2026-05-01"
+        }
+      ]
+    },
+    "source_truth_mutated": false,
+    "spatial_refs": [
+      "spatial:v2_5:mobility_access_interruption:atlas_overlay"
+    ],
+    "status": "PASS_WITH_LIMITATIONS"
+  },
+  "family_id": "mobility_access_interruption_v0",
+  "mobility_card_count": 4,
+  "mobility_remains_incomplete": true,
+  "mobility_repair_status": "DERIVED_BACKFILL_USED_NATIVE_PACKET_ABSENT",
+  "no_source_truth_mutation": true,
+  "status": "PASS_WITH_LIMITATIONS"
+}

@@ -1,0 +1,129 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 16568,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/BRIEF_ASSERTION_RESULTS.json",
+      "sha256": "70bed165fc89ee4a7807737613004b1b9491353de61b92f7dbf41586690778d5"
+    },
+    {
+      "bytes": 5462,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CASE_RESULTS.json",
+      "sha256": "ecf6b657c851c376e209f305b300bf8a4c7f6b2b045e6c0b44904b890c917b42"
+    },
+    {
+      "bytes": 8352,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/CHECK_ASSERTION_RESULTS.json",
+      "sha256": "9c086e2cde48d62c1d59dca7020904689dbfaf66f926e41969572aee98c6dadd"
+    },
+    {
+      "bytes": 452,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/DECISION.json",
+      "sha256": "e9cbb6193ae41f3f5bd135c75d4eff86d69cf44ea62353713be7c28ab09643ec"
+    },
+    {
+      "bytes": 891,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/EVAL_FAILURES_AND_GAPS.json",
+      "sha256": "a30deb923a3fa22a5e56cfd11b60315ade5f85174b61f2c3107f4534567f2a04"
+    },
+    {
+      "bytes": 8978,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/EVENT_STATE_ASSERTION_RESULTS.json",
+      "sha256": "9a4191190232b5db133f3a746db5256eeed8d3843be583f0c59dc3c451efb799"
+    },
+    {
+      "bytes": 879,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/FAMILY_SCORECARD.json",
+      "sha256": "1690a9622bdc33604c8e26175015e1b366e4e28518dfcffbae89164fc4e6bbb1"
+    },
+    {
+      "bytes": 1477,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "aaba0701f16e0b53e32856e7e2e9e0b1ef624e0885b48764e6524c063ceb62a6"
+    },
+    {
+      "bytes": 252,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/NO_TRAINING_FUEL_GUARD.json",
+      "sha256": "4d7532522360765dc4f99211af5e1f33a0e7bf3334c711def6f5de87cc176489"
+    },
+    {
+      "bytes": 2925,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/PRODUCT_LOOP_EVAL_EXECUTION_REPORT.json",
+      "sha256": "a4fe35196eac83e75815281a1c4c487f7414772586e018da7c3ebc95b56333b3"
+    },
+    {
+      "bytes": 10811,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/SIMULATION_OPTION_ASSERTION_RESULTS.json",
+      "sha256": "e4be6c081339d3bda8336878de31cdcf137cf4dc6f41ab0a9b234559d73f9a3b"
+    },
+    {
+      "bytes": 8501,
+      "path": "outputs/main_citybrain_epoch4_product_loop_eval_harness_execution_r1/SPATIAL_PACKET_ASSERTION_RESULTS.json",
+      "sha256": "a509794c8231f7c6912484b45693134f2d36f24bfe04c2b3f25ac91240fc0088"
+    },
+    {
+      "bytes": 16568,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/BRIEF_ASSERTION_RESULTS.json",
+      "sha256": "70bed165fc89ee4a7807737613004b1b9491353de61b92f7dbf41586690778d5"
+    },
+    {
+      "bytes": 5462,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/CASE_RESULTS.json",
+      "sha256": "ecf6b657c851c376e209f305b300bf8a4c7f6b2b045e6c0b44904b890c917b42"
+    },
+    {
+      "bytes": 8352,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/CHECK_ASSERTION_RESULTS.json",
+      "sha256": "9c086e2cde48d62c1d59dca7020904689dbfaf66f926e41969572aee98c6dadd"
+    },
+    {
+      "bytes": 452,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/DECISION.json",
+      "sha256": "e9cbb6193ae41f3f5bd135c75d4eff86d69cf44ea62353713be7c28ab09643ec"
+    },
+    {
+      "bytes": 891,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/EVAL_FAILURES_AND_GAPS.json",
+      "sha256": "a30deb923a3fa22a5e56cfd11b60315ade5f85174b61f2c3107f4534567f2a04"
+    },
+    {
+      "bytes": 8978,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/EVENT_STATE_ASSERTION_RESULTS.json",
+      "sha256": "9a4191190232b5db133f3a746db5256eeed8d3843be583f0c59dc3c451efb799"
+    },
+    {
+      "bytes": 879,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/FAMILY_SCORECARD.json",
+      "sha256": "1690a9622bdc33604c8e26175015e1b366e4e28518dfcffbae89164fc4e6bbb1"
+    },
+    {
+      "bytes": 1477,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "aaba0701f16e0b53e32856e7e2e9e0b1ef624e0885b48764e6524c063ceb62a6"
+    },
+    {
+      "bytes": 252,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/NO_TRAINING_FUEL_GUARD.json",
+      "sha256": "4d7532522360765dc4f99211af5e1f33a0e7bf3334c711def6f5de87cc176489"
+    },
+    {
+      "bytes": 2925,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/PRODUCT_LOOP_EVAL_EXECUTION_REPORT.json",
+      "sha256": "a4fe35196eac83e75815281a1c4c487f7414772586e018da7c3ebc95b56333b3"
+    },
+    {
+      "bytes": 10811,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/SIMULATION_OPTION_ASSERTION_RESULTS.json",
+      "sha256": "e4be6c081339d3bda8336878de31cdcf137cf4dc6f41ab0a9b234559d73f9a3b"
+    },
+    {
+      "bytes": 8501,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-eval-harness-execution-r1/SPATIAL_PACKET_ASSERTION_RESULTS.json",
+      "sha256": "a509794c8231f7c6912484b45693134f2d36f24bfe04c2b3f25ac91240fc0088"
+    }
+  ],
+  "entry_count": 24,
+  "generated_at": "2026-07-07T19:07:41Z",
+  "status": "PASS"
+}

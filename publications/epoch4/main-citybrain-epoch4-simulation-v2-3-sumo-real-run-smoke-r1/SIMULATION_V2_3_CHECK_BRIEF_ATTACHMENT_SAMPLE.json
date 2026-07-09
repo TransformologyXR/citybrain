@@ -1,0 +1,15 @@
+{
+  "artifact_id": "SIMULATION_V2_3_CHECK_BRIEF_ATTACHMENT_SAMPLE",
+  "authority_boundary": "review_only_no_forecast_no_action",
+  "brief_attachment_ref": "brief:v3:mobility_access_interruption:sumo_smoke_limitations",
+  "check_report_ref": "check:v1:mobility_access_interruption:sumo_smoke",
+  "family_id": "mobility_access_interruption",
+  "status": "PASS_WITH_LIMITATIONS",
+  "sumo_report_ref": "SIMULATION_V2_3_SUMO_REAL_RUN_REPORT.json",
+  "visible_limitations": [
+    "tiny synthetic local SUMO fixture only",
+    "not calibrated to a city network",
+    "not a product forecast",
+    "no official action, dispatch, control, or enforcement"
+  ]
+}

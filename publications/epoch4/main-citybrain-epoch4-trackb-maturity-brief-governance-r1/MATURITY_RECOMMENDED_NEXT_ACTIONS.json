@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "action": "Resolve identity ambiguity clusters that overlap high-value domains.",
+      "evidence_ref": "TOP_10_IDENTITY_AMBIGUITY_CLUSTERS.json",
+      "priority": "P0"
+    },
+    {
+      "action": "Add freshness and last-seen evidence to top source gaps.",
+      "evidence_ref": "TOP_10_SOURCE_GAPS.json",
+      "priority": "P0"
+    },
+    {
+      "action": "Split geometry gaps from time-history gaps for source owners.",
+      "evidence_ref": "TOP_10_MISSING_GEOMETRY_OR_TIME_HISTORY_GAPS.json",
+      "priority": "P1"
+    },
+    {
+      "action": "Route CHECK downgrade reasons into source onboarding and CER hardening tasks.",
+      "evidence_ref": "CHECK_DOWNGRADE_REASON_SUMMARY.json",
+      "priority": "P1"
+    }
+  ],
+  "artifact_id": "MATURITY_RECOMMENDED_NEXT_ACTIONS",
+  "status": "PASS_WITH_LIMITATIONS"
+}

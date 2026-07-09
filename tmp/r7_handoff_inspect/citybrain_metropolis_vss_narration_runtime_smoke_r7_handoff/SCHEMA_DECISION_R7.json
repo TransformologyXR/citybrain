@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "action_created": {
+      "const": false
+    },
+    "audits": {
+      "type": "object"
+    },
+    "candidate_event_mutated": {
+      "const": false
+    },
+    "final_status": {
+      "type": "string"
+    },
+    "narration_records_emitted": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "official_record_created": {
+      "const": false
+    },
+    "r7_pass": {
+      "type": "boolean"
+    },
+    "task_id": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-SMOKE-R7"
+    },
+    "vss_runtime_executed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "task_id",
+    "final_status",
+    "r7_pass",
+    "vss_runtime_executed",
+    "narration_records_emitted",
+    "audits"
+  ],
+  "title": "CityBrain R7 Closeout Decision",
+  "type": "object"
+}

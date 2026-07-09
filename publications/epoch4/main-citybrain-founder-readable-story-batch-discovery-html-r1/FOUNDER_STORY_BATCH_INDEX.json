@@ -1,0 +1,110 @@
+{
+  "artifact_id": "FOUNDER_STORY_BATCH_INDEX",
+  "stories": [
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "One site with permit, access, and infrastructure signals",
+      "product_review_ready": false,
+      "source_kind": "cross_domain_story_arc",
+      "story_id": "founder-story-001-cross-domain-site-cascade"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Building concern near a site",
+      "product_review_ready": false,
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-building-compliance-perception-candidate"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Permit or inspection delay",
+      "product_review_ready": false,
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-permit-inspection-delay"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Infrastructure or city asset concern",
+      "product_review_ready": false,
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-city-asset-infrastructure-issue"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Access interruption",
+      "product_review_ready": false,
+      "source_kind": "event_story_pack_r1",
+      "story_id": "founder-story-event-mobility-access-interruption"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Building concern near a site - positive packet baseline",
+      "product_review_ready": false,
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-01"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Building concern near a site - negative no data",
+      "product_review_ready": false,
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-02"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Building concern near a site - stale freshness",
+      "product_review_ready": false,
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-03"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Building concern near a site - contradiction pair",
+      "product_review_ready": false,
+      "source_kind": "review_card_r4_raw_material",
+      "story_id": "founder-story-card-founder-probe-r2-04"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Access interruption examples",
+      "product_review_ready": false,
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-mobility-access-interruption-v0"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Building concern near a site examples",
+      "product_review_ready": false,
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-building-compliance-perception-candidate"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Permit or inspection delay examples",
+      "product_review_ready": false,
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-permit-inspection-delay"
+    },
+    {
+      "client_ready": false,
+      "founder_internal": true,
+      "plain_english_title": "Infrastructure or city asset concern examples",
+      "product_review_ready": false,
+      "source_kind": "seed_r3_adapter_examples",
+      "story_id": "founder-story-seed-city-asset-infrastructure-issue"
+    }
+  ],
+  "story_count": 13
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "PILOT_EVIDENCE_BINDER_V2_INDEX",
+  "no_fuel": true,
+  "no_session": true,
+  "sections": [
+    {
+      "limitation": "not calibrated; no forecast",
+      "ref": "outputs/main_citybrain_epoch4_simulation_v2_4_family_sumo_option_runner_r1/DECISION.json",
+      "section_id": "simulation_v2_4"
+    },
+    {
+      "limitation": "local/replay scale only",
+      "ref": "outputs/main_citybrain_epoch4_event_fabric_v2_4_replay_scale_consumption_r1/DECISION.json",
+      "section_id": "event_fabric_v2_4"
+    },
+    {
+      "limitation": "internal no-session packet",
+      "ref": "REVIEW_PACKET_360_V2_INDEX.json",
+      "section_id": "review_packet_360_v2"
+    },
+    {
+      "limitation": "diagnostic only",
+      "ref": "outputs/main_citybrain_epoch4_data_maturity_diagnostic_product_r2/DECISION.json",
+      "section_id": "data_maturity"
+    },
+    {
+      "limitation": "governance audit, not production hardening",
+      "ref": "outputs/main_citybrain_epoch4_trackb_maturity_brief_governance_r1/TRACKB_MATURITY_BRIEF_GOVERNANCE_DECISION.json",
+      "section_id": "brief_governance"
+    }
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

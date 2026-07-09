@@ -1,0 +1,46 @@
+{
+  "artifact_id": "EPOCH4_LARGE_SPRINT_SEQUENCE_REVERIFY",
+  "parallel_execution_allowed": false,
+  "parallel_execution_used": false,
+  "sequence": [
+    {
+      "exists": true,
+      "label": "sprint0",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint0_check_v1_cer_engine_r1/SPRINT0_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT0_CHECK_V1_CER_ENGINE_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint1",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint1_event_fabric_v2_product_spine/EVENT_FABRIC_V2_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT1_EVENT_FABRIC_V2_PRODUCT_SPINE_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint2",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint2_simulation_v2_review_option_engine/SIMULATION_V2_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT2_SIMULATION_V2_REVIEW_OPTION_ENGINE_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint3",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint3_incident_plan_product_loop/INCIDENT_PLAN_PRODUCT_LOOP_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT3_INCIDENT_PLAN_PRODUCT_LOOP_R1_WITH_LIMITATIONS"
+    },
+    {
+      "exists": true,
+      "label": "sprint4",
+      "ok": true,
+      "path": "outputs/main_citybrain_epoch4_sprint4_human_review_pilot_fuel_capture/HUMAN_REVIEW_PILOT_DECISION.json",
+      "status": "PASS_MAIN_CITYBRAIN_EPOCH4_SPRINT4_HUMAN_REVIEW_PILOT_FUEL_CAPTURE_R1_WITH_LIMITATIONS"
+    }
+  ],
+  "sprint3_event_family_count": 1,
+  "sprint3_scenario_type_count": 1,
+  "sprint4_fabricated_sessions_created": false,
+  "status": "PASS"
+}

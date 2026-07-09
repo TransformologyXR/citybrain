@@ -1,0 +1,42 @@
+{
+  "artifact_id": "BEST_STORY_AND_PACKET_INDEX_R1",
+  "status": "PASS_WITH_LIMITATIONS",
+  "stories": [
+    {
+      "brief_ref": "brief:v3:building_compliance_perception_candidate",
+      "family_id": "building_compliance_perception_candidate",
+      "limitations": [
+        "review-only",
+        "no session result",
+        "no official action"
+      ],
+      "review_packet_ref": "review_packet_360:building_compliance_perception_candidate",
+      "story_ref": "event_story:building_compliance_perception_candidate:pilot_candidate",
+      "why_selected": "Clearer evidence chain and useful product-loop tension."
+    },
+    {
+      "brief_ref": "brief:v3:permit_inspection_delay",
+      "family_id": "permit_inspection_delay",
+      "limitations": [
+        "review-only",
+        "no session result",
+        "no official action"
+      ],
+      "review_packet_ref": "review_packet_360:permit_inspection_delay",
+      "story_ref": "event_story:permit_inspection_delay:pilot_candidate",
+      "why_selected": "Clearer evidence chain and useful product-loop tension."
+    },
+    {
+      "brief_ref": "brief:v3:city_asset_infrastructure_issue",
+      "family_id": "city_asset_infrastructure_issue",
+      "limitations": [
+        "review-only",
+        "no session result",
+        "no official action"
+      ],
+      "review_packet_ref": "review_packet_360:city_asset_infrastructure_issue",
+      "story_ref": "event_story:city_asset_infrastructure_issue:pilot_candidate",
+      "why_selected": "Clearer evidence chain and useful product-loop tension."
+    }
+  ]
+}

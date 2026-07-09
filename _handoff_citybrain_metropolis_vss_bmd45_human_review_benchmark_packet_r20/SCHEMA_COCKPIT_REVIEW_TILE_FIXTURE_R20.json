@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "actions_allowed": {
+      "type": "array"
+    },
+    "actions_forbidden": {
+      "type": "array"
+    },
+    "source_labels": {
+      "type": "array"
+    },
+    "status_label": {
+      "type": "string"
+    },
+    "tile_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "tile_id",
+    "title",
+    "status_label",
+    "source_labels",
+    "actions_allowed",
+    "actions_forbidden"
+  ],
+  "title": "Cockpit Review Tile Fixture R20",
+  "type": "object"
+}

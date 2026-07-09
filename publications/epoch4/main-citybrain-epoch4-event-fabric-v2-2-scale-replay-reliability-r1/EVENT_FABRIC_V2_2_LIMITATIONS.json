@@ -1,0 +1,10 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_LIMITATIONS",
+  "limitations": [
+    "stress events are replay fixtures, not production ingestion",
+    "WATCH admission remains review-only and static-policy bounded",
+    "spatial handoff packets do not control live systems",
+    "no official incident or case truth is created"
+  ],
+  "status": "PASS_WITH_LIMITATIONS"
+}

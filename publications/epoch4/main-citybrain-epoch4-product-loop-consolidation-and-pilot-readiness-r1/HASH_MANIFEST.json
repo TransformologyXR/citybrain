@@ -1,0 +1,89 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_PRODUCT_LOOP_CONSOLIDATION_AND_PILOT_READINESS_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 6635,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/CURRENT_TRUTH_LEDGER.json",
+      "sha256": "661cd430b88d87e4735a598acba151010aae30079bc306a7b69c3d63c23e6cd4"
+    },
+    {
+      "bytes": 736,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/DECISION.json",
+      "sha256": "3f6ab946c45eda710659e870761003a215e8a245bf1180cabc130475efbe8d68"
+    },
+    {
+      "bytes": 514,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/FOUNDER_REVIEW_READINESS_NO_SESSION_REPORT.json",
+      "sha256": "c90a59aad95a1417faa282bc3b2d37dd8b630c2b3b4e51dd39b22f15d8d73efc"
+    },
+    {
+      "bytes": 591,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/NEXT_WAVE_RECOMMENDATION.json",
+      "sha256": "c661a5f92d200650328c63310dceebe94358a8ff59cc0448eb4d7ad7e0357933"
+    },
+    {
+      "bytes": 1154,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "4f4558de830db6412191e05cbdeb0b7a0ec99d958d5375b3d391d1c9b66a77b4"
+    },
+    {
+      "bytes": 4777,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/PRODUCT_LOOP_CAPABILITY_MAP.json",
+      "sha256": "98d1b7415fb2b1718a245133af79a2a1e11d702f46a3aa296dc7e979ca6ad6b9"
+    },
+    {
+      "bytes": 684,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/THREE_FAMILY_PRODUCT_LOOP_SUMMARY.md",
+      "sha256": "07b7d2d4f382ba52b91f955c482e5060ead866883ee693b4625d2bf6eb1e3ff2"
+    },
+    {
+      "bytes": 1506,
+      "path": "outputs/main_citybrain_epoch4_product_loop_consolidation_and_pilot_readiness_r1/VALUE_POCKETS_AND_GAPS_R2.json",
+      "sha256": "6f215907e44ba10c88ef16150a018f3581a53722cb9be2d667da119af6b00c0e"
+    },
+    {
+      "bytes": 6635,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/CURRENT_TRUTH_LEDGER.json",
+      "sha256": "661cd430b88d87e4735a598acba151010aae30079bc306a7b69c3d63c23e6cd4"
+    },
+    {
+      "bytes": 736,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/DECISION.json",
+      "sha256": "3f6ab946c45eda710659e870761003a215e8a245bf1180cabc130475efbe8d68"
+    },
+    {
+      "bytes": 514,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/FOUNDER_REVIEW_READINESS_NO_SESSION_REPORT.json",
+      "sha256": "c90a59aad95a1417faa282bc3b2d37dd8b630c2b3b4e51dd39b22f15d8d73efc"
+    },
+    {
+      "bytes": 591,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/NEXT_WAVE_RECOMMENDATION.json",
+      "sha256": "c661a5f92d200650328c63310dceebe94358a8ff59cc0448eb4d7ad7e0357933"
+    },
+    {
+      "bytes": 1154,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "4f4558de830db6412191e05cbdeb0b7a0ec99d958d5375b3d391d1c9b66a77b4"
+    },
+    {
+      "bytes": 4777,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/PRODUCT_LOOP_CAPABILITY_MAP.json",
+      "sha256": "98d1b7415fb2b1718a245133af79a2a1e11d702f46a3aa296dc7e979ca6ad6b9"
+    },
+    {
+      "bytes": 684,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/THREE_FAMILY_PRODUCT_LOOP_SUMMARY.md",
+      "sha256": "07b7d2d4f382ba52b91f955c482e5060ead866883ee693b4625d2bf6eb1e3ff2"
+    },
+    {
+      "bytes": 1506,
+      "path": "publications/epoch4/main-citybrain-epoch4-product-loop-consolidation-and-pilot-readiness-r1/VALUE_POCKETS_AND_GAPS_R2.json",
+      "sha256": "6f215907e44ba10c88ef16150a018f3581a53722cb9be2d667da119af6b00c0e"
+    }
+  ],
+  "entry_count": 16,
+  "generated_at": "2026-07-07T15:53:23Z",
+  "status": "PASS"
+}

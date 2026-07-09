@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Cross-Domain Story Arc R1</title></head>
+<body>
+<h1>Cross-Domain Story Arc R1</h1>
+<p>Status: ai_diagnostic_review_ready_with_limitations</p>
+<p>New eval cases: 120; combined cases: 168</p>
+<table border="1" cellpadding="6" cellspacing="0">
+<thead><tr><th>Story Event</th><th>Family</th><th>Source Event</th><th>Expected CHECK Behavior</th></tr></thead>
+<tbody>
+<tr><td>story-step-01-permit-status</td><td>permit_inspection_delay</td><td>seed-r3-expanded:permit_inspection_delay:001</td><td>supported_for_review_with_limitations</td></tr>
+<tr><td>story-step-02-built-environment-site</td><td>building_compliance_perception_candidate</td><td>seed-r3-expanded:building_compliance:001</td><td>supported_for_review_with_limitations</td></tr>
+<tr><td>story-step-03-mobility-access</td><td>mobility_access_interruption_v0</td><td>seed-r3-expanded:mobility_access:001</td><td>supported_for_review_with_limitations</td></tr>
+<tr><td>story-step-04-civic-complaint-context</td><td>building_compliance_perception_candidate</td><td>seed-r3-expanded:building_compliance:003</td><td>candidate_only_downgrade</td></tr>
+<tr><td>story-step-05-inspection-delay</td><td>permit_inspection_delay</td><td>seed-r3-expanded:permit_inspection_delay:003</td><td>supported_for_review_with_limitations</td></tr>
+<tr><td>story-step-06-asset-impact</td><td>city_asset_infrastructure_issue</td><td>seed-r3-expanded:asset_infrastructure:001</td><td>contextual_link_with_limitations</td></tr>
+<tr><td>story-step-07-check-downgrade</td><td>mobility_access_interruption_v0</td><td>seed-r3-expanded:mobility_access:011</td><td>downgrade_or_hold_for_review</td></tr>
+<tr><td>story-step-08-brief-spatial-review</td><td>city_asset_infrastructure_issue</td><td>seed-r3-expanded:asset_infrastructure:016</td><td>quarantine_or_abstain</td></tr>
+</tbody>
+</table>
+<p>Boundary: local/replay diagnostic review only. No founder session, fuel, training, forecast, source-truth mutation, action, control, enforcement, product readiness, or client readiness.</p>
+</body>
+</html>

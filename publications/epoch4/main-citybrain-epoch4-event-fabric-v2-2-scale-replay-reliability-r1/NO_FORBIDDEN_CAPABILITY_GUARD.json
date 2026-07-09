@@ -1,0 +1,27 @@
+{
+  "artifact_id": "NO_FORBIDDEN_CAPABILITY_GUARD",
+  "boundary": "local/replay/review-only",
+  "checks": {
+    "dispatch_control_enforcement_created": false,
+    "fabricated_human_founder_operator_session_created": false,
+    "learned_model_training_or_ranking_created": false,
+    "official_action_case_ticket_created": false,
+    "product_forecast_surface_or_ForecastPacket_created": false,
+    "production_live_ingestion_created": false,
+    "source_truth_mutated_or_cer_check_bypassed": false
+  },
+  "forbidden_capabilities_checked": [
+    "production_live_ingestion",
+    "official_action_case_ticket",
+    "dispatch_control_enforcement",
+    "product_forecast_surface_or_ForecastPacket",
+    "learned_model_training_or_ranking",
+    "fabricated_human_founder_operator_sessions",
+    "source_truth_mutation_or_cer_check_bypass"
+  ],
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T15:53:23Z",
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-EVENT-FABRIC-V2-2-SCALE-REPLAY-RELIABILITY-R1",
+  "scope": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1",
+  "status": "PASS"
+}

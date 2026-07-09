@@ -1,0 +1,10 @@
+{
+  "artifact_id": "REVIEW_PACKET_360_DECISION",
+  "forbidden_capabilities_created": [],
+  "hash_manifest_verified": true,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-REVIEW-PACKET-360-R1",
+  "packet_count": 3,
+  "parallel_execution_used": false,
+  "required_sections_present": true,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_REVIEW_PACKET_360_R1_WITH_LIMITATIONS"
+}

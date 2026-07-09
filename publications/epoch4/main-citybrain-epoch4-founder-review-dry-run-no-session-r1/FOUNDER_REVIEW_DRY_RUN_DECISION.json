@@ -1,0 +1,12 @@
+{
+  "artifact_id": "FOUNDER_REVIEW_DRY_RUN_DECISION",
+  "dispositions_created": false,
+  "forbidden_capabilities_created": [],
+  "generated_at": "2026-07-07T18:51:48Z",
+  "minimum_task_count_met": true,
+  "operator_or_founder_fuel_created": false,
+  "package_id": "MAIN-CITYBRAIN-EPOCH4-FOUNDER-REVIEW-DRY-RUN-NO-SESSION-R1",
+  "session_run": false,
+  "status": "PASS_MAIN_CITYBRAIN_EPOCH4_FOUNDER_REVIEW_DRY_RUN_NO_SESSION_R1_WITH_LIMITATIONS",
+  "task_count": 12
+}

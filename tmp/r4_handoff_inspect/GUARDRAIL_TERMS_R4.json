@@ -1,0 +1,26 @@
+{
+  "schema_version": "metropolis-vss-narration-runtime-integration-r4.v1",
+  "task_name": "MAIN-CITYBRAIN-METROPOLIS-VSS-NARRATION-RUNTIME-INTEGRATION-R4",
+  "forbidden_claim_families": [
+    "confirmed_violation",
+    "legal_or_certified_finding",
+    "official_case_or_ticket",
+    "identity_or_biometric_inference",
+    "face_or_license_plate_recognition",
+    "dispatch_routing_control_enforcement",
+    "alert_as_command",
+    "automated_action",
+    "production_monitoring_or_live_cctv_claim",
+    "vss_as_sensor_or_fact_source",
+    "new_object_detection_not_in_r2",
+    "object_count_override",
+    "unsupported_wall_clock_timestamp"
+  ],
+  "required_labels": [
+    "Candidate observation",
+    "VSS narration only",
+    "Human review required",
+    "Not a finding",
+    "No action taken"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "event_types": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "registry_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "registry_id",
+    "event_types",
+    "version"
+  ],
+  "title": "EventTypeRegistry",
+  "type": "object"
+}

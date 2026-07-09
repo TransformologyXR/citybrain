@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "audits": {
+      "type": "object"
+    },
+    "candidate_event_modified_by_vss": {
+      "const": false
+    },
+    "connectivity_metadata_source_class": {
+      "const": "runtime_configuration_evidence"
+    },
+    "no_action_taken": {
+      "const": true
+    },
+    "official_record_created": {
+      "const": false
+    },
+    "probe_attempted": {
+      "type": "boolean"
+    },
+    "probe_executed": {
+      "type": "boolean"
+    },
+    "probe_status": {
+      "enum": [
+        "PASS",
+        "NOT_CONFIGURED",
+        "FAILED",
+        "TIMEOUT",
+        "ERROR"
+      ]
+    },
+    "runtime_configured": {
+      "type": "boolean"
+    },
+    "runtime_mode": {
+      "enum": [
+        "not_configured",
+        "command",
+        "endpoint",
+        "both_configured_prefer_cli",
+        "both_configured_prefer_endpoint"
+      ]
+    },
+    "schema_version": {
+      "const": "metropolis-vss-runtime-configuration-and-connectivity-r6.v1"
+    },
+    "status": {
+      "enum": [
+        "PASS_METROPOLIS_VSS_RUNTIME_CONFIGURATION_AND_CONNECTIVITY_R6_WITH_LIMITATIONS",
+        "PARTIAL_METROPOLIS_VSS_RUNTIME_NOT_CONFIGURED_R6_CONNECTIVITY_CONTRACT_READY",
+        "PARTIAL_METROPOLIS_VSS_RUNTIME_CONFIGURED_CONNECTIVITY_FAILED_R6",
+        "FAIL_METROPOLIS_VSS_RUNTIME_CONFIGURATION_BOUNDARY_BREACH_R6"
+      ]
+    },
+    "structured_detection_source_class": {
+      "const": "sensor_inferred"
+    },
+    "task_name": {
+      "const": "MAIN-CITYBRAIN-METROPOLIS-VSS-RUNTIME-CONFIGURATION-AND-CONNECTIVITY-R6"
+    },
+    "vss_is_fact_source": {
+      "const": false
+    },
+    "vss_narration_records": {
+      "const": 0
+    },
+    "vss_output_source_class": {
+      "const": "model_generated_narrative"
+    }
+  },
+  "required": [
+    "schema_version",
+    "task_name",
+    "status",
+    "runtime_configured",
+    "probe_attempted",
+    "probe_executed",
+    "vss_is_fact_source",
+    "no_action_taken",
+    "official_record_created",
+    "audits"
+  ],
+  "title": "METROPOLIS_VSS_RUNTIME_CONFIGURATION_AND_CONNECTIVITY_R6_DECISION",
+  "type": "object"
+}

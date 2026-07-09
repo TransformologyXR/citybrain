@@ -1,0 +1,12 @@
+{
+  "artifact_id": "PILOT_BINDER_NO_SESSION_AUDIT",
+  "binder_ref": "outputs/main_citybrain_epoch4_pilot_evidence_binder_no_session_r1/PILOT_EVIDENCE_BINDER_INDEX.json",
+  "dispositions_created": false,
+  "founder_fuel_created": false,
+  "founder_review_session_run": false,
+  "no_session_guard_passed": true,
+  "operator_fuel_created": false,
+  "session_results_created": false,
+  "status": "PASS",
+  "training_eligibility_created": false
+}

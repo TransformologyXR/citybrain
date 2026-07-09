@@ -1,0 +1,10 @@
+{
+  "actions": [
+    "prepare but do not run founder review agenda",
+    "select packet slices showing non-SUMO option engines",
+    "select CER/CHECK stress examples for reviewer interpretation",
+    "keep UI/UX sprint parked until review goals are fixed"
+  ],
+  "artifact_id": "NEXT_REVIEW_PREP_ACTIONS",
+  "status": "PASS_WITH_LIMITATIONS"
+}

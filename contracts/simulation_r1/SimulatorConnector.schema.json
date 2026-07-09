@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "connector_id": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "connector_id",
+    "status",
+    "source_class",
+    "limitations"
+  ],
+  "title": "SimulatorConnector",
+  "type": "object"
+}

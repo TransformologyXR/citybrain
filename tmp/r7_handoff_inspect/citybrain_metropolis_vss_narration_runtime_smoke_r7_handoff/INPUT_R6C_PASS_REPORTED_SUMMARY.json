@@ -1,0 +1,23 @@
+{
+  "independent_zip_verification_status": "not_available_in_this_handoff_input",
+  "metropolis_deepstream": {
+    "candidate_events": 1,
+    "candidate_observations": 24,
+    "host": "txr-4070",
+    "proven_by": "R2",
+    "source_class": "sensor_inferred"
+  },
+  "reported_at": "2026-07-03T23:09:58Z",
+  "security_note": "NVIDIA key was reportedly pasted into chat; rotate after install window and do not include secrets in artifacts.",
+  "spark_vss": {
+    "container": "citybrain-vss-lvs",
+    "image": "nvcr.io/nvidia/vss-core/vss-video-summarization:3.2.0-sbsa",
+    "r7_ready": true,
+    "reachable_from_txr_4070": true,
+    "ready_endpoint": "http://spark-2445:38111/v1/ready"
+  },
+  "status": "PASS_METROPOLIS_VSS_RUNTIME_PROVISIONED_AND_CONNECTED_R6C",
+  "txr_3090": {
+    "active_for_this_chain": false
+  }
+}

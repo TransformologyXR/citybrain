@@ -1,0 +1,31 @@
+{
+  "artifact_id": "EVENT_TO_CER_RESOLUTION_PACKETS",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "cer_entity_refs": [
+        "cer:building:alpha",
+        "cer:observation:near_alpha"
+      ],
+      "event_ref": "event:v2_1:building_compliance_perception_candidate:review_loop",
+      "raw_id_bypass": false,
+      "review_state": "review_required"
+    },
+    "city_asset_infrastructure_issue": {
+      "cer_entity_refs": [
+        "cer:asset:infrastructure_candidate"
+      ],
+      "event_ref": "event:v2_1:city_asset_infrastructure_issue:review_loop",
+      "raw_id_bypass": false,
+      "review_state": "review_required"
+    },
+    "permit_inspection_delay": {
+      "cer_entity_refs": [
+        "cer:building:alpha"
+      ],
+      "event_ref": "event:v2_1:permit_inspection_delay:review_loop",
+      "raw_id_bypass": false,
+      "review_state": "review_required"
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}

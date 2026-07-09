@@ -1,0 +1,9 @@
+{
+  "artifact_id": "GOVERNANCE_REMEDIATION_SUGGESTIONS",
+  "status": "PASS_WITH_LIMITATIONS",
+  "suggestions": [
+    "Keep risky terms inside explicit cannot-claim, guard, limitation, or false/absent fields.",
+    "For any future client-facing export, replace ambiguous wording with review-only/no-action phrasing.",
+    "Route non-boundary risky findings through governance review before publication."
+  ]
+}

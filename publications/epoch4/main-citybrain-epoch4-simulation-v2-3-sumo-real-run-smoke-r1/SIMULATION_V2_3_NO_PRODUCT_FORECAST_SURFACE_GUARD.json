@@ -1,0 +1,9 @@
+{
+  "ForecastPacket_created": false,
+  "artifact_id": "SIMULATION_V2_3_NO_PRODUCT_FORECAST_SURFACE_GUARD",
+  "automatic_optimization_created": false,
+  "forecast_authority_claimed": false,
+  "official_action_or_dispatch_created": false,
+  "product_forecast_surface_created": false,
+  "status": "PASS"
+}

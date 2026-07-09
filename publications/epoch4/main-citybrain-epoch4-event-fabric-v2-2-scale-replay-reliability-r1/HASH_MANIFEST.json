@@ -1,0 +1,119 @@
+{
+  "algorithm": "sha256",
+  "artifact_id": "MAIN_CITYBRAIN_EPOCH4_EVENT_FABRIC_V2_2_SCALE_REPLAY_RELIABILITY_R1_HASH_MANIFEST_json",
+  "entries": [
+    {
+      "bytes": 718,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/DECISION.json",
+      "sha256": "74ad922f6d32eb35898bb5873b97bc3cafae79428d2226f791aeaf0412c3acda"
+    },
+    {
+      "bytes": 2300,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_FAMILY_STATE_MATERIALIZATION_REPORT.json",
+      "sha256": "9128d5a7955d3fe6a582a7751c993986977c4a81a57960f7087efc3f1d903618"
+    },
+    {
+      "bytes": 471,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_IDEMPOTENCY_REPORT.json",
+      "sha256": "dd65ab5b97100ba2a0cfa97c39ef5123f0874f5de5e0eebabd3074a9c572ad9d"
+    },
+    {
+      "bytes": 371,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_LIMITATIONS.json",
+      "sha256": "48d66351ada74287dbcf8d956df0f6cec689948673ff9d082e3c42ee37154362"
+    },
+    {
+      "bytes": 2193,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_QUARANTINE_UNRESOLVED_REPORT.json",
+      "sha256": "ddba4dc18291c6363fe89217f93324fac08edeee6be454ab2d4096dc6446c61b"
+    },
+    {
+      "bytes": 432,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_REPLAY_DETERMINISM_REPORT.json",
+      "sha256": "6219bf37ddc1a2c751d719db95e49391aead170073f5829f4685d36a205602d5"
+    },
+    {
+      "bytes": 984,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_REPLAY_STRESS_PLAN.json",
+      "sha256": "bc5ed5c67d8dea9d392a55ffc827be9a4d82d0e901ca386089096210ff0c94cc"
+    },
+    {
+      "bytes": 17883,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_SPATIAL_HANDOFF_STRESS_REPORT.json",
+      "sha256": "6b709ae4c9a64028fb21dffb0a7ab02e52ebba68812ac051b771cbd6cf9dacfe"
+    },
+    {
+      "bytes": 27682,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_STRESS_EVENT_LOG.jsonl",
+      "sha256": "fa08ead42f5b26d7be7019b09929ab93dd0b5ccadadf637f523351c55056bfd3"
+    },
+    {
+      "bytes": 3426,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/EVENT_FABRIC_V2_2_WATCH_ADMISSION_STRESS_REPORT.json",
+      "sha256": "ec897a1095cab8227e7a9526991c92884f079d578bf5e1ec0eb80afed423f172"
+    },
+    {
+      "bytes": 1146,
+      "path": "outputs/main_citybrain_epoch4_event_fabric_v2_2_scale_replay_reliability_r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "6276ae495445f319ac690d9bf9faf41ca7a4d8224b95e7ab25fbcdb5cf2af7c1"
+    },
+    {
+      "bytes": 718,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/DECISION.json",
+      "sha256": "74ad922f6d32eb35898bb5873b97bc3cafae79428d2226f791aeaf0412c3acda"
+    },
+    {
+      "bytes": 2300,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_FAMILY_STATE_MATERIALIZATION_REPORT.json",
+      "sha256": "9128d5a7955d3fe6a582a7751c993986977c4a81a57960f7087efc3f1d903618"
+    },
+    {
+      "bytes": 471,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_IDEMPOTENCY_REPORT.json",
+      "sha256": "dd65ab5b97100ba2a0cfa97c39ef5123f0874f5de5e0eebabd3074a9c572ad9d"
+    },
+    {
+      "bytes": 371,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_LIMITATIONS.json",
+      "sha256": "48d66351ada74287dbcf8d956df0f6cec689948673ff9d082e3c42ee37154362"
+    },
+    {
+      "bytes": 2193,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_QUARANTINE_UNRESOLVED_REPORT.json",
+      "sha256": "ddba4dc18291c6363fe89217f93324fac08edeee6be454ab2d4096dc6446c61b"
+    },
+    {
+      "bytes": 432,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_REPLAY_DETERMINISM_REPORT.json",
+      "sha256": "6219bf37ddc1a2c751d719db95e49391aead170073f5829f4685d36a205602d5"
+    },
+    {
+      "bytes": 984,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_REPLAY_STRESS_PLAN.json",
+      "sha256": "bc5ed5c67d8dea9d392a55ffc827be9a4d82d0e901ca386089096210ff0c94cc"
+    },
+    {
+      "bytes": 17883,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_SPATIAL_HANDOFF_STRESS_REPORT.json",
+      "sha256": "6b709ae4c9a64028fb21dffb0a7ab02e52ebba68812ac051b771cbd6cf9dacfe"
+    },
+    {
+      "bytes": 27682,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_STRESS_EVENT_LOG.jsonl",
+      "sha256": "fa08ead42f5b26d7be7019b09929ab93dd0b5ccadadf637f523351c55056bfd3"
+    },
+    {
+      "bytes": 3426,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/EVENT_FABRIC_V2_2_WATCH_ADMISSION_STRESS_REPORT.json",
+      "sha256": "ec897a1095cab8227e7a9526991c92884f079d578bf5e1ec0eb80afed423f172"
+    },
+    {
+      "bytes": 1146,
+      "path": "publications/epoch4/main-citybrain-epoch4-event-fabric-v2-2-scale-replay-reliability-r1/NO_FORBIDDEN_CAPABILITY_GUARD.json",
+      "sha256": "6276ae495445f319ac690d9bf9faf41ca7a4d8224b95e7ab25fbcdb5cf2af7c1"
+    }
+  ],
+  "entry_count": 22,
+  "generated_at": "2026-07-07T15:53:24Z",
+  "status": "PASS"
+}

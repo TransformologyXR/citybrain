@@ -1,0 +1,14 @@
+{
+  "artifact_id": "EVENT_FABRIC_V2_2_IDEMPOTENCY_REPORT",
+  "duplicate_key_count": 4,
+  "duplicate_keys": {
+    "building_compliance_perception_candidate:source_record:01": 2,
+    "city_asset_infrastructure_issue:source_record:01": 2,
+    "mobility_access_interruption:source_record:01": 2,
+    "permit_inspection_delay:source_record:01": 2
+  },
+  "duplicates_suppressed": 4,
+  "event_count": 40,
+  "status": "PASS",
+  "unique_idempotency_key_count": 36
+}

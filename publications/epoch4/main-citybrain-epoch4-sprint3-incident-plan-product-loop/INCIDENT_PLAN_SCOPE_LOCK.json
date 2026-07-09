@@ -1,0 +1,9 @@
+{
+  "artifact_id": "INCIDENT_PLAN_SCOPE_LOCK",
+  "event_family": "mobility_access_interruption_v0",
+  "event_family_count": 1,
+  "scenario_type": "mobility_access_interruption_review_option_v2",
+  "scenario_type_count": 1,
+  "scope_expanded": false,
+  "status": "PASS"
+}

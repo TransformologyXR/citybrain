@@ -1,0 +1,27 @@
+{
+  "source_id": "osm_geofabrik_gcc_states",
+  "region": "GCC States",
+  "verified_listing": "Geofabrik GCC States page",
+  "available_files": [
+    {
+      "name": "gcc-states-latest.osm.pbf",
+      "size": "239 MB",
+      "last_modified_relative": "15 hours before web check",
+      "use": "full OSM raw extract for clipping and SUMO road network"
+    },
+    {
+      "name": "gcc-states-latest-free.shp.zip",
+      "size": "474 MB",
+      "last_modified_relative": "11 hours before web check",
+      "use": "GIS-friendly shapefile"
+    },
+    {
+      "name": "gcc-states-latest-free.gpkg.zip",
+      "size": "488 MB",
+      "last_modified_relative": "11 hours before web check",
+      "use": "GIS-friendly geopackage"
+    }
+  ],
+  "codex_smoke": "download .poly and/or use HEAD for PBF; avoid full download in unit test; full run downloads with resume.",
+  "attribution": "OpenStreetMap contributors / Geofabrik; contributor metadata excluded in public extract."
+}

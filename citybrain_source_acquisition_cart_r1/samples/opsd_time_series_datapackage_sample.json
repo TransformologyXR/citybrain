@@ -1,0 +1,10 @@
+{
+  "source_id": "opsd_time_series",
+  "datapackage": "opsd_time_series",
+  "latest_version_seen": "2020-10-06",
+  "description": "Load, wind and solar, prices in hourly resolution",
+  "geographic_scope": "32 European countries",
+  "download_zip": "opsd-time_series-2020-10-06.zip",
+  "download_zip_size": "277 MB",
+  "codex_next": "Download zip with resume, parse 60min singleindex CSV, extract load/wind/solar curves for synthetic utility donor distributions."
+}

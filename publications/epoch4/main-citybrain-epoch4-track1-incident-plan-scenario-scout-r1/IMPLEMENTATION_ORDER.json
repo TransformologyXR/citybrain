@@ -1,0 +1,29 @@
+{
+  "artifact_id": "IMPLEMENTATION_ORDER",
+  "control_first": "Keep mobility_access_interruption_v0 as regression/control path for all three expansions.",
+  "order_basis": "Balance readiness, demo value, and avoiding high-cost/low-event-availability loops.",
+  "status": "PASS_WITH_LIMITATIONS",
+  "steps": [
+    {
+      "exit_gate": "One review-only building/perception packet with no raw-ID bypass and no certified compliance truth.",
+      "family_id": "building_compliance_perception_candidate",
+      "first_slice": "CER-backed perception/building candidate -> SEG context -> CHECK contradiction/proximity downgrades -> spatial overlay packet.",
+      "order": 1,
+      "why_now": "Highest expansion score, strong CER/CHECK/spatial readiness, and visually legible demo value."
+    },
+    {
+      "exit_gate": "One review-only permit/inspection delay packet with explicit stale/contradiction handling.",
+      "family_id": "permit_inspection_delay",
+      "first_slice": "Permit/inspection source records -> delay event family -> CHECK freshness/source-depth -> simulation review option shell.",
+      "order": 2,
+      "why_now": "Strong source records and CHECK readiness, with enough simulation suitability to exercise planning options."
+    },
+    {
+      "exit_gate": "One review-only city-asset issue packet with asset-specific event taxonomy and no control/enforcement claim.",
+      "family_id": "city_asset_infrastructure_issue",
+      "first_slice": "Asset/infrastructure issue -> CER/SEG asset context -> CHECK source-depth -> web/Omniverse overlay.",
+      "order": 3,
+      "why_now": "Best third choice for spatial demo value after building and permit/inspection; cost is higher but manageable."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "artifact_id": "SEG_CONTEXT_PACKETS_BY_FAMILY",
+  "families": {
+    "building_compliance_perception_candidate": {
+      "cer_backed": true,
+      "evidence_refs": [
+        "check_v1:near_alpha:proximity",
+        "check_v1:alpha:floors:contradiction"
+      ],
+      "seg_context_refs": [
+        "seg_edge:building_compliance_perception_candidate:context"
+      ]
+    },
+    "city_asset_infrastructure_issue": {
+      "cer_backed": true,
+      "evidence_refs": [
+        "check_v1:asset:source_depth_missing"
+      ],
+      "seg_context_refs": [
+        "seg_edge:city_asset_infrastructure_issue:context"
+      ]
+    },
+    "permit_inspection_delay": {
+      "cer_backed": true,
+      "evidence_refs": [
+        "check_v1:alpha:floors:contradiction",
+        "check_v1:alpha:source_depth_missing"
+      ],
+      "seg_context_refs": [
+        "seg_edge:permit_inspection_delay:context"
+      ]
+    }
+  },
+  "status": "PASS_WITH_LIMITATIONS"
+}
